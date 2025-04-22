@@ -543,7 +543,7 @@ function adjustOverlappingLabels() {
 // Run final adjustment
 adjustOverlappingLabels();
 
-// Make sure all labels are rendered by explicitly checking their positions
+// Make sure all labels are visible by explicitly checking their positions
 let allLabelsVisible = true;
 simulation.nodes().forEach(node => {
   // Check if node is within chart area with a margin
@@ -568,6 +568,166 @@ simulation.nodes().forEach(node => {
 if (!allLabelsVisible) {
   adjustOverlappingLabels();
 }
+
+// Add a refinement phase to move uncontested labels closer to their anchor points
+function refineLabelPositions() {
+  const nodes = simulation.nodes();
+  
+  // Sort nodes by distance from their anchor points (farthest first)
+  nodes.sort((a, b) => {
+    const distA = Math.sqrt(Math.pow(a.x - a.anchorX, 2) + Math.pow(a.y - a.anchorY, 2));
+    const distB = Math.sqrt(Math.pow(b.x - b.anchorX, 2) + Math.pow(b.y - b.anchorY, 2));
+    return distB - distA;
+  });
+  
+  // Function to check if a label at a potential position would overlap any other labels
+  function wouldOverlap(node, testX, testY) {
+    const testRect = {
+      left: testX - node.width / 2,
+      right: testX + node.width / 2,
+      top: testY - node.height / 2,
+      bottom: testY + node.height / 2
+    };
+    
+    // Add a small buffer to prevent labels from being too close
+    const buffer = 3;
+    testRect.left -= buffer;
+    testRect.top -= buffer;
+    testRect.right += buffer;
+    testRect.bottom += buffer;
+    
+    for (const otherNode of nodes) {
+      if (otherNode === node) continue;
+      
+      const otherRect = {
+        left: otherNode.x - otherNode.width / 2,
+        right: otherNode.x + otherNode.width / 2,
+        top: otherNode.y - otherNode.height / 2,
+        bottom: otherNode.y + otherNode.height / 2
+      };
+      
+      // Check for overlap
+      if (!(testRect.right < otherRect.left || otherRect.right < testRect.left ||
+            testRect.bottom < otherRect.top || otherRect.bottom < testRect.top)) {
+        return true; // Would overlap
+      }
+    }
+    
+    // Also check if it would be too close to any anchor point (data point)
+    const MIN_DISTANCE_TO_OTHER_ANCHORS = 15;
+    for (const otherNode of nodes) {
+      if (otherNode === node) continue;
+      
+      const dx = testX - otherNode.anchorX;
+      const dy = testY - otherNode.anchorY;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      
+      if (dist < MIN_DISTANCE_TO_OTHER_ANCHORS) {
+        return true; // Too close to another data point
+      }
+    }
+    
+    // Would not overlap
+    return false;
+  }
+  
+  // For each label, try to move it closer to its anchor point
+  nodes.forEach(node => {
+    // Calculate current distance from anchor
+    const dx = node.x - node.anchorX;
+    const dy = node.y - node.anchorY;
+    const currentDistance = Math.sqrt(dx * dx + dy * dy);
+    
+    // Skip labels that are already close to their anchors
+    if (currentDistance < 15) return;
+    
+    // Try moving in increments toward the anchor
+    const steps = 10; // Number of positions to try
+    const stepSize = currentDistance / steps;
+    
+    // Try each step from closest to anchor to furthest
+    for (let i = 1; i <= steps; i++) {
+      const ratio = 1 - (i / steps);
+      const testX = node.anchorX + dx * ratio;
+      const testY = node.anchorY + dy * ratio;
+      
+      // Skip if position is outside chart area
+      if (testX - node.width/2 < chartArea.x1 || 
+          testX + node.width/2 > chartArea.x2 ||
+          testY - node.height/2 < chartArea.y1 || 
+          testY + node.height/2 > chartArea.y2) {
+        continue;
+      }
+      
+      // If this position doesn't create overlaps, use it
+      if (!wouldOverlap(node, testX, testY)) {
+        node.x = testX;
+        node.y = testY;
+        break;
+      }
+    }
+  });
+  
+  // Run another check specifically for labels that are far from their anchors with space available
+  // This time with finer-grained movements and focusing on outliers
+  const outlierDistance = 40; // Labels further than this are considered outliers
+  const outliers = nodes.filter(node => {
+    const dx = node.x - node.anchorX;
+    const dy = node.y - node.anchorY;
+    return Math.sqrt(dx * dx + dy * dy) > outlierDistance;
+  });
+  
+  // For outlier labels, try to find radial paths that bring them closer
+  outliers.forEach(node => {
+    // Get current angle and distance from anchor
+    const dx = node.x - node.anchorX;
+    const dy = node.y - node.anchorY;
+    const currentDistance = Math.sqrt(dx * dx + dy * dy);
+    const currentAngle = Math.atan2(dy, dx);
+    
+    // Try different angles and distances
+    const angleVariations = [-0.2, -0.1, 0, 0.1, 0.2]; // Try slight variations in angle
+    const distanceSteps = 20; // More fine-grained steps
+    
+    let bestPosition = null;
+    let bestDistance = currentDistance;
+    
+    // Try each angle variation
+    for (const angleVar of angleVariations) {
+      const testAngle = currentAngle + angleVar;
+      
+      // Try moving closer in small steps
+      for (let i = 1; i < distanceSteps; i++) {
+        const testDistance = currentDistance * (1 - (i / distanceSteps));
+        const testX = node.anchorX + Math.cos(testAngle) * testDistance;
+        const testY = node.anchorY + Math.sin(testAngle) * testDistance;
+        
+        // Skip if outside chart area
+        if (testX - node.width/2 < chartArea.x1 || 
+            testX + node.width/2 > chartArea.x2 ||
+            testY - node.height/2 < chartArea.y1 || 
+            testY + node.height/2 > chartArea.y2) {
+          continue;
+        }
+        
+        // If this position doesn't create overlaps and is closer, consider it
+        if (!wouldOverlap(node, testX, testY) && testDistance < bestDistance) {
+          bestPosition = { x: testX, y: testY };
+          bestDistance = testDistance;
+        }
+      }
+    }
+    
+    // Use the best position found, if any
+    if (bestPosition) {
+      node.x = bestPosition.x;
+      node.y = bestPosition.y;
+    }
+  });
+}
+
+// Run the refinement phase
+refineLabelPositions();
 
 // Draw labels using the calculated positions
 labelNodes.forEach(node => {
