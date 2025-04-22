@@ -345,216 +345,228 @@ labelNodes.forEach(node => {
 // This takes the initial placement and refines it
 const simulation = d3.forceSimulation(labelNodes);
 
-// Custom collision force with non-linear repulsion
-function customCollisionForce(alpha) {
-  const nodes = simulation.nodes();
+// Maximum distance a label can travel from its anchor point
+const MAX_LABEL_DISTANCE = 70;
+
+// Debug: Add safety checks for node positions before and after forces
+function checkAndFixNodePosition(node) {
+  // Make sure node has valid position
+  if (isNaN(node.x) || isNaN(node.y)) {
+    console.log("Found NaN position, resetting to anchor");
+    node.x = node.anchorX;
+    node.y = node.anchorY;
+    node.vx = 0;
+    node.vy = 0;
+  }
   
-  for (let i = 0; i < nodes.length; i++) {
-    const nodeA = nodes[i];
-    const rectA = {
-      left: nodeA.x - nodeA.width / 2,
-      right: nodeA.x + nodeA.width / 2,
-      top: nodeA.y - nodeA.height / 2,
-      bottom: nodeA.y + nodeA.height / 2
-    };
-    
-    for (let j = i + 1; j < nodes.length; j++) {
-      const nodeB = nodes[j];
-      const rectB = {
-        left: nodeB.x - nodeB.width / 2,
-        right: nodeB.x + nodeB.width / 2,
-        top: nodeB.y - nodeB.height / 2,
-        bottom: nodeB.y + nodeB.height / 2
-      };
+  // Make sure node stays within chart area
+  const halfWidth = node.width / 2;
+  const halfHeight = node.height / 2;
+  
+  node.x = Math.max(chartArea.x1 + halfWidth, Math.min(node.x, chartArea.x2 - halfWidth));
+  node.y = Math.max(chartArea.y1 + halfHeight, Math.min(node.y, chartArea.y2 - halfHeight));
+  
+  // Enforce maximum distance from anchor
+  const dx = node.x - node.anchorX;
+  const dy = node.y - node.anchorY;
+  const distance = Math.sqrt(dx * dx + dy * dy);
+  
+  if (distance > MAX_LABEL_DISTANCE) {
+    node.x = node.anchorX + (dx / distance) * MAX_LABEL_DISTANCE;
+    node.y = node.anchorY + (dy / distance) * MAX_LABEL_DISTANCE;
+  }
+}
+
+// Add D3's built-in forces with custom parameters
+simulation
+  // Collision detection - prevent overlapping
+  .force('collision', d3.forceCollide().radius(d => 
+    Math.sqrt(d.width * d.width + d.height * d.height) / 2 + 3 // Add padding
+  ).strength(0.8).iterations(2))
+  
+  // X attraction to anchor point
+  .force('x', d3.forceX().x(d => d.anchorX).strength(0.1))
+  
+  // Y attraction to anchor point
+  .force('y', d3.forceY().y(d => d.anchorY).strength(0.1))
+  
+  // Centering force - keeps labels from drifting too far
+  .force('center', d3.forceCenter(
+    (chartArea.x1 + chartArea.x2) / 2,
+    (chartArea.y1 + chartArea.y2) / 2
+  ).strength(0.01))
+  
+  // Box force - keep labels within chart area
+  .force('bounds', () => {
+    const nodes = simulation.nodes();
+    nodes.forEach(node => {
+      const halfWidth = node.width / 2;
+      const halfHeight = node.height / 2;
       
-      // Check for overlap
-      if (!(rectA.right < rectB.left || rectB.right < rectA.left || 
-            rectA.bottom < rectB.top || rectB.bottom < rectA.top)) {
-        
-        // Calculate overlap area
-        const overlapWidth = Math.min(rectA.right, rectB.right) - Math.max(rectA.left, rectB.left);
-        const overlapHeight = Math.min(rectA.bottom, rectB.bottom) - Math.max(rectA.top, rectB.top);
-        const overlapArea = overlapWidth * overlapHeight;
-        
-        // Calculate centers
-        const centerAx = (rectA.left + rectA.right) / 2;
-        const centerAy = (rectA.top + rectA.bottom) / 2;
-        const centerBx = (rectB.left + rectB.right) / 2;
-        const centerBy = (rectB.top + rectB.bottom) / 2;
-        
-        // Calculate displacement direction
-        const dx = centerBx - centerAx;
-        const dy = centerBy - centerAy;
-        const distance = Math.sqrt(dx * dx + dy * dy) || 1; // Avoid division by zero
-        
-        // Calculate repulsion force (stronger when overlapping)
-        // Use overlap area to determine force strength
-        const forceMagnitude = Math.min(500, overlapArea * 0.1) * alpha;
-        
-        // Normalize direction and apply force
-        const nx = dx / distance;
-        const ny = dy / distance;
-        
-        nodeA.vx -= nx * forceMagnitude;
-        nodeA.vy -= ny * forceMagnitude;
-        nodeB.vx += nx * forceMagnitude;
-        nodeB.vy += ny * forceMagnitude;
-      }
-    }
-  }
-}
-
-// Custom anchor force that increases with distance
-function customAnchorForce(alpha) {
-  const nodes = simulation.nodes();
+      if (node.x - halfWidth < chartArea.x1) node.vx += (chartArea.x1 - (node.x - halfWidth)) * 0.1;
+      if (node.x + halfWidth > chartArea.x2) node.vx -= ((node.x + halfWidth) - chartArea.x2) * 0.1;
+      if (node.y - halfHeight < chartArea.y1) node.vy += (chartArea.y1 - (node.y - halfHeight)) * 0.1;
+      if (node.y + halfHeight > chartArea.y2) node.vy -= ((node.y + halfHeight) - chartArea.y2) * 0.1;
+    });
+  })
   
-  nodes.forEach(node => {
-    // Calculate distance from anchor
-    const dx = node.x - node.anchorX;
-    const dy = node.y - node.anchorY;
-    const distance = Math.sqrt(dx * dx + dy * dy);
+  // Add a custom force for label-specific behavior
+  .force('custom', () => {
+    // Apply additional custom behaviors
+    const nodes = simulation.nodes();
     
-    // Non-linear attraction that increases with distance
-    const forceMagnitude = Math.min(50, 0.1 * Math.pow(distance, 1.5)) * alpha;
+    // First, check and fix any invalid positions
+    nodes.forEach(node => {
+      checkAndFixNodePosition(node);
+    });
     
-    // Apply the force
-    node.vx -= (dx / distance) * forceMagnitude;
-    node.vy -= (dy / distance) * forceMagnitude;
-  });
-}
-
-// Custom boundary force to keep labels within chart area
-function customBoundaryForce(alpha) {
-  const boundary = {
-    left: chartArea.x1,
-    right: chartArea.x2,
-    top: chartArea.y1,
-    bottom: chartArea.y2
-  };
-  
-  const nodes = simulation.nodes();
-  
-  nodes.forEach(node => {
-    const halfWidth = node.width / 2;
-    const halfHeight = node.height / 2;
+    // Apply radial distribution for clustered nodes
+    const clusters = {};
     
-    // Calculate distance to boundaries
-    const distToLeft = node.x - halfWidth - boundary.left;
-    const distToRight = boundary.right - (node.x + halfWidth);
-    const distToTop = node.y - halfHeight - boundary.top;
-    const distToBottom = boundary.bottom - (node.y + halfHeight);
+    // Group nodes by nearby anchor points
+    nodes.forEach(node => {
+      // Use grid-based clustering - 30x30 grid cells
+      const cellSize = 30;
+      const cellX = Math.floor(node.anchorX / cellSize);
+      const cellY = Math.floor(node.anchorY / cellSize);
+      const cellId = `${cellX},${cellY}`;
+      
+      if (!clusters[cellId]) clusters[cellId] = [];
+      clusters[cellId].push(node);
+    });
     
-    // Apply forces with increasing strength near boundaries
-    const boundaryForceStrength = 10 * alpha;
-    
-    if (distToLeft < 0) {
-      node.vx += boundaryForceStrength * Math.abs(distToLeft);
-    }
-    if (distToRight < 0) {
-      node.vx -= boundaryForceStrength * Math.abs(distToRight);
-    }
-    if (distToTop < 0) {
-      node.vy += boundaryForceStrength * Math.abs(distToTop);
-    }
-    if (distToBottom < 0) {
-      node.vy -= boundaryForceStrength * Math.abs(distToBottom);
-    }
-  });
-}
-
-// Multi-phase simulation
-let phase = 0;
-const phases = [
-  { collisionStrength: 1.0, anchorStrength: 0.3, iterations: 100 },  // Initial separation
-  { collisionStrength: 0.8, anchorStrength: 0.5, iterations: 100 },  // Find general position
-  { collisionStrength: 0.5, anchorStrength: 0.7, iterations: 100 },  // Finalize positions
-  { collisionStrength: 0.2, anchorStrength: 0.9, iterations: 50 }    // Final adjustment
-];
-
-// Track the number of iterations
-let currentIteration = 0;
-
-// Add a tick function to the simulation
-simulation.on('tick', () => {
-  const phaseConfig = phases[phase];
-  
-  // Apply custom forces
-  customCollisionForce(phaseConfig.collisionStrength);
-  customAnchorForce(phaseConfig.anchorStrength);
-  customBoundaryForce(1.0); // Always keep strong boundary force
-  
-  // Count iterations and update phase
-  currentIteration++;
-  if (currentIteration >= phaseConfig.iterations) {
-    phase = Math.min(phase + 1, phases.length - 1);
-    currentIteration = 0;
-    
-    // Add slight jittering when changing phases to escape local minima
-    if (phase < phases.length - 1) {
-      simulation.nodes().forEach(node => {
-        node.x += (Math.random() - 0.5) * 3;
-        node.y += (Math.random() - 0.5) * 3;
+    // Apply radial distribution to clusters
+    Object.values(clusters).forEach(cluster => {
+      if (cluster.length <= 2) return; // Skip small clusters
+      
+      // Find cluster center
+      let centerX = 0, centerY = 0;
+      cluster.forEach(node => {
+        centerX += node.anchorX;
+        centerY += node.anchorY;
       });
-    }
-  }
+      centerX /= cluster.length;
+      centerY /= cluster.length;
+      
+      // Distribute nodes in a circle around the center
+      const radius = 20 + cluster.length * 2;
+      const angleStep = (2 * Math.PI) / cluster.length;
+      
+      cluster.forEach((node, i) => {
+        // Target position in a circle
+        const angle = i * angleStep;
+        const tx = centerX + radius * Math.cos(angle);
+        const ty = centerY + radius * Math.sin(angle);
+        
+        // Push toward this position with a weak force
+        const dx = tx - node.x;
+        const dy = ty - node.y;
+        node.vx += dx * 0.03;
+        node.vy += dy * 0.03;
+      });
+    });
+  });
+
+// Fix positions after each tick
+simulation.on('tick', () => {
+  simulation.nodes().forEach(node => {
+    checkAndFixNodePosition(node);
+  });
 });
 
-// Run the simulation manually instead of using simulation.tick()
-const totalIterations = phases.reduce((sum, phase) => sum + phase.iterations, 0);
-for (let i = 0; i < totalIterations; i++) {
+// Run the simulation with enough iterations to settle
+const ITERATIONS = 300;
+for (let i = 0; i < ITERATIONS; i++) {
   simulation.tick();
 }
 
-// Quality check - detect any remaining overlaps and apply final adjustments
-let hasOverlaps = true;
-let qualityCheckIterations = 0;
-const MAX_QUALITY_CHECKS = 5;
-
-while (hasOverlaps && qualityCheckIterations < MAX_QUALITY_CHECKS) {
-  hasOverlaps = false;
-  qualityCheckIterations++;
-  
-  // Check for overlaps
+// Check for overlapping labels and adjust if needed
+function adjustOverlappingLabels() {
   const nodes = simulation.nodes();
-  for (let i = 0; i < nodes.length && !hasOverlaps; i++) {
-    const nodeA = nodes[i];
-    const rectA = {
-      left: nodeA.x - nodeA.width / 2,
-      right: nodeA.x + nodeA.width / 2,
-      top: nodeA.y - nodeA.height / 2,
-      bottom: nodeA.y + nodeA.height / 2
-    };
+  let hasOverlaps = true;
+  let iterations = 0;
+  
+  // Try to resolve overlaps with additional iterations
+  while (hasOverlaps && iterations < 100) {
+    hasOverlaps = false;
+    iterations++;
     
-    for (let j = i + 1; j < nodes.length && !hasOverlaps; j++) {
-      const nodeB = nodes[j];
-      const rectB = {
-        left: nodeB.x - nodeB.width / 2,
-        right: nodeB.x + nodeB.width / 2,
-        top: nodeB.y - nodeB.height / 2,
-        bottom: nodeB.y + nodeB.height / 2
-      };
+    // Create rectangles for all nodes
+    const rects = nodes.map(node => ({
+      node,
+      left: node.x - node.width / 2,
+      right: node.x + node.width / 2,
+      top: node.y - node.height / 2,
+      bottom: node.y + node.height / 2
+    }));
+    
+    // Check for overlaps
+    for (let i = 0; i < rects.length && !hasOverlaps; i++) {
+      const rectA = rects[i];
       
-      // Check for significant overlap (more than 1px)
-      if (!(rectA.right < rectB.left || rectB.right < rectA.left || 
-            rectA.bottom < rectB.top || rectB.bottom < rectA.top)) {
-        const overlapWidth = Math.min(rectA.right, rectB.right) - Math.max(rectA.left, rectB.left);
-        const overlapHeight = Math.min(rectA.bottom, rectB.bottom) - Math.max(rectA.top, rectB.top);
-        if (overlapWidth > 1 && overlapHeight > 1) {
+      for (let j = i + 1; j < rects.length && !hasOverlaps; j++) {
+        const rectB = rects[j];
+        
+        // Check if they overlap
+        if (!(rectA.right < rectB.left || rectB.right < rectA.left ||
+              rectA.bottom < rectB.top || rectB.bottom < rectA.top)) {
+          // They overlap - mark flag and push them apart
           hasOverlaps = true;
+          
+          // Calculate centers and direction
+          const centerAx = (rectA.left + rectA.right) / 2;
+          const centerAy = (rectA.top + rectA.bottom) / 2;
+          const centerBx = (rectB.left + rectB.right) / 2;
+          const centerBy = (rectB.top + rectB.bottom) / 2;
+          
+          const dx = centerBx - centerAx;
+          const dy = centerBy - centerAy;
+          const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+          const nx = dx / dist;
+          const ny = dy / dist;
+          
+          // Push apart
+          rectA.node.x -= nx * 2;
+          rectA.node.y -= ny * 2;
+          rectB.node.x += nx * 2;
+          rectB.node.y += ny * 2;
+          
+          // Re-check and fix positions
+          checkAndFixNodePosition(rectA.node);
+          checkAndFixNodePosition(rectB.node);
         }
       }
     }
   }
+}
+
+// Run final adjustment
+adjustOverlappingLabels();
+
+// Make sure all labels are rendered by explicitly checking their positions
+let allLabelsVisible = true;
+simulation.nodes().forEach(node => {
+  // Check if node is within chart area with a margin
+  const visible = 
+    node.x - node.width/2 >= chartArea.x1 - 5 &&
+    node.x + node.width/2 <= chartArea.x2 + 5 &&
+    node.y - node.height/2 >= chartArea.y1 - 5 &&
+    node.y + node.height/2 <= chartArea.y2 + 5;
   
-  // If we found overlaps, run more iterations with strong collision force
-  if (hasOverlaps) {
-    for (let i = 0; i < 50; i++) {
-      customCollisionForce(1.0);
-      customAnchorForce(0.4);
-      customBoundaryForce(1.0);
-      simulation.tick();
-    }
+  if (!visible) {
+    console.log(`Label "${node.drive.name}" is outside chart boundaries, repositioning`);
+    // Place it near its anchor point but within boundaries
+    node.x = Math.max(chartArea.x1 + node.width/2 + 5, 
+                      Math.min(node.anchorX + 20, chartArea.x2 - node.width/2 - 5));
+    node.y = Math.max(chartArea.y1 + node.height/2 + 5, 
+                      Math.min(node.anchorY - 15, chartArea.y2 - node.height/2 - 5));
+    allLabelsVisible = false;
   }
+});
+
+// If we had to adjust positions, run one more quick adjustment to prevent overlaps
+if (!allLabelsVisible) {
+  adjustOverlappingLabels();
 }
 
 // Draw labels using the calculated positions
