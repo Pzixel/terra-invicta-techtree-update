@@ -18,19 +18,19 @@
     "Chemical": "#CC0000",
     "Electrothermal": "#CCC2CC",
     "Electrostatic": "#7F6000",
-    "Electromagnetic": "#CC0000",
+    "Electromagnetic": "#DDAA00",
     "Fission_Thermal": "#663300",
     "Fission_SaltWater": "#996633",
-    "Fission_Gas": "#548235",
-    "Fission_Solid": "#548235",
+    "Fission_Gas": "#144205",
+    "Fission_Solid": "#548285",
     "Fission_Pulse": "#FFF2CC",
     "Fusion_Electrostatic": "#0066CC",
     "Fusion_Toroid": "#FBE5D6",
     "Fusion_Mirrored": "#F4B183",
-    "Fusion_Hybrid": "#44546A",
+    "Fusion_Hybrid": "#94748A",
     "Fusion_ZPinch": "#BDD7EE",
     "Fusion_Inertial": "#4472C4",
-    "Antimatter": "#404040",
+    "Antimatter": "#000000",
     "Alien": "#7030A0"
   },
   "categories": {
@@ -47,12 +47,17 @@
           "ev": 1300.0,
           "thrust": 1590000.0,
           "name": "Alien Fusion Torch"
+        },
+        {
+          "ev": 1600.0,
+          "thrust": 4390000.0,
+          "name": "Advanced Alien Fusion Torch"
         }
       ]
     },
     "Antimatter": {
       "displayName": "Antimatter",
-      "color": "#404040",
+      "color": "#000000",
       "drives": [
         {
           "ev": 240.0,
@@ -119,7 +124,7 @@
     },
     "Electromagnetic": {
       "displayName": "Electromagnetic",
-      "color": "#CC0000",
+      "color": "#DDAA00",
       "drives": [
         {
           "ev": 147.0,
@@ -263,7 +268,7 @@
     },
     "Fission_Gas": {
       "displayName": "Fission Gas",
-      "color": "#447235",
+      "color": "#144205",
       "drives": [
         {
           "ev": 19.62,
@@ -355,7 +360,7 @@
     },
     "Fission_Solid": {
       "displayName": "Fission Solid",
-      "color": "#548235",
+      "color": "#548285",
       "drives": [
         {
           "ev": 8.77,
@@ -452,7 +457,7 @@
     },
     "Fusion_Hybrid": {
       "displayName": "Fusion Hybrid",
-      "color": "#44546A",
+      "color": "#94748A",
       "drives": [
         {
           "ev": 276.0,
@@ -473,11 +478,6 @@
           "ev": 714.0,
           "thrust": 5040000.0,
           "name": "Borane Plasmajet Torch"
-        },
-        {
-          "ev": 1600.0,
-          "thrust": 4390000.0,
-          "name": "Advanced Alien Fusion Torch"
         }
       ]
     },
@@ -569,9 +569,9 @@
         }
       ]
     },
-    "Fusion_Z": {
-      "displayName": "Fusion Z",
-      "color": "#888888",
+    "Fusion_ZPinch": {
+      "displayName": "Z-Pinch Fusion",
+      "color": "#BDD7EE",
       "drives": [
         {
           "ev": 392.0,
