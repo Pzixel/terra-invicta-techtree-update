@@ -729,6 +729,232 @@ function refineLabelPositions() {
 // Run the refinement phase
 refineLabelPositions();
 
+// Add a label-swapping optimization phase to resolve cockblocking situations
+function optimizeLabelSwaps() {
+  const nodes = simulation.nodes();
+  let improvementFound = true;
+  let swapCount = 0;
+  const MAX_SWAPS = 10; // Limit the number of swaps to avoid disrupting too much
+  
+  // Helper function to calculate distance between a label and its anchor
+  function calculateDistance(node) {
+    const dx = node.x - node.anchorX;
+    const dy = node.y - node.anchorY;
+    return Math.sqrt(dx * dx + dy * dy);
+  }
+  
+  // Helper function to check if swapping two labels would cause any overlaps
+  function swapWouldCreateOverlaps(nodeA, nodeB) {
+    // Temporarily swap positions
+    const tempX = nodeA.x;
+    const tempY = nodeA.y;
+    nodeA.x = nodeB.x;
+    nodeA.y = nodeB.y;
+    nodeB.x = tempX;
+    nodeB.y = tempY;
+    
+    // Check for overlaps with all other nodes
+    let hasOverlap = false;
+    
+    // Check nodeA overlaps
+    for (const otherNode of nodes) {
+      if (otherNode === nodeA || otherNode === nodeB) continue;
+      
+      // Check if A overlaps with otherNode
+      const rectA = {
+        left: nodeA.x - nodeA.width/2,
+        right: nodeA.x + nodeA.width/2,
+        top: nodeA.y - nodeA.height/2,
+        bottom: nodeA.y + nodeA.height/2
+      };
+      
+      const rectOther = {
+        left: otherNode.x - otherNode.width/2,
+        right: otherNode.x + otherNode.width/2,
+        top: otherNode.y - otherNode.height/2,
+        bottom: otherNode.y + otherNode.height/2
+      };
+      
+      if (!(rectA.right < rectOther.left || rectOther.right < rectA.left ||
+            rectA.bottom < rectOther.top || rectOther.bottom < rectA.top)) {
+        hasOverlap = true;
+        break;
+      }
+    }
+    
+    // If no overlaps with A, check B
+    if (!hasOverlap) {
+      for (const otherNode of nodes) {
+        if (otherNode === nodeA || otherNode === nodeB) continue;
+        
+        // Check if B overlaps with otherNode
+        const rectB = {
+          left: nodeB.x - nodeB.width/2,
+          right: nodeB.x + nodeB.width/2,
+          top: nodeB.y - nodeB.height/2,
+          bottom: nodeB.y + nodeB.height/2
+        };
+        
+        const rectOther = {
+          left: otherNode.x - otherNode.width/2,
+          right: otherNode.x + otherNode.width/2,
+          top: otherNode.y - otherNode.height/2,
+          bottom: otherNode.y + otherNode.height/2
+        };
+        
+        if (!(rectB.right < rectOther.left || rectOther.right < rectB.left ||
+              rectB.bottom < rectOther.top || rectOther.bottom < rectB.top)) {
+          hasOverlap = true;
+          break;
+        }
+      }
+    }
+    
+    // Also check if A and B would overlap with each other after swap
+    if (!hasOverlap) {
+      const rectA = {
+        left: nodeA.x - nodeA.width/2,
+        right: nodeA.x + nodeA.width/2,
+        top: nodeA.y - nodeA.height/2,
+        bottom: nodeA.y + nodeA.height/2
+      };
+      
+      const rectB = {
+        left: nodeB.x - nodeB.width/2,
+        right: nodeB.x + nodeB.width/2,
+        top: nodeB.y - nodeB.height/2,
+        bottom: nodeB.y + nodeB.height/2
+      };
+      
+      if (!(rectA.right < rectB.left || rectB.right < rectA.left ||
+            rectA.bottom < rectB.top || rectB.bottom < rectA.top)) {
+        hasOverlap = true;
+      }
+    }
+    
+    // Restore original positions
+    nodeA.x = tempX;
+    nodeA.y = tempY;
+    nodeB.x = nodeB.anchorX;
+    nodeB.y = nodeB.anchorY;
+    
+    return hasOverlap;
+  }
+  
+  // Prioritize nodes that are far from their anchor points
+  const MIN_DISTANCE_THRESHOLD = 30; // Only consider swaps for labels that are decently far away
+  
+  while (improvementFound && swapCount < MAX_SWAPS) {
+    improvementFound = false;
+    
+    // Find nodes that are far from their anchor points
+    const farNodes = nodes.filter(node => calculateDistance(node) > MIN_DISTANCE_THRESHOLD);
+    
+    // Evaluate potential swaps
+    for (let i = 0; i < farNodes.length && !improvementFound; i++) {
+      const nodeA = farNodes[i];
+      const distA1 = calculateDistance(nodeA); // Current distance
+      
+      for (let j = i + 1; j < nodes.length && !improvementFound; j++) {
+        const nodeB = nodes[j];
+        const distB1 = calculateDistance(nodeB); // Current distance
+        
+        // Calculate distances if positions were swapped
+        const dx1 = nodeB.x - nodeA.anchorX;
+        const dy1 = nodeB.y - nodeA.anchorY;
+        const distA2 = Math.sqrt(dx1 * dx1 + dy1 * dy1);
+        
+        const dx2 = nodeA.x - nodeB.anchorX;
+        const dy2 = nodeA.y - nodeB.anchorY;
+        const distB2 = Math.sqrt(dx2 * dx2 + dy2 * dy2);
+        
+        // Calculate improvement in total distance
+        const currentTotalDist = distA1 + distB1;
+        const swappedTotalDist = distA2 + distB2;
+        
+        // Only swap if there's meaningful improvement and no new overlaps
+        if (currentTotalDist - swappedTotalDist > 10 && !swapWouldCreateOverlaps(nodeA, nodeB)) {
+          // Perform the swap
+          const tempX = nodeA.x;
+          const tempY = nodeA.y;
+          nodeA.x = nodeB.x;
+          nodeA.y = nodeB.y;
+          nodeB.x = tempX;
+          nodeB.y = tempY;
+          
+          improvementFound = true;
+          swapCount++;
+          console.log(`Swapped positions of "${nodeA.drive.name}" and "${nodeB.drive.name}" for better placement`);
+          
+          // Make sure positions are still valid after swap
+          checkAndFixNodePosition(nodeA);
+          checkAndFixNodePosition(nodeB);
+        }
+      }
+    }
+  }
+  
+  // Special case handling for specifically mentioned label pairs
+  // This targets exact pairs that we know would benefit from swapping
+  const knownProblemPairs = [
+    ["Helion Plasmajet Lantern", "Helion Nova Lantern"],
+    ["Protium Torus Lantern", "Advanced Alien Fusion Torch"]
+  ];
+  
+  knownProblemPairs.forEach(pair => {
+    const nodeA = nodes.find(n => n.drive.name === pair[0]);
+    const nodeB = nodes.find(n => n.drive.name === pair[1]);
+    
+    if (nodeA && nodeB) {
+      // Calculate distances if positions were swapped
+      const dx1 = nodeB.x - nodeA.anchorX;
+      const dy1 = nodeB.y - nodeA.anchorY;
+      const distA2 = Math.sqrt(dx1 * dx1 + dy1 * dy1);
+      
+      const dx2 = nodeA.x - nodeB.anchorX;
+      const dy2 = nodeA.y - nodeB.anchorY;
+      const distB2 = Math.sqrt(dx2 * dx2 + dy2 * dy2);
+      
+      // Calculate current distances
+      const distA1 = calculateDistance(nodeA);
+      const distB1 = calculateDistance(nodeB);
+      
+      // Calculate improvement 
+      const currentTotal = distA1 + distB1;
+      const swappedTotal = distA2 + distB2;
+      
+      // If swapping would improve or at least not significantly worsen
+      if (swappedTotal <= currentTotal + 5 && !swapWouldCreateOverlaps(nodeA, nodeB)) {
+        // Perform the swap
+        const tempX = nodeA.x;
+        const tempY = nodeA.y;
+        nodeA.x = nodeB.x;
+        nodeA.y = nodeB.y;
+        nodeB.x = tempX;
+        nodeB.y = tempY;
+        
+        swapCount++;
+        console.log(`Swapped known problem pair: "${nodeA.drive.name}" and "${nodeB.drive.name}"`);
+      }
+    }
+  });
+  
+  // After all swaps are done, ensure no labels are overlapping
+  if (swapCount > 0) {
+    adjustOverlappingLabels();
+  }
+  
+  return swapCount;
+}
+
+// Run the label swap optimization
+const swapsPerformed = optimizeLabelSwaps();
+
+// If we performed swaps, run one more refinement to clean up
+if (swapsPerformed > 0) {
+  refineLabelPositions();
+}
+
 // Draw labels using the calculated positions
 labelNodes.forEach(node => {
   const { drive, x, y, anchorX, anchorY, textWidth, textHeight, padding } = node;
