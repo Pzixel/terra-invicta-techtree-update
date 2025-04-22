@@ -1,0 +1,560 @@
+Online Submission ID: vis-1279
+SAND2009-1978C
+Dynamic, non-overlapping label placement for three-dimensional
+point-features
+Category: Research
+Abstract— This paper presents a technique for the automatic placement of non-overlapping, screen-axis-aligned rectangular labels
+– which may include icons, text, etc. – while maximizing placed label relevance, frame-to-frame coherence, and interactive rendering
+rates. Past papers have focused on labels with anchors in 2-dimensional space; this paper addresses label anchors placed in 3-
+dimensional space and then projected to 2-dimensional screen space. Because projection changes the spacing between anchors
+from frame to frame, a static placement of the labels is not possible. This type of problem occurs when examining scientific simulation
+results, rendering virtual globes, and many other situations.
+Coherence and relevance are maximized by placing labels retrieved from an octree that orders labels by both position and priority. By
+processing previously-rendered labels first and traversing the octree carefully, labels with the highest priority are always considered
+first and when overlap is detected – using screen-space binning – the lower priority label is omitted. When rendering 3-dimensional
+scenes where label density is extremely high, such as virtual globes, the set of labels for a given area is generally large compared
+to the number of labels that may be placed in that same area, so efficient overlap detection and early termination of placement (as
+opposed to attempting to place all labels) are paramount to maintaining interactive frame rates.
+Index Terms—3-d label placement, scientific visualization, information visualization.
+1 INTRODUCTION AND MOTIVATION
+Label placement is hard. Really hard. NP hard [4], which people with
+the best digital watches assure us is just Too Hard To Contemplate.
+Only really good heuristics can save us and no one is sure they exist.
+But as it turns out, labels are quite useful so we cannot render images
+without labels and pretend that there’s really no problem and you’re
+just daft if you can’t see that it’s a map of Tokyo and not London.
+Recently, there has been a significant amount of work for placing
+labels at 2-dimensional point features, in both interactive and non-
+interactive settings. This has caused much rejoicing among people
+with 2-dimensional point-feature labels but has left people with 3-
+dimensional point-feature labels feeling bitter and unloved. This turns
+out to be a lot of people since we live in a universe with 3 spatial
+dimensions. Without labels, it can be difficult to examine meshes,
+simulation results, medical data such as bone or tissue surfaces recon-
+structed from volumetric scans, and virtual globes to name a few.
+The main problem with labels anchored at points in 3 or higher di-
+mensions is that the projections used to map these points to a display
+move them relative to one another in a way that does not preserve ra-
+tios as the space is rotated or perspective is applied. This means that
+not only can small changes in the projection cause labels that have a
+fixed size on the display to overlap, but there is no single factor that
+can be used to parameterize the way in which these effects will mani-
+fest themselves. Additionally, labels anchored in a higher-dimensional
+space may be obscured by other geometry in the scene and dislaying
+the labels even when the point they are anchored to is obscured can be
+confusing. This has lead to 2 classes of techniques: using varying-size
+labels (for example by texturing labels onto the geometry they are as-
+sociated with), and using fixed-size screen-space labels at a disadvan-
+tage (either allowing overlap or allowing labels to appear and disap-
+pear as they come into conflict – also known as popping). Both classes
+of techniques have their problems. We hope to ameliorate some of the
+disadvantages of the fixed-size class by changing the way the problem
+is stated; traditionally, the goal of label placement algorithms has been
+to maximize the number of labels placed. This approach is well-suited
+to static placement for cartography but for interactive applications with
+label anchors embedded in a dimension 3 or higher space, it only ex-
+acerbates popping.
+While we are not as clever as the 2-dimensional label placers, we
+hope that this paper will make people with 3-dimensional point-feature
+labels feel better about life in general and their labels in particular.
+The sections that follow survey the existing literature, describe an al-
+gorithm for placing 3-dimensional point-feature labels, show how it is
+fast enough – both theoretically and practically – to be used in interac-
+tive applications and then conclude by pointing out a lot of work that
+we didn’t have time to finish but might one day impress people with
+digital watches.
+2 LITERATURE SURVEY
+Of the work focused on labels with varying screen-space size, the most
+relevant is text scaffolding [6] and the texture impostors of [11]. Text
+scaffolding is focused on area labels, and textures labels onto the as-
+sociated areas. It accounts for high curvature and holes in the surface
+to be labeled by generating an implicit proxy surface to label. The
+texture impostors employed by Petrovic et al. [11] are also for label-
+ing areas, and in this application specifically brain fibers identified
+through diffusion-tensor imaging. Texturing approaches do not easily
+extend to labeling point features and also forces labels to be sized no
+larger than the underlying area being annotated. If an area is important
+but also small relative to other geometry in the scene this can be prob-
+lematic. Also, while it is not a significant disadvantage for interactive
+applications, when the area being labeled is at an angle to the viewer
+the label can be difficult to read.
+The remainder of the section is focused on fixed-size screen-space
+labeling. Illustrative layout [3] provides an algorithm for external lay-
+out, where labels are always placed outside of the portion of the screen
+containing the features to be labeled. This produces aesthetic labels
+but generally few labels can be displayed at a time. Also, it is un-
+clear how models with large variations in scale would be labeled since
+zooming in to see small features could easily leave no room on the
+screen to place labels.
+The problem of generating a set of internal non-overlapping point-
+feature labels has been addressed most thoroughly in the literature for
+cartographic label placement. A more complete overview of this cor-
+pus is provided by Wolff [1] and Christensen et al. [5]; we mention
+only a few works here.
+One theme common to many cartographic text placement algo-
+rithms [5, 13, 10, 8] is to allow the label anchor gravity – used to
+denote where the label rectangle is located with respect to the point
+feature – to vary in order to place a larger fraction of the labels avail-
+able. For interactive applications with 3-dimensional point features,
+this can lead to excessive popping between frames since it increases
+the density of labels above the maximum provided by a single, static
+gravity per label. Where the density is high, the resulting set of placed
+labels becomes more sensitive to the order in which labels are consid-
+1
+ered for placement.
+Been et al. [4] present a heuristic for point-feature labels embed-
+ded in a 2-dimensional space: by giving labels a priority – a unique
+partial ordering, in fact – they are able to perform an O(n2) prepro-
+cessing step to place labels, where n is the number of point-features.
+The placement includes a range of zoom factors over which each label
+is active (rendered). The active set will never overlap and high pri-
+ority labels will be visible over large ranges of scale. This technique
+provides label placements with a lot of desirable traits: there is no pop-
+ping, interactive programs can quickly determine what labels to place,
+and the same labels will always be rendered when a particular area is
+revisited. It does not appear that this technique can generalize to 3-D
+since the preprocessing stage would have to produce an active range
+for each label as a function of 6 parameters (3 focal point coordinates,
+2 view angles, and a scale factor) instead of just a scale factor. Even if
+such a function could be quickly computed, efficient storage would be
+problematic.
+Mote [10] presents a technique for label placement that does not
+require any preprocessing, instead using a screen-space subdivision to
+quickly eliminate overlaps. The conclusion notes it could be gener-
+alized to 3 dimensions however this would likely produce significant
+popping since the goal is to place as many labels as possible, since it
+attempts to use alternative anchor points to increase label density when
+the default anchor gravity does not lead to placement, and since it does
+not order or prioritize labels.
+Finally, Luboshik et al. [9] present a method for 2-dimensional label
+placement that uses a particle system to prevent not only label-label
+overlap but label-feature overlap. As with other systems, the method is
+focused on maximizing the number of labels placed so small changes
+in configuration between frames can lead to popping.
+3 ALGORITHM DESIGN
+This section presents a problem statement, outlines data structures, and
+finally describes the algorithm we use to place labels
+3.1 Problem Definition
+We contend that the problem statement for interactive label placement
+– especially in dimensions above 2 – is not the same as the static la-
+bel placement problem encountered by many cartographers [13, 2, 1].
+Specifically, the goal is not to place as many labels in each frame as
+possible but rather to (1) maximize the chance that labels with high
+priority are placed in consecutive frames and (2) provide an intuitive
+way for users to quickly access the label of any feature of interest. The
+problem definition is different because interactive exploration allows
+people to develop a mental model of a dataset that is richer than what is
+displayed on any one frame. By providing consecutive frames with the
+most important labels as landmarks, users can tie their mental model
+to the display.
+To address point (1), we must carefully define priority. In addition
+to any application-specific meaning, priority should also include the
+distance from the camera to the label. Since the camera is adjusted
+from frame to frame, uniquely pre-ordering labels by priority is not
+possible. We must assume there are enough labels that sorting them
+all by distance to the camera each frame is not feasible. Furthermore,
+reconsidering a label’s position once it has been placed would turn
+label placement into an exponential-time task. With no adjustments
+allowed, labels considered early-on for placement have a much higher
+chance of being drawn than those considered late in the process. Thus,
+in order to preserve as much frame-to-frame coherence as possible,
+we would like to traverse labels in approximately the same order from
+one frame to the next so that labels placed early in one frame are also
+placed early in the following frame. High-priority labels should ap-
+pear as early as possible during the traversal. However, placing labels
+in nearly the same order each frame conflicts with the desire to have la-
+bels nearer the camera considered first, since the arrangement of label
+anchors may change from frame to frame.
+To address point (2),we must carefully define how labels are ac-
+cessed. “Access” need not mean that each frame should exhaustively
+Fig. 1. An illustration of the label hierarchy (shown on the right as a
+quadtree instead of an octree for clarity). The root node is at the top
+and the leaves are at the bottom. Both position and priority are implicit
+in the binary tree structure that organizes input labels. Each node (a)
+of the hierarchy contains a priority-sorted list (b) of references to input
+label anchors (c) which each have coordinates (x, y, z) and size (w, h).
+enumerate as many labels as possible in the hopes that labels of inter-
+est to the user will appear. While labels are important to interactive
+visualizations, they are frequently rendered with other geometry that
+is also important to the task at hand as Luboshik et al. [9] note. La-
+bels should not be present in such large quantities that other visual
+information is obscured. Interactive applications allow the user con-
+trol over what is displayed and this should extend to labels as well.
+High framerates provide an opportunity for the user to indicate desir-
+able and undesirable information and the rendering system to respond
+by tailoring the content appropriately.
+As a final note on how interactive applications differ from the tra-
+ditional cartographic layout problem, many current placement algo-
+rithms traverse the entire set of features to be labeled each time a
+frame as rendered. For static images, this is productive but for in-
+teractive applications it is not. Consider the United States National
+Geospatial-Intelligence Agency’s list of place names [12]. It contains
+approximately 6.77 ×106 place names with an associated latitude and
+longitude coordinates and takes 900 MiB uncompressed on disk. Iter-
+ating over all of these records once per frame is unlikely to be produc-
+tive, even when every label might be visible because the entire Earth
+is in frame.
+3.2 Data structures
+Now consider what data structures and algorithms might satisfy the
+constraints mentioned above. Clearly, some sort of spatial search
+structure is required in order to consider distance from the camera.
+Storing labels in the leaf nodes of this search structure would improve
+the algorithm’s ability to display labels proximal to the camera and ter-
+minate early but would not, on its own, provide any way to prioritize
+placement. However, a hybrid approach is possible where all the nodes
+of a search structure – as opposed to just the leaves – contain data and
+labels within a given node of the search structure are sorted by priority.
+Figure 1 illustrates the concept with a quadtree (instead of an octree
+that would be required for 3-dimensional label anchors) for clarity:
+input datasets of label anchor points are inserted into a d-dimensional
+binary tree with anchors of more important labels appearing higher in
+the tree. The number of labels referenced by each node is maintained
+close to a fixed target Nt so that the size of the input can be tuned to
+keep framerates interactive.
+Traversing the octree in a breadth-first search with nodes nearer the
+camera visited first approximates the goal of placing labels nearer the
+camera first (but it is possible that labels in neighboring tree nodes
+are slightly closer to the camera). And traversing the octree breadth-
+2
+Online Submission ID: vis-1279
+first approximates the goal of placing higher priority labels first (but
+it is possible that labels from neighboring tree nodes with a higher
+priority are placed earlier). Normally, breadth-first tree traversal is
+considered inefficient since it requires more storage than depth-first
+traversal. However, we can terminate early by limiting the number of
+tree nodes visited to some Nmax and this will also fix the maximum
+amount of storage required to traverse the portion of the tree of inter-
+est. Finally, we can selectively prune the descent of the octree to avoid
+nodes which, when projected to the screen will take up a very small
+space and thus not be likely to be a source of labels with high priority
+whose placement will be coherent from frame to frame.
+In addition to creating an octree of references to input points, some
+mechanism for detecting overlaps of labels already placed with candi-
+date labels must be developed. Simply dividing screen space into a set
+of tiles – each of which holds a list of placed labels that overlap it –
+is a simple approach and has worked well. The tiles should be large
+enough that most labels overlap few tiles (to avoid storing many copies
+of a single rectangle) but small enough that not many labels overlap a
+given tile (to avoid the cost of comparing many placed label rectan-
+gles to each candidate label). In theory there are problems that might
+arise with such a simple approach. Edelsbrunner [7] describes a more
+sophisticated approach for detecting intersections of d-dimensional
+rectangles that requires O(nlog2d−1 n) storage, O(nlog2d−1 n) time to
+construct, and O(nlog2d−1 n+ m) time to query where n is the number
+of rectangles in the structure and m is the number of intersection tests.
+We expect m > n since more labels will be considered than placed
+but in the worst case n would dominate and the cost would approach
+O(nlog3 n). In practice, we have found no need to incorporate this
+technique and use tiles 128 ×128 pixels in size.
+3.3 Algorithm
+There are 3 main algorithms that produce and utilize the data structures
+of the previous section: octree creation, label placement, and octree
+iteration (which is invoked by the label placement algorithm). We will
+discuss each in turn.
+Algorithm 1 creates an octree given a set of point features F with
+priority. If no priority is specified, then the list of features is assumed
+to already be in sorted form. As each node is added, it is possible
+that we must descend the entire octree in order to insert it. The octree
+size is proportional to log|F|and we must perform this insertion for
+each entry of F so the total cost of O(|F|log|F|). Sorting is also an
+O(|F|log|F|) operation in the average case, making this the overall
+complexity. We use Nt = 32. Note that Nt , tile size B= 128, and
+another parameter Nmax introduced later are all related.
+Algorithm 2 performs label placement by iterating over some sub-
+set of the octree nodes and attempts to place each label referenced by
+the octree node. If point features include a normal vector (for instance
+because they are points on a surface of interest), then the normal vector
+is used to cull labels when the normal points away from the camera. If
+depth buffer testing is enabled, then each point feature’s depth into the
+view plane is tested against the depth buffer. If the feature is signifi-
+cantly behind the depth buffer then the label is not placed. Finally, the
+label gravity is used to determine the screen-space coordinates of the
+label rectangle and if no previously-placed labels interfere, the label is
+placed.
+Now we’ll discuss iterating over some subset of octree nodes to
+obtain a list of labels to consider for placement. Each octree node
+contains a list of references to labels sorted in order of descending
+priority. The octree is traversed breadth-first by maintaining a queue
+Q of nodes yet to be visited. When iteration over the labels is initiated,
+the top-level octree node is added to Q. As the labels in one octree
+node are exhausted, the nodes children are pushed onto the tail of Q
+and a new node is popped from the front of Q as shown in Algorithm 3.
+At most Nmax octree nodes will be traversed for a single frame and
+since the number of labels per octree node is a constant, this fixes the
+input size to be considered and helps maintain interactive framerates.
+As can be seen in Algorithm 3, not all children of a node are added
+to Q. Descending into octree nodes that are too far from the camera
+will likely yield no additional placed labels but certainly increase the
+Algorithm 1 The algorithm used to initialize the octree.
+Sort the list F of point features by descending priority.
+for all point features f ∈F do
+n ←the toplevel octree node
+while |n|≥Nt do
+if n has children then
+n ←the child of n containing f
+else
+Add children to n
+n ←the child of n containing f
+Break from the loop.
+end if
+end while
+Insert a reference to f into n
+end for
+Algorithm 2 The algorithm used to place labels for a frame.
+Compute λ Btan α
+p
+2
+2
+from Equation 1.
+V ←camera eye-aim vector
+Prepare screen-space tiles T and initialize label iterator I
+Read depth buffer from video card
+if label anchors have normal vectors then
+ν ←true
+else
+ν ←false
+end if
+while I not at end do
+if ν then
+n ←normal for label I
+end if
+if not ν or n·V < 0 then
+x ←coordinates for label I
+x∗←screen space coordinates of x
+g ←anchor gravity for label I
+(w, h)←width and height of label I
+if depth buffer does not occlude (x∗) then
+if g has left gravity then
+ll[0]←ul[0]←x∗[0]
+lr[0]←ur[0]←x∗[0] + w
+else if g has right gravity then
+ll[0]←ul[0]←x∗[0]−w
+lr[0]←ur[0]←x∗[0]
+else
+ll[0]←ul[0]←x∗[0]−w/2
+lr[0]←ur[0]←x∗[0] + w/2
+end if
+if g has top gravity then
+ll[1]←lr[1]←x∗[1]
+ul[1]←ur[1]←x∗[1] + h
+else if g has bottom gravity then
+ll[1]←lr[1]←x∗[1]−h
+ul[1]←ur[1]←x∗[1]
+else
+ll[1]←lr[1]←x∗[1]−h/2
+ul[1]←ur[1]←x∗[1] + h/2
+end if
+if ll[0] ≤W and lr[0] ≥0 and ll[1] ≤H and ur[1] ≥0 then
+if no tile in T overlaps the rectangle ll, ur then
+Insert ll, ur into T and place current label
+end if
+end if
+end if
+end if
+I ←next(I)
+end while
+3
+Fig. 2. Children of octree nodes whose circumsphere is significantly
+smaller than a screen-space bin will not be visited during traversal.
+amount of work. Here we develop a criterion for deciding whether or
+not to descend an octree node during label placement. Consider an
+octree node with edges of length c. A circumsphere of the node then
+has radius r = c √3
+2 . As Figure 2 illustrates, the projected size of the
+sphere on the screen will be a function of the distance d from the center
+of the node to the camera, the view angle α, and the size p, in pixels,
+of the viewport1. Also, since we will be bucketing placed labels into
+tiles that are B pixels on a side, we are interested in comparing the size
+of the sphere to the number of tiles it spans, not the number of pixels
+it spans. Thus we choose not to descend any octree node for which
+c2 <
+λ tan α
+2
+2
+p/B
+d2 (1)
+holds, where λ is a scale factor for the relative size of a screen-space
+tile to an octree node’s circumsphere. We use λ= 0.1. The quantity
+in parenthesis is precomputed once per frame, so this check is efficient
+to perform.
+Algorithm 3 The algorithm used to iterate over labels in the octree.
+n ←the current octree node
+i ←the current label index in n
+L ←the number of labels in n
+if i + 1 < L then
+i ←i + 1
+return label i
+end if
+while queue Q of octree nodes is not empty do
+n ←front(Q)
+pop front(Q)
+Ntraversed ←Ntraversed + 1
+if n meets criterion of Equation 1 then
+Prepare a list L of non-empty, visible children of n
+Sort L by distance to the camera
+Truncate L such that |Q|+ |L|+ Ntraversed ≤Nmax
+Q ←{Q, L}
+end if
+if n has labels then
+i ←0
+return label i
+end if
+end while
+Mark the iteration as complete
+return an invalid label
+1We assume α and p both refer to either the horizontal or vertical viewport
+angle and size, respectively
+|F| Depth buffer testing enabled
+Startup Placement Render
+100 1000 10000 100000 1000000 0.001 0.007307 0.02371
+0.006 0.036267 0.07713
+0.068 0.183327 0.25123
+0.918 0.417851 0.59176
+11.405 0.685168 0.93429
+Depth buffer testing disabled
+100 1000 10000 100000 1000000 0 0.000901 0.01766
+0.006 0.004129 0.03421
+0.065 0.022139 0.09013
+0.925 0.049455 0.22343
+10.375 0.079208 0.32569
+Table 1. Time, in seconds, required to process a varying number N of
+labels on a 2.7 GHz Intel Core i7 machine with a GeForce GTX 280
+video card. Labels averaged 6 characters in width.
+To determine an appropriate value for Nmax in Algorithm 3, we must
+consider several factors; assuming point features are uniformly dis-
+tributed in space, each level of the octree we add multiplies the number
+of nodes to visit by 8. Descending a level of the tree also divides c by
+2. Assume for a moment that d is constant and set to the view plane
+distance (or that we are performing parallel instead of perspective pro-
+jection); then the number of octree nodes along an axis of screen space
+is proportional to the number of screen-space tiles divided by λ . If λ
+is approximately 0.125=
+1
+23 and one octree node exactly covers one
+screen-space tile then we must descend 3 levels before Equation 1 ter-
+minates the descent. If we have a window with 8 ×8= 64 tiles, each
+128×128 pixels, for a total window size of 1024×1024 and the octree
+exactly covers the entire window, then we must descend 3 additional
+levels to get the point where one octree node covers one tile. When
+zoomed in so that the octree is larger than the entire screen, some chil-
+dren of the top-level node will not be visible and a small constant is
+added to the number of nodes to traverse. When the octree does not
+initially fill the entire screen, then fewer nodes must be traversed.
+For the given λ , p, and B, the worst case of 6 levels would have
+to be descended leaving Nmax = 86 = 262, 144. For larger Nmax, it is
+as if there is no bound on the total number of nodes processed – only
+the screen size of the nodes would cause early termination. For smaller
+Nmax, the constraint on node screen size is only active for distant nodes
+while the overall depth of traversal is limited by Nmax. In practice,
+reasonable results are obtained with Nmax = 83 = 512. This can be
+explained by comparing the total area of all the labels at an octree node
+compared to the area of a screen-space tile. With B= 128, the tiles
+have an area of 16, 384 pixels2. If labels are generally 12 pixels tall
+and 6 characters wide (approximately 72 pixels), then a node would
+only need 16, 384/12/72= 19 labels to fill the entire tile. We use
+32 labels per octree node, which is generally more than the area of a
+single tile.
+4 IMPLEMENTATION
+We have implemented the algorithms from the previous section and
+now briefly present their performance. Table 1 illustrates the perfor-
+mance both with and without depth-buffer occlusion testing enabled.
+Generally, depth-buffer testing slows down the overall process by a
+factor of 2 to 3. When |F|is large, most of this additional cost appears
+to be due to increased placement time and not increased rendering
+time. This is likely because the occlusion test is performed early in the
+process. We suspect that moving it after the tests for overlap with la-
+bels already placed that some time could be saved since fewer random
+accesses to the depth buffer would be required. When |F|is low, the
+overall frame time is dominated by rendering labels and performing
+the depth buffer readback. The test dataset is a randomly-distributed
+set of point features with randome text labels an average of 6 charac-
+ters wide.
+In addition to testing with uniform random inputs, we have gener-
+ated pictures (and in the online version animations) of the placement
+4
+Online Submission ID: vis-1279
+algorithm running on simulation data. Figure 3 shows an example of
+the label placer in action on an unstructured mesh. One interesting
+application of placing labels onto simulation data is identifying cells
+where a particular behavior is observed. In the figure, points in the tri-
+angulation of several isocontours of temperature are labeled with the
+cell number which generated the isocontour in the original simulation
+mesh. This makes it easy to identify where the temperature reached
+a certain value without having to perform several thresholding opera-
+tions or pick individual cells to examine their nodal values.
+5 CONCLUSION
+Future work includes extending label placement to distributed-data
+settings where the dataset is too large for any single machine and ren-
+dering must be performed using image compositing. An interesting
+sub-case is when a large dataset is rendered to a large, tiled display
+where screen-space binning may not be efficient enough to be interac-
+tive.
+Another interesting case to consider is how rotated text, text along
+a curve, or labels and features of any shape might be accommodated
+in a manner similar to Luboshik et al. [9].
+It may be possible to provide even more frame-to-frame coherence
+by copying references to label anchors near an octree node boundary
+into neighboring octree nodes at the same level in the hierarchy. This
+“smudging” of the labels would improve the chance of a label being
+placed even as an octree node containing it gets pruned by the iterator
+due to movement or a size change due to projection. It would incur
+additional cost since the same label anchor might be considered for
+placement several times.
+Finally, we have not implemented a “mouseover” iterator that
+places labels directly under the mouse before attempting to place any
+other labels. This would be a significant usability improvement, but
+several details are important: when the mouse is above several coinci-
+dent label anchors, both priority and proximity must considered during
+placement. One solution would be to displace anchors and draw leader
+lines from the label to the original anchor location, however the dis-
+placement must be chosen carefully to prevent label overlap. Also, in
+this situation it is important to avoid placing labels directly under the
+mouse cursor where they are unreadable.
+REFERENCES
+[1] Map labeling bibliography, 2008. [Online; accessed 18-March-2008].
+http://i11www.iti.uni-karlsruhe.de/map-labeling/
+bibliography/.
+[2] P. K. Agarwal, M. van Kreveld, and S. Suri. Label placement by max-
+imum independent set in rectangles. In Proceedings of the 9th Cana-
+dian Conference on Computational Geometry (CCCG’97), pages 233–
+238, 1997.
+[3] K. Ali, K. Hartmann, and T. Strothotte. Label layout for interactive 3D
+illustrations. The Journal of WSCG, 13, January 31-February 4 2005.
+WSCG2005.
+[4] K. Been, E. Daiches, and C. Yap. Dynamic map labeling. IEEE Transac-
+tions on Visualization and Computer Graphics, 12(5), 2006.
+[5] J. Christensen, J. Marks, and S. Shieber. An empirical study of algo-
+rithms for point-feature label placement. ACM Transactions on Graphics,
+14(3):203–232, 1995.
+[6] G. Cipriano and M. Gleicher. Text scaffolds for effective surface labeling.
+IEEE Transactions on Visualization & Computer Graphics, 14(6):1675–
+1682, 2008.
+[7] H. Edelsbrunner. A new approach to rectangle intersections: Part i. Intern
+J. Computer Math, 13:209–219, 1983.
+[8] H. Freeman. Label-EZ – software for automated cartographic text place-
+ment. white paper, 2008. [Online; accessed 24-March-2009]. http:
+//www.maptext.com/lbz-literature.shtml.
+[9] M. Luboschik, H. Schumann, and H. Cords. Particle-based labeling:
+Fast point-feature labeling without obscuring other visual features. IEEE
+Transactions on Visualization & Computer Graphics, 14(6):1237–1244,
+2008.
+[10] K. Mote. Fast point-feature label placement for dynamic visualizations.
+Information Visualization, 6:249–260, 2007.
+Fig. 3. These images are of a reacting flow simulation inside a cylindri-
+cal mixing chamber which has been clipped with a plane. Isocontours of
+temperature are shown and, centered on each triangle of the isocontour
+is a label identifying which cell in the simulation generated the isocon-
+tour. Because no priority is provided, the index into the list of isocontour
+triangles is used.
+5
+[11] V. Petrovic, J. Fallon, and F. Kuester. Visualizing whole-brain DTI trac-
+tography with GPU-based tuboids and LoD management. IEEE Trans-
+actions on Visualization & Computer Graphics, 13(6):1488–1495, Nov.
+2007.
+[12] United States National Geospatial-Intellice Agency. Country files, 2008.
+[Online; accessed 24-March-2009]. http://earth-info.nga.
+mil/gns/html/namefiles.htm.
+[13] F. Wagner and A. Wolff. A combinatorial framework for map labeling.
+Lecture Notes in Computer Science, 1547:316–331, 1998. Proceedings
+of the 6th International Symposium on Graph Drawing (GD98).
+6

@@ -1,0 +1,620 @@
+{
+  "metadata": {
+    "title": "Terra Invicta Drive Chart - Single Thruster - Combat Thrust vs. Exhaust Velocity",
+    "xAxis": {
+      "label": "Exhaust Velocity (km/s)",
+      "scale": "log",
+      "min": 2,
+      "max": 20000.0
+    },
+    "yAxis": {
+      "label": "Thrust (N)",
+      "scale": "log",
+      "min": 100.0,
+      "max": 30000000.0
+    }
+  },
+  "colorMap": {
+    "Chemical": "#CC0000",
+    "Electrothermal": "#CCC2CC",
+    "Electrostatic": "#7F6000",
+    "Electromagnetic": "#CC0000",
+    "Fission_Thermal": "#663300",
+    "Fission_SaltWater": "#996633",
+    "Fission_Gas": "#548235",
+    "Fission_Solid": "#548235",
+    "Fission_Pulse": "#FFF2CC",
+    "Fusion_Electrostatic": "#0066CC",
+    "Fusion_Toroid": "#FBE5D6",
+    "Fusion_Mirrored": "#F4B183",
+    "Fusion_Hybrid": "#44546A",
+    "Fusion_ZPinch": "#BDD7EE",
+    "Fusion_Inertial": "#4472C4",
+    "Antimatter": "#404040",
+    "Alien": "#7030A0"
+  },
+  "categories": {
+    "Alien": {
+      "displayName": "Alien",
+      "color": "#7030A0",
+      "drives": [
+        {
+          "ev": 633.0,
+          "thrust": 500000.0,
+          "name": "Alien Fusion Lantern"
+        },
+        {
+          "ev": 1300.0,
+          "thrust": 1590000.0,
+          "name": "Alien Fusion Torch"
+        }
+      ]
+    },
+    "Antimatter": {
+      "displayName": "Antimatter",
+      "color": "#404040",
+      "drives": [
+        {
+          "ev": 240.0,
+          "thrust": 1600000.0,
+          "name": "Antimatter Pulsed Plasma Core Lantern"
+        },
+        {
+          "ev": 595.0,
+          "thrust": 3500000.0,
+          "name": "Antimatter Plasma Core Torch"
+        },
+        {
+          "ev": 2800.0,
+          "thrust": 4900000.0,
+          "name": "Advanced Antimatter Plasma Core Torch"
+        },
+        {
+          "ev": 14720.0,
+          "thrust": 10000000.0,
+          "name": "Pion Torch"
+        }
+      ]
+    },
+    "Chemical": {
+      "displayName": "Chemical",
+      "color": "#CC0000",
+      "drives": [
+        {
+          "ev": 2.6,
+          "thrust": 14820000.0,
+          "name": "Apex Solid Rocket"
+        },
+        {
+          "ev": 2.98,
+          "thrust": 15481000.0,
+          "name": "Meteor Liquid Rocket"
+        },
+        {
+          "ev": 3.1,
+          "thrust": 20376000.0,
+          "name": "Neutron Liquid Rocket"
+        },
+        {
+          "ev": 4.44,
+          "thrust": 9279600.0,
+          "name": "Venture Liquid Rocket"
+        },
+        {
+          "ev": 3.73,
+          "thrust": 20160000.0,
+          "name": "Diana Superheavy Rocket"
+        },
+        {
+          "ev": 5.6,
+          "thrust": 7850000.0,
+          "name": "Nova Liquid Rocket"
+        },
+        {
+          "ev": 21.6,
+          "thrust": 2500000.0,
+          "name": "Super Kronos Liquid Rocket"
+        }
+      ]
+    },
+    "Electromagnetic": {
+      "displayName": "Electromagnetic",
+      "color": "#CC0000",
+      "drives": [
+        {
+          "ev": 147.0,
+          "thrust": 1000.0,
+          "name": "VASIMR"
+        },
+        {
+          "ev": 147.0,
+          "thrust": 2250.0,
+          "name": "Ponderomotive VASIMR"
+        },
+        {
+          "ev": 425.0,
+          "thrust": 2200.0,
+          "name": "Pulsed Plasmoid Drive"
+        },
+        {
+          "ev": 78.4,
+          "thrust": 1200.0,
+          "name": "Plasma Wave Drive"
+        },
+        {
+          "ev": 110.0,
+          "thrust": 20000.0,
+          "name": "Lorentz Drive"
+        },
+        {
+          "ev": 314.0,
+          "thrust": 20000.0,
+          "name": "Helicon Drive"
+        },
+        {
+          "ev": 9.81,
+          "thrust": 10400.0,
+          "name": "Mass Driver"
+        },
+        {
+          "ev": 30.0,
+          "thrust": 20000.0,
+          "name": "Superconducting Mass Driver"
+        }
+      ]
+    },
+    "Electrostatic": {
+      "displayName": "Electrostatic",
+      "color": "#7F6000",
+      "drives": [
+        {
+          "ev": 78.4,
+          "thrust": 3300.0,
+          "name": "Ion Drive"
+        },
+        {
+          "ev": 43.0,
+          "thrust": 8000.0,
+          "name": "Colloid Drive"
+        },
+        {
+          "ev": 210.0,
+          "thrust": 10000.0,
+          "name": "Grid Drive"
+        },
+        {
+          "ev": 19.62,
+          "thrust": 3300.0,
+          "name": "Hall Drive"
+        }
+      ]
+    },
+    "Electrothermal": {
+      "displayName": "Electrothermal",
+      "color": "#CCC2CC",
+      "drives": [
+        {
+          "ev": 9.8,
+          "thrust": 9900.0,
+          "name": "Tungsten Resistojet"
+        },
+        {
+          "ev": 19.62,
+          "thrust": 4600.0,
+          "name": "E-Beam Drive"
+        },
+        {
+          "ev": 9.81,
+          "thrust": 12000.0,
+          "name": "Amplitron Drive"
+        },
+        {
+          "ev": 2.9,
+          "thrust": 1000.0,
+          "name": "Resistojet"
+        },
+        {
+          "ev": 19.6,
+          "thrust": 1000.0,
+          "name": "Arcjet Drive"
+        }
+      ]
+    },
+    "Fission_Any": {
+      "displayName": "Fission Any",
+      "color": "#CCF2CC",
+      "drives": [
+        {
+          "ev": 156.96,
+          "thrust": 24000.0,
+          "name": "Z-pinch Microfission Drive"
+        },
+        {
+          "ev": 156.96,
+          "thrust": 180000.0,
+          "name": "Neutronium Microfission Drive"
+        },
+        {
+          "ev": 132.44,
+          "thrust": 275000.0,
+          "name": "Antimatter Microfission Drive"
+        },
+        {
+          "ev": 93.16,
+          "thrust": 642000.0,
+          "name": "Minimag Orion"
+        },
+        {
+          "ev": 157.0,
+          "thrust": 1870000.0,
+          "name": "Advanced Minimag Orion"
+        },
+        {
+          "ev": 42.1,
+          "thrust": 16000000.0,
+          "name": "Orion Drive"
+        },
+        {
+          "ev": 120.0,
+          "thrust": 24000000.0,
+          "name": "Advanced Orion Drive"
+        }
+      ]
+    },
+    "Fission_Gas": {
+      "displayName": "Fission Gas",
+      "color": "#447235",
+      "drives": [
+        {
+          "ev": 19.62,
+          "thrust": 330000.0,
+          "name": "Vortex Drive"
+        },
+        {
+          "ev": 19.62,
+          "thrust": 504000.0,
+          "name": "Advanced Vortex Drive"
+        },
+        {
+          "ev": 19.62,
+          "thrust": 56400.0,
+          "name": "Cavity Drive"
+        },
+        {
+          "ev": 24.48,
+          "thrust": 330000.0,
+          "name": "Advanced Cavity Drive"
+        },
+        {
+          "ev": 10.8,
+          "thrust": 117700.0,
+          "name": "Quartz Drive"
+        },
+        {
+          "ev": 18.3,
+          "thrust": 409000.0,
+          "name": "Lightbulb Drive"
+        },
+        {
+          "ev": 20.4,
+          "thrust": 445000.0,
+          "name": "Pharos Drive"
+        },
+        {
+          "ev": 31.4,
+          "thrust": 11000000.0,
+          "name": "Lodestar Fission Lantern"
+        },
+        {
+          "ev": 3750.0,
+          "thrust": 5504.0,
+          "name": "Dusty Plasma Drive"
+        },
+        {
+          "ev": 69.0,
+          "thrust": 108000.0,
+          "name": "Burner Drive"
+        },
+        {
+          "ev": 35.0,
+          "thrust": 3500000.0,
+          "name": "Flare Drive"
+        },
+        {
+          "ev": 50.0,
+          "thrust": 5000000.0,
+          "name": "Firestar Fission Lantern"
+        }
+      ]
+    },
+    "Fission_Liquid": {
+      "displayName": "Fission Liquid",
+      "color": "#a4c2a5",
+      "drives": [
+        {
+          "ev": 19.62,
+          "thrust": 98000.0,
+          "name": "Lars Drive"
+        },
+        {
+          "ev": 19.62,
+          "thrust": 333000.0,
+          "name": "Teardrop Drive"
+        },
+        {
+          "ev": 17.7,
+          "thrust": 540000.0,
+          "name": "Fission Spinner Drive"
+        },
+        {
+          "ev": 16.0,
+          "thrust": 7000000.0,
+          "name": "Pegasus Drive"
+        }
+      ]
+    },
+    "Fission_Solid": {
+      "displayName": "Fission Solid",
+      "color": "#548235",
+      "drives": [
+        {
+          "ev": 8.77,
+          "thrust": 33000.0,
+          "name": "Kiwi Drive"
+        },
+        {
+          "ev": 8.09,
+          "thrust": 49000.0,
+          "name": "Nerva Drive"
+        },
+        {
+          "ev": 8.83,
+          "thrust": 73000.0,
+          "name": "Snare Drive"
+        },
+        {
+          "ev": 8.18,
+          "thrust": 245000.0,
+          "name": "Rover Drive"
+        },
+        {
+          "ev": 9.81,
+          "thrust": 134400.0,
+          "name": "Cermet Nerva"
+        },
+        {
+          "ev": 8.09,
+          "thrust": 334061.0,
+          "name": "Advanced Nerva Drive"
+        },
+        {
+          "ev": 8.3,
+          "thrust": 400000.0,
+          "name": "Dumbo"
+        },
+        {
+          "ev": 9.12,
+          "thrust": 445267.0,
+          "name": "Advanced Cermet Nerva"
+        },
+        {
+          "ev": 8.09,
+          "thrust": 3500000.0,
+          "name": "Heavy Dumbo"
+        },
+        {
+          "ev": 16.0,
+          "thrust": 100000.0,
+          "name": "Pulsar Drive"
+        },
+        {
+          "ev": 32.0,
+          "thrust": 180000.0,
+          "name": "Advanced Pulsar Drive"
+        },
+        {
+          "ev": 9.81,
+          "thrust": 172700.0,
+          "name": "Pebble Drive"
+        },
+        {
+          "ev": 9.53,
+          "thrust": 333617.0,
+          "name": "Advanced Pebble Drive"
+        },
+        {
+          "ev": 313.9,
+          "thrust": 4651.0,
+          "name": "Fission Frag Drive"
+        }
+      ]
+    },
+    "Fusion_Electrostatic": {
+      "displayName": "Fusion Electrostatic",
+      "color": "#0066CC",
+      "drives": [
+        {
+          "ev": 364.0,
+          "thrust": 38500.0,
+          "name": "Triton Fusor Drive"
+        },
+        {
+          "ev": 1250.0,
+          "thrust": 19200.0,
+          "name": "Deuteron Fusor Drive"
+        },
+        {
+          "ev": 1818.0,
+          "thrust": 55173.0,
+          "name": "Protium Fusor Drive"
+        }
+      ]
+    },
+    "Fusion_Hybrid": {
+      "displayName": "Fusion Hybrid",
+      "color": "#44546A",
+      "drives": [
+        {
+          "ev": 276.0,
+          "thrust": 174000.0,
+          "name": "Triton Polywell Drive"
+        },
+        {
+          "ev": 597.0,
+          "thrust": 251250.0,
+          "name": "Deuteron Polywell Drive"
+        },
+        {
+          "ev": 548.0,
+          "thrust": 1095000.0,
+          "name": "Helion Plasmajet Lantern"
+        },
+        {
+          "ev": 714.0,
+          "thrust": 5040000.0,
+          "name": "Borane Plasmajet Torch"
+        },
+        {
+          "ev": 1600.0,
+          "thrust": 4390000.0,
+          "name": "Advanced Alien Fusion Torch"
+        }
+      ]
+    },
+    "Fusion_Inertial": {
+      "displayName": "Fusion Inertial",
+      "color": "#4472C4",
+      "drives": [
+        {
+          "ev": 270.0,
+          "thrust": 355200.0,
+          "name": "Triton Nova Drive"
+        },
+        {
+          "ev": 572.0,
+          "thrust": 420000.0,
+          "name": "Deuteron Nova Lantern"
+        },
+        {
+          "ev": 527.0,
+          "thrust": 1900000.0,
+          "name": "Helion Nova Lantern"
+        },
+        {
+          "ev": 9210.0,
+          "thrust": 663000.0,
+          "name": "Helion Nova Torch"
+        },
+        {
+          "ev": 678.0,
+          "thrust": 2669750.0,
+          "name": "Borane Nova Lantern"
+        },
+        {
+          "ev": 1000.0,
+          "thrust": 6600000.0,
+          "name": "Protium Nova Torch"
+        },
+        {
+          "ev": 10256.0,
+          "thrust": 9760000.0,
+          "name": "Protium Converter Torch"
+        }
+      ]
+    },
+    "Fusion_Mirrored": {
+      "displayName": "Fusion Mirrored",
+      "color": "#F4B183",
+      "drives": [
+        {
+          "ev": 317.0,
+          "thrust": 75600.0,
+          "name": "Triton Reflex Drive"
+        },
+        {
+          "ev": 833.0,
+          "thrust": 60000.0,
+          "name": "Deuteron Reflex Drive"
+        },
+        {
+          "ev": 741.0,
+          "thrust": 97524.0,
+          "name": "Helion Reflex Drive"
+        }
+      ]
+    },
+    "Fusion_Toroid": {
+      "displayName": "Fusion Toroid",
+      "color": "#FBE5D6",
+      "drives": [
+        {
+          "ev": 308.0,
+          "thrust": 117000.0,
+          "name": "Triton Torus Drive"
+        },
+        {
+          "ev": 769.0,
+          "thrust": 156000.0,
+          "name": "Deuteron Torus Drive"
+        },
+        {
+          "ev": 690.0,
+          "thrust": 556800.0,
+          "name": "Helion Torus Lantern"
+        },
+        {
+          "ev": 952.0,
+          "thrust": 1680000.0,
+          "name": "Protium Torus Lantern"
+        }
+      ]
+    },
+    "Fusion_Z": {
+      "displayName": "Fusion Z",
+      "color": "#888888",
+      "drives": [
+        {
+          "ev": 392.0,
+          "thrust": 183600.0,
+          "name": "Zeta Triton Drive"
+        },
+        {
+          "ev": 1667.0,
+          "thrust": 108000.0,
+          "name": "Zeta Deuteron Drive"
+        },
+        {
+          "ev": 3334.0,
+          "thrust": 720000.0,
+          "name": "Zeta Deuteron Torch"
+        },
+        {
+          "ev": 1335.0,
+          "thrust": 600000.0,
+          "name": "Zeta Helion Lantern"
+        },
+        {
+          "ev": 3077.0,
+          "thrust": 416000.0,
+          "name": "Zeta Borane Lantern"
+        }
+      ]
+    },
+    "NuclearSaltWater": {
+      "displayName": "NuclearSaltWater",
+      "color": "#888888",
+      "drives": [
+        {
+          "ev": 66.0,
+          "thrust": 12900000.0,
+          "name": "Neutron Flux Lantern"
+        },
+        {
+          "ev": 1700.0,
+          "thrust": 13000000.0,
+          "name": "Neutron Flux Torch"
+        }
+      ]
+    }
+  }
+}
