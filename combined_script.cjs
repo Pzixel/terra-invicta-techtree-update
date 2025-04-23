@@ -97,7 +97,7 @@ function processDriveData(jsonFile) {
         };
       }
       
-      driveTypes[driveClass].thrust.push(parseFloat(item.thrust_N));
+      driveTypes[driveClass].thrust.push(parseFloat(item.thrust_N)*parseFloat(item.thrustCap));
       driveTypes[driveClass].ev.push(parseFloat(item.EV_kps));
       driveTypes[driveClass].names.push(driveName);
       driveTypes[driveClass].drive_classes.push(item.driveClassification);
@@ -121,7 +121,7 @@ function processDriveData(jsonFile) {
         "label": "Thrust (N)",
         "scale": "log",
         "min": 1e2,
-        "max": 3e7
+        "max": 300e7
       }
     },
     "colorMap": colorMap,
@@ -327,7 +327,7 @@ function generatePlot(data, outputFilename = 'drive_thrust_vs_ev.png') {
   context.textAlign = 'center';
   context.textBaseline = 'top';
   context.font = 'bold 18px Arial';
-  context.fillText('Terra Invicta Drive Chart - Thrust vs. Exhaust Velocity', width / 2, 20);
+  context.fillText('Terra Invicta Drive Chart - Combat Thrust vs. Exhaust Velocity', width / 2, 20);
   context.font = '14px Arial';
   context.fillText('(Logarithmic Scale)', width / 2, 45);
 
