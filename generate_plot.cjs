@@ -1139,6 +1139,277 @@ if (swapsPerformed > 0) {
   refineLabelPositions();
 }
 
+// Add an overlap resolution phase that expands the layout to eliminate overlaps
+function resolveOverlaps() {
+  const nodes = simulation.nodes();
+  let overlapCount = 0;
+  let iterations = 0;
+  const MAX_ITERATIONS = 50;
+  
+  // Helper function to check if two labels overlap
+  function checkOverlap(nodeA, nodeB) {
+    const rectA = {
+      left: nodeA.x - nodeA.width / 2,
+      right: nodeA.x + nodeA.width / 2,
+      top: nodeA.y - nodeA.height / 2,
+      bottom: nodeA.y + nodeA.height / 2
+    };
+    
+    const rectB = {
+      left: nodeB.x - nodeB.width / 2,
+      right: nodeB.x + nodeB.width / 2,
+      top: nodeB.y - nodeB.height / 2,
+      bottom: nodeB.y + nodeB.height / 2
+    };
+    
+    // Check if they overlap
+    if (!(rectA.right < rectB.left || rectB.right < rectA.left ||
+          rectA.bottom < rectB.top || rectB.bottom < rectA.top)) {
+      
+      // Calculate overlap dimensions
+      const overlapWidth = Math.min(rectA.right, rectB.right) - Math.max(rectA.left, rectB.left);
+      const overlapHeight = Math.min(rectA.bottom, rectB.bottom) - Math.max(rectA.top, rectB.top);
+      
+      return {
+        overlap: true,
+        area: overlapWidth * overlapHeight,
+        width: overlapWidth,
+        height: overlapHeight
+      };
+    }
+    
+    return { overlap: false, area: 0, width: 0, height: 0 };
+  }
+  
+  // Helper to record initial positions for reference
+  const initialPositions = nodes.map(node => ({
+    id: node.drive.name,
+    x: node.x,
+    y: node.y
+  }));
+  
+  // Set up a non-linear force that pushes overlapping labels apart
+  function applyOverlapResolutionForce() {
+    // Reset adjustment velocities
+    nodes.forEach(node => {
+      node.dx = 0;
+      node.dy = 0;
+    });
+    
+    // Process each pair of nodes
+    let totalOverlaps = 0;
+    
+    for (let i = 0; i < nodes.length; i++) {
+      const nodeA = nodes[i];
+      
+      for (let j = i + 1; j < nodes.length; j++) {
+        const nodeB = nodes[j];
+        
+        // Check for overlap
+        const overlapResult = checkOverlap(nodeA, nodeB);
+        
+        if (overlapResult.overlap) {
+          totalOverlaps++;
+          
+          // Calculate centers and direction
+          const centerAx = nodeA.x;
+          const centerAy = nodeA.y;
+          const centerBx = nodeB.x;
+          const centerBy = nodeB.y;
+          
+          const dx = centerBx - centerAx;
+          const dy = centerBy - centerAy;
+          let dist = Math.sqrt(dx * dx + dy * dy);
+          
+          // If centers are very close or identical, add a small random displacement
+          if (dist < 1) {
+            const angle = Math.random() * Math.PI * 2;
+            dist = 1;
+            const nx = Math.cos(angle);
+            const ny = Math.sin(angle);
+            
+            nodeA.dx -= nx * overlapResult.area * 0.01;
+            nodeA.dy -= ny * overlapResult.area * 0.01;
+            nodeB.dx += nx * overlapResult.area * 0.01;
+            nodeB.dy += ny * overlapResult.area * 0.01;
+          } else {
+            // Calculate normalized direction
+            const nx = dx / dist;
+            const ny = dy / dist;
+            
+            // Calculate force magnitude based on overlap area
+            // Use a non-linear (quadratic) relationship to make large overlaps much stronger
+            const forceMagnitude = Math.sqrt(overlapResult.area) * 0.5;
+            
+            // Calculate minimum displacement needed to resolve overlap
+            let displacementNeeded;
+            if (Math.abs(nx) > Math.abs(ny)) {
+              // Horizontal separation is more efficient
+              displacementNeeded = overlapResult.width / Math.abs(nx);
+            } else {
+              // Vertical separation is more efficient
+              displacementNeeded = overlapResult.height / Math.abs(ny);
+            }
+            
+            // Apply force with a small buffer to ensure separation
+            const adjustedForce = Math.max(forceMagnitude, displacementNeeded * 0.55);
+            
+            // Apply to both nodes inversely proportional to distance from anchor
+            const distA = Math.sqrt(Math.pow(nodeA.x - nodeA.anchorX, 2) + Math.pow(nodeA.y - nodeA.anchorY, 2));
+            const distB = Math.sqrt(Math.pow(nodeB.x - nodeB.anchorX, 2) + Math.pow(nodeB.y - nodeB.anchorY, 2));
+            
+            // Calculate ratio to distribute force (node further from anchor takes more displacement)
+            let ratioA = 0.5, ratioB = 0.5;
+            if (distA + distB > 0) {
+              ratioA = distB / (distA + distB);
+              ratioB = distA / (distA + distB);
+            }
+            
+            // Adjust ratio to ensure the node doesn't move too far from anchor
+            const MAX_DISTANCE = MAX_LABEL_DISTANCE * 0.9;
+            if (distA > MAX_DISTANCE) ratioA = 0.1;
+            if (distB > MAX_DISTANCE) ratioB = 0.1;
+            
+            // Apply forces
+            nodeA.dx -= nx * adjustedForce * ratioB;
+            nodeA.dy -= ny * adjustedForce * ratioB;
+            nodeB.dx += nx * adjustedForce * ratioA;
+            nodeB.dy += ny * adjustedForce * ratioA;
+          }
+        }
+      }
+    }
+    
+    // Apply the calculated adjustments
+    nodes.forEach(node => {
+      // Get original initial position for reference
+      const initialPos = initialPositions.find(p => p.id === node.drive.name);
+      
+      // Apply adjustment with dampening to prevent oscillations
+      node.x += node.dx * 0.5;
+      node.y += node.dy * 0.5;
+      
+      // Make sure node stays within chart area
+      const halfWidth = node.width / 2;
+      const halfHeight = node.height / 2;
+      node.x = Math.max(chartArea.x1 + halfWidth, Math.min(node.x, chartArea.x2 - halfWidth));
+      node.y = Math.max(chartArea.y1 + halfHeight, Math.min(node.y, chartArea.y2 - halfHeight));
+      
+      // Limit maximum distance from anchor
+      const dx = node.x - node.anchorX;
+      const dy = node.y - node.anchorY;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+      
+      if (distance > MAX_LABEL_DISTANCE) {
+        node.x = node.anchorX + (dx / distance) * MAX_LABEL_DISTANCE;
+        node.y = node.anchorY + (dy / distance) * MAX_LABEL_DISTANCE;
+      }
+      
+      // Apply preservation of relative positioning
+      // This ensures we don't drastically change the layout pattern
+      if (initialPos) {
+        // Calculate how much we've moved from initial position
+        const dxFromInitial = node.x - initialPos.x;
+        const dyFromInitial = node.y - initialPos.y;
+        const distFromInitial = Math.sqrt(dxFromInitial * dxFromInitial + dyFromInitial * dyFromInitial);
+        
+        // If we've moved too far from initial position, pull back slightly
+        if (distFromInitial > 30) { // Allow some movement but not too much
+          const pullBackFactor = 0.1; // Gentle pull
+          node.x -= dxFromInitial * pullBackFactor;
+          node.y -= dyFromInitial * pullBackFactor;
+        }
+      }
+    });
+    
+    return totalOverlaps;
+  }
+  
+  // Main overlap resolution loop
+  do {
+    overlapCount = applyOverlapResolutionForce();
+    iterations++;
+  } while (overlapCount > 0 && iterations < MAX_ITERATIONS);
+  
+  console.log(`Resolved overlaps in ${iterations} iterations. Remaining overlaps: ${overlapCount}`);
+  
+  // If we still have overlaps, do a final pass with stronger forces
+  if (overlapCount > 0) {
+    // Create a priority queue of overlapping pairs sorted by overlap area
+    const overlappingPairs = [];
+    
+    for (let i = 0; i < nodes.length; i++) {
+      const nodeA = nodes[i];
+      
+      for (let j = i + 1; j < nodes.length; j++) {
+        const nodeB = nodes[j];
+        const overlapResult = checkOverlap(nodeA, nodeB);
+        
+        if (overlapResult.overlap) {
+          overlappingPairs.push({
+            nodeA,
+            nodeB,
+            area: overlapResult.area,
+            width: overlapResult.width,
+            height: overlapResult.height
+          });
+        }
+      }
+    }
+    
+    // Sort by overlap area (largest first)
+    overlappingPairs.sort((a, b) => b.area - a.area);
+    
+    // Process each pair
+    overlappingPairs.forEach(pair => {
+      const { nodeA, nodeB, width, height } = pair;
+      
+      // Determine if horizontal or vertical separation is more appropriate
+      const dx = nodeB.x - nodeA.x;
+      const dy = nodeB.y - nodeA.y;
+      
+      // Preserve relative positioning (if A is left of B, keep it that way)
+      if (Math.abs(dx) >= Math.abs(dy)) {
+        // Horizontal separation
+        const separation = width * 1.05; // Add a small buffer
+        if (dx > 0) {
+          // B is to the right of A
+          nodeA.x -= separation / 2;
+          nodeB.x += separation / 2;
+        } else {
+          // A is to the right of B
+          nodeA.x += separation / 2;
+          nodeB.x -= separation / 2;
+        }
+      } else {
+        // Vertical separation
+        const separation = height * 1.05; // Add a small buffer
+        if (dy > 0) {
+          // B is below A
+          nodeA.y -= separation / 2;
+          nodeB.y += separation / 2;
+        } else {
+          // A is below B
+          nodeA.y += separation / 2;
+          nodeB.y -= separation / 2;
+        }
+      }
+      
+      // Make sure nodes stay within boundaries
+      checkAndFixNodePosition(nodeA);
+      checkAndFixNodePosition(nodeB);
+    });
+  }
+  
+  // Final safety check to ensure all nodes are within chart area and within MAX_LABEL_DISTANCE
+  nodes.forEach(node => {
+    checkAndFixNodePosition(node);
+  });
+}
+
+// Run the overlap resolution phase
+resolveOverlaps();
+
 // Draw labels using the calculated positions
 labelNodes.forEach(node => {
   const { drive, x, y, anchorX, anchorY, textWidth, textHeight, padding } = node;
