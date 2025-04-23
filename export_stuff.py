@@ -7,41 +7,47 @@ def export_thrust_vs_ev_data(json_file, output_file="drive_data.json"):
     with open(json_file, 'r') as f:
         data = json.load(f)
     
-    # Define a color scheme that will be included in the output data
+   
+    # Define a more detailed color scheme based on the reference image
     color_map = {
         'Chemical': '#CC0000',
         'Electrothermal': '#CCC2CC',
         'Electrostatic': '#7F6000',
-        'Electromagnetic': '#CC0000',
+        'Electromagnetic': '#DDAA00',
         'Fission_Thermal': '#663300',
         'Fission_SaltWater': '#996633',
-        'Fission_Gas': '#548235',
-        'Fission_Solid': '#548235',
+        'Fission_Gas': '#144205',
+        'Fission_Solid': '#548285',
         'Fission_Pulse': '#FFF2CC',
         'Fusion_Electrostatic': '#0066CC',
         'Fusion_Toroid': '#FBE5D6',
         'Fusion_Mirrored': '#F4B183',
-        'Fusion_Hybrid': '#44546A',
+        'Fusion_Hybrid': '#94748A',
         'Fusion_ZPinch': '#BDD7EE',
         'Fusion_Inertial': '#4472C4',
-        'Antimatter': '#404040',
+        "Fission_Any": "#CCF2CC",
+        "Fission_Liquid": "#a4c2a5",
+        'Antimatter': '#000000',
         'Alien': '#7030A0'
     }
-    
+
     # Helper function to determine the main drive category
     def get_drive_category(classification, name, required_power_plant):
         # Special handling for Alien drives
-        if name and name.startswith("Alien"):
-            return "Alien"
+        if name and 'Alien' in name:
+            return 'Alien'
             
         base_class = classification.split('_')[0]
         if base_class == 'Fission':
-            power_type = required_power_plant.split('_')[0] if required_power_plant else ''
-            return f"{base_class}_{power_type}"
+            power_type = required_power_plant.split('_')[0]
+            return f'{base_class}_{power_type}'
         if base_class == 'Fusion':
-            power_type = required_power_plant.split('_')[0] if required_power_plant else ''
-            return f"{base_class}_{power_type}"
+            power_type = required_power_plant.split('_')[0]
+            if power_type == 'Z':
+                power_type = 'ZPinch'
+            return f'{base_class}_{power_type}'
         return base_class
+    
     
     # Group data by driveClassification and filter for x1 drives only
     drive_types = defaultdict(lambda: {'thrust': [], 'ev': [], 'names': [], 'drive_classes': []})

@@ -30,6 +30,8 @@
     "Fusion_Hybrid": "#94748A",
     "Fusion_ZPinch": "#BDD7EE",
     "Fusion_Inertial": "#4472C4",
+    "Fission_Any": "#CCF2CC",
+    "Fission_Liquid": "#a4c2a5",
     "Antimatter": "#000000",
     "Alien": "#7030A0"
   },
@@ -570,7 +572,7 @@
       ]
     },
     "Fusion_ZPinch": {
-      "displayName": "Z-Pinch Fusion",
+      "displayName": "Fusion ZPinch",
       "color": "#BDD7EE",
       "drives": [
         {

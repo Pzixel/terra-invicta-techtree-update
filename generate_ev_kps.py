@@ -18,35 +18,37 @@ def plot_thrust_vs_ev(json_file):
         'Chemical': '#CC0000',
         'Electrothermal': '#CCC2CC',
         'Electrostatic': '#7F6000',
-        'Electromagnetic': '#CC0000',
+        'Electromagnetic': '#DDAA00',
         'Fission_Thermal': '#663300',
         'Fission_SaltWater': '#996633',
-        'Fission_Gas': '#548235',
-        'Fission_Solid': '#548235',
+        'Fission_Gas': '#144205',
+        'Fission_Solid': '#548285',
         'Fission_Pulse': '#FFF2CC',
         'Fusion_Electrostatic': '#0066CC',
         'Fusion_Toroid': '#FBE5D6',
         'Fusion_Mirrored': '#F4B183',
-        'Fusion_Hybrid': '#44546A',
+        'Fusion_Hybrid': '#94748A',
         'Fusion_ZPinch': '#BDD7EE',
         'Fusion_Inertial': '#4472C4',
-        'Antimatter': '#404040',
+        'Antimatter': '#000000',
         'Alien': '#7030A0'
     }
-    
+
     # Helper function to determine the main drive category
     def get_drive_category(classification, name, required_power_plant):
         # Special handling for Alien drives
-        if name and name.startswith("Alien"):
-            return "Alien"
+        if name and name.startswith('Alien'):
+            return 'Alien'
             
         base_class = classification.split('_')[0]
         if base_class == 'Fission':
             power_type = required_power_plant.split('_')[0]
-            return f"{base_class}_{power_type}"
+            return f'{base_class}_{power_type}'
         if base_class == 'Fusion':
             power_type = required_power_plant.split('_')[0]
-            return f"{base_class}_{power_type}"
+            if power_type == 'Z':
+                power_type = 'ZPinch'
+            return f'{base_class}_{power_type}'
         return base_class
     
     # Group data by driveClassification and filter for x1 drives only
@@ -237,14 +239,14 @@ def plot_thrust_vs_ev(json_file):
     
     # Save figure with adjusted bbox to include legend
     plt.savefig('thrust_vs_ev_plot_labeled.png', dpi=300, bbox_inches='tight')
-    print("Plot saved as 'thrust_vs_ev_plot_labeled.png'")
+    print('Plot saved as 'thrust_vs_ev_plot_labeled.png'')
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     if len(sys.argv) > 1:
         json_file = sys.argv[1]
     else:
         # Default path if none provided
-        json_file = "public/gamefiles/Templates/TIDriveTemplate.json"
+        json_file = 'public/gamefiles/Templates/TIDriveTemplate.json'
     
-    print(f"Generating plot from {json_file}...")
+    print(f'Generating plot from {json_file}...')
     plot_thrust_vs_ev(json_file)
