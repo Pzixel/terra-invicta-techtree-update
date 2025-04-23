@@ -1142,24 +1142,23 @@ if (swapsPerformed > 0) {
 // Add an overlap resolution phase that expands the layout to eliminate overlaps
 function resolveOverlaps() {
   const nodes = simulation.nodes();
-  let overlapCount = 0;
   let iterations = 0;
-  const MAX_ITERATIONS = 50;
+  const MAX_ITERATIONS = 100; // Increased from 50
   
-  // Helper function to check if two labels overlap
-  function checkOverlap(nodeA, nodeB) {
+  // Helper function to check if two labels overlap with a buffer
+  function checkOverlap(nodeA, nodeB, buffer = 2) {
     const rectA = {
-      left: nodeA.x - nodeA.width / 2,
-      right: nodeA.x + nodeA.width / 2,
-      top: nodeA.y - nodeA.height / 2,
-      bottom: nodeA.y + nodeA.height / 2
+      left: nodeA.x - nodeA.width / 2 - buffer,
+      right: nodeA.x + nodeA.width / 2 + buffer,
+      top: nodeA.y - nodeA.height / 2 - buffer,
+      bottom: nodeA.y + nodeA.height / 2 + buffer
     };
     
     const rectB = {
-      left: nodeB.x - nodeB.width / 2,
-      right: nodeB.x + nodeB.width / 2,
-      top: nodeB.y - nodeB.height / 2,
-      bottom: nodeB.y + nodeB.height / 2
+      left: nodeB.x - nodeB.width / 2 - buffer,
+      right: nodeB.x + nodeB.width / 2 + buffer,
+      top: nodeB.y - nodeB.height / 2 - buffer,
+      bottom: nodeB.y + nodeB.height / 2 + buffer
     };
     
     // Check if they overlap
@@ -1181,6 +1180,19 @@ function resolveOverlaps() {
     return { overlap: false, area: 0, width: 0, height: 0 };
   }
   
+  // Count total overlaps with specified buffer
+  function countTotalOverlaps(buffer = 2) {
+    let count = 0;
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        if (checkOverlap(nodes[i], nodes[j], buffer).overlap) {
+          count++;
+        }
+      }
+    }
+    return count;
+  }
+  
   // Helper to record initial positions for reference
   const initialPositions = nodes.map(node => ({
     id: node.drive.name,
@@ -1189,7 +1201,7 @@ function resolveOverlaps() {
   }));
   
   // Set up a non-linear force that pushes overlapping labels apart
-  function applyOverlapResolutionForce() {
+  function applyOverlapResolutionForce(forceFactor = 1.0, buffer = 2) {
     // Reset adjustment velocities
     nodes.forEach(node => {
       node.dx = 0;
@@ -1205,8 +1217,8 @@ function resolveOverlaps() {
       for (let j = i + 1; j < nodes.length; j++) {
         const nodeB = nodes[j];
         
-        // Check for overlap
-        const overlapResult = checkOverlap(nodeA, nodeB);
+        // Check for overlap with buffer
+        const overlapResult = checkOverlap(nodeA, nodeB, buffer);
         
         if (overlapResult.overlap) {
           totalOverlaps++;
@@ -1228,18 +1240,18 @@ function resolveOverlaps() {
             const nx = Math.cos(angle);
             const ny = Math.sin(angle);
             
-            nodeA.dx -= nx * overlapResult.area * 0.01;
-            nodeA.dy -= ny * overlapResult.area * 0.01;
-            nodeB.dx += nx * overlapResult.area * 0.01;
-            nodeB.dy += ny * overlapResult.area * 0.01;
+            nodeA.dx -= nx * overlapResult.area * 0.05 * forceFactor;
+            nodeA.dy -= ny * overlapResult.area * 0.05 * forceFactor;
+            nodeB.dx += nx * overlapResult.area * 0.05 * forceFactor;
+            nodeB.dy += ny * overlapResult.area * 0.05 * forceFactor;
           } else {
             // Calculate normalized direction
             const nx = dx / dist;
             const ny = dy / dist;
             
             // Calculate force magnitude based on overlap area
-            // Use a non-linear (quadratic) relationship to make large overlaps much stronger
-            const forceMagnitude = Math.sqrt(overlapResult.area) * 0.5;
+            // Use a non-linear relationship to make large overlaps much stronger
+            const forceMagnitude = Math.pow(overlapResult.area, 0.8) * 0.8 * forceFactor;
             
             // Calculate minimum displacement needed to resolve overlap
             let displacementNeeded;
@@ -1251,8 +1263,8 @@ function resolveOverlaps() {
               displacementNeeded = overlapResult.height / Math.abs(ny);
             }
             
-            // Apply force with a small buffer to ensure separation
-            const adjustedForce = Math.max(forceMagnitude, displacementNeeded * 0.55);
+            // Apply force with a buffer to ensure separation
+            const adjustedForce = Math.max(forceMagnitude, displacementNeeded * 0.7);
             
             // Apply to both nodes inversely proportional to distance from anchor
             const distA = Math.sqrt(Math.pow(nodeA.x - nodeA.anchorX, 2) + Math.pow(nodeA.y - nodeA.anchorY, 2));
@@ -1270,7 +1282,7 @@ function resolveOverlaps() {
             if (distA > MAX_DISTANCE) ratioA = 0.1;
             if (distB > MAX_DISTANCE) ratioB = 0.1;
             
-            // Apply forces
+            // Apply forces with strong factor for overlapping
             nodeA.dx -= nx * adjustedForce * ratioB;
             nodeA.dy -= ny * adjustedForce * ratioB;
             nodeB.dx += nx * adjustedForce * ratioA;
@@ -1286,8 +1298,8 @@ function resolveOverlaps() {
       const initialPos = initialPositions.find(p => p.id === node.drive.name);
       
       // Apply adjustment with dampening to prevent oscillations
-      node.x += node.dx * 0.5;
-      node.y += node.dy * 0.5;
+      node.x += node.dx * 0.7;  // Increased from 0.5
+      node.y += node.dy * 0.7;  // Increased from 0.5
       
       // Make sure node stays within chart area
       const halfWidth = node.width / 2;
@@ -1314,8 +1326,9 @@ function resolveOverlaps() {
         const distFromInitial = Math.sqrt(dxFromInitial * dxFromInitial + dyFromInitial * dyFromInitial);
         
         // If we've moved too far from initial position, pull back slightly
-        if (distFromInitial > 30) { // Allow some movement but not too much
-          const pullBackFactor = 0.1; // Gentle pull
+        // Use a weaker pull-back to allow more separation
+        if (distFromInitial > 40) { // Increased from 30
+          const pullBackFactor = 0.05; // Reduced from 0.1
           node.x -= dxFromInitial * pullBackFactor;
           node.y -= dyFromInitial * pullBackFactor;
         }
@@ -1325,17 +1338,55 @@ function resolveOverlaps() {
     return totalOverlaps;
   }
   
-  // Main overlap resolution loop
-  do {
-    overlapCount = applyOverlapResolutionForce();
+  // Add a function to apply jitter for breaking persistent overlaps
+  function applyJitter(amount) {
+    nodes.forEach(node => {
+      // Add small random movements to break stalemates
+      node.x += (Math.random() - 0.5) * amount;
+      node.y += (Math.random() - 0.5) * amount;
+      
+      // Make sure node stays within chart area and distance limits
+      checkAndFixNodePosition(node);
+    });
+  }
+  
+  // Main overlap resolution with graduated approach
+  console.log(`Initial overlaps: ${countTotalOverlaps(2)}`);
+  
+  // Phase 1: Gentle separation with small buffer
+  for (let i = 0; i < 30 && countTotalOverlaps(1) > 0; i++) {
+    applyOverlapResolutionForce(0.8, 1);
     iterations++;
-  } while (overlapCount > 0 && iterations < MAX_ITERATIONS);
+  }
   
-  console.log(`Resolved overlaps in ${iterations} iterations. Remaining overlaps: ${overlapCount}`);
+  // Phase 2: Standard separation with medium buffer
+  for (let i = 0; i < 30 && countTotalOverlaps(2) > 0; i++) {
+    applyOverlapResolutionForce(1.0, 2);
+    iterations++;
+    
+    // Apply small jitter every 5 iterations to break stalemates
+    if (i % 5 === 0) {
+      applyJitter(1.0);
+    }
+  }
   
-  // If we still have overlaps, do a final pass with stronger forces
-  if (overlapCount > 0) {
-    // Create a priority queue of overlapping pairs sorted by overlap area
+  // Phase 3: Aggressive separation with larger buffer
+  for (let i = 0; i < 40 && countTotalOverlaps(3) > 0; i++) {
+    applyOverlapResolutionForce(1.5, 3);
+    iterations++;
+    
+    // Apply larger jitter in later iterations
+    if (i % 4 === 0) {
+      applyJitter(2.0);
+    }
+  }
+  
+  console.log(`After iterative resolution: ${countTotalOverlaps(3)} overlaps remain after ${iterations} iterations`);
+  
+  // Direct resolution of remaining overlaps
+  function resolveRemainingOverlaps() {
+    // Create a list of all overlapping pairs with a larger buffer
+    const buffer = 4; // Increased buffer for final separation
     const overlappingPairs = [];
     
     for (let i = 0; i < nodes.length; i++) {
@@ -1343,7 +1394,7 @@ function resolveOverlaps() {
       
       for (let j = i + 1; j < nodes.length; j++) {
         const nodeB = nodes[j];
-        const overlapResult = checkOverlap(nodeA, nodeB);
+        const overlapResult = checkOverlap(nodeA, nodeB, buffer);
         
         if (overlapResult.overlap) {
           overlappingPairs.push({
@@ -1360,7 +1411,9 @@ function resolveOverlaps() {
     // Sort by overlap area (largest first)
     overlappingPairs.sort((a, b) => b.area - a.area);
     
-    // Process each pair
+    console.log(`Found ${overlappingPairs.length} overlap pairs to resolve directly`);
+    
+    // Process each pair with a more aggressive separation
     overlappingPairs.forEach(pair => {
       const { nodeA, nodeB, width, height } = pair;
       
@@ -1368,34 +1421,123 @@ function resolveOverlaps() {
       const dx = nodeB.x - nodeA.x;
       const dy = nodeB.y - nodeA.y;
       
-      // Preserve relative positioning (if A is left of B, keep it that way)
-      if (Math.abs(dx) >= Math.abs(dy)) {
-        // Horizontal separation
-        const separation = width * 1.05; // Add a small buffer
+      // Calculate the minimum separation needed in each direction with buffer
+      const minSeparationX = width + 4; // Add a larger buffer
+      const minSeparationY = height + 4;
+      
+      // Decide direction of separation based on which requires less movement
+      // and respects the current relative positioning
+      if (Math.abs(dx) <= Math.abs(dy)) {
+        // Horizontal separation is better
+        const separationNeeded = minSeparationX;
+        
         if (dx > 0) {
           // B is to the right of A
+          const moveEach = separationNeeded / 2;
+          nodeA.x -= moveEach;
+          nodeB.x += moveEach;
+        } else {
+          // A is to the right of B
+          const moveEach = separationNeeded / 2;
+          nodeA.x += moveEach;
+          nodeB.x -= moveEach;
+        }
+      } else {
+        // Vertical separation is better
+        const separationNeeded = minSeparationY;
+        
+        if (dy > 0) {
+          // B is below A
+          const moveEach = separationNeeded / 2;
+          nodeA.y -= moveEach;
+          nodeB.y += moveEach;
+        } else {
+          // A is below B
+          const moveEach = separationNeeded / 2;
+          nodeA.y += moveEach;
+          nodeB.y -= moveEach;
+        }
+      }
+      
+      // Make sure nodes stay within boundaries and distance constraints
+      checkAndFixNodePosition(nodeA);
+      checkAndFixNodePosition(nodeB);
+    });
+    
+    return overlappingPairs.length;
+  }
+  
+  // Run direct resolution a few times with different buffer sizes
+  let remainingPairs = resolveRemainingOverlaps();
+  
+  // If we still have overlaps, try once more with different parameters
+  if (countTotalOverlaps(2) > 0) {
+    // Apply a small jitter to break persistent overlaps
+    applyJitter(3.0);
+    
+    // Run aggressive force phase
+    for (let i = 0; i < 20 && countTotalOverlaps(2) > 0; i++) {
+      applyOverlapResolutionForce(2.0, 4);
+    }
+    
+    // Final direct resolution
+    resolveRemainingOverlaps();
+  }
+  
+  // Detect any persistent problem areas (labels that still overlap)
+  const persistentOverlaps = [];
+  
+  for (let i = 0; i < nodes.length; i++) {
+    const nodeA = nodes[i];
+    
+    for (let j = i + 1; j < nodes.length; j++) {
+      const nodeB = nodes[j];
+      if (checkOverlap(nodeA, nodeB, 2).overlap) {
+        persistentOverlaps.push({
+          labelA: nodeA.drive.name,
+          labelB: nodeB.drive.name,
+          nodeA,
+          nodeB
+        });
+      }
+    }
+  }
+  
+  if (persistentOverlaps.length > 0) {
+    console.log(`WARNING: ${persistentOverlaps.length} persistent overlaps remain`);
+    
+    // Last resort: Handle persistent overlaps with more aggressive separation
+    persistentOverlaps.forEach(overlap => {
+      const { nodeA, nodeB } = overlap;
+      
+      // Determine the direction with most space
+      const dx = nodeB.x - nodeA.x;
+      const dy = nodeB.y - nodeA.y;
+      
+      // Separate by a larger amount in the direction with more space
+      if (Math.abs(dx) >= Math.abs(dy)) {
+        // Horizontal separation with a larger gap
+        const separation = (nodeA.width + nodeB.width) / 2 + 6;
+        if (dx > 0) {
           nodeA.x -= separation / 2;
           nodeB.x += separation / 2;
         } else {
-          // A is to the right of B
           nodeA.x += separation / 2;
           nodeB.x -= separation / 2;
         }
       } else {
-        // Vertical separation
-        const separation = height * 1.05; // Add a small buffer
+        // Vertical separation with a larger gap
+        const separation = (nodeA.height + nodeB.height) / 2 + 6;
         if (dy > 0) {
-          // B is below A
           nodeA.y -= separation / 2;
           nodeB.y += separation / 2;
         } else {
-          // A is below B
           nodeA.y += separation / 2;
           nodeB.y -= separation / 2;
         }
       }
       
-      // Make sure nodes stay within boundaries
+      // Ensure boundaries and constraints
       checkAndFixNodePosition(nodeA);
       checkAndFixNodePosition(nodeB);
     });
@@ -1405,6 +1547,8 @@ function resolveOverlaps() {
   nodes.forEach(node => {
     checkAndFixNodePosition(node);
   });
+  
+  console.log(`Final overlaps: ${countTotalOverlaps(2)}`);
 }
 
 // Run the overlap resolution phase
