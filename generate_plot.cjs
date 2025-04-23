@@ -734,7 +734,7 @@ function optimizeLabelSwaps() {
   const nodes = simulation.nodes();
   let improvementFound = true;
   let swapCount = 0;
-  const MAX_SWAPS = 10; // Limit the number of swaps to avoid disrupting too much
+  const MAX_SWAPS = 15; // Increased limit to allow for more optimizations
   
   // Helper function to calculate distance between a label and its anchor
   function calculateDistance(node) {
@@ -841,9 +841,18 @@ function optimizeLabelSwaps() {
     return hasOverlap;
   }
   
-  // Prioritize nodes that are far from their anchor points
-  const MIN_DISTANCE_THRESHOLD = 30; // Only consider swaps for labels that are decently far away
+  // Function to check if two nodes have the correct vertical relationship based on their anchor points
+  function hasCorrectVerticalOrder(nodeA, nodeB) {
+    // If nodeA's anchor has higher thrust (lower Y on screen), its label should be above nodeB's label
+    const anchorsInCorrectOrder = nodeA.anchorY < nodeB.anchorY;
+    const labelsInCorrectOrder = nodeA.y < nodeB.y;
+    return (anchorsInCorrectOrder === labelsInCorrectOrder);
+  }
   
+  // Prioritize nodes that are far from their anchor points
+  const MIN_DISTANCE_THRESHOLD = 25; // Only consider swaps for labels that are decently far away
+  
+  // First pass: General distance-based swapping
   while (improvementFound && swapCount < MAX_SWAPS) {
     improvementFound = false;
     
@@ -871,9 +880,15 @@ function optimizeLabelSwaps() {
         // Calculate improvement in total distance
         const currentTotalDist = distA1 + distB1;
         const swappedTotalDist = distA2 + distB2;
+        let improvement = currentTotalDist - swappedTotalDist;
+        
+        // Add bonus for vertical alignment according to Y values
+        const currentVerticalAlignment = hasCorrectVerticalOrder(nodeA, nodeB) ? 0 : 20;
+        const swappedVerticalAlignment = !hasCorrectVerticalOrder(nodeA, nodeB) ? 0 : 20;
+        improvement += (swappedVerticalAlignment - currentVerticalAlignment);
         
         // Only swap if there's meaningful improvement and no new overlaps
-        if (currentTotalDist - swappedTotalDist > 10 && !swapWouldCreateOverlaps(nodeA, nodeB)) {
+        if (improvement > 5 && !swapWouldCreateOverlaps(nodeA, nodeB)) {
           // Perform the swap
           const tempX = nodeA.x;
           const tempY = nodeA.y;
@@ -894,14 +909,91 @@ function optimizeLabelSwaps() {
     }
   }
   
+  // Second pass: Specifically target pairs that are close to each other but in wrong vertical order
+  // Find pairs of nodes that are close to each other in X but have incorrect vertical order
+  const verticalMismatchPairs = [];
+  
+  for (let i = 0; i < nodes.length; i++) {
+    const nodeA = nodes[i];
+    
+    for (let j = i + 1; j < nodes.length; j++) {
+      const nodeB = nodes[j];
+      
+      // If nodes are within reasonable X distance (horizontally close)
+      const horizDistance = Math.abs(nodeA.x - nodeB.x);
+      if (horizDistance < 150) {
+        // Check if Y ordering is incorrect based on thrust values
+        if (!hasCorrectVerticalOrder(nodeA, nodeB)) {
+          // Calculate how much their vertical positions differ from ideal
+          const verticalMismatchScore = Math.abs(nodeA.y - nodeB.y);
+          verticalMismatchPairs.push({
+            nodeA,
+            nodeB,
+            score: verticalMismatchScore
+          });
+        }
+      }
+    }
+  }
+  
+  // Sort pairs by mismatch score (highest first)
+  verticalMismatchPairs.sort((a, b) => b.score - a.score);
+  
+  // Try to fix worst vertical mismatches first
+  for (const pair of verticalMismatchPairs) {
+    if (swapCount >= MAX_SWAPS) break;
+    
+    const { nodeA, nodeB } = pair;
+    
+    // Calculate distances before and after potential swap
+    const distA1 = calculateDistance(nodeA);
+    const distB1 = calculateDistance(nodeB);
+    
+    const dx1 = nodeB.x - nodeA.anchorX;
+    const dy1 = nodeB.y - nodeA.anchorY;
+    const distA2 = Math.sqrt(dx1 * dx1 + dy1 * dy1);
+    
+    const dx2 = nodeA.x - nodeB.anchorX;
+    const dy2 = nodeA.y - nodeB.anchorY;
+    const distB2 = Math.sqrt(dx2 * dx2 + dy2 * dy2);
+    
+    // Calculate total distance change - we're willing to accept a small increase
+    // in total distance to fix vertical ordering
+    const distanceDifference = (distA2 + distB2) - (distA1 + distB1);
+    
+    // Only swap if it doesn't increase total distance too much and doesn't create overlaps
+    if (distanceDifference < 30 && !swapWouldCreateOverlaps(nodeA, nodeB)) {
+      // Perform the swap
+      const tempX = nodeA.x;
+      const tempY = nodeA.y;
+      nodeA.x = nodeB.x;
+      nodeA.y = nodeB.y;
+      nodeB.x = tempX;
+      nodeB.y = tempY;
+      
+      swapCount++;
+      console.log(`Swapped positions for vertical alignment: "${nodeA.drive.name}" and "${nodeB.drive.name}"`);
+      
+      // Make sure positions are still valid after swap
+      checkAndFixNodePosition(nodeA);
+      checkAndFixNodePosition(nodeB);
+    }
+  }
+  
   // Special case handling for specifically mentioned label pairs
-  // This targets exact pairs that we know would benefit from swapping
   const knownProblemPairs = [
     ["Helion Plasmajet Lantern", "Helion Nova Lantern"],
-    ["Protium Torus Lantern", "Advanced Alien Fusion Torch"]
+    ["Protium Torus Lantern", "Advanced Alien Fusion Torch"],
+    ["Deuteron Polywell Drive", "Deuteron Torus Drive"],
+    ["Deuteron Torus Drive", "Helion Reflex Drive"],
+    ["Helion Reflex Drive", "Deuteron Reflex Drive"],
+    ["Triton Reflex Drive", "Neutron Flux Torch"],
+    ["Triton Nova Drive", "Deuteron Nova Lantern"]
   ];
   
   knownProblemPairs.forEach(pair => {
+    if (swapCount >= MAX_SWAPS) return;
+    
     const nodeA = nodes.find(n => n.drive.name === pair[0]);
     const nodeB = nodes.find(n => n.drive.name === pair[1]);
     
@@ -923,8 +1015,11 @@ function optimizeLabelSwaps() {
       const currentTotal = distA1 + distB1;
       const swappedTotal = distA2 + distB2;
       
-      // If swapping would improve or at least not significantly worsen
-      if (swappedTotal <= currentTotal + 5 && !swapWouldCreateOverlaps(nodeA, nodeB)) {
+      // For known problem pairs, be more willing to swap even if distance increases slightly
+      const threshold = 15; // Allow up to 15 units of total distance increase for known problem pairs
+      
+      // If swapping would not worsen too much and doesn't create overlaps
+      if (swappedTotal <= currentTotal + threshold && !swapWouldCreateOverlaps(nodeA, nodeB)) {
         // Perform the swap
         const tempX = nodeA.x;
         const tempY = nodeA.y;
@@ -935,9 +1030,98 @@ function optimizeLabelSwaps() {
         
         swapCount++;
         console.log(`Swapped known problem pair: "${nodeA.drive.name}" and "${nodeB.drive.name}"`);
+        
+        // Make sure positions are still valid after swap
+        checkAndFixNodePosition(nodeA);
+        checkAndFixNodePosition(nodeB);
       }
     }
   });
+  
+  // Final pass: Specialized vertical ordering fix for nearby labels
+  // This targets clusters of labels that need vertical reordering
+  function identifyClusters() {
+    const clusters = [];
+    const processed = new Set();
+    const MAX_HORIZONTAL_DISTANCE = 120;
+    
+    nodes.forEach(node => {
+      if (processed.has(node)) return;
+      
+      const cluster = [node];
+      processed.add(node);
+      
+      // Find all nodes that are horizontally close to this one
+      nodes.forEach(otherNode => {
+        if (otherNode === node || processed.has(otherNode)) return;
+        
+        const horizontalDist = Math.abs(node.x - otherNode.x);
+        if (horizontalDist < MAX_HORIZONTAL_DISTANCE) {
+          cluster.push(otherNode);
+          processed.add(otherNode);
+        }
+      });
+      
+      if (cluster.length > 1) {
+        clusters.push(cluster);
+      }
+    });
+    
+    return clusters;
+  }
+  
+  // Process each cluster to check vertical ordering
+  if (swapCount < MAX_SWAPS) {
+    const clusters = identifyClusters();
+    
+    clusters.forEach(cluster => {
+      // Sort the cluster by anchor Y position (thrust value)
+      cluster.sort((a, b) => a.anchorY - b.anchorY);
+      
+      // Try to ensure the vertical ordering of labels matches anchor points
+      for (let i = 0; i < cluster.length - 1; i++) {
+        if (swapCount >= MAX_SWAPS) break;
+        
+        const nodeA = cluster[i];
+        const nodeB = cluster[i + 1];
+        
+        // If their vertical order is wrong and they're within horizontal range
+        if (nodeA.y > nodeB.y && Math.abs(nodeA.x - nodeB.x) < 120) {
+          // Calculate the cost of swapping
+          const distA1 = calculateDistance(nodeA);
+          const distB1 = calculateDistance(nodeB);
+          
+          const dx1 = nodeB.x - nodeA.anchorX;
+          const dy1 = nodeB.y - nodeA.anchorY;
+          const distA2 = Math.sqrt(dx1 * dx1 + dy1 * dy1);
+          
+          const dx2 = nodeA.x - nodeB.anchorX;
+          const dy2 = nodeA.y - nodeB.anchorY;
+          const distB2 = Math.sqrt(dx2 * dx2 + dy2 * dy2);
+          
+          // Allow a reasonable distance increase to fix vertical ordering
+          const distanceDifference = (distA2 + distB2) - (distA1 + distB1);
+          
+          if (distanceDifference < 40 && !swapWouldCreateOverlaps(nodeA, nodeB)) {
+            // Perform the swap
+            const tempX = nodeA.x;
+            const tempY = nodeA.y;
+            nodeA.x = nodeB.x;
+            nodeA.y = nodeB.y;
+            nodeB.x = tempX;
+            nodeB.y = tempY;
+            
+            swapCount++;
+            console.log(`Cluster vertical reordering: "${nodeA.drive.name}" and "${nodeB.drive.name}"`);
+            
+            // Make sure positions are still valid after swap
+            checkAndFixNodePosition(nodeA);
+            checkAndFixNodePosition(nodeB);
+          }
+        }
+      }
+    });
+  }
   
   // After all swaps are done, ensure no labels are overlapping
   if (swapCount > 0) {
