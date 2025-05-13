@@ -16,7 +16,7 @@ export function Searchbox({
     techDb,
     setShowProjects,
     onNavigateToNode,
-    getLocalizationString,
+    localizationDb,
     templateData,
     language
 }: SearchboxProps) {
@@ -43,24 +43,24 @@ export function Searchbox({
 
             let summaryText;
             if (node.isProject) {
-                summaryText = getLocalizationString("project", node.dataName, "summary");
+                summaryText = localizationDb.getLocalizationString("project", node.dataName, "summary");
             } else {
-                summaryText = getLocalizationString("tech", node.dataName, "summary");
+                summaryText = localizationDb.getLocalizationString("tech", node.dataName, "summary");
             }
 
             let effectsText;
             if (node.effects && node.effects.filter(effect => effect !== "").length > 0) {
-                effectsText = node.effects.filter(effect => effect !== "").map(effect => getLocalizationString("effect", effect, "description"));
+                effectsText = node.effects.filter(effect => effect !== "").map(effect => localizationDb.getLocalizationString("effect", effect, "description"));
             }
 
             const modulesText: string[] = [];
             if (node.isProject) {
-                const modTypes = ["battery", "drive", "gun", "habmodule", "heatsink", "laserweapon", "magneticgun", "missile", "particleweapon", "plasmaweapon", "powerplant", "radiator", "shiparmor", "shiphull", "utilitymodule"];
+                const modTypes = ["battery", "drive", "gun", "habmodule", "heatsink", "laserweapon", "magneticgun", "missile", "particleweapon", "plasmaweapon", "powerplant", "radiator", "shiparmor", "shiphull", "utilitymodule"] as const;
                 modTypes.forEach(modType => {
                     templateData[modType].forEach(module => {
                         if (module.requiredProjectName === node.dataName) {
-                            const description = getLocalizationString(modType, module.dataName, "description");
-                            modulesText.push(`${getLocalizationString(modType, module.dataName, "displayName")}/${description}`);
+                            const description = localizationDb.getLocalizationString(modType, module.dataName, "description");
+                            modulesText.push(`${localizationDb.getLocalizationString(modType, module.dataName, "displayName")}/${description}`);
                         }
                     });
                 });
@@ -73,8 +73,8 @@ export function Searchbox({
                     claimsText.push("gains a claim on");
 
                     claimsList.map(claim => {
-                        claimsText.push(getLocalizationString("nation", claim.nation1, "displayName"));
-                        claimsText.push(getLocalizationString("region", claim.region1, "displayName"));
+                        claimsText.push(localizationDb.getLocalizationString("nation", claim.nation1, "displayName"));
+                        claimsText.push(localizationDb.getLocalizationString("region", claim.region1, "displayName"));
                     });
                 }
             }

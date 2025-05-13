@@ -196,7 +196,7 @@ export function parseNode(techDb: TechDb, dumpAllEdges: boolean) {
         }
 
         nodeBucket.push({
-            label: "<b>" + tech.displayName + "</b>",
+            label: `<b>${tech.displayName}</b>`,
             id: tech.dataName,
             shape: "circularImage",
             image: getTechIconFile(tech.techCategory),

@@ -3,12 +3,11 @@ import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip }
 import { findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
 import { TechSidebarProps } from './types/props';
-import { TechTemplate, Claim, Adjacency, DataModule } from './types';
+import { TechTemplate, Claim, Adjacency, DataModule, TemplateType } from './types';
 
 export function TechSidebar({
   templateData,
-  getLocalizationString,
-  getReadable,
+  localizationDb,
   language,
   techDb,
   onNavigateToNode,
@@ -20,7 +19,7 @@ export function TechSidebar({
     const [isolated, setIsolated] = useState(false);
 
     function getReadableEffect(dataName: string) {
-        const description = getLocalizationString("effect", dataName, "description");
+        const description = localizationDb.getLocalizationString("effect", dataName, "description");
 
         if (!description) {
             return "effect." + dataName + ".description";
@@ -49,7 +48,7 @@ export function TechSidebar({
                     return Math.abs((effectVal - 1.0)).toLocaleString(locale, { style: "percent" });
 
                 case "{13}":
-                    return getReadable("region", effectStr, "displayName");
+                    return localizationDb.getReadable("region", effectStr, "displayName");
 
                 case "{14}":
                     return "our faction";
@@ -82,10 +81,10 @@ export function TechSidebar({
         let summary;
 
         if (node.isProject) {
-            summary = getLocalizationString("project", node.dataName, "summary");
+            summary = localizationDb.getLocalizationString("project", node.dataName, "summary");
 
         } else {
-            summary = getLocalizationString("tech", node.dataName, "summary");
+            summary = localizationDb.getLocalizationString("tech", node.dataName, "summary");
         }
 
         if (!summary) {
@@ -108,8 +107,8 @@ export function TechSidebar({
     }
 
     function getReadableClaim(claim: Claim) {
-        const nationName = getReadable("nation", claim.nation1, "displayName");
-        const regionName = getReadable("region", claim.region1, "displayName");
+        const nationName = localizationDb.getReadable("nation", claim.nation1, "displayName");
+        const regionName = localizationDb.getReadable("region", claim.region1, "displayName");
 
         if (!nationName || !regionName) {
             return null;
@@ -119,8 +118,8 @@ export function TechSidebar({
     }
 
     function getReadableAdjacency(adjacency: Adjacency) {
-        const region1Name = getReadable("region", adjacency.region1, "displayName");
-        const region2Name = getReadable("region", adjacency.region2, "displayName");
+        const region1Name = localizationDb.getReadable("region", adjacency.region1, "displayName");
+        const region2Name = localizationDb.getReadable("region", adjacency.region2, "displayName");
         if (adjacency.friendlyOnly) {
             return `${region1Name} and ${region2Name} are now considered to be adjacent for friendly traffic`;
         } else {
@@ -131,14 +130,14 @@ export function TechSidebar({
     // not used
     // function getObjectiveNames(objectiveName) {
     //     let objString;
-    //     const objLocStrings = getReadable("objective", objectiveName, "displayName");
+    //     const objLocStrings = localizationDb.getReadable("objective", objectiveName, "displayName");
 
     //     if (typeof objLocStrings === "string") {
     //         objString = objLocStrings;
     //     } else {
     //         const objStrings = [];
     //         Object.entries(objLocStrings).forEach(x => {
-    //             objStrings.push(x[1] + " (" + getReadable("faction", x[0], "displayName") + ")");
+    //             objStrings.push(x[1] + " (" + localizationDb.getReadable("faction", x[0], "displayName") + ")");
     //         });
     //         objString = objStrings.join(", ");
     //     }
@@ -146,9 +145,9 @@ export function TechSidebar({
     //     return objString;
     // }
 
-    function findModules(projectName: string): { data: any, type: string }[] {
-        const results: { data: any, type: string }[] = [];
-        const modTypes = ["battery", "drive", "gun", "habmodule", "heatsink", "laserweapon", "magneticgun", "missile", "particleweapon", "plasmaweapon", "powerplant", "radiator", "shiparmor", "shiphull", "utilitymodule"];
+    function findModules(projectName: string): { data: any, type: TemplateType }[] {
+        const results: { data: any, type: TemplateType }[] = [];
+        const modTypes = ["battery", "drive", "gun", "habmodule", "heatsink", "laserweapon", "magneticgun", "missile", "particleweapon", "plasmaweapon", "powerplant", "radiator", "shiparmor", "shiphull", "utilitymodule"] as const;
         modTypes.forEach(modType => {
             templateData[modType].forEach(module => {
                 if (module.requiredProjectName === projectName) {
@@ -186,14 +185,14 @@ export function TechSidebar({
         let faction = string.slice(1, -1);
         faction = faction.replace("Leader", "Council");
         faction = faction[0].toUpperCase() + faction.slice(1);
-        return getLocalizationString("faction", faction, "fullLeader")!;
+        return localizationDb.getLocalizationString("faction", faction, "fullLeader")!;
     }
 
     const buildModuleDisplay = (dataModule: DataModule) => {
         const icon = getIcon(dataModule.data);
         return <div>
             {icon && <img src={"./icons/" + icon + ".png"} />}
-            <p>{getLocalizationString(dataModule.type, dataModule.data.dataName, "description")}</p>
+            <p>{localizationDb.getLocalizationString(dataModule.type, dataModule.data.dataName, "description")}</p>
             <pre>{JSON.stringify(dataModule.data, null, 2)}</pre>
         </div>
     };
@@ -424,7 +423,7 @@ export function TechSidebar({
             return null;
         }
         const org = node.orgGranted;
-        const displayName = getLocalizationString("org", org, "displayName");
+        const displayName = localizationDb.getLocalizationString("org", org, "displayName");
         return (
             <>
                 <h4>{language.uiTexts.orgGranted}</h4>
@@ -439,7 +438,7 @@ export function TechSidebar({
             return null;
         }
         const orgMarketElements = orgMarket.map(org => {
-            const displayName = getLocalizationString("org", org.dataName, "displayName") ?? org.dataName;
+            const displayName = localizationDb.getLocalizationString("org", org.dataName, "displayName") ?? org.dataName;
             const displayText = `${displayName} ${'⭐'.repeat(org.tier)}`;
             return (
                 <li key={`org-${org.dataName}`}>
@@ -487,7 +486,7 @@ export function TechSidebar({
             return null;
         }
         const traitElements = traits.map(trait => {
-            const displayName = getLocalizationString("trait", trait.dataName, "displayName");
+            const displayName = localizationDb.getLocalizationString("trait", trait.dataName, "displayName");
             return (
                 <li key={`trait-${trait.dataName}`}>{displayName ? displayName : trait.dataName}</li>
             );
@@ -506,7 +505,7 @@ export function TechSidebar({
             return null;
         }
         const moduleElements = modules.map(module => {
-            const displayName = getLocalizationString(module.type, module.data.dataName, "displayName");
+            const displayName = localizationDb.getLocalizationString(module.type, module.data.dataName, "displayName");
             return (
                 <div key={`mod-${module.data.dataName}`}>
                     <br />
@@ -626,7 +625,7 @@ export function TechSidebar({
 
                 {/* Faction requirements */}
                 {node.isProject && node.factionAlways && (
-                    <h5>{language.uiTexts.factionAlways} {getReadable("faction", node.factionAlways, "displayName")}</h5>
+                    <h5>{language.uiTexts.factionAlways} {localizationDb.getReadable("faction", node.factionAlways, "displayName")}</h5>
                 )}
 
                 {node.isProject && node.factionPrereq && node.factionPrereq.filter(faction => faction !== "").length > 0 && (
@@ -634,7 +633,7 @@ export function TechSidebar({
                         {language.uiTexts.factionPrereq}: {
                             node.factionPrereq
                                 .filter(faction => faction !== "")
-                                .map(faction => getReadable("faction", faction, "displayName"))
+                                .map(faction => localizationDb.getReadable("faction", faction, "displayName"))
                                 .join(", ")
                         }
                     </h5>
@@ -646,7 +645,7 @@ export function TechSidebar({
 
                 {/* Other requirements */}
                 {node.isProject && node.requiredMilestone && node.requiredMilestone !== "" && (
-                    <h4>{language.uiTexts.milestoneNeeded}: {getReadable("objective", node.requiredMilestone, "MilestoneFulfilled")}</h4>
+                    <h4>{language.uiTexts.milestoneNeeded}: {localizationDb.getReadable("objective", node.requiredMilestone, "MilestoneFulfilled")}</h4>
                 )}
 
                 {/* Special flags */}
@@ -670,27 +669,27 @@ export function TechSidebar({
                 {/* Completion text */}
                 {node.isProject ? (
                     <>
-                        {getLocalizationString("project", node.dataName, "description") && (
+                        {localizationDb.getLocalizationString("project", node.dataName, "description") && (
                             <>
                                 <h4>{language.uiTexts.completionText}</h4>
-                                <p dangerouslySetInnerHTML={{ __html: getLocalizationString("project", node.dataName, "description")! }} />
+                                <p dangerouslySetInnerHTML={{ __html: localizationDb.getLocalizationString("project", node.dataName, "description")! }} />
                             </>
                         )}
                     </>
                 ) : (
                     <>
-                        {getLocalizationString("tech", node.dataName, "quote") && (
+                        {localizationDb.getLocalizationString("tech", node.dataName, "quote") && (
                             <>
                                 <h4>{language.uiTexts.completionQuote}</h4>
                                 <p dangerouslySetInnerHTML={{
-                                    __html: getLocalizationString("tech", node.dataName, "quote")!.replace(/\{(.*?)\}/g, getLeaderName)
+                                    __html: localizationDb.getLocalizationString("tech", node.dataName, "quote")!.replace(/\{(.*?)\}/g, getLeaderName)
                                 }} />
                             </>
                         )}
-                        {getLocalizationString("tech", node.dataName, "description") && (
+                        {localizationDb.getLocalizationString("tech", node.dataName, "description") && (
                             <>
                                 <h4>{language.uiTexts.completionText}</h4>
-                                <p dangerouslySetInnerHTML={{ __html: getLocalizationString("tech", node.dataName, "description")! }} />
+                                <p dangerouslySetInnerHTML={{ __html: localizationDb.getLocalizationString("tech", node.dataName, "description")! }} />
                             </>
                         )}
                     </>

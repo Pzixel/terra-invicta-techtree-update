@@ -3,14 +3,110 @@ export interface LocalizationEntry {
   [field: string]: string | { [faction: string]: string };
 }
 
-export interface LocalizationData {
-  [type: string]: {
-    [dataName: string]: LocalizationEntry;
-  };
+export const TemplateTypes = {
+    "battery": "TIBatteryTemplate",
+    "drive": "TIDriveTemplate",
+    "effect": "TIEffectTemplate",
+    "faction": "TIFactionTemplate",
+    "gun": "TIGunTemplate",
+    "habmodule": "TIHabModuleTemplate",
+    "heatsink": "TIHeatSinkTemplate",
+    "laserweapon": "TILaserWeaponTemplate",
+    "magneticgun": "TIMagneticGunTemplate",
+    "missile": "TIMissileTemplate",
+    "nation": "TINationTemplate",
+    "objective": "TIObjectiveTemplate",
+    "org": "TIOrgTemplate",
+    "particleweapon": "TIParticleWeaponTemplate",
+    "plasmaweapon": "TIPlasmaWeaponTemplate",
+    "powerplant": "TIPowerPlantTemplate",
+    "project": "TIProjectTemplate",
+    "radiator": "TIRadiatorTemplate",
+    "region": "TIRegionTemplate",
+    "shiparmor": "TIShipArmorTemplate",
+    "shiphull": "TIShipHullTemplate",
+    "tech": "TITechTemplate",
+    "trait": "TITraitTemplate",
+    "utilitymodule": "TIUtilityModuleTemplate"
+};
+
+export type TemplateType = keyof typeof TemplateTypes;
+
+export class LocalizationDb {
+    localizationStrings: Map<string, string>;
+    
+    constructor(localizationFileContent: string[]) {
+        this.localizationStrings = new Map<string, string>();
+
+        for (const file of localizationFileContent) {
+            const lines = file.split("\n");
+            for (const line of lines) {
+                const match = /([^=]+)=([^\/]+?)[ \t]*(?=\/|$)/g.exec(line);
+                if (match) {
+                    const key = match[1].trim();
+                    const value = match[2].trim();
+                    this.localizationStrings.set(key, value);
+                }
+            }
+        }
+    }
+
+    private toKey(
+        type: TemplateType,
+        dataName: string,
+        field: string
+    ): string {
+        return `${TemplateTypes[type]}.${field}.${dataName}`;
+    }
+    
+
+    getLocalizationString(
+      type: TemplateType,
+      dataName: string,
+      field: string
+    ): string | undefined {
+      return this.localizationStrings.get(this.toKey(type, dataName, field));
+    }
+
+    getReadable(
+        type: TemplateType,
+        dataName: string,
+        field: string
+    ): string {
+        let text = this.getLocalizationString(type, dataName, field);
+
+        if (text) {
+            return text;
+        }
+
+        if (dataName.startsWith("2070")) {
+            return "";
+        }
+
+        if (dataName.startsWith("map_")) {
+            text = this.getLocalizationString(type, dataName.replace("map_", ""), field);
+        }
+
+        if (text) {
+            return text;
+        }
+
+        console.log(`Missing localization for ${this.toKey(type, dataName, field)}`);
+
+        return this.toKey(type, dataName, field);
+    }
 }
 
-export interface TemplateData {
-  [type: string]: any[];
+export type TemplateData = Record<string, any[]>;
+
+export function getTemplateData(
+    templates: [string, any[]][],
+): TemplateData {
+    const db: TemplateData = {};
+    for (const [type, entries] of templates) {
+        db[type] = entries.filter((entry: any) => !entry.disable);
+    }
+    return db;
 }
 
 export interface TechTemplate {
