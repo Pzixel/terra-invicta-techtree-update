@@ -1,36 +1,37 @@
 import React, { useEffect, useState } from 'react';
 import { parseNode, draw } from './techGraphRender';
 import * as vis from "vis-network/standalone";
+import { TechGraphProps } from './types/props';
 
-export const TechGraph = ({
-    techTree,
-    onNavigateToNode,
+export function TechGraph({
+    techDb, 
+    onNavigateToNode, 
     navigatedToNode,
-}) => {
-    const [network, setNetwork] = useState(null);
+}: TechGraphProps) {
+    const [network, setNetwork] = useState<vis.Network | null>(null);
 
     function drawTree() {
-        const { nodes, edges, lateNodes, lateEdges } = parseNode(techTree, false);
+        const { nodes, edges, lateNodes, lateEdges } = parseNode(techDb, false);
         const data = {
             nodes: new vis.DataSet(nodes),
-            edges: new vis.DataSet(edges)
+            edges: new vis.DataSet(edges as any)
         };
 
-        setNetwork(draw(techTree, data, lateNodes, lateEdges, onNavigateToNode));
+        setNetwork(draw(techDb, data, lateNodes, lateEdges, onNavigateToNode));
     }
 
     useEffect(() => {
         drawTree();
-    }, [techTree]);
+    }, [techDb]);
 
     useEffect(() => {
-        if (navigatedToNode) {
+        if (navigatedToNode && network) {
             network.selectNodes([navigatedToNode.dataName]);
             network.focus(navigatedToNode.dataName);
         }
-    }, [navigatedToNode]);
+    }, [navigatedToNode, network]);
 
     return (
         <div id="mynetwork"></div>
     );
-};
+}

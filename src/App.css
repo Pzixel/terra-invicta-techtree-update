@@ -50,13 +50,12 @@ body {
 }
 
 #options {
-    /* position: relative; */
-  
-  /* new */
     position: absolute;
     top:10px;
     left:10px;
   
+    display: flex;
+    gap: 10px;
   
     z-index: 1;
     width: 350px;
@@ -134,6 +133,25 @@ ul.hideBullets {
     margin: 0.5em;
 
     /* text-align: start; */
+}
+
+#costInfo {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#costBreakdown {
+    padding: auto;
+}
+
+#costBreakdown > ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.project-img {
+    background: black;
 }
 
 pre {

@@ -1,0 +1,391 @@
+interface LocalizedUi {
+    adjacencies: string;
+    baseAvailabilityChance: string;
+    claims: string;
+    completableOnceGlobally: string;
+    completionQuote: string;
+    completionText: string;
+    cost: string;
+    effects: string;
+    endgameTech: string;
+    factionAlways: string;
+    factionPrereq: string;
+    fullTextSearch: string;
+    hiddenEffect: any;
+    initialUnlockChance: string;
+    markDone: string;
+    markUndone: string;
+    maximumUnlockChance: string;
+    milestoneNeeded: string;
+    modulesUnlocked: string;
+    monthlyUnlockChanceIncrease: string;
+    orgGranted: string;
+    orgsAddedToMarket: string;
+    repeatable: string;
+    requiredResearch: string;
+    resourcesGranted: string;
+    search: string;
+    seeEntireTree: string;
+    seeTreeForThisNode: string;
+    showProjects: string;
+    summary: string;
+    totalTreeCost: string;
+    traits: string;
+    unblocksOneOrMoreModules: any;
+    unblocksResearch: string;
+}
+
+const englishUi: LocalizedUi = {
+    adjacencies: "Adjacencies",
+    baseAvailabilityChance: "Base Availability Chance",
+    claims: "Claims",
+    completableOnceGlobally: "Completable once globally",
+    completionQuote: "Completion Quote",
+    completionText: "Completion Text",
+    cost: "Cost",
+    effects: "Effects",
+    endgameTech: "Endgame tech",
+    factionAlways: "Always available to",
+    factionPrereq: "Only Available to",
+    fullTextSearch: "Full Text Search",
+    hiddenEffect: "Hidden effect: ",
+    initialUnlockChance: "Initial Unlock Chance",
+    markDone: "Mark done",
+    markUndone: "Mark undone",
+    maximumUnlockChance: "Maximum Unlock Chance",
+    milestoneNeeded: "Milestone Needed",
+    modulesUnlocked: "Modules Unlocked",
+    monthlyUnlockChanceIncrease: "Monthly Unlock Chance Increase",
+    orgGranted: "Org Granted",
+    orgsAddedToMarket: "Orgs Added to Market",
+    repeatable: "Repeatable",
+    requiredResearch: "Required Research",
+    resourcesGranted: "Resources Granted",
+    search: "Search",
+    seeEntireTree: "See entire tree",
+    seeTreeForThisNode: "See tree for this node",
+    showProjects: "Show Projects",
+    summary: "Summary",
+    totalTreeCost: "Total Tree Cost",
+    traits: "Councilor Traits Available",
+    unblocksOneOrMoreModules: "Unlocks one or more modules.",
+    unblocksResearch: "Unblocks Research",
+};
+
+export type Language = {
+    code: string;
+    icon: string;
+    name: string;
+    uiTexts: LocalizedUi;
+    locale: string;
+}
+
+const chsUi: LocalizedUi = {
+    adjacencies: "邻接关系",
+    baseAvailabilityChance: "基础可用几率",
+    claims: "声明",
+    completableOnceGlobally: "全球只能完成一次",
+    completionQuote: "完成引述",
+    completionText: "完成文本",
+    cost: "成本",
+    effects: "效果",
+    endgameTech: "终局科技",
+    factionAlways: "始终可用于",
+    factionPrereq: "仅限于",
+    fullTextSearch: "全文搜索",
+    hiddenEffect: "隐藏效果：",
+    initialUnlockChance: "初始解锁几率",
+    markDone: "标记为完成",
+    markUndone: "标记为未完成",
+    maximumUnlockChance: "最大解锁几率",
+    milestoneNeeded: "需要里程碑",
+    modulesUnlocked: "解锁模块",
+    monthlyUnlockChanceIncrease: "每月解锁几率增加",
+    orgGranted: "获得组织",
+    orgsAddedToMarket: "市场新增组织",
+    repeatable: "可重复",
+    requiredResearch: "需要研究",
+    resourcesGranted: "获得资源",
+    search: "搜索",
+    seeEntireTree: "查看完整技术树",
+    seeTreeForThisNode: "查看该节点的技术树",
+    showProjects: "显示项目",
+    summary: "摘要",
+    totalTreeCost: "总树形成本",
+    traits: "可用理事特质",
+    unblocksOneOrMoreModules: "解锁一个或多个模块。",
+    unblocksResearch: "解锁研究",
+};
+
+const chtUi: LocalizedUi = {
+    adjacencies: "鄰接關係",
+    baseAvailabilityChance: "基礎可用機率",
+    claims: "聲明",
+    completableOnceGlobally: "全球只能完成一次",
+    completionQuote: "完成引述",
+    completionText: "完成文本",
+    cost: "成本",
+    effects: "效果",
+    endgameTech: "終局科技",
+    factionAlways: "始終可用於",
+    factionPrereq: "僅限於",
+    fullTextSearch: "全文搜索",
+    hiddenEffect: "隱藏效果：",
+    initialUnlockChance: "初始解鎖機率",
+    markDone: "標記為完成",
+    markUndone: "標記為未完成",
+    maximumUnlockChance: "最大解鎖機率",
+    milestoneNeeded: "需要里程碑",
+    modulesUnlocked: "解鎖模組",
+    monthlyUnlockChanceIncrease: "每月解鎖機率增加",
+    orgGranted: "獲得組織",
+    orgsAddedToMarket: "市場新增組織",
+    repeatable: "可重複",
+    requiredResearch: "需要研究",
+    resourcesGranted: "獲得資源",
+    search: "搜索",
+    seeEntireTree: "查看完整技術樹",
+    seeTreeForThisNode: "查看該節點的技術樹",
+    showProjects: "顯示項目",
+    summary: "摘要",
+    totalTreeCost: "總樹形成本",
+    traits: "可用理事特質",
+    unblocksOneOrMoreModules: "解鎖一個或多個模組。",
+    unblocksResearch: "解鎖研究",
+};
+
+const deuUi: LocalizedUi = {
+    adjacencies: "Angrenzende",
+    baseAvailabilityChance: "Grundchance der Verfügbarkeit",
+    claims: "Ansprüche",
+    completableOnceGlobally: "Weltweit nur einmal abschließbar",
+    completionQuote: "Abschlusszitat",
+    completionText: "Abschlusstext",
+    cost: "Kosten",
+    effects: "Effekte",
+    endgameTech: "Endspiel-Technologie",
+    factionAlways: "Immer verfügbar für",
+    factionPrereq: "Nur verfügbar für",
+    fullTextSearch: "Volltextsuche",
+    hiddenEffect: "Versteckter Effekt: ",
+    initialUnlockChance: "Anfängliche Freischaltchance",
+    markDone: "Als erledigt markieren",
+    markUndone: "Als unerledigt markieren",
+    maximumUnlockChance: "Maximale Freischaltchance",
+    milestoneNeeded: "Benötigter Meilenstein",
+    modulesUnlocked: "Freigeschaltete Module",
+    monthlyUnlockChanceIncrease: "Monatliche Erhöhung der Freischaltchance",
+    orgGranted: "Gewährte Organisation",
+    orgsAddedToMarket: "Zum Markt hinzugefügte Organisationen",
+    repeatable: "Wiederholbar",
+    requiredResearch: "Erforderliche Forschung",
+    resourcesGranted: "Gewährte Ressourcen",
+    search: "Suche",
+    seeEntireTree: "Gesamten Baum anzeigen",
+    seeTreeForThisNode: "Baum für diesen Knoten anzeigen",
+    showProjects: "Projekte anzeigen",
+    summary: "Zusammenfassung",
+    totalTreeCost: "Gesamte Baumkosten",
+    traits: "Verfügbare Ratseigenschaften",
+    unblocksOneOrMoreModules: "Schaltet ein oder mehrere Module frei.",
+    unblocksResearch: "Schaltet Forschung frei",
+};
+
+const espUi: LocalizedUi = {
+    adjacencies: "Adyacencias",
+    baseAvailabilityChance: "Probabilidad Base de Disponibilidad",
+    claims: "Afirmaciones",
+    completableOnceGlobally: "Completable una vez globalmente",
+    completionQuote: "Cita de Finalización",
+    completionText: "Texto de Finalización",
+    cost: "Costo",
+    effects: "Efectos",
+    endgameTech: "Tecnología de fin de juego",
+    factionAlways: "Siempre disponible para",
+    factionPrereq: "Solo disponible para",
+    fullTextSearch: "Búsqueda de texto completo",
+    hiddenEffect: "Efecto oculto: ",
+    initialUnlockChance: "Probabilidad Inicial de Desbloqueo",
+    markDone: "Marcar como hecho",
+    markUndone: "Desmarcar",
+    maximumUnlockChance: "Probabilidad Máxima de Desbloqueo",
+    milestoneNeeded: "Hito Necesario",
+    modulesUnlocked: "Módulos Desbloqueados",
+    monthlyUnlockChanceIncrease: "Aumento Mensual de Probabilidad de Desbloqueo",
+    orgGranted: "Organización Otorgada",
+    orgsAddedToMarket: "Organizaciones Añadidas al Mercado",
+    repeatable: "Repetible",
+    requiredResearch: "Investigación Requerida",
+    resourcesGranted: "Recursos Otorgados",
+    search: "Buscar",
+    seeEntireTree: "Ver árbol completo",
+    seeTreeForThisNode: "Ver árbol para este nodo",
+    showProjects: "Mostrar Proyectos",
+    summary: "Resumen",
+    totalTreeCost: "Costo Total del Árbol",
+    traits: "Rasgos de Consejero Disponibles",
+    unblocksOneOrMoreModules: "Desbloquea uno o más módulos.",
+    unblocksResearch: "Desbloquea Investigación",
+};
+
+const frUi: LocalizedUi = {
+    adjacencies: "Adjacences",
+    baseAvailabilityChance: "Chance de disponibilité de base",
+    claims: "Revendications",
+    completableOnceGlobally: "Complétable une fois globalement",
+    completionQuote: "Citation de fin",
+    completionText: "Texte de fin",
+    cost: "Coût",
+    effects: "Effets",
+    endgameTech: "Technologie de fin de partie",
+    factionAlways: "Toujours disponible pour",
+    factionPrereq: "Uniquement disponible pour",
+    fullTextSearch: "Recherche en texte intégral",
+    hiddenEffect: "Effet caché : ",
+    initialUnlockChance: "Chance de déverrouillage initiale",
+    markDone: "Marquer comme fait",
+    markUndone: "Marquer comme non fait",
+    maximumUnlockChance: "Chance de déverrouillage maximale",
+    milestoneNeeded: "Jalon nécessaire",
+    modulesUnlocked: "Modules déverrouillés",
+    monthlyUnlockChanceIncrease: "Augmentation mensuelle de la chance de déverrouillage",
+    orgGranted: "Organisation accordée",
+    orgsAddedToMarket: "Organisations ajoutées au marché",
+    repeatable: "Répétable",
+    requiredResearch: "Recherche requise",
+    resourcesGranted: "Ressources accordées",
+    search: "Rechercher",
+    seeEntireTree: "Voir l'arbre entier",
+    seeTreeForThisNode: "Voir l'arbre pour ce nœud",
+    showProjects: "Afficher les projets",
+    summary: "Résumé",
+    totalTreeCost: "Coût total de l'arbre",
+    traits: "Traits de conseiller disponibles",
+    unblocksOneOrMoreModules: "Débloque un ou plusieurs modules.",
+    unblocksResearch: "Débloque la recherche",
+};
+
+const jpnUi: LocalizedUi = {
+    adjacencies: "隣接関係",
+    baseAvailabilityChance: "基本利用可能性",
+    claims: "主張",
+    completableOnceGlobally: "全体で一度だけ完了可能",
+    completionQuote: "完了時の引用",
+    completionText: "完了テキスト",
+    cost: "コスト",
+    effects: "効果",
+    endgameTech: "エンドゲーム技術",
+    factionAlways: "常に利用可能",
+    factionPrereq: "限定利用可能",
+    fullTextSearch: "全文検索",
+    hiddenEffect: "隠し効果：",
+    initialUnlockChance: "初期解除確率",
+    markDone: "完了としてマーク",
+    markUndone: "未完了としてマーク",
+    maximumUnlockChance: "最大解除確率",
+    milestoneNeeded: "必要なマイルストーン",
+    modulesUnlocked: "解除されたモジュール",
+    monthlyUnlockChanceIncrease: "月間解除確率増加",
+    orgGranted: "付与される組織",
+    orgsAddedToMarket: "市場に追加される組織",
+    repeatable: "繰り返し可能",
+    requiredResearch: "必要な研究",
+    resourcesGranted: "付与される資源",
+    search: "検索",
+    seeEntireTree: "ツリー全体を表示",
+    seeTreeForThisNode: "このノードのツリーを表示",
+    showProjects: "プロジェクトを表示",
+    summary: "概要",
+    totalTreeCost: "ツリー総コスト",
+    traits: "利用可能な評議員特性",
+    unblocksOneOrMoreModules: "1つ以上のモジュールをアンロックします。",
+    unblocksResearch: "研究をアンロック",
+};
+
+const polUi: LocalizedUi = {
+    adjacencies: "Sąsiedztwa",
+    baseAvailabilityChance: "Podstawowa szansa dostępności",
+    claims: "Roszczenia",
+    completableOnceGlobally: "Ukończalne tylko raz globalnie",
+    completionQuote: "Cytat przy ukończeniu",
+    completionText: "Tekst ukończenia",
+    cost: "Koszt",
+    effects: "Efekty",
+    endgameTech: "Technologia końca gry",
+    factionAlways: "Zawsze dostępne dla",
+    factionPrereq: "Dostępne tylko dla",
+    fullTextSearch: "Wyszukiwanie pełnotekstowe",
+    hiddenEffect: "Ukryty efekt: ",
+    initialUnlockChance: "Początkowa szansa odblokowania",
+    markDone: "Oznacz jako ukończone",
+    markUndone: "Oznacz jako nieukończone",
+    maximumUnlockChance: "Maksymalna szansa odblokowania",
+    milestoneNeeded: "Wymagany kamień milowy",
+    modulesUnlocked: "Odblokowane moduły",
+    monthlyUnlockChanceIncrease: "Miesięczny wzrost szansy odblokowania",
+    orgGranted: "Przyznana organizacja",
+    orgsAddedToMarket: "Organizacje dodane do rynku",
+    repeatable: "Powtarzalne",
+    requiredResearch: "Wymagane badania",
+    resourcesGranted: "Przyznane zasoby",
+    search: "Szukaj",
+    seeEntireTree: "Zobacz całe drzewo",
+    seeTreeForThisNode: "Zobacz drzewo dla tego węzła",
+    showProjects: "Pokaż projekty",
+    summary: "Podsumowanie",
+    totalTreeCost: "Całkowity koszt drzewa",
+    traits: "Dostępne cechy radnych",
+    unblocksOneOrMoreModules: "Odblokowuje jeden lub więcej modułów.",
+    unblocksResearch: "Odblokowuje badania",
+};
+
+const porUi: LocalizedUi = {
+    adjacencies: "Adjacências",
+    baseAvailabilityChance: "Chance Base de Disponibilidade",
+    claims: "Reivindicações",
+    completableOnceGlobally: "Completável uma vez globalmente",
+    completionQuote: "Citação de Conclusão",
+    completionText: "Texto de Conclusão",
+    cost: "Custo",
+    effects: "Efeitos",
+    endgameTech: "Tecnologia de fim de jogo",
+    factionAlways: "Sempre disponível para",
+    factionPrereq: "Disponível apenas para",
+    fullTextSearch: "Pesquisa de texto completo",
+    hiddenEffect: "Efeito oculto: ",
+    initialUnlockChance: "Chance Inicial de Desbloqueio",
+    markDone: "Marcar como concluído",
+    markUndone: "Marcar como não concluído",
+    maximumUnlockChance: "Chance Máxima de Desbloqueio",
+    milestoneNeeded: "Marco Necessário",
+    modulesUnlocked: "Módulos Desbloqueados",
+    monthlyUnlockChanceIncrease: "Aumento Mensal da Chance de Desbloqueio",
+    orgGranted: "Organização Concedida",
+    orgsAddedToMarket: "Organizações Adicionadas ao Mercado",
+    repeatable: "Repetível",
+    requiredResearch: "Pesquisa Necessária",
+    resourcesGranted: "Recursos Concedidos",
+    search: "Pesquisar",
+    seeEntireTree: "Ver árvore completa",
+    seeTreeForThisNode: "Ver árvore para este nó",
+    showProjects: "Mostrar Projetos",
+    summary: "Resumo",
+    totalTreeCost: "Custo Total da Árvore",
+    traits: "Características de Conselheiro Disponíveis",
+    unblocksOneOrMoreModules: "Desbloqueia um ou mais módulos.",
+    unblocksResearch: "Desbloqueia Pesquisa",
+};
+
+export const Languages: Record<string, Language> = {
+    en: { code: 'en', icon: '🇬🇧', name: 'English', uiTexts: englishUi, locale: 'en' },
+    chs: { code: 'chs', icon: '🇨🇳', name: '简体中文', uiTexts: chsUi, locale: 'zh' },
+    cht: { code: 'cht', icon: '🇨🇳', name: '繁體中文', uiTexts: chtUi, locale: 'zh' },
+    deu: { code: 'deu', icon: '🇩🇪', name: 'Deutsch', uiTexts: deuUi, locale: 'de' },
+    esp: { code: 'esp', icon: '🇪🇸', name: 'Español', uiTexts: espUi, locale: 'es' },
+    fr: { code: 'fr', icon: '🇫🇷', name: 'Français', uiTexts: frUi, locale: 'fr' },
+    jpn: { code: 'jpn', icon: '🇯🇵', name: '日本語', uiTexts: jpnUi, locale: 'ja' },
+    pol: { code: 'pol', icon: '🇵🇱', name: 'Polski', uiTexts: polUi, locale: 'pl' },
+    por: { code: 'por', icon: '🇧🇷', name: 'Português', uiTexts: porUi, locale:'pt' }
+}
+
+export const DefaultLanguage = Languages.en;

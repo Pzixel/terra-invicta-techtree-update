@@ -1,21 +1,25 @@
 import React, { useState } from "react";
-import { Button, Paper } from "@mui/material";
-import { findBlockingTechs, getAncestorTechs } from './utils.js';
+import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip } from "@mui/material";
+import { findBlockingTechs, getAncestorTechs } from './utils';
+import { getTechIconFile } from './techGraphRender';
+import { TechSidebarProps } from './types/props';
+import { TechTemplate, Claim, Adjacency, DataModule } from './types';
 
 export function TechSidebar({
-    templateData,
-    getLocalizationString,
-    getReadable,
-    locale,
-    techTree,
-    onNavigateToNode,
-    navigatedToNode,
-    handleIsolatedChanged,
-}) {    
-    const effects = templateData.effect;
+  templateData,
+  getLocalizationString,
+  getReadable,
+  language,
+  techDb,
+  onNavigateToNode,
+  navigatedToNode,
+  handleIsolatedChanged,
+}: TechSidebarProps) {
+    const locale = language.locale;
+    const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
     const [isolated, setIsolated] = useState(false);
 
-    function getReadableEffect(dataName) {
+    function getReadableEffect(dataName: string) {
         const description = getLocalizationString("effect", dataName, "description");
 
         if (!description) {
@@ -23,14 +27,14 @@ export function TechSidebar({
         }
 
         if (description.match(/<skip.*>/)) {
-            return "Hidden effect: " + dataName;
+            return `${language.uiTexts.hiddenEffect}: ${dataName}`;
         }
 
         const effectObj = findEffectByName(dataName);
         const effectVal = effectObj ? effectObj.value : 0;
         const effectStr = effectObj ? effectObj.strValue : "";
 
-        var replaceEffectTag = function (match) {
+        var replaceEffectTag = function (match: string) {
             switch (match) {
                 case "{0}":
                     return effectVal.toString();
@@ -69,12 +73,12 @@ export function TechSidebar({
             .replace('<color=#FFFFFFFF><sprite name="metal"></color>', "Metals")
             .replace('<color=#FFFFFFFF><sprite name="metal_noble"></color>', "Noble Metals")
             .replace('<color=#FFFFFFFF><sprite name="radioactive"></color>', "Fissiles")
-            .replace(/\{[0-9]*\}/g, replaceEffectTag.bind(this));
+            .replace(/\{[0-9]*\}/g, replaceEffectTag);
 
         return effectTemplateString;
     }
 
-    function getReadableSummary() {
+    function getReadableSummary(node: TechTemplate) {
         let summary;
 
         if (node.isProject) {
@@ -93,7 +97,7 @@ export function TechSidebar({
         }
 
         if (summary.match(/<.*module>/)) {
-            return "Unlocks one or more modules.";
+            return language.uiTexts.unblocksOneOrMoreModules;
         } else {
             return React.createElement(
                 'p',
@@ -103,14 +107,18 @@ export function TechSidebar({
         }
     }
 
-    function getReadableClaim(claim) {
+    function getReadableClaim(claim: Claim) {
         const nationName = getReadable("nation", claim.nation1, "displayName");
         const regionName = getReadable("region", claim.region1, "displayName");
+
+        if (!nationName || !regionName) {
+            return null;
+        }
 
         return `${nationName} gains a claim on ${regionName}`;
     }
 
-    function getReadableAdjacency(adjacency) {
+    function getReadableAdjacency(adjacency: Adjacency) {
         const region1Name = getReadable("region", adjacency.region1, "displayName");
         const region2Name = getReadable("region", adjacency.region2, "displayName");
         if (adjacency.friendlyOnly) {
@@ -138,19 +146,20 @@ export function TechSidebar({
     //     return objString;
     // }
 
-    function findModules(projectName) {
-        const results = [];
+    function findModules(projectName: string): { data: any, type: string }[] {
+        const results: { data: any, type: string }[] = [];
         const modTypes = ["battery", "drive", "gun", "habmodule", "heatsink", "laserweapon", "magneticgun", "missile", "particleweapon", "plasmaweapon", "powerplant", "radiator", "shiparmor", "shiphull", "utilitymodule"];
         modTypes.forEach(modType => {
             templateData[modType].forEach(module => {
-                if (module.requiredProjectName === projectName)
+                if (module.requiredProjectName === projectName) {
                     results.push({ "data": module, "type": modType });
+                }
             });
         });
         return results;
     }
 
-    function getIcon(dataModule) {
+    function getIcon(dataModule: { iconResource?: string, baseIconResource?: string, stationIconResource?: string }) {
         if (dataModule.iconResource) {
             return dataModule.iconResource;
         }
@@ -165,26 +174,26 @@ export function TechSidebar({
         }
     }
 
-    function findTechByName(techName) {
-        return techTree.find(tech => tech.dataName === techName);
+    function findTechByName(techName: string) {
+        return techDb.getTechByDataName(techName);
     }
 
-    function findEffectByName(effectName) {
+    function findEffectByName(effectName: string) {
         return effects.find(effect => effect.dataName === effectName);
     }
 
-    function getLeaderName(string) {
+    function getLeaderName(string: string): string {
         let faction = string.slice(1, -1);
         faction = faction.replace("Leader", "Council");
         faction = faction[0].toUpperCase() + faction.slice(1);
-        return getLocalizationString("faction", faction, "fullLeader");
+        return getLocalizationString("faction", faction, "fullLeader")!;
     }
 
-    const buildModuleDisplay = (dataModule) => {
+    const buildModuleDisplay = (dataModule: DataModule) => {
         const icon = getIcon(dataModule.data);
         return <div>
             {icon && <img src={"./icons/" + icon + ".png"} />}
-            <p>{getReadable(dataModule.type, dataModule.data.dataName, "description")}</p>
+            <p>{getLocalizationString(dataModule.type, dataModule.data.dataName, "description")}</p>
             <pre>{JSON.stringify(dataModule.data, null, 2)}</pre>
         </div>
     };
@@ -197,7 +206,7 @@ export function TechSidebar({
 
     // Calculate costs and research status
     const researchCost = node.researchCost || 0;
-    const ancestorTree = getAncestorTechs(techTree, node);
+    const ancestorTree = getAncestorTechs(techDb, node);
     if (!ancestorTree || ancestorTree.some(tech => !tech)) {
         // we are in tech only mode but sidebar is opened on a project
         return <div></div>
@@ -207,29 +216,64 @@ export function TechSidebar({
     const uniqueAncestorTree = ancestorTree.filter(({ id }, index) => !ancestorTreeIds.includes(id, index + 1));
     const ancestorTreeProcessed = uniqueAncestorTree.filter(tech => !tech.researchDone);
 
-    const treeCost = uniqueAncestorTree.reduce((acc, curr) => acc + (curr.researchCost ? curr.researchCost : 0), 0)
-        + (node.researchDone ? 0 : researchCost);
-    const treeCostProcessed = ancestorTreeProcessed.reduce((acc, curr) => acc + (curr.researchCost ? curr.researchCost : 0), 0)
-        + (node.researchDone ? 0 : researchCost);
-
-    const treeCostString = treeCost === treeCostProcessed ?
-        treeCost.toLocaleString() :
-        `${treeCostProcessed.toLocaleString()}/${treeCost.toLocaleString()}`;
-
-    const handleNodeSelect = (techName) => {
-        const tech = findTechByName(techName);
-        if (!tech) {
-            throw new Error(`Tech with name ${techName} not found in ${JSON.stringify(techTree)}`);
-        }
-        onNavigateToNode(tech);
+    const calculateTechCost = (tree: TechTemplate[]) => {
+        return tree.concat(node).reduce((acc, curr) => { 
+            acc[curr.techCategory] ??= {
+                tech: 0,
+                project: 0,
+            };
+            if (curr.isProject) {
+                acc[curr.techCategory].project += curr.researchCost;
+            } else {
+                acc[curr.techCategory].tech += curr.researchCost;
+            }
+            return acc;
+        }, {} as Record<string, { tech: number, project: number }>);
     };
 
+    const treeCostBreakdownTotal = calculateTechCost(uniqueAncestorTree);
+    const treeCostBreakdownRemaining = calculateTechCost(ancestorTreeProcessed);
+
+    const treeCostTotal = Object.values(treeCostBreakdownTotal).reduce((acc, curr) => acc + curr.tech + curr.project, 0);
+    const treeCostRemaining = Object.values(treeCostBreakdownRemaining).reduce((acc, curr) => acc + curr.tech + curr.project, 0);
+
+    const treeCostString = treeCostTotal === treeCostRemaining ?
+        treeCostTotal.toLocaleString() :
+        `${treeCostRemaining.toLocaleString()}/${treeCostTotal.toLocaleString()}`;
+
+
+    const treeCostBreakdownArr = Object.entries(treeCostBreakdownRemaining);
+    treeCostBreakdownArr.sort((a, b) => {
+        const aValue = a[1].tech + a[1].project;
+        const bValue = b[1].tech + b[1].project;
+
+        if (aValue > bValue) {
+            return -1;
+        }
+        if (aValue < bValue) {
+            return 1;
+        }
+        return 0;
+    });
+
+    const techSorter = (a: TechTemplate, b: TechTemplate) => {
+        // non-project techs first
+        if (a.isProject && !b.isProject) {
+            return 1;
+        }
+        if (!a.isProject && b.isProject) {
+            return -1;
+        }
+        // sort by display name
+        return a.displayName.localeCompare(b.displayName);
+    };
+    
     const handleResearchToggle = () => {
         if (node.researchDone) {
             node.researchDone = false;
         } else {
             node.researchDone = true;
-            getAncestorTechs(techTree, node).forEach(tech => tech.researchDone = true);
+            getAncestorTechs(techDb, node).forEach(tech => tech.researchDone = true);
         }
         onNavigateToNode({
             ...node
@@ -238,18 +282,22 @@ export function TechSidebar({
 
     // Render prerequisites section
     const renderPrerequisites = () => {
-        if (!node.prereqs || node.prereqs.filter(prereq => prereq !== "").length === 0) {
+        const prereqNames = node.prereqs?.filter(prereq => prereq !== "") || [];
+
+        if (prereqNames.length === 0) {
             return null;
         }
 
-        const prereqElements = node.prereqs
-            .filter(prereq => prereq !== "")
+        const prereqElements = prereqNames
             .map(prereq => {
                 const tech = findTechByName(prereq);
+                if (!tech) {
+                    return null;
+                }
                 return (
                     <Button
                         key={`prereq-${tech.displayName}`}
-                        onClick={() => handleNodeSelect(prereq)}
+                        onClick={() => onNavigateToNode(tech)}
                         variant="contained"
                         className={`prereqButton${tech.researchDone ? " researchDone" : ""}`}
                         size="small"
@@ -266,10 +314,13 @@ export function TechSidebar({
         if (node.altPrereq0 && node.altPrereq0 !== "") {
             const prereq = node.altPrereq0;
             const tech = findTechByName(prereq);
+            if (!tech) {
+                return null;
+            }
             const altButton = (
                 <Button
                     key={`alt-${tech.displayName}`}
-                    onClick={() => handleNodeSelect(prereq)}
+                    onClick={() => onNavigateToNode(tech)}
                     variant="contained"
                     className={`prereqButton${tech.researchDone ? " researchDone" : ""}`}
                     size="small"
@@ -281,9 +332,9 @@ export function TechSidebar({
                 </Button>
             );
 
-            const orText = <b className="prereqButton">or</b>;
-            const breakElement = <br />;
-            const andText = <b className="prereqButton">and</b>;
+            const orText = <b key={"or"} className="prereqButton">or</b>;
+            const breakElement = <br key={"br"} />;
+            const andText = <b key={"and"} className="prereqButton">and</b>;
 
             if (prereqElements.length > 1) {
                 prereqElements.splice(1, 0, orText, altButton, breakElement, andText);
@@ -294,7 +345,7 @@ export function TechSidebar({
 
         return (
             <>
-                <h4>Required Research</h4>
+                <h4>{language.uiTexts.requiredResearch}</h4>
                 <div className="hideBullets">{prereqElements}</div>
             </>
         );
@@ -302,16 +353,18 @@ export function TechSidebar({
 
     // Render blocking techs section
     const renderBlockingTechs = () => {
-        const blockingTechs = findBlockingTechs(techTree, node);
+        const blockingTechs = findBlockingTechs(techDb, node);
         if (blockingTechs.length === 0) {
             return null;
         }
+
+        blockingTechs.sort(techSorter);
 
         const blockerElements = blockingTechs.map(blocked => (
             <Button
                 key={`blocker-${blocked.dataName}`}
                 onClick={() => {
-                    handleNodeSelect(blocked.dataName);
+                    onNavigateToNode(blocked);
                 }}
                 variant="contained"
                 className="prereqButton"
@@ -320,13 +373,13 @@ export function TechSidebar({
                 aria-label={blocked ? `${blocked.displayName} ${blocked.isProject ? "Faction Project" : "Global Research"}` : ""}
                 color={blocked.isProject ? "success" : "primary"}
             >
-                {blocked.displayName}
+                {blocked.displayName} {blocked.factionAvailableChance && blocked.factionAvailableChance < 100 ? `${blocked.factionAvailableChance}%` : ""}
             </Button>
         ));
 
         return (
             <>
-                <h4>Unblocks Research</h4>
+                <h4>{language.uiTexts.unblocksResearch}</h4>
                 <div className="hideBullets">{blockerElements}</div>
             </>
         );
@@ -342,7 +395,7 @@ export function TechSidebar({
         ));
         return (
             <>
-                <h4>Adjacencies</h4>
+                <h4>{language.uiTexts.adjacencies}</h4>
                 <ul>{adjacencyElements}</ul>
             </>
         );
@@ -354,14 +407,13 @@ export function TechSidebar({
             return null;
         }
 
-        const resourceElements = node.resourcesGranted
-            .filter(resource => resource.resource !== "")
+        const resourceElements = resourcesGranted
             .map(resource => (
                 <li key={`res-${resource.resource}`}>{resource.resource} {resource.value}</li>
             ));
         return (
             <>
-                <h4>Resources Granted</h4>
+                <h4>{language.uiTexts.resourcesGranted}</h4>
                 <ul>{resourceElements}</ul>
             </>
         );
@@ -375,7 +427,7 @@ export function TechSidebar({
         const displayName = getLocalizationString("org", org, "displayName");
         return (
             <>
-                <h4>Org Granted</h4>
+                <h4>{language.uiTexts.orgGranted}</h4>
                 <p>{displayName ? displayName : org}</p>
             </>
         );
@@ -387,15 +439,25 @@ export function TechSidebar({
             return null;
         }
         const orgMarketElements = orgMarket.map(org => {
-            const displayName = getLocalizationString("org", org.dataName, "displayName");
+            const displayName = getLocalizationString("org", org.dataName, "displayName") ?? org.dataName;
+            const displayText = `${displayName} ${'⭐'.repeat(org.tier)}`;
             return (
-                <li key={`org-${org.dataName}`}>{displayName ? displayName : org.dataName}</li>
+                <li key={`org-${org.dataName}`}>
+                    <Accordion disableGutters>  
+                        <AccordionSummary>
+                            {displayText}
+                        </AccordionSummary>
+                        <AccordionDetails>
+                           <pre>{JSON.stringify(org, null, 2)}</pre>
+                        </AccordionDetails>
+                    </Accordion>
+                </li>
             );
         });
         return (
             <>
-                <h4>Orgs Added to Market</h4>
-                <ul>{orgMarketElements}</ul>
+                <h4>{language.uiTexts.orgsAddedToMarket}</h4>
+                <ul className="hideBullets">{orgMarketElements}</ul>
             </>
         );
     };
@@ -413,7 +475,7 @@ export function TechSidebar({
 
         return (
             <>
-                <h4>Effects</h4>
+                <h4>{language.uiTexts.effects}</h4>
                 <ul>{effectElements}</ul>
             </>
         );
@@ -432,7 +494,7 @@ export function TechSidebar({
         });
         return (
             <>
-                <h4>Councilor Traits Available</h4>
+                <h4>{language.uiTexts.traits}</h4>
                 <ul>{traitElements}</ul>
             </>
         );
@@ -455,7 +517,7 @@ export function TechSidebar({
         });
         return (
             <>
-                <h4>Modules Unlocked</h4>
+                <h4>{language.uiTexts.modulesUnlocked}</h4>
                 {moduleElements}
             </>
         );
@@ -471,13 +533,19 @@ export function TechSidebar({
 
         if (claims.length === 0) return null;
 
-        const claimsElements = claims.map(claim => (
-            <li key={`claim-${JSON.stringify(claim)}`}>{getReadableClaim(claim)}</li>
-        ));
+        const claimsElements = claims.flatMap(claim => {
+            const text = getReadableClaim(claim);
+            if (!text) {
+                return [];
+            }
+            return [
+                <li key={`claim-${JSON.stringify(claim)}`}>{text}</li>
+            ];
+        });
 
         return (
             <>
-                <h4>Claims</h4>
+                <h4>{language.uiTexts.claims}</h4>
                 <ul>{claimsElements}</ul>
             </>
         );
@@ -498,7 +566,8 @@ export function TechSidebar({
                 >
                     {/* See tree for this node */}
                     {/* (!isolated ? "See tree for this node" : "See entire tree") */}
-                    {isolated ? "See entire tree" : "See tree for this node"}
+                    {/* {isolated ? "See entire tree" : "See tree for this node"} */}
+                    {isolated ? language.uiTexts.seeEntireTree : language.uiTexts.seeTreeForThisNode}
                 </Button>
 
                 <Button
@@ -507,34 +576,62 @@ export function TechSidebar({
                     className="topTechbarButton"
                     color={node.researchDone ? "error" : "success"}
                 >
-                    {node.researchDone ? "Mark undone" : "Mark done"}
+                    {node.researchDone ? language.uiTexts.markUndone : language.uiTexts.markDone}
                 </Button>
 
                 {/* Heading */}
                 <h2>{node.displayName}</h2>
 
                 {/* Cost information */}
-                <h4>Cost: {researchCost.toLocaleString()}</h4>
-                <h5>Total Tree Cost: {treeCostString}</h5>
+                <Accordion disableGutters>
+                    <Tooltip title="Click to see technology cost breakdown" arrow placement="top">
+                        <AccordionSummary>
+                            <div id="costInfo">
+                                {language.uiTexts.cost}: {researchCost.toLocaleString()}
+                                <br />
+                                {language.uiTexts.totalTreeCost}: {treeCostString}
+                            </div>
+                        </AccordionSummary>
+                    </Tooltip>
+                    <AccordionDetails id="costBreakdown">
+                        <ul>
+                            {treeCostBreakdownArr.map(([key, {tech, project}]) => (
+                                <li key={key}>
+                                    <img src={getTechIconFile(key)} alt={key} style={{ width: "16px", height: "16px" }} /> 
+                                    {(tech + project).toLocaleString()}
+                                    {
+                                        project > 0 && 
+                                        (
+                                            <span>
+                                                {"\t\t\t"}(<span className="project-img"><img src="icons/ICO_projects.png" alt={key} style={{ width: "16px", height: "16px" }} /></span>
+                                                {"\t\t"}{project.toLocaleString()})
+                                            </span>
+                                        )
+                                    }
+                                </li>
+                            ))}
+                        </ul>
+                    </AccordionDetails>
+                </Accordion>
 
                 {/* Project-specific probabilities */}
                 {node.isProject && (
                     <>
-                        <h4>Base Availability Chance: {(node.factionAvailableChance / 100).toLocaleString(locale, { style: "percent" })}</h4>
-                        <h5>Initial Unlock Chance: {(node.initialUnlockChance / 100).toLocaleString(locale, { style: "percent" })}</h5>
-                        <h5>Monthly Unlock Chance Increase: {(node.deltaUnlockChance / 100).toLocaleString(locale, { style: "percent" })}</h5>
-                        <h5>Maximum Unlock Chance: {(node.maxUnlockChance / 100).toLocaleString(locale, { style: "percent" })}</h5>
+                        <h4>{language.uiTexts.baseAvailabilityChance}: {(node.factionAvailableChance! / 100).toLocaleString(locale, { style: "percent" })}</h4>
+                        <h5>{language.uiTexts.initialUnlockChance}: {(node.initialUnlockChance! / 100).toLocaleString(locale, { style: "percent" })}</h5>
+                        <h5>{language.uiTexts.monthlyUnlockChanceIncrease}: {(node.deltaUnlockChance! / 100).toLocaleString(locale, { style: "percent" })}</h5>
+                        <h5>{language.uiTexts.maximumUnlockChance}: {(node.maxUnlockChance! / 100).toLocaleString(locale, { style: "percent" })}</h5>
                     </>
                 )}
 
                 {/* Faction requirements */}
                 {node.isProject && node.factionAlways && (
-                    <h5>Always available to {getReadable("faction", node.factionAlways, "displayName")}</h5>
+                    <h5>{language.uiTexts.factionAlways} {getReadable("faction", node.factionAlways, "displayName")}</h5>
                 )}
 
                 {node.isProject && node.factionPrereq && node.factionPrereq.filter(faction => faction !== "").length > 0 && (
                     <h5>
-                        Only Available to {
+                        {language.uiTexts.factionPrereq}: {
                             node.factionPrereq
                                 .filter(faction => faction !== "")
                                 .map(faction => getReadable("faction", faction, "displayName"))
@@ -549,16 +646,16 @@ export function TechSidebar({
 
                 {/* Other requirements */}
                 {node.isProject && node.requiredMilestone && node.requiredMilestone !== "" && (
-                    <h4>Milestone Needed: {getReadable("objective", node.requiredMilestone, "MilestoneFulfilled")}</h4>
+                    <h4>{language.uiTexts.milestoneNeeded}: {getReadable("objective", node.requiredMilestone, "MilestoneFulfilled")}</h4>
                 )}
 
                 {/* Special flags */}
-                {!node.isProject && node.endGameTech && <h4>Endgame tech</h4>}
-                {node.isProject && node.oneTimeGlobally && <h4>Completable once globally</h4>}
-                {node.isProject && node.repeatable && <h4>Repeatable</h4>}
+                {!node.isProject && node.endGameTech && <h4>{language.uiTexts.endgameTech}</h4>}
+                {node.isProject && node.oneTimeGlobally && <h4>{language.uiTexts.completableOnceGlobally}</h4>}
+                {node.isProject && node.repeatable && <h4>{language.uiTexts.repeatable}</h4>}
 
-                <h4>Summary</h4>
-                {getReadableSummary()}
+                <h4>{language.uiTexts.summary}</h4>
+                {getReadableSummary(node)}
 
                 {/* Rewards */}
                 {renderClaims()}
@@ -575,8 +672,8 @@ export function TechSidebar({
                     <>
                         {getLocalizationString("project", node.dataName, "description") && (
                             <>
-                                <h4>Completion Text</h4>
-                                <p dangerouslySetInnerHTML={{ __html: getLocalizationString("project", node.dataName, "description") }} />
+                                <h4>{language.uiTexts.completionText}</h4>
+                                <p dangerouslySetInnerHTML={{ __html: getLocalizationString("project", node.dataName, "description")! }} />
                             </>
                         )}
                     </>
@@ -584,16 +681,16 @@ export function TechSidebar({
                     <>
                         {getLocalizationString("tech", node.dataName, "quote") && (
                             <>
-                                <h4>Completion Quote</h4>
+                                <h4>{language.uiTexts.completionQuote}</h4>
                                 <p dangerouslySetInnerHTML={{
-                                    __html: getLocalizationString("tech", node.dataName, "quote").replace(/\{(.*?)\}/g, getLeaderName)
+                                    __html: getLocalizationString("tech", node.dataName, "quote")!.replace(/\{(.*?)\}/g, getLeaderName)
                                 }} />
                             </>
                         )}
                         {getLocalizationString("tech", node.dataName, "description") && (
                             <>
-                                <h4>Completion Text</h4>
-                                <p dangerouslySetInnerHTML={{ __html: getLocalizationString("tech", node.dataName, "description") }} />
+                                <h4>{language.uiTexts.completionText}</h4>
+                                <p dangerouslySetInnerHTML={{ __html: getLocalizationString("tech", node.dataName, "description")! }} />
                             </>
                         )}
                     </>
