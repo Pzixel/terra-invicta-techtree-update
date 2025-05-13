@@ -41,10 +41,21 @@ export class LocalizationDb {
         for (const file of localizationFileContent) {
             const lines = file.split("\n");
             for (const line of lines) {
-                const match = /([^=]+)=([^\/]+?)[ \t]*(?=\/|$)/g.exec(line);
-                if (match) {
-                    const key = match[1].trim();
-                    const value = match[2].trim();
+                const equalIndex = line.indexOf('=');
+                if (equalIndex > 0) {
+                    const commentIndex = line.indexOf('//');
+                    
+                    // Extract the key (left side of =)
+                    const key = line.substring(0, equalIndex).trim();
+                    
+                    // Extract the value (right side of =, but before any comment)
+                    let value;
+                    if (commentIndex > equalIndex) {
+                        value = line.substring(equalIndex + 1, commentIndex).trim();
+                    } else {
+                        value = line.substring(equalIndex + 1).trim();
+                    }
+                    
                     this.localizationStrings.set(key, value);
                 }
             }
