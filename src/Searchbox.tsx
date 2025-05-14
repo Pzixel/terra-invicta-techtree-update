@@ -34,7 +34,7 @@ export function Searchbox({
             tokenize: "full"
         });
 
-        techDb.getAllTechs().forEach((node) => {
+        for (const node of techDb.getAllTechs()) {
             let searchData = {
                 "id": node.id!.toString(),
                 "displayName": node.displayName,
@@ -56,14 +56,14 @@ export function Searchbox({
             const modulesText: string[] = [];
             if (node.isProject) {
                 const modTypes = ["battery", "drive", "gun", "habmodule", "heatsink", "laserweapon", "magneticgun", "missile", "particleweapon", "plasmaweapon", "powerplant", "radiator", "shiparmor", "shiphull", "utilitymodule"] as const;
-                modTypes.forEach(modType => {
-                    templateData[modType].forEach(module => {
+                for (const modType of modTypes) {
+                    for (const module of templateData[modType]) {
                         if (module.requiredProjectName === node.dataName) {
                             const description = localizationDb.getLocalizationString(modType, module.dataName, "description");
                             modulesText.push(`${localizationDb.getLocalizationString(modType, module.dataName, "displayName")}/${description}`);
                         }
-                    });
-                });
+                    }
+                };
             }
 
             const claimsText = [];
@@ -81,7 +81,7 @@ export function Searchbox({
 
             searchData.fullText = [node.displayName, summaryText, effectsText, modulesText, claimsText].join(" ");
             documentSearchIndex.add(searchData);
-        });
+        };
 
         setDocumentSearchIndex(documentSearchIndex);
     };
