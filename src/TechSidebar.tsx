@@ -556,19 +556,21 @@ export function TechSidebar({
         <div id="sidebar" className={isMobile ? "mobile" : ""}>
             <Paper elevation={3} id="sidebar-react" className={isMobile ? "mobile" : ""}>
                 {/* Controls */}
-                <Button
-                    variant="contained"
-                    onClick={() => {
-                        setIsolated(!isolated);
-                        handleIsolatedChanged(!isolated);
-                    }}
-                    className="topTechbarButton"
-                >
-                    {/* See tree for this node */}
-                    {/* (!isolated ? "See tree for this node" : "See entire tree") */}
-                    {/* {isolated ? "See entire tree" : "See tree for this node"} */}
-                    {isolated ? language.uiTexts.seeEntireTree : language.uiTexts.seeTreeForThisNode}
-                </Button>
+                {!isMobile && (
+                    <Button
+                        variant="contained"
+                        onClick={() => {
+                            setIsolated(!isolated);
+                            handleIsolatedChanged(!isolated);
+                        }}
+                        className="topTechbarButton"
+                    >
+                        {/* See tree for this node */}
+                        {/* (!isolated ? "See tree for this node" : "See entire tree") */}
+                        {/* {isolated ? "See entire tree" : "See tree for this node"} */}
+                        {isolated ? language.uiTexts.seeEntireTree : language.uiTexts.seeTreeForThisNode}
+                    </Button>
+                )}
 
                 <Button
                     variant="contained"
