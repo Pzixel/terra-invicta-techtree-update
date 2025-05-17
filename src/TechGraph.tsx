@@ -32,6 +32,6 @@ export function TechGraph({
     }, [navigatedToNode, network]);
 
     return (
-        <div id="mynetwork"></div>
+        <div id="mynetwork" className="graph-container"></div>
     );
 }

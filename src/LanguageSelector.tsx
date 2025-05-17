@@ -70,7 +70,7 @@ export default function LanguageSelector({
   };
 
   return (
-    <FormControl size="small" sx={{ minWidth: 70, ...sx }}>
+    <FormControl size="small" sx={{ minWidth: 70, position: "initial", ...sx }} className="language-selector">
       <Select
         sx={{backgroundColor: 'white'}}
         value={currentLang}

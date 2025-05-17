@@ -13,6 +13,7 @@ export function TechSidebar({
   onNavigateToNode,
   navigatedToNode,
   handleIsolatedChanged,
+  isMobile,
 }: TechSidebarProps) {
     const locale = language.locale;
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
@@ -552,8 +553,8 @@ export function TechSidebar({
 
     // Main render
     return (
-        <div id="sidebar">
-            <Paper elevation={3} id="sidebar-react">
+        <div id="sidebar" className={isMobile ? "mobile" : ""}>
+            <Paper elevation={3} id="sidebar-react" className={isMobile ? "mobile" : ""}>
                 {/* Controls */}
                 <Button
                     variant="contained"

@@ -10,27 +10,33 @@ import { TechDb } from './utils/TechDb';
 import { AppStaticData } from './types/props';
 import { getTemplateData, LocalizationDb, TemplateTypes } from './types';
 import { DefaultLanguage, Language, Languages } from './language';
+import { useWindowSize } from './utils/useWindowSize';
 
 function App() {
-  const [appStaticData, setAppStaticData] = useState<AppStaticData>({
-    templateData: {},
-    effects: [],
-    techs: [],
-    projects: [],
-    localizationDb: new LocalizationDb([]),
-  });
+    const [appStaticData, setAppStaticData] = useState<AppStaticData>({
+        templateData: {},
+        effects: [],
+        techs: [],
+        projects: [],
+        localizationDb: new LocalizationDb([]),
+    });
 
     const [techDb, setTechDb] = useState<TechDb | null>(null);
     const [navigatedToNode, setNavigatedToNode] = useState<any>(null);
     const [isReady, setIsReady] = useState(false);
-    
+
+    // Get window dimensions for responsive layout
+    const { width } = useWindowSize();
+    // Define breakpoint for mobile layout (sidebar below searchbox)
+    const isMobileLayout = width < 900;
+
     // Get initial language from URL parameter
     const getInitialLanguage = () => {
-      const queryParams = new URLSearchParams(window.location.search);
-      const langParam = queryParams.get('lang');
-      return langParam && Languages[langParam] ? Languages[langParam] : DefaultLanguage;
+        const queryParams = new URLSearchParams(window.location.search);
+        const langParam = queryParams.get('lang');
+        return langParam && Languages[langParam] ? Languages[langParam] : DefaultLanguage;
     };
-    
+
     const [language, setLanguage] = useState(getInitialLanguage());
 
     const navigate = useNavigate();
@@ -46,12 +52,12 @@ function App() {
 
     useEffect(() => {
         if (id && techDb) {
-          const node = techDb.getTechByDataName(id);
-          if (node) {
-            setNavigatedToNode(node);
-          }
+            const node = techDb.getTechByDataName(id);
+            if (node) {
+                setNavigatedToNode(node);
+            }
         }
-      }, [id, techDb]);
+    }, [id, techDb]);
 
     const onNavigatedToNode = useCallback((x: any) => {
         setNavigatedToNode(x);
@@ -85,39 +91,55 @@ function App() {
             <title>Terra Invicta Tech Tree - Game Version 0.4.78</title>
             {!isReady && <div id="loading">Loading</div>}
             {isReady && techDb && (
-                <div id="options"> 
-                    <Searchbox
-                        techDb={techDb}
-                        setShowProjects={onShowProjects}
-                        onNavigateToNode={onNavigatedToNode}
-                        localizationDb={appStaticData.localizationDb}
-                        templateData={appStaticData.templateData}
-                        language={language}
-                    />
-                    <LanguageSelector 
-                        onLanguageChange={setLanguage}
-                    />
+                <div id="responsive-container" className={isMobileLayout ? "mobile-layout" : "desktop-layout"}>
+                    {/* Only load TechGraph on desktop layouts */}
+                    {isReady && techDb && !isMobileLayout && (
+                        <TechGraph
+                            techDb={techDb}
+                            onNavigateToNode={onNavigatedToNode}
+                            navigatedToNode={navigatedToNode}
+                        />
+                    )}
+
+                    <div id="options" className={isMobileLayout ? "mobile" : ""}>
+                        <>
+                            <div className={isMobileLayout ? "loltainer mobile" : "loltainer"}>
+                                <div className="searchbox-container">
+                                    <Searchbox
+                                        techDb={techDb}
+                                        setShowProjects={onShowProjects}
+                                        onNavigateToNode={onNavigatedToNode}
+                                        localizationDb={appStaticData.localizationDb}
+                                        templateData={appStaticData.templateData}
+                                        language={language}
+                                    />
+                                </div>
+                                <div className="language-container">
+                                    <LanguageSelector
+                                        onLanguageChange={setLanguage}
+                                    />
+                                </div>
+                            </div>
+
+                        </>
+                    </div>
+
+                    {/* Show TechSidebar in mobile view below search, or in desktop view on the right */}
+                    {isReady && techDb && (
+                        <TechSidebar
+                            templateData={appStaticData.templateData}
+                            localizationDb={appStaticData.localizationDb}
+                            language={language}
+                            onNavigateToNode={onNavigatedToNode}
+                            navigatedToNode={navigatedToNode}
+                            effects={appStaticData.effects}
+                            techDb={techDb}
+                            handleIsolatedChanged={handleIsolatedChanged}
+                            isMobile={isMobileLayout}
+                        />
+                    )}
                 </div>
             )}
-            {isReady && techDb && (
-                    <TechGraph
-                        techDb={techDb}
-                        onNavigateToNode={onNavigatedToNode}
-                        navigatedToNode={navigatedToNode}
-                    />
-                )}
-            {isReady && techDb && (
-                    <TechSidebar
-                        templateData={appStaticData.templateData}
-                        localizationDb={appStaticData.localizationDb}
-                        language={language}
-                        onNavigateToNode={onNavigatedToNode}
-                        navigatedToNode={navigatedToNode}
-                        effects={appStaticData.effects}
-                        techDb={techDb}
-                        handleIsolatedChanged={handleIsolatedChanged}
-                    />
-                )}
         </>
     )
 }
@@ -161,7 +183,7 @@ async function init(language: Language, setTechDb: React.Dispatch<React.SetState
     setTechDb(new TechDb(techTreeTmp));
 };
 
-async function loadTemplateData(language: string) {  
+async function loadTemplateData(language: string) {
     const localizationFiles = Object.entries(TemplateTypes).map(([type, filename]) => ({
         url: `gamefiles/Localization/${language}/${filename}.${language}`,
         type

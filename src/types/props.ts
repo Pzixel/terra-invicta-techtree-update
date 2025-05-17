@@ -11,6 +11,7 @@ export interface TechSidebarProps {
   navigatedToNode: TechTemplate | null;
   handleIsolatedChanged: (isolated: boolean) => void;
   effects?: Effect[];
+  isMobile?: boolean;
 }
 
 export interface TechGraphProps {
