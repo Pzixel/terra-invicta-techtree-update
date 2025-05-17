@@ -172,20 +172,22 @@ export function Searchbox({
                             autoFocus
                             onClick={handleClick} />
                     )} />
-                <FormControlLabel
-                    id="showProjects"
-                    label={language.uiTexts.showProjects}
-                    control={<Switch
-                        defaultChecked
-                        onChange={handleProjectsToggle} />} />
-                <FormControlLabel
-                    id="fullText"
-                    label={language.uiTexts.fullTextSearch}
-                    control={<Switch
-                        onChange={(e) => {
-                            setFullText(e.target.checked);
-                            searchInputRef.current?.focus();
-                        } } />} />
+                <div className='checkboxContainer'>
+                    <FormControlLabel
+                        id="showProjects"
+                        label={language.uiTexts.showProjects}
+                        control={<Switch
+                            defaultChecked
+                            onChange={handleProjectsToggle} />} />
+                    <FormControlLabel
+                        id="fullText"
+                        label={language.uiTexts.fullTextSearch}
+                        control={<Switch
+                            onChange={(e) => {
+                                setFullText(e.target.checked);
+                                searchInputRef.current?.focus();
+                            } } />} />
+                </div>
             </Paper>
         </div>
     );

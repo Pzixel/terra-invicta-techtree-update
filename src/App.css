@@ -106,10 +106,6 @@ h5 {
     padding: 1em;
 }
 
-#showProjects {
-    margin-top: 1em;
-}
-
 ul.hideBullets {
     list-style-type: none;
     padding: 0;
@@ -208,4 +204,8 @@ img {
 
 .searchbox-container {
     width: 100%;
+}
+
+.checkboxContainer {
+    margin-top: 1em;
 }
