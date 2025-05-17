@@ -159,6 +159,7 @@ ul.hideBullets {
     word-wrap: break-word;
     padding: 1em;
     margin: 0.5em;
+    overflow: auto;
 
     /* text-align: start; */
 }
