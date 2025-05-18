@@ -582,7 +582,7 @@ export function TechSidebar({
                 </Button>
 
                 {/* Heading */}
-                <h2>{node.displayName}</h2>
+                <h2>{node.displayName} {node.isProject ? <span className="project-img"><img src="icons/ICO_projects.png" alt="faction project" style={{ width: "24px", height: "16px" }} /></span> : null}</h2>
 
                 {/* Cost information */}
                 <Accordion disableGutters>
