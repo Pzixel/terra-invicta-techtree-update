@@ -198,7 +198,7 @@ export function parseNode(techDb: TechDb, dumpAllEdges: boolean) {
         nodeBucket.push({
             label: `<b>${tech.displayName}</b>`,
             id: tech.dataName,
-            shape: "circularImage",
+            shape: tech.isProject ? "circularImage" : "image",
             image: getTechIconFile(tech.techCategory),
             level: levelsDeterminator.determineLevel(tech),
             color: { border: getTechBorderColor(tech.techCategory) }
