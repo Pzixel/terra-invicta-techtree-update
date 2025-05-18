@@ -199,8 +199,7 @@ pre {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    max-height: 100px;
 }
 
 .searchbox-container {
