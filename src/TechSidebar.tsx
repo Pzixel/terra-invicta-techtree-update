@@ -1,9 +1,61 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip } from "@mui/material";
 import { findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
 import { TechSidebarProps } from './types/props';
 import { TechTemplate, Claim, Adjacency, DataModule, TemplateType } from './types';
+
+// localStorage utility functions for research state persistence
+// This feature allows the research progress to persist between page refreshes and app launches
+const RESEARCH_STATE_KEY = 'terraInvictaResearchState';
+
+/**
+ * Saves the current research state to localStorage
+ * Only stores technologies that have researchDone = true to minimize storage space
+ */
+function saveResearchState(techDb: any) {
+    try {
+        const researchState: Record<string, boolean> = {};
+        techDb.getAllTechs().forEach((tech: TechTemplate) => {
+            if (tech.researchDone) {
+                researchState[tech.dataName] = true;
+            }
+        });
+        localStorage.setItem(RESEARCH_STATE_KEY, JSON.stringify(researchState));
+    } catch (error) {
+        console.warn('Failed to save research state to localStorage:', error);
+    }
+}
+
+/**
+ * Loads research state from localStorage and applies it to the current techDb
+ * Automatically handles cases where techs might not exist in the current view
+ */
+function loadResearchState(techDb: any) {
+    try {
+        const savedState = localStorage.getItem(RESEARCH_STATE_KEY);
+        if (savedState) {
+            const researchState: Record<string, boolean> = JSON.parse(savedState);
+            techDb.getAllTechs().forEach((tech: TechTemplate) => {
+                tech.researchDone = !!researchState[tech.dataName];
+            });
+        }
+    } catch (error) {
+        console.warn('Failed to load research state from localStorage:', error);
+    }
+}
+
+/**
+ * Clears all research progress from localStorage
+ * Useful for resetting research state completely
+ */
+function clearResearchState() {
+    try {
+        localStorage.removeItem(RESEARCH_STATE_KEY);
+    } catch (error) {
+        console.warn('Failed to clear research state from localStorage:', error);
+    }
+}
 
 export function TechSidebar({
   templateData,
@@ -18,6 +70,15 @@ export function TechSidebar({
     const locale = language.locale;
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
     const [isolated, setIsolated] = useState(false);
+    const [researchStateLoaded, setResearchStateLoaded] = useState(false);
+
+    // Load research state from localStorage when techDb changes
+    useEffect(() => {
+        if (techDb) {
+            loadResearchState(techDb);
+            setResearchStateLoaded(true);
+        }
+    }, [techDb]);
 
     function getReadableEffect(dataName: string) {
         const description = localizationDb.getLocalizationString("effect", dataName, "description");
@@ -275,6 +336,10 @@ export function TechSidebar({
             node.researchDone = true;
             getAncestorTechs(techDb, node).forEach(tech => tech.researchDone = true);
         }
+        
+        // Save the updated research state to localStorage
+        saveResearchState(techDb);
+        
         onNavigateToNode({
             ...node
         });
