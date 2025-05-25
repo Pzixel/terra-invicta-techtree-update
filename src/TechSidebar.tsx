@@ -345,6 +345,14 @@ export function TechSidebar({
         });
     };
 
+    const handleClearAllProgress = () => {
+        // Clear all research progress from localStorage
+        clearResearchState();
+        
+        // Reload the page to reset all research states
+        window.location.reload();
+    };
+
     const renderProjectButton = (tech: TechTemplate) => {
         const canFailToRoll = tech.factionAvailableChance !== undefined && tech.factionAvailableChance < 100;
         return (
@@ -622,6 +630,17 @@ export function TechSidebar({
                 >
                     {node.researchDone ? language.uiTexts.markUndone : language.uiTexts.markDone}
                 </Button>
+
+                <Tooltip title="Clears all research progress and reloads the page" arrow placement="top">
+                    <Button
+                        variant="contained"
+                        onClick={handleClearAllProgress}
+                        className="topTechbarButton"
+                        color="secondary"
+                    >
+                        {language.uiTexts.clearAllProgress}
+                    </Button>
+                </Tooltip>
 
                 {/* Heading */}
                 <h2>{node.displayName} {node.isProject ? <span className="project-img"><img src="icons/ICO_projects.png" alt="faction project" style={{ width: "24px", height: "16px" }} /></span> : null}</h2>

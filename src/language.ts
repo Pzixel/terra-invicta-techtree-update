@@ -15,6 +15,7 @@ interface LocalizedUi {
     initialUnlockChance: string;
     markDone: string;
     markUndone: string;
+    clearAllProgress: string;
     maximumUnlockChance: string;
     milestoneNeeded: string;
     modulesUnlocked: string;
@@ -52,6 +53,7 @@ const englishUi: LocalizedUi = {
     initialUnlockChance: "Initial Unlock Chance",
     markDone: "Mark done",
     markUndone: "Mark undone",
+    clearAllProgress: "Clear All Progress",
     maximumUnlockChance: "Maximum Unlock Chance",
     milestoneNeeded: "Milestone Needed",
     modulesUnlocked: "Modules Unlocked",
@@ -97,6 +99,7 @@ const chsUi: LocalizedUi = {
     initialUnlockChance: "初始解锁几率",
     markDone: "标记为完成",
     markUndone: "标记为未完成",
+    clearAllProgress: "清除所有进度",
     maximumUnlockChance: "最大解锁几率",
     milestoneNeeded: "需要里程碑",
     modulesUnlocked: "解锁模块",
@@ -134,6 +137,7 @@ const chtUi: LocalizedUi = {
     initialUnlockChance: "初始解鎖機率",
     markDone: "標記為完成",
     markUndone: "標記為未完成",
+    clearAllProgress: "清除所有進度",
     maximumUnlockChance: "最大解鎖機率",
     milestoneNeeded: "需要里程碑",
     modulesUnlocked: "解鎖模組",
@@ -171,6 +175,7 @@ const deuUi: LocalizedUi = {
     initialUnlockChance: "Anfängliche Freischaltchance",
     markDone: "Als erledigt markieren",
     markUndone: "Als unerledigt markieren",
+    clearAllProgress: "Alle Fortschritte löschen",
     maximumUnlockChance: "Maximale Freischaltchance",
     milestoneNeeded: "Benötigter Meilenstein",
     modulesUnlocked: "Freigeschaltete Module",
@@ -208,6 +213,7 @@ const espUi: LocalizedUi = {
     initialUnlockChance: "Probabilidad Inicial de Desbloqueo",
     markDone: "Marcar como hecho",
     markUndone: "Desmarcar",
+    clearAllProgress: "Borrar Todo Progreso",
     maximumUnlockChance: "Probabilidad Máxima de Desbloqueo",
     milestoneNeeded: "Hito Necesario",
     modulesUnlocked: "Módulos Desbloqueados",
@@ -245,6 +251,7 @@ const frUi: LocalizedUi = {
     initialUnlockChance: "Chance de déverrouillage initiale",
     markDone: "Marquer comme fait",
     markUndone: "Marquer comme non fait",
+    clearAllProgress: "Effacer Tous Progrès",
     maximumUnlockChance: "Chance de déverrouillage maximale",
     milestoneNeeded: "Jalon nécessaire",
     modulesUnlocked: "Modules déverrouillés",
@@ -282,6 +289,7 @@ const jpnUi: LocalizedUi = {
     initialUnlockChance: "初期解除確率",
     markDone: "完了としてマーク",
     markUndone: "未完了としてマーク",
+    clearAllProgress: "全進歩をクリア",
     maximumUnlockChance: "最大解除確率",
     milestoneNeeded: "必要なマイルストーン",
     modulesUnlocked: "解除されたモジュール",
@@ -319,6 +327,7 @@ const polUi: LocalizedUi = {
     initialUnlockChance: "Początkowa szansa odblokowania",
     markDone: "Oznacz jako ukończone",
     markUndone: "Oznacz jako nieukończone",
+    clearAllProgress: "Wyczyść Cały Postęp",
     maximumUnlockChance: "Maksymalna szansa odblokowania",
     milestoneNeeded: "Wymagany kamień milowy",
     modulesUnlocked: "Odblokowane moduły",
@@ -356,6 +365,7 @@ const porUi: LocalizedUi = {
     initialUnlockChance: "Chance Inicial de Desbloqueio",
     markDone: "Marcar como concluído",
     markUndone: "Marcar como não concluído",
+    clearAllProgress: "Limpar Todo Progresso",
     maximumUnlockChance: "Chance Máxima de Desbloqueio",
     milestoneNeeded: "Marco Necessário",
     modulesUnlocked: "Módulos Desbloqueados",
