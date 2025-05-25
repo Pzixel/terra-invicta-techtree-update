@@ -345,6 +345,24 @@ export function TechSidebar({
         });
     };
 
+    const renderProjectButton = (tech: TechTemplate) => {
+        const canFailToRoll = tech.factionAvailableChance !== undefined && tech.factionAvailableChance < 100;
+        return (
+            <Button
+                key={`${tech.displayName}`}
+                onClick={() => onNavigateToNode(tech)}
+                variant="contained"
+                className={`prereqButton${tech.researchDone ? " researchDone" : ""}`}
+                size="small"
+                title={tech.isProject ? "Faction Project" : "Global Research"}
+                aria-label={tech ? `${tech.displayName} ${tech.isProject ? "Faction Project" : "Global Research"}` : ""}
+                color={tech.isProject ? canFailToRoll ? "warning" : "success" : "primary"}
+            >
+                {tech.displayName} {canFailToRoll ? `${tech.factionAvailableChance}%` : ""}
+            </Button>
+        )
+    }
+
     // Render prerequisites section
     const renderPrerequisites = () => {
         const prereqNames = node.prereqs?.filter(prereq => prereq !== "") || [];
@@ -359,20 +377,7 @@ export function TechSidebar({
                 if (!tech) {
                     return null;
                 }
-                return (
-                    <Button
-                        key={`prereq-${tech.displayName}`}
-                        onClick={() => onNavigateToNode(tech)}
-                        variant="contained"
-                        className={`prereqButton${tech.researchDone ? " researchDone" : ""}`}
-                        size="small"
-                        title={tech.isProject ? "Faction Project" : "Global Research"}
-                        aria-label={tech ? `${tech.displayName} ${tech.isProject ? "Faction Project" : "Global Research"}` : ""}
-                        color={tech.isProject ? "success" : "primary"}
-                    >
-                        {tech ? tech.displayName : ""}
-                    </Button>
-                );
+                return renderProjectButton(tech);
             });
 
         // Handle alternate prerequisites
@@ -382,20 +387,7 @@ export function TechSidebar({
             if (!tech) {
                 return null;
             }
-            const altButton = (
-                <Button
-                    key={`alt-${tech.displayName}`}
-                    onClick={() => onNavigateToNode(tech)}
-                    variant="contained"
-                    className={`prereqButton${tech.researchDone ? " researchDone" : ""}`}
-                    size="small"
-                    title={tech.isProject ? "Faction Project" : "Global Research"}
-                    aria-label={tech ? `${tech.displayName} ${tech.isProject ? "Faction Project" : "Global Research"}` : ""}
-                    color={tech.isProject ? "success" : "primary"}
-                >
-                    {tech ? tech.displayName : ""}
-                </Button>
-            );
+            const altButton = renderProjectButton(tech);
 
             const orText = <b key={"or"} className="prereqButton">or</b>;
             const breakElement = <br key={"br"} />;
@@ -425,22 +417,7 @@ export function TechSidebar({
 
         blockingTechs.sort(techSorter);
 
-        const blockerElements = blockingTechs.map(blocked => (
-            <Button
-                key={`blocker-${blocked.dataName}`}
-                onClick={() => {
-                    onNavigateToNode(blocked);
-                }}
-                variant="contained"
-                className="prereqButton"
-                size="small"
-                title={blocked.isProject ? "Faction Project" : "Global Research"}
-                aria-label={blocked ? `${blocked.displayName} ${blocked.isProject ? "Faction Project" : "Global Research"}` : ""}
-                color={blocked.isProject ? "success" : "primary"}
-            >
-                {blocked.displayName} {blocked.factionAvailableChance && blocked.factionAvailableChance < 100 ? `${blocked.factionAvailableChance}%` : ""}
-            </Button>
-        ));
+        const blockerElements = blockingTechs.map(blocked => renderProjectButton(blocked));
 
         return (
             <>
