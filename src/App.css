@@ -157,8 +157,10 @@ ul.hideBullets {
     /* background-color: darkgray; */
     display: block;
     word-wrap: break-word;
-    padding: 1em;
-    margin: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     overflow: auto;
 
     /* text-align: start; */
@@ -171,6 +173,10 @@ ul.hideBullets {
     max-width: 100%;
     margin: 0;
     padding: 0.8em;
+}
+
+#sidebar-react > * {
+    margin-top: 1em;
 }
 
 #costInfo {
