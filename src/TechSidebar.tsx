@@ -21,7 +21,11 @@ function saveResearchState(techDb: any) {
                 researchState[tech.dataName] = true;
             }
         });
-        localStorage.setItem(RESEARCH_STATE_KEY, JSON.stringify(researchState));
+        if (Object.keys(researchState).length > 0) {
+            localStorage.setItem(RESEARCH_STATE_KEY, JSON.stringify(researchState));
+        } else {
+            localStorage.removeItem(RESEARCH_STATE_KEY);
+        }
     } catch (error) {
         console.warn('Failed to save research state to localStorage:', error);
     }
@@ -332,8 +336,10 @@ export function TechSidebar({
     const handleResearchToggle = () => {
         if (node.researchDone) {
             node.researchDone = false;
+            techDb.getTechByDataName(node.dataName)!.researchDone = false;
         } else {
             node.researchDone = true;
+            techDb.getTechByDataName(node.dataName)!.researchDone = true;
             getAncestorTechs(techDb, node).forEach(tech => tech.researchDone = true);
         }
         
@@ -351,6 +357,11 @@ export function TechSidebar({
         
         // Reload the page to reset all research states
         window.location.reload();
+    };
+
+    const hasAnyResearchProgress = () => {
+        if (!techDb) return false;
+        return techDb.getAllTechs().some((tech: TechTemplate) => tech.researchDone);
     };
 
     const renderProjectButton = (tech: TechTemplate) => {
@@ -630,17 +641,18 @@ export function TechSidebar({
                 >
                     {node.researchDone ? language.uiTexts.markUndone : language.uiTexts.markDone}
                 </Button>
-
-                <Tooltip title="Clears all research progress and reloads the page" arrow placement="top">
-                    <Button
-                        variant="contained"
-                        onClick={handleClearAllProgress}
-                        className="topTechbarButton"
-                        color="secondary"
-                    >
-                        {language.uiTexts.clearAllProgress}
-                    </Button>
-                </Tooltip>
+                {hasAnyResearchProgress() && (
+                    <Tooltip title="Clears all research progress and reloads the page" arrow placement="top">
+                        <Button
+                            variant="contained"
+                            onClick={handleClearAllProgress}
+                            className="topTechbarButton"
+                            color="secondary"
+                        >
+                            {language.uiTexts.clearAllProgress}
+                        </Button>
+                    </Tooltip>
+                )}
 
                 {/* Heading */}
                 <h2>{node.displayName} {node.isProject ? <span className="project-img"><img src="icons/ICO_projects.png" alt="faction project" style={{ width: "24px", height: "16px" }} /></span> : null}</h2>
