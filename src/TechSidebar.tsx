@@ -274,11 +274,11 @@ export function TechSidebar({
     }
 
     const ancestorTreeIds = ancestorTree.map(o => o.id);
-    const uniqueAncestorTree = ancestorTree.filter(({ id }, index) => !ancestorTreeIds.includes(id, index + 1));
-    const ancestorTreeProcessed = uniqueAncestorTree.filter(tech => !tech.researchDone);
+    const uniqueAncestorTreeAndSelf = ancestorTree.filter(({ id }, index) => !ancestorTreeIds.includes(id, index + 1)).concat(node);
+    const ancestorTreeProcessedAndSelf = uniqueAncestorTreeAndSelf.filter(tech => !tech.researchDone);
 
     const calculateTechCost = (tree: TechTemplate[]) => {
-        return tree.concat(node).reduce((acc, curr) => { 
+        return tree.reduce((acc, curr) => { 
             acc[curr.techCategory] ??= {
                 tech: 0,
                 project: 0,
@@ -292,8 +292,8 @@ export function TechSidebar({
         }, {} as Record<string, { tech: number, project: number }>);
     };
 
-    const treeCostBreakdownTotal = calculateTechCost(uniqueAncestorTree);
-    const treeCostBreakdownRemaining = calculateTechCost(ancestorTreeProcessed);
+    const treeCostBreakdownTotal = calculateTechCost(uniqueAncestorTreeAndSelf);
+    const treeCostBreakdownRemaining = calculateTechCost(ancestorTreeProcessedAndSelf);
 
     const treeCostTotal = Object.values(treeCostBreakdownTotal).reduce((acc, curr) => acc + curr.tech + curr.project, 0);
     const treeCostRemaining = Object.values(treeCostBreakdownRemaining).reduce((acc, curr) => acc + curr.tech + curr.project, 0);
