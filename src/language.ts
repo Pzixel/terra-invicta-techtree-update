@@ -16,6 +16,7 @@ interface LocalizedUi {
     markDone: string;
     markUndone: string;
     clearAllProgress: string;
+    clearAllProgressTooltip: string;
     maximumUnlockChance: string;
     milestoneNeeded: string;
     modulesUnlocked: string;
@@ -54,6 +55,7 @@ const englishUi: LocalizedUi = {
     markDone: "Mark done",
     markUndone: "Mark undone",
     clearAllProgress: "Clear All Progress",
+    clearAllProgressTooltip: "Clears all research progress and reloads the page",
     maximumUnlockChance: "Maximum Unlock Chance",
     milestoneNeeded: "Milestone Needed",
     modulesUnlocked: "Modules Unlocked",
@@ -98,8 +100,9 @@ const chsUi: LocalizedUi = {
     hiddenEffect: "隐藏效果：",
     initialUnlockChance: "初始解锁几率",
     markDone: "标记为完成",
-    markUndone: "标记为未完成",
+        markUndone: "标记为未完成",
     clearAllProgress: "清除所有进度",
+    clearAllProgressTooltip: "清除所有研究进度并重新加载页面",
     maximumUnlockChance: "最大解锁几率",
     milestoneNeeded: "需要里程碑",
     modulesUnlocked: "解锁模块",
@@ -138,6 +141,7 @@ const chtUi: LocalizedUi = {
     markDone: "標記為完成",
     markUndone: "標記為未完成",
     clearAllProgress: "清除所有進度",
+    clearAllProgressTooltip: "清除所有研究進度並重新載入頁面",
     maximumUnlockChance: "最大解鎖機率",
     milestoneNeeded: "需要里程碑",
     modulesUnlocked: "解鎖模組",
@@ -176,6 +180,7 @@ const deuUi: LocalizedUi = {
     markDone: "Als erledigt markieren",
     markUndone: "Als unerledigt markieren",
     clearAllProgress: "Alle Fortschritte löschen",
+    clearAllProgressTooltip: "Löscht alle Forschungsfortschritte und lädt die Seite neu",
     maximumUnlockChance: "Maximale Freischaltchance",
     milestoneNeeded: "Benötigter Meilenstein",
     modulesUnlocked: "Freigeschaltete Module",
@@ -214,6 +219,7 @@ const espUi: LocalizedUi = {
     markDone: "Marcar como hecho",
     markUndone: "Desmarcar",
     clearAllProgress: "Borrar Todo Progreso",
+    clearAllProgressTooltip: "Borra todo el progreso de investigación y recarga la página",
     maximumUnlockChance: "Probabilidad Máxima de Desbloqueo",
     milestoneNeeded: "Hito Necesario",
     modulesUnlocked: "Módulos Desbloqueados",
@@ -252,6 +258,7 @@ const frUi: LocalizedUi = {
     markDone: "Marquer comme fait",
     markUndone: "Marquer comme non fait",
     clearAllProgress: "Effacer Tous Progrès",
+    clearAllProgressTooltip: "Efface tous les progrès de recherche et recharge la page",
     maximumUnlockChance: "Chance de déverrouillage maximale",
     milestoneNeeded: "Jalon nécessaire",
     modulesUnlocked: "Modules déverrouillés",
@@ -290,6 +297,7 @@ const jpnUi: LocalizedUi = {
     markDone: "完了としてマーク",
     markUndone: "未完了としてマーク",
     clearAllProgress: "全進歩をクリア",
+    clearAllProgressTooltip: "すべての研究進歩をクリアしてページを再読み込みします",
     maximumUnlockChance: "最大解除確率",
     milestoneNeeded: "必要なマイルストーン",
     modulesUnlocked: "解除されたモジュール",
@@ -328,6 +336,7 @@ const polUi: LocalizedUi = {
     markDone: "Oznacz jako ukończone",
     markUndone: "Oznacz jako nieukończone",
     clearAllProgress: "Wyczyść Cały Postęp",
+    clearAllProgressTooltip: "Czyści cały postęp badań i przeładowuje stronę",
     maximumUnlockChance: "Maksymalna szansa odblokowania",
     milestoneNeeded: "Wymagany kamień milowy",
     modulesUnlocked: "Odblokowane moduły",
@@ -366,6 +375,7 @@ const porUi: LocalizedUi = {
     markDone: "Marcar como concluído",
     markUndone: "Marcar como não concluído",
     clearAllProgress: "Limpar Todo Progresso",
+    clearAllProgressTooltip: "Limpa todo o progresso de pesquisa e recarrega a página",
     maximumUnlockChance: "Chance Máxima de Desbloqueio",
     milestoneNeeded: "Marco Necessário",
     modulesUnlocked: "Módulos Desbloqueados",

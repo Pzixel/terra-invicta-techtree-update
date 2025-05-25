@@ -642,7 +642,7 @@ export function TechSidebar({
                     {node.researchDone ? language.uiTexts.markUndone : language.uiTexts.markDone}
                 </Button>
                 {hasAnyResearchProgress() && (
-                    <Tooltip title="Clears all research progress and reloads the page" arrow placement="top">
+                    <Tooltip title={language.uiTexts.clearAllProgressTooltip} arrow placement="top">
                         <Button
                             variant="contained"
                             onClick={handleClearAllProgress}
