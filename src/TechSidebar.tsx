@@ -655,7 +655,7 @@ export function TechSidebar({
                 )}
 
                 {/* Heading */}
-                <h2>{node.displayName} {node.isProject ? <span className="project-img"><img src="icons/ICO_projects.png" alt="faction project" style={{ width: "24px", height: "16px" }} /></span> : null}</h2>
+                <h2>{node.displayName} {node.isProject ? <img src="icons/ICO_projects_Invert.png" alt="faction project" style={{ width: "24px", height: "24px" }} /> : null}</h2>
 
                 {/* Cost information */}
                 <Accordion disableGutters>
@@ -678,7 +678,7 @@ export function TechSidebar({
                                         project > 0 && 
                                         (
                                             <span>
-                                                {"\t\t\t"}(<span className="project-img"><img src="icons/ICO_projects.png" alt={key} style={{ width: "16px", height: "16px" }} /></span>
+                                                {"\t\t\t"}(<img src="icons/ICO_projects_Invert.png" alt={key} style={{ width: "16px", height: "16px" }} />
                                                 {"\t\t"}{project.toLocaleString()})
                                             </span>
                                         )
