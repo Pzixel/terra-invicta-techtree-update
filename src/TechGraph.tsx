@@ -5,13 +5,14 @@ import { TechGraphProps } from './types/props';
 
 export function TechGraph({
     techDb, 
+    templateData,
     onNavigateToNode, 
     navigatedToNode,
 }: TechGraphProps) {
     const [network, setNetwork] = useState<vis.Network | null>(null);
 
     function drawTree() {
-        const { nodes, edges, lateNodes, lateEdges } = parseNode(techDb, false);
+        const { nodes, edges, lateNodes, lateEdges } = parseNode(techDb, templateData, false);
         const data = {
             nodes: new vis.DataSet(nodes),
             edges: new vis.DataSet(edges as any)

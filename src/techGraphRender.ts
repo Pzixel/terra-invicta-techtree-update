@@ -1,5 +1,5 @@
 import * as vis from "vis-network/standalone";
-import { TechTemplate, VisNode, VisEdge, VisData } from './types';
+import { TechTemplate, VisNode, VisEdge, VisData, TemplateData } from './types';
 import { TechDb } from './utils/TechDb';
 
 export function draw(
@@ -180,7 +180,7 @@ export function getTechBorderColor(techCategory: string) {
     return "black";
 }
 
-export function parseNode(techDb: TechDb, dumpAllEdges: boolean) {
+export function parseNode(techDb: TechDb, templateData: TemplateData, dumpAllEdges: boolean) {
     const nodes: VisNode[] = [];
     const edges: VisEdge[] = [];
     const lateNodes: VisNode[] = [];
@@ -195,8 +195,11 @@ export function parseNode(techDb: TechDb, dumpAllEdges: boolean) {
             nodeBucket = nodes;
         }
 
+        const orgMarket = templateData["org"]?.filter(org => org.requiredTechName == tech.dataName) ?? [];
+        const prefix = orgMarket.length > 0 ? "⭐ " : "";
+
         nodeBucket.push({
-            label: `<b>${tech.displayName}</b>`,
+            label: `<b>${prefix}${tech.displayName}</b>`,
             id: tech.dataName,
             shape: tech.isProject ? "circularImage" : "image",
             image: getTechIconFile(tech.techCategory),

@@ -96,6 +96,7 @@ function App() {
                     {isReady && techDb && !isMobileLayout && (
                         <TechGraph
                             techDb={techDb}
+                            templateData={appStaticData.templateData}
                             onNavigateToNode={onNavigatedToNode}
                             navigatedToNode={navigatedToNode}
                         />
