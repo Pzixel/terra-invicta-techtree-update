@@ -5,10 +5,13 @@ export class TechDb {
     private techsByDataName: Record<string, TechTemplate>;
     private techsByDisplayName: Record<string, TechTemplate>;
     private blockingTechs: Record<string, TechTemplate[]>;
+    private isTechOnly: boolean;
 
     constructor(
-        tree: TechTemplate[]
+        tree: TechTemplate[],
+        isTechOnly: boolean = false
     ) {
+        this.isTechOnly = isTechOnly;
         this.tree = tree;
         this.techsByDataName = tree.reduce<Record<string, TechTemplate>>((acc, tech) => {
             acc[tech.dataName] = tech;
@@ -36,17 +39,56 @@ export class TechDb {
         if (!dataName) {
             return null;
         }
+        const tech = this.techsByDataName[dataName];
+        if (tech && this.isTechOnly && tech.isProject) {
+            return null;
+        }
+        return tech;
+    }
+    
+    getTechByDataNameIncludingProjects(dataName: string | null | undefined) {
+        if (!dataName) {
+            return null;
+        }
         return this.techsByDataName[dataName];
     }
+    
     getTechByDisplayName(displayName: string | null | undefined) {
+        if (!displayName) {
+            return null;
+        }
+        const tech = this.techsByDisplayName[displayName];
+        if (tech && this.isTechOnly && tech.isProject) {
+            return null;
+        }
+        return tech;
+    }
+    
+    getTechByDisplayNameIncludingProjects(displayName: string | null | undefined) {
         if (!displayName) {
             return null;
         }
         return this.techsByDisplayName[displayName];
     }
     getAllTechs() {
+        if (this.isTechOnly) {
+            return this.tree.filter(tech => !tech.isProject);
+        }
         return this.tree;
     }
+    
+    getAllTechsIncludingProjects() {
+        return this.tree;
+    }
+    
+    getIsTechOnly() {
+        return this.isTechOnly;
+    }
+    
+    setIsTechOnly(isTechOnly: boolean) {
+        this.isTechOnly = isTechOnly;
+    }
+    
     getBlockingTechs(tech: TechTemplate | null | undefined) {
         if (!tech) {
             return [];

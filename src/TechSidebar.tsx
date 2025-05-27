@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip } from "@mui/material";
-import { findBlockingTechs, getAncestorTechs } from './utils';
+import { findBlockingTechs, findBlockingTechsIncludingProjects, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
 import { TechSidebarProps } from './types/props';
 import { TechTemplate, Claim, Adjacency, DataModule, TemplateType } from './types';
@@ -16,7 +16,7 @@ const RESEARCH_STATE_KEY = 'terraInvictaResearchState';
 function saveResearchState(techDb: any) {
     try {
         const researchState: Record<string, boolean> = {};
-        techDb.getAllTechs().forEach((tech: TechTemplate) => {
+        techDb.getAllTechsIncludingProjects().forEach((tech: TechTemplate) => {
             if (tech.researchDone) {
                 researchState[tech.dataName] = true;
             }
@@ -40,7 +40,7 @@ function loadResearchState(techDb: any) {
         const savedState = localStorage.getItem(RESEARCH_STATE_KEY);
         if (savedState) {
             const researchState: Record<string, boolean> = JSON.parse(savedState);
-            techDb.getAllTechs().forEach((tech: TechTemplate) => {
+            techDb.getAllTechsIncludingProjects().forEach((tech: TechTemplate) => {
                 tech.researchDone = !!researchState[tech.dataName];
             });
         }
@@ -243,6 +243,10 @@ export function TechSidebar({
         return techDb.getTechByDataName(techName);
     }
 
+    function findTechByNameIncludingProjects(techName: string) {
+        return techDb.getTechByDataNameIncludingProjects(techName);
+    }
+
     function findEffectByName(effectName: string) {
         return effects.find(effect => effect.dataName === effectName);
     }
@@ -336,10 +340,10 @@ export function TechSidebar({
     const handleResearchToggle = () => {
         if (node.researchDone) {
             node.researchDone = false;
-            techDb.getTechByDataName(node.dataName)!.researchDone = false;
+            techDb.getTechByDataNameIncludingProjects(node.dataName)!.researchDone = false;
         } else {
             node.researchDone = true;
-            techDb.getTechByDataName(node.dataName)!.researchDone = true;
+            techDb.getTechByDataNameIncludingProjects(node.dataName)!.researchDone = true;
             getAncestorTechs(techDb, node).forEach(tech => tech.researchDone = true);
         }
         
@@ -361,7 +365,7 @@ export function TechSidebar({
 
     const hasAnyResearchProgress = () => {
         if (!techDb) return false;
-        return techDb.getAllTechs().some((tech: TechTemplate) => tech.researchDone);
+        return techDb.getAllTechsIncludingProjects().some((tech: TechTemplate) => tech.researchDone);
     };
 
     const renderProjectButton = (tech: TechTemplate) => {
@@ -392,7 +396,7 @@ export function TechSidebar({
 
         const prereqElements = prereqNames
             .map(prereq => {
-                const tech = findTechByName(prereq);
+                const tech = findTechByNameIncludingProjects(prereq);
                 if (!tech) {
                     return null;
                 }
@@ -402,7 +406,7 @@ export function TechSidebar({
         // Handle alternate prerequisites
         if (node.altPrereq0 && node.altPrereq0 !== "") {
             const prereq = node.altPrereq0;
-            const tech = findTechByName(prereq);
+            const tech = findTechByNameIncludingProjects(prereq);
             if (!tech) {
                 return null;
             }
@@ -429,7 +433,7 @@ export function TechSidebar({
 
     // Render blocking techs section
     const renderBlockingTechs = () => {
-        const blockingTechs = findBlockingTechs(techDb, node);
+        const blockingTechs = findBlockingTechsIncludingProjects(techDb, node);
         if (blockingTechs.length === 0) {
             return null;
         }

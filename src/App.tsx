@@ -70,8 +70,12 @@ function App() {
     }, [setNavigatedToNode, navigate])
 
     const onShowProjects = useCallback((showToggle: boolean) => {
-        setTechDb(new TechDb(showToggle ? appStaticData.techs.concat(appStaticData.projects) : appStaticData.techs));
-    }, [appStaticData.techs, appStaticData.projects]);
+        if (techDb) {
+            techDb.setIsTechOnly(!showToggle);
+            // Force a re-render by creating a new TechDb instance with the updated flag
+            setTechDb(new TechDb(techDb.getAllTechsIncludingProjects(), !showToggle));
+        }
+    }, [techDb]);
 
     const handleIsolatedChanged = useCallback((isolated: boolean) => {
         if (isolated) {
@@ -79,10 +83,11 @@ function App() {
                 const node = navigatedToNode;
                 const isolatedTree = getAncestorTechs(techDb, node).concat(getDescendentTechs(techDb, node)).concat(node);
                 const isolatedTreeSet = [...new Map(isolatedTree.map(v => [v.dataName, v])).values()];
-                setTechDb(new TechDb(isolatedTreeSet));
+                setTechDb(new TechDb(isolatedTreeSet, techDb.getIsTechOnly()));
             }
         } else {
-            setTechDb(new TechDb(appStaticData.techs.concat(appStaticData.projects)));
+            const currentIsTechOnly = techDb?.getIsTechOnly() ?? false;
+            setTechDb(new TechDb(appStaticData.techs.concat(appStaticData.projects), currentIsTechOnly));
         }
     }, [appStaticData.techs, appStaticData.projects, techDb, navigatedToNode]);
 
@@ -180,7 +185,7 @@ async function init(language: Language, setTechDb: React.Dispatch<React.SetState
         projects,
         localizationDb,
     });
-    setTechDb(new TechDb(techTreeTmp));
+    setTechDb(new TechDb(techTreeTmp, false)); // Start with projects shown by default
 };
 
 async function loadTemplateData(language: string) {

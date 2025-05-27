@@ -8,6 +8,13 @@ export function findBlockingTechs(techDb: TechDb, techToSearch: TechTemplate | n
   return techDb.getBlockingTechs(techToSearch);
 }
 
+export function findBlockingTechsIncludingProjects(techDb: TechDb, techToSearch: TechTemplate | null): TechTemplate[] {
+  if (!techToSearch) {
+    return [];
+  }
+  return techDb.getBlockingTechs(techToSearch);
+}
+
 export function findPrereqTechs(techDb: TechDb, techToSearch: TechTemplate): TechTemplate[] {
   if (!techToSearch.prereqs) {
     return [];
@@ -15,7 +22,7 @@ export function findPrereqTechs(techDb: TechDb, techToSearch: TechTemplate): Tec
   return techToSearch.prereqs
     .filter(prereq => prereq !== "")
     .flatMap(prereq => {
-      const tech = techDb.getTechByDataName(prereq);
+      const tech = techDb.getTechByDataNameIncludingProjects(prereq);
       return tech ? [tech] : [];
     });
 }

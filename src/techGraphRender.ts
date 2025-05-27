@@ -83,7 +83,7 @@ export function draw(
     network.on('selectNode', (e: any) => {
         if (e.nodes.length === 1) {
             const selectedNodeId = e.nodes[0];
-            const selectedNode = techDb.getTechByDataName(selectedNodeId);
+            const selectedNode = techDb.getTechByDataNameIncludingProjects(selectedNodeId);
             onNavigateToNode(selectedNode);
         }
     });
