@@ -183,6 +183,21 @@ export interface VisData {
   edges: any;
 }
 
-export type Claim = any;
-export type Adjacency = any;
 export type DataModule = any;
+
+export interface Claim {
+    dataName: string;
+    relationType: "Claim";
+    nation1: string;
+    region1: string;
+    projectUnlockName?: string;
+}
+
+export interface Adjacency {
+    dataName: string;
+    relationType: "PhysicalAdjacency";
+    region1: string;
+    region2: string;    
+    projectUnlockName?: string;
+    friendlyOnly?: true;
+}

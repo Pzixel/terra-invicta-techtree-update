@@ -588,7 +588,7 @@ export function TechSidebar({
     const renderClaims = () => {
         if (!node.isProject) return null;
 
-        const claims = templateData["bilateral"]?.filter(
+        const claims: Claim[] = templateData["bilateral"]?.filter(
             claim => claim.projectUnlockName === node.dataName && claim.relationType === "Claim"
         ) || [];
 
