@@ -452,7 +452,7 @@ export function TechSidebar({
             return null;
         }
         const adjacencyElements = adjacencies.map(adjacency => (
-            <li key={`adj-${JSON.stringify(adjacency)}`}>{getReadableAdjacency(adjacency)}</li>
+            <li key={`adj-${adjacency.dataName}`}>{getReadableAdjacency(adjacency)}</li>
         ));
         return (
             <>
@@ -594,13 +594,17 @@ export function TechSidebar({
 
         if (claims.length === 0) return null;
 
-        const claimsElements = claims.flatMap(claim => {
+        // deduplicate claims by dataName
+        const uniqueClaims = Array.from(new Set(claims.map(claim => claim.dataName)))
+            .map(dataName => claims.find(claim => claim.dataName === dataName)!);
+
+        const claimsElements = uniqueClaims.flatMap(claim => {
             const text = getReadableClaim(claim);
             if (!text) {
                 return [];
             }
             return [
-                <li key={`claim-${JSON.stringify(claim)}`}>{text}</li>
+                <li key={`claim-${claim.dataName}`}>{text}</li>
             ];
         });
 
