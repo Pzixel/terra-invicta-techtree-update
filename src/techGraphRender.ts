@@ -101,7 +101,7 @@ export function draw(
         }
     });
 
-    const MIN_ZOOM = 0.35
+    const MIN_ZOOM = 0.1
     const MAX_ZOOM = 2.0
     let lastZoomPosition = { x: 0, y: 0 }
     network.on("zoom", function () {
