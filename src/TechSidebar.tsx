@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip } from "@mui/material";
+import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip, IconButton } from "@mui/material";
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
 import { TechSidebarProps } from './types/props';
@@ -75,6 +76,10 @@ export function TechSidebar({
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
     const [isolated, setIsolated] = useState(false);
     const [researchStateLoaded, setResearchStateLoaded] = useState(false);
+    const [copied, setCopied] = useState(false);
+    const [copyButtonHovered, setCopyButtonHovered] = useState(false);
+    const [accordionTooltipOpen, setAccordionTooltipOpen] = useState(false);
+    const [copyTooltipOpen, setCopyTooltipOpen] = useState(false);
 
     // Load research state from localStorage when techDb changes
     useEffect(() => {
@@ -83,6 +88,17 @@ export function TechSidebar({
             setResearchStateLoaded(true);
         }
     }, [techDb]);
+
+    // Copy to clipboard handler
+    const handleCopyTreeCost = async (treeCostString: string) => {
+        try {
+            await navigator.clipboard.writeText(treeCostString);
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+        }
+    };
 
     function getReadableEffect(dataName: string) {
         const description = localizationDb.getLocalizationString("effect", dataName, "description");
@@ -663,12 +679,62 @@ export function TechSidebar({
 
                 {/* Cost information */}
                 <Accordion disableGutters>
-                    <Tooltip title="Click to see technology cost breakdown" arrow placement="top">
-                        <AccordionSummary>
+                    <Tooltip 
+                        title="Click to see technology cost breakdown" 
+                        arrow 
+                        placement="top" 
+                        enterDelay={300}
+                        open={accordionTooltipOpen && !copyButtonHovered}
+                        disableHoverListener={true}
+                    >
+                        <AccordionSummary
+                            onMouseEnter={() => setAccordionTooltipOpen(true)}
+                            onMouseLeave={() => setAccordionTooltipOpen(false)}
+                        >
                             <div id="costInfo">
                                 {language.uiTexts.cost}: {researchCost.toLocaleString()}
                                 <br />
-                                {language.uiTexts.totalTreeCost}: {treeCostString}
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <span>{language.uiTexts.totalTreeCost}: {treeCostString}</span>
+                                    <Tooltip 
+                                        title={copied ? "Copied!" : "Copy to clipboard"} 
+                                        arrow 
+                                        placement="right" 
+                                        enterDelay={100}
+                                        open={copyTooltipOpen}
+                                        disableHoverListener={true}
+                                    >
+                                        <span
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                handleCopyTreeCost(treeCostString);
+                                            }}
+                                            onMouseEnter={(e) => {
+                                                setCopyButtonHovered(true);
+                                                setCopyTooltipOpen(true);
+                                                e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.04)';
+                                            }}
+                                            onMouseLeave={(e) => {
+                                                setCopyButtonHovered(false);
+                                                setCopyTooltipOpen(false);
+                                                e.currentTarget.style.backgroundColor = 'transparent';
+                                            }}
+                                            style={{
+                                                cursor: 'pointer',
+                                                display: 'inline-flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'center',
+                                                minWidth: '24px',
+                                                padding: '4px',
+                                                borderRadius: '4px',
+                                                color: copied ? '#4caf50' : '#666',
+                                                transition: 'background-color 0.2s'
+                                            }}
+                                        >
+                                            <ContentCopyIcon sx={{ fontSize: '16px' }} />
+                                        </span>
+                                    </Tooltip>
+                                </div>
                             </div>
                         </AccordionSummary>
                     </Tooltip>
