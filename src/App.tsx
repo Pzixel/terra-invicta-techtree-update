@@ -88,7 +88,6 @@ function App() {
 
     return (
         <>
-            <title>Terra Invicta Tech Tree - Game Version 0.4.78</title>
             {!isReady && <div id="loading">Loading</div>}
             {isReady && techDb && (
                 <div id="responsive-container" className={isMobileLayout ? "mobile-layout" : "desktop-layout"}>
