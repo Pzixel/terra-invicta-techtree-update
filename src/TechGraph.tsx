@@ -19,7 +19,7 @@ export function TechGraph({
         };
 
         setNetwork(draw(techDb, data, lateNodes, lateEdges, onNavigateToNode));
-    }, [techDb, templateData, onNavigateToNode]);
+    }, [techDb, templateData]);
 
     useEffect(() => {
         drawTree();
