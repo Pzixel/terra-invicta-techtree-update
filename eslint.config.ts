@@ -7,8 +7,9 @@ import typescriptParser from '@typescript-eslint/parser'
 
 export default [
   { ignores: ['dist'] },
+  // Configuration for TypeScript files that are part of the project
   {
-    files: ['**/*.{js,jsx,ts,tsx}'],
+    files: ['src/**/*.{ts,tsx}', 'vite.config.ts'],
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
@@ -35,6 +36,30 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+    },
+  },
+  // Configuration for other TypeScript/JavaScript files (including this config file)
+  {
+    files: ['**/*.{js,jsx,ts,tsx}'],
+    ignores: ['src/**/*', 'vite.config.ts'], // Exclude files already handled above
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: globals.browser,
+      parser: typescriptParser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        ecmaFeatures: { jsx: true },
+        sourceType: 'module',
+        // No project here to avoid the parsing error
+      },
+    },
+    plugins: {
+      '@typescript-eslint': typescriptPlugin,
+    },
+    rules: {
+      ...js.configs.recommended.rules,
+      // Use basic TypeScript rules without type-aware rules
+      '@typescript-eslint/no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
   },
 ]
