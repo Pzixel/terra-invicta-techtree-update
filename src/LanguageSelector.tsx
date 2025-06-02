@@ -28,7 +28,7 @@ export default function LanguageSelector({
       setCurrentLang(initialLang);
       onLanguageChange(Languages[initialLang]);
     }
-  }, []);
+  }, [onLanguageChange]);
   
   // Update language when URL changes (e.g., user navigates with browser controls)
   useEffect(() => {

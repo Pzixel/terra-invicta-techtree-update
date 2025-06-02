@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { parseNode, draw } from './techGraphRender';
 import * as vis from "vis-network/standalone";
 import { TechGraphProps } from './types/props';
@@ -11,7 +11,7 @@ export function TechGraph({
 }: TechGraphProps) {
     const [network, setNetwork] = useState<vis.Network | null>(null);
 
-    function drawTree() {
+    const drawTree = useCallback(() => {
         const { nodes, edges, lateNodes, lateEdges } = parseNode(techDb, templateData, false);
         const data = {
             nodes: new vis.DataSet(nodes),
@@ -19,11 +19,11 @@ export function TechGraph({
         };
 
         setNetwork(draw(techDb, data, lateNodes, lateEdges, onNavigateToNode));
-    }
+    }, [techDb, templateData, onNavigateToNode]);
 
     useEffect(() => {
         drawTree();
-    }, [techDb]);
+    }, [techDb, drawTree]);
 
     useEffect(() => {
         if (navigatedToNode && network) {

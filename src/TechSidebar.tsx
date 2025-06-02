@@ -76,7 +76,7 @@ export function TechSidebar({
     const locale = language.locale;
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
     const [isolated, setIsolated] = useState(false);
-    const [researchStateLoaded, setResearchStateLoaded] = useState(false);
+    const [_researchStateLoaded, setResearchStateLoaded] = useState(false);
     const [copied, setCopied] = useState(false);
     const [copyButtonHovered, setCopyButtonHovered] = useState(false);
     const [accordionTooltipOpen, setAccordionTooltipOpen] = useState(false);

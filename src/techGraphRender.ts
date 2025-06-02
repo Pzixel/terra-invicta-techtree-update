@@ -2,6 +2,36 @@ import * as vis from "vis-network/standalone";
 import { TechTemplate, VisNode, VisEdge, VisData, TemplateData } from './types';
 import { TechDb } from './utils/TechDb';
 
+// Types for vis-network internal structures
+interface VisNetworkNode {
+    id: string;
+    x: number;
+    y: number;
+}
+
+interface VisNetworkBody {
+    nodes: Record<string, VisNetworkNode>;
+}
+
+interface VisNetworkNodesHandler {
+    body: VisNetworkBody;
+}
+
+interface VisNetworkInternal extends vis.Network {
+    body: VisNetworkBody;
+    nodesHandler: VisNetworkNodesHandler;
+}
+
+interface SelectNodeEvent {
+    nodes: string[];
+    edges: string[];
+}
+
+interface ClickEvent {
+    nodes: string[];
+    edges: string[];
+}
+
 export function draw(
   techDb: TechDb,
   data: VisData,
@@ -63,24 +93,24 @@ export function draw(
             }
         }
     };
-    const network = new vis.Network(container, data, options) as any; // TODO: why body is missing in type definition
+    const network = new vis.Network(container, data, options) as VisNetworkInternal; // Cast to access internal body properties
 
     data.nodes.add(lateNodes);
 
     const oldPositions: Record<string, [number, number]> = {};
 
-    Object.values(network.body.nodes).forEach((node: any) => {
+    Object.values(network.body.nodes).forEach((node: VisNetworkNode) => {
         oldPositions[node.id] = [node.x, node.y];
     });
 
     data.edges.add(lateEdges);
 
-    Object.keys(network.body.nodes).forEach((node: any) => {
-        network.nodesHandler.body.nodes[node].x = oldPositions[node][0];
-        network.nodesHandler.body.nodes[node].y = oldPositions[node][1];
+    Object.keys(network.body.nodes).forEach((nodeId: string) => {
+        network.nodesHandler.body.nodes[nodeId].x = oldPositions[nodeId][0];
+        network.nodesHandler.body.nodes[nodeId].y = oldPositions[nodeId][1];
     });
 
-    network.on('selectNode', (e: any) => {
+    network.on('selectNode', (e: SelectNodeEvent) => {
         if (e.nodes.length === 1) {
             const selectedNodeId = e.nodes[0];
             const selectedNode = techDb.getTechByDataName(selectedNodeId);
@@ -92,7 +122,7 @@ export function draw(
     });
 
     // Disable selecting edges
-    network.on('click', ({ nodes, edges }: any) => {
+    network.on('click', ({ nodes, edges }: ClickEvent) => {
         if (nodes.length == 0 && edges.length > 0) {
             network.setSelection({
                 nodes: [],

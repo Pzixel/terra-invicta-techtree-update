@@ -197,7 +197,7 @@ async function loadTemplateData(language: string) {
             type
         }));
 
-    const fetchTemplatePromises = Promise.all(templateFiles.map(template => fetch(template.url).then(async res => [template.type, JSON.parse(await res.text())] satisfies [string, any[]])));
+    const fetchTemplatePromises = Promise.all(templateFiles.map(template => fetch(template.url).then(async res => [template.type, JSON.parse(await res.text())] satisfies [string, unknown[]])));
     const [localizationResults, templateResults] = await Promise.all([fetchLocalizationPromises, fetchTemplatePromises]);
 
     const localizationDb = new LocalizationDb(localizationResults);

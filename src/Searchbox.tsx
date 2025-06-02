@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { Paper, Autocomplete, TextField, FormControlLabel, Switch } from '@mui/material';
 import FlexSearch from 'flexsearch';
 import { SearchboxProps } from './types/props';
@@ -29,7 +29,7 @@ export function Searchbox({
     const [documentSearchIndex, setDocumentSearchIndex] = useState<FlexSearch.Document<SearchEntry, CachedProperties> | null>(null);
     const [fullText, setFullText] = useState(false);
 
-    const updateDocumentSearchIndex = (techDb: TechDb) => {
+    const updateDocumentSearchIndex = useCallback((techDb: TechDb) => {
         const documentSearchIndex = new FlexSearch.Document<SearchEntry, CachedProperties>({
             document: {
                 index: ["displayName", "fullText"],
@@ -90,11 +90,11 @@ export function Searchbox({
         };
 
         setDocumentSearchIndex(documentSearchIndex);
-    };
+    }, [localizationDb, templateData]);
 
     useEffect(() => {
         updateDocumentSearchIndex(techDb);
-    }, [techDb]);
+    }, [techDb, updateDocumentSearchIndex]);
 
     const searchInputRef = useRef<HTMLInputElement | null>(null);
 
