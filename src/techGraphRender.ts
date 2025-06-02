@@ -1,8 +1,29 @@
 import * as vis from "vis-network/standalone";
-import { TechTemplate, VisNode, VisEdge, VisData, TemplateData } from './types';
+import { TechTemplate, TemplateData } from './types';
 import { TechDb } from './utils/TechDb';
 
-// Types for vis-network internal structures
+export interface VisNode {
+  label: string;
+  id: string;
+  shape: string;
+  image: string;
+  level: number;
+  color: {
+    border: string;
+  };
+}
+
+export interface VisEdge {
+  id?: string;
+  from: string;
+  to: string;
+}
+
+export interface VisData {
+  nodes: vis.DataSet<VisNode>;
+  edges: vis.DataSet<vis.Edge>;
+}
+
 interface VisNetworkNode {
     id: string;
     x: number;

@@ -1,5 +1,3 @@
-import * as vis from "vis-network/standalone";
-
 // Basic data types
 export interface LocalizationEntry {
   [field: string]: string | { [faction: string]: string };
@@ -180,28 +178,6 @@ export interface TechTemplate {
 export interface ResourceGranted {
   resource: string;
   value: number;
-}
-
-export interface VisNode {
-  label: string;
-  id: string;
-  shape: string;
-  image: string;
-  level: number;
-  color: {
-    border: string;
-  };
-}
-
-export interface VisEdge {
-  id?: string;
-  from: string;
-  to: string;
-}
-
-export interface VisData {
-  nodes: vis.DataSet<VisNode>;
-  edges: vis.DataSet<vis.Edge>;
 }
 
 export interface ModuleTemplate {
