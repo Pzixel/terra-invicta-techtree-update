@@ -11,7 +11,7 @@ interface LocalizedUi {
     factionAlways: string;
     factionPrereq: string;
     fullTextSearch: string;
-    hiddenEffect: any;
+    hiddenEffect: string;
     initialUnlockChance: string;
     markDone: string;
     markUndone: string;
@@ -33,7 +33,7 @@ interface LocalizedUi {
     summary: string;
     totalTreeCost: string;
     traits: string;
-    unblocksOneOrMoreModules: any;
+    unblocksOneOrMoreModules: string;
     unblocksResearch: string;
 }
 

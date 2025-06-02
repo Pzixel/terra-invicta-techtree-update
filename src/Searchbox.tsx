@@ -3,11 +3,16 @@ import { Paper, Autocomplete, TextField, FormControlLabel, Switch } from '@mui/m
 import FlexSearch from 'flexsearch';
 import { SearchboxProps } from './types/props';
 import { TechDb } from './utils/TechDb';
+import { Claim } from './types';
 
 type SearchEntry = {
     id: string;
     displayName: string;
     fullText: string;
+};
+
+type FlexSearchResult = {
+    doc: SearchEntry;
 };
 
 type CachedProperties = ["displayName", "fullText"];
@@ -57,7 +62,7 @@ export function Searchbox({
             if (node.isProject) {
                 const modTypes = ["battery", "drive", "gun", "habmodule", "heatsink", "laserweapon", "magneticgun", "missile", "particleweapon", "plasmaweapon", "powerplant", "radiator", "shiparmor", "shiphull", "utilitymodule"] as const;
                 for (const modType of modTypes) {
-                    for (const module of templateData[modType]) {
+                    for (const module of templateData[modType] ?? []) {
                         if (module.requiredProjectName === node.dataName) {
                             const description = localizationDb.getLocalizationString(modType, module.dataName, "description");
                             modulesText.push(`${localizationDb.getLocalizationString(modType, module.dataName, "displayName")}/${description}`);
@@ -68,7 +73,8 @@ export function Searchbox({
 
             const claimsText = [];
             if (node.isProject) {
-                let claimsList = templateData["bilateral"].filter(claim => claim.projectUnlockName == node.dataName && claim.relationType == "Claim");
+                const claimsList = (templateData["bilateral"] ?? []).filter((claim): claim is Claim => 
+                    claim.projectUnlockName == node.dataName && claim.relationType == "Claim");
                 if (claimsList.length > 0) {
                     claimsText.push("gains a claim on");
 
@@ -102,10 +108,10 @@ export function Searchbox({
         const query = isQuoted ? value.slice(1, -1) : value;
 
         // Search on all relevant fields
-        const rawResults = documentSearchIndex.search(query, {
+        const rawResults = (documentSearchIndex as unknown as { search: (query: string, options: unknown) => FlexSearchResult[] }).search(query, {
             pluck: (fullText ? "fullText" : "displayName"),
             enrich: true
-        } as any); // It doesn't know about the pluck (despite https://github.com/nextapps-de/flexsearch/issues/436 )
+        }); // It doesn't know about the pluck (despite https://github.com/nextapps-de/flexsearch/issues/436 )
 
         let searchResults;
 
@@ -114,10 +120,10 @@ export function Searchbox({
             const regex = new RegExp(query, "i");
             // Simulate exact match
             searchResults = rawResults
-                .filter(entry => (entry as any).doc[field].match(regex))
-                .map(entry => (entry as any).doc.displayName);
+                .filter(entry => entry.doc[field].match(regex))
+                .map(entry => entry.doc.displayName);
         } else {
-            searchResults = rawResults.map(entry => (entry as any).doc.displayName);
+            searchResults = rawResults.map(entry => entry.doc.displayName);
         }
 
         setResults(searchResults);
@@ -131,17 +137,18 @@ export function Searchbox({
         }
     };
 
-    const handleChange = (_: any, value: string | null) => {
+    const handleChange = (_: React.SyntheticEvent, value: string | null) => {
         if (!value) return;
 
         navigateToTech(value);
     };
 
-    const handleKeyDown = (e: React.KeyboardEvent) => {
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
         if (e.key !== "Enter") {
             return;
         }
-        navigateToTech((e.target as any).value);
+        const target = e.target as HTMLInputElement;
+        navigateToTech(target.value);
     };
 
     // TODO: handle autocomplete on toggle
@@ -150,8 +157,9 @@ export function Searchbox({
         setShowProjects(showToggle);
     };
 
-    const handleClick = (e: any) => {
-        navigateToTech((e.target as any).value);
+    const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
+        const target = e.target as HTMLInputElement;
+        navigateToTech(target.value);
     };
 
     return (

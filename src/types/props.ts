@@ -1,4 +1,4 @@
-import { TechTemplate, LocalizationDb, TemplateData, Effect } from './index';
+import { TechTemplate, LocalizationDb, TemplateData, EffectTemplate } from './index';
 import { TechDb } from '../utils/TechDb';
 import { Language } from 'src/language';
 
@@ -10,7 +10,7 @@ export interface TechSidebarProps {
   onNavigateToNode: (node: TechTemplate | null) => void;
   navigatedToNode: TechTemplate | null;
   handleIsolatedChanged: (isolated: boolean) => void;
-  effects?: Effect[];
+  effects?: EffectTemplate[];
   isMobile?: boolean;
 }
 
@@ -36,7 +36,7 @@ export interface LanguageSelectorProps {
 
 export interface AppStaticData {
   templateData: TemplateData;
-  effects: Effect[];
+  effects: EffectTemplate[];
   techs: TechTemplate[];
   projects: TechTemplate[];
   localizationDb: LocalizationDb;

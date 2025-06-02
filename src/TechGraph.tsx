@@ -15,7 +15,7 @@ export function TechGraph({
         const { nodes, edges, lateNodes, lateEdges } = parseNode(techDb, templateData, false);
         const data = {
             nodes: new vis.DataSet(nodes),
-            edges: new vis.DataSet(edges as any)
+            edges: new vis.DataSet(edges)
         };
 
         setNetwork(draw(techDb, data, lateNodes, lateEdges, onNavigateToNode));

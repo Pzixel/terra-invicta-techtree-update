@@ -1,3 +1,5 @@
+import * as vis from "vis-network/standalone";
+
 // Basic data types
 export interface LocalizationEntry {
   [field: string]: string | { [faction: string]: string };
@@ -108,14 +110,43 @@ export class LocalizationDb {
     }
 }
 
-export type TemplateData = Record<string, any[]>;
+export type TemplateData = {
+  battery?: ModuleTemplate[];
+  drive?: ModuleTemplate[];
+  gun?: ModuleTemplate[];
+  habmodule?: ModuleTemplate[];
+  heatsink?: ModuleTemplate[];
+  laserweapon?: ModuleTemplate[];
+  magneticgun?: ModuleTemplate[];
+  missile?: ModuleTemplate[];
+  particleweapon?: ModuleTemplate[];
+  plasmaweapon?: ModuleTemplate[];
+  powerplant?: ModuleTemplate[];
+  radiator?: ModuleTemplate[];
+  shiparmor?: ModuleTemplate[];
+  shiphull?: ModuleTemplate[];
+  utilitymodule?: ModuleTemplate[];
+  effects?: EffectTemplate[];
+  effect?: EffectTemplate[];
+  bilateral?: (Claim | Adjacency)[];
+  org?: OrgTemplate[];
+  trait?: TraitTemplate[];
+  tech?: TechTemplate[];
+  project?: TechTemplate[];
+  [key: string]: unknown[] | undefined;
+}
 
 export function getTemplateData(
-    templates: [string, any[]][],
+    templates: [string, unknown[]][],
 ): TemplateData {
     const db: TemplateData = {};
     for (const [type, entries] of templates) {
-        db[type] = entries.filter((entry: any) => !entry.disable);
+        db[type] = entries.filter((entry: unknown) => {
+            if (entry && typeof entry === 'object' && 'disable' in entry) {
+                return !entry.disable;
+            }
+            return true;
+        });
     }
     return db;
 }
@@ -132,7 +163,7 @@ export interface TechTemplate {
   isProject?: boolean;
   researchDone?: boolean;
   effects?: string[];
-  resourcesGranted?: ResourceGrant[];
+  resourcesGranted?: ResourceGranted[];
   orgGranted?: string;
   factionAlways?: string;
   factionPrereq?: string[];
@@ -146,20 +177,9 @@ export interface TechTemplate {
   repeatable?: boolean;
 }
 
-export interface ResourceGrant {
+export interface ResourceGranted {
   resource: string;
   value: number;
-}
-
-export interface Effect {
-  dataName: string;
-  value: number;
-  strValue: string;
-}
-
-export interface ModuleData {
-  data: any;
-  type: string;
 }
 
 export interface VisNode {
@@ -174,16 +194,49 @@ export interface VisNode {
 }
 
 export interface VisEdge {
+  id?: string;
   from: string;
   to: string;
 }
 
 export interface VisData {
-  nodes: any;
-  edges: any;
+  nodes: vis.DataSet<VisNode>;
+  edges: vis.DataSet<vis.Edge>;
 }
 
-export type DataModule = any;
+export interface ModuleTemplate {
+  dataName: string;
+  requiredProjectName?: string;
+  iconResource?: string;
+  baseIconResource?: string;
+  stationIconResource?: string;
+  // Add other common module properties as needed
+}
+
+export interface EffectTemplate {
+  dataName: string;
+  strValue?: string;
+  value?: number;
+  // Add other effect properties as needed
+}
+
+export interface OrgTemplate {
+  dataName: string;
+  tier: number;
+  requiredTechName?: string;
+  // Add other org properties as needed
+}
+
+export interface TraitTemplate {
+  dataName: string;
+  projectDataName?: string;
+  // Add other trait properties as needed
+}
+
+export interface DataModule {
+  data: ModuleTemplate;
+  type: TemplateType;
+}
 
 export interface Claim {
     dataName: string;

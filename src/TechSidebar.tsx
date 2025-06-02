@@ -4,7 +4,8 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
 import { TechSidebarProps } from './types/props';
-import { TechTemplate, Claim, Adjacency, DataModule, TemplateType } from './types';
+import { TechTemplate, Claim, Adjacency, DataModule, TemplateType, ModuleTemplate, EffectTemplate } from './types';
+import { TechDb } from './utils/TechDb';
 
 // localStorage utility functions for research state persistence
 // This feature allows the research progress to persist between page refreshes and app launches
@@ -14,7 +15,7 @@ const RESEARCH_STATE_KEY = 'terraInvictaResearchState';
  * Saves the current research state to localStorage
  * Only stores technologies that have researchDone = true to minimize storage space
  */
-function saveResearchState(techDb: any) {
+function saveResearchState(techDb: TechDb) {
     try {
         const researchState: Record<string, boolean> = {};
         techDb.getAllTechs().forEach((tech: TechTemplate) => {
@@ -36,7 +37,7 @@ function saveResearchState(techDb: any) {
  * Loads research state from localStorage and applies it to the current techDb
  * Automatically handles cases where techs might not exist in the current view
  */
-function loadResearchState(techDb: any) {
+function loadResearchState(techDb: TechDb) {
     try {
         const savedState = localStorage.getItem(RESEARCH_STATE_KEY);
         if (savedState) {
@@ -112,8 +113,8 @@ export function TechSidebar({
         }
 
         const effectObj = findEffectByName(dataName);
-        const effectVal = effectObj ? effectObj.value : 0;
-        const effectStr = effectObj ? effectObj.strValue : "";
+        const effectVal = effectObj?.value ?? 0;
+        const effectStr = effectObj?.strValue ?? "";
 
         var replaceEffectTag = function (match: string) {
             switch (match) {
@@ -227,11 +228,11 @@ export function TechSidebar({
     //     return objString;
     // }
 
-    function findModules(projectName: string): { data: any, type: TemplateType }[] {
-        const results: { data: any, type: TemplateType }[] = [];
+    function findModules(projectName: string): { data: ModuleTemplate, type: TemplateType }[] {
+        const results: { data: ModuleTemplate, type: TemplateType }[] = [];
         const modTypes = ["battery", "drive", "gun", "habmodule", "heatsink", "laserweapon", "magneticgun", "missile", "particleweapon", "plasmaweapon", "powerplant", "radiator", "shiparmor", "shiphull", "utilitymodule"] as const;
         modTypes.forEach(modType => {
-            templateData[modType].forEach(module => {
+            templateData[modType]?.forEach(module => {
                 if (module.requiredProjectName === projectName) {
                     results.push({ "data": module, "type": modType });
                 }
@@ -259,7 +260,7 @@ export function TechSidebar({
         return techDb.getTechByDataName(techName);
     }
 
-    function findEffectByName(effectName: string) {
+    function findEffectByName(effectName: string): EffectTemplate | undefined {
         return effects.find(effect => effect.dataName === effectName);
     }
 
@@ -463,7 +464,8 @@ export function TechSidebar({
     };
 
     const renderAdjacencies = () => {
-        const adjacencies = templateData["bilateral"].filter(adjaceny => adjaceny.projectUnlockName == node.dataName && adjaceny.relationType == "PhysicalAdjacency");
+        const adjacencies = (templateData["bilateral"] ?? []).filter((adjaceny): adjaceny is Adjacency => 
+            adjaceny.projectUnlockName == node.dataName && adjaceny.relationType == "PhysicalAdjacency");
         if (adjacencies.length === 0) {
             return null;
         }
@@ -604,9 +606,9 @@ export function TechSidebar({
     const renderClaims = () => {
         if (!node.isProject) return null;
 
-        const claims: Claim[] = templateData["bilateral"]?.filter(
-            claim => claim.projectUnlockName === node.dataName && claim.relationType === "Claim"
-        ) || [];
+        const claims = (templateData["bilateral"] ?? []).filter(
+            (claim): claim is Claim => claim.projectUnlockName === node.dataName && claim.relationType === "Claim"
+        );
 
         if (claims.length === 0) return null;
 

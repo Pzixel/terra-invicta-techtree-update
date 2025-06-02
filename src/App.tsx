@@ -8,7 +8,7 @@ import { useNavigate, useParams } from "react-router";
 import LanguageSelector from './LanguageSelector';
 import { TechDb } from './utils/TechDb';
 import { AppStaticData } from './types/props';
-import { getTemplateData, LocalizationDb, TemplateTypes } from './types';
+import { getTemplateData, LocalizationDb, TemplateTypes, TechTemplate } from './types';
 import { DefaultLanguage, Language, Languages } from './language';
 import { useWindowSize } from './utils/useWindowSize';
 
@@ -22,7 +22,7 @@ function App() {
     });
 
     const [techDb, setTechDb] = useState<TechDb | null>(null);
-    const [navigatedToNode, setNavigatedToNode] = useState<any>(null);
+    const [navigatedToNode, setNavigatedToNode] = useState<TechTemplate | null>(null);
     const [isReady, setIsReady] = useState(false);
 
     // Get window dimensions for responsive layout
@@ -59,7 +59,7 @@ function App() {
         }
     }, [id, techDb]);
 
-    const onNavigatedToNode = useCallback((x: any) => {
+    const onNavigatedToNode = useCallback((x: TechTemplate | null) => {
         setNavigatedToNode(x);
         if (x) {
             navigate(`/${x.dataName}`);
@@ -75,7 +75,7 @@ function App() {
 
     const handleIsolatedChanged = useCallback((isolated: boolean) => {
         if (isolated) {
-            if (techDb) {
+            if (techDb && navigatedToNode) {
                 const node = navigatedToNode;
                 const isolatedTree = getAncestorTechs(techDb, node).concat(getDescendentTechs(techDb, node)).concat(node);
                 const isolatedTreeSet = [...new Map(isolatedTree.map(v => [v.dataName, v])).values()];
@@ -150,10 +150,10 @@ async function init(language: Language, setTechDb: React.Dispatch<React.SetState
     const { localizationDb, templateData } = await loadTemplateData(language.code);
 
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
-    const techs = templateData.tech;
-    const projects = templateData.project;
+    const techs = templateData.tech ?? [];
+    const projects = templateData.project ?? [];
 
-    projects.forEach(project => { project.isProject = true });
+    projects.forEach((project) => { project.isProject = true });
 
     const counts: { [key: string]: number } = {};
     const techTreeTmp = techs.concat(projects);
@@ -203,8 +203,18 @@ async function loadTemplateData(language: string) {
     const localizationDb = new LocalizationDb(localizationResults);
     const templateData = getTemplateData(templateResults);
 
-    templateData.project.splice(templateData.project.findIndex(project => project.dataName === "Project_AlienMasterProject"), 1);
-    templateData.project.splice(templateData.project.findIndex(project => project.dataName === "Project_AlienAdvancedMasterProject"), 1);
+    // Remove alien master projects
+    if (templateData.project) {
+        const alienMasterIndex = templateData.project.findIndex((project: TechTemplate) => project.dataName === "Project_AlienMasterProject");
+        if (alienMasterIndex !== -1) {
+            templateData.project.splice(alienMasterIndex, 1);
+        }
+        
+        const alienAdvancedMasterIndex = templateData.project.findIndex((project: TechTemplate) => project.dataName === "Project_AlienAdvancedMasterProject");
+        if (alienAdvancedMasterIndex !== -1) {
+            templateData.project.splice(alienAdvancedMasterIndex, 1);
+        }
+    }
 
     return {
         localizationDb,
