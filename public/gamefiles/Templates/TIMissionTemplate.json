@@ -1499,19 +1499,19 @@
             "$type": "TIMissionModifier_AttackerAdjacentControlPoints"
          },
          {
-            "$type": "TIMissionModifier_InsufficientCPMaintenance_Defender"
-         },
-         {
             "$type": "TIMissionModifier_AlienCoordination"
          },
          {
             "$type": "TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly"
+         },
+         {
+            "$type": "TIMissionModifier_InsufficientCPMaintenance_Defender"
          }
       ],
       "defendingModifiers": [
          {
             "$type": "TIMissionModifier_FlatModifier",
-            "flatModifier": 3
+            "flatModifier": 2
          },
          {
             "$type": "TIMissionModifier_OwnedControlPoint",
@@ -1638,7 +1638,7 @@
       "defendingModifiers": [
          {
             "$type": "TIMissionModifier_FlatModifier",
-            "flatModifier": 12
+            "flatModifier": 10
          },
          {
             "$type": "TIMissionModifier_CouncilorDefendStat",
@@ -2268,7 +2268,7 @@
       "defendingModifiers": [
          {
             "$type": "TIMissionModifier_FlatModifier",
-            "flatModifier": 12
+            "flatModifier": 10
          },
          {
             "$type": "TIMissionModifier_CouncilorDefendStat",

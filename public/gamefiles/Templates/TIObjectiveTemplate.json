@@ -1343,7 +1343,9 @@
    "dataName": "ConductHydraInterrogation",
    "objectiveType": "Campaign",
    "starter": false,
+   "unlockingObjectivesConjunction": "And",
    "unlockingObjectiveNames": [
+      "CaptureAHydra",
       "ResearchTheirLanguage"
    ],
    "targetProjectTemplateName": "Project_HydraInterrogation",

@@ -310,10 +310,10 @@ HabModuleSpecialRule.Griffins=<skip/>
 HabModuleSpecialRule.WarDogs=<skip/>
 HabModuleSpecialRule.Salamanders=<skip/>
 HabModuleSpecialRule.PowerFirst=-This module will be repowered before others
-HabModuleSpecialRule.SentinelModule=-Enables the Dominate Nation mission for our council.
+HabModuleSpecialRule.SentinelModule=-Enables the Dominate Nation mission for our council
 HabModuleSpecialRule.InterstellarLaunchModule=-Construction hub and launching laser site for interstellar spacecraft
 HabModuleSpecialRule.EarthLEOOnly=-May only be built in Low Earth Orbit
-HabModuleSpecialRule.HarvestAntimatter=-Harvests {1} of the antimatter produced by cosmic rays in an orbit. Requires presence of antimatter in the orbit. Only one may operate per orbit, regardless of faction.
+HabModuleSpecialRule.HarvestAntimatter=-Harvests {1} of the antimatter produced by cosmic rays in an orbit. Requires presence of antimatter in the orbit. Only one may operate per orbit, regardless of faction
 HabModuleSpecialRule.Farm=-Removes the hab's volatiles and water consumption for up to {0} crew
 HabModuleSpecialRule.AlienWormhole=<skip/>
 HabModuleSpecialRule.MoneyIfNotBuilding=-Builds products for money income if the hab has no modules under construction
@@ -338,10 +338,10 @@ HabModuleSpecialRule.AtrocityToKill=-Destroying this module is an atrocity
 HabModuleSpecialRule.AtrocityToKill_Populous=-Destroying this module in the Earth-Luna system or on or above worlds with 50,000 population is an atrocity
 HabModuleSpecialRule.Stability=-Module confers {0} malus to Control Space Asset missions at a hab and costs no money upkeep for module's crew
 HabModuleSpecialRule.Efficiency=-Module confers {1} bonus to hab's production of <color=#FFFFFFFF><sprite name="currency"><sprite name="influence"><sprite name="ops"><sprite name="research"><sprite name="water"><sprite name="metal"><sprite name="metal_noble"><sprite name="volatiles"><sprite name="radioactive"></color>
-HabModuleSpecialRule.HarvestHelium3=-When active, all of this faction's Helion fusion drives do not use any fissiles in its propellant load, and heavy fusion modules do not use fissiles in their construction or ongoing support costs.
-HabModuleSpecialRule.UsesHelium3=-This fusion module is fueled with Helium-3. If this faction has an active Helium-3 mine, it will use water in place of any fissiles in its construction and support costs.
-HabModuleSpecialRule.RepairsMarineShipModules=-This module, in conjunction with a ship construction module, allows for construction and repair of ship modules with Marines.
-HabModuleSpecialRule.RepairsHabKitShipModules=-This module, in conjunction with a ship construction module, allows for construction and repair of modules that found new habs.
+HabModuleSpecialRule.HarvestHelium3=-When active, all of this faction's Helion fusion drives do not use any fissiles in its propellant load, and heavy fusion modules do not use fissiles in their construction or ongoing support costs
+HabModuleSpecialRule.UsesHelium3=-This fusion module is fueled with Helium-3. If this faction has an active Helium-3 mine, it will use water in place of any fissiles in its construction and support costs
+HabModuleSpecialRule.RepairsMarineShipModules=-This module, in conjunction with a ship construction module, allows for construction and repair of shipborne modules with Marines
+HabModuleSpecialRule.RepairsHabKitShipModules=-This module, in conjunction with a ship construction module, allows for construction and repair of shipborne modules that found new habs
 HabModuleSpecialRule.StaticHab=<skip/>
 
 TIHabModuleTemplate.OnePerHab=A hab may only have one of this type of module.

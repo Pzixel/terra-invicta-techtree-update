@@ -29,8 +29,8 @@ TIVictoryCondition.FreePlanets_DefeatEveryone_PlanetarySystem=Destroy all habs o
 TIVictoryCondition.FreePlanets_DefeatEveryone_Region=Destroy all habs of tier {0} and greater not belonging to our faction at the following bodies: {1}
 TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_PlanetarySystem=Destroy all habs of tier {0} and greater belonging to anti-alien factions ({2}) in the {1} planetary system
 TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_Region=Destroy all habs of tier {0} and greater belonging to anti-alien factions ({2}) at the following bodies: {1}
-TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_PlanetarySystem=Destroy all habs of tier {0} and greater belonging factions not allied with the aliens ({2}) in the {1} planetary system
-TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Destroy all habs of tier {0} and greater belonging factions not allied with the aliens ({2}) at the following bodies: {1}
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_PlanetarySystem=Destroy all habs of tier {0} and greater belonging to factions not allied with the aliens ({2}) in the {1} planetary system
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Destroy all habs of tier {0} and greater belonging to factions not allied with the aliens ({2}) at the following bodies: {1}
 TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Destroy all habs of tier {0} and greater belonging to the aliens and human extremist factions ({2}) in the {1} planetary system
 TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Destroy all habs of tier {0} and greater belonging to the aliens and human extremist factions ({2}) at the following bodies: {1}
 
@@ -42,8 +42,8 @@ TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem=Destroy all bases of
 TIVictoryCondition.FreeBases_DefeatEveryone_Region=Destroy all bases of tier {0} and greater not belonging to our faction at the following bodies: {1}
 TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem=Destroy all bases of tier {0} and greater belonging to anti-alien factions ({2}) in the {1} planetary system
 TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=Destroy all bases of tier {0} and greater belonging to anti-alien factions ({2}) at the following bodies: {1}
-TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=Destroy all bases of tier {0} and greater belonging factions not allied with the aliens ({2}) in the {1} planetary system
-TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=Destroy all bases of tier {0} and greater belonging factions not allied with the aliens ({2}) at the following bodies: {1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=Destroy all bases of tier {0} and greater belonging to factions not allied with the aliens ({2}) in the {1} planetary system
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=Destroy all bases of tier {0} and greater belonging to factions not allied with the aliens ({2}) at the following bodies: {1}
 TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem=Destroy all bases of tier {0} and greater belonging to the aliens and human extremist factions ({2}) in the {1} planetary system
 TIVictoryCondition.FreeBases_DefeatExtremists_Region=Destroy all bases of tier {0} and greater belonging to the aliens and human extremist factions ({2}) at the following bodies: {1}
 
@@ -51,7 +51,7 @@ TIVictoryCondition.FreeFleets_DefeatAliens_All=Destroy all alien fleets with com
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and their human supporters ({2})
 TIVictoryCondition.FreeFleets_DefeatEveryone_All=Destroy all fleets with combat strength of {0} and greater not belonging to our faction 
 TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_All=Destroy all fleets with combat strength of {0} and greater belonging to anti-alien factions ({2})
-TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_All=Destroy all fleets with combat strength of {0} and greater belonging factions not allied with the aliens ({2})
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_All=Destroy all fleets with combat strength of {0} and greater belonging to factions not allied with the aliens ({2})
 TIVictoryCondition.FreeFleets_DefeatExtremists_All=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and human extremist factions ({2})
 
 TIVictoryCondition.FreeFleets_DefeatAliens_PlanetarySystem=Destroy all alien fleets with combat strength of {0} and greater in the {1} planetary system
@@ -62,8 +62,8 @@ TIVictoryCondition.FreeFleets_DefeatEveryone_PlanetarySystem=Destroy all fleets 
 TIVictoryCondition.FreeFleets_DefeatEveryone_Region=Destroy all fleets with combat strength of {0} and greater not belonging to our faction at the following bodies: {1}
 TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater belonging to anti-alien factions ({2}) in the {1} planetary system
 TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_Region=Destroy all fleets with combat strength of {0} and greater belonging to anti-alien factions ({2}) at the following bodies: {1}
-TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater belonging factions not allied with the aliens ({2}) in the {1} planetary system
-TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Destroy all fleets with combat strength of {0} and greater belonging factions not allied with the aliens ({2}) at the following bodies: {1}
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater belonging to factions not allied with the aliens ({2}) in the {1} planetary system
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Destroy all fleets with combat strength of {0} and greater belonging to factions not allied with the aliens ({2}) at the following bodies: {1}
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and human extremist factions ({2}) in the {1} planetary system
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and human extremist factions ({2}) at the following bodies: {1}
 

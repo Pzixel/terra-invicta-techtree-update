@@ -218,8 +218,10 @@
    "AI_techRole": "FactionObjective",
    "AI_projectRole": "Objective",
    "researchCost": 10000,
-   "requiredObjectiveName": "SalvageAlienTechnology",
-   "altRequiredObjectiveName": "ContactTheAliens",
+   "prereqs": [
+      "Project_TheirSignatures"
+   ],
+   "requiredMilestone": "AccessAlienTech",
    "oneTimeGlobally": false,
    "repeatable": false,
    "factionAvailableChance": 100,
@@ -368,6 +370,7 @@
       "Project_HydraLanguage",
       "Project_AlienContainment"
    ],
+   "requiredObjectiveName": "CaptureAHydra",   
    "oneTimeGlobally": false,
    "repeatable": false,
    "factionPrereq": [
