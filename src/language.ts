@@ -530,7 +530,7 @@ export const Languages: Record<string, Language> = {
     pol: { code: 'pol', icon: '🇵🇱', name: 'Polski', uiTexts: polUi, locale: 'pl', availableVersions: stableAndExperimental },
     por: { code: 'por', icon: '🇧🇷', name: 'Português', uiTexts: porUi, locale: 'pt', availableVersions: stableAndExperimental },
     kor: { code: 'kor', icon: '🇰🇷', name: '한국어', uiTexts: korUi, locale: 'ko', availableVersions: experimentalOnly },
-    rus: { code: 'rus', icon: '🇷🇺', name: 'Русский', uiTexts: rusUi, locale: 'ru', availableVersions: experimentalOnly },
+    // rus: { code: 'rus', icon: '🇷🇺', name: 'Русский', uiTexts: rusUi, locale: 'ru', availableVersions: experimentalOnly },
     ukr: { code: 'ukr', icon: '🇺🇦', name: 'Українська', uiTexts: ukrUi, locale: 'uk', availableVersions: experimentalOnly },
 };
 
