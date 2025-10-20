@@ -1,6 +1,7 @@
 import { TechTemplate, LocalizationDb, TemplateData, EffectTemplate } from './index';
 import { TechDb } from '../utils/TechDb';
 import { Language } from 'src/language';
+import { GameVersion } from '../version';
 
 export interface TechSidebarProps {
   templateData: TemplateData;
@@ -31,7 +32,10 @@ export interface SearchboxProps {
 }
 
 export interface LanguageSelectorProps {
-    onLanguageChange: (language: Language) => void;
+  language: Language;
+  onLanguageChange: (language: Language) => void;
+  version: GameVersion;
+  onVersionChange: (version: GameVersion) => void;
 }
 
 export interface AppStaticData {

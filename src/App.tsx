@@ -10,6 +10,7 @@ import { TechDb } from './utils/TechDb';
 import { AppStaticData } from './types/props';
 import { getTemplateData, LocalizationDb, TemplateTypes, TechTemplate } from './types';
 import { DefaultLanguage, Language, Languages } from './language';
+import { DefaultVersion, GameVersion, GameVersions, isGameVersionCode } from './version';
 import { useWindowSize } from './utils/useWindowSize';
 
 function App() {
@@ -37,18 +38,51 @@ function App() {
         return langParam && Languages[langParam] ? Languages[langParam] : DefaultLanguage;
     };
 
-    const [language, setLanguage] = useState(getInitialLanguage());
+    const getInitialVersion = () => {
+        const queryParams = new URLSearchParams(window.location.search);
+        const versionParam = queryParams.get('ver');
+        return isGameVersionCode(versionParam) ? GameVersions[versionParam] : DefaultVersion;
+    };
+
+    const [language, setLanguage] = useState<Language>(getInitialLanguage());
+    const [version, setVersion] = useState<GameVersion>(getInitialVersion());
 
     const navigate = useNavigate();
     const { id } = useParams();
 
     useEffect(() => {
+        setIsReady(false);
         async function initialize() {
-            await init(language, setTechDb, setAppStaticData);
-            setIsReady(true);
+            try {
+                await init(language, version, setTechDb, setAppStaticData);
+            } catch (error) {
+                console.error('Failed to initialize application data', error);
+            } finally {
+                setIsReady(true);
+            }
         }
         initialize();
-    }, [language, setTechDb, setAppStaticData]);
+    }, [language, version, setTechDb, setAppStaticData]);
+
+    useEffect(() => {
+        const url = new URL(window.location.href);
+        const params = url.searchParams;
+        params.set('lang', language.code);
+        params.set('ver', version.code);
+        const newQuery = params.toString();
+        const newUrl = `${url.pathname}${newQuery ? `?${newQuery}` : ''}${url.hash}`;
+        window.history.replaceState({}, '', newUrl);
+    }, [language, version]);
+
+    useEffect(() => {
+        const handlePopState = () => {
+            setLanguage(getInitialLanguage());
+            setVersion(getInitialVersion());
+        };
+
+        window.addEventListener('popstate', handlePopState);
+        return () => window.removeEventListener('popstate', handlePopState);
+    }, []);
 
     useEffect(() => {
         if (id && techDb) {
@@ -116,7 +150,10 @@ function App() {
                                 </div>
                                 <div className="language-container">
                                     <LanguageSelector
+                                        language={language}
                                         onLanguageChange={setLanguage}
+                                        version={version}
+                                        onVersionChange={setVersion}
                                     />
                                 </div>
                             </div>
@@ -146,8 +183,8 @@ function App() {
 
 export default App
 
-async function init(language: Language, setTechDb: React.Dispatch<React.SetStateAction<TechDb | null>>, setAppStaticData: React.Dispatch<React.SetStateAction<AppStaticData>>) {
-    const { localizationDb, templateData } = await loadTemplateData(language.code);
+async function init(language: Language, version: GameVersion, setTechDb: React.Dispatch<React.SetStateAction<TechDb | null>>, setAppStaticData: React.Dispatch<React.SetStateAction<AppStaticData>>) {
+    const { localizationDb, templateData } = await loadTemplateData(language.code, version);
 
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
     const techs = templateData.tech ?? [];
@@ -183,21 +220,34 @@ async function init(language: Language, setTechDb: React.Dispatch<React.SetState
     setTechDb(new TechDb(techTreeTmp));
 };
 
-async function loadTemplateData(language: string) {
+async function loadTemplateData(language: string, version: GameVersion) {
+    const basePath = `gamefiles/${version.code}`;
+
+    const fetchText = async (url: string) => {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`Failed to load ${url}: ${response.status} ${response.statusText}`);
+        }
+        return response.text();
+    };
+
     const localizationFiles = Object.entries(TemplateTypes).map(([type, filename]) => ({
-        url: `gamefiles/Localization/${language}/${filename}.${language}`,
+        url: `${basePath}/Localization/${language}/${filename}.${language}`,
         type
     }));
 
-    const fetchLocalizationPromises = Promise.all(localizationFiles.map(localization => fetch(localization.url).then(res => res.text())));
+    const fetchLocalizationPromises = Promise.all(localizationFiles.map(localization => fetchText(localization.url)));
 
     const templateFiles = Object.entries(TemplateTypes).concat([["bilateral", "TIBilateralTemplate"]])
         .map(([type, filename]) => ({
-            url: `gamefiles/Templates/${filename}.json`,
+            url: `${basePath}/Templates/${filename}.json`,
             type
         }));
 
-    const fetchTemplatePromises = Promise.all(templateFiles.map(template => fetch(template.url).then(async res => [template.type, JSON.parse(await res.text())] satisfies [string, unknown[]])));
+    const fetchTemplatePromises = Promise.all(templateFiles.map(async template => {
+        const text = await fetchText(template.url);
+        return [template.type, JSON.parse(text)] as [string, unknown[]];
+    }));
     const [localizationResults, templateResults] = await Promise.all([fetchLocalizationPromises, fetchTemplatePromises]);
 
     const localizationDb = new LocalizationDb(localizationResults);
