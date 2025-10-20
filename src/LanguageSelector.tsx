@@ -70,8 +70,9 @@ export default function LanguageSelector({
         ))}
       </ToggleButtonGroup>
 
-      <FormControl size="small" sx={{ minWidth: 70 }} className="language-selector">
+      <FormControl size="small" fullWidth sx={{ minWidth: 70 }} className="language-selector">
         <Select
+          fullWidth
           sx={{ backgroundColor: 'white' }}
           value={language.code}
           onChange={handleLanguageChange}

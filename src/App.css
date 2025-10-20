@@ -84,8 +84,8 @@ body {
 
 .preferences-selector {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
     gap: 0.5rem;
 }
 
