@@ -5,6 +5,7 @@ export interface GameVersion {
   name: string;
   shortLabel: string;
   description?: string;
+  emoji: string;
 }
 
 export const GameVersions: Record<GameVersionCode, GameVersion> = {
@@ -12,13 +13,15 @@ export const GameVersions: Record<GameVersionCode, GameVersion> = {
     code: 'stable',
     name: 'Stable',
     shortLabel: 'Stable',
-    description: 'Official public release data set.'
+    description: '0.4.90',
+    emoji: '⚖️'
   },
   experimental: {
     code: 'experimental',
     name: 'Experimental',
     shortLabel: 'Experimental',
-    description: 'Latest beta/experimental data set.'
+    description: '0.4.105',
+    emoji: '🔬'
   }
 };
 

@@ -1,4 +1,4 @@
-import { FormControl, MenuItem, Paper, Select, ToggleButton, ToggleButtonGroup } from '@mui/material';
+import { FormControl, MenuItem, Paper, Select, ToggleButton, ToggleButtonGroup, Tooltip } from '@mui/material';
 import { SelectChangeEvent } from '@mui/material/Select';
 import type { MouseEvent } from 'react';
 import { LanguageSelectorProps } from './types/props';
@@ -65,7 +65,34 @@ export default function LanguageSelector({
             aria-label={gameVersion.name}
             title={gameVersion.description}
           >
-            {gameVersion.shortLabel}
+            <Tooltip
+              title={
+                <span>
+                  <strong>{gameVersion.name}</strong>
+                  {gameVersion.description ? (
+                    <>
+                      <br />
+                      {gameVersion.description}
+                    </>
+                  ) : null}
+                </span>
+              }
+              arrow
+              enterDelay={200}
+            >
+              <span
+                aria-hidden="true"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: '1.5rem',
+                  lineHeight: 1,
+                }}
+              >
+                {gameVersion.emoji}
+              </span>
+            </Tooltip>
           </ToggleButton>
         ))}
       </ToggleButtonGroup>
