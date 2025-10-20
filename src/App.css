@@ -66,9 +66,10 @@ body {
     display: flex;
     gap: 10px;
   
-    width: 350px;
+    width: 450px;
     padding: 10px;
 }
+
 
 .loltainer {
     display: flex;
@@ -78,7 +79,7 @@ body {
 }
 
 .loltainer.mobile {
-    gap: 4px;
+    gap: 8px;
 }
 
 .preferences-selector {

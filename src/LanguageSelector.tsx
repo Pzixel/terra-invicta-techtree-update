@@ -1,4 +1,4 @@
-import { Box, FormControl, MenuItem, Select, ToggleButton, ToggleButtonGroup } from '@mui/material';
+import { FormControl, MenuItem, Paper, Select, ToggleButton, ToggleButtonGroup } from '@mui/material';
 import { SelectChangeEvent } from '@mui/material/Select';
 import type { MouseEvent } from 'react';
 import { LanguageSelectorProps } from './types/props';
@@ -29,7 +29,47 @@ export default function LanguageSelector({
   };
 
   return (
-    <Box className="preferences-selector" display="flex" alignItems="center" gap={1}>
+    <Paper
+      elevation={3}
+      className="preferences-selector"
+      sx={{
+        backgroundColor: 'rgba(255, 255, 255, 0.92)',
+        backdropFilter: 'blur(4px)',
+        borderRadius: 2,
+        p: 1,
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 1,
+        minWidth: 'fit-content',
+      }}
+    >
+      <ToggleButtonGroup
+        size="small"
+        value={version.code}
+        exclusive
+        onChange={handleVersionChange}
+        aria-label="Game version"
+        fullWidth
+        sx={{
+          '& .MuiToggleButton-root': {
+            textTransform: 'none',
+            px: 1.5,
+            fontWeight: 600,
+          },
+        }}
+      >
+        {OrderedGameVersions.map((gameVersion) => (
+          <ToggleButton
+            key={gameVersion.code}
+            value={gameVersion.code}
+            aria-label={gameVersion.name}
+            title={gameVersion.description}
+          >
+            {gameVersion.shortLabel}
+          </ToggleButton>
+        ))}
+      </ToggleButtonGroup>
+
       <FormControl size="small" sx={{ minWidth: 70 }} className="language-selector">
         <Select
           sx={{ backgroundColor: 'white' }}
@@ -48,26 +88,6 @@ export default function LanguageSelector({
           ))}
         </Select>
       </FormControl>
-
-      <ToggleButtonGroup
-        size="small"
-        value={version.code}
-        exclusive
-        onChange={handleVersionChange}
-        aria-label="Game version"
-      >
-        {OrderedGameVersions.map((gameVersion) => (
-          <ToggleButton
-            key={gameVersion.code}
-            value={gameVersion.code}
-            aria-label={gameVersion.name}
-            title={gameVersion.description}
-            sx={{ textTransform: 'none', px: 1.5 }}
-          >
-            {gameVersion.shortLabel}
-          </ToggleButton>
-        ))}
-      </ToggleButtonGroup>
-    </Box>
+    </Paper>
   );
 }
