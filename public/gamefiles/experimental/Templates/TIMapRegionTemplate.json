@@ -9,7 +9,8 @@
    "longitude": 65,
    "boostLatitude": 30,
    "area_km2": 652864,
-   "visualId": 1
+   "visualId": 1,
+   "oilId": 0
  },
  {
    "dataName": "map_Albania",
@@ -21,7 +22,8 @@
    "longitude": 20.1,
    "boostLatitude": 40,
    "area_km2": 28703,
-   "visualId": 2
+   "visualId": 2,
+   "oilId": 0
  },
  {
    "dataName": "map_Algeria",
@@ -33,7 +35,8 @@
    "longitude": 2.5,
    "boostLatitude": 35,
    "area_km2": 498999,
-   "visualId": 3
+   "visualId": 3,
+   "oilId": 0
  },
  {
    "dataName": "map_SouthAlgeria",
@@ -45,7 +48,8 @@
    "longitude": 3,
    "boostLatitude": 20,
    "area_km2": 1882742,
-   "visualId": 4
+   "visualId": 4,
+   "oilId": 1
  },
  {
    "dataName": "map_Angola",
@@ -57,7 +61,8 @@
    "longitude": 14.75,
    "boostLatitude": -10,
    "area_km2": 676151,
-   "visualId": 5
+   "visualId": 5,
+   "oilId": 2
  },
  {
    "dataName": "map_EastAngola",
@@ -69,7 +74,8 @@
    "longitude": 20,
    "boostLatitude": -10,
    "area_km2": 570549,
-   "visualId": 6
+   "visualId": 6,
+   "oilId": 0
  },
  {
    "dataName": "map_GranChaco",
@@ -81,7 +87,8 @@
    "longitude": -62,
    "boostLatitude": -25,
    "area_km2": 836131,
-   "visualId": 7
+   "visualId": 7,
+   "oilId": 0
  },
  {
    "dataName": "map_Pampas",
@@ -93,7 +100,8 @@
    "longitude": -65,
    "boostLatitude": -30,
    "area_km2": 1156181,
-   "visualId": 8
+   "visualId": 8,
+   "oilId": 0
  },
  {
    "dataName": "map_Patagonia",
@@ -105,7 +113,8 @@
    "longitude": -68.5,
    "boostLatitude": -40,
    "area_km2": 776983,
-   "visualId": 9
+   "visualId": 9,
+   "oilId": 0
  },
  {
    "dataName": "map_Armenia",
@@ -117,7 +126,8 @@
    "longitude": 44.91,
    "boostLatitude": 40,
    "area_km2": 29743,
-   "visualId": 10
+   "visualId": 10,
+   "oilId": 0
  },
  {
    "dataName": "map_NewSouthWales",
@@ -130,7 +140,8 @@
    "boostLatitude": -30,
    "island": true,
    "area_km2": 812412,
-   "visualId": 11
+   "visualId": 11,
+   "oilId": 0
  },
  {
    "dataName": "map_NorthernAustralia",
@@ -143,7 +154,8 @@
    "boostLatitude": -15,
    "island": true,
    "area_km2": 1419630,
-   "visualId": 12
+   "visualId": 12,
+   "oilId": 0
  },
  {
    "dataName": "map_Queensland",
@@ -156,7 +168,8 @@
    "boostLatitude": -10,
    "island": true,
    "area_km2": 1851736,
-   "visualId": 13
+   "visualId": 13,
+   "oilId": 0
  },
  {
    "dataName": "map_SouthernAustralia",
@@ -169,7 +182,8 @@
    "boostLatitude": -30,
    "island": true,
    "area_km2": 1044353,
-   "visualId": 14
+   "visualId": 14,
+   "oilId": 0
  },
  {
    "dataName": "map_Victoria",
@@ -182,7 +196,8 @@
    "boostLatitude": -35,
    "island": true,
    "area_km2": 328415,
-   "visualId": 15
+   "visualId": 15,
+   "oilId": 0
  },
  {
    "dataName": "map_Westralia",
@@ -195,7 +210,8 @@
    "boostLatitude": -15,
    "island": true,
    "area_km2": 2462902,
-   "visualId": 16
+   "visualId": 16,
+   "oilId": 0
  },
  {
    "dataName": "map_Austria",
@@ -207,7 +223,8 @@
    "longitude": 14.4,
    "boostLatitude": 50,
    "area_km2": 83871,
-   "visualId": 17
+   "visualId": 17,
+   "oilId": 0
  },
  {
    "dataName": "map_Azerbaijan",
@@ -219,7 +236,22 @@
    "longitude": 48.08,
    "boostLatitude": 40,
    "area_km2": 86600,
-   "visualId": 18
+   "visualId": 18,
+   "oilId": 3
+ },
+ {
+   "dataName": "map_Bahamas",
+   "friendlyNationName": "Bahamas",
+   "terrain": "Standard",
+   "supraRegion": "NorthAmerica",
+   "coast": "Caribbean",
+   "latitude": 24.56,
+   "longitude": -77.8,
+   "boostLatitude": 25,
+   "area_km2": 13943,
+   "visualId": 357,
+   "parent": "map_WestIndies",
+   "oilId": 0
  },
  {
    "dataName": "map_Bangladesh",
@@ -231,7 +263,8 @@
    "longitude": 90,
    "boostLatitude": 25,
    "area_km2": 148460,
-   "visualId": 19
+   "visualId": 19,
+   "oilId": 0
  },
  {
    "dataName": "map_Belarus",
@@ -243,7 +276,8 @@
    "longitude": 30,
    "boostLatitude": 55,
    "area_km2": 207600,
-   "visualId": 20
+   "visualId": 20,
+   "oilId": 0
  },
  {
    "dataName": "map_Belgium",
@@ -255,7 +289,8 @@
    "longitude": 5,
    "boostLatitude": 50,
    "area_km2": 33275,
-   "visualId": 21
+   "visualId": 21,
+   "oilId": 0
  },
  {
    "dataName": "map_Belize",
@@ -267,7 +302,36 @@
    "longitude": -88.7,
    "boostLatitude": 15,
    "area_km2": 22966,
-   "visualId": 22
+   "visualId": 22,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_TogoBenin",
+   "friendlyNationName": "Benin",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "SouthAtlantic",
+   "latitude": 9,
+   "longitude": 2.2,
+   "boostLatitude": 5,
+   "verticalRegion": true,
+   "area_km2": 114763,
+   "visualId": 265,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Bhutan",
+   "friendlyNationName": "Bhutan",
+   "terrain": "Rugged",
+   "supraRegion": "CentralAsia",
+   "coast": "none",
+   "latitude": 27.28,
+   "longitude": 90,
+   "boostLatitude": 30,
+   "area_km2": 38394,
+   "visualId": 354,
+   "parent": "map_Himalayas",
+   "oilId": 0
  },
  {
    "dataName": "map_Bolivia",
@@ -279,19 +343,21 @@
    "longitude": -65,
    "boostLatitude": -10,
    "area_km2": 1098581,
-   "visualId": 23
+   "visualId": 23,
+   "oilId": 0
  },
  {
    "dataName": "map_BosniaMontenegro",
-   "friendlyNationName": "Bosnia and Herzegovina-Montenegro",
+   "friendlyNationName": "Bosnia and Herzegovina",
    "terrain": "Rugged",
    "supraRegion": "Europe",
-   "coast": "Mediterranean",
+   "coast": "none",
    "latitude": 43.75,
    "longitude": 18.25,
    "boostLatitude": 45,
-   "area_km2": 65019,
-   "visualId": 24
+   "area_km2": 51209,
+   "visualId": 24,
+   "oilId": 0
  },
  {
    "dataName": "map_Botswana",
@@ -303,7 +369,8 @@
    "longitude": 23.5,
    "boostLatitude": -20,
    "area_km2": 571730,
-   "visualId": 25
+   "visualId": 25,
+   "oilId": 0
  },
  {
    "dataName": "map_Amazonia",
@@ -315,7 +382,8 @@
    "longitude": -64,
    "boostLatitude": 0,
    "area_km2": 2431634,
-   "visualId": 26
+   "visualId": 26,
+   "oilId": 0
  },
  {
    "dataName": "map_Belem",
@@ -327,7 +395,8 @@
    "longitude": -54,
    "boostLatitude": 0,
    "area_km2": 1390784,
-   "visualId": 27
+   "visualId": 27,
+   "oilId": 0
  },
  {
    "dataName": "map_Brasilia",
@@ -339,7 +408,8 @@
    "longitude": -47.8,
    "boostLatitude": -10,
    "area_km2": 623613,
-   "visualId": 28
+   "visualId": 28,
+   "oilId": 0
  },
  {
    "dataName": "map_Cuiaba",
@@ -351,7 +421,8 @@
    "longitude": -55.2,
    "boostLatitude": -10,
    "area_km2": 1498103,
-   "visualId": 29
+   "visualId": 29,
+   "oilId": 0
  },
  {
    "dataName": "map_Fortaleza",
@@ -363,7 +434,8 @@
    "longitude": -40,
    "boostLatitude": 0,
    "area_km2": 841717,
-   "visualId": 30
+   "visualId": 30,
+   "oilId": 0
  },
  {
    "dataName": "map_PortoAlegre",
@@ -375,7 +447,8 @@
    "longitude": -52,
    "boostLatitude": -25,
    "area_km2": 576774,
-   "visualId": 31
+   "visualId": 31,
+   "oilId": 0
  },
  {
    "dataName": "map_Recife",
@@ -387,7 +460,8 @@
    "longitude": -40,
    "boostLatitude": -10,
    "area_km2": 712575,
-   "visualId": 32
+   "visualId": 32,
+   "oilId": 0
  },
  {
    "dataName": "map_RiodeJaneiro",
@@ -399,7 +473,8 @@
    "longitude": -44,
    "boostLatitude": -15,
    "area_km2": 676398,
-   "visualId": 33
+   "visualId": 33,
+   "oilId": 4
  },
  {
    "dataName": "map_SaoPaulo",
@@ -411,7 +486,23 @@
    "longitude": -46.8,
    "boostLatitude": -20,
    "area_km2": 228043,
-   "visualId": 34
+   "visualId": 34,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Brunei",
+   "friendlyNationName": "Brunei",
+   "terrain": "Standard",
+   "supraRegion": "EastAsia",
+   "coast": "SouthChinaSea",
+   "latitude": 4.6,
+   "longitude": 114.5,
+   "boostLatitude": 5,
+   "island": true,
+   "area_km2": 5765,
+   "visualId": 310,
+   "parent": "map_SarawakandSabah",
+   "oilId": 0
  },
  {
    "dataName": "map_Bulgaria",
@@ -423,7 +514,8 @@
    "longitude": 25.21,
    "boostLatitude": 40,
    "area_km2": 110994,
-   "visualId": 35
+   "visualId": 35,
+   "oilId": 0
  },
  {
    "dataName": "map_BurkinaFaso",
@@ -435,7 +527,8 @@
    "longitude": -1.38,
    "boostLatitude": 10,
    "area_km2": 274222,
-   "visualId": 36
+   "visualId": 36,
+   "oilId": 0
  },
  {
    "dataName": "map_CaboVerde",
@@ -448,7 +541,8 @@
    "boostLatitude": 15,
    "island": true,
    "area_km2": 4033,
-   "visualId": 37
+   "visualId": 37,
+   "oilId": 0
  },
  {
    "dataName": "map_Cambodia",
@@ -460,7 +554,8 @@
    "longitude": 104.99,
    "boostLatitude": 10,
    "area_km2": 181035,
-   "visualId": 38
+   "visualId": 38,
+   "oilId": 0
  },
  {
    "dataName": "map_Cameroon",
@@ -471,8 +566,37 @@
    "latitude": 5.9,
    "longitude": 13.07,
    "boostLatitude": 0,
-   "area_km2": 475442,
-   "visualId": 39
+   "area_km2": 432732,
+   "visualId": 39,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_WestCameroon",
+   "friendlyNationName": "Cameroon",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "SouthAtlantic",
+   "latitude": 5.72,
+   "longitude": 9.67,
+   "boostLatitude": 5,
+   "area_km2": 42710,
+   "visualId": 361,
+   "parent": "map_Cameroon",
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Alberta",
+   "friendlyNationName": "Canada",
+   "terrain": "Standard",
+   "supraRegion": "NorthAmerica",
+   "coast": "None",
+   "latitude": 53.5,
+   "longitude": -114.67,
+   "boostLatitude": 50,
+   "area_km2": 661848,
+   "visualId": 331,
+   "parent": "map_Prairies",
+   "oilId": 5
  },
  {
    "dataName": "map_BritishColumbia",
@@ -484,7 +608,8 @@
    "longitude": -124.5,
    "boostLatitude": 50,
    "area_km2": 944735,
-   "visualId": 40
+   "visualId": 40,
+   "oilId": 0
  },
  {
    "dataName": "map_CanadianArctic",
@@ -492,11 +617,12 @@
    "terrain": "Rugged",
    "supraRegion": "NorthAmerica",
    "coast": "Arctic",
-   "latitude": 63.5,
-   "longitude": -120,
+   "latitude": 64,
+   "longitude": -116,
    "boostLatitude": 60,
-   "area_km2": 3921739,
-   "visualId": 41
+   "area_km2": 3439296,
+   "visualId": 41,
+   "oilId": 0
  },
  {
    "dataName": "map_Halifax",
@@ -508,7 +634,22 @@
    "longitude": -60.7,
    "boostLatitude": 50,
    "area_km2": 539064,
-   "visualId": 42
+   "visualId": 42,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Manitoba",
+   "friendlyNationName": "Canada",
+   "terrain": "Standard",
+   "supraRegion": "NorthAmerica",
+   "coast": "Arctic",
+   "latitude": 53.5,
+   "longitude": -97.5,
+   "boostLatitude": 50,
+   "area_km2": 647797,
+   "visualId": 332,
+   "parent": "map_Prairies",
+   "oilId": 0
  },
  {
    "dataName": "map_Ontario",
@@ -520,19 +661,21 @@
    "longitude": -85.8,
    "boostLatitude": 45,
    "area_km2": 1076395,
-   "visualId": 43
+   "visualId": 43,
+   "oilId": 0
  },
  {
    "dataName": "map_Prairies",
    "friendlyNationName": "Canada",
    "terrain": "Standard",
    "supraRegion": "NorthAmerica",
-   "coast": "Arctic",
-   "latitude": 53.76,
+   "coast": "None",
+   "latitude": 53.5,
    "longitude": -105.5,
    "boostLatitude": 50,
-   "area_km2": 1960681,
-   "visualId": 44
+   "area_km2": 651036,
+   "visualId": 44,
+   "oilId": 0
  },
  {
    "dataName": "map_Quebec",
@@ -544,20 +687,36 @@
    "longitude": -72,
    "boostLatitude": 45,
    "area_km2": 1542056,
-   "visualId": 45
+   "visualId": 45,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Yukon",
+   "friendlyNationName": "Canada",
+   "terrain": "Rugged",
+   "supraRegion": "NorthAmerica",
+   "coast": "Arctic",
+   "latitude": 63,
+   "longitude": -135.5,
+   "boostLatitude": 60,
+   "area_km2": 482443,
+   "visualId": 333,
+   "parent": "map_CanadianArctic",
+   "oilId": 0
  },
  {
    "dataName": "map_WestIndies",
-   "friendlyNationName": "Caribbean States",
+   "friendlyNationName": "Lesser Antilles States",
    "terrain": "Standard",
    "supraRegion": "NorthAmerica",
    "coast": "Caribbean",
-   "latitude": 17.8,
-   "longitude": -77,
+   "latitude": 14.3,
+   "longitude": -60.5,
    "boostLatitude": 10,
    "island": true,
-   "area_km2": 33235,
-   "visualId": 46
+   "area_km2": 8366,
+   "visualId": 46,
+   "oilId": 0
  },
  {
    "dataName": "map_CentralAfricanRepublic",
@@ -565,11 +724,26 @@
    "terrain": "Standard",
    "supraRegion": "Africa",
    "coast": "none",
-   "latitude": 6.6,
-   "longitude": 21,
+   "latitude": 5.6,
+   "longitude": 17,
    "boostLatitude": 5,
-   "area_km2": 622984,
-   "visualId": 47
+   "area_km2": 226770,
+   "visualId": 47,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Logone",
+   "friendlyNationName": "Central African Republic",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "none",
+   "latitude": 7.6,
+   "longitude": 22.6,
+   "boostLatitude": 5,
+   "area_km2": 393540,
+   "visualId": 342,
+   "parent": "map_CentralAfricanRepublic",
+   "oilId": 0
  },
  {
    "dataName": "map_Chad",
@@ -577,11 +751,26 @@
    "terrain": "Standard",
    "supraRegion": "Africa",
    "coast": "none",
-   "latitude": 14.58,
-   "longitude": 18.72,
+   "latitude": 11.8,
+   "longitude": 18.26,
    "boostLatitude": 10,
-   "area_km2": 1284000,
-   "visualId": 48
+   "area_km2": 410889,
+   "visualId": 48,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_NorthernChad",
+   "friendlyNationName": "Chad",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "none",
+   "latitude": 18.46,
+   "longitude": 19.08,
+   "boostLatitude": 15,
+   "area_km2": 916716,
+   "visualId": 334,
+   "parent": "map_Chad",
+   "oilId": 0
  },
  {
    "dataName": "map_NorthernChile",
@@ -594,7 +783,8 @@
    "boostLatitude": -20,
    "verticalRegion": true,
    "area_km2": 317299,
-   "visualId": 49
+   "visualId": 49,
+   "oilId": 0
  },
  {
    "dataName": "map_SouthernChile",
@@ -607,7 +797,22 @@
    "boostLatitude": -35,
    "verticalRegion": true,
    "area_km2": 439650,
-   "visualId": 50
+   "visualId": 50,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Anhui",
+   "friendlyNationName": "China",
+   "terrain": "Standard",
+   "supraRegion": "EastAsia",
+   "coast": "none",
+   "latitude": 32.02,
+   "longitude": 117.32,
+   "boostLatitude": 30,
+   "area_km2": 139879,
+   "visualId": 323,
+   "parent": "map_Nanchang",
+   "oilId": 0
  },
  {
    "dataName": "map_Beijing",
@@ -619,7 +824,8 @@
    "longitude": 116.5,
    "boostLatitude": 40,
    "area_km2": 217830,
-   "visualId": 51
+   "visualId": 51,
+   "oilId": 0
  },
  {
    "dataName": "map_Chongqing",
@@ -631,7 +837,36 @@
    "longitude": 105,
    "boostLatitude": 30,
    "area_km2": 566459,
-   "visualId": 52
+   "visualId": 52,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Fujian",
+   "friendlyNationName": "China",
+   "terrain": "Standard",
+   "supraRegion": "EastAsia",
+   "coast": "SouthChinaSea",
+   "latitude": 26.24,
+   "longitude": 118.07,
+   "boostLatitude": 25,
+   "area_km2": 123756,
+   "visualId": 324,
+   "parent": "map_Hangzhou",
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Gansu",
+   "friendlyNationName": "China",
+   "terrain": "Standard",
+   "supraRegion": "EastAsia",
+   "coast": "none",
+   "latitude": 37.97,
+   "longitude": 102.59,
+   "boostLatitude": 35,
+   "area_km2": 523782,
+   "visualId": 330,
+   "parent": "map_Xian",
+   "oilId": 0
  },
  {
    "dataName": "map_Guangzhou",
@@ -642,8 +877,9 @@
    "latitude": 23.18,
    "longitude": 114.5,
    "boostLatitude": 20,
-   "area_km2": 214272,
-   "visualId": 53
+   "area_km2": 214301,
+   "visualId": 53,
+   "oilId": 0
  },
  {
    "dataName": "map_Guizhou",
@@ -651,11 +887,12 @@
    "terrain": "Standard",
    "supraRegion": "EastAsia",
    "coast": "none",
-   "latitude": 24.85,
-   "longitude": 103.04,
+   "latitude": 27.1,
+   "longitude": 107,
    "boostLatitude": 25,
-   "area_km2": 559335,
-   "visualId": 54
+   "area_km2": 176140,
+   "visualId": 54,
+   "oilId": 0
  },
  {
    "dataName": "map_Hangzhou",
@@ -666,8 +903,9 @@
    "latitude": 27.75,
    "longitude": 119.5,
    "boostLatitude": 25,
-   "area_km2": 417860,
-   "visualId": 55
+   "area_km2": 104873,
+   "visualId": 55,
+   "oilId": 0
  },
  {
    "dataName": "map_HongKong",
@@ -680,7 +918,22 @@
    "boostLatitude": 25,
    "island": true,
    "area_km2": 1108,
-   "visualId": 56
+   "visualId": 56,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Hunan",
+   "friendlyNationName": "China",
+   "terrain": "Standard",
+   "supraRegion": "EastAsia",
+   "coast": "none",
+   "latitude": 27.83,
+   "longitude": 111.86,
+   "boostLatitude": 25,
+   "area_km2": 211842,
+   "visualId": 325,
+   "parent": "map_Wuhan",
+   "oilId": 0
  },
  {
    "dataName": "map_InnerMongolia",
@@ -692,19 +945,49 @@
    "longitude": 112.75,
    "boostLatitude": 40,
    "area_km2": 1199372,
-   "visualId": 57
+   "visualId": 57,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Jilin",
+   "friendlyNationName": "China",
+   "terrain": "Standard",
+   "supraRegion": "EastAsia",
+   "coast": "none",
+   "latitude": 43.797,
+   "longitude": 125.86,
+   "boostLatitude": 45,
+   "area_km2": 190282,
+   "visualId": 326,
+   "parent": "map_Manchuria",
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Liaoning",
+   "friendlyNationName": "China",
+   "terrain": "Standard",
+   "supraRegion": "EastAsia",
+   "coast": "NorthwestPacific",
+   "latitude": 41.28,
+   "longitude": 122.55,
+   "boostLatitude": 40,
+   "area_km2": 147076,
+   "visualId": 327,
+   "parent": "map_Manchuria",
+   "oilId": 0
  },
  {
    "dataName": "map_Manchuria",
    "friendlyNationName": "China",
    "terrain": "Standard",
    "supraRegion": "EastAsia",
-   "coast": "NorthwestPacific",
-   "latitude": 43.5,
-   "longitude": 127,
-   "boostLatitude": 40,
-   "area_km2": 810124,
-   "visualId": 58
+   "coast": "none",
+   "latitude": 47.21,
+   "longitude": 128.5,
+   "boostLatitude": 45,
+   "area_km2": 472766,
+   "visualId": 58,
+   "oilId": 6
  },
  {
    "dataName": "map_Nanchang",
@@ -712,11 +995,12 @@
    "terrain": "Standard",
    "supraRegion": "EastAsia",
    "coast": "none",
-   "latitude": 29.5,
-   "longitude": 117,
+   "latitude": 27.86,
+   "longitude": 115.47,
    "boostLatitude": 25,
-   "area_km2": 306818,
-   "visualId": 59
+   "area_km2": 166939,
+   "visualId": 59,
+   "oilId": 0
  },
  {
    "dataName": "map_Nanning",
@@ -728,7 +1012,8 @@
    "longitude": 108.25,
    "boostLatitude": 25,
    "area_km2": 237818,
-   "visualId": 60
+   "visualId": 60,
+   "oilId": 0
  },
  {
    "dataName": "map_Qinghai",
@@ -740,7 +1025,8 @@
    "longitude": 96.5,
    "boostLatitude": 35,
    "area_km2": 690355,
-   "visualId": 61
+   "visualId": 61,
+   "oilId": 0
  },
  {
    "dataName": "map_Shandong",
@@ -752,7 +1038,8 @@
    "longitude": 118,
    "boostLatitude": 35,
    "area_km2": 157704,
-   "visualId": 62
+   "visualId": 62,
+   "oilId": 7
  },
  {
    "dataName": "map_Shanghai",
@@ -764,7 +1051,22 @@
    "longitude": 120,
    "boostLatitude": 30,
    "area_km2": 106290,
-   "visualId": 63
+   "visualId": 63,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Shanxi",
+   "friendlyNationName": "China",
+   "terrain": "Rugged",
+   "supraRegion": "EastAsia",
+   "coast": "none",
+   "latitude": 37.83,
+   "longitude": 112.18,
+   "boostLatitude": 35,
+   "area_km2": 156713,
+   "visualId": 328,
+   "parent": "map_Zhengzhou",
+   "oilId": 0
  },
  {
    "dataName": "map_Tibet",
@@ -775,8 +1077,9 @@
    "latitude": 30.85,
    "longitude": 88.72,
    "boostLatitude": 30,
-   "area_km2": 1228400,
-   "visualId": 64
+   "area_km2": 1204776,
+   "visualId": 64,
+   "oilId": 0
  },
  {
    "dataName": "map_Wuhan",
@@ -784,11 +1087,12 @@
    "terrain": "Standard",
    "supraRegion": "EastAsia",
    "coast": "none",
-   "latitude": 29.28,
-   "longitude": 111.75,
+   "latitude": 30.9,
+   "longitude": 112,
    "boostLatitude": 30,
-   "area_km2": 397618,
-   "visualId": 65
+   "area_km2": 185776,
+   "visualId": 65,
+   "oilId": 0
  },
  {
    "dataName": "map_Xian",
@@ -796,11 +1100,12 @@
    "terrain": "Standard",
    "supraRegion": "EastAsia",
    "coast": "none",
-   "latitude": 36,
-   "longitude": 105.5,
+   "latitude": 35.28,
+   "longitude": 109,
    "boostLatitude": 35,
-   "area_km2": 729406,
-   "visualId": 66
+   "area_km2": 205624,
+   "visualId": 66,
+   "oilId": 0
  },
  {
    "dataName": "map_Xinjiang",
@@ -812,7 +1117,22 @@
    "longitude": 85.6,
    "boostLatitude": 40,
    "area_km2": 1664897,
-   "visualId": 67
+   "visualId": 67,
+   "oilId": 8
+ },
+ {
+   "dataName": "map_Yunnan",
+   "friendlyNationName": "China",
+   "terrain": "Rugged",
+   "supraRegion": "EastAsia",
+   "coast": "none",
+   "latitude": 24.83,
+   "longitude": 101.3,
+   "boostLatitude": 25,
+   "area_km2": 383195,
+   "visualId": 329,
+   "parent": "map_Guizhou",
+   "oilId": 0
  },
  {
    "dataName": "map_Zhengzhou",
@@ -820,11 +1140,12 @@
    "terrain": "Standard",
    "supraRegion": "EastAsia",
    "coast": "none",
-   "latitude": 35.5,
-   "longitude": 112.5,
+   "latitude": 34.69,
+   "longitude": 113.71,
    "boostLatitude": 30,
-   "area_km2": 322180,
-   "visualId": 68
+   "area_km2": 165467,
+   "visualId": 68,
+   "oilId": 0
  },
  {
    "dataName": "map_Colombia",
@@ -836,7 +1157,8 @@
    "longitude": -75.75,
    "boostLatitude": 0,
    "area_km2": 485660,
-   "visualId": 69
+   "visualId": 69,
+   "oilId": 0
  },
  {
    "dataName": "map_Villavicencio",
@@ -848,7 +1170,8 @@
    "longitude": -72.25,
    "boostLatitude": 0,
    "area_km2": 657503,
-   "visualId": 70
+   "visualId": 70,
+   "oilId": 0
  },
  {
    "dataName": "map_Kinshasa",
@@ -860,7 +1183,8 @@
    "longitude": 18.3,
    "boostLatitude": 0,
    "area_km2": 1022409,
-   "visualId": 71
+   "visualId": 71,
+   "oilId": 0
  },
  {
    "dataName": "map_Kisangani",
@@ -872,7 +1196,8 @@
    "longitude": 27,
    "boostLatitude": 0,
    "area_km2": 759763,
-   "visualId": 72
+   "visualId": 72,
+   "oilId": 0
  },
  {
    "dataName": "map_Lubumbashi",
@@ -884,7 +1209,8 @@
    "longitude": 26.5,
    "boostLatitude": -5,
    "area_km2": 544327,
-   "visualId": 73
+   "visualId": 73,
+   "oilId": 0
  },
  {
    "dataName": "map_CongoBrazzaville",
@@ -896,7 +1222,8 @@
    "longitude": 15.5,
    "boostLatitude": 0,
    "area_km2": 342000,
-   "visualId": 74
+   "visualId": 74,
+   "oilId": 0
  },
  {
    "dataName": "map_CostaRica",
@@ -908,19 +1235,21 @@
    "longitude": -84.5,
    "boostLatitude": 10,
    "area_km2": 51100,
-   "visualId": 75
+   "visualId": 75,
+   "oilId": 0
  },
  {
    "dataName": "map_CroatiaSlovenia",
-   "friendlyNationName": "Croatia-Slovenia",
+   "friendlyNationName": "Croatia",
    "terrain": "Rugged",
    "supraRegion": "Europe",
    "coast": "Mediterranean",
-   "latitude": 45.5,
-   "longitude": 15.25,
+   "latitude": 45.35,
+   "longitude": 15.88,
    "boostLatitude": 45,
-   "area_km2": 76865,
-   "visualId": 76
+   "area_km2": 56594,
+   "visualId": 76,
+   "oilId": 0
  },
  {
    "dataName": "map_Cuba",
@@ -933,7 +1262,8 @@
    "boostLatitude": 20,
    "island": true,
    "area_km2": 109884,
-   "visualId": 77
+   "visualId": 77,
+   "oilId": 0
  },
  {
    "dataName": "map_Czechia",
@@ -945,7 +1275,8 @@
    "longitude": 15.04,
    "boostLatitude": 50,
    "area_km2": 78871,
-   "visualId": 78
+   "visualId": 78,
+   "oilId": 0
  },
  {
    "dataName": "map_Denmark",
@@ -957,20 +1288,22 @@
    "longitude": 12.34,
    "boostLatitude": 55,
    "area_km2": 42943,
-   "visualId": 79
+   "visualId": 79,
+   "oilId": 0
  },
  {
    "dataName": "map_Greenland",
    "friendlyNationName": "Denmark",
    "terrain": "Rugged",
-   "supraRegion": "Europe",
+   "supraRegion": "NorthAmerica",
    "coast": "NorthwestAtlantic",
    "latitude": 65.55,
    "longitude": -46,
    "boostLatitude": 60,
    "island": true,
    "area_km2": 2166086,
-   "visualId": 80
+   "visualId": 80,
+   "oilId": 0
  },
  {
    "dataName": "map_Djibouti",
@@ -982,7 +1315,8 @@
    "longitude": 42.5,
    "boostLatitude": 10,
    "area_km2": 23200,
-   "visualId": 81
+   "visualId": 81,
+   "oilId": 0
  },
  {
    "dataName": "map_EastHispanola",
@@ -995,7 +1329,23 @@
    "boostLatitude": 20,
    "island": true,
    "area_km2": 48442,
-   "visualId": 82
+   "visualId": 82,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_EastTimor",
+   "friendlyNationName": "East Timor",
+   "terrain": "Standard",
+   "supraRegion": "Oceania",
+   "coast": "SouthChinaSea",
+   "latitude": -8.8,
+   "longitude": 125.8,
+   "boostLatitude": -10,
+   "island": true,
+   "area_km2": 14950,
+   "visualId": 313,
+   "parent": "map_LesserSundas",
+   "oilId": 0
  },
  {
    "dataName": "map_Ecuador",
@@ -1007,7 +1357,8 @@
    "longitude": -78.5,
    "boostLatitude": 0,
    "area_km2": 256370,
-   "visualId": 83
+   "visualId": 83,
+   "oilId": 0
  },
  {
    "dataName": "map_Alexandria",
@@ -1019,7 +1370,8 @@
    "longitude": 28,
    "boostLatitude": 30,
    "area_km2": 241174,
-   "visualId": 84
+   "visualId": 84,
+   "oilId": 0
  },
  {
    "dataName": "map_Egypt",
@@ -1031,7 +1383,8 @@
    "longitude": 32.25,
    "boostLatitude": 30,
    "area_km2": 127706,
-   "visualId": 85
+   "visualId": 85,
+   "oilId": 0
  },
  {
    "dataName": "map_Luxor",
@@ -1043,7 +1396,8 @@
    "longitude": 30.25,
    "boostLatitude": 25,
    "area_km2": 724162,
-   "visualId": 86
+   "visualId": 86,
+   "oilId": 0
  },
  {
    "dataName": "map_ElSalvador",
@@ -1055,7 +1409,22 @@
    "longitude": -88.86,
    "boostLatitude": 15,
    "area_km2": 21041,
-   "visualId": 87
+   "visualId": 87,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_EquatorialGuinea",
+   "friendlyNationName": "Equatorial Guinea",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "SouthAtlantic",
+   "latitude": 2.5,
+   "longitude": 9.2,
+   "boostLatitude": 0,
+   "area_km2": 28050,
+   "visualId": 309,
+   "parent": "map_LowerGuinea",
+   "oilId": 0
  },
  {
    "dataName": "map_Eritrea",
@@ -1067,7 +1436,8 @@
    "longitude": 38.55,
    "boostLatitude": 15,
    "area_km2": 124330,
-   "visualId": 88
+   "visualId": 88,
+   "oilId": 0
  },
  {
    "dataName": "map_Estonia",
@@ -1079,7 +1449,22 @@
    "longitude": 25.6,
    "boostLatitude": 60,
    "area_km2": 45339,
-   "visualId": 89
+   "visualId": 89,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Eswatini",
+   "friendlyNationName": "Eswatini",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "none",
+   "latitude": -26.6,
+   "longitude": 31.46,
+   "boostLatitude": -25,
+   "area_km2": 17364,
+   "visualId": 358,
+   "parent": "map_Johannesburg",
+   "oilId": 0
  },
  {
    "dataName": "map_DireDiwa",
@@ -1091,7 +1476,8 @@
    "longitude": 44,
    "boostLatitude": 5,
    "area_km2": 299080,
-   "visualId": 90
+   "visualId": 90,
+   "oilId": 0
  },
  {
    "dataName": "map_Ethiopia",
@@ -1103,7 +1489,8 @@
    "longitude": 37,
    "boostLatitude": 5,
    "area_km2": 348313,
-   "visualId": 91
+   "visualId": 91,
+   "oilId": 0
  },
  {
    "dataName": "map_Mekelle",
@@ -1115,7 +1502,8 @@
    "longitude": 38.5,
    "boostLatitude": 10,
    "area_km2": 327538,
-   "visualId": 92
+   "visualId": 92,
+   "oilId": 0
  },
  {
    "dataName": "map_Finland",
@@ -1127,7 +1515,8 @@
    "longitude": 24.56,
    "boostLatitude": 60,
    "area_km2": 338145,
-   "visualId": 93
+   "visualId": 93,
+   "oilId": 0
  },
  {
    "dataName": "map_FrenchGuiana",
@@ -1139,7 +1528,8 @@
    "longitude": -53.2,
    "boostLatitude": 5,
    "area_km2": 84000,
-   "visualId": 94
+   "visualId": 94,
+   "oilId": 0
  },
  {
    "dataName": "map_FrenchPacific",
@@ -1152,7 +1542,8 @@
    "boostLatitude": -15,
    "island": true,
    "area_km2": 22189,
-   "visualId": 95
+   "visualId": 95,
+   "oilId": 0
  },
  {
    "dataName": "map_FrenchRatnakara",
@@ -1165,7 +1556,8 @@
    "boostLatitude": -15,
    "island": true,
    "area_km2": 2879,
-   "visualId": 96
+   "visualId": 96,
+   "oilId": 0
  },
  {
    "dataName": "map_FrenchWestIndies",
@@ -1178,19 +1570,21 @@
    "boostLatitude": 15,
    "island": true,
    "area_km2": 2834,
-   "visualId": 97
+   "visualId": 97,
+   "oilId": 0
  },
  {
    "dataName": "map_Lyon",
    "friendlyNationName": "France",
    "terrain": "Rugged",
    "supraRegion": "Europe",
-   "coast": "MedNorthAtlantic",
-   "latitude": 43.7,
-   "longitude": 2.42,
+   "coast": "Mediterranean",
+   "latitude": 45,
+   "longitude": 5,
    "boostLatitude": 45,
-   "area_km2": 241235,
-   "visualId": 98
+   "area_km2": 137169,
+   "visualId": 98,
+   "oilId": 0
  },
  {
    "dataName": "map_Nantes",
@@ -1201,8 +1595,9 @@
    "latitude": 48.5,
    "longitude": -1,
    "boostLatitude": 45,
-   "area_km2": 146812,
-   "visualId": 99
+   "area_km2": 121003,
+   "visualId": 99,
+   "oilId": 0
  },
  {
    "dataName": "map_Paris",
@@ -1214,7 +1609,49 @@
    "longitude": 3.5,
    "boostLatitude": 45,
    "area_km2": 156387,
-   "visualId": 100
+   "visualId": 100,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Toulouse",
+   "friendlyNationName": "France",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "NortheastAtlantic",
+   "latitude": 44,
+   "longitude": 1,
+   "boostLatitude": 45,
+   "area_km2": 129852,
+   "visualId": 317,
+   "parent": "map_Lyon",
+   "oilId": 0
+ },
+ {
+   "dataName": "map_LowerGuinea",
+   "friendlyNationName": "Gabon",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "SouthAtlantic",
+   "latitude": -0.25,
+   "longitude": 11.7,
+   "boostLatitude": 0,
+   "area_km2": 267668,
+   "visualId": 166,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Gambia",
+   "friendlyNationName": "Gambia",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "NortheastAtlantic",
+   "latitude": 13.55,
+   "longitude": -15.34,
+   "boostLatitude": 15,
+   "area_km2": 11300,
+   "visualId": 360,
+   "parent": "map_Senegambia",
+   "oilId": 0
  },
  {
    "dataName": "map_Georgia",
@@ -1226,7 +1663,8 @@
    "longitude": 43.8,
    "boostLatitude": 40,
    "area_km2": 69700,
-   "visualId": 101
+   "visualId": 101,
+   "oilId": 0
  },
  {
    "dataName": "map_Bavaria",
@@ -1238,7 +1676,8 @@
    "longitude": 10.4,
    "boostLatitude": 50,
    "area_km2": 149837,
-   "visualId": 102
+   "visualId": 102,
+   "oilId": 0
  },
  {
    "dataName": "map_EastGermany",
@@ -1250,7 +1689,8 @@
    "longitude": 13.405,
    "boostLatitude": 50,
    "area_km2": 108861,
-   "visualId": 103
+   "visualId": 103,
+   "oilId": 0
  },
  {
    "dataName": "map_Germany",
@@ -1262,7 +1702,8 @@
    "longitude": 8.7,
    "boostLatitude": 50,
    "area_km2": 98683,
-   "visualId": 104
+   "visualId": 104,
+   "oilId": 0
  },
  {
    "dataName": "map_Ghana",
@@ -1274,7 +1715,8 @@
    "longitude": -1,
    "boostLatitude": 5,
    "area_km2": 239567,
-   "visualId": 105
+   "visualId": 105,
+   "oilId": 0
  },
  {
    "dataName": "map_Greece",
@@ -1286,7 +1728,8 @@
    "longitude": 22.05,
    "boostLatitude": 35,
    "area_km2": 141208,
-   "visualId": 106
+   "visualId": 106,
+   "oilId": 0
  },
  {
    "dataName": "map_Guatemala",
@@ -1298,7 +1741,8 @@
    "longitude": -90.5,
    "boostLatitude": 15,
    "area_km2": 108889,
-   "visualId": 107
+   "visualId": 107,
+   "oilId": 0
  },
  {
    "dataName": "map_Guinea",
@@ -1309,8 +1753,23 @@
    "latitude": 11.1,
    "longitude": -11.5,
    "boostLatitude": 10,
-   "area_km2": 281982,
-   "visualId": 108
+   "area_km2": 245857,
+   "visualId": 108,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_GuineaBissau",
+   "friendlyNationName": "Guinea-Bissau",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "NortheastAtlantic",
+   "latitude": 12,
+   "longitude": -15,
+   "boostLatitude": 10,
+   "area_km2": 36125,
+   "visualId": 312,
+   "parent": "map_Guinea",
+   "oilId": 0
  },
  {
    "dataName": "map_GulfStates",
@@ -1321,8 +1780,9 @@
    "latitude": 25.8,
    "longitude": 51.1,
    "boostLatitude": 25,
-   "area_km2": 30190,
-   "visualId": 109
+   "area_km2": 12372,
+   "visualId": 109,
+   "oilId": 9
  },
  {
    "dataName": "map_Guyana",
@@ -1334,7 +1794,8 @@
    "longitude": -58.98,
    "boostLatitude": 5,
    "area_km2": 214969,
-   "visualId": 110
+   "visualId": 110,
+   "oilId": 10
  },
  {
    "dataName": "map_WestHispanola",
@@ -1347,19 +1808,8 @@
    "boostLatitude": 20,
    "island": true,
    "area_km2": 27750,
-   "visualId": 111
- },
- {
-   "dataName": "map_Himalayas",
-   "friendlyNationName": "Himalayan States",
-   "terrain": "Rugged",
-   "supraRegion": "CentralAsia",
-   "coast": "none",
-   "latitude": 27.58,
-   "longitude": 85.1,
-   "boostLatitude": 30,
-   "area_km2": 185910,
-   "visualId": 112
+   "visualId": 111,
+   "oilId": 0
  },
  {
    "dataName": "map_Honduras",
@@ -1371,7 +1821,8 @@
    "longitude": -86.8,
    "boostLatitude": 15,
    "area_km2": 112492,
-   "visualId": 113
+   "visualId": 113,
+   "oilId": 0
  },
  {
    "dataName": "map_Hungary",
@@ -1383,7 +1834,8 @@
    "longitude": 19.14,
    "boostLatitude": 45,
    "area_km2": 93028,
-   "visualId": 114
+   "visualId": 114,
+   "oilId": 0
  },
  {
    "dataName": "map_Iceland",
@@ -1396,7 +1848,36 @@
    "boostLatitude": 65,
    "island": true,
    "area_km2": 103175,
-   "visualId": 115
+   "visualId": 115,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_AndhraPradesh",
+   "friendlyNationName": "India",
+   "terrain": "Standard",
+   "supraRegion": "CentralAsia",
+   "coast": "Indian",
+   "latitude": 16.29,
+   "longitude": 80.17,
+   "boostLatitude": 15,
+   "area_km2": 162975,
+   "visualId": 336,
+   "parent": "map_Hyderabad",
+   "oilId": 0
+ },
+ {
+   "dataName": "map_ArunchalPradesh",
+   "friendlyNationName": "India",
+   "terrain": "Rugged",
+   "supraRegion": "CentralAsia",
+   "coast": "none",
+   "latitude": 28.25,
+   "longitude": 94.46,
+   "boostLatitude": 30,
+   "area_km2": 83747,
+   "visualId": 337,
+   "parent": "map_Assam",
+   "oilId": 0
  },
  {
    "dataName": "map_Assam",
@@ -1407,8 +1888,9 @@
    "latitude": 26.08,
    "longitude": 92.69,
    "boostLatitude": 25,
-   "area_km2": 262118,
-   "visualId": 116
+   "area_km2": 171345,
+   "visualId": 116,
+   "oilId": 0
  },
  {
    "dataName": "map_Bangalore",
@@ -1416,11 +1898,12 @@
    "terrain": "Standard",
    "supraRegion": "CentralAsia",
    "coast": "Indian",
-   "latitude": 12,
+   "latitude": 12.38,
    "longitude": 76.5,
    "boostLatitude": 15,
    "area_km2": 191791,
-   "visualId": 117
+   "visualId": 117,
+   "oilId": 0
  },
  {
    "dataName": "map_Bihar",
@@ -1432,7 +1915,8 @@
    "longitude": 85,
    "boostLatitude": 25,
    "area_km2": 94163,
-   "visualId": 118
+   "visualId": 118,
+   "oilId": 0
  },
  {
    "dataName": "map_Chennai",
@@ -1444,7 +1928,8 @@
    "longitude": 78.25,
    "boostLatitude": 10,
    "area_km2": 169432,
-   "visualId": 119
+   "visualId": 119,
+   "oilId": 0
  },
  {
    "dataName": "map_Faridabad",
@@ -1456,7 +1941,8 @@
    "longitude": 77,
    "boostLatitude": 30,
    "area_km2": 203844,
-   "visualId": 120
+   "visualId": 120,
+   "oilId": 0
  },
  {
    "dataName": "map_Gujarat",
@@ -1468,19 +1954,21 @@
    "longitude": 71.75,
    "boostLatitude": 20,
    "area_km2": 196627,
-   "visualId": 121
+   "visualId": 121,
+   "oilId": 0
  },
  {
    "dataName": "map_Hyderabad",
    "friendlyNationName": "India",
    "terrain": "Standard",
    "supraRegion": "CentralAsia",
-   "coast": "Indian",
-   "latitude": 17,
-   "longitude": 79.5,
+   "coast": "none",
+   "latitude": 17.73,
+   "longitude": 78.87,
    "boostLatitude": 15,
-   "area_km2": 285052,
-   "visualId": 122
+   "area_km2": 122077,
+   "visualId": 122,
+   "oilId": 0
  },
  {
    "dataName": "map_Indore",
@@ -1492,7 +1980,8 @@
    "longitude": 78,
    "boostLatitude": 25,
    "area_km2": 308252,
-   "visualId": 123
+   "visualId": 123,
+   "oilId": 0
  },
  {
    "dataName": "map_Jaipur",
@@ -1504,7 +1993,8 @@
    "longitude": 73.5,
    "boostLatitude": 25,
    "area_km2": 342239,
-   "visualId": 124
+   "visualId": 124,
+   "oilId": 0
  },
  {
    "dataName": "map_JammuandKashmir",
@@ -1516,7 +2006,8 @@
    "longitude": 76,
    "boostLatitude": 35,
    "area_km2": 101387,
-   "visualId": 125
+   "visualId": 125,
+   "oilId": 0
  },
  {
    "dataName": "map_Kolkata",
@@ -1527,8 +2018,9 @@
    "latitude": 23.5,
    "longitude": 86.5,
    "boostLatitude": 25,
-   "area_km2": 176717,
-   "visualId": 126
+   "area_km2": 183813,
+   "visualId": 126,
+   "oilId": 0
  },
  {
    "dataName": "map_Mumbai",
@@ -1540,7 +2032,8 @@
    "longitude": 75.75,
    "boostLatitude": 15,
    "area_km2": 311415,
-   "visualId": 127
+   "visualId": 127,
+   "oilId": 0
  },
  {
    "dataName": "map_NewDelhi",
@@ -1552,19 +2045,50 @@
    "longitude": 79,
    "boostLatitude": 25,
    "area_km2": 242412,
-   "visualId": 128
+   "visualId": 128,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Odisha",
+   "friendlyNationName": "India",
+   "terrain": "Standard",
+   "supraRegion": "CentralAsia",
+   "coast": "Indian",
+   "latitude": 20.46,
+   "longitude": 84.16,
+   "boostLatitude": 20,
+   "area_km2": 155707,
+   "visualId": 338,
+   "parent": "map_Raipur",
+   "oilId": 0
  },
  {
    "dataName": "map_Raipur",
    "friendlyNationName": "India",
    "terrain": "Standard",
    "supraRegion": "CentralAsia",
-   "coast": "Indian",
-   "latitude": 20.75,
-   "longitude": 83,
+   "coast": "none",
+   "latitude": 21.34,
+   "longitude": 81.55,
    "boostLatitude": 20,
-   "area_km2": 290899,
-   "visualId": 129
+   "area_km2": 135192,
+   "visualId": 129,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Aceh",
+   "friendlyNationName": "Indonesia",
+   "terrain": "Standard",
+   "supraRegion": "EastAsia",
+   "coast": "Indian",
+   "latitude": 4.2,
+   "longitude": 97.2,
+   "boostLatitude": 5,
+   "island": true,
+   "area_km2": 58486,
+   "visualId": 314,
+   "parent": "map_Sumatra",
+   "oilId": 0
  },
  {
    "dataName": "map_Borneo",
@@ -1577,7 +2101,8 @@
    "boostLatitude": 0,
    "island": true,
    "area_km2": 539238,
-   "visualId": 130
+   "visualId": 130,
+   "oilId": 0
  },
  {
    "dataName": "map_Java",
@@ -1590,7 +2115,8 @@
    "boostLatitude": -5,
    "island": true,
    "area_km2": 138794,
-   "visualId": 131
+   "visualId": 131,
+   "oilId": 0
  },
  {
    "dataName": "map_LesserSundas",
@@ -1602,8 +2128,9 @@
    "longitude": 118.5,
    "boostLatitude": 10,
    "island": true,
-   "area_km2": 87607,
-   "visualId": 132
+   "area_km2": 72733,
+   "visualId": 132,
+   "oilId": 0
  },
  {
    "dataName": "map_MoluccasandSulawesi",
@@ -1611,12 +2138,13 @@
    "terrain": "Standard",
    "supraRegion": "Oceania",
    "coast": "SouthwestPacific",
-   "latitude": -0.99,
-   "longitude": 122.56,
+   "latitude": -3.03,
+   "longitude": 129.4,
    "boostLatitude": 0,
    "island": true,
-   "area_km2": 198721,
-   "visualId": 133
+   "area_km2": 18040,
+   "visualId": 133,
+   "oilId": 0
  },
  {
    "dataName": "map_NewGuinea",
@@ -1629,7 +2157,23 @@
    "boostLatitude": 0,
    "island": true,
    "area_km2": 412214,
-   "visualId": 134
+   "visualId": 134,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Sulawesi",
+   "friendlyNationName": "Indonesia",
+   "terrain": "Standard",
+   "supraRegion": "Oceania",
+   "coast": "SouthwestPacific",
+   "latitude": -2,
+   "longitude": 120.56,
+   "boostLatitude": 0,
+   "island": true,
+   "area_km2": 180681,
+   "visualId": 341,
+   "parent": "map_MoluccasandSulawesi",
+   "oilId": 0
  },
  {
    "dataName": "map_Sumatra",
@@ -1641,8 +2185,23 @@
    "longitude": 101.75,
    "boostLatitude": 0,
    "island": true,
-   "area_km2": 473481,
-   "visualId": 135
+   "area_km2": 61267,
+   "visualId": 135,
+   "oilId": 11
+ },
+ {
+   "dataName": "map_Ahvaz",
+   "friendlyNationName": "Iran",
+   "terrain": "Rugged",
+   "supraRegion": "CentralAsia",
+   "coast": "Indian",
+   "latitude": 31.24,
+   "longitude": 49.16,
+   "boostLatitude": 30,
+   "area_km2": 185978,
+   "visualId": 335,
+   "parent": "map_Isfahan",
+   "oilId": 12
  },
  {
    "dataName": "map_Isfahan",
@@ -1653,8 +2212,9 @@
    "latitude": 31.25,
    "longitude": 51.75,
    "boostLatitude": 25,
-   "area_km2": 540863,
-   "visualId": 136
+   "area_km2": 354885,
+   "visualId": 136,
+   "oilId": 0
  },
  {
    "dataName": "map_Mashhad",
@@ -1666,7 +2226,8 @@
    "longitude": 59.25,
    "boostLatitude": 25,
    "area_km2": 734576,
-   "visualId": 137
+   "visualId": 137,
+   "oilId": 0
  },
  {
    "dataName": "map_Tabriz",
@@ -1678,7 +2239,8 @@
    "longitude": 47.5,
    "boostLatitude": 40,
    "area_km2": 165839,
-   "visualId": 138
+   "visualId": 138,
+   "oilId": 0
  },
  {
    "dataName": "map_Tehran",
@@ -1690,7 +2252,8 @@
    "longitude": 52,
    "boostLatitude": 35,
    "area_km2": 193109,
-   "visualId": 139
+   "visualId": 139,
+   "oilId": 0
  },
  {
    "dataName": "map_Baghdad",
@@ -1702,7 +2265,8 @@
    "longitude": 44.58,
    "boostLatitude": 30,
    "area_km2": 303579,
-   "visualId": 140
+   "visualId": 140,
+   "oilId": 13
  },
  {
    "dataName": "map_Mosul",
@@ -1714,20 +2278,22 @@
    "longitude": 43.33,
    "boostLatitude": 35,
    "area_km2": 128977,
-   "visualId": 141
+   "visualId": 141,
+   "oilId": 0
  },
  {
    "dataName": "map_Ireland",
    "friendlyNationName": "Ireland",
    "terrain": "Standard",
-   "supraRegion": "NorthAmerica",
+   "supraRegion": "Europe",
    "coast": "NortheastAtlantic",
    "latitude": 53.01,
    "longitude": -8.26,
    "boostLatitude": 55,
    "island": true,
    "area_km2": 70273,
-   "visualId": 142
+   "visualId": 142,
+   "oilId": 0
  },
  {
    "dataName": "map_Israel",
@@ -1739,7 +2305,8 @@
    "longitude": 34.92,
    "boostLatitude": 30,
    "area_km2": 20582,
-   "visualId": 143
+   "visualId": 143,
+   "oilId": 0
  },
  {
    "dataName": "map_Italy",
@@ -1751,7 +2318,8 @@
    "longitude": 12.44,
    "boostLatitude": 40,
    "area_km2": 93016,
-   "visualId": 144
+   "visualId": 144,
+   "oilId": 0
  },
  {
    "dataName": "map_Milan",
@@ -1763,7 +2331,8 @@
    "longitude": 10.25,
    "boostLatitude": 45,
    "area_km2": 127888,
-   "visualId": 145
+   "visualId": 145,
+   "oilId": 0
  },
  {
    "dataName": "map_Naples",
@@ -1775,7 +2344,8 @@
    "longitude": 16,
    "boostLatitude": 35,
    "area_km2": 89026,
-   "visualId": 146
+   "visualId": 146,
+   "oilId": 0
  },
  {
    "dataName": "map_IvoryCoast",
@@ -1787,7 +2357,22 @@
    "longitude": -5.5,
    "boostLatitude": 5,
    "area_km2": 322463,
-   "visualId": 147
+   "visualId": 147,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Jamaica",
+   "friendlyNationName": "Jamaica",
+   "terrain": "Standard",
+   "supraRegion": "NorthAmerica",
+   "coast": "Caribbean",
+   "latitude": 18.12,
+   "longitude": -77.3,
+   "boostLatitude": 20,
+   "area_km2": 10990,
+   "visualId": 356,
+   "parent": "map_WestIndies",
+   "oilId": 0
  },
  {
    "dataName": "map_Hokkaido",
@@ -1799,7 +2384,8 @@
    "longitude": 142.59,
    "boostLatitude": 45,
    "area_km2": 83423,
-   "visualId": 148
+   "visualId": 148,
+   "oilId": 0
  },
  {
    "dataName": "map_KyushuandShikoku",
@@ -1812,7 +2398,8 @@
    "boostLatitude": 30,
    "island": true,
    "area_km2": 55583,
-   "visualId": 149
+   "visualId": 149,
+   "oilId": 0
  },
  {
    "dataName": "map_NorthHonshu",
@@ -1826,7 +2413,8 @@
    "island": true,
    "verticalRegion": true,
    "area_km2": 111961,
-   "visualId": 150
+   "visualId": 150,
+   "oilId": 0
  },
  {
    "dataName": "map_Ryukus",
@@ -1839,7 +2427,8 @@
    "boostLatitude": 25,
    "island": true,
    "area_km2": 4642,
-   "visualId": 151
+   "visualId": 151,
+   "oilId": 0
  },
  {
    "dataName": "map_SouthHonshu",
@@ -1852,7 +2441,8 @@
    "boostLatitude": 35,
    "island": true,
    "area_km2": 116000,
-   "visualId": 152
+   "visualId": 152,
+   "oilId": 0
  },
  {
    "dataName": "map_Jordan",
@@ -1864,7 +2454,8 @@
    "longitude": 36.49,
    "boostLatitude": 30,
    "area_km2": 89342,
-   "visualId": 153
+   "visualId": 153,
+   "oilId": 0
  },
  {
    "dataName": "map_Almaty",
@@ -1876,7 +2467,8 @@
    "longitude": 76.523,
    "boostLatitude": 45,
    "area_km2": 1547885,
-   "visualId": 154
+   "visualId": 154,
+   "oilId": 0
  },
  {
    "dataName": "map_Astana",
@@ -1888,7 +2480,8 @@
    "longitude": 57.6,
    "boostLatitude": 45,
    "area_km2": 1176454,
-   "visualId": 155
+   "visualId": 155,
+   "oilId": 14
  },
  {
    "dataName": "map_Kenya",
@@ -1900,7 +2493,8 @@
    "longitude": 36,
    "boostLatitude": 0,
    "area_km2": 281064,
-   "visualId": 156
+   "visualId": 156,
+   "oilId": 0
  },
  {
    "dataName": "map_Mombasa",
@@ -1912,7 +2506,36 @@
    "longitude": 40,
    "boostLatitude": 0,
    "area_km2": 299302,
-   "visualId": 157
+   "visualId": 157,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Kosovo",
+   "friendlyNationName": "Kosovo",
+   "terrain": "Rugged",
+   "supraRegion": "Europe",
+   "coast": "none",
+   "latitude": 42.49,
+   "longitude": 20.91,
+   "boostLatitude": 45,
+   "area_km2": 10887,
+   "visualId": 340,
+   "parent": "map_Belgrade",
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Kuwait",
+   "friendlyNationName": "Kuwait",
+   "terrain": "Standard",
+   "supraRegion": "CentralAsia",
+   "coast": "Indian",
+   "latitude": 29.6,
+   "longitude": 47.61,
+   "boostLatitude": 30,
+   "area_km2": 17818,
+   "visualId": 339,
+   "parent": "map_GulfStates",
+   "oilId": 0
  },
  {
    "dataName": "map_Kyrgyzstan",
@@ -1924,7 +2547,8 @@
    "longitude": 74.59,
    "boostLatitude": 40,
    "area_km2": 199951,
-   "visualId": 158
+   "visualId": 158,
+   "oilId": 0
  },
  {
    "dataName": "map_Laos",
@@ -1936,7 +2560,8 @@
    "longitude": 104.9,
    "boostLatitude": 15,
    "area_km2": 236800,
-   "visualId": 159
+   "visualId": 159,
+   "oilId": 0
  },
  {
    "dataName": "map_Latvia",
@@ -1948,7 +2573,8 @@
    "longitude": 25.1,
    "boostLatitude": 55,
    "area_km2": 64589,
-   "visualId": 160
+   "visualId": 160,
+   "oilId": 0
  },
  {
    "dataName": "map_Lebanon",
@@ -1960,7 +2586,22 @@
    "longitude": 35.75,
    "boostLatitude": 35,
    "area_km2": 10452,
-   "visualId": 161
+   "visualId": 161,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Lesotho",
+   "friendlyNationName": "Lesotho",
+   "terrain": "Rugged",
+   "supraRegion": "Africa",
+   "coast": "none",
+   "latitude": -29.5,
+   "longitude": 28.24,
+   "boostLatitude": -30,
+   "area_km2": 30355,
+   "visualId": 359,
+   "parent": "map_Johannesburg",
+   "oilId": 0
  },
  {
    "dataName": "map_Liberia",
@@ -1972,7 +2613,8 @@
    "longitude": -9.4,
    "boostLatitude": 5,
    "area_km2": 111369,
-   "visualId": 162
+   "visualId": 162,
+   "oilId": 0
  },
  {
    "dataName": "map_Cyrenaica",
@@ -1984,7 +2626,8 @@
    "longitude": 22.25,
    "boostLatitude": 25,
    "area_km2": 711507,
-   "visualId": 163
+   "visualId": 163,
+   "oilId": 15
  },
  {
    "dataName": "map_Libya",
@@ -1996,7 +2639,8 @@
    "longitude": 14.25,
    "boostLatitude": 25,
    "area_km2": 1048034,
-   "visualId": 164
+   "visualId": 164,
+   "oilId": 0
  },
  {
    "dataName": "map_Lithuania",
@@ -2008,19 +2652,8 @@
    "longitude": 24,
    "boostLatitude": 55,
    "area_km2": 65300,
-   "visualId": 165
- },
- {
-   "dataName": "map_LowerGuinea",
-   "friendlyNationName": "Lower Guinean States",
-   "terrain": "Standard",
-   "supraRegion": "Africa",
-   "coast": "SouthAtlantic",
-   "latitude": -0.25,
-   "longitude": 11.7,
-   "boostLatitude": 0,
-   "area_km2": 360030,
-   "visualId": 166
+   "visualId": 165,
+   "oilId": 0
  },
  {
    "dataName": "map_Madagascar",
@@ -2033,7 +2666,8 @@
    "boostLatitude": -15,
    "island": true,
    "area_km2": 587041,
-   "visualId": 167
+   "visualId": 167,
+   "oilId": 0
  },
  {
    "dataName": "map_Malawi",
@@ -2046,7 +2680,8 @@
    "boostLatitude": -15,
    "verticalRegion": true,
    "area_km2": 118484,
-   "visualId": 168
+   "visualId": 168,
+   "oilId": 0
  },
  {
    "dataName": "map_MalayPeninsula",
@@ -2058,7 +2693,8 @@
    "longitude": 102.02,
    "boostLatitude": 0,
    "area_km2": 132490,
-   "visualId": 169
+   "visualId": 169,
+   "oilId": 0
  },
  {
    "dataName": "map_SarawakandSabah",
@@ -2070,8 +2706,25 @@
    "longitude": 113.89,
    "boostLatitude": 0,
    "island": true,
-   "area_km2": 198447,
-   "visualId": 170
+   "area_km2": 198354,
+   "visualId": 170,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Maldives",
+   "friendlyNationName": "Maldives",
+   "terrain": "Standard",
+   "supraRegion": "CentralAsia",
+   "coast": "Indian",
+   "latitude": 4.1,
+   "longitude": 73.5,
+   "boostLatitude": 0,
+   "island": true,
+   "verticalRegion": true,
+   "area_km2": 298,
+   "visualId": 308,
+   "parent": "map_Ratnakara",
+   "oilId": 0
  },
  {
    "dataName": "map_Gao",
@@ -2083,7 +2736,8 @@
    "longitude": -1,
    "boostLatitude": 15,
    "area_km2": 818613,
-   "visualId": 171
+   "visualId": 171,
+   "oilId": 0
  },
  {
    "dataName": "map_Mali",
@@ -2095,7 +2749,8 @@
    "longitude": -7.25,
    "boostLatitude": 10,
    "area_km2": 429961,
-   "visualId": 172
+   "visualId": 172,
+   "oilId": 0
  },
  {
    "dataName": "map_Mauritania",
@@ -2107,7 +2762,23 @@
    "longitude": -10.42,
    "boostLatitude": 15,
    "area_km2": 1030000,
-   "visualId": 173
+   "visualId": 173,
+   "oilId": 16
+ },
+ {
+   "dataName": "map_Mauritius",
+   "friendlyNationName": "Mauritius",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "Indian",
+   "latitude": -20.37,
+   "longitude": 57.57,
+   "boostLatitude": -20,
+   "island": true,
+   "area_km2": 2040,
+   "visualId": 351,
+   "parent": "map_Ratnakara",
+   "oilId": 0
  },
  {
    "dataName": "map_Melanesia",
@@ -2120,7 +2791,8 @@
    "boostLatitude": -5,
    "island": true,
    "area_km2": 59463,
-   "visualId": 174
+   "visualId": 174,
+   "oilId": 0
  },
  {
    "dataName": "map_Merida",
@@ -2132,7 +2804,8 @@
    "longitude": -91,
    "boostLatitude": 20,
    "area_km2": 239754,
-   "visualId": 175
+   "visualId": 175,
+   "oilId": 0
  },
  {
    "dataName": "map_MexicoCity",
@@ -2144,7 +2817,8 @@
    "longitude": -99,
    "boostLatitude": 15,
    "area_km2": 491834,
-   "visualId": 176
+   "visualId": 176,
+   "oilId": 0
  },
  {
    "dataName": "map_Monterrey",
@@ -2156,7 +2830,8 @@
    "longitude": -100,
    "boostLatitude": 25,
    "area_km2": 448332,
-   "visualId": 177
+   "visualId": 177,
+   "oilId": 17
  },
  {
    "dataName": "map_Tijuana",
@@ -2168,7 +2843,8 @@
    "longitude": -108,
    "boostLatitude": 25,
    "area_km2": 780710,
-   "visualId": 178
+   "visualId": 178,
+   "oilId": 0
  },
  {
    "dataName": "map_Micronesia",
@@ -2181,7 +2857,8 @@
    "boostLatitude": 0,
    "island": true,
    "area_km2": 2174,
-   "visualId": 179
+   "visualId": 179,
+   "oilId": 0
  },
  {
    "dataName": "map_Moldova",
@@ -2194,7 +2871,8 @@
    "boostLatitude": 45,
    "verticalRegion": true,
    "area_km2": 33843,
-   "visualId": 180
+   "visualId": 180,
+   "oilId": 0
  },
  {
    "dataName": "map_Mongolia",
@@ -2206,7 +2884,22 @@
    "longitude": 102.79,
    "boostLatitude": 45,
    "area_km2": 1564116,
-   "visualId": 181
+   "visualId": 181,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Montenegro",
+   "friendlyNationName": "Montenegro",
+   "terrain": "Rugged",
+   "supraRegion": "Europe",
+   "coast": "Mediterranean",
+   "latitude": 42.78,
+   "longitude": 19.2,
+   "boostLatitude": 45,
+   "area_km2": 13833,
+   "visualId": 345,
+   "parent": "map_BosniaMontenegro",
+   "oilId": 0
  },
  {
    "dataName": "map_Morocco",
@@ -2218,7 +2911,8 @@
    "longitude": -6.89,
    "boostLatitude": 30,
    "area_km2": 466300,
-   "visualId": 182
+   "visualId": 182,
+   "oilId": 0
  },
  {
    "dataName": "map_WesternSahara",
@@ -2230,7 +2924,8 @@
    "longitude": -13.87,
    "boostLatitude": 20,
    "area_km2": 266000,
-   "visualId": 183
+   "visualId": 183,
+   "oilId": 0
  },
  {
    "dataName": "map_Mozambique",
@@ -2238,11 +2933,26 @@
    "terrain": "Standard",
    "supraRegion": "Africa",
    "coast": "Indian",
-   "latitude": -18.18,
-   "longitude": 34.82,
-   "boostLatitude": -15,
-   "area_km2": 801590,
-   "visualId": 184
+   "latitude": -21.77,
+   "longitude": 33.83,
+   "boostLatitude": -20,
+   "area_km2": 401485,
+   "visualId": 184,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_NorthMozambique",
+   "friendlyNationName": "Mozambique",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "Indian",
+   "latitude": -13.76,
+   "longitude": 38.11,
+   "boostLatitude": -10,
+   "area_km2": 402295,
+   "visualId": 350,
+   "parent": "map_Mozambique",
+   "oilId": 18
  },
  {
    "dataName": "map_Myanmar",
@@ -2254,7 +2964,8 @@
    "longitude": 95.6,
    "boostLatitude": 10,
    "area_km2": 258913,
-   "visualId": 185
+   "visualId": 185,
+   "oilId": 0
  },
  {
    "dataName": "map_UpperMyanmar",
@@ -2266,7 +2977,8 @@
    "longitude": 96.4,
    "boostLatitude": 20,
    "area_km2": 415439,
-   "visualId": 186
+   "visualId": 186,
+   "oilId": 0
  },
  {
    "dataName": "map_Namibia",
@@ -2278,20 +2990,35 @@
    "longitude": 17.16,
    "boostLatitude": -20,
    "area_km2": 825615,
-   "visualId": 187
+   "visualId": 187,
+   "oilId": 19
+ },
+ {
+   "dataName": "map_Himalayas",
+   "friendlyNationName": "Nepal",
+   "terrain": "Rugged",
+   "supraRegion": "CentralAsia",
+   "coast": "none",
+   "latitude": 27.58,
+   "longitude": 85.1,
+   "boostLatitude": 30,
+   "area_km2": 147516,
+   "visualId": 112,
+   "oilId": 0
  },
  {
    "dataName": "map_DutchCaribbean",
    "friendlyNationName": "Netherlands",
    "terrain": "Standard",
-   "supraRegion": "Europe",
+   "supraRegion": "NorthAmerica",
    "coast": "Caribbean",
    "latitude": 12.17,
    "longitude": -68.99,
    "boostLatitude": 10,
    "island": true,
    "area_km2": 986,
-   "visualId": 188
+   "visualId": 188,
+   "oilId": 0
  },
  {
    "dataName": "map_Netherlands",
@@ -2303,7 +3030,8 @@
    "longitude": 5.8,
    "boostLatitude": 50,
    "area_km2": 41865,
-   "visualId": 189
+   "visualId": 189,
+   "oilId": 0
  },
  {
    "dataName": "map_NewZealand",
@@ -2311,12 +3039,28 @@
    "terrain": "Standard",
    "supraRegion": "Oceania",
    "coast": "SouthwestPacific",
-   "latitude": -41,
-   "longitude": 173.79,
+   "latitude": -38.62,
+   "longitude": 176.08,
    "boostLatitude": -35,
    "island": true,
-   "area_km2": 270467,
-   "visualId": 190
+   "area_km2": 113729,
+   "visualId": 190,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_TeWaipounamu",
+   "friendlyNationName": "New Zealand",
+   "terrain": "Standard",
+   "supraRegion": "Oceania",
+   "coast": "SouthwestPacific",
+   "latitude": -43.66,
+   "longitude": 171.04,
+   "boostLatitude": -40,
+   "island": true,
+   "area_km2": 156738,
+   "visualId": 343,
+   "parent": "map_NewZealand",
+   "oilId": 0
  },
  {
    "dataName": "map_Nicaragua",
@@ -2328,7 +3072,8 @@
    "longitude": -85.4,
    "boostLatitude": 15,
    "area_km2": 130373,
-   "visualId": 191
+   "visualId": 191,
+   "oilId": 0
  },
  {
    "dataName": "map_Niger",
@@ -2340,7 +3085,8 @@
    "longitude": 9.3,
    "boostLatitude": 15,
    "area_km2": 1267000,
-   "visualId": 192
+   "visualId": 192,
+   "oilId": 0
  },
  {
    "dataName": "map_Kano",
@@ -2352,7 +3098,8 @@
    "longitude": 8.8,
    "boostLatitude": 10,
    "area_km2": 397126,
-   "visualId": 193
+   "visualId": 193,
+   "oilId": 0
  },
  {
    "dataName": "map_Lagos",
@@ -2364,7 +3111,8 @@
    "longitude": 4,
    "boostLatitude": 5,
    "area_km2": 305833,
-   "visualId": 194
+   "visualId": 194,
+   "oilId": 0
  },
  {
    "dataName": "map_PortHarcourt",
@@ -2376,7 +3124,8 @@
    "longitude": 9,
    "boostLatitude": 5,
    "area_km2": 210722,
-   "visualId": 195
+   "visualId": 195,
+   "oilId": 20
  },
  {
    "dataName": "map_NorthKorea",
@@ -2388,7 +3137,8 @@
    "longitude": 126.56,
    "boostLatitude": 40,
    "area_km2": 120540,
-   "visualId": 196
+   "visualId": 196,
+   "oilId": 0
  },
  {
    "dataName": "map_NorthMacedonia",
@@ -2400,7 +3150,8 @@
    "longitude": 21.8,
    "boostLatitude": 40,
    "area_km2": 25710,
-   "visualId": 197
+   "visualId": 197,
+   "oilId": 0
  },
  {
    "dataName": "map_Norway",
@@ -2412,7 +3163,8 @@
    "longitude": 10.41,
    "boostLatitude": 60,
    "area_km2": 385207,
-   "visualId": 198
+   "visualId": 198,
+   "oilId": 21
  },
  {
    "dataName": "map_Oman",
@@ -2424,7 +3176,8 @@
    "longitude": 56.44,
    "boostLatitude": 25,
    "area_km2": 309500,
-   "visualId": 199
+   "visualId": 199,
+   "oilId": 22
  },
  {
    "dataName": "map_Baluchistan",
@@ -2436,7 +3189,8 @@
    "longitude": 66.95,
    "boostLatitude": 25,
    "area_km2": 347190,
-   "visualId": 200
+   "visualId": 200,
+   "oilId": 0
  },
  {
    "dataName": "map_Peshawar",
@@ -2448,7 +3202,8 @@
    "longitude": 71.52,
    "boostLatitude": 35,
    "area_km2": 115038,
-   "visualId": 201
+   "visualId": 201,
+   "oilId": 0
  },
  {
    "dataName": "map_Punjab",
@@ -2460,7 +3215,8 @@
    "longitude": 72.9,
    "boostLatitude": 30,
    "area_km2": 206251,
-   "visualId": 202
+   "visualId": 202,
+   "oilId": 0
  },
  {
    "dataName": "map_Sindh",
@@ -2472,7 +3228,8 @@
    "longitude": 67.01,
    "boostLatitude": 25,
    "area_km2": 140914,
-   "visualId": 203
+   "visualId": 203,
+   "oilId": 0
  },
  {
    "dataName": "map_Palestine",
@@ -2484,7 +3241,8 @@
    "longitude": 34.92,
    "boostLatitude": 30,
    "area_km2": 6220,
-   "visualId": 204
+   "visualId": 204,
+   "oilId": 0
  },
  {
    "dataName": "map_Panama",
@@ -2496,7 +3254,8 @@
    "longitude": -79.899,
    "boostLatitude": 10,
    "area_km2": 75417,
-   "visualId": 205
+   "visualId": 205,
+   "oilId": 0
  },
  {
    "dataName": "map_PapuaNewGuinea",
@@ -2509,7 +3268,8 @@
    "boostLatitude": -5,
    "island": true,
    "area_km2": 462840,
-   "visualId": 206
+   "visualId": 206,
+   "oilId": 0
  },
  {
    "dataName": "map_Paraguay",
@@ -2521,7 +3281,8 @@
    "longitude": -58.5,
    "boostLatitude": -20,
    "area_km2": 406752,
-   "visualId": 207
+   "visualId": 207,
+   "oilId": 0
  },
  {
    "dataName": "map_Arequipa",
@@ -2533,7 +3294,8 @@
    "longitude": -72,
    "boostLatitude": -10,
    "area_km2": 490596,
-   "visualId": 208
+   "visualId": 208,
+   "oilId": 0
  },
  {
    "dataName": "map_Peru",
@@ -2545,7 +3307,8 @@
    "longitude": -75.29,
    "boostLatitude": 0,
    "area_km2": 774583,
-   "visualId": 209
+   "visualId": 209,
+   "oilId": 0
  },
  {
    "dataName": "map_Luzon",
@@ -2558,7 +3321,8 @@
    "boostLatitude": 15,
    "island": true,
    "area_km2": 157640,
-   "visualId": 210
+   "visualId": 210,
+   "oilId": 0
  },
  {
    "dataName": "map_ViasyasyMindanao",
@@ -2570,32 +3334,64 @@
    "longitude": 124.51,
    "boostLatitude": 5,
    "island": true,
-   "area_km2": 142360,
-   "visualId": 211
+   "area_km2": 70857,
+   "visualId": 211,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Visayas",
+   "friendlyNationName": "Philippines",
+   "terrain": "Standard",
+   "supraRegion": "EastAsia",
+   "coast": "SouthChinaSea",
+   "latitude": 10.5,
+   "longitude": 123.75,
+   "boostLatitude": 10,
+   "island": true,
+   "area_km2": 71503,
+   "visualId": 305,
+   "parent": "map_ViasyasyMindanao",
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Gdansk",
+   "friendlyNationName": "Poland",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "BalticSea",
+   "latitude": 54.1,
+   "longitude": 18.17,
+   "boostLatitude": 55,
+   "area_km2": 55680,
+   "visualId": 363,
+   "parent": "map_Katowice",
+   "oilId": 0
  },
  {
    "dataName": "map_Katowice",
    "friendlyNationName": "Poland",
    "terrain": "Standard",
    "supraRegion": "Europe",
-   "coast": "BalticSea",
-   "latitude": 52.3,
-   "longitude": 17,
+   "coast": "None",
+   "latitude": 50.58,
+   "longitude": 17.56,
    "boostLatitude": 50,
-   "area_km2": 162924,
-   "visualId": 212
+   "area_km2": 113198,
+   "visualId": 212,
+   "oilId": 0
  },
  {
    "dataName": "map_Poland",
    "friendlyNationName": "Poland",
    "terrain": "Standard",
    "supraRegion": "Europe",
-   "coast": "BalticSea",
-   "latitude": 52,
-   "longitude": 21.5,
+   "coast": "None",
+   "latitude": 52.27,
+   "longitude": 21.8,
    "boostLatitude": 50,
-   "area_km2": 149781,
-   "visualId": 213
+   "area_km2": 143827,
+   "visualId": 213,
+   "oilId": 0
  },
  {
    "dataName": "map_Polynesia",
@@ -2608,7 +3404,23 @@
    "boostLatitude": -10,
    "island": true,
    "area_km2": 3840,
-   "visualId": 214
+   "visualId": 214,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Azores",
+   "friendlyNationName": "Portugal",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "NortheastAtlantic",
+   "latitude": 35.7,
+   "longitude": -22.4,
+   "boostLatitude": 20,
+   "island": true,
+   "area_km2": 3152,
+   "visualId": 355,
+   "parent": "map_Portugal",
+   "oilId": 0
  },
  {
    "dataName": "map_Portugal",
@@ -2621,20 +3433,22 @@
    "boostLatitude": 40,
    "verticalRegion": true,
    "area_km2": 92226,
-   "visualId": 215
+   "visualId": 215,
+   "oilId": 0
  },
  {
    "dataName": "map_Ratnakara",
-   "friendlyNationName": "Ratnakaran States",
+   "friendlyNationName": "Comoros",
    "terrain": "Standard",
    "supraRegion": "Africa",
    "coast": "Indian",
-   "latitude": -13,
-   "longitude": 50,
-   "boostLatitude": 0,
+   "latitude": -11.8,
+   "longitude": 43.97,
+   "boostLatitude": -10,
    "island": true,
-   "area_km2": 5024,
-   "visualId": 216
+   "area_km2": 1659,
+   "visualId": 216,
+   "oilId": 0
  },
  {
    "dataName": "map_Romania",
@@ -2642,11 +3456,26 @@
    "terrain": "Standard",
    "supraRegion": "Europe",
    "coast": "BlackSea",
-   "latitude": 45.6,
-   "longitude": 24.91,
+   "latitude": 45.05,
+   "longitude": 27,
    "boostLatitude": 45,
-   "area_km2": 238397,
-   "visualId": 217
+   "area_km2": 138124,
+   "visualId": 217,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Transylvania",
+   "friendlyNationName": "Romania",
+   "terrain": "Rugged",
+   "supraRegion": "Europe",
+   "coast": "None",
+   "latitude": 46.6,
+   "longitude": 23.58,
+   "boostLatitude": 45,
+   "area_km2": 100269,
+   "visualId": 348,
+   "parent": "map_Romania",
+   "oilId": 0
  },
  {
    "dataName": "map_Arkhangelsk",
@@ -2658,7 +3487,8 @@
    "longitude": 50,
    "boostLatitude": 65,
    "area_km2": 1006687,
-   "visualId": 218
+   "visualId": 218,
+   "oilId": 23
  },
  {
    "dataName": "map_Crimea",
@@ -2670,7 +3500,8 @@
    "longitude": 34.4,
    "boostLatitude": 45,
    "area_km2": 27000,
-   "visualId": 219
+   "visualId": 219,
+   "oilId": 0
  },
  {
    "dataName": "map_Irkutsk",
@@ -2682,7 +3513,22 @@
    "longitude": 105,
    "boostLatitude": 50,
    "area_km2": 1558072,
-   "visualId": 220
+   "visualId": 220,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Kaliningrad",
+   "friendlyNationName": "Russia",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "BalticSea",
+   "latitude": 54.7,
+   "longitude": 21.6,
+   "boostLatitude": 55,
+   "area_km2": 15125,
+   "visualId": 344,
+   "parent": "map_Novgorod",
+   "oilId": 0
  },
  {
    "dataName": "map_Kamchatka",
@@ -2694,7 +3540,8 @@
    "longitude": 163,
    "boostLatitude": 50,
    "area_km2": 1648300,
-   "visualId": 221
+   "visualId": 221,
+   "oilId": 0
  },
  {
    "dataName": "map_Karelia",
@@ -2705,8 +3552,23 @@
    "latitude": 65.13,
    "longitude": 33.48,
    "boostLatitude": 60,
-   "area_km2": 342203,
-   "visualId": 222
+   "area_km2": 325442,
+   "visualId": 222,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Kirov",
+   "friendlyNationName": "Russia",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "none",
+   "latitude": 56.4,
+   "longitude": 43.9,
+   "boostLatitude": 50,
+   "area_km2": 446100,
+   "visualId": 322,
+   "parent": "map_Volga",
+   "oilId": 0
  },
  {
    "dataName": "map_Moskva",
@@ -2717,8 +3579,9 @@
    "latitude": 55.62,
    "longitude": 37.6,
    "boostLatitude": 55,
-   "area_km2": 650000,
-   "visualId": 223
+   "area_km2": 317600,
+   "visualId": 223,
+   "oilId": 0
  },
  {
    "dataName": "map_NorthCaucasus",
@@ -2730,7 +3593,8 @@
    "longitude": 45,
    "boostLatitude": 45,
    "area_km2": 170400,
-   "visualId": 224
+   "visualId": 224,
+   "oilId": 0
  },
  {
    "dataName": "map_NorthKrasnoyarsk",
@@ -2742,7 +3606,8 @@
    "longitude": 96,
    "boostLatitude": 60,
    "area_km2": 1872289,
-   "visualId": 225
+   "visualId": 225,
+   "oilId": 0
  },
  {
    "dataName": "map_NorthUrals",
@@ -2754,7 +3619,8 @@
    "longitude": 73,
    "boostLatitude": 60,
    "area_km2": 1304051,
-   "visualId": 226
+   "visualId": 226,
+   "oilId": 24
  },
  {
    "dataName": "map_Novgorod",
@@ -2765,8 +3631,9 @@
    "latitude": 60.36,
    "longitude": 38.5,
    "boostLatitude": 55,
-   "area_km2": 337433,
-   "visualId": 227
+   "area_km2": 339730,
+   "visualId": 227,
+   "oilId": 0
  },
  {
    "dataName": "map_Novosibirsk",
@@ -2778,7 +3645,8 @@
    "longitude": 83,
    "boostLatitude": 55,
    "area_km2": 1714592,
-   "visualId": 228
+   "visualId": 228,
+   "oilId": 25
  },
  {
    "dataName": "map_Rostovskaya",
@@ -2790,7 +3658,8 @@
    "longitude": 41.25,
    "boostLatitude": 45,
    "area_km2": 420900,
-   "visualId": 229
+   "visualId": 229,
+   "oilId": 0
  },
  {
    "dataName": "map_RussianFarEast",
@@ -2802,7 +3671,8 @@
    "longitude": 135.5,
    "boostLatitude": 45,
    "area_km2": 1350500,
-   "visualId": 230
+   "visualId": 230,
+   "oilId": 0
  },
  {
    "dataName": "map_Sakha",
@@ -2814,7 +3684,8 @@
    "longitude": 127,
    "boostLatitude": 55,
    "area_km2": 3083523,
-   "visualId": 231
+   "visualId": 231,
+   "oilId": 0
  },
  {
    "dataName": "map_SakhalinKurils",
@@ -2829,7 +3700,8 @@
    "verticalRegion": true,
    "area_km2": 87101,
    "visualId": 304,
-   "parent": "map_RussianFarEast"
+   "parent": "map_RussianFarEast",
+   "oilId": 26
  },
  {
    "dataName": "map_Urals",
@@ -2841,7 +3713,8 @@
    "longitude": 60,
    "boostLatitude": 55,
    "area_km2": 514449,
-   "visualId": 232
+   "visualId": 232,
+   "oilId": 0
  },
  {
    "dataName": "map_Volga",
@@ -2849,11 +3722,26 @@
    "terrain": "Standard",
    "supraRegion": "Europe",
    "coast": "none",
-   "latitude": 55.6,
-   "longitude": 47.18,
+   "latitude": 55.4,
+   "longitude": 49.34,
    "boostLatitude": 50,
-   "area_km2": 1038000,
-   "visualId": 233
+   "area_km2": 591900,
+   "visualId": 233,
+   "oilId": 27
+ },
+ {
+   "dataName": "map_Voronezh",
+   "friendlyNationName": "Russia",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "none",
+   "latitude": 52.6,
+   "longitude": 37.6,
+   "boostLatitude": 50,
+   "area_km2": 332700,
+   "visualId": 321,
+   "parent": "map_Moskva",
+   "oilId": 0
  },
  {
    "dataName": "map_RwandaBurundi",
@@ -2865,7 +3753,23 @@
    "longitude": 29.75,
    "boostLatitude": -5,
    "area_km2": 54172,
-   "visualId": 234
+   "visualId": 234,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_SaoTomePrincipe",
+   "friendlyNationName": "Sao Tome and Principe",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "SouthAtlantic",
+   "latitude": 0.25,
+   "longitude": 6.57,
+   "boostLatitude": 0,
+   "island": true,
+   "area_km2": 964,
+   "visualId": 311,
+   "parent": "map_LowerGuinea",
+   "oilId": 0
  },
  {
    "dataName": "map_Hijaz",
@@ -2877,7 +3781,8 @@
    "longitude": 39.62,
    "boostLatitude": 20,
    "area_km2": 549475,
-   "visualId": 235
+   "visualId": 235,
+   "oilId": 28
  },
  {
    "dataName": "map_Najd",
@@ -2889,7 +3794,8 @@
    "longitude": 47,
    "boostLatitude": 20,
    "area_km2": 1226273,
-   "visualId": 236
+   "visualId": 236,
+   "oilId": 29
  },
  {
    "dataName": "map_Qassimah",
@@ -2901,7 +3807,8 @@
    "longitude": 40,
    "boostLatitude": 25,
    "area_km2": 373942,
-   "visualId": 237
+   "visualId": 237,
+   "oilId": 30
  },
  {
    "dataName": "map_Senegambia",
@@ -2912,20 +3819,37 @@
    "latitude": 14.3,
    "longitude": -15.28,
    "boostLatitude": 15,
-   "area_km2": 208022,
-   "visualId": 238
+   "area_km2": 196722,
+   "visualId": 238,
+   "oilId": 31
  },
  {
    "dataName": "map_Belgrade",
-   "friendlyNationName": "Serbia-Kosovo",
+   "friendlyNationName": "Serbia",
    "terrain": "Rugged",
    "supraRegion": "Europe",
    "coast": "none",
-   "latitude": 43.75,
-   "longitude": 21.25,
+   "latitude": 44.23,
+   "longitude": 20.78,
    "boostLatitude": 45,
-   "area_km2": 88361,
-   "visualId": 239
+   "area_km2": 77612,
+   "visualId": 239,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Seychelles",
+   "friendlyNationName": "Seychelles",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "Indian",
+   "latitude": -4.48,
+   "longitude": 55.5,
+   "boostLatitude": -5,
+   "island": true,
+   "area_km2": 457,
+   "visualId": 352,
+   "parent": "map_Ratnakara",
+   "oilId": 0
  },
  {
    "dataName": "map_SierraLeone",
@@ -2937,7 +3861,8 @@
    "longitude": -11.8,
    "boostLatitude": 10,
    "area_km2": 71740,
-   "visualId": 240
+   "visualId": 240,
+   "oilId": 0
  },
  {
    "dataName": "map_Singapore",
@@ -2950,7 +3875,8 @@
    "boostLatitude": 0,
    "island": true,
    "area_km2": 728,
-   "visualId": 241
+   "visualId": 241,
+   "oilId": 0
  },
  {
    "dataName": "map_Slovakia",
@@ -2962,7 +3888,22 @@
    "longitude": 19.72,
    "boostLatitude": 50,
    "area_km2": 49037,
-   "visualId": 242
+   "visualId": 242,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Slovenia",
+   "friendlyNationName": "Slovenia",
+   "terrain": "Rugged",
+   "supraRegion": "Europe",
+   "coast": "Mediterranean",
+   "latitude": 46.21,
+   "longitude": 14.89,
+   "boostLatitude": 45,
+   "area_km2": 20271,
+   "visualId": 347,
+   "parent": "map_CroatiaSlovenia",
+   "oilId": 0
  },
  {
    "dataName": "map_Somalia",
@@ -2974,7 +3915,8 @@
    "longitude": 47,
    "boostLatitude": 0,
    "area_km2": 461537,
-   "visualId": 243
+   "visualId": 243,
+   "oilId": 0
  },
  {
    "dataName": "map_Somaliland",
@@ -2986,7 +3928,8 @@
    "longitude": 45,
    "boostLatitude": 10,
    "area_km2": 176120,
-   "visualId": 244
+   "visualId": 244,
+   "oilId": 0
  },
  {
    "dataName": "map_CapeTown",
@@ -2998,7 +3941,8 @@
    "longitude": 21.29,
    "boostLatitude": -25,
    "area_km2": 371316,
-   "visualId": 245
+   "visualId": 245,
+   "oilId": 0
  },
  {
    "dataName": "map_Johannesburg",
@@ -3009,8 +3953,9 @@
    "latitude": -26.05,
    "longitude": 28.6,
    "boostLatitude": -25,
-   "area_km2": 597214,
-   "visualId": 246
+   "area_km2": 549495,
+   "visualId": 246,
+   "oilId": 0
  },
  {
    "dataName": "map_SouthKorea",
@@ -3022,7 +3967,8 @@
    "longitude": 127.85,
    "boostLatitude": 35,
    "area_km2": 100410,
-   "visualId": 247
+   "visualId": 247,
+   "oilId": 0
  },
  {
    "dataName": "map_SouthSudan",
@@ -3034,7 +3980,8 @@
    "longitude": 30.11,
    "boostLatitude": 5,
    "area_km2": 644329,
-   "visualId": 248
+   "visualId": 248,
+   "oilId": 0
  },
  {
    "dataName": "map_Barcelona",
@@ -3043,10 +3990,25 @@
    "supraRegion": "Europe",
    "coast": "Mediterranean",
    "latitude": 41.38,
-   "longitude": 2.18,
+   "longitude": 0.92,
    "boostLatitude": 40,
-   "area_km2": 125705,
-   "visualId": 249
+   "area_km2": 108080,
+   "visualId": 249,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_BasqueCountry",
+   "friendlyNationName": "Spain",
+   "terrain": "Rugged",
+   "supraRegion": "Europe",
+   "coast": "NortheastAtlantic",
+   "latitude": 43.15,
+   "longitude": -2.46,
+   "boostLatitude": 45,
+   "area_km2": 17625,
+   "visualId": 362,
+   "parent": "map_Barcelona",
+   "oilId": 0
  },
  {
    "dataName": "map_CanaryIslands",
@@ -3059,19 +4021,35 @@
    "boostLatitude": 30,
    "island": true,
    "area_km2": 7492,
-   "visualId": 250
+   "visualId": 250,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_LeonGalicia",
+   "friendlyNationName": "Spain",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "NortheastAtlantic",
+   "latitude": 42.5,
+   "longitude": -5,
+   "boostLatitude": 40,
+   "area_km2": 144767,
+   "visualId": 307,
+   "parent": "map_Spain",
+   "oilId": 0
  },
  {
    "dataName": "map_Spain",
    "friendlyNationName": "Spain",
    "terrain": "Standard",
    "supraRegion": "Europe",
-   "coast": "MedNorthAtlantic",
-   "latitude": 40.32,
-   "longitude": -3.71,
+   "coast": "Mediterranean",
+   "latitude": 38.5,
+   "longitude": -3.6,
    "boostLatitude": 35,
-   "area_km2": 372504,
-   "visualId": 251
+   "area_km2": 227737,
+   "visualId": 251,
+   "oilId": 0
  },
  {
    "dataName": "map_SriLanka",
@@ -3084,7 +4062,8 @@
    "boostLatitude": 5,
    "island": true,
    "area_km2": 65610,
-   "visualId": 252
+   "visualId": 252,
+   "oilId": 0
  },
  {
    "dataName": "map_Darfur",
@@ -3095,20 +4074,36 @@
    "latitude": 15,
    "longitude": 25,
    "boostLatitude": 10,
-   "area_km2": 493180,
-   "visualId": 253
+   "area_km2": 500566,
+   "visualId": 253,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_NorthernSudan",
+   "friendlyNationName": "Sudan",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "Indian",
+   "latitude": 20.85,
+   "longitude": 30.66,
+   "boostLatitude": 20,
+   "area_km2": 742724,
+   "visualId": 349,
+   "parent": "map_Sudan",
+   "oilId": 0
  },
  {
    "dataName": "map_Sudan",
    "friendlyNationName": "Sudan",
    "terrain": "Standard",
    "supraRegion": "Africa",
-   "coast": "Indian",
-   "latitude": 17,
+   "coast": "none",
+   "latitude": 13.85,
    "longitude": 30.4,
    "boostLatitude": 10,
-   "area_km2": 1392888,
-   "visualId": 254
+   "area_km2": 642778,
+   "visualId": 254,
+   "oilId": 0
  },
  {
    "dataName": "map_Suriname",
@@ -3120,7 +4115,8 @@
    "longitude": -56.03,
    "boostLatitude": 5,
    "area_km2": 163820,
-   "visualId": 255
+   "visualId": 255,
+   "oilId": 0
  },
  {
    "dataName": "map_Sweden",
@@ -3132,7 +4128,8 @@
    "longitude": 18.4,
    "boostLatitude": 55,
    "area_km2": 447425,
-   "visualId": 256
+   "visualId": 256,
+   "oilId": 0
  },
  {
    "dataName": "map_Switzerland",
@@ -3144,7 +4141,8 @@
    "longitude": 8.5,
    "boostLatitude": 45,
    "area_km2": 41445,
-   "visualId": 257
+   "visualId": 257,
+   "oilId": 0
  },
  {
    "dataName": "map_Syria",
@@ -3156,7 +4154,8 @@
    "longitude": 38.46,
    "boostLatitude": 35,
    "area_km2": 185180,
-   "visualId": 258
+   "visualId": 258,
+   "oilId": 0
  },
  {
    "dataName": "map_Taiwan",
@@ -3170,7 +4169,8 @@
    "island": true,
    "verticalRegion": true,
    "area_km2": 36193,
-   "visualId": 259
+   "visualId": 259,
+   "oilId": 0
  },
  {
    "dataName": "map_Tajikistan",
@@ -3182,7 +4182,8 @@
    "longitude": 70.98,
    "boostLatitude": 40,
    "area_km2": 142326,
-   "visualId": 260
+   "visualId": 260,
+   "oilId": 0
  },
  {
    "dataName": "map_Tanzania",
@@ -3194,7 +4195,8 @@
    "longitude": 38,
    "boostLatitude": -5,
    "area_km2": 397434,
-   "visualId": 261
+   "visualId": 261,
+   "oilId": 32
  },
  {
    "dataName": "map_WestTanzania",
@@ -3206,7 +4208,23 @@
    "longitude": 32,
    "boostLatitude": 0,
    "area_km2": 480474,
-   "visualId": 262
+   "visualId": 262,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Zanzibar",
+   "friendlyNationName": "Tanzania",
+   "terrain": "Standard",
+   "supraRegion": "Africa",
+   "coast": "Indian",
+   "latitude": -5.6,
+   "longitude": 39.56,
+   "boostLatitude": -5,
+   "island": true,
+   "area_km2": 2462,
+   "visualId": 346,
+   "parent": "map_Tanzania",
+   "oilId": 0
  },
  {
    "dataName": "map_NorthThailand",
@@ -3218,7 +4236,8 @@
    "longitude": 100.57,
    "boostLatitude": 15,
    "area_km2": 394178,
-   "visualId": 263
+   "visualId": 263,
+   "oilId": 0
  },
  {
    "dataName": "map_SouthThailand",
@@ -3231,19 +4250,23 @@
    "boostLatitude": 5,
    "verticalRegion": true,
    "area_km2": 118942,
-   "visualId": 264
+   "visualId": 264,
+   "oilId": 0
  },
  {
-   "dataName": "map_TogoBenin",
-   "friendlyNationName": "Togo-Benin",
+   "dataName": "map_Togo",
+   "friendlyNationName": "Togo",
    "terrain": "Standard",
    "supraRegion": "Africa",
    "coast": "SouthAtlantic",
-   "latitude": 9,
-   "longitude": 1.8,
+   "latitude": 8.3,
+   "longitude": 1.1,
    "boostLatitude": 5,
-   "area_km2": 171548,
-   "visualId": 265
+   "verticalRegion": true,
+   "area_km2": 56785,
+   "visualId": 315,
+   "parent": "map_TogoBenin",
+   "oilId": 0
  },
  {
    "dataName": "map_Tunisia",
@@ -3256,7 +4279,8 @@
    "boostLatitude": 35,
    "verticalRegion": true,
    "area_km2": 163610,
-   "visualId": 266
+   "visualId": 266,
+   "oilId": 0
  },
  {
    "dataName": "map_Anatolia",
@@ -3268,7 +4292,8 @@
    "longitude": 35.57,
    "boostLatitude": 40,
    "area_km2": 331278,
-   "visualId": 267
+   "visualId": 267,
+   "oilId": 0
  },
  {
    "dataName": "map_Diyarbakir",
@@ -3280,7 +4305,8 @@
    "longitude": 42.38,
    "boostLatitude": 40,
    "area_km2": 263104,
-   "visualId": 268
+   "visualId": 268,
+   "oilId": 0
  },
  {
    "dataName": "map_Istanbul",
@@ -3292,7 +4318,8 @@
    "longitude": 27.79,
    "boostLatitude": 40,
    "area_km2": 186483,
-   "visualId": 269
+   "visualId": 269,
+   "oilId": 0
  },
  {
    "dataName": "map_Turkmenistan",
@@ -3304,7 +4331,8 @@
    "longitude": 59.25,
    "boostLatitude": 35,
    "area_km2": 491210,
-   "visualId": 270
+   "visualId": 270,
+   "oilId": 0
  },
  {
    "dataName": "map_UnitedArabEmirates",
@@ -3316,7 +4344,8 @@
    "longitude": 54.6,
    "boostLatitude": 25,
    "area_km2": 83600,
-   "visualId": 271
+   "visualId": 271,
+   "oilId": 33
  },
  {
    "dataName": "map_Uganda",
@@ -3328,7 +4357,8 @@
    "longitude": 32.5,
    "boostLatitude": 0,
    "area_km2": 241038,
-   "visualId": 272
+   "visualId": 272,
+   "oilId": 0
  },
  {
    "dataName": "map_BritishWestIndies",
@@ -3341,7 +4371,8 @@
    "boostLatitude": 20,
    "island": true,
    "area_km2": 14204,
-   "visualId": 273
+   "visualId": 273,
+   "oilId": 0
  },
  {
    "dataName": "map_England",
@@ -3349,12 +4380,28 @@
    "terrain": "Standard",
    "supraRegion": "Europe",
    "coast": "NortheastAtlantic",
-   "latitude": 52.301,
+   "latitude": 51.4,
    "longitude": 0,
    "boostLatitude": 50,
    "island": true,
-   "area_km2": 153712,
-   "visualId": 274
+   "area_km2": 63784,
+   "visualId": 274,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_EnglishMidlands",
+   "friendlyNationName": "UK",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "NortheastAtlantic",
+   "latitude": 52.6,
+   "longitude": -1.8,
+   "boostLatitude": 50,
+   "island": true,
+   "area_km2": 67289,
+   "visualId": 318,
+   "parent": "map_England",
+   "oilId": 0
  },
  {
    "dataName": "map_NorthernIreland",
@@ -3367,7 +4414,8 @@
    "boostLatitude": 55,
    "island": true,
    "area_km2": 14330,
-   "visualId": 275
+   "visualId": 275,
+   "oilId": 0
  },
  {
    "dataName": "map_Scotland",
@@ -3380,31 +4428,77 @@
    "boostLatitude": 55,
    "island": true,
    "area_km2": 80231,
-   "visualId": 276
+   "visualId": 276,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Wales",
+   "friendlyNationName": "UK",
+   "terrain": "Rugged",
+   "supraRegion": "Europe",
+   "coast": "NortheastAtlantic",
+   "latitude": 51.8,
+   "longitude": -3.77,
+   "boostLatitude": 50,
+   "island": true,
+   "area_km2": 21218,
+   "visualId": 316,
+   "parent": "map_England",
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Donetsk",
+   "friendlyNationName": "Ukraine",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "BlackSea",
+   "latitude": 47.8,
+   "longitude": 37.6,
+   "boostLatitude": 50,
+   "area_km2": 140694,
+   "visualId": 319,
+   "parent": "map_Kharkiv",
+   "oilId": 0
  },
  {
    "dataName": "map_Kharkiv",
    "friendlyNationName": "Ukraine",
    "terrain": "Standard",
    "supraRegion": "Europe",
-   "coast": "BlackSea",
-   "latitude": 48.85,
-   "longitude": 37.02,
+   "coast": "none",
+   "latitude": 50.3,
+   "longitude": 33.6,
    "boostLatitude": 50,
-   "area_km2": 227884,
-   "visualId": 277
+   "area_km2": 115811,
+   "visualId": 277,
+   "oilId": 0
  },
  {
    "dataName": "map_Kiev",
    "friendlyNationName": "Ukraine",
    "terrain": "Standard",
    "supraRegion": "Europe",
-   "coast": "BlackSea",
-   "latitude": 49.87,
-   "longitude": 27.03,
+   "coast": "none",
+   "latitude": 50.7,
+   "longitude": 27.8,
    "boostLatitude": 50,
-   "area_km2": 375744,
-   "visualId": 278
+   "area_km2": 189983,
+   "visualId": 278,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Odesa",
+   "friendlyNationName": "Ukraine",
+   "terrain": "Standard",
+   "supraRegion": "Europe",
+   "coast": "BlackSea",
+   "latitude": 47.1,
+   "longitude": 31.35,
+   "boostLatitude": 45,
+   "area_km2": 129942,
+   "visualId": 320,
+   "parent": "map_Kiev",
+   "oilId": 0
  },
  {
    "dataName": "map_Uruguay",
@@ -3416,7 +4510,8 @@
    "longitude": -56.15,
    "boostLatitude": -30,
    "area_km2": 176215,
-   "visualId": 279
+   "visualId": 279,
+   "oilId": 0
  },
  {
    "dataName": "map_Alaska",
@@ -3428,7 +4523,8 @@
    "longitude": -151.15,
    "boostLatitude": 60,
    "area_km2": 1723337,
-   "visualId": 280
+   "visualId": 280,
+   "oilId": 34
  },
  {
    "dataName": "map_AmericanCaribbean",
@@ -3441,7 +4537,8 @@
    "boostLatitude": 20,
    "island": true,
    "area_km2": 15629,
-   "visualId": 281
+   "visualId": 281,
+   "oilId": 0
  },
  {
    "dataName": "map_AmericanPacific",
@@ -3454,7 +4551,8 @@
    "boostLatitude": -15,
    "island": true,
    "area_km2": 36413,
-   "visualId": 282
+   "visualId": 282,
+   "oilId": 0
  },
  {
    "dataName": "map_Boise",
@@ -3466,7 +4564,8 @@
    "longitude": -110.5,
    "boostLatitude": 45,
    "area_km2": 850609,
-   "visualId": 283
+   "visualId": 283,
+   "oilId": 0
  },
  {
    "dataName": "map_California",
@@ -3478,7 +4577,8 @@
    "longitude": -119.04,
    "boostLatitude": 35,
    "area_km2": 710347,
-   "visualId": 284
+   "visualId": 284,
+   "oilId": 0
  },
  {
    "dataName": "map_Cascadia",
@@ -3490,7 +4590,22 @@
    "longitude": -120,
    "boostLatitude": 45,
    "area_km2": 420727,
-   "visualId": 285
+   "visualId": 285,
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Cumberland",
+   "friendlyNationName": "USA",
+   "terrain": "Rugged",
+   "supraRegion": "NorthAmerica",
+   "coast": "none",
+   "latitude": 36.7,
+   "longitude": -86,
+   "boostLatitude": 35,
+   "area_km2": 213809,
+   "visualId": 306,
+   "parent": "map_Shenandoah",
+   "oilId": 0
  },
  {
    "dataName": "map_Dakota",
@@ -3502,7 +4617,8 @@
    "longitude": -97.5,
    "boostLatitude": 45,
    "area_km2": 608000,
-   "visualId": 286
+   "visualId": 286,
+   "oilId": 35
  },
  {
    "dataName": "map_Dixie",
@@ -3514,7 +4630,8 @@
    "longitude": -82.17,
    "boostLatitude": 25,
    "area_km2": 407155,
-   "visualId": 287
+   "visualId": 287,
+   "oilId": 0
  },
  {
    "dataName": "map_HighPlains",
@@ -3526,7 +4643,8 @@
    "longitude": -96,
    "boostLatitude": 40,
    "area_km2": 739716,
-   "visualId": 288
+   "visualId": 288,
+   "oilId": 0
  },
  {
    "dataName": "map_MississippiDelta",
@@ -3538,7 +4656,8 @@
    "longitude": -91,
    "boostLatitude": 30,
    "area_km2": 534596,
-   "visualId": 289
+   "visualId": 289,
+   "oilId": 0
  },
  {
    "dataName": "map_NewEngland",
@@ -3550,7 +4669,8 @@
    "longitude": -70.85,
    "boostLatitude": 45,
    "area_km2": 186447,
-   "visualId": 290
+   "visualId": 290,
+   "oilId": 0
  },
  {
    "dataName": "map_NewYork",
@@ -3562,7 +4682,8 @@
    "longitude": -75.92,
    "boostLatitude": 40,
    "area_km2": 283168,
-   "visualId": 291
+   "visualId": 291,
+   "oilId": 0
  },
  {
    "dataName": "map_RockyMountains",
@@ -3574,7 +4695,8 @@
    "longitude": -108,
    "boostLatitude": 35,
    "area_km2": 1099634,
-   "visualId": 292
+   "visualId": 292,
+   "oilId": 0
  },
  {
    "dataName": "map_RustBelt",
@@ -3586,7 +4708,8 @@
    "longitude": -86.19,
    "boostLatitude": 40,
    "area_km2": 780541,
-   "visualId": 293
+   "visualId": 293,
+   "oilId": 0
  },
  {
    "dataName": "map_Shenandoah",
@@ -3597,8 +4720,9 @@
    "latitude": 38.28,
    "longitude": -79.25,
    "boostLatitude": 35,
-   "area_km2": 516106,
-   "visualId": 294
+   "area_km2": 351688,
+   "visualId": 294,
+   "oilId": 0
  },
  {
    "dataName": "map_Texas",
@@ -3610,19 +4734,35 @@
    "longitude": -96.81,
    "boostLatitude": 25,
    "area_km2": 876699,
-   "visualId": 295
+   "visualId": 295,
+   "oilId": 36
  },
  {
-   "dataName": "map_Uzbekistan",
+   "dataName": "map_Karakalpakstan",
    "friendlyNationName": "Uzbekistan",
    "terrain": "Standard",
    "supraRegion": "CentralAsia",
    "coast": "none",
-   "latitude": 41.75,
-   "longitude": 64,
+   "latitude": 43.19,
+   "longitude": 60.36,
    "boostLatitude": 40,
-   "area_km2": 448978,
-   "visualId": 296
+   "area_km2": 167822,
+   "visualId": 353,
+   "parent": "map_Uzbekistan",
+   "oilId": 0
+ },
+ {
+   "dataName": "map_Uzbekistan",
+   "friendlyNationName": "Uzbekistan",
+   "terrain": "Rugged",
+   "supraRegion": "CentralAsia",
+   "coast": "none",
+   "latitude": 40.92,
+   "longitude": 69,
+   "boostLatitude": 40,
+   "area_km2": 281156,
+   "visualId": 296,
+   "oilId": 0
  },
  {
    "dataName": "map_Venezuela",
@@ -3634,7 +4774,8 @@
    "longitude": -66.2,
    "boostLatitude": 5,
    "area_km2": 916445,
-   "visualId": 297
+   "visualId": 297,
+   "oilId": 37
  },
  {
    "dataName": "map_Hanoi",
@@ -3647,7 +4788,8 @@
    "boostLatitude": 20,
    "verticalRegion": true,
    "area_km2": 193401,
-   "visualId": 298
+   "visualId": 298,
+   "oilId": 0
  },
  {
    "dataName": "map_HoChiMinhCity",
@@ -3660,7 +4802,8 @@
    "boostLatitude": 10,
    "verticalRegion": true,
    "area_km2": 137809,
-   "visualId": 299
+   "visualId": 299,
+   "oilId": 0
  },
  {
    "dataName": "map_Aden",
@@ -3672,7 +4815,8 @@
    "longitude": 48,
    "boostLatitude": 5,
    "area_km2": 360000,
-   "visualId": 300
+   "visualId": 300,
+   "oilId": 0
  },
  {
    "dataName": "map_Yemen",
@@ -3684,7 +4828,8 @@
    "longitude": 44,
    "boostLatitude": 15,
    "area_km2": 190000,
-   "visualId": 301
+   "visualId": 301,
+   "oilId": 0
  },
  {
    "dataName": "map_Zambia",
@@ -3696,7 +4841,8 @@
    "longitude": 27.95,
    "boostLatitude": -10,
    "area_km2": 752617,
-   "visualId": 302
+   "visualId": 302,
+   "oilId": 0
  },
  {
    "dataName": "map_Zimbabwe",
@@ -3708,6 +4854,7 @@
    "longitude": 30,
    "boostLatitude": -20,
    "area_km2": 390757,
-   "visualId": 303
+   "visualId": 303,
+   "oilId": 0
  }
 ]

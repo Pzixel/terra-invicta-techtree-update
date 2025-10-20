@@ -1,0 +1,717 @@
+UI.Objectives.Header=Завдань: {0}
+UI.Objectives.ListContainerHeader=Список завдань
+UI.Objectives.DetailContainerHeader=Деталі завдання
+UI.Objectives.Tutorial=НАВЧАЛЬНІ ЗАВДАННЯ
+UI.Objectives.General=ЗАГАЛЬНІ ЗАВДАННЯ
+UI.Objectives.Campaign=ЗАВДАННЯ КАМПАНІЇ
+UI.Objectives.Victory=ЗАВДАННЯ ПЕРЕМОГИ
+UI.Objectives.Completed=ЗАВЕРШЕНІ ЗАВДАННЯ
+UI.Objectives.Detail.Tutorial=Навчальні завдання знайомлять вас із ключовими ігровими механіками. Виконання цих завдань не має прямого впливу на ваш прогрес у кампанії. Ви можете завершувати їх у будь-якому бажаному порядку. Для виконання деяких знадобиться певний час.
+UI.Objectives.Detail.General=Загальні завдання наділяють корисними орієнтирами протягом кампанії.
+UI.Objectives.Detail.Campaign=Завдання кампанії — це поточні цілі для досягнення вашою фракцією. Їхнє виконання необхідне для перемоги в грі.
+UI.Objectives.Detail.Victory=Виконання завдань перемоги надає перемогу в грі.
+UI.Objectives.Detail.Completed=А це завдання кампанії, які ми вже завершили.
+UI.Objectives.Summary=Ми завершили завдання «{0}».
+UI.Objectives.VictoryConditions1=Для запуску місії радника для перемоги в грі нам спершу потрібно досягнути наступної цілі, щоби забезпечити перемогу:
+UI.Objectives.VictoryConditionsMult=Для запуску місії радника для перемоги в грі нам спершу потрібно досягнути наступних цілей, щоби забезпечити перемогу:
+
+UI.Objectives.TechProjectPrereqs=Ми маємо завершити ці необхідні технології та проєкти, щоби мати змогу завершити дослідження, потрібне для виконання цього завдання:
+UI.Objectives.TechProjectPrereq_or=<sp>або ({0})
+
+UI.Objectives.HelpPanel=Панель допомоги
+UI.Objectives.TipConfirm=Наступна порада
+UI.Objectives.TipBack=Попередня порада
+UI.Objectives.TutorialSkip=Сховати
+UI.Objectives.DontShowAgain=Більше не показувати
+UI.Objectives.TutorialReset=Скинути навчання
+UI.Objectives.TutorialResetAll=Скинути всі поради навчання
+
+UI.Objectives.CouncilGridCanvas.CouncilorCard.Name=Сітка ради
+UI.Objectives.CouncilGridCanvas.CouncilorCard.NameShort=Рада
+UI.Objectives.CouncilGridCanvas.CouncilorCard.Desc=Усі ваші радники, а також їхні характеристики, прибутки, розташування й будь-яка місія, у якій вони беруть участь, показуються на цій картці. На двох нижніх правих картках показуватимуться до двох ворожих радників, які шпигують для вас
+UI.Objectives.CouncilGridCanvas.Portrait.Name=Розширте деталі про радника
+UI.Objectives.CouncilGridCanvas.Portrait.Desc=Клацніть на портрет радника для відкриття детальної панелі, яка також дозволяє вам витрачати досвід для поліпшення ваших радників і придбавати організації радників та керувати ними.
+UI.Objectives.CouncilGridCanvas.GotoBtn.Name=Перейдіть до радника
+UI.Objectives.CouncilGridCanvas.GotoBtn.Desc=Клацніть сюди для центрування вашої камери на розташуванні радника в грі.
+UI.Objectives.CouncilGridCanvas.RecruitBtn.Name=Найміть нових радників
+UI.Objectives.CouncilGridCanvas.RecruitBtn.Desc=Радники необхідні для досягнення прогресу в Terra Invicta. Найміть нових радників тут, щоби впевнитися, що ваша рада заповнена.
+
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.Name=Доступні місії радника
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.NameShort=Інф.
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.Desc=Ця панель показує вам список місій, які під час фази місій може виконувати цей радник. Намагайтеся підтримувати збалансовану раду, щоби впевнитися, що ви можете виконувати необхідні місії для досягнення цілей.
+UI.Objectives.SingleCouncilorDetailCanvas.Attributes.Name=Характеристики радника
+UI.Objectives.SingleCouncilorDetailCanvas.Attributes.Desc=Ця панель відображає ознаки радника, наведіть курсор на ознаку, щоби побачити більше деталей. Бали ознак можуть варіюватися від 0 до 25.
+UI.Objectives.SingleCouncilorDetailCanvas.Incomes.Name=Прибутки радника
+UI.Objectives.SingleCouncilorDetailCanvas.Incomes.Desc=Ця панель відображає ресурси, які генерує цей радник. Негативні ресурси вказують про фінансування обслуговування.
+UI.Objectives.SingleCouncilorDetailCanvas.Traits.Name=Риси радника
+UI.Objectives.SingleCouncilorDetailCanvas.Traits.Desc=Риси — це особливі характеристики й модифікатори, які впливають на ознаки, прибутки й інші аспекти цього радника. Багато надають бонуси місіям за певних умов. Наведіть курсор на рису, щоби переглянути більше деталей.
+UI.Objectives.SingleCouncilorDetailCanvas.Augment.Name=Поліпшіть свого радника
+UI.Objectives.SingleCouncilorDetailCanvas.Augment.Desc=Коли ви здобудете достатньо одиниць досвіду, ви зможете витратити їх тут для підвищення характеристик вашого радника, додавання або прибирання рис. Виконання місій надає одиниці досвіду, а спірні місії з шансом на успіх надають більше, якщо вони зрештою успішні.
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsEquipped.Name=Споряджені організації
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsEquipped.Desc=Організації можуть бути споряджені радником із достатнім рівнем здатності «Адміністрування». Організації надають бонуси характеристик, прибутки й нові місії своєму власнику. Ця область показує кожну споряджену вашим радником на даний момент організацію.
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket.Name=Ринок організацій
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket.Desc=Ця область показує кожну організацію, яку на даний момент можна придбати для цього радника. Просто клацніть правою кнопкою миші на організацію або перетягніть її на панель вище, щоби придбати її для свого радника.
+UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs.Name=Організації фракції
+UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs.Desc=Перехід від ринку до цієї області панелі показує кожну організацію, якою володіє фракція, але яка не належить жодному раднику. Вони не надають переваг, але їх все одно можуть украсти ваші вороги. Якщо радника вбивають або він звільнюється, його організації переходять сюди; ви також можете перетягнути й відпустити організації в цьому вікні, щоби передавати їх між радниками. Під час цього береться маленька плата.
+UI.Objectives.SingleCouncilorDetailCanvas.Customize.Name=Персоналізуйте свого радника
+UI.Objectives.SingleCouncilorDetailCanvas.Customize.Desc=Клацніть сюди для відкриття нової панелі, де ви можете персоналізувати ім'я вашого радника, його зовнішність та голос.
+UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Name=Звільніть радника
+UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Desc=Якщо радник більше не підходить для ваших цілей, ви можете звільнити його тут, щоби мати більше місця в раді для інших кандидатів.
+
+UI.Objectives.GeneralControlsCanvas.Intro.Name=Вітаємо в Terra Invicta
+UI.Objectives.GeneralControlsCanvas.Intro.Desc=Під час того, як ви вперше знайомитиметеся з користувацьким інтерфейсом, кнопки навчання з'являтимуться тут, праворуч від вашого поточного завдання. Клацніть на них для отримання керівництва щодо поточного відкритого інтерфейсу.
+UI.Objectives.GeneralControlsCanvas.IntroPart2.Name=Вітаємо в Terra Invicta
+UI.Objectives.GeneralControlsCanvas.IntroPart2.Desc=<h>Виберіть значок навчання вступу для екскурсії користувацьким інтерфейсом (КІ) Terra Invicta.</h>
+
+UI.Objectives.GeneralControlsCanvas.Objectives.Name=Перегляньте завдання
+UI.Objectives.GeneralControlsCanvas.Objectives.NameShort=Вступ
+UI.Objectives.GeneralControlsCanvas.Objectives.Desc=Панель завдань, яку можна відкрити за допомогою клацання на символ вашої фракції, відстежує всі ваші поточні й завершені завдання. Вони необхідні для просування сюжетною лінією й розкриття того, що стоїть за появою прибульців у нашій Сонячній системі. Навчання також включає додаткову низку завдань для надання допомоги у виконанні базових дій у Terra Invicta.<br/><br/><h>Клацніть на цю кнопку, щоби перевірити свої поточні завдання.</h>
+UI.Objectives.GeneralControlsCanvas.PauseMenu.Name=Знайомство
+UI.Objectives.GeneralControlsCanvas.PauseMenu.NameShort=Вступ
+UI.Objectives.GeneralControlsCanvas.PauseMenu.Desc=Вітаємо в Terra Invicta! Ці вікна навчання опишуть, як отримати доступ до різних аспектів вашої фракції протягом гри та керувати ними.<br/><br/>До меню паузи, де ви можете зберігати прогрес, переглядати надзвичайно важливий <h>Кодекс</h>, регулювати налаштування гри й виходити з неї, можна потрапити тут. 
+UI.Objectives.GeneralControlsCanvas.Resources.Name=Ресурси
+UI.Objectives.GeneralControlsCanvas.Resources.Desc=Ця верхня панель показує ваші поточні ресурси й прибутки. Наведіть курсор на кожен значок для деталей. <h>Гроші</h>, <h>вплив</h> і <h>операції</h> є необхідними для досягнення ваших цілей на Землі. <h>Імпульс</h> і <h>керування польотами</h> існують для того, щоби розвивати ваші космічні програми. <h>Дослідження</h> та <h>інженерні проєкти</h> розблоковують нові технології та модулі для ваших кораблів та середовищ існування.  
+UI.Objectives.GeneralControlsCanvas.MoneyIncome.Name=Гроші
+UI.Objectives.GeneralControlsCanvas.MoneyIncome.Desc=<h>Гроші</h> використовуються для побудови компонентів на Землі для нашої космічної програми, придбання багатьох організацій радників, проведення певних місій, орієнтованих на фінанси, та підтримки нашого космічного майна. Їх можна отримати за допомогою національного фінансування, пріоритету «Здобич», організацій, рис радників, модулів середовища й продажу космічних ресурсів на Землі.
+UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Name=Вплив
+UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Desc=<h>Вплив</h> відображає політичний капітал і здатність схиляти установи й людей для досягнення ваших цілей. Його можна отримати за допомогою сприятливої громадської думки про ідеологію вашої фракції, організацій, рис радників і модулів середовища. Його також можна витрачати на утримування ваших точок контролю щомісяця.
+UI.Objectives.GeneralControlsCanvas.OpsIncome.Name=Операції
+UI.Objectives.GeneralControlsCanvas.OpsIncome.Desc=<h>Операції</h> — це наша здатність проводити дрібномасштабні бойові та шпигунські операції. Їх в основному можна отримати за допомогою організацій, а також рис радників та певних модулів середовища на сполучній орбіті Землі.
+UI.Objectives.GeneralControlsCanvas.BoostIncome.Name=Імпульс
+UI.Objectives.GeneralControlsCanvas.BoostIncome.Desc=Кожна одиниця <h>імпульсу</h> відображає здатність пересувати 10 тонн матеріалу з поверхні Землі до її низької орбіти за допомогою пуску ракет та інших способів транспортування. Імпульс також може доставляти предмети до більш віддалених точок призначень, але зі значним стягненням ресурсу. Його в основному можна отримати за допомогою націй із космічною програмою, а також організацій.
+UI.Objectives.GeneralControlsCanvas.MissionControlCap.Name=Керування польотами
+UI.Objectives.GeneralControlsCanvas.MissionControlCap.Desc=Ресурс <h>керування польотами</h> відповідає за весь персонал і технічне обладнання, потрібні для підтримки наших операцій у космосі. Недостатня кількість одиниць керування польотами призведе до того, що іншим фракціям буде куди легше захопити наше космічне майно, а нещасні випадки траплятимуться частіше. Якщо в нас немає достатньо доступних одиниць керування польотами, ми не матимемо змоги будувати або придбавати нові середовища й кораблі. Надлишкова кількість одиниць керування польотами перетворюється на одиниці досліджень і гроші.
+UI.Objectives.GeneralControlsCanvas.ResearchIncome.Name=Дослідження
+UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=<h>Дослідження</h> відображають зусилля наших науковців та інженерів. На відміну від інших ресурсів одиниці дослідження не накопичуються, а відразу розподіляються щодо наших дослідницьких пріоритетів, які діляться на глобальні вивчення нових принципів і технологій та приватні інженерні проєкти, що надають користь тільки нашій фракції.
+UI.Objectives.GeneralControlsCanvas.CPCap.Name=Місткість одиниць точок контролю
+UI.Objectives.GeneralControlsCanvas.CPCap.Desc=Тут ви можете побачити нашу поточну кількість одиниць <h>точок контролю</h>, яка заповнює нашу <h>місткість одиниць точок контролю</h>. Перевищення обмеження призведе до щоденного стягнення одиниць впливу, яке відображається в прибутку впливу нашої нації. Ворожі місії, націлені на наші точки контролю, отримуватимуть бонус. Щоби зменшити стягнення, ми можемо покинути точки контролю або дослідити проєкти, які підвищують обмеження.
+UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Name=Перегляд Землі
+UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Desc=Ця панель містить короткі шляхи до місцин і екранів керування Terra Invicta.<br/><br/>Якщо ви клацнете сюди, камера сфокусується на Землі й активується політичний шар, який показує національні кордони, війська й пов'язані з прибульцями явища.
+UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Name=Перегляд Сонячної системи
+UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Desc=Якщо ви клацнете сюди, камера покаже Сонячну систему.
+UI.Objectives.GeneralControlsCanvas.CouncilBtn.Name=Рада фракції
+UI.Objectives.GeneralControlsCanvas.CouncilBtn.Desc=Ваші радники — це ваші головні агенти на Землі, а пізніше — у Сонячній системі. За допомогою місій вони можуть схиляти нації на ваш бік, полювати на прибульців або втручатися в операції інших фракцій. Ви можете керувати радниками й наймати їх тут.
+UI.Objectives.GeneralControlsCanvas.NationsBtn.Name=Нації Землі
+UI.Objectives.GeneralControlsCanvas.NationsBtn.Desc=Панель націй збирає всю інформацію про націю в одному місці. Тут ви також можете ставити пріоритети своїм точкам контролю. Вплив на нації Землі — один з основних способів установлення геополітичного домінування вашої фракції. Перегляньте деталі про будь-яку націю, клацнувши тут.
+UI.Objectives.GeneralControlsCanvas.HabsBtn.Name=Перегляньте середовища існування
+UI.Objectives.GeneralControlsCanvas.HabsBtn.Desc=Перегляньте деталі про космічні станції й поверхневі бази своєї фракції та інших фракцій на панелі середовищ існування («Середовища»). Ви також можете замовити побудову модулів для своїх існуючих середовищ.
+UI.Objectives.GeneralControlsCanvas.FleetsBtn.Name=Перегляньте флоти
+UI.Objectives.GeneralControlsCanvas.FleetsBtn.Desc=На панелі флотів ви переглядаєте всі відкриті флоти, а також створюєте нові кораблі й керуєте їхнім будівництвом.
+UI.Objectives.GeneralControlsCanvas.ResearchBtn.Name=Перегляньте інформацію про дослідження
+UI.Objectives.GeneralControlsCanvas.ResearchBtn.Desc=Дослідження необхідні для досягнення прогресу в Terra Invicta. Переглядайте дослідницькі пріоритети своєї фракції, а також будь-які внески в колективні глобальні дослідницькі проєкти, і керуйте ними.
+UI.Objectives.GeneralControlsCanvas.IntelBtn.Name=Перегляньте панель розвідданих
+UI.Objectives.GeneralControlsCanvas.IntelBtn.Desc=Панель розвідданих — збір даних, які ви отримали про прибульців, інші фракції, діяльність на Землі й будь-яке космічне тіло Сонячної системи. Часто перевіряйте цю панель для оцінки поточних знань вашої фракції та допомоги у виборі ліпших рішень.
+UI.Objectives.GeneralControlsCanvas.MapModes.Name=Змініть режим мапи Землі
+UI.Objectives.GeneralControlsCanvas.MapModes.Desc=Переглядайте різноманітні кольорові фільтри націй Землі тут.
+UI.Objectives.GeneralControlsCanvas.Finder.Name=Панель пошуку
+UI.Objectives.GeneralControlsCanvas.Finder.Desc=Це — панель пошуку, вона містить список усіх радників, середовищ, армій і флотів, які контролює ваша фракція. Клацніть на будь-який об'єкт списку для центрування камери на ньому. Ви також можете фільтрувати список за допомогою кнопок у верхній частині.
+UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Name=Налаштування часу гри
+UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Desc=Зупиняйте, продовжуйте гру й регулюйте її швидкість тут. Час від часу гра залишатиметься зупиненою, допоки ви не вирішите нагальне питання. <br/><br/><h>Якщо гра зупинена, продовжте її тут для переходу до фази місій.</h>
+
+UI.Objectives.NotificationScreenCanvas.NewsFeed.Name=Стрічка новин
+UI.Objectives.NotificationScreenCanvas.NewsFeed.NameShort=Новини
+UI.Objectives.NotificationScreenCanvas.NewsFeed.Desc=Різноманітні новини з'являтимуться в цій стрічці. Наведіть курсор на них для прочитання опису. Клацніть лівою кнопкою миші, щоби перейти до відповідної місцини або відповідного меню. Клацніть правою кнопкою миші, щоби приховати новину.
+
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.Name=Вибраний радник
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.NameShort=Радник
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.Desc=Це вікно показує вибраного радника. Ви можете клацнути на його портрет для відкриття екрана деталей радника, щоби дізнатися про нього більше інформації. Розуміння сильних сторін і слабкостей ваших радників — ключ до успіху. <h>Список місій радника можна переглянути тут, у центрі нижньої частині інтерфейсу.</h>
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorMissions.Name=Місії радника
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorMissions.Desc=Доступні для вибраного радника місії з'являються тут, у нижній частині інтерфейсу, під час <h>фази місій</h>. Виберіть місію, щоби переглянути деталі завдання. 
+
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Name=Виберіть місію
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.NameShort=Місії
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Desc=Ця панель містить список доступних для вибраного радника місій.
+UI.Objectives.CouncilorMissionControlsCanvas.Target.Name=Ціль місії
+UI.Objectives.CouncilorMissionControlsCanvas.Target.Desc=Ціль вибраної місії відображається тут. Ви також можете розпочинати місії за допомогою натискання Shift і клацання лівої кнопки миші на потенційну ціль на інтерактивній мапі, щоби з'явився список можливих місій для цієї цілі.
+UI.Objectives.CouncilorMissionControlsCanvas.Slider.Name=Бігунець ресурсів
+UI.Objectives.CouncilorMissionControlsCanvas.Slider.Desc=Певні місії дозволяють вам витрачати додаткові ресурси для збільшеного шансу на успіх. Цей бігунець з'являтиметься тут. 
+UI.Objectives.CouncilorMissionControlsCanvas.Bonuses.Name=Бонуси місії
+UI.Objectives.CouncilorMissionControlsCanvas.Bonuses.Desc=Позитивні ефекти, які підвищують рівень успіху, зазначені тут. Спірні місії залежать від певних характеристик радників, таких як переконання або командування.
+UI.Objectives.CouncilorMissionControlsCanvas.Penalties.Name=Штрафи місій
+UI.Objectives.CouncilorMissionControlsCanvas.Penalties.Desc=Штрафи, які зменшують рівень успіху, зазначені тут.
+UI.Objectives.CouncilorMissionControlsCanvas.SuccessRate.Name=Шанс місії на успіх
+UI.Objectives.CouncilorMissionControlsCanvas.SuccessRate.Desc=Загальний шанс місії на успіх показаний тут, він залежить від бонусів, штрафів і бігунця ресурсів.<br/><br/><h>Важливо:</h> зміна умов у світі може призвести до зміни шансу місії на успіх, навіть після того, як ви призначите місію та підтвердите завдання. Найбільше це властиво місіям, спрямованим на радників інших фракцій. Останній шанс на успіх показуватиметься під значком вашого радника на інтерактивній мапі. Якщо необхідно, ви можете скасувати місію для відновлення витрат ресурсів на завдання.
+UI.Objectives.CouncilorMissionControlsCanvas.Confirm.Name=Підтвердьте місію
+UI.Objectives.CouncilorMissionControlsCanvas.Confirm.Desc=Коли ви задоволені своїми планами, клацніть сюди, щоби призначити місію. Її виконання триватиме протягом наступних днів і тижнів після фази місій. Ви можете перепризначати радників під час фази місії без отримання штрафу.
+UI.Objectives.CouncilorMissionControlsCanvas.ConfirmAssignments.Name=Підтвердьте завдання
+UI.Objectives.CouncilorMissionControlsCanvas.ConfirmAssignments.Desc=Коли ви призначили всім доступним радникам виконання місій, підтвердьте завдання для завершення фази місій. Ви знову зможете рухати час уперед, а коли місія завершиться, ви отримаєте нову інформацію.
+
+UI.Objectives.NationInfoCanvas.Intro.Name=Огляд нації
+UI.Objectives.NationInfoCanvas.Intro.NameShort=Нації
+UI.Objectives.NationInfoCanvas.Intro.Desc=На панелі націй можна переглядати важливу інформацію про індивідуальні нації Землі й спрямовувати частки їхньої економіки, яка перебуває під вашим контролем.
+UI.Objectives.NationInfoCanvas.Federation.Name=Федерація
+UI.Objectives.NationInfoCanvas.Federation.Desc=Якщо нація входить до федерації, це відображатиметься тут. Федерації — це нації з постійним альянсом, які ділять одиниці дослідження й імпульсу.
+UI.Objectives.NationInfoCanvas.CPs.Name=Точки контролю
+UI.Objectives.NationInfoCanvas.CPs.Desc=<h>Точки контролю</h> відображають вузли політичної та економічної влади в нації, такої як контроль засобів масової інформації або її законодавчої влади. Нації з розвинутішою економікою можуть мати до шести точок контролю. Однією з головних цілей вашої ради є здобуття точок контролю в корисних вашій справі націях.<br/><br/>Фракційне володіння точкою контролю відображається на їхній емблемі; по-простому розмальовані круги означають, що жодна фракція не заволоділа точкою контролю. Крайня права точка контролю нації є виконавчою точкою контролю, вона надає контроль над міжнародними відносинами нації за допомогою місії радника «Установлення політики».<br/><br/>Деякі місії радника прямо взаємодіють з точками контролю. Ви можете клацнути на них на мапі або тут, щоби вибрати іх як цілі під час фази місій.<br/><br/>Наведіть курсор на точку контролю, щоби дізнатися більше інформації.
+UI.Objectives.NationInfoCanvas.Overview.Name=Огляд нації
+UI.Objectives.NationInfoCanvas.Overview.Desc=Ця секція показує деталі про уряд нації, її заворушення й ВВП. Наведіть курсор на значення, щоби переглянути більше деталей. <h>Уряд і заворушення відображаються значеннями, які варіюються від 1 до 10, а ВВП відображається в мільярдах (млрд).
+UI.Objectives.NationInfoCanvas.Military.Name=Огляд збройних сил
+UI.Objectives.NationInfoCanvas.Military.Desc=Ця секція відображає рівень технологій збройних сил, доступні стратегічні ядерні атаки й військово-морську силу нації. Наведіть курсор на значення, щоби дізнатися більше інформації.
+UI.Objectives.NationInfoCanvas.Development.Name=Огляд розвитку
+UI.Objectives.NationInfoCanvas.Development.Desc=Ця секція відображає економічні деталі нації та розподіл її прибутків власникам точок контролю. Наведіть курсор на будь-яке значення, щоби дізнатися більше інформації.
+
+UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Name=Щомісячні одиниці інвестицій 
+UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Desc=Цей показник відображає надлишок споживача нації. Ці одиниці можуть бути розподілені між фракціями з <h>точками контролю</h> в нації за допомогою використання вкладки <h>«Пріоритети»</h>. Це значення визначається ВВП нації та зменшується через кількість розміщених <h>військ</h> і високі рівні <h>заворушення</h>.
+
+UI.Objectives.NationInfoCanvas.Funding.Name=Фінансування
+UI.Objectives.NationInfoCanvas.Funding.Desc=Це гроші, які нація щомісячно надає для розподілу між власниками її точок контролю.
+
+UI.Objectives.NationInfoCanvas.Research.Name=Щомісячні дослідження
+UI.Objectives.NationInfoCanvas.Research.Desc=Вироблення одиниць дослідження нації є результатом її рівня освіти, економіки, згуртованості, демократії та заворушень.
+
+UI.Objectives.NationInfoCanvas.Boost.Name=Щомісячний імпульс
+UI.Objectives.NationInfoCanvas.Boost.Desc=Місткість одиниць імпульсу нації в декатоннах на місяць.
+
+UI.Objectives.NationInfoCanvas.MissionControl.Name=Керування польотами
+UI.Objectives.NationInfoCanvas.MissionControl.Desc=Цей показник відображає кількість одиниць керування польотами, яку зберігає нація.
+
+UI.Objectives.NationInfoCanvas.People.Name=Огляд людей
+UI.Objectives.NationInfoCanvas.People.Desc=Ця секція відображає населення нації, його характеристики й громадську думку фракцій. Наведіть курсор на будь-яке значення, щоби дізнатися більше інформації.
+
+UI.Objectives.NationInfoCanvas.Education.Name=Освіта
+UI.Objectives.NationInfoCanvas.Education.Desc=Значення <h>освіти</h> нації оцінюється на основі середньої кількості років навчання жителя цієї нації. Нації з вищою оцінкою освіти виробляють більше одиниць дослідження та є більш стійкими до екстремальної пропаганди, але отримують менше одиниць згуртованості від пріоритету <h>«Єдність»</h>.
+
+UI.Objectives.NationInfoCanvas.Cohesion.Name=Згуртованість
+UI.Objectives.NationInfoCanvas.Cohesion.Desc=<h>Згуртованість</h> нації відображає рівень єдності або конфлікту серед її людей. Високі значення описують уніфіковане суспільство, яке майже не допускає девіацій або розбіжності думок. Середні значення відображають різноманітне суспільство, яке має і внутрішній конфлікт, і здорову, креативну контркультуру. Середньо-низькі значення відображають високий ступінь політичної поляризації, а найнижчі значення означають, що люди нації є роз'єднаними або навіть племінними. <h>Високі значення</h> тримають заворушення під контролем і збільшують здатність нації чинити опір окупації, <h>середні значення</h> надають бонус національному виробленню одиниць дослідження, відображаючи надійний (хоч і хаотичний) ринок ідей, тоді як <h>низькі значення стрімко збільшуватимуть рівень заворушень</h>. Згуртованість зменшується через високу нерівність, анократію, наявність великої кількості регіонів із високим рівнем населення, знищення військ і велику різницю між громадською думкою та ідеологією власників точок контролю. Згуртованість збільшується через війни, автократію і <h>пріоритет «Єдність»</h>. <h>Демократія</h> в нації також впливає на згуртованість, спрямовуючи її до середнього значення.
+
+UI.Objectives.NationInfoCanvas.PublicOpinion.Name=Громадська думка
+UI.Objectives.NationInfoCanvas.PublicOpinion.Desc=Ця діаграма показує громадську думку в цій нації щодо прибульців. Підтримка певної ідеології надає прибуток одиниць впливу відповідній фракції, і фракція отримує бонуси під час спроб здобути й зберігати контроль над нацією. Місія радника <h>«Кампанія зв'язків із громадськістю»</h> схилить думку на ваш бік. Cкоєння звірств негативно вплине на думку щодо вашої фракції.
+
+UI.Objectives.NationInfoCanvas.PerCapitaGDP.Name=ВВП на душу населення
+UI.Objectives.NationInfoCanvas.PerCapitaGDP.Desc=ВВП нації, або її валовий внутрішній продукт, є показником її щорічного економічного результату в доларах США, відрегульований паритетом купівельної спроможності. ВВП нації визначає те, скільки <h>точок контролю</h> вона має, скільки <h>одиниць інвестицій</h> вона виробляє та те, як важко виконувати певні місії в межах її кордонів.
+
+UI.Objectives.NationInfoCanvas.Inequality.Name=Нерівність
+UI.Objectives.NationInfoCanvas.Inequality.Desc=Бал <h>нерівності</h> нації — це показник того, як розподіляється її багатство й прибутки. Високі значення означають, що нація не має великої кількості людей середнього класу. Показник нерівності росте повільно через результат нормальної економічної активності (пріоритет <h>«Економіка»</h>) або швидко через корупцію (пріоритет<h>«Здобич»</h>). <h>Регіони з ресурсами</h> в нації можуть сприяти нерівності. Високий рівень нерівності <h>зменшує згуртованість</h>, оскільки нація ділиться на тих, хто має, і хто ні. Цьому можна протистояти за допомогою використання пріоритету <h>«Добробут»</h>.
+
+UI.Objectives.NationInfoCanvas.Tabs.Name=Вкладки з додатковою інформацією
+UI.Objectives.NationInfoCanvas.Tabs.Desc=Клацніть на будь-яку з цих вкладок, щоби переглянути додаткову важливу інформацію про націю. Коли ви маєте точку контролю в нації, ви можете використати вкладку <h>«Пріоритет»</h> для керування економічного зосередження нації.
+
+UI.Objectives.NationInfoCanvas.Priorities.Name=Пріоритети нації
+UI.Objectives.NationInfoCanvas.Priorities.NameShort=Пріоритети
+UI.Objectives.NationInfoCanvas.Priorities.Desc=Ця вкладка дозволяє вам установлювати пріоритети для кожної точки контролю в націях, які перебувають під вашим контролем. Пріоритети нації визначатимуть, як нація змінюватиметься з часом. До прикладу, інвестиції в добробут можуть знизити рівень нерівності в нації.
+UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Name=Одиниці інвестицій та пріоритети
+UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Desc=Одиниці інвестицій нації рівномірно розподіляються між точками контролю, після чого розподіляються за індивідуальними налаштуваннями кожного пріоритету. 
+UI.Objectives.NationInfoCanvas.PrioritesGDP.Name=ВВП та одиниці інвестицій
+UI.Objectives.NationInfoCanvas.PrioritesGDP.Desc=ВВП нації регулює кількість одиниць інвестицій, які вона може витратити. 
+UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Name=Заповнення пріоритетів
+UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Desc=Одиниці інвестицій заповнюють «відра» пріоритету нації, які викликають певну дію, коли заповнені повністю: наприклад, збільшення ВВП на душу населення («Економіка») або розгортання нового війська («Розбудова армії»).
+UI.Objectives.NationInfoCanvas.PrioritesCycler.Name=Зміна ваги пріоритету 
+UI.Objectives.NationInfoCanvas.PrioritesCycler.Desc=За допомогою клацання на ці крапки ви можете змінювати вагу, яка дається кожному пріоритету. Це спрямує більше одиниць інвестицій нації цьому пріоритету.
+UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Name=Застосуйте зміни до всіх точок контролю
+UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Desc=Якщо ви клацнете на символ вашої фракції у верхній частині стовпця пріоритетів, ви зможете застосувати пріоритети цього стовпця до всіх своїх інших точок контролю в нації. 
+UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Name=Початок
+UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Desc=Усього існує багато пріоритетів, тож можна легко відчути розгубленість. Подумайте про те, яку спеціалізацію нації ви хочете мати, а потім зосередьтеся на пріоритетах, які допоможуть вам досягнути її. Наприклад, ви можете зробити так, щоби малі нації спеціалізувалися у виробництві одиниць керування польотами для свого космічного майна або щоби великі нації спеціалізувалися в наукових результатах для збільшення швидкості досліджень.
+UI.Objectives.NationInfoCanvas.PrioritesNegatives.Name=Негативні сторони нації
+UI.Objectives.NationInfoCanvas.PrioritesNegatives.Desc=Пам'ятайте, що заворушення, низький рівень згуртованості та високий рівень нерівності завжди є тягарями нації.
+UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Name=Шаблони пріоритетів
+UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Desc=Ви можете вибирати різні шаблони пріоритетів у меню, яке опускається. 
+UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Name=Пряма інвестиція 
+UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Desc=Відкривши вікно прямої інвестиції, ви можете витрачати гроші й одиниці впливу, щоби прямо фінансувати розвиток нації.
+UI.Objectives.NationInfoCanvas.AbandonNation.Name=Залиште націю
+UI.Objectives.NationInfoCanvas.AbandonNation.Desc=Якщо з якоїсь причини ви більше не бажаєте керувати нацією, ви можете залишити всі свої точки контролю, клацнувши на кнопку «Залишити націю». Цей варіант корисний для тих випадків, коли ви перевищили обмеження точок контролю й бажаєте уникнути наступних стягнень.
+
+UI.Objectives.NationInfoCanvas.DirectInvest.Name=Пряма інвестиція в нації
+UI.Objectives.NationInfoCanvas.DirectInvest.NameShort=Інвестуйте
+UI.Objectives.NationInfoCanvas.DirectInvest.Desc=Тут ви можете витрачати гроші й одиниці впливу, щоби віддзеркалити прибуток одиниць інвестицій нації для швидких ефектів.
+UI.Objectives.NationInfoCanvas.NuclearWeapons.Name=Кнопка
+UI.Objectives.NationInfoCanvas.NuclearWeapons.Desc=Якщо ви маєте виконавчий контроль над нацією, ви можете завдати ядерного удару її ворогам за допомогою кнопки, яка з'являється тут. Ці удари заподіюють жахливої шкоди регіонам та інфраструктурі.
+UI.Objectives.NationInfoCanvas.Policy.Name=Установіть політику нації
+UI.Objectives.NationInfoCanvas.Policy.Desc=Якщо ви маєте виконавчий контроль над нацією, ви можете відправити радника на місію «Установлення національної політики». Установлюючи національну політику, ви можете спрямовувати нації на війну, входити до федерацій або виходити з них, передавати території тощо. Використовуйте цю вкладку, щоби переглянути доступну національну політику.
+
+UI.Objectives.IntelScreenCanvas.AlienCouncilors.Name=Прибульці
+UI.Objectives.IntelScreenCanvas.AlienCouncilors.NameShort=Прибульці
+UI.Objectives.IntelScreenCanvas.AlienCouncilors.Desc=Ця секція показує кожного індивідуального прибульця, якого ви виявили на Землі.
+UI.Objectives.IntelScreenCanvas.AlienEvents.Name=Інопланетні події
+UI.Objectives.IntelScreenCanvas.AlienEvents.Desc=Ця секція показує всі пов'язані з прибульцями події. Клацніть на подію для центрування камери на її розташуванні.
+UI.Objectives.IntelScreenCanvas.AlienSites.Name=Ділянки з прибульцями
+UI.Objectives.IntelScreenCanvas.AlienSites.Desc=Ця секція відображає всі відомі розташування прибульців. Клацніть на ділянку для центрування камери на її розташуванні.
+UI.Objectives.IntelScreenCanvas.AlienFleets.Name=Флоти прибульців
+UI.Objectives.IntelScreenCanvas.AlienFleets.Desc=Ця секція перераховує всі відомі флоти прибульців. Клацніть на флот для центрування камери на ньому.
+UI.Objectives.IntelScreenCanvas.AlienHabs.Name=Середовища прибульців
+UI.Objectives.IntelScreenCanvas.AlienHabs.Desc=Ця секція перераховує всі відомі середовища прибульців. Клацніть на середовище для центрування камери на ньому.
+UI.Objectives.IntelScreenCanvas.AlienThreat.NameShort=Загроза
+UI.Objectives.IntelScreenCanvas.AlienThreat.Name=Орієнтовний рівень інопланетної загрози
+UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=Ця панель відображає найліпший прогноз нашого розвідувального відділу щодо ступеня, до якого прибульці вважають нашу фракцію загрозливою. Він побудований на основі наших спостережень за проінопланетними групами та видимою діяльністю прибульців у Сонячній системі.<br/><br/>Ми віримо, що ворожі дії проти прибульців або їхніх представників на Землі та/або велика видима присутність у космосі збільшують їхнє занепокоєння щодо нас, і ми можемо очікувати, що прибульці вживуть певних заходів проти наших інтересів на Землі та в космосі, якщо покажчик тривоги досягне максимального рівня. Вони також можуть втратити інтерес, якщо ми деякий час уникатимемо прямого протистояння їм та їхнім представникам на Землі.<br/><br/>Наші аналітики наголошують на тому, що це не ідеальний прогноз. Ми відрегулюємо його, коли прибульці вдадуться до прямих дій проти нас або за допомогою безпосередньої розмови з одним із них.
+
+UI.Objectives.IntelScreenCanvas.FactionOverview.Name=Огляд фракції
+UI.Objectives.IntelScreenCanvas.FactionOverview.NameShort=Фракції
+UI.Objectives.IntelScreenCanvas.FactionOverview.Desc=Цей екран показує кожну деталь, яку ви виявили про будь-яку людську фракцію.
+UI.Objectives.IntelScreenCanvas.FactionCouncilors.Name=Радники фракції
+UI.Objectives.IntelScreenCanvas.FactionCouncilors.Desc=Ця вкладка покаже вам інформацію про виявлених радників. Ви можете клацнути на будь-яку вкладку, утримуючи Shift, щоби одночасно переключити всі вкладки фракції.
+UI.Objectives.IntelScreenCanvas.FactionResources.Name=Ресурси фракції.
+UI.Objectives.IntelScreenCanvas.FactionResources.Desc=Ця вкладка показує всю інформацію про ресурси й прибуток фракції.
+UI.Objectives.IntelScreenCanvas.FactionObjectives.Name=Завдання фракції
+UI.Objectives.IntelScreenCanvas.FactionObjectives.Desc=Ця вкладка відображатиме завдання фракції, якщо ви відкрили їх.
+UI.Objectives.IntelScreenCanvas.FactionRelations.Name=Відносини фракції
+UI.Objectives.IntelScreenCanvas.FactionRelations.Desc=Ця вкладка показує міжфракційні відносини.
+UI.Objectives.IntelScreenCanvas.FactionTech.Name=Технології фракції
+UI.Objectives.IntelScreenCanvas.FactionTech.Desc=Ця вкладка показує будь-які здобуті розвіддані про дослідження фракції. Ви можете клацнути на будь-яку вкладку, утримуючи Shift, щоби одночасно переключити всі вкладки фракції.
+
+UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.Name=Громадська думка
+UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.NameShort=Характеристики
+UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.Desc=Тут ви можете переглянути громадську підтримку різних фракцій та їхні завдання. Глобальна громадська підтримка сприяє прибутку одиниць впливу для кожної фракції.
+UI.Objectives.IntelScreenCanvas.GlobalWorldData.Name=Інформація про світ
+UI.Objectives.IntelScreenCanvas.GlobalWorldData.Desc=Ця секція показує базові характеристики населення Землі й Сонячної системи.
+UI.Objectives.IntelScreenCanvas.GlobalCommodities.Name=Товари
+UI.Objectives.IntelScreenCanvas.GlobalCommodities.Desc=Ця секція показує поточну цінність різних ресурсів.
+UI.Objectives.IntelScreenCanvas.GlobalEnvironment.Name=Навколишнє середовище 
+UI.Objectives.IntelScreenCanvas.GlobalEnvironment.Desc=Ця секція містить інформацію про загальне здоров'я Землі.
+UI.Objectives.IntelScreenCanvas.GlobalWars.Name=Глобальні війни
+UI.Objectives.IntelScreenCanvas.GlobalWars.Desc=Ця секція містить список кожної поточної війни між націями Землі.
+UI.Objectives.IntelScreenCanvas.Atrocities.Name=Звірства
+UI.Objectives.IntelScreenCanvas.Atrocities.Desc=Це секція містить запис кількості звірств, скоєних кожною фракцією. Звірства — це дії, які спричиняють масові смерті або страждання, а відповідальні за це фракції внаслідок зазнають втрати прихильників. Звірства впливають на громадську думку та мають накопичувальний ефект: що більше звірств скоює фракція, то суттєвішим є погіршення громадської думки.
+
+UI.Objectives.IntelScreenCanvas.SpacebodySorting.Name=Сортування
+UI.Objectives.IntelScreenCanvas.SpacebodySorting.NameShort=Розвіддані
+UI.Objectives.IntelScreenCanvas.SpacebodySorting.Desc=Ця панель містить список кожного космічного тіла Сонячної системи й інформацію про кожне з них. Клацніть на будь-яке поле з інформацією для сортування списку за цим показником.
+UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Name=Обмеження підтримуваних середовищ
+UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Desc=Це значення показує максимальну кількість середовищ, які може підтримувати космічне тіло. 
+UI.Objectives.IntelScreenCanvas.SpacebodyResources.Name=Доступні ресурси
+UI.Objectives.IntelScreenCanvas.SpacebodyResources.Desc=Ця область показує ресурси, доступні для видобування на космічному тілі. Допоки ви не дослідите космічне тіло за допомогою зонда чи космічного апарата, ви матимете тільки прогноз щодо видобування на ньому. Шеврони є показником чисельності, «?» свідчить про тільки можливу присутність ресурсів, а нульовий символ свідчить про те, що ресурс не присутній.
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Name=Стартове вікно Землі
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=Це значення свідчить про поточний статус стартового вікна, збільшення або зменшення кількості часу, потрібного для подорожі до космічного тіла з Землі. Є результатом змінної відстані між об'єктами на їхніх відповідних орбітах.
+UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Name=Перейдіть до об'єкта
+UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Desc=Клацніть сюди для центрування камери на розташуванні космічного об'єкта.
+
+UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Name=Планувальник подорожей
+UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.NameShort=Подорожі
+UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Desc=Цей екран призначений для планування макетів кораблів і дослідження різних варіантів траєкторій для флотів під вашим контролем або кораблів, які ви збираєтеся збудувати в майбутньому. Ви можете регулювати значення знизу, щоби побачити, як довго триватиме конкретна подорож із зазначеними показниками пришвидшення й дельта-v.
+UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Name=Пункти відправлення й призначення
+UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Desc=Установіть точки відправлення й призначення флоту тут. Список праворуч заповнюватиметься всіма доступними космічними тілами й цілями. Ви можете використовувати існуючу позицію вашого флоту або спланувати майбутню подорож за допомогою клацання на будь-які 2 точки.
+UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Name=Пришвидшення й дельта-v
+UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Desc=Пришвидшення й дельта-v установлюються тут. Ці значення визначаються моторами корабля в межах флоту. Ви можете використовувати значення ваших поточних моторів корабля або відрегулювати числа, щоби вони відповідали кораблю, який ви збираєтеся збудувати, для спостереження змін траєкторії.
+UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Name=Регулювання параметрів тяги
+UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Desc=Робіть зміни в цій секції для спостереження за змінами часу прибуття й використання дельта-v для траєкторії з будь-якими заданими параметрами тяги.
+
+UI.Objectives.HabScreenCanvas.HabInfo.Name=Середовища
+UI.Objectives.HabScreenCanvas.HabInfo.NameShort=Середовища
+UI.Objectives.HabScreenCanvas.HabInfo.Desc=Середовища існування або просто <h>середовища</h> бувають двох форм: <h>станції</h>, які обертаються навколо космічних тіл, і <h>бази</h>, які збудовані на космічних тілах. <br/><br/>Тут ви можете переглянути інформацію про середовища у всій Сонячній системі: фракція-власник, населення, прибуток і вартість обслуговування, операційний статус і чи має середовище відкриті комірки модуля. 
+UI.Objectives.HabScreenCanvas.Bases.Name=Бази
+UI.Objectives.HabScreenCanvas.Bases.Desc=Якщо на цьому полі є позначка, бази показуватимуться у списку нижче. Одночасно можуть відображатися як станції, так і бази.
+UI.Objectives.HabScreenCanvas.Stations.Name=Станції
+UI.Objectives.HabScreenCanvas.Stations.NameShort=Станції
+UI.Objectives.HabScreenCanvas.Stations.Desc=Якщо на цьому полі є позначка, станції показуватимуться у списку нижче.
+UI.Objectives.HabScreenCanvas.FactionFilter.Name=Фільтр фракції
+UI.Objectives.HabScreenCanvas.FactionFilter.Desc=Використовуйте це меню, яке опускається, для фільтрування середовищ і станцій за їхніми фракціями-власниками.
+UI.Objectives.HabScreenCanvas.LocationFilter.Name=Фільтр розташування
+UI.Objectives.HabScreenCanvas.LocationFilter.Desc=Використовуйте це меню, яке опускається, для фільтрування середовищ і станцій за їхнім розташуванням у Сонячній системі.
+UI.Objectives.HabScreenCanvas.ManageHabBtn.Name=Керуйте середовищем
+UI.Objectives.HabScreenCanvas.ManageHabBtn.Desc=Після вибору середовища або станції, які ви контролюєте, використайте кнопку керування, яка з'являється тут, щоби зробити зміни, такі як додавання або заміна модулів.
+
+UI.Objectives.HabScreenCanvas.HabManagementInfo.Name=Загальна інформація про середовище
+UI.Objectives.HabScreenCanvas.HabManagementInfo.NameShort=Середовища
+UI.Objectives.HabScreenCanvas.HabManagementInfo.Desc=Ця секція показує загальну інформацію про середовище.
+UI.Objectives.HabScreenCanvas.HabManagementModuleInfo.Name=Інформація про вибраний модуль
+UI.Objectives.HabScreenCanvas.HabManagementModuleInfo.Desc=Клацніть на будь-який модуль середовища у великому вікні праворуч, щоби відобразити інформацію про нього.
+UI.Objectives.HabScreenCanvas.HabManagementModuleList.Name=Список доступних модулів
+UI.Objectives.HabScreenCanvas.HabManagementModuleList.Desc=Цей список містить перелік доступних для цього середовища модулів. Клацніть лівою кнопкою миші, щоби переглянути більше деталей. Перетягніть і відпустіть модуль або клацніть на нього правою кнопкою миші, щоби додати його до середовища й розпочати побудову.
+UI.Objectives.HabScreenCanvas.HabManagementModuleClick.Name=Клацніть на модуль
+UI.Objectives.HabScreenCanvas.HabManagementModuleClick.Desc=Якщо ви клацнете лівою кнопкою миші на цей модуль, ви зможете переглянути про нього більше деталей. 
+
+UI.Objectives.FleetScreenCanvas.FleetOverview.Name=Екран флотів
+UI.Objectives.FleetScreenCanvas.FleetOverview.NameShort=Флоти
+UI.Objectives.FleetScreenCanvas.FleetOverview.Desc=Цей екран показує всю інформацію про ваші флоти й кораблі та слугує за центр керування макетів кораблів та їх побудовою.
+UI.Objectives.FleetScreenCanvas.FleetCombat.Name=Бойова міць флотів
+UI.Objectives.FleetScreenCanvas.FleetCombat.Desc=Ці значення відображають кількість кораблів флоту та його загальну бойову міць.
+UI.Objectives.FleetScreenCanvas.FleetOperations.Name=Операції флотів
+UI.Objectives.FleetScreenCanvas.FleetOperations.Desc=Ця секція відображає розташування флоту й будь-яку операцію, яку він проводить, або подорож, на якій перебуває, на даний момент.
+UI.Objectives.FleetScreenCanvas.FleetCapabilities.Name=Можливості флоту
+UI.Objectives.FleetScreenCanvas.FleetCapabilities.Desc=Ці значення свідчать про пришвидшення й запас дельта-v вашого флоту. Дельта-v — це відображення палива в космічних подорожах, вона свідчить про здатність змінювати швидкість.
+UI.Objectives.FleetScreenCanvas.FleetAbilities.Name=Здатності флоту
+UI.Objectives.FleetScreenCanvas.FleetAbilities.Desc=Ці значки показують доступні здатності вашого флоту.
+UI.Objectives.FleetScreenCanvas.FleetGoto.Name=Перейдіть до флоту
+UI.Objectives.FleetScreenCanvas.FleetGoto.Desc=Клацніть сюди для фокусування камери на розташуванні флоту.
+UI.Objectives.FleetScreenCanvas.FleetToggleAll.Name=Показати всі флоти
+UI.Objectives.FleetScreenCanvas.FleetToggleAll.Desc=Поставте позначку на цьому полі, щоби переглянути ворожі флоти в списку.
+UI.Objectives.FleetScreenCanvas.FleetExpand.Name=Розширте флот, щоби переглянути кораблі
+UI.Objectives.FleetScreenCanvas.FleetExpand.Desc=Клацніть на назву флоту в списку, щоби розширити вид для показу всіх кораблів, які містяться всередині флоту. Клацніть на будь-який корабель, щоби переглянути про нього деталі.
+
+UI.Objectives.FleetScreenCanvas.ClassOverview.Name=Огляд класів кораблів
+UI.Objectives.FleetScreenCanvas.ClassOverview.NameShort=Класи
+UI.Objectives.FleetScreenCanvas.ClassOverview.Desc=Цей екран показує всі класи кораблів, які ви створили.
+UI.Objectives.FleetScreenCanvas.ClassBuild.Name=Збудуйте корабель
+UI.Objectives.FleetScreenCanvas.ClassBuild.Desc=Клацніть сюди для відкриття екрана побудови, яке використовується для керування побудовою ваших кораблів і флотів.
+UI.Objectives.FleetScreenCanvas.ClassUpgrade.Name=Модифікуйте або поліпшуйте існуючий макет.
+UI.Objectives.FleetScreenCanvas.ClassUpgrade.Desc=Клацніть сюди, щоби модифікувати існуючий макет і поліпшити його.
+UI.Objectives.FleetScreenCanvas.ClassDesign.Name=Створіть новий клас
+UI.Objectives.FleetScreenCanvas.ClassDesign.Desc=Клацніть сюди, щоби з нуля створити новий клас корабля в конструкторі кораблів.
+UI.Objectives.FleetScreenCanvas.Obsolete.Name=Застарілі макети
+UI.Objectives.FleetScreenCanvas.Obsolete.Desc=Позначення макета як застарілого не дасть йому з'явитися в списку доступних макетів у керівнику побудови. Ви можете повністю видалити макет тільки тоді, коли кораблі цього класу не були збудовані або перебувають під замовленням на даний момент.
+
+UI.Objectives.FleetScreenCanvas.DetailSelectShip.Name=Виберіть корабель
+UI.Objectives.FleetScreenCanvas.DetailSelectShip.NameShort=Кораблі
+UI.Objectives.FleetScreenCanvas.DetailSelectShip.Desc=Цей стовпець відображає список усіх кораблів. Клацніть лівою кнопкою миші на будь-який корабель у списку, щоби переглянути про нього деталі.
+UI.Objectives.FleetScreenCanvas.DetailPrimarySystems.Name=Основні системи корабля
+UI.Objectives.FleetScreenCanvas.DetailPrimarySystems.Desc=Ця секція містить усі основні системи корабля. Клацніть лівою кнопкою миші на будь-яку систему, щоби переглянути більше деталей про неї в полі знизу.
+UI.Objectives.FleetScreenCanvas.DetailMissionSystems.Name=Система місій корабля
+UI.Objectives.FleetScreenCanvas.DetailMissionSystems.Desc=Цей стовпець відображає всі системи місій на кораблі. Клацніть лівою кнопкою миші на будь-яку систему, щоби переглянути більше деталей про неї в полі нижньої частини стовпця.
+UI.Objectives.FleetScreenCanvas.DetailDamage.Name=Звіт про пошкодження корабля
+UI.Objectives.FleetScreenCanvas.DetailDamage.Desc=Ця секція містить статус пошкоджень вузлів підвіски корабля. Наведіть курсор на будь-який вузол підвіски, щоби переглянути більше деталей.
+UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Name=Перегляньте всі кораблі
+UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Desc=Поставте позначку на цьому полі, щоби дозволити перегляд ворожих кораблів у списку.
+
+UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Name=Виберіть клас корабля
+UI.Objectives.FleetScreenCanvas.ConstructSelectShip.NameShort=Збудуйте
+UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Desc=Цей список містить перелік усіх ваших макетів класів корабля й вартість побудови кожного. Клацніть на клас корабля, щоби переглянути більше деталей і додати його до черги побудови.
+UI.Objectives.FleetScreenCanvas.ConstructAddToQueue.Name=Додайте до черги
+UI.Objectives.FleetScreenCanvas.ConstructAddToQueue.Desc=Коли ви вибрали клас корабля, клацніть сюди, щоби додати його до черги побудови станції.
+UI.Objectives.FleetScreenCanvas.ConstructBoostToggle.Name=Використання імпульсу
+UI.Objectives.FleetScreenCanvas.ConstructBoostToggle.Desc=Поставте позначку на цьому полі, щоби дозволити верфі використовувати одиниці імпульсу й гроші для транспортування відсутніх космічних ресурсів із Землі.
+UI.Objectives.FleetScreenCanvas.ConstructBuildData.Name=Інформація про побудову
+UI.Objectives.FleetScreenCanvas.ConstructBuildData.Desc=Ця область показує поточний статус корабля, що будується.
+UI.Objectives.FleetScreenCanvas.ConstructQueueUp.Name=Змініть місце в черзі
+UI.Objectives.FleetScreenCanvas.ConstructQueueUp.Desc=Якщо ви маєте кілька кораблів у черзі, ви можете використовувати ці стрілки для регулювання порядку побудови кораблів.
+UI.Objectives.FleetScreenCanvas.ConstructQueueRemove.Name=Заберіть корабель з черги
+UI.Objectives.FleetScreenCanvas.ConstructQueueRemove.Desc=Ви можете клацнути тут, якщо бажаєте прибрати вибраний корабель з черги.
+
+UI.Objectives.FleetScreenCanvas.DesignOverview.Name=Конструктор кораблів
+UI.Objectives.FleetScreenCanvas.DesignOverview.NameShort=Створіть
+UI.Objectives.FleetScreenCanvas.DesignOverview.Desc=На цьому екрані можна створювати макети кораблів.
+UI.Objectives.FleetScreenCanvas.DesignSelectClass.Name=Виберіть корпус
+UI.Objectives.FleetScreenCanvas.DesignSelectClass.Desc=Спочатку виберіть корпус зі списку. Він визначає планування корабля й кількість зброї та модулів, які ви можете додавати.
+UI.Objectives.FleetScreenCanvas.DesignNoseWep.Name=Зброя носової частини
+UI.Objectives.FleetScreenCanvas.DesignNoseWep.Desc=Ця вкладка містить усю доступну зброю носової частини. Клацніть лівою кнопкою миші на модуль, щоби переглянути більше деталей на нижньому полі ліворуч. Щоби додати модуль до макета, просто клацніть правою кнопкою миші або перетягніть і відпустіть його у відповідну форму. Зброя носової частини стріляє обмеженою дугою з «верхньої частини» корабля.<br/><br/><h>Клацніть правою кнопкою миші на менші вкладки, щоби переглянути доступні модулі у вигляді списку.</h>
+UI.Objectives.FleetScreenCanvas.DesignModuleData.Name=Інформація про вибраний модуль
+UI.Objectives.FleetScreenCanvas.DesignModuleData.Desc=Ця область містить додаткові деталі про будь-який модуль, на який ви клацнете лівою кнопкою миші.
+UI.Objectives.FleetScreenCanvas.DesignHullWep.Name=Зброя корпусу
+UI.Objectives.FleetScreenCanvas.DesignHullWep.Desc=Клацніть лівою кнопкою миші на цю вкладку, щоби переглянути всю доступну зброю корпусу. Зброя корпусу володіє повною смугою обстрілу в кожному напрямку навколо корабля, але не є такою потужною, як зброя носової частини.
+UI.Objectives.FleetScreenCanvas.DesignUtility.Name=Універсальні модулі
+UI.Objectives.FleetScreenCanvas.DesignUtility.Desc=Ця вкладка містить усі доступні універсальні модулі. Універсальні модулі надають кораблю додаткову функціональність або додаткові здатності.<br/><br/><h>Клацніть правою кнопкою миші на вкладку модулів, щоби переглянути доступні модулі у вигляді списку.</h>
+UI.Objectives.FleetScreenCanvas.DesignRadiator.Name=Радіатори
+UI.Objectives.FleetScreenCanvas.DesignRadiator.Desc=Радіатори потрібні для утримання функціональної температури корабля. <h>Якщо тепло неналежно регулювати, корабель отримуватиме внутрішню шкоду та зрештою досягне катастрофічного збою.</h>
+UI.Objectives.FleetScreenCanvas.DesignBattery.Name=Акумулятори
+UI.Objectives.FleetScreenCanvas.DesignBattery.Desc=Акумулятори потрібні для накопичення енергії для використання іншими системами в разі потреби.
+UI.Objectives.FleetScreenCanvas.DesignPower.Name=Електростанції
+UI.Objectives.FleetScreenCanvas.DesignPower.Desc=Електростанції потрібні для генерації енергії для ваших інших систем.
+UI.Objectives.FleetScreenCanvas.DesignDrive.Name=Мотори
+UI.Objectives.FleetScreenCanvas.DesignDrive.Desc=Мотори відповідають за рух ваших кораблів у космосі. Ви можете мати до шести рушіїв на модулі мотора, кожен з яких збільшує тягу корабля. Ви також можете збільшити кількість баків пального для забезпечення більшої дельта-v.
+UI.Objectives.FleetScreenCanvas.DesignArmor.Name=Модулі броні
+UI.Objectives.FleetScreenCanvas.DesignArmor.Desc=Модулі броні захищають ваш корабель у бою. Є 3 комірки броні: носової, бокової та хвостової частин. Точка бокової броні є куди важчою за точку носової або хвостової броні, тому що вона покриває куди більше поверхні. 
+UI.Objectives.FleetScreenCanvas.DesignShipData.Name=Інформація про корабель
+UI.Objectives.FleetScreenCanvas.DesignShipData.Desc=Ця секція показує загальні характеристики вашого створеного корабля та оновлюється під час змін, пов'язаних з модулями.
+
+UI.Objectives.FleetScreenCanvas.DesignDataShipMass.Name=Маса корабля
+UI.Objectives.FleetScreenCanvas.DesignDataShipMass.NameShort=Характеристики
+UI.Objectives.FleetScreenCanvas.DesignDataShipMass.Desc=Маса впливає на маневреність корабля. Більша маса зменшує дельта-v та темп оберту.
+UI.Objectives.FleetScreenCanvas.DesignDataShipCruiseAccel.Name=Круїзне пришвидшення
+UI.Objectives.FleetScreenCanvas.DesignDataShipCruiseAccel.Desc=Як швидко корабель може змінювати свою швидкість на стратегічному шарі. Вище круїзне пришвидшення дозволяє кораблю подолати гравітацію космічного тіла й летіти більш прямими траєкторіями до своєї точки призначення.
+UI.Objectives.FleetScreenCanvas.DesignDataShipCombatAccel.Name=Бойове пришвидшення
+UI.Objectives.FleetScreenCanvas.DesignDataShipCombatAccel.Desc=Як швидко корабель може змінювати свою швидкість на бойовому шарі.
+UI.Objectives.FleetScreenCanvas.DesignDataShipDV.Name=Дельта-v
+UI.Objectives.FleetScreenCanvas.DesignDataShipDV.Desc=Дельта-v, яка вимірюється в кілометрах на секунду, є ключовою характеристикою корабля, що визначає, куди він може полетіти та як швидко туди дібратися. Більша кількість пального підвищує дельта-v. Більша маса на кораблі зменшує її. Ефективні мотори, які мають високий показник вихлопної швидкості, використовують меншу кількість пального для отримання такої ж тяги, як у менш ефективних моторів.<br/><br/>Зауважте, що кораблі з меншим за 5 км/с показником дельта-v, можуть мати труднощі з досягненням Місяця з орбіти Землі. Кораблі з меншим за 10 км/c показником дельта-v не матимуть змоги надійно виконувати міжпланетні подорожі із Землі. Подорожі до зовнішніх планет або кораблі, призначені для інтенсивного маневрування в бою, можуть потребувати більше дельта-v. Іноді кораблям з низьким показником дельта-v потрібно буде чекати сприятливого розташування планет, яке називається стартовим вікном, перед відправленням.
+UI.Objectives.FleetScreenCanvas.DesignDataShipTurnRate.Name=Швидкість оберту
+UI.Objectives.FleetScreenCanvas.DesignDataShipTurnRate.Desc=Як швидко ваш корабель може змінювати свою орієнтацію в бою. Це значення залежить від довжини й маси вашого корабля: коротші кораблі повертатимуть швидше, якщо всі інші параметри такі ж самі.
+UI.Objectives.FleetScreenCanvas.DesignDataShipHeatSink.Name=Місткість кулерів
+UI.Objectives.FleetScreenCanvas.DesignDataShipHeatSink.Desc=Кулери слугують за тимчасову заміну системи регулювання тепла під час того, як вразливі радіатори корабля прибрані через бій. Надлишкове тепло систем корабля скидається туди й зберігається там, допоки його не можна безпечно вивільнити. Кулери мають місткість, яка вимірюється в гігаджоулях: вищі значення дозволяють кораблю битися довше без розгортання своїх радіаторів. 
+UI.Objectives.FleetScreenCanvas.DesignDataShipBattery.Name=Місткість акумуляторів
+UI.Objectives.FleetScreenCanvas.DesignDataShipBattery.Desc=Акумулятори корабля накопичують енергію з його електростанції для використання багатьма системами озброєння, коли електростанція не може постачати енергію або через пошкодження, або коли мотор корабля активний. Більш удосконалені акумулятори здатні перезаряджатися під час бою.
+UI.Objectives.FleetScreenCanvas.DesignDataShipCost.Name=Вартість
+UI.Objectives.FleetScreenCanvas.DesignDataShipCost.Desc=Це вартість побудови цього корабля в космічних ресурсах. Якщо ресурси легкодоступні на Землі, ви можете замінити ресурси імпульсу й грошей на верфях, хоча це й подовжить час побудови корабля через очікування доставлення.
+UI.Objectives.FleetScreenCanvas.DesignDataShipBuildTime.Name=Час побудови
+UI.Objectives.FleetScreenCanvas.DesignDataShipBuildTime.Desc=Як довго будуватиметься корабель, коли всі потрібні матеріали вже перебуватимуть на верфі. Більші верфі зменшують час побудови.
+
+UI.Objectives.FleetScreenCanvas.DesignSave.Name=Збережіть макет
+UI.Objectives.FleetScreenCanvas.DesignSave.Desc=Коли ви закінчили створювати макет класу вашого корабля, клацніть сюди, щоби зберегти його. Це буде недоступним для незавершених макетів.
+
+UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Name=Навчання про зброю
+UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleDrive.Name=Навчання про мотори
+UI.Objectives.FleetScreenCanvas.DesignModuleDrive.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModulePower.Name=Навчання про електростанції
+UI.Objectives.FleetScreenCanvas.DesignModulePower.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleRadiator.Name=Навчання про радіатори
+UI.Objectives.FleetScreenCanvas.DesignModuleRadiator.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Name=Навчання про кулери
+UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Name=Навчання про акумулятори
+UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Desc=
+
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Name=Глобальне дослідження
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.NameShort=Дослідження
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Desc=Поява прибульців спричинила шквал нових ідей від наукового співтовариства. Екран досліджень показує прогрес спільних зусиль глобальних досліджень та приватних проєктів, якими займається ваша фракція.<br/><br/>Верхній ряд трьох секторних діаграм описує поточні дослідження загальних наукових принципів, переваги від яких будуть розподілені між людством. Усі фракції можуть вибрати те, робити їм внесок в кожен проєкт тільки частини прибутку одиниць дослідження чи всі одиниці дослідження. Фракція, яка зробить найбільший внесок у конкретне дослідження, зможе вибрати наступне.
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Name=Інженерні проєкти ради
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=Другий ряд секторних діаграм відображає проєкти вашої фракції. На противагу глобальним дослідженням, ці проводяться в межах вашої фракції, але також споживають прибуток одиниць дослідження.<br/><br/>Проєкти надають матеріальні переваги, як-от ресурси, новий корабель або модулі середовища.<br/><br/>Доступність проєктів в основному визначається завершеними глобальними дослідженнями: що більший внесок ви робите в глобальне дослідження, то більший шанс, що ви матимете швидкий доступ до проєктів, до яких вони призводять. Для того, щоби проводити кілька проєктів водночас, ви повинні придбати організації та модулі середовища, які надають проєкти.
+UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Name=Зміна пріоритету дослідження
+UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Desc=Тут установлюється пріоритет; клацніть лівою або правою кнопкою миші для збільшення або зменшення заповнення квадратиків. Ваш прибуток одиниць дослідження пропорційно витрачається на всі проєкти залежно від кількості заповнених квадратиків кожного проєкту. Ви отримуєте бонуси до дослідження, якщо одночасно робите внесок до кількох проєктів.
+UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Name=Показники досліджень
+UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Desc=Тут можна побачити витрачений на проєкт прибуток одиниць дослідження та як близько цей проєкт перебуває до завершення.
+UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Name=Деталі про технологію
+UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Desc=Ця кнопка показує результат дослідження цієї технології.
+UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Name=Дерево технологій
+UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Desc=Ця кнопка відкриває дерево технологій, де ви можете планувати свій шлях. 
+UI.Objectives.ResearchScreenCanvas.PrimaryArchives.Name=Архіви досліджень
+UI.Objectives.ResearchScreenCanvas.PrimaryArchives.Desc=Ця кнопка відкриває архіви досліджень, де можна подивитися, які проєкти завершила ваша фракція.
+
+UI.Objectives.NationsScreenCanvas.NationsSort.Name=Сортування націй
+UI.Objectives.NationsScreenCanvas.NationsSort.NameShort=Нації
+UI.Objectives.NationsScreenCanvas.NationsSort.Desc=Цей екран показує інформацію про всі нації Землі. Клацніть на будь-яке поле з показником для сортування списку за ним.
+UI.Objectives.NationsScreenCanvas.NationsExpand.Name=Розширте вид, щоби переглянути точки контролю
+UI.Objectives.NationsScreenCanvas.NationsExpand.Desc=Клацніть на прапор нації, щоби розширити вид для перегляду кожної точки контролю цієї нації.
+UI.Objectives.NationsScreenCanvas.NationsControlPriority.Name=Модифікуйте пріоритети нації
+UI.Objectives.NationsScreenCanvas.NationsControlPriority.Desc=Якщо ви маєте контроль над нацією, ви можете вибрати активний шаблон пріоритетів. Ви не можете модифікувати пріоритети нації, над якою у вас немає контролю.
+UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Name=Створіть шаблон пріоритетів
+UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Desc=Клацніть сюди, щоби створити свій власний користувацький шаблон пріоритетів.
+UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Name=Підсумок про точки контролю
+UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Desc=Клацніть, щоби відкрити панель, яка підсумовує місткість володіння точками контролю вашої фракції без стягнення одиниць впливу і штрафів місій.
+
+UI.Objectives.NationsScreenCanvas.DesignCycler.Name=Зміна пріоритетів
+UI.Objectives.NationsScreenCanvas.DesignCycler.NameShort=Пріоритети
+UI.Objectives.NationsScreenCanvas.DesignCycler.Desc=У цьому стовпці встановлюються пріоритети. клацніть лівою або правою кнопкою миші для збільшення або зменшення показника. Відсотки рівномірно розподіляються залежно від показника.
+UI.Objectives.NationsScreenCanvas.DesignName.Name=Назва шаблону
+UI.Objectives.NationsScreenCanvas.DesignName.Desc=Коли ви завершили регулювання значень пріоритетів, ви можете вказати назву для вашого шаблону тут.
+UI.Objectives.NationsScreenCanvas.DesignSave.Name=Збережіть свій шаблон
+UI.Objectives.NationsScreenCanvas.DesignSave.Desc=Після того, як ви завершили й вибрали назву, клацніть сюди для збереження свого шаблону.
+UI.Objectives.NationsScreenCanvas.DesignLoad.Name=Завантажте шаблон
+UI.Objectives.NationsScreenCanvas.DesignLoad.Desc=Це меню, яке опускається, дозволить вам завантажувати й переглядати будь-які збережені шаблони.
+
+UI.Objectives.SpaceCombatCanvas.Intro.Name=Космічні битви
+UI.Objectives.SpaceCombatCanvas.Intro.Desc=Ласкаво просимо до бою в Terra Invicta. Ціль будь-якого бою залежить від стратегічної ситуації. Якщо ви думаєте, що маєте перевагу, ваша ціль — знищити ворожий флот або змусити його відступити. Якщо вам не подобаються свої шанси, ціллю може бути просте відведення якомога більшої кількості кораблів з бою.
+UI.Objectives.SpaceCombatCanvas.Formations.Name=Строї
+UI.Objectives.SpaceCombatCanvas.Formations.Desc=На початку кожного бою в Terra Invicta ви визначатимете початковий стрій своїх кораблів. Ви хочете, щоби ваші найбільш броньовані кораблі були попереду, чи щоби ваші найважче озброєні кораблі зібралися на одному боці? Вибір за вами. 
+UI.Objectives.SpaceCombatCanvas.MainFriendlyShipList.Name=Ваші кораблі в битві
+UI.Objectives.SpaceCombatCanvas.MainFriendlyShipList.Desc=Ця панель відображає список ваших активних кораблів у цій космічній битві. Ви можете клацнути на будь-який значок корабля в списку для відкриття панелі з деталями про нього, яка включає накази кораблю й керування вогнем. Двічі клацніть на значок корабля для зосередження камери на ньому камеру.
+UI.Objectives.SpaceCombatCanvas.MainEnemyShipList.Name=Ворожі кораблі в битві
+UI.Objectives.SpaceCombatCanvas.MainEnemyShipList.Desc=Ця панель відображає список усіх ворожих кораблів у битві й загальну шкоду їм. Двічі клацніть на значок корабля для центрування камери на ньому.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Name=Панель наказів флоту
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Desc=Це — панель наказів корабля. Накази тут віддаватимуться кожному вашому кораблю водночас. Якщо ви хочете віддати наказ конкретному кораблю, клацніть на нього або його значок на панелі ліворуч, щоби відкрити панель з деталями про цей корабель. Ви можете навести курсор на кнопки з наказами, щоби переглянути більше деталей.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Name=Флот: визначити основну ціль
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=Це надасть вам змогу вибрати ворожий корабель як основну ціль для всієї зброї вашого флоту. Ракетна зброя стрілятиме тільки в основні цілі.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Name=Флот: прибрати основну ціль
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Desc=Це прибере поточну ціль кожної одиниці вашої зброї флоту й дозволить їм вести самостійний вогонь.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandExtendRadiators.Name=Флот: розгорнути радіатори
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandExtendRadiators.Desc=Цей наказ розгорне радіатори всіх кораблів вашого флоту. Розгорнуті радіатори витягають тепло, накопичене в кулерах корабля. Розгорнуті радіатори, однак, є надзвичайно вразливими до атак. 
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandRetractRadiators.Name=Флот: прибрати радіатори
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandRetractRadiators.Desc=Ця команда прибере радіатори на всіх кораблях вашого флоту. Прибрані радіатори захищені від атак. Вони, однак, не витягуватимуть тепло. Коли рівень тепла на кораблі досягнув максимуму, його радіатори будуть змушені розгорнутися. Якщо їх зруйнують, корабель постраждає від пошкоджень та зазнає знищення.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandAIControl.Name=Флот: установити контроль ШІ
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandAIControl.Desc=Цей наказ установить контроль ШІ над усіма кораблями вашого флоту. Ви можете будь-коли повернути контроль собі.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFocusFire.Name=Флот: установити стан зосередженого вогню
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFocusFire.Desc=Цей наказ змусить наступальну зброю вашого корабля зосередити вогонь на своїй основній цілі, вона ігноруватиме будь-яких інших ворогів. Зброя, здатна до захисту, не стрілятиме оборонно.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureAttack.Name=Флот: установити стан атаки
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureAttack.Desc=Цей наказ змусить усю наступальну зброю вашого флоту віддати перевагу своїй основній цілі, якщо вона перебуває в діапазоні досяжності, інакше вона атакуватиме найближчу доступну ціль. Зброя, здатна до захисту, не стрілятиме оборонно.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureBalanced.Name=Флот: установити збалансований стан
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureBalanced.Desc=Цей наказ змусить усю наступальну зброю вашого флоту віддати перевагу своїй основній цілі, якщо вона перебуває в діапазоні досяжності, інакше вона атакуватиме найближчу доступну ціль. Зброя, здатна до захисту, використовуватиме вартовий режим і спочатку стрілятиме в загрозливі ворожі снаряди, а вже потім у кораблі.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureDefensive.Name=Флот: установити оборонний стан
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureDefensive.Desc=Цей наказ змусить усю наступальну зброю вашого флоту віддати перевагу своїй основній цілі, якщо вона перебуває в діапазоні досяжності, інакше вона атакуватиме найближчу доступну ціль. Зброя, здатна до захисту, стрілятиме тільки у снаряди, а не кораблі.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFortified.Name=Флот: установити стан укріплення
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFortified.Desc=Цей наказ змусить усю наступальну зброю вашого флоту перебувати в режимі очікування для збереження енергії та набоїв. Усій іншій зброї встановиться захисний режим.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandManeuver.Name=Флот: накази маневрування
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandManeuver.Desc=Ця кнопка відкриває додаткову панель із удосконаленими варіантами маневрування. Наприклад, наведення на основну ціль корабля, щоби носова частина була напрямлена на неї, або наказ зупинки всього флоту.
+UI.Objectives.SpaceCombatCanvas.OfferToEndBattle.Name=Запропонуйте завершити битву
+UI.Objectives.SpaceCombatCanvas.OfferToEndBattle.Desc=Поставте позначку, щоби запропонувати завершити бій за взаємної згоди з ворожим командиром. Якщо обидві сторони виберуть цей варіант, битва завершиться.
+UI.Objectives.SpaceCombatCanvas.EndBattle.Name=Завершення битви
+UI.Objectives.SpaceCombatCanvas.EndBattle.Desc=Бій завершиться тоді, коли флот був знищений, флот відступив або обидві сторони погодилися завершити його. 
+UI.Objectives.SpaceCombatCanvas.TimeControls.Name=Керування часом бою
+UI.Objectives.SpaceCombatCanvas.TimeControls.Desc=Використовуйте ці параметри для керування плином часу під час битви.
+
+UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Name=Деталі про вибраний корабель
+UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Desc=Ця панель містить усю інформацію про вибраний на даний момент корабель.
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Name=Панель наказів корабля
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Desc=Ця панель містить накази, які можна віддати вибраному на даний момент кораблю. Щоби одночасно віддати накази всьому флоту, використайте панель наказів флоту у верхній частині екрана.
+UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Name=Швидкість тарана
+UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Desc=Це накаже кораблю спланувати курс зіткнення зі своєю основною ціллю. Зіткнення заподіє серйозної, імовірно фатальної шкоди обом кораблям. За це зазвичай стягується плата одиниць впливу, яка відображає здатність переконати екіпаж віддати свої життя.
+UI.Objectives.SpaceCombatCanvas.ShipDetailDisengage.Name=Вихід із бою
+UI.Objectives.SpaceCombatCanvas.ShipDetailDisengage.Desc=Це накаже кораблю відступити з бою. Корабель відступить, коли пройшло 30 хвилин і він перебуває за 2000 кілометрів від ворожих кораблів.
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Name=Накази маневрування корабля
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Desc=Ця кнопка відкриває додаткову панель із удосконаленими варіантами маневрування. Вони дозволяють вам контролювати обертальні кути й напрямок корабля, щоби мати ліпшу позицію в бою. Наприклад, наведіться на основну ціль корабля, щоби носова частина була напрямлена на неї, або введіть у дію захисні маневри для мінімізації впливу снарядів, що наближаються.
+UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Name=Температура корабля
+UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Desc=Ця панель показує накопичене в кулерах корабля тепло. Тепло розсіюватиметься, коли радіатори корабля розгорнуті. Коли рівень тепла досягає максимуму, корабель почне отримувати внутрішню шкоду. Якщо можливо, радіатори розгорнуться, щоби розпочати випромінювати тепло. <h>Без належного регулювання тепла корабель досягне катастрофічного збою.</h> 
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=Залишок акумуляторів корабля
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=Ця панель показує залишок заряду акумулятора на цьому кораблі. Деяка зброя споживає заряд акумулятора під час стрільби, але перезаряджається від електростанцій. Контролюйте ваше споживання й залишок заряду, щоби впевнитися в тому, що ваш корабель зможе битися з оптимальною міццю в ключових моментах.
+UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Name=Залишок дельта-v корабля
+UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Desc=Тут показується запас дельта-v, який може витратити цей корабель в поточній битві. Корабель завжди зберігає достатньо дельта-v для завершення своєї поточної траєкторії.
+UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Name=Зброя корпусу корабля
+UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Desc=Зброя корпусу корабля зазначена тут. Зброя корпусу встановлюється парами на боковому корпусі корабля й може обертатися для стрільби в будь-якому напрямку. Ви можете клацнути на зазначений тут значок зброї для зміни різних доступних режимів стрільби.
+UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Name=Зброя носової частини корабля
+UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Desc=Зброя носової частини корабля зазначена тут. Зброя носової частини встановлюється на носі корабля й може стріляти тільки дугою щодо спрямованого вперед кута корабля. Ви можете клацнути на зазначений тут значок зброї для зміни різних доступних режимів стрільби. Наведіть курсор на зброю, щоби переглянути додаткові деталі.
+UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Name=Витримані пошкодження корабля
+UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Desc=Ця область показує будь-які пошкодження, які витримав вибраний корабель, та де вони були заподіяні. Наведіть курсор на будь-який вузол підвіски, щоби переглянути більше деталей.
+UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Name=Знищення корабля
+UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Desc=Корабель знищений, коли його носова, центральна й хвостова секції отримують надто багато шкоди.
+
+UI.Objectives.SpaceCombatCanvas.CameraPan.Name=Панорамування камери (WSAD або середня кнопка миші)
+UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=Використовуйте клавіші W, S, A й D для панорамування камери за площинами X та Z або клацніть та потягніть середньою кнопкою миші. 
+UI.Objectives.SpaceCombatCanvas.CameraRotate.Name=Обертання камери 
+UI.Objectives.SpaceCombatCanvas.CameraRotate.Desc=Утримуйте праву кнопку миші й рухайте мишею для зміни кута огляду.
+UI.Objectives.SpaceCombatCanvas.CameraFly.Name=Політ камери
+UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=Утримуйте праву кнопку миші й використовуйте клавіші W, S, A й D для польоту камери навколо бойового простору.
+UI.Objectives.SpaceCombatCanvas.CameraHeight.Name=Регулювання висоти камери (Ctrl + середня кнопка миші)
+UI.Objectives.SpaceCombatCanvas.CameraHeight.Desc=Утримуйте Ctrl і середню кнопку миші й рухайте нею для зміни висоти камери. 
+
+UI.Objectives.SpaceCombatCanvas.Momentum.Name=Імпульс
+UI.Objectives.SpaceCombatCanvas.Momentum.Desc=За сером Ісааком Ньютоном: «Всяке тіло продовжує зберігати стан спокою або рівномірного і прямолінійного руху, допоки цей стан не змінять сили, застосовані до нього». Це залишається незмінним і для кораблів у боях у космосі. Кораблі зберігають свій імпульс, і без опору повітря або тертя з поверхнею для природного сповільнення вони продовжуватимуть рухатися своєю траєкторією, допоки не використають мотори для тяги. Це дозволяє обізнаним командирам здійснювати розумні маневри, а недосвідчені командири можуть створювати заплутані, як волосяний клубок, ситуації: розлетітися і дрейфувати у бойовому просторі. Пам'ятайте про імпульс, щоби ваші вороги не розібрали вас на частини.
+UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Name=Орієнтири корабля
+UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Desc=У Terra Invicta ви контролюєте рух ваших кораблів за допомогою керування їхніми орієнтирами. Орієнтир — це позиція, обертання й швидкість корабля у майбутньому. Ви можете налаштувати позицію орієнтира, так само, як і його обертання, у трьох вимірах. Кораблі послідовно пересуватимуться від одного орієнтира до іншого. Червоний колір символізує найближчий орієнтир, фіолетовий — найвіддаленіший. Усі кораблі одночасно досягнуть орієнтира одного кольору. Використовуйте це для планування їхніх позицій щодо інших кораблів у майбутньому.<br/><br/>(Зауважте, що ворожі орієнтири, — це лише проєкції майбутньої позиції відповідного корабля на основі їхньої поточної позиції та швидкості.)
+UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Name=Налаштування рискання орієнтира (клавіша Z) 
+UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Desc=Утримуйте <h>клавішу Z</h>, поки клацаєте на орієнтир та тягнете його, щоби налаштувати обертальний кут лише за віссю Y. За допомогою цього траєкторія корабля залишатиметься незмінною, зміниться лише його кут спрямування. Спробуйте обернути корабель зараз. 
+UI.Objectives.SpaceCombatCanvas.WaypointsPitch.Name=Налаштування тангажа орієнтира (клавіша X)
+UI.Objectives.SpaceCombatCanvas.WaypointsPitch.Desc=Утримуйте <h>клавішу X</h>, поки клацаєте на орієнтир та тягнете його, щоби налаштувати обертальний кут лише за віссю X. За допомогою цього траєкторія корабля залишатиметься незмінною, зміниться лише його кут спрямування.
+UI.Objectives.SpaceCombatCanvas.WaypointsRoll.Name=Налаштування крену орієнтира (клавіша C)
+UI.Objectives.SpaceCombatCanvas.WaypointsRoll.Desc=Утримуйте <h>клавішу C</h>, поки клацаєте на орієнтир та тягнете його, щоби налаштувати обертальний кут лише за віссю Z. За допомогою цього траєкторія корабля залишатиметься незмінною, зміниться лише його кут спрямування.
+UI.Objectives.SpaceCombatCanvas.WaypointsRotation.Name=Налаштування обертання орієнтира
+UI.Objectives.SpaceCombatCanvas.WaypointsRotation.Desc=Пам'ятайте, що якщо до поточного орієнтира вже застосована достатня кількість тяги (показується червона лінія), <h>вам може не вдатися налаштувати обертання орієнтира</h>, оскільки корабель не матиме достатньо часу, щоби досягнути цього кута з його швидкістю. У такому разі вам доведеться застосувати обертання на наступному орієнтирі.
+UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Name=Налаштування орбітального маневру орієнтира (клавіша R)
+UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Desc=Утримуйте <h>клавішу R</h>, поки клацаєте на орієнтир та тягнете його, щоби налаштувати його орбітальний маневр. Головний мотор корабля рухатиме його в напрямку, куди він спрямований. 
+UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Name=Налаштування висоти орієнтира (клавіша Q)
+UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Desc=Утримуйте <h>клавішу Q</h>, поки клацаєте на орієнтир та тягнете його, щоби налаштувати його висоту. Космічні бої в Terra Invicta відбуваються в тривимірному просторі, використовуйте цю особливість для керування траєкторією вашого корабля на площинах Z та Y. 
+UI.Objectives.SpaceCombatCanvas.WaypointsReset.Name=Скинути орієнтир (ПКМ)
+UI.Objectives.SpaceCombatCanvas.WaypointsReset.Desc=<h>Виберіть орієнтир за допомогою правої кнопки миші</h>, щоби скинути його до початкової траєкторії.
+UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Name=Налаштування бокової позиції орієнтира (клавіша E)
+UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Desc=Утримуйте <h>клавішу E</h>, поки клацаєте на орієнтир та тягнете його, щоби налаштувати його бокову позицію. Використовуйте цю особливість для керування траєкторією вашого корабля на площинах X та Y. 
+UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Name=Налаштування позиції орієнтира (ЛКМ)
+UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Desc=Щоби горизонтально пересувати орієнтир на площинах X та Z, <h>клацніть на нього та тягніть його в напрямку, у якому хочете, щоби корабель подорожував</h>. Зауважте, що позиція орієнтира впливає на діапазон можливих рухів для решти орієнтирів залежно від рухливості корабля. Спробуйте пересунути орієнтир зараз. 
+UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Name=Зелені й червоні лінії
+UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Desc=Після пересування орієнтира ви зможете побачити, що зелена лінія, яка поєднує орієнтири, перетворилася на червону. Зелений сегмент відображає траєкторію в режимі очікування, тобто під час цього корабель не виконуватиме жодних маневрів. Червоний сегмент відображає орбітальний маневр, тобто корабель використовуватиме свій головний мотор для зміни швидкості. 
+UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Name=Жовті лінії
+UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Desc=Після обертання орієнтира ви зможете побачити, що лінія, яка поєднує орієнтири, перетворилася на жовту. Жовтий сегмент відображає час, який корабель витратить на використання своїх рушіїв для обертання. 
+UI.Objectives.SpaceCombatCanvas.WaypointsTip.Name=Маневрування кораблів
+UI.Objectives.SpaceCombatCanvas.WaypointsTip.Desc=Пам'ятайте про систему озброєння вашого корабля, його броню й снаряди, що наближаються. Вони допоможуть вам визначити, як маневрувати вашими кораблями на полі бою. 
+
+UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Name=Вибір групи (Shift + ЛКМ)
+UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Desc=Кілька кораблів можна вибрати одночасно. <h>Утримуйте Shift</h> і виберіть свої кораблі в битві або їхню картку в списку флоту. 
+UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Name=Вибір поля (ЛКМ + тягнути)
+UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Desc=Кораблі також можна вибирати за допомогою <h>клацання й тягнення</h> поля навколо кораблів, які ви хочете вибрати.
+UI.Objectives.SpaceCombatCanvas.ControlGroups.Name=Групи керування (Ctrl+ [клавіші з цифрами 0-9])
+UI.Objectives.SpaceCombatCanvas.ControlGroups.Desc=Для легкого вибору кораблі можна групувати за допомогою <h>утримання Ctrl</h> і <h>натискання на клавішу з цифрами (0-9)</h>. Цей вибір кораблів тепер закріплений за цим номером. Групи керування можна вибрати за допомогою закріпленої <h>клавіші з цифрою</h>. 
+UI.Objectives.SpaceCombatCanvas.GroupCommands.Name=Накази групам
+UI.Objectives.SpaceCombatCanvas.GroupCommands.Desc=Зауважте, що коли група вибрана, накази на <h>нижній панелі</h> віддаються <h>цій групі</h>. 
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemement.Name=Пересування групи
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemement.Desc=Коли група кораблів вибрана, накази пересування й обертання віддаються всім кораблям цієї групи, а маневреність буде обмеженою до найменш маневрених кораблів групи, щоби кораблі легко залишалися в строю.
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemementFree.Name=Вільне пересування групи (Shift)
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemementFree.Desc=Стройове пересування групи можна скасувати за допомогою утримування Shift та віддавання наказів пересування й обертання.
+UI.Objectives.SpaceCombatCanvas.MultiShipAttraction.Name=Притягальне пересування (Ctrl)
+UI.Objectives.SpaceCombatCanvas.MultiShipAttraction.Desc=Коли група вибрана, ви можете <h>утримувати Ctrl</h>, щоби наказати всім кораблям рухатися <h>до</h> миші.
+UI.Objectives.SpaceCombatCanvas.MultiShipRepulsion.Name=Відштовхувальне пересування (Alt)
+UI.Objectives.SpaceCombatCanvas.MultiShipRepulsion.Desc=Коли група вибрана, ви можете <h>утримувати Alt</h>, щоби наказати всім кораблям рухатися <h>від</h> миші.
+
+
+UI.Objectives.NaturalSpaceObjectOps.1.Name=Космічні операції
+UI.Objectives.NaturalSpaceObjectOps.1.NameShort=Операції
+UI.Objectives.NaturalSpaceObjectOps.1.Desc=Коли ви вибрали планету, супутник, астероїд або точку Лагранжа, вибір космічних операцій з'явиться тут. Ці операції дозволять вам працювати над створенням середовищ існування в цій місцині без використання ваших флотів.
+UI.Objectives.NaturalSpaceObjectOps.2.Name=Зонди
+UI.Objectives.NaturalSpaceObjectOps.2.Desc=Різноманітні глобальні технології «Місія на...» дозволяють досліджувати нові частини Сонячної системи. Для побудови баз на поверхнях космічних тіл вам спочатку потрібно дослідити тіло за допомогою зонда або належно обладнаного флоту для вивчення потенційних місцин для баз.<br/><br/>Ви можете запускати зонди тут. Вони можуть летіти із Землі або верфі неподалік, якщо ви збудували її.
+UI.Objectives.NaturalSpaceObjectOps.3.Name=Засновування середовищ існування
+UI.Objectives.NaturalSpaceObjectOps.3.Desc=За допомогою належних відкритих технологій будівництва й дослідження ви також можете засновувати середовища на цьому космічному об'єкті через запуски із Землі або із середовищ неподалік за допомогою будівничого модуля. Щоби вони прибули, потрібен деякий час.
+
+UI.Objectives.ArmyOps.1.Name=Операції з військами
+UI.Objectives.ArmyOps.1.NameShort=Війська
+UI.Objectives.ArmyOps.1.Desc=Після вибору одного з ваших військ їхні доступні операції з'являться тут.<br/><br/>Війська можуть пересуватися до регіонів на своїй батьківщині, у націях союзників або націях, що воюють з їхньою рідною нацією. Вони автоматично окуповуватимуть території та взаємодіятимуть з ворожими військами. Вони також пересікатимуть водойми, якщо їхня нація володіє свободою морів.<br/><br/>Війська дешевше утримувати, якщо вони розміщені у своєму домашньому регіоні.
+
+UI.Objectives.ArmyOps.2.Name=Операції з військами
+UI.Objectives.ArmyOps.2.Desc=Інші операції з військами дозволяють їм концентрувати увагу на конкретній місцині в їхньому регіоні.
+
+UI.Objectives.FleetOps.1.Name=Операції з флотом
+UI.Objectives.FleetOps.1.NameShort=Флоти
+UI.Objectives.FleetOps.1.Desc=Ці значки позначають різноманітні операції, які можуть проводити ваші флоти. Операції можуть широко варіюватися залежно від модулів, якими обладнані ваші флоти.<br/><br/>Деякі операції з флотами мають таку тривалість, яка робитиме їх недоступними, допоки операція не завершиться або не скасується.
+
+UI.Objectives.FleetOps.2.Name=Операції подорожей
+UI.Objectives.FleetOps.2.Desc=Для пересування вашого флоту до іншої орбіти, станції або флоту виберіть операцію подорожі для того, щоби вказати пункт призначення й відкрити планувальник траєкторій.<br/><br/>Спрямовування до ворожого флоту, станції із оборонними модулями або оборонним флотом розпочне космічну битву. Якщо ворожа станція незахищена, після прибуття ви здійсните стикування й зможете проводити додаткові операції.
+
+UI.Objectives.TransferOp.1.Name=Планування траєкторії
+UI.Objectives.TransferOp.1.NameShort=Траєкторія
+UI.Objectives.TransferOp.1.Desc=Ці панелі дозволяють вам відправити один зі своїх флотів на іншу орбіту, станцію або до іншого флоту.<br/><br/>Ви можете змінювати пункт призначення за допомогою текстового меню або під час перегляду Сонячної системи.
+
+UI.Objectives.TransferOp.2.Name=Дельта-v
+UI.Objectives.TransferOp.2.Desc=Дельта-v — це показник того, як сильно ваші кораблі можуть змінювати свою швидкість перед тим, як у них закінчиться пальне; це, по суті, показник діапазону корабля. Ваші флоти використовують найменше значення дельта-v споміж своїх кораблів.<br/><br/>Якщо для досягнення пункту призначення доступно кілька варіантів, з'явиться бігунець, який можна використовувати для обміну тривалості подорожі на дельта-v. Під час вибору ви зможете побачити шлях польоту за допомогою перегляду Сонячної системи.<br/><br/>Зауважте, що деякі траєкторії можуть включати варіант очікування на стартове вікно в пункті відправлення.
+
+UI.Objectives.TransferOp.3.Name=Управління дельта-v
+UI.Objectives.TransferOp.3.Desc=Ви можете поповнювати запаси своїх кораблів у середовищах або депо постачання. Упевніться, що ви зберігаєте достатню кількість дельта-v, щоби туди дібратися. Якщо ви очікуєте на бій з кимось, вам також варто зберегти більшу кількість дельта-v.
+
+UI.Objectives.TransferOp.4.Name=Особливі маневри
+UI.Objectives.TransferOp.4.Desc=Ви також можете встановити один із двох особливих маневрів для своєї траєкторії.<br/><br/>Аерогальмування доступне тільки на космічних тілах з атмосферами, але воно дозволяє вам зберегти дельта-v через гальмування проти атмосфери для сповільнення. Воно також створює ризик пошкодити ваші кораблі, якщо вони не збудовані для операцій такого виду.<br/><br/>Вибір маневру прольоту означає, що ваш флот не сповільниться для зупинки в пункті призначення, а натомість використає його для допомоги гравітації. Після прибуття ви зможете вибрати новий пункт призначення.
+
+UI.Objectives.TransferOp.5.Name=Космічні бої
+UI.Objectives.TransferOp.5.Desc=Відправлення вашого флоту траєкторією до іншого флоту розпочне космічну битву, коли ви прибудете.
+
+UI.Objectives.TransferOp.6.Name=Великі космічні битви
+UI.Objectives.TransferOp.6.Desc=На дуже великих космічних битвах перебуватимуть активні кораблі й прилітатиме підкріплення. Підкріплення приєднуватиметься під час бою, щоби замінити активні кораблі, коли ті будуть зруйновані. Ви можете будь-коли під час бою змінити максимальну кількість активних кораблів у налаштуваннях ігроладу. Максимальна кількість 30 обмежить кожну сторону до 15 активних кораблів у будь-який час. Це робиться заради швидкодії.
+
+UI.Objectives.SpaceBodyDetail.1.Name=Деталі про космічне тіло
+UI.Objectives.SpaceBodyDetail.1.NameShort=Космічне тіло
+UI.Objectives.SpaceBodyDetail.1.Desc=Ця панель відображає деталі при вибране вами космічне тіло.<br/><br/>Верхня панель містить фізичну інформацію про тіло. Вищі значення гравітації та другої космічної швидкості означають, що на поверхні цього космічного тіла дорожче будувати шахти й запускати з неї кораблі.
+
+UI.Objectives.SpaceBodyDetail.2.Name=Видобувний потенціал
+UI.Objectives.SpaceBodyDetail.2.Desc=Ці значення є прогнозом того, скільки шахти п'яти основних космічних ресурсів (води, летких речовини, металів, благородних металів і розщеплюваних матеріалів) вироблятимуть на цій планеті. Більше шевронів означають ліпший потенційний результат.
+
+UI.Objectives.SpaceBodyDetail.3.Name=Орбіти
+UI.Objectives.SpaceBodyDetail.3.Desc=Це — список орбіт навколо тіла. Орбіти слугують за місцини для станцій та пункти призначень для флотів. Для приземлення на базі або ділянці середовища вам спочатку потрібно відправити свій флот до орбіти інтерфейсу, яка позначена значком планети.
+
+UI.Objectives.SpaceBodyDetail.4.Name=Ділянки середовища
+UI.Objectives.SpaceBodyDetail.4.Desc=Ділянки середовища — це місцини на тілі, де фракція може збудувати базу. Після дослідження космічного тіла точна кількість прибутків з його ділянки середовища показуватиметься тут.
+
+UI.Objectives.LagrangePoint.1.Name=Деталі про точки Лагранжа
+UI.Objectives.LagrangePoint.1.NameShort=Точки Лагранжа
+UI.Objectives.LagrangePoint.1.Desc=Точки Лагранжа — це точки в космосі, створені за допомогою взаємодії гравітації ближніх космічних тіл. Вони можуть слугувати за стабільні опори для флотів і станцій.
+
+UI.Objectives.Hab.1.Name=Деталі про середовище існування
+UI.Objectives.Hab.1.NameShort=Середовище існування
+UI.Objectives.Hab.1.Desc=Ця панель відображає базову інформацію про вибрану вами станцію або базу. Клацніть на зображення для відкриття всіх деталей у керівнику середовищ.
+
+UI.Objectives.EnemyFleet.1.Name=Деталі про флот
+UI.Objectives.EnemyFleet.1.NameShort=Флот
+UI.Objectives.EnemyFleet.1.Desc=Тут показуються деталі про вибраний ворожий флот.<br/><br/>Перехресні мечі є орієнтовним показником бойової моці флоту.
+
+UI.Tutorial.VO.1=Вітаю, командире! Я Фіона Айоаде, голова вашого штабу. Я ознайомлю вас із ситуацією.
+UI.Tutorial.VO.2=Наша рада складається з одних з найліпших та найрозумніших осіб Землі. Вони здібні, сполучені та готові виконувати ваші накази.
+UI.Tutorial.VO.3=Якщо перед нами й справді стоїть загроза вторгнення, ми повинні розпочати підготовку зараз. Нам знадобиться глобальна співпраця небаченого раніше масштабу. Раджу почати роздавати завдання нашим радникам, щоби ті здобували підтримку на стратегічних позиціях влади всієї планети
+UI.Tutorial.VO.4=Ми все ще отримуємо звіти, але й так зрозуміло, що на планеті розбився інопланетний об'єкт. Ми повинні якомога швидше відправити радника для дослідження тієї місцини.
+UI.Tutorial.VO.5=Це — ваш головний інтерфейс наказів. Звідси ми можемо спостерігати за розвитком подій у світі й поза ним, відправляти наших радників на місії, спрямовувати дослідження й розвиток і ще багато чого. Знайдіть трохи часу, щоби ознайомитися з ним.
+UI.Tutorial.VO.6=Інформація про нашого поточного вибраного радника з'являтиметься в нижньому правому куті екрана. Їхні доступні місії можна знайти в нижній частині центру екрана.
+UI.Tutorial.VO.7=Для нас неймовірно важливо не забувати про наші цілі. Я оновлюватиму цей екран, щоби ви бачили наші поточні завдання.
+UI.Tutorial.VO.8=Наші радники повідомлятимуть про завершення своїх місій. Ви зможете призначити їм нові під час наступної фази місії.
+UI.Tutorial.VO.9=Наші дослідники просять вашого керівництва щодо спрямування їхніх зусиль.
+UI.Tutorial.VO.10=Це — екран досліджень. Три верхні діаграми показують, над чим працює глобальне наукове співтовариство. Нижні діаграми показують, які інженерні проєкти ради ми приватно проводимо. Ми можемо спрямувати наших дослідників так, щоби вони надавали перевагу будь-якому з цих варіантів або їм усім.
+UI.Tutorial.VO.10a=Це — дерево технологій. Наші дослідники екстраполювали те, до чого можуть призвести різні наукові прориви.
+UI.Tutorial.VO.10b= Це — дерево технологій. Наші дослідники екстраполювали те, до чого можуть призвести різні наукові прориви. Чесно кажучи, командире, якщо я надто довго дивитимуся на нього, у мене почне боліти голова. А вони ще кажуть, що воно спрощене.
+UI.Tutorial.VO.10c= А це... завершене...
+UI.Tutorial.VO.10d=Командире, ви вже досить довго витріщаєтеся на дерево технологій. Може, чашечку кави?
+UI.Tutorial.VO.10e=Це — список інженерних проєктів ради, які ми можемо проводити цієї миті.
+UI.Tutorial.VO.10f=Це — архіви досліджень, де можна переглянути звіти про наші завершені дослідження.
+UI.Tutorial.VO.11=Наш радник здобув підтримку людей, які перебувають на ключових позиціях влади в нації. Ми повинні подумати про те, якими повинні бути наші пріоритети в цій нації.
+UI.Tutorial.VO.12=Наші радники вже перевантажені завданнями. Раджу розширити раду.
+UI.Tutorial.VO.13=Ми розширюємо наші операції, тож незабаром нам знадобиться підтримка великої нації.
+UI.Tutorial.VO.14=Ми повинні докласти всіх зусиль для розуміння соціальної та економічної ситуації нації, щоби спрямувати її розвиток на підтримку наших інтересів.
+UI.Tutorial.VO.15=Пріоритети нації визначають те, як вона розвиватиметься з часом. Що більше точок контролю в нації ми здобуваємо, то більше пріоритетів ми можемо спрямувати.
+UI.Tutorial.VO.16=Пам'ятайте, командире, у нас є вороги, і не тільки позаземні.
+UI.Tutorial.VO.17=Командире, бажаю представити вам раду. Знайдіть трохи часу, щоби ознайомитися з нашими радниками. Вони є основою нашої організації.
+UI.Tutorial.VO.17a=Це — досьє нашого радника. У ньому ви можете переглянути місії радника, його характеристики, риси, місячні прибутки й організації. Різні типи радників матимуть змогу проводити різні типи місій.
+UI.Tutorial.VO.17b=Я зібрала досьє потенційних кандидатів на посаду радника, щоби ви ознайомилися. Командире, інші фракції мають точки опори в багатьох націях Землі. Якщо необхідно, наші радники можуть їх викорінити.
+UI.Tutorial.VO.18=За найгірших обставин нашим єдиним варіантом є оголошення війни іншій нації та впровадження повної зміни режиму в ній.
+UI.Tutorial.VO.19=Це — екран розвідданих. Він містить всю зібрану нами розвідувальну інформацію й покриває велику кількість тем. Тут ви можете переглянути всю зібрану нами інформацію про інші великі фракції, які ведуть діяльність на Землі.
+UI.Tutorial.VO.19a=Ця секція містить усю зібрану нами розвідувальну інформацію про прибульців. Ми можемо продовжити відстежування будь-якої підозрілої інопланетної діяльності й відповідно поновлювати інформацію. Не забувайте періодично перевіряти її.
+UI.Tutorial.VO.19b=У цій секції зібрана інформація з усього світу. Ви можете побачити світову інформацію, товарну біржу, поточний стан навколишнього середовища, війни, які тривають, і який ми маємо вигляд в очах глобальної публіки.
+UI.Tutorial.VO.19c=Ця секція містить усю відому інформацію про тіла в нашій Сонячній системі.
+UI.Tutorial.VO.19d=Ця секція — планувальник подорожей. Він є потужним інструментом для планування подорожей в Сонячній системі. Ми можемо використовувати його, щоби робити обґрунтовані рішення про те, як створювати наші кораблі.
+UI.Tutorial.VO.19e=Ця секція відображає інформацію про досліджені нами космічні тіла. Вона повинна стати корисною для визначення того, де будувати наші бази.
+UI.Tutorial.VO.20=Це — екран націй. На ньому ми можемо стежити за всіма націями, які перебувають під нашим контролем, або переглядати інформацію про всі нації Землі. Ця інформація повинна стати корисною для спрямування місій наших радників та пріоритетів націй, які перебувають під нашим контролем.
+UI.Tutorial.VO.20a=Конструктор шаблонів пріоритетів дозволяє нам створювати плани національного розвитку, які можна ще раз легко використати.
+UI.Tutorial.VO.20b=Цей екран звітує про нашу місткість точок контролю. Володіння більшою кількістю точок контролю за ту, яка нам властива, напружить наші операції та коштуватиме одиниць впливу для утримання.
+UI.Tutorial.VO.21=Технологічні компанії, картелі, розвідувальні організації — кожним з цих об'єктів можна скористатися, щоби отримати потужну підтримку.
+UI.Tutorial.VO.22=Здається, що ми не одні. Радники інших фракцій розпочинають місії у всьому світі.
+UI.Tutorial.VO.23=На лівій стороні вашого інтерфейсу розташована стрічка новин. Вона інформуватиме вас про важливі події. Деякі термінові оновлення про наші операції також з'являтимуться в лівій верхній частині вашого екрана.  
+UI.Tutorial.VO.24=Командире, ми отримуємо звіти про прямування інопланетного корабля до Землі.
+UI.Tutorial.VO.25=Командире, люди, які робили внесок до глобального дослідження, дали нам можливість спрямувати зусилля наукового співтовариства. Чекаю ваших наказів.
+UI.Tutorial.VO.26=Дослідницькі станції, космічні доки, центри поповнення запасів — усі будуть нам потрібні. Коли ви думаєте, що ми готові, зробіть рішучий крок на орбіту.
+UI.Tutorial.VO.27=Наша станція не буде корисною без засобу генерації енергії.  
+UI.Tutorial.VO.28=Настав час пустити нашу станцію в хід.
+UI.Tutorial.VO.29=Для підтримки флоту нам знадобляться масштабні видобувні операції. Запуск зонду допоможе нам отримати надзвичайно важливу дослідницьку інформацію.
+UI.Tutorial.VO.30=Видобувні комплекси є вашим основним засобом здобуття космічних ресурсів, а це означає, що для створення середовищ існування та космічних апаратів нам не потрібно буде вдаватися до використання дорогих ракет, запущених із Землі.
+UI.Tutorial.VO.31=Якщо ми хочемо розпочати побудову військового флоту, нам знадобиться збудувати космічний док.  
+UI.Tutorial.VO.32=Нарешті, ми можемо збудувати щось потужне.
+UI.Tutorial.VO.33=Лише на Землі нам не вдасться здобути перемогу у війні з прибульцями. Ми повинні й надалі будувати військові кораблі для захисту від прибульців та зрештою нападу на них.
+UI.Tutorial.VO.34=Це — екран середовищ. Тут ми можемо керувати нашими орбітальними станціями й базами на планетах, супутниках або астероїдах. Крім того, ми можемо переглядати будь-які інші відкриті нами станції або бази.
+UI.Tutorial.VO.35=Це — екран флотів. Тут ми можемо спостерігати за нашими флотами й будь-якими іншими виявленими нами флотами.
+UI.Tutorial.VO.36=У конструкторі флотів ми можемо створювати нові класи кораблів або планувати переобладнання кораблів, які ми вже збудували.
+UI.Tutorial.VO.36a=Створені вами кораблі з'являтимуться тут. Ми можемо будувати кораблі в середовищах з будівничими приміщеннями.
+UI.Tutorial.VO.37=Вибір космічного тіла дозволяє нам переглядати інформацію про його фізичні властивості, видобувні ділянки й орбіти та будувати на ньому станції і бази.  
+UI.Tutorial.VO.38=Коли м'яка сила не справляється, потрібна важка техніка.
+UI.Tutorial.VO.39=Кодекс містить ключову інформацію про керування операціями нашої фракції. Якщо ви маєте запитання, я раджу переглянути кодекс. Коли ситуація розвиватиметься, він оновлюватиметься.
+
+
+
+
+
+
+
+
+
+

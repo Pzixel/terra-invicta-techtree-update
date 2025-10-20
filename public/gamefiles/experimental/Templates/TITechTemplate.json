@@ -10,7 +10,7 @@
    "prereqs": [
       "MindandMachine",
       "IntegratedEarthSpaceEconomy",
-      "ArrivalCulture"
+      "ArrivalGovernance"
    ],
    "effects": [
       "Effect_Economy_BasePCGDPIncrease02"
@@ -72,7 +72,7 @@
    "dataName": "AdvancedChemicalRocketry",
    "techCategory": "Materials",
    "AI_techRole": "SpaceDevelopment",
-   "AI_criticalTech": false,
+   "AI_criticalTech": true,
    "endGameTech": false,
    "researchCost": 1000
 },
@@ -711,7 +711,7 @@
    "AI_techRole": "SpaceDevelopment",
    "AI_criticalTech": false,
    "endGameTech": false,
-   "researchCost": 5000,
+   "researchCost": 10000,
    "prereqs": [
       "InSituResourceUtilization",
       "SpaceAgriculture",
@@ -766,7 +766,10 @@
    "AI_techRole": "Efficiency",
    "AI_criticalTech": false,
    "endGameTech": true,
-   "researchCost": 100000
+   "researchCost": 100000,
+   "effects": [
+      "Effect_GlobalIPProduction"
+   ]
 },
  {
    "friendlyName": "Future Tech: Information Science",
@@ -775,7 +778,11 @@
    "AI_techRole": "Efficiency",
    "AI_criticalTech": false,
    "endGameTech": true,
-   "researchCost": 100000
+   "researchCost": 100000,
+   "effects": [
+      "Effect_GlobalHumanFactionsGainXP",
+      "Effect_RecruitStartingXP_1"
+   ]
 },
  {
    "friendlyName": "Future Tech: Life Science",
@@ -796,7 +803,10 @@
    "AI_techRole": "Efficiency",
    "AI_criticalTech": false,
    "endGameTech": true,
-   "researchCost": 100000
+   "researchCost": 100000,
+   "effects": [
+      "Effect_AllHumanFactionsGainExotics"
+   ]
 },
  {
    "friendlyName": "Future Tech: Military Science",
@@ -817,7 +827,10 @@
    "AI_techRole": "Efficiency",
    "AI_criticalTech": false,
    "endGameTech": true,
-   "researchCost": 100000
+   "researchCost": 100000,
+   "effects": [
+      "Effect_RandomNationGainsClaim"
+   ]
 },
  {
    "friendlyName": "Future Tech: Space Science",
@@ -1283,7 +1296,7 @@
    "AI_techRole": "SpaceExpansion",
    "AI_criticalTech": false,
    "endGameTech": false,
-   "researchCost": 40000,
+   "researchCost": 75000,
    "prereqs": [
       "MissiontoSaturn",
       "DeepSystemSkywatch",
@@ -1303,7 +1316,7 @@
    "AI_techRole": "SpaceDevelopment",
    "AI_criticalTech": false,
    "endGameTech": false,
-   "researchCost": 20000,
+   "researchCost": 25000,
    "prereqs": [
       "QuantumComputing"
    ]
@@ -1334,7 +1347,8 @@
    "researchCost": 25000,
    "prereqs": [
       "ArrivalSecurity",
-      "QuantumEncryption"
+      "QuantumEncryption",
+      "TransInterfaceWarfare"
    ],
    "effects": [
       "Effect_IncreaseMaxArmyTechLevel"
@@ -1541,10 +1555,10 @@
    "AI_techRole": "SpaceWar",
    "AI_criticalTech": false,
    "endGameTech": false,
-   "researchCost": 40000,
+   "researchCost": 20000,
    "prereqs": [
-      "Coilguns",
-      "MagneticPlasmaConfinementTechniques"
+      "Railguns",
+      "SuperconductingMagnets"
    ]
 },
  {
@@ -1613,10 +1627,11 @@
    "AI_techRole": "Efficiency",
    "AI_criticalTech": false,
    "endGameTech": false,
-   "researchCost": 10000,
+   "researchCost": 15000,
    "prereqs": [
       "AdvancedAtomicManipulation",
-      "AdvancedNeuralNetworks"
+      "AdvancedNeuralNetworks",
+      "AdvancedHeatManagementConcepts"
    ]
 },
  {
@@ -1628,7 +1643,8 @@
    "endGameTech": false,
    "researchCost": 20000,
    "prereqs": [
-      "QuantumComputing"
+      "QuantumComputing",
+      "SelfRepairingSoftware"
    ]
 },
  {
@@ -1991,7 +2007,7 @@
    "dataName": "VacuumElectrostaticPrinciples",
    "techCategory": "Energy",
    "AI_techRole": "SpaceDevelopment",
-   "AI_criticalTech": false,
+   "AI_criticalTech": true,
    "endGameTech": false,
    "researchCost": 1000,
    "prereqs": [

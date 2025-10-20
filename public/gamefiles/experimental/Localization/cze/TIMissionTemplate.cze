@@ -1,0 +1,534 @@
+TIMissionTemplate.displayName.Abductions=Únosy
+TIMissionTemplate.description.Abductions=Uneste pár lidí v regionu a zjistěte, jak vylepšit schopnosti mimozemšťanů při jejich kontrole.
+TIMissionTemplate.CriticalSuccess.Abductions=Získali jsme řadu lidských testovacích subjektů z regionu {targetRegionName}, aniž by si nás místní úřady povšimly.
+TIMissionTemplate.Success.Abductions=Získali jsme několik lidských testovacích subjektů z regionu {targetRegionName} ke studiu.
+TIMissionTemplate.Failure.Abductions=Nepodařilo se nám získat větší množství lidí z regionu {targetRegionName} k dalšímu studiu.
+TIMissionTemplate.CriticalFailure.Abductions=Nepodařilo se nám získat žádné lidi ke studiu z regionu {targetRegionName}. Je navíc pravděpodobné, že se o nás naši nepřátelé dozvěděli.
+
+TIMissionTemplate.displayName.GainInfluence=Ovládnout zemi
+TIMissionTemplate.description.GainInfluence=Získejte otevřený kontrolní bod v zemi.
+TIMissionTemplate.CriticalSuccess.GainInfluence=Podařilo se mi získat kontrolní bod pro frakci {myFactionName} {targetNationNameWithPrep} a veřejné mínění se posunulo o {returnedValue} v náš prospěch. Nyní ovládáme {myTargetNationControlPoints} z {totalTargetNationControlPoints} zdejších kontrolních bodů.
+TIMissionTemplate.Success.GainInfluence=Podařilo se mi získat kontrolní bod pro frakci {myFactionName} {targetNationNameWithPrep}. Nyní ovládáme {myTargetNationControlPoints} z {totalTargetNationControlPoints} zdejších kontrolních bodů.
+TIMissionTemplate.Failure.GainInfluence=Moje mise Ovládnout zemi {targetNationNameWithPrep} selhala.
+TIMissionTemplate.CriticalFailure.GainInfluence=Moje mise Ovládnout zemi {targetNationNameWithPrep} se potýkala s velkými problémy, a tak veřejné mínění o mé frakci {myFactionName} pokleslo o {returnedValue}.
+
+TIMissionTemplate.displayName.Propaganda=Veřejná kampaň
+TIMissionTemplate.description.Propaganda=Zvyšte veřejnou podporu naší věci v jedné zemi.
+TIMissionTemplate.CriticalSuccess.Propaganda=Podařilo se mi zvýšit veřejnou podporu frakce {myFactionName} {targetNationNameWithPrep}. {returnedValue}
+TIMissionTemplate.Success.Propaganda=Podařilo se mi zvýšit veřejnou podporu frakce {myFactionName} {targetNationNameWithPrep}. {returnedValue}
+TIMissionTemplate.Failure.Propaganda=Má mise {missionName} {targetNationNameWithPrep} neměla na veřejnou podporu vliv.
+TIMissionTemplate.CriticalFailure.Propaganda=Má mise {missionName} {targetNationNameWithPrep} skončila katastrofou! {returnedValue}
+
+TIMissionTemplate.displayName.Purge=Čistka
+TIMissionTemplate.description.Purge=Získejte kontrolní bod pod kontrolou nepřátelské frakce.
+TIMissionTemplate.CriticalSuccess.Purge=Získali jsme kontrolní bod pro frakci {myFactionName} {targetNationNameWithPrep} od frakce {returnedValue} a navíc jsme díky tomu získali veřejnou podporu.
+TIMissionTemplate.Success.Purge=Provedli jsme čistku podporovatelů frakce {returnedValue} a získali kontrolní bod pro frakci {myFactionName} {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.Purge=Nepodařilo se mi provést čistku přisluhovačů frakce {returnedValue} {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Purge=Nepodařilo se mi dokončit čistku proti frakci {returnedValue} {targetNationNameWithPrep}. O mé činnosti se pravděpodobně dozvěděli nepřátelé, a tak jsme přišli o část veřejné podpory.
+
+TIMissionTemplate.displayName.Advise=Poradenství
+TIMissionTemplate.description.Advise=Poskytne odborné rady zemi nebo habitatu. Radního atributy Věda, Velení a Správa zlepší výzkumný výkon cíle, jeho bojové schopnosti a finanční výsledky. Další radní věnující se poradenství budou přinášet čím dál nižší benefity.
+TIMissionTemplate.Success.Advise=Poskytuji své odborné poradenství {targetNationNameWithArticle}. {returnedValue}
+
+TIMissionTemplate.displayName.Assassinate=Zavraždit
+TIMissionTemplate.description.Assassinate=Eliminuje identifikovaného nepřátelského radního.
+TIMissionTemplate.CriticalSuccess.Assassinate=Podařilo se mi zlikvidovat radního jménem {targetCouncilorName} z frakce {targetFactionName}. {returnedValue}
+TIMissionTemplate.Success.Assassinate=Podařilo se mi zlikvidovat radního jménem {targetCouncilorName} z frakce {targetFactionName}. {returnedValue}
+TIMissionTemplate.Failure.Assassinate=Nepodařilo se mi zlikvidovat radního jménem {targetCouncilorName} z frakce {targetFactionName}.
+TIMissionTemplate.CriticalFailure.Assassinate=Nepodařilo se mi zlikvidovat radního jménem {targetCouncilorName} z frakce {targetFactionName}.
+TIMissionTemplate.Assassinate.Special=K mé pozici se blíží operativci frakce {targetFactionAdjective}.
+TIMissionTemplate.AssassinateAlien=Tato operace nám přinesla spoustu informací o mimozemšťanech. Díky tomu budeme od této chvíle získávat bonus k našemu xenologickému výzkumu.
+
+TIMissionTemplate.displayName.AssaultAlienAsset=Napadnout mimozemský objekt
+TIMissionTemplate.description.AssaultAlienAsset=Povede bojovou jednotku proti pevnému mimozemskému objektu.
+TIMissionTemplate.CriticalSuccess.AssaultAlienAsset=Náš útok na cíl {targetDisplayName} v regionu {targetRegionName} dopadl velmi úspěšně. {returnedValue}
+TIMissionTemplate.Success.AssaultAlienAsset=Náš útok na cíl {targetDisplayName} v regionu {targetRegionName} dopadl úspěšně. {returnedValue}
+TIMissionTemplate.Failure.AssaultAlienAsset=Nedokázali jsme překonat obranná postavení cíle a nezpůsobili jsme žádné škody.
+TIMissionTemplate.CriticalFailure.AssaultAlienAsset=Náš útok nezpůsobil cíli žádné škody.
+TIMissionTemplate.CouncilorKilled.AssaultAlienAsset=Operace stála radního {0} život!
+
+TIMissionTemplate.displayName.AssumeControl=Předat kontrolu mimozemšťanům
+TIMissionTemplate.description.AssumeControl=Předáme správu země pod naší kontrolou mimozemšťanům. Musíme zde mít postavené zařízení. Tato mise vytvoří nový mimozemský národ, pokud zatím žádný neexistuje. Tato akce nám přinese další zdroje.
+TIMissionTemplate.Success.AssumeControl=Věnovali jsme zemi {targetNationNameWithArticle} našim patronům.
+
+TIMissionTemplate.displayName.BuildFacility=Postavit zařízení
+TIMissionTemplate.description.BuildFacility=Postaví výzkumnou základnu, která podpoří mimozemské operace a přepravu a umožní nám předávat mimozemšťanům přímou kontrolu nad pozemskými národy. Vyžaduje alespoň 15 únosů v daném regionu.
+TIMissionTemplate.Success.BuildFacility=Vybudovali jsme bezpečné zařízení pro mimozemšťany v regionu {targetRegionName} {targetNationNameWithPrep}. Pokud budeme vlastnit všechny kontrolní body v této zemi, můžeme použít misi Předat kontrolu mimozemšťanům.
+
+TIMissionTemplate.displayName.SetNationalPolicy=Nastavit národní politiku
+TIMissionTemplate.description.SetNationalPolicy=Určí v cílové zemi politické směřování, například v podobě vyhlášení války. Politiku vyberete ve chvíli, kdy se mise provede. Vyžaduje exekutivní kontrolu.
+TIMissionTemplate.Success.SetNationalPolicy=Podařilo se mi dokončit mou misi spočívající v nastavení národní politiky {targetNationNameWithPrep}.
+
+TIMissionTemplate.displayName.Contact=Kontaktovat
+TIMissionTemplate.description.Contact=Kontaktuje identifikovaného radního z jiné frakce za účelem zahájení diplomatického styku.
+TIMissionTemplate.Success.Contact=Podařilo se mi kontaktovat radního {targetDisplayName} z frakce {targetFactionName} za účelem diplomatického styku.
+
+TIMissionTemplate.displayName.ControlSpaceAsset=Ovládnout vesmírný objekt
+TIMissionTemplate.description.ControlSpaceAsset=Přesvědčí posádku lodi nebo habitatu ke vstupu do tvé frakce. Podmínkou je, abychom měli dostatečné řízení misí k převzetí objektu.
+TIMissionTemplate.CriticalSuccess.ControlSpaceAsset=Vyvolali jsme vzpouru na objektu {targetDisplayName} a posádka přešla do frakce {myFactionName}. Posádka nám předala rozsáhlé pozorovací údaje. Tento objekt bude výrazně odolnější vůči nepřátelským misím až do {returnedValue}. 
+TIMissionTemplate.Success.ControlSpaceAsset=Iniciovali jsme vzpouru na objektu {targetDisplayName}. Zdejší posádka se připojila k frakci {myFactionName}.
+TIMissionTemplate.Failure.ControlSpaceAsset=Nepodařilo se mi vyvolat povstání na objektu {targetDisplayName}. Zdejší mocenské struktury se budou mít před dalšími pokusy o vzpouru na pozoru. {returnedValue}
+TIMissionTemplate.FailurePlus.ControlSpaceAsset=Brzy mě zatkne frakce {0}!
+TIMissionTemplate.CriticalFailure.ControlSpaceAsset=Nepodařilo se mi vyvolat povstání na objektu {targetDisplayName}. Zdejší mocenské struktury se budou mít před dalšími pokusy o vzpouru na pozoru. {returnedValue}
+
+TIMissionTemplate.displayName.Coup=Převrat
+TIMissionTemplate.description.Coup=Svrhne vládu a vynuluje zdejší kontrolní body.
+TIMissionTemplate.CriticalSuccess.Coup=Můj pokus o převrat {targetNationNameWithPrep} dopadl naprostým úspěchem. V novém režimu jsme získali velkou moc. 
+TIMissionTemplate.Success.Coup=Můj pokus o převrat {targetNationNameWithPrep} dopadl úspěšně. Podařilo se nám přeskupit zdejší mocenskou strukturu.
+TIMissionTemplate.Failure.Coup=Má mise {missionName} {targetNationNameWithPrep} dopadla neúspěšně.
+TIMissionTemplate.CriticalFailure.Coup=Katastrofa! Nepodařilo se mi splnit misi s cílem svrhnout vládu {targetNationNameWithPrep}! {returnedValue}
+
+TIMissionTemplate.displayName.Crackdown=Zátah
+TIMissionTemplate.description.Crackdown=Dočasně zruší benefity kontrolního bodu, odstraní veškerou obranu a zjednoduší provedení čistky vůči jiné frakci.
+TIMissionTemplate.CriticalSuccess.Crackdown=Provedli jsme úspěšný zátah na frakci {targetFactionName} {targetNationNameWithPrep}. Jejich kontrolní bod {controlPointTypeDisplayName} bude vypnut až do {returnedValue}.
+TIMissionTemplate.Success.Crackdown=Provedli jsme úspěšný zátah na frakci {targetFactionName} {targetNationNameWithPrep}. Jejich kontrolní bod {controlPointTypeDisplayName} bude vypnut až do {returnedValue}.
+TIMissionTemplate.Failure.Crackdown=Náš pokus o neutralizaci frakce {targetFactionName} {targetNationNameWithPrep} selhal.
+TIMissionTemplate.CriticalFailure.Crackdown=Náš pokus o neutralizaci frakce {targetFactionName} {targetNationNameWithPrep} selhal. Musíme strpět také určitou negativní publicitu.
+
+TIMissionTemplate.displayName.DefendInterests=Bránit zájmy
+TIMissionTemplate.description.DefendInterests=Opevní naše kontrolní body v této zemi před nepřátelskými zátahy, čistkami a převraty. Délka trvání se zkracuje spolu s tím, kolik kontrolních bodů chráníme.
+TIMissionTemplate.Success.DefendInterests=Podařilo se mi dosadit správné lidi na správná místa. Naše kontrola {targetDisplayNameSent} je nyní chráněna až do {returnedValue}. Nepřátelské frakce, které se pokusí naši kontrolu zlomit, budou čelit výrazným postihům.
+
+TIMissionTemplate.displayName.Detain=Zadržet radního
+TIMissionTemplate.description.Detain=Zadrží nepřátelského radního za účelem výslechu. Při úspěchu dojde k přerušení všech misí, kterým se nepřátelský radní věnoval.
+TIMissionTemplate.CriticalSuccess.Detain=Zadrželi jsme radního {targetDisplayNameSent} za účelem výslechu. Očekáváme, že nám odpovědi přinesou velké množství informací o frakci {targetFactionName}. {returnedValue}
+TIMissionTemplate.Success.Detain=Zadrželi jsme radního {targetDisplayNameSent} za účelem výslechu. {returnedValue}
+TIMissionTemplate.Failure.Detain=Radního {targetDisplayNameSent} se nám nepodařilo zajmout.
+TIMissionTemplate.CriticalFailure.Detain=Radního {targetDisplayNameSent} se nám nepodařilo zajmout. Myslím, že náš cíl o naší misi věděl.
+TIMissionTemplate.BonusEffect.Detain=Také jsme narušili radního misi {0}.
+TIMissionTemplate.DetentionEnd.Detain=Tohoto radního můžeme zadržovat do {0}. Pokud chceme tohoto radního věznit i nadále, můžeme ho zadržovat opakovaně.<sp>
+TIMissionTemplate.Detain.DetainAlien=Díky našim výslechům budeme mít v budoucnu výrazné bonusy k našemu výzkumu xenologie.
+
+TIMissionTemplate.displayName.DetectCouncilActivity=Prozkoumat lokaci
+TIMissionTemplate.description.DetectCouncilActivity=Výrazně zvýší pravděpodobnost, že budou detekováni nepřátelští radní a mimozemšťané v regionu tohoto radního a v sousedních regionech, případně v habitatu či flotile. Může dojít také k detekci skrytých mimozemských objektů v přilehlých regionech Země.
+TIMissionTemplate.Success.DetectCouncilActivity=Hledám naše nepřátele {targetDisplayNameSent}.
+
+TIMissionTemplate.displayName.EnthrallElites=Uchvácení elit
+TIMissionTemplate.description.EnthrallElites=Mimozemšťané získají kontrolní bod pro své lidské spojence v cílové zemi.
+TIMissionTemplate.CriticalSuccess.EnthrallElites=Naši lidští spojenci získali kontrolní bod {targetNationNameWithPrep}. Veřejná podpora se navíc posunula v jejich prospěch.
+TIMissionTemplate.Success.EnthrallElites=Naši lidští spojenci získali kontrolní bod {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallElites=Nepodařilo se nám podmanit žádné vůdce {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.EnthrallElites=Nepodařilo se nám podmanit žádné vůdce {targetNationNameWithPrep}. Je možné, že došlo k odhalení našich zdejších aktivit.
+
+TIMissionTemplate.displayName.EnthrallPublic=Uchvácení veřejnosti
+TIMissionTemplate.description.EnthrallPublic=Mimozemšťané domestikují část lidské populace v této zemi.
+TIMissionTemplate.CriticalSuccess.EnthrallPublic=Podmanili jsme si nejméně {returnedValue} populace {targetNationNameWithPrep}.
+TIMissionTemplate.Success.EnthrallPublic=Podmanili jsme si nejméně {returnedValue} populace {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallPublic=Nepodařilo se nám podmanit si žádné lidi {targetNationNameWithPrep}. Mohou být zapotřebí další únosy a výzkumy.
+TIMissionTemplate.CriticalFailure.EnthrallPublic=Nepodařilo se nám podmanit si žádné lidi {targetNationNameWithPrep} a je možné, že jsme zde byli odhaleni.
+
+TIMissionTemplate.displayName.EnthrallOrg=Uchvácení organizace
+TIMissionTemplate.description.EnthrallOrg=Mimozemšťané získají kontrolu nad radního organizací ve svůj vlastní prospěch. Akce se může zaměřit i na organizace cílové frakce, které zrovna nejsou žádnému radnímu přiřazeny.
+TIMissionTemplate.CriticalSuccess.EnthrallOrg=Náš pokus o uchvácení organizace {targetDisplayName} frakce {targetFactionName} dopadl extrémně úspěšně. Vedle získání jedné z jejich organizací jsme při převodu získali také {returnedValue}.
+TIMissionTemplate.Success.EnthrallOrg=Náš pokus o uchvácení organizace {targetDisplayName} frakce {targetFactionName} byl úspěšný.
+TIMissionTemplate.Failure.EnthrallOrg=Nepodařilo se nám získat organizaci patřící radnímu {targetDisplayName} frakce {targetFactionName}.
+TIMissionTemplate.CriticalFailure.EnthrallOrg=Nepodařilo se nám získat organizaci patřící radnímu {targetDisplayName} frakce {targetFactionName}. Naši nepřátelé navíc dost možná zjistili, že za celou operací stojím já.
+TIMissionTemplate.Prompt.EnthrallOrg=Vyberte organizaci, kterou chcete ukrást frakci {0}...
+
+TIMissionTemplate.displayName.EnthrallUnalignedElites=Uchvácení nevyhraněných elit
+TIMissionTemplate.description.EnthrallUnalignedElites=Mimozemšťané získají neobsazený kontrolní bod pro své lidské spojence v cílové zemi.
+TIMissionTemplate.CriticalSuccess.EnthrallUnalignedElites=Naši lidští spojenci získali kontrolní bod {targetNationNameWithPrep}. Veřejná podpora se navíc posunula v jejich prospěch.
+TIMissionTemplate.Success.EnthrallUnalignedElites=Naši lidští spojenci získali kontrolní bod {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallUnalignedElites=Nepodařilo se nám podmanit žádné vůdce {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.EnthrallUnalignedElites=Nepodařilo se nám podmanit žádné vůdce {targetNationNameWithPrep}. Je možné, že došlo k odhalení našich zdejších aktivit.
+
+TIMissionTemplate.displayName.Extract=Osvobodit radního
+TIMissionTemplate.description.Extract=Osvobodí jednoho z našich zadržených radních z rukou nepřátel.
+TIMissionTemplate.CriticalSuccess.Extract=Osvobodili jsme radního {targetDisplayName} z nepřátelského vězení. Při misi jsme získali také řadu informací o věznitelích.
+TIMissionTemplate.Success.Extract=Osvobodili jsme radního {targetDisplayName} z nepřátelského vězení.
+TIMissionTemplate.Failure.Extract=Nepodařilo se nám projít přes nepřátelskou ochranku a osvobodit radního {targetDisplayName}.
+TIMissionTemplate.CriticalFailure.Extract=Náš pokus o osvobození radního {targetDisplayName} se nezdařil a navíc jsem byl během procesu detekován. Nepřátelské síly už se blíží.
+
+TIMissionTemplate.displayName.GoToGround=Skrývat se
+TIMissionTemplate.description.GoToGround=Radní přejde v pozemském regionu do utajení tak, aby se vyhnul detekci a útokům nepřátel.
+TIMissionTemplate.Success.GoToGround=Nyní se schovávám v regionu {targetRegionName}.
+
+TIMissionTemplate.displayName.HostileTakeover=Nepřátelské převzetí
+TIMissionTemplate.description.HostileTakeover=Vytrhne organizaci z rukou nepřátelského radního k vlastnímu užití. Cílem se mohou stát i organizace ve fondu frakce, které nejsou přiřazeny žádnému radnímu. Některé jedinečné frakční organizace jsou imunní.
+TIMissionTemplate.CriticalSuccess.HostileTakeover=Náš pokus o násilné převzetí organizace {targetDisplayName} frakce {targetFactionName} dopadl extrémně úspěšně. Vedle získání jedné z jejich organizací jsme při převodu získali také {returnedValue}.<br/><br/>{targetOrgDetails}
+TIMissionTemplate.Success.HostileTakeover=Náš pokus o násilné převzetí organizace {targetDisplayName} frakce {targetFactionName} byl úspěšný.<br/><br/>{targetOrgDetails}
+TIMissionTemplate.Failure.HostileTakeover=Organizaci {targetDisplayName} frakce {targetFactionName} se nám nepodařilo získat.
+TIMissionTemplate.CriticalFailure.HostileTakeover=Organizaci {targetDisplayName} frakce {targetFactionName} se nám nepodařilo získat. Nepřátelé navíc dost možná odhalili, že mám v operaci prsty já.
+TIMissionTemplate.Prompt.HostileTakeover=Vyberte organizaci, kterou chcete ukrást frakci {0}...
+
+TIMissionTemplate.displayName.Inspire=Inspirovat
+TIMissionTemplate.description.Inspire=Zvýší loajalitu jiného radního tak, aby byl odolnější při výsleších a snahách o obrácení. Obrácený radní se navíc může vrátit na naši stranu.
+TIMissionTemplate.CriticalSuccess.Inspire=Když jsme si promluvili s radním {targetDisplayNameSent}, zdálo se, že se v něm rozhořel větší zápal pro naše úsilí. {returnedValue}
+TIMissionTemplate.Success.Inspire=Náš radní {targetDisplayNameSent} je do naší věci daleko zapálenější. {returnedValue}
+TIMissionTemplate.Failure.Inspire=Nemyslím si, že by se mi podařilo loajalitu radního {targetDisplayNameSent} pro naši věc jakkoli ovlivnit. {returnedValue}
+TIMissionTemplate.CriticalFailure.Inspire=Je mi líto, ale obávám se, že radní {targetDisplayNameSent} je na tom teď s loajalitou ještě hůř. {returnedValue}
+
+TIMissionTemplate.Inspire.PositiveEffect=Hodnota {0} radního se zvýšila o {1}.
+TIMissionTemplate.Inspire.NoVisibleEffect=Obávám se však, že je složité určit, o kolik se loajalita radního posunula.
+TIMissionTemplate.Inspire.NegativeEffect=Hodnota {0} radního se snížila o {1}.
+
+TIMissionTemplate.displayName.InvestigateAlienActivity=Prověřit mimozemskou aktivitu
+TIMissionTemplate.description.InvestigateAlienActivity=Zaměří se na místo s podezřením na mimozemskou aktivitu tak, abyste zjistili více o mimozemských metodách a motivech.
+TIMissionTemplate.CriticalSuccess.InvestigateAlienActivity=Mé vyšetřování objektu {targetDisplayName} {targetNationNameWithPrep} přineslo skvělé výsledky. Od této chvíle budeme získávat bonus k našemu xenologickému výzkumu.
+TIMissionTemplate.Success.InvestigateAlienActivity=Mé vyšetřování objektu {targetDisplayName} {targetNationNameWithPrep} přineslo pár užitečných informací. Od této chvíle budeme získávat malý bonus k našemu xenologickému výzkumu.
+TIMissionTemplate.Failure.InvestigateAlienActivity=Mé vyšetřování objektu {targetDisplayName} {targetNationNameWithPrep} nepřineslo nic nového.
+TIMissionTemplate.CriticalFailure.InvestigateAlienActivity=Mé vyšetřování objektu {targetDisplayName} {targetNationNameWithPrep} nepřineslo nic nového a navíc mě pravděpodobně odhalili nepřátelští agenti.
+
+TIMissionTemplate.displayName.InvestigateCouncilor=Vyšetřovat radního
+TIMissionTemplate.description.InvestigateCouncilor=Shromáždí informace o radním, které nám umožní zaměřit se na daného radního misemi a zjistit více o frakci, které daný radní slouží. Dá se použít také k ověření loajality jednoho z našich vlastních radních.
+TIMissionTemplate.CriticalSuccess.InvestigateCouncilor=Získali jsme důležité nové informace o radním {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.Success.InvestigateCouncilor=Získali jsme další informace o radním {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.Failure.InvestigateCouncilor=Nepodařilo se mi zjistit o radním {targetDisplayNameSent} nic nového. {returnedValue}
+TIMissionTemplate.CriticalFailure.InvestigateCouncilor=Nepodařilo se mi zjistit o radním {targetDisplayNameSent} nic nového a možná mě odhalili naši nepřátelé. {returnedValue}
+
+TIMissionTemplate.displayName.Orbit=Na oběžnou dráhu
+TIMissionTemplate.description.Orbit=Přesun z povrchu Země na jakoukoli oběžnou dráhu v soustavě Země-Měsíc, nebo z povrchu jakéhokoli vesmírného tělesa na stanici nebo loď na styčné orbitě. Příznak V utajení je vyžadován pouze k cestování na nepřátelské habitaty 1. stupně (stanice a platformy) a flotily.
+TIMissionTemplate.Success.Orbit=Nyní jsem na palubě {targetLocationStrSentence}.
+
+TIMissionTemplate.displayName.Deorbit=Stáhnout z oběžné dráhy
+TIMissionTemplate.description.Deorbit=Přesune habitat nebo loď na styčné oběžné dráze na povrch vesmírného tělesa, nebo z jakéhokoli místa v systému Země-Měsíc na povrch Země.
+TIMissionTemplate.Success.Deorbit=Jsem na pevné zemi.
+
+TIMissionTemplate.displayName.PassTechnology=Předat technologii
+TIMissionTemplate.description.PassTechnology=Poskytne některou z našich technologií jako pomoc lidským spojencům.
+TIMissionTemplate.Success.PassTechnology=Podařilo se mi poskytnout pomoc našim spojencům.
+
+TIMissionTemplate.displayName.Protect=Chránit cíl
+TIMissionTemplate.description.Protect=Aplikuje radního atribut Bezpečnost nebo Velení k ochraně cílového regionu, habitatu nebo spojeneckého radního proti fyzickým útokům a dalším operacím. Předejde také smrti cílového radního při neúspěšných útočných misích.
+TIMissionTemplate.Success.Protect={targetDisplayName} je nyní pod mou ochranou před nepřátelskými operacemi.
+
+TIMissionTemplate.displayName.SabotageFacilities=Sabotovat zařízení
+TIMissionTemplate.description.SabotageFacilities=Sabotáž vybraného vesmírného zařízení v regionu.
+TIMissionTemplate.CriticalSuccess.SabotageFacilities=Zařízení {targetDisplayName} bylo výrazně poškozeno mými bombami. Je nepravděpodobné, že by odhalili naše zapojení.
+TIMissionTemplate.Success.SabotageFacilities=Podařilo se mi dokončit misi sabotáže zařízení {targetDisplayName}.
+TIMissionTemplate.Failure.SabotageFacilities=Nepodařilo se mi dostat k cíli {targetDisplayName} tak blízko, aby bylo možné provést jeho sabotáž.
+TIMissionTemplate.CriticalFailure.SabotageFacilities=Má snaha o sabotáž zařízení {targetDisplayName} skončila katastrofou! {returnedValue}
+
+TIMissionTemplate.displayName.SabotageHabModule=Sabotovat habitatový modul
+TIMissionTemplate.description.SabotageHabModule=Zničí vybraný nezákladní habitatový modul ve vašem současném habitatu.
+TIMissionTemplate.CriticalSuccess.SabotageHabModule=Mé bomby zničily {returnedValue} v habitatu {targetHabName}.
+TIMissionTemplate.Success.SabotageHabModule=Mé bomby zničily {returnedValue} v habitatu {targetHabName}.
+TIMissionTemplate.Failure.SabotageHabModule=Nepodařilo se mi dostat k cíli {targetDisplayName} v habitatu {targetHabName} tak, aby bylo možné položit nálože.
+TIMissionTemplate.CriticalFailure.SabotageHabModule=Nepřátelé mě odhalili v zabezpečené oblasti poblíž objektu {targetDisplayName} v habitatu {targetHabName}. V tuto chvíli probíhá můj výslech.
+
+TIMissionTemplate.displayName.SabotageProject=Sabotovat projekt
+TIMissionTemplate.description.SabotageProject=Zaměří se na radního nebo habitat s inženýrským modulem a odebere až 5 000 výzkumných bodů pokroku z jednoho projektu. Každý projekt lze sabotovat pouze jednou.
+TIMissionTemplate.CriticalSuccess.SabotageProject=Podařilo se mi výrazně zpomalit výzkumný projekt frakce {targetFactionName}. Navíc jsem ukradl {returnedValue} pro využití našimi vědci.
+TIMissionTemplate.Success.SabotageProject=Podařilo se mi výrazně zpomalit výzkumný projekt frakce {targetFactionName}.
+TIMissionTemplate.Failure.SabotageProject=Nepodařilo se mi proniknout k cíli a sabotovat nepřátelský výzkum.
+TIMissionTemplate.CriticalFailure.SabotageProject=Nepodařilo se mi proniknout k cíli a sabotovat nepřátelský výzkum.
+TIMissionTemplate.Prompt.SabotageProject=Vyberte projekt k sabotování...
+
+TIMissionTemplate.SecondarySelection=Výběr: {0}
+
+TIMissionTemplate.displayName.SeizeSpaceAsset=Útok na nepřátelský kosmický objekt
+TIMissionTemplate.description.SeizeSpaceAsset=Povede vesmírné mariňáky při pokusu o obsazení nepřátelského habitatu. Vyžaduje mariňáky ve flotile či habitatu v lokaci radního. Aby mohly flotily zaútočit na nepřátelskou stanici, musí zde dokovat. Stanice mohou vysadit jednotky na povrch a základny mohou útočit na habitatové stanice v blízkosti. Moduly s mariňáky mohou být poškozeny i zničeny.
+TIMissionTemplate.CriticalSuccess.SeizeSpaceAsset=Vítězství! Obsadili jsme objekt {targetDisplayName} frakce {targetFactionName}. {returnedValue}
+TIMissionTemplate.Success.SeizeSpaceAsset=Vítězství! Obsadili jsme objekt {targetDisplayName} frakce {targetFactionName}. {returnedValue}
+TIMissionTemplate.Failure.SeizeSpaceAsset=Porážka! Nepodařilo se nám obsadit objekt {targetDisplayName} frakce {targetFactionName}. {returnedValue}
+TIMissionTemplate.CriticalFailure.SeizeSpaceAsset=Porážka! Nepodařilo se nám obsadit objekt {targetDisplayName} frakce {targetFactionName}. {returnedValue}
+
+TIMissionTemplate.displayName.Stabilize=Stabilizovat zemi
+TIMissionTemplate.description.Stabilize=Sníží nepokoje v cílové zemi, zlepší její ekonomiku a sníží šanci na svržení vlády. Efekt je slabší, pokud je stávající hodnota nepokojů nižší než poloviční oproti klidové hodnotě nepokojů v zemi.
+TIMissionTemplate.CriticalSuccess.Stabilize=Podařilo se nám výrazně snížit nepokoje {targetNationNameWithPrep}, a to o {returnedValue} na {targetNationUnrestWithString}.
+TIMissionTemplate.Success.Stabilize=Podařilo se nám snížit nepokoje {targetNationNameWithPrep}, a to o {returnedValue} na {targetNationUnrestWithString}.
+TIMissionTemplate.Failure.Stabilize=Nepodařilo se mi splnit misi a snížit nepokoje {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Stabilize=Mé úsilí snížit nepokoje {targetNationNameWithPrep} skončily katastrofálně a země je ještě více rozdělena. Nepokoje se zvýšily o {returnedValue}.
+
+TIMissionTemplate.displayName.StealProject=Ukrást projekt
+TIMissionTemplate.description.StealProject=Ukradne inženýrský projekt nepřátelské frakci tím, že se zaměří na jednoho z jejích radních nebo habitatů s inženýrským modulem. Ten pak budeme schopni vyzkoumat. Pokud je nepřátelská frakce v příjmu výzkumu před námi, možná získáme i <color=#FFFFFFFF><sprite name="research"></color>.
+TIMissionTemplate.CriticalSuccess.StealProject=Podařilo se mi získat přístup k výzkumným archivům frakce {targetFactionName}. {returnedValue} Nyní můžeme vybrat některý z jejich projektů k ukradení.
+TIMissionTemplate.Success.StealProject=Podařilo se mi získat přístup k výzkumným archivům frakce {targetFactionName}. {returnedValue}
+TIMissionTemplate.Failure.StealProject=Nepodařilo se mi získat přístup k výzkumným archivům frakce {targetFactionName}. 
+TIMissionTemplate.CriticalFailure.StealProject=Nepodařilo se mi získat přístup k výzkumným archivům frakce {targetFactionName}.
+TIMissionTemplate.Prompt.StealProject=Vyberte projekt, který chcete ukrást frakci {0}...
+
+TIMissionTemplate.displayName.TerrorizeRegion=Terorizovat region
+TIMissionTemplate.description.TerrorizeRegion=Zaútočí na civilisty v tomto regionu s cílem vymoci ústupky od národní vlády. Dojde tím k udělení kontrolního bodu lidské frakci, která nás považuje za nadřazenou sílu. Riskujeme však, že se odpor proti nám utvrdí.
+TIMissionTemplate.CriticalSuccess.TerrorizeRegion=Naše útočné jednotky uspěly při teroristické akci v regionu {targetRegionName}. Frakce {1} získala kontrolní bod {targetNationNameWithPrep}. Veřejné mínění lidí reagovalo na náš vpád vesměs strachem.
+TIMissionTemplate.Success.TerrorizeRegion=Naše útočné jednotky při teroristické akci v regionu {targetRegionName} vesměs uspěly. Frakce {1} získala kontrolní bod {targetNationNameWithPrep}. Veřejnost reaguje směsí odporu a strachu.
+TIMissionTemplate.Failure.TerrorizeRegion=Naše útočné jednotky při své teroristické akci v regionu {targetRegionName} selhaly.
+TIMissionTemplate.CriticalFailure.TerrorizeRegion=Naše útočné jednotky byly při své teroristické akci v regionu {targetRegionName} poraženy. Úspěšný odpor vlil lidské populaci do žil hodně odvahy.
+
+TIMissionTemplate.displayName.Xenoform=Xenoformovat
+TIMissionTemplate.description.Xenoform=Rozeseje po regionu druhy mimozemských forem života. Časem by měly mimozemské druhy získat převahu a zvýšit poddajnost lidí. Postupně zde také vyrostou obrovská stáda mimozemské fauny, která budou škodit lidské ekonomice.
+TIMissionTemplate.CriticalSuccess.Xenoform=Našim bioformám se v tomto regionu daří extrémně dobře.
+TIMissionTemplate.Success.Xenoform=Naše bioformy v tomto regionu zakořenily.
+TIMissionTemplate.Failure.Xenoform=Našim bioformám se zde nepodařilo zakořenit.
+TIMissionTemplate.CriticalFailure.Xenoform=Našim bioformám se zde nepodařilo zakořenit a je pravděpodobné, že má činnost byla odhalena.
+
+TIMissionTemplate.displayName.Transfer=Převést
+TIMissionTemplate.description.Transfer=Přemístí se z jednoho habitatu nebo flotily na jiné místo v soustavě Země-Měsíc. Mimo Zemi dojde k přesunu na jakýkoli habitat nebo flotilu na stejné oběžné dráze nebo na stejném vesmírném tělesu. Příznak V utajení je vyžadován pouze k cestování na nepřátelské habitaty 1. stupně (stanice a platformy) a flotily.
+TIMissionTemplate.Success.Transfer=Nyní jsem na místě: {targetDisplayName}.
+
+TIMissionTemplate.displayName.Turn=Obrátit radního
+TIMissionTemplate.description.Turn=Obrátí nepřátelského radního pro naši věc. Díky tomu získáme spoustu informací a kontrolu nad tím, zda radního mise uspějí či selžou. Abychom se o tuto misi mohli pokusit, musíme znát skutečnou hodnotu atributu Loajalita cíle.
+TIMissionTemplate.CriticalSuccess.Turn=Obrátili jsme radního {targetDisplayName} pro naši věc. Tento radní bude pokračovat ve své práci pro frakci {targetFactionName}, ale budeme mít přístup ke všem informacím frakce a budeme kontrolovat, zda tento radní na svých misích uspěje, či selže. Musíme dbát na to, abychom ve frakci {targetFactionName} nevzbudili příliš velké podezření!<br/><br/>Podařil se nám další majstrštyk: Náš nový agent přinesl výzkumné složky za celý měsíc, a tím výrazně posunul kupředu náš vlastní rozvoj.
+TIMissionTemplate.Success.Turn=Obrátili jsme radního {targetDisplayName} pro naši věc. Tento radní bude pokračovat ve své práci pro frakci {targetFactionName}, ale budeme mít přístup ke všem informacím frakce a budeme kontrolovat, zda tento radní na svých misích uspěje, či selže. Musíme dbát na to, abychom ve frakci {targetFactionName} nevzbudili příliš velké podezření!
+TIMissionTemplate.Failure.Turn=Radního {targetDisplayName} se nám pro naši věc obrátit nepodařilo.
+TIMissionTemplate.CriticalFailure.Turn=Radního {targetDisplayName} se mi nepodařilo obrátit a navíc se zdá, že o mně frakce {targetFactionName} už ví.
+
+TIMissionTemplate.displayName.Unrest=Zvýšit nepokoje
+TIMissionTemplate.description.Unrest=Zvýší nepokoje v zemi cílového regionu, což ublíží ekonomice a zvýší šanci na úspěch převratů, revolucí a odtržení. Úspěch v regionu s nezávislým hnutím může namísto revoluce spustit odtržení. Účinek je slabší v případě, že jsou nepokoje již nyní více než dvakrát vyšší, než je klidová hodnota nepokojů v zemi.
+TIMissionTemplate.CriticalSuccess.Unrest=Díky mému úsilí se zvýšily nepokoje {targetNationNameWithPrep} o {returnedValue} na {targetNationUnrestWithString}. Pokud nyní povstalecká hnutí někdy svrhnou vládu, měli bychom mezi nimi mít určitou podporu.
+TIMissionTemplate.Success.Unrest=Díky mému úsilí se zvýšily nepokoje {targetNationNameWithPrep} o {returnedValue} na {targetNationUnrestWithString}. Pokud nyní povstalecká hnutí někdy svrhnou vládu, měli bychom mezi nimi mít určitou podporu.
+TIMissionTemplate.Failure.Unrest=Nepodařilo se mi zvýšit nepokoje {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Unrest=Nepodařilo se mi zvýšit nepokoje {targetNationNameWithPrep}. {returnedValue}
+
+TIMissionTemplate.displayName.DominateNation=Dominovat zemi
+TIMissionTemplate.description.DominateNation=Bude cílové zemi vyhrožovat bombardováním z našich Strážných platforem. Při úspěchu dojde ke konverzi kontrolního bodu pod naši frakci. Když neuspějeme, budeme muset nejprve hrozbu splnit a teprve poté kontrolní bod získáme.
+TIMissionTemplate.CriticalSuccess.DominateNation=Někteří lídři v zemi {targetNationNameWithPrep} naši nadvládu uznali, a tak jsme mohli převzít kontrolní bod pro frakci {myFactionName}. Část veřejnosti nám vyjádřila vděk za nastolení řádu.
+TIMissionTemplate.Success.DominateNation=Lídři země {targetNationNameWithPrep} podlehli našim hrozbám orbitálního bombardování a kapitulovali. Díky tomu jsme získali kontrolní bod pro frakci {myFactionName}.
+TIMissionTemplate.Failure.DominateNation=Naše hrozby použití zbraňových systémů Strážného komplexu nebyly lídry země {targetNationNameWithPrep} vyslyšeny. Museli jsme tak bombardovat vybrané cíle až do jejich kapitulace. Získali jsme tím kontrolní bod pro frakci {myFactionName}.
+TIMissionTemplate.CriticalFailure.DominateNation=Lídři země {targetNationNameWithPrep} se našim hrozbám, že proti nim použijeme Strážné komplexy, vysmáli. Museli jsme se tak při vynucení poslušnosti uchýlit ke kobercovému bombardování. Získali jsme tím kontrolní bod pro frakci {myFactionName}.
+
+TIMissionTemplate.displayName.AppeaseWin=Vyhlásit hegemonii
+TIMissionTemplate.description.AppeaseWin=Aktivuje Strážné komplexy, ovládne celosvětové dění a usmíří mimozemšťany. Všechny lidské země se nám vzdají. Je zapotřebí, abychom splnili podmínky vítězství.
+TIMissionTemplate.Success.AppeaseWin=Aktivovali jsme naši síť Strážných komplexů a po jejich krátké demonstraci nám pozemské země předaly správu svých věcí.
+
+TIMissionTemplate.displayName.CooperateWin=Uzavřít spojenectví
+TIMissionTemplate.description.CooperateWin=Vyšle přes červí díru naše diplomaty odolné vůči ferocytům, naváže vztahy a ukončí tento konflikt. Nejprve musíme zaútočit na základnu mimozemšťanů a přistát zde. Je zapotřebí, abychom splnili podmínky vítězství.
+TIMissionTemplate.Success.CooperateWin=Dohodli jsme se s hydrami na podmínkách.
+
+TIMissionTemplate.displayName.DestroyWin=Odpálit zbraň
+TIMissionTemplate.description.DestroyWin=Vyšle do červí díry naši biologickou zbraň. Nejprve musíme zaútočit na základnu mimozemšťanů a přistát zde. Je zapotřebí, abychom splnili podmínky vítězství.
+TIMissionTemplate.Success.DestroyWin=Nasadili jsme virus Šíva.
+
+TIMissionTemplate.displayName.EscapeWin=Vyslat Bifrost
+TIMissionTemplate.description.EscapeWin=Vydá rozkaz ke startu naší mezihvězdné cesty. 
+TIMissionTemplate.Success.EscapeWin=Náš Bifrost odstartoval.
+
+TIMissionTemplate.displayName.ExploitWin=Zkrotit nepřítele
+TIMissionTemplate.description.ExploitWin=Vyšle do červí díry neoferocytový balíček. Nejprve musíme zaútočit na základnu mimozemšťanů a přistát zde. Je zapotřebí, abychom splnili podmínky vítězství.
+TIMissionTemplate.Success.ExploitWin=Podrobili jsme si hydří říši.
+
+TIMissionTemplate.displayName.ResistWin=Uzavřít bránu
+TIMissionTemplate.description.ResistWin=Aktivuje zařízení k uzavření mimozemské červí díry. Nejprve musíme zaútočit na základnu mimozemšťanů a přistát zde. Je zapotřebí, abychom splnili podmínky vítězství.
+TIMissionTemplate.Success.ResistWin=Nepřátelská brána je uzavřena.
+
+TIMissionTemplate.displayName.SubmitWin=Zvěstovat příchod vládců
+TIMissionTemplate.description.SubmitWin=Vyhlásí nadvládu mimozemšťanů nad Zemí. Vyžaduje, abychom splnili podmínky vítězství.
+TIMissionTemplate.Success.SubmitWin=Země je nyní jednotná pod mimozemskou vládou.
+
+TIMissionEffect_IncreaseUnrest.Special1=Má práce byla odhalena. Naše zdejší veřejná podpora kvůli tomu klesla o {0} a {1} čelí obvinění ze zvěrstva.	// % change, councilor's faction name
+TIMissionEffect_IncreaseUnrest.Special2=Moje práce byla odhalena! Agenti frakce {0} obviňují frakci {1} ze zvěrstva a jdou mě zadržet! Prosím, postarejte se o mé propuštění!	// capturing faction name, councilor's faction name
+TIMissionEffect_Coup.Special1=Naše zdejší veřejná podpora klesla o {0}.
+TIMissionEffect_Coup.Special2=Brzy mě zajme frakce {0}. Pokusím se jejich výslechu odolávat co nejdéle!	// faction name, capitalized
+TIMissionEffect_DamageSpaceFacilities.Special1=Byli jsme spojeni s tímto pokusem, a tak naše veřejná podpora klesla o {0}.
+TIMissionEffect_DamageSpaceFacilities.Special2=Došlo k mému zatčení. Brzy se dostanu do rukou frakce {0}.	// faction name
+TIMissionEffect_InvestigateCouncilor.EnemySpecial1=Známe identitu cíle, je jím {0} pracující pro frakci {1} v roli {2}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial2=Máme k dispozici detailní profil radního, který je k dispozici v sekci informací. Odhadujeme, že tento radní má skóre loajality {0}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial3=Dále budeme schopni po nějakou dobu sledovat, jaká mise je tomuto radnímu přiřazena.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial4=Víme o té osobě možná víc než {1}. Skutečné skóre loajality daného radního je {2}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial5=Také jsme zjistili, že {0} špehuje pro frakci {1}.
+TIMissionEffect_InvestigateCouncilor.MySpecial1=Určili jsme, že skutečné skóre loajality této osoby je {0}.
+TIMissionEffect_InvestigateCouncilor.MySpecial2=Dozvěděli jsme se, že {0} působí proti nám ve prospěch frakce {1} a špehuje nás. Jedná se o závažný únik, který musíme zastavit co možná nejrychleji.
+TIMissionEffect_InvestigateCouncilor.MySpecial3=Naše vyšetřování proběhlo tak zle, že o něm {0} ví. Zuří a ztrácí bod loajality.
+TIMissionEffect_Advise.Special1=Dokud nedostanu novou misi, budu zvyšovat výzkumný výkon této země o {0}, její investiční body o {1} a výkon jejích armád a obranných sil o {2} hodnoty vojenských technologií.
+TIMissionEffect_Advise.Special2=Dokud nedostanu novou misi, budu zvyšovat výzkumný výkon tohoto habitatu o {0}, jeho produkci zdrojů a peněz o {1} a bojové schopnosti jeho mariňáků o {2}.
+TIMissionEffect_Advise.Special3=Dokud nedostanu novou misi, budu zvyšovat bojový výkon flotily o {0} a její výzkumný výkon o {1}.
+TIMissionEffect_StealProject.Special=Došlo k mému zatčení. Brzy se dostanu do rukou frakce {0}. Pokusím se co možná nejdéle odolávat jejich výslechu.	// faction name
+TIMissionEffect_StealProject.Steal=Podařilo se mi z jejich archivů získat projekt {0}.
+TIMissionEffect_SabotageProject.Special=Došlo k mému zatčení. Brzy se dostanu do rukou frakce {0}. Postarejte se o mé propuštění!	// faction name
+TIMissionEffect_Propaganda.Special=Naše zdejší veřejná podpora se změnila o {0}. Nyní je na hodnotě {1}.
+TIMissionEffect_Propaganda.Special2=Naše zdejší veřejná podpora se z hodnoty {0} ani nepohnula. Lidé ale mají tendenci se odvracet od protichůdných ideologií a směřovat k nám.
+TIMissionEffect_Assassinate.Special1=Našemu pokusu o vraždu je věnována obrovská pozornost. Teď mě hledají orgány po celém světě.	// faction name
+TIMissionEffect_Assassinate.Special2=Došlo k mému zatčení. Brzy se dostanu do rukou frakce {0}. Postarejte se o mé propuštění!	// faction name
+
+TIMissionResult_Responsibility=Zjistili jsme, že za operací je {0}.
+
+TIMissionModifier.Spend=Utraceno: {0}	// resource name, e.g. "Ops"
+TIMissionModifier.Flat={0} ({1})	// Flat Modifier (3)
+TIMissionModifier.CodexHeader=<h>Útočné modifikátory<line-height=0.01%><br/><align="right">Obranné modifikátory</align></line-height></h>
+TIMissionModifier_FlatModifier.displayName=Obtížnost mise
+TIMissionModifier_TargetNationGDP.displayName=Velikost ekonomiky země
+TIMissionModifier_NationCohesion.displayName=Národní soudržnost
+TIMissionModifier_InvertedNationCohesion.displayName=Národní soudržnost
+TIMissionModifier_NationPopulation.displayName=Populace země
+TIMissionModifier_NationUnrest.displayName=Nepokoje v zemi
+TIMissionModifier_NationStability.displayName=Nepokoje v zemi
+TIMissionModifier_NationDemocracy.displayName=Demokracie
+TIMissionModifier_NationEducation.displayName=Vzdělání
+TIMissionModifier_UnhappyElites.displayName=Nespokojenost elit
+TIMissionModifier_HappyElites.displayName=Spokojenost elit
+TIMissionModifier_RegionalDefenses.displayName=Armády v regionu
+TIMissionModifier_AttackerPopulationIdeology.displayName=Veřejná podpora
+TIMissionModifier_DefenderPopulationIdeology.displayName=Veřejná podpora
+TIMissionModifier_DisabledControlPoint.displayName=Zátah
+TIMissionModifier_DefenderLocalControlPoints.displayName=Místní kontrolní body
+TIMissionModifier_AttackerLocalControlPoints.displayName=Místní kontrolní body
+TIMissionModifier_OwnedControlPoint.displayName=Rada {0}
+TIMissionModifier_AttackerAdjacentControlPoints.displayName=Kontrolní body u sousedů
+TIMissionModifier_AttackerAllyControlPoints.displayName=Kontrola u větších spojenců / federace
+TIMissionModifier_AbductionsInRegion_AlienOnly.displayName=Místní únosy
+TIMissionModifier_MeanAbductionsinNation_AlienOnly.displayName=Únosy v zemi
+TIMissionModifier_IdeologicalDistance.displayName=Rozdíl v ideologii
+TIMissionModifier_JointControlPointStat.displayName=Společná rada {0}
+TIMissionModifier_JointCouncilStat.displayName=Společná rada {0}
+TIMissionModifier_DefendedAsset.displayName=Bránit zájmy
+TIMissionModifier_AlienAssetDefense.displayName=Obrana mimozemšťanů
+TIMissionModifier_DetainedCouncilor.displayName=Zadržený cíl
+TIMissionModifier_numDefendedControlPoints.displayName=Bráněné kontrolní body
+TIMissionModifier_IntelonDefendingCouncilor.displayName=Informace o cíli
+TIMissionModifier_SpaceSupportShortage.displayName=Nedostatečná podpora habitatu
+TIMissionModifier_AttackerHabSectors.displayName=Sektory v tomto habitatu
+TIMissionModifier_DefenderHabSectors.displayName=Sektory v tomto habitatu
+TIMissionModifier_AttackingForceSize.displayName=Síla útočících vojsk
+TIMissionModifier_DefendingForceSize.displayName=Síla bránících se vojsk
+TIMissionModifier_DefenderHabSize.displayName=Velikost habitatu
+TIMissionModifier_Legislature_ExecCP.displayName=Legislativní kontrolní bod
+TIMissionModifier_Legislature_ExecCP_Defense.displayName=Legislativní kontrolní bod
+TIMissionModifier_TheParty_NonExecCP.displayName=Stranický kontrolní bod
+TIMissionModifier_TheParty_NonExecCP_Defense.displayName=Stranický kontrolní bod
+TIMissionModifier_Oligarchs.displayName=Kontrolní bod oligarchů
+TIMissionModifier_Oligarchs_Defense.displayName=Kontrolní bod oligarchů
+TIMissionModifier_NationalIndustries.displayName=Kontrolní bod národních podniků
+TIMissionModifier_NationalIndustries_Def.displayName=Kontrolní bod národních podniků
+TIMissionModifier_MassMedia.displayName=Kontrolní bod masmédií
+TIMissionModifier_SecurityApparatus.displayName=Kontrolní bod bezpečnostního aparátu
+TIMissionModifier_Bureaucracy.displayName=Kontrolní bod byrokracie
+TIMissionModifier_RegionalAuthorities.displayName=Kontrolní bod regionálních autorit
+TIMissionModifier_IdentityBlocs.displayName=Kontrolní bod názorových skupin
+TIMissionModifier_Warlords.displayName=Kontrolní blok místních bossů
+TIMissionModifier_TargetNegativeInfluence.displayName=Cíl má záporný vliv
+TIMissionModifier_TargetBroke.displayName=Cíl má záporné prostředky
+TIMissionModifier_CampaignDifficulty.displayName=Výzva
+TIMissionModifier_AlienNation.displayName=Mimozemský národ
+TIMissionModifier_ProtectionBonus.displayName=Mise Chránit: {0} 
+TIMissionModifier_RegionXenoforming_AlienOnly.displayName=Místní xenoformace
+TIMissionModifier_RegionXenoforming_AlienAndProxyOnly.displayName=Místní xenoformace
+TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly.displayName=Xenoformace v zemi
+TIMissionModifier_PherocyteResistance.displayName=Odolnost vůči ferocytům
+TIMissionModifier_AliensRemoved.displayName=Zajatí nebo zabití mimozemšťané
+TIMissionModifier_SpaceAssetPopulation.displayName=Velikost posádky
+TIMissionModifier_RegionalOccupation.displayName=Postup obsazení
+TIMissionModifier_RegionalOccupation_MyFaction.displayName=Postup obsazení
+TIMissionModifier_RegionalInvadingForcesStrength.displayName=Síla invazních jednotek
+TIMissionModifier_RegionalInvadingForcesStrength_MyFaction.displayName=Síla invazních jednotek
+TIMissionModifier_AttackerUnrestIdeology.displayName=Předchozí úsilí o nepokoje
+TIMissionModifier_RegionPopulationDensity.displayName=Hustota populace v regionu
+TIMissionModifier_Censorship.displayName=Cenzura
+TIMissionModifier_ExtractionDefense_Councilor.displayName={0} radních v blízkosti
+TIMissionModifier_ExtractionDefenseSecurityApparatus.displayName=Kontrolní bod bezpečnostního aparátu
+TIMissionModifier_ExtractionDefense_JointCouncilStat.displayName=Společné {0} zadržující frakce
+TIMissionModifier_MyFactionLoyaltyMonitor.displayName=Náš implantát pro monitorování loajality
+TIMissionModifier_AlienDetainDifficulty.displayName=Mimozemšťané
+TIMissionModifier_NationalRivalries.displayName=Kontrolní body u nepřátel
+TIMissionModifier_InsufficientCPMaintenance_Attacker.displayName=Útočník je nad limitem kontrolních bodů
+TIMissionModifier_InsufficientCPMaintenance_Defender.displayName=Cíl je nad limitem kontrolních bodů
+TIMissionModifier_EnthrallScience.displayName={0} Rady z výzkumu xenologie
+TIMissionModifier_DecommissioningHab.displayName=Zastavení provozu habitatu
+TIMissionModifier_AlienCoordination.displayName=Proxy podpora
+TIMissionModifier_NationSizeEnthrallDifficulty.displayName=Velikost země
+TIMissionModifier_ConditionalEnthrallDefendedPoint.displayName=Bránit zájmy (částečná obrana)
+TIMissionModifier_AttackerMissionControlShortage.displayName=Nedostatek řízení misí
+TIMissionModifier_DefenderMissionControlShortage.displayName=Nedostatek řízení misí
+TIMissionModifier_HabStability.displayName=Moduly zvyšující stabilitu
+TIMissionModifier_OrgDefenses.displayName=Velikost organizace
+TIMissionModifier_OrgDefenses_Admin.displayName=Administrativní hodnota organizace
+TIMissionModifier_OrgDefense.displayName=Přirozená obrana organizace před převzetím
+TIMissionModifier_OrgPoolDefense.displayName=Celkem za frakci: {0}
+
+TIMissionModifier_ScaledStat=Škálované: {0}	// this means a stat is being used as a modifier but it's multiplied by some other number, like "Scaled Administration"
+
+TIMissionCondition_GenericFail=Neplatný cíl pro tuto misi
+TIMissionCondition_AvailableControlPoint=Země nemá žádné otevřené kontrolní body
+TIMissionCondition_AvailableControlPoint2=Aby bylo možné v zemi s více kontrolními body vyhledat exekutivní kontrolní bod, musíte již ovládat jeden kontrolní bod.
+TIMissionCondition_VulnerableControlPoint=Aby bylo možné v zemi s více kontrolními body zaútočit na exekutivní kontrolní bod, musíte již ovládat jeden kontrolní bod.
+TIMissionCondition_TargetInRange=Radní se nemůže dostat k cíli
+TIMissionCondition_EnemyCouncilor=Nepatří mezi nepřátelské radní
+TIMissionCondition_EnemyOrTurnedCouncilor=Neplatný cílový radní pro danou misi
+TIMissionCondition_ExtractionTarget2=Nepatří mezi naše obrácené radní
+TIMissionCondition_ExtractionTarget=Nepatří mezi naše zadržené radní
+TIMissionCondition_CouncilorHasKnownOrgs=Není platným cílem s organizacemi k získání
+TIMissionCondition_AnyCouncilorwithUnknowns2=Neplatný cílový radní
+TIMissionCondition_AnyCouncilorwithUnknowns=Radní je plně vyšetřen
+TIMissionCondition_TurnableEnemyCouncilor=Neplatný cílový radní
+TIMissionCondition_TurnableEnemyCouncilor2=Cíl nebo jeho frakce jsou již kompromitovány
+TIMissionCondition_MyFactionCouncilor=Není naším radním
+TIMissionCondition_TurnedEnemyCouncilor=Není naším agentem
+TIMissionCondition_FreeCouncilSlot=Bez otevřených pozic v radě
+TIMissionCondition_HasSpaceFacility=Žádné kosmické zařízení k zaměření
+TIMissionCondition_DetainTarget=Cílového jedince nelze zajmout ani zadržet
+TIMissionCondition_EnemySpaceAsset=Nepatří mezi nepřátelské subjekty
+TIMissionCondition_EnemyHumanSpaceAsset=Nepatří mezi lidské nepřátelské subjekty
+TIMissionCondition_SpaceAssetNotInTransfer=Neplatný cíl
+TIMissionCondition_SpaceAssetNotInTransfer2=Nelze, když se flotila přesouvá
+TIMissionCondition_NationHasEnemyControlPoint=V cílové zemi máme úplnou nadvládu
+TIMissionCondition_NotSubmitControlPoint=Cílový kontrolní bod již obsadili naši lidští podporovatelé
+TIMissionCondition_NotAppeaseControlPoint=Cílový kontrolní bod již obsadili naši lidští spojenci
+TIMissionCondition_NotAlienControlPoint=Mimozemské kontrolní body nelze touto schopností zaměřit
+TIMissionCondition_BasicCouncilorIntel=O druhém radním nemáme dostatek informací, abychom ho mohli touto misí zaměřit
+TIMissionCondition_DefendableAsset=V cílovém uskupení je zapotřebí alespoň jeden kontrolní bod bez efektu Zátahu
+TIMissionCondition_ScannableObjectWithMyControlPoints1=Na cílovém místě nemáme žádné kontrolní body
+TIMissionCondition_ScannableObjectWithMyControlPoints2=Není naším habitatem
+TIMissionCondition_ScannableObjectWithMyControlPoints3=Není naší flotilou
+TIMissionCondition_ExecutiveControl=Bez exekutivního kontrolního bodu nemůžeme nastavovat politiku
+TIMissionCondition_MinimumGlobalAbductions_HigherValue=Než budeme moct tuto misi provést, musíme unést více lidí
+TIMissionCondition_MinimumGlobalAbductions_LowerValue=Než budeme moct tuto misi provést, musíme unést více lidí
+TIMissionCondition_ProtectTarget=Musí patřit mezi naše
+TIMissionCondition_CouncilorOnEarth=Radní musí být na Zemi
+TIMissionCondition_CanConstructFacility=V regionu již zařízení existuje
+TIMissionCondition_CanConstructFacility1=K provedení této mise musíme mít diplomatické vztahy s mimozemšťany
+TIMissionCondition_CanConstructFacility2=Potřebujeme všechny kontrolní body v regionu, dostatek předchozích únosů a region nesmí být okupován
+TIMissionCondition_AssassinationTarget=Nemůžeme vraždit naše spojence
+TIMissionCondition_AlienFacilityInNation=Vyžaduje hydří výzkumné zařízení v tomto národě
+TIMissionCondition_HumanFactionsPermitControl=Vyžaduje naši exekutivní kontrolu a naprostou kontrolu v rukách frakcí ochotných odevzdat území mimozemšťanům
+TIMissionCondition_HumanFactionsPermitControl2=Vyžaduje, aby byl na Zemi nebo na oběžné dráze Země mimozemšťan
+TIMissionCondition_MinimumUnrest=Žádné nepokoje v cílové zemi
+TIMissionCondition_FactionHasStealableProjects=Frakce nemá žádné projekty, které by bylo možné dle našich informací ukrást
+TIMissionCondition_HasSpySlot=Žádná kapacita pro další špióny
+TIMissionCondition_FactionHasVulnerableProjects=Cíl nemá žádné projekty, které by se daly sabotovat
+TIMissionCondition_CanLaunchToOrbit=Radní musí být na Zemi nebo na základně
+TIMissionCondition_AllowedOrbitTarget=Cílová oběžná dráha musí být v dosahu místa startu
+TIMissionCondition_CanTransfer=Radní musí být na oběžné dráze nebo v habitatu
+TIMissionCondition_AllowedTransferTarget=Cíl převodu musí být v dosahu
+TIMissionCondition_CanDeorbit=Radní musí být na styčné oběžné dráze nebo v systému Země-Měsíc
+TIMissionCondition_AllowedDeorbitTarget=Cíl stažení z oběžné dráhy musí být v dosahu
+TIMissionCondition_ContactableTarget=Na tohoto radního nelze použít misi Kontaktovat
+TIMissionCondition_ContactableTarget2=Misi Kontaktovat nelze použít na vlastního radního
+TIMissionCondition_ContactableTarget3=Tato frakce naše pokusy o kontakt ignoruje
+TIMissionCondition_SeizeSpaceAssetTroopsPresent=Nejsou přítomny žádné jednotky k provedení mise
+TIMissionCondition_SeizeSpaceAssetTargetInRange=Místní bojové jednotky se nemohou dostat k cíli
+TIMissionCondition_SeizeSpaceAssetTargetInRange_2=Cíl je již napaden
+TIMissionCondition_TerrorizeVulnerableControlPoint=Kontrolní bod je již loajální nebo je příliš dobře bráněn
+TIMissionCondition_HasIntelOnCouncilorSecrets=Nedostatečné vyšetření cílového radního
+TIMissionCondition_HumanControlPoint=Tato mise nemůže zaměřit mimozemskou kontrolu
+TIMissionCondition_HumanNation=Tato mise nemůže zaměřit mimozemský národ
+TIMissionCondition_Human=Radní není člověkem
+TIMissionCondition_EnthrallableControlPoint=Aby bylo možné v zemi s více kontrolními body zaútočit na exekutivní kontrolní bod, podporovatelé již musí ovládat jeden kontrolní bod.
+TIMissionCondition_EnemyControlPointsInNation=Země musí mít alespoň jeden kontrolní bod, který není náš
+TIMissionCondition_SentinelModulesActive=Na styčné oběžné dráze země musíme mít alespoň jeden aktivní Strážný modul
+TIMissionCondition_VictoryCondition=Frakce musí splnit všechny podmínky vítězství
+TIMissionCondition_SufficientMissionControl=Musí být k dispozici volné řízení misí
+TIMissionCondition_FreeCouncilor=Cílový radní nesmí být zadržený nebo jinak neaktivní
+TIMissionCondition_TargetableHabModule=Musí se jednat o nepřátelský nezákladní modul
+TIMissionCondition_TargetableOrg=Musí se jednat o organizaci v nepřiřazeném fondu nepřátelské frakce, případně musí být přiřazena k radnímu, o kterém toho hodně víme
+_Fail=Musí být platným typem cíle pro danou misi a přístupný pro radního.
+
+TIMissionAbort_ControlPointRemoved=Tato mise byla zrušena, protože cílový kontrolní bod již neexistuje.
+TIMissionAbort_CouncilorRetired=Tato mise byla zrušena, protože přiřazený radní již není aktivní.
+TIMissionAbort_CouncilorUnavailable=Tato mise byla zrušena, protože přiřazený radní již není k dispozici.
+TIMissionAbort_CouncilorDetained=Tato mise byla zrušena, protože přiřazený radní je zadržen.
+TIMissionAbort_CouncilorDead=Tato mise byla zrušena, protože přiřazený radní je mrtev.
+TIMissionAbort_TurnedCouncilorQuit=Tato mise byla zrušena, protože přiřazený radní odešel.
+TIMissionAbort_MissionOrgLost=Tato mise byla zrušena, protože radní již nemá organizaci, která tuto misi umožňovala.
+TIMissionAbort_ControlPointAlreadyPurged=Tato mise byla zrušena, protože čistku cílového kontrolního bodu v tomto cyklu misí již provedl jiný radní.
+TIMissionAbort_BlanketCancel_ProbableError=<skip/>
+TIMissionAbort_NationAlreadyCouped=Tato mise byla zrušena, protože v cílové zemi právě proběhl převrat.
+TIMissionAbort_TargetFleetDestroyed=Tato mise byla zrušena, protože cílová flotila byla rozpuštěna nebo zničena.
+TIMissionAbort_TargetShipDestroyed=Tato mise byla zrušena, protože cílová loď byla zničena.
+TIMissionAbort_TargetHabDestroyed=Tato mise byla zrušena, protože cílový habitat byl zničen.
+TIMissionAbort_TargetInvalid=Tato mise byla zrušena, protože přiřazený cíl byl zlikvidován.
+TIMissionAbort_VoluntaryAbort=Tato mise byla dobrovolně zrušena vedením frakce.
+TIMissionAbort_OrgAlreadyTaken=Tato mise byla zrušena, protože cílovou organizaci již v tomto cyklu misí převzal jiný radní.
+
+TIMissionTargeting_NoTarget=Žádný cíl
+TIMissionTargeting_InvalidTarget={0}<br/>Neplatný cíl	// ID of target
+
+TIMissionResult_ExecutiveControlChange=Exekutivní moc v této zemi nyní patří frakci {0}.
+
+TIMission.Timing.0=Mise bude vyřešena prakticky ihned po přiřazení.
+TIMission.Timing.1=Mise bude vyřešena na počátku rozhodovací fáze.
+TIMission.Timing.2=Mise bude vyřešena uprostřed rozhodovací fáze.
+TIMission.Timing.3=Mise bude vyřešena v pozdější části rozhodovací fáze.
+TIMission.Timing.4=Tato mise bude vyřešena na konci rozhodovací fáze.
+TIMission.Timing.5=Tato mise bude vyřešena po všech ostatních misích.
+
+TIMission_AttackerModifiers=<h>Modifikátory radního</h>
+TIMission_DefenderModifiers=<h>Modifikátory cíle</h>

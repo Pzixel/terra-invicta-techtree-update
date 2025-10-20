@@ -1,0 +1,60 @@
+TIVictoryCondition.description.GlobalControlPointProportion=La nostra fazione deve avere un numero di punti di controllo pari ad almeno un {0} di tutti i punti di controllo presenti sulla Terra.
+TIVictoryCondition.description.GlobalRegionProportion=La nostra fazione deve controllare un {0} di tutte le regioni sulla Terra. Possiamo dire di controllare una regione quando abbiamo il punto di controllo esecutivo nella sua nazione e più di metà dei punti di controllo totali in quella nazione.
+TIVictoryCondition.description.GlobalEcoProportion=La nostra fazione deve controllare un {0} di tutte le regioni cruciali dal punto di vista economico sulla Terra. Possiamo dire di controllare una regione quando abbiamo il punto di controllo esecutivo nella sua nazione e più di metà dei punti di controllo totali in quella nazione.
+TIVictoryCondition.description.GlobalPopulationProportion=La nostra fazione deve controllare regioni che comprendono un {0} della popolazione terrestre. Possiamo dire di controllare una regione quando abbiamo il punto di controllo esecutivo nella nazione e più di metà dei punti di controllo totali in quella nazione.
+TIVictoryCondition.description.GlobalGDPProportion=La nostra fazione deve controllare nazioni con almeno un {0} del PIL totale realizzato sul pianeta Terra. Possiamo dire di controllare una nazione quando abbiamo il suo punto di controllo esecutivo e oltre metà di tutti i punti di controllo in quella nazione.
+TIVictoryCondition.description.AlienNationMaxRegionProportion_special=Gli alieni non devono controllare nessuna regione della Terra.
+TIVictoryCondition.description.AlienNationMaxRegionProportion=Gli alieni non devono controllare più di un {0} delle regioni terrestri.
+TIVictoryCondition.description.AlienNationMinRegionProportion=Gli alieni devono controllare almeno un {0} delle regioni terrestri.
+TIVictoryCondition.description.AlienNationMaxPopulationProportion=Gli alieni devono controllare regioni che non comprendano più di un {0} della popolazione terrestre.
+TIVictoryCondition.description.AlienNationMinPopulationProportion=Gli alieni devono controllare regioni che comprendano almeno un {0} della popolazione terrestre.
+TIVictoryCondition.description.ProAlienMaxRegionProportion=Gli alieni e le fazioni pro-alieni non devono controllare più di un {0} delle regioni terrestri. Una fazione controlla una regione quando ha il punto di controllo esecutivo nella nazione della regione e più di metà dei punti di controllo complessivi in quella nazione.
+TIVictoryCondition.description.ProAlienMinRegionProportion=Gli alieni e le fazioni pro-alieni devono controllare almeno un {0} delle regioni terrestri. Una fazione controlla una regione quando ha il punto di controllo esecutivo nella nazione e più di metà dei punti di controllo complessivi in quella nazione.
+TIVictoryCondition.description.MinProAlienFleetPower=La potenza di flotta combinata degli alieni e delle fazioni pro-alieni deve essere di almeno un {0} rispetto alla potenza di flotta complessiva detenuta da tutte le fazioni nel sistema solare.
+TIVictoryCondition.description.MaxProAlienFleetPower=La potenza di flotta combinata degli alieni e delle fazioni pro-alieni non deve superare un {0} rispetto alla potenza di flotta complessiva detenuta da tutte le fazioni nel sistema solare.
+TIVictoryCondition.description.MaxOtherFactionsFleetPower=La potenza di flotta combinata di tutte le fazioni nemiche non deve superare un {0} rispetto alla potenza di flotta complessiva detenuta da tutte le fazioni nel sistema solare.
+TIVictoryCondition.description.MinGlobalDemocracyWeightedAverage=Il punteggio medio della Democrazia sulla Terra, ponderato in base alle popolazioni delle nazioni, deve essere di almeno un {0}.
+TIVictoryCondition.description.MaxGlobalDemocracyWeightedAverage=Il punteggio medio della Democrazia sulla Terra, ponderato in base alle popolazioni delle nazioni, deve essere inferiore a un {0}.
+TIVictoryCondition.description.MinGlobalInequalityWeightedAverage=Il punteggio medio della Disuguaglianza sulla Terra, ponderato in base alle popolazioni delle nazioni, deve essere di almeno un {0}.
+TIVictoryCondition.description.MaxGlobalInequalityWeightedAverage=Il punteggio medio della Disuguaglianza sulla Terra, ponderato in base alle popolazioni delle nazioni, deve essere inferiore a un {0}.
+TIVictoryCondition.description.GlobalPopularityProportion=La nostra fazione deve avere il sostegno di un {0} della popolazione della Terra.
+TIVictoryCondition.description.GlobalMissionControlCapacity=La nostra fazione deve controllare un {0} della capacità di controllo missioni umana.
+TIVictoryCondition.Status=Valore attuale: {0}/{1} ({2})
+TIVictoryCondition.None=Nessuna condizione aggiuntiva
+TIVictoryCondition.FreePlanets_DefeatAliens_PlanetarySystem=Distruggi tutti gli habitat alieni di grado {0} e superiore nel sistema planetario {1}
+TIVictoryCondition.FreePlanets_DefeatAliens_Region=Distruggi tutti gli habitat alieni di grado {0} e superiore presso i seguenti corpi: {1}
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_PlanetarySystem=Distruggi tutti gli habitat di grado {0} e superiore che appartengono agli alieni e ai loro supporter umani ({2}) nel sistema {1}
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_Region=Distruggi tutti gli habitat di grado {0} e superiore che appartengono agli alieni e ai loro supporter umani ({2}) presso i seguenti corpi: {1}
+TIVictoryCondition.FreePlanets_DefeatEveryone_PlanetarySystem=Distruggi tutti gli habitat di grado {0} e superiore che non appartengono alla nostra fazione nel sistema planetario {1}
+TIVictoryCondition.FreePlanets_DefeatEveryone_Region=Distruggi tutti gli habitat di grado {0} e superiore che non appartengono alla nostra fazione presso i seguenti corpi: {1}
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_PlanetarySystem=Distruggi tutti gli habitat di grado {0} e superiore che appartengono alle fazioni anti-alieni ({2}) nel sistema planetario {1}
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_Region=Distruggi tutti gli habitat di grado {0} e superiore che appartengono alle fazioni anti-alieni ({2}) presso i seguenti corpi: {1}
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_PlanetarySystem=Distruggi tutti gli habitat di grado {0} e superiore che appartengono alle fazioni non alleate con gli alieni ({2}) nel sistema planetario {1}
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Distruggi tutti gli habitat di grado {0} e superiore che appartengono alle fazioni non alleate con gli alieni ({2}) presso i seguenti corpi: {1}
+TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Distruggi tutti gli habitat di grado {0} e superiore che appartengono agli alieni e alle fazioni estremiste umane ({2}) nel sistema planetario {1}
+TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Distruggi tutti gli habitat di grado {0} e superiore che appartengono agli alieni e alle fazioni estremiste umane ({2}) presso i seguenti corpi: {1}
+
+TIVictoryCondition.FreeFleets_DefeatAliens_All=Distruggi tutte le flotte aliene con potenza di combattimento pari a {0} o superiore
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono agli alieni e ai loro supporter umani ({2})
+TIVictoryCondition.FreeFleets_DefeatEveryone_All=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che non appartengono alla nostra fazione 
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_All=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono alle fazioni anti-alieni ({2})
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_All=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono alle fazioni non alleate con gli alieni ({2})
+TIVictoryCondition.FreeFleets_DefeatExtremists_All=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono agli alieni e alle fazioni estremiste umane ({2})
+
+TIVictoryCondition.FreeFleets_DefeatAliens_PlanetarySystem=Distruggi tutte le flotte aliene con potenza di combattimento pari a {0} o superiore nel sistema planetario {1}
+TIVictoryCondition.FreeFleets_DefeatAliens_Region=Distruggi tutte le flotte aliene con potenza di combattimento pari a {0} o superiore presso i seguenti corpi: {1}
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_PlanetarySystem=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono agli alieni e ai loro supporter umani ({2}) nel sistema {1}
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_Region=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono agli alieni e ai loro supporter umani ({2}) presso i seguenti corpi: {1}
+TIVictoryCondition.FreeFleets_DefeatEveryone_PlanetarySystem=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che non appartengono alla nostra fazione nel sistema planetario {1}
+TIVictoryCondition.FreeFleets_DefeatEveryone_Region=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che non appartengono alla nostra fazione presso i seguenti corpi: {1}
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_PlanetarySystem=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono alle fazioni anti-alieni ({2}) nel sistema planetario {1}
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_Region=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono alle fazioni anti-alieni ({2}) presso i seguenti corpi: {1}
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_PlanetarySystem=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono alle fazioni non alleate con gli alieni ({2}) nel sistema planetario {1}
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono alle fazioni non alleate con gli alieni ({2}) presso i seguenti corpi: {1}
+TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono agli alieni e alle fazioni estremiste umane ({2}) nel sistema planetario {1}
+TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Distruggi tutte le flotte con una potenza di combattimento di {0} e superiore che appartengono agli alieni e alle fazioni estremiste umane ({2}) presso i seguenti corpi: {1}
+
+
+TIVictoryCondition.Complete=Completa
+
+

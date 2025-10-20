@@ -93,6 +93,7 @@ TICouncilorCondition_iNumLoseableOrgs= when the councilor's portfolio of nonexcl
 TICouncilorCondition_iAssassinatedHumans= when the number of human councilors this councilor has assassinated {0}
 TICouncilorCondition_iAssassinatedAliens= when the number of alien operatives this councilor has assassinated {0}
 TICouncilorCondition_iAssassinations= when the number of successful assassinations this councilor has performed {0}
+TIHabCondition_iCrewSize= for habs with {0} crew
 TIHabCondition_tbHasModuleFunctioningTRUE= for habs with a {0} module
 TIHabCondition_tbHasModuleFunctioningFALSE= for habs without a {0} module
 TIHabCondition_tbHasModuleOrUpgradePrereqFunctioningTRUE= for habs with a {0} or {1} module

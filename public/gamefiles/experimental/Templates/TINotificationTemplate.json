@@ -496,6 +496,38 @@
    "stacking": "SameRegion"
 },
  {
+   "dataName": "LogEnemyArmyJoinsBattle",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameRegion"
+},
+ {
+   "dataName": "LogMyArmyBadlyDamaged",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
    "dataName": "LogArmyTeleportedToLegalRegion",
    "alertHammerLoc": "UI.Notifications.Operations",
    "disable": false,
@@ -1138,6 +1170,22 @@
    "stacking": "None"
 },
  {
+   "dataName": "LogNationsCPPrioritiesReset",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameNation"
+},
+ {
    "dataName": "LogRegimeChange",
    "alertHammerLoc": "UI.Notifications.ExternalAffairs",
    "disable": false,
@@ -1232,6 +1280,22 @@
       "category": "EarthEvents"
    },
    "stacking": "None"
+},
+ {
+   "dataName": "LogNationCompletesNuke",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameNation"
 },
  {
    "dataName": "LogNationGainsCoreEcoRegion",
@@ -1336,6 +1400,38 @@
    "allowAnyChanges": true,
    "allowAlertChanges": true,
    "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNationsGainClaims",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameNation"
+},
+ {
+   "dataName": "LogLegitimizeClaimComplete",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
    "firstAlertOverride": false,
    "newsFeedAudience": "None",
    "timerAudience": "None",
@@ -2047,6 +2143,38 @@
    "stacking": "None"
 },
  {
+   "dataName": "LogAutoBombardementCancelled",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Bombardment"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogBombardingFleetEntersDangerZone",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Bombardment"
+   },
+   "stacking": "SameRegion"
+},
+ {
    "dataName": "LogShipDestroyedInStrat",
    "alertHammerLoc": "UI.Notifications.MissionControl",
    "disable": false,
@@ -2141,6 +2269,22 @@
       "category": "SpaceEvents"
    },
    "stacking": "None"
+},
+ {
+   "dataName": "LogFleetEjectedFromStation",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "SameHab"
 },
  {
    "dataName": "LogProbeLaunched",
@@ -2352,6 +2496,22 @@
 },
  {
    "dataName": "LogHabDestroyed",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogHabModuleForcedOffDueToPopulationChanges",
    "alertHammerLoc": "UI.Notifications.MissionControl",
    "disable": false,
    "allowAnyChanges": true,

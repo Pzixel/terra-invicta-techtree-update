@@ -67,7 +67,7 @@ TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Destroy all f
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and human extremist factions ({2}) in the {1} planetary system
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and human extremist factions ({2}) at the following bodies: {1}
 
-TIVictoryCondition.BasePresence_MajorPlanets=Have a fully built surface base with all modules at least tier {0} and powered and active in the following planetary systems:
+TIVictoryCondition.BasePresence_MajorPlanets=Have a fully built surface base with all modules at least tier {0} and powered and active in the following planetary systems (the primary or any of its moons):
 
 TIVictoryCondition.Complete=Complete
 TIVictoryCondition.Incomplete=Incomplete

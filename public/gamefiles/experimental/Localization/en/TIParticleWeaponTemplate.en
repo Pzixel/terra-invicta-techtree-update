@@ -60,6 +60,10 @@ TIParticleWeaponTemplate.displayName.HeavyParticleLance=Heavy Particle Lance
 TIParticleWeaponTemplate.description.HeavyParticleLance=A large nose-mount linear accelerator firing neutralized particles to disrupt enemy electronics and disable crew members.
 TIParticleWeaponTemplate.displayName.SpinalParticleLance=Spinal Particle Lance
 TIParticleWeaponTemplate.description.SpinalParticleLance=A giant nose-mount linear accelerator firing neutralized particles to disrupt enemy electronics and disable crew members.
+TIParticleWeaponTemplate.displayName.AntimatterPointDefenseBattery=Antimatter Point Defense Battery
+TIParticleWeaponTemplate.description.AntimatterPointDefenseBattery=Rapid-cycling antimatter beam turret for burst-fire point defense.
+TIParticleWeaponTemplate.displayName.HeavyAntimatterPointDefenseBattery=Heavy Antimatter Point Defense Battery
+TIParticleWeaponTemplate.description.HeavyAntimatterPointDefenseBattery=Massive antimatter beam turret designed for fleetwide point defense support.
 TIParticleWeaponTemplate.displayName.AntimatterParticleCannon=Antimatter Cannon
 TIParticleWeaponTemplate.description.AntimatterParticleCannon=A linear accelerator firing a tight beam of antimatter at a target, which can cause significant thermal and radiation damage.
 TIParticleWeaponTemplate.displayName.HeavyAntimatterParticleCannon=Heavy Antimatter Cannon
@@ -88,4 +92,4 @@ TIParticleWeaponTemplate.XRayDamage=X-Ray Damage (radiation):<rcol>{0}</rcol>
 TIParticleWeaponTemplate.BaryonicDamage=Baryonic Damage (radiation), {0}x to internals:<rcol>{1}</rcol>
 
 TIParticleWeaponTemplate.Defense.MissilesOnly=<h>Defensive fire will only target missiles.</h>
-TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Defensive fire against non-missile targets will have reduced effectiveness</h>
+TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Defensive fire against non-missile projectiles will have reduced effectiveness</h>

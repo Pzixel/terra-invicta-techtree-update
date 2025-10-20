@@ -1,0 +1,15 @@
+UI.Markers.CouncilorMarker.Tooltip={0},{1} ({2})</color>																// faction color, councilor Name, councilor job
+UI.Markers.CouncilorMarker.TooltipWithMission={0},{1} ({2})</color>: «{3}» ({4}).										// faction color, councilor Name, councilor job, mission, target
+UI.Markers.CouncilorMarker.TooltipWithMissionResolveTime={0}{1} ({2})</color>: «{3}» ({4}). Завершується: {5}.				// faction color, councilor Name, councilor job, mission, target, completion date
+UI.Markers.Capital.TooltipHeader=Точки контролю нації {0}: {1}															// nation, # CPs
+UI.Markers.Capital.ControlPoint=#{0} ({1}): {2}
+UI.Markers.Uncontrolled=Не контролюється
+UI.Markers.InvalidTarget=Неправильна ціль
+UI.Markers.Occupation={0}: окуповано {1}																				// Occupying nation, percentage
+UI.Markers.CoreEconomicRegion=Основний економічний регіон<br/><br/>Основні економічні регіони надають бонус пріоритету «Економіка» нації.
+UI.Markers.CoreResourceRegion=Регіон з ресурсами<br/><br/>Регіони з ресурсами надають бонус пріоритету «Економіка» нації, але також спричиняють збільшення рівня нерівності й шкоди середовищу.
+UI.Markers.MonsterArmy=Мегафауна прибульців ({0})
+UI.Markers.NoFactionArmy={0} ({1}) {2} Атака: {3}
+UI.Markers.FactionArmy={0} ({1}, {2}) {3} Атака: {4}
+UI.Markers.Boost={0}<br/>{1}{2} на рік
+UI.Markers.MissionControl={0}<br/>{1}{2}

@@ -1,0 +1,534 @@
+TIMissionTemplate.displayName.Abductions=Викрадення
+TIMissionTemplate.description.Abductions=Зберіть кількох людей з регіону для вивчення того, як ми можемо поліпшити здатність прибульців контролювати їх.
+TIMissionTemplate.CriticalSuccess.Abductions=Ми зібрали багатьох піддослідних в місті {targetRegionName} для вивчення, і нас не виявила місцева влада.
+TIMissionTemplate.Success.Abductions=Ми зібрали кількох піддослідних в місті {targetRegionName} для вивчення.
+TIMissionTemplate.Failure.Abductions=Нам не вдалося зібрати значної кількості людей в місті {targetRegionName} для вивчення.
+TIMissionTemplate.CriticalFailure.Abductions=Нам не вдалося зібрати жодної людини в місті {targetRegionName} для вивчення, і, імовірно, вороги знають про нашу присутність.
+
+TIMissionTemplate.displayName.GainInfluence=Контроль нації
+TIMissionTemplate.description.GainInfluence=Здобудьте відкриту точку контролю в нації.
+TIMissionTemplate.CriticalSuccess.GainInfluence=Мені вдалося здобути точку контролю для фракції «{myFactionName}» в нації {targetNationNameWithPrep}, а громадська думка змінилася на {returnedValue} на нашу користь. Тепер у цьому місці в нас є {myTargetNationControlPoints} точ. контролю з {totalTargetNationControlPoints}.
+TIMissionTemplate.Success.GainInfluence=Мені вдалося здобути точку контролю для фракції «{myFactionName}» в нації {targetNationNameWithPrep}. Тепер у цьому місці в нас є {myTargetNationControlPoints} точ. контролю з {totalTargetNationControlPoints}.
+TIMissionTemplate.Failure.GainInfluence=Моя місія контролю в нації {targetNationNameWithPrep} провалилася.
+TIMissionTemplate.CriticalFailure.GainInfluence=Я натрапив на серйозну перешкоду під час виконання своєї місії контролю в нації {targetNationNameWithPrep}, що спричинило зниження громадської думки про фракцію «{myFactionName}» на {returnedValue}.
+
+TIMissionTemplate.displayName.Propaganda=Кампанія зв'язків із громадськістю
+TIMissionTemplate.description.Propaganda=Збільште рівень громадської підтримки в нації на користь нашої справи.
+TIMissionTemplate.CriticalSuccess.Propaganda=Мені вдалося збільшити рівень народної підтримки на користь фракції «{myFactionName}» в нації {targetNationNameWithPrep}. {returnedValue}
+TIMissionTemplate.Success.Propaganda=Мені вдалося збільшити рівень народної підтримки на користь фракції «{myFactionName}» в нації {targetNationNameWithPrep}. {returnedValue}
+TIMissionTemplate.Failure.Propaganda=Моя місія «{missionName}» в нації {targetNationNameWithPrep} не змогла вплинути на народну підтримку.								
+TIMissionTemplate.CriticalFailure.Propaganda=Моя місія «{missionName}» в нації {targetNationNameWithPrep} — просто катастрофа! {returnedValue}
+
+TIMissionTemplate.displayName.Purge=Чистка
+TIMissionTemplate.description.Purge=Заберіть точку контролю від ворожої фракції.
+TIMissionTemplate.CriticalSuccess.Purge=Ми забрали точку контролю для фракції «{myFactionName}» в нації {targetNationNameWithPrep} від фракції «{returnedValue}» і через це здобули громадську підтримку.
+TIMissionTemplate.Success.Purge=Ми позбулися прихильників фракції «{returnedValue}» і забрали точку контролю для фракції «{myFactionName}» в нації {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.Purge=Мені не вдалося позбутися посіпак фракції «{returnedValue}» в нації {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Purge=Мені не вдалося завершити свою місію чистки щодо фракції «{returnedValue}» в нації {targetNationNameWithPrep}. Мої зусилля, найімовірніше, були помічені ворогами, і ми втратили деякий рівень громадської підтримки в цій нації.
+
+TIMissionTemplate.displayName.Advise=Порада
+TIMissionTemplate.description.Advise=Надайте експертизу нації або середовищу. Такі характеристики радника, як наука, командування й адміністрування, поліпшать результати досліджень, бойові спроможності та фінансові показники. Додаткові консультування радників надають менші переваги.
+TIMissionTemplate.Success.Advise=Я надаю свою експертизу нації {targetNationNameWithArticle}. {returnedValue}
+
+TIMissionTemplate.displayName.Assassinate=Убивство
+TIMissionTemplate.description.Assassinate=Убийте визначеного ворожого радника.
+TIMissionTemplate.CriticalSuccess.Assassinate=Мені вдалося вбити радника {targetCouncilorName} фракції «{targetFactionName}». {returnedValue}
+TIMissionTemplate.Success.Assassinate=Мені вдалося вбити радника {targetCouncilorName} фракції «{targetFactionName}». {returnedValue}
+TIMissionTemplate.Failure.Assassinate=Мені не вдалося завершити місію вбивства радника {targetCouncilorName} фракції «{targetFactionName}».
+TIMissionTemplate.CriticalFailure.Assassinate=Мені не вдалося завершити місію вбивства радника {targetCouncilorName} фракції «{targetFactionName}».
+TIMissionTemplate.Assassinate.Special=Оперативники фракції «{targetFactionAdjective}» зближуються до моєї позиції.
+TIMissionTemplate.AssassinateAlien=Із цієї операції ми багато чого дізналися про прибульців, тож отримаємо бонус до нашого подальшого дослідження астробіології. 
+
+TIMissionTemplate.displayName.AssaultAlienAsset=Напад на майно прибульців
+TIMissionTemplate.description.AssaultAlienAsset=Керуйте бойовим підрозділом і нападіть на основний засіб прибульців.
+TIMissionTemplate.CriticalSuccess.AssaultAlienAsset=Наш напад на ціль «{targetDisplayName}» в регіоні міста {targetRegionName} був повністю успішним. {returnedValue}
+TIMissionTemplate.Success.AssaultAlienAsset=Наш напад на ціль «{targetDisplayName}» в регіоні міста {targetRegionName} був успішним. {returnedValue}
+TIMissionTemplate.Failure.AssaultAlienAsset=Оборона цілі дала нам відсіч, тож нам не вдалося заподіяти шкоди.
+TIMissionTemplate.CriticalFailure.AssaultAlienAsset=Наш напад не заподіяв жодної шкоди цілі.
+TIMissionTemplate.CouncilorKilled.AssaultAlienAsset=Під час операції вбили радника {0}!
+
+TIMissionTemplate.displayName.AssumeControl=Надання прибульцям контролю
+TIMissionTemplate.description.AssumeControl=Ми передаємо Адміністрації Прибульців націю під нашим контролем. Нам потрібно збудувати там об'єкт. Ця місія створить нову націю прибульців, якщо жодної не існує. Натомість вони допомагатимуть нам ресурсами.
+TIMissionTemplate.Success.AssumeControl=Ми передали націю {targetNationNameWithArticle} нашим благодійникам.
+
+TIMissionTemplate.displayName.BuildFacility=Побудова об'єкта
+TIMissionTemplate.description.BuildFacility=Збудуйте дослідницьку базу для підтримки операцій та транспортування прибульців і щоби ми змогли передавати їм прямий контроль над націями Землі. Для цього потрібно здійснити щонайменше 15 викрадень. 
+TIMissionTemplate.Success.BuildFacility=Ми збудували безпечний об'єкт для прибульців у місті {targetRegionName} нації {targetNationNameWithPrep}. Тепер ми можемо провести місію «Надання прибульцям контролю», якщо ми володіємо всіма точками контролю в цій нації.
+
+TIMissionTemplate.displayName.SetNationalPolicy=Установлення національної політики
+TIMissionTemplate.description.SetNationalPolicy=Впровадьте основну політику для вибраної нації, наприклад, розпочніть війну. Ви зможете обрати політичний напрям, коли завершиться місія. Для цього потрібен виконавчий контроль.
+TIMissionTemplate.Success.SetNationalPolicy=Я завершую місію встановлення національної політики в нації {targetNationNameWithPrep}.
+
+TIMissionTemplate.displayName.Contact=Зв'язок
+TIMissionTemplate.description.Contact=Зв'яжіться з визначеним радником з іншої фракції для проведення дипломатичної розмови.
+TIMissionTemplate.Success.Contact=Мені вдалося зв'язатися з радником {targetDisplayName} фракції «{targetFactionName}» для проведення дипломатичної розмови.
+
+TIMissionTemplate.displayName.ControlSpaceAsset=Контроль космічного майна
+TIMissionTemplate.description.ControlSpaceAsset=Переконайте корабель або екіпаж середовища приєднатися до вашої фракції. Для цього потрібно мати достатню кількість одиниць керування польотами, щоби перейняти ресурс.
+TIMissionTemplate.CriticalSuccess.ControlSpaceAsset=Ми провели заколот на об'єкті «{targetDisplayName}», тож його екіпаж приєднався до фракції «{myFactionName}». Вони передали нам значну кількість інформації спостереження, а цей ресурс стане особливо стійким до ворожих місій до: {returnedValue}. 
+TIMissionTemplate.Success.ControlSpaceAsset=Ми надихнули проведення заколоту на об'єкті «{targetDisplayName}», тож його екіпаж приєднався до фракції «{myFactionName}»
+TIMissionTemplate.Failure.ControlSpaceAsset=Мені не вдалося надихнути проведення повстання на об'єкті «{targetDisplayName}». Сили тут напоготові до майбутніх спроб заколоту. {returnedValue}
+TIMissionTemplate.FailurePlus.ControlSpaceAsset=Скоро мене заарештує {0}!
+TIMissionTemplate.CriticalFailure.ControlSpaceAsset=Мені не вдалося надихнути проведення повстання на об'єкті «{targetDisplayName}». Сили тут напоготові до майбутніх спроб заколоту. {returnedValue}
+
+TIMissionTemplate.displayName.Coup=Державний переворот
+TIMissionTemplate.description.Coup=Поваліть уряд і скиньте його точки контролю.
+TIMissionTemplate.CriticalSuccess.Coup=Моя спроба здійснити переворот у нації {targetNationNameWithPrep} виявилася приголомшливо успішною, і ми здобули значну владу в новому режимі. 
+TIMissionTemplate.Success.Coup=Моя спроба здійснити переворот у нації {targetNationNameWithPrep} виявилася успішною, і ми перебудували в ній структуру влади.
+TIMissionTemplate.Failure.Coup=Мені не вдалося виконати місію «{missionName}» у нації {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Coup=Катастрофа! Мені не вдалося повалити уряд нації {targetNationNameWithPrep}! {returnedValue}
+
+TIMissionTemplate.displayName.Crackdown=Репресія
+TIMissionTemplate.description.Crackdown=Тимчасово відключіть переваги точки контролю, що прибере будь-який захист і надасть змогу легше позбутися іншої фракції.
+TIMissionTemplate.CriticalSuccess.Crackdown=Ми здійснили успішну репресію фракції «{targetFactionName}» у нації {targetNationNameWithPrep}. Їхня точка контролю «{controlPointTypeDisplayName}» буде відключена до: {returnedValue}
+TIMissionTemplate.Success.Crackdown=Ми здійснили успішну репресію фракції «{targetFactionName}» у нації {targetNationNameWithPrep}. Їхня точка контролю «{controlPointTypeDisplayName}» буде відключена до: {returnedValue} 
+TIMissionTemplate.Failure.Crackdown=Наша спроба нейтралізувати фракцію «{targetFactionName}» у нації {targetNationNameWithPrep} провалилася.
+TIMissionTemplate.CriticalFailure.Crackdown=Наша спроба нейтралізувати фракцію «{targetFactionName}» у нації {targetNationNameWithPrep} провалилася, і ми зазнали негативного розголошення.
+
+TIMissionTemplate.displayName.DefendInterests=Захист інтересів
+TIMissionTemplate.description.DefendInterests=Зміцніть наші точки контролю в цій нації проти репресій, чисток або переворотів. Тривалість зміцнення меншає, коли ми захищаємо більше точок контролю.
+TIMissionTemplate.Success.DefendInterests=Мені вдалося відправити потрібних людей до правильних місць, і наш контроль у місцині {targetDisplayNameSent} тепер захищений до: {returnedValue}. Ворожі фракції, які намагатимуться перейняти контроль у цих місцях собі, отримають значні штрафи.
+
+TIMissionTemplate.displayName.Detain=Затримання радника
+TIMissionTemplate.description.Detain=Затримайте ворожого радника для допиту. Успіх у виконанні також зірве будь-які місії, які він виконує.
+TIMissionTemplate.CriticalSuccess.Detain=Ми затримали радника {targetDisplayNameSent} для допиту. Під час нього ми очікуємо почути величезну кількість інформації про фракцію «{targetFactionName}». {returnedValue}
+TIMissionTemplate.Success.Detain=Ми затримали радника {targetDisplayNameSent} для допиту. {returnedValue}
+TIMissionTemplate.Failure.Detain=Нам не вдалося схопити ціль {targetDisplayNameSent}.
+TIMissionTemplate.CriticalFailure.Detain=Нам не вдалося схопити ціль {targetDisplayNameSent}. Здається, вона знала про нашу місію.
+TIMissionTemplate.BonusEffect.Detain=Ми також зірвали місію радника «{0}».
+TIMissionTemplate.DetentionEnd.Detain=Ми можемо утримувати цього радника до: {0}. Ми можемо повторно затримати цього радника, щоби продовжити його утримування. <sp>
+TIMissionTemplate.Detain.DetainAlien=За допомогою наших допитів ми отримаємо значний бонус до нашого подальшого дослідження астробіології.
+
+TIMissionTemplate.displayName.DetectCouncilActivity=Стеження за місциною
+TIMissionTemplate.description.DetectCouncilActivity=Значно збільште ймовірність, що в регіоні радника, прилеглих до нього регіонах, у середовищі або на флоті будуть виявлені ворожі радники й прибульці. Може також виявити заховані ресурси прибульців у ближніх регіонах Землі.
+TIMissionTemplate.Success.DetectCouncilActivity=Шукаю наших ворогів у місцевості {targetDisplayNameSent}.
+
+TIMissionTemplate.displayName.EnthrallElites=Підкорення еліти
+TIMissionTemplate.description.EnthrallElites=Прибульці здобувають точку контролю для своїх людських прихильників у вибраній нації.
+TIMissionTemplate.CriticalSuccess.EnthrallElites=Наші людські союзники здобули точку контролю в нації {targetNationNameWithPrep}, а громадська підтримка змінилася на їхню користь.
+TIMissionTemplate.Success.EnthrallElites=Наші людські союзники здобули точку контролю в нації {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallElites=Нам не вдалося підкорити лідерів нації {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.EnthrallElites=Нам не вдалося підкорити лідерів нації {targetNationNameWithPrep}, і, можливо, у цьому місці виявили нашу діяльність.
+
+TIMissionTemplate.displayName.EnthrallPublic=Підкорення громадськості
+TIMissionTemplate.description.EnthrallPublic=Прибульці одомашнюють частину людського населення в цій нації.
+TIMissionTemplate.CriticalSuccess.EnthrallPublic=Ми підкорили щонайменше {returnedValue} населення нації {targetNationNameWithPrep}.
+TIMissionTemplate.Success.EnthrallPublic=Ми підкорили щонайменше {returnedValue} населення нації {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallPublic=Нам не вдалося підкорити людей нації {targetNationNameWithPrep}. Для успіху можуть знадобитися більше викрадень та досліджень.
+TIMissionTemplate.CriticalFailure.EnthrallPublic=Нам не вдалося підкорити людей нації {targetNationNameWithPrep}, і, можливо, у цьому місці нас виявили.
+
+TIMissionTemplate.displayName.EnthrallOrg=Підкорення організації
+TIMissionTemplate.description.EnthrallOrg=Прибульці захоплюють організацію в радника для свого власного користування. Також можуть братися організації фракції, які не розподілені між радниками. 
+TIMissionTemplate.CriticalSuccess.EnthrallOrg=Наша спроба підкорення цілі «{targetDisplayName}» фракції «{targetFactionName}» була надзвичайно успішною. Окрім організації, ми також отримали {returnedValue}.
+TIMissionTemplate.Success.EnthrallOrg=Наша спроба підкорення цілі «{targetDisplayName}» фракції «{targetFactionName}» була успішною.
+TIMissionTemplate.Failure.EnthrallOrg=Нам не вдалося отримати організацію, яка належить цілі {targetDisplayName} фракції «{targetFactionName}».
+TIMissionTemplate.CriticalFailure.EnthrallOrg=Нам не вдалося отримати організацію, яка належить цілі {targetDisplayName} фракції «{targetFactionName}», і, можливо, наші вороги з'ясували, що я займаюся проведенням операції.
+TIMissionTemplate.Prompt.EnthrallOrg=Оберіть, яку організацію вкрасти в цілі «{0}»...
+
+TIMissionTemplate.displayName.EnthrallUnalignedElites=Підкорення незалежної еліти
+TIMissionTemplate.description.EnthrallUnalignedElites=Прибульці здобувають неузгоджену точку контролю для своїх людських прихильників у вибраній нації.
+TIMissionTemplate.CriticalSuccess.EnthrallUnalignedElites=Наші людські союзники здобули точку контролю в нації {targetNationNameWithPrep}, а громадська підтримка змінилася на їхню користь.
+TIMissionTemplate.Success.EnthrallUnalignedElites=Наші людські союзники здобули точку контролю в нації {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallUnalignedElites=Нам не вдалося підкорити лідерів нації {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.EnthrallUnalignedElites=Нам не вдалося підкорити лідерів нації {targetNationNameWithPrep}, і, можливо, у цьому місці виявили нашу діяльність.
+
+TIMissionTemplate.displayName.Extract=Витягання радника
+TIMissionTemplate.description.Extract=Витягніть одного з наших затриманих радників з рук ворога.
+TIMissionTemplate.CriticalSuccess.Extract=Ми витягнули радника {targetDisplayName} із ворожого ув'язнення. Під час місії ми отримали частину інформації про його викрадачів.
+TIMissionTemplate.Success.Extract=Ми витягнули радника {targetDisplayName} із ворожого ув'язнення.
+TIMissionTemplate.Failure.Extract=Ми не змогли пробити ворожу охорону, щоби витягнути радника {targetDisplayName}.
+TIMissionTemplate.CriticalFailure.Extract=Наша спроба витягнути радника {targetDisplayName} провалилася, і мене виявили в процесі. Ворожі сили наближаються.
+
+TIMissionTemplate.displayName.GoToGround=Залягання на дно
+TIMissionTemplate.description.GoToGround=Почати переховуватися в регіоні Землі, щоби вороги не виявили й не напали.
+TIMissionTemplate.Success.GoToGround=Мені вдалося залягти на дно в місті {targetRegionName}.
+
+TIMissionTemplate.displayName.HostileTakeover=Вороже захоплення
+TIMissionTemplate.description.HostileTakeover=Захопіть організацію у ворожого радника для нашого власного користування. Також можуть братися організації фракції, які не розподілені між радниками. Деякі приписані фракції організації захищені від цього.
+TIMissionTemplate.CriticalSuccess.HostileTakeover=Наша спроба ворожого захоплення цілі «{targetDisplayName}» фракції «{targetFactionName}»  була надзвичайно успішною. Окрім організації, ми також отримали {returnedValue}.<br/><br/>{targetOrgDetails}
+TIMissionTemplate.Success.HostileTakeover=Наша спроба ворожого захоплення цілі «{targetDisplayName}» фракції «{targetFactionName}»  була успішною.
+TIMissionTemplate.Failure.HostileTakeover=Нам не вдалося отримати організацію «{targetDisplayName}» фракції «{targetFactionName}».
+TIMissionTemplate.CriticalFailure.HostileTakeover=Нам не вдалося отримати організацію «{targetDisplayName}» фракції «{targetFactionName}», і, можливо, наші вороги з'ясували, що я займаюся проведенням операції.
+TIMissionTemplate.Prompt.HostileTakeover=Оберіть, яку організацію вкрасти в цілі «{0}»...
+
+TIMissionTemplate.displayName.Inspire=Натхнення
+TIMissionTemplate.description.Inspire=Поліпшіть вірність чергового радника, роблячи його більш стійким до допитів та спроб переманити. Це також може повернути до нас радника, якого переманили.
+TIMissionTemplate.CriticalSuccess.Inspire=Після нашої розмови радник {targetDisplayNameSent} почав ставитися до наших зусиль зі значно більшим ентузіазмом. {returnedValue}
+TIMissionTemplate.Success.Inspire=Наш радник {targetDisplayNameSent} із більшим ентузіазмом ставиться до нашої справи. {returnedValue}
+TIMissionTemplate.Failure.Inspire=Не думаю, що мені вдалося вплинути на вірність радника {targetDisplayNameSent} до нашої справи. {returnedValue}
+TIMissionTemplate.CriticalFailure.Inspire=Прошу вибачення, але, схоже, усе з радником {targetDisplayNameSent} лише погіршилося. {returnedValue}
+
+TIMissionTemplate.Inspire.PositiveEffect=Характеристика радника «{0}» збільшилася на {1}.
+TIMissionTemplate.Inspire.NoVisibleEffect=Однак, боюся, важко розпізнати, як саме змінився рівень вірності радника.
+TIMissionTemplate.Inspire.NegativeEffect=Характеристика радника «{0}» зменшилася на {1}.
+
+TIMissionTemplate.displayName.InvestigateAlienActivity=Дослідження інопланетної діяльності
+TIMissionTemplate.description.InvestigateAlienActivity=Виберіть місцину підозрюваної інопланетної діяльності, щоби більше дізнатися про методи й мотиви прибульців.
+TIMissionTemplate.CriticalSuccess.InvestigateAlienActivity=Мені вдалося багато чого дізнатися за допомогою дослідження цілі «{targetDisplayName}» нації {targetNationNameWithPrep}. Ми отримаємо бонус до нашого подальшого дослідження астробіології.
+TIMissionTemplate.Success.InvestigateAlienActivity=Мені вдалося дізнатися частину корисної інформації за допомогою дослідження цілі «{targetDisplayName}» нації {targetNationNameWithPrep}. Ми отримаємо малий бонус до нашого подальшого дослідження астробіології.
+TIMissionTemplate.Failure.InvestigateAlienActivity=Мені не вдалося дізнатися нічого нового за допомогою дослідження цілі «{targetDisplayName}» нації {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.InvestigateAlienActivity=Мені не вдалося дізнатися нічого нового за допомогою дослідження цілі «{targetDisplayName}» нації {targetNationNameWithPrep}, і, імовірно, мене виявили інші агенти.
+
+TIMissionTemplate.displayName.InvestigateCouncilor=Вивчення радника
+TIMissionTemplate.description.InvestigateCouncilor=Зберіть розвіддані на радника, які можуть дозволити нам вибирати радника з місіями й більше дізнаватися про фракцію, якій він служить. Також можна використовувати для перевірки вірності одного з наших радників.
+TIMissionTemplate.CriticalSuccess.InvestigateCouncilor=Ми дізналися значну кількість інформації про радника {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.Success.InvestigateCouncilor=Ми поліпшили наші знання про радника {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.Failure.InvestigateCouncilor=Мені не вдалося дізнатися щось нове про радника {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.CriticalFailure.InvestigateCouncilor=Мені не вдалося дізнатися щось нове про радника {targetDisplayNameSent}, і мене, можливо, виявили наші вороги. {returnedValue}
+
+TIMissionTemplate.displayName.Orbit=Переміщення на орбіту
+TIMissionTemplate.description.Orbit=Перемістіться з поверхні Землі на будь-яку орбіту в системі Місяць—Земля або з поверхні будь-якого космічного тіла на станцію чи корабель на сполучній орбіті. Риса «Під прикриттям» потрібна тільки для подорожей до ворожих середовищ 1-ї категорії (форпости й платформи) та флотів.
+TIMissionTemplate.Success.Orbit=Прибуваю на борт об'єкта «{targetLocationStrSentence}».
+
+TIMissionTemplate.displayName.Deorbit=Сходження з орбіти
+TIMissionTemplate.description.Deorbit=Перемістіться з середовища або корабля на сполучній орбіти до поверхні космічного тіла або з будь-якої місцини в системі Місяць—Земля до поверхні Землі.
+TIMissionTemplate.Success.Deorbit=Стою на твердій землі.
+
+TIMissionTemplate.displayName.PassTechnology=Передавання технологій
+TIMissionTemplate.description.PassTechnology=Надайте частину наших технологій для допомоги нашим людських союзникам.
+TIMissionTemplate.Success.PassTechnology=Надаю допомогу нашим союзникам.
+
+TIMissionTemplate.displayName.Protect=Захист цілі
+TIMissionTemplate.description.Protect=Застосуйте характеристику радника «Захист» або «Командування» для захисту вибраного регіону, середовища або радника-союзника від фізичних атак або інших операцій. Ми також запобігаємо смерті вибраного радника в провальних місіях убивства.
+TIMissionTemplate.Success.Protect=Тепер захищаю ціль «{targetDisplayName}» від ворожих операцій.
+
+TIMissionTemplate.displayName.SabotageFacilities=Саботаж об'єктів
+TIMissionTemplate.description.SabotageFacilities=Саботуйте вибраний космічний об'єкт у регіоні.
+TIMissionTemplate.CriticalSuccess.SabotageFacilities=Мої бомби заподіяли значної шкоди цілі «{targetDisplayName}». Малоймовірно, що нашу причетність виявлять.
+TIMissionTemplate.Success.SabotageFacilities=Мені вдалося досягти успіху в місії саботажу цілі «{targetDisplayName}».
+TIMissionTemplate.Failure.SabotageFacilities=Мені не вдалося достатньо близько підібратися до об'єкта «{targetDisplayName}», щоби здійснити саботаж.
+TIMissionTemplate.CriticalFailure.SabotageFacilities=Моя місія саботажу об'єкта «{targetDisplayName}» — просто катастрофа! {returnedValue}
+
+TIMissionTemplate.displayName.SabotageHabModule=Саботаж модуля середовища
+TIMissionTemplate.description.SabotageHabModule=Знищте вибраний неядерний модуль середовища свого поточного середовища.
+TIMissionTemplate.CriticalSuccess.SabotageHabModule=Мої бомби знищили об'єкт «{returnedValue}» у середовищі «{targetHabName}».
+TIMissionTemplate.Success.SabotageHabModule=Мої бомби знищили об'єкт «{returnedValue}» у середовищі «{targetHabName}».
+TIMissionTemplate.Failure.SabotageHabModule=Мені не вдалося достатньо близько підібратися до об'єкта «{targetDisplayName}» у середовищі «{targetHabName}», щоби встановити бомбу.
+TIMissionTemplate.CriticalFailure.SabotageHabModule=Мене виявили в захищеній області поблизу об'єкта «{targetDisplayName}» у середовищі «{targetHabName}» і тепер затримали для допиту.
+
+TIMissionTemplate.displayName.SabotageProject=Саботаж проєкту
+TIMissionTemplate.description.SabotageProject=Виберіть радника або середовище за допомогою інженерного модуля, щоби забрати до 5000 одиниць досліджень від прогресу проєкту. Деякі проєкти можна саботувати лише раз.
+TIMissionTemplate.CriticalSuccess.SabotageProject=Мені вдалося спричинити серйозну затримку дослідження фракції «{targetFactionName}» і викрасти проєкт «{returnedValue}» для використання нашими науковцями.
+TIMissionTemplate.Success.SabotageProject=Мені вдалося спричинити серйозну затримку дослідження фракції «{targetFactionName}».
+TIMissionTemplate.Failure.SabotageProject=Мені не вдалося проникнути до цілі для саботажу їхнього дослідження.
+TIMissionTemplate.CriticalFailure.SabotageProject=Мені не вдалося проникнути до цілі для саботажу їхнього дослідження.
+TIMissionTemplate.Prompt.SabotageProject=Оберіть, який проєкт саботувати...
+
+TIMissionTemplate.SecondarySelection=Вибір: {0}
+
+TIMissionTemplate.displayName.SeizeSpaceAsset=Напад на вороже космічне майно
+TIMissionTemplate.description.SeizeSpaceAsset=Керуйте космічними морськими піхотинцями, щоби спробувати захопити вороже середовище. Для цього на місцині радника потрібно мати морських піхотинців флоту або середовища. Флоти мають здійснити стикування з ворожими станціями, щоби напасти на них. Станції можуть розгортати загони на поверхню, а бази можуть нападати на ближні ділянки середовища. Модулі морських піхотинців можна пошкодити або знищити.
+TIMissionTemplate.CriticalSuccess.SeizeSpaceAsset=Перемога! Ми захопили ціль «{targetDisplayName}» у фракції «{targetFactionName}». {returnedValue}
+TIMissionTemplate.Success.SeizeSpaceAsset=Перемога! Ми захопили ціль «{targetDisplayName}» у фракції «{targetFactionName}». {returnedValue}
+TIMissionTemplate.Failure.SeizeSpaceAsset=Поразка! Нам не вдалося захопити ціль «{targetDisplayName}» у фракції «{targetFactionName}». {returnedValue}
+TIMissionTemplate.CriticalFailure.SeizeSpaceAsset=Поразка! Нам не вдалося захопити ціль «{targetDisplayName}» у фракції «{targetFactionName}». {returnedValue}
+
+TIMissionTemplate.displayName.Stabilize=Стабілізація нації
+TIMissionTemplate.description.Stabilize=Зменште рівень заворушень у вибраній нації, поліпшуючи економіку та знижуючи можливість того, що уряд повалять. Ефект буде послаблений, якщо наявне заворушення менше половини рівня заворушень нації в сталому стані.
+TIMissionTemplate.CriticalSuccess.Stabilize=Ми значно знизили рівень заворушень нації {targetNationNameWithPrep} на {returnedValue} до показника «{targetNationUnrestWithString}».
+TIMissionTemplate.Success.Stabilize=Ми знизили рівень заворушень нації {targetNationNameWithPrep} на {returnedValue} до показника «{targetNationUnrestWithString}».
+TIMissionTemplate.Failure.Stabilize=Мені не вдалося завершити місію зниження рівня заворушень у нації {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Stabilize=Мої спроби знизити рівень заворушень у нації {targetNationNameWithPrep} були катастрофою. Тепер нація дедалі більше ділиться, отримуючи {returnedValue} од. заворушень.
+
+TIMissionTemplate.displayName.StealProject=Викрадення проєкту
+TIMissionTemplate.description.StealProject=Викрадіть інженерний проєкт у ворожої фракції за допомогою вибору одного з їхніх радників або середовищ із інженерним модулем, що розблокує його нам для досліджень. Ми також можемо отримати <color=#FFFFFFFF><sprite name="research"></color>, якщо ворожа фракція випереджає нас за прибутком одиниць досліджень.
+TIMissionTemplate.CriticalSuccess.StealProject=Мені вдалося отримати доступ до дослідницьких архівів фракції «{targetFactionName}». {returnedValue}Тепер ми можемо обрати, який їхній проєкт викрасти.
+TIMissionTemplate.Success.StealProject=Мені вдалося отримати доступ до дослідницьких архівів фракції «{targetFactionName}». {returnedValue}
+TIMissionTemplate.Failure.StealProject=Мені не вдалося отримати доступ до дослідницьких архівів фракції «{targetFactionName}».
+TIMissionTemplate.CriticalFailure.StealProject=Мені не вдалося отримати доступ до дослідницьких архівів фракції «{targetFactionName}».
+TIMissionTemplate.Prompt.StealProject=Оберіть, який проєкт викрасти в цілі «{0}»...
+
+TIMissionTemplate.displayName.TerrorizeRegion=Тероризування регіону
+TIMissionTemplate.description.TerrorizeRegion=Атакуйте цивільних осіб у цьому регіоні, щоби примусити концесію від національного уряду, здобуваючи точку контролю для людської фракції, яка вважає нас вищою силою. Однак у цьому є ризик, що проти нас зміцнять опозицію.
+TIMissionTemplate.CriticalSuccess.TerrorizeRegion=Наші ударні війська успішно тероризували регіон міста {targetRegionName}, і фракція «{1}» здобула точку контролю в нації {targetNationNameWithPrep}. Людська громадськість, схоже, здебільшого зі страхом сприйняла наше вторгнення.
+TIMissionTemplate.Success.TerrorizeRegion=Наші ударні війська здебільшого успішно тероризували регіон міста {targetRegionName}, і фракція «{1}» здобула точку контролю в нації {targetNationNameWithPrep}. Громадськість, схоже, розділилася: одна група чинить нам опір, інша боїться нас. 
+TIMissionTemplate.Failure.TerrorizeRegion=Наші ударні війська провалили свою місію тероризування регіону міста {targetRegionName}.
+TIMissionTemplate.CriticalFailure.TerrorizeRegion=Наші ударні війська були розгромлені в спробах тероризувати регіон міста {targetRegionName}, а людський народ, здається, підбадьорений своїми зусиллями протистояти нам.
+
+TIMissionTemplate.displayName.Xenoform=Ксеноформа
+TIMissionTemplate.description.Xenoform=Залиште корінні інопланетні біоформи, розкидані у всьому регіоні, у спокої. Згодом вони повинні підкорити корінне життя, зробити людей більш податливими та зрештою виростити великі стада фауни, які перешкоджатимуть людській економіці.
+TIMissionTemplate.CriticalSuccess.Xenoform=Наші біоформи надзвичайно гарно засвоїлися в цьому регіоні.
+TIMissionTemplate.Success.Xenoform=Наші біоформи вкоренилися в цьому регіоні.
+TIMissionTemplate.Failure.Xenoform=Нашим біоформам не вдалося вкоренитися в цьому регіоні.
+TIMissionTemplate.CriticalFailure.Xenoform=Нашим біоформам не вдалося вкоренитися в цьому регіоні, і, імовірно, мою діяльність виявили.
+
+TIMissionTemplate.displayName.Transfer=Подорож
+TIMissionTemplate.description.Transfer=Переміщайтеся від одного середовища або флоту до іншого будь-де в космосі в системі Земля—Місяць. Якщо далеко від Землі, переміщайтеся до будь-якого середовища або флоту на цій ж орбіті або на цьому же космічному тілі. Риса «Під прикриттям» потрібна тільки для подорожей до ворожих середовищ 1-ї категорії (форпости й платформи) та флотів.
+TIMissionTemplate.Success.Transfer=Прибуваю на об'єкт «{targetDisplayName}».
+
+TIMissionTemplate.displayName.Turn=Переманити радника
+TIMissionTemplate.description.Turn=Переманіть ворожого радника на наш бік, що надасть нам величезну кількість розвідданих та контроль над тим, успішно чи невдало він виконуватиме місії. Для спроби виконання цієї місії нам потрібно знати справжню характеристику «Вірності» цілі.
+TIMissionTemplate.CriticalSuccess.Turn=Ми переманили радника {targetDisplayName} на наш бік. Цей радник продовжуватиме працювати на фракцію «{targetFactionName}», але ми матимемо доступ до всіх розвідданих фракції та контроль над тим, успішно чи невдало він виконуватиме місії. Ми повинні бути обережними й не викликати надто багато підозр у межах фракції «{targetFactionName}»!<br/><br/>Ще одне досягнення: наш новий агент приніс дослідницькі файли, над якими потрібно було би працювати цілий місяць, суттєво просунувши наш власний розвиток.
+TIMissionTemplate.Success.Turn=Ми переманили радника «{targetDisplayName}» на наш бік. Цей радник продовжуватиме працювати на фракцію «{targetFactionName}», але ми матимемо доступ до всіх розвідданих фракції та контроль над тим, успішно чи невдало він виконуватиме місії. Ми повинні бути обережними й не викликати надто багато підозр серед фракції «{targetFactionName}»!
+TIMissionTemplate.Failure.Turn=Нам не вдалося переманити радника {targetDisplayName} на наш бік.
+TIMissionTemplate.CriticalFailure.Turn=Мені не вдалося переманити радника {targetDisplayName} на наш бік, і, схоже, моє розташування, імовірно, відоме фракції «{targetFactionName}».
+
+TIMissionTemplate.displayName.Unrest=Збільшення рівня заворушень
+TIMissionTemplate.description.Unrest=Збільште рівень заворушень нації вибраного регіону, шкодячи економіці та роблячи перевороти, революції та сецесії більш імовірними. Успіх у регіоні з рухом за незалежність може викликати сецесію, замість революції. Ефект буде послаблений, якщо рівень заворушень уже вдвічі більший рівня заворушень нації в сталому стані.
+TIMissionTemplate.CriticalSuccess.Unrest=Мої зусилля підняли рівень заворушень у нації {targetNationNameWithPrep} на {returnedValue} до показника «{targetNationUnrestWithString}». У нас тепер є якась підтримка серед повстанських рухів. якщо вони колись захочуть повалити уряд.
+TIMissionTemplate.Success.Unrest=Мої зусилля підняли рівень заворушень у нації {targetNationNameWithPrep} на {returnedValue} до показника «{targetNationUnrestWithString}». У нас тепер є якась підтримка серед повстанських рухів, якщо вони колись захочуть повалити уряд.
+TIMissionTemplate.Failure.Unrest=Мені не вдалося підняти рівень заворушень у нації {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Unrest=Мені не вдалося підняти рівень заворушень у нації {targetNationNameWithPrep}. {returnedValue}
+
+TIMissionTemplate.displayName.DominateNation=Домінування над нацією
+TIMissionTemplate.description.DominateNation=Пригрозіть вибраній нації бомбардуванням із наших вартових платформ. Успіх передасть точку контролю нашій фракції. Невдача змусить нас здійснити нашу загрозу, перш ніж ми здобудемо точку контролю.
+TIMissionTemplate.CriticalSuccess.DominateNation=Деякі лідери нації {targetNationNameWithPrep} схилилися перед нашою вищістю, дозволяючи нам забрати точку контролю для фракції «{myFactionName}». Частина її громадськості висловила подяку за те, що ми наводимо лад у нації.
+TIMissionTemplate.Success.DominateNation=Лідери нації {targetNationNameWithPrep} злякалися наших погроз орбітального бомбардування й здалися, дозволяючи нам забрати точку контролю фракції «{myFactionName}».
+TIMissionTemplate.Failure.DominateNation=Лідери нації {targetNationNameWithPrep} знехтували нашими погрозами використання вартових систем озброєння, змушуючи нас бомбардувати вибрані цілі в цій нації, допоки вони не здалися. Ми здобули точку контролю для фракції «{myFactionName}».
+TIMissionTemplate.CriticalFailure.DominateNation=Лідери нації {targetNationNameWithPrep} посміялися з наших попереджень використати вартове озброєння проти них, змушуючи нас провести широкомасштабне бомбардування, щоби залякати їх до підпорядкування. Ми здобули точку контролю для фракції «{myFactionName}».
+
+TIMissionTemplate.displayName.AppeaseWin=Прийняття панування
+TIMissionTemplate.description.AppeaseWin=Активуйте нашу мережу вартових станцій для встановлення домінування у світових справах, заспокоюючи прибульців. Усі людські нації здадуться нам. Для цього потрібно досягнути переможних завдань.
+TIMissionTemplate.Success.AppeaseWin=Ми активували нашу мережу вартових станції, і після короткої демонстрації нації Землі поступилися нам своєю владою.
+
+TIMissionTemplate.displayName.CooperateWin=Укладення альянсу
+TIMissionTemplate.description.CooperateWin=Відправте наших стійких до фероцитів дипломатів через кротовину, щоби налагодити відносини й покласти край цьому конфлікту. Спочатку ми повинні напасти на базу й землю прибульців. Для цього потрібно досягнути переможних завдань.
+TIMissionTemplate.Success.CooperateWin=Ми досягли домовленості з гідрами.
+
+TIMissionTemplate.displayName.DestroyWin=Використання зброї
+TIMissionTemplate.description.DestroyWin=Відправте нашу біологічну зброю через кротовину. Спочатку ми повинні напасти на базу й землю прибульців. Для цього потрібно досягнути переможних завдань.
+TIMissionTemplate.Success.DestroyWin=Ми розгорнули вірус «шіва».
+
+TIMissionTemplate.displayName.EscapeWin=Запуск «Біфреста»
+TIMissionTemplate.description.EscapeWin=Видайте стартовий наказ для початку нашої міжзоряної подорожі. 
+TIMissionTemplate.Success.EscapeWin=Ми запустили «Біфрест».
+
+TIMissionTemplate.displayName.ExploitWin=Приборкання ворога
+TIMissionTemplate.description.ExploitWin=Відправте пакунок з неофероцитами через кротовину. Спочатку ми повинні напасти на базу й землю прибульців. Для цього потрібно досягнути переможних завдань.
+TIMissionTemplate.Success.ExploitWin=Ми підкорили імперію гідр.
+
+TIMissionTemplate.displayName.ResistWin=Зачинення воріт
+TIMissionTemplate.description.ResistWin=Активуйте пристрій для припинення діяльності кротовини. Спочатку ми повинні напасти на базу й землю прибульців. Для цього потрібно досягнути переможних завдань.
+TIMissionTemplate.Success.ResistWin=Ворота ворога зачинені.
+
+TIMissionTemplate.displayName.SubmitWin=Ознаменування наших господарів
+TIMissionTemplate.description.SubmitWin=Утвердіть домінування прибульців на Землі. Для цього потрібно досягнути переможних завдань.
+TIMissionTemplate.Success.SubmitWin=Земля тепер об'єднана під правлінням прибульців.
+
+TIMissionEffect_IncreaseUnrest.Special1=Мою роботу виявили, що спричинило зниження громадської підтримки на {0} і звинувачення фракції «{1}», що та скоїла звірство.										// % change, councilor's faction name
+TIMissionEffect_IncreaseUnrest.Special2=Мою роботу виявили! Агенти фракції «{0}» звинувачують фракцію «{1}», що та скоїла звірство, та планують затримати мене! Будь ласка, забезпечте моє звільнення!								// capturing faction name, councilor's faction name
+TIMissionEffect_Coup.Special1=Наша громадська підтримка тут знизилася на {0}.
+TIMissionEffect_Coup.Special2=Незабаром мене схопить фракція «{0}». Я намагатимуся чинити опір їхнім допитам якомога довше!			// faction name, capitalized
+TIMissionEffect_DamageSpaceFacilities.Special1=Нас пов'язали зі спробою, і наша громадська підтримка знизилася на {0}.
+TIMissionEffect_DamageSpaceFacilities.Special2=Мене заарештували й скоро відправлять фракції «{0}».					// faction name
+TIMissionEffect_InvestigateCouncilor.EnemySpecial1=Ми знаємо особистість цілі, {0}, приналежність до фракції «{1}», професія — «{2}».
+TIMissionEffect_InvestigateCouncilor.EnemySpecial2=Ми також володіємо детальним профілем радника, який доступний в розділі розвідданих. Ми прикидаємо, що його бал вірності — {0}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial3=Надалі ми зможемо на деякий час переглядати призначену місію радника.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial4=Ми, можливо, знаємо більше за цю особу, ніж {1}. Справжній бал вірності радника — {2}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial5=Ми також дізналися, що {0} шпигує для цілі «{1}».
+TIMissionEffect_InvestigateCouncilor.MySpecial1=Ми встановили точний бал вірності цієї особи — {0}.
+TIMissionEffect_InvestigateCouncilor.MySpecial2=Ми дізналися, що {1} обертає ціль «{0}» проти нас, яка ще й шпигувала за нами. Ми повинні усунути цю серйозну проблему якомога швидше.
+TIMissionEffect_InvestigateCouncilor.MySpecial3=Наше розслідування так погано проводилося, що радник {0} дізнався про нього й розізлився, втрачаючи одиницю вірності.
+TIMissionEffect_Advise.Special1=Допоки мені не призначать нову місію, я підвищуватиму дослідницькі результати нації на {0}, одиниці інвестицій на {1} та результативність її військ та сил оборони на {2} од. показника військових технологій.
+TIMissionEffect_Advise.Special2=Допоки мені не призначать нову місію, я підвищуватиму дослідницькі результати середовища на {0}, його виробництво ресурсів та грошей на {1} та бойові властивості його морських піхотинців на {2}.
+TIMissionEffect_Advise.Special3=Допоки мені не призначать нову місію, я підвищуватиму бойову ефективність флоту на {0} та його дослідницькі результати на {1}.
+TIMissionEffect_StealProject.Special=Мене заарештували й скоро відправлять фракції «{0}». Я чинитиму опір їхньому допиту якомога довше.					// faction name
+TIMissionEffect_StealProject.Steal=Мені також вдалося отримати проєкт «{0}» з їхніх архівів.
+TIMissionEffect_SabotageProject.Special=Мене заарештували й скоро відправлять фракції «{0}». Будь ласка, забезпечте моє звільнення!									// faction name
+TIMissionEffect_Propaganda.Special=Наша громадська підтримка тут змінилася на {0}. Тепер її показник дорівнює {1}.
+TIMissionEffect_Propaganda.Special2=Наша громадська підтримку тут не зрушила з {0}, але люди йдуть від протилежних ідеологій і прямують до нашої.
+TIMissionEffect_Assassinate.Special1=Наша спроба вбивства привернула багато уваги, і тепер мене розшукує влада у всьому світі.									// faction name
+TIMissionEffect_Assassinate.Special2=Мене заарештували й скоро відправлять фракції «{0}». Будь ласка, забезпечте моє звільнення!									// faction name
+
+TIMissionResult_Responsibility=Ми визначили, що за операцією стоїть {0}.
+
+TIMissionModifier.Spend=Витрати ресурсу ({0})														// resource name, e.g. "Ops"
+TIMissionModifier.Flat={0} ({1})															// Flat Modifier (3)
+TIMissionModifier.CodexHeader=<h>Модифікатори нападу<line-height=0.01%><br/><align="right">Модифікатори оборони</align></line-height></h>
+TIMissionModifier_FlatModifier.displayName=Складність місії
+TIMissionModifier_TargetNationGDP.displayName=Розмір національної економіки
+TIMissionModifier_NationCohesion.displayName=Національна згуртованість
+TIMissionModifier_InvertedNationCohesion.displayName=Національна згуртованість
+TIMissionModifier_NationPopulation.displayName=Національне населення
+TIMissionModifier_NationUnrest.displayName=Національні заворушення
+TIMissionModifier_NationStability.displayName=Національні заворушення
+TIMissionModifier_NationDemocracy.displayName=Демократія
+TIMissionModifier_NationEducation.displayName=Освіта
+TIMissionModifier_UnhappyElites.displayName=Незадоволення еліти
+TIMissionModifier_HappyElites.displayName=Задоволення еліти
+TIMissionModifier_RegionalDefenses.displayName=Армія в регіоні
+TIMissionModifier_AttackerPopulationIdeology.displayName=Народна підтримка
+TIMissionModifier_DefenderPopulationIdeology.displayName=Народна підтримка
+TIMissionModifier_DisabledControlPoint.displayName=Репресія
+TIMissionModifier_DefenderLocalControlPoints.displayName=Місцеві точки контролю
+TIMissionModifier_AttackerLocalControlPoints.displayName=Місцеві точки контролю
+TIMissionModifier_OwnedControlPoint.displayName=Рада ({0})
+TIMissionModifier_AttackerAdjacentControlPoints.displayName=Точки контролю сусідів
+TIMissionModifier_AttackerAllyControlPoints.displayName=Контроль у більших союзників / федерації
+TIMissionModifier_AbductionsInRegion_AlienOnly.displayName=Місцеві викрадення
+TIMissionModifier_MeanAbductionsinNation_AlienOnly.displayName=Викрадення в нації
+TIMissionModifier_IdeologicalDistance.displayName=Відмінність в ідеології
+TIMissionModifier_JointControlPointStat.displayName=Спільна рада ({0})
+TIMissionModifier_JointCouncilStat.displayName=Спільна рада ({0})
+TIMissionModifier_DefendedAsset.displayName=Захист інтересів
+TIMissionModifier_AlienAssetDefense.displayName=Оборона прибульців
+TIMissionModifier_DetainedCouncilor.displayName=Затримана ціль
+TIMissionModifier_numDefendedControlPoints.displayName=Захищені точки контролю
+TIMissionModifier_IntelonDefendingCouncilor.displayName=Розвіддані про ціль
+TIMissionModifier_SpaceSupportShortage.displayName=Дефіцит підтримки середовища
+TIMissionModifier_AttackerHabSectors.displayName=Сектори цього середовища
+TIMissionModifier_DefenderHabSectors.displayName=Сектори цього середовища
+TIMissionModifier_AttackingForceSize.displayName=Сила військ, що наступають
+TIMissionModifier_DefendingForceSize.displayName=Сила військ, що обороняються
+TIMissionModifier_DefenderHabSize.displayName=Розмір середовища
+TIMissionModifier_Legislature_ExecCP.displayName=Законодавча точка контролю
+TIMissionModifier_Legislature_ExecCP_Defense.displayName=Законодавча точка контролю
+TIMissionModifier_TheParty_NonExecCP.displayName=Точка контролю партії
+TIMissionModifier_TheParty_NonExecCP_Defense.displayName=Точка контролю партії
+TIMissionModifier_Oligarchs.displayName=Точка контролю олігархів
+TIMissionModifier_Oligarchs_Defense.displayName=Точка контролю олігархів
+TIMissionModifier_NationalIndustries.displayName=Точка контролю національних промисловостей
+TIMissionModifier_NationalIndustries_Def.displayName=Точка контролю національних промисловостей
+TIMissionModifier_MassMedia.displayName=Точка контролю засобів масової інформації
+TIMissionModifier_SecurityApparatus.displayName=Точка контролю апарата безпеки
+TIMissionModifier_Bureaucracy.displayName=Точка контролю бюрократії
+TIMissionModifier_RegionalAuthorities.displayName=Точка контролю регіональної влади
+TIMissionModifier_IdentityBlocs.displayName=Точка контролю блоків ідентичності
+TIMissionModifier_Warlords.displayName=Точка контролю польових командирів
+TIMissionModifier_TargetNegativeInfluence.displayName=Ціль має негативний показник впливу
+TIMissionModifier_TargetBroke.displayName=Ціль має негативний показник коштів
+TIMissionModifier_CampaignDifficulty.displayName=Виклик
+TIMissionModifier_AlienNation.displayName=Нація прибульців
+TIMissionModifier_ProtectionBonus.displayName=Місія захисту: {0} 
+TIMissionModifier_RegionXenoforming_AlienOnly.displayName=Місцеве ксеноформування
+TIMissionModifier_RegionXenoforming_AlienAndProxyOnly.displayName=Місцеве ксеноформування
+TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly.displayName=Ксеноформування в нації
+TIMissionModifier_PherocyteResistance.displayName=Опір фероцитам
+TIMissionModifier_AliensRemoved.displayName=Захоплені або вбиті прибульці
+TIMissionModifier_SpaceAssetPopulation.displayName=Розмір екіпажу
+TIMissionModifier_RegionalOccupation.displayName=Прогрес окупації
+TIMissionModifier_RegionalOccupation_MyFaction.displayName=Прогрес окупації
+TIMissionModifier_RegionalInvadingForcesStrength.displayName=Сила військ, що вторгаються
+TIMissionModifier_RegionalInvadingForcesStrength_MyFaction.displayName=Сила військ, що вторгаються
+TIMissionModifier_AttackerUnrestIdeology.displayName=Попередні зусилля заворушень
+TIMissionModifier_RegionPopulationDensity.displayName=Щільність населення регіону
+TIMissionModifier_Censorship.displayName=Цензура
+TIMissionModifier_ExtractionDefense_Councilor.displayName={0} ближніх радників
+TIMissionModifier_ExtractionDefenseSecurityApparatus.displayName=Точка контролю апарата безпеки
+TIMissionModifier_ExtractionDefense_JointCouncilStat.displayName=З'єднання фракції, що затримала ({0})
+TIMissionModifier_MyFactionLoyaltyMonitor.displayName=Наш імплант відстеження вірності
+TIMissionModifier_AlienDetainDifficulty.displayName=Прибулець
+TIMissionModifier_NationalRivalries.displayName=Точки контролю у ворогів
+TIMissionModifier_InsufficientCPMaintenance_Attacker.displayName=Нападник перевищив обмеження точок контролю
+TIMissionModifier_InsufficientCPMaintenance_Defender.displayName=Ціль перевищила обмеження точок контролю
+TIMissionModifier_EnthrallScience.displayName=Рада «{0}» з досліджень астробіології
+TIMissionModifier_DecommissioningHab.displayName=Середовище, виведене з експлуатації
+TIMissionModifier_AlienCoordination.displayName=Проксі-підтримка
+TIMissionModifier_NationSizeEnthrallDifficulty.displayName=Розмір нації
+TIMissionModifier_ConditionalEnthrallDefendedPoint.displayName=Захист інтересів (частковий захист)
+TIMissionModifier_AttackerMissionControlShortage.displayName=Дефіцит одиниць керування польотами
+TIMissionModifier_DefenderMissionControlShortage.displayName=Дефіцит одиниць керування польотами
+TIMissionModifier_HabStability.displayName=Модулі, які надають стабільність
+TIMissionModifier_OrgDefenses.displayName=Розмір організації
+TIMissionModifier_OrgDefenses_Admin.displayName=Показник адміністрування організації
+TIMissionModifier_OrgDefense.displayName=Природний захист від захоплення організації
+TIMissionModifier_OrgPoolDefense.displayName=Спільна фракція ({0})
+
+TIMissionModifier_ScaledStat=Показник «{0}», що масштабується																// this means a stat is being used as a modifier but it's multiplied by some other number, like "Scaled Administration"
+
+TIMissionCondition_GenericFail=Неправильна ціль для цієї місії.
+TIMissionCondition_AvailableControlPoint=Нація не має відкритих точок контролю
+TIMissionCondition_AvailableControlPoint2=Щоби отримати виконавчу точку контролю, уже потрібно мати одну точку контролю в нації з кількома
+TIMissionCondition_VulnerableControlPoint=Щоби атакувати виконавчу точку контролю, уже потрібно мати одну точку контролю в нації з кількома
+TIMissionCondition_TargetInRange=Радник не може досягти цілі
+TIMissionCondition_EnemyCouncilor=Не ворожий радник
+TIMissionCondition_EnemyOrTurnedCouncilor=Неправильна ціль радника для місії
+TIMissionCondition_ExtractionTarget2=Це не один із наших радників, якого переманили
+TIMissionCondition_ExtractionTarget=Це не один із наших радників, якого затримали
+TIMissionCondition_CouncilorHasKnownOrgs=Неправильна ціль для отримання організацій
+TIMissionCondition_AnyCouncilorwithUnknowns2=Неправильна ціль радника
+TIMissionCondition_AnyCouncilorwithUnknowns=Радник повністю вивчений
+TIMissionCondition_TurnableEnemyCouncilor=Неправильна ціль радника
+TIMissionCondition_TurnableEnemyCouncilor2=Ціль або її фракція вже від загрозою
+TIMissionCondition_MyFactionCouncilor=Це не один з наших радників
+TIMissionCondition_TurnedEnemyCouncilor=Це не один з наших агентів
+TIMissionCondition_FreeCouncilSlot=Немає відкритої посади в раді
+TIMissionCondition_HasSpaceFacility=Немає космічного об'єкта, щоби вибрати
+TIMissionCondition_DetainTarget=Не можна схопити або утримувати цю ціль
+TIMissionCondition_EnemySpaceAsset=Не ворожий ресурс
+TIMissionCondition_EnemyHumanSpaceAsset=Не ворожий людський ресурс
+TIMissionCondition_SpaceAssetNotInTransfer=Неправильна ціль
+TIMissionCondition_SpaceAssetNotInTransfer2=Неможливо, поки флот подорожує
+TIMissionCondition_NationHasEnemyControlPoint=У нас повний контроль над вибраною нацією
+TIMissionCondition_NotSubmitControlPoint=Наші людські прихильники вже захопили вибрану точку контролю
+TIMissionCondition_NotAppeaseControlPoint=Наші людські союзники вже захопили вибрану точку контролю
+TIMissionCondition_NotAlienControlPoint=Точки контролю прибульців є неприйнятними цілями для цієї здатності
+TIMissionCondition_BasicCouncilorIntel=У нас недостатньо знань про іншого радника, щоби вибрати його за допомогою цієї місії
+TIMissionCondition_DefendableAsset=Потрібно мати хоча б одну точку контролю, яка не переживає ефект репресії у вибраній державі
+TIMissionCondition_ScannableObjectWithMyControlPoints1=У нас немає точок контролю у вибраній місцині
+TIMissionCondition_ScannableObjectWithMyControlPoints2=Не наше середовище
+TIMissionCondition_ScannableObjectWithMyControlPoints3=Не наш флот
+TIMissionCondition_ExecutiveControl=Не можна встановити політику без виконавчої точки контролю
+TIMissionCondition_MinimumGlobalAbductions_HigherValue=Потрібно викрасти більше людей, перш ніж ми зможемо провести цю місію
+TIMissionCondition_MinimumGlobalAbductions_LowerValue=Потрібно викрасти більше людей, перш ніж ми зможемо провести цю місію
+TIMissionCondition_ProtectTarget=Повинен бути один із нас
+TIMissionCondition_CouncilorOnEarth=Радники повинні бути на Землі
+TIMissionCondition_CanConstructFacility=У регіоні вже є об'єкт
+TIMissionCondition_CanConstructFacility1=Ми повинні мати дипломатичні відносини з прибульцями для виконання цієї місії
+TIMissionCondition_CanConstructFacility2=Нам потрібні всі точки контролю в регіоні, достатня кількість попередніх викрадень і те, що регіон не окупований
+TIMissionCondition_AssassinationTarget=Не можна вбити наших союзників
+TIMissionCondition_AlienFacilityInNation=У цій нації повинен бути об'єкт дослідження гідр 
+TIMissionCondition_HumanFactionsPermitControl=Потрібен наш виконавчий контроль та загальний контроль фракції, які бажають здати території прибульцям
+TIMissionCondition_HumanFactionsPermitControl2=Потрібно, щоби на Землі або її орбіті був прибулець
+TIMissionCondition_MinimumUnrest=Немає заворушення у вибраній нації
+TIMissionCondition_FactionHasStealableProjects=У фракції не можна викрасти проєкти, про які нам відомо
+TIMissionCondition_HasSpySlot=Немає місця для додаткових шпигунів
+TIMissionCondition_FactionHasVulnerableProjects=Ціль не має проєктів для саботажу
+TIMissionCondition_CanLaunchToOrbit=Радник повинен бути на Землі або базі
+TIMissionCondition_AllowedOrbitTarget=Вибрана орбіта повинна бути в діапазоні стартового майданчика
+TIMissionCondition_CanTransfer=Радник повинен бути на орбіті або ділянці середовища
+TIMissionCondition_AllowedTransferTarget=Ціль подорожі повинна бути в діапазоні
+TIMissionCondition_CanDeorbit=Радник повинен бути на сполучній орбіті або в системі Земля—Місяць
+TIMissionCondition_AllowedDeorbitTarget=Ціль сходження з орбіти повинна бути в діапазоні
+TIMissionCondition_ContactableTarget=Не можна вибрати цього радника за допомогою місії «Зв'язок»
+TIMissionCondition_ContactableTarget2=Не можна вибрати нашого власного радника за допомогою місії «Зв'язок»
+TIMissionCondition_ContactableTarget3=Ця фракція ігнорує наші спроби зв'язатися
+TIMissionCondition_SeizeSpaceAssetTroopsPresent=Немає присутніх бойових підрозділів для проведення місії
+TIMissionCondition_SeizeSpaceAssetTargetInRange=Місцеві бойові підрозділи не можуть досягти цілі
+TIMissionCondition_SeizeSpaceAssetTargetInRange_2=На ціль уже напали
+TIMissionCondition_TerrorizeVulnerableControlPoint=Точка контролю вже вірна або добре захищена
+TIMissionCondition_HasIntelOnCouncilorSecrets=Недостатнє вивчення вибраного радника
+TIMissionCondition_HumanControlPoint=Не можна вибрати контроль прибульців за допомогою цієї місії
+TIMissionCondition_HumanNation=Не можна вибрати націю прибульців за допомогою цієї місії
+TIMissionCondition_Human=Радник не є людиною
+TIMissionCondition_EnthrallableControlPoint=Щоби атакувати виконавчу точку контролю, прихильникам уже потрібно мати одну точку контролю в нації з кількома
+TIMissionCondition_EnemyControlPointsInNation=Нація повинна мати принаймні одну точку контролю, яка не належить нам
+TIMissionCondition_SentinelModulesActive=У нас повинен бути принаймні один активований вартовий модуль на сполучній орбіті Землі
+TIMissionCondition_VictoryCondition=Фракціям потрібно досягнути всіх переможних умов
+TIMissionCondition_SufficientMissionControl=Потрібно, щоби були доступні одиниці керування польотами
+TIMissionCondition_FreeCouncilor=Вибраний радник не може бути затриманим або по-іншому неактивним
+TIMissionCondition_TargetableHabModule=Повинен бути ворожий неядерний модуль
+TIMissionCondition_TargetableOrg=Потрібно, щоби організація була в нерозподіленому резерві ворожої фракції або призначена раднику, про якого ми зібрали значну кількість розвідданих
+_Fail=Повинен бути правильний тип цілі для місії та доступний для радника.
+
+TIMissionAbort_ControlPointRemoved=Місія була скасована, бо вибраної точки контролю більше не існує.
+TIMissionAbort_CouncilorRetired=Місія була скасована, бо призначений радник більше неактивний.
+TIMissionAbort_CouncilorUnavailable=Місія була скасована, бо призначений радник більше недоступний.
+TIMissionAbort_CouncilorDetained=Місія була скасована, бо призначений радник затриманий.
+TIMissionAbort_CouncilorDead=Місія була скасована, бо призначений радник мертвий.
+TIMissionAbort_TurnedCouncilorQuit=Місія була скасована, бо призначений радник залишив її.
+TIMissionAbort_MissionOrgLost=Місія була скасована, бо радник більше не володіє організацією, яка надала місію.
+TIMissionAbort_ControlPointAlreadyPurged=Місія була скасована, бо вибрана точка контролю вже була зачищена іншим радником під час циклу місій.
+TIMissionAbort_BlanketCancel_ProbableError=<skip/>
+TIMissionAbort_NationAlreadyCouped=Місія була скасована, бо вибрана нація щойно пережила переворот.
+TIMissionAbort_TargetFleetDestroyed=Місія була скасована, бо вибраний флот був розформований або знищений.
+TIMissionAbort_TargetShipDestroyed=Місія була скасована, бо вибраний корабель був знищений.
+TIMissionAbort_TargetHabDestroyed=Місія була скасована, бо вибране середовище було знищене.
+TIMissionAbort_TargetInvalid=Місія була скасована, бо призначену ціль убили.
+TIMissionAbort_VoluntaryAbort=Місія була добровільно скасована керівництвом фракції.
+TIMissionAbort_OrgAlreadyTaken=Місія була скасована, бо вибрану організацію вже взяв інший радник під час циклу місій.  
+
+TIMissionTargeting_NoTarget=Немає цілі
+TIMissionTargeting_InvalidTarget={0}<br/>Неправильна ціль																// ID of target
+
+TIMissionResult_ExecutiveControlChange=Виконавча влада цієї нації тепер належить фракції «{0}».
+
+TIMission.Timing.0=Місія завершиться майже негайно після того, як її призначать.
+TIMission.Timing.1=Місія завершиться на ранній стадії фази вирішення.
+TIMission.Timing.2=Місія завершиться на середині фази вирішення.
+TIMission.Timing.3=Місія завершиться на пізній стадії фази вирішення.
+TIMission.Timing.4=Місія завершиться наприкінці фази вирішення.
+TIMission.Timing.5=Місія завершиться після всіх інших місій.
+
+TIMission_AttackerModifiers=<h>Модифікатори радника</h>
+TIMission_DefenderModifiers=<h>Модифікатори цілі</h>

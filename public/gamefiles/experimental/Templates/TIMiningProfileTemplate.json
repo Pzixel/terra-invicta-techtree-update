@@ -5,7 +5,7 @@
    "modifyBySize": true,
    "descriptor": "C, G, B",
    "modelValue": 4,
-   "water_mean": 30,
+   "water_mean": 35,
    "water_width": 10,
    "water_min": 20,
    "water_jump": 0.1,
@@ -32,7 +32,7 @@
    "modifyBySize": true,
    "descriptor": "D",
    "modelValue": 3,
-   "water_mean": 50,
+   "water_mean": 60,
    "water_width": 15,
    "water_min": 30,
    "water_jump": 0.15,
@@ -76,9 +76,9 @@
    "nobles_min": 0,
    "nobles_jump": 0.1,
    "fissiles_mean": 0,
-   "fissiles_width": 0,
+   "fissiles_width": 0.25,
    "fissiles_min": 0,
-   "fissiles_jump": 0
+   "fissiles_jump": 0.1
  },
  {
    "dataName": "MixedCSMine",
@@ -86,7 +86,7 @@
    "modifyBySize": true,
    "descriptor": "P",
    "modelValue": 9,
-   "water_mean": 25,
+   "water_mean": 30,
    "water_width": 20,
    "water_min": 0,
    "water_jump": 0.2,
@@ -105,7 +105,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 1,
    "fissiles_min": 0,
-   "fissiles_jump": 0.2
+   "fissiles_jump": 0.5
  },
  {
    "dataName": "MixedCMMine",
@@ -113,7 +113,7 @@
    "modifyBySize": true,
    "descriptor": "X",
    "modelValue": 1,
-   "water_mean": 15,
+   "water_mean": 20,
    "water_width": 10,
    "water_min": 0,
    "water_jump": 0.2,
@@ -140,7 +140,7 @@
    "modifyBySize": true,
    "descriptor": "Dirty Comet, Z",
    "modelValue": 6,
-   "water_mean": 60,
+   "water_mean": 70,
    "water_width": 15,
    "water_min": 40,
    "water_jump": 0.2,
@@ -167,7 +167,7 @@
    "modifyBySize": true,
    "descriptor": "Comet, Small TNO, IceSat",
    "modelValue": 10,
-   "water_mean": 70,
+   "water_mean": 80,
    "water_width": 10,
    "water_min": 50,
    "water_jump": 0.2,
@@ -213,7 +213,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 1,
    "fissiles_min": 0,
-   "fissiles_jump": 0.3
+   "fissiles_jump": 0.4
  },
  {
    "dataName": "MetallicSilicateMine",
@@ -238,9 +238,9 @@
    "nobles_min": 5,
    "nobles_jump": 0.2,
    "fissiles_mean": 0,
-   "fissiles_width": 1,
+   "fissiles_width": 0.75,
    "fissiles_min": 0,
-   "fissiles_jump": 0.5
+   "fissiles_jump": 0.4
  },
  {
    "dataName": "MetallicMine",
@@ -265,7 +265,7 @@
    "nobles_min": 5,
    "nobles_jump": 0.3,
    "fissiles_mean": 0,
-   "fissiles_width": 1.5,
+   "fissiles_width": 1,
    "fissiles_min": 0,
    "fissiles_jump": 0.3
  },
@@ -294,7 +294,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 1.5,
    "fissiles_min": 0,
-   "fissiles_jump": 0.6
+   "fissiles_jump": 0.7
  },
  {
    "dataName": "DryStonyMine",
@@ -321,7 +321,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 1.75,
    "fissiles_min": 0,
-   "fissiles_jump": 0.7
+   "fissiles_jump": 0.6
  },
  {
    "dataName": "VestoidMine",
@@ -329,13 +329,13 @@
    "modifyBySize": true,
    "descriptor": "V, R, A",
    "modelValue": 7,
-   "water_mean": 25,
+   "water_mean": 30,
    "water_width": 10,
    "water_min": 5,
-   "water_jump": 0.1,
+   "water_jump": 0.15,
    "volatiles_mean": 35,
    "volatiles_width": 10,
-   "volatiles_min": 10,
+   "volatiles_min": 15,
    "volatiles_jump": 0.2,
    "metals_mean": 30,
    "metals_width": 10,
@@ -346,7 +346,7 @@
    "nobles_min": 0,
    "nobles_jump": 0.2,
    "fissiles_mean": 0,
-   "fissiles_width": 1,
+   "fissiles_width": 1.25,
    "fissiles_min": 0,
    "fissiles_jump": 0.5
  },
@@ -371,7 +371,7 @@
    "nobles_min": 0,
    "nobles_jump": 0.2,
    "fissiles_mean": 0,
-   "fissiles_width": 1.5,
+   "fissiles_width": 1,
    "fissiles_min": 0,
    "fissiles_jump": 0.5
  },
@@ -379,10 +379,10 @@
    "dataName": "LunarNorthPolarMine",
    "friendlyName": "LunarNorthPolar",
    "modifyBySize": false,
-   "water_mean": 5,
-   "water_width": 5,
+   "water_mean": 10,
+   "water_width": 10,
    "water_min": 0,
-   "water_jump": 0.1,
+   "water_jump": 0.15,
    "volatiles_mean": 0,
    "volatiles_width": 8,
    "volatiles_min": 0,
@@ -396,9 +396,9 @@
    "nobles_min": 0,
    "nobles_jump": 0,
    "fissiles_mean": 0,
-   "fissiles_width": 1,
+   "fissiles_width": 0.75,
    "fissiles_min": 0,
-   "fissiles_jump": 0.5
+   "fissiles_jump": 0.4
  },
  {
    "dataName": "LunarMine",
@@ -421,9 +421,9 @@
    "nobles_min": 0,
    "nobles_jump": 0,
    "fissiles_mean": 0,
-   "fissiles_width": 1.5,
+   "fissiles_width": 1,
    "fissiles_min": 0,
-   "fissiles_jump": 0.7
+   "fissiles_jump": 0.5
  },
  {
    "dataName": "LunarTranquilityMine",
@@ -443,12 +443,12 @@
    "metals_jump": 0.3,
    "nobles_mean": 0,
    "nobles_width": 10,
-   "nobles_min": 0,
+   "nobles_min": 1,
    "nobles_jump": 0.2,
    "fissiles_mean": 0,
-   "fissiles_width": 1.5,
+   "fissiles_width": 1,
    "fissiles_min": 0,
-   "fissiles_jump": 0.6
+   "fissiles_jump": 0.4
  },
  {
    "dataName": "LunarCopernicusMine",
@@ -471,15 +471,15 @@
    "nobles_min": 0,
    "nobles_jump": 0,
    "fissiles_mean": 0.1,
-   "fissiles_width": 2,
+   "fissiles_width": 1.5,
    "fissiles_min": 0.1,
-   "fissiles_jump": 0.6
+   "fissiles_jump": 0.4
  },
  {
    "dataName": "LunarSouthPolarMine",
    "friendlyName": "LunarSouthPolar",
    "modifyBySize": false,
-   "water_mean": 5,
+   "water_mean": 10,
    "water_width": 10,
    "water_min": 0,
    "water_jump": 0.2,
@@ -496,9 +496,9 @@
    "nobles_min": 0,
    "nobles_jump": 0,
    "fissiles_mean": 0,
-   "fissiles_width": 1,
+   "fissiles_width": 0.75,
    "fissiles_min": 0,
-   "fissiles_jump": 0.5
+   "fissiles_jump": 0.4
  },
  {
    "dataName": "MartianNorthPolarMine",
@@ -523,7 +523,7 @@
    "fissiles_mean": 0.2,
    "fissiles_width": 2,
    "fissiles_min": 0.2,
-   "fissiles_jump": 0.8
+   "fissiles_jump": 0.3
  },
  {
    "dataName": "MartianMine",
@@ -548,7 +548,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 1.25,
    "fissiles_min": 0,
-   "fissiles_jump": 0.5
+   "fissiles_jump": 0.3
  },
  {
    "dataName": "MartianLowMine",
@@ -569,11 +569,11 @@
    "nobles_mean": 5,
    "nobles_width": 10,
    "nobles_min": 1,
-   "nobles_jump": 0.02,
+   "nobles_jump": 0.1,
    "fissiles_mean": 0,
    "fissiles_width": 1,
    "fissiles_min": 0,
-   "fissiles_jump": 0.5
+   "fissiles_jump": 0.3
  },
  {
    "dataName": "MartianVolcanoMine",
@@ -598,7 +598,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 1,
    "fissiles_min": 0,
-   "fissiles_jump": 0.5
+   "fissiles_jump": 0.3
  },
  {
    "dataName": "MartianSouthPolarMine",
@@ -623,7 +623,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 1,
    "fissiles_min": 0,
-   "fissiles_jump": 0.5
+   "fissiles_jump": 0.3
  },
  {
    "dataName": "IonianMine",
@@ -656,7 +656,7 @@
    "friendlyName": "Diverse Icy Planetoid",
    "modifyBySize": false,
    "modelValue": 9,
-   "water_mean": 70,
+   "water_mean": 75,
    "water_width": 10,
    "water_min": 15,
    "water_jump": 0.2,
@@ -673,9 +673,9 @@
    "nobles_min": 0,
    "nobles_jump": 0.3,
    "fissiles_mean": 0,
-   "fissiles_width": 1,
+   "fissiles_width": 0.75,
    "fissiles_min": 0,
-   "fissiles_jump": 0.7,
+   "fissiles_jump": 0.4,
    "Notes": "Ganymede (12/16), Callisto (9/16), Europa (3 / 9), Dione (1/4), Rhea (1/4), Titania (1/4), Oberon (2/4), Ariel (2/4), Umbriel (1/4), Triton (2/9), Charon (4/4), Orcus (3/4), Salacia (4/4)"
  },
  {
@@ -683,13 +683,13 @@
    "friendlyName": "Hydrocarbon-Rich",
    "modifyBySize": false,
    "modelValue": 4,
-   "water_mean": 30,
+   "water_mean": 35,
    "water_width": 10,
    "water_min": 10,
    "water_jump": 0.2,
-   "volatiles_mean": 60,
+   "volatiles_mean": 80,
    "volatiles_width": 20,
-   "volatiles_min": 35,
+   "volatiles_min": 50,
    "volatiles_jump": 0.3,
    "metals_mean": 10,
    "metals_width": 10,
@@ -711,7 +711,7 @@
    "modifyBySize": false,
    "descriptor": "IP",
    "modelValue": 10,
-   "water_mean": 90,
+   "water_mean": 100,
    "water_width": 10,
    "water_min": 50,
    "water_jump": 0.2,
@@ -730,7 +730,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 0.25,
    "fissiles_min": 0,
-   "fissiles_jump": 0.3,
+   "fissiles_jump": 0.2,
    "Notes": "Ceres (24), Ganymede (2/16), Callisto (7/16), Europa (3/9), Dione (3/4), Tethys (4/4), Iapetus (2/4), Oberon (2/4), Umbriel (3/4), Ariel (2/4), Orcus (1/4), Pangu (4/4), Mimas, Miranda"
  },
  {
@@ -739,11 +739,11 @@
    "modifyBySize": false,
    "descriptor": "VP",
    "modelValue": 3,
-   "water_mean": 60,
+   "water_mean": 65,
    "water_width": 10,
    "water_min": 20,
    "water_jump": 0.2,
-   "volatiles_mean": 60,
+   "volatiles_mean": 70,
    "volatiles_width": 20,
    "volatiles_min": 50,
    "volatiles_jump": 0.2,
@@ -758,7 +758,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 0.5,
    "fissiles_min": 0,
-   "fissiles_jump": 0.5,
+   "fissiles_jump": 0.3,
    "Notes": "Ceres (1/4), Iapetus (2/4), Enceladus (2/2), Titania (2/4), Triton (5/9), Pluto (5/9), Makemake (2/4)"
  },
  {
@@ -785,7 +785,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 1,
    "fissiles_min": 0.01,
-   "fissiles_jump": 0.6,
+   "fissiles_jump": 0.4,
    "Notes": "Ceres(1/4), Ganymede (2/16), Europa (3/9), Titania (1/9), Triton (1/9), Pluto (1/9)"
  },
  {

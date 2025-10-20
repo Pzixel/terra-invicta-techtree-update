@@ -1,0 +1,50 @@
+﻿TIShipArmorTemplate.displayName.SteelArmor=Стальная броня
+TIShipArmorTemplate.description.SteelArmor=Проверенная временем тяжелая броня из лучшей стали, повышающая сохранность наших кораблей в бою.
+TIShipArmorTemplate.displayName.TitaniumArmor=Титановая броня
+TIShipArmorTemplate.description.TitaniumArmor=Прочная и теплостойкая, но весьма дорогая броня.
+TIShipArmorTemplate.displayName.SiliconCarbideArmor=Броня из карбида кремния
+TIShipArmorTemplate.description.SiliconCarbideArmor=Керамическая броня, изготовленная путем спекания кремния и углеродного порошка.
+TIShipArmorTemplate.displayName.BoronCarbideArmor=Броня из карбида бора
+TIShipArmorTemplate.description.BoronCarbideArmor=Прочная броня типа "черный бриллиант", изготовленная путем восстановления триоксида бора в углеродной среде.
+TIShipArmorTemplate.displayName.CompositeArmor=Композитная броня
+TIShipArmorTemplate.description.CompositeArmor=Чередование керамических и металлических слоев позволяет получить прочную и легкую броню.
+TIShipArmorTemplate.displayName.FoamedMetalArmor=Броня из пенометалла
+TIShipArmorTemplate.description.FoamedMetalArmor=В этой легкой броне слои вспененного титана и других сплавов чередуются с керамическими пластинами.
+TIShipArmorTemplate.displayName.NanotubeArmor=Броня из нанотрубок
+TIShipArmorTemplate.description.NanotubeArmor=Броня нового поколения, представляющая собой сеть из миллионов углеродных нанотрубок.
+TIShipArmorTemplate.displayName.AdamantaneArmor=Адамантовая броня
+TIShipArmorTemplate.description.AdamantaneArmor=Передовая броня на основе алмазоидов обеспечивает превосходную защиту от кинетического оружия.
+TIShipArmorTemplate.displayName.ExoticArmor=Экзотическая броня
+TIShipArmorTemplate.description.ExoticArmor=Сверхлегкая многослойная броня из инопланетных веществ.
+TIShipArmorTemplate.displayName.HybridArmor=Гибридная броня
+TIShipArmorTemplate.description.HybridArmor=Композит из алмазоидов и экзотиков обеспечивает немыслимый уровень защиты.
+TIShipArmorTemplate.displayName.AlienAdamantaneArmor=Алмазоидная броня приш.
+TIShipArmorTemplate.description.AlienAdamantaneArmor=Инопланетный материал, созданный на основе углерода.
+TIShipArmorTemplate.displayName.AlienExoticArmor=Экзотическая броня пришельцев
+TIShipArmorTemplate.description.AlienExoticArmor=Инопланетный материал с экзотическими свойствами.
+
+TIShipArmorTemplate.ResourcesPerTon=Стоимость за тонну:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsResistance=+{0} к сопротивлению кинетическому урону
+TIShipArmorTemplate.LaserResistance=+{0} к сопротивлению лазерному урону
+TIShipArmorTemplate.ChippingResistance=+{0} к сопротивлению сколам
+TIShipArmorTemplate.KineticsVulnerability=На {0} ед. больше урона от кинетического оружия
+TIShipArmorTemplate.LaserVulnerability=На {0} ед. больше урона от лазеров
+TIShipArmorTemplate.ChippingVulnerability=На {0} больше сколов при попаданиях
+TIShipArmorTemplate.XRayResistance=+{0} к сопротивлению рентгеновскому пучковому оружию по сравнению со сталью
+TIShipArmorTemplate.XRayVulnerability=На {0} ед. больше урона от рентгеновского пучкового оружия
+TIShipArmorTemplate.BaryonicResistance=+{0} к сопротивлению нейтронному пучковому оружию
+TIShipArmorTemplate.BaryonicVulnerability=На {0} ед. больше урона от нейтронного пучкового оружия
+
+TIShipArmorTemplate.ThicknessPerPoint=Толщина на точку:<rcol>{0} см</rcol>
+
+TIShipArmorTemplate.NoseTailTonsPerPoint=Масса на точку носового/кормового бронирования:<rcol>{0} т</rcol>
+TIShipArmorTemplate.LateralTonsPerPoint=Масса на точку бортового бронирования:<rcol>{0} т</rcol>
+
+TIShipArmorTemplate.MaxArmorThickness_Lateral=Максимальная толщина бортовой брони:<rcol>{0} см</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Nose=Максимальная толщина носовой брони:<rcol>{0} см</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Tail=Максимальная толщина кормовой брони:<rcol>{0} см</rcol>
+
+TIShipArmorTemplate.MaxArmorPoints_Lateral=Максимальная бортовая броня:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Nose=Максимальная носовая броня:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Tail=Максимальная кормовая броня:<rcol>{0}</rcol>
+

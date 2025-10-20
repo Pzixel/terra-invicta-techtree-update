@@ -1,0 +1,717 @@
+UI.Objectives.Header=Cíle {0}
+UI.Objectives.ListContainerHeader=Seznam cílů
+UI.Objectives.DetailContainerHeader=Podrobnosti cíle
+UI.Objectives.Tutorial=CÍLE VÝUKY
+UI.Objectives.General=OBECNÉ CÍLE
+UI.Objectives.Campaign=CÍLE KAMPANĚ
+UI.Objectives.Victory=CÍLE VÍTĚZSTVÍ
+UI.Objectives.Completed=DOKONČENÉ CÍLE
+UI.Objectives.Detail.Tutorial=Výukové cíle tě seznámí s klíčovými herními mechanismy. Plnění těchto cílů nemá přímý vliv na postup v kampani. Můžeš je plnit v libovolném pořadí. Splnění některých z nich může nějakou dobu trvat.
+UI.Objectives.Detail.General=Obecné cíle jsou užitečným vodítkem pro celou kampaň.
+UI.Objectives.Detail.Campaign=Cíle kampaně jsou aktuální cíle, o které se tvá frakce snaží. Jejich splnění je nezbytné pro vítězství ve hře.
+UI.Objectives.Detail.Victory=Splněním vítězných cílů vyhraješ celou hru.
+UI.Objectives.Detail.Completed=Toto jsou cíle kampaně, které jsme již splnili.
+UI.Objectives.Summary=Povedlo se nám splnit cíl {0}.
+UI.Objectives.VictoryConditions1=Abychom mohli zahájit misi radního, se kterou vyhrajeme hru, musíme nejprve splnit následující cíl, který nám zajistí vítězství:
+UI.Objectives.VictoryConditionsMult=Abychom mohli zahájit misi radního, se kterou vyhrajeme hru, musíme nejprve splnit následující cíle, který nám zajistí vítězství:
+
+UI.Objectives.TechProjectPrereqs=Abychom mohli dokončit výzkum potřebný pro splnění tohoto cíle, musíme nejprve dokončit následující nezbytné technologie a projekty:
+UI.Objectives.TechProjectPrereq_or=<sp>nebo {0}
+
+UI.Objectives.HelpPanel=Panel nápovědy
+UI.Objectives.TipConfirm=Další tip
+UI.Objectives.TipBack=Předchozí tip
+UI.Objectives.TutorialSkip=Skrýt
+UI.Objectives.DontShowAgain=Již nezobrazovat
+UI.Objectives.TutorialReset=Resetovat výuku
+UI.Objectives.TutorialResetAll=Resetovat všechny výukové tipy
+
+UI.Objectives.CouncilGridCanvas.CouncilorCard.Name=Mřížka rady
+UI.Objectives.CouncilGridCanvas.CouncilorCard.NameShort=Rada
+UI.Objectives.CouncilGridCanvas.CouncilorCard.Desc=Každý z tvých radních je zde zobrazen na kartě spolu se svými vlastnostmi, příjmy, umístěním a misí, které se účastní. Na dvou kartách vpravo dole mohou být zobrazeni až dva nepřátelští radní, kteří pro tebe špehují.
+UI.Objectives.CouncilGridCanvas.Portrait.Name=Rozevřít podrobnosti o radním
+UI.Objectives.CouncilGridCanvas.Portrait.Desc=Kliknutím na portrét radního otevřeš panel s podrobnými informacemi, který ti také umožní utrácet zkušenosti za vylepšování příslušného radního a získávat a spravovat jeho organizace.
+UI.Objectives.CouncilGridCanvas.GotoBtn.Name=Přejít na radního
+UI.Objectives.CouncilGridCanvas.GotoBtn.Desc=Kliknutím zde zaměříš kameru na umístění radního ve hře.
+UI.Objectives.CouncilGridCanvas.RecruitBtn.Name=Rekrutovat nového radního
+UI.Objectives.CouncilGridCanvas.RecruitBtn.Desc=Radní mají pro postup ve hře Terra Invicta zásadní význam. Zde můžeš najímat nové radní, aby tvá rada byla úplná.
+
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.Name=Dostupné mise radního
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.NameShort=Informace
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.Desc=Tento panel zobrazuje seznam misí, které může daný radní plnit během fáze mise. Snaž se udržovat vyvážený počet radních, aby bylo možné plnit všechny mise potřebné k dosažení cílů.
+UI.Objectives.SingleCouncilorDetailCanvas.Attributes.Name=Atributy radního
+UI.Objectives.SingleCouncilorDetailCanvas.Attributes.Desc=Na tomto panelu se zobrazují atributy radního; pokud na atribut najedeš kurzorem myši, zobrazí se další podrobnosti. Hodnota atributu se může pohybovat v rozmezí od 0 do 25.
+UI.Objectives.SingleCouncilorDetailCanvas.Incomes.Name=Příjmy radního
+UI.Objectives.SingleCouncilorDetailCanvas.Incomes.Desc=Na tomto panelu se zobrazují zdroje, které tento radní generuje. Záporné zdroje označují náklady na údržbu.
+UI.Objectives.SingleCouncilorDetailCanvas.Traits.Name=Příznaky radního
+UI.Objectives.SingleCouncilorDetailCanvas.Traits.Desc=Příznaky jsou zvláštní charakteristiky a modifikátory, které ovlivňují atributy, příjmy a další aspekty tohoto radního. Mnohé z nich poskytují podmíněné bonusy k misím. Najetím na příznak zobrazíš další podrobnosti.
+UI.Objectives.SingleCouncilorDetailCanvas.Augment.Name=Augmentace radního
+UI.Objectives.SingleCouncilorDetailCanvas.Augment.Desc=Když získáš dostatek ZK, můžeš je zde utratit za navýšení atributů svého radního nebo za přidání či odebrání příznaků. ZK lze získat účastí na misích; konfliktní mise s šancí na úspěch vynesou v případě úspěšného hodu víc ZK.
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsEquipped.Name=Přiřazené organizace
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsEquipped.Desc=Organizace lze přiřadit radním s dostatečnou schopností administrativy. Organizace svému vlastníkovi poskytují bonusy k atributům, příjmy a nové mise. V této oblasti se zobrazují všechny organizace, které jsou tvému radnímu aktuálně přiřazeny.
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket.Name=Trh s organizacemi
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket.Desc=V této oblasti se zobrazují všechny organizace, které jsou pro tohoto radního aktuálně dostupné k pořízení. K tomu stačí kliknout pravým tlačítkem myši nebo přetáhnout organizaci do panelu výše.
+UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs.Name=Organizace frakce
+UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs.Desc=Po přepnutí z trhu na tento panel se zobrazí všechny organizace, které jsou v držení frakce, ale nepatří žádnému radnímu. Neposkytují žádné výhody, avšak přesto mohou být uloupeny tvými nepřáteli. Pokud jsou radní zabiti nebo propuštěni, jejich organizace přejdou sem; v tomto okně lze také organizace přetažením přesouvat mezi jednotlivými radními. Při tomto úkonu je účtován malý poplatek.
+UI.Objectives.SingleCouncilorDetailCanvas.Customize.Name=Přizpůsobení radního
+UI.Objectives.SingleCouncilorDetailCanvas.Customize.Desc=Kliknutím zde otevřeš nový panel, kde můžeš upravit jméno, vzhled a hlas svého radního.
+UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Name=Odvolání radního
+UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Desc=Pokud některý radní přestane vyhovovat tvým cílům, můžeš ho zde odvolat, a uvolnit tak místo v radě pro vhodnějšího kandidáta.
+
+UI.Objectives.GeneralControlsCanvas.Intro.Name=Vítej ve hře Terra Invicta
+UI.Objectives.GeneralControlsCanvas.Intro.Desc=Při prvním použití uživatelského rozhraní se zde napravo od aktuálního cíle objeví výuková tlačítka. Kliknutím na ně získáš pokyny k aktuálně otevřenému rozhraní.
+UI.Objectives.GeneralControlsCanvas.IntroPart2.Name=Vítej ve hře Terra Invicta
+UI.Objectives.GeneralControlsCanvas.IntroPart2.Desc=<h>Výběrem ikony úvodní výuky se seznámíš s uživatelským rozhraním hry Terra Invicta.</h>
+
+UI.Objectives.GeneralControlsCanvas.Objectives.Name=Zobrazit cíle
+UI.Objectives.GeneralControlsCanvas.Objectives.NameShort=Úvod
+UI.Objectives.GeneralControlsCanvas.Objectives.Desc=Panel cílů, na který se dostaneš kliknutím na symbol své frakce, sleduje všechny tvé aktuální a splněné cíle. Ty jsou nezbytné pro postup v příběhu a odhalení, co stojí za příchodem mimozemšťanů do naší sluneční soustavy. V rámci výuky tě čeká také řada doplňkových cílů, které tě provedou základními činnostmi ve hře Terra Invicta.<br/><br/><h>Zvolením tohoto tlačítka zkontroluješ své aktuální cíle.</h>
+UI.Objectives.GeneralControlsCanvas.PauseMenu.Name=Úvod
+UI.Objectives.GeneralControlsCanvas.PauseMenu.NameShort=Úvod
+UI.Objectives.GeneralControlsCanvas.PauseMenu.Desc=Vítej ve hře Terra Invicta! Tato výuková okna popisují přístup k různým aspektům tvé frakce a jejich správu v průběhu hry.<br/><br/>Zde je přístupná nabídka pozastavení, odkud můžeš ukládat svůj postup, nahlédnout do nesmírně užitečného <h>kodexu</h>, upravovat herní nastavení a také samotnou hru opustit. 
+UI.Objectives.GeneralControlsCanvas.Resources.Name=Zdroje
+UI.Objectives.GeneralControlsCanvas.Resources.Desc=Tento horní panel zobrazuje aktuální stav tvých zdrojů a příjmů. Podrobnosti zobrazíš najetím kurzorem na jednotlivé prvky. <h>Peníze</h>, <h>vliv</h> a <h>operace</h> jsou životně důležité pro dosažení tvých cílů na Zemi. <h>Vznos</h> a <h>řízení misí</h> pak slouží pro rozvoj vesmírných programů. <h>Výzkum</h> spolu s <h>inženýrskými projekty</h> odemykají nové technologie a moduly pro lodě a habitaty.  
+UI.Objectives.GeneralControlsCanvas.MoneyIncome.Name=Peníze
+UI.Objectives.GeneralControlsCanvas.MoneyIncome.Desc=<h>Peníze</h> se využívají k budování komponentů na Zemi pro náš vesmírný program, k akvizici mnoha organizací radních, k provádění určitých finančně zaměřených misí a k podpoře našich vesmírných prostředků. Získávají se ze státního financování, z priority kořisti, z organizací, z příznaků radních, z habitatových modulů a z prodeje vesmírných zdrojů na Zemi.
+UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Name=Vliv
+UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Desc=<h>Vliv</h> představuje politický kapitál a schopnost ovlivnit instituce a lidi, aby sledovali tvé cíle. Získává se z příznivého globálního veřejného mínění o ideologii tvé frakce, organizací, příznaků radních a habitatových modulů. Lze jej utratit také za pravidelné měsíční udržování kontrolních bodů.
+UI.Objectives.GeneralControlsCanvas.OpsIncome.Name=Operace
+UI.Objectives.GeneralControlsCanvas.OpsIncome.Desc=<h>Operace</h> představují naši schopnost vést malé bojové a špionážní operace. Získává se především z organizací, ale může plynout také z příznaků radních a některých habitatových modulů na operační oběžné dráze Země.
+UI.Objectives.GeneralControlsCanvas.BoostIncome.Name=Vznos
+UI.Objectives.GeneralControlsCanvas.BoostIncome.Desc=Každý bod <h>vznosu</h> představuje schopnost přemístit deset tun materiálu z povrchu Země na nízkou oběžnou dráhu, a to pomocí startů raket a jiných dopravních prostředků. Vznos může také s výraznou penalizací dopravit náklad do vzdálenějších destinací. Je generován především státy s vesmírným programem, avšak může pocházet i od organizací.
+UI.Objectives.GeneralControlsCanvas.MissionControlCap.Name=Řízení misí
+UI.Objectives.GeneralControlsCanvas.MissionControlCap.Desc=Zdroje spadající pod <h>řízení misí</h> zahrnují veškerý personál a technické vybavení potřebné k podpoře našich operací ve vesmíru. Nedostatečná hodnota řízení misí usnadňuje jiným frakcím zmocnit se našich vesmírných prostředků a zvyšuje pravděpodobnost nehod. Pokud nemáme k dispozici žádné řízení misí, nemůžeme stavět ani pořizovat nové habitaty nebo lodě. Přebytečné prostředky řízení misí převádí na výzkum a peníze.
+UI.Objectives.GeneralControlsCanvas.ResearchIncome.Name=Výzkum
+UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=<h>Výzkum</h> představuje úsilí našich vědců a inženýrů. Na rozdíl od jiných zdrojů se nehromadí, ale okamžitě rozděluje podle našich výzkumných priorit, které jsou rozděleny mezi globální výzkum nových principů a technologií a soukromé inženýrské projekty, které jsou přínosem pouze pro naši frakci.
+UI.Objectives.GeneralControlsCanvas.CPCap.Name=Kapacita kontrolních bodů
+UI.Objectives.GeneralControlsCanvas.CPCap.Desc=Zde najdeš naše aktuální <h>kontrolní body</h> započítané do naší <h>kapacity kontrolních bodů</h>. Překročení tohoto limitu má za následek denní postih vlivu, který se odráží v příjmu vlivu příslušného státu. Nepřátelské mise zaměřené na naše kontrolní body pak budou zvýhodněny. Řešením je vzdát se některých kontrolních bodů a zmíněné náklady tak snížit, nebo prostřednictvím výzkumných projektů náš limit navýšit.
+UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Name=Zobrazení Země
+UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Desc=Na tomto panelu najdeš zkratky k lokacím a obrazovkám pro správu Terra Invicta.<br/><br/>Kliknutím zde zaměříš kameru na Zemi a aktivuješ politické překrytí znázorňující hranice států, armády a jevy související s mimozemšťany.
+UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Name=Zobrazení Sluneční soustavy
+UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Desc=Kliknutím zde se záběr kamery přenese na Sluneční soustavu.
+UI.Objectives.GeneralControlsCanvas.CouncilBtn.Name=Rada frakce
+UI.Objectives.GeneralControlsCanvas.CouncilBtn.Desc=Tvoji radní jsou tvými hlavními zástupci na Zemi a později v celé Sluneční soustavě. Na svých misích mohou získávat státy na tvou stranu, pátrat po mimozemšťanech nebo zasahovat do operací jiných frakcí. Zde můžeš radní spravovat a najímat.
+UI.Objectives.GeneralControlsCanvas.NationsBtn.Name=Pozemské státy
+UI.Objectives.GeneralControlsCanvas.NationsBtn.Desc=Panel států shromažďuje údaje o všech státech na jednom místě. Můžeš zde také přidělovat priority svým kontrolním bodům. Ovlivňování pozemských států představuje jeden z hlavních způsobů, jak se svou frakcí získat geopolitickou nadvládu. Kliknutím zde zobrazíš podrobnosti o libovolném státě.
+UI.Objectives.GeneralControlsCanvas.HabsBtn.Name=Zobrazení habitatů
+UI.Objectives.GeneralControlsCanvas.HabsBtn.Desc=Na panelu Habitaty najdeš podrobnosti o svých vesmírných stanicích a povrchových základnách. Můžeš si zde také objednat výstavbu modulů pro stávající habitaty.
+UI.Objectives.GeneralControlsCanvas.FleetsBtn.Name=Zobrazení flotil
+UI.Objectives.GeneralControlsCanvas.FleetsBtn.Desc=Na panelu flotil si můžeš prohlédnout všechny objevené flotily a také navrhovat nové lodě a řídit jejich stavbu.
+UI.Objectives.GeneralControlsCanvas.ResearchBtn.Name=Zobrazení informací o výzkumu
+UI.Objectives.GeneralControlsCanvas.ResearchBtn.Desc=Výzkum je pro postup ve hře Terra Invicta zásadní. Zde můžeš prohlížet a spravovat výzkumné priority své frakce a také její příspěvky do společných globálních výzkumných projektů.
+UI.Objectives.GeneralControlsCanvas.IntelBtn.Name=Zobrazení panelu zpravodajských informací
+UI.Objectives.GeneralControlsCanvas.IntelBtn.Desc=Panel se zpravodajskými informacemi shromažďuje zjištěné údaje o mimozemšťanech, ostatních frakcích, dění na Zemi a všech vesmírných tělesech ve Sluneční soustavě. Často ho kontroluj, ať můžeš pravidelně vyhodnocovat aktuální znalosti své frakce a využívat je při svém rozhodování.
+UI.Objectives.GeneralControlsCanvas.MapModes.Name=Změna režimu mapy Země
+UI.Objectives.GeneralControlsCanvas.MapModes.Desc=Zde můžeš procházet různými barevnými filtry pozemských států.
+UI.Objectives.GeneralControlsCanvas.Finder.Name=Panel vyhledávání
+UI.Objectives.GeneralControlsCanvas.Finder.Desc=Panel vyhledávání zahrnuje seznam všech radních, habitatů, armád a flotil pod kontrolou tvé frakce. Kliknutím na libovolnou položku v seznamu na něj zaměříš pohled kamery. Pomocí tlačítek v horní části panelu můžeš seznam také filtrovat.
+UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Name=Nastavení herního času
+UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Desc=Zde lze hru pozastavit a znovu spustit, stejně jako upravit její rychlost. Někdy hra zůstane pozastavena, dokud nevyřešíš určitou naléhavou záležitost. <br/><br/><h>Je-li hra pozastavena, zde ji můžeš znovu spustit a pokročit do fáze mise.</h>
+
+UI.Objectives.NotificationScreenCanvas.NewsFeed.Name=Kanál novinek
+UI.Objectives.NotificationScreenCanvas.NewsFeed.NameShort=Novinky
+UI.Objectives.NotificationScreenCanvas.NewsFeed.Desc=Zde se v kanálu novinek zobrazují nejnovější zprávy. Pokud na ně přejedeš kurzorem myši, objeví se jejich popis. Levým kliknutím pak přejdeš na příslušné místo nebo do nabídky. Pravým kliknutím příslušnou novinku zavřeš.
+
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.Name=Vybraný radní
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.NameShort=Radní
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.Desc=Toto okno zobrazuje aktuálně vybraného radního. Výběrem jeho portrétu otevřeš obrazovku s podrobnostmi o příslušném radním a dozvíš se o něm bližší podrobnosti. Pochopení silných a slabých stránek radních je klíčem k úspěchu. <h>Uprostřed v dolní části rozhraní se nachází seznam misí daného radního.</h>
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorMissions.Name=Mise radního
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorMissions.Desc=Mise dostupné pro vybraného radního se zobrazují zde, ve spodní části rozhraní během <h>fáze mise</h>. Výběrem mise zobrazíš podrobnosti o jejím zadání.
+
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Name=Výběr mise
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.NameShort=Mise
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Desc=Tento panel obsahuje seznam dostupných misí pro vybraného radního.
+UI.Objectives.CouncilorMissionControlsCanvas.Target.Name=Cíl mise
+UI.Objectives.CouncilorMissionControlsCanvas.Target.Desc=Zde je uveden cíl vybrané mise. Mise lze spustit také kliknutím levým tlačítkem myši na potenciální cíl v geoprostoru, čímž se zobrazí seznam možných misí pro daný cíl.
+UI.Objectives.CouncilorMissionControlsCanvas.Slider.Name=Posuvník zdrojů
+UI.Objectives.CouncilorMissionControlsCanvas.Slider.Desc=U některých misí lze vynaložením dodatečných zdrojů zvýšit šanci na úspěch. V takovém případě se zde zobrazí příslušný posuvník.
+UI.Objectives.CouncilorMissionControlsCanvas.Bonuses.Name=Bonusy misí
+UI.Objectives.CouncilorMissionControlsCanvas.Bonuses.Desc=Zde jsou uvedeny pozitivní efekty, které zvyšují úspěšnost. Konfliktní mise závisí na určitém atributu radního, jako je přesvědčování nebo velení.
+UI.Objectives.CouncilorMissionControlsCanvas.Penalties.Name=Postihy misí
+UI.Objectives.CouncilorMissionControlsCanvas.Penalties.Desc=Zde jsou uvedeny postihy, které snižují míru úspěšnosti.
+UI.Objectives.CouncilorMissionControlsCanvas.SuccessRate.Name=Šance na úspěch mise
+UI.Objectives.CouncilorMissionControlsCanvas.SuccessRate.Desc=Zde se zobrazuje celková šance na úspěch mise, která je ovlivněna bonusy, postihy a posuvníkem zdrojů.<br/><br/><h>Důležité upozornění:</h> Změna podmínek ve světě může způsobit změnu šance na úspěch mise, a to i po přiřazení mise a potvrzení přiřazení. Aktuální šance na úspěch bude viditelná pod ikonou tvého radního v geoprostoru. V případě potřeby lze misi přerušit a získat tak zpět zdroje vynaložené na danou misi.
+UI.Objectives.CouncilorMissionControlsCanvas.Confirm.Name=Potvrzení mise
+UI.Objectives.CouncilorMissionControlsCanvas.Confirm.Desc=Pokud jsou tvé plány dostatečně připravené, kliknutím sem misi přiřaď. Bude provedena ve dnech a týdnech následujících po fázi mise. Během fáze mise můžeš radní bez postihu přeřadit.
+UI.Objectives.CouncilorMissionControlsCanvas.ConfirmAssignments.Name=Potvrzení přiřazení
+UI.Objectives.CouncilorMissionControlsCanvas.ConfirmAssignments.Desc=Jakmile přiřadíš všechny dostupné radní k misím, výběrem možnosti Potvrdit přiřazení ukončíš fázi misí. Následně se budeš moct opět posunout v čase vpřed a po dokončení mise získáš informace o jejím výsledku.
+
+UI.Objectives.NationInfoCanvas.Intro.Name=Přehled států
+UI.Objectives.NationInfoCanvas.Intro.NameShort=Státy
+UI.Objectives.NationInfoCanvas.Intro.Desc=Na panelu států najdeš důležité informace o jednotlivých pozemských státech a můžeš zde řídit části jejich ekonomiky, které máš pod kontrolou.
+UI.Objectives.NationInfoCanvas.Federation.Name=Federace
+UI.Objectives.NationInfoCanvas.Federation.Desc=Pokud daný stát patří k federaci, zobrazí se zde. Federace představují státy, které jsou v trvalém spojenectví a vzájemně mezi sebou sdílejí výzkum a vznos.
+UI.Objectives.NationInfoCanvas.CPs.Name=Kontrolní body
+UI.Objectives.NationInfoCanvas.CPs.Desc=<h>Kontrolní body</h> představují klíčové uzly politické a ekonomické moci ve státě, jako je kontrola masmédií nebo zákonodárného sboru. Státy s většími ekonomikami mohou mít až šest kontrolních bodů. Jedním z hlavních cílů tvé rady je získávat kontrolní body ve státech prospěšných pro tvé záměry.<br/><br/>Vlastnictví kontrolního bodu frakcí je znázorněno jejím logem; prostá barevná kolečka znamenají, že daný kontrolní bod zatím nezískala žádná frakce. Zcela vpravo je pak uvedený „výkonný“ kontrolní bod příslušného státu, který prostřednictvím mise radního „Ustavit politiku“ poskytuje kontrolu nad jeho zahraničními vztahy.<br/><br/>Některé mise radních jsou zaměřeny přímo na kontrolní body. Během fáze mise na ně lze kliknout na mapě nebo zde a vybrat je jako cíl.<br/><br/>Více informací se dozvíš přejetím kurzoru na příslušný kontrolní bod.
+UI.Objectives.NationInfoCanvas.Overview.Name=Přehled států
+UI.Objectives.NationInfoCanvas.Overview.Desc=V této části jsou uvedeny podrobnosti o vládě, nepokojích a HDP daného státu. Najetím na konkrétní hodnotu zobrazíš další podrobnosti. <h>Vláda a nepokoje jsou reprezentovány hodnotou od 0 do 10, zatímco HDP je zobrazen v měřítku miliard (B).
+UI.Objectives.NationInfoCanvas.Military.Name=Přehled vojenské síly
+UI.Objectives.NationInfoCanvas.Military.Desc=Tato část zobrazuje úroveň vojenské techniky, dostupné strategické jaderné údery a sílu námořnictva daného státu. Najetím na konkrétní hodnotu zobrazíš další podrobnosti.
+UI.Objectives.NationInfoCanvas.Development.Name=Přehled vývoje
+UI.Objectives.NationInfoCanvas.Development.Desc=Tato část zobrazuje ekonomické údaje státu a rozdělení příjmů mezi vlastníky kontrolních bodů. Najetím na libovolnou hodnotu zobrazíš další podrobnosti.
+
+UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Name=Měsíční investiční body
+UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Desc=Představují ekonomický přebytek státu. Tyto body mohou frakce v daném státě rozdělit pomocí <h>kontrolních bodů</h> na kartě <h>Priority</h>. Hodnota je dána HDP daného státu a snížena počtem <h>armád</h>, kterými disponuje, a také vysokou mírou <h>nepokojů</h>.
+
+UI.Objectives.NationInfoCanvas.Funding.Name=Financování
+UI.Objectives.NationInfoCanvas.Funding.Desc=Jedná se o peníze, které stát každý měsíc poskytuje k rozdělení vlastníkům svých kontrolních bodů.
+
+UI.Objectives.NationInfoCanvas.Research.Name=Měsíční výzkum
+UI.Objectives.NationInfoCanvas.Research.Desc=Výzkumná produkce státu je výsledkem jeho úrovně vzdělání, ekonomiky, soudržnosti, demokracie a nepokojů.
+
+UI.Objectives.NationInfoCanvas.Boost.Name=Měsíční vznos
+UI.Objectives.NationInfoCanvas.Boost.Desc=Kapacita vznosu daného státu v dekatunách za měsíc.
+
+UI.Objectives.NationInfoCanvas.MissionControl.Name=Řízení misí
+UI.Objectives.NationInfoCanvas.MissionControl.Desc=Počet bodů řízení misí, které má daný stát k dispozici.
+
+UI.Objectives.NationInfoCanvas.People.Name=Přehled obyvatel
+UI.Objectives.NationInfoCanvas.People.Desc=V této části najdeš informace o počtu obyvatel, demografickém složení a veřejném mínění. Najetím na libovolnou hodnotu zobrazíš další podrobnosti.
+
+UI.Objectives.NationInfoCanvas.Education.Name=Vzdělání
+UI.Objectives.NationInfoCanvas.Education.Desc=Hodnota <h>vzdělanosti</h> státu je hodnocena na základě průměrného počtu let školní docházky občana příslušného státu. Státy s vyšším skóre vzdělání produkují více výzkumu a jsou odolnější vůči extrémní propagandě, avšak z priority <h>Jednota</h> získávají menší soudržnost.
+
+UI.Objectives.NationInfoCanvas.Cohesion.Name=Soudržnost
+UI.Objectives.NationInfoCanvas.Cohesion.Desc=<h>Soudržnost</h> státu představuje míru jednoty nebo konfliktu mezi jeho obyvateli. Vysoké hodnoty popisují sjednocenou společnost, která nestrpí téměř žádné odchylky nebo nesouhlas. Střední hodnoty představují různorodou společnost, ve které existují jak vnitřní konflikty, tak zdravá, tvůrčí kontrakultura. Středně nízké hodnoty představují vysoký stupeň politické polarizace a nejnižší hodnoty znamenají roztříštěnost, nebo dokonce kmenovou rozpolcenost obyvatel státu. <h>Vysoké hodnoty</h> udržují nepokoje na uzdě a zvyšují schopnost státu odolávat okupaci, zatímco <h>střední hodnoty</h> poskytují bonus k výzkumné produkci státu a představují solidní (i když chaotický) trh idejí; <h>nízké hodnoty pak rychle zvyšují nepokoje</h>. Soudržnost snižuje vysoká nerovnost, anokracie, existence mnoha regionů nebo velké množství obyvatel, zničení armád a také velké rozdíly mezi veřejným míněním a ideologií vlastníků kontrolních bodů. Soudržnost zvyšují války, autokracie a <h>priorita Jednota</h>. Soudržnost ovlivňuje také <h>demokracie</h> v příslušném státě, a to tak, že ji přibližuje ke střední hodnotě.
+
+UI.Objectives.NationInfoCanvas.PublicOpinion.Name=Veřejné mínění
+UI.Objectives.NationInfoCanvas.PublicOpinion.Desc=Tento graf ukazuje veřejné mínění tohoto státu vůči mimozemšťanům. Podpora určité ideologie přináší příslušné frakci příjem vlivu a frakce získává bonusy při snaze získat a udržet si kontrolu nad daným státem. Mise radního <h>Veřejná kampaň</h> posune veřejné mínění ve tvůj prospěch. Páchání zvěrstev ho naopak od tvé frakce odvrátí.
+
+UI.Objectives.NationInfoCanvas.PerCapitaGDP.Name=HDP na obyvatele
+UI.Objectives.NationInfoCanvas.PerCapitaGDP.Desc=Hrubý domácí produkt (HDP) je měřítkem ročního hospodářského výkonu země v amerických dolarech, upraveného podle parity kupní síly. HDP státu určuje, kolik má daný stát <h>kontrolních bodů</h>, kolik produkuje <h>investičních bodů</h> a jak obtížné je splnit některé mise na jeho území.
+
+UI.Objectives.NationInfoCanvas.Inequality.Name=Nerovnost
+UI.Objectives.NationInfoCanvas.Inequality.Desc=Skóre <h>nerovnosti</h> v jednotlivých státech je měřítkem toho, jak je v nich rozděleno bohatství a příjmy. Vysoké hodnoty znamenají, že v daném státě není příliš početná střední třída. Nerovnost roste jen nepatrně v důsledku běžné ekonomické aktivity (priorita <h>Ekonomika</h>) nebo hodně v důsledku korupce (priorita <h>Kořist</h>). K nerovnosti mohou přispívat i <h>surovinové regiony</h> státu. Vysoká nerovnost <h>snižuje soudržnost</h>, protože národ se dělí na majetné a nemajetné. Lze jí čelit využitím priority <h>Sociální zabezpečení</h>.
+
+UI.Objectives.NationInfoCanvas.Tabs.Name=Další informační karty
+UI.Objectives.NationInfoCanvas.Tabs.Desc=Kliknutím na některou z karet zde zobrazíš další důležité informace o státě. Pokud máš v příslušném státě kontrolní bod, můžeš prostřednictvím karty <h>Priorita</h> řídit jeho ekonomické zaměření.
+
+UI.Objectives.NationInfoCanvas.Priorities.Name=Priority států
+UI.Objectives.NationInfoCanvas.Priorities.NameShort=Priority
+UI.Objectives.NationInfoCanvas.Priorities.Desc=Tato karta umožňuje nastavit priority pro jednotlivé kontrolní body států, které máš pod kontrolou. Priority státu určují, jak se bude příslušný stát v průběhu času měnit. Například: Investice do sociálního zabezpečení může ve státě snížit nerovnost.
+UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Name=Investiční body a priority
+UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Desc=Investiční body státu jsou rovnoměrně rozděleny mezi kontrolní body a poté jsou dále rozděleny podle jednotlivých nastavení v rámci každé z priorit. 
+UI.Objectives.NationInfoCanvas.PrioritesGDP.Name=HDP a investiční body
+UI.Objectives.NationInfoCanvas.PrioritesGDP.Desc=HDP státu určuje počet investičních bodů, které může vynaložit. 
+UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Name=Plnění priorit
+UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Desc=Investiční body plní ukazatele státních priorit, které po úplném naplnění vyvolají určitý efekt – například zvýšení HDP na obyvatele (Ekonomika) nebo nasazení nové armády (Budování armády).
+UI.Objectives.NationInfoCanvas.PrioritesCycler.Name=Rozložení priorit 
+UI.Objectives.NationInfoCanvas.PrioritesCycler.Desc=Kliknutím na tyto body lze cyklicky měnit váhu přiřazenou určité prioritě. Tím se na danou prioritu nasměruje více investičních bodů státu.
+UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Name=Provedení změn na všech kontrolních bodech
+UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Desc=Výběrem symbolu frakce v horní části sloupce priorit lze priority daného sloupce aplikovat na všechny ostatní kontrolní body ve státě.  
+UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Name=Začínáme
+UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Desc=Priorit je celá řada, pročež můžeš snadno podlehnout jistému pocitu zahlcení. Zvaž, na jakou oblast chceš příslušný stát specializovat, a následně se zaměř na priority, které ti toho pomohou dosáhnout. Například: V případě malého státu můžeš zaměřit jeho specializaci na generování řízení misí pro využití při tvém vesmírném úsilí, zatímco velký stát zaměříš na vědeckou činnost, čímž navýšíš rychlost výzkumu.
+UI.Objectives.NationInfoCanvas.PrioritesNegatives.Name=Státní negativa
+UI.Objectives.NationInfoCanvas.PrioritesNegatives.Desc=Nezapomeň, že nepokoje, nízká soudržnost a vysoká nerovnost jsou pro stát vždy přítěží.
+UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Name=Šablony priorit
+UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Desc=V rozbalovací nabídce si můžeš vybrat různé šablony priorit. 
+UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Name=Přímé investice 
+UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Desc=V okně přímých investic můžeš utrácet peníze a vliv na přímé financování rozvoje státu.
+UI.Objectives.NationInfoCanvas.AbandonNation.Name=Opuštění státu
+UI.Objectives.NationInfoCanvas.AbandonNation.Desc=Pokud si z nějakého důvodu již nepřeješ ovládat nějaký stát, můžeš se výběrem možnosti „Vzdát se státu“ vzdát všech svých kontrolních bodů. Tato možnost se hodí v případě, kdy překročíš limit kontrolních bodů a chceš se vyhnout následným postihům.
+
+UI.Objectives.NationInfoCanvas.DirectInvest.Name=Přímé investice do státu
+UI.Objectives.NationInfoCanvas.DirectInvest.NameShort=Investice
+UI.Objectives.NationInfoCanvas.DirectInvest.Desc=Zde můžeš utrácením peněz a vlivu okamžitě získat výhody odpovídající investičnímu příjmu státu.
+UI.Objectives.NationInfoCanvas.NuclearWeapons.Name=Tlačítko
+UI.Objectives.NationInfoCanvas.NuclearWeapons.Desc=Pokud máš nad některým státem výkonnou kontrolu, můžeš pomocí tlačítka, které se zde zobrazí, zahájit jaderný úder proti jeho nepřátelům. Ty působí hrozivé škody na regionech a infrastruktuře.
+UI.Objectives.NationInfoCanvas.Policy.Name=Ustavení politiky státu
+UI.Objectives.NationInfoCanvas.Policy.Desc=Pokud máš nad některým státem výkonnou kontrolu, můžeš vyslat radního na misi <h>Ustavit státní politiku</h>. Stanovením státní politiky lze státům nařídit, aby vstoupily do války, vstoupily do federace nebo z ní vystoupily, postoupily území a podobně. Pomocí této karty si ověříš, jaké státní politiky máš k dispozici.
+
+UI.Objectives.IntelScreenCanvas.AlienCouncilors.Name=Mimozemšťané
+UI.Objectives.IntelScreenCanvas.AlienCouncilors.NameShort=Mimozemšťané
+UI.Objectives.IntelScreenCanvas.AlienCouncilors.Desc=V této části se zobrazují jednotliví mimozemšťané, které se ti na Zemi podařilo objevit.
+UI.Objectives.IntelScreenCanvas.AlienEvents.Name=Mimozemské události
+UI.Objectives.IntelScreenCanvas.AlienEvents.Desc=V této části jsou uvedeny všechny události týkající se mimozemšťanů. Kliknutím na událost na ni zaměříš kameru.
+UI.Objectives.IntelScreenCanvas.AlienSites.Name=Mimozemská stanoviště
+UI.Objectives.IntelScreenCanvas.AlienSites.Desc=V této části jsou zobrazena všechna známá stanoviště mimozemšťanů. Kliknutím na stanoviště na něj zaměříš kameru.
+UI.Objectives.IntelScreenCanvas.AlienFleets.Name=Mimozemské flotily
+UI.Objectives.IntelScreenCanvas.AlienFleets.Desc=V této části jsou uvedeny všechny známé mimozemské flotily. Kliknutím na flotilu na ni zaměříš kameru.
+UI.Objectives.IntelScreenCanvas.AlienHabs.Name=Mimozemské habitaty
+UI.Objectives.IntelScreenCanvas.AlienHabs.Desc=V této části jsou uvedeny všechny známé mimozemské habitaty. Kliknutím na habitat na něj zaměříš kameru.
+UI.Objectives.IntelScreenCanvas.AlienThreat.NameShort=Hrozba
+UI.Objectives.IntelScreenCanvas.AlienThreat.Name=Odhadovaná úroveň ohrožení mimozemšťany
+UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=Tento panel představuje nejlepší odhad naší zpravodajské sekce o tom, do jaké míry považují mimozemšťané naši frakci za hrozbu. Vychází z našeho monitorování skupin podporujících mimozemšťany a zjevných mimozemských aktivit ve Sluneční soustavě.<br/><br/>Jsme přesvědčeni, že nepřátelské akce proti mimozemšťanům nebo jejich zástupcům na Zemi či velká zjevná přítomnost ve vesmíru zvyšují jejich obavy z nás a lze očekávat, že pokud výstražný ukazatel dosáhne maximální úrovně, mimozemšťané podniknou odvetné kroky vůči našim zájmům na Zemi i ve vesmíru. Pokud se po určitou dobu budeme vyhýbat přímému vystupování proti nim nebo jejich zástupcům na Zemi, mohou o nás také ztratit zájem.<br/><br/>Naši analytici zdůrazňují, že se jedná o nedokonalý odhad. Svůj odhad budeme korigovat, až proti nám mimozemšťané podniknou přímou akci nebo až s některými z nich přímo promluvíme.
+
+UI.Objectives.IntelScreenCanvas.FactionOverview.Name=Přehled frakcí
+UI.Objectives.IntelScreenCanvas.FactionOverview.NameShort=Frakce
+UI.Objectives.IntelScreenCanvas.FactionOverview.Desc=Na této obrazovce se zobrazí veškeré podrobnosti zjištěné o některé z lidských frakcí.
+UI.Objectives.IntelScreenCanvas.FactionCouncilors.Name=Radní frakce
+UI.Objectives.IntelScreenCanvas.FactionCouncilors.Desc=Na této kartě se zobrazí informace o odhalených radních. Kliknutím s podrženou klávesou Shift na libovolnou kartu můžeš přepínat všechny karty frakce najednou.
+UI.Objectives.IntelScreenCanvas.FactionResources.Name=Zdroje frakce
+UI.Objectives.IntelScreenCanvas.FactionResources.Desc=Na této kartě se zobrazí veškeré informace o zdrojích a příjmech frakce.
+UI.Objectives.IntelScreenCanvas.FactionObjectives.Name=Cíle frakce
+UI.Objectives.IntelScreenCanvas.FactionObjectives.Desc=Na této kartě se zobrazí cíle frakce, ovšem pouze v případě jejich předchozího odhalení.
+UI.Objectives.IntelScreenCanvas.FactionRelations.Name=Vztahy frakce
+UI.Objectives.IntelScreenCanvas.FactionRelations.Desc=Na této kartě se zobrazí vztahy mezi frakcemi.
+UI.Objectives.IntelScreenCanvas.FactionTech.Name=Technologie frakce
+UI.Objectives.IntelScreenCanvas.FactionTech.Desc=Na této kartě se zobrazují veškeré informace získané při výzkumu frakce. Kliknutím s podrženou klávesou Shift na libovolnou kartu můžeš přepínat všechny karty frakce najednou.
+
+UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.Name=Veřejné mínění
+UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.NameShort=Statistiky
+UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.Desc=Zde si můžeš prohlédnout podporu veřejnosti pro jednotlivé frakce a jejich cíle. Globální veřejná podpora přispívá frakcím k příjmům vlivu.
+UI.Objectives.IntelScreenCanvas.GlobalWorldData.Name=Světové údaje
+UI.Objectives.IntelScreenCanvas.GlobalWorldData.Desc=V této části jsou uvedeny základní demografické údaje o Zemi a Sluneční soustavě.
+UI.Objectives.IntelScreenCanvas.GlobalCommodities.Name=Komodity
+UI.Objectives.IntelScreenCanvas.GlobalCommodities.Desc=V této části je uvedena aktuální hodnota různých zdrojů.
+UI.Objectives.IntelScreenCanvas.GlobalEnvironment.Name=Životní prostředí
+UI.Objectives.IntelScreenCanvas.GlobalEnvironment.Desc=Tato část obsahuje informace o celkovém stavu Země.
+UI.Objectives.IntelScreenCanvas.GlobalWars.Name=Globální války
+UI.Objectives.IntelScreenCanvas.GlobalWars.Desc=Tato část obsahuje seznam všech probíhajících válek mezi pozemskými státy.
+UI.Objectives.IntelScreenCanvas.Atrocities.Name=Zvěrstva
+UI.Objectives.IntelScreenCanvas.Atrocities.Desc=Tato část obsahuje záznamy o počtu zvěrstev, která jednotlivé frakce spáchaly. Zvěrstva jsou akce, které způsobují masovou smrt nebo utrpení a odpovědné frakce v jejich důsledku ztrácejí příznivce. Zvěrstva ovlivňují veřejné mínění a kumulují se; jakmile jich frakce spáchá více, postih pro veřejné mínění se dramaticky zvyšuje.
+
+UI.Objectives.IntelScreenCanvas.SpacebodySorting.Name=Třídění
+UI.Objectives.IntelScreenCanvas.SpacebodySorting.NameShort=Zpravodajské informace
+UI.Objectives.IntelScreenCanvas.SpacebodySorting.Desc=Tento panel obsahuje seznam všech vesmírných těles ve sluneční soustavě a informace o každém z nich. Kliknutím na libovolné informační pole seřadíš seznam podle dané metriky.
+UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Name=Limit možných habitatů
+UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Desc=Tato hodnota udává maximální počet stanovišť, která může vesmírné těleso hostit.
+UI.Objectives.IntelScreenCanvas.SpacebodyResources.Name=Dostupné zdroje
+UI.Objectives.IntelScreenCanvas.SpacebodyResources.Desc=Tato oblast zobrazuje zdroje, které jsou na vesmírném tělese k dispozici pro těžbu. Dokud vesmírné těleso neprozkoumáš pomocí sondy nebo vesmírné lodi, máš k dispozici pouze odhady těžby. Šipky označují míru hojnosti; symbol „?“ značí pouze možnou přítomnost zdroje a nulový symbol znamená, že zdroj není přítomen.
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Name=Startovací okno Země
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=Tato hodnota udává aktuální stav startovacího okna, tedy prodloužení nebo zkrácení doby potřebné k cestě k vesmírnému tělesu ze Země, což je důsledek proměnlivé vzdálenosti mezi jednotlivými tělesy na jejich příslušných oběžných drahách.
+UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Name=Přesun k tělesu
+UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Desc=Kliknutím zde zaměříš kameru na dané vesmírné těleso.
+
+UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Name=Plánovač přesunů
+UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.NameShort=Přesuny
+UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Desc=Tato obrazovka slouží k plánování konstrukce lodí a zkoumání různých možností trajektorií pro flotily pod tvým velením nebo pro lodě, které hodláš v budoucnu postavit. Níže uvedené hodnoty lze upravovat a zjišťovat, jak dlouho bude při zadaných hodnotách zrychlení a delta-v trvat konkrétní přesun.
+UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Name=Výchozí a cílový bod
+UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Desc=Zde nastavíš výchozí a cílový bod flotily. Vpravo se zobrazí seznam všech dostupných vesmírných těles a cílů. Použít je možné stávající pozici flotily nebo výběrem libovolných 2 bodů naplánovat případný budoucí přesun.
+UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Name=Zrychlení a delta-v
+UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Desc=Zde se nastavuje zrychlení a delta-v. Tyto hodnoty se určují podle pohonů lodí v rámci flotily. Použít můžeš hodnoty dle pohonů tvých stávajících lodí, nebo čísla upravit tak, aby představovala loď, kterou plánuješ postavit, a ověřit si tak změny trajektorií.
+UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Name=Nastavení profilu tahu
+UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Desc=Prováděním úprav v této části můžeš sledovat změny v době příletu a využití delta-v pro trajektorii s libovolným profilem tahu.
+
+UI.Objectives.HabScreenCanvas.HabInfo.Name=Habitaty
+UI.Objectives.HabScreenCanvas.HabInfo.NameShort=Habitaty
+UI.Objectives.HabScreenCanvas.HabInfo.Desc=<h>Habitaty</h> mají dvojí podobu: <h>stanice</h>, které obíhají vesmírná tělesa, a <h>základny</h>, které se staví na povrchu vesmírných těles. <br/><br/>Zde najdeš informace o habitatech v celé Sluneční soustavě, jako je frakce, která habitat vlastní, jeho populace, příjem a náklady na údržbu, provozní stav či zda má volné sloty pro moduly. 
+UI.Objectives.HabScreenCanvas.Bases.Name=Základny
+UI.Objectives.HabScreenCanvas.Bases.Desc=Pokud je toto políčko zaškrtnuto, zobrazí se níže v seznamu základny. Stanice a základny mohou být zobrazeny současně.
+UI.Objectives.HabScreenCanvas.Stations.Name=Stanice
+UI.Objectives.HabScreenCanvas.Stations.NameShort=Stanice
+UI.Objectives.HabScreenCanvas.Stations.Desc=Pokud je toto políčko zaškrtnuto, zobrazí se níže v seznamu stanice.
+UI.Objectives.HabScreenCanvas.FactionFilter.Name=Filtr frakcí
+UI.Objectives.HabScreenCanvas.FactionFilter.Desc=Pomocí této rozbalovací nabídky můžeš filtrovat habitaty a stanice dle frakcí, které je vlastní.
+UI.Objectives.HabScreenCanvas.LocationFilter.Name=Filtr umístění
+UI.Objectives.HabScreenCanvas.LocationFilter.Desc=Pomocí této rozbalovací nabídky můžeš filtrovat habitaty a stanice dle jejich umístění ve Sluneční soustavě.
+UI.Objectives.HabScreenCanvas.ManageHabBtn.Name=Správa habitatů
+UI.Objectives.HabScreenCanvas.ManageHabBtn.Desc=Po výběru základny či stanice pod tvou kontrolou můžeš pomocí tlačítka Spravovat, které se zde objeví, provádět rozmanité změny, například přidávat či odebírat moduly.
+
+UI.Objectives.HabScreenCanvas.HabManagementInfo.Name=Obecné informace o habitatech
+UI.Objectives.HabScreenCanvas.HabManagementInfo.NameShort=Habitaty
+UI.Objectives.HabScreenCanvas.HabManagementInfo.Desc=V této části jsou uvedeny přehledové údaje o habitatu.
+UI.Objectives.HabScreenCanvas.HabManagementModuleInfo.Name=Údaje o vybraném modulu
+UI.Objectives.HabScreenCanvas.HabManagementModuleInfo.Desc=Kliknutím na libovolný modul habitatu ve velkém okně vpravo zde zobrazíš jeho údaje.
+UI.Objectives.HabScreenCanvas.HabManagementModuleList.Name=Seznam dostupných modulů
+UI.Objectives.HabScreenCanvas.HabManagementModuleList.Desc=Tento seznam zahrnuje přehled dostupných modulů pro tento habitat. Další podrobnosti zobrazíš levým kliknutím. Přetažením modulu nebo pravým kliknutím na modul jej připojíš k habitatu a zahájíš stavbu.
+UI.Objectives.HabScreenCanvas.HabManagementModuleClick.Name=Klikni na modul
+UI.Objectives.HabScreenCanvas.HabManagementModuleClick.Desc=Levým kliknutím na tento modul si o něm zobrazíš více podrobností.
+
+UI.Objectives.FleetScreenCanvas.FleetOverview.Name=Obrazovka flotily
+UI.Objectives.FleetScreenCanvas.FleetOverview.NameShort=Flotily
+UI.Objectives.FleetScreenCanvas.FleetOverview.Desc=Tato obrazovka ukazuje všechny údaje o flotile a lodích a slouží jako centrum pro správu návrhů a konstrukce lodí.
+UI.Objectives.FleetScreenCanvas.FleetCombat.Name=Bojová síla flotily
+UI.Objectives.FleetScreenCanvas.FleetCombat.Desc=Tyto hodnoty udávají počet lodí ve flotile a její celkovou bojovou sílu.
+UI.Objectives.FleetScreenCanvas.FleetOperations.Name=Operace flotily
+UI.Objectives.FleetScreenCanvas.FleetOperations.Desc=V této části je uvedeno umístění flotily a všechny operace nebo přesuny, které v současné době provádí.
+UI.Objectives.FleetScreenCanvas.FleetCapabilities.Name=Možnosti flotily
+UI.Objectives.FleetScreenCanvas.FleetCapabilities.Desc=Tyto hodnoty udávají možnosti tvé flotily z hlediska zrychlení a delta-v. Delta-v představuje palivo při vesmírném cestování a udává schopnost změny rychlosti.
+UI.Objectives.FleetScreenCanvas.FleetAbilities.Name=Schopnosti flotily
+UI.Objectives.FleetScreenCanvas.FleetAbilities.Desc=Tyto ikony znázorňují, jakými schopnostmi se tvá flotila může pyšnit.
+UI.Objectives.FleetScreenCanvas.FleetGoto.Name=Přejít na flotilu
+UI.Objectives.FleetScreenCanvas.FleetGoto.Desc=Kliknutím zde zaměříš kameru na danou flotilu.
+UI.Objectives.FleetScreenCanvas.FleetToggleAll.Name=Zobrazit všechny flotily
+UI.Objectives.FleetScreenCanvas.FleetToggleAll.Desc=Zatržením tohoto políčka zobrazíš v seznamu nepřátelské flotily.
+UI.Objectives.FleetScreenCanvas.FleetExpand.Name=Zobrazení lodí ve flotile
+UI.Objectives.FleetScreenCanvas.FleetExpand.Desc=Kliknutím na název flotily v seznamu zobrazíš seznam všech lodí, které daná flotila zahrnuje. Kliknutím na libovolnou loď v seznamu si pak o ní zobrazíš podrobné informace.
+
+UI.Objectives.FleetScreenCanvas.ClassOverview.Name=Přehled tříd lodí
+UI.Objectives.FleetScreenCanvas.ClassOverview.NameShort=Třídy
+UI.Objectives.FleetScreenCanvas.ClassOverview.Desc=Tato obrazovka ukazuje všechny tebou navržené třídy lodí.
+UI.Objectives.FleetScreenCanvas.ClassBuild.Name=Postavit loď
+UI.Objectives.FleetScreenCanvas.ClassBuild.Desc=Kliknutím zde otevřeš obrazovku konstrukce, která slouží k řízení konstrukce tvých lodí a flotil.
+UI.Objectives.FleetScreenCanvas.ClassUpgrade.Name=Úprava nebo modernizace stávajícího designu
+UI.Objectives.FleetScreenCanvas.ClassUpgrade.Desc=Kliknutím zde můžeš upravit stávající design a vylepšit ho.
+UI.Objectives.FleetScreenCanvas.ClassDesign.Name=Návrh nové třídy
+UI.Objectives.FleetScreenCanvas.ClassDesign.Desc=Kliknutím zde můžeš pomocí nástroje „konstruktér lodi“ vytvořit zbrusu novou třídu lodí.
+UI.Objectives.FleetScreenCanvas.Obsolete.Name=Přepínač zastaralého stavu
+UI.Objectives.FleetScreenCanvas.Obsolete.Desc=Označením návrhu za „zastaralý“ zabráníš jeho zobrazování v seznamu dostupných designů. Návrh lze zcela odstranit pouze v případě, že žádná loď dané třídy nebyla postavena nebo není v současné chvíli objednána.
+
+UI.Objectives.FleetScreenCanvas.DetailSelectShip.Name=Výběr lodě
+UI.Objectives.FleetScreenCanvas.DetailSelectShip.NameShort=Lodě
+UI.Objectives.FleetScreenCanvas.DetailSelectShip.Desc=V tomto sloupci se zobrazuje seznam všech lodí. Podrobnosti o libovolné lodi v tomto seznamu zobrazíš levým kliknutím.
+UI.Objectives.FleetScreenCanvas.DetailPrimarySystems.Name=Primární systémy lodi
+UI.Objectives.FleetScreenCanvas.DetailPrimarySystems.Desc=Tato část obsahuje všechny primární systémy na lodi. Levým kliknutím na libovolný systém zobrazíš jeho podrobnější popis v rámečku níže.
+UI.Objectives.FleetScreenCanvas.DetailMissionSystems.Name=Specializované systémy lodi
+UI.Objectives.FleetScreenCanvas.DetailMissionSystems.Desc=Tento sloupec zobrazuje všechny specializované systémy lodi. Levým kliknutím na libovolný systém zobrazíš jeho podrobnější popis v rámečku ve spodní části sloupce.
+UI.Objectives.FleetScreenCanvas.DetailDamage.Name=Zpráva o poškození lodi
+UI.Objectives.FleetScreenCanvas.DetailDamage.Desc=Tato část informuje o stavu poškození všech pevných bodů na lodi. Najetím na libovolný pevný bod zobrazíš další podrobnosti.
+UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Name=Zobrazit všechny lodě
+UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Desc=Zatržením tohoto políčka povolíš zobrazování nepřátelských lodí v seznamu.
+
+UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Name=Vybrat třídu lodi
+UI.Objectives.FleetScreenCanvas.ConstructSelectShip.NameShort=Postavit
+UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Desc=Tento seznam obsahuje přehled všech návrhů tříd lodí a náklady na stavbu každé z nich. Kliknutím na třídu lodi zobrazíš další podrobnosti a přidáš ji do fronty na postavení.
+UI.Objectives.FleetScreenCanvas.ConstructAddToQueue.Name=Přidat do fronty
+UI.Objectives.FleetScreenCanvas.ConstructAddToQueue.Desc=Jakmile vybereš třídu lodi, kliknutím zde ji v rámci stanice přidáš do fronty na postavení.
+UI.Objectives.FleetScreenCanvas.ConstructBoostToggle.Name=Využití vznosu
+UI.Objectives.FleetScreenCanvas.ConstructBoostToggle.Desc=Zatržením tohoto políčka povolíš loděnici použití vznosu a peněz k transportu chybějících vesmírných zdrojů ze Země.
+UI.Objectives.FleetScreenCanvas.ConstructBuildData.Name=Údaje o konstrukci
+UI.Objectives.FleetScreenCanvas.ConstructBuildData.Desc=Tato oblast zobrazuje aktuální stav konstruované lodi.
+UI.Objectives.FleetScreenCanvas.ConstructQueueUp.Name=Úprava pořadí ve frontě
+UI.Objectives.FleetScreenCanvas.ConstructQueueUp.Desc=Pokud máš ve frontě více lodí, můžeš pomocí těchto šipek upravit pořadí, v jakém budou stavěny.
+UI.Objectives.FleetScreenCanvas.ConstructQueueRemove.Name=Odebrání lodi z fronty
+UI.Objectives.FleetScreenCanvas.ConstructQueueRemove.Desc=Kliknutím zde můžeš v případě potřeby odebrat vybranou loď z řady.
+
+UI.Objectives.FleetScreenCanvas.DesignOverview.Name=Konstruktér lodi
+UI.Objectives.FleetScreenCanvas.DesignOverview.NameShort=Návrh
+UI.Objectives.FleetScreenCanvas.DesignOverview.Desc=Na této obrazovce vytváříš návrhy lodí.
+UI.Objectives.FleetScreenCanvas.DesignSelectClass.Name=Vyber trup
+UI.Objectives.FleetScreenCanvas.DesignSelectClass.Desc=Nejprve vyber ze seznamu trup. Ten určuje rozložení lodi a počet zbraní a modulů, které jí lze přidat.
+UI.Objectives.FleetScreenCanvas.DesignNoseWep.Name=Příďové zbraně
+UI.Objectives.FleetScreenCanvas.DesignNoseWep.Desc=Tato karta obsahuje všechny dostupné příďové zbraně. Levým kliknutím na modul zobrazíš v levém dolním rámečku další podrobnosti. Chceš-li modul přidat do návrhu, jednoduše klikni pravým tlačítkem myši nebo jej přetáhni do odpovídajícího tvaru níže. Příďové zbraně střílejí v omezeném úhlu směrem z „horní“ části plavidla.<br/><br/><h>Pravým kliknutím na dílčí karty zbraní vyvoláš zobrazení seznamu dostupných modulů.</h>
+UI.Objectives.FleetScreenCanvas.DesignModuleData.Name=Údaje o vybraném modulu
+UI.Objectives.FleetScreenCanvas.DesignModuleData.Desc=Tato oblast obsahuje další podrobnosti o modulu vybraném levým kliknutím.
+UI.Objectives.FleetScreenCanvas.DesignHullWep.Name=Trupové zbraně
+UI.Objectives.FleetScreenCanvas.DesignHullWep.Desc=Levým kliknutím na tuto kartu zobrazíš všechny dostupné trupové zbraně. Ty mohou střílet v neomezeném úhlu ve všech směrech kolem lodi, ale nejsou tak výkonné jako příďové zbraně.
+UI.Objectives.FleetScreenCanvas.DesignUtility.Name=Užitkové moduly
+UI.Objectives.FleetScreenCanvas.DesignUtility.Desc=Tato karta obsahuje všechny dostupné užitkové moduly. Ty lodi poskytují dodatečné funkce či schopnosti.<br/><br/><h>Pravým kliknutím na karty modulů zobrazíš seznam všech dostupných modulů.</h>
+UI.Objectives.FleetScreenCanvas.DesignRadiator.Name=Externí chladiče
+UI.Objectives.FleetScreenCanvas.DesignRadiator.Desc=Externí chladiče jsou nezbytné a slouží k udržování provozní teploty v lodi. <h>Při nedostatečném řízení tepla dojde k vnitřnímu poškození lodi a nakonec ke katastrofickému selhání.</h>
+UI.Objectives.FleetScreenCanvas.DesignBattery.Name=Baterie
+UI.Objectives.FleetScreenCanvas.DesignBattery.Desc=Baterie jsou nezbytné a slouží k ukládání energie, kterou mohou následně podle potřeby využít další palubní systémy.
+UI.Objectives.FleetScreenCanvas.DesignPower.Name=Elektrárny
+UI.Objectives.FleetScreenCanvas.DesignPower.Desc=Elektrárny jsou nezbytné a slouží k výrobě energie pro další systémy.
+UI.Objectives.FleetScreenCanvas.DesignDrive.Name=Pohony
+UI.Objectives.FleetScreenCanvas.DesignDrive.Desc=Pohony jsou nezbytné a slouží, jak již název napovídá, k pohonu lodi při cestování vesmírem. Do pohonného modulu lze instalovat až šest motorů, přičemž každý z nich zvyšuje tah lodi. Rovněž je možné zvýšit počet nádrží s pohonnými látkami, což zajistí vyšší hodnotu delta-v.
+UI.Objectives.FleetScreenCanvas.DesignArmor.Name=Moduly pancéřování
+UI.Objectives.FleetScreenCanvas.DesignArmor.Desc=Moduly pancéřování chrání tvou loď v boji. K dispozici jsou 3 sloty pro pancíř: příďový, boční a záďový. Bod bočního pancíře je mnohem masivnější než pancíř na přídi a zádi, neboť musí pokrýt větší plochu.
+UI.Objectives.FleetScreenCanvas.DesignShipData.Name=Údaje o lodi
+UI.Objectives.FleetScreenCanvas.DesignShipData.Desc=Tato část zobrazuje celkové vlastnosti navržené lodi, které se při jakékoliv změně modulu aktualizují.
+
+UI.Objectives.FleetScreenCanvas.DesignDataShipMass.Name=Hmotnost lodi
+UI.Objectives.FleetScreenCanvas.DesignDataShipMass.NameShort=Statistiky
+UI.Objectives.FleetScreenCanvas.DesignDataShipMass.Desc=Hmotnost ovlivňuje manévrovací schopnosti lodi. Vyšší hmotnost snižuje delta-v a rychlost otáčení.
+UI.Objectives.FleetScreenCanvas.DesignDataShipCruiseAccel.Name=Cestovní zrychlení
+UI.Objectives.FleetScreenCanvas.DesignDataShipCruiseAccel.Desc=Udává, jak rychle může loď měnit svou rychlost ve strategické fázi. Vyšší cestovní zrychlení umožňuje lodím překonat gravitaci vesmírného tělesa a dosáhnout přímější trajektorie k cíli.
+UI.Objectives.FleetScreenCanvas.DesignDataShipCombatAccel.Name=Bojové zrychlení
+UI.Objectives.FleetScreenCanvas.DesignDataShipCombatAccel.Desc=Udává, jak rychle může loď měnit svou rychlost v bojové fázi.
+UI.Objectives.FleetScreenCanvas.DesignDataShipDV.Name=Delta-v
+UI.Objectives.FleetScreenCanvas.DesignDataShipDV.Desc=Hodnota delta-v, která se měří v kilometrech za sekundu, je pro loď kritickým ukazatelem, který určuje, kam se dokáže dostat a jak rychle se tam dokáže dostat. Více pohonných látek zvyšuje hodnotu delta-v. Větší hmotnost lodi ji snižuje. Účinné pohony (s vysokou hodnotou výtokové rychlosti) spotřebují méně paliva k dosažení stejného tahu jako méně účinné pohony.<br/><br/>Měj na paměti, že lodě s delta-v menší než 8 kps mohou mít problém dosáhnout Měsíce z oběžné dráhy Země. Lodě s delta-v menší než 10 kps nebudou schopny spolehlivě provádět meziplanetární přesuny ze Země. Cesty k vnějším planetám nebo lodě určené k intenzivnímu manévrování v boji mohou vyžadovat více. V některých případech budou muset lodě s nízkou hodnotou delta-v před odletem čekat na příznivé uspořádání planet, tzv. startovací okno.
+UI.Objectives.FleetScreenCanvas.DesignDataShipTurnRate.Name=Rychlost otáčení
+UI.Objectives.FleetScreenCanvas.DesignDataShipTurnRate.Desc=Udává, jak rychle dokáže loď v boji změnit svou orientaci. Tato hodnota závisí na délce a hmotnosti lodi; kratší lodě se při stejných podmínkách otočí rychleji.
+UI.Objectives.FleetScreenCanvas.DesignDataShipHeatSink.Name=Kapacita interních chladičů
+UI.Objectives.FleetScreenCanvas.DesignDataShipHeatSink.Desc=Interní chladiče slouží jako dočasná náhrada pro odvod tepla na lodi v době, kdy je třeba v boji zranitelné externí chladiče stáhnout. Odpadní teplo z palubních systémů se ukládá do těchto interních chladičů, dokud není možné jej bezpečně odvést. Kapacita interních chladičů se měří v gigajoulech; vyšší hodnoty umožňují lodi bojovat déle bez vysunutí externích chladičů. 
+UI.Objectives.FleetScreenCanvas.DesignDataShipBattery.Name=Kapacita baterie
+UI.Objectives.FleetScreenCanvas.DesignDataShipBattery.Desc=V bateriích lodi je uložena energie z elektrárny, kterou může využít řada zbraňových systémů v situacích, kdy elektrárna nemůže dodávat energii z důvodu poškození nebo aktivního pohodu lodi. Vyspělejší baterie se mohou dobíjet během boje.
+UI.Objectives.FleetScreenCanvas.DesignDataShipCost.Name=Náklady
+UI.Objectives.FleetScreenCanvas.DesignDataShipCost.Desc=Náklady na stavbu této lodi ve vesmírných zdrojích. Pokud jsou takové zdroje k dispozici na Zemi, můžeš je za vznos a peníze použít ve svých loděnicích, avšak doba výstavby se vlivem čekání na dodávku zdrojů ze Země prodlouží.
+UI.Objectives.FleetScreenCanvas.DesignDataShipBuildTime.Name=Doba výstavby
+UI.Objectives.FleetScreenCanvas.DesignDataShipBuildTime.Desc=Jak dlouho bude trvat stavba lodi, až budou všechny potřebné materiály v loděnici. Větší loděnice dobu konstrukce zkracují.
+
+UI.Objectives.FleetScreenCanvas.DesignSave.Name=Uložit design
+UI.Objectives.FleetScreenCanvas.DesignSave.Desc=Po dokončení návrhu třídy lodi ho kliknutím zde můžeš uložit. U nedokončených návrhů nebude tato možnost k dispozici.
+
+UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Name=Výuka o zbraních
+UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleDrive.Name=Výuka o pohonech
+UI.Objectives.FleetScreenCanvas.DesignModuleDrive.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModulePower.Name=Výuka o elektrárnách
+UI.Objectives.FleetScreenCanvas.DesignModulePower.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleRadiator.Name=Výuka o externích chladičích
+UI.Objectives.FleetScreenCanvas.DesignModuleRadiator.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Name=Výuka o interních chladičích
+UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Name=Výuka o bateriích
+UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Desc=
+
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Name=Globální výzkum
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.NameShort=Výzkum
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Desc=Příchod mimozemšťanů vyvolal ve vědecké komunitě vlnu nových podnětů. Obrazovka výzkumu ukazuje pokrok v kolektivním, globálním výzkumném úsilí i v soukromých projektech realizovaných tvou frakcí.<br/><br/>Vrchní řada tří kruhových grafů popisuje probíhající výzkumy obecných vědeckých principů, jejichž přínos bude sdílen mezi lidstvem. Všechny frakce se mohou rozhodnout, že na každý z nich přispějí částí nebo celým svým příjmem výzkumu. Frakce, která na konkrétní výzkum přispěje nejvíce, může zvolit ten následující.
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Name=Inženýrské projekty rady
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=Druhá řada kruhových grafů představuje projekty tvé frakce. Na rozdíl od globálního výzkumu jsou tyto projekty interní záležitostí tvé frakce, ale také spotřebovávají tvůj příjem výzkumu.<br/><br/>Projekty poskytují hmatatelné výhody, jako jsou zdroje nebo nové lodní či habitatové moduly.<br/><br/>Dostupnost projektů je dána především tím, jaký globální výzkum byl dokončen; čím více přispíváš na globální výzkum, tím je pravděpodobnější, že budeš mít rychlý přístup k projektům, které spouští. Pokud chceš realizovat více projektů současně, musíš získat projekty poskytující organizace a habitatové moduly.
+UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Name=Rozložení výzkumných priorit
+UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Desc=Toto je nástroj pro určování priorit; levým nebo pravým kliknutím zvýšíš nebo snížíš počet vyplněných čtverečků. Tvůj příjem výzkumu se vynaloží proporcionálně mezi všechny projekty podle počtu vyplněných čtverečků u jednotlivých projektů. Za příspěvek na více projektů současně získáš bonusy k výzkumu.
+UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Name=Výzkumné hodnoty
+UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Desc=Tato položka ukazuje, jaké příjmy výzkumu byly na tento projekt vynaloženy a jak blízko je jeho dokončení.
+UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Name=Technické podrobnosti
+UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Desc=Toto tlačítko zobrazuje dopad výzkumu této technologie.
+UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Name=Diagram technologií
+UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Desc=Toto tlačítko otevře diagram technologií, kde si můžeš naplánovat, jakou cestou se vydat. 
+UI.Objectives.ResearchScreenCanvas.PrimaryArchives.Name=Výzkumné archivy
+UI.Objectives.ResearchScreenCanvas.PrimaryArchives.Desc=Tímto tlačítkem otevřeš výzkumné archivy, kde se můžeš podívat na projekty, které tvoje frakce dokončila.
+
+UI.Objectives.NationsScreenCanvas.NationsSort.Name=Řazení států
+UI.Objectives.NationsScreenCanvas.NationsSort.NameShort=Státy
+UI.Objectives.NationsScreenCanvas.NationsSort.Desc=Tato obrazovka zobrazuje údaje o všech státech na Zemi. Kliknutím na libovolné pole s hodnotou seřadíš seznam podle ní.
+UI.Objectives.NationsScreenCanvas.NationsExpand.Name=Rozbalením zobrazíš kontrolní body
+UI.Objectives.NationsScreenCanvas.NationsExpand.Desc=Kliknutím na vlajku státu zobrazíš všechny kontrolní body příslušného státu.
+UI.Objectives.NationsScreenCanvas.NationsControlPriority.Name=Úprava priorit státu
+UI.Objectives.NationsScreenCanvas.NationsControlPriority.Desc=Pokud máš kontrolu nad určitým státem, můžeš zde vybrat aktivní šablonu priority. Priority států, které nemáš pod kontrolou, nemůžeš upravovat.
+UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Name=Návrh šablony priority
+UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Desc=Kliknutím zde si můžeš navrhnout vlastní šablonu priority.
+UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Name=Přehled kontrolních bodů
+UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Desc=Kliknutím otevřeš panel, který shrnuje schopnost tvé frakce vlastnit kontrolní body bez postihů vlivu a řízení misí.
+
+UI.Objectives.NationsScreenCanvas.DesignCycler.Name=Rozložení priorit
+UI.Objectives.NationsScreenCanvas.DesignCycler.NameShort=Priority
+UI.Objectives.NationsScreenCanvas.DesignCycler.Desc=Tento sloupec představuje nástroj pro určování priorit. Levým nebo pravým kliknutím zvýšíš nebo snížíš příslušnou hodnotu. Procenta se rovnoměrně rozdělí na základě zadaných hodnot.
+UI.Objectives.NationsScreenCanvas.DesignName.Name=Název šablony
+UI.Objectives.NationsScreenCanvas.DesignName.Desc=Po dokončení úpravy hodnot priority zde můžeš zadat název dané šablony.
+UI.Objectives.NationsScreenCanvas.DesignSave.Name=Uložení šablony
+UI.Objectives.NationsScreenCanvas.DesignSave.Desc=Po dokončení úprav a zvolení názvu šablonu kliknutím zde uložíš.
+UI.Objectives.NationsScreenCanvas.DesignLoad.Name=Načtení návrhu
+UI.Objectives.NationsScreenCanvas.DesignLoad.Desc=Tato rozbalovací nabídka umožňuje načíst a prohlédnout všechny uložené šablony.
+
+UI.Objectives.SpaceCombatCanvas.Intro.Name=Vesmírné bitvy
+UI.Objectives.SpaceCombatCanvas.Intro.Desc=Vítej v boji ve hře Terra Invicta. Cíl každého boje závisí na konkrétní strategické situaci. Pokud se domníváš, že máš převahu, je tvým cílem zničit soupeřovu flotilu nebo ji donutit k ústupu. Pokud se ti tvoje šance nepozdávají, může být cílem jednoduše stáhnout z bitvy co nejvíce svých lodí.
+UI.Objectives.SpaceCombatCanvas.Formations.Name=Formace
+UI.Objectives.SpaceCombatCanvas.Formations.Desc=Na začátku každé bitvy ve hře Terra Invicta určíš výchozí formaci svých lodí. Chceš, aby tvé nejlépe pancéřované lodě byly vpředu, nebo aby se tvé nejsilněji vyzbrojené lodě soustředily na jedné straně? Volba je na tobě. 
+UI.Objectives.SpaceCombatCanvas.MainFriendlyShipList.Name=Tvé lodě v bitvě
+UI.Objectives.SpaceCombatCanvas.MainFriendlyShipList.Desc=Tento panel zobrazuje seznam tvých aktivních lodí v této vesmírné bitvě. Kliknutím na libovolnou ikonu lodi v tomto seznamu vyvoláš panel s podrobnostmi, který obsahuje příkazy specifické pro danou loď a ovládání palby. Dvojitým kliknutím na ikonu lodi na ni zaměříš kameru.
+UI.Objectives.SpaceCombatCanvas.MainEnemyShipList.Name=Nepřátelské lodě v bitvě
+UI.Objectives.SpaceCombatCanvas.MainEnemyShipList.Desc=Tento panel zobrazuje seznam všech nepřátelských lodí v bitvě a jejich celkové poškození. Dvojitým kliknutím na ikonu lodi na ni zaměříš kameru.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Name=Příkazová lišta flotily
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Desc=Toto je příkazová lišta flotily. Příkazy zde zadané se vztahují na všechny tvé lodě současně. Pokud chceš zadat příkaz konkrétní lodi, klikni na ni nebo na její ikonu v levém panelu, čímž otevřeš panel s podrobnostmi o dané lodi. Pro zobrazení dalších podrobností stačí najet kurzorem myši na tlačítka příkazů.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Name=Flotila: Nastavit hlavní cíl
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=Tento příkaz tě vyzve k výběru nepřátelské lodi jako hlavního cíle pro všechny zbraně tvé flotily. Řízené střely budou vypuštěny pouze na hlavní cíle.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Name=Flotila: Zrušit hlavní cíl
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Desc=Tímto příkazem zrušíš stávající cíl nastavený pro všechny zbraně tvé flotily a umožníš jim palbu dle libosti.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandExtendRadiators.Name=Flotila: Vysunout externí chladiče
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandExtendRadiators.Desc=Tímto příkazem vysuneš externí chladiče všech lodí ve flotile. Externí chladiče po vysunutí odvádějí teplo uložené v interních chladičích lodi. Po vysunutí jsou však extrémně zranitelné vůči útokům.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandRetractRadiators.Name=Flotila: Zasunout externí chladiče
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandRetractRadiators.Desc=Tímto příkazem zasuneš externí chladiče všech lodí ve flotile. V zasunutém stavu jsou externí chrániče chráněné před útoky. Po zasunutí však nemohou odvádět teplo. Pokud úroveň tepla na palubě dosáhne maximální hodnoty, dojde k nucenému vysunutí externích chladičů. Pokud následně dojde k jejich zničení, loď utrpí poškození a může jí hrozit zničení.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandAIControl.Name=Flotila: Zadat řízení umělou inteligencí
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandAIControl.Desc=Tento příkaz určí všem lodím ve tvé flotile řízení umělou inteligencí. Ruční kontrolu nad nimi můžeš kdykoli obnovit.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFocusFire.Name=Flotila: Zadat pozici soustředěné palby
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFocusFire.Desc=Tento příkaz nastaví všechny útočné zbraňové systémy ve flotile na soustředěnou palbu na hlavní cíl, přičemž všechny ostatní nepřátele budou ignorovat. Zbraně s podporou strážného režimu nebudou pálit v obranném režimu.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureAttack.Name=Flotila: Nastavit útočnou pozici
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureAttack.Desc=Tento příkaz nastaví všechny útočné zbraňové systémy ve flotile tak, aby upřednostňovaly svůj hlavní cíl, je-li v dosahu, jinak zaútočí na nejbližší dostupný cíl. Zbraně s podporou strážného režimu nebudou pálit v obranném režimu.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureBalanced.Name=Flotila: Nastavit vyváženou pozici
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureBalanced.Desc=Tento příkaz nastaví všechny útočné zbraňové systémy ve flotile tak, aby upřednostňovaly svůj hlavní cíl, je-li v dosahu, jinak zaútočí na nejbližší dostupný cíl. Zbraně s podporou strážného režimu budou nastaveny na tento režim a před cílením na lodě budou upřednostňovat střelbu na rizikové nepřátelské projektily.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureDefensive.Name=Flotila: Nastavení obranné pozice
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureDefensive.Desc=Tento příkaz nastaví všechny útočné zbraňové systémy ve flotile tak, aby upřednostňovaly svůj hlavní cíl, je-li v dosahu, jinak zaútočí na nejbližší dostupný cíl. Zbraně s podporou strážného režimu se zaměří pouze na nepřátelské projektily a nebudou cílit na lodě.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFortified.Name=Flotila: Nastavení opevněné pozice
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFortified.Desc=Tento příkaz nastaví všechny útočné zbraňové systémy ve flotile na nečinnost s cílem úspory energie a munice. Veškeré další zbraně budou nastaveny na obranný režim.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandManeuver.Name=Flotila: Manévrové příkazy
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandManeuver.Desc=Toto tlačítko otevře další panel s pokročilými možnostmi manévrování. Lze například uzamknout hlavní cíl lodi tak, aby na něj stále směřovala přídí, nebo nařídit zastavení celé flotily.
+UI.Objectives.SpaceCombatCanvas.OfferToEndBattle.Name=Nabídka ukončení bitvy
+UI.Objectives.SpaceCombatCanvas.OfferToEndBattle.Desc=Zaškrtnutím této možnosti nabídneš nepřátelskému veliteli ukončení bitvy po vzájemné dohodě. Pokud tuto možnost vyberou obě strany, bude bitva ukončena.
+UI.Objectives.SpaceCombatCanvas.EndBattle.Name=Ukončení bitvy
+UI.Objectives.SpaceCombatCanvas.EndBattle.Desc=Bitva končí, pokud je některá flotila zničena, pokud se některá flotila stáhla nebo pokud se obě strany dohodly na ukončení bitvy. 
+UI.Objectives.SpaceCombatCanvas.TimeControls.Name=Řízení času v bitvě
+UI.Objectives.SpaceCombatCanvas.TimeControls.Desc=Pomocí těchto ovládacích prvků lze řídit tok času během bitvy.
+
+UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Name=Údaje o vybrané lodi
+UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Desc=Tento panel obsahuje všechny informace o aktuálně vybrané lodi.
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Name=Příkazová lišta lodi
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Desc=Tato lišta obsahuje příkazy, které lze vydat aktuálně vybrané lodi. Pokud chceš vydávat příkazy pro celou flotilu současně, použij příkazovou lištu flotily v horní části obrazovky.
+UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Name=Taran
+UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Desc=Tento příkaz nařídí lodi, aby nabrala kurz ke srážce s hlavním cílem. Srážka způsobí oběma lodím vážné a pravděpodobně fatální poškození. Obvykle je to spojeno s náklady vlivu, což představuje schopnost přesvědčit posádku, aby se vzdala svých životů.
+UI.Objectives.SpaceCombatCanvas.ShipDetailDisengage.Name=Stáhnout se
+UI.Objectives.SpaceCombatCanvas.ShipDetailDisengage.Desc=Tímto příkazem nařídíš lodi, aby se stáhla z bitvy. Loď se považuje za staženou, jakmile uplyne 30 minut a loď je vzdálena 2 000 km od všech nepřátelských lodí.
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Name=Manévrové příkazy lodi
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Desc=Tímto tlačítkem otevřeš další panel s pokročilými možnostmi manévrování. Ty umožňují řídit úhly otáčení a natočení lodi, čímž lze dosáhnout lepší pozice v boji. Můžeš například uzamknout hlavní cíl lodi tak, aby na něj stále směřovala přídí, nebo provést obranné manévry, které minimalizují vystavení lodi příchozí palbě.
+UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Name=Teplota lodi
+UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Desc=Tato lišta ukazuje teplo akumulované v interních chladičích lodi. Uložené teplo se uvolní vysunutím externích chladičů. Pokud úroveň tepla dosáhne maxima, začne docházet k vnitřnímu poškození lodi. Pokud je to možné, dojde k vysunutí externích chladičů, které akumulované teplo uvolní. <h>Bez správného řízení tepla dojde na lodi ke katastrofickému selhání.</h> 
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=Zbývající energie baterie lodi
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=Tato lišta zobrazuje zbývající úroveň energie uložené v baterii na této lodi. Některé zbraně při střelbě spotřebovávají energii, ale dobíjejí se z elektrárny. Sleduj spotřebu a úroveň zbývající energie uložené v baterii a ujisti se, že tvá loď bude v rozhodujících okamžicích schopna bojovat v optimální síle.
+UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Name=Zbývající delta-v lodi
+UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Desc=Tento údaj zobrazuje zbývající hodnotu delta-v, kterou může tato loď v aktuální bitvě vynaložit. Loď si vždy rezervuje dostatek delta-v na dokončení své aktuální trajektorie.
+UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Name=Trupové zbraně lodi
+UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Desc=Zde jsou uvedeny trupové zbraně lodi. Ty jsou umístěny ve dvojicích na bočních stranách trupu lodi a mohou se otáčet a střílet libovolným směrem. Kliknutím na ikonu zde uvedené zbraně lze procházet různé dostupné režimy střelby.
+UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Name=Příďové zbraně lodi
+UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Desc=Zde jsou uvedeny příďové zbraně lodi. Ty jsou umístěny na přídi lodi a mohou střílet pouze v omezeném úhlu ve směru natočení lodi. Kliknutím na ikonu zde uvedené zbraně lze procházet různé dostupné režimy střelby. Najetím kurzorem na zbraň o ní zobrazíš další podrobnosti.
+UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Name=Vzniklé poškození lodi
+UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Desc=V této oblasti se zobrazuje poškození, které vybraná loď utrpěla, a místo, kde k němu došlo. Další podrobnosti zobrazíš najetím kurzorem na některý z pevných bodů.
+UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Name=Zničení lodi
+UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Desc=Ke zničení lodi dojde, pokud její příďová, střední a záďová část utrpí příliš velké poškození.
+
+UI.Objectives.SpaceCombatCanvas.CameraPan.Name=Posun kamery (WSAD nebo prostřední tlačítko myši)
+UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=Pomocí kláves W, S, A a D nebo kliknutím a tažením prostředním tlačítkem myši lze posouvat kameru v rovině XZ. 
+UI.Objectives.SpaceCombatCanvas.CameraRotate.Name=Otáčení kamery (PTM)
+UI.Objectives.SpaceCombatCanvas.CameraRotate.Desc=Podržením pravého tlačítka myši a jejím pohybem lze měnit úhel pohledu kamery.
+UI.Objectives.SpaceCombatCanvas.CameraFly.Name=Průlet kamerou (PTM+WSAD)
+UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=Pomocí kláves W, S, A a D s podrženým pravým tlačítkem myši lze létat kamerou po bojové scéně.
+UI.Objectives.SpaceCombatCanvas.CameraHeight.Name=Nastavení výšky kamery (Ctrl+prostřední tlačítko myši)
+UI.Objectives.SpaceCombatCanvas.CameraHeight.Desc=Podržením klávesy Ctrl a prostředního tlačítka myši a jejím pohybem lze měnit výšku kamery. 
+
+UI.Objectives.SpaceCombatCanvas.Momentum.Name=Hybnost
+UI.Objectives.SpaceCombatCanvas.Momentum.Desc=Podle sira Isaaca Newtona „Těleso setrvává v pohybu, pokud na něj nepůsobí vnější síla.“ To platí i pro lodě ve vesmírném boji. Ty si zachovávají svou hybnost a bez odporu vzduchu nebo povrchového tření, které by je přirozeně zpomalovaly, budou pokračovat ve své trajektorii, dokud nepoužijí své motory k tahu. To umožňuje zdatným velitelům provádět důmyslné manévry, avšak nezkušení velitelé se zase mohou dostat do situací, kdy jejich lodě skončí nekontrolovaně unášené napříč bitevním prostorem. Pokud se chceš vyhnout tomu, aby tě nepřátelé rozcupovali, měj hybnost neustále na paměti.
+UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Name=Navigační body lodi
+UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Desc=Ve hře Terra Invicta řídíš pohyb svých lodí prostřednictvím jejich navigačních bodů. Navigační bod představuje polohu, natočení a rychlost lodi v budoucnosti. Polohu navigačního bodu lze upravovat ve třech rozměrech, stejně jako jeho rotaci. Lodě se budou postupně pohybovat od jednoho navigačního bodu k druhému, přičemž červený navigační bod představuje nejbližší ten nejbližší a fialový ten nejvzdálenější bod. Všechny lodě dosáhnou navigačního bodu stejné barvy ve stejnou dobu. Toho lze využít k plánování jejich polohy vůči ostatním lodím v budoucnosti.<br/><br/>(Vezmi na vědomí, že nepřátelské navigační body jsou pouze projekcí budoucí polohy přidružené lodi určené na základě její aktuální polohy a rychlosti).
+UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Name=Nastavení svislého natočení v navigačním bodu (klávesa Z) 
+UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Desc=Kliknutím a tažením navigačního bodu se stisknutou klávesou <h>Z</h> upravíš pouze úhel natočení navigačního bodu v ose Y. Tím se zachová konstantní trajektorie lodi a zároveň se změní pouze úhel natočení lodi. Rovnou si teď otáčení lodi vyzkoušej. 
+UI.Objectives.SpaceCombatCanvas.WaypointsPitch.Name=Nastavení příčného natočení v navigačním bodu (klávesa X)
+UI.Objectives.SpaceCombatCanvas.WaypointsPitch.Desc=Kliknutím a tažením navigačního bodu se stisknutou <h>klávesou X</h> upravíš pouze úhel natočení navigačního bodu v ose X. Tím se zachová konstantní trajektorie lodi a zároveň se změní pouze úhel natočení lodi.
+UI.Objectives.SpaceCombatCanvas.WaypointsRoll.Name=Nastavení podélného natočení v navigačním bodu (klávesa C)
+UI.Objectives.SpaceCombatCanvas.WaypointsRoll.Desc=Kliknutím a tažením navigačního bodu se stisknutou <h>klávesou C</h> upravíš pouze úhel natočení navigačního bodu v ose Z. Tím se zachová konstantní trajektorie lodi a zároveň se změní pouze úhel natočení lodi.
+UI.Objectives.SpaceCombatCanvas.WaypointsRotation.Name=Úprava natočení v navigačním bodu
+UI.Objectives.SpaceCombatCanvas.WaypointsRotation.Desc=Je třeba mít na paměti, že pokud je na aktuální navigační bod již aplikován dostatečný tah (znázorněno červenou čarou), <h>nemusí být úprava natočení navigačního bodu možná</h>, neboť loď by neměla dostatek času na dosažení takového úhlu s nastavenou rychlostí. V takovém případě by bylo nutné použít natočení na dalším navigačním bodu.
+UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Name=Úprava zážehu v navigačním bodu (klávesa R)
+UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Desc=Kliknutím a tažením navigačního bodu se stisknutou <h>klávesou R</h> upravíš tah nastavený v daném navigačním bodu. Směr tahu hlavního pohonu bude odpovídat směru, kterým je loď otočena. 
+UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Name=Nastavení výšky navigačního bodu (klávesa Q)
+UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Desc=Kliknutím a tažením navigačního bodu se stisknutou <h>klávesou Q</h> upravíš výšku daného navigačního bodu. Vesmírný boj ve hře Terra Invicta probíhá v trojrozměrném prostoru; pomocí této funkce tak můžeš manévrovat trajektorií lodi v rovině ZY. 
+UI.Objectives.SpaceCombatCanvas.WaypointsReset.Name=Reset navigačního bodu (PTM)
+UI.Objectives.SpaceCombatCanvas.WaypointsReset.Desc=<h>Výběrem navigačního bodu pravým tlačítkem myši</h> daný bod resetuješ dle původní trajektorie.
+UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Name=Vodorovný posun navigačního bodu (klávesa E)
+UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Desc=Kliknutím a tažením navigačního bodu se stisknutou <h>klávesou E</h> upravíš vodorovnou polohu daného navigačního bodu. Pomocí této funkce tak můžeš manévrovat trajektorií lodi v rovině XY. 
+UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Name=Úprava polohy navigačního bodu (LTM)
+UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Desc=Pokud chceš posunout navigační bod vodorovně v rovině XZ, <h>klikni na něj a přetáhni ho ve směru, kterým se má loď pohybovat</h>. Vezmi na vědomí, že poloha navigačního bodu ovlivňuje rozsah možného posunu ostatních navigačních bodů v závislosti na pohyblivosti lodi. Zkus nyní navigační bod přesunout. 
+UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Name=Zelené a červené čáry
+UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Desc=Všimni si, že po přesunutí navigačního bodu se zelená čára spojující body trasy změnila na červenou. Zelená část představuje nečinnou trajektorii, což znamená, že loď během této doby neprovádí žádné manévry. Červená část pak představuje použití tahu, což znamená, že loď s využitím svého hlavního pohonu mění svou rychlost. 
+UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Name=Žluté čáry
+UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Desc=Všimni si, že po natočení navigačního bodu se čára spojující body trasy změnila na žlutou. Žlutá část představuje čas, který loď stráví používáním svých motorů k otáčení. 
+UI.Objectives.SpaceCombatCanvas.WaypointsTip.Name=Manévrování lodi
+UI.Objectives.SpaceCombatCanvas.WaypointsTip.Desc=Při plánování manévrů lodí v rámci bojiště měj na paměti zbraňové systémy konkrétního plavidla, jeho pancéřování a příchozí projektily. 
+
+UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Name=Výběr skupiny (Shift+LTM)
+UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Desc=Vybrat lze i několik lodí najednou. <h>Podrž klávesu Shift</h> a vyber jednotlivé lodě účastnící se bitvy nebo jejich karty v seznamu flotily. 
+UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Name=Výběr pole (LTM+tažení)
+UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Desc=Lodě lze také vybrat <h>kliknutím a přetažením</h> pole kolem požadovaných lodí.
+UI.Objectives.SpaceCombatCanvas.ControlGroups.Name=Ovládání skupin (Ctrl+numerická klávesa 0–9)
+UI.Objectives.SpaceCombatCanvas.ControlGroups.Desc=Lodě lze <h>podržením klávesy Ctrl</h> a <h>stiskem numerické klávesy (0–9)</h> seskupit a usnadnit si tak jejich výběr. Vybrané lodě se takto přiřadí k zadanému číslu. Ovládanou skupinu pak lze vybrat stiskem přiřazené <h>numerické klávesy</h>. 
+UI.Objectives.SpaceCombatCanvas.GroupCommands.Name=Příkazy skupině
+UI.Objectives.SpaceCombatCanvas.GroupCommands.Desc=Vezmi na vědomí, že je-li vybrána skupina, vztahují se příkazy na <h>spodní liště</h> právě na tuto <h>vybranou skupinu</h>. 
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemement.Name=Pohyb skupiny
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemement.Desc=Je-li vybrána skupina lodí, jsou příkazy k pohybu a natočení odeslány všem lodím v této skupině a z důvodu zachování lodí ve zvolené formaci je manévrovatelnost omezena s ohledem na nejméně manévrovatelné lodě ve skupině.
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemementFree.Name=Volný pohyb skupiny (Shift)
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemementFree.Desc=Pohyb skupiny ve formaci lze potlačit vydáním příkazu k přesunu či natočení se stisknutou klávesou Shift.
+UI.Objectives.SpaceCombatCanvas.MultiShipAttraction.Name=Atrakční pohyb (Ctrl)
+UI.Objectives.SpaceCombatCanvas.MultiShipAttraction.Desc=S vybranou skupinou můžeš <h>podržením klávesy Ctrl</h> přikázat lodím, aby se pohybovaly <h>směrem ke</h> kurzoru myši.
+UI.Objectives.SpaceCombatCanvas.MultiShipRepulsion.Name=Repulzní pohyb (Alt)
+UI.Objectives.SpaceCombatCanvas.MultiShipRepulsion.Desc=S vybranou skupinou můžeš <h>podržením klávesy Alt</h> přikázat lodím, aby se pohybovaly <h>směrem od</h> kurzoru myši.
+
+
+UI.Objectives.NaturalSpaceObjectOps.1.Name=Vesmírné operace
+UI.Objectives.NaturalSpaceObjectOps.1.NameShort=Operace
+UI.Objectives.NaturalSpaceObjectOps.1.Desc=Po výběru planety, měsíce, asteroidu nebo Lagrangeova bodu se zde zobrazí výběr vesmírných operací. Tyto operace ti umožní pracovat na budování habitatů na daném místě bez použití flotil.
+UI.Objectives.NaturalSpaceObjectOps.2.Name=Sondy
+UI.Objectives.NaturalSpaceObjectOps.2.Desc=Různé globální technologie typu „Mise na/k...“ zpřístupňují části Sluneční soustavy k prozkoumání. Pokud chceš na povrchu vesmírných těles postavit základny, musíš nejprve dané těleso prozkoumat sondou nebo řádně vybavenou flotilou a získat informace o potenciálních stanovištích základen.<br/><br/>Zde můžeš vypustit sondy. Ty mohou pocházet buď ze Země, nebo z blízké loděnice, pokud ji máš postavenou.
+UI.Objectives.NaturalSpaceObjectOps.3.Name=Zakládání habitatů
+UI.Objectives.NaturalSpaceObjectOps.3.Desc=S odemčenými příslušnými stavebními a průzkumnými technologiemi je možné na tomto vesmírném tělese zakládat habitaty také pomocí vyslání odpovídajících prostředků ze Země nebo z blízkých habitatů se stavebním modulem. Jejich přílet však může nějakou dobu trvat.
+
+UI.Objectives.ArmyOps.1.Name=Armádní operace
+UI.Objectives.ArmyOps.1.NameShort=Armády
+UI.Objectives.ArmyOps.1.Desc=Po výběru jedné z tvých armád se zde zobrazí operace, které má k dispozici.<br/><br/>Armády se mohou přesouvat do regionů v domovském státě, spojeneckých státech nebo státech, které jsou s jejich domovským státem ve válce. Automaticky se pak zapojí do boje s nepřátelskými armádami a obsadí nepřátelské území. Pokud jejich stát požívá výhod námořní svobody, mohou také překračovat vodní plochy.<br/><br/>Armády jsou méně nákladné na údržbu, pokud jsou umístěny ve svém domovském regionu.
+
+UI.Objectives.ArmyOps.2.Name=Armádní operace
+UI.Objectives.ArmyOps.2.Desc=Další operace umožňují armádě zaměřit se na konkrétní místa v jejím regionu.
+
+UI.Objectives.FleetOps.1.Name=Operace flotily
+UI.Objectives.FleetOps.1.NameShort=Flotily
+UI.Objectives.FleetOps.1.Desc=Tyto ikony označují různé operace, které mohou provádět tvé flotily. Ty se mohou značně lišit v závislosti na tom, jakými moduly jsou flotily vybaveny.<br/><br/>Některé operace mají stanovenou dobu trvání, která způsobí, že dokud flotila danou operaci nedokončí (nebo její provádění nebude přerušeno), bude taková flotila nedostupná.
+
+UI.Objectives.FleetOps.2.Name=Operace přesunu
+UI.Objectives.FleetOps.2.Desc=Pokud chceš svou flotilu přesunout na jinou oběžnou dráhu, stanici nebo k jiné flotile, vyber operaci Přesun, zvol cíl a otevři plánovač trajektorie.<br/><br/>Zacílením na nepřátelskou flotilu nebo stanici s obrannými moduly či bránící se flotilu zahájíš vesmírnou bitvu. Pokud je nepřátelská stanice nechráněná, po příletu k ní zakotvíš a budeš na ní moct provádět další operace.
+
+UI.Objectives.TransferOp.1.Name=Plánování trajektorie
+UI.Objectives.TransferOp.1.NameShort=Trajektorie
+UI.Objectives.TransferOp.1.Desc=Tyto panely umožňují poslat některou z tvých flotil na jinou oběžnou dráhu, stanici nebo k jiné flotile.<br/><br/>Místa určení můžeš měnit prostřednictvím textové nabídky nebo v zobrazení Sluneční soustavy.
+
+UI.Objectives.TransferOp.2.Name=Delta-v
+UI.Objectives.TransferOp.2.Desc=Delta-v je měřítkem toho, jak moc dokáží tvé lodě měnit svou rychlost, než jim dojdou pohonné látky; je to v podstatě měřítko doletu lodi. V rámci flotily se používá nejnižší hodnota delta-v ze všech jejích lodí.<br/><br/>Je-li k dispozici více možností, jak dosáhnout cíle, zobrazí se posuvník, pomocí kterého lze nahradit délku cesty hodnotou delta-v. Během výběru uvidíš trasu letu v zobrazení Sluneční soustavy.<br/><br/>Vezmi na vědomí, že některé trajektorie mohou zahrnovat možnost vyčkat ve výchozím bodě na startovací okno.
+
+UI.Objectives.TransferOp.3.Name=Řízení delta-v
+UI.Objectives.TransferOp.3.Desc=Lodě lze zásobovat v habitatech s loděnicemi nebo zásobovacími sklady. Nezapomeň se ujistit, že má loď či flotila dostatek delta-v, aby se k nim dostaly. Pokud očekáváš bojové zapojení, zvaž uchování většího množství delta-v.
+
+UI.Objectives.TransferOp.4.Name=Speciální manévry
+UI.Objectives.TransferOp.4.Desc=V rámci trajektorie můžeš také nastavit jeden ze dvou speciálních manévrů.<br/><br/>Aerobrzdění je možné pouze u vesmírných těles s atmosférou, ale umožní ti ušetřit delta-v zpomalením s využitím atmosféry. Pokud však loď není na takový manévr stavěná, hrozí jí při něm poškození.<br/><br/>Výběr manévru průletu znamená, že flotila u cílového místa nezpomalí a nezastaví, ale použije gravitační manévr. Po příletu na místo určení se zobrazí výzva k výběru nového cíle.
+
+UI.Objectives.TransferOp.5.Name=Vesmírný boj
+UI.Objectives.TransferOp.5.Desc=Vysláním flotily na trajektorii k jiné flotile zahájíš po příletu vesmírný boj.
+
+UI.Objectives.TransferOp.6.Name=Velké vesmírné bitvy
+UI.Objectives.TransferOp.6.Desc=Velmi rozsáhlé vesmírné bitvy budou mít aktivní a záložní lodě. Záložní lodě se k bitvě připojí, aby nahradily aktivní lodě v případě jejich zničení. Maximální počet lodí, které mohou být aktivní kdykoli během boje, lze upravit v nastavení hry. Maximální hodnota 30 omezí každou stranu na 15 aktivních lodí v každém okamžiku. Toto nastavení slouží k zajištění dostatečného výkonu.
+
+UI.Objectives.SpaceBodyDetail.1.Name=Podrobnosti o vesmírném tělesu
+UI.Objectives.SpaceBodyDetail.1.NameShort=Vesmírné těleso
+UI.Objectives.SpaceBodyDetail.1.Desc=Tento panel obsahuje podrobnosti o vybraném vesmírném tělese.<br/><br/>Horní lišta zobrazuje fyzikální údaje o tělese. Vyšší hodnoty gravitace a únikové rychlosti znamenají, že je nákladnější postavit zde těžební zařízení a vypouštět lodě z povrchu tělesa.
+
+UI.Objectives.SpaceBodyDetail.2.Name=Těžební potenciál
+UI.Objectives.SpaceBodyDetail.2.Desc=Tyto hodnoty představují odhad, kolik z pěti základních vesmírných zdrojů (voda, těkavé látky, kovy, ušlechtilé kovy a štěpný materiál) budou doly na této planetě produkovat. Více šipek značí vyšší potenciální těžbu.
+
+UI.Objectives.SpaceBodyDetail.3.Name=Oběžné dráhy
+UI.Objectives.SpaceBodyDetail.3.Desc=Toto je seznam oběžných drah kolem tělesa. Ty slouží jako místa pro stanice a cíle flotil. Chceš-li přistát na základně nebo habitatovém stanovišti, musíš nejprve přesunout flotilu na operační oběžnou dráhu (označenou ikonou planety).
+
+UI.Objectives.SpaceBodyDetail.4.Name=Habitatová stanoviště
+UI.Objectives.SpaceBodyDetail.4.Desc=Habitatová stanoviště jsou místa na vesmírném tělese, kde si frakce může postavit základnu. Po prozkoumání vesmírného tělesa se zde zobrazí přesné příjmy z jeho stanovišť.
+
+UI.Objectives.LagrangePoint.1.Name=Podrobnosti o Lagrangeově bodu
+UI.Objectives.LagrangePoint.1.NameShort=L-body
+UI.Objectives.LagrangePoint.1.Desc=Lagrangeovy body jsou body ve vesmíru, které vznikají působením gravitace více blízkých vesmírných těles. Mohou sloužit jako stabilní kotviště pro flotily a stanice.
+
+UI.Objectives.Hab.1.Name=Podrobnosti o habitatu
+UI.Objectives.Hab.1.NameShort=Habitat
+UI.Objectives.Hab.1.Desc=Tento panel zobrazuje základní informace o vybrané stanici nebo základně. Kliknutím na obrázek zobrazíš ve správci habitatů všechny podrobnosti.
+
+UI.Objectives.EnemyFleet.1.Name=Podrobnosti o flotile
+UI.Objectives.EnemyFleet.1.NameShort=Flotila
+UI.Objectives.EnemyFleet.1.Desc=Zde se zobrazují podrobnosti o vybrané nepřátelské flotile.<br/><br/>Tato hodnota zkřížených mečů je odhadem bojové síly dané flotily.
+
+UI.Tutorial.VO.1=Zdravím tě, veliteli, jsem Fiona Ayoadeová, tvá náčelnice štábu. Budu tě informovat o aktuální situaci.
+UI.Tutorial.VO.2=Naše rada je složená z těch nejlepších a nejchytřejších lidí na Zemi. Jsou schopní, propojení a připravení na tvé rozkazy.
+UI.Tutorial.VO.3=Pokud skutečně čelíme hrozbě invaze, musíme se začít organizovat hned. Budeme potřebovat globální spolupráci v dosud nevídaném rozsahu. Doporučuji, abychom začali pověřovat naše radní zajišťováním podpory na strategických mocenských pozicích po celém světě.
+UI.Tutorial.VO.4=Stále přicházejí nové zprávy, ale je zřejmé, že na planetu dopadl mimozemský objekt. Měli bychom co nejdříve vyslat radního, aby místo dopadu prozkoumal.
+UI.Tutorial.VO.5=Toto je tvé hlavní velitelské rozhraní. Můžeme odsud sledovat vývoj na celé zeměkouli i mimo ni, vysílat naše radní na mise, řídit výzkum a vývoj a mnoho dalšího. Udělej si čas a důkladně se s ním seznam.
+UI.Tutorial.VO.6=Informace o aktuálně vybraném radním se zobrazí v pravém dolním rohu obrazovky. Jeho dostupné mise nalezneš v dolní části obrazovky uprostřed.
+UI.Tutorial.VO.7=Bude pro nás velmi důležité, abychom ze zřetele neztratili své záměry. Tuto obrazovku budu průběžně aktualizovat o naše aktuální cíle.
+UI.Tutorial.VO.8=Jakmile naši radní splní své mise, podají o tom hlášení. V další fázi mise jim budete moci přidělit nové mise.
+UI.Tutorial.VO.9=Naši výzkumníci tě žádají o vedení při směřování jejich úsilí.
+UI.Tutorial.VO.10=Toto je obrazovka výzkumu. Horní tři grafy ukazují, na čem pracuje globální vědecká komunita. Spodní grafy ukazují, jaké inženýrské projekty rady realizujeme soukromě. Naše výzkumníky můžeme nasměrovat tak, aby upřednostnili některou z uvedených možností nebo pracovali na všech.
+UI.Tutorial.VO.10a=Toto je diagram technologií. Naši výzkumníci rozpracovali, k čemu by mohly vést různé vědecké objevy.
+UI.Tutorial.VO.10b= Toto je diagram technologií. Naši výzkumníci rozpracovali, k čemu by mohly vést různé vědecké objevy. Upřímně řečeno, veliteli, když si ho prohlížím příliš dlouho, rozbolí mě hlava, a to tvrdí, že je zjednodušený.
+UI.Tutorial.VO.10c= Tady je ten „plnohodnotný“…
+UI.Tutorial.VO.10d=Veliteli, už ten diagram technologií „studuješ“ poměrně dlouho. Co takhle k tomu šálek kávy?
+UI.Tutorial.VO.10e=Zde je seznam všech inženýrských projektů rady, které můžeme v současné době realizovat.
+UI.Tutorial.VO.10f=Toto jsou výzkumné archivy, kde najdeme hlášení o našich dokončených výzkumech.
+UI.Tutorial.VO.11=Náš radní získal podporu lidí na klíčových mocenských pozicích státu. Měli bychom zvážit, jaké máme pro tento stát priority.
+UI.Tutorial.VO.12=Naši současní radní jsou přetíženi. Doporučuji, abychom radu rozšířili.
+UI.Tutorial.VO.13=S rozšiřováním našich operací budeme brzy potřebovat podporu velkého státu.
+UI.Tutorial.VO.14=Abychom mohli co nejlépe nasměrovat rozvoj daného státu a podpořit tak naše úsilí, měli bychom se snažit porozumět jeho sociální a ekonomické situaci.
+UI.Tutorial.VO.15=Priority státu určují jeho vývoj v průběhu času. Jakmile v příslušném státě získáme kontrolní body, budeme schopní jeho priority více usměrňovat.
+UI.Tutorial.VO.16=Nezapomeň, veliteli, že venku máme nepřátele, a to nejen mimozemské.
+UI.Tutorial.VO.17=Veliteli, ráda bych vás představila naší radě. Věnuj nějaký čas seznámení se s jejími členy. Jsou páteří naší organizace.
+UI.Tutorial.VO.17a=Toto je dokumentace našich radních. Zde si můžeš prohlédnout poslání jednotlivých radních, jejich atributy, příznaky, měsíční příjmy a organizace. Různé typy radních budou moci vykonávat různé typy misí.
+UI.Tutorial.VO.17b=Sestavila jsem spisy potenciálních kandidátů na radní, ať si je můžeš snadno prostudovat. Jiné frakce mají své opory v mnoha pozemských státech, veliteli. Pokud to bude nutné, naši radní je mohou vystrnadit.
+UI.Tutorial.VO.18=V nejhorším případě může být naší jedinou možností vyhlášení války a úplná změna režimu v jiném státě.
+UI.Tutorial.VO.19=Toto je obrazovka se zpravodajskými informacemi. Nachází se zde veškeré údaje, které jsme shromáždili a které pokrývají širokou škálu témat. Můžeš se zde podívat, jaké informace jsme zjistili o ostatních hlavních frakcích působících na zemi.
+UI.Tutorial.VO.19a=Tato část obsahuje všechny zpravodajské informace, které jsme shromáždili o mimozemšťanech. Veškeré podezřelé aktivity mimozemšťanů budeme i nadále sledovat a podle toho aktualizovat. Nezapomeň je pravidelně kontrolovat.
+UI.Tutorial.VO.19b=V této části jsou shromážděna data z celého světa. Najdeš zde světové údaje, stav trhu s komoditami, aktuální stav životního prostředí, probíhající války a údaje o tom, jak si stojíme v očích světové veřejnosti.
+UI.Tutorial.VO.19c=V této části jsou uvedeny všechny známé údaje o vesmírných tělesech v naší sluneční soustavě.
+UI.Tutorial.VO.19d=Této části říkáme Plánovač přesunů. Je to mocný nástroj pro plánování cest po Sluneční soustavě. Můžeme ho použít k fundovanému rozhodování o tom, jak navrhnout naše lodě.
+UI.Tutorial.VO.19e=Tato část zobrazuje údaje o vesmírných tělesech, která jsme prozkoumali. Jistě přijde vhod při rozhodování, kde postavit naše základny.
+UI.Tutorial.VO.20=Toto je obrazovka států. Můžeme zde sledovat všechny státy, ve kterých máme kontrolní body, nebo zobrazit údaje o všech státech na Zemi. Tyto údaje budou užitečné při řízení misí našich radních a při určování priorit států, které máme pod kontrolou.
+UI.Tutorial.VO.20a=Návrhář šablon priorit nám umožňuje vytvářet plány rozvoje států, které lze snadno opakovaně používat.
+UI.Tutorial.VO.20b=Tato obrazovka informuje o naší kapacitě kontrolních bodů. Správa většího počtu kontrolních bodů, než jsme schopni zvládnout, zatěžuje naše operace a stojí nás vliv na jejich udržování.
+UI.Tutorial.VO.21=Technologické společnosti, kartely, zpravodajské služby. Kterákoli z nich by nám mohla poskytnout silnou podporu.
+UI.Tutorial.VO.22=Zdá se, že nejsme sami. Radní jiných frakcí podnikají mise po celém světě.
+UI.Tutorial.VO.23=V levé části rozhraní se nachází kanál zpráv. Ten tě bude informovat o důležitých událostech. V levém horním rohu obrazovky se také objeví časově citlivé informace o našich operacích. 
+UI.Tutorial.VO.24=Veliteli, dostáváme hlášení o mimozemské lodi mířící k Zemi.
+UI.Tutorial.VO.25=Veliteli, náš přínos ke globálnímu výzkumu nám dal možnost řídit úsilí vědecké komunity. Jaké jsou tvé rozkazy?
+UI.Tutorial.VO.26=Výzkumné stanice, vesmírné doky, zásobovací střediska, to všechno budeme potřebovat. Až budeš mít pocit, že jsme připraveni, vydej se na oběžnou dráhu.
+UI.Tutorial.VO.27=Bez funkčního řešení výroby energie bude naše stanice k ničemu.    
+UI.Tutorial.VO.28=Je čas dát naši stanici do provozu.
+UI.Tutorial.VO.29=Zajištění provozu flotily si vyžádá rozsáhlé těžební kapacity. Vypuštěním sondy získáme důležité průzkumné údaje.
+UI.Tutorial.VO.30=Těžební komplexy jsou hlavním prostředkem pro získávání vesmírných zdrojů, což znamená, že na stavbu habitatů a vesmírných lodí nebudeme muset používat drahé rakety vypouštěné ze Země.
+UI.Tutorial.VO.31=Pokud máme začít budovat válečnou flotilu, budeme muset postavit vesmírný dok.  
+UI.Tutorial.VO.32=Konečně můžeme postavit něco, co má trochu šmrnc.
+UI.Tutorial.VO.33=Válku proti mimozemšťanům nelze vyhrát jen na Zemi. Měli bychom pokračovat ve stavbě válečných lodí na obranu proti mimozemšťanům a případně na ně zaútočit.
+UI.Tutorial.VO.34=Toto je obrazovka habitatů. Odsud můžeme spravovat naše orbitální stanice a všechny základny, které máme na planetách, měsících nebo asteroidech. Kromě toho si můžeme prohlédnout všechny další stanice nebo základny, které jsme objevili.
+UI.Tutorial.VO.35=Toto je obrazovka flotil. Odsud můžeme sledovat jak naše vlastní flotily, tak všechny ostatní flotily, které jsme objevili.
+UI.Tutorial.VO.36=V nástroji Konstruktér lodí můžeme navrhovat nové třídy lodí nebo plánovat přestavbu již postavených plavidel.
+UI.Tutorial.VO.36a=Navržené lodě se budou zobrazovat zde. Stavbu lodí můžeme objednat na habitatech se stavebními zařízeními.
+UI.Tutorial.VO.37=Výběr vesmírného tělesa nám umožní zobrazit údaje o jeho fyzikálních vlastnostech, těžebních stanovištích, oběžných drahách a objednat stavbu stanic a základen.  
+UI.Tutorial.VO.38=Když měkká síla nestačí, je třeba nasadit hardware.
+UI.Tutorial.VO.39=Zásadní informace o tom, jak řídit operace naší frakce, jsou k dispozici v kodexu. Pokud máš nějakou otázku, doporučuji do něj nahlédnout. Bude se aktualizovat podle vývoje situace.
+
+
+
+
+
+
+
+
+
+

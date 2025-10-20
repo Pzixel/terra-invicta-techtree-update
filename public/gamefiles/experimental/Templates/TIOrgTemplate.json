@@ -612,8 +612,8 @@
    "science": 2,
    "chanceSecurity": 100,
    "security": 1,
-   "chanceWelfareBonus": 100,
-   "welfareBonus": 0.03,
+   "chanceEnvironmentBonus": 100,
+   "environmentBonus": 0.03,
    "chanceMCBonus": 100,
    "MCBonus": 0.02,
    "techBonuses": [
@@ -1797,6 +1797,7 @@
    "command": 1,
    "chanceEspionage": 100,
    "espionage": 2,
+   "chanceAdministration": 100,
    "administration": 1,
    "chanceSecurity": 100,
    "security": 2,
@@ -1880,6 +1881,7 @@
    "incomeOps": 1,
    "chanceEspionage": 100,
    "espionage": 1,
+   "chanceAdministration": 100,
    "administration": 2,
    "chanceSecurity": 100,
    "security": 2,
@@ -1924,6 +1926,7 @@
    "incomeOps": 1,
    "chanceEspionage": 100,
    "espionage": 1,
+   "chanceAdministration": 100,
    "administration": 2,
    "chanceSecurity": 100,
    "security": 2,
@@ -1967,6 +1970,7 @@
    "incomeOps": 1,
    "chanceEspionage": 100,
    "espionage": 1,
+   "chanceAdministration": 100,
    "administration": 1,
    "chanceSecurity": 100,
    "security": 1,
@@ -2007,6 +2011,7 @@
    "incomeInfluence": 1,
    "chanceIncomeOps": 100,
    "incomeOps": 1,
+   "chanceAdministration": 100,
    "administration": 2,
    "chanceSpoilsBonus": 100,
    "spoilsBonus": 0.03,
@@ -2049,6 +2054,7 @@
    "incomeOps": 1,
    "chanceEspionage": 100,
    "espionage": 1,
+   "chanceAdministration": 100,
    "administration": 1,
    "chanceSecurity": 100,
    "security": 1,
@@ -2093,6 +2099,7 @@
    "incomeOps": 2,
    "chanceEspionage": 100,
    "espionage": 1,
+   "chanceAdministration": 100,
    "administration": 1,
    "chanceSecurity": 100,
    "security": 1,
@@ -2223,6 +2230,7 @@
    "persuasion": 1,
    "chanceEspionage": 100,
    "espionage": 1,
+   "chanceAdministration": 100,
    "administration": 1,
    "chanceSecurity": 100,
    "security": 1,
@@ -2267,6 +2275,7 @@
    "persuasion": 1,
    "chanceEspionage": 100,
    "espionage": 1,
+   "chanceAdministration": 100,
    "administration": 2,
    "chanceSecurity": 100,
    "security": 2,
@@ -2315,6 +2324,7 @@
    "incomeOps": 1,
    "chanceEspionage": 100,
    "espionage": 1,
+   "chanceAdministration": 100,
    "administration": 1,
    "chanceSecurity": 100,
    "security": 1,
@@ -2394,6 +2404,7 @@
    "incomeOps": 2,
    "chanceEspionage": 100,
    "espionage": 2,
+   "chanceAdministration": 100,
    "administration": 1,
    "chanceSecurity": 100,
    "security": 2,
@@ -2647,6 +2658,7 @@
    "command": 1,
    "chanceEspionage": 100,
    "espionage": 1,
+   "chanceAdministration": 100,
    "administration": 1,
    "chanceSecurity": 100,
    "security": 1,
@@ -3215,6 +3227,7 @@
    "spaceflightBonus": 0.02,
    "chanceMCBonus": 100,
    "MCBonus": 0.02,
+   "chanceMiningBonus": 100,
    "miningBonus": 0.02,
    "techBonuses": [
       {
@@ -4156,6 +4169,7 @@
    "spaceflightBonus": 0.1,
    "chanceMCBonus": 100,
    "MCBonus": 0.1,
+   "chanceMiningBonus": 100,
    "miningBonus": 0.1,
    "techBonuses": [
       {
@@ -4281,7 +4295,7 @@
    "chanceIncomeInfluence": 100,
    "incomeInfluence": 10,
    "chancePersuasion": 100,
-   "persuasion": 15,
+   "persuasion": 10,
    "chanceCommand": 100,
    "command": 5,
    "chanceInvestigation": 100,
@@ -5466,6 +5480,7 @@
    "tier": 1,
    "allowedOnMarket": true,
    "requiresNationality": false,
+   "requiredTechName": "AugmentedReality",
    "affinities": [
       "Escape"
    ],
@@ -5473,6 +5488,7 @@
    "randCostMoney": 50,
    "chanceIncomeMissionControl": 100,
    "incomeMissionControl": 1,
+   "randIncomeMissionControl": 1,
    "chanceIncomeResearch": 30,
    "incomeResearch": 1,
    "randIncomeResearch": 5,
@@ -5489,14 +5505,15 @@
    "tier": 2,
    "allowedOnMarket": true,
    "requiresNationality": false,
-   "requiredTechName": "AugmentedReality",
+   "requiredTechName": "AdvancedNeuralNetworks",
    "affinities": [
       "Escape"
    ],
    "costMoney": 1200,
    "randCostMoney": 600,
    "chanceIncomeMissionControl": 100,
-   "incomeMissionControl": 2,
+   "incomeMissionControl": 3,
+   "randIncomeMissionControl": 2,
    "chanceIncomeResearch": 30,
    "incomeResearch": 1,
    "randIncomeResearch": 8,
@@ -5522,7 +5539,8 @@
    "costInfluence": 10,
    "randCostInfluence": 10,
    "chanceIncomeMissionControl": 100,
-   "incomeMissionControl": 3,
+   "incomeMissionControl": 5,
+   "randIncomeMissionControl": 3,
    "chanceIncomeResearch": 30,
    "incomeResearch": 1,
    "randIncomeResearch": 10,
@@ -7322,7 +7340,6 @@
    "prohibitedOwnerTraits": [
       "Sociopath"
    ],
-   "requiredTechName": "ArrivalEconomics",
    "restricted": [
       "Alien"
    ],
@@ -7353,6 +7370,7 @@
    "prohibitedOwnerTraits": [
       "Sociopath"
    ],
+   "requiredTechName": "ArrivalEconomics",
    "restricted": [
       "Alien"
    ],
@@ -7493,7 +7511,7 @@
    "chanceIncomeResearch": 10,
    "incomeResearch": 1,
    "randIncomeResearch": 10,
-   "chanceEnivornmentBonus": 100,
+   "chanceEnvironmentBonus": 100,
    "environmentBonus": 0.02,
    "randEnvironmentBonus": 0.02,
    "techBonuses": [
@@ -7532,7 +7550,7 @@
    "randIncomeResearch": 20,
    "chanceScience": 25,
    "science": 1,
-   "chanceEnivornmentBonus": 100,
+   "chanceEnvironmentBonus": 100,
    "environmentBonus": 0.04,
    "randEnvironmentBonus": 0.02,
    "techBonuses": [
@@ -7573,7 +7591,7 @@
    "persuasion": 1,
    "chanceScience": 50,
    "science": 1,
-   "chanceEnivornmentBonus": 100,
+   "chanceEnvironmentBonus": 100,
    "environmentBonus": 0.06,
    "randEnvironmentBonus": 0.02,
    "techBonuses": [
@@ -7706,20 +7724,26 @@
    "tier": 1,
    "allowedOnMarket": true,
    "requiresNationality": false,
-   "requiredTechName": "SpaceMiningandRefining",
+   "requiredTechName": "IndustrializationofSpace",
    "affinities": [
       "Escape"
    ],
-   "restricted": [
-      "Alien"
-   ],
-   "costMoney": 50,
-   "randCostMoney": 100,
-   "costBoost": 5,
-   "randCostBoost": 5,
+   "costMoney": 500,
+   "randCostMoney": 250,
+   "costBoost": 10,
+   "randCostBoost": 10,
+   "chanceIncomeBoost": 100,
+   "incomeBoost": -2,
+   "randIncomeBoost": 1,
+   "chanceMiningBonus": 100,
    "miningBonus": 0.02,
    "randMiningBonus": 0.02,
-   "techBonuses": []
+   "techBonuses": [
+      {
+         "category": "SpaceScience",
+         "bonus": 0.01
+      }
+   ]
 },
  {
    "dataName": "RandomSpaceMining12",
@@ -7728,20 +7752,26 @@
    "tier": 2,
    "allowedOnMarket": true,
    "requiresNationality": false,
-   "requiredTechName": "IndustrializationofSpace",
+   "requiredTechName": "SpaceCommerce",
    "affinities": [
       "Escape"
    ],
-   "restricted": [
-      "Alien"
-   ],
-   "costMoney": 250,
-   "randCostMoney": 250,
-   "costBoost": 10,
-   "randCostBoost": 10,
+   "costMoney": 1000,
+   "randCostMoney": 500,
+   "costBoost": 20,
+   "randCostBoost": 20,
+   "chanceIncomeBoost": 100,
+   "incomeBoost": -5,
+   "randIncomeBoost": 3,
+   "chanceMiningBonus": 100,
    "miningBonus": 0.04,
-   "randMiningBonus": 0.03,
-   "techBonuses": []
+   "randMiningBonus": 0.02,
+   "techBonuses": [
+      {
+         "category": "SpaceScience",
+         "bonus": 0.02
+      }
+   ]
 },
  {
    "dataName": "RandomSpaceMining13",
@@ -7750,20 +7780,26 @@
    "tier": 3,
    "allowedOnMarket": true,
    "requiresNationality": false,
-   "requiredTechName": "SpaceCommerce",
+   "requiredTechName": "IntegratedEarthSpaceEconomy",
    "affinities": [
       "Escape"
    ],
-   "restricted": [
-      "Alien"
-   ],
-   "costMoney": 1000,
+   "costMoney": 1500,
    "randCostMoney": 500,
-   "costBoost": 20,
-   "randCostBoost": 20,
-   "miningBonus": 0.07,
-   "randMiningBonus": 0.05,
-   "techBonuses": []
+   "costBoost": 40,
+   "randCostBoost": 40,
+   "chanceIncomeBoost": 100,
+   "incomeBoost": -10,
+   "randIncomeBoost": 5,
+   "chanceMiningBonus": 100,
+   "miningBonus": 0.06,
+   "randMiningBonus": 0.04,
+   "techBonuses": [
+      {
+         "category": "SpaceScience",
+         "bonus": 0.03
+      }
+   ]
 },
  {
    "dataName": "RandomResource11",
@@ -7778,17 +7814,23 @@
    "costMoney": 50,
    "randCostMoney": 50,
    "chanceIncomeMoney": 100,
-   "incomeMoney": 5,
+   "incomeMoney": 10,
    "randIncomeMoney": 10,
+   "chanceIncomeInfluence": 50,
+   "incomeInfluence": 1,
+   "randIncomeInfluence": 1,
    "chanceEconomyBonus": 100,
    "economyBonus": 0.01,
    "randEconomyBonus": 0.01,
    "chanceSpoilsBonus": 100,
    "spoilsBonus": 0.01,
    "randSpoilsBonus": 0.02,
-   "miningBonus": 0.01,
-   "randMiningBonus": 0.01,
-   "techBonuses": []
+   "techBonuses": [
+      {
+         "category": "Materials",
+         "bonus": 0.01
+      }
+   ]
 },
  {
    "dataName": "RandomResource12",
@@ -7803,8 +7845,11 @@
    "costMoney": 200,
    "randCostMoney": 200,
    "chanceIncomeMoney": 100,
-   "incomeMoney": 15,
-   "randIncomeMoney": 20,
+   "incomeMoney": 20,
+   "randIncomeMoney": 30,
+   "chanceIncomeInfluence": 100,
+   "incomeInfluence": 2,
+   "randIncomeInfluence": 2,
    "chanceScience": 25,
    "science": 1,
    "chanceEconomyBonus": 100,
@@ -7813,9 +7858,12 @@
    "chanceSpoilsBonus": 100,
    "spoilsBonus": 0.02,
    "randSpoilsBonus": 0.03,
-   "miningBonus": 0.02,
-   "randMiningBonus": 0.02,
-   "techBonuses": []
+   "techBonuses": [
+      {
+         "category": "Materials",
+         "bonus": 0.02
+      }
+   ]
 },
  {
    "dataName": "RandomResource13",
@@ -7832,14 +7880,14 @@
    "costInfluence": 10,
    "randCostInfluence": 20,
    "chanceIncomeMoney": 100,
-   "incomeMoney": 35,
-   "randIncomeMoney": 25,
+   "incomeMoney": 50,
+   "randIncomeMoney": 50,
    "chanceIncomeInfluence": 25,
    "incomeInfluence": 1,
    "chanceIncomeOps": 25,
    "incomeOps": 1,
    "randIncomeOps": 1,
-   "chanceScience": 25,
+   "chanceScience": 50,
    "science": 1,
    "chanceEconomyBonus": 100,
    "economyBonus": 0.04,
@@ -7847,9 +7895,12 @@
    "chanceSpoilsBonus": 100,
    "spoilsBonus": 0.03,
    "randSpoilsBonus": 0.04,
-   "miningBonus": 0.04,
-   "randMiningBonus": 0.04,
-   "techBonuses": []
+   "techBonuses": [
+      {
+         "category": "Materials",
+         "bonus": 0.03
+      }
+   ]
 },
  {
    "dataName": "RandomCult11",
@@ -8968,6 +9019,9 @@
    "persuasion": 2,
    "chanceScience": 100,
    "science": 2,
+   "chanceEnvironmentBonus": 100,
+   "environmentBonus": 0.02,
+   "randEnvironmentBonus": 0.02,
    "techBonuses": [
       {
          "category": "LifeScience",
@@ -9698,7 +9752,8 @@
       "Escape"
    ],
    "restricted": [
-      "Submit"
+      "Submit",
+      "Appease"
    ],
    "costMoney": 250,
    "randCostMoney": 250,
@@ -9730,11 +9785,11 @@
    "friendlyName": "Orbital Resource Extraction Inc.",
    "randomized": false,
    "orgType": "Resource",
-   "tier": 2,
+   "tier": 3,
    "allowedOnMarket": true,
    "homeRegionMapTemplateName": "map_RustBelt",
    "requiresNationality": false,
-   "requiredTechName": "SpaceMiningandRefining",
+   "requiredTechName": "SpaceCommerce",
    "affinities": [
       "Resist",
       "Escape",
@@ -9744,8 +9799,8 @@
       "Submit",
       "Appease"
    ],
-   "costMoney": 750,
-   "randCostMoney": 250,
+   "costMoney": 1250,
+   "randCostMoney": 500,
    "chanceIncomeMoney": 100,
    "incomeMoney": 10,
    "randIncomeMoney": 5,
@@ -9757,6 +9812,7 @@
    "science": 1,
    "chanceSecurity": 100,
    "security": 2,
+   "chanceMiningBonus": 100,
    "miningBonus": 0.07,
    "randMiningBonus": 0.03,
    "techBonuses": [
@@ -9878,6 +9934,8 @@
    "incomeMoney": 1,
    "randIncomeMoney": 4,
    "chanceIncomeInfluence": 100,
+   "incomeInfluence": 1,
+   "randIncomeInfluence": 1,
    "chanceCommand": 100,
    "command": 1,
    "techBonuses": [],
@@ -9976,7 +10034,7 @@
       "Escape",
       "Exploit"
    ],
-   "costMoney": 750,
+   "costMoney": 1000,
    "randCostMoney": 500,
    "chanceIncomeMoney": 100,
    "incomeMoney": 5,
@@ -9993,7 +10051,8 @@
    "chanceSpaceflightBonus": 100,
    "spaceflightBonus": 0.02,
    "randSpaceflightBonus": 0.01,
-   "miningBonus": 0.05,
+   "chanceMiningBonus": 100,
+   "miningBonus": 0.04,
    "randMiningBonus": 0.02,
    "techBonuses": [
       {
@@ -10030,9 +10089,9 @@
    "persuasion": 1,
    "chanceScience": 100,
    "science": 2,
-   "chanceWelfareBonus": 100,
-   "welfareBonus": 0.02,
-   "randWelfareBonus": 0.02,
+   "chanceEnvironmentBonus": 100,
+   "environmentBonus": 0.02,
+   "randEnvironmentBonus": 0.02,
    "chanceKnowledgeBonus": 25,
    "knowledgeBonus": 0.01,
    "techBonuses": [

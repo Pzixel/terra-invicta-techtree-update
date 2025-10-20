@@ -1,0 +1,534 @@
+TIMissionTemplate.displayName.Abductions=Rapimenti
+TIMissionTemplate.description.Abductions=Raduna umani provenienti da una regione per studiare il modo di migliorare l'abilità aliena di controllarli.
+TIMissionTemplate.CriticalSuccess.Abductions=Abbiamo radunato molte cavie umane nella regione {targetRegionName} senza che le autorità locali se ne siano accorte.
+TIMissionTemplate.Success.Abductions=Abbiamo radunato delle cavie umane nella regione {targetRegionName} per studiarle.
+TIMissionTemplate.Failure.Abductions=Non siamo riusciti a radunare umani a sufficienza nella regione {targetRegionName} per condurre uno studio.
+TIMissionTemplate.CriticalFailure.Abductions=Non siamo riusciti a radura umani nella regione {targetRegionName} e temiamo che i nemici si siano accorti della nostra presenza.
+
+TIMissionTemplate.displayName.GainInfluence=Controlla nazione
+TIMissionTemplate.description.GainInfluence=Ottieni un punto di controllo disponibile in una nazione
+TIMissionTemplate.CriticalSuccess.GainInfluence=Ho ottenuto un punto di controllo per {myFactionName} {targetNationNameWithPrep} e l'opinione pubblica in nostro favore è aumentata del {returnedValue}. Adesso deteniamo {myTargetNationControlPoints} punti di controllo su {totalTargetNationControlPoints} in questo posto.
+TIMissionTemplate.Success.GainInfluence=Ho ottenuto un punto di controllo per {myFactionName} {targetNationNameWithPrep}. Adesso deteniamo {myTargetNationControlPoints} punti di controllo su {totalTargetNationControlPoints} in questo posto.
+TIMissionTemplate.Failure.GainInfluence=La mia missione Controlla nazione {targetNationNameWithPrep} è fallita.
+TIMissionTemplate.CriticalFailure.GainInfluence=Ho incontrato una grave battuta d'arresto nella mia missione Controlla nazione {targetNationNameWithPrep}, con un conseguente decremento di un {returnedValue} nel sostegno dell'opinione pubblica a {myFactionName}.
+
+TIMissionTemplate.displayName.Propaganda=Campagna pubblica
+TIMissionTemplate.description.Propaganda=Aumenta il sostegno pubblico alla nostra causa in una nazione.
+TIMissionTemplate.CriticalSuccess.Propaganda=Ho aumentato il sostegno dell'opinione pubblica per {myFactionName} {targetNationNameWithPrep}: {returnedValue}.
+TIMissionTemplate.Success.Propaganda=Ho aumentato il sostegno dell'opinione pubblica per {myFactionName} {targetNationNameWithPrep}: {returnedValue}.
+TIMissionTemplate.Failure.Propaganda=La mia missione {missionName} {targetNationNameWithPrep} non è riuscita ad avere un impatto sul sostegno dell'opinione pubblica.								
+TIMissionTemplate.CriticalFailure.Propaganda=La mia missione {missionName} {targetNationNameWithPrep} è stata un disastro! {returnedValue}
+
+TIMissionTemplate.displayName.Purge=Stermina
+TIMissionTemplate.description.Purge=Sottrai un punto di controllo a una fazione nemica.
+TIMissionTemplate.CriticalSuccess.Purge=Abbiamo preso un punto di controllo per {myFactionName} {targetNationNameWithPrep} da {returnedValue} e di conseguenza guadagnato più sostegno dell'opinione pubblica.
+TIMissionTemplate.Success.Purge=Abbiamo sterminato i sostenitori di {returnedValue} e preso un punto di controllo per {myFactionName} {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.Purge=Non ho potuto sterminare gli scagnozzi di {returnedValue} {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Purge=Ho fallito nella mia missione Stermina contro {returnedValue} {targetNationNameWithPrep}. Credo che i nemici abbiano notato la mia presenza e che parte del nostro sostegno pubblico sia andato perso.
+
+TIMissionTemplate.displayName.Advise=Suggerisci
+TIMissionTemplate.description.Advise=Metti le tue conoscenze a disposizione di una nazione o di un habitat. Le caratteristiche Scienza, Comando e Amministrazione del consigliere miglioreranno i risultati di ricerca, le abilità di combattimento e la prestazione finanziaria dell'obiettivo. Consiglieri aggiuntivi apporteranno benefici minori.
+TIMissionTemplate.Success.Advise={targetNationNameWithArticle} avrà a disposizione le mie conoscenze. {returnedValue}
+
+TIMissionTemplate.displayName.Assassinate=Uccidi
+TIMissionTemplate.description.Assassinate=Elimina un consigliere nemico che hai identificato.
+TIMissionTemplate.CriticalSuccess.Assassinate=Ho eliminato {targetCouncilorName} della fazione {targetFactionName}. {returnedValue}
+TIMissionTemplate.Success.Assassinate=Ho eliminato {targetCouncilorName} della fazione {targetFactionName}. {returnedValue}
+TIMissionTemplate.Failure.Assassinate=Ho fallito nella missione di eliminare {targetCouncilorName} della fazione {targetFactionName}.
+TIMissionTemplate.CriticalFailure.Assassinate=Ho fallito nella missione di eliminare {targetCouncilorName} della fazione {targetFactionName}.
+TIMissionTemplate.Assassinate.Special=Gli agenti della fazione {targetFactionName} mi stanno accerchiando.
+TIMissionTemplate.AssassinateAlien=Abbiamo imparato molto sugli alieni da questa operazione e in futuro riceveremo un bonus per la nostra ricerca di xenologia.
+
+TIMissionTemplate.displayName.AssaultAlienAsset=Assalta risorsa aliena
+TIMissionTemplate.description.AssaultAlienAsset=Guidare un'unità di combattimento contro una struttura aliena fissa.
+TIMissionTemplate.CriticalSuccess.AssaultAlienAsset=Il nostro assalto contro {targetDisplayName} nella regione {targetRegionName} è stato un successo: {returnedValue}.
+TIMissionTemplate.Success.AssaultAlienAsset=Il nostro assalto contro {targetDisplayName} nella regione {targetRegionName} ha avuto esito positivo. {returnedValue}.
+TIMissionTemplate.Failure.AssaultAlienAsset=Siamo stati respinti dalle difese del bersaglio e non siamo riusciti a fare danni.
+TIMissionTemplate.CriticalFailure.AssaultAlienAsset=Il nostro assalto non ha inflitto danni al bersaglio.
+TIMissionTemplate.CouncilorKilled.AssaultAlienAsset=Nell'operazione ha perso la vita {0}!
+
+TIMissionTemplate.displayName.AssumeControl=Passa il controllo agli alieni
+TIMissionTemplate.description.AssumeControl=Trasferiamo una nazione che è sotto il nostro controllo all'amministrazione degli alieni. Dobbiamo aver costruito una struttura in loco. Questa missione creerà una nuova nazione aliena, se non esiste ancora e loro, in cambio, ci aiuteranno mettendoci a disposizione risorse.
+TIMissionTemplate.Success.AssumeControl=Abbiamo ceduto {targetNationNameWithArticle} ai nostri benefattori.
+
+TIMissionTemplate.displayName.BuildFacility=Costruisci struttura
+TIMissionTemplate.description.BuildFacility=Costruisci una base di ricerca per supportare le operazioni e i trasporti alieni e permetterci di trasferire loro il controllo diretto delle nazioni della Terra. Richiede almeno 15 rapimenti nella regione.
+TIMissionTemplate.Success.BuildFacility=Abbiamo costruito una struttura sicura per gli alieni nella regione {targetRegionName} {targetNationNameWithPrep}. Qui possiamo usare la missione Passa il controllo agli alieni, se possediamo tutti i punti di controllo in questa nazione.
+
+TIMissionTemplate.displayName.SetNationalPolicy=Definisci politica nazionale
+TIMissionTemplate.description.SetNationalPolicy=Stabilisci una politica importante per la nazione obiettivo, come una dichiarazione di guerra. Selezionerai la politica, una volta conclusa la missione. Richiede il controllo esecutivo.
+TIMissionTemplate.Success.SetNationalPolicy=Ho completato la missione di definire una politica nazionale {targetNationNameWithPrep}.
+
+TIMissionTemplate.displayName.Contact=Prendi contatto
+TIMissionTemplate.description.Contact=Contatta il consigliere che hai identificato di un'altra fazione per dare avvio a uno scambio diplomatico.
+TIMissionTemplate.Success.Contact=Ho contattato {targetDisplayName} di {targetFactionName} per uno scambio diplomatico.
+
+TIMissionTemplate.displayName.ControlSpaceAsset=Controlla infrastrutture spaziali
+TIMissionTemplate.description.ControlSpaceAsset=Convinci una nave o l'equipaggio di un habitat a unirsi alla tua fazione. Richiede che il controllo missioni sia sufficiente per prendere il controllo della struttura.
+TIMissionTemplate.CriticalSuccess.ControlSpaceAsset=Abbiamo condotto un ammutinamento su {targetDisplayName} e l'equipaggio si è unito a {myFactionName}. Ci hanno consegnato un'ampia serie di dati di sorveglianza e questa struttura sarà particolarmente resistente contro le missioni nemiche fino a: {returnedValue}. 
+TIMissionTemplate.Success.ControlSpaceAsset=Abbiamo ispirato un ammutinamento su {targetDisplayName} e il loro equipaggio si è unito a {myFactionName}.
+TIMissionTemplate.Failure.ControlSpaceAsset=Non ho potuto ispirare una rivolta su {targetDisplayName}. I poteri del posto sono ora in guardia contro futuri tentativi di ammutinamento. {returnedValue}
+TIMissionTemplate.FailurePlus.ControlSpaceAsset=Presto sarò in arresto per mano di {0}!
+TIMissionTemplate.CriticalFailure.ControlSpaceAsset=Non ho potuto ispirare una rivolta su {targetDisplayName}. I poteri del posto sono ora in guardia contro futuri tentativi di ammutinamento. {returnedValue}
+
+TIMissionTemplate.displayName.Coup=Colpo di Stato
+TIMissionTemplate.description.Coup=Rovescia un governo e resetta i suoi punti di controllo.
+TIMissionTemplate.CriticalSuccess.Coup=Il mio tentativo di colpo di Stato {targetNationNameWithPrep} è stato un enorme successo e abbiamo ottenuto molto potere nel nuovo regime. 
+TIMissionTemplate.Success.Coup=Il mio tentativo di colpo di Stato {targetNationNameWithPrep} è stato un successo e abbiamo riscritto la struttura del potere in loco.
+TIMissionTemplate.Failure.Coup=La mia missione {missionName} {targetNationNameWithPrep} è fallita.
+TIMissionTemplate.CriticalFailure.Coup=Che disastro! La mia missione di rovesciare il governo {targetNationNameWithPrep} è fallita! {returnedValue}
+
+TIMissionTemplate.displayName.Crackdown=Reprimi
+TIMissionTemplate.description.Crackdown=Disattiva temporaneamente i vantaggi di un punto di controllo, eliminando le difese e facilitando lo sterminio di un'altra fazione.
+TIMissionTemplate.CriticalSuccess.Crackdown=Abbiamo condotto una repressione ben riuscita contro {targetFactionName} {targetNationNameWithPrep}. Il loro punto di controllo {controlPointTypeDisplayName} sarà disattivato fino a: {returnedValue}.
+TIMissionTemplate.Success.Crackdown=Abbiamo condotto una repressione ben riuscita contro {targetFactionName} {targetNationNameWithPrep}. Il loro punto di controllo {controlPointTypeDisplayName} sarà disattivato fino a: {returnedValue}.
+TIMissionTemplate.Failure.Crackdown=Il nostro tentativo di neutralizzare {targetFactionName} {targetNationNameWithPrep} è fallito.
+TIMissionTemplate.CriticalFailure.Crackdown=Il nostro tentativo di neutralizzare {targetFactionName} {targetNationNameWithPrep} è fallito e ne è derivata una pubblicità negativa per noi.
+
+TIMissionTemplate.displayName.DefendInterests=Difendi interessi
+TIMissionTemplate.description.DefendInterests=Fortifica i nostri punti di controllo in questa nazione contro stermini, repressioni e colpi di Stato a opera dei nemici. La durata diminuisce in base al numero di punti di controllo che ci troviamo a proteggere.
+TIMissionTemplate.Success.DefendInterests=Ho messo le persone giuste al posto giusto e il nostro controllo di {targetDisplayNameSent} è ora garantito fino a: {returnedValue}. Le fazioni nemiche che cercheranno di strapparci il controllo lì subiranno penalità significative.
+
+TIMissionTemplate.displayName.Detain=Arresta un consigliere
+TIMissionTemplate.description.Detain=Arresta un consigliere nemico per interrogarlo. Il successo comprometterà anche le missioni che il consigliere nemico stava svolgendo.
+TIMissionTemplate.CriticalSuccess.Detain=Abbiamo arrestato {targetDisplayNameSent} per svolgere un interrogatorio. Ci aspettiamo che ci riveli molte informazioni su {targetFactionName} durante l'interrogatorio. {returnedValue}
+TIMissionTemplate.Success.Detain=Abbiamo arrestato {targetDisplayNameSent} per svolgere un interrogatorio. {returnedValue}
+TIMissionTemplate.Failure.Detain=Non siamo riusciti a catturare {targetDisplayNameSent}.
+TIMissionTemplate.CriticalFailure.Detain=Non siamo riusciti a catturare {targetDisplayNameSent}. Credo fosse al corrente della nostra missione.
+TIMissionTemplate.BonusEffect.Detain=Abbiamo anche compromesso la missione {0} del consigliere.
+TIMissionTemplate.DetentionEnd.Detain=Possiamo trattenere questo consigliere fino a: {0}. Possiamo procedere a più arresti per continuare a trattenere la persona in questione.<sp>
+TIMissionTemplate.Detain.DetainAlien=In seguito ai nostri interrogatori, riceveremo in futuro un bonus per la nostra ricerca di xenologia.
+
+TIMissionTemplate.displayName.DetectCouncilActivity=Sorveglia sito
+TIMissionTemplate.description.DetectCouncilActivity=Aumenta notevolmente la probabilità che alieni e consiglieri nemici vengano individuati nella regione del consigliere e in quelle adiacenti, oppure in un habitat o in una flotta. Può anche rilevare risorse aliene nascoste nelle regioni terrestri vicine.
+TIMissionTemplate.Success.DetectCouncilActivity=Sto cercando i nostri nemici {targetDisplayNameSent}.
+
+TIMissionTemplate.displayName.EnthrallElites=Attrai le élite
+TIMissionTemplate.description.EnthrallElites=Gli alieni ottengono un punto di controllo per i loro supporter umani in una nazione obiettivo.
+TIMissionTemplate.CriticalSuccess.EnthrallElites=I nostri alleati umani hanno ottenuto un punto di controllo {targetNationNameWithPrep} e il sostegno pubblico si è spostato in loro favore.
+TIMissionTemplate.Success.EnthrallElites=I nostri alleati umani hanno ottenuto un punto di controllo {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallElites=Non siamo riusciti a sottomettere leader {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.EnthrallElites=Non siamo riusciti a sottomettere leader {targetNationNameWithPrep} ed è possibile che qualcuno si sia accorto delle nostre attività in quel luogo.
+
+TIMissionTemplate.displayName.EnthrallPublic=Attrai il popolo
+TIMissionTemplate.description.EnthrallPublic=Gli alieni addomesticano parte della popolazione umana in questa nazione.
+TIMissionTemplate.CriticalSuccess.EnthrallPublic=Abbiamo represso almeno un {returnedValue} della popolazione {targetNationNameWithPrep}.
+TIMissionTemplate.Success.EnthrallPublic=Abbiamo represso almeno un {returnedValue} della popolazione {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallPublic=Non siamo riusciti a reprimere degli umani {targetNationNameWithPrep}. Potrebbero occorrere più rapimenti e uno studio più approfondito.
+TIMissionTemplate.CriticalFailure.EnthrallPublic=Non siamo riusciti a reprimere degli umani {targetNationNameWithPrep} ed è possibile che qualcuno si sia accorto di noi.
+
+TIMissionTemplate.displayName.EnthrallOrg=Attrai le organizzazioni
+TIMissionTemplate.description.EnthrallOrg=Gli alieni si appropriano dell'organizzazione di un consigliere per i loro fini. Possono anche prendere di mira le organizzazioni della fazione non assegnate a nessun consigliere.
+TIMissionTemplate.CriticalSuccess.EnthrallOrg=Il nostro tentativo di attrarre {targetDisplayName} della fazione {targetFactionName} si è rivelato vincente. Oltre ad accaparrarci una sua organizzazione, abbiamo anche ottenuto un {returnedValue} nel trasferimento.
+TIMissionTemplate.Success.EnthrallOrg=Il nostro tentativo di attrarre {targetDisplayName} della fazione {targetFactionName} si è rivelato vincente.
+TIMissionTemplate.Failure.EnthrallOrg=Non siamo riusciti a ottenere un'organizzazione di proprietà di {targetDisplayName} di {targetFactionName}.
+TIMissionTemplate.CriticalFailure.EnthrallOrg=Non siamo riusciti a ottenere un'organizzazione di proprietà di {targetDisplayName} di {targetFactionName} e possibilmente i nostri nemici hanno capito che c'ero io dietro all'operazione.
+TIMissionTemplate.Prompt.EnthrallOrg=Seleziona un'organizzazione da sottrarre a {0}...
+
+TIMissionTemplate.displayName.EnthrallUnalignedElites=Attrai le élite non allineate
+TIMissionTemplate.description.EnthrallUnalignedElites=Gli alieni ottengono un punto di controllo non allineato per i loro supporter umani in una nazione obiettivo.
+TIMissionTemplate.CriticalSuccess.EnthrallUnalignedElites=I nostri alleati umani hanno ottenuto un punto di controllo {targetNationNameWithPrep} e il sostegno pubblico si è spostato in loro favore.
+TIMissionTemplate.Success.EnthrallUnalignedElites=I nostri alleati umani hanno ottenuto un punto di controllo {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallUnalignedElites=Non siamo riusciti a sottomettere leader {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.EnthrallUnalignedElites=Non siamo riusciti a sottomettere leader {targetNationNameWithPrep} ed è possibile che qualcuno si sia accorto delle nostre attività in quel luogo.
+
+TIMissionTemplate.displayName.Extract=Libera il consigliere
+TIMissionTemplate.description.Extract=Libera uno dei nostri consiglieri fatto prigioniero dai nemici.
+TIMissionTemplate.CriticalSuccess.Extract=Abbiamo liberato {targetDisplayName} dalla prigionia nemica. Durante la missione abbiamo recuperato una serie di informazioni sui rapitori.
+TIMissionTemplate.Success.Extract=Abbiamo liberato {targetDisplayName} dalla prigionia nemica.
+TIMissionTemplate.Failure.Extract=Non abbiamo potuto infiltrare la sicurezza nemica per liberare {targetDisplayName}.
+TIMissionTemplate.CriticalFailure.Extract=Il nostro tentativo di liberare {targetDisplayName} è fallito, e ho anche finito per dare nell'occhio. Le forze nemiche ci stanno accerchiando.
+
+TIMissionTemplate.displayName.GoToGround=Rintanati
+TIMissionTemplate.description.GoToGround=Nasconditi in una regione della Terra per sfuggire al rilevamento e agli attacchi nemici.
+TIMissionTemplate.Success.GoToGround=Sto tenendo un basso profilo in {targetRegionName}.
+
+TIMissionTemplate.displayName.HostileTakeover=Acquisizione ostile
+TIMissionTemplate.description.HostileTakeover=Appropriati dell'organizzazione di un consigliere nemico per i tuoi fini. Puoi anche prendere di mira le organizzazioni del pool delle fazioni non assegnate a nessun consigliere. Alcune organizzazioni di specifiche fazioni sono immuni.
+TIMissionTemplate.CriticalSuccess.HostileTakeover=La nostra acquisizione ostile lanciata contro {targetDisplayName} della fazione {targetFactionName} si è rivelata vincente. Oltre ad accaparrarci una sua organizzazione, abbiamo anche ottenuto un {returnedValue} nel trasferimento.<br/><br/>{targetOrgDetails}
+TIMissionTemplate.Success.HostileTakeover=Il nostro tentativo di acquisizione ostile ai danni di {targetDisplayName} della fazione {targetFactionName} si è rivelato vincente.<br/><br/>{targetOrgDetails}
+TIMissionTemplate.Failure.HostileTakeover=Non siamo riusciti a prendere l'organizzazione {targetDisplayName} di {targetFactionName}.
+TIMissionTemplate.CriticalFailure.HostileTakeover=Non siamo riusciti a ottenere l'organizzazione {targetDisplayName} da {targetFactionName} e possibilmente i nostri nemici hanno capito che c'ero io dietro all'operazione.
+TIMissionTemplate.Prompt.HostileTakeover=Seleziona un'organizzazione da sottrarre a {0}...
+
+TIMissionTemplate.displayName.Inspire=Ispira
+TIMissionTemplate.description.Inspire=Migliora la lealtà di un altro consigliere, così che resista meglio alla pressione degli interrogatori e ai tentativi di corruzione. Può anche riportare dalla nostra parte un consigliere che fosse passato dalla parte avversaria.
+TIMissionTemplate.CriticalSuccess.Inspire=Dopo che abbiamo parlato, il nostro consigliere {targetDisplayNameSent} sembra ben più entusiasta di quel che stiamo facendo. {returnedValue}
+TIMissionTemplate.Success.Inspire=Il nostro consigliere {targetDisplayNameSent} sembra molto più entusiasta riguardo alla nostra causa. {returnedValue}
+TIMissionTemplate.Failure.Inspire=Non credo di aver avuto un grande impatto sulla lealtà di {targetDisplayNameSent} alla causa. {returnedValue}
+TIMissionTemplate.CriticalFailure.Inspire=Mi spiace, ma credo di aver peggiorato le cose con {targetDisplayNameSent}. {returnedValue}
+
+TIMissionTemplate.Inspire.PositiveEffect={0} del consigliere ha registrato un aumento di un {1}.
+TIMissionTemplate.Inspire.NoVisibleEffect=Temo però che non sia semplice capire quanto sia cambiata la lealtà del consigliere.
+TIMissionTemplate.Inspire.NegativeEffect={0} del consigliere ha subito un decremento di un {1}.
+
+TIMissionTemplate.displayName.InvestigateAlienActivity=Indaga sulle attività aliene
+TIMissionTemplate.description.InvestigateAlienActivity=Prendi di mira un sito dove sospetti si svolga attività aliena per saperne di più sui metodi e i motivi degli alieni.
+TIMissionTemplate.CriticalSuccess.InvestigateAlienActivity=Le mie indagini su {targetDisplayName} {targetNationNameWithPrep} mi hanno fruttato un bel po' di conoscenze. In futuro riceveremo un bonus per la nostra ricerca di xenologia.
+TIMissionTemplate.Success.InvestigateAlienActivity=Le mie indagini su {targetDisplayName} {targetNationNameWithPrep} mi hanno fruttato delle informazioni utili. In futuro riceveremo un piccolo bonus per la nostra ricerca di xenologia.
+TIMissionTemplate.Failure.InvestigateAlienActivity=Non ho potuto imparare nulla di nuovo dalle mie indagini su {targetDisplayName} {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.InvestigateAlienActivity=Non ho potuto imparare nulla di nuovo dalle mie indagini su {targetDisplayName} {targetNationNameWithPrep} e probabilmente gli agenti nemici ora sanno di me.
+
+TIMissionTemplate.displayName.InvestigateCouncilor=Indaga sul consigliere
+TIMissionTemplate.description.InvestigateCouncilor=Raccogli informazioni su un consigliere. Questo può consentirci di assegnargli missioni e di saperne di più sulla fazione che serve. Può anche essere usato per verificare la lealtà di uno dei nostri consiglieri.
+TIMissionTemplate.CriticalSuccess.InvestigateCouncilor=Abbiamo appreso nuove informazioni importanti su {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.Success.InvestigateCouncilor=Abbiamo migliorato le nostre conoscenze su {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.Failure.InvestigateCouncilor=Non ho potuto apprendere nulla di nuovo su {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.CriticalFailure.InvestigateCouncilor=Non ho potuto apprendere nulla su {targetDisplayNameSent}, e forse i nostri nemici ora sanno di me. {returnedValue}
+
+TIMissionTemplate.displayName.Orbit=Orbita
+TIMissionTemplate.description.Orbit=Spostati dalla superficie della Terra a un'orbita nel sistema Terra-Luna oppure spostati dalla superficie di qualsiasi corpo celeste fino a una stazione o a una nave in un'orbita di interfaccia. Il tratto Sotto copertura è richiesto solo per viaggiare fino a habitat di grado 1 nemici (avamposti e piattaforme) e flotte.
+TIMissionTemplate.Success.Orbit=Sono a bordo {targetLocationStrSentence}.
+
+TIMissionTemplate.displayName.Deorbit=Disorbita
+TIMissionTemplate.description.Deorbit=Spostati da un habitat o da una nave su un'orbita di interfaccia fin sulla superficie di un corpo celeste oppure da qualsiasi posizione nel sistema Terra-Luna fino alla superficie della Terra.
+TIMissionTemplate.Success.Deorbit=Sono coi piedi per terra.
+
+TIMissionTemplate.displayName.PassTechnology=Trasferisci la tecnologia
+TIMissionTemplate.description.PassTechnology=Trasferisci parte della nostra tecnologia per assistere i nostri alleati umani.
+TIMissionTemplate.Success.PassTechnology=Ho fornito assistenza ai nostri alleati.
+
+TIMissionTemplate.displayName.Protect=Proteggi bersaglio
+TIMissionTemplate.description.Protect=Applica la caratteristica Sicurezza o Comando del consigliere per proteggere una regione, un habitat o un consigliere alleato presi di mira da attacchi fisici e altre operazioni. Impedisce inoltre che il consigliere preso di mira muoia nelle missioni d'assalto fallite.
+TIMissionTemplate.Success.Protect=Sto proteggendo {targetDisplayName} dalle operazioni nemiche.
+
+TIMissionTemplate.displayName.SabotageFacilities=Sabota le strutture
+TIMissionTemplate.description.SabotageFacilities=Sabotare una struttura spaziale selezionata in una regione.
+TIMissionTemplate.CriticalSuccess.SabotageFacilities=Le mie bombe hanno inflitto un danno significativo a: {targetDisplayName}. Difficilmente potranno risalire al nostro coinvolgimento.
+TIMissionTemplate.Success.SabotageFacilities=La mia missione di sabotaggio (ai danni di: {targetDisplayName}) è andata a buon fine.
+TIMissionTemplate.Failure.SabotageFacilities=Non ho potuto avvicinarmi a sufficienza (al bersaglio {targetDisplayName}) per procedere al sabotaggio.
+TIMissionTemplate.CriticalFailure.SabotageFacilities=La mia missione di sabotaggio (ai danni di: {targetDisplayName}) è stata un disastro! {returnedValue}
+
+TIMissionTemplate.displayName.SabotageHabModule=Sabota un modulo di habitat
+TIMissionTemplate.description.SabotageHabModule=Distruggi un modulo di habitat selezionato non fondamentale nel tuo habitat attuale.
+TIMissionTemplate.CriticalSuccess.SabotageHabModule=Le mie bombe hanno distrutto un {returnedValue} dell'habitat {targetHabName}.
+TIMissionTemplate.Success.SabotageHabModule=Le mie bombe hanno distrutto un {returnedValue} dell'habitat {targetHabName}.
+TIMissionTemplate.Failure.SabotageHabModule=Non ho potuto avvicinarmi a sufficienza (al bersaglio {targetDisplayName}) presso {targetHabName} per impostare gli esplosivi.
+TIMissionTemplate.CriticalFailure.SabotageHabModule=Mi hanno individuato in un'area sicura vicino a {targetDisplayName} presso l'habitat {targetHabName} e mi hanno trattenuto per interrogarmi.
+
+TIMissionTemplate.displayName.SabotageProject=Progetto di sabotaggio
+TIMissionTemplate.description.SabotageProject=Prendi di mira un consigliere o un habitat con un modulo ingegneristico per eliminare fino a 5.000 punti ricerca di progresso da un progetto. Un progetto specifico può essere sabotato una sola volta.
+TIMissionTemplate.CriticalSuccess.SabotageProject=Ho inflitto un grave danno alla ricerca svolta da {targetFactionName} e ho anche sottratto {returnedValue} perché ne facciano uso i nostri scienziati.
+TIMissionTemplate.Success.SabotageProject=Ho inflitto un grave danno alla ricerca svolta da {targetFactionName}.
+TIMissionTemplate.Failure.SabotageProject=Non ho potuto infiltrare il bersaglio per sabotare la loro ricerca.
+TIMissionTemplate.CriticalFailure.SabotageProject=Non ho potuto infiltrare il bersaglio per sabotare la loro ricerca.
+TIMissionTemplate.Prompt.SabotageProject=Seleziona un progetto da sabotare...
+
+TIMissionTemplate.SecondarySelection=Selezione: {0}
+
+TIMissionTemplate.displayName.SeizeSpaceAsset=Assalta infrastrutture spaziali nemiche
+TIMissionTemplate.description.SeizeSpaceAsset=Guida i marines spaziali nel tentativo di conquistare un habitat nemico. Richiede una flotta o marines dell'habitat nel luogo in cui si trova il consigliere. Le flotte devono attraccare alle stazioni nemiche per assaltarle. Le stazioni possono sganciare truppe in superficie e le basi possono assalire i siti di habitat vicini. I moduli di marine possono essere danneggiati o distrutti.
+TIMissionTemplate.CriticalSuccess.SeizeSpaceAsset=Vittoria! Abbiamo catturato {targetDisplayName} della fazione {targetFactionName}. {returnedValue}
+TIMissionTemplate.Success.SeizeSpaceAsset=Vittoria! Abbiamo catturato {targetDisplayName} della fazione {targetFactionName}. {returnedValue}
+TIMissionTemplate.Failure.SeizeSpaceAsset=Che peccato! Non siamo riusciti a catturare {targetDisplayName} della fazione {targetFactionName}. {returnedValue}
+TIMissionTemplate.CriticalFailure.SeizeSpaceAsset=Che peccato! Non siamo riusciti a catturare {targetDisplayName} della fazione {targetFactionName}. {returnedValue}
+
+TIMissionTemplate.displayName.Stabilize=Stabilizza nazione
+TIMissionTemplate.description.Stabilize=Riduci i Disordini nella nazione obiettivo, migliorando l'economia e abbassando le probabilità che il governo venga rovesciato. L'effetto è indebolito se i disordini esistenti sono inferiori alla metà del valore nazionale di riferimento dei Disordini.
+TIMissionTemplate.CriticalSuccess.Stabilize=Abbiamo ridotto in maniera significativa i disordini {targetNationNameWithPrep} ({returnedValue}) fino a {targetNationUnrestWithString}.
+TIMissionTemplate.Success.Stabilize=Abbiamo ridotto i disordini {targetNationNameWithPrep} ({returnedValue}) fino a {targetNationUnrestWithString}.
+TIMissionTemplate.Failure.Stabilize=Ho fallito nella missione di ridurre i disordini {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Stabilize=I miei sforzi di ridurre i disordini {targetNationNameWithPrep} si sono rivelati un disastro e la nazione è sempre più divisa, con un aumento di un {returnedValue} dei disordini.
+
+TIMissionTemplate.displayName.StealProject=Ruba un progetto
+TIMissionTemplate.description.StealProject=Ruba un progetto di ingegneria da una fazione nemica prendendo di mira uno dei suoi consiglieri o un habitat con modulo ingegneristico, così che possiamo avervi accesso e studiarlo. Possiamo inoltre acquisire <color=#FFFFFFFF><sprite name="research"></color> se la fazione nemica è più avanzata di noi in termini di entrate per la ricerca.
+TIMissionTemplate.CriticalSuccess.StealProject=Ho ottenuto accesso agli archivi di ricerca della fazione {targetFactionName}. {returnedValue} Ora possiamo scegliere uno dei loro progetti da rubare.
+TIMissionTemplate.Success.StealProject=Ho ottenuto accesso agli archivi di ricerca della fazione {targetFactionName}. {returnedValue}
+TIMissionTemplate.Failure.StealProject=Non ho potuto avere accesso agli archivi di ricerca della fazione {targetFactionName}.
+TIMissionTemplate.CriticalFailure.StealProject=Non ho potuto avere accesso agli archivi di ricerca della fazione {targetFactionName}.
+TIMissionTemplate.Prompt.StealProject=Seleziona un progetto da sottrarre a {0}...
+
+TIMissionTemplate.displayName.TerrorizeRegion=Terrorizza una regione
+TIMissionTemplate.description.TerrorizeRegion=Attacca i civili in questa regione per forzare le concessioni del governo nazionale, ottenendo un punto di controllo per una fazione umana che ci considera una forza superiore. Questo però rischia di indurire l'opposizione nei nostri confronti.
+TIMissionTemplate.CriticalSuccess.TerrorizeRegion=Le nostre truppe d'assalto sono riuscite a terrorizzare la popolazione della regione {targetRegionName} e {1} ha ottenuto un punto di controllo {targetNationNameWithPrep}. Gli umani sembrano aver reagito in gran parte con paura alla nostra incursione.
+TIMissionTemplate.Success.TerrorizeRegion=Le nostre truppe d'assalto sono in gran parte riuscite a terrorizzare la popolazione della regione {targetRegionName} e {1} ha ottenuto un punto di controllo {targetNationNameWithPrep}. Il pubblico sembra diviso tra resistenza e paura.
+TIMissionTemplate.Failure.TerrorizeRegion=Le nostre truppe d'assalto non sono riuscite nella missione di terrorizzare la regione {targetRegionName}.
+TIMissionTemplate.CriticalFailure.TerrorizeRegion=Le nostre truppe d'assalto sono state sconfitte nel tentativo di terrorizzare la regione {targetRegionName} e gli umani sembrano risoluti nel loro intento di opporsi a noi.
+
+TIMissionTemplate.displayName.Xenoform=Xenoforma
+TIMissionTemplate.description.Xenoform=Lascia le bioforme aliene native sparse in questa regione. Con il tempo, dovrebbero prevaricare sulle forme di vita autoctone, rendere gli esseri umani più manipolabili e, infine, dare vita a grandi mandrie di fauna che ostacoleranno l'economia umana.
+TIMissionTemplate.CriticalSuccess.Xenoform=Le nostre bioforme hanno attecchito molto bene in questa regione.
+TIMissionTemplate.Success.Xenoform=Le nostre bioforme si sono radicate in questa regione.
+TIMissionTemplate.Failure.Xenoform=Le nostre bioforme non hanno attecchito in questa regione.
+TIMissionTemplate.CriticalFailure.Xenoform=Le nostre bioforme non hanno attecchito in questa regione e temo che la mia attività sia saltata all'occhio.
+
+TIMissionTemplate.displayName.Transfer=Trasferisci
+TIMissionTemplate.description.Transfer=Trasferisciti da un habitat a un altro oppure da una flotta all'altra in qualsiasi punto dello spazio nel sistema Terra-Luna. Lontano dalla Terra, spostati su qualsiasi habitat o su una flotta nella stessa orbita oppure sullo stesso corpo celeste. Il tratto Sotto copertura è richiesto solo per spostarsi su flotte o habitat (avamposti e piattaforme) dei nemici di grado 1.
+TIMissionTemplate.Success.Transfer=Eccomi: {targetDisplayName}, finalmente ci sono.
+
+TIMissionTemplate.displayName.Turn=Porta un consigliere dalla tua parte
+TIMissionTemplate.description.Turn=Converti un consigliere nemico alla nostra causa, in tal modo disporremo di informazioni preziose e controlleremo anche il successo e il fallimento delle sue missioni. Per tentare questa missione, abbiamo bisogno di conoscere bene la caratteristica Lealtà del bersaglio.
+TIMissionTemplate.CriticalSuccess.Turn=Abbiamo convertito {targetDisplayName} alla nostra causa. Il consigliere rimarrà al servizio della fazione {targetFactionName}, ma noi avremo accesso a tutte le informazioni in mano alla fazione e sul suo conto, oltre al controllo sul successo o sul fallimento delle missioni del consigliere. Dobbiamo solo evitare che quelli della fazione {targetFactionName} sospettino qualcosa!<br/><br/>Abbiamo messo a segno un ulteriore colpo: il nostro nuovo agente ha portato file di ricerca pari a un mese di lavoro, facendo avanzare notevolmente i nostri progressi.
+TIMissionTemplate.Success.Turn=Abbiamo convertito {targetDisplayName} alla nostra causa. Il consigliere rimarrà al servizio della fazione {targetFactionName}, ma noi avremo accesso a tutte le informazioni in mano alla fazione e sul suo conto, oltre al controllo sul successo o sul fallimento delle missioni del consigliere. Dobbiamo solo evitare che quelli della fazione {targetFactionName} sospettino qualcosa!
+TIMissionTemplate.Failure.Turn=Non siamo riusciti a convertire {targetDisplayName} alla nostra causa.
+TIMissionTemplate.CriticalFailure.Turn=Non ho potuto convertire {targetDisplayName} alla nostra causa e pare che quelli della fazione {targetFactionName} siano sulle mie tracce.
+
+TIMissionTemplate.displayName.Unrest=Accresci disordini
+TIMissionTemplate.description.Unrest=Accresci i disordini nella nazione della regione che hai preso di mira, così da danneggiare l'economia e rendere più probabili colpi di Stato, rivoluzioni e secessioni. Il successo di quest'azione in una regione in cui è presente un movimento indipendentista potrebbe far scaturire una secessione, piuttosto che una rivoluzione. L'effetto viene indebolito se i disordini sono già al di sopra di due volte il valore di riferimento per i disordini della nazione.
+TIMissionTemplate.CriticalSuccess.Unrest=I miei sforzi hanno aumentato i disordini {targetNationNameWithPrep} ({returnedValue}) fino a {targetNationUnrestWithString}. Ora abbiamo un certo sostegno tra i movimenti insurrezionali, nel caso in cui dovessero rovesciare il governo.
+TIMissionTemplate.Success.Unrest=I miei sforzi hanno aumentato i disordini {targetNationNameWithPrep} ({returnedValue}) fino a {targetNationUnrestWithString}. Ora abbiamo un certo sostegno tra i movimenti insurrezionali, nel caso in cui dovessero rovesciare il governo.
+TIMissionTemplate.Failure.Unrest=Non ho potuto accrescere i disordini {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Unrest=Non mi è riuscito di accrescere i disordini {targetNationNameWithPrep}. {returnedValue}
+
+TIMissionTemplate.displayName.DominateNation=Domina nazione
+TIMissionTemplate.description.DominateNation=Minaccia bombardamenti dalle nostre piattaforme sentinella sulla nazione presa di mira. In caso di successo, un punto di controllo passerà alla nostra fazione. In caso di fallimento, dovremo dare seguito alla minaccia prima di acquisire il punto di controllo.
+TIMissionTemplate.CriticalSuccess.DominateNation=Alcuni leader {targetNationNameWithPrep} si sono sottomessi a noi, consentendoci di prendere un punto di controllo per {myFactionName}. Parte dell'opinione pubblica ha espresso la propria gratitudine per aver portato ordine nella loro nazione.
+TIMissionTemplate.Success.DominateNation=I leader {targetNationNameWithPrep} sono stati intimiditi dalla nostra minaccia di bombardamento orbitale e si sono arresi, permettendoci così di prendere un punto di controllo per {myFactionName}.
+TIMissionTemplate.Failure.DominateNation=Le nostre minacce di usare i sistemi d'armi sentinella sono rimaste inascoltate dai leader {targetNationNameWithPrep}, quindi siamo stati costretti a effettuare bombardamenti mirati fino a quando si sono arresi. Abbiamo acquisito un punto di controllo per {myFactionName}.
+TIMissionTemplate.CriticalFailure.DominateNation=I leader {targetNationNameWithPrep} hanno riso quando li abbiamo minacciati di puntare loro contro le sentinelle, e ci hanno così costretti a un bombardamento a tappeto per costringerli ad arrendersi. Abbiamo acquisito un punto di controllo per {myFactionName}.
+
+TIMissionTemplate.displayName.AppeaseWin=Rivendica l'egemonia
+TIMissionTemplate.description.AppeaseWin=Attiva la nostra rete di stazioni sentinella per stabilire il nostro dominio sugli affari mondiali, placando così gli alieni. Tutte le nazioni umane si arrenderanno a noi. Prima dobbiamo però aver raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.Success.AppeaseWin=Abbiamo attivato la nostra rete di sentinelle e, dopo una breve dimostrazione, le nazioni della Terra si sono arrese a noi.
+
+TIMissionTemplate.displayName.CooperateWin=Stringi un'alleanza
+TIMissionTemplate.description.CooperateWin=Invia i nostri diplomatici immuni ai ferociti attraverso il condotto spazio-temporale per stabilire un dialogo e porre fine a questo conflitto. Dobbiamo assaltare la base aliena e atterrare per primi. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.Success.CooperateWin=Abbiamo raggiunto un accordo con le idre.
+
+TIMissionTemplate.displayName.DestroyWin=Attiva l'arma
+TIMissionTemplate.description.DestroyWin=Invia la nostra ama biologica attraverso il condotto spazio-temporale. Dobbiamo assaltare la base aliena e atterrare per primi. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.Success.DestroyWin=Abbiamo distribuito il virus Shiva.
+
+TIMissionTemplate.displayName.EscapeWin=Lancia il Bifrost
+TIMissionTemplate.description.EscapeWin=Dai l'ordine di lancio per dare avvio al nostro viaggio interstellare. 
+TIMissionTemplate.Success.EscapeWin=Abbiamo lanciato il Bifrost.
+
+TIMissionTemplate.displayName.ExploitWin=Doma il nemico
+TIMissionTemplate.description.ExploitWin=Invia il pacchetto di neoferociti attraverso il condotto spazio-temporale. Dobbiamo assaltare la base aliena e atterrare per primi. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.Success.ExploitWin=Abbiamo soggiogato l'impero delle idre.
+
+TIMissionTemplate.displayName.ResistWin=Chiudi l'ingresso
+TIMissionTemplate.description.ResistWin=Attiva il dispositivo per chiudere il condotto spazio-temporale. Dobbiamo assaltare la base aliena e atterrare per primi. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.Success.ResistWin=La via di fuga nemica è chiusa.
+
+TIMissionTemplate.displayName.SubmitWin=Proclama i maestri
+TIMissionTemplate.description.SubmitWin=Afferma il dominio alieno sulla Terra. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.Success.SubmitWin=La Terra è finalmente unificata sotto il dominio alieno.
+
+TIMissionEffect_IncreaseUnrest.Special1=Qualcuno ha notato il mio lavoro, di conseguenza il sostegno pubblico in nostro favore è diminuito di un {0} e {1} viene considerata una fazione che si è macchiata di atrocità.										// % change, councilor's faction name
+TIMissionEffect_IncreaseUnrest.Special2=Qualcuno ha notato il mio lavoro! Gli agenti di {0} accusano {1} di aver commesso atrocità e stanno venendo ad arrestarmi! Vi prego di occuparvi del mio rilascio!								// capturing faction name, councilor's faction name
+TIMissionEffect_Coup.Special1=Il sostegno pubblico verso la nostra causa è sceso di un {0}.
+TIMissionEffect_Coup.Special2=Quelli di {0} stanno per arrestarmi. Proverò a resistere ai loro interrogatori più a lungo che posso!			// faction name, capitalized
+TIMissionEffect_DamageSpaceFacilities.Special1=Siamo stati messi in relazione all'attentato e il sostegno pubblico nei nostri confronti è calato di un {0}.
+TIMissionEffect_DamageSpaceFacilities.Special2=Mi hanno arrestato e presto mi condurranno davanti a quelli di {0}.					// faction name
+TIMissionEffect_InvestigateCouncilor.EnemySpecial1=Conosciamo l'identità del bersaglio, {0}, affiliazione con {1} e il suo lavoro come {2}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial2=Abbiamo anche un profilo dettagliato del consigliere, disponibile nella sezione Informazioni. Stimiamo che il consigliere abbia un punteggio lealtà pari a {0}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial3=Per un po' potremo visualizzare la missione assegnata al consigliere.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial4=Forse su di loro sappiamo più di {1}. Il vero punteggio lealtà del consigliere è {2}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial5=Abbiamo anche saputo che {0} è in azione come spia per {1}.
+TIMissionEffect_InvestigateCouncilor.MySpecial1=Abbiamo riscontrato il suo punteggio lealtà effettivo a {0}.
+TIMissionEffect_InvestigateCouncilor.MySpecial2=Abbiamo appreso che {0} è stato messo contro di noi da {1} e che ha spiato la nostra attività. Si tratta di una falla alla quale dobbiamo rimediare il prima possibile.
+TIMissionEffect_InvestigateCouncilor.MySpecial3=La nostra indagine è stata svolta così male che {0} l'ha saputo e ha provato profondo fastidio. Di conseguenza, ha perso un punto lealtà.
+TIMissionEffect_Advise.Special1=Fino a che non mi avranno assegnato una nuova missione, dovrò incrementare la produzione di ricerca della nazione ({0}), i punti di investimento ({1}) e infine il rendimento dei suoi eserciti e delle forze di difesa ({2} del valore tecnica militare).
+TIMissionEffect_Advise.Special2=Fino a che non mi avranno assegnato una nuova missione, dovrò incrementare la produzione di ricerca dell'habitat ({0}), la sua produzione di risorse e di ricchezza ({1}) e le abilità di combattimento dei suoi marines ({2}).
+TIMissionEffect_Advise.Special3=Fino a che non mi avranno assegnato una nuova missione, dovrò migliorare le prestazioni di combattimento della flotta ({0}) e la sua produzione di ricerca ({1}).
+TIMissionEffect_StealProject.Special=Mi hanno arrestato e presto mi condurranno davanti a quelli di {0}. Proverò a resistere ai loro interrogatori più a lungo che posso.					// faction name
+TIMissionEffect_StealProject.Steal=Ho anche ottenuto {0} dai loro archivi.
+TIMissionEffect_SabotageProject.Special=Mi hanno arrestato e presto mi condurranno davanti a quelli di {0}. Vi prego di occuparmi del mio rilascio!									// faction name
+TIMissionEffect_Propaganda.Special=Il sostegno pubblico nei nostri confronti qui è cambiato ({0}). Adesso il valore è: {1}.
+TIMissionEffect_Propaganda.Special2=Il sostegno pubblico nei nostri confronti qui non è cambiato ({0}), ma la gente sta convergendo sempre di più verso la nostra ideologia.
+TIMissionEffect_Assassinate.Special1=Il nostro tentativo di compiere un attentato ha attirato l'attenzione e ora le autorità di tutto il mondo mi danno la caccia.									// faction name
+TIMissionEffect_Assassinate.Special2=Mi hanno arrestato e presto mi condurranno davanti a quelli di {0}. Vi prego di occuparmi del mio rilascio!									// faction name
+
+TIMissionResult_Responsibility=Abbiamo capito che dietro l'operazione si nasconde {0}.
+
+TIMissionModifier.Spend=Spesa in {0}														// resource name, e.g. "Ops"
+TIMissionModifier.Flat={0} ({1})															// Flat Modifier (3)
+TIMissionModifier.CodexHeader=<h>Modificatori attacco<line-height=0.01%><br/><align="right">Modificatori difesa</align></line-height></h>
+TIMissionModifier_FlatModifier.displayName=Difficoltà della missione
+TIMissionModifier_TargetNationGDP.displayName=Dimensioni dell'economia nazionale
+TIMissionModifier_NationCohesion.displayName=Coesione nazionale
+TIMissionModifier_InvertedNationCohesion.displayName=Coesione nazionale
+TIMissionModifier_NationPopulation.displayName=Popolazione della nazione
+TIMissionModifier_NationUnrest.displayName=Disordini a livello nazionale
+TIMissionModifier_NationStability.displayName=Disordini a livello nazionale
+TIMissionModifier_NationDemocracy.displayName=Democrazia
+TIMissionModifier_NationEducation.displayName=Istruzione
+TIMissionModifier_UnhappyElites.displayName=Insoddisfazione dell'élite
+TIMissionModifier_HappyElites.displayName=Soddisfazione dell'élite
+TIMissionModifier_RegionalDefenses.displayName=Presenza militare nella regione
+TIMissionModifier_AttackerPopulationIdeology.displayName=Sostegno dell'opinione pubblica
+TIMissionModifier_DefenderPopulationIdeology.displayName=Sostegno dell'opinione pubblica
+TIMissionModifier_DisabledControlPoint.displayName=Repressione
+TIMissionModifier_DefenderLocalControlPoints.displayName=Punti di controllo locali
+TIMissionModifier_AttackerLocalControlPoints.displayName=Punti di controllo locali
+TIMissionModifier_OwnedControlPoint.displayName=Consiglio {0}
+TIMissionModifier_AttackerAdjacentControlPoints.displayName=Punti di controllo negli Stati vicini
+TIMissionModifier_AttackerAllyControlPoints.displayName=Controllo in alleati più grandi / Federazione
+TIMissionModifier_AbductionsInRegion_AlienOnly.displayName=Rapimenti su base locale
+TIMissionModifier_MeanAbductionsinNation_AlienOnly.displayName=Rapimenti su base nazionale
+TIMissionModifier_IdeologicalDistance.displayName=Differenza ideologica
+TIMissionModifier_JointControlPointStat.displayName=Consiglio congiunto {0}
+TIMissionModifier_JointCouncilStat.displayName=Consiglio congiunto {0}
+TIMissionModifier_DefendedAsset.displayName=Difendi interessi
+TIMissionModifier_AlienAssetDefense.displayName=Difese aliene
+TIMissionModifier_DetainedCouncilor.displayName=Obiettivo arrestato
+TIMissionModifier_numDefendedControlPoints.displayName=Punti di controllo difesi
+TIMissionModifier_IntelonDefendingCouncilor.displayName=Informazioni sul bersaglio
+TIMissionModifier_SpaceSupportShortage.displayName=Carenze di supporto per gli habitat
+TIMissionModifier_AttackerHabSectors.displayName=Settori in questo habitat
+TIMissionModifier_DefenderHabSectors.displayName=Settori in questo habitat
+TIMissionModifier_AttackingForceSize.displayName=Forza d'attacco
+TIMissionModifier_DefendingForceSize.displayName=Forza di difesa
+TIMissionModifier_DefenderHabSize.displayName=Dimensioni dell'habitat
+TIMissionModifier_Legislature_ExecCP.displayName=Punto di controllo della legislatura
+TIMissionModifier_Legislature_ExecCP_Defense.displayName=Punto di controllo della legislatura
+TIMissionModifier_TheParty_NonExecCP.displayName=Punto di controllo del gruppo
+TIMissionModifier_TheParty_NonExecCP_Defense.displayName=Punto di controllo del gruppo
+TIMissionModifier_Oligarchs.displayName=Punto di controllo degli oligarchi
+TIMissionModifier_Oligarchs_Defense.displayName=Punto di controllo degli oligarchi
+TIMissionModifier_NationalIndustries.displayName=Punto di controllo delle industrie nazionali
+TIMissionModifier_NationalIndustries_Def.displayName=Punto di controllo delle industrie nazionali
+TIMissionModifier_MassMedia.displayName=Punto di controllo dei mezzi di comunicazione
+TIMissionModifier_SecurityApparatus.displayName=Punto di controllo del sistema di sicurezza
+TIMissionModifier_Bureaucracy.displayName=Punto di controllo della burocrazia
+TIMissionModifier_RegionalAuthorities.displayName=Punto di controllo delle autorità regionali
+TIMissionModifier_IdentityBlocs.displayName=Punto di controllo dei blocchi identitari
+TIMissionModifier_Warlords.displayName=Punto di controllo dei signori della guerra
+TIMissionModifier_TargetNegativeInfluence.displayName=Il bersaglio ha un'influenza negativa
+TIMissionModifier_TargetBroke.displayName=Il bersaglio ha fondi in negativo
+TIMissionModifier_CampaignDifficulty.displayName=Sfida
+TIMissionModifier_AlienNation.displayName=Nazione aliena
+TIMissionModifier_ProtectionBonus.displayName=Proteggi missione: {0} 
+TIMissionModifier_RegionXenoforming_AlienOnly.displayName=Xenoformazione locale
+TIMissionModifier_RegionXenoforming_AlienAndProxyOnly.displayName=Xenoformazione locale
+TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly.displayName=Xenoformazione su base nazionale
+TIMissionModifier_PherocyteResistance.displayName=Resistenza ai ferociti
+TIMissionModifier_AliensRemoved.displayName=Alieni catturati o uccisi
+TIMissionModifier_SpaceAssetPopulation.displayName=Grandezza dell'equipaggio
+TIMissionModifier_RegionalOccupation.displayName=Avanzamento dell'occupazione
+TIMissionModifier_RegionalOccupation_MyFaction.displayName=Avanzamento dell'occupazione
+TIMissionModifier_RegionalInvadingForcesStrength.displayName=Forza delle forze d'invasione
+TIMissionModifier_RegionalInvadingForcesStrength_MyFaction.displayName=Forza delle forze d'invasione
+TIMissionModifier_AttackerUnrestIdeology.displayName=Precedenti iniziative di disordine
+TIMissionModifier_RegionPopulationDensity.displayName=Densità della popolazione regionale
+TIMissionModifier_Censorship.displayName=Censura
+TIMissionModifier_ExtractionDefense_Councilor.displayName={0} dei consiglieri vicini
+TIMissionModifier_ExtractionDefenseSecurityApparatus.displayName=Punto di controllo del sistema di sicurezza
+TIMissionModifier_ExtractionDefense_JointCouncilStat.displayName={0} aggregato della fazione detentrice
+TIMissionModifier_MyFactionLoyaltyMonitor.displayName=Il nostro impianto per il monitoraggio della lealtà
+TIMissionModifier_AlienDetainDifficulty.displayName=Aliena
+TIMissionModifier_NationalRivalries.displayName=Punti di controllo in nemici
+TIMissionModifier_InsufficientCPMaintenance_Attacker.displayName=Avversario all'attacco sopra il limite del punto di controllo
+TIMissionModifier_InsufficientCPMaintenance_Defender.displayName=Bersaglio sopra il limite del punto di controllo
+TIMissionModifier_EnthrallScience.displayName=Consiglio {0} dalla ricerca di xenologia
+TIMissionModifier_DecommissioningHab.displayName=Habitat in via di smantellamento
+TIMissionModifier_AlienCoordination.displayName=Supporto proxy
+TIMissionModifier_NationSizeEnthrallDifficulty.displayName=Dimensioni nazione
+TIMissionModifier_ConditionalEnthrallDefendedPoint.displayName=Difendi interessi (difesa parziale)
+TIMissionModifier_AttackerMissionControlShortage.displayName=Mancanza di controllo missioni
+TIMissionModifier_DefenderMissionControlShortage.displayName=Mancanza di controllo missioni
+TIMissionModifier_HabStability.displayName=Moduli di garanzia della stabilità
+TIMissionModifier_OrgDefenses.displayName=Dimensioni organizzazione
+TIMissionModifier_OrgDefenses_Admin.displayName=Valore amministrativo organizzazione
+TIMissionModifier_OrgDefense.displayName=Difese conquista innate dell'organizzazione
+TIMissionModifier_OrgPoolDefense.displayName=Fazione congiunta {0}
+
+TIMissionModifier_ScaledStat={0} in scala																// this means a stat is being used as a modifier but it's multiplied by some other number, like "Scaled Administration"
+
+TIMissionCondition_GenericFail=Bersaglio non valido per questa missione
+TIMissionCondition_AvailableControlPoint=La nazione non ha punti di controllo disponibili
+TIMissionCondition_AvailableControlPoint2=Deve avere già un punto di controllo in una nazione con più punti di controllo per cercare un punto di controllo esecutivo.
+TIMissionCondition_VulnerableControlPoint=Deve avere già un punto di controllo in una nazione con più punti di controllo per attaccare un punto di controllo esecutivo.
+TIMissionCondition_TargetInRange=Il consigliere non riesce a raggiungere il bersaglio
+TIMissionCondition_EnemyCouncilor=Non è un consigliere nemico
+TIMissionCondition_EnemyOrTurnedCouncilor=Consigliere bersaglio non valido per la missione
+TIMissionCondition_ExtractionTarget2=Non è uno dei nostri consiglieri convertiti
+TIMissionCondition_ExtractionTarget=Non è uno dei nostri consiglieri fatto prigioniero
+TIMissionCondition_CouncilorHasKnownOrgs=Non è un bersaglio valido per le organizzazioni da acquisire
+TIMissionCondition_AnyCouncilorwithUnknowns2=Consigliere bersaglio non valido
+TIMissionCondition_AnyCouncilorwithUnknowns=Consigliere su cui si è completamente indagato
+TIMissionCondition_TurnableEnemyCouncilor=Consigliere bersaglio non valido
+TIMissionCondition_TurnableEnemyCouncilor2=Il bersaglio o la sua fazione sono già compromessi
+TIMissionCondition_MyFactionCouncilor=Non è uno dei nostri consiglieri
+TIMissionCondition_TurnedEnemyCouncilor=Non è uno dei nostri agenti
+TIMissionCondition_FreeCouncilSlot=Non ci sono posizioni aperte nel consiglio
+TIMissionCondition_HasSpaceFacility=Nessuna struttura spaziale da prendere di mira
+TIMissionCondition_DetainTarget=Impossibile catturare o detenere un individuo bersaglio
+TIMissionCondition_EnemySpaceAsset=Non è una risorsa nemica
+TIMissionCondition_EnemyHumanSpaceAsset=Non è una risorsa umana nemica
+TIMissionCondition_SpaceAssetNotInTransfer=Bersaglio non valido
+TIMissionCondition_SpaceAssetNotInTransfer2=Impossibile mentre la flotta viene trasferita
+TIMissionCondition_NationHasEnemyControlPoint=Abbiamo il controllo totale della nazione bersaglio
+TIMissionCondition_NotSubmitControlPoint=I nostri supporter umani hanno già preso il punto di controllo bersaglio
+TIMissionCondition_NotAppeaseControlPoint=I nostri alleati umani hanno già preso il punto di controllo bersaglio
+TIMissionCondition_NotAlienControlPoint=I punti di controllo alieni sono bersagli non ammessi per questa abilità
+TIMissionCondition_BasicCouncilorIntel=Non abbiamo una conoscenza sufficiente di altri consiglieri da indirizzare a questa missione
+TIMissionCondition_DefendableAsset=Occorre avere almeno un punto di controllo che non subisca l'effetto Reprimi nell'entità politica bersaglio
+TIMissionCondition_ScannableObjectWithMyControlPoints1=Non abbiamo punti di controllo nella località bersaglio
+TIMissionCondition_ScannableObjectWithMyControlPoints2=Non è il nostro habitat
+TIMissionCondition_ScannableObjectWithMyControlPoints3=Non è la nostra flotta
+TIMissionCondition_ExecutiveControl=Impossibile impostare una politica in assenza di un punto di controllo esecutivo
+TIMissionCondition_MinimumGlobalAbductions_HigherValue=Occorre rapire altri umani prima di poter svolgere questa missione
+TIMissionCondition_MinimumGlobalAbductions_LowerValue=Occorre rapire altri umani prima di poter svolgere questa missione
+TIMissionCondition_ProtectTarget=Deve essere uno dei nostri
+TIMissionCondition_CouncilorOnEarth=I consiglieri devono essere sulla Terra
+TIMissionCondition_CanConstructFacility=La regione dispone già di una struttura
+TIMissionCondition_CanConstructFacility1=Dobbiamo avere relazioni diplomatiche con gli alieni per svolgere questa missione
+TIMissionCondition_CanConstructFacility2=Abbiamo bisogno di tutti i punti di controllo nella regione, un numero di rapimenti sufficiente alle spalle e che la regione non stia venendo occupata
+TIMissionCondition_AssassinationTarget=Non può uccidere i nostri alleati
+TIMissionCondition_AlienFacilityInNation=Richiede la presenza di una struttura di ricerca delle idre in questa nazione
+TIMissionCondition_HumanFactionsPermitControl=Richiede il nostro controllo esecutivo e il controllo totale da parte di fazioni disposte a cedere territori agli alieni
+TIMissionCondition_HumanFactionsPermitControl2=Richiede la presenza di un alieno sulla Terra o nell'orbita terrestre
+TIMissionCondition_MinimumUnrest=Non ci sono disordini nella nazione bersaglio
+TIMissionCondition_FactionHasStealableProjects=La fazione non ha progetti da rubare di cui siamo a conoscenza
+TIMissionCondition_HasSpySlot=Non ci sono le risorse per altre spie
+TIMissionCondition_FactionHasVulnerableProjects=Il bersaglio non ha progetti da sabotare
+TIMissionCondition_CanLaunchToOrbit=Il consigliere deve essere sulla Terra o in una base
+TIMissionCondition_AllowedOrbitTarget=L'orbita di destinazione deve essere nel raggio d'azione del sito di lancio
+TIMissionCondition_CanTransfer=Il consigliere deve essere in orbita o in un sito di habitat
+TIMissionCondition_AllowedTransferTarget=L'obiettivo del trasferimento deve essere nel raggio d'azione
+TIMissionCondition_CanDeorbit=Il consigliere deve essere in un'orbita di interfaccia o nel sistema Terra-Luna
+TIMissionCondition_AllowedDeorbitTarget=Il bersaglio in deorbita deve essere nel raggio d'azione
+TIMissionCondition_ContactableTarget=Impossibile affidare a questo consigliere una missione di contatto
+TIMissionCondition_ContactableTarget2=Impossibile affidare al nostro consigliere una missione di contatto
+TIMissionCondition_ContactableTarget3=La fazione sta ignorando i nostri tentativi di contatto
+TIMissionCondition_SeizeSpaceAssetTroopsPresent=Non ci sono unità di combattimento presenti per svolgere la missione
+TIMissionCondition_SeizeSpaceAssetTargetInRange=Le unità di combattimento locali non riescono a raggiungere il bersaglio
+TIMissionCondition_SeizeSpaceAssetTargetInRange_2=Bersaglio già oggetto di assalto
+TIMissionCondition_TerrorizeVulnerableControlPoint=Punto di controllo già leale o ottimamente difeso
+TIMissionCondition_HasIntelOnCouncilorSecrets=Indagini insufficienti sul consigliere bersaglio
+TIMissionCondition_HumanControlPoint=Impossibile prendere di mira il controllo alieno con questa missione
+TIMissionCondition_HumanNation=Impossibile prendere di mira una nazione aliena con questa missione
+TIMissionCondition_Human=Il consigliere non è umano
+TIMissionCondition_EnthrallableControlPoint=I supporter devono avere già un punto di controllo in una nazione con più punti di controllo per attaccare un punto di controllo esecutivo.
+TIMissionCondition_EnemyControlPointsInNation=La nazione deve avere almeno un punto di controllo che non sia nostro
+TIMissionCondition_SentinelModulesActive=Dobbiamo avere almeno un modulo sentinella attivo in un'orbita di interfaccia terrestre
+TIMissionCondition_VictoryCondition=La fazione deve aver soddisfatto tutte le condizioni per la vittoria
+TIMissionCondition_SufficientMissionControl=Deve essere disponibile il controllo della missione
+TIMissionCondition_FreeCouncilor=Il consigliere preso di mira non deve essere prigioniero o in altro modo inattivo
+TIMissionCondition_TargetableHabModule=Deve essere un modulo nemico non centrale
+TIMissionCondition_TargetableOrg=Deve trattarsi di un'organizzazione nella riserva non assegnata di una fazione nemica o assegnata a un consigliere di cui abbiamo ottenuto informazioni significative
+_Fail=Deve essere un tipo di obiettivo valido per la missione e accessibile al consigliere
+
+TIMissionAbort_ControlPointRemoved=La missione è stata interrotta perché il punto di controllo bersaglio non esiste più.
+TIMissionAbort_CouncilorRetired=La missione è stata interrotta perché il consigliere assegnato non è più attivo.
+TIMissionAbort_CouncilorUnavailable=La missione è stata interrotta perché il consigliere assegnato non è più disponibile.
+TIMissionAbort_CouncilorDetained=La missione è stata interrotta perché il consigliere assegnato è stato fatto prigioniero.
+TIMissionAbort_CouncilorDead=La missione è stata interrotta perché il consigliere assegnato è morto.
+TIMissionAbort_TurnedCouncilorQuit=La missione è stata interrotta perché il consigliere assegnato si è dimesso.
+TIMissionAbort_MissionOrgLost=La missione è stata interrotta perché il consigliere non possiede più l'organizzazione che forniva la missione.
+TIMissionAbort_ControlPointAlreadyPurged=La missione è stata interrotta perché il punto di controllo bersaglio è già stato oggetto di sterminio per mano di un altro consigliere durante questo ciclo di missioni.
+TIMissionAbort_BlanketCancel_ProbableError=<skip/>
+TIMissionAbort_NationAlreadyCouped=La missione è stata interrotta perché la nazione bersaglio è appena stata investita da un colpo di Stato.
+TIMissionAbort_TargetFleetDestroyed=La missione è stata interrotta perché la flotta bersaglio è stata dispersa o distrutta.
+TIMissionAbort_TargetShipDestroyed=La missione è stata interrotta perché la nave bersaglio è stata distrutta.
+TIMissionAbort_TargetHabDestroyed=La missione è stata interrotta perché l'habitat bersaglio è stato distrutto.
+TIMissionAbort_TargetInvalid=La missione è stata interrotta perché il bersaglio assegnato è stato eliminato.
+TIMissionAbort_VoluntaryAbort=La missione è stata volontariamente interrotta dai capi della fazione.
+TIMissionAbort_OrgAlreadyTaken=La missione è stata interrotta perché l'organizzazione bersaglio è già stata presa da un altro consigliere durante questo ciclo di missioni.
+
+TIMissionTargeting_NoTarget=Nessun bersaglio
+TIMissionTargeting_InvalidTarget={0}<br/>Bersaglio non valido																// ID of target
+
+TIMissionResult_ExecutiveControlChange=Il potere esecutivo su questa nazione appartiene ora a {0}
+
+TIMission.Timing.0=La missione sarà risolta quasi immediatamente dopo l'assegnazione.
+TIMission.Timing.1=La missione sarà risolta nella prima fase della risoluzione.
+TIMission.Timing.2=La missione sarà risolta nella fase centrale della risoluzione.
+TIMission.Timing.3=La missione sarà risolta nella fase tardiva della risoluzione.
+TIMission.Timing.4=La missione sarà risolta nella fase finale della risoluzione.
+TIMission.Timing.5=Questa missione sarà risolta dopo tutte le altre.
+
+TIMission_AttackerModifiers=<h>Modificatori consigliere</h>
+TIMission_DefenderModifiers=<h>Modificatori bersaglio</h>

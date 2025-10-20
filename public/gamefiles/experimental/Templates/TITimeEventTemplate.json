@@ -11,7 +11,15 @@
 		"eventName": "DailyUpdate",
 		"pauseTime": false,
 		"stopClock": true
-	},
+	},	
+	{		
+		"dataName": "SeasonalUpdate",
+		"displayName": "Seasonal Update",
+		"eventType": "Month",
+		"eventName": "MonthlySeasonalUpdate",
+		"pauseTime": false,
+		"stopClock": false
+	},	
 	{
 		"dataName": "CouncilorMissionUpdate",
 		"displayName": "Councilor Mission Update",
@@ -43,7 +51,7 @@
 					"$type": "TIGlobalCondition_fCampaignDuration_years",
 					"strIdx": "",
 					"sign": "GreaterThan",
-					"strValue": "30"
+					"strValue": "30.166"
 				},
 				"updateEventType": "Month"
 			}

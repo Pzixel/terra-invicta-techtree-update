@@ -1,0 +1,50 @@
+TIShipArmorTemplate.displayName.SteelArmor=Ocelové pancéřování
+TIShipArmorTemplate.description.SteelArmor=Úctyhodné a těžké ocelové pancéřování zvyšuje schopnost našich plavidel přežít v boji.
+TIShipArmorTemplate.displayName.TitaniumArmor=Titanové pancéřování
+TIShipArmorTemplate.description.TitaniumArmor=Žáruvzdorné a netříštivé pancéřování, které s sebou nese značné náklady.
+TIShipArmorTemplate.displayName.SiliconCarbideArmor=Pancéřování z karbidu křemíku
+TIShipArmorTemplate.description.SiliconCarbideArmor=Keramické pancéřování vyrobené spékáním křemíku a uhlíkového prášku.
+TIShipArmorTemplate.displayName.BoronCarbideArmor=Pancéřování z karbidu bóru
+TIShipArmorTemplate.description.BoronCarbideArmor=Odolné „černé diamantové“ pancéřování vytvořené redukcí oxidu bóru v atmosféře uhlíku.
+TIShipArmorTemplate.displayName.CompositeArmor=Kompozitní pancéřování
+TIShipArmorTemplate.description.CompositeArmor=Střídání vrstev keramiky a kovů nabízí komplexní a lehkou ochranu.
+TIShipArmorTemplate.displayName.FoamedMetalArmor=Pancéřování z pěnových kovů
+TIShipArmorTemplate.description.FoamedMetalArmor=Pěnový titan a další slitiny s nízkou hustotou, vrstvené s keramickými deskami, nabízejí lehkou ochranu našich vesmírných lodí.
+TIShipArmorTemplate.displayName.NanotubeArmor=Nanotrubicové pancéřování
+TIShipArmorTemplate.description.NanotubeArmor=Pancéřování nové generace vytvořené fúzí milionů uhlíkových nanotrubic.
+TIShipArmorTemplate.displayName.AdamantaneArmor=Adamantinové pancéřování
+TIShipArmorTemplate.description.AdamantaneArmor=Pokročilé diamantoidy slibují robustní ochranu proti kinetickým zbraním.
+TIShipArmorTemplate.displayName.ExoticArmor=Exotické pancéřování
+TIShipArmorTemplate.description.ExoticArmor=Mimozemské slitiny zpracované do ultralehkých ochranných vrstev.
+TIShipArmorTemplate.displayName.HybridArmor=Hybridní pancéřování
+TIShipArmorTemplate.description.HybridArmor=Diamantoidy s exotickými vlákny nabízejí dříve nemyslitelnou úroveň ochrany.
+TIShipArmorTemplate.displayName.AlienAdamantaneArmor=Mimozemské diamantoidové pancéřování
+TIShipArmorTemplate.description.AlienAdamantaneArmor=Mimozemský materiál, který se zdá být založen na manipulaci s uhlíkem.
+TIShipArmorTemplate.displayName.AlienExoticArmor=Mimozemské exotické pancéřování
+TIShipArmorTemplate.description.AlienExoticArmor=Mimozemský materiál s exotickými parametry.
+
+TIShipArmorTemplate.ResourcesPerTon=Náklady na tunu:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsResistance={0} bonus k odolnosti proti kinetickému poškození
+TIShipArmorTemplate.LaserResistance={0} bonus k odolnosti proti laserovému poškození
+TIShipArmorTemplate.ChippingResistance={0} bonus k odolnosti proti odštípnutí
+TIShipArmorTemplate.KineticsVulnerability=Utrpí {0} extra poškození od kinetických zbraní
+TIShipArmorTemplate.LaserVulnerability=Utrpí {0} extra poškození od laserů
+TIShipArmorTemplate.ChippingVulnerability=Utrpí {0} extra odštípnutí pancéřování při zásahu
+TIShipArmorTemplate.XRayResistance={0} bonus k odolnosti proti rentgenovému záření částicových zbraní ve srovnání s ocelí
+TIShipArmorTemplate.XRayVulnerability=Utrpí {0} extra poškození od rentgenového záření částicových zbraní
+TIShipArmorTemplate.BaryonicResistance={0} bonus k odolnosti proti neutronům částicových zbraní
+TIShipArmorTemplate.BaryonicVulnerability=Utrpí {0} extra poškození od neutronů částicových zbraní
+
+TIShipArmorTemplate.ThicknessPerPoint=Tloušťka na jeden bod:<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.NoseTailTonsPerPoint=Hmotnost na příďový či záďový bod pancéřování:<rcol>{0} t.</rcol>
+TIShipArmorTemplate.LateralTonsPerPoint=Hmotnost na boční bod pancéřování:<rcol>{0} t.</rcol>
+
+TIShipArmorTemplate.MaxArmorThickness_Lateral=Maximální tloušťka bočního pancéřování:<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Nose=Maximální tloušťka příďového pancéřování:<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Tail=Maximální tloušťka záďového pancéřování:<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.MaxArmorPoints_Lateral=Maximální boční pancéřování:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Nose=Maximální příďové pancéřování:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Tail=Maximální záďové pancéřování:<rcol>{0}</rcol>
+

@@ -1,0 +1,60 @@
+TIVictoryCondition.description.GlobalControlPointProportion=Показники точок контролю нашої фракції повинні бути щонайменше {0} від усіх показників точок контролю на Землі.
+TIVictoryCondition.description.GlobalRegionProportion=Наша фракція повинна контролювати {0} від усіх регіонів на Землі. Ми контролюємо регіон, коли володіємо виконавчою точкою контролю в його нації та більшою половиною всіх точок контролю у ній.
+TIVictoryCondition.description.GlobalEcoProportion=Наша фракція повинна контролювати {0} від усіх основних економічних регіонів на Землі. Ми контролюємо регіон, коли володіємо виконавчою точкою контролю в його нації та більшою половиною всіх точок контролю в ній.
+TIVictoryCondition.description.GlobalPopulationProportion=Наша фракція повинна контролювати регіони з {0} від населення Землі. Ми контролюємо регіон, коли володіємо виконавчою точкою контролю в його нації та більшою половиною всіх точок контролю в ній.
+TIVictoryCondition.description.GlobalGDPProportion=Наша фракція повинна контролювати нації з щонайменше {0} від ВВП Землі. Ми контролюємо регіон, коли володіємо виконавчою точкою контролю в його нації та більшою половиною всіх точок контролю в ній.
+TIVictoryCondition.description.AlienNationMaxRegionProportion_special=Прибульці не повинні контролювати жоден регіон на Землі.
+TIVictoryCondition.description.AlienNationMaxRegionProportion=Прибульці не повинні контролювати більше {0} регіонів Землі.
+TIVictoryCondition.description.AlienNationMinRegionProportion=Прибульці повинні контролювати щонайменше {0} регіонів Землі.
+TIVictoryCondition.description.AlienNationMaxPopulationProportion=Прибульці повинні контролювати регіони, які містять не більше {0} від населення Землі.
+TIVictoryCondition.description.AlienNationMinPopulationProportion=Прибульці повинні контролювати регіони, які містять щонайменше {0} від населення Землі.
+TIVictoryCondition.description.ProAlienMaxRegionProportion=Прибульці та проінопланетні фракції повинні контролювати не більше {0}від  регіонів Землі. Фракція контролює регіон, коли вона володіє виконавчою точкою контролю в його нації та більшою половиною всіх точок контролю в ній. 
+TIVictoryCondition.description.ProAlienMinRegionProportion=Прибульці та проінопланетні фракції повинні контролювати щонайменше {0} від регіонів Землі. Фракція контролює регіон, коли вона володіє виконавчою точкою контролю в його нації та більшою половиною всіх точок контролю в ній. 
+TIVictoryCondition.description.MinProAlienFleetPower=Спільна могутність флоту прибульців та проінопланетних фракції повинна дорівнювати щонайменше {0} від загальної могутності флоту серед усіх фракцій Сонячної системи.
+TIVictoryCondition.description.MaxProAlienFleetPower=Спільна могутність флоту прибульців та проінопланетних фракції повинна бути не більше {0} від загальної могутності флоту серед усіх фракцій Сонячної системи.
+TIVictoryCondition.description.MaxOtherFactionsFleetPower=Спільна могутність флоту всіх ворожих фракцій повинна бути не більше {0} від загальної могутність флоту серед усіх фракцій Сонячної системи.
+TIVictoryCondition.description.MinGlobalDemocracyWeightedAverage=Середній показник демократії на Землі, зважений за населеннями націй, має становити щонайменше {0}.
+TIVictoryCondition.description.MaxGlobalDemocracyWeightedAverage=Середній показник демократії на Землі, зважений за населеннями націй, має бути меншим за {0}.
+TIVictoryCondition.description.MinGlobalInequalityWeightedAverage=Середній показник рівня нерівності на Землі, зважений за населеннями націй, має становити щонайменше {0}.
+TIVictoryCondition.description.MaxGlobalInequalityWeightedAverage=Середній показник рівня нерівності на Землі, зважений за населеннями націй, має бути меншим за {0}.
+TIVictoryCondition.description.GlobalPopularityProportion=Нашу фракцію має підтримувати {0} від населення Землі.
+TIVictoryCondition.description.GlobalMissionControlCapacity=Наша фракція повинна контролювати {0} від місткості одиниць керування польотами людства.
+TIVictoryCondition.Status=Поточне значення: {0}/{1} ({2})
+TIVictoryCondition.None=Без додаткових умов
+TIVictoryCondition.FreePlanets_DefeatAliens_PlanetarySystem=Знищте всі середовища прибульців категорії {0} і вище в планетній системі об'єкта {1}.
+TIVictoryCondition.FreePlanets_DefeatAliens_Region=Знищте всі середовища прибульців категорії {0} і вище на наступних тілах: {1}
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_PlanetarySystem=Знищте всі середовища категорії {0} і вище, які належить прибульцям та їхнім людським прихильникам ({2}) у системі об'єкта {1}.
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_Region=Знищте всі середовища категорії {0} і вище, які належить прибульцям та їхнім людським прихильникам ({2}) на наступних тілах: {1}
+TIVictoryCondition.FreePlanets_DefeatEveryone_PlanetarySystem=Знищте всі середовища категорії {0} і вище, які не належать нашій фракції, у планетній системі об'єкта {1}
+TIVictoryCondition.FreePlanets_DefeatEveryone_Region=Знищте всі середовища категорії {0} і вище, які не належать нашій фракції, на наступних тілах: {1}
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_PlanetarySystem=Знищте всі середовища категорії {0} і вище, які належать протиінопланетним фракціям ({2}), у планетній системі об'єкта: {1}
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_Region=Знищте всі середовища категорії {0} і вище, які належать протиінопланетним фракціям ({2}), на наступних тілах: {1}
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_PlanetarySystem=Знищте всі середовища категорії {0} і вище, які належать фракціям, що не є союзниками прибульців ({2}), у планетній системі об'єкта: {1}
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Знищте всі середовища категорії {0} і вище, які належать фракціям, що не є союзниками прибульців ({2}), на наступних тілах: {1}
+TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Знищте всі середовища категорії {0} і вище, які належать прибульцям і людським екстремістським фракціям ({2}), у планетній системі об'єкта: {1}
+TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Знищте всі середовища категорії {0} і вище, які належать прибульцям і людським екстремістським фракціям ({2}), на наступних тілах: {1}
+
+TIVictoryCondition.FreeFleets_DefeatAliens_All=Знищте всі флоти прибульців із бойовою могутністю {0} і більше.
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Знищте всі флоти з бойовою силою {0} і більше, які належать прибульцям і її людським прихильникам ({2})
+TIVictoryCondition.FreeFleets_DefeatEveryone_All=Знищте всі флоти з бойовою силою {0} і більше, які не належать нашій фракції 
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_All=Знищте всі флоти з бойовою силою {0} і більше, які належать протиінопланетним фракціям ({2})
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_All=Знищте всі флоти з бойовою силою {0} і більше, які належать фракціям, що не є союзниками прибульців ({2})
+TIVictoryCondition.FreeFleets_DefeatExtremists_All=Знищте всі флоти з бойовою силою {0} і більше, які належать прибульцям і людським екстремістським фракціям ({2})
+
+TIVictoryCondition.FreeFleets_DefeatAliens_PlanetarySystem=Знищте всі флоти прибульців із бойовою силою {0} і більше в планетній системі об'єкта {1}
+TIVictoryCondition.FreeFleets_DefeatAliens_Region=Знищте всі флоти прибульців із бойовою силою {0} і більше на наступних тілах: {1}
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_PlanetarySystem=Знищте всі флоти з бойовою силою {0} і більше, які належать прибульцям і її людським прихильникам ({2}), у планетній системі об'єкта {1}
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_Region=Знищте всі флоти з бойовою силою {0} і більше, які належать прибульцям і її людським прихильникам ({2}), на наступних тілах: {1}
+TIVictoryCondition.FreeFleets_DefeatEveryone_PlanetarySystem=Знищте всі флоти з бойовою силою {0} і більше, які не належать нашій фракції, у планетній системі об'єкта {1}
+TIVictoryCondition.FreeFleets_DefeatEveryone_Region=Знищте всі флоти з бойовою силою {0} і більше, які не належать нашій фракції, на наступних тілах: {1}
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_PlanetarySystem=Знищте всі флоти з бойовою силою {0} і більше, які належать протиінопланетним фракціям ({2}), у планетній системі об'єкта {1}
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_Region=Знищте всі флоти з бойовою силою {0} і більше, які належать протиінопланетним фракціям ({2}), на наступних тілах: {1}
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_PlanetarySystem=Знищте всі флоти з бойовою силою {0} і більше, які належать фракціям, що не є союзниками прибульців ({2}), у планетній системі об'єкта {1}
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Знищте всі флоти з бойовою силою {0} і більше, які належать фракціям, що не є союзниками прибульців ({2}), на наступних тілах: {1}
+TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Знищте всі флоти з бойовою силою {0} і більше, які належать прибульцям і людським екстремістським фракціям ({2}), у планетній системі об'єкта {1}
+TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Знищте всі флоти з бойовою силою {0} і більше, які належать прибульцям і людським екстремістським фракціям ({2}), на наступних тілах: {1}
+
+
+TIVictoryCondition.Complete=Завершене
+
+

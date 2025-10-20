@@ -1,0 +1,50 @@
+TIShipArmorTemplate.displayName.SteelArmor=Сталева броня
+TIShipArmorTemplate.description.SteelArmor=Поважні й важкі плити сталевої броні збільшують нашу здатність до виживання в бою.
+TIShipArmorTemplate.displayName.TitaniumArmor=Титанова броня
+TIShipArmorTemplate.description.TitaniumArmor=Коштовна й стійка до тепла та ударів броня.
+TIShipArmorTemplate.displayName.SiliconCarbideArmor=Карбідокремнієва броня
+TIShipArmorTemplate.description.SiliconCarbideArmor=Зроблена з агломерату кремнієвого та вуглецевого порошку керамічна броня.
+TIShipArmorTemplate.displayName.BoronCarbideArmor=Карбідоборова броня
+TIShipArmorTemplate.description.BoronCarbideArmor=Довговічна броня з «чорного діаманта», створена за допомогою відновлення оксиду бору у вуглецевій атмосфері.
+TIShipArmorTemplate.displayName.CompositeArmor=Композитна броня
+TIShipArmorTemplate.description.CompositeArmor=Шари кераміки й металів, що чергуються, надають широкий та легкий захист.
+TIShipArmorTemplate.displayName.FoamedMetalArmor=Пінометалева броня
+TIShipArmorTemplate.description.FoamedMetalArmor=«Пінисті» титанові й інші сплави, укриті шарами керамічних плит, надають легкий захист нашому космічному апарату.
+TIShipArmorTemplate.displayName.NanotubeArmor=Нанотрубкова броня
+TIShipArmorTemplate.description.NanotubeArmor=Броня наступного покоління, створена за допомогою злиття мільйонів карбонових нанотрубок.
+TIShipArmorTemplate.displayName.AdamantaneArmor=Адамантова броня
+TIShipArmorTemplate.description.AdamantaneArmor=Удосконалені діамантоїди обіцяють надійний захист проти кінетичної зброї.
+TIShipArmorTemplate.displayName.ExoticArmor=Екзотична броня
+TIShipArmorTemplate.description.ExoticArmor=Інопланетні сплави, що створюють ультралегкі шари захисту.
+TIShipArmorTemplate.displayName.HybridArmor=Гібридна броня
+TIShipArmorTemplate.description.HybridArmor=Начинені екзотиками діамантоїди надають раніше немислимі рівні захисту.
+TIShipArmorTemplate.displayName.AlienAdamantaneArmor=Інопланетна діамантоїдна броня
+TIShipArmorTemplate.description.AlienAdamantaneArmor=Інопланетний матеріал, який, здається, побудований на махінаціях з вуглецем.
+TIShipArmorTemplate.displayName.AlienExoticArmor=Інопланетна екзотична броня
+TIShipArmorTemplate.description.AlienExoticArmor=Інопланетний матеріал з екзотичними властивостями.
+
+TIShipArmorTemplate.ResourcesPerTon=Вартість за тонну:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsResistance={0} од. додаткового опору кінетичній шкоді
+TIShipArmorTemplate.LaserResistance={0} од. додаткового опору лазерній шкоді
+TIShipArmorTemplate.ChippingResistance={0} од. додаткового опору розколюванням
+TIShipArmorTemplate.KineticsVulnerability=Отримує {0} од. додаткової шкоди від кінетичної зброї
+TIShipArmorTemplate.LaserVulnerability=Отримує {0} од. додаткової шкоди від лазерів
+TIShipArmorTemplate.ChippingVulnerability=Отримує {0} од. додаткового розколювання броні від пошкоджень
+TIShipArmorTemplate.XRayResistance=Бонус ({0}) додаткового опору рентгенівській шкоді пучкової зброї щодо сталі
+TIShipArmorTemplate.XRayVulnerability=Отримує {0} од. додаткової рентгенівської шкоди пучкової зброї
+TIShipArmorTemplate.BaryonicResistance=Бонус ({0}) додаткового опору нейтронам пучкової зброї
+TIShipArmorTemplate.BaryonicVulnerability=Отримує {0} од. додаткової шкоди від нейтронів пучкової зброї
+
+TIShipArmorTemplate.ThicknessPerPoint=Товщина на точку:<rcol>{0} см</rcol>
+
+TIShipArmorTemplate.NoseTailTonsPerPoint=Маса на носову або хвостову частину точки броні:<rcol>{0} т</rcol>
+TIShipArmorTemplate.LateralTonsPerPoint=Маса на точку бокової броні:<rcol>{0} т</rcol>
+
+TIShipArmorTemplate.MaxArmorThickness_Lateral=Максимальна товщина бокової броні:<rcol>{0} см</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Nose=Максимальна товщина броні носової частини:<rcol>{0} см</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Tail=Максимальна товщина броні хвостової частини:<rcol>{0} см</rcol>
+
+TIShipArmorTemplate.MaxArmorPoints_Lateral=Максимальна бокова броня:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Nose=Максимальна броня носової частини:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Tail=Максимальна броня хвостової:<rcol>{0}</rcol>
+

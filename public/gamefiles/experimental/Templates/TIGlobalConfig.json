@@ -82,6 +82,7 @@
 			"SpaceCombatCanvas",
 			"CodexCanvas"
 		],
+		"terminalKeyCode": -1,							// change to a Unity keycode to activate that key as a way to open the terminal, also requires debug_ConsoleActive to be true. -1 disables. May interfere with gameplay keys if you're not careful. See https://docs.unity3d.com/Packages/com.unity.tiny@0.13/rt/tiny_runtime/enums/_runtimefull_.ut.core2d.keycode.html
 		"debug_ConsoleActive": false,
 		"debug_fullAIDump": false,
 		"debug_advancedFactionStart": false,
@@ -103,12 +104,13 @@
 		"smoothingMSPerFrame": 18,
 		"targetFrameRate": 90,
 		"dontPlayCinematicVideos": false,
-		"combatCamera_maxZoom": 8000,
-		"combatCamera_minZoom": 10,
+		"alwaysAllowIncreaseUIScale": false,
+		"combatCamera_maxZoom": 5000,
+		"combatCamera_minZoom": 20,
 		"combatCamera_maxPan": 8000,
 		"combatCamera_minPan": -8000,
-		"combatCamera_minCameraMovementSpeed": 1,
-		"combatCamera_maxCameraMovementSpeed": 20,
+		"combatCamera_minCameraMovementSpeed": 5,
+		"combatCamera_maxCameraMovementSpeed": 90,
 		"combatCamera_minScrollSpeedOffset": -200,
 		"combatCamera_maxScrollSpeedOffset": -600,
 		"combatCamera_mouseRotateSpeedOffset": 0.9,
@@ -124,6 +126,7 @@
 		"strategyCamera_MinDistanceFromCamera": 20,
 		"strategyCamera_LogScaleDistanceFromCamera": 100,
 		"homeCountryThreeLetterISOCodeOverride": "",
+		"campaignStartSeed": -1,
 		"savePath": ""
     }
 ]

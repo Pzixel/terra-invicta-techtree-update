@@ -1,0 +1,15 @@
+UI.Markers.CouncilorMarker.Tooltip={0}{1}({2})</color>																
+UI.Markers.CouncilorMarker.TooltipWithMission={0}{1} ({2})</color>: {3}({4}).										
+UI.Markers.CouncilorMarker.TooltipWithMissionResolveTime={0}{1} ({2})</color>: {3}({4}). {5} 해결.				
+UI.Markers.Capital.TooltipHeader={0} 통제 지점({1})															
+UI.Markers.Capital.ControlPoint=#{0}({1}): {2}
+UI.Markers.Uncontrolled=통제되지 않음
+UI.Markers.InvalidTarget=잘못된 표적
+UI.Markers.Occupation={0}: {1} 점령됨																				
+UI.Markers.CoreEconomicRegion=핵심 경제 지역<br/><br/>핵심 경제 지역은 국가의 경제 우선순위에 보너스를 부여합니다.
+UI.Markers.CoreResourceRegion=자원 지역<br/><br/>자원 지역은 국가의 경제 우선순위에 보너스를 부여하지만, 동시에 불평등을 심화시키고 환경 파괴를 가속합니다.
+UI.Markers.MonsterArmy=거대 외계 동물군 {0}
+UI.Markers.NoFactionArmy={0}({1}) {2} 공격: {3}
+UI.Markers.FactionArmy={0}({1}, {2}) {3} 공격: {4}
+UI.Markers.Boost={0}<br/>매년 {1}{2}
+UI.Markers.MissionControl={0}<br/>{1}{2}

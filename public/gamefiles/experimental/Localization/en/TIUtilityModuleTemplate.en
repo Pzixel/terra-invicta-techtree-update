@@ -1,5 +1,5 @@
 TIUtilityModuleTemplate.displayName.ISRUModule=ISRU Module
-TIUtilityModuleTemplate.description.ISRUModule=The In-Situ Resource Utilization Module will allow ships to re-propellant at unimproved hab sites that produce all raw materials used in the ship's propellant. Ships that that have <h>anything</h> listed as their propellant may re-propellant at any site. Prohibited for ships that use antimatter in their propellant.
+TIUtilityModuleTemplate.description.ISRUModule=The In-Situ Resource Utilization Module will allow ships to re-propellant at unimproved hab sites that produce all raw materials used in the ship's propellant. Ships that have <h>anything</h> listed as their propellant may re-propellant at any site. Prohibited for ships that use antimatter in their propellant.
 TIUtilityModuleTemplate.displayName.RemassScoop=Remass Scoop
 TIUtilityModuleTemplate.description.RemassScoop=The remass scoop gives the ship aerodynamic qualities, preventing damage from aerobraking, and allows it to refill <h>hydrogen</h> propellant stores with <color=#FFFFFFFF><sprite name="water"></color> as its only component from interface orbits of Jovian planets. Ships that have <h>anything</h> listed as their propellant may re-propellant at Jovian worlds as well.
 TIUtilityModuleTemplate.displayName.MuonSpiker=Muon Spiker
@@ -9,7 +9,7 @@ TIUtilityModuleTemplate.description.NeutroniumSpiker=Small numbers of free neutr
 TIUtilityModuleTemplate.displayName.AntimatterSpiker=Antimatter Spiker
 TIUtilityModuleTemplate.description.AntimatterSpiker=Tiny amounts of antimatter are stored and used to catalyze nuclear reactions, giving a {1} bonus to thrust in fission and fusion drives. 
 TIUtilityModuleTemplate.displayName.MobileSpaceScienceLab=Mobile Space Science Lab
-TIUtilityModuleTemplate.description.MobileSpaceScienceLab=A scientific team joins the crew, granting a {5} bonus to Space Science research and enabling the ship to prospect space bodies for suitable base sites from interface orbits.
+TIUtilityModuleTemplate.description.MobileSpaceScienceLab=A scientific team joins the crew, enabling the ship to prospect space bodies for suitable base sites from interface orbits and granting a {5} bonus to Space Science research as long as its fleet is not docked at a hab or in the Earth-Luna system.
 TIUtilityModuleTemplate.displayName.RepairBay=Repair Bay
 TIUtilityModuleTemplate.description.RepairBay=An expanded damage control team as well as a workshop to conduct more extensive repairs away from the shipyard. <br><br/>Significantly increases the effectiveness of your damage control teams during combat. Out of combat the Repair Bay allows for the Bridge, Life Support, Battery, and Damage Control modules to be partially repaired and increases the repair cap on destroyed modules from 5% to 25%. <br><br/><h>Note that some modules such as weapons and utility modules can only be repaired at a station once destroyed.</h>
 TIUtilityModuleTemplate.displayName.SalvageBay=Salvage Bay
@@ -115,13 +115,13 @@ TIUtilityModuleTemplate.description.AlienSurveillanceOrbital=This module has an 
 TIUtilityModuleTemplate.displayName.AlienSurveillanceRing=Unknown
 TIUtilityModuleTemplate.description.AlienSurveillanceRing=This module has an unknown function.
 
-TIUtilityModuleTemplate.description.RequiresHydrogenPropellant=<h>Requires a drive that can use hydrogen as propellant.</h>
+TIUtilityModuleTemplate.description.RequiresHydrogenPropellant=<h>Requires a drive that can use hydrogen (not reaction products) as propellant.</h>
 TIUtilityModuleTemplate.description.RequiresFissionDrive=<h>Requires a nuclear fission drive.</h>
-TIUtilityModuleTemplate.description.RequiresNuclearDrive=<h>Requires a nuclear drive.</h>
+TIUtilityModuleTemplate.description.RequiresNuclearDrive=<h>Requires a fusion or fission thermal drive.</h>
 TIUtilityModuleTemplate.description.RequiresFusionDrive=<h>Requires a nuclear fusion drive.</h>
 TIUtilityModuleTemplate.description.RequiresNonISRUDrive=<h>Not allowed on ships with drives that have an innate ISRU capability.</h>
 TIUtilityModuleTemplate.description.ConsTier=<h>Only allowed on larger hulls.</h>
 TIUtilityModuleTemplate.description.ImmuneToDamage=<h>This module cannot be damaged.</h>
-TIUtilityModuleTemplate.description.RepairOnlyWhenMarineModulePresent=<h>Can only be repaired at habs with both a ship construction module and a Barracks module. Building this at a hab without a Barracks module will cause the module to be disabled until it is repaired.</h>
+TIUtilityModuleTemplate.description.RepairOnlyWhenMarineModulePresent=<h>Can only be repaired at habs with both a ship construction module and a Marine module. Building this at a hab without a Marine module will cause the module to be disabled until it is repaired.</h>
 TIUtilityModuleTemplate.description.RepairOnlyWhenConstructionModulePresent=<h>Can only be repaired at habs with both a ship construction module and a module that can found habs. Building this at a hab without a hab-founding module will cause the module to be disabled until it is repaired.</h>
-
+TIUtilityModuleTemplate.description.FullRepairCost=<h>Repairing this module requires paying the full construction cost of the damaged portion instead of the normal {0}.</h>

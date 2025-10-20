@@ -1,0 +1,60 @@
+TIVictoryCondition.description.GlobalControlPointProportion=Hodnoty kontrolních bodů naší frakce musí být alespoň {0} všech hodnot kontrolních bodů na Zemi.
+TIVictoryCondition.description.GlobalRegionProportion=Naše frakce musí ovládat {0} všech regionů na Zemi. Region ovládáme, pokud máme v dané zemi výkonný kontrolní bod a více než polovinu všech kontrolních bodů.
+TIVictoryCondition.description.GlobalEcoProportion=Naše frakce musí ovládat {0} všech hlavních ekonomických regionů na Zemi. Region ovládáme, pokud máme v dané zemi výkonný kontrolní bod a více než polovinu všech kontrolních bodů.
+TIVictoryCondition.description.GlobalPopulationProportion=Naše frakce musí ovládat regiony s {0} obyvatel Země. Region ovládáme, pokud máme v dané zemi výkonný kontrolní bod a více než polovinu všech kontrolních bodů.
+TIVictoryCondition.description.GlobalGDPProportion=Naše frakce musí ovládat státy s alespoň {0} HDP Země. Stát ovládáme, pokud v něm máme výkonný kontrolní bod a více než polovinu všech kontrolních bodů.
+TIVictoryCondition.description.AlienNationMaxRegionProportion_special=Mimozemšťané nesmí na ovládat žádné regiony Země.
+TIVictoryCondition.description.AlienNationMaxRegionProportion=Mimozemšťané nesmí na ovládat více než {0} regionů Země.
+TIVictoryCondition.description.AlienNationMinRegionProportion=Mimozemšťané musí ovládat alespoň {0} regionů Země.
+TIVictoryCondition.description.AlienNationMaxPopulationProportion=Mimozemšťané nesmí ovládat regiony, v nich žije více než {0} obyvatel Země.
+TIVictoryCondition.description.AlienNationMinPopulationProportion=Mimozemšťané musí ovládat regiony, v nich žije alespoň {0} obyvatel Země.
+TIVictoryCondition.description.ProAlienMaxRegionProportion=Mimozemšťané a frakce podporující mimozemšťany nesmí ovládat více {0} regionů Země. Frakce ovládá region, pokud má ve státě v daném regionu výkonný kontrolní bod a více než polovinu všech kontrolních bodů.
+TIVictoryCondition.description.ProAlienMinRegionProportion=Mimozemšťané a frakce podporující mimozemšťany musí ovládat alespoň {0} regionů Země. Frakce ovládá region, pokud má v daném státě výkonný kontrolní bod a více než polovinu všech kontrolních bodů.
+TIVictoryCondition.description.MinProAlienFleetPower=Kombinovaná síla flotil mimozemšťanů a frakcí podporujících mimozemšťany musí být alespoň {0} celkové síly flotil všech frakcí ve Sluneční soustavě.
+TIVictoryCondition.description.MaxProAlienFleetPower=Kombinovaná síla flotil mimozemšťanů a frakcí podporujících mimozemšťany nesmí být větší než {0} celkové síly flotil všech frakcí ve Sluneční soustavě.
+TIVictoryCondition.description.MaxOtherFactionsFleetPower=Kombinovaná síla flotil všech nepřátelských frakcí nesmí být větší než {0} celkové síly flotil všech frakcí ve Sluneční soustavě.
+TIVictoryCondition.description.MinGlobalDemocracyWeightedAverage=Průměrné skóre demokracie na Zemi, vážené podle počtu obyvatel jednotlivých zemí, musí být alespoň {0}.
+TIVictoryCondition.description.MaxGlobalDemocracyWeightedAverage=Průměrné skóre demokracie na Zemi, vážené podle počtu obyvatel jednotlivých zemí, musí být nižší než {0}.
+TIVictoryCondition.description.MinGlobalInequalityWeightedAverage=Průměrné skóre nerovnosti na Zemi, vážené podle počtu obyvatel jednotlivých zemí, musí být alespoň {0}.
+TIVictoryCondition.description.MaxGlobalInequalityWeightedAverage=Průměrné skóre nerovnosti na Zemi, vážené podle počtu obyvatel jednotlivých zemí, musí být nižší než {0}.
+TIVictoryCondition.description.GlobalPopularityProportion=Naši frakci musí podporovat {0} obyvatel Země.
+TIVictoryCondition.description.GlobalMissionControlCapacity=Naše frakce musí mít pod kontrolou {0} kapacity lidských řídicích středisek.
+TIVictoryCondition.Status=Stávající hodnota: {0}/{1} ({2})
+TIVictoryCondition.None=Žádné další podmínky
+TIVictoryCondition.FreePlanets_DefeatAliens_PlanetarySystem=Znič v planetární soustavě {1} všechny mimozemské habitaty {0}. a vyššího stupně.
+TIVictoryCondition.FreePlanets_DefeatAliens_Region=Znič na následujících tělesech: {1} všechny mimozemské habitaty {0}. a vyššího stupně.
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_PlanetarySystem=Znič v soustavě {1} všechny habitaty {0}. a vyššího stupně patřící mimozemšťanům a jejich lidským příznivcům ({2}).
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_Region=Znič na následujících tělesech: {1} všechny habitaty {0}. a vyššího stupně patřící mimozemšťanům a jejich lidským příznivcům ({2}).
+TIVictoryCondition.FreePlanets_DefeatEveryone_PlanetarySystem=Znič v planetární soustavě {1} všechny habitaty {0}. a vyššího stupně, které nepatří naší frakci.
+TIVictoryCondition.FreePlanets_DefeatEveryone_Region=Znič na následujících tělesech: {1} všechny habitaty {0}. a vyššího stupně, které nepatří naší frakci.
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_PlanetarySystem=Znič v planetární soustavě {1} všechny habitaty {0}. a vyššího stupně, které patří protimimozemským frakcím ({2}).
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_Region=Znič na následujících tělesech: {1} všechny habitaty {0}. a vyššího stupně, které patří protimimozemským frakcím ({2}).
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_PlanetarySystem=Znič v planetární soustavě {1} všechny habitaty {0}. a vyššího stupně, které patří frakcím, jež nejsou spojenci mimozemšťanů ({2}).
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Znič na následujících tělesech: {1} všechny habitaty {0}. a vyššího stupně, které patří frakcím, jež nejsou spojenci mimozemšťanů ({2}).
+TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Znič v planetární soustavě {1} všechny habitaty {0}. a vyššího stupně, které patří mimozemšťanům a lidským extremistickým frakcím ({2}).
+TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Znič na následujících tělesech: {1} všechny habitaty {0}. a vyššího stupně, které patří mimozemšťanům a lidským extremistickým frakcím ({2}).
+
+TIVictoryCondition.FreeFleets_DefeatAliens_All=Znič všechny mimozemské flotily s bojovou silou {0} a vyšší.
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Znič všechny flotily s bojovou silou {0} a vyšší, které patří mimozemšťanům a jejich lidským příznivcům ({2}).
+TIVictoryCondition.FreeFleets_DefeatEveryone_All=Znič všechny flotily s bojovou silou {0} a vyšší, které nepatří naší frakci. 
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_All=Znič všechny flotily s bojovou silou {0} a vyšší, které patří protimimozemským frakcím ({2}).
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_All=Znič všechny flotily s bojovou silou {0} a vyšší, které patří frakcím, jež nejsou spojenci mimozemšťanů ({2}).
+TIVictoryCondition.FreeFleets_DefeatExtremists_All=Znič všechny flotily s bojovou silou {0} a vyšší, které patří mimozemšťanům a lidským extremistickým frakcím ({2}).
+
+TIVictoryCondition.FreeFleets_DefeatAliens_PlanetarySystem=Znič v planetární soustavě {1} všechny mimozemské flotily s bojovou silou {0} a vyšší.
+TIVictoryCondition.FreeFleets_DefeatAliens_Region=Znič na následujících tělesech: {1}všechny mimozemské flotily s bojovou silou {0} a vyšší.
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_PlanetarySystem=Znič v soustavě {1} všechny flotily s bojovou silou {0} a vyšší, které patří mimozemšťanům a jejich lidským příznivcům ({2}).
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_Region=Znič na následujících tělesech: {0} všechny flotily s bojovou silou {1} a vyšší, které patří mimozemšťanům a jejich lidským příznivcům ({2}).
+TIVictoryCondition.FreeFleets_DefeatEveryone_PlanetarySystem=Znič v planetární soustavě {1} všechny flotily s bojovou silou {0} a vyšší, které nepatří naší frakci.
+TIVictoryCondition.FreeFleets_DefeatEveryone_Region=Znič na následujících tělesech: {1} všechny flotily s bojovou silou {0} a vyšší, které nepatří naší frakci.
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_PlanetarySystem=Znič v planetární soustavě {1} všechny flotily s bojovou silou {0} a vyšší, které patří protimimozemským frakcím ({2}).
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_Region=Znič na následujících tělesech: {1} všechny flotily s bojovou silou {0} a vyšší, které patří protimimozemským frakcím ({2}).
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_PlanetarySystem=Znič v planetární soustavě {1} všechny flotily s bojovou silou {0} a vyšší, které patří frakcím, jež nejsou spojenci mimozemšťanů ({2}).
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Znič na následujících tělesech: {1} všechny flotily s bojovou silou {0} a vyšší, které patří frakcím, jež nejsou spojenci mimozemšťanů ({2}).
+TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Znič v planetární soustavě {1} všechny flotily s bojovou silou {0} a vyšší, které patří mimozemšťanům a lidským extremistickým frakcím ({2}).
+TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Znič na následujících tělesech: {1} všechny flotily s bojovou silou {0} a vyšší, které patří mimozemšťanům a lidským extremistickým frakcím ({2}).
+
+
+TIVictoryCondition.Complete=Splněno
+
+

@@ -1,0 +1,15 @@
+UI.Markers.CouncilorMarker.Tooltip={0}{1} ({2})</color>	// faction color, councilor Name, councilor job
+UI.Markers.CouncilorMarker.TooltipWithMission={0}{1} ({2})</color>: {3} ({4}).	// faction color, councilor Name, councilor job, mission, target
+UI.Markers.CouncilorMarker.TooltipWithMissionResolveTime={0}{1} ({2})</color>: {3} ({4}). Řeší: {5}.	// faction color, councilor Name, councilor job, mission, target, completion date
+UI.Markers.Capital.TooltipHeader={0} kontrolní body ({1})	// nation, # CPs
+UI.Markers.Capital.ControlPoint=#{0} ({1}): {2}
+UI.Markers.Uncontrolled=Nekontrolovaný
+UI.Markers.InvalidTarget=Neplatný cíl
+UI.Markers.Occupation={0}: {1} obsazeno	// Occupying nation, percentage
+UI.Markers.CoreEconomicRegion=Hlavní ekonomický region<br/><br/>Hlavní ekonomické regiony poskytují bonus k prioritě Ekonomika daného státu.
+UI.Markers.CoreResourceRegion=Surovinový region<br/><br/>Surovinové regiony poskytují bonus ke státní prioritě ekonomiky, avšak zároveň způsobují větší nárůst nerovnosti a škod na životním prostředí.
+UI.Markers.MonsterArmy=Mimozemská megafauna {0}
+UI.Markers.NoFactionArmy={0} ({1}) {2} Útok: {3}
+UI.Markers.FactionArmy={0} ({1}, {2}) {3} Útok: {4}
+UI.Markers.Boost={0}<br/>{1}{2} za rok
+UI.Markers.MissionControl={0}<br/>{1}{2}
