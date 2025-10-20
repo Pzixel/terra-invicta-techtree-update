@@ -1,0 +1,4152 @@
+[
+ {
+   "dataName": "Ship13",
+   "friendlyName": "Silent Dawn-class Infiltrator",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "CouncilorTransport",
+   "hullName": "AlienGunship",
+   "driveName": "AlienFusionTorchx2",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienSuperconductingCoilBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 14,
+   "noseArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 12
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 2
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 0
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HydraInfiltrationPod",
+         "slot": 8
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien256cmOrangeLaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship14",
+   "friendlyName": "Pulsar-class Corvette",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "LM_Interdictor",
+   "hullName": "AlienCorvette",
+   "driveName": "AlienFusionTorchx1",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienSuperconductingCoilBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 15,
+   "noseArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 8
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 5
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 4
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 9
+      },
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 10
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 11
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienLightMagBattery",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienLightMagCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+{
+   "dataName": "Ship34",
+   "friendlyName": "Alien Escort",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "LL_Intruder",
+   "hullName": "AlienEscort",
+   "driveName": "AlienFusionLanternx4",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienSuperconductingCoilBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 25,
+   "noseArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 10
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 3
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 3
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 9
+      },
+	  {
+         "moduleName": "AlienHydronTrap",
+         "slot": 10
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 11
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "GlitteringJewelMissileBay",
+         "slot": 7
+      },
+      {
+         "moduleName": "Alien64cmOrangeLaserBattery",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship15",
+   "friendlyName": "Nova-class Frigate",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "LM_Interdictor",
+   "hullName": "AlienFrigate",
+   "driveName": "AlienFusionTorchx2",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienSuperconductingCoilBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 15,
+   "noseArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 10
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 3
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 3
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 8
+      },
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 10
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 11
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 13
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "GlitteringJewelMissileBay",
+         "slot": 9
+      },
+      {
+         "moduleName": "GlitteringJewelMissileBay",
+         "slot": 12
+      },
+      {
+         "moduleName": "AlienPointDefenseLaserTurret",
+         "slot": 14
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien256cmOrangeLaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+{
+   "dataName": "Ship35",
+   "friendlyName": "Alien Monitor",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "LL_Intruder",
+   "hullName": "AlienMonitor",
+   "driveName": "AlienFusionTorchx6",
+   "powerPlantName": "AlienAdvancedHybridConfinementFusionReactor",
+   "batteryName": "AlienSuperconductingCoilBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 15,
+   "noseArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 25
+   },
+   "lateralArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 7
+   },
+   "tailArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 10
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 12
+      },
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 13
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 14
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 15
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienHeavyPlasmaBattery",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien256cmVioletLaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship16",
+   "friendlyName": "Quasar-class Destroyer",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "EarthSurveillance",
+   "hullName": "AlienDestroyer",
+   "driveName": "AlienFusionTorchx1",
+   "powerPlantName": "AlienAdvancedHybridConfinementFusionReactor",
+   "batteryName": "AlienSuperconductingCoilBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 15,
+   "noseArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 12
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 3
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 3
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 10
+      },
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 11
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 13
+      },
+      {
+         "moduleName": "AlienSurveillanceModule",
+         "slot": 14
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien64cmOrangeLaserBattery",
+         "slot": 9
+      },
+      {
+         "moduleName": "AlienLightMagBattery",
+         "slot": 12
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien512cmVioletLaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+{
+   "dataName": "Ship36",
+   "friendlyName": "Alien Cruiser",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "LL_Intruder",
+   "hullName": "AlienCruiser",
+   "driveName": "AlienFusionTorchx6",
+   "powerPlantName": "AlienAdvancedHybridConfinementFusionReactor",
+   "batteryName": "AlienSuperconductingCoilBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 15,
+   "noseArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 40
+   },
+   "lateralArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 7
+   },
+   "tailArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 10
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 13
+      },
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 14
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 15
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 16
+      },
+      {
+         "moduleName": "Magazine",
+		 "slot": 17
+      },
+      {
+         "moduleName": "AlienTargetingComputer",
+		 "slot": 18
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienPointDefenseLaserTurret",
+         "slot": 9
+      },
+      {
+         "moduleName": "AlienPointDefenseParticleBeam",
+         "slot": 10
+      },
+      {
+         "moduleName": "IridescentStarTorpedoBay",
+		 "slot": 11
+      },
+      {
+         "moduleName": "IridescentStarTorpedoBay",
+		 "slot": 12
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienParticleCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship17",
+   "friendlyName": "Galaxy-class Battlecruiser",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "MM_SpaceSuperiority",
+   "hullName": "AlienBattlecruiser",
+   "driveName": "AlienFusionTorchx3",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienExoticNanowireBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 25,
+   "noseArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 10
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 4
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 5
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 11
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 12
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 14
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 15
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 17
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienPointDefenseLaserTurret",
+         "slot": 10
+      },
+      {
+         "moduleName": "AlienMagBattery",
+         "slot": 13
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien768cmVioletLaserCannon",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship18",
+   "friendlyName": "Magnetar-class Battleship",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "MM_SpaceSuperiority",
+   "hullName": "AlienBattleship",
+   "driveName": "AlienFusionTorchx4",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienExoticNanowireBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 30,
+   "noseArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 12
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 5
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 5
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 11
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 14
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 15
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 18
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 19
+      },
+      {
+         "moduleName": "AlienSurveillanceModule",
+         "slot": 20
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienPointDefenseLaserTurret",
+         "slot": 9
+      },
+      {
+         "moduleName": "GlitteringJewelMissileBay",
+         "slot": 10
+      },
+      {
+         "moduleName": "AlienHeavyMagBattery",
+         "slot": 16
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien512cmXaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+
+ {
+   "dataName": "Ship18a",
+   "friendlyName": "Electron-class Lancer",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "MM_SpaceSuperiority",
+   "hullName": "AlienLancer",
+   "driveName": "AlienFusionTorchx4",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienExoticNanowireBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 30,
+   "noseArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 25
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 5
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 5
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 17
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 18
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 19
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 20
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 21
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 22
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienPointDefenseLaserTurret",
+         "slot": 13
+      },
+      {
+         "moduleName": "GlitteringJewelMissileBay",
+         "slot": 14
+      },
+      {
+         "moduleName": "AlienPointDefenseParticleBeam",
+         "slot": 15
+      },
+      {
+         "moduleName": "Gen3AlienLightMagBattery"
+		 "slot": 16
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien768cmXaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Alien768cmXaserCannon",
+		 "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship19",
+   "friendlyName": "Darkstar-class Assault Carrier",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "ArmyCarrier",
+   "hullName": "AlienAssaultCarrier",
+   "driveName": "AlienFusionTorchx6",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienSuperconductingCoilBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 120,
+   "noseArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 15
+   },
+   "lateralArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 10
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 10
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 8
+      },
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 11
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 14
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 16
+      },
+      {
+         "moduleName": "AlienArmyPod",
+         "slot": 17
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AdvancedAlienMagBattery",
+         "slot": 10
+      },
+      {
+         "moduleName": "Alien64cmVioletLaserBattery",
+         "slot": 7
+      },
+      {
+         "moduleName": "AlienPointDefenseLaserTurret",
+         "slot": 9
+      },
+      {
+         "moduleName": "AlienPointDefenseParticleBeam",
+         "slot": 12
+      },
+      {
+         "moduleName": "Alien64cmVioletLaserBattery",
+         "slot": 15
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship20",
+   "friendlyName": "Nebula-class Dreadnought",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "MM_SpaceSuperiority",
+   "hullName": "AlienDreadnought",
+   "driveName": "AlienFusionTorchx6",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienExoticNanowireBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 120,
+   "noseArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 20
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 20
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 10
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 11
+      },
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 12
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 13
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 14
+      },
+      {
+         "moduleName": "AlienRepairBay",
+         "slot": 15
+      },
+      {
+         "moduleName": "AlienExoticHeatSink",
+         "slot": 16
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 17
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 18
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienHeavyPlasmaBattery",
+         "slot": 25
+      },
+      {
+         "moduleName": "AlienPointDefenseLaserTurret",
+         "slot": 21
+      },
+      {
+         "moduleName": "Alien64cmVioletLaserBattery",
+         "slot": 23
+      },
+      {
+         "moduleName": "Alien128cmVioletLaserBattery",
+         "slot": 24
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien1024cmGraserCannon",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship20a",
+   "friendlyName": "Orion-class Titan",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "MM_SpaceSuperiority",
+   "hullName": "AlienTitan",
+   "driveName": "AlienFusionTorchx6",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienExoticNanowireBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 120,
+   "noseArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 40
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 10
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 20
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 21
+      },
+      {
+         "moduleName": "AlienMuonSpiker",
+         "slot": 22
+      },
+      {
+         "moduleName": "AlienHydronTrap",
+         "slot": 23
+      },
+      {
+         "moduleName": "AlienLithiumHeatSink",
+         "slot": 24
+      },
+      {
+         "moduleName": "AlienRepairBay",
+         "slot": 25
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 26
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienHeavyPlasmaBattery",
+         "slot": 13
+      },
+      {
+         "moduleName": "AlienPointDefenseLaserTurret",
+         "slot": 17
+      },
+      {
+         "moduleName": "Alien64cmVioletLaserBattery",
+         "slot": 18
+      },
+      {
+         "moduleName": "Alien64cmVioletLaserBattery",
+         "slot": 19
+      },
+      {
+         "moduleName": "AlienPointDefenseParticleBeam",
+		 "slot": 20
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Alien1024cmGraserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Gen3AlienLightMagCannon",
+		 "slot": 9
+      },
+      {
+         "moduleName": "Gen3AlienLightMagCannon",
+		 "slot": 12
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},{
+   "dataName": "Ship21",
+   "friendlyName": "Blazar-class Mothership",
+   "factionName": "AlienCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "SM_Patrol",
+   "hullName": "AlienMothership",
+   "driveName": "AlienFusionTorchx6",
+   "powerPlantName": "AlienAdvancedHybridConfinementFusionReactor",
+   "batteryName": "AlienExoticNanowireBattery",
+   "radiatorName": "ExoticTendril",
+   "propellantTanks": 250,
+   "noseArmor": {
+      "materialName": "AlienExoticArmor",
+      "armorValue": 25
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 25
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 25
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "AlienRepairBay",
+         "slot": 27
+      },
+      {
+         "moduleName": "AlienExoticHeatSink",
+         "slot": 28
+      },
+      {
+         "moduleName": "AlienExoticHeatSink",
+         "slot": 29
+      },
+      {
+         "moduleName": "AlienECM",
+         "slot": 30
+      },
+      {
+         "moduleName": "AlienTargetingComputer",
+         "slot": 31
+      },
+      {
+         "moduleName": "AlienTargetingComputer",
+         "slot": 32
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienPointDefenseLaserTurret",
+         "slot": 11
+      },
+      {
+         "moduleName": "Alien128cmVioletLaserBattery",
+         "slot": 13
+      },
+      {
+         "moduleName": "AlienPointDefenseParticleBeam",
+         "slot": 14
+      },
+      {
+         "moduleName": "GlitteringJewelMissileBay",
+         "slot": 15
+      },
+      {
+         "moduleName": "Alien128cmVioletLaserBattery",
+         "slot": 17
+      },
+      {
+         "moduleName": "GlitteringJewelMissileBay",
+         "slot": 18
+      },
+      {
+         "moduleName": "AdvancedAlienHeavyMagBattery",
+         "slot": 19
+      },
+      {
+         "moduleName": "Alien384cmVioletLaserBattery",
+         "slot": 23
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienHeavyPlasmaCannon",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+{
+   "dataName": "AlienOrbitalFighter",
+   "friendlyName": "Alien Orbital Fighter",
+   "factionName": "AlienCouncil",
+   "disable": false,
+   "hullAppearanceIndex": 0,
+   "role": "SS_Interceptor",
+   "hullName": "SalamanderGunship",
+   "driveName": "SuperKronosLiquidRocketx1",
+   "powerPlantName": "AlienHybridConfinementFusionReactor",
+   "batteryName": "AlienSuperconductingCoilBattery",
+   "radiatorName": "DiamondoidSpike",
+   "propellantTanks": 1,
+   "noseArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 3
+   },
+   "lateralArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 1
+   },
+   "tailArmor": {
+      "materialName": "AlienAdamantaneArmor",
+      "armorValue": 0
+   },
+   "moduleTemplateEntries": [],   
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "GlitteringJewelMissilePod",
+         "slot": 8
+      }     
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "AlienMiniLightMagCannon",
+         "slot": 7
+      }
+   ],
+   "fireModeTemplateEntries": []
+ },
+ {
+   "dataName": "Ship1",
+   "friendlyName": "EarlyGunship",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "SS_Interceptor",
+   "hullName": "Gunship",
+   "driveName": "PebbleDrivex6",
+   "powerPlantName": "SolidCoreFissionReactorX",
+   "batteryName": "GrapheneBattery",
+   "radiatorName": "NanotubeFilament",
+   "propellantTanks": 20,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "LithiumHeatSink",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "240cmIRLaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": [
+      {
+         "slot": 7,
+         "fireMode": "Guardian"
+      }
+   ]
+},
+ {
+   "dataName": "Ship2",
+   "friendlyName": "EarlyEscort",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "SL_Defender",
+   "hullName": "Escort",
+   "driveName": "NervaDrivex6",
+   "powerPlantName": "SolidCoreFissionReactorII",
+   "batteryName": "Lithium-SulfurBattery",
+   "radiatorName": "AluminumFin",
+   "propellantTanks": 25,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 8
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "LithiumHeatSink",
+         "slot": 9
+      },
+      {
+         "moduleName": "ElectronicCountermeasures1",
+         "slot": 10
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "HarlequinMissileBay",
+         "slot": 7
+      },
+      {
+         "moduleName": "PointDefenseLaserTurret",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship3",
+   "friendlyName": "EarlyCorvette",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "LS_Penetrator",
+   "hullName": "Corvette",
+   "driveName": "CermetNervax4",
+   "powerPlantName": "SolidCoreFissionReactorIV",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "NanotubeFilament",
+   "propellantTanks": 25,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 8
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 2
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 2
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "LithiumHeatSink",
+         "slot": 9
+      },
+      {
+         "moduleName": "ElectronicCountermeasures2",
+         "slot": 10
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "40mmAutocannon",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "LightRailCannonMk3",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship4",
+   "friendlyName": "EarlyFrigate",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "SM_Patrol",
+   "hullName": "Frigate",
+   "driveName": "MinimagOrionx1",
+   "powerPlantName": "GasCoreFissionReactorII",
+   "batteryName": "Lithium-SulfurBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 20,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 5
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 2
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "ElectronicCountermeasures1",
+         "slot": 9
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 10
+      },
+      {
+         "moduleName": "LaserEngine",
+         "slot": 12
+      },
+      {
+         "moduleName": "ISRUModule",
+         "slot": 13
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "60cmIRArcLaserBattery",
+         "slot": 8
+      },
+      {
+         "moduleName": "LightRailgunBatteryMk1",
+         "slot": 11
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "240cmIRArcLaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship5",
+   "friendlyName": "EarlyMonitor",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "SL_Defender",
+   "hullName": "Monitor",
+   "driveName": "LodestarFissionLanternx2",
+   "powerPlantName": "GasCoreFissionReactorV",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "NanotubeFilament",
+   "propellantTanks": 50,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 5
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 2
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "LithiumHeatSink",
+         "slot": 8
+      },
+      {
+         "moduleName": "Magazine",
+         "slot": 11
+      },
+      {
+         "moduleName": "Magazine",
+         "slot": 13
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PoseidonTorpedoBay",
+         "slot": 10
+      },
+      {
+         "moduleName": "PoseidonTorpedoBay",
+         "slot": 7
+      },
+      {
+         "moduleName": "PoseidonTorpedoBay",
+         "slot": 12
+      },
+      {
+         "moduleName": "PoseidonTorpedoBay",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship6",
+   "friendlyName": "EarlyDestroyer",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "MM_SpaceSuperiority",
+   "hullName": "Destroyer",
+   "driveName": "HeavyDumbox6",
+   "powerPlantName": "SolidCoreFissionReactorV",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 50,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "LithiumHeatSink",
+         "slot": 10
+      },
+      {
+         "moduleName": "VectorThrusters",
+         "slot": 12
+      },
+      {
+         "moduleName": "Cyclotron",
+         "slot": 13
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "40mmAutocannon",
+         "slot": 9
+      },
+      {
+         "moduleName": "60cmGreenArcLaserBattery",
+         "slot": 11
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "ParticleLance",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship7",
+   "friendlyName": "EarlyCruiser",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "SL_Defender",
+   "hullName": "Cruiser",
+   "driveName": "PegasusDrivex2",
+   "powerPlantName": "MoltenCoreFissionReactorIII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "ExoticSpike",
+   "propellantTanks": 50,
+   "noseArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 51
+   },
+   "lateralArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 4
+   },
+   "tailArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 4
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 9
+      },
+      {
+         "moduleName": "ISRUModule",
+         "slot": 11
+      },
+      {
+         "moduleName": "RemassScoop",
+         "slot": 12
+      },
+      {
+         "moduleName": "HydronTrap",
+         "slot": 14
+      },
+      {
+         "moduleName": "SolarPlatformKit",
+         "slot": 16
+      },
+      {
+         "moduleName": "SolarOutpostKit",
+         "slot": 17
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "RailgunBatteryMk2",
+         "slot": 13
+      },
+      {
+         "moduleName": "NemesisNuclearTorpedoBay",
+         "slot": 15
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "480cmGreenArcLaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship8",
+   "friendlyName": "EarlyBattlecruiser",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "SM_Patrol",
+   "hullName": "Battlecruiser",
+   "driveName": "PegasusDrivex5",
+   "powerPlantName": "MoltenCoreFissionReactorIII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "CobaltDust",
+   "propellantTanks": 75,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 15
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 6
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavySodiumHeatSink",
+         "slot": 10
+      },
+      {
+         "moduleName": "HeavySodiumHeatSink",
+         "slot": 12
+      },
+      {
+         "moduleName": "ElectronicCountermeasures1",
+         "slot": 13
+      },
+      {
+         "moduleName": "HydronTrap",
+         "slot": 15
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PointDefenseArcLaserTurret",
+         "slot": 11
+      },
+      {
+         "moduleName": "LightRailgunBatteryMk2",
+         "slot": 14
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "HeavyRailCannonMk3",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship9",
+   "friendlyName": "EarlyBattleship",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "SM_Patrol",
+   "hullName": "Battleship",
+   "driveName": "LightbulbDrivex6",
+   "powerPlantName": "GasCoreFissionReactorV",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "ExoticSpike",
+   "propellantTanks": 100,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 10
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 4
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 4
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 11
+      },
+      {
+         "moduleName": "ElectronicCountermeasures1",
+         "slot": 14
+      },
+      {
+         "moduleName": "FissionOutpostKit",
+         "slot": 15
+      },
+      {
+         "moduleName": "HydronTrap",
+         "slot": 18
+      },
+      {
+         "moduleName": "AntimatterSpiker",
+         "slot": 19
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PointDefenseLaserTurret",
+         "slot": 10
+      },
+      {
+         "moduleName": "PointDefenseLaserTurret",
+         "slot": 12
+      },
+      {
+         "moduleName": "PointDefenseLaserTurret",
+         "slot": 13
+      },
+      {
+         "moduleName": "PointDefenseLaserTurret",
+         "slot": 16
+      },
+      {
+         "moduleName": "PointDefenseLaserTurret",
+         "slot": 17
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "LightRailCannonMk2",
+         "slot": 7
+      },
+      {
+         "moduleName": "LightRailCannonMk2",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship10",
+   "friendlyName": "EarlyLancer",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "ML_Standoff",
+   "hullName": "Lancer",
+   "driveName": "FissionSpinnerDrivex6",
+   "powerPlantName": "MoltenCoreFissionReactorIII",
+   "batteryName": "QuantumBattery",
+   "radiatorName": "TitaniumArray",
+   "propellantTanks": 50,
+   "noseArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 12
+   },
+   "lateralArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 3
+   },
+   "tailArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 5
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 12
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 13
+      },
+      {
+         "moduleName": "ElectronicCountermeasures2",
+         "slot": 15
+      },
+      {
+         "moduleName": "AdvancedLaserEngine",
+         "slot": 16
+      },
+      {
+         "moduleName": "SlushHydrogenTankage",
+         "slot": 17
+      },
+      {
+         "moduleName": "ComponentArmor",
+         "slot": 19
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PointDefenseArcLaserTurret",
+         "slot": 11
+      },
+      {
+         "moduleName": "CoilgunBatteryMk2",
+         "slot": 18
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "SpinalSiegeCoilerMk3",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship11",
+   "friendlyName": "EarlyDreadnought",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "MM_SpaceSuperiority",
+   "hullName": "Dreadnought",
+   "driveName": "NeutronFluxLanternx1",
+   "powerPlantName": "GasCoreFissionReactorIII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 75,
+   "noseArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 12
+   },
+   "lateralArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 5
+   },
+   "tailArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 5
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 10
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 11
+      },
+      {
+         "moduleName": "ElectronicCountermeasures2",
+         "slot": 12
+      },
+      {
+         "moduleName": "SlushHydrogenTankage",
+         "slot": 13
+      },
+      {
+         "moduleName": "MuonSpiker",
+         "slot": 14
+      },
+      {
+         "moduleName": "ComponentArmor",
+         "slot": 15
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "HeavyCoilgunBatteryMk2",
+         "slot": 16
+      },
+      {
+         "moduleName": "HeavyCoilgunBatteryMk2",
+         "slot": 20
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "240cmGreenArcLaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "240cmGreenArcLaserCannon",
+         "slot": 8
+      },
+      {
+         "moduleName": "240cmGreenArcLaserCannon",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship12",
+   "friendlyName": "EarlyTitan",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "role": "LM_Interdictor",
+   "hullName": "Titan",
+   "driveName": "FirestarFissionLanternx4",
+   "powerPlantName": "GasCoreFissionReactorVI",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "ExoticSpike",
+   "propellantTanks": 100,
+   "noseArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 35
+   },
+   "lateralArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 8
+   },
+   "tailArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 15
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "ElectronicCountermeasures2",
+         "slot": 11
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 14
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 15
+      },
+      {
+         "moduleName": "SlushHydrogenTankage",
+         "slot": 18
+      },
+      {
+         "moduleName": "SuperconductingCoilBattery",
+         "slot": 19
+      },
+      {
+         "moduleName": "SuperconductingCoilBattery",
+         "slot": 22
+      },
+      {
+         "moduleName": "ComponentArmor",
+         "slot": 23
+      },
+      {
+         "moduleName": "AdvancedMarineAssaultUnit",
+         "slot": 24
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PointDefenseIonBattery",
+         "slot": 12
+      },
+      {
+         "moduleName": "PointDefenseIonBattery",
+         "slot": 13
+      },
+      {
+         "moduleName": "CoilgunBatteryMk2",
+         "slot": 20
+      },
+      {
+         "moduleName": "CoilgunBatteryMk2",
+         "slot": 21
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "HeavyPlasmaCannonMk3",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship22",
+   "friendlyName": "Advanced Gunship",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "MS_Strike",
+   "hullName": "Gunship",
+   "driveName": "TritonFusorDrivex3",
+   "powerPlantName": "HybridConfinementFusionReactorIII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "CobaltDust",
+   "propellantTanks": 50,
+   "noseArmor": {
+      "materialName": "HybridArmor",
+      "armorValue": 8
+   },
+   "lateralArmor": {
+      "materialName": "HybridArmor",
+      "armorValue": 4
+   },
+   "tailArmor": {
+      "materialName": "HybridArmor",
+      "armorValue": 3
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "LithiumHeatSink",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "LightCoilCannonMk3",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship23",
+   "friendlyName": "Advanced Escort",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "SM_Patrol",
+   "hullName": "Escort",
+   "driveName": "DeuteronFusorDrivex6",
+   "powerPlantName": "HybridConfinementFusionReactorIII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "CobaltDust",
+   "propellantTanks": 50,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 8
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 4
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "LithiumHeatSink",
+         "slot": 9
+      },
+      {
+         "moduleName": "MobileSpaceScienceLab",
+         "slot": 10
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "TartarusNuclearTorpedoBay",
+         "slot": 7
+      },
+      {
+         "moduleName": "TartarusNuclearTorpedoBay",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship24",
+   "friendlyName": "Advanced Corvette",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "LS_Penetrator",
+   "hullName": "Corvette",
+   "driveName": "ProtiumFusorDrivex4",
+   "powerPlantName": "HybridConfinementFusionReactorIII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 15,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 10
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 2
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 9
+      },
+      {
+         "moduleName": "ElectronicCountermeasures3",
+         "slot": 10
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "60cmUVPhaserBattery",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "LightCoilCannonMk2",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship25",
+   "friendlyName": "Advanced Frigate",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "SM_Patrol",
+   "hullName": "Frigate",
+   "driveName": "HelionTorusLanternx4",
+   "powerPlantName": "FusionTokamakV",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "ExoticSpike",
+   "propellantTanks": 10,
+   "noseArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 9
+   },
+   "lateralArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 4
+   },
+   "tailArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 5
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 9
+      },
+      {
+         "moduleName": "AdvancedLaserEngine",
+         "slot": 10
+      },
+      {
+         "moduleName": "ElectronicCountermeasures3",
+         "slot": 12
+      },
+      {
+         "moduleName": "HydronTrap",
+         "slot": 13
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PointDefensePhaserTurret",
+         "slot": 8
+      },
+      {
+         "moduleName": "LightCoilgunBatteryMk2",
+         "slot": 11
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "240cmUVLaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship26",
+   "friendlyName": "Advanced Monitor",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "SL_Defender",
+   "hullName": "Monitor",
+   "driveName": "ZetaHelionLanternx4",
+   "powerPlantName": "ZPinchFusionReactorII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 30,
+   "noseArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 20
+   },
+   "lateralArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 5
+   },
+   "tailArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 6
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "LithiumHeatSink",
+         "slot": 8
+      },
+      {
+         "moduleName": "Magazine",
+         "slot": 11
+      },
+      {
+         "moduleName": "HydronTrap",
+         "slot": 13
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PythonNuclearMissileBay",
+         "slot": 10
+      },
+      {
+         "moduleName": "PythonNuclearMissileBay",
+         "slot": 7
+      },
+      {
+         "moduleName": "PythonNuclearMissileBay",
+         "slot": 12
+      },
+      {
+         "moduleName": "PythonNuclearMissileBay",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship27",
+   "friendlyName": "Advanced Destroyer",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "MM_SpaceSuperiority",
+   "hullName": "Destroyer",
+   "driveName": "ZetaBoraneLanternx2",
+   "powerPlantName": "ZPinchFusionReactorIII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 50,
+   "noseArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 12
+   },
+   "lateralArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 5
+   },
+   "tailArmor": {
+      "materialName": "NanotubeArmor",
+      "armorValue": 7
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 10
+      },
+      {
+         "moduleName": "MobileSpaceScienceLab",
+         "slot": 12
+      },
+      {
+         "moduleName": "HydronTrap",
+         "slot": 13
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PointDefensePhaserTurret",
+         "slot": 9
+      },
+      {
+         "moduleName": "60cmGreenPhaserBattery",
+         "slot": 11
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "480cmGreenPhaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship28",
+   "friendlyName": "Advanced Cruiser",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "SL_Defender",
+   "hullName": "Cruiser",
+   "driveName": "HelionNovaLanternx6",
+   "powerPlantName": "InertialConfinementFusionReactorIII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 50,
+   "noseArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 12
+   },
+   "lateralArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 5
+   },
+   "tailArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 8
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 9
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 11
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 12
+      },
+      {
+         "moduleName": "HydronTrap",
+         "slot": 14
+      },
+      {
+         "moduleName": "AntimatterSpiker",
+         "slot": 16
+      },
+      {
+         "moduleName": "ComponentArmor",
+         "slot": 17
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "CoilgunBatteryMk2",
+         "slot": 13
+      },
+      {
+         "moduleName": "VulcanTorpedoBay",
+         "slot": 15
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "480cmGreenPhaserCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship29",
+   "friendlyName": "Advanced Battlecruiser",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "ML_Standoff",
+   "hullName": "Battlecruiser",
+   "driveName": "HelionNovaTorchx2",
+   "powerPlantName": "InertialConfinementFusionReactorVI",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 10,
+   "noseArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 12
+   },
+   "lateralArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 6
+   },
+   "tailArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 9
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavySodiumHeatSink",
+         "slot": 10
+      },
+      {
+         "moduleName": "HeavySodiumHeatSink",
+         "slot": 12
+      },
+      {
+         "moduleName": "AdvancedLaserEngine",
+         "slot": 13
+      },
+      {
+         "moduleName": "HydronTrap",
+         "slot": 15
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PointDefensePhaserTurret",
+         "slot": 11
+      },
+      {
+         "moduleName": "LightCoilgunBatteryMk2",
+         "slot": 14
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "720cmGreenPhaserCannon",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship30",
+   "friendlyName": "Advanced Battleship",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "SM_Patrol",
+   "hullName": "Battleship",
+   "driveName": "AntimatterPulsedPlasmaCoreLanternx5",
+   "powerPlantName": "AntimatterPlasmaCoreReactorIII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 50,
+   "noseArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 15
+   },
+   "lateralArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 7
+   },
+   "tailArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 10
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 11
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 14
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 15
+      },
+      {
+         "moduleName": "HydronTrap",
+         "slot": 18
+      },
+      {
+         "moduleName": "AntimatterSpiker",
+         "slot": 19
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "RattlerMissileBay",
+         "slot": 9
+      },
+      {
+         "moduleName": "RattlerMissileBay",
+         "slot": 10
+      },
+      {
+         "moduleName": "RattlerMissileBay",
+         "slot": 12
+      },
+      {
+         "moduleName": "RattlerMissileBay",
+         "slot": 13
+      },
+      {
+         "moduleName": "RattlerMissileBay",
+         "slot": 16
+      },
+      {
+         "moduleName": "40mmAutocannon",
+         "slot": 17
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "LightCoilCannonMk2",
+         "slot": 7
+      },
+      {
+         "moduleName": "LightCoilCannonMk2",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship31",
+   "friendlyName": "Advanced Lancer",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "ML_Standoff",
+   "hullName": "Lancer",
+   "driveName": "ProtiumNovaTorchx6",
+   "powerPlantName": "InertialConfinementFusionReactorVII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "ExoticSpike",
+   "propellantTanks": 10,
+   "noseArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 15
+   },
+   "lateralArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 8
+   },
+   "tailArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 10
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 12
+      },
+      {
+         "moduleName": "ElectronicCountermeasures3",
+         "slot": 13
+      },
+      {
+         "moduleName": "QuantumBattery",
+         "slot": 15
+      },
+      {
+         "moduleName": "AdvancedLaserEngine",
+         "slot": 16
+      },
+      {
+         "moduleName": "SlushHydrogenTankage",
+         "slot": 17
+      },
+      {
+         "moduleName": "ComponentArmor",
+         "slot": 19
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PointDefensePhaserTurret",
+         "slot": 11
+      },
+      {
+         "moduleName": "CoilgunBatteryMk2",
+         "slot": 18
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "SpinalNeutronLance",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship32",
+   "friendlyName": "Advanced Dreadnought",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "MM_SpaceSuperiority",
+   "hullName": "Dreadnought",
+   "driveName": "ProtiumConverterTorchx6",
+   "powerPlantName": "InertialConfinementFusionReactorVII",
+   "batteryName": "SuperconductingCoilBattery",
+   "radiatorName": "TinDroplet",
+   "propellantTanks": 100,
+   "noseArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 20
+   },
+   "lateralArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 9
+   },
+   "tailArmor": {
+      "materialName": "AdamantaneArmor",
+      "armorValue": 10
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 10
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 11
+      },
+      {
+         "moduleName": "ElectronicCountermeasures3",
+         "slot": 12
+      },
+      {
+         "moduleName": "SlushHydrogenTankage",
+         "slot": 13
+      },
+      {
+         "moduleName": "MuonSpiker",
+         "slot": 14
+      },
+      {
+         "moduleName": "ComponentArmor",
+         "slot": 15
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "HeavyParticleBeamBattery",
+         "slot": 16
+      },
+      {
+         "moduleName": "HeavyIonBattery",
+         "slot": 20
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "LightIonCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "LightIonCannon",
+         "slot": 8
+      },
+      {
+         "moduleName": "LightIonCannon",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "Ship33",
+   "friendlyName": "Advanced Titan",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 1,
+   "role": "LL_Intruder",
+   "hullName": "Titan",
+   "driveName": "PionTorchx6",
+   "powerPlantName": "AntimatterBeamCoreReactor",
+   "batteryName": "ExoticNanowireBattery",
+   "radiatorName": "ExoticSpike",
+   "propellantTanks": 20,
+   "noseArmor": {
+      "materialName": "HybridArmor",
+      "armorValue": 25
+   },
+   "lateralArmor": {
+      "materialName": "HybridArmor",
+      "armorValue": 12
+   },
+   "tailArmor": {
+      "materialName": "HybridArmor",
+      "armorValue": 25
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 11
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 14
+      },
+      {
+         "moduleName": "HeavyLithiumHeatSink",
+         "slot": 15
+      },
+      {
+         "moduleName": "SlushHydrogenTankage",
+         "slot": 18
+      },
+      {
+         "moduleName": "ElectronicCountermeasures3",
+         "slot": 19
+      },
+      {
+         "moduleName": "SuperconductingCoilBattery",
+         "slot": 22
+      },
+      {
+         "moduleName": "ComponentArmor",
+         "slot": 23
+      },
+      {
+         "moduleName": "AdvancedMarineAssaultUnit",
+         "slot": 24
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "PointDefenseIonBattery",
+         "slot": 12
+      },
+      {
+         "moduleName": "PointDefenseIonBattery",
+         "slot": 13
+      },
+      {
+         "moduleName": "ParticleBeamBattery",
+         "slot": 20
+      },
+      {
+         "moduleName": "ParticleBeamBattery",
+         "slot": 21
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "SpinalAntimatterParticleCannon",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+{
+   "dataName": "OrbitalFighter",
+   "friendlyName": "Orbital Fighter",
+   "factionName": "ResistCouncil",
+   "disable": false,
+   "hullAppearanceIndex": 0,
+   "role": "SS_Interceptor",
+   "hullName": "STOFighter",
+   "driveName": "NeutronLiquidRocketx2",
+   "powerPlantName": "FuelCellIII",
+   "batteryName": "Lithium-IonBattery",
+   "radiatorName": "TitaniumArray",
+   "propellantTanks": 10,
+   "noseArmor": {
+      "materialName": "TitaniumArmor",
+      "armorValue": 3
+   },
+   "lateralArmor": {
+      "materialName": "TitaniumArmor",
+      "armorValue": 0
+   },
+   "tailArmor": {
+      "materialName": "TitaniumArmor",
+      "armorValue": 0
+   },
+   "moduleTemplateEntries": [],   
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "KraitMissilePod",
+         "slot": 8
+      }     
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "35mmAutocannon",
+         "slot": 7
+      }
+   ],
+   "fireModeTemplateEntries": []
+ }, 
+ {
+   "dataName": "2070Gunship",
+   "friendlyName": "2070 Gunship",
+   "factionName": "AppeaseCouncil",
+   "hullAppearanceIndex": 0,
+   "disable": true,
+   "role": "SS_Interceptor",
+   "hullName": "Gunship",
+   "driveName": "DianaSuperheavyRocketx6",
+   "powerPlantName": "FuelCellI",
+   "batteryName": "Lithium-IonBattery",
+   "radiatorName": "TitaniumArray",
+   "propellantTanks": 65,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "Empty",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "10-inchCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+}, 
+ {
+   "dataName": "2070Escort",
+   "friendlyName": "2070 Escort",
+   "factionName": "DestroyCouncil",
+   "hullAppearanceIndex": 0,
+   "disable": true,
+   "role": "SL_Defender",
+   "hullName": "Escort",
+   "driveName": "DianaSuperheavyRocketx6",
+   "powerPlantName": "FuelCellI",
+   "batteryName": "Lithium-IonBattery",
+   "radiatorName": "TitaniumArray",
+   "propellantTanks": 59,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 5
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "Empty",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty",
+         "slot": 10
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "KraitMissileBay",
+         "slot": 7
+      },
+      {
+         "moduleName": "KraitMissileBay",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+ {
+   "dataName": "2070Corvette",
+   "friendlyName": "2070 Corvette",
+   "factionName": "CooperateCouncil",
+   "hullAppearanceIndex": 0,
+   "disable": true,
+   "role": "SM_Patrol",
+   "hullName": "Corvette",
+   "driveName": "DianaSuperheavyRocketx6",
+   "powerPlantName": "FuelCellI",
+   "batteryName": "Lithium-IonBattery",
+   "radiatorName": "TitaniumArray",
+   "propellantTanks": 60,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 10
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 2
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "Empty",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty",
+         "slot": 10
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "6-inchCannon",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "10-inchCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+}
+]

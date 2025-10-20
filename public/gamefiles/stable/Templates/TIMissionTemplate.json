@@ -1,0 +1,4776 @@
+[
+ {
+   "dataName": "Abductions",
+   "friendlyName": "Abductions",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      4,
+      0,
+      2,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 33,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 3,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Espionage"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_RegionXenoforming_AlienOnly"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": -2
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_NationStability"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Abductions_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_AlienOrProxy"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Abductions"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Region"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "knowledgeProject": "Project_TheirMethods",
+   "missionIconImagePath": "councilor_missions/ICO_abductions",
+   "targetingMethodType": "TIMissionTargeting_Region",
+   "completedIllustrationResource": [
+      "illustrations/AlienActivity_Abductions"
+   ]
+},
+ {
+   "dataName": "Advise",
+   "friendlyName": "Advise",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": true,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": true,
+   "XPonSuccess": 1,
+   "sortOrder": 8,
+   "missionContext": "Unlimited",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": true,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_ScannableObjectWithMyControlPoints"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Advise"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_NationHab"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Influence",
+      "value": 10
+   },
+   "missionIconImagePath": "councilor_missions/ICO_advisenation",
+   "targetingMethodType": "TIMissionTargeting_NationHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Advise"
+   ]
+},
+ {
+   "dataName": "Assassinate",
+   "friendlyName": "Assassinate Councilor",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      10,
+      4,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      5,
+      0,
+      0,
+      10,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 3,
+   "sortOrder": 15,
+   "missionContext": "Unlimited",
+   "utilityScore": 3,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Espionage"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_SecurityApparatus"
+         },
+         {
+            "$type": "TIMissionModifier_DetainedCouncilor"
+         },
+         {
+            "$type": "TIMissionModifier_IntelonDefendingCouncilor"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 12
+         },
+         {
+            "$type": "TIMissionModifier_CouncilorDefendStat",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderLocalControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AliensRemoved"
+         },
+         {
+            "$type": "TIMissionModifier_MyFactionLoyaltyMonitor"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Assassination_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_Assassinate_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_EnemyOrTurnedCouncilor"
+      },
+      {
+         "$type": "TIMissionCondition_BasicCouncilorIntel"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Assassinate"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Councilor"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_assassinate",
+   "targetingMethodType": "TIMissionTargeting_Councilor",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Assassinate_Earth",
+      "illustrations/Mission_Assassinate_Space",
+      "illustrations/Mission_Assassinate_Alien"
+   ],
+   "successSFX": "event:/SFX/UI_Special_SFX/trig_SFX_Assasination_Gunshot"
+},
+ {
+   "dataName": "AssaultAlienAsset",
+   "friendlyName": "Assault Alien Asset",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      12,
+      6,
+      0,
+      4,
+      0
+   ],
+   "hate": [
+      0,
+      2,
+      2,
+      0,
+      10,
+      10
+   ],
+   "specialPost": true,
+   "permanentAssignment": true,
+   "XPonSuccess": 3,
+   "sortOrder": 32,
+   "missionContext": "EarthOnly",
+   "utilityScore": 3,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 3,
+   "allowedForAutoDefense": true,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 4
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_AlienAssetDefense"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_AssaultAlienAsset_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_AssaultAlienAsset"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_AlienAsset"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_assaultfacility",
+   "targetingMethodType": "TIMissionTargeting_AlienAsset",
+   "completedIllustrationResource": [
+      "special_AlienAssetDestroyed"
+   ],
+   "successSFX": "event:/SFX/UI_Special_SFX/trig_SFX_Small_Unit_Combat"
+},
+ {
+   "dataName": "AssumeControl",
+   "friendlyName": "Grant Alien Control",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 40,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_AlienFacilityInNation"
+      },
+      {
+         "$type": "TIMissionCondition_HumanFactionsPermitControl"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_AssumeControl"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Nation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Influence",
+      "value": 100
+   },
+   "knowledgeProject": "Project_TheirPurpose",
+   "missionIconImagePath": "councilor_missions/ICO_assumecontrol",
+   "targetingMethodType": "TIMissionTargeting_Nation"
+},
+ {
+   "dataName": "BuildFacility",
+   "friendlyName": "Build Facility",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 38,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_CanConstructFacility"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_BuildFacility"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Region"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Money",
+      "value": 500
+   },
+   "knowledgeProject": "Project_TheirPurpose",
+   "missionIconImagePath": "councilor_missions/ICO_buildfacility",
+   "targetingMethodType": "TIMissionTargeting_Region"
+},
+ {
+   "dataName": "Contact",
+   "friendlyName": "Contact Councilor",
+   "disable": false,
+   "baseMission": true,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 25,
+   "missionContext": "Unlimited",
+   "utilityScore": 0,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_BasicCouncilorIntel"
+      },
+      {
+         "$type": "TIMissionCondition_ContactableTarget"
+      },
+      {
+         "$type": "TIMissionCondition_FreeCouncilor"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_InitiateContact"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Councilor"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Influence",
+      "value": 10
+   },
+   "missionIconImagePath": "councilor_missions/ICO_contact",
+   "targetingMethodType": "TIMissionTargeting_Councilor"
+},
+ {
+   "dataName": "ControlSpaceAsset",
+   "friendlyName": "Control Space Asset",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      30,
+      30,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      2,
+      2,
+      0,
+      7,
+      7
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 29,
+   "missionContext": "SpaceOnly",
+   "utilityScore": 4,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 3,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_TargetNegativeInfluence"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerMissionControlShortage"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 12
+         },
+         {
+            "$type": "TIMissionModifier_OwnedControlPoint",
+            "defenderAttribute": "Loyalty"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderHabSize"
+         },
+         {
+            "$type": "TIMissionModifier_IdeologicalDistance"
+         },
+         {
+            "$type": "TIMissionModifier_DefendedAsset"
+         },
+         {
+            "$type": "TIMissionModifier_SpaceAssetPopulation"
+         },
+         {
+            "$type": "TIMissionModifier_SpaceSupportShortage"
+         },
+         {
+            "$type": "TIMissionModifier_DecommissioningHab"
+         },
+         {
+            "$type": "TIMissionModifier_DefendingForceSize"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderMissionControlShortage"
+         },
+         {
+            "$type": "TIMissionModifier_HabStability"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_GainControlPoint",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_ControlAsset_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_EnemyHumanSpaceAsset"
+      },
+      {
+         "$type": "TIMissionCondition_SufficientMissionControl"
+      },
+      {
+         "$type": "TIMissionCondition_SpaceAssetNotInTransfer"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_ControlSpaceAsset"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_ShipHab"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_controlspaceasset",
+   "targetingMethodType": "TIMissionTargeting_ShipHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_ControlSpaceAsset",
+      "illustrations/Mission_ControlSpaceAsset"
+   ],
+   "successSFX": "event:/SFX/UI_Special_SFX/trig_SFX_Unrest_Cheers"
+},
+ {
+   "dataName": "Coup",
+   "friendlyName": "Coup d'Etat",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      4,
+      0,
+      2,
+      0
+   ],
+   "hate": [
+      0,
+      3,
+      0,
+      0,
+      5,
+      5
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 4,
+   "missionContext": "EarthOnly",
+   "utilityScore": 2,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 2,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerPopulationIdeology"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_NationUnrest"
+         },
+         {
+            "$type": "TIMissionModifier_UnhappyElites"
+         },
+         {
+            "$type": "TIMissionModifier_Oligarchs"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 8
+         },
+         {
+            "$type": "TIMissionModifier_JointControlPointStat",
+            "defenderAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_NationCohesion"
+         },
+         {
+            "$type": "TIMissionModifier_HappyElites"
+         },
+         {
+            "$type": "TIMissionModifier_NationDemocracy"
+         },
+         {
+            "$type": "TIMissionModifier_TargetNationGDP"
+         },
+         {
+            "$type": "TIMissionModifier_numDefendedControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_Oligarchs_Defense"
+         },
+         {
+            "$type": "TIMissionModifier_PherocyteResistance"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderPopulationIdeology"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Coup_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_MinimumGlobalAbductions_HigherValue"
+      },
+      {
+         "$type": "TIMissionCondition_HumanNation"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Coup"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Nation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_coup",
+   "targetingMethodType": "TIMissionTargeting_Nation",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Coup"
+   ],
+   "successSFX": "event:/SFX/UI_Special_SFX/trig_SFX_Unrest_Protests"
+},
+ {
+   "dataName": "Crackdown",
+   "friendlyName": "Crackdown",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      6,
+      2,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 2,
+   "missionContext": "EarthOnly",
+   "utilityScore": 4,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 2,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Investigation"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerPopulationIdeology"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_SecurityApparatus"
+         },
+         {
+            "$type": "TIMissionModifier_InsufficientCPMaintenance_Defender"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_OwnedControlPoint",
+            "defenderAttribute": "Administration"
+         },
+         {
+            "$type": "TIMissionModifier_TargetNationGDP"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderPopulationIdeology"
+         },
+         {
+            "$type": "TIMissionModifier_DefendedAsset"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Crackdown_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_Crackdown_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_VulnerableControlPoint"
+      },
+      {
+         "$type": "TIMissionCondition_HumanControlPoint"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Crackdown"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_OwnedControlPoint"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_crackdown",
+   "targetingMethodType": "TIMissionTargeting_ControlPoint",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Crackdown"
+   ],
+   "successSFX": "event:/SFX/UI_Special_SFX/trig_SFX_Police_Siren"
+},
+ {
+   "dataName": "DefendInterests",
+   "friendlyName": "Defend Interests",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 5,
+   "missionContext": "Unlimited",
+   "utilityScore": 4,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": true,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_DefendableAsset"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_DefendInterests"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_NationFleetHab"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Influence",
+      "value": 20
+   },
+   "missionIconImagePath": "councilor_missions/ICO_defendinterest",
+   "targetingMethodType": "TIMissionTargeting_NationFleetHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_DefendInterests"
+   ]
+},
+ {
+   "dataName": "Deorbit",
+   "friendlyName": "Deorbit",
+   "disable": false,
+   "baseMission": true,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 27,
+   "missionContext": "SpaceOnly",
+   "utilityScore": 0,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 3,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_CanDeorbit"
+      },
+      {
+         "$type": "TIMissionCondition_AllowedDeorbitTarget"
+      }
+   ],
+   "movementRule": "none",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Deorbit"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_RegionBase"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_deorbit",
+   "targetingMethodType": "TIMissionTargeting_RegionBase",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Deorbit"
+   ]
+},
+ {
+   "dataName": "Detain",
+   "friendlyName": "Detain Councilor",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      2,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      1,
+      1,
+      0,
+      2,
+      3
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 14,
+   "missionContext": "Unlimited",
+   "utilityScore": 3,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Investigation"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_SecurityApparatus"
+         },
+         {
+            "$type": "TIMissionModifier_DetainedCouncilor"
+         },
+         {
+            "$type": "TIMissionModifier_IntelonDefendingCouncilor"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 8
+         },
+         {
+            "$type": "TIMissionModifier_CouncilorDefendStat",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_AliensRemoved"
+         },
+         {
+            "$type": "TIMissionModifier_AlienDetainDifficulty"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Detain_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_Detain_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_DetainTarget"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_DetainCouncilor"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Councilor"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_detain",
+   "targetingMethodType": "TIMissionTargeting_Councilor",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Detain",
+      "illustrations/Mission_Detain",
+      "illustrations/Mission_Detain_Alien"
+   ],
+   "successSFX": "event:/SFX/UI_Special_SFX/trig_SFX_Jail_Door",
+   "successSFXAlienSpecial": "event:/SFX/Game_SFX/Hydra/trig_sfx_Hydra_Threatening"
+},
+ {
+   "dataName": "DetectCouncilActivity",
+   "friendlyName": "Surveil Location",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": true,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      -4,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": true,
+   "XPonSuccess": 1,
+   "sortOrder": 12,
+   "missionContext": "Unlimited",
+   "utilityScore": 3,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": true,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_DetectCouncilActivity"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_RegionFleetHab"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_detectcouncilactivity",
+   "targetingMethodType": "TIMissionTargeting_RegionFleetHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_SurveilLocation_Earth",
+      "illustrations/Mission_SurveilLocation_Space"
+   ]
+},
+ {
+   "dataName": "DominateNation",
+   "friendlyName": "Dominate Nation",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      30,
+      30,
+      0,
+      30,
+      30
+   ],
+   "hate": [
+      0,
+      30,
+      20,
+      0,
+      5,
+      5
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 0,
+   "missionContext": "Unlimited",
+   "utilityScore": 4,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerPopulationIdeology"
+         },
+         {
+            "$type": "TIMissionModifier_MassMedia"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAllyControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAdjacentControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_Legislature_ExecCP"
+         },
+         {
+            "$type": "TIMissionModifier_TheParty_NonExecCP"
+         },
+         {
+            "$type": "TIMissionModifier_InsufficientCPMaintenance_Defender"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 6
+         },
+         {
+            "$type": "TIMissionModifier_IdeologicalDistance"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_GainControlPoint",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_Purge_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_HumanNation"
+      },
+      {
+         "$type": "TIMissionCondition_EnemyControlPointsInNation"
+      },
+      {
+         "$type": "TIMissionCondition_SentinelModulesActive"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Dominate"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Nation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "knowledgeProject": "Project_CoexistencePact",
+   "missionIconImagePath": "councilor_missions/ICO_sentinel",
+   "targetingMethodType": "TIMissionTargeting_Nation"
+},
+ {
+   "dataName": "EnthrallElites",
+   "friendlyName": "Enthrall Elites",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      4,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      5
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 36,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_MeanAbductionsinNation_AlienOnly"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAllyControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAdjacentControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AlienCoordination"
+         },
+         {
+            "$type": "TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly"
+         },
+         {
+            "$type": "TIMissionModifier_InsufficientCPMaintenance_Defender"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 2
+         },
+         {
+            "$type": "TIMissionModifier_OwnedControlPoint",
+            "defenderAttribute": "Science"
+         },
+         {
+            "$type": "TIMissionModifier_IdeologicalDistance"
+         },
+         {
+            "$type": "TIMissionModifier_DisabledControlPoint"
+         },
+         {
+            "$type": "TIMissionModifier_PherocyteResistance"
+         },
+         {
+            "$type": "TIMissionModifier_TargetNationGDP"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderPopulationIdeology"
+         },
+         {
+            "$type": "TIMissionModifier_ConditionalEnthrallDefendedPoint"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_GainControlPoint",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_EnthrallElites_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_MinimumGlobalAbductions_LowerValue"
+      },
+      {
+         "$type": "TIMissionCondition_EnthrallableControlPoint"
+      },
+      {
+         "$type": "TIMissionCondition_HumanControlPoint"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_EnthrallElites"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_OwnedControlPoint"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "knowledgeProject": "Project_TheirOperations",
+   "missionIconImagePath": "councilor_missions/ICO_enthrallelites",
+   "targetingMethodType": "TIMissionTargeting_ControlPoint",
+   "completedIllustrationResource": [
+      "illustrations/AlienActivity_EnthrallElites"
+   ]
+},
+ {
+   "dataName": "EnthrallOrg",
+   "friendlyName": "Enthrall Org",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      4,
+      2,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 37,
+   "missionContext": "EarthOnly",
+   "utilityScore": 3,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_MeanAbductionsinNation_AlienOnly"
+         },
+         {
+            "$type": "TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly"
+         },
+         {
+            "$type": "TIMissionModifier_AlienCoordination"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 10
+         },
+         {
+            "$type": "TIMissionModifier_CouncilorDefendStat",
+            "defenderAttribute": "Science"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_PherocyteResistance"
+         },
+         {
+            "$type": "TIMissionModifier_OrgDefenses"
+         },
+         {
+            "$type": "TIMissionModifier_OrgDefenses_Admin"
+         },
+         {
+            "$type": "TIMissionModifier_OrgDefense"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Alien"
+      },
+      {
+         "$type": "TIMissionCondition_MinimumGlobalAbductions_LowerValue"
+      },
+      {
+         "$type": "TIMissionCondition_TargetableOrg"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_HostileTakeover"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Org"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "knowledgeProject": "Project_Pherocytes",
+   "missionIconImagePath": "councilor_missions/ICO_hostiletakeover",
+   "targetingMethodType": "TIMissionTargeting_Org",
+   "completedIllustrationResource": [
+      "illustrations/AlienActivity_EnthrallElites"
+   ]
+},
+ {
+   "dataName": "EnthrallPublic",
+   "friendlyName": "Enthrall Public",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      4,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 34,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 2,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_MeanAbductionsinNation_AlienOnly"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAllyControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAdjacentControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AlienNation"
+         },
+         {
+            "$type": "TIMissionModifier_AlienCoordination"
+         },
+         {
+            "$type": "TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 6
+         },
+         {
+            "$type": "TIMissionModifier_NationPopulation"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_EnthrallPublic_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_MinimumGlobalAbductions_LowerValue"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_EnthrallPublic"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Region"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "knowledgeProject": "Project_TheirOperations",
+   "missionIconImagePath": "councilor_missions/ICO_enthrallpublic",
+   "targetingMethodType": "TIMissionTargeting_Region",
+   "completedIllustrationResource": [
+      "illustrations/AlienActivity_EnthrallPublic"
+   ]
+},
+ {
+   "dataName": "EnthrallUnalignedElites",
+   "friendlyName": "Enthrall Unaligned Elites",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      4,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 35,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_MeanAbductionsinNation_AlienOnly"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAllyControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAdjacentControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AlienCoordination"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier"
+         },
+         {
+            "$type": "TIMissionModifier_IdeologicalDistance"
+         },
+         {
+            "$type": "TIMissionModifier_TargetNationGDP"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderPopulationIdeology"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_GainControlPoint",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Alien"
+      },
+      {
+         "$type": "TIMissionCondition_AvailableControlPoint"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_MinimumGlobalAbductions_LowerValue"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_EnthrallElites"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Nation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "knowledgeProject": "Project_TheirOperations",
+   "missionIconImagePath": "councilor_missions/ICO_enthrallelites",
+   "targetingMethodType": "TIMissionTargeting_Nation",
+   "completedIllustrationResource": [
+      "illustrations/AlienActivity_EnthrallElites"
+   ]
+},
+ {
+   "dataName": "Extract",
+   "friendlyName": "Extract Councilor",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      10,
+      2,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 17,
+   "missionContext": "Unlimited",
+   "utilityScore": 2,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerLocalControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_SecurityApparatus"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 8
+         },
+         {
+            "$type": "TIMissionModifier_ExtractionDefense_Councilor",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_ExtractionDefense_JointCouncilStat",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_ExtractionDefenseSecurityApparatus"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_ExtractionTarget"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_ExtractCouncilor"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Councilor"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_extract",
+   "targetingMethodType": "TIMissionTargeting_Councilor",
+   "completedIllustrationResource": [
+      "illustrations/Mission_ExtractCouncilor"
+   ]
+},
+ {
+   "dataName": "GainInfluence",
+   "friendlyName": "Control Nation",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      4,
+      2,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": true,
+   "XPonSuccess": 2,
+   "sortOrder": 1,
+   "missionContext": "EarthOnly",
+   "utilityScore": 4,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerPopulationIdeology"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAllyControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAdjacentControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_Bureaucracy"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_TargetNationGDP"
+         },
+         {
+            "$type": "TIMissionModifier_NationalRivalries"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_GainControlPoint",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_AvailableControlPoint"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_GainOpenControlPoint"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Nation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_gain_influence",
+   "targetingMethodType": "TIMissionTargeting_OpenControlPoint",
+   "completedIllustrationResource": [
+      "special_ControlPoint"
+   ]
+},
+ {
+   "dataName": "GoToGround",
+   "friendlyName": "Go To Ground",
+   "disable": false,
+   "baseMission": true,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      -8,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": true,
+   "XPonSuccess": 1,
+   "sortOrder": 24,
+   "missionContext": "EarthOnly",
+   "utilityScore": 0,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 5,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": true,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [],
+   "councilorEffects": [
+      {
+         "$type": "TIMissionEffect_GoToGround"
+      }
+   ],
+   "target": {
+      "$type": "TIMissionTarget_Region"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_gotoground",
+   "targetingMethodType": "TIMissionTargeting_Region",
+   "completedIllustrationResource": [
+      "illustrations/Mission_GoToGround"
+   ]
+},
+ {
+   "dataName": "HostileTakeover",
+   "friendlyName": "Hostile Takeover",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      2,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      1,
+      0,
+      0,
+      2,
+      2
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 19,
+   "missionContext": "Unlimited",
+   "utilityScore": 3,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Administration"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_NationalIndustries"
+         },
+         {
+            "$type": "TIMissionModifier_IntelonDefendingCouncilor"
+         },
+         {
+            "$type": "TIMissionModifier_TargetBroke"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 10
+         },
+         {
+            "$type": "TIMissionModifier_CouncilorDefendStat",
+            "defenderAttribute": "Administration"
+         },
+         {
+            "$type": "TIMissionModifier_OrgPoolDefense",
+            "defenderAttribute": "Administration"
+         },
+         {
+            "$type": "TIMissionModifier_OrgDefenses"
+         },
+         {
+            "$type": "TIMissionModifier_OrgDefenses_Admin"
+         },
+         {
+            "$type": "TIMissionModifier_OrgDefense"
+         },
+         {
+            "$type": "TIMissionModifier_NationalIndustries_Def"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_HostileTakeover_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_HostileTakeover_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_TargetableOrg"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_HostileTakeover"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Org"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Money"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_hostiletakeover",
+   "targetingMethodType": "TIMissionTargeting_Org",
+   "completedIllustrationResource": [
+      "illustrations/Mission_HostileTakeover"
+   ]
+},
+ {
+   "dataName": "Inspire",
+   "friendlyName": "Inspire Councilor",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      -2,
+      -4,
+      0,
+      -4,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 22,
+   "missionContext": "Unlimited",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": true,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 8
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Inspire_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_MyFactionCouncilor"
+      },
+      {
+         "$type": "TIMissionCondition_FreeCouncilor"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Inspire"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Councilor"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_inspire",
+   "targetingMethodType": "TIMissionTargeting_Councilor",
+   "completedIllustrationResource": [
+      "illustrations/Mission_InspireCouncilor"
+   ]
+},
+ {
+   "dataName": "InvestigateAlienActivity",
+   "friendlyName": "Investigate Alien Activity",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      2,
+      0,
+      0,
+      -2,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 31,
+   "missionContext": "EarthOnly",
+   "utilityScore": 0,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_InvestigateAlienActivity"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_AlienActivity"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Operations",
+      "value": 5
+   },
+   "missionIconImagePath": "councilor_missions/ICO_investigatealienactivity",
+   "targetingMethodType": "TIMissionTargeting_AlienActivity",
+   "completedIllustrationResource": [
+      "illustrations/Mission_InvestigateAlienActivity"
+   ]
+},
+ {
+   "dataName": "InvestigateCouncilor",
+   "friendlyName": "Investigate Councilor",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      2,
+      0,
+      0,
+      -2,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": true,
+   "XPonSuccess": 2,
+   "sortOrder": 13,
+   "missionContext": "Unlimited",
+   "utilityScore": 3,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Investigation"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerLocalControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_DetainedCouncilor"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorDefendStat",
+            "defenderAttribute": "Espionage"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderLocalControlPoints"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_InvestigateCouncilor_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_AnyCouncilorwithUnknowns"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_InvestigateCouncilor"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Councilor"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_investigatecouncilor",
+   "targetingMethodType": "TIMissionTargeting_Councilor",
+   "completedIllustrationResource": [
+      "illustrations/Mission_InvestigateCouncilor"
+   ]
+},
+ {
+   "dataName": "Orbit",
+   "friendlyName": "Orbit",
+   "disable": false,
+   "baseMission": true,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 26,
+   "missionContext": "Unlimited",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 3,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_CanLaunchToOrbit"
+      },
+      {
+         "$type": "TIMissionCondition_AllowedOrbitTarget"
+      }
+   ],
+   "movementRule": "MoveToLaunchSite",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Orbit"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_ShipHab"
+   },
+   "cost": {
+      "$type": "TIMissionCost_FlatOnEarth",
+      "resourceType": "Boost",
+      "value": 0.1
+   },
+   "missionIconImagePath": "councilor_missions/ICO_orbit",
+   "targetingMethodType": "TIMissionTargeting_ShipHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Orbit"
+   ],
+   "successSFX": "event:/SFX/Environment/trig_SFX_Surface_to_Orbit"
+},
+ {
+   "dataName": "PassTechnology",
+   "friendlyName": "Pass Technology",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 41,
+   "missionContext": "Unlimited",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Alien"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_ContactableHuman"
+      },
+      {
+         "$type": "TIMissionCondition_FreeCouncilor"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_PassTechnology"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Councilor"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Influence",
+      "value": 10
+   },
+   "knowledgeProject": "Project_TheirTechnology",
+   "missionIconImagePath": "councilor_missions/ICO_passtechnology",
+   "targetingMethodType": "TIMissionTargeting_Councilor"
+},
+ {
+   "dataName": "Propaganda",
+   "friendlyName": "Public Campaign",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      2,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": true,
+   "XPonSuccess": 2,
+   "sortOrder": 6,
+   "missionContext": "EarthOnly",
+   "utilityScore": 2,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 2,
+   "allowedForAutoDefense": true,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAllyControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAdjacentControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_MassMedia"
+         },
+         {
+            "$type": "TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_NationPopulation"
+         },
+         {
+            "$type": "TIMissionModifier_AlienNation"
+         },
+         {
+            "$type": "TIMissionModifier_Censorship"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Propaganda_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Propaganda"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Nation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Money"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_propaganda",
+   "targetingMethodType": "TIMissionTargeting_Nation",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Propaganda"
+   ]
+},
+ {
+   "dataName": "Protect",
+   "friendlyName": "Protect Councilor",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": true,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": true,
+   "XPonSuccess": 1,
+   "sortOrder": 23,
+   "missionContext": "Unlimited",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": true,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_ProtectTarget"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Protect"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_RegionCouncilorHab"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_protect",
+   "targetingMethodType": "TIMissionTargeting_RegionCouncilorHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Protect"
+   ]
+},
+ {
+   "dataName": "Purge",
+   "friendlyName": "Purge",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      4,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      1,
+      1,
+      0,
+      5,
+      5
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 3,
+   "missionContext": "EarthOnly",
+   "utilityScore": 4,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Espionage"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerPopulationIdeology"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAllyControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAdjacentControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_Legislature_ExecCP"
+         },
+         {
+            "$type": "TIMissionModifier_TheParty_NonExecCP"
+         },
+         {
+            "$type": "TIMissionModifier_InsufficientCPMaintenance_Defender"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 3
+         },
+         {
+            "$type": "TIMissionModifier_OwnedControlPoint",
+            "defenderAttribute": "Administration"
+         },
+         {
+            "$type": "TIMissionModifier_TargetNationGDP"
+         },
+         {
+            "$type": "TIMissionModifier_IdeologicalDistance"
+         },
+         {
+            "$type": "TIMissionModifier_DisabledControlPoint"
+         },
+         {
+            "$type": "TIMissionModifier_DefendedAsset"
+         },
+         {
+            "$type": "TIMissionModifier_Legislature_ExecCP_Defense"
+         },
+         {
+            "$type": "TIMissionModifier_TheParty_NonExecCP_Defense"
+         },
+         {
+            "$type": "TIMissionModifier_NationalRivalries"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderPopulationIdeology"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_GainControlPoint",
+      "Mission_Purge_Att"
+   ],
+   "defenderContexts": [
+      "Mission_Purge_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_VulnerableControlPoint"
+      },
+      {
+         "$type": "TIMissionCondition_HumanControlPoint"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Purge"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_OwnedControlPoint"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_purge",
+   "targetingMethodType": "TIMissionTargeting_ControlPoint",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Purge"
+   ]
+},
+ {
+   "dataName": "SabotageFacilities",
+   "friendlyName": "Sabotage Facilities",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      12,
+      2,
+      0,
+      0,
+      -6
+   ],
+   "hate": [
+      0,
+      2,
+      0,
+      0,
+      3,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 11,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 2,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Espionage"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_NationUnrest"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 12
+         },
+         {
+            "$type": "TIMissionModifier_JointControlPointStat",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_RegionalDefenses"
+         },
+         {
+            "$type": "TIMissionModifier_AlienNation"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_SabotageFacilities_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_SabotageFacilities_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_DamageSpaceFacilities"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_SpaceFacility"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_sabotagefacilities",
+   "targetingMethodType": "TIMissionTargeting_SpaceFacility",
+   "completedIllustrationResource": [
+      "illustrations/Mission_SabotageFacility"
+   ],
+   "successSFX": "event:/SFX/Game_SFX/Explosions/trig_sfx_ExplosionShortSmoothCleanKickbackSmoothTailStereo"
+},
+ {
+   "dataName": "SabotageHabModule",
+   "friendlyName": "Sabotage Hab Module",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      12,
+      2,
+      0,
+      0,
+      -6
+   ],
+   "hate": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 11,
+   "missionContext": "SpaceOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 2,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Espionage"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 4
+         },
+         {
+            "$type": "TIMissionModifier_JointCouncilStat",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_DefendedAsset"
+         },
+         {
+            "$type": "TIMissionModifier_SpaceSupportShortage"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderMissionControlShortage"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_SabotageHabModule_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_SabotageHabModule_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_TargetableHabModule"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_DestroyHabModule"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_EnemyHabModule"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_sabotagehab",
+   "targetingMethodType": "TIMissionTargeting_HabModule",
+   "completedIllustrationResource": [
+      "illustrations/Mission_SabotageHabModule",
+      "illustrations/Mission_SabotageHabModule"
+   ],
+   "successSFX": "event:/SFX/Game_SFX/Explosions/trig_sfx_ExplosionSubtlePoof01Stereo"
+},
+ {
+   "dataName": "SabotageProject",
+   "friendlyName": "Sabotage Project",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      -2
+   ],
+   "hate": [
+      0,
+      2,
+      0,
+      0,
+      3,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 20,
+   "missionContext": "Unlimited",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Espionage"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 6
+         },
+         {
+            "$type": "TIMissionModifier_CouncilorDefendStat",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_SpaceSupportShortage"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderMissionControlShortage"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_SabotageProject_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_SabotageProject_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_FactionHasVulnerableProjects"
+      },
+      {
+         "$type": "TIMissionCondition_FreeCouncilor"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_SabotageProject"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_EnemyProjectLocation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_sabotageproject",
+   "targetingMethodType": "TIMissionTargeting_CouncilorHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_SabotageProject"
+   ]
+},
+ {
+   "dataName": "SeizeSpaceAsset",
+   "friendlyName": "Seize Space Asset",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      12,
+      6,
+      0,
+      2,
+      4
+   ],
+   "hate": [
+      0,
+      2,
+      2,
+      0,
+      10,
+      10
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 30,
+   "missionContext": "SpaceOnly",
+   "utilityScore": 4,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 3,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_AttackingForceSize"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerMissionControlShortage"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_JointCouncilStat",
+            "defenderAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_DefendingForceSize"
+         },
+         {
+            "$type": "TIMissionModifier_SpaceSupportShortage"
+         },
+         {
+            "$type": "TIMissionModifier_DecommissioningHab"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderMissionControlShortage"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_SeizeSpaceAsset_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_SeizeSpaceAsset_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_SeizeSpaceAssetTargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_EnemySpaceAsset"
+      },
+      {
+         "$type": "TIMissionCondition_SeizeSpaceAssetTroopsPresent"
+      }
+   ],
+   "movementRule": "MoveWhenSuccessful",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_SeizeSpaceAsset"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_ShipHab"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_seizespaceasset",
+   "targetingMethodType": "TIMissionTargeting_ShipHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_SeizeSpaceAsset",
+      "illustrations/Mission_SeizeSpaceAsset"
+   ],
+   "successSFX": "event:/SFX/UI_Special_SFX/trig_SFX_Seize_Space_Asset"
+},
+ {
+   "dataName": "SetNationalPolicy",
+   "friendlyName": "Set National Policy",
+   "disable": false,
+   "baseMission": true,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      10,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 7,
+   "missionContext": "EarthOnly",
+   "utilityScore": 0,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 3,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_ExecutiveControl"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Nation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Influence",
+      "value": 10
+   },
+   "missionIconImagePath": "councilor_missions/ICO_callpolicyvote",
+   "targetingMethodType": "TIMissionTargeting_Nation"
+},
+ {
+   "dataName": "Stabilize",
+   "friendlyName": "Stabilize Nation",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      6,
+      3,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": true,
+   "XPonSuccess": 2,
+   "sortOrder": 10,
+   "missionContext": "EarthOnly",
+   "utilityScore": 3,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 2,
+   "allowedForAutoDefense": true,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerPopulationIdeology"
+         },
+         {
+            "$type": "TIMissionModifier_RegionalAuthorities"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_NationCohesion"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_NationPopulation"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_NationalRivalries"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Stabilize_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_MinimumGlobalAbductions_HigherValue"
+      },
+      {
+         "$type": "TIMissionCondition_MinimumUnrest"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Stabilize"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Nation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_stabilize",
+   "targetingMethodType": "TIMissionTargeting_Nation",
+   "completedIllustrationResource": [
+      "illustrations/Mission_StabilizeNation"
+   ]
+},
+ {
+   "dataName": "StealProject",
+   "friendlyName": "Steal Project",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      2,
+      0,
+      0,
+      -8
+   ],
+   "hate": [
+      0,
+      2,
+      0,
+      0,
+      3,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 21,
+   "missionContext": "Unlimited",
+   "utilityScore": 2,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Espionage"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_DetainedCouncilor"
+         },
+         {
+            "$type": "TIMissionModifier_IntelonDefendingCouncilor"
+         },
+         {
+            "$type": "TIMissionModifier_TargetBroke"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 6
+         },
+         {
+            "$type": "TIMissionModifier_CouncilorDefendStat",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_SpaceSupportShortage"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderMissionControlShortage"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_StealProject_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_StealProject_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_FactionHasStealableProjects"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_FreeCouncilor"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_StealProject"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_EnemyProjectLocation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_stealproject",
+   "targetingMethodType": "TIMissionTargeting_CouncilorHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_StealProject"
+   ]
+},
+ {
+   "dataName": "TerrorizeRegion",
+   "friendlyName": "Terrorize Region",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      16,
+      16,
+      0,
+      30,
+      16
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 39,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 3,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_RegionalDefenses"
+         },
+         {
+            "$type": "TIMissionModifier_OwnedControlPoint",
+            "defenderAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_NationPopulation"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_Terrorize_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Alien"
+      },
+      {
+         "$type": "TIMissionCondition_TerrorizeVulnerableControlPoint"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_TerrorizeRegion"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Region"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "knowledgeProject": "Project_SalamanderAutopsy",
+   "missionIconImagePath": "councilor_missions/ICO_sabotageproject",
+   "targetingMethodType": "TIMissionTargeting_Region",
+   "completedIllustrationResource": [
+      "illustrations/AlienActivity_TerrorizeRegion"
+   ]
+},
+ {
+   "dataName": "Transfer",
+   "friendlyName": "Transfer",
+   "disable": false,
+   "baseMission": true,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 28,
+   "missionContext": "SpaceOnly",
+   "utilityScore": 0,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 3,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_CanTransfer"
+      },
+      {
+         "$type": "TIMissionCondition_AllowedTransferTarget"
+      }
+   ],
+   "movementRule": "none",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Transfer"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_ShipHab"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_transfer",
+   "targetingMethodType": "TIMissionTargeting_ShipHab",
+   "completedIllustrationResource": [
+      "illustrations/Mission_Transfer"
+   ]
+},
+ {
+   "dataName": "Turn",
+   "friendlyName": "Turn Councilor",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      12,
+      6,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 2,
+   "sortOrder": 16,
+   "missionContext": "Unlimited",
+   "utilityScore": 4,
+   "UIalertEnemyOnFail": true,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 1,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Persuasion"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_RegionXenoforming_AlienAndProxyOnly"
+         },
+         {
+            "$type": "TIMissionModifier_IntelonDefendingCouncilor"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 15
+         },
+         {
+            "$type": "TIMissionModifier_CouncilorDefendStat",
+            "defenderAttribute": "Loyalty"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Security"
+         },
+         {
+            "$type": "TIMissionModifier_IdeologicalDistance"
+         },
+         {
+            "$type": "TIMissionModifier_PherocyteResistance"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Turn_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_HasSpySlot"
+      },
+      {
+         "$type": "TIMissionCondition_TurnableEnemyCouncilor"
+      },
+      {
+         "$type": "TIMissionCondition_HasIntelOnCouncilorSecrets"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_TurnCouncilor"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Councilor"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Influence"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_turn",
+   "targetingMethodType": "TIMissionTargeting_Councilor",
+   "completedIllustrationResource": [
+      "illustrations/Mission_TurnCouncilor"
+   ]
+},
+ {
+   "dataName": "Unrest",
+   "friendlyName": "Increase Unrest",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      12,
+      6,
+      0,
+      0,
+      -4
+   ],
+   "hate": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": true,
+   "XPonSuccess": 2,
+   "sortOrder": 9,
+   "missionContext": "EarthOnly",
+   "utilityScore": 2,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 2,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerPopulationIdeology"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly"
+         },
+         {
+            "$type": "TIMissionModifier_IdentityBlocs"
+         },
+         {
+            "$type": "TIMissionModifier_Warlords"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_NationCohesion"
+         },
+         {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Command"
+         },
+         {
+            "$type": "TIMissionModifier_NationPopulation"
+         },
+         {
+            "$type": "TIMissionModifier_DefenderPopulationIdeology"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "Mission_Unrest_Att",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_MinimumGlobalAbductions_LowerValue"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_IncreaseUnrest"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Region"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_unrest",
+   "targetingMethodType": "TIMissionTargeting_Region",
+   "completedIllustrationResource": [
+      "illustrations/Mission_IncreaseUnrest"
+   ],
+   "successSFX": "event:/SFX/UI_Special_SFX/trig_SFX_Unrest_Riot"
+},
+ {
+   "dataName": "Xenoform",
+   "friendlyName": "Xenoform",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      8,
+      4,
+      0,
+      2,
+      -4
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 42,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": true,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Contested",
+      "attackingModifiers": [
+         {
+            "$type": "TIMissionModifier_CouncilorAttackStat",
+            "attackerAttribute": "Espionage"
+         },
+         {
+            "$type": "TIMissionModifier_ResourceSpent"
+         },
+         {
+            "$type": "TIMissionModifier_AbductionsInRegion_AlienOnly"
+         },
+         {
+            "$type": "TIMissionModifier_AttackerAllyControlPoints"
+         },
+         {
+            "$type": "TIMissionModifier_AlienNation"
+         }
+      ],
+      "defendingModifiers": [
+         {
+            "$type": "TIMissionModifier_FlatModifier",
+            "flatModifier": 4
+         },
+         {
+            "$type": "TIMissionModifier_RegionalDefenses"
+         },
+         {
+            "$type": "TIMissionModifier_RegionPopulationDensity"
+         }
+      ]
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "Mission_Xenoform_Def"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_Xenoform"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Region"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Bonus",
+      "resourceType": "Operations"
+   },
+   "knowledgeProject": "Project_AlienFlora",
+   "missionIconImagePath": "councilor_missions/ICO_xenoform",
+   "targetingMethodType": "TIMissionTargeting_Region"
+},
+ {
+   "dataName": "ResistWin",
+   "friendlyName": "Close the Gate",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 4,
+   "sortOrder": 0,
+   "missionContext": "Unlimited",
+   "utilityScore": 999,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_VictoryCondition"
+      }
+   ],
+   "movementRule": "none",
+   "targetEffects": [],
+   "councilorEffects": [
+      {
+         "$type": "TIMissionEffect_Win"
+      }
+   ],
+   "target": {
+      "$type": "TIMissionTarget_VictoryMissionTarget"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_mission_resist",
+   "targetingMethodType": "TIMissionTargeting_HabModule"
+},
+ {
+   "dataName": "DestroyWin",
+   "friendlyName": "Trigger the Weapon",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 4,
+   "sortOrder": 0,
+   "missionContext": "Unlimited",
+   "utilityScore": 999,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_VictoryCondition"
+      }
+   ],
+   "movementRule": "none",
+   "targetEffects": [],
+   "councilorEffects": [
+      {
+         "$type": "TIMissionEffect_Win"
+      }
+   ],
+   "target": {
+      "$type": "TIMissionTarget_VictoryMissionTarget"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_mission_destroy",
+   "targetingMethodType": "TIMissionTargeting_HabModule"
+},
+ {
+   "dataName": "AppeaseWin",
+   "friendlyName": "Claim Hegemony",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 4,
+   "sortOrder": -1,
+   "missionContext": "Unlimited",
+   "utilityScore": 999,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_VictoryCondition"
+      }
+   ],
+   "movementRule": "none",
+   "targetEffects": [],
+   "councilorEffects": [
+      {
+         "$type": "TIMissionEffect_Win"
+      }
+   ],
+   "target": {
+      "$type": "TIMissionTarget_VictoryMissionTarget"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_mission_appease",
+   "targetingMethodType": "TIMissionTargeting_HabModule"
+},
+ {
+   "dataName": "EscapeWin",
+   "friendlyName": "Launch the Bifrost",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 4,
+   "sortOrder": 0,
+   "missionContext": "Unlimited",
+   "utilityScore": 999,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_VictoryCondition"
+      }
+   ],
+   "movementRule": "none",
+   "targetEffects": [],
+   "councilorEffects": [
+      {
+         "$type": "TIMissionEffect_Win"
+      }
+   ],
+   "target": {
+      "$type": "TIMissionTarget_VictoryMissionTarget"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_mission_escape",
+   "targetingMethodType": "TIMissionTargeting_HabModule"
+},
+ {
+   "dataName": "SubmitWin",
+   "friendlyName": "Herald Our Masters",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 4,
+   "sortOrder": 0,
+   "missionContext": "Unlimited",
+   "utilityScore": 999,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_VictoryCondition"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [],
+   "councilorEffects": [
+      {
+         "$type": "TIMissionEffect_Win"
+      }
+   ],
+   "target": {
+      "$type": "TIMissionTarget_VictoryMissionTarget"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_mission_submit",
+   "targetingMethodType": "TIMissionTargeting_Region"
+},
+ {
+   "dataName": "CooperateWin",
+   "friendlyName": "Forge an Alliance",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 4,
+   "sortOrder": 0,
+   "missionContext": "Unlimited",
+   "utilityScore": 999,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_VictoryCondition"
+      }
+   ],
+   "movementRule": "none",
+   "targetEffects": [],
+   "councilorEffects": [
+      {
+         "$type": "TIMissionEffect_Win"
+      }
+   ],
+   "target": {
+      "$type": "TIMissionTarget_VictoryMissionTarget"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_mission_cooperate",
+   "targetingMethodType": "TIMissionTargeting_HabModule"
+},
+ {
+   "dataName": "ExploitWin",
+   "friendlyName": "Tame the Enemy",
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 4,
+   "sortOrder": 0,
+   "missionContext": "Unlimited",
+   "utilityScore": 999,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 0,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_VictoryCondition"
+      }
+   ],
+   "movementRule": "none",
+   "targetEffects": [],
+   "councilorEffects": [
+      {
+         "$type": "TIMissionEffect_Win"
+      }
+   ],
+   "target": {
+      "$type": "TIMissionTarget_VictoryMissionTarget"
+   },
+   "missionIconImagePath": "councilor_missions/ICO_mission_exploit",
+   "targetingMethodType": "TIMissionTargeting_HabModule"
+}
+]

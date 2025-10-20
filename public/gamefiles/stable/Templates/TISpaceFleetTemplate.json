@@ -1,0 +1,462 @@
+[
+ {
+   "dataName": "PlayerSkirmishFleet",
+   "friendlyName": "1st Fleet",
+   "factionName": "ResistCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Line",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship3"
+      },
+      {
+         "shipTemplateName": "Ship4"
+      },
+      {
+         "shipTemplateName": "Ship4"
+      },
+      {
+         "shipTemplateName": "Ship3"
+      }
+   ],
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": 355
+},
+ {
+   "dataName": "AISkirmishFleet",
+   "friendlyName": "Sierra",
+   "factionName": "SubmitCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Line",
+   "formationFocus": "Ranged",  
+   "formationConcentration": "Flanks",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship5"
+      },
+      {
+         "shipTemplateName": "Ship5"
+      },
+      {
+         "shipTemplateName": "Ship1"
+      },
+      {
+         "shipTemplateName": "Ship1"
+      },
+      {
+         "shipTemplateName": "Ship1"
+      }
+
+   ],
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": 355.05
+},
+ {
+   "dataName": "alienFleet12020",
+   "friendlyName": "Bravo",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship13"
+      }
+   ],
+   "orbitTemplateName": "LowJupiterOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "alienFleet22020",
+   "friendlyName": "Charlie",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship13"
+      }
+   ],
+   "orbitTemplateName": "LowSaturnOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "alienFleet32020",
+   "friendlyName": "Delta",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship13"
+      }
+   ],
+   "orbitTemplateName": "LowUranusOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "alienFleet42020",
+   "friendlyName": "Echo",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship13"
+      }
+   ],
+   "orbitTemplateName": "LowNeptuneOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "alienFleet52020",
+   "friendlyName": "Foxtrot",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship13"
+      }
+   ],
+   "orbitTemplateName": "LowPlutoOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+{
+   "dataName": "alienFleet62020",
+   "friendlyName": "Foxtrot",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship16"
+      }
+   ],
+   "orbitTemplateName": "HighSalaciaOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "testFleet1",
+   "friendlyName": "2nd Fleet",
+   "factionName": "ResistCouncil",
+   "formationSpacing": "Spread",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship7"
+      },
+      {
+         "shipTemplateName": "Ship12"
+      },
+      {
+         "shipTemplateName": "Ship12"
+      },
+      {
+         "shipTemplateName": "Ship12"
+      }
+   ],
+   "orbitTemplateName": "LowLunarOrbit",
+   "meanAnomalyAtEpoch_Deg": 355
+},
+ {
+   "dataName": "testFleet2",
+   "friendlyName": "Victor",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Spread",
+   "formationName": "Convoy",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship19"
+      },
+      {
+         "shipTemplateName": "Ship17"
+      },
+      {
+         "shipTemplateName": "Ship16"
+      },
+      {
+         "shipTemplateName": "Ship14"
+      },
+      {
+         "shipTemplateName": "Ship18"
+      },
+      {
+         "shipTemplateName": "Ship18"
+      },
+      {
+         "shipTemplateName": "Ship18"
+      },
+      {
+         "shipTemplateName": "Ship18"
+      },
+      {
+         "shipTemplateName": "Ship18"
+      }
+   ],
+   "orbitTemplateName": "LowLunarOrbit",
+   "meanAnomalyAtEpoch_Deg": 155
+},
+ {
+   "dataName": "testFleet3",
+   "friendlyName": "3rd Fleet",
+   "factionName": "ResistCouncil",
+   "formationSpacing": "Spread",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship30"
+      },
+      {
+         "shipTemplateName": "Ship30"
+      },
+      {
+         "shipTemplateName": "Ship30"
+      },
+      {
+         "shipTemplateName": "Ship30"
+      },
+      {
+         "shipTemplateName": "Ship30"
+      },
+      {
+         "shipTemplateName": "Ship12"
+      },
+      {
+         "shipTemplateName": "Ship12"
+      },
+      {
+         "shipTemplateName": "Ship12"
+      },
+      {
+         "shipTemplateName": "Ship12"
+      }
+   ],
+   "orbitTemplateName": "LowMarsOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "testFleet4",
+   "friendlyName": "4th Fleet",
+   "factionName": "SubmitCouncil",
+   "formationSpacing": "Spread",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship2"
+      },
+      {
+         "shipTemplateName": "Ship2"
+      },
+      {
+         "shipTemplateName": "Ship2"
+      },
+      {
+         "shipTemplateName": "Ship27"
+      },
+      {
+         "shipTemplateName": "Ship28"
+      },
+      {
+         "shipTemplateName": "Ship29"
+      }
+   ],
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": 351
+},
+{
+   "dataName": "testFleet5",
+   "friendlyName": "4th Fleet",
+   "factionName": "SubmitCouncil",
+   "formationSpacing": "Spread",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship2"
+      },
+      {
+         "shipTemplateName": "Ship2"
+      },
+      {
+         "shipTemplateName": "Ship2"
+      },
+      {
+         "shipTemplateName": "Ship27"
+      },
+      {
+         "shipTemplateName": "Ship28"
+      },
+      {
+         "shipTemplateName": "Ship29"
+      }
+   ],
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": 180
+},
+ {
+   "dataName": "testFleet6",
+   "friendlyName": "5th Fleet",
+   "factionName": "ResistCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship1"
+      },
+      {
+         "shipTemplateName": "Ship2"
+      },
+      {
+         "shipTemplateName": "Ship3"
+      },
+      {
+         "shipTemplateName": "Ship4"
+      },
+      {
+         "shipTemplateName": "Ship5"
+      },
+      {
+         "shipTemplateName": "Ship6"
+      },
+      {
+         "shipTemplateName": "Ship7"
+      },
+      {
+         "shipTemplateName": "Ship8"
+      },
+      {
+         "shipTemplateName": "Ship9"
+      },
+      {
+         "shipTemplateName": "Ship10"
+      },
+      {
+         "shipTemplateName": "Ship11"
+      },
+      {
+         "shipTemplateName": "Ship12"
+      }
+   ],
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": 270
+},
+{
+   "dataName": "testFleet7",
+   "friendlyName": "Victor",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Spread",
+   "formationName": "Convoy",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship19"
+      },
+      {
+         "shipTemplateName": "Ship17"
+      }
+   ],
+   "orbitTemplateName": "LowLunarOrbit",
+   "meanAnomalyAtEpoch_Deg": 348
+},
+ {
+   "dataName": "testFleet8",
+   "friendlyName": "5th Fleet",
+   "factionName": "SubmitCouncil",
+   "formationSpacing": "Spread",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship3"
+      },
+      {
+         "shipTemplateName": "Ship3"
+      },
+      {
+         "shipTemplateName": "Ship3"
+      },
+      {
+         "shipTemplateName": "Ship9"
+      },
+      {
+         "shipTemplateName": "Ship9"
+      },
+      {
+         "shipTemplateName": "Ship9"
+      }
+   ],
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": 90
+},
+ {
+   "dataName": "testFleet9",
+   "friendlyName": "6th Fleet",
+   "factionName": "ExploitCouncil",
+   "formationSpacing": "Spread",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship9"
+      }
+   ],
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": 351
+},
+ {
+   "dataName": "testFleet10",
+   "friendlyName": "7th Fleet",
+   "factionName": "ResistCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",  
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship10"
+      },
+      {
+         "shipTemplateName": "Ship24"
+      },
+      {
+         "shipTemplateName": "Ship24"
+      },
+      {
+         "shipTemplateName": "Ship24"
+      },
+      {
+         "shipTemplateName": "Ship24"
+      }
+   ],
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": 350
+}
+]

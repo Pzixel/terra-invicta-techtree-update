@@ -1,0 +1,50 @@
+TIShipArmorTemplate.displayName.SteelArmor=鋼鐵裝甲
+TIShipArmorTemplate.description.SteelArmor=古老的重型鋼鐵裝甲殼板，可提升船艦在戰鬥中的生存能力。
+TIShipArmorTemplate.displayName.TitaniumArmor=鈦金裝甲
+TIShipArmorTemplate.description.TitaniumArmor=費用昂貴的耐熱和防碎裝甲。
+TIShipArmorTemplate.displayName.SiliconCarbideArmor=碳化矽裝甲
+TIShipArmorTemplate.description.SiliconCarbideArmor=由矽和碳粉燒結而成陶瓷裝甲。
+TIShipArmorTemplate.displayName.BoronCarbideArmor=碳化硼裝甲
+TIShipArmorTemplate.description.BoronCarbideArmor=經由碳氣氛中之三氧化硼還原製成的耐用「黑鑽石」裝甲
+TIShipArmorTemplate.displayName.CompositeArmor=複合裝甲
+TIShipArmorTemplate.description.CompositeArmor=交替的陶瓷和金屬層，可提供廣泛且輕便的保護。
+TIShipArmorTemplate.displayName.FoamedMetalArmor=泡沫金屬裝甲
+TIShipArmorTemplate.description.FoamedMetalArmor=低密度「泡沬」的鈦與其他合金，還鋪有陶瓷板，能為我們的太空船提供輕量化的防護。
+TIShipArmorTemplate.displayName.NanotubeArmor=奈米管裝甲
+TIShipArmorTemplate.description.NanotubeArmor=由數百萬個碳奈米管融合製成的新型裝甲
+TIShipArmorTemplate.displayName.AdamantaneArmor=金剛裝甲
+TIShipArmorTemplate.description.AdamantaneArmor=高級的類金剛石可針對動能武器提供堅固保護。
+TIShipArmorTemplate.displayName.ExoticArmor=外來裝甲
+TIShipArmorTemplate.description.ExoticArmor=外星合金塑造而成的極輕防御裝甲層。
+TIShipArmorTemplate.displayName.HybridArmor=混合裝甲
+TIShipArmorTemplate.description.HybridArmor=外來物製成的類金剛石裝甲，可提供以往無法想像的保護等級。
+TIShipArmorTemplate.displayName.AlienAdamantaneArmor=外星類金剛石裝甲
+TIShipArmorTemplate.description.AlienAdamantaneArmor=似乎是一種以碳操縱術為基礎的外星材質。
+TIShipArmorTemplate.displayName.AlienExoticArmor=異星外來裝甲
+TIShipArmorTemplate.description.AlienExoticArmor=一種具有異星特性的外來材質。
+
+TIShipArmorTemplate.ResourcesPerTon=每噸花費：<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsResistance={0}額外對於動能傷害的抗性
+TIShipArmorTemplate.LaserResistance={0}額外對於雷射傷害的抗性
+TIShipArmorTemplate.ChippingResistance={0}額外對於切削的抗性
+TIShipArmorTemplate.KineticsVulnerability=從動能武器承受{0}額外傷害
+TIShipArmorTemplate.LaserVulnerability=從雷射承受{0}額外傷害
+TIShipArmorTemplate.ChippingVulnerability=從打擊的切削承受{0}額外傷害
+TIShipArmorTemplate.XRayResistance=對粒子武器 X 光相對於鋼鐵有 {0} 額外抗性
+TIShipArmorTemplate.XRayVulnerability=從粒子武器 X 光受 {0} 額外傷害
+TIShipArmorTemplate.BaryonicResistance=對粒子武器中子有 {0} 額外抗性
+TIShipArmorTemplate.BaryonicVulnerability=從粒子武器中子受 {0} 額外傷害
+
+TIShipArmorTemplate.ThicknessPerPoint=每點厚度：<rcol>{0} 公分</rcol>
+
+TIShipArmorTemplate.NoseTailTonsPerPoint=船頭或船尾裝甲點質量：<rcol>{0} 噸</rcol>
+TIShipArmorTemplate.LateralTonsPerPoint=每側邊裝甲點質量：<rcol>{0} 噸</rcol>
+
+TIShipArmorTemplate.MaxArmorThickness_Lateral=最大橫向裝甲厚度：<rcol>{0} 公分</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Nose=最大船頭裝甲厚度：<rcol>{0} 公分</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Tail=最大船尾裝甲厚度：<rcol>{0} 公分</rcol>
+
+TIShipArmorTemplate.MaxArmorPoints_Lateral=最大橫向裝甲：<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Nose=最大船頭裝甲：<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Tail=最大船尾裝甲：<rcol>{0}</rcol>
+

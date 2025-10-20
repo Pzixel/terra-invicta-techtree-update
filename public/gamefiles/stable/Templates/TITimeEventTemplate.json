@@ -1,0 +1,52 @@
+[
+	{
+		"dataName": "GenericTimeEvent",
+		"displayName": "Generic",
+		"pauseTime": false,
+	},
+	{
+		"dataName": "DateUpdate",
+		"displayName": "Date Update",
+		"eventType": "Day",
+		"eventName": "DailyUpdate",
+		"pauseTime": false,
+		"stopClock": true
+	},
+	{
+		"dataName": "CouncilorMissionUpdate",
+		"displayName": "Councilor Mission Update",
+		"eventType": "WeekToMonth",
+		"eventName": "CouncilorMissionUpdate",
+		"pauseTime": true,
+		"stopClock": true,
+		"repeatChanges": [
+			{
+				"triggerCondition": {
+					"$type": "TIGlobalCondition_fCampaignDuration_years",
+					"strIdx": "",
+					"sign": "GreaterThan",
+					"strValue": "0.325"
+				},		
+				"updateEventType": "Semimonthly"
+			},
+			{
+				"triggerCondition": {
+					"$type": "TIGlobalCondition_fCampaignDuration_years",
+					"strIdx": "",
+					"sign": "GreaterThan",
+					"strValue": "15"
+				},
+				"updateEventType": "EveryThreeWeeksToMonth"
+			},		
+			{
+				"triggerCondition": {
+					"$type": "TIGlobalCondition_fCampaignDuration_years",
+					"strIdx": "",
+					"sign": "GreaterThan",
+					"strValue": "30"
+				},
+				"updateEventType": "Month"
+			}
+		]
+	}
+]

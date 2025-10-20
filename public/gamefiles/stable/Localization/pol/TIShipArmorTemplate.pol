@@ -1,0 +1,50 @@
+TIShipArmorTemplate.displayName.SteelArmor=Pancerz stalowy
+TIShipArmorTemplate.description.SteelArmor=Tradycyjny, ciężki pancerz z płyt stalowych zwiększa przeżywalność naszych statków w walce.
+TIShipArmorTemplate.displayName.TitaniumArmor=Pancerz tytanowy
+TIShipArmorTemplate.description.TitaniumArmor=Pancerz odporny na ciepło i uderzenia, mocno obciążający statek.
+TIShipArmorTemplate.displayName.SiliconCarbideArmor=Pancerz z węgliku krzemu
+TIShipArmorTemplate.description.SiliconCarbideArmor=Pancerz ceramiczny otrzymany przez spiekanie sproszkowanego krzemu i węgla.
+TIShipArmorTemplate.displayName.BoronCarbideArmor=Pancerz z węgliku boru
+TIShipArmorTemplate.description.BoronCarbideArmor=Wytrzymały pancerz z „czarnego diamentu”, otrzymywany przez redukcję tlenku boru w parach węgla.
+TIShipArmorTemplate.displayName.CompositeArmor=Pancerz kompozytowy
+TIShipArmorTemplate.description.CompositeArmor=Pancerz wykonany z naprzemiennie ułożonych warstw metalu i ceramiki daje dobrą ochronę i jest lekki.
+TIShipArmorTemplate.displayName.FoamedMetalArmor=Piankowy pancerz metalowy
+TIShipArmorTemplate.description.FoamedMetalArmor=Tzw. pianka tytanowa o niskiej gęstości w połączeniu z różnymi stopami metali i płytkami ceramicznymi tworzy lekką osłonę dla naszych statków.
+TIShipArmorTemplate.displayName.NanotubeArmor=Pancerz z nanorurek
+TIShipArmorTemplate.description.NanotubeArmor=Pancerz nowej generacji, wytwarzany przez spojenie milionów nanorurek węglowych.
+TIShipArmorTemplate.displayName.AdamantaneArmor=Pancerz z adamantynu
+TIShipArmorTemplate.description.AdamantaneArmor=Zaawansowane układy rombokształtne zapewniają wytrzymałą ochronę przed bronią kinetyczną.
+TIShipArmorTemplate.displayName.ExoticArmor=Pancerz egzotyczny
+TIShipArmorTemplate.description.ExoticArmor=Ultralekki warstwowy system ochronny wykonany ze stopów pochodzących od kosmitów.
+TIShipArmorTemplate.displayName.HybridArmor=Pancerz hybrydowy
+TIShipArmorTemplate.description.HybridArmor=Układy rombokształtne zarodkowane materiałami egzotycznymi dają ochronę na poziomie wcześniej nie do pomyślenia.
+TIShipArmorTemplate.displayName.AlienAdamantaneArmor=Pancerz rombokształtny kosmitów
+TIShipArmorTemplate.description.AlienAdamantaneArmor=Pochodzący od kosmitów materiał oparty na manipulacji strukturami krystalicznymi węgla.
+TIShipArmorTemplate.displayName.AlienExoticArmor=Pancerz egzotyczny kosmitów
+TIShipArmorTemplate.description.AlienExoticArmor=Pochodzący od kosmitów materiał o egzotycznych właściwościach.
+
+TIShipArmorTemplate.ResourcesPerTon=Koszt na tonę:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsResistance={0} dodatkowej odporności na uszkodzenia kinetyczne
+TIShipArmorTemplate.LaserResistance={0} dodatkowej odporności na uszkodzenia od laserów
+TIShipArmorTemplate.ChippingResistance={0} dodatkowej odporności na łuszczenie się
+TIShipArmorTemplate.KineticsVulnerability=Otrzymuje {0} dodatkowych uszkodzeń od broni kinetycznej
+TIShipArmorTemplate.LaserVulnerability=Otrzymuje {0} dodatkowych uszkodzeń od laserów
+TIShipArmorTemplate.ChippingVulnerability=Otrzymuje {0} dodatkowych uszkodzeń w wyniku łuszczenia się
+TIShipArmorTemplate.XRayResistance={0} dodatkowej odporności na promieniowanie RTG miotaczy cząstek w porównaniu ze stalą
+TIShipArmorTemplate.XRayVulnerability=Otrzymuje {0} dodatkowych uszkodzeń od promieniowania RTG miotaczy cząstek
+TIShipArmorTemplate.BaryonicResistance={0} dodatkowej odporności na neutrony miotaczy cząstek
+TIShipArmorTemplate.BaryonicVulnerability=Otrzymuje {0} dodatkowych uszkodzeń od neutronów miotaczy cząstek
+
+TIShipArmorTemplate.ThicknessPerPoint=Grubość/pkt:<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.NoseTailTonsPerPoint=Masa na punkt pancerza dziobowego lub rufowego: <rcol>{0} t</rcol>
+TIShipArmorTemplate.LateralTonsPerPoint=Masa na punkt pancerza burtowego: <rcol>{0} t</rcol>
+
+TIShipArmorTemplate.MaxArmorThickness_Lateral=Maksymalna grubość pancerza burtowego: <rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Nose=Maksymalna grubość pancerza dziobowego: <rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Tail=Maksymalna grubość pancerza rufowego: <rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.MaxArmorPoints_Lateral=Maks. pancerz burtowy: <rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Nose=Maks. pancerz dziobowy: <rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Tail=Maks. pancerz rufowy: <rcol>{0}</rcol>
+

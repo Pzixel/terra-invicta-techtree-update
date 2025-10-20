@@ -1,0 +1,50 @@
+TIShipArmorTemplate.displayName.SteelArmor=鋼鉄装甲
+TIShipArmorTemplate.description.SteelArmor=鋼鉄製の重装甲板が、戦闘における戦艦の生存可能性を高める。
+TIShipArmorTemplate.displayName.TitaniumArmor=チタン装甲
+TIShipArmorTemplate.description.TitaniumArmor=非常に高額だが、防熱性・防砕性を持つ装甲。
+TIShipArmorTemplate.displayName.SiliconCarbideArmor=炭化ケイ素装甲
+TIShipArmorTemplate.description.SiliconCarbideArmor=シリコンとカーボンの粉末を焼結して製造するセラミック装甲。
+TIShipArmorTemplate.displayName.BoronCarbideArmor=炭化ホウ素装甲
+TIShipArmorTemplate.description.BoronCarbideArmor=三酸化ホウ素を炭素雰囲気で還元して製造する、耐久性の高い「黒ダイヤ」装甲。
+TIShipArmorTemplate.displayName.CompositeArmor=複合装甲
+TIShipArmorTemplate.description.CompositeArmor=セラミックと金属を交互に重ねた、広範囲かつ軽量な防御が可能。
+TIShipArmorTemplate.displayName.FoamedMetalArmor=発泡金属装甲
+TIShipArmorTemplate.description.FoamedMetalArmor=低密度の「発泡」チタンやその他の合金は、セラミックプレートと層になっており、軽量な防御を宇宙船に提供する。
+TIShipArmorTemplate.displayName.NanotubeArmor=ナノチューブ装甲
+TIShipArmorTemplate.description.NanotubeArmor=数百万本のカーボンナノチューブを融合させた次世代装甲。
+TIShipArmorTemplate.displayName.AdamantaneArmor=アダマンタイン装甲
+TIShipArmorTemplate.description.AdamantaneArmor=キネティック兵器に対し強力な防御を発揮する、高度ダイヤモンドイド装甲。
+TIShipArmorTemplate.displayName.ExoticArmor=外来装甲
+TIShipArmorTemplate.description.ExoticArmor=エイリアン合金を加工した超軽量な防御層でできた装甲。
+TIShipArmorTemplate.displayName.HybridArmor=ハイブリッド装甲
+TIShipArmorTemplate.description.HybridArmor=外来種添加層にダイヤモンドイドを重ね、従来では考えられなかった防御機能を実現している。
+TIShipArmorTemplate.displayName.AlienAdamantaneArmor=エイリアンダイヤモンド装甲
+TIShipArmorTemplate.description.AlienAdamantaneArmor=炭素を操作したとみられるエイリアンの原材料を使用した装甲。
+TIShipArmorTemplate.displayName.AlienExoticArmor=エイリアン外来装甲
+TIShipArmorTemplate.description.AlienExoticArmor=外来特性を持つエイリアンの原材料を使用した装甲。
+
+TIShipArmorTemplate.ResourcesPerTon=1トンあたりのコスト：<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsResistance=キネティックダメージに対して{0}ボーナス耐性
+TIShipArmorTemplate.LaserResistance=レーザーダメージに対して{0}ボーナス耐性
+TIShipArmorTemplate.ChippingResistance=チッピングに対して{0}ボーナス耐性
+TIShipArmorTemplate.KineticsVulnerability=キネティック兵器による{0}追加ダメージを受ける
+TIShipArmorTemplate.LaserVulnerability=レーザーによる{0}追加ダメージを受ける
+TIShipArmorTemplate.ChippingVulnerability=被弾時に{0}追加装甲チッピングを受ける
+TIShipArmorTemplate.XRayResistance=粒子兵器のX線に対する耐性は、鋼鉄製に比べ{0}ボーナス
+TIShipArmorTemplate.XRayVulnerability=粒子兵器のX線から{0}追加ダメージを受ける
+TIShipArmorTemplate.BaryonicResistance=粒子兵器の中性子に対して{0}ボーナス耐性
+TIShipArmorTemplate.BaryonicVulnerability=粒子兵器の中性子から{0}追加ダメージを受ける
+
+TIShipArmorTemplate.ThicknessPerPoint=ポイントあたりの厚さ：<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.NoseTailTonsPerPoint=船首または船尾の装甲ポイントあたりの質量：<rcol>{0} トン</rcol>
+TIShipArmorTemplate.LateralTonsPerPoint=側面装甲ポイントあたりの質量：<rcol>{0} トン</rcol>
+
+TIShipArmorTemplate.MaxArmorThickness_Lateral=最大側面装甲厚：<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Nose=最大船首装甲厚：<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Tail=最大船尾装甲厚：<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.MaxArmorPoints_Lateral=最大側面装甲：<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Nose=最大船首装甲：<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Tail=最大船尾装甲：<rcol>{0}</rcol>
+

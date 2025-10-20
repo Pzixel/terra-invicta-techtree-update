@@ -1,0 +1,189 @@
+[
+ {
+   "dataName": "en",
+   "friendlyName": "English",
+   "active": true,
+   "core": true,
+   "requiresFontChange": null,
+   "largeLineHeight": false,
+   "headlineFontPath": "CODE Bold SDF -HEADER",
+   "bodyTextFontPath": "Arcon-Regular SDF",
+   "nameListOffset": 0
+ },
+ {
+   "dataName": "deu",
+   "friendlyName": "German",
+   "active": true,
+   "core": false,
+   "requiresFontChange": null,
+   "largeLineHeight": false,
+   "headlineFontPath": "",
+   "bodyTextFontPath": "",
+   "nameListOffset": 1
+ },
+ {
+   "dataName": "fr",
+   "friendlyName": "French",
+   "active": true,
+   "core": false,
+   "requiresFontChange": null,
+   "largeLineHeight": false,
+   "headlineFontPath": "",
+   "bodyTextFontPath": "",
+   "nameListOffset": 2
+ },
+ {
+   "dataName": "esp",
+   "friendlyName": "Spanish",
+   "active": true,
+   "core": false,
+   "requiresFontChange": null,
+   "largeLineHeight": false,
+   "headlineFontPath": "",
+   "bodyTextFontPath": "",
+   "nameListOffset": 3
+ },
+ {
+   "dataName": "cht",
+   "friendlyName": "Chinese Traditional",
+   "active": true,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": true,
+   "headlineFontPath": "NotoSansTC-Bold SDF-HEADER",
+   "bodyTextFontPath": "NotoSansTC-Regular SDF",
+   "nameListOffset": 4
+ },
+ {
+   "dataName": "chs",
+   "friendlyName": "Chinese Simplified",
+   "active": true,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": true,
+   "headlineFontPath": "NotoSansSC-Bold SDF_0-HEADER",
+   "bodyTextFontPath": "NotoSansSC-Regular SDF_0",
+   "nameListOffset": 5
+ },
+ {
+   "dataName": "jpn",
+   "friendlyName": "Japanese",
+   "active": true,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": true,
+   "headlineFontPath": "NotoSansJP-Bold SDF-HEADER",
+   "bodyTextFontPath": "NotoSansJP-Regular SDF",
+   "nameListOffset": 6
+ },
+ {
+   "dataName": "rus",
+   "friendlyName": "Russian",
+   "active": false,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": false,
+   "headlineFontPath": "NotoSans-Bold SDF-HEADER",
+   "bodyTextFontPath": "NotoSans-Regular SDF",
+   "nameListOffset": 7
+ },
+ {
+   "dataName": "kor",
+   "friendlyName": "Korean",
+   "active": false,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": false,
+   "headlineFontPath": "NotoSansKR-Bold SDF-HEADER",
+   "bodyTextFontPath": "NotoSansKR-Regular SDF",
+   "nameListOffset": 8
+ },
+ {
+   "dataName": "ita",
+   "friendlyName": "Italian",
+   "active": false,
+   "core": false,
+   "requiresFontChange": null,
+   "largeLineHeight": false,
+   "headlineFontPath": "",
+   "bodyTextFontPath": "",
+   "nameListOffset": 9
+ },
+ {
+   "dataName": "pol",
+   "friendlyName": "Polish",
+   "active": true,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": false,
+   "headlineFontPath": "NotoSans-Bold SDF-HEADER",
+   "bodyTextFontPath": "NotoSans-Regular SDF",
+   "nameListOffset": 10
+ },
+ {
+   "dataName": "por",
+   "friendlyName": "Portuguese",
+   "active": true,
+   "core": false,
+   "requiresFontChange": null,
+   "largeLineHeight": false,
+   "headlineFontPath": "",
+   "bodyTextFontPath": "",
+   "nameListOffset": 11
+ },
+ {
+   "dataName": "nld",
+   "friendlyName": "Dutch",
+   "active": false,
+   "core": false,
+   "requiresFontChange": null,
+   "largeLineHeight": false,
+   "headlineFontPath": "",
+   "bodyTextFontPath": "",
+   "nameListOffset": 12
+ },
+ {
+   "dataName": "cze",
+   "friendlyName": "Czech",
+   "active": false,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": false,
+   "headlineFontPath": "",
+   "bodyTextFontPath": "",
+   "nameListOffset": 13
+ },
+ {
+   "dataName": "ukr",
+   "friendlyName": "Ukrainian",
+   "active": false,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": false,
+   "headlineFontPath": "NotoSans-Bold SDF-HEADER",
+   "bodyTextFontPath": "NotoSans-Regular SDF",
+   "nameListOffset": 14
+ },
+ {
+   "dataName": "ara",
+   "friendlyName": "Arabic",
+   "active": false,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": false,
+   "headlineFontPath": "",
+   "bodyTextFontPath": "",
+   "nameListOffset": 15
+ },
+ {
+   "dataName": "tur",
+   "friendlyName": "Turkish",
+   "active": false,
+   "core": false,
+   "requiresFontChange": false,
+   "largeLineHeight": false,
+   "headlineFontPath": "",
+   "bodyTextFontPath": "",
+   "nameListOffset": 16
+ }
+]

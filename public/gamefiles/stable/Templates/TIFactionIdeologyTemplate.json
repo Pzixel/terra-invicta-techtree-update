@@ -1,0 +1,152 @@
+[
+ {
+   "dataName": "resist",
+   "alien": false,
+   "undecided": false,
+   "sortOrder": 7,
+   "willProxy": -1,
+   "willAppease": -1,
+   "initialReactionGroup": 2,
+   "ideology": "Resist",
+   "ideologyCoordinates": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+   }
+},
+ {
+   "dataName": "destroy",
+   "alien": false,
+   "undecided": false,
+   "sortOrder": 8,
+   "willProxy": -1,
+   "willAppease": -1,
+   "initialReactionGroup": 0,
+   "ideology": "Destroy",
+   "ideologyCoordinates": {
+      "x": 2,
+      "y": -0.5,
+      "z": 0
+   }
+},
+ {
+   "dataName": "exploit",
+   "alien": false,
+   "undecided": false,
+   "sortOrder": 4,
+   "willProxy": 4,
+   "willAppease": 5,
+   "initialReactionGroup": 0,
+   "ideology": "Exploit",
+   "ideologyCoordinates": {
+      "x": 0,
+      "y": -1,
+      "z": 0
+   }
+},
+ {
+   "dataName": "submit",
+   "alien": false,
+   "undecided": false,
+   "sortOrder": 1,
+   "willProxy": 1,
+   "willAppease": 2,
+   "initialReactionGroup": 0,
+   "ideology": "Submit",
+   "ideologyCoordinates": {
+      "x": -2,
+      "y": 1,
+      "z": 0
+   }
+},
+ {
+   "dataName": "appease",
+   "alien": false,
+   "undecided": false,
+   "sortOrder": 2,
+   "willProxy": 2,
+   "willAppease": 1,
+   "initialReactionGroup": 2,
+   "ideology": "Appease",
+   "ideologyCoordinates": {
+      "x": -1.5,
+      "y": -0.5,
+      "z": 0
+   }
+},
+ {
+   "dataName": "cooperate",
+   "alien": false,
+   "undecided": false,
+   "sortOrder": 3,
+   "willProxy": 3,
+   "willAppease": 3,
+   "initialReactionGroup": 1,
+   "ideology": "Cooperate",
+   "ideologyCoordinates": {
+      "x": -0.5,
+      "y": 1,
+      "z": 0
+   }
+},
+ {
+   "dataName": "escape",
+   "alien": false,
+   "undecided": false,
+   "sortOrder": 5,
+   "willProxy": -1,
+   "willAppease": -1,
+   "initialReactionGroup": 2,
+   "ideology": "Escape",
+   "ideologyCoordinates": {
+      "x": 0.5,
+      "y": 1,
+      "z": 0
+   }
+},
+ {
+   "dataName": "alien",
+   "alien": true,
+   "undecided": false,
+   "sortOrder": 0,
+   "willProxy": -1,
+   "willAppease": -1,
+   "initialReactionGroup": -1,
+   "ideology": "Alien",
+   "ideologyCoordinates": {
+      "x": -3,
+      "y": 0,
+      "z": 0
+   }
+},
+ {
+   "dataName": "undecided",
+   "alien": false,
+   "undecided": true,
+   "sortOrder": 9,
+   "willProxy": -1,
+   "willAppease": -1,
+   "initialReactionGroup": 2,
+   "ideology": "Undecided",
+   "ideologyCoordinates": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+   }
+},
+ {
+   "dataName": "peaceful",
+   "alien": false,
+   "undecided": false,
+   "sortOrder": 6,
+   "willProxy": -1,
+   "willAppease": 4,
+   "initialReactionGroup": 2,
+   "ideology": "Peaceful",
+   "ideologyCoordinates": {
+      "x": 2,
+      "y": 2,
+      "z": 0
+   }
+}
+]

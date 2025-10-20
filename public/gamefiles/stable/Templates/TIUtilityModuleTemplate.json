@@ -1,0 +1,1212 @@
+[
+ {
+   "dataName": "ISRUModule",
+   "friendlyName": "ISRU Module",
+   "crew": 5,
+   "mass_tons": 100,
+   "grouping": 0,
+   "requiredProjectName": "Project_ISRUModule",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "water": 0.3,
+      "volatiles": 0.34,
+      "metals": 0.34,
+      "nobleMetals": 0.02
+   },
+   "specialModuleRules": [
+      "RefuelFromUnimprovedSites",
+      "RequiresNonISRUDrive",
+      "RadHardened"
+   ],
+   "iconResource": "shipbuildericons/ICO_ISRUModule"
+},
+ {
+   "dataName": "RemassScoop",
+   "friendlyName": "Remass Scoop",
+   "crew": 1,
+   "mass_tons": 40,
+   "grouping": 1,
+   "requiredProjectName": "Project_RemassScoop",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.5,
+      "nobleMetals": 0.4
+   },
+   "specialModuleRules": [
+      "ImmunetoAerobrakingDamage",
+      "RefuelFromAtmospheres",
+      "RadHardened"
+   ],
+   "iconResource": "shipbuildericons/ICO_RemassScoop"
+},
+ {
+   "dataName": "MuonSpiker",
+   "friendlyName": "Muon Spiker",
+   "crew": 3,
+   "mass_tons": 30,
+   "grouping": 3,
+   "requiredProjectName": "Project_MuonSpiker",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.2,
+      "metals": 0.325,
+      "nobleMetals": 0.37498,
+      "fissiles": 0.00002
+   },
+   "specialModuleRules": [
+      "ThrustMultiplier",
+      "RequiresFusionDrive",
+      "RadHardened"
+   ],
+   "specialModuleValue": 1.1,
+   "iconResource": "shipbuildericons/ICO_MuonSpiker"
+},
+ {
+   "dataName": "NeutroniumSpiker",
+   "friendlyName": "Neutronium Spiker",
+   "crew": 3,
+   "mass_tons": 30,
+   "grouping": 3,
+   "requiredProjectName": "Project_NeutroniumSpiker",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.2,
+      "metals": 0.3,
+      "nobleMetals": 0.39995,
+      "fissiles": 0.00005
+   },
+   "specialModuleRules": [
+      "ThrustMultiplier",
+      "RequiresFissionDrive",
+      "RadHardened"
+   ],
+   "specialModuleValue": 1.2,
+   "iconResource": "shipbuildericons/ICO_NeutroniumSpiker"
+},
+ {
+   "dataName": "AntimatterSpiker",
+   "friendlyName": "Antimatter Spiker",
+   "crew": 3,
+   "mass_tons": 30,
+   "grouping": 3,
+   "requiredProjectName": "Project_AntimatterSpiker",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.2,
+      "metals": 0.3,
+      "nobleMetals": 0.399959999999,
+      "fissiles": 0.00004,
+      "antimatter": 1e-12
+   },
+   "specialModuleRules": [
+      "ThrustMultiplier",
+      "RequiresNuclearDrive",
+      "RadHardened"
+   ],
+   "specialModuleValue": 1.3,
+   "iconResource": "shipbuildericons/ICO_AntimatterSpiker"
+},
+ {
+   "dataName": "MobileSpaceScienceLab",
+   "friendlyName": "Mobile Space Science Lab",
+   "crew": 12,
+   "mass_tons": 200,
+   "grouping": -1,
+   "requiredProjectName": "Project_MobileSpaceScienceLab",
+   "minConsTier": 0,
+   "powerRequirement_MW": 1,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.1,
+      "metals": 0.65,
+      "nobleMetals": 0.2
+   },
+   "specialModuleRules": [
+      "GenerateSpaceScienceBonus",
+      "Prospector"
+   ],
+   "specialModuleValue": 0.05,
+   "iconResource": "shipbuildericons/ICO_MobileSpaceScienceLab"
+},
+ {
+   "dataName": "RepairBay",
+   "friendlyName": "Repair Bay",
+   "crew": 10,
+   "mass_tons": 700,
+   "grouping": -1,
+   "requiredProjectName": "Project_RepairBay",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.2,
+      "metals": 0.5,
+      "nobleMetals": 0.25
+   },
+   "specialModuleRules": [
+      "Repair"
+   ],
+   "iconResource": "shipbuildericons/ICO_RepairBay"
+},
+ {
+   "dataName": "SalvageBay",
+   "friendlyName": "Salvage Bay",
+   "crew": 20,
+   "mass_tons": 1000,
+   "grouping": 11,
+   "requiredProjectName": "Project_SalvageBay",
+   "minConsTier": 2,
+   "powerRequirement_MW": 5,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.1,
+      "metals": 0.7,
+      "nobleMetals": 0.15
+   },
+   "specialModuleRules": [
+      "SalvageBonus"
+   ],
+   "specialModuleValue": 0.1,
+   "iconResource": "shipbuildericons/ICO_SalvageBay"
+},
+ {
+   "dataName": "MarineAssaultUnit",
+   "friendlyName": "Marine Assault Unit",
+   "crew": 30,
+   "mass_tons": 200,
+   "grouping": -1,
+   "requiredProjectName": "Project_MarineAssaultUnit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.4,
+      "metals": 0.3,
+      "nobleMetals": 0.25
+   },
+   "specialModuleRules": [
+      "Assault"
+   ],
+   "specialModuleValue": 4,
+   "iconResource": "shipbuildericons/ICO_MarineAssaultUnit"
+},
+ {
+   "dataName": "AdvancedMarineAssaultUnit",
+   "friendlyName": "Advanced Marine Assault Unit",
+   "crew": 30,
+   "mass_tons": 200,
+   "grouping": -1,
+   "requiredProjectName": "Project_AdvancedMarineAssaultUnit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.4,
+      "metals": 0.3,
+      "nobleMetals": 0.25
+   },
+   "specialModuleRules": [
+      "Assault"
+   ],
+   "specialModuleValue": 6,
+   "iconResource": "shipbuildericons/ICO_AdvancedMarineAssaultUnit"
+},
+ {
+   "dataName": "EliteMarineAssaultUnit",
+   "friendlyName": "Elite Marine Assault Unit",
+   "crew": 30,
+   "mass_tons": 200,
+   "grouping": -1,
+   "requiredProjectName": "Project_EliteMarineAssaultUnit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.4,
+      "metals": 0.3,
+      "nobleMetals": 0.25
+   },
+   "specialModuleRules": [
+      "Assault"
+   ],
+   "specialModuleValue": 8,
+   "iconResource": "shipbuildericons/ICO_EliteMarineAssaultUnit"
+},
+ {
+   "dataName": "Spartans",
+   "friendlyName": "Spartans",
+   "crew": 30,
+   "mass_tons": 200,
+   "grouping": -1,
+   "requiredProjectName": "Project_Spartans",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.35,
+      "metals": 0.3,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "Assault"
+   ],
+   "specialModuleValue": 10,
+   "iconResource": "shipbuildericons/ICO_Spartans"
+},
+ {
+   "dataName": "Rangers",
+   "friendlyName": "Rangers",
+   "crew": 30,
+   "mass_tons": 200,
+   "grouping": -1,
+   "requiredProjectName": "Project_Rangers",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.35,
+      "metals": 0.3,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "Assault"
+   ],
+   "specialModuleValue": 10,
+   "iconResource": "shipbuildericons/ICO_Rangers"
+},
+ {
+   "dataName": "Immortals",
+   "friendlyName": "Immortals",
+   "crew": 30,
+   "mass_tons": 200,
+   "grouping": -1,
+   "requiredProjectName": "Project_Immortals",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.35,
+      "metals": 0.3,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "Assault"
+   ],
+   "specialModuleValue": 10,
+   "iconResource": "shipbuildericons/ICO_Immortals"
+},
+ {
+   "dataName": "LaserEngine",
+   "friendlyName": "Laser Engine",
+   "crew": 3,
+   "mass_tons": 25,
+   "grouping": -1,
+   "requiredProjectName": "Project_LaserEngine",
+   "minConsTier": 0,
+   "powerRequirement_MW": 5,
+   "weightedBuildMaterials": {
+      "volatiles": 0.3,
+      "metals": 0.35,
+      "nobleMetals": 0.35
+   },
+   "specialModuleRules": [
+      "LaserPowerBonus"
+   ],
+   "specialModuleValue": 10,
+   "iconResource": "shipbuildericons/ICO_LaserEngine"
+},
+ {
+   "dataName": "AdvancedLaserEngine",
+   "friendlyName": "Advanced Laser Engine",
+   "crew": 3,
+   "mass_tons": 50,
+   "grouping": -1,
+   "requiredProjectName": "Project_AdvancedLaserEngine",
+   "minConsTier": 0,
+   "powerRequirement_MW": 10,
+   "weightedBuildMaterials": {
+      "volatiles": 0.3,
+      "metals": 0.35,
+      "nobleMetals": 0.35
+   },
+   "specialModuleRules": [
+      "LaserPowerBonus"
+   ],
+   "specialModuleValue": 20,
+   "iconResource": "shipbuildericons/ICO_AdvancedLaserEngine"
+},
+ {
+   "dataName": "LiquidHydrogenContainment",
+   "friendlyName": "Liquid Hydrogen Containment",
+   "crew": 3,
+   "mass_tons": 5,
+   "grouping": 4,
+   "requiredProjectName": "Project_LiquidHydrogenContainment",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.35,
+      "metals": 0.35,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "EVMultiplier",
+      "RequiresHydrogenPropellant",
+      "RadHardened"
+   ],
+   "specialModuleValue": 1.2,
+   "iconResource": "shipbuildericons/ICO_LiquidHydrogenContainment"
+},
+ {
+   "dataName": "SlushHydrogenTankage",
+   "friendlyName": "Slush Hydrogen Tankage",
+   "crew": 3,
+   "mass_tons": 10,
+   "grouping": 4,
+   "requiredProjectName": "Project_SlushHydrogenTankage",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.35,
+      "metals": 0.35,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "EVMultiplier",
+      "RequiresHydrogenPropellant",
+      "RadHardened"
+   ],
+   "specialModuleValue": 1.35,
+   "iconResource": "shipbuildericons/ICO_SlushHydrogenTankage"
+},
+ {
+   "dataName": "HydronTrap",
+   "friendlyName": "Hydron Trap",
+   "crew": 3,
+   "mass_tons": 20,
+   "grouping": 4,
+   "requiredProjectName": "Project_HydronTrap",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.25,
+      "metals": 0.35,
+      "nobleMetals": 0.35,
+      "exotics": 0.05
+   },
+   "specialModuleRules": [
+      "EVMultiplier",
+      "RequiresHydrogenPropellant",
+      "RadHardened"
+   ],
+   "specialModuleValue": 1.5,
+   "iconResource": "shipbuildericons/ICO_HydronTrap"
+},
+ {
+   "dataName": "Magazine",
+   "friendlyName": "Magazine",
+   "crew": 3,
+   "mass_tons": 100,
+   "grouping": -1,
+   "requiredProjectName": "Project_Magazine",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.8,
+      "nobleMetals": 0.1
+   },
+   "specialModuleRules": [
+      "Magazine",
+      "RadHardened"
+   ],
+   "specialModuleValue": 0.5,
+   "iconResource": "shipbuildericons/ICO_Magazine"
+},
+ {
+   "dataName": "ComponentArmor",
+   "friendlyName": "Component Armor",
+   "crew": 0,
+   "mass_tons": 500,
+   "grouping": 2,
+   "requiredProjectName": "Project_ComponentArmor",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5
+   },
+   "specialModuleRules": [
+      "ComponentArmor",
+      "RadHardened",
+      "ImmuneToDamage"
+   ],
+   "specialModuleValue": 0.75,
+   "iconResource": "shipbuildericons/ICO_ComponentArmor"
+},
+ {
+   "dataName": "SolarPlatformKit",
+   "friendlyName": "Solar Platform Kit",
+   "crew": 3,
+   "mass_tons": 200,
+   "grouping": -1,
+   "requiredProjectName": "Project_SolarPlatformKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.4,
+      "metals": 0.4,
+      "nobleMetals": 0.2
+   },
+   "specialModuleRules": [
+      "FoundSolarPlatform"
+   ],
+   "iconResource": "shipbuildericons/ICO_SolarPlatformKit"
+},
+ {
+   "dataName": "SolarOutpostKit",
+   "friendlyName": "Solar Outpost Kit",
+   "crew": 3,
+   "mass_tons": 250,
+   "grouping": -1,
+   "requiredProjectName": "Project_SolarOutpostKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.4,
+      "metals": 0.4,
+      "nobleMetals": 0.2
+   },
+   "specialModuleRules": [
+      "FoundSolarOutpost"
+   ],
+   "iconResource": "shipbuildericons/ICO_SolarOutpostKit"
+},
+ {
+   "dataName": "FissionPlatformKit",
+   "friendlyName": "Fission Platform Kit",
+   "crew": 3,
+   "mass_tons": 250,
+   "grouping": -1,
+   "requiredProjectName": "Project_FissionPlatformKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.25,
+      "metals": 0.4,
+      "nobleMetals": 0.2,
+      "fissiles": 0.05
+   },
+   "specialModuleRules": [
+      "FoundFissionPlatform"
+   ],
+   "iconResource": "shipbuildericons/ICO_FissionPlatformKit"
+},
+ {
+   "dataName": "FissionOutpostKit",
+   "friendlyName": "Fission Outpost Kit",
+   "crew": 3,
+   "mass_tons": 300,
+   "grouping": -1,
+   "requiredProjectName": "Project_FissionOutpostKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.25,
+      "metals": 0.4,
+      "nobleMetals": 0.2,
+      "fissiles": 0.05
+   },
+   "specialModuleRules": [
+      "FoundFissionOutpost"
+   ],
+   "iconResource": "shipbuildericons/ICO_FissionOutpostKit"
+},
+ {
+   "dataName": "FusionPlatformKit",
+   "friendlyName": "Fusion Platform Kit",
+   "crew": 3,
+   "mass_tons": 250,
+   "grouping": -1,
+   "requiredProjectName": "Project_FusionPlatformKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.2,
+      "metals": 0.4,
+      "nobleMetals": 0.33,
+      "fissiles": 0.02
+   },
+   "specialModuleRules": [
+      "FoundFusionPlatform"
+   ],
+   "iconResource": "shipbuildericons/ICO_FusionPlatformKit"
+},
+ {
+   "dataName": "FusionOutpostKit",
+   "friendlyName": "Fusion Outpost Kit",
+   "crew": 3,
+   "mass_tons": 300,
+   "grouping": -1,
+   "requiredProjectName": "Project_FusionOutpostKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.2,
+      "metals": 0.4,
+      "nobleMetals": 0.33,
+      "fissiles": 0.02
+   },
+   "specialModuleRules": [
+      "FoundFusionOutpost"
+   ],
+   "iconResource": "shipbuildericons/ICO_FusionOutpostKit"
+},
+ {
+   "dataName": "AutomatedSolarPlatformKit",
+   "friendlyName": "Automated Solar Platform Kit",
+   "crew": 12,
+   "mass_tons": 250,
+   "grouping": -1,
+   "requiredProjectName": "Project_AutomatedSolarPlatformKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.4,
+      "metals": 0.4,
+      "nobleMetals": 0.2
+   },
+   "specialModuleRules": [
+      "FoundAutomatedSolarPlatform"
+   ],
+   "iconResource": "shipbuildericons/ICO_AutomatedSolarPlatformKit"
+},
+ {
+   "dataName": "AutomatedSolarOutpostKit",
+   "friendlyName": "Automated Solar Outpost Kit",
+   "crew": 12,
+   "mass_tons": 1200,
+   "grouping": -1,
+   "requiredProjectName": "Project_AutomatedSolarOutpostKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.4,
+      "metals": 0.4,
+      "nobleMetals": 0.2
+   },
+   "specialModuleRules": [
+      "FoundAutomatedSolarOutpost"
+   ],
+   "iconResource": "shipbuildericons/ICO_AutomatedSolarOutpostKit"
+},
+ {
+   "dataName": "AutomatedFissionPlatformKit",
+   "friendlyName": "Automated Fission Platform Kit",
+   "crew": 12,
+   "mass_tons": 300,
+   "grouping": -1,
+   "requiredProjectName": "Project_AutomatedFissionPlatformKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.25,
+      "metals": 0.4,
+      "nobleMetals": 0.2,
+      "fissiles": 0.05
+   },
+   "specialModuleRules": [
+      "FoundAutomatedFissionPlatform"
+   ],
+   "iconResource": "shipbuildericons/ICO_AutomatedFissionPlatformKit"
+},
+ {
+   "dataName": "AutomatedFissionOutpostKit",
+   "friendlyName": "Automated Fission Outpost Kit",
+   "crew": 12,
+   "mass_tons": 1800,
+   "grouping": -1,
+   "requiredProjectName": "Project_AutomatedFissionOutpostKit",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.25,
+      "metals": 0.4,
+      "nobleMetals": 0.2,
+      "fissiles": 0.05
+   },
+   "specialModuleRules": [
+      "FoundAutomatedFissionOutpost"
+   ],
+   "iconResource": "shipbuildericons/ICO_AutomatedFissionOutpostKit"
+},
+ {
+   "dataName": "ElectronicCountermeasures1",
+   "friendlyName": "Electronic Countermeasures 1",
+   "crew": 2,
+   "mass_tons": 10,
+   "grouping": 9,
+   "requiredProjectName": "Project_ECM1",
+   "minConsTier": 0,
+   "powerRequirement_MW": 2,
+   "weightedBuildMaterials": {
+      "volatiles": 0.2,
+      "metals": 0.4,
+      "nobleMetals": 0.4
+   },
+   "specialModuleRules": [
+      "ECM"
+   ],
+   "specialModuleValue": 0.2,
+   "iconResource": "shipbuildericons/ICO_ECM_A"
+},
+ {
+   "dataName": "ElectronicCountermeasures2",
+   "friendlyName": "Electronic Countermeasures 2",
+   "crew": 2,
+   "mass_tons": 10,
+   "grouping": 9,
+   "requiredProjectName": "Project_ECM2",
+   "minConsTier": 0,
+   "powerRequirement_MW": 3,
+   "weightedBuildMaterials": {
+      "volatiles": 0.2,
+      "metals": 0.4,
+      "nobleMetals": 0.4
+   },
+   "specialModuleRules": [
+      "ECM"
+   ],
+   "specialModuleValue": 0.4,
+   "iconResource": "shipbuildericons/ICO_ECM_B"
+},
+ {
+   "dataName": "ElectronicCountermeasures3",
+   "friendlyName": "Electronic Countermeasures 3",
+   "crew": 2,
+   "mass_tons": 10,
+   "grouping": 9,
+   "requiredProjectName": "Project_ECM3",
+   "minConsTier": 0,
+   "powerRequirement_MW": 4,
+   "weightedBuildMaterials": {
+      "volatiles": 0.2,
+      "metals": 0.4,
+      "nobleMetals": 0.4
+   },
+   "specialModuleRules": [
+      "ECM"
+   ],
+   "specialModuleValue": 0.6,
+   "iconResource": "shipbuildericons/ICO_ECM_C"
+},
+ {
+   "dataName": "FlagBridge",
+   "friendlyName": "Flag Bridge",
+   "crew": 18,
+   "mass_tons": 90,
+   "grouping": 14,
+   "requiredProjectName": "Project_FlagBridge",
+   "minConsTier": 2,
+   "powerRequirement_MW": 1,
+   "weightedBuildMaterials": {
+      "metals": 0.95,
+      "nobleMetals": 0.05
+   },
+   "specialModuleRules": [
+      "ReduceFleetMCConsumption"
+   ],
+   "specialModuleValue": 0.8,
+   "iconResource": "shipbuildericons/ICO_FlagBridge"
+},
+ {
+   "dataName": "TargetingComputer1",
+   "friendlyName": "Targeting Computer 1",
+   "crew": 1,
+   "mass_tons": 10,
+   "grouping": 10,
+   "requiredProjectName": "Project_TargetingComputer1",
+   "minConsTier": 0,
+   "powerRequirement_MW": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.6,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "TargetingComputer"
+   ],
+   "specialModuleValue": 0.1,
+   "iconResource": "shipbuildericons/ICO_TargetingComputer1"
+},
+ {
+   "dataName": "TargetingComputer2",
+   "friendlyName": "Targeting Computer 2",
+   "crew": 1,
+   "mass_tons": 10,
+   "grouping": 10,
+   "requiredProjectName": "Project_TargetingComputer2",
+   "minConsTier": 0,
+   "powerRequirement_MW": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.6,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "TargetingComputer"
+   ],
+   "specialModuleValue": 0.3,
+   "iconResource": "shipbuildericons/ICO_TargetingComputer2"
+},
+ {
+   "dataName": "TargetingComputer3",
+   "friendlyName": "Targeting Computer 3",
+   "crew": 1,
+   "mass_tons": 10,
+   "grouping": 10,
+   "requiredProjectName": "Project_TargetingComputer3",
+   "minConsTier": 0,
+   "powerRequirement_MW": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.6,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "TargetingComputer"
+   ],
+   "specialModuleValue": 0.5,
+   "iconResource": "shipbuildericons/ICO_TargetingComputer3"
+},
+ {
+   "dataName": "ArmorStruts",
+   "friendlyName": "Armor Struts",
+   "crew": 0,
+   "mass_tons": 100,
+   "grouping": 12,
+   "requiredProjectName": "Project_ArmorStruts",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.9
+   },
+   "specialModuleRules": [
+      "ArmorStruts"
+   ],
+   "specialModuleValue": 1,
+   "iconResource": "shipbuildericons/ICO_ArmorStruts"
+},
+ {
+   "dataName": "Cyclotron",
+   "friendlyName": "Cyclotron",
+   "crew": 3,
+   "mass_tons": 50,
+   "grouping": -1,
+   "requiredProjectName": "Project_Cyclotron",
+   "minConsTier": 0,
+   "powerRequirement_MW": 5,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.6,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "ParticleBeamPowerBonus",
+      "RadHardened"
+   ],
+   "specialModuleValue": 20,
+   "iconResource": "shipbuildericons/ICO_Cyclotron"
+},
+ {
+   "dataName": "VectorThrusters",
+   "friendlyName": "VectorThrusters",
+   "crew": 0,
+   "mass_tons": 20,
+   "grouping": 13,
+   "requiredProjectName": "Project_PatrolVessels",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.9
+   },
+   "specialModuleRules": [
+      "RotationalThrust",
+      "ImmuneToDamage"
+   ],
+   "specialModuleValue": 1500000,
+   "iconResource": "shipbuildericons/ICO_AdditionalVectorThrusters"
+},
+ {
+   "dataName": "HydraInfiltrationPod",
+   "friendlyName": "Hydra Infiltration Pod",
+   "crew": 1,
+   "mass_tons": 10,
+   "grouping": 5,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.6,
+      "metals": 0.25,
+      "nobleMetals": 0.05
+   },
+   "specialModuleRules": [
+      "Crashdown",
+      "LandHydra",
+      "ImmunetoAerobrakingDamage",
+      "RadHardened"
+   ],
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "SalamanderTerrorUnitPod",
+   "friendlyName": "Salamander Terror Unit Pod",
+   "crew": 30,
+   "mass_tons": 10,
+   "grouping": 6,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.6,
+      "metals": 0.25,
+      "nobleMetals": 0.05
+   },
+   "specialModuleRules": [
+      "Crashdown",
+      "Assault",
+      "ImmunetoAerobrakingDamage",
+      "RadHardened"
+   ],
+   "specialModuleValue": 9,
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienArmyPod",
+   "friendlyName": "Alien Army Pod",
+   "crew": 3000,
+   "mass_tons": 10000,
+   "grouping": 7,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 3,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.35,
+      "metals": 0.4,
+      "nobleMetals": 0.125,
+      "exotics": 0.025
+   },
+   "specialModuleRules": [
+      "MarineOpsDefenseOnly",
+      "ImmunetoAerobrakingDamage",
+      "LandArmy"
+   ],
+   "specialModuleValue": 50,
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienFusionOutpostKit",
+   "friendlyName": "Alien Fusion Outpost Kit",
+   "crew": 0,
+   "mass_tons": 500,
+   "grouping": -1,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.24,
+      "metals": 0.4,
+      "nobleMetals": 0.3,
+      "fissiles": 0.01
+   },
+   "specialModuleRules": [
+      "FoundFusionOutpost"
+   ],
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienFusionPlatformKit",
+   "friendlyName": "Alien Fusion Platform Kit",
+   "crew": 0,
+   "mass_tons": 500,
+   "grouping": -1,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "weightedBuildMaterials": {
+      "water": 0.05,
+      "volatiles": 0.24,
+      "metals": 0.4,
+      "nobleMetals": 0.3,
+      "fissiles": 0.01
+   },
+   "specialModuleRules": [
+      "FoundFusionPlatform"
+   ],
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienMuonSpiker",
+   "friendlyName": "Alien Muon Spiker",
+   "crew": 0,
+   "mass_tons": 10,
+   "grouping": 3,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "water": 0.1,
+      "volatiles": 0.2,
+      "metals": 0.5,
+      "nobleMetals": 0.19998,
+      "fissiles": 0.00002
+   },
+   "specialModuleRules": [
+      "ThrustMultiplier",
+      "RequiresFusionDrive",
+      "RadHardened"
+   ],
+   "specialModuleValue": 1.35,
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienSlushHydrogenTankage",
+   "friendlyName": "Alien Slush Hydrogen Tankage",
+   "crew": 0,
+   "mass_tons": 10,
+   "grouping": 4,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.35,
+      "metals": 0.35,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "EVMultiplier",
+      "RequiresHydrogenPropellant",
+      "RadHardened"
+   ],
+   "specialModuleValue": 1.5,
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienHydronTrap",
+   "friendlyName": "Alien Hydron Trap",
+   "crew": 0,
+   "mass_tons": 10,
+   "grouping": 4,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.25,
+      "metals": 0.35,
+      "nobleMetals": 0.35,
+      "exotics": 0.05
+   },
+   "specialModuleRules": [
+      "EVMultiplier",
+      "RequiresHydrogenPropellant",
+      "RadHardened"
+   ],
+   "specialModuleValue": 2,
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienSurveillanceModule",
+   "friendlyName": "Alien Surveillance Module",
+   "crew": 3,
+   "mass_tons": 20,
+   "grouping": 8,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.6,
+      "nobleMetals": 0.3
+   },
+   "specialModuleRules": [
+      "Surveillance"
+   ],
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienECM",
+   "friendlyName": "Alien ECM",
+   "crew": 1,
+   "mass_tons": 10,
+   "grouping": 9,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 2,
+   "weightedBuildMaterials": {
+      "volatiles": 0.2,
+      "metals": 0.4,
+      "nobleMetals": 0.4
+   },
+   "specialModuleRules": [
+      "ECM"
+   ],
+   "specialModuleValue": 0.6,
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienTargetingComputer",
+   "friendlyName": "Alien Targeting Computer",
+   "crew": 1,
+   "mass_tons": 10,
+   "grouping": 10,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.7,
+      "nobleMetals": 0.2
+   },
+   "specialModuleRules": [
+      "TargetingComputer"
+   ],
+   "specialModuleValue": 0.5,
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienRepairBay",
+   "friendlyName": "Alien Repair Bay",
+   "crew": 4,
+   "mass_tons": 500,
+   "grouping": -1,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.2,
+      "metals": 0.6,
+      "nobleMetals": 0.2
+   },
+   "specialModuleRules": [
+      "Repair"
+   ],
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienMagazine",
+   "friendlyName": "Alien Magazine",
+   "crew": 1,
+   "mass_tons": 100,
+   "grouping": -1,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 0,
+   "powerRequirement_MW": 0,
+   "weightedBuildMaterials": {
+      "volatiles": 0.1,
+      "metals": 0.9
+   },
+   "specialModuleRules": [
+      "Magazine",
+      "RadHardened"
+   ],
+   "specialModuleValue": 0.5,
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienSurveillancePlatform",
+   "friendlyName": "Alien Surveillance Platform",
+   "crew": 8,
+   "grouping": 15,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 1,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "specialModuleRules": [
+      "FoundSurveillancePlatform"
+   ],
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienSurveillanceOrbital",
+   "friendlyName": "Alien Surveillance Orbital",
+   "crew": 32,
+   "grouping": 15,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 2,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "specialModuleRules": [
+      "FoundSurveillanceOrbital"
+   ],
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "AlienSurveillanceRing",
+   "friendlyName": "Alien Surveillance Ring",
+   "crew": 128,
+   "grouping": 15,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "minConsTier": 3,
+   "powerRequirement_MW": 0,
+   "noCombatRepair": true,
+   "specialModuleRules": [
+      "FoundSurveillanceRing"
+   ],
+   "iconResource": "shipbuildericons/ICO_Unknown"
+},
+ {
+   "dataName": "Empty",
+   "friendlyName": "Empty",
+   "crew": 0,
+   "mass_tons": 0,
+   "grouping": -1,
+   "minConsTier": 0
+}
+]

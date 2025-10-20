@@ -1,0 +1,990 @@
+[
+ {
+   "dataName": "InternationalSpaceStation",
+   "friendlyName": "International Space Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit4",
+   "meanAnomalyAtEpoch_Deg": 312.374,
+   "epoch_floatJYears": 2021.4767,
+   "sectors": [
+      {
+         "faction": "CooperateCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "",
+            "SolarCollector",
+            "SpaceScienceLab",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "Tiangong",
+   "friendlyName": "Tiangong",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit3",
+   "meanAnomalyAtEpoch_Deg": 40.7074,
+   "epoch_floatJYears": 2021.4767,
+   "sectors": [
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "AlienHQ",
+   "friendlyName": "Alien HQ",
+   "habType": "Base",
+   "tier": 3,
+   "habSite": "",
+   "alien": true,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienColonyCore",
+            "AlienColonyMiningComplex",
+            "AlienWormholeFacility",
+            "AlienFusionReactorFarm",
+            "AlienNanofacturingComplex"
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienFusionReactorFarm",
+            "AlienCitadel",
+            "AlienSpaceworks",
+            "AlienSpaceworks"
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienFusionReactorFarm",
+            "AlienBattlestations",
+            "AlienBattlestations",
+            "AlienCitadel"
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienFusionReactorFarm",
+            "AlienBattlestations",
+            "AlienBattlestations",
+            "AlienCitadel"
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienFusionReactorFarm",
+            "AlienBattlestations",
+            "AlienBattlestations",
+            "AlienCitadel"
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "AlienHQStation",
+   "friendlyName": "Alien Station Alpha",
+   "habType": "Station",
+   "tier": 3,
+   "habSite": "",
+   "alien": true,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienRingCore",
+            "AlienGarrison",
+            "AlienNanofactory",
+            "AlienGarrison",
+            "AlienFusionReactorFarm"
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienFusionReactorArray",
+            "AlienLayeredDefenseArray",
+            "AlienFusionReactorArray",
+            "AlienBattlestations"
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienShipyard",
+            "AlienLayeredDefenseArray",
+            "AlienFusionReactorArray",
+            "AlienFusionReactorArray"
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "GatewayStation",
+   "friendlyName": "Gateway Station",
+   "habType": "Station",
+   "tier": 3,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowSaturnOrbit",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "RingCore",
+            "HeavyFissionReactorFarm",
+            "HeavyFusionReactorFarm",
+            "HeavyFusionReactorFarm",
+            "Foundry"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "MarineBattalionBarracks",
+            "AntimatterFarm",
+            "Battlestations",
+            "HeavyFusionReactorFarm"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "Shipyard",
+            "LifeScienceInstitute",
+            "NanofacturingComplex",
+            "HeavyFissionReactorFarm"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "HeavyFissionReactorFarm",
+            "PointDefenseArray",
+            "Helium-3Mine",
+            "HeavyFissionReactorFarm"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "MediaCenter",
+            "LayeredDefenseArray",
+            "HeavyFissionReactorFarm",
+            "HeavyFissionReactorFarm"
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "ArchonStation",
+   "friendlyName": "Archon Station",
+   "habType": "Station",
+   "tier": 2,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "MediumEarthOrbit",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "OrbitalCore",
+            "SpaceDock",
+            "HeavyFissionReactorArray",
+            "AntimatterTrap",
+            "OperationsCenter"
+         ]
+      },
+	  {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "HeavyFissionPile",
+            "SpaceDock",
+            "SpaceDock",
+            "SpaceDock"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "OperationsCenter",
+            "Nanofactory",
+            "FusionReactorArray",
+            "FusionReactorArray"
+         ]
+      }      
+   ]
+},
+ {
+   "dataName": "TranquilityBase",
+   "friendlyName": "Tranquility Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "LunaSite5",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "FusionPile",
+            "FusionPile",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "ArcadiaPlanitiaBase",
+   "friendlyName": "Arcadia Planitia Base",
+   "habType": "Base",
+   "tier": 3,
+   "habSite": "MarsSite1",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "ColonyCore",
+            "OutpostMiningComplex",
+            "HeavyFissionReactorFarm",
+            "MarineCompanyBarracks",
+            "LayeredDefenseArray"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "CommandCenter",
+            "CommandCenter",
+            "CommandCenter",
+            "HeavyFissionReactorArray"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "CommandCenter",
+            "CommandCenter",
+            "CommandCenter",
+            "SupplyDepot"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "CommandCenter",
+            "CommandCenter",
+            "CommandCenter",
+            "HeavyFissionPile"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+		    "CommandCenter",
+            "Farm",
+            "CommandCenter",
+            "FusionReactorArray"
+         ]
+      }
+   ]
+},
+{
+   "dataName": "MarsBase2",
+   "friendlyName": "Mars Base 2",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "MarsSite4",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "FusionReactorArray",
+            "MarineCompanyBarracks",
+            "LayeredDefenseArray"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "CommandCenter",
+            "CommandCenter",
+            "CommandCenter",
+            "FusionReactorArray"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "CommandCenter",
+            "CommandCenter",
+            "CommandCenter",
+            "SupplyDepot"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "CommandCenter",
+            "CommandCenter",
+            "CommandCenter",
+            "FusionReactorArray"
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+		    "CommandCenter",
+            "Farm",
+            "CommandCenter",
+            "FusionReactorArray"
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "KalininBase",
+   "friendlyName": "Kalinin Base",
+   "habType": "Base",
+   "tier": 3,
+   "habSite": "LunaSite9",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "ColonyCore",
+            "OutpostMiningComplex",
+            "FusionReactorArray",
+            "MarineBattalionBarracks",
+            "PointDefenseArray"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "FusionReactorArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "LayeredDefenseArray"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "FusionReactorArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "FusionReactorFarm"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "LayeredDefenseArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "FusionReactorFarm"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "FusionReactorArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "FusionReactorFarm"
+         ]
+      }
+   ]
+},
+{
+   "dataName": "MaddenBase",
+   "friendlyName": "Madden Base",
+   "habType": "Base",
+   "tier": 3,
+   "habSite": "PhobosSite1",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "ColonyCore",
+            "",
+            "FusionReactorArray",
+            "MarineBattalionBarracks",
+            "PointDefenseArray"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "FusionReactorArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "LayeredDefenseArray"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "FusionReactorArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "FusionReactorFarm"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "LayeredDefenseArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "FusionReactorFarm"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "FusionReactorArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "FusionReactorFarm"
+         ]
+      }
+   ]
+},
+{
+   "dataName": "InternationalSpaceStationSkirmish",
+   "friendlyName": "International Space Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": 241.0107,
+   "sectors": [
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "MaterialsLab",
+            "SolarCollector",
+            "SpaceScienceLab",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+{
+   "dataName": "AlienHQStationSkirmish",
+   "friendlyName": "Alien Station Alpha",
+   "habType": "Station",
+   "tier": 3,
+   "habSite": "",
+   "alien": true,
+   "orbitTemplateName": "LowNeptuneOrbit",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienRingCore",
+            "AlienPointDefenseArray",
+            "AlienLayeredDefenseArray",
+            "AlienFusionReactorArray",
+            "AlienFusionReactorArray"
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienNanofactory",
+            "AlienFusionReactorArray",
+            "AlienBattlestations",
+            "AlienLayeredDefenseArray"
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienShipyard",
+            "AlienFusionReactorArray",
+            "AlienFusionReactorArray",
+            "AlienLayeredDefenseArray"
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "GatewayStationSkirmish",
+   "friendlyName": "Gateway Station",
+   "habType": "Station",
+   "tier": 3,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit2",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "RingCore",
+            "FusionReactorFarm",
+            "SkunkWorks",
+            "FusionReactorFarm",
+            "Foundry"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "MarineBattalionBarracks",
+            "EnergyInstitute",
+            "Battlestations",
+            "SpaceHotel"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "Shipyard",
+            "LifeScienceInstitute",
+            "NanofacturingComplex",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "Supercollider",
+            "PointDefenseArray",
+            "SocialScienceInstitute",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "MediaCenter",
+            "LayeredDefenseArray",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "ArchonStationSkirmish",
+   "friendlyName": "Archon Station",
+   "habType": "Station",
+   "tier": 2,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowLunarOrbit",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "OrbitalCore",
+            "Shipyard",
+            "SolarArray",
+            "SolarArray",
+            "LayeredDefenseArray"
+         ]
+      },
+	  {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "Farm",
+            "OperationsCenter",
+            "PointDefenseArray",
+            "OperationsCenter"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "OperationsCenter",
+            "Nanofactory",
+            "FissionReactorArray",
+            "FissionReactorArray"
+         ]
+      }      
+   ]
+},
+ {
+   "dataName": "ValkyrieStation",
+   "friendlyName": "Valkyrie Station",
+   "habType": "Station",
+   "tier": 3,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "HighMercuryOrbit",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "RingCore",
+            "SolarFarm",
+            "SolarFarm",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "MarineBattalionBarracks",
+            "SolarFarm",
+            "Battlestations",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "",
+            "Battlestations",
+            "Battlestations",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "Supercollider",
+            "SolarFarm",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "MediaCenter",
+            "Battlestations",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      }
+   ]
+},
+{
+   "dataName": "ValkyrieStationSkirmish",
+   "friendlyName": "Valkyrie Station",
+   "habType": "Station",
+   "tier": 3,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowMercuryOrbit",
+   "meanAnomalyAtEpoch_Deg": null,
+   "sectors": [
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "RingCore",
+            "SolarFarm",
+            "SolarFarm",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "MarineBattalionBarracks",
+            "SolarFarm",
+            "Battlestations",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "InterstellarLaunchingLaser",
+            "Battlestations",
+            "Battlestations",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "Supercollider",
+            "SolarFarm",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "MediaCenter",
+            "Battlestations",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      }
+   ]
+},
+]

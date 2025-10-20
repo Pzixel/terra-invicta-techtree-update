@@ -1,0 +1,15 @@
+UI.Markers.CouncilorMarker.Tooltip={0}{1} ({2})</color>																// faction color, councilor Name, councilor job
+UI.Markers.CouncilorMarker.TooltipWithMission={0}{1} ({2})</color>: {3} ({4}).										// faction color, councilor Name, councilor job, mission, target
+UI.Markers.CouncilorMarker.TooltipWithMissionResolveTime={0}{1} ({2})</color>: {3} ({4}). Endet am {5}.				// faction color, councilor Name, councilor job, mission, target, completion date
+UI.Markers.Capital.TooltipHeader={0}-Kontrollpunkte ({1})															// nation, # CPs
+UI.Markers.Capital.ControlPoint=#{0} ({1}): {2}
+UI.Markers.Uncontrolled=Nicht kontrolliert
+UI.Markers.InvalidTarget=Ungültiges Ziel
+UI.Markers.Occupation={0}: {1} besetzt																				// Occupying nation, percentage
+UI.Markers.CoreEconomicRegion=Wirtschaftliche Kernregion<br/><br/>Wirtschaftliche Kernregionen verleihen der Wirtschaftspriorität einer Nation einen Bonus.
+UI.Markers.CoreResourceRegion=Ressourcenregion<br/><br/>Ressourcenregionen verleihen der Wirtschaftspriorität einer Nation einen Bonus, sorgen aber auch für ein höheres Maß an Ungleichheit und Umweltschaden.
+UI.Markers.MonsterArmy=Alien-Megafauna {0}
+UI.Markers.NoFactionArmy={0} ({1}) {2} Angriff: {3}
+UI.Markers.FactionArmy={0} ({1}, {2}) {3} Angriff: {4}
+UI.Markers.Boost={0}<br/>{1}{2} pro Jahr
+UI.Markers.MissionControl={0}<br/>{1}{2}

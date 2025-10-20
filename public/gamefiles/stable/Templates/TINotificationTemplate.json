@@ -1,0 +1,2641 @@
+[
+ {
+   "dataName": "LogCampaignStart",
+   "alertHammerLoc": "UI.Notifications.Executive",
+   "disable": false,
+   "allowAnyChanges": false,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "None"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFactionWin",
+   "alertHammerLoc": "UI.Notifications.Executive",
+   "disable": false,
+   "allowAnyChanges": false,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "None"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogObjectiveComplete",
+   "alertHammerLoc": "UI.Notifications.Executive",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMilestoneComplete",
+   "alertHammerLoc": "UI.Notifications.Executive",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogGlobalMilestoneComplete",
+   "alertHammerLoc": "UI.Notifications.Executive",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogObjectiveUnlocked",
+   "alertHammerLoc": "UI.Notifications.Executive",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogOtherFactionUnlocksVictoryCondition",
+   "alertHammerLoc": "UI.Notifications.Executive",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogTutorialStart",
+   "alertHammerLoc": "UI.Notifications.Tutorial",
+   "disable": false,
+   "allowAnyChanges": false,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "None"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFirstExecutiveControlPoint",
+   "alertHammerLoc": "UI.Notifications.Tutorial",
+   "disable": false,
+   "allowAnyChanges": false,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogTimeChangeUpdate",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": false,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogEnemyCouncilorKilledOnMissionTargetingMe",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyCouncilorKilledOnMission",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyCouncilorDetained",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyCouncilorReleased",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyCouncilorAssassinated",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogEnemyMissionFailure",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogCouncilorKilledInAttack",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogCouncilorPassesAway",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogCouncilorGainsTrait",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "SameCouncilor"
+},
+ {
+   "dataName": "LogMissionOutcome",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMissionOutcome_Permanent",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMissionOutcome_Uncontested",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMissionOutcome_Spy",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogIPassivelyCapturedACouncilor",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogOrgsForcedToPool",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogOrgPoolOverfull",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogSpyLost",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNewCouncilorTurn",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogSpaceFacilityBombed",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogArmyLaunchesTowardEnemyRegion",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameRegion"
+},
+ {
+   "dataName": "LogArmyArrivesInRegion",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameRegion"
+},
+ {
+   "dataName": "LogArmyTeleportedToLegalRegion",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameRegion"
+},
+ {
+   "dataName": "LogArmyCompletesOperation",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogArmyCompletesOccupationOfRegion",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogArmyBeginsAnnexation",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogArmyCompletesAnnexation",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogArmyAnnexationCancelled",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogArmyConquersNation",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogArmyAssignedToFaction",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameNation"
+},
+ {
+   "dataName": "LogNewArmyBuilt",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNewNavyBuilt",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogSpaceDefensesComplete",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogArmyIsDestroyed",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameRegion"
+},
+ {
+   "dataName": "AlertNarrativeEvent",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "None"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNarrativeEventResolution",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "None"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogAlarmTriggered",
+   "alertHammerLoc": "UI.Notifications.Operations",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "None"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFactionOrgStolen",
+   "alertHammerLoc": "UI.Notifications.Internal",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyOrgStolen",
+   "alertHammerLoc": "UI.Notifications.Internal",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyTechSabotaged",
+   "alertHammerLoc": "UI.Notifications.Internal",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyTechStolen",
+   "alertHammerLoc": "UI.Notifications.Internal",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogSpyDiscovered",
+   "alertHammerLoc": "UI.Notifications.Internal",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogInvoluntaryCouncilorDismissal",
+   "alertHammerLoc": "UI.Notifications.Internal",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogOurShipChangedSides",
+   "alertHammerLoc": "UI.Notifications.Internal",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMySectorStolen",
+   "alertHammerLoc": "UI.Notifications.Internal",
+   "disable": true,
+   "allowAnyChanges": false,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyCouncilorDetected",
+   "alertHammerLoc": "UI.Notifications.Internal",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "CouncilorSightings"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogAlienNationFounded",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAlienNationGrows",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAlienNationCapitalConquered",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAlienNationOverthrown",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAlienNationConquered",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAliensPassTechnologyToMe",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogControlPointDefenseExpires",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "SameNation"
+},
+ {
+   "dataName": "LogCrackdownExpires",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "SameNation"
+},
+ {
+   "dataName": "LogControlConsolidated",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogCPDominated",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyControlPointCrackedDown",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMyControlPointPurged",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogLoyaltySwitch",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogControlPointAdded",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogControlPointReduction",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogRegimeChange",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogCoup",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogRevolution",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogIndependence",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNationGainsSpaceProgram",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNationGainsNukes",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNationGainsCoreEcoRegion",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNationGainsCoreMineralRegion",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNationGainsCoreOilRegion",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogDecolonizeComplete",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogDecontaminateComplete",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogMilitaryFounded",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogSTOFighterComplete",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogPolicyDeclined",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogPolicyAdopted",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameNation"
+},
+ {
+   "dataName": "LogRegionChangesHands",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameNation"
+},
+ {
+   "dataName": "LogNationJoinsWar",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogPactEnds",
+   "alertHammerLoc": "UI.Notifications.ExternalAffairs",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFirstFactionEncounter",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "CouncilorSightings"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogAlienCrashdown",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogUFOLanding",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogUFOLandingAssaulted",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogUFOLandingBombed",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAlienArmySpawned",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "SameRegion",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAbductions",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogEnthrallElites",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogEnthrallOrg",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogEnthrallPublic",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogTerrorize",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogXenoformMission",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAlienFacilityDetected",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAlienFacilityAssaulted",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAlienFacilityBombed",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogXenoformingDetected",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMethods"
+   ]
+},
+ {
+   "dataName": "LogAlienFaunaArmySpawned",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogDetainedCouncilorDismissed",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Missions"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogEnemyCouncilorLocationDetected",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "CouncilorSightings"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogEnemyCouncilorDetected",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "CouncilorSightings"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogAlienCouncilorDetected",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "CouncilorSightings"
+   },
+   "stacking": "None",
+   "unlockingObjectives": [
+      "ResearchTheirMovements"
+   ]
+},
+ {
+   "dataName": "LogFleetDetected",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogHumanHabDetected",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogAlienHabDetected",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogAssaultCarrierLaunchesTowardEarth",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFleetLaunchesTowardMyAsset",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFleetArrival",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogTrajectoryTargetManeuveredAndWeCannotChase",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogTrajectoryAborted",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFleetCrashes",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFleetLanded",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFleetsMerged",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogSpaceBattleTakesPlace",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogNoSpaceBattleTakesPlace",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogInitiateOrbitalBombardment",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Bombardment"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogOrbitalBombardmentComplete",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "Bombardment"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogShipDestroyedInStrat",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "PrimaryFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "SameFleet"
+},
+ {
+   "dataName": "LogOurFleetRefueled",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogOurFleetRepaired",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFleetAvailableForOperations",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFleetStoleOurFuel",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": false,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "PrimaryFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogFleetUndocked",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogProbeLaunched",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": true,
+   "newsFeedAudience": "PrimaryFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "PrimaryFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogProbeArrived",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "PrimaryFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "PrimaryFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogEnemyProbeLaunched",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogEnemyProbeArrived",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogScanningPlanet",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogScannedPlanet",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogHabFounded",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogHabModuleComplete",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "SameHab"
+},
+ {
+   "dataName": "LogCriticalHabModuleComplete",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "SameHab"
+},
+ {
+   "dataName": "LogHabAcquired",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogHabDefected",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogHabAssaultFailed",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogHabDefendInterestEnds",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogHabDestroyed",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogShipComplete",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogOurHabControlled",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogDecommissionModuleComplete",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "SpaceEvents"
+   },
+   "stacking": "SameHab"
+},
+ {
+   "dataName": "LogDecommissionHabComplete",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogOurHabModuleDestroyed",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "SameHab"
+},
+ {
+   "dataName": "LogOurCriticalHabModuleDestroyed",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "SameHab"
+},
+ {
+   "dataName": "LogOurHabDestroyed",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogEnemyShipChangedSidesToUs",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogOfficerKilledOutsideofCombat",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "SameFleet"
+},
+ {
+   "dataName": "LogOfficerRetires",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "RelevantFactions",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "SameFleet"
+},
+ {
+   "dataName": "Rapid_LogBombardmentShot",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": false,
+   "allowAlertChanges": false,
+   "alertAudience": "None",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "None",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "PrimaryFactions",
+      "category": "Bombardment"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogTechComplete",
+   "alertHammerLoc": "UI.Notifications.Science",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogTechCompleteAndNewTechSelected",
+   "alertHammerLoc": "UI.Notifications.Science",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "PrimaryFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogProjectTriggered",
+   "alertHammerLoc": "UI.Notifications.Engineering",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogProjectComplete",
+   "alertHammerLoc": "UI.Notifications.Engineering",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogUniqueProjectCompleteByAnotherFaction",
+   "alertHammerLoc": "UI.Notifications.Engineering",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogTechWinnerWarning",
+   "alertHammerLoc": "UI.Notifications.Science",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+}
+]

@@ -1,0 +1,1214 @@
+[
+ {
+   "dataName": "randomizedAlienCouncilor1",
+   "randomized": true,
+   "alien": true,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "allowedIdeologies": [
+      "Alien"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "randomizedAlienCouncilor2",
+   "randomized": true,
+   "alien": true,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "SecondWave"
+   ],
+   "allowedIdeologies": [
+      "Alien"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "randomizedCouncilor1",
+   "randomized": true,
+   "alien": false,
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": true,
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Escape",
+      "Appease",
+      "Submit",
+      "Exploit"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC0",
+   "personalName": "Matt",
+   "familyName": "Price",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "M_EUR_28",
+   "randomized": false,
+   "alien": false,
+   "type": "Astronaut",
+   "regionBorn": "Texas",
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": false,
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Escape",
+      "Appease",
+      "Submit",
+      "Exploit"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1",
+   "personalName": "Michael",
+   "familyName": "Moore",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "randomized": false,
+   "alien": false,
+   "type": "Commando",
+   "regionBorn": "California",
+   "yearBorn": 1988,
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": false,
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1038",
+   "personalName": "Floris",
+   "familyName": "Bronzwaer",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage220",
+   "randomized": false,
+   "alien": false,
+   "type": "Diplomat",
+   "regionBorn": "Netherlands",
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Counselor",
+      "Transparent",
+      "Ethical",
+      "Pacifist",
+      "Striver"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Escape",
+      "Appease",
+      "Submit",
+      "Exploit"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1170",
+   "personalName": "Sara-Connor",
+   "familyName": "Keller",
+   "strGender": "Female",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage227",
+   "randomized": false,
+   "alien": false,
+   "type": "Activist",
+   "regionBorn": "Ontario",
+   "yearBorn": 1995,
+   "monthBorn": 1,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Chemist",
+      "Ethical",
+      "Pacifist",
+      "Striver"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1207",
+   "personalName": "Levi",
+   "familyName": "Newell",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage205",
+   "randomized": false,
+   "alien": false,
+   "type": "Commando",
+   "regionBorn": "California",
+   "yearBorn": 1997,
+   "monthBorn": 3,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "SocialScientist",
+      "MilitaryScientist",
+      "OpinionLeader",
+      "Veteran",
+      "Crew"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1411",
+   "personalName": "Martti",
+   "familyName": "Mikkola",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "randomized": false,
+   "alien": false,
+   "type": "TechMogul",
+   "regionBorn": "Finland",
+   "yearBorn": 1978,
+   "monthBorn": 7,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Affluent",
+      "Connected",
+      "Ethical",
+      "Academic"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Exploit",
+      "Appease",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1480",
+   "personalName": "Alex",
+   "familyName": "Essenmacher",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage225",
+   "randomized": false,
+   "alien": false,
+   "type": "Officer",
+   "regionBorn": "RustBelt",
+   "yearBorn": 1987,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Doctor",
+      "Connected",
+      "Government",
+      "Awareness",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1487",
+   "personalName": "Brent",
+   "familyName": "Kesler",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage213",
+   "randomized": false,
+   "alien": false,
+   "type": "Diplomat",
+   "regionBorn": "Shenandoah",
+   "yearBorn": 1981,
+   "monthBorn": 7,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "SocialScientist",
+      "MilitaryScientist",
+      "Eminent",
+      "Ethical",
+      "Academic"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1654",
+   "personalName": "Mike",
+   "familyName": "Mudgett",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage199",
+   "randomized": false,
+   "alien": false,
+   "type": "Hacker",
+   "regionBorn": "AmericanPacific",
+   "yearBorn": 1976,
+   "monthBorn": 1,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Connected",
+      "Criminal",
+      "Streetwise",
+      "Awareness",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC169",
+   "personalName": "Dan",
+   "familyName": "Bij",
+   "strGender": "Male",
+   "strAncestry": "Oceanic",
+   "randomized": false,
+   "alien": false,
+   "type": "Tycoon",
+   "regionBorn": "NewZealand",
+   "yearBorn": 1985,
+   "monthBorn": 2,
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": true,
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Escape",
+      "Appease",
+      "Submit",
+      "Exploit"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1747",
+   "personalName": "Dex",
+   "familyName": "Arkanthis",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage217",
+   "randomized": false,
+   "alien": false,
+   "type": "Officer",
+   "regionBorn": "Norway",
+   "monthBorn": 8,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "MilitaryScientist",
+      "LowProfile",
+      "Counselor",
+      "Transparent",
+      "Veteran"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1883",
+   "personalName": "Grace",
+   "familyName": "Gautier",
+   "strGender": "Female",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage210",
+   "randomized": false,
+   "alien": false,
+   "type": "Journalist",
+   "regionBorn": "Texas",
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Connected",
+      "Inscrutable",
+      "Ethical",
+      "Undercover"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Appease",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1916",
+   "personalName": "Glenn",
+   "familyName": "Robertson",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "randomized": false,
+   "alien": false,
+   "type": "Executive",
+   "regionBorn": "Scotland",
+   "yearBorn": 1970,
+   "monthBorn": 7,
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": true,
+   "allowedIdeologies": [
+      "Exploit"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC1967",
+   "personalName": "Tom",
+   "familyName": "Emedio",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage204",
+   "randomized": false,
+   "alien": false,
+   "type": "Diplomat",
+   "regionBorn": "Paris",
+   "yearBorn": 1998,
+   "monthBorn": 4,
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": true,
+   "allowedIdeologies": [
+      "Resist",
+      "Appease",
+      "Cooperate"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2",
+   "personalName": "Brian",
+   "familyName": "Sanders",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage191",
+   "randomized": false,
+   "alien": false,
+   "type": "Journalist",
+   "regionBorn": "Texas",
+   "yearBorn": 1981,
+   "monthBorn": 12,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Famous"
+   ],
+   "allowedIdeologies": [
+      "Resist"
+   ],
+   "loyalty": 25,
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2034",
+   "personalName": "Jack",
+   "familyName": "Peterson",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage214",
+   "randomized": false,
+   "alien": false,
+   "type": "Scientist",
+   "regionBorn": "Cascadia",
+   "yearBorn": 1982,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Affluent",
+      "Physicist",
+      "Doctor",
+      "Ethical",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Appease",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2070",
+   "personalName": "Daniel",
+   "familyName": "Schinhofen",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage203",
+   "randomized": false,
+   "alien": false,
+   "type": "Celebrity",
+   "regionBorn": "California",
+   "yearBorn": 1980,
+   "monthBorn": 7,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Affluent",
+      "LoneWolf",
+      "Crew",
+      "Sociopath",
+      "AwkwardGenius"
+   ],
+   "allowedIdeologies": [
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2112",
+   "personalName": "Rames",
+   "familyName": "Singhapat",
+   "strGender": "Male",
+   "strAncestry": "Asian",
+   "randomized": false,
+   "alien": false,
+   "type": "Scientist",
+   "regionBorn": "Himalayas",
+   "yearBorn": 1990,
+   "monthBorn": 3,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Physicist",
+      "Transparent",
+      "Ethical",
+      "Academic",
+      "AwkwardGenius"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Appease",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2163",
+   "personalName": "David",
+   "familyName": "Browne",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage221",
+   "randomized": false,
+   "alien": false,
+   "type": "Evangelist",
+   "regionBorn": "NorthernIreland",
+   "yearBorn": 1993,
+   "monthBorn": 9,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Eminent",
+      "OpinionLeader",
+      "QuickLearner",
+      "Crew"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2176",
+   "personalName": "Bailey",
+   "familyName": "McNally",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "randomized": false,
+   "alien": false,
+   "type": "TechMogul",
+   "regionBorn": "California",
+   "yearBorn": 1995,
+   "monthBorn": 1,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Affluent",
+      "Connected",
+      "Undercover",
+      "QuickLearner",
+      "Crew"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2457",
+   "personalName": "Jay",
+   "familyName": "Sizzle",
+   "strGender": "Male",
+   "strAncestry": "Hispanic",
+   "appearanceTemplateName": "CharImage208",
+   "randomized": false,
+   "alien": false,
+   "type": "Celebrity",
+   "regionBorn": "California",
+   "monthBorn": 2,
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": true,
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate"
+   ],
+   "debugOnly": true
+},
+ {
+   "dataName": "pregenC236",
+   "personalName": "Sean",
+   "familyName": "Dioz",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage202",
+   "randomized": false,
+   "alien": false,
+   "type": "Diplomat",
+   "regionBorn": "Paris",
+   "yearBorn": 1995,
+   "monthBorn": 1,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "SocialScientist",
+      "ComputerScientist",
+      "Technocrat",
+      "Striver",
+      "Indulgent"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Appease",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2409",
+   "personalName": "Kareem",
+   "familyName": "Harper",
+   "strGender": "Male",
+   "strAncestry": "African",
+   "appearanceTemplateName": "CharImage200",
+   "randomized": false,
+   "alien": false,
+   "type": "Executive",
+   "regionBorn": "NewYork",
+   "monthBorn": 4,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Affluent",
+      "OpinionLeader",
+      "Agitator",
+      "Brazen",
+      "Crew"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2470",
+   "personalName": "Julian",
+   "familyName": "Mattock",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage212",
+   "randomized": false,
+   "alien": false,
+   "type": "Executive",
+   "regionBorn": "England",
+   "monthBorn": 5,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "LowProfile",
+      "LoneWolf",
+      "Awareness",
+      "Crew",
+      "AwkwardGenius"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2568",
+   "personalName": "Greg",
+   "familyName": "Ryan",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage215",
+   "randomized": false,
+   "alien": false,
+   "type": "Executive",
+   "regionBorn": "England",
+   "yearBorn": 1988,
+   "monthBorn": 8,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Counselor",
+      "Inscrutable",
+      "Expert",
+      "Technocrat",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Appease",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2684",
+   "personalName": "Patrick",
+   "familyName": "Rumball",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage224",
+   "randomized": false,
+   "alien": false,
+   "type": "Diplomat",
+   "regionBorn": "Ontario",
+   "yearBorn": 1995,
+   "monthBorn": 1,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "LowProfile",
+      "Counselor",
+      "Earthbound",
+      "Awareness",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Destroy"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC2688",
+   "personalName": "Kayleigh",
+   "familyName": "Adams",
+   "strGender": "Female",
+   "strAncestry": "European",
+   "randomized": false,
+   "alien": false,
+   "type": "TechMogul",
+   "regionBorn": "Texas",
+   "yearBorn": 1994,
+   "monthBorn": 3,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Affluent",
+      "Technocrat",
+      "Veteran",
+      "Striver",
+      "ConspiracyTheorist"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC28",
+   "personalName": "Jasper",
+   "familyName": "Aspau",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "randomized": false,
+   "alien": false,
+   "type": "Fixer",
+   "regionBorn": "NewYork",
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": true,
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Escape",
+      "Appease",
+      "Submit",
+      "Exploit"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC314",
+   "personalName": "Valerie",
+   "familyName": "Kendrick",
+   "strGender": "Female",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage201",
+   "randomized": false,
+   "alien": false,
+   "type": "Judge",
+   "regionBorn": "Dixie",
+   "yearBorn": 1992,
+   "monthBorn": 10,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Affluent",
+      "OpinionLeader",
+      "Government",
+      "Expert",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Exploit",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC382",
+   "personalName": "Matthew",
+   "familyName": "Zaboroski",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage198",
+   "randomized": false,
+   "alien": false,
+   "type": "Executive",
+   "regionBorn": "NewEngland",
+   "yearBorn": 1989,
+   "monthBorn": 8,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "ComputerScientist",
+      "Technocrat",
+      "Awareness",
+      "QuickLearner",
+      "Sociopath"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC3845",
+   "personalName": "Hyjinks",
+   "familyName": "Silverhart",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage216",
+   "randomized": false,
+   "alien": false,
+   "type": "Fixer",
+   "regionBorn": "HighPlains",
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Affluent",
+      "Transparent",
+      "Ethical",
+      "Crew",
+      "AwkwardGenius"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC4267",
+   "personalName": "Bob",
+   "familyName": "Srinivasan",
+   "strGender": "Male",
+   "strAncestry": "Asian",
+   "appearanceTemplateName": "CharImage209",
+   "randomized": false,
+   "alien": false,
+   "type": "Scientist",
+   "regionBorn": "Mumbai",
+   "yearBorn": 1972,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Chemist",
+      "Expert",
+      "Ethical",
+      "Connected"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Escape",
+      "Cooperate"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC4322",
+   "personalName": "Stefano",
+   "familyName": "de Stefano",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage223",
+   "randomized": false,
+   "alien": false,
+   "type": "Judge",
+   "regionBorn": "Naples",
+   "yearBorn": 1981,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Connected",
+      "Counselor",
+      "Pollyanna",
+      "Expert",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Appease",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC4382",
+   "personalName": "Cash",
+   "familyName": "Bland",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage211",
+   "randomized": false,
+   "alien": false,
+   "type": "Spy",
+   "regionBorn": "Shenandoah",
+   "yearBorn": 2004,
+   "monthBorn": 4,
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": false,
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Escape",
+      "Appease",
+      "Submit",
+      "Exploit"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC4383",
+   "personalName": "Alexander",
+   "familyName": "Cross",
+   "strGender": "Male",
+   "strAncestry": "Asian",
+   "appearanceTemplateName": "CharImage207",
+   "randomized": false,
+   "alien": false,
+   "type": "Astronaut",
+   "regionBorn": "Shenandoah",
+   "yearBorn": 1982,
+   "monthBorn": 5,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Astronomer",
+      "NationalHero",
+      "Ethical",
+      "Veteran",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC4482",
+   "personalName": "Sean",
+   "familyName": "MacMaster",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage228",
+   "randomized": false,
+   "alien": false,
+   "type": "Professor",
+   "regionBorn": "Texas",
+   "yearBorn": 1994,
+   "monthBorn": 5,
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": true,
+   "allowedIdeologies": [
+      "Resist",
+      "Appease",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC4514",
+   "personalName": "Arthur",
+   "familyName": "Simental",
+   "strGender": "Male",
+   "strAncestry": "Hispanic",
+   "appearanceTemplateName": "CharImage229",
+   "randomized": false,
+   "alien": false,
+   "type": "Fixer",
+   "regionBorn": "RockyMountains",
+   "yearBorn": 1990,
+   "monthBorn": 12,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "MilitaryScientist",
+      "Government",
+      "Extremist",
+      "Academic",
+      "Crew"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC462",
+   "personalName": "Daniel",
+   "familyName": "Kostek",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage222",
+   "randomized": false,
+   "alien": false,
+   "type": "Politician",
+   "regionBorn": "Prairies",
+   "yearBorn": 1997,
+   "monthBorn": 10,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "ComputerScientist",
+      "LowProfile",
+      "Connected",
+      "Crew"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Cooperate"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC580",
+   "personalName": "Rainer",
+   "familyName": "Belmont",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage206",
+   "randomized": false,
+   "alien": false,
+   "type": "Investigator",
+   "regionBorn": "RustBelt",
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": true,
+   "allowedIdeologies": [
+      "Resist",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC613",
+   "personalName": "Wyatt",
+   "familyName": "Benson",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "appearanceTemplateName": "CharImage218",
+   "randomized": false,
+   "alien": false,
+   "type": "Commando",
+   "regionBorn": "Texas",
+   "yearBorn": 1990,
+   "monthBorn": 7,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Government",
+      "Pollyanna",
+      "Undercover",
+      "ConspiracyTheorist"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC82",
+   "personalName": "T. J.",
+   "familyName": "Rogers",
+   "strGender": "Male",
+   "strAncestry": "European",
+   "randomized": false,
+   "alien": false,
+   "type": "Hacker",
+   "regionBorn": "Cascadia",
+   "yearBorn": 1980,
+   "monthBorn": 9,
+   "randomizeTraits": true,
+   "allowRandomOnlyTraits": true,
+   "allowedIdeologies": [
+      "Resist",
+      "Destroy"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC847",
+   "personalName": "Sally",
+   "familyName": "Yan",
+   "strGender": "Female",
+   "strAncestry": "EastAsian",
+   "appearanceTemplateName": "CharImage219",
+   "randomized": false,
+   "alien": false,
+   "type": "Scientist",
+   "regionBorn": "Dixie",
+   "yearBorn": 1990,
+   "monthBorn": 1,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "Chemist",
+      "Eminent",
+      "Expert",
+      "Academic",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+},
+ {
+   "dataName": "pregenC911",
+   "personalName": "Jacinta",
+   "familyName": "Alfredo",
+   "strGender": "Female",
+   "strAncestry": "Hispanic",
+   "appearanceTemplateName": "CharImage226",
+   "randomized": false,
+   "alien": false,
+   "type": "Diplomat",
+   "regionBorn": "Cuba",
+   "yearBorn": 1974,
+   "monthBorn": 11,
+   "randomizeTraits": false,
+   "allowRandomOnlyTraits": false,
+   "traits": [
+      "OpinionLeader",
+      "Counselor",
+      "Ethical",
+      "Awareness",
+      "QuickLearner"
+   ],
+   "allowedIdeologies": [
+      "Resist",
+      "Cooperate",
+      "Escape"
+   ],
+   "debugOnly": false
+}
+]

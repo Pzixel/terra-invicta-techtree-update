@@ -1,0 +1,782 @@
+[
+ {
+   "dataName": "Officer_Admiral",
+   "spawnChance": 0.02,
+   "spawnEventType": "WinCombat",
+   "location": "Bridge",
+   "sortOrder": 1,
+   "baseIconPath": "icons_2d/Ship_Officer_Admiral_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "FlagBridge"
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "FleetMissionControl",
+         "value": 0.95
+      },
+      {
+         "level": 2,
+         "effect": "FleetMissionControl",
+         "value": 0.9
+      },
+      {
+         "level": 3,
+         "effect": "FleetMissionControl",
+         "value": 0.8
+      },
+      {
+         "level": 1,
+         "effect": "NoDemotionOnTransfer",
+         "value": 0
+      },
+      {
+         "level": 2,
+         "effect": "NoDemotionOnTransfer",
+         "value": 0
+      },
+      {
+         "level": 3,
+         "effect": "NoDemotionOnTransfer",
+         "value": 0
+      }
+   ]
+},
+ {
+   "dataName": "Officer_Captain",
+   "spawnChance": 0.01,
+   "spawnEventType": "WinCombat",
+   "location": "Bridge",
+   "sortOrder": 2,
+   "baseIconPath": "icons_2d/Ship_Officer_Captain_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "ShipMissionControl",
+         "value": -1
+      },
+      {
+         "level": 2,
+         "effect": "ShipMissionControl",
+         "value": -2
+      },
+      {
+         "level": 3,
+         "effect": "ShipMissionControl",
+         "value": -3
+      },
+      {
+         "level": 1,
+         "effect": "GlobalDamage",
+         "value": 1.02
+      },
+      {
+         "level": 2,
+         "effect": "GlobalDamage",
+         "value": 1.04
+      },
+      {
+         "level": 3,
+         "effect": "GlobalDamage",
+         "value": 1.06
+      }
+   ]
+},
+ {
+   "dataName": "Officer_First",
+   "spawnChance": 0.01,
+   "spawnEventType": "WinCombat",
+   "location": "Bridge",
+   "sortOrder": 3,
+   "baseIconPath": "icons_2d/Ship_Officer_First_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "CrewMin",
+         "value": 20
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "OfficerPromotionChance",
+         "value": 1
+      },
+      {
+         "level": 2,
+         "effect": "OfficerPromotionChance",
+         "value": 2
+      },
+      {
+         "level": 3,
+         "effect": "OfficerPromotionChance",
+         "value": 3
+      },
+      {
+         "level": 1,
+         "effect": "GlobalTargeting",
+         "value": 0.03
+      },
+      {
+         "level": 2,
+         "effect": "GlobalTargeting",
+         "value": 0.06
+      },
+      {
+         "level": 3,
+         "effect": "GlobalTargeting",
+         "value": 0.1
+      }
+   ]
+},
+ {
+   "dataName": "Officer_FireControl",
+   "spawnChance": 0.06,
+   "spawnEventType": "CombatKill_Missiles",
+   "location": "FireControl",
+   "sortOrder": 5,
+   "baseIconPath": "icons_2d/Ship_Officer_FireControl_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "MissileWeapons"
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "MissileTargeting",
+         "value": 0.1
+      },
+      {
+         "level": 2,
+         "effect": "MissileTargeting",
+         "value": 0.2
+      },
+      {
+         "level": 3,
+         "effect": "MissileTargeting",
+         "value": 0.3
+      },
+      {
+         "level": 1,
+         "effect": "MissileDamage",
+         "value": 1.1
+      },
+      {
+         "level": 2,
+         "effect": "MissileDamage",
+         "value": 1.2
+      },
+      {
+         "level": 3,
+         "effect": "MissileDamage",
+         "value": 1.3
+      }
+   ]
+},
+ {
+   "dataName": "Officer_Gunnery",
+   "spawnChance": 0.06,
+   "spawnEventType": "CombatKill_Guns",
+   "location": "FireControl",
+   "sortOrder": 6,
+   "baseIconPath": "icons_2d/Ship_Officer_Gunnery_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "GunWeapons"
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "GunTargeting",
+         "value": 0.1
+      },
+      {
+         "level": 2,
+         "effect": "GunTargeting",
+         "value": 0.2
+      },
+      {
+         "level": 3,
+         "effect": "GunTargeting",
+         "value": 0.3
+      },
+      {
+         "level": 1,
+         "effect": "GunDamage",
+         "value": 1.1
+      },
+      {
+         "level": 2,
+         "effect": "GunDamage",
+         "value": 1.2
+      },
+      {
+         "level": 3,
+         "effect": "GunDamage",
+         "value": 1.3
+      }
+   ]
+},
+ {
+   "dataName": "Officer_DirectedEnergy",
+   "spawnChance": 0.06,
+   "spawnEventType": "CombatKill_Beam",
+   "location": "FireControl",
+   "sortOrder": 7,
+   "baseIconPath": "icons_2d/Ship_Officer_DirectedEnergy_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "EnergyWeapons"
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "BeamTargeting",
+         "value": 0.1
+      },
+      {
+         "level": 2,
+         "effect": "BeamTargeting",
+         "value": 0.2
+      },
+      {
+         "level": 3,
+         "effect": "BeamTargeting",
+         "value": 0.3
+      },
+      {
+         "level": 1,
+         "effect": "BeamDamage",
+         "value": 1.1
+      },
+      {
+         "level": 2,
+         "effect": "BeamDamage",
+         "value": 1.2
+      },
+      {
+         "level": 3,
+         "effect": "BeamDamage",
+         "value": 1.3
+      }
+   ]
+},
+ {
+   "dataName": "Officer_DamageControl",
+   "spawnChance": 0.01,
+   "spawnEventType": "SurviveCombat",
+   "location": "DamageControl",
+   "sortOrder": 8,
+   "baseIconPath": "icons_2d/Ship_Officer_DamageControl_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "CrewMin",
+         "value": 10
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "DamageControlSpeed",
+         "value": 1.1
+      },
+      {
+         "level": 2,
+         "effect": "DamageControlSpeed",
+         "value": 1.2
+      },
+      {
+         "level": 3,
+         "effect": "DamageControlSpeed",
+         "value": 1.3
+      },
+      {
+         "level": 1,
+         "effect": "InternalDamageTaken",
+         "value": -0.05
+      },
+      {
+         "level": 2,
+         "effect": "InternalDamageTaken",
+         "value": -0.1
+      },
+      {
+         "level": 3,
+         "effect": "InternalDamageTaken",
+         "value": -0.15
+      }
+   ]
+},
+ {
+   "dataName": "Officer_Engineering",
+   "spawnChance": 0.01,
+   "spawnEventType": "SurviveCombat",
+   "location": "PowerPlant",
+   "sortOrder": 4,
+   "baseIconPath": "icons_2d/Ship_Officer_Engineering_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "InternalDamageTaken",
+         "value": -0.05
+      },
+      {
+         "level": 2,
+         "effect": "InternalDamageTaken",
+         "value": -0.1
+      },
+      {
+         "level": 3,
+         "effect": "InternalDamageTaken",
+         "value": -0.15
+      },
+      {
+         "level": 1,
+         "effect": "DockRepairSpeed",
+         "value": 0.8
+      },
+      {
+         "level": 2,
+         "effect": "DockRepairSpeed",
+         "value": 0.7
+      },
+      {
+         "level": 3,
+         "effect": "DockRepairSpeed",
+         "value": 0.5
+      },
+      {
+         "level": 1,
+         "effect": "Salvage",
+         "value": 0.1
+      },
+      {
+         "level": 2,
+         "effect": "Salvage",
+         "value": 0.2
+      },
+      {
+         "level": 3,
+         "effect": "Salvage",
+         "value": 0.3
+      }
+   ]
+},
+ {
+   "dataName": "Officer_Propulsion",
+   "spawnChance": 0.01,
+   "spawnEventType": "WinCombat",
+   "location": "Drive",
+   "sortOrder": 10,
+   "baseIconPath": "icons_2d/Ship_Officer_Propulsion_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "TunableDrive"
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "DriveCombatThrustMultiplier",
+         "value": 1
+      },
+      {
+         "level": 2,
+         "effect": "DriveCombatThrustMultiplier",
+         "value": 2
+      },
+      {
+         "level": 3,
+         "effect": "DriveCombatThrustMultiplier",
+         "value": 3
+      },
+      {
+         "level": 1,
+         "effect": "ECM",
+         "value": 0.02
+      },
+      {
+         "level": 2,
+         "effect": "ECM",
+         "value": 0.04
+      },
+      {
+         "level": 3,
+         "effect": "ECM",
+         "value": 0.06
+      }
+   ]
+},
+ {
+   "dataName": "Officer_Medical",
+   "spawnChance": 0.01,
+   "spawnEventType": "SurviveCombat",
+   "location": "LifeSupportMain",
+   "sortOrder": 11,
+   "baseIconPath": "icons_2d/Ship_Officer_Medical_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "CrewMin",
+         "value": 40
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "MaxSurvivableCombatAcceleration",
+         "value": 0.5
+      },
+      {
+         "level": 2,
+         "effect": "MaxSurvivableCombatAcceleration",
+         "value": 1
+      },
+      {
+         "level": 3,
+         "effect": "MaxSurvivableCombatAcceleration",
+         "value": 1.5
+      },
+      {
+         "level": 1,
+         "effect": "OfficerDeathChance",
+         "value": -0.3
+      },
+      {
+         "level": 2,
+         "effect": "OfficerDeathChance",
+         "value": -0.5
+      },
+      {
+         "level": 3,
+         "effect": "OfficerDeathChance",
+         "value": -0.7
+      },
+      {
+         "level": 1,
+         "effect": "RadiationDamageReduction",
+         "value": 0.9
+      },
+      {
+         "level": 2,
+         "effect": "RadiationDamageReduction",
+         "value": 0.75
+      },
+      {
+         "level": 3,
+         "effect": "RadiationDamageReduction",
+         "value": 0.5
+      }
+   ]
+},
+ {
+   "dataName": "Officer_CIC",
+   "spawnChance": 0.02,
+   "spawnEventType": "CombatKill",
+   "location": "Bridge",
+   "sortOrder": 12,
+   "baseIconPath": "icons_2d/Ship_Officer_CIC_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "CrewMin",
+         "value": 20
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "ECM",
+         "value": 0.05
+      },
+      {
+         "level": 2,
+         "effect": "ECM",
+         "value": 0.12
+      },
+      {
+         "level": 3,
+         "effect": "ECM",
+         "value": 0.2
+      },
+      {
+         "level": 1,
+         "effect": "PointDefenseCooldown",
+         "value": 0.95
+      },
+      {
+         "level": 2,
+         "effect": "PointDefenseCooldown",
+         "value": 0.9
+      },
+      {
+         "level": 3,
+         "effect": "PointDefenseCooldown",
+         "value": 0.8
+      }
+   ]
+},
+ {
+   "dataName": "Officer_Intel",
+   "spawnChance": 0.02,
+   "spawnEventType": "CombatKill",
+   "location": "Bridge",
+   "sortOrder": 13,
+   "baseIconPath": "icons_2d/Ship_Officer_Intel_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "CrewMin",
+         "value": 40
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "GlobalTargeting",
+         "value": 0.05
+      },
+      {
+         "level": 2,
+         "effect": "GlobalTargeting",
+         "value": 0.1
+      },
+      {
+         "level": 3,
+         "effect": "GlobalTargeting",
+         "value": 0.15
+      },
+      {
+         "level": 1,
+         "effect": "GlobalDamage",
+         "value": 1.05
+      },
+      {
+         "level": 2,
+         "effect": "GlobalDamage",
+         "value": 1.1
+      },
+      {
+         "level": 3,
+         "effect": "GlobalDamage",
+         "value": 1.15
+      }
+   ]
+},
+ {
+   "dataName": "Officer_Marine",
+   "spawnChance": 0.1,
+   "spawnEventType": "SuccessfulMarineAssault",
+   "location": "FireControl",
+   "sortOrder": 14,
+   "baseIconPath": "icons_2d/Ship_Officer_Marine_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "Marines"
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "AssaultCombatValue",
+         "value": 2
+      },
+      {
+         "level": 2,
+         "effect": "AssaultCombatValue",
+         "value": 3
+      },
+      {
+         "level": 3,
+         "effect": "AssaultCombatValue",
+         "value": 5
+      }
+   ]
+},
+ {
+   "dataName": "Officer_Supply",
+   "spawnChance": 0.03,
+   "spawnEventType": "CompleteLongTrajectory",
+   "location": "Bridge",
+   "sortOrder": 15,
+   "baseIconPath": "icons_2d/Ship_Officer_Supply_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "CrewMin",
+         "value": 40
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "MaxTrajectoryDuration_Months",
+         "value": 6
+      },
+      {
+         "level": 2,
+         "effect": "MaxTrajectoryDuration_Months",
+         "value": 9
+      },
+      {
+         "level": 3,
+         "effect": "MaxTrajectoryDuration_Months",
+         "value": 12
+      },
+      {
+         "level": 1,
+         "effect": "DockResupplySpeed",
+         "value": 0.8
+      },
+      {
+         "level": 2,
+         "effect": "DockResupplySpeed",
+         "value": 0.7
+      },
+      {
+         "level": 3,
+         "effect": "DockResupplySpeed",
+         "value": 0.5
+      }
+   ]
+},
+ {
+   "dataName": "Officer_Chief",
+   "spawnChance": 0.01,
+   "spawnEventType": "WinCombat",
+   "location": "Bridge",
+   "sortOrder": 16,
+   "baseIconPath": "icons_2d/Ship_Officer_Chief_",
+   "requirements": [
+      {
+         "requirement": "MaxPerShip",
+         "value": 1
+      },
+      {
+         "requirement": "MaxTotalOfficersPerShip"
+      },
+      {
+         "requirement": "CrewMin",
+         "value": 10
+      }
+   ],
+   "effects": [
+      {
+         "level": 1,
+         "effect": "DamageControlSpeed",
+         "value": 1.02
+      },
+      {
+         "level": 2,
+         "effect": "DamageControlSpeed",
+         "value": 1.04
+      },
+      {
+         "level": 3,
+         "effect": "DamageControlSpeed",
+         "value": 1.06
+      },
+      {
+         "level": 3,
+         "effect": "ShipMissionControl",
+         "value": -1
+      }
+   ]
+}
+]

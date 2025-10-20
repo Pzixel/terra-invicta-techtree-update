@@ -1,0 +1,50 @@
+TIShipArmorTemplate.displayName.SteelArmor=Stahlpanzerung
+TIShipArmorTemplate.description.SteelArmor=Diese althergebrachte schwere Stahlpanzerung erhöht die Überlebenschancen unserer Raumschiffe in der Schlacht.
+TIShipArmorTemplate.displayName.TitaniumArmor=Titanpanzerung
+TIShipArmorTemplate.description.TitaniumArmor=Eine hitze- und bruchsichere, jedoch auch überaus teure Panzerung.
+TIShipArmorTemplate.displayName.SiliconCarbideArmor=Siliziumkarbidpanzerung
+TIShipArmorTemplate.description.SiliconCarbideArmor=Diese Keramikpanzerung wird durch Sintern von Silizium und Kohlenstoff in Pulverform hergestellt.
+TIShipArmorTemplate.displayName.BoronCarbideArmor=Borkarbidpanzerung
+TIShipArmorTemplate.description.BoronCarbideArmor=Diese robuste Panzerung aus „schwarzem Diamant“ wird durch eine Reduktion von Bortrioxid in einer Kohlenstoffatmosphäre hergestellt.
+TIShipArmorTemplate.displayName.CompositeArmor=Verbundpanzerung
+TIShipArmorTemplate.description.CompositeArmor=Eine Panzerung aus sich abwechselnden Keramik- und Metallschichten, die umfassenden Schutz bei geringem Gewicht bietet.
+TIShipArmorTemplate.displayName.FoamedMetalArmor=Schaummetallpanzerung
+TIShipArmorTemplate.description.FoamedMetalArmor=Diese „geschäumte“ Legierung aus Titan und anderen Metallen, bedeckt mit Keramikkacheln, bietet einen leichtgewichtigen Schutz für unsere Raumschiffe.
+TIShipArmorTemplate.displayName.NanotubeArmor=Nanoröhrenpanzerung
+TIShipArmorTemplate.description.NanotubeArmor=Für diese Panzerung der neuesten Generation wurden Millionen von Kohlenstoff-Nanoröhren miteinander verschmolzen.
+TIShipArmorTemplate.displayName.AdamantaneArmor=Diamantharte Panzerung
+TIShipArmorTemplate.description.AdamantaneArmor=Fortschrittliche Diamantoide bieten zuverlässigen Schutz gegen kinetische Waffen.
+TIShipArmorTemplate.displayName.ExoticArmor=Exotische Panzerung
+TIShipArmorTemplate.description.ExoticArmor=Die ultraleichten Schutzschichten dieser Panzerung wurden aus einer Alien-Legierung angefertigt.
+TIShipArmorTemplate.displayName.HybridArmor=Hybridpanzerung
+TIShipArmorTemplate.description.HybridArmor=Eine Panzerung aus Diamantoiden mit einem exotischen Keim, deren Schutzgrad alle bisherigen bekannten Materialien übertrifft.
+TIShipArmorTemplate.displayName.AlienAdamantaneArmor=Diamantoid-Panzerung der Aliens
+TIShipArmorTemplate.description.AlienAdamantaneArmor=Ein Alien-Material, das auf einer Manipulation von Kohlenstoff zu beruhen scheint.
+TIShipArmorTemplate.displayName.AlienExoticArmor=Exotische Panzerung der Aliens
+TIShipArmorTemplate.description.AlienExoticArmor=Ein Alien-Material mit exotischen Eigenschaften.
+
+TIShipArmorTemplate.ResourcesPerTon=Kosten pro Tonne:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsResistance={0} Bonuswiderstand gegen kinetischen Schaden
+TIShipArmorTemplate.LaserResistance={0} Bonuswiderstand gegen Laserschaden
+TIShipArmorTemplate.ChippingResistance={0} Bonuswiderstand gegen Abriebschaden
+TIShipArmorTemplate.KineticsVulnerability=Erleidet {0} zusätzlichen Schaden durch kinetische Waffen
+TIShipArmorTemplate.LaserVulnerability=Erleidet {0} zusätzlichen Schaden durch Laser
+TIShipArmorTemplate.ChippingVulnerability=Erleidet {0} zusätzlichen Panzerungsabrieb durch Treffer
+TIShipArmorTemplate.XRayResistance={0} Bonuswiderstand gegen Röntgenstrahlen aus Partikelwaffen im Verhältnis zu Stahl
+TIShipArmorTemplate.XRayVulnerability=Erleidet {0} zusätzlichen Schaden durch Röntgenstrahlen aus Partikelwaffen
+TIShipArmorTemplate.BaryonicResistance={0} Bonuswiderstand gegen Partikelwaffen-Neutronen
+TIShipArmorTemplate.BaryonicVulnerability=Erleidet {0} zusätzlichen Schaden durch Partikelwaffen-Neutronen
+
+TIShipArmorTemplate.ThicknessPerPoint=Stärke pro Punkt:<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.NoseTailTonsPerPoint=Masse pro Bug- oder Heckpanzerungspunkt:<rcol>{0} Tonnen</rcol>
+TIShipArmorTemplate.LateralTonsPerPoint=Masse pro Seitlichem Panzerungspunkt:<rcol>{0} Tonnen</rcol>
+
+TIShipArmorTemplate.MaxArmorThickness_Lateral=Maximale Seitliche Panzerungsstärke:<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Nose=Maximale Bugpanzerungsstärke:<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Tail=Maximale Heckpanzerungsstärke:<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.MaxArmorPoints_Lateral=Maximale Seitliche Panzerung:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Nose=Maximale Bugpanzerung:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Tail=Maximale Heckpanzerung:<rcol>{0}</rcol>
+

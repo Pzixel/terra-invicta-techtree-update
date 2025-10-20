@@ -1,0 +1,56 @@
+[
+    {
+        "dataName": "CouncilMapGroup",
+        "mapGroupLabel": "Council",
+        "mapGroupControlType": "PavonisInteractive.TerraInvicta.CouncilorMarkerController",
+        "groupScale": 0.0019,
+		"highPriorityScaleAppearanceThreshold": 0.25,
+		"lowPriorityScaleAppearanceThreshold": 0.25,
+		"sortingValue": 8
+	},
+    {
+        "dataName": "ArmyMapGroup",
+        "mapGroupLabel": "Army",
+        "mapGroupControlType": "PavonisInteractive.TerraInvicta.ArmyMarkerController",
+        "groupScale": 0.00125,
+		"highPriorityScaleAppearanceThreshold": 0.25,
+		"lowPriorityScaleAppearanceThreshold": 0.25,
+		"sortingValue": 7
+	},
+    {
+        "dataName": "FacilityMapGroup",
+        "mapGroupLabel": "Facility",
+        "mapGroupControlType": "PavonisInteractive.TerraInvicta.FacilityMarkerController",
+        "groupScale": 0.001,
+		"highPriorityScaleAppearanceThreshold": 0.65,
+		"lowPriorityScaleAppearanceThreshold": 1,
+		"sortingValue": 4
+	},
+    {
+        "dataName": "AlienMapGroup",
+        "mapGroupLabel": "Alien",
+        "mapGroupControlType": "PavonisInteractive.TerraInvicta.AlienMarkerController",
+        "groupScale": 0.00125,
+		"highPriorityScaleAppearanceThreshold": 0.25,
+		"lowPriorityScaleAppearanceThreshold": 0.65,
+		"sortingValue": 5
+	},
+	{
+        "dataName": "GovMapGroup",
+        "mapGroupLabel": "Gov",
+        "mapGroupControlType": "PavonisInteractive.TerraInvicta.GovMarkerController",
+        "groupScale": 0.0012,
+		"highPriorityScaleAppearanceThreshold": 0.25,
+		"lowPriorityScaleAppearanceThreshold": 1,
+		"sortingValue": 6
+	},
+	{
+		"dataName": "SeaMapGroup",
+		"mapGroupLabel": "Sea",
+        "mapGroupControlType": "PavonisInteractive.TerraInvicta.SeaMarkerController",
+        "groupScale": 0.00125,
+		"highPriorityScaleAppearanceThreshold": 0.25,
+		"lowPriorityScaleAppearanceThreshold": 0.25,
+		"sortingValue": 5
+	}
+]

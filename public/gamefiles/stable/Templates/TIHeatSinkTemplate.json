@@ -1,0 +1,175 @@
+[
+ {
+   "dataName": "WaterHeatSink",
+   "displayName": "Water Heat Sink",
+   "heatCapacity_GJ": 100,
+   "mass_tons": 250,
+   "requiredProjectName": "Project_Warships",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "water": 1
+   },
+   "iconResource": "shipbuildericons/ICO_WaterHeatSink"
+},
+ {
+   "dataName": "PotassiumHeatSink",
+   "displayName": "Potassium Heat Sink",
+   "heatCapacity_GJ": 110,
+   "mass_tons": 205,
+   "requiredProjectName": "Project_PotassiumHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "iconResource": "shipbuildericons/ICO_PotassiumHeatSink"
+},
+ {
+   "dataName": "SodiumHeatSink",
+   "displayName": "Sodium Heat Sink",
+   "heatCapacity_GJ": 370,
+   "mass_tons": 230,
+   "requiredProjectName": "Project_SodiumHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "iconResource": "shipbuildericons/ICO_SodiumHeatSink"
+},
+ {
+   "dataName": "LithiumHeatSink",
+   "displayName": "Lithium Heat Sink",
+   "heatCapacity_GJ": 525,
+   "mass_tons": 128,
+   "requiredProjectName": "Project_LithiumHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "iconResource": "shipbuildericons/ICO_LithiumHeatSink"
+},
+ {
+   "dataName": "MoltenSaltHeatSink",
+   "displayName": "Molten Salt Heat Sink",
+   "heatCapacity_GJ": 900,
+   "mass_tons": 485,
+   "requiredProjectName": "Project_MoltenSaltHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0.25,
+      "metals": 0.75
+   },
+   "iconResource": "shipbuildericons/ICO_MoltenSaltHeatSink"
+},
+ {
+   "dataName": "ExoticHeatSink",
+   "displayName": "Exotic Heat Sink",
+   "heatCapacity_GJ": 1800,
+   "mass_tons": 250,
+   "requiredProjectName": "Project_ExoticHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "metals": 0.95,
+      "exotics": 0.05
+   },
+   "iconResource": "shipbuildericons/ICO_ExoticHeatSink"
+},
+ {
+   "dataName": "HeavyWaterHeatSink",
+   "displayName": "Heavy Water Heat Sink",
+   "heatCapacity_GJ": 200,
+   "mass_tons": 500,
+   "requiredProjectName": "Project_Warships",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "water": 1
+   },
+   "iconResource": "shipbuildericons/ICO_HeavyWaterHeatSink"
+},
+ {
+   "dataName": "HeavyPotassiumHeatSink",
+   "displayName": "Heavy Potassium Heat Sink",
+   "heatCapacity_GJ": 220,
+   "mass_tons": 410,
+   "requiredProjectName": "Project_PotassiumHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "iconResource": "shipbuildericons/ICO_HeavyPotassiumHeatSink"
+},
+ {
+   "dataName": "HeavySodiumHeatSink",
+   "displayName": "Heavy Sodium Heat Sink",
+   "heatCapacity_GJ": 740,
+   "mass_tons": 460,
+   "requiredProjectName": "Project_SodiumHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "iconResource": "shipbuildericons/ICO_HeavySodiumHeatSink"
+},
+ {
+   "dataName": "HeavyLithiumHeatSink",
+   "displayName": "Heavy Lithium Heat Sink",
+   "heatCapacity_GJ": 1050,
+   "mass_tons": 256,
+   "requiredProjectName": "Project_LithiumHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "iconResource": "shipbuildericons/ICO_HeavyLithiumHeatSink"
+},
+ {
+   "dataName": "HeavyMoltenSaltHeatSink",
+   "displayName": "Heavy Molten Salt Heat Sink",
+   "heatCapacity_GJ": 1800,
+   "mass_tons": 970,
+   "requiredProjectName": "Project_MoltenSaltHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0.25,
+      "metals": 0.75
+   },
+   "iconResource": "shipbuildericons/ICO_HeavyMoltenSaltHeatSink"
+},
+ {
+   "dataName": "HeavyExoticHeatSink",
+   "displayName": "Heavy Exotic Heat Sink",
+   "heatCapacity_GJ": 3600,
+   "mass_tons": 500,
+   "requiredProjectName": "Project_ExoticHeatSink",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "metals": 0.95,
+      "exotics": 0.05
+   },
+   "iconResource": "shipbuildericons/ICO_HeavyExoticHeatSink"
+},
+ {
+   "dataName": "AlienLithiumHeatSink",
+   "displayName": "Alien Lithium Heat Sink",
+   "heatCapacity_GJ": 1050,
+   "mass_tons": 256,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "crew": 0,
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "iconResource": "shipbuildericons/ICO_HeavyLithiumHeatSink"
+},
+ {
+   "dataName": "AlienExoticHeatSink",
+   "displayName": "Alien Exotic Heat Sink",
+   "heatCapacity_GJ": 3600,
+   "mass_tons": 500,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "crew": 0,
+   "weightedBuildMaterials": {
+      "metals": 0.95,
+      "exotics": 0.05
+   },
+   "iconResource": "shipbuildericons/ICO_HeavyExoticHeatSink"
+}
+]

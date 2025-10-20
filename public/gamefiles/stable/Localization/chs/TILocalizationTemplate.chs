@@ -1,0 +1,17 @@
+TILocalizationTemplate.displayName.en=英语
+TILocalizationTemplate.displayName.fr=法语
+TILocalizationTemplate.displayName.deu=德语
+TILocalizationTemplate.displayName.esp=西班牙语
+TILocalizationTemplate.displayName.cht=中文 (繁体)
+TILocalizationTemplate.displayName.chs=中文 (简体)
+TILocalizationTemplate.displayName.jpn=日语
+TILocalizationTemplate.displayName.rus=俄语
+TILocalizationTemplate.displayName.kor=韩语
+TILocalizationTemplate.displayName.ita=意大利语
+TILocalizationTemplate.displayName.pol=波兰语
+TILocalizationTemplate.displayName.por=葡萄牙语
+TILocalizationTemplate.displayName.nld=荷兰语
+TILocalizationTemplate.displayName.cze=捷克语
+TILocalizationTemplate.displayName.ukr=乌克兰语
+TILocalizationTemplate.displayName.ara=阿拉伯语
+TILocalizationTemplate.displayName.tur=土耳其语

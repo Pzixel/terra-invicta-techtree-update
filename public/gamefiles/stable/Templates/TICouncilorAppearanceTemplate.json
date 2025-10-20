@@ -1,0 +1,6361 @@
+[
+ {
+   "dataName": "CharImage1",
+   "string": "F_AFR_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_01",
+   "idleVideoOld": "charactervideos/F_AFR_01_Old",
+   "portraitYoung": "characterportraits/F_AFR_01",
+   "portraitOld": "characterportraits/F_AFR_01_Old",
+   "iconYoung": "charactericons/F_AFR_01_icon",
+   "iconOld": "charactericons/F_AFR_01_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "Nonbinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Professor",
+      "Celebrity",
+      "Scientist",
+      "Kingpin",
+      "Attorney",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage19",
+   "string": "F_AFR_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_02",
+   "idleVideoOld": "charactervideos/F_AFR_02_Old",
+   "portraitYoung": "characterportraits/F_AFR_02",
+   "portraitOld": "characterportraits/F_AFR_02_Old",
+   "iconYoung": "charactericons/F_AFR_02_icon",
+   "iconOld": "charactericons/F_AFR_02_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Diplomat",
+      "Politician",
+      "Journalist",
+      "Evangelist",
+      "Professor",
+      "Judge",
+      "Scientist",
+      "Attorney",
+      "Engineer",
+      "Executive",
+      "Activist"
+   ]
+},
+ {
+   "dataName": "CharImage40",
+   "string": "F_AFR_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_03",
+   "idleVideoOld": "charactervideos/F_AFR_03_Old",
+   "portraitYoung": "characterportraits/F_AFR_03",
+   "portraitOld": "characterportraits/F_AFR_03_Old",
+   "iconYoung": "charactericons/F_AFR_03_icon",
+   "iconOld": "charactericons/F_AFR_03_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Activist",
+      "Celebrity",
+      "Evangelist",
+      "Journalist",
+      "Inspector",
+      "Investigator",
+      "Attorney",
+      "Engineer",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "ResistLeader01",
+   "string": "F_AFR_04",
+   "enable": false,
+   "idleVideoYoung": "charactervideos/F_AFR_04",
+   "idleVideoOld": "charactervideos/F_AFR_04_Mid",
+   "portraitYoung": "characterportraits/F_AFR_04",
+   "portraitOld": "characterportraits/F_AFR_04_Mid",
+   "iconYoung": "charactericons/F_AFR_04_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "3"
+   ]
+},
+ {
+   "dataName": "CharImage52",
+   "string": "F_AFR_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_05",
+   "idleVideoOld": "charactervideos/F_AFR_05_Old",
+   "portraitYoung": "characterportraits/F_AFR_05",
+   "portraitOld": "characterportraits/F_AFR_05_Old",
+   "iconYoung": "charactericons/F_AFR_05_icon",
+   "iconOld": "charactericons/F_AFR_05_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Activist",
+      "Evangelist",
+      "Celebrity",
+      "Journalist",
+      "Engineer",
+      "Spy",
+      "Kingpin",
+      "Commando",
+      "Rebel"
+   ]
+},
+ {
+   "dataName": "CharImage66",
+   "string": "F_AFR_06",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_06",
+   "idleVideoOld": "charactervideos/F_AFR_06_Old",
+   "portraitYoung": "characterportraits/F_AFR_06",
+   "portraitOld": "characterportraits/F_AFR_06_Old",
+   "iconYoung": "charactericons/F_AFR_06_icon",
+   "iconOld": "charactericons/F_AFR_06_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage82",
+   "string": "F_AFR_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_07",
+   "idleVideoOld": "charactervideos/F_AFR_07_Old",
+   "portraitYoung": "characterportraits/F_AFR_07",
+   "portraitOld": "characterportraits/F_AFR_07_Old",
+   "iconYoung": "charactericons/F_AFR_07_icon",
+   "iconOld": "charactericons/F_AFR_07_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Inspector",
+      "Officer",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage101",
+   "string": "F_AFR_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_08",
+   "idleVideoOld": "charactervideos/F_AFR_08_Old",
+   "portraitYoung": "characterportraits/F_AFR_08",
+   "portraitOld": "characterportraits/F_AFR_08_Old",
+   "iconYoung": "charactericons/F_AFR_08_icon",
+   "iconOld": "charactericons/F_AFR_08_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Scientist",
+      "Politician",
+      "Executive",
+      "Investigator",
+      "Judge",
+      "Attorney",
+      "Rebel"
+   ]
+},
+ {
+   "dataName": "CharImage102",
+   "string": "F_AFR_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_09",
+   "idleVideoOld": "charactervideos/F_AFR_09_Old",
+   "portraitYoung": "characterportraits/F_AFR_09",
+   "portraitOld": "characterportraits/F_AFR_09_Old",
+   "iconYoung": "charactericons/F_AFR_09_icon",
+   "iconOld": "charactericons/F_AFR_09_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "TechMogul",
+      "Tycoon",
+      "Executive",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Attorney",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage103",
+   "string": "F_AFR_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_10",
+   "idleVideoOld": "charactervideos/F_AFR_10_Old",
+   "portraitYoung": "characterportraits/F_AFR_10",
+   "portraitOld": "characterportraits/F_AFR_10_Old",
+   "iconYoung": "charactericons/F_AFR_10_icon",
+   "iconOld": "charactericons/F_AFR_10_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Inspector",
+      "Officer",
+      "Fixer",
+      "Astronaut",
+      "Attorney",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage104",
+   "string": "F_AFR_11",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_11",
+   "idleVideoOld": "charactervideos/F_AFR_11_Old",
+   "portraitYoung": "characterportraits/F_AFR_11",
+   "portraitOld": "characterportraits/F_AFR_11_Old",
+   "iconYoung": "charactericons/F_AFR_11_icon",
+   "iconOld": "charactericons/F_AFR_11_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Journalist",
+      "Spy",
+      "Hacker"
+   ]
+},
+ {
+   "dataName": "CharImage105",
+   "string": "F_AFR_12",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_12",
+   "idleVideoOld": "charactervideos/F_AFR_12_Old",
+   "portraitYoung": "characterportraits/F_AFR_12",
+   "portraitOld": "characterportraits/F_AFR_12_Old",
+   "iconYoung": "charactericons/F_AFR_12_icon",
+   "iconOld": "charactericons/F_AFR_12_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Activist",
+      "Celebrity",
+      "Professor"
+   ]
+},
+ {
+   "dataName": "CharImage106",
+   "string": "F_AFR_13",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_13",
+   "idleVideoOld": "charactervideos/F_AFR_13_Old",
+   "portraitYoung": "characterportraits/F_AFR_13",
+   "portraitOld": "characterportraits/F_AFR_13_Old",
+   "iconYoung": "charactericons/F_AFR_13_icon",
+   "iconOld": "charactericons/F_AFR_13_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Executive",
+      "Diplomat",
+      "Politician",
+      "Tycoon",
+      "Judge"
+   ]
+},
+ {
+   "dataName": "CharImage107",
+   "string": "F_AFR_14",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_14",
+   "idleVideoOld": "charactervideos/F_AFR_14_Old",
+   "portraitYoung": "characterportraits/F_AFR_14",
+   "portraitOld": "characterportraits/F_AFR_14_Old",
+   "iconYoung": "charactericons/F_AFR_14_icon",
+   "iconOld": "charactericons/F_AFR_14_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "TechMogul",
+      "Celebrity",
+      "Activist",
+      "Journalist",
+      "Engineer",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage108",
+   "string": "F_AFR_15",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_15",
+   "idleVideoOld": "charactervideos/F_AFR_15_Old",
+   "portraitYoung": "characterportraits/F_AFR_15",
+   "portraitOld": "characterportraits/F_AFR_15_Old",
+   "iconYoung": "charactericons/F_AFR_15_icon",
+   "iconOld": "charactericons/F_AFR_15_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Executive",
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Judge",
+      "Scientist",
+      "Rebel"
+   ]
+},
+ {
+   "dataName": "CharImage109",
+   "string": "F_AFR_16",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_16",
+   "idleVideoOld": "charactervideos/F_AFR_16_Old",
+   "portraitYoung": "characterportraits/F_AFR_16",
+   "portraitOld": "characterportraits/F_AFR_16_Old",
+   "iconYoung": "charactericons/F_AFR_16_icon",
+   "iconOld": "charactericons/F_AFR_16_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Activist",
+      "Scientist",
+      "Spy",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage110",
+   "string": "F_AFR_17",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_17",
+   "idleVideoOld": "charactervideos/F_AFR_17_Old",
+   "portraitYoung": "characterportraits/F_AFR_17",
+   "portraitOld": "characterportraits/F_AFR_17_Old",
+   "iconYoung": "charactericons/F_AFR_17_icon",
+   "iconOld": "charactericons/F_AFR_17_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Hacker",
+      "Journalist"
+   ]
+},
+ {
+   "dataName": "CharImage196",
+   "string": "F_AFR_18",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_18",
+   "idleVideoOld": "charactervideos/F_AFR_18_Old",
+   "portraitYoung": "characterportraits/F_AFR_18",
+   "portraitOld": "characterportraits/F_AFR_18_Old",
+   "iconYoung": "charactericons/F_AFR_18_icon",
+   "iconOld": "charactericons/F_AFR_18_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Hacker",
+      "Celebrity",
+      "Executive",
+      "TechMogul",
+      "Scientist",
+      "Spy",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage231",
+   "string": "F_AFR_19",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_AFR_19",
+   "idleVideoOld": "charactervideos/F_AFR_19_Old",
+   "portraitYoung": "characterportraits/F_AFR_19",
+   "portraitOld": "characterportraits/F_AFR_19_Old",
+   "iconYoung": "charactericons/F_AFR_19_icon",
+   "iconOld": "charactericons/F_AFR_19_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Politician",
+      "Scientist",
+      "Spy",
+      "Activist",
+      "Rebel"
+   ]
+},
+ {
+   "dataName": "CharImage21",
+   "string": "F_ASI_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_01",
+   "idleVideoOld": "charactervideos/F_ASI_01_Old",
+   "portraitYoung": "characterportraits/F_ASI_01",
+   "portraitOld": "characterportraits/F_ASI_01_Old",
+   "iconYoung": "charactericons/F_ASI_01_icon",
+   "iconOld": "charactericons/F_ASI_01_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian",
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Activist",
+      "Rebel",
+      "Hacker",
+      "Fixer",
+      "Spy",
+      "Attorney",
+      "TechMogul"
+   ]
+},
+ {
+   "dataName": "CharImage32",
+   "string": "F_ASI_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_02",
+   "idleVideoOld": "charactervideos/F_ASI_02_Old",
+   "portraitYoung": "characterportraits/F_ASI_02",
+   "portraitOld": "characterportraits/F_ASI_02_Old",
+   "iconYoung": "charactericons/F_ASI_02_icon",
+   "iconOld": "charactericons/F_ASI_02_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian",
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Spy",
+      "Executive",
+      "Tycoon",
+      "Kingpin",
+      "Fixer",
+      "TechMogul"
+   ]
+},
+ {
+   "dataName": "CharImage42",
+   "string": "F_ASI_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_03",
+   "idleVideoOld": "charactervideos/F_ASI_03_Old",
+   "portraitYoung": "characterportraits/F_ASI_03",
+   "portraitOld": "characterportraits/F_ASI_03_Old",
+   "iconYoung": "charactericons/F_ASI_03_icon",
+   "iconOld": "charactericons/F_ASI_03_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian",
+      "Oceanic"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Journalist",
+      "Rebel",
+      "Spy",
+      "Evangelist",
+      "Celebrity",
+      "Fixer",
+      "Professor"
+   ]
+},
+ {
+   "dataName": "CharImage54",
+   "string": "F_ASI_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_04",
+   "idleVideoOld": "charactervideos/F_ASI_04_Old",
+   "portraitYoung": "characterportraits/F_ASI_04",
+   "portraitOld": "characterportraits/F_ASI_04_Old",
+   "iconYoung": "charactericons/F_ASI_04_icon",
+   "iconOld": "charactericons/F_ASI_04_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Activist",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage67",
+   "string": "F_ASI_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_05",
+   "idleVideoOld": "charactervideos/F_ASI_05_Old",
+   "portraitYoung": "characterportraits/F_ASI_05",
+   "portraitOld": "characterportraits/F_ASI_05_Old",
+   "iconYoung": "charactericons/F_ASI_05_icon",
+   "iconOld": "charactericons/F_ASI_05_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Judge",
+      "Scientist",
+      "Attorney",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage68",
+   "string": "F_ASI_06",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_06",
+   "idleVideoOld": "charactervideos/F_ASI_06_Old",
+   "portraitYoung": "characterportraits/F_ASI_06",
+   "portraitOld": "characterportraits/F_ASI_06_Old",
+   "iconYoung": "charactericons/F_ASI_06_icon",
+   "iconOld": "charactericons/F_ASI_06_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Executive",
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage84",
+   "string": "F_ASI_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_07",
+   "idleVideoOld": "charactervideos/F_ASI_07_Old",
+   "portraitYoung": "characterportraits/F_ASI_07",
+   "portraitOld": "characterportraits/F_ASI_07_Old",
+   "iconYoung": "charactericons/F_ASI_07_icon",
+   "iconOld": "charactericons/F_ASI_07_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Inspector",
+      "Officer",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage86",
+   "string": "F_ASI_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_08",
+   "idleVideoOld": "charactervideos/F_ASI_08_Old",
+   "portraitYoung": "characterportraits/F_ASI_08",
+   "portraitOld": "characterportraits/F_ASI_08_Old",
+   "iconYoung": "charactericons/F_ASI_08_icon",
+   "iconOld": "charactericons/F_ASI_08_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Officer",
+      "Investigator",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage124",
+   "string": "F_ASI_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_09",
+   "idleVideoOld": "charactervideos/F_ASI_09_Old",
+   "portraitYoung": "characterportraits/F_ASI_09",
+   "portraitOld": "characterportraits/F_ASI_09_Old",
+   "iconYoung": "charactericons/F_ASI_09_icon",
+   "iconOld": "charactericons/F_ASI_09_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Officer",
+      "Commando",
+      "Rebel",
+      "Investigator",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage125",
+   "string": "F_ASI_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_10",
+   "idleVideoOld": "charactervideos/F_ASI_10_Old",
+   "portraitYoung": "characterportraits/F_ASI_10",
+   "portraitOld": "characterportraits/F_ASI_10_Old",
+   "iconYoung": "charactericons/F_ASI_10_icon",
+   "iconOld": "charactericons/F_ASI_10_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Commando",
+      "Rebel",
+      "Investigator",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage126",
+   "string": "F_ASI_11",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_11",
+   "idleVideoOld": "charactervideos/F_ASI_11_Old",
+   "portraitYoung": "characterportraits/F_ASI_11",
+   "portraitOld": "characterportraits/F_ASI_11_Old",
+   "iconYoung": "charactericons/F_ASI_11_icon",
+   "iconOld": "charactericons/F_ASI_11_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Journalist",
+      "Hacker",
+      "Spy",
+      "Scientist",
+      "Attorney",
+      "TechMogul"
+   ]
+},
+ {
+   "dataName": "CharImage127",
+   "string": "F_ASI_12",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_12",
+   "idleVideoOld": "charactervideos/F_ASI_12_Old",
+   "portraitYoung": "characterportraits/F_ASI_12",
+   "portraitOld": "characterportraits/F_ASI_12_Old",
+   "iconYoung": "charactericons/F_ASI_12_icon",
+   "iconOld": "charactericons/F_ASI_12_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Kingpin",
+      "Executive",
+      "Politician",
+      "Professor",
+      "Celebrity",
+      "Judge",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage128",
+   "string": "F_ASI_13",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_13",
+   "idleVideoOld": "charactervideos/F_ASI_13_Old",
+   "portraitYoung": "characterportraits/F_ASI_13",
+   "portraitOld": "characterportraits/F_ASI_13_Old",
+   "iconYoung": "charactericons/F_ASI_13_icon",
+   "iconOld": "charactericons/F_ASI_13_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Activist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage129",
+   "string": "F_ASI_14",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_14",
+   "idleVideoOld": "charactervideos/F_ASI_14_Old",
+   "portraitYoung": "characterportraits/F_ASI_14",
+   "portraitOld": "characterportraits/F_ASI_14_Old",
+   "iconYoung": "charactericons/F_ASI_14_icon",
+   "iconOld": "charactericons/F_ASI_14_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Diplomat",
+      "Politician",
+      "Journalist",
+      "Evangelist",
+      "Professor",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage130",
+   "string": "F_ASI_15",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_15",
+   "idleVideoOld": "charactervideos/F_ASI_15_Old",
+   "portraitYoung": "characterportraits/F_ASI_15",
+   "portraitOld": "characterportraits/F_ASI_15_Old",
+   "iconYoung": "charactericons/F_ASI_15_icon",
+   "iconOld": "charactericons/F_ASI_15_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Executive",
+      "Activist",
+      "TechMogul",
+      "Journalist"
+   ]
+},
+ {
+   "dataName": "CharImage131",
+   "string": "F_ASI_16",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_16",
+   "idleVideoOld": "charactervideos/F_ASI_16_Old",
+   "portraitYoung": "characterportraits/F_ASI_16",
+   "portraitOld": "characterportraits/F_ASI_16_Old",
+   "iconYoung": "charactericons/F_ASI_16_icon",
+   "iconOld": "charactericons/F_ASI_16_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "TechMogul",
+      "Spy",
+      "Journalist",
+      "Hacker",
+      "Fixer",
+      "Activist",
+      "Kingpin",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage132",
+   "string": "F_ASI_17",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_17",
+   "idleVideoOld": "charactervideos/F_ASI_17_Old",
+   "portraitYoung": "characterportraits/F_ASI_17",
+   "portraitOld": "characterportraits/F_ASI_17_Old",
+   "iconYoung": "charactericons/F_ASI_17_icon",
+   "iconOld": "charactericons/F_ASI_17_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Astronaut",
+      "Journalist",
+      "Executive",
+      "Inspector",
+      "Investigator",
+      "Scientist"
+   ]
+},
+ {
+   "dataName": "CharImage133",
+   "string": "F_ASI_18",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_18",
+   "idleVideoOld": "charactervideos/F_ASI_18_Old",
+   "portraitYoung": "characterportraits/F_ASI_18",
+   "portraitOld": "characterportraits/F_ASI_18_Old",
+   "iconYoung": "charactericons/F_ASI_18_Icon",
+   "iconOld": "charactericons/F_ASI_18_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage134",
+   "string": "F_ASI_19",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_19",
+   "idleVideoOld": "charactervideos/F_ASI_19_Old",
+   "portraitYoung": "characterportraits/F_ASI_19",
+   "portraitOld": "characterportraits/F_ASI_19_Old",
+   "iconYoung": "charactericons/F_ASI_19_icon",
+   "iconOld": "charactericons/F_ASI_19_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Activist",
+      "Rebel",
+      "Hacker",
+      "Fixer",
+      "Journalist",
+      "Professor",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage135",
+   "string": "F_ASI_20",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_ASI_20",
+   "idleVideoOld": "charactervideos/F_ASI_20_Old",
+   "portraitYoung": "characterportraits/F_ASI_20",
+   "portraitOld": "characterportraits/F_ASI_20_Old",
+   "iconYoung": "charactericons/F_ASI_20_icon",
+   "iconOld": "charactericons/F_ASI_20_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Journalist",
+      "Hacker",
+      "Spy",
+      "Kingpin",
+      "Tycoon"
+   ]
+},
+ {
+   "dataName": "CharImage2",
+   "string": "F_EAS_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_01",
+   "idleVideoOld": "charactervideos/F_EAS_01_Old",
+   "portraitYoung": "characterportraits/F_EAS_01",
+   "portraitOld": "characterportraits/F_EAS_01_Old",
+   "iconYoung": "charactericons/F_EAS_01_icon",
+   "iconOld": "charactericons/F_EAS_01_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "Nonbinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Professor",
+      "Celebrity",
+      "Diplomat",
+      "Scientist",
+      "Rebel",
+      "Investigator",
+      "TechMogul",
+      "Operative"
+   ]
+},
+ {
+   "dataName": "CharImage13",
+   "string": "F_EAS_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_02",
+   "idleVideoOld": "charactervideos/F_EAS_02_Old",
+   "portraitYoung": "characterportraits/F_EAS_02",
+   "portraitOld": "characterportraits/F_EAS_02_Old",
+   "iconYoung": "charactericons/F_EAS_02_icon",
+   "iconOld": "charactericons/F_EAS_02_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Executive",
+      "Judge"
+   ]
+},
+ {
+   "dataName": "CharImage24",
+   "string": "F_EAS_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_03",
+   "idleVideoOld": "charactervideos/F_EAS_03_Old",
+   "portraitYoung": "characterportraits/F_EAS_03",
+   "portraitOld": "characterportraits/F_EAS_03_Old",
+   "iconYoung": "charactericons/F_EAS_03_icon",
+   "iconOld": "charactericons/F_EAS_03_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Kingpin",
+      "TechMogul",
+      "Executive",
+      "Politician",
+      "Professor",
+      "Diplomat",
+      "Scientist",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage35",
+   "string": "F_EAS_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_04",
+   "idleVideoOld": "charactervideos/F_EAS_04_Old",
+   "portraitYoung": "characterportraits/F_EAS_04",
+   "portraitOld": "characterportraits/F_EAS_04_Old",
+   "iconYoung": "charactericons/F_EAS_04_icon",
+   "iconOld": "charactericons/F_EAS_04_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Inspector",
+      "Activist",
+      "Rebel",
+      "Journalist",
+      "Investigator",
+      "Fixer",
+      "Tycoon",
+      "Spy",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage45",
+   "string": "F_EAS_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_05",
+   "idleVideoOld": "charactervideos/F_EAS_05_Old",
+   "portraitYoung": "characterportraits/F_EAS_05",
+   "portraitOld": "characterportraits/F_EAS_05_Old",
+   "iconYoung": "charactericons/F_EAS_05_icon",
+   "iconOld": "charactericons/F_EAS_05_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Executive",
+      "Professor",
+      "Activist",
+      "Fixer",
+      "Scientist",
+      "Spy",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CooperateLeader01",
+   "string": "F_EAS_06",
+   "enable": false,
+   "idleVideoYoung": "charactervideos/F_EAS_06",
+   "idleVideoOld": "charactervideos/F_EAS_06_Mid",
+   "portraitYoung": "characterportraits/F_EAS_06",
+   "portraitOld": "characterportraits/F_EAS_06_Mid",
+   "iconYoung": "charactericons/F_EAS_06_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ]
+},
+ {
+   "dataName": "CharImage58",
+   "string": "F_EAS_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_07",
+   "idleVideoOld": "charactervideos/F_EAS_07_Old",
+   "portraitYoung": "characterportraits/F_EAS_07",
+   "portraitOld": "characterportraits/F_EAS_07_Old",
+   "iconYoung": "charactericons/F_EAS_07_icon",
+   "iconOld": "charactericons/F_EAS_07_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Spy",
+      "Celebrity",
+      "Activist",
+      "Operative"
+   ]
+},
+ {
+   "dataName": "CharImage71",
+   "string": "F_EAS_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_08",
+   "idleVideoOld": "charactervideos/F_EAS_08_Old",
+   "portraitYoung": "characterportraits/F_EAS_08",
+   "portraitOld": "characterportraits/F_EAS_08_Old",
+   "iconYoung": "charactericons/F_EAS_08_icon",
+   "iconOld": "charactericons/F_EAS_08_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage72",
+   "string": "F_EAS_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_09",
+   "idleVideoOld": "charactervideos/F_EAS_09_Old",
+   "portraitYoung": "characterportraits/F_EAS_09",
+   "portraitOld": "characterportraits/F_EAS_09_Old",
+   "iconYoung": "charactericons/F_EAS_09_icon",
+   "iconOld": "charactericons/F_EAS_09_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Judge",
+      "Scientist",
+      "Engineer",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage87",
+   "string": "F_EAS_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_10",
+   "idleVideoOld": "charactervideos/F_EAS_10_Old",
+   "portraitYoung": "characterportraits/F_EAS_10",
+   "portraitOld": "characterportraits/F_EAS_10_Old",
+   "iconYoung": "charactericons/F_EAS_10_icon",
+   "iconOld": "charactericons/F_EAS_10_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Inspector",
+      "Astronaut",
+      "Attorney",
+      "Engineer",
+      "Professor"
+   ]
+},
+ {
+   "dataName": "CharImage89",
+   "string": "F_EAS_11",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_11",
+   "idleVideoOld": "charactervideos/F_EAS_11_Old",
+   "portraitYoung": "characterportraits/F_EAS_11",
+   "portraitOld": "characterportraits/F_EAS_11_Old",
+   "iconYoung": "charactericons/F_EAS_11_icon",
+   "iconOld": "charactericons/F_EAS_11_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Investigator",
+      "Officer",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage136",
+   "string": "F_EAS_12",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_12",
+   "idleVideoOld": "charactervideos/F_EAS_12_Old",
+   "portraitYoung": "characterportraits/F_EAS_12",
+   "portraitOld": "characterportraits/F_EAS_12_Old",
+   "iconYoung": "charactericons/F_EAS_12_icon",
+   "iconOld": "charactericons/F_EAS_12_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Activist",
+      "Celebrity"
+   ]
+},
+ {
+   "dataName": "CharImage137",
+   "string": "F_EAS_13",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_13",
+   "idleVideoOld": "charactervideos/F_EAS_13_Old",
+   "portraitYoung": "characterportraits/F_EAS_13",
+   "portraitOld": "characterportraits/F_EAS_13_Old",
+   "iconYoung": "charactericons/F_EAS_13_icon",
+   "iconOld": "charactericons/F_EAS_13_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Judge",
+      "Evangelist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage138",
+   "string": "F_EAS_14",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_14",
+   "idleVideoOld": "charactervideos/F_EAS_14_Old",
+   "portraitYoung": "characterportraits/F_EAS_14",
+   "portraitOld": "characterportraits/F_EAS_14_Old",
+   "iconYoung": "charactericons/F_EAS_14_icon",
+   "iconOld": "charactericons/F_EAS_14_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Astronaut",
+      "Journalist",
+      "Executive",
+      "Inspector",
+      "Investigator",
+      "Kingpin",
+      "Operative"
+   ]
+},
+ {
+   "dataName": "CharImage139",
+   "string": "F_EAS_15",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_15",
+   "idleVideoOld": "charactervideos/F_EAS_15_Old",
+   "portraitYoung": "characterportraits/F_EAS_15",
+   "portraitOld": "characterportraits/F_EAS_15_Old",
+   "iconYoung": "charactericons/F_EAS_15_icon",
+   "iconOld": "charactericons/F_EAS_15_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Kingpin",
+      "Executive",
+      "Politician",
+      "Executive",
+      "Tycoon",
+      "Judge",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage140",
+   "string": "F_EAS_16",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_16",
+   "idleVideoOld": "charactervideos/F_EAS_16_Old",
+   "portraitYoung": "characterportraits/F_EAS_16",
+   "portraitOld": "characterportraits/F_EAS_16_Old",
+   "iconYoung": "charactericons/F_EAS_16_icon",
+   "iconOld": "charactericons/F_EAS_16_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Executive",
+      "Diplomat",
+      "Politician",
+      "Tycoon",
+      "Judge",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage141",
+   "string": "F_EAS_17",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_17",
+   "idleVideoOld": "charactervideos/F_EAS_17_Old",
+   "portraitYoung": "characterportraits/F_EAS_17",
+   "portraitOld": "characterportraits/F_EAS_17_Old",
+   "iconYoung": "charactericons/F_EAS_17_icon",
+   "iconOld": "charactericons/F_EAS_17_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Executive",
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage142",
+   "string": "F_EAS_18",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_18",
+   "idleVideoOld": "charactervideos/F_EAS_18_Old",
+   "portraitYoung": "characterportraits/F_EAS_18",
+   "portraitOld": "characterportraits/F_EAS_18_Old",
+   "iconYoung": "charactericons/F_EAS_18_icon",
+   "iconOld": "charactericons/F_EAS_18_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Activist",
+      "Fixer",
+      "Journalist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage143",
+   "string": "F_EAS_19",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_19",
+   "idleVideoOld": "charactervideos/F_EAS_19_Old",
+   "portraitYoung": "characterportraits/F_EAS_19",
+   "portraitOld": "characterportraits/F_EAS_19_Old",
+   "iconYoung": "charactericons/F_EAS_19_icon",
+   "iconOld": "charactericons/F_EAS_19_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Activist",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage144",
+   "string": "F_EAS_20",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_20",
+   "idleVideoOld": "charactervideos/F_EAS_20_Old",
+   "portraitYoung": "characterportraits/F_EAS_20",
+   "portraitOld": "characterportraits/F_EAS_20_Old",
+   "iconYoung": "charactericons/F_EAS_20_icon",
+   "iconOld": "charactericons/F_EAS_20_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Kingpin",
+      "Executive",
+      "Politician",
+      "Professor",
+      "Celebrity",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage145",
+   "string": "F_EAS_21",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_21",
+   "idleVideoOld": "charactervideos/F_EAS_21_Old",
+   "portraitYoung": "characterportraits/F_EAS_21",
+   "portraitOld": "characterportraits/F_EAS_21_Old",
+   "iconYoung": "charactericons/F_EAS_21_icon",
+   "iconOld": "charactericons/F_EAS_21_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Judge"
+   ]
+},
+ {
+   "dataName": "CharImage146",
+   "string": "F_EAS_22",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_22",
+   "idleVideoOld": "charactervideos/F_EAS_22_Old",
+   "portraitYoung": "characterportraits/F_EAS_22",
+   "portraitOld": "characterportraits/F_EAS_22_Old",
+   "iconYoung": "charactericons/F_EAS_22_icon",
+   "iconOld": "charactericons/F_EAS_22_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Executive",
+      "Kingpin",
+      "Diplomat",
+      "Professor",
+      "Tycoon",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage147",
+   "string": "F_EAS_23",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EAS_23",
+   "idleVideoOld": "charactervideos/F_EAS_23_Old",
+   "portraitYoung": "characterportraits/F_EAS_23",
+   "portraitOld": "characterportraits/F_EAS_23_Old",
+   "iconYoung": "charactericons/F_EAS_23_icon",
+   "iconOld": "charactericons/F_EAS_23_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Officer",
+      "Investigator",
+      "Astronaut",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage3",
+   "string": "F_EUR_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_01",
+   "idleVideoOld": "charactervideos/F_EUR_01_Old",
+   "portraitYoung": "characterportraits/F_EUR_01",
+   "portraitOld": "characterportraits/F_EUR_01_Old",
+   "iconYoung": "charactericons/F_EUR_01_icon",
+   "iconOld": "charactericons/F_EUR_01_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "Nonbinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Hacker",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Scientist",
+      "Rebel",
+      "Investigator",
+      "Inspector",
+      "Kingpin",
+      "TechMogul",
+      "Executive",
+      "Tycoon"
+   ]
+},
+ {
+   "dataName": "CharImage16",
+   "string": "F_EUR_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_02",
+   "idleVideoOld": "charactervideos/F_EUR_02_Old",
+   "portraitYoung": "characterportraits/F_EUR_02",
+   "portraitOld": "characterportraits/F_EUR_02_Old",
+   "iconYoung": "charactericons/F_EUR_02_icon",
+   "iconOld": "charactericons/F_EUR_02_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Inspector",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage28",
+   "string": "F_EUR_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_03",
+   "idleVideoOld": "charactervideos/F_EUR_03_Old",
+   "portraitYoung": "characterportraits/F_EUR_03",
+   "portraitOld": "characterportraits/F_EUR_03_Old",
+   "iconYoung": "charactericons/F_EUR_03_icon",
+   "iconOld": "charactericons/F_EUR_03_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European",
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Officer",
+      "Astronaut",
+      "Commando",
+      "Operative",
+      "Rebel",
+      "Inspector"
+   ]
+},
+ {
+   "dataName": "CharImage37",
+   "string": "F_EUR_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_04",
+   "idleVideoOld": "charactervideos/F_EUR_04_Old",
+   "portraitYoung": "characterportraits/F_EUR_04",
+   "portraitOld": "characterportraits/F_EUR_04_Old",
+   "iconYoung": "charactericons/F_EUR_04_icon",
+   "iconOld": "charactericons/F_EUR_04_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Activist",
+      "Rebel",
+      "Hacker",
+      "Fixer",
+      "Journalist",
+      "Professor",
+      "Investigator"
+   ]
+},
+ {
+   "dataName": "CharImage48",
+   "string": "F_EUR_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_05",
+   "idleVideoOld": "charactervideos/F_EUR_05_Old",
+   "portraitYoung": "characterportraits/F_EUR_05",
+   "portraitOld": "characterportraits/F_EUR_05_Old",
+   "iconYoung": "charactericons/F_EUR_05_icon",
+   "iconOld": "charactericons/F_EUR_05_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Celebrity",
+      "Activist",
+      "Evangelist",
+      "Professor"
+   ]
+},
+ {
+   "dataName": "SubmitLeader01",
+   "string": "F_EUR_06",
+   "enable": false,
+   "idleVideoYoung": "charactervideos/F_EUR_06",
+   "idleVideoOld": "charactervideos/F_EUR_06_Mid",
+   "portraitYoung": "characterportraits/F_EUR_06",
+   "portraitOld": "characterportraits/F_EUR_06_Mid",
+   "iconYoung": "charactericons/F_EUR_06_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ]
+},
+ {
+   "dataName": "CharImage61",
+   "string": "F_EUR_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_07",
+   "idleVideoOld": "charactervideos/F_EUR_07_Old",
+   "portraitYoung": "characterportraits/F_EUR_07",
+   "portraitOld": "characterportraits/F_EUR_07_Old",
+   "iconYoung": "charactericons/F_EUR_07_icon",
+   "iconOld": "charactericons/F_EUR_07_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Spy",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage91",
+   "string": "F_EUR_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_08",
+   "idleVideoOld": "charactervideos/F_EUR_08_Old",
+   "portraitYoung": "characterportraits/F_EUR_08",
+   "portraitOld": "characterportraits/F_EUR_08_Old",
+   "iconYoung": "charactericons/F_EUR_08_icon",
+   "iconOld": "charactericons/F_EUR_08_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Inspector",
+      "Officer",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage161",
+   "string": "F_EUR_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_09",
+   "idleVideoOld": "charactervideos/F_EUR_09_Old",
+   "portraitYoung": "characterportraits/F_EUR_09",
+   "portraitOld": "characterportraits/F_EUR_09_Old",
+   "iconYoung": "charactericons/F_EUR_09_icon",
+   "iconOld": "charactericons/F_EUR_09_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Executive",
+      "Diplomat",
+      "Politician",
+      "Tycoon",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage162",
+   "string": "F_EUR_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_10",
+   "idleVideoOld": "charactervideos/F_EUR_10_Old",
+   "portraitYoung": "characterportraits/F_EUR_10",
+   "portraitOld": "characterportraits/F_EUR_10_Old",
+   "iconYoung": "charactericons/F_EUR_10_icon",
+   "iconOld": "charactericons/F_EUR_10_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Activist",
+      "Fixer",
+      "Journalist",
+      "Attorney",
+      "Investigator",
+      "Engineer",
+      "Operative"
+   ]
+},
+ {
+   "dataName": "CharImage163",
+   "string": "F_EUR_11",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_11",
+   "idleVideoOld": "charactervideos/F_EUR_11_Old",
+   "portraitYoung": "characterportraits/F_EUR_11",
+   "portraitOld": "characterportraits/F_EUR_11_Old",
+   "iconYoung": "charactericons/F_EUR_11_icon",
+   "iconOld": "charactericons/F_EUR_11_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Astronaut",
+      "Journalist",
+      "Executive",
+      "Inspector",
+      "Investigator",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage164",
+   "string": "F_EUR_12",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_12",
+   "idleVideoOld": "charactervideos/F_EUR_12_Old",
+   "portraitYoung": "characterportraits/F_EUR_12",
+   "portraitOld": "characterportraits/F_EUR_12_Old",
+   "iconYoung": "charactericons/F_EUR_12_icon",
+   "iconOld": "charactericons/F_EUR_12_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Journalist",
+      "Spy",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage165",
+   "string": "F_EUR_13",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_13",
+   "idleVideoOld": "charactervideos/F_EUR_13_Old",
+   "portraitYoung": "characterportraits/F_EUR_13",
+   "portraitOld": "characterportraits/F_EUR_13_Old",
+   "iconYoung": "charactericons/F_EUR_13_icon",
+   "iconOld": "charactericons/F_EUR_13_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage166",
+   "string": "F_EUR_14",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_14",
+   "idleVideoOld": "charactervideos/F_EUR_14_Old",
+   "portraitYoung": "characterportraits/F_EUR_14",
+   "portraitOld": "characterportraits/F_EUR_14_Old",
+   "iconYoung": "charactericons/F_EUR_14_icon",
+   "iconOld": "charactericons/F_EUR_14_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Judge",
+      "Fixer",
+      "Spy",
+      "Operative",
+      "Kingpin",
+      "Attorney",
+      "Operative"
+   ]
+},
+ {
+   "dataName": "CharImage167",
+   "string": "F_EUR_15",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_15",
+   "idleVideoOld": "charactervideos/F_EUR_15_Old",
+   "portraitYoung": "characterportraits/F_EUR_15",
+   "portraitOld": "characterportraits/F_EUR_15_Old",
+   "iconYoung": "charactericons/F_EUR_15_icon",
+   "iconOld": "charactericons/F_EUR_15_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Officer",
+      "Inspector",
+      "Investigator",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage168",
+   "string": "F_EUR_16",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_EUR_16",
+   "idleVideoOld": "charactervideos/F_EUR_16_Old",
+   "portraitYoung": "characterportraits/F_EUR_16",
+   "portraitOld": "characterportraits/F_EUR_16_Old",
+   "iconYoung": "charactericons/F_EUR_16_icon",
+   "iconOld": "charactericons/F_EUR_16_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Evangelist",
+      "Professor",
+      "Investigator",
+      "Journalist",
+      "Scientist",
+      "Attorney",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage29",
+   "string": "F_HIS_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_HIS_01",
+   "idleVideoOld": "charactervideos/F_HIS_01_Old",
+   "portraitYoung": "characterportraits/F_HIS_01",
+   "portraitOld": "characterportraits/F_HIS_01_Old",
+   "iconYoung": "charactericons/F_HIS_01_icon",
+   "iconOld": "charactericons/F_HIS_01_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic",
+      "Oceanic"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Evangelist",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage50",
+   "string": "F_HIS_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_HIS_02",
+   "idleVideoOld": "charactervideos/F_HIS_02_Old",
+   "portraitYoung": "characterportraits/F_HIS_02",
+   "portraitOld": "characterportraits/F_HIS_02_Old",
+   "iconYoung": "charactericons/F_HIS_02_icon",
+   "iconOld": "charactericons/F_HIS_02_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic",
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "TechMogul",
+      "Journalist",
+      "Hacker",
+      "Activist",
+      "Rebel",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage62",
+   "string": "F_HIS_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_HIS_03",
+   "idleVideoOld": "charactervideos/F_HIS_03_Old",
+   "portraitYoung": "characterportraits/F_HIS_03",
+   "portraitOld": "characterportraits/F_HIS_03_Old",
+   "iconYoung": "charactericons/F_HIS_03_icon",
+   "iconOld": "charactericons/F_HIS_03_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic",
+      "Oceanic"
+   ],
+   "allowedJobNames": [
+      "Commando",
+      "Officer",
+      "Rebel",
+      "Inspector",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage75",
+   "string": "F_HIS_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_HIS_04",
+   "idleVideoOld": "charactervideos/F_HIS_04_Old",
+   "portraitYoung": "characterportraits/F_HIS_04",
+   "portraitOld": "characterportraits/F_HIS_04_Old",
+   "iconYoung": "charactericons/F_HIS_04_icon",
+   "iconOld": "charactericons/F_HIS_04_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Judge",
+      "Scientist",
+      "Attorney",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage181",
+   "string": "F_HIS_06",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_HIS_06",
+   "idleVideoOld": "charactervideos/F_HIS_06_Old",
+   "portraitYoung": "characterportraits/F_HIS_06",
+   "portraitOld": "characterportraits/F_HIS_06_Old",
+   "iconYoung": "charactericons/F_HIS_06_icon",
+   "iconOld": "charactericons/F_HIS_06_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic",
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Diplomat",
+      "Politician",
+      "Journalist",
+      "Evangelist",
+      "Professor",
+      "Judge",
+      "Scientist",
+      "Attorney",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage182",
+   "string": "F_HIS_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_HIS_07",
+   "idleVideoOld": "charactervideos/F_HIS_07_Old",
+   "portraitYoung": "characterportraits/F_HIS_07",
+   "portraitOld": "characterportraits/F_HIS_07_Old",
+   "iconYoung": "charactericons/F_HIS_07_icon",
+   "iconOld": "charactericons/F_HIS_07_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Journalist",
+      "Spy",
+      "Attorney",
+      "Operative"
+   ]
+},
+ {
+   "dataName": "CharImage183",
+   "string": "F_HIS_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_HIS_08",
+   "idleVideoOld": "charactervideos/F_HIS_08_Old",
+   "portraitYoung": "characterportraits/F_HIS_08",
+   "portraitOld": "characterportraits/F_HIS_08_Old",
+   "iconYoung": "charactericons/F_HIS_08_icon",
+   "iconOld": "charactericons/F_HIS_08_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Operative",
+      "Commando",
+      "Rebel",
+      "Investigator",
+      "Officer",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage184",
+   "string": "F_HIS_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_HIS_09",
+   "idleVideoOld": "charactervideos/F_HIS_09_Old",
+   "portraitYoung": "characterportraits/F_HIS_09",
+   "portraitOld": "characterportraits/F_HIS_09_Old",
+   "iconYoung": "charactericons/F_HIS_09_icon",
+   "iconOld": "charactericons/F_HIS_09_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Judge",
+      "Evangelist",
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage185",
+   "string": "F_HIS_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_HIS_10",
+   "idleVideoOld": "charactervideos/F_HIS_10_Old",
+   "portraitYoung": "characterportraits/F_HIS_10",
+   "portraitOld": "characterportraits/F_HIS_10_Old",
+   "iconYoung": "charactericons/F_HIS_10_icon",
+   "iconOld": "charactericons/F_HIS_10_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Activist",
+      "Fixer",
+      "Journalist",
+      "Engineer",
+      "Operative",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage59",
+   "string": "F_OCE_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/F_OCE_01",
+   "idleVideoOld": "charactervideos/F_OCE_01_Old",
+   "portraitYoung": "characterportraits/F_OCE_01",
+   "portraitOld": "characterportraits/F_OCE_01_Old",
+   "iconYoung": "charactericons/F_OCE_01_icon",
+   "iconOld": "charactericons/F_OCE_01_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Oceanic",
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Journalist",
+      "Spy",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage195",
+   "string": "F_OCE_02",
+   "enable": true,
+   "notes": "old video no animation",
+   "idleVideoYoung": "charactervideos/F_OCE_02",
+   "idleVideoOld": "charactervideos/F_OCE_02",
+   "portraitYoung": "characterportraits/F_OCE_02",
+   "portraitOld": "characterportraits/F_OCE_02_Old",
+   "iconYoung": "charactericons/F_OCE_02_icon",
+   "iconOld": "charactericons/F_OCE_02_Old_icon",
+   "allowedGenders": [
+      "Female",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Oceanic"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Engineer",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "HydraImage01",
+   "string": "Hydra_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_01",
+   "portraitYoung": "characterportraits/Hydra_01",
+   "iconYoung": "charactericons/Hydra_01_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage02",
+   "string": "Hydra_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_02",
+   "portraitYoung": "characterportraits/Hydra_02",
+   "iconYoung": "charactericons/Hydra_02_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage03",
+   "string": "Hydra_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_03",
+   "portraitYoung": "characterportraits/Hydra_03",
+   "iconYoung": "charactericons/Hydra_03_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage04",
+   "string": "Hydra_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_04",
+   "portraitYoung": "characterportraits/Hydra_04",
+   "iconYoung": "charactericons/Hydra_04_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage05",
+   "string": "Hydra_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_05",
+   "portraitYoung": "characterportraits/Hydra_05",
+   "iconYoung": "charactericons/Hydra_05_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage06",
+   "string": "Hydra_06",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_06",
+   "portraitYoung": "characterportraits/Hydra_06",
+   "iconYoung": "charactericons/Hydra_06_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage07",
+   "string": "Hydra_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_07",
+   "portraitYoung": "characterportraits/Hydra_07",
+   "iconYoung": "charactericons/Hydra_07_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage08",
+   "string": "Hydra_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_08",
+   "portraitYoung": "characterportraits/Hydra_08",
+   "iconYoung": "charactericons/Hydra_08_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage09",
+   "string": "Hydra_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_09",
+   "portraitYoung": "characterportraits/Hydra_09",
+   "iconYoung": "charactericons/Hydra_09_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage10",
+   "string": "Hydra_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_10",
+   "portraitYoung": "characterportraits/Hydra_10",
+   "iconYoung": "charactericons/Hydra_10_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage11",
+   "string": "Hydra_11",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_11",
+   "portraitYoung": "characterportraits/Hydra_11",
+   "iconYoung": "charactericons/Hydra_11_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage12",
+   "string": "Hydra_12",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_12",
+   "portraitYoung": "characterportraits/Hydra_12",
+   "iconYoung": "charactericons/Hydra_12_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage13",
+   "string": "Hydra_13",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_13",
+   "portraitYoung": "characterportraits/Hydra_13",
+   "iconYoung": "charactericons/Hydra_13_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage14",
+   "string": "Hydra_14",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_14",
+   "portraitYoung": "characterportraits/Hydra_14",
+   "iconYoung": "charactericons/Hydra_14_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage15",
+   "string": "Hydra_15",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_15",
+   "portraitYoung": "characterportraits/Hydra_15",
+   "iconYoung": "charactericons/Hydra_15_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage16",
+   "string": "Hydra_16",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_16",
+   "portraitYoung": "characterportraits/Hydra_16",
+   "iconYoung": "charactericons/Hydra_16_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage17",
+   "string": "Hydra_17",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_17",
+   "portraitYoung": "characterportraits/Hydra_17",
+   "iconYoung": "charactericons/Hydra_17_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "HydraImage18",
+   "string": "Hydra_18",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/Hydra_18",
+   "portraitYoung": "characterportraits/Hydra_18",
+   "iconYoung": "charactericons/Hydra_18_icon",
+   "allowedGenders": [
+      "None"
+   ],
+   "allowedAncestries": [
+      "Alien"
+   ]
+},
+ {
+   "dataName": "CharImage220",
+   "string": "KS_1038",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_1038",
+   "idleVideoYoung": "charactervideos/KS_1038",
+   "idleVideoOld": "charactervideos/KS_1038_Old",
+   "portraitYoung": "characterportraits/KS_1038",
+   "portraitOld": "characterportraits/KS_1038_Old",
+   "iconYoung": "charactericons/KS_1038_icon",
+   "iconOld": "charactericons/KS_1038_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage227",
+   "string": "KS_1170",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_1170",
+   "idleVideoYoung": "charactervideos/KS_1170",
+   "idleVideoOld": "charactervideos/KS_1170_Old",
+   "portraitYoung": "characterportraits/KS_1170",
+   "portraitOld": "characterportraits/KS_1170_Old",
+   "iconYoung": "charactericons/KS_1170_icon",
+   "iconOld": "charactericons/KS_1170_Old_icon",
+   "allowedGenders": [
+      "Female"
+   ]
+},
+ {
+   "dataName": "CharImage205",
+   "string": "KS_1207",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_1207",
+   "idleVideoYoung": "charactervideos/KS_1207",
+   "idleVideoOld": "charactervideos/KS_1207_Old",
+   "portraitYoung": "characterportraits/KS_1207",
+   "portraitOld": "characterportraits/KS_1207_Old",
+   "iconYoung": "charactericons/KS_1207_icon",
+   "iconOld": "charactericons/KS_1207_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage225",
+   "string": "KS_1480",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_1480",
+   "idleVideoYoung": "charactervideos/KS_1480",
+   "idleVideoOld": "charactervideos/KS_1480_Old",
+   "portraitYoung": "characterportraits/KS_1480",
+   "portraitOld": "characterportraits/KS_1480_Old",
+   "iconYoung": "charactericons/KS_1480_icon",
+   "iconOld": "charactericons/KS_1480_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage213",
+   "string": "KS_1487",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_1487",
+   "idleVideoYoung": "charactervideos/KS_1487",
+   "idleVideoOld": "charactervideos/KS_1487_Old",
+   "portraitYoung": "characterportraits/KS_1487",
+   "portraitOld": "characterportraits/KS_1487_Old",
+   "iconYoung": "charactericons/KS_1487_icon",
+   "iconOld": "charactericons/KS_1487_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage199",
+   "string": "KS_1654",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_1654",
+   "idleVideoYoung": "charactervideos/KS_1654",
+   "idleVideoOld": "charactervideos/KS_1654_Old",
+   "portraitYoung": "characterportraits/KS_1654",
+   "portraitOld": "characterportraits/KS_1654_Old",
+   "iconYoung": "charactericons/KS_1654_icon",
+   "iconOld": "charactericons/KS_1654_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage217",
+   "string": "KS_1747",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_1747",
+   "idleVideoYoung": "charactervideos/KS_1747",
+   "idleVideoOld": "charactervideos/KS_1747_Old",
+   "portraitYoung": "characterportraits/KS_1747",
+   "portraitOld": "characterportraits/KS_1747_Old",
+   "iconYoung": "charactericons/KS_1747_icon",
+   "iconOld": "charactericons/KS_1747_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage210",
+   "string": "KS_1883",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_1883",
+   "idleVideoYoung": "charactervideos/KS_1883",
+   "idleVideoOld": "charactervideos/KS_1883_Old",
+   "portraitYoung": "characterportraits/KS_1883",
+   "portraitOld": "characterportraits/KS_1883_Old",
+   "iconYoung": "charactericons/KS_1883_icon",
+   "iconOld": "charactericons/KS_1883_Old_icon",
+   "allowedGenders": [
+      "Female"
+   ]
+},
+ {
+   "dataName": "CharImage204",
+   "string": "KS_1967",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_1967",
+   "idleVideoYoung": "charactervideos/KS_1967",
+   "idleVideoOld": "charactervideos/KS_1967_Old",
+   "portraitYoung": "characterportraits/KS_1967",
+   "portraitOld": "characterportraits/KS_1967_Old",
+   "iconYoung": "charactericons/KS_1967_icon",
+   "iconOld": "charactericons/KS_1967_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage214",
+   "string": "KS_2034",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_2034",
+   "idleVideoYoung": "charactervideos/KS_2034",
+   "idleVideoOld": "charactervideos/KS_2034_Old",
+   "portraitYoung": "characterportraits/KS_2034",
+   "portraitOld": "characterportraits/KS_2034_Old",
+   "iconYoung": "charactericons/KS_2034_icon",
+   "iconOld": "charactericons/KS_2034_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage203",
+   "string": "KS_2070",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_2070",
+   "idleVideoYoung": "charactervideos/KS_2070",
+   "idleVideoOld": "charactervideos/KS_2070_Old",
+   "portraitYoung": "characterportraits/KS_2070",
+   "portraitOld": "characterportraits/KS_2070_Old",
+   "iconYoung": "charactericons/KS_2070_icon",
+   "iconOld": "charactericons/KS_2070_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage221",
+   "string": "KS_2163",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_2163",
+   "idleVideoYoung": "charactervideos/KS_2163",
+   "idleVideoOld": "charactervideos/KS_2163_Old",
+   "portraitYoung": "characterportraits/KS_2163",
+   "portraitOld": "characterportraits/KS_2163_Old",
+   "iconYoung": "charactericons/KS_2163_icon",
+   "iconOld": "charactericons/KS_2163_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage202",
+   "string": "KS_236",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_236",
+   "idleVideoYoung": "charactervideos/KS_236",
+   "idleVideoOld": "charactervideos/KS_236_Old",
+   "portraitYoung": "characterportraits/KS_236",
+   "portraitOld": "characterportraits/KS_236_Old",
+   "iconYoung": "charactericons/KS_236_icon",
+   "iconOld": "charactericons/KS_236_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage200",
+   "string": "KS_2409",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_2409",
+   "idleVideoYoung": "charactervideos/KS_2409",
+   "idleVideoOld": "charactervideos/KS_2409_Old",
+   "portraitYoung": "characterportraits/KS_2409",
+   "portraitOld": "characterportraits/KS_2409_Old",
+   "iconYoung": "charactericons/KS_2409_icon",
+   "iconOld": "charactericons/KS_2409_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage208",
+   "string": "KS_2457",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_2457",
+   "idleVideoYoung": "charactervideos/KS_2457",
+   "idleVideoOld": "charactervideos/KS_2457_Old",
+   "portraitYoung": "characterportraits/KS_2457",
+   "portraitOld": "characterportraits/KS_2457_Old",
+   "iconYoung": "charactericons/KS_2457_icon",
+   "iconOld": "charactericons/KS_2457_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage212",
+   "string": "KS_2470",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_2470",
+   "idleVideoYoung": "charactervideos/KS_2470",
+   "idleVideoOld": "charactervideos/KS_2470_Old",
+   "portraitYoung": "characterportraits/KS_2470",
+   "portraitOld": "characterportraits/KS_2470_Old",
+   "iconYoung": "charactericons/KS_2470_icon",
+   "iconOld": "charactericons/KS_2470_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage215",
+   "string": "KS_2568",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_2568",
+   "idleVideoYoung": "charactervideos/KS_2568",
+   "idleVideoOld": "charactervideos/KS_2568_Old",
+   "portraitYoung": "characterportraits/KS_2568",
+   "portraitOld": "characterportraits/KS_2568_Old",
+   "iconYoung": "charactericons/KS_2568_icon",
+   "iconOld": "charactericons/KS_2568_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage224",
+   "string": "KS_2684",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_2684",
+   "idleVideoYoung": "charactervideos/KS_2684",
+   "idleVideoOld": "charactervideos/KS_2684_Old",
+   "portraitYoung": "characterportraits/KS_2684",
+   "portraitOld": "characterportraits/KS_2684_Old",
+   "iconYoung": "charactericons/KS_2684_icon",
+   "iconOld": "charactericons/KS_2684_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage201",
+   "string": "KS_314",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_314",
+   "idleVideoYoung": "charactervideos/KS_314",
+   "idleVideoOld": "charactervideos/KS_314_Old",
+   "portraitYoung": "characterportraits/KS_314",
+   "portraitOld": "characterportraits/KS_314_Old",
+   "iconYoung": "charactericons/KS_314_icon",
+   "iconOld": "charactericons/KS_314_Old_icon",
+   "allowedGenders": [
+      "Female"
+   ]
+},
+ {
+   "dataName": "CharImage198",
+   "string": "KS_382",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_382",
+   "idleVideoYoung": "charactervideos/KS_382",
+   "idleVideoOld": "charactervideos/KS_382_Old",
+   "portraitYoung": "characterportraits/KS_382",
+   "portraitOld": "characterportraits/KS_382_Old",
+   "iconYoung": "charactericons/KS_382_icon",
+   "iconOld": "charactericons/KS_382_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage216",
+   "string": "KS_3845",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_3845",
+   "idleVideoYoung": "charactervideos/KS_3845",
+   "idleVideoOld": "charactervideos/KS_3845_Old",
+   "portraitYoung": "characterportraits/KS_3845",
+   "portraitOld": "characterportraits/KS_3845_Old",
+   "iconYoung": "charactericons/KS_3845_icon",
+   "iconOld": "charactericons/KS_3845_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage209",
+   "string": "KS_4267",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_4267",
+   "idleVideoYoung": "charactervideos/KS_4267",
+   "idleVideoOld": "charactervideos/KS_4267_Old",
+   "portraitYoung": "characterportraits/KS_4267",
+   "portraitOld": "characterportraits/KS_4267_Old",
+   "iconYoung": "charactericons/KS_4267_icon",
+   "iconOld": "charactericons/KS_4267_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage223",
+   "string": "KS_4379",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_4379",
+   "idleVideoYoung": "charactervideos/KS_4379",
+   "idleVideoOld": "charactervideos/KS_4379_Old",
+   "portraitYoung": "characterportraits/KS_4379",
+   "portraitOld": "characterportraits/KS_4379_Old",
+   "iconYoung": "charactericons/KS_4379_icon",
+   "iconOld": "charactericons/KS_4379_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ],
+   "allowedAncestries": [
+      "European",
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Diplomat",
+      "Politician",
+      "Journalist",
+      "Evangelist",
+      "Professor",
+      "Judge"
+   ]
+},
+ {
+   "dataName": "CharImage211",
+   "string": "KS_4382",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_4382",
+   "idleVideoYoung": "charactervideos/KS_4382",
+   "idleVideoOld": "charactervideos/KS_4382_Old",
+   "portraitYoung": "characterportraits/KS_4382",
+   "portraitOld": "characterportraits/KS_4382_Old",
+   "iconYoung": "charactericons/KS_4382_icon",
+   "iconOld": "charactericons/KS_4382_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage207",
+   "string": "KS_4383",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_4383",
+   "idleVideoYoung": "charactervideos/KS_4383",
+   "idleVideoOld": "charactervideos/KS_4383_Old",
+   "portraitYoung": "characterportraits/KS_4383",
+   "portraitOld": "characterportraits/KS_4383_Old",
+   "iconYoung": "charactericons/KS_4383_icon",
+   "iconOld": "charactericons/KS_4383_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage228",
+   "string": "KS_4482",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_4482",
+   "idleVideoYoung": "charactervideos/KS_4482",
+   "idleVideoOld": "charactervideos/KS_4482_Old",
+   "portraitYoung": "characterportraits/KS_4482",
+   "portraitOld": "characterportraits/KS_4482_Old",
+   "iconYoung": "charactericons/KS_4482_icon",
+   "iconOld": "charactericons/KS_4482_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage229",
+   "string": "KS_4514",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_4514",
+   "idleVideoYoung": "charactervideos/KS_4514",
+   "idleVideoOld": "charactervideos/KS_4514_Old",
+   "portraitYoung": "characterportraits/KS_4514",
+   "portraitOld": "characterportraits/KS_4514_Old",
+   "iconYoung": "charactericons/KS_4514_icon",
+   "iconOld": "charactericons/KS_4514_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage222",
+   "string": "KS_462",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_462",
+   "idleVideoYoung": "charactervideos/KS_462",
+   "idleVideoOld": "charactervideos/KS_462_Old",
+   "portraitYoung": "characterportraits/KS_462",
+   "portraitOld": "characterportraits/KS_462_Old",
+   "iconYoung": "charactericons/KS_462_icon",
+   "iconOld": "charactericons/KS_462_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage206",
+   "string": "KS_580",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_580",
+   "idleVideoYoung": "charactervideos/KS_580",
+   "idleVideoOld": "charactervideos/KS_580_Old",
+   "portraitYoung": "characterportraits/KS_580",
+   "portraitOld": "characterportraits/KS_580_Old",
+   "iconYoung": "charactericons/KS_580_icon",
+   "iconOld": "charactericons/KS_580_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage218",
+   "string": "KS_613",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_613",
+   "idleVideoYoung": "charactervideos/KS_613",
+   "idleVideoOld": "charactervideos/KS_613_Old",
+   "portraitYoung": "characterportraits/KS_613",
+   "portraitOld": "characterportraits/KS_613_Old",
+   "iconYoung": "charactericons/KS_613_icon",
+   "iconOld": "charactericons/KS_613_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ]
+},
+ {
+   "dataName": "CharImage219",
+   "string": "KS_847",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_847",
+   "idleVideoYoung": "charactervideos/KS_847",
+   "idleVideoOld": "charactervideos/KS_847_Old",
+   "portraitYoung": "characterportraits/KS_847",
+   "portraitOld": "characterportraits/KS_847_Old",
+   "iconYoung": "charactericons/KS_847_icon",
+   "iconOld": "charactericons/KS_847_Old_icon",
+   "allowedGenders": [
+      "Female"
+   ]
+},
+ {
+   "dataName": "CharImage226",
+   "string": "KS_991",
+   "enable": true,
+   "specific_person": true,
+   "notes": "KS_991",
+   "idleVideoYoung": "charactervideos/KS_991",
+   "idleVideoOld": "charactervideos/KS_991_Old",
+   "portraitYoung": "characterportraits/KS_991",
+   "portraitOld": "characterportraits/KS_991_Old",
+   "iconYoung": "charactericons/KS_991_icon",
+   "iconOld": "charactericons/KS_991_Old_icon",
+   "allowedGenders": [
+      "Female"
+   ]
+},
+ {
+   "dataName": "CharImage4",
+   "string": "M_AFR_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_01",
+   "idleVideoOld": "charactervideos/M_AFR_01_Old",
+   "portraitYoung": "characterportraits/M_AFR_01",
+   "portraitOld": "characterportraits/M_AFR_01_Old",
+   "iconYoung": "charactericons/M_AFR_01_icon",
+   "iconOld": "charactericons/M_AFR_01_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "Nonbinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Scientist",
+      "Rebel",
+      "Investigator",
+      "Inspector",
+      "Kingpin",
+      "TechMogul",
+      "Executive",
+      "Judge",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage8",
+   "string": "M_AFR_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_02",
+   "idleVideoOld": "charactervideos/M_AFR_02_Old",
+   "portraitYoung": "characterportraits/M_AFR_02",
+   "portraitOld": "characterportraits/M_AFR_02_Old",
+   "iconYoung": "charactericons/M_AFR_02_icon",
+   "iconOld": "charactericons/M_AFR_02_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Fixer",
+      "Evangelist",
+      "Scientist",
+      "Celebrity",
+      "TechMogul",
+      "Investigator",
+      "Professor",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage9",
+   "string": "M_AFR_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_03",
+   "idleVideoOld": "charactervideos/M_AFR_03_Old",
+   "portraitYoung": "characterportraits/M_AFR_03",
+   "portraitOld": "characterportraits/M_AFR_03_Old",
+   "iconYoung": "charactericons/M_AFR_03_icon",
+   "iconOld": "charactericons/M_AFR_03_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Executive",
+      "Kingpin",
+      "Diplomat",
+      "Professor",
+      "Tycoon",
+      "Judge",
+      "Scientist",
+      "TechMogul",
+      "Evangelist",
+      "Journalist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage20",
+   "string": "M_AFR_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_04",
+   "idleVideoOld": "charactervideos/M_AFR_04_Old",
+   "portraitYoung": "characterportraits/M_AFR_04",
+   "portraitOld": "characterportraits/M_AFR_04_Old",
+   "iconYoung": "charactericons/M_AFR_04_icon",
+   "iconOld": "charactericons/M_AFR_04_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Executive",
+      "Kingpin",
+      "Hacker",
+      "TechMogul",
+      "Spy",
+      "Fixer",
+      "Journalist",
+      "Rebel",
+      "Activist",
+      "Investigator",
+      "Tycoon",
+      "Scientist"
+   ]
+},
+ {
+   "dataName": "CharImage30",
+   "string": "M_AFR_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_05",
+   "idleVideoOld": "charactervideos/M_AFR_05_Old",
+   "portraitYoung": "characterportraits/M_AFR_05",
+   "portraitOld": "characterportraits/M_AFR_05_Old",
+   "iconYoung": "charactericons/M_AFR_05_icon",
+   "iconOld": "charactericons/M_AFR_05_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Rebel",
+      "Astronaut",
+      "Commando",
+      "Operative",
+      "Hacker",
+      "Investigator",
+      "Inspector",
+      "Officer"
+   ]
+},
+ {
+   "dataName": "CharImage31",
+   "string": "M_AFR_06",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_06",
+   "idleVideoOld": "charactervideos/M_AFR_06_Old",
+   "portraitYoung": "characterportraits/M_AFR_06",
+   "portraitOld": "characterportraits/M_AFR_06_Old",
+   "iconYoung": "charactericons/M_AFR_06_icon",
+   "iconOld": "charactericons/M_AFR_06_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Rebel",
+      "Inspector",
+      "Activist",
+      "Evangelist",
+      "Journalist",
+      "Fixer",
+      "Spy",
+      "Investigator"
+   ]
+},
+ {
+   "dataName": "CharImage41",
+   "string": "M_AFR_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_07",
+   "idleVideoOld": "charactervideos/M_AFR_07_Old",
+   "portraitYoung": "characterportraits/M_AFR_07",
+   "portraitOld": "characterportraits/M_AFR_07_Old",
+   "iconYoung": "charactericons/M_AFR_07_icon",
+   "iconOld": "charactericons/M_AFR_07_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Rebel",
+      "Spy",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage233",
+   "string": "M_AFR_08",
+   "disable": false,
+   "enable": true,
+   "notes": "bad - young and old video skip",
+   "idleVideoYoung": "charactervideos/M_AFR_08",
+   "idleVideoOld": "charactervideos/M_AFR_08_Old",
+   "portraitYoung": "characterportraits/M_AFR_08",
+   "portraitOld": "characterportraits/M_AFR_08_Old",
+   "iconYoung": "charactericons/M_AFR_08_icon",
+   "iconOld": "charactericons/M_AFR_08_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Engineer",
+      "Hacker",
+      "Spy",
+      "Investigator",
+      "TechMogul"
+   ]
+},
+ {
+   "dataName": "CharImage51",
+   "string": "M_AFR_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_09",
+   "idleVideoOld": "charactervideos/M_AFR_09_Old",
+   "portraitYoung": "characterportraits/M_AFR_09",
+   "portraitOld": "characterportraits/M_AFR_09_Old",
+   "iconYoung": "charactericons/M_AFR_09_icon",
+   "iconOld": "charactericons/M_AFR_09_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Commando",
+      "Officer",
+      "Rebel",
+      "Investigator",
+      "Operative"
+   ]
+},
+ {
+   "dataName": "CharImage65",
+   "string": "M_AFR_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_10",
+   "idleVideoOld": "charactervideos/M_AFR_10_Old",
+   "portraitYoung": "characterportraits/M_AFR_10",
+   "portraitOld": "characterportraits/M_AFR_10_Old",
+   "iconYoung": "charactericons/M_AFR_10_icon",
+   "iconOld": "charactericons/M_AFR_10_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Executive",
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Judge",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage77",
+   "string": "M_AFR_11",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_11",
+   "idleVideoOld": "charactervideos/M_AFR_11_Old",
+   "portraitYoung": "characterportraits/M_AFR_11",
+   "portraitOld": "characterportraits/M_AFR_11_Old",
+   "iconYoung": "charactericons/M_AFR_11_icon",
+   "iconOld": "charactericons/M_AFR_11_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage83",
+   "string": "M_AFR_12",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_12",
+   "idleVideoOld": "charactervideos/M_AFR_12_Old",
+   "portraitYoung": "characterportraits/M_AFR_12",
+   "portraitOld": "characterportraits/M_AFR_12_Old",
+   "iconYoung": "charactericons/M_AFR_12_icon",
+   "iconOld": "charactericons/M_AFR_12_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Officer",
+      "Investigator",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage92",
+   "string": "M_AFR_13",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_13",
+   "idleVideoOld": "charactervideos/M_AFR_13_Old",
+   "portraitYoung": "characterportraits/M_AFR_13",
+   "portraitOld": "characterportraits/M_AFR_13_Old",
+   "iconYoung": "charactericons/M_AFR_13_icon",
+   "iconOld": "charactericons/M_AFR_13_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Attorney",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage93",
+   "string": "M_AFR_14",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_14",
+   "idleVideoOld": "charactervideos/M_AFR_14_Old",
+   "portraitYoung": "characterportraits/M_AFR_14",
+   "portraitOld": "characterportraits/M_AFR_14_Old",
+   "iconYoung": "charactericons/M_AFR_14_icon",
+   "iconOld": "charactericons/M_AFR_14_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Spy",
+      "Evangelist",
+      "Engineer",
+      "TechMogul"
+   ]
+},
+ {
+   "dataName": "CharImage94",
+   "string": "M_AFR_15",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_15",
+   "idleVideoOld": "charactervideos/M_AFR_15_Old",
+   "portraitYoung": "characterportraits/M_AFR_15",
+   "portraitOld": "characterportraits/M_AFR_15_Old",
+   "iconYoung": "charactericons/M_AFR_15_icon",
+   "iconOld": "charactericons/M_AFR_15_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Inspector",
+      "Astronaut",
+      "Attorney",
+      "Engineer",
+      "Journalist"
+   ]
+},
+ {
+   "dataName": "CharImage95",
+   "string": "M_AFR_16",
+   "disable": true,
+   "enable": true,
+   "notes": "no animation",
+   "idleVideoYoung": "charactervideos/M_AFR_16",
+   "idleVideoOld": "charactervideos/M_AFR_16_Old",
+   "portraitYoung": "characterportraits/M_AFR_16",
+   "portraitOld": "characterportraits/M_AFR_16_Old",
+   "iconYoung": "charactericons/M_AFR_16_icon",
+   "iconOld": "charactericons/M_AFR_16_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Activist",
+      "Evangelist",
+      "Celebrity",
+      "Journalist",
+      "Fixer",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage96",
+   "string": "M_AFR_17",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_17",
+   "idleVideoOld": "charactervideos/M_AFR_17_Old",
+   "portraitYoung": "characterportraits/M_AFR_17",
+   "portraitOld": "characterportraits/M_AFR_17_Old",
+   "iconYoung": "charactericons/M_AFR_17_icon",
+   "iconOld": "charactericons/M_AFR_17_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Rebel",
+      "Operative",
+      "Spy",
+      "Investigator",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage97",
+   "string": "M_AFR_18",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_18",
+   "idleVideoOld": "charactervideos/M_AFR_18_Old",
+   "portraitYoung": "characterportraits/M_AFR_18",
+   "portraitOld": "characterportraits/M_AFR_18_Old",
+   "iconYoung": "charactericons/M_AFR_18_icon",
+   "iconOld": "charactericons/M_AFR_18_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Inspector",
+      "Officer",
+      "Professor",
+      "Journalist",
+      "Astronaut",
+      "TechMogul",
+      "Engineer",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage98",
+   "string": "M_AFR_19",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_19",
+   "idleVideoOld": "charactervideos/M_AFR_19_Old",
+   "portraitYoung": "characterportraits/M_AFR_19",
+   "portraitOld": "characterportraits/M_AFR_19_Old",
+   "iconYoung": "charactericons/M_AFR_19_icon",
+   "iconOld": "charactericons/M_AFR_19_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Judge",
+      "Scientist"
+   ]
+},
+ {
+   "dataName": "CharImage99",
+   "string": "M_AFR_20",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_20",
+   "idleVideoOld": "charactervideos/M_AFR_20_Old",
+   "portraitYoung": "characterportraits/M_AFR_20",
+   "portraitOld": "characterportraits/M_AFR_20_Old",
+   "iconYoung": "charactericons/M_AFR_20_icon",
+   "iconOld": "charactericons/M_AFR_20_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Activist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage100",
+   "string": "M_AFR_21",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_AFR_21",
+   "idleVideoOld": "charactervideos/M_AFR_21_Old",
+   "portraitYoung": "characterportraits/M_AFR_21",
+   "portraitOld": "characterportraits/M_AFR_21_Old",
+   "iconYoung": "charactericons/M_AFR_21_icon",
+   "iconOld": "charactericons/M_AFR_21_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "African"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Scientist",
+      "Politician",
+      "Executive",
+      "Investigator",
+      "Journalist",
+      "Professor",
+      "Judge",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage5",
+   "string": "M_ASI_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_01",
+   "idleVideoOld": "charactervideos/M_ASI_01_Old",
+   "portraitYoung": "characterportraits/M_ASI_01",
+   "portraitOld": "characterportraits/M_ASI_01_Old",
+   "iconYoung": "charactericons/M_ASI_01_icon",
+   "iconOld": "charactericons/M_ASI_01_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "Nonbinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Professor",
+      "Scientist",
+      "Rebel",
+      "Investigator",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage10",
+   "string": "M_ASI_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_02",
+   "idleVideoOld": "charactervideos/M_ASI_02_Old",
+   "portraitYoung": "characterportraits/M_ASI_02",
+   "portraitOld": "characterportraits/M_ASI_02_Old",
+   "iconYoung": "charactericons/M_ASI_02_icon",
+   "iconOld": "charactericons/M_ASI_02_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Scientist",
+      "TechMogul",
+      "Politician",
+      "Kingpin",
+      "Investigator",
+      "Professor",
+      "Executive",
+      "Evangelist",
+      "Tycoon"
+   ]
+},
+ {
+   "dataName": "CharImage11",
+   "string": "M_ASI_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_03",
+   "idleVideoOld": "charactervideos/M_ASI_03_Old",
+   "portraitYoung": "characterportraits/M_ASI_03",
+   "portraitOld": "characterportraits/M_ASI_03_Old",
+   "iconYoung": "charactericons/M_ASI_03_icon",
+   "iconOld": "charactericons/M_ASI_03_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Executive",
+      "Kingpin",
+      "Diplomat",
+      "Professor",
+      "Tycoon",
+      "TechMogul",
+      "Investigator",
+      "Evangelist",
+      "Spy",
+      "Fixer"
+   ]
+},
+ {
+   "dataName": "CharImage12",
+   "string": "M_ASI_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_04",
+   "idleVideoOld": "charactervideos/M_ASI_04_Old",
+   "portraitYoung": "characterportraits/M_ASI_04",
+   "portraitOld": "characterportraits/M_ASI_04_Old",
+   "iconYoung": "charactericons/M_ASI_04_icon",
+   "iconOld": "charactericons/M_ASI_04_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Rebel",
+      "Operative",
+      "Officer",
+      "Commando",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage22",
+   "string": "M_ASI_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_05",
+   "idleVideoOld": "charactervideos/M_ASI_05_Old",
+   "portraitYoung": "characterportraits/M_ASI_05",
+   "portraitOld": "characterportraits/M_ASI_05_Old",
+   "iconYoung": "charactericons/M_ASI_05_icon",
+   "iconOld": "charactericons/M_ASI_05_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian",
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Investigator",
+      "Officer",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage23",
+   "string": "M_ASI_06",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_06",
+   "idleVideoOld": "charactervideos/M_ASI_06_Old",
+   "portraitYoung": "characterportraits/M_ASI_06",
+   "portraitOld": "characterportraits/M_ASI_06_Old",
+   "iconYoung": "charactericons/M_ASI_06_icon",
+   "iconOld": "charactericons/M_ASI_06_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Executive",
+      "Activist",
+      "TechMogul",
+      "Journalist",
+      "Professor",
+      "Scientist",
+      "Fixer",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage33",
+   "string": "M_ASI_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_07",
+   "idleVideoOld": "charactervideos/M_ASI_07_Old",
+   "portraitYoung": "characterportraits/M_ASI_07",
+   "portraitOld": "characterportraits/M_ASI_07_Old",
+   "iconYoung": "charactericons/M_ASI_07_icon",
+   "iconOld": "charactericons/M_ASI_07_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian",
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Professor",
+      "Activist",
+      "Investigator",
+      "Journalist",
+      "Executive",
+      "Tycoon",
+      "Celebrity",
+      "Evangelist",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage34",
+   "string": "M_ASI_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_08",
+   "idleVideoOld": "charactervideos/M_ASI_08_Old",
+   "portraitYoung": "characterportraits/M_ASI_08",
+   "portraitOld": "characterportraits/M_ASI_08_Old",
+   "iconYoung": "charactericons/M_ASI_08_icon",
+   "iconOld": "charactericons/M_ASI_08_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian",
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Investigator",
+      "Activist",
+      "Rebel",
+      "Fixer",
+      "Engineer",
+      "TechMogul"
+   ]
+},
+ {
+   "dataName": "CharImage43",
+   "string": "M_ASI_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_09",
+   "idleVideoOld": "charactervideos/M_ASI_09_Old",
+   "portraitYoung": "characterportraits/M_ASI_09",
+   "portraitOld": "characterportraits/M_ASI_09_Old",
+   "iconYoung": "charactericons/M_ASI_09_icon",
+   "iconOld": "charactericons/M_ASI_09_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Hacker",
+      "Journalist",
+      "Executive",
+      "Activist",
+      "Tycoon",
+      "TechMogul"
+   ]
+},
+ {
+   "dataName": "CharImage44",
+   "string": "M_ASI_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_10",
+   "idleVideoOld": "charactervideos/M_ASI_10_Old",
+   "portraitYoung": "characterportraits/M_ASI_10",
+   "portraitOld": "characterportraits/M_ASI_10_Old",
+   "iconYoung": "charactericons/M_ASI_10_icon",
+   "iconOld": "charactericons/M_ASI_10_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian",
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "TechMogul",
+      "Politician",
+      "Professor",
+      "Inspector",
+      "Investigator",
+      "Scientist",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "EscapeLeader01",
+   "string": "M_ASI_11",
+   "enable": false,
+   "idleVideoYoung": "charactervideos/M_ASI_11",
+   "idleVideoOld": "charactervideos/M_ASI_11_Mid",
+   "portraitYoung": "characterportraits/M_ASI_11",
+   "portraitOld": "characterportraits/M_ASI_11_Mid",
+   "iconYoung": "charactericons/M_ASI_11_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "IslamicHeadwear": true,
+   "allowedAncestries": [
+      "Asian"
+   ]
+},
+ {
+   "dataName": "AppeaseLeader01",
+   "string": "M_ASI_12",
+   "enable": false,
+   "idleVideoYoung": "charactervideos/M_ASI_12",
+   "idleVideoOld": "charactervideos/M_ASI_12_Mid",
+   "portraitYoung": "characterportraits/M_ASI_12",
+   "portraitOld": "characterportraits/M_ASI_12_Mid",
+   "iconYoung": "charactericons/M_ASI_12_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ]
+},
+ {
+   "dataName": "CharImage53",
+   "string": "M_ASI_13",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_13",
+   "idleVideoOld": "charactervideos/M_ASI_13_Old",
+   "portraitYoung": "characterportraits/M_ASI_13",
+   "portraitOld": "characterportraits/M_ASI_13_Old",
+   "iconYoung": "charactericons/M_ASI_13_icon",
+   "iconOld": "charactericons/M_ASI_13_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "IslamicHeadwear": true,
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "TechMogul",
+      "Tycoon",
+      "Executive",
+      "Politician",
+      "Diplomat",
+      "Astronaut",
+      "Judge",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage55",
+   "string": "M_ASI_14",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_14",
+   "idleVideoOld": "charactervideos/M_ASI_14_Old",
+   "portraitYoung": "characterportraits/M_ASI_14",
+   "portraitOld": "characterportraits/M_ASI_14_Old",
+   "iconYoung": "charactericons/M_ASI_14_icon",
+   "iconOld": "charactericons/M_ASI_14_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "IslamicHeadwear": true,
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Executive",
+      "Diplomat",
+      "Politician",
+      "Tycoon",
+      "Judge",
+      "Attorney",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage69",
+   "string": "M_ASI_15",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_15",
+   "idleVideoOld": "charactervideos/M_ASI_15_Old",
+   "portraitYoung": "characterportraits/M_ASI_15",
+   "portraitOld": "characterportraits/M_ASI_15_Old",
+   "iconYoung": "charactericons/M_ASI_15_icon",
+   "iconOld": "charactericons/M_ASI_15_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian",
+      "Oceanic"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage78",
+   "string": "M_ASI_16",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_16",
+   "idleVideoOld": "charactervideos/M_ASI_16_Old",
+   "portraitYoung": "characterportraits/M_ASI_16",
+   "portraitOld": "characterportraits/M_ASI_16_Old",
+   "iconYoung": "charactericons/M_ASI_16_icon",
+   "iconOld": "charactericons/M_ASI_16_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage85",
+   "string": "M_ASI_17",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_17",
+   "idleVideoOld": "charactervideos/M_ASI_17_Old",
+   "portraitYoung": "characterportraits/M_ASI_17",
+   "portraitOld": "characterportraits/M_ASI_17_Old",
+   "iconYoung": "charactericons/M_ASI_17_icon",
+   "iconOld": "charactericons/M_ASI_17_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Investigator",
+      "Officer",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage111",
+   "string": "M_ASI_18",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_18",
+   "idleVideoOld": "charactervideos/M_ASI_18_Old",
+   "portraitYoung": "characterportraits/M_ASI_18",
+   "portraitOld": "characterportraits/M_ASI_18_Old",
+   "iconYoung": "charactericons/M_ASI_18_icon",
+   "iconOld": "charactericons/M_ASI_18_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Investigator",
+      "Executive",
+      "Astronaut",
+      "Attorney",
+      "Tycoon",
+      "Judge"
+   ]
+},
+ {
+   "dataName": "CharImage112",
+   "string": "M_ASI_19",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_19",
+   "idleVideoOld": "charactervideos/M_ASI_19_Old",
+   "portraitYoung": "characterportraits/M_ASI_19",
+   "portraitOld": "characterportraits/M_ASI_19_Old",
+   "iconYoung": "charactericons/M_ASI_19_icon",
+   "iconOld": "charactericons/M_ASI_19_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Kingpin",
+      "TechMogul",
+      "Executive",
+      "Politician",
+      "Professor",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage113",
+   "string": "M_ASI_20",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_20",
+   "idleVideoOld": "charactervideos/M_ASI_20_Old",
+   "portraitYoung": "characterportraits/M_ASI_20",
+   "portraitOld": "characterportraits/M_ASI_20_Old",
+   "iconYoung": "charactericons/M_ASI_20_icon",
+   "iconOld": "charactericons/M_ASI_20_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Executive",
+      "Kingpin",
+      "Diplomat",
+      "Professor",
+      "Judge",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage114",
+   "string": "M_ASI_21",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_21",
+   "idleVideoOld": "charactervideos/M_ASI_21_Old",
+   "portraitYoung": "characterportraits/M_ASI_21",
+   "portraitOld": "characterportraits/M_ASI_21_Old",
+   "iconYoung": "charactericons/M_ASI_21_icon",
+   "iconOld": "charactericons/M_ASI_21_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Journalist",
+      "Hacker",
+      "Spy",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage115",
+   "string": "M_ASI_22",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_22",
+   "idleVideoOld": "charactervideos/M_ASI_22_Old",
+   "portraitYoung": "characterportraits/M_ASI_22",
+   "portraitOld": "characterportraits/M_ASI_22_Old",
+   "iconYoung": "charactericons/M_ASI_22_icon",
+   "iconOld": "charactericons/M_ASI_22_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Journalist",
+      "Activist",
+      "TechMogul"
+   ]
+},
+ {
+   "dataName": "CharImage116",
+   "string": "M_ASI_23",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_23",
+   "idleVideoOld": "charactervideos/M_ASI_23_Old",
+   "portraitYoung": "characterportraits/M_ASI_23",
+   "portraitOld": "characterportraits/M_ASI_23_Old",
+   "iconYoung": "charactericons/M_ASI_23_icon",
+   "iconOld": "charactericons/M_ASI_23_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Rebel",
+      "Operative",
+      "Spy",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage117",
+   "string": "M_ASI_24",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_24",
+   "idleVideoOld": "charactervideos/M_ASI_24_Old",
+   "portraitYoung": "characterportraits/M_ASI_24",
+   "portraitOld": "characterportraits/M_ASI_24_Old",
+   "iconYoung": "charactericons/M_ASI_24_icon",
+   "iconOld": "charactericons/M_ASI_24_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Politician",
+      "Diplomat",
+      "Celebrity",
+      "Judge",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage118",
+   "string": "M_ASI_25",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_25",
+   "idleVideoOld": "charactervideos/M_ASI_25_Old",
+   "portraitYoung": "characterportraits/M_ASI_25",
+   "portraitOld": "characterportraits/M_ASI_25_Old",
+   "iconYoung": "charactericons/M_ASI_25_icon",
+   "iconOld": "charactericons/M_ASI_25_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Executive",
+      "Diplomat",
+      "Politician",
+      "Tycoon",
+      "Judge",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage119",
+   "string": "M_ASI_26",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_26",
+   "idleVideoOld": "charactervideos/M_ASI_26_Old",
+   "portraitYoung": "characterportraits/M_ASI_26",
+   "portraitOld": "characterportraits/M_ASI_26_Old",
+   "iconYoung": "charactericons/M_ASI_26_icon",
+   "iconOld": "charactericons/M_ASI_26_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Kingpin",
+      "Executive",
+      "Politician",
+      "Professor",
+      "Celebrity",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage120",
+   "string": "M_ASI_27",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_27",
+   "idleVideoOld": "charactervideos/M_ASI_27_Old",
+   "portraitYoung": "characterportraits/M_ASI_27",
+   "portraitOld": "characterportraits/M_ASI_27_Old",
+   "iconYoung": "charactericons/M_ASI_27_icon",
+   "iconOld": "charactericons/M_ASI_27_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Spy",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage121",
+   "string": "M_ASI_28",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_28",
+   "idleVideoOld": "charactervideos/M_ASI_28_Old",
+   "portraitYoung": "characterportraits/M_ASI_28",
+   "portraitOld": "characterportraits/M_ASI_28_Old",
+   "iconYoung": "charactericons/M_ASI_28_icon",
+   "iconOld": "charactericons/M_ASI_28_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Commando",
+      "Officer",
+      "Rebel",
+      "Investigator",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage122",
+   "string": "M_ASI_29",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_29",
+   "idleVideoOld": "charactervideos/M_ASI_29_Old",
+   "portraitYoung": "characterportraits/M_ASI_29",
+   "portraitOld": "characterportraits/M_ASI_29_Old",
+   "iconYoung": "charactericons/M_ASI_29_icon",
+   "iconOld": "charactericons/M_ASI_29_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Officer",
+      "Commando",
+      "Rebel",
+      "Investigator",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage123",
+   "string": "M_ASI_30",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_ASI_30",
+   "idleVideoOld": "charactervideos/M_ASI_30_Old",
+   "portraitYoung": "characterportraits/M_ASI_30",
+   "portraitOld": "characterportraits/M_ASI_30_Old",
+   "iconYoung": "charactericons/M_ASI_30_icon",
+   "iconOld": "charactericons/M_ASI_30_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Professor",
+      "Evangelist",
+      "Journalist",
+      "Celebrity",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage6",
+   "string": "M_EAS_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_01",
+   "idleVideoOld": "charactervideos/M_EAS_01_Old",
+   "portraitYoung": "characterportraits/M_EAS_01",
+   "portraitOld": "characterportraits/M_EAS_01_Old",
+   "iconYoung": "charactericons/M_EAS_01_icon",
+   "iconOld": "charactericons/M_EAS_01_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "Nonbinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Rebel",
+      "Investigator",
+      "Kingpin",
+      "TechMogul",
+      "Executive",
+      "Celebrity"
+   ]
+},
+ {
+   "dataName": "CharImage14",
+   "string": "M_EAS_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_02",
+   "idleVideoOld": "charactervideos/M_EAS_02_Old",
+   "portraitYoung": "characterportraits/M_EAS_02",
+   "portraitOld": "characterportraits/M_EAS_02_Old",
+   "iconYoung": "charactericons/M_EAS_02_icon",
+   "iconOld": "charactericons/M_EAS_02_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "TechMogul",
+      "Journalist",
+      "Evangelist",
+      "Fixer",
+      "Spy",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage15",
+   "string": "M_EAS_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_03",
+   "idleVideoOld": "charactervideos/M_EAS_03_Old",
+   "portraitYoung": "characterportraits/M_EAS_03",
+   "portraitOld": "characterportraits/M_EAS_03_Old",
+   "iconYoung": "charactericons/M_EAS_03_icon",
+   "iconOld": "charactericons/M_EAS_03_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Kingpin",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage25",
+   "string": "M_EAS_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_04",
+   "idleVideoOld": "charactervideos/M_EAS_04_Old",
+   "portraitYoung": "characterportraits/M_EAS_04",
+   "portraitOld": "characterportraits/M_EAS_04_Old",
+   "iconYoung": "charactericons/M_EAS_04_icon",
+   "iconOld": "charactericons/M_EAS_04_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Officer",
+      "Commando",
+      "Rebel",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage26",
+   "string": "M_EAS_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_05",
+   "idleVideoOld": "charactervideos/M_EAS_05_Old",
+   "portraitYoung": "characterportraits/M_EAS_05",
+   "portraitOld": "characterportraits/M_EAS_05_Old",
+   "iconYoung": "charactericons/M_EAS_05_icon",
+   "iconOld": "charactericons/M_EAS_05_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Activist",
+      "Celebrity",
+      "Fixer",
+      "Journalist",
+      "TechMogul"
+   ]
+},
+ {
+   "dataName": "CharImage232",
+   "string": "M_EAS_06",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_06",
+   "idleVideoOld": "charactervideos/M_EAS_06_Old",
+   "portraitYoung": "characterportraits/M_EAS_06",
+   "portraitOld": "characterportraits/M_EAS_06_Old",
+   "iconYoung": "charactericons/M_EAS_06_icon",
+   "iconOld": "charactericons/M_EAS_06_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Judge",
+      "Spy",
+      "Operative",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage36",
+   "string": "M_EAS_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_07",
+   "idleVideoOld": "charactervideos/M_EAS_07_Old",
+   "portraitYoung": "characterportraits/M_EAS_07",
+   "portraitOld": "characterportraits/M_EAS_07_Old",
+   "iconYoung": "charactericons/M_EAS_07_icon",
+   "iconOld": "charactericons/M_EAS_07_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Executive",
+      "Evangelist",
+      "Scientist",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage46",
+   "string": "M_EAS_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_08",
+   "idleVideoOld": "charactervideos/M_EAS_08_Old",
+   "portraitYoung": "characterportraits/M_EAS_08",
+   "portraitOld": "characterportraits/M_EAS_08_Old",
+   "iconYoung": "charactericons/M_EAS_08_icon",
+   "iconOld": "charactericons/M_EAS_08_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Rebel",
+      "Officer",
+      "Commando",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage47",
+   "string": "M_EAS_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_09",
+   "idleVideoOld": "charactervideos/M_EAS_09_Old",
+   "portraitYoung": "characterportraits/M_EAS_09",
+   "portraitOld": "characterportraits/M_EAS_09_Old",
+   "iconYoung": "charactericons/M_EAS_09_icon",
+   "iconOld": "charactericons/M_EAS_09_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Astronaut",
+      "Journalist",
+      "Executive",
+      "Inspector",
+      "Investigator",
+      "Fixer",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage56",
+   "string": "M_EAS_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_10",
+   "idleVideoOld": "charactervideos/M_EAS_10_Old",
+   "portraitYoung": "characterportraits/M_EAS_10",
+   "portraitOld": "characterportraits/M_EAS_10_Old",
+   "iconYoung": "charactericons/M_EAS_10_icon",
+   "iconOld": "charactericons/M_EAS_10_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Spy",
+      "Celebrity",
+      "Activist"
+   ]
+},
+ {
+   "dataName": "CharImage57",
+   "string": "M_EAS_11",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_11",
+   "idleVideoOld": "charactervideos/M_EAS_11_Old",
+   "portraitYoung": "characterportraits/M_EAS_11",
+   "portraitOld": "characterportraits/M_EAS_11_Old",
+   "iconYoung": "charactericons/M_EAS_11_icon",
+   "iconOld": "charactericons/M_EAS_11_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Scientist",
+      "Politician",
+      "Executive",
+      "Investigator",
+      "Journalist",
+      "Professor",
+      "Judge",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage70",
+   "string": "M_EAS_12",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_12",
+   "idleVideoOld": "charactervideos/M_EAS_12_Old",
+   "portraitYoung": "characterportraits/M_EAS_12",
+   "portraitOld": "characterportraits/M_EAS_12_Old",
+   "iconYoung": "charactericons/M_EAS_12_icon",
+   "iconOld": "charactericons/M_EAS_12_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Judge",
+      "Scientist",
+      "Attorney",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage79",
+   "string": "M_EAS_13",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_13",
+   "idleVideoOld": "charactervideos/M_EAS_13_Old",
+   "portraitYoung": "characterportraits/M_EAS_13",
+   "portraitOld": "characterportraits/M_EAS_13_Old",
+   "iconYoung": "charactericons/M_EAS_13_icon",
+   "iconOld": "charactericons/M_EAS_13_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Judge",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage88",
+   "string": "M_EAS_14",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_14",
+   "idleVideoOld": "charactervideos/M_EAS_14_Old",
+   "portraitYoung": "characterportraits/M_EAS_14",
+   "portraitOld": "characterportraits/M_EAS_14_Old",
+   "iconYoung": "charactericons/M_EAS_14_icon",
+   "iconOld": "charactericons/M_EAS_14_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Officer",
+      "Investigator",
+      "Astronaut",
+      "Operative",
+      "Rebel",
+      "Commando"
+   ]
+},
+ {
+   "dataName": "CharImage148",
+   "string": "M_EAS_15",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_15",
+   "idleVideoOld": "charactervideos/M_EAS_15_Old",
+   "portraitYoung": "characterportraits/M_EAS_15",
+   "portraitOld": "characterportraits/M_EAS_15_Old",
+   "iconYoung": "charactericons/M_EAS_15_icon",
+   "iconOld": "charactericons/M_EAS_15_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "TechMogul",
+      "Spy",
+      "Journalist",
+      "Hacker",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage149",
+   "string": "M_EAS_16",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_16",
+   "idleVideoOld": "charactervideos/M_EAS_16_Old",
+   "portraitYoung": "characterportraits/M_EAS_16",
+   "portraitOld": "characterportraits/M_EAS_16_Old",
+   "iconYoung": "charactericons/M_EAS_16_icon",
+   "iconOld": "charactericons/M_EAS_16_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Rebel",
+      "Operative",
+      "Spy",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage150",
+   "string": "M_EAS_17",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_17",
+   "idleVideoOld": "charactervideos/M_EAS_17_Old",
+   "portraitYoung": "characterportraits/M_EAS_17",
+   "portraitOld": "characterportraits/M_EAS_17_Old",
+   "iconYoung": "charactericons/M_EAS_17_icon",
+   "iconOld": "charactericons/M_EAS_17_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Hacker",
+      "Celebrity",
+      "Executive",
+      "TechMogul",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage151",
+   "string": "M_EAS_18",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_18",
+   "idleVideoOld": "charactervideos/M_EAS_18_Old",
+   "portraitYoung": "characterportraits/M_EAS_18",
+   "portraitOld": "characterportraits/M_EAS_18_Old",
+   "iconYoung": "charactericons/M_EAS_18_icon",
+   "iconOld": "charactericons/M_EAS_18_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Commando",
+      "Officer",
+      "Rebel",
+      "Inspector",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage152",
+   "string": "M_EAS_19",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_19",
+   "idleVideoOld": "charactervideos/M_EAS_19_Old",
+   "portraitYoung": "characterportraits/M_EAS_19",
+   "portraitOld": "characterportraits/M_EAS_19_Old",
+   "iconYoung": "charactericons/M_EAS_19_icon",
+   "iconOld": "charactericons/M_EAS_19_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "TechMogul",
+      "Spy",
+      "Journalist",
+      "Hacker",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage153",
+   "string": "M_EAS_20",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_20",
+   "idleVideoOld": "charactervideos/M_EAS_20_Old",
+   "portraitYoung": "characterportraits/M_EAS_20",
+   "portraitOld": "characterportraits/M_EAS_20_Old",
+   "iconYoung": "charactericons/M_EAS_20_icon",
+   "iconOld": "charactericons/M_EAS_20_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Rebel",
+      "Operative",
+      "Spy",
+      "Kingpin",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage154",
+   "string": "M_EAS_21",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_21",
+   "idleVideoOld": "charactervideos/M_EAS_21_Old",
+   "portraitYoung": "characterportraits/M_EAS_21",
+   "portraitOld": "characterportraits/M_EAS_21_Old",
+   "iconYoung": "charactericons/M_EAS_21_icon",
+   "iconOld": "charactericons/M_EAS_21_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage155",
+   "string": "M_EAS_22",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_22",
+   "idleVideoOld": "charactervideos/M_EAS_22_Old",
+   "portraitYoung": "characterportraits/M_EAS_22",
+   "portraitOld": "characterportraits/M_EAS_22_Old",
+   "iconYoung": "charactericons/M_EAS_22_icon",
+   "iconOld": "charactericons/M_EAS_22_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Activist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage156",
+   "string": "M_EAS_23",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_23",
+   "idleVideoOld": "charactervideos/M_EAS_23_Old",
+   "portraitYoung": "characterportraits/M_EAS_23",
+   "portraitOld": "characterportraits/M_EAS_23_Old",
+   "iconYoung": "charactericons/M_EAS_23_icon",
+   "iconOld": "charactericons/M_EAS_23_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Activist",
+      "Evangelist",
+      "Celebrity",
+      "Journalist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage157",
+   "string": "M_EAS_24",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_24",
+   "idleVideoOld": "charactervideos/M_EAS_24_Old",
+   "portraitYoung": "characterportraits/M_EAS_24",
+   "portraitOld": "characterportraits/M_EAS_24_Old",
+   "iconYoung": "charactericons/M_EAS_24_icon",
+   "iconOld": "charactericons/M_EAS_24_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "TechMogul",
+      "Spy",
+      "Journalist",
+      "Celebrity",
+      "Engineer",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage158",
+   "string": "M_EAS_25",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_25",
+   "idleVideoOld": "charactervideos/M_EAS_25_Old",
+   "portraitYoung": "characterportraits/M_EAS_25",
+   "portraitOld": "characterportraits/M_EAS_25_Old",
+   "iconYoung": "charactericons/M_EAS_25_icon",
+   "iconOld": "charactericons/M_EAS_25_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Officer",
+      "Inspector",
+      "Activist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage159",
+   "string": "M_EAS_26",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_26",
+   "idleVideoOld": "charactervideos/M_EAS_26_Old",
+   "portraitYoung": "characterportraits/M_EAS_26",
+   "portraitOld": "characterportraits/M_EAS_26_Old",
+   "iconYoung": "charactericons/M_EAS_26_icon",
+   "iconOld": "charactericons/M_EAS_26_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Activist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage160",
+   "string": "M_EAS_27",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EAS_27",
+   "idleVideoOld": "charactervideos/M_EAS_27_Old",
+   "portraitYoung": "characterportraits/M_EAS_27",
+   "portraitOld": "characterportraits/M_EAS_27_Old",
+   "iconYoung": "charactericons/M_EAS_27_icon",
+   "iconOld": "charactericons/M_EAS_27_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "EastAsian"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Fixer",
+      "Hacker",
+      "Journalist"
+   ]
+},
+ {
+   "dataName": "CharImage7",
+   "string": "M_EUR_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_01",
+   "idleVideoOld": "charactervideos/M_EUR_01_Old",
+   "portraitYoung": "characterportraits/M_EUR_01",
+   "portraitOld": "characterportraits/M_EUR_01_Old",
+   "iconYoung": "charactericons/M_EUR_01_icon",
+   "iconOld": "charactericons/M_EUR_01_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "Nonbinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Evangelist",
+      "Professor",
+      "Scientist",
+      "Investigator",
+      "TechMogul",
+      "Celebrity"
+   ]
+},
+ {
+   "dataName": "CharImage17",
+   "string": "M_EUR_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_02",
+   "idleVideoOld": "charactervideos/M_EUR_02_Old",
+   "portraitYoung": "characterportraits/M_EUR_02",
+   "portraitOld": "characterportraits/M_EUR_02_Old",
+   "iconYoung": "charactericons/M_EUR_02_icon",
+   "iconOld": "charactericons/M_EUR_02_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Investigator",
+      "Professor",
+      "Evangelist",
+      "Journalist",
+      "Celebrity",
+      "TechMogul",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage27",
+   "string": "M_EUR_03",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_03",
+   "idleVideoOld": "charactervideos/M_EUR_03_Old",
+   "portraitYoung": "characterportraits/M_EUR_03",
+   "portraitOld": "characterportraits/M_EUR_03_Old",
+   "iconYoung": "charactericons/M_EUR_03_icon",
+   "iconOld": "charactericons/M_EUR_03_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Inspector",
+      "Investigator",
+      "Kingpin",
+      "Tycoon"
+   ]
+},
+ {
+   "dataName": "CharImage63",
+   "string": "M_EUR_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_04",
+   "idleVideoOld": "charactervideos/M_EUR_04_Old",
+   "portraitYoung": "characterportraits/M_EUR_04",
+   "portraitOld": "characterportraits/M_EUR_04_Old",
+   "iconYoung": "charactericons/M_EUR_04_icon",
+   "iconOld": "charactericons/M_EUR_04_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Officer",
+      "Commando",
+      "Rebel",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage49",
+   "string": "M_EUR_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_05",
+   "idleVideoOld": "charactervideos/M_EUR_05_Old",
+   "portraitYoung": "characterportraits/M_EUR_05",
+   "portraitOld": "characterportraits/M_EUR_05_Old",
+   "iconYoung": "charactericons/M_EUR_05_icon",
+   "iconOld": "charactericons/M_EUR_05_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European",
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "TechMogul",
+      "Spy",
+      "Journalist",
+      "Celebrity",
+      "Scientist",
+      "Activist",
+      "Fixer",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "ExploitLeader01",
+   "string": "M_EUR_06",
+   "enable": false,
+   "idleVideoYoung": "charactervideos/M_EUR_06",
+   "idleVideoOld": "charactervideos/M_EUR_06_Mid",
+   "portraitYoung": "characterportraits/M_EUR_06",
+   "portraitOld": "characterportraits/M_EUR_06_Mid",
+   "iconYoung": "charactericons/M_EUR_06_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ]
+},
+ {
+   "dataName": "CharImage60",
+   "string": "M_EUR_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_07",
+   "idleVideoOld": "charactervideos/M_EUR_07_Old",
+   "portraitYoung": "characterportraits/M_EUR_07",
+   "portraitOld": "characterportraits/M_EUR_07_Old",
+   "iconYoung": "charactericons/M_EUR_07_icon",
+   "iconOld": "charactericons/M_EUR_07_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Rebel",
+      "Operative",
+      "Spy"
+   ]
+},
+ {
+   "dataName": "CharImage64",
+   "string": "M_EUR_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_08",
+   "idleVideoOld": "charactervideos/M_EUR_08_Old",
+   "portraitYoung": "characterportraits/M_EUR_08",
+   "portraitOld": "characterportraits/M_EUR_08_Old",
+   "iconYoung": "charactericons/M_EUR_08_icon",
+   "iconOld": "charactericons/M_EUR_08_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Astronaut",
+      "Celebrity",
+      "TechMogul",
+      "Attorney",
+      "Judge"
+   ]
+},
+ {
+   "dataName": "CharImage73",
+   "string": "M_EUR_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_09",
+   "idleVideoOld": "charactervideos/M_EUR_09_Old",
+   "portraitYoung": "characterportraits/M_EUR_09",
+   "portraitOld": "characterportraits/M_EUR_09_Old",
+   "iconYoung": "charactericons/M_EUR_09_icon",
+   "iconOld": "charactericons/M_EUR_09_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Tycoon",
+      "Executive",
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "TechMogul",
+      "Judge",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage74",
+   "string": "M_EUR_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_10",
+   "idleVideoOld": "charactervideos/M_EUR_10_Old",
+   "portraitYoung": "characterportraits/M_EUR_10",
+   "portraitOld": "characterportraits/M_EUR_10_Old",
+   "iconYoung": "charactericons/M_EUR_10_icon",
+   "iconOld": "charactericons/M_EUR_10_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage80",
+   "string": "M_EUR_11",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_11",
+   "idleVideoOld": "charactervideos/M_EUR_11_Old",
+   "portraitYoung": "characterportraits/M_EUR_11",
+   "portraitOld": "characterportraits/M_EUR_11_Old",
+   "iconYoung": "charactericons/M_EUR_11_icon",
+   "iconOld": "charactericons/M_EUR_11_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage90",
+   "string": "M_EUR_12",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_12",
+   "idleVideoOld": "charactervideos/M_EUR_12_Old",
+   "portraitYoung": "characterportraits/M_EUR_12",
+   "portraitOld": "characterportraits/M_EUR_12_Old",
+   "iconYoung": "charactericons/M_EUR_12_icon",
+   "iconOld": "charactericons/M_EUR_12_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Inspector",
+      "Officer",
+      "Investigator",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "CharImage169",
+   "string": "M_EUR_13",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_13",
+   "idleVideoOld": "charactervideos/M_EUR_13_Old",
+   "portraitYoung": "characterportraits/M_EUR_13",
+   "portraitOld": "characterportraits/M_EUR_13_Old",
+   "iconYoung": "charactericons/M_EUR_13_icon",
+   "iconOld": "charactericons/M_EUR_13_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Executive",
+      "Diplomat",
+      "Politician",
+      "Tycoon",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage170",
+   "string": "M_EUR_14",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_14",
+   "idleVideoOld": "charactervideos/M_EUR_14_Old",
+   "portraitYoung": "characterportraits/M_EUR_14",
+   "portraitOld": "characterportraits/M_EUR_14_Old",
+   "iconYoung": "charactericons/M_EUR_14_icon",
+   "iconOld": "charactericons/M_EUR_14_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Journalist",
+      "Spy",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage171",
+   "string": "M_EUR_15",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_15",
+   "idleVideoOld": "charactervideos/M_EUR_15_Old",
+   "portraitYoung": "characterportraits/M_EUR_15",
+   "portraitOld": "characterportraits/M_EUR_15_Old",
+   "iconYoung": "charactericons/M_EUR_15_icon",
+   "iconOld": "charactericons/M_EUR_15_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Judge",
+      "Evangelist",
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Scientist"
+   ]
+},
+ {
+   "dataName": "CharImage172",
+   "string": "M_EUR_16",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_16",
+   "idleVideoOld": "charactervideos/M_EUR_16_Old",
+   "portraitYoung": "characterportraits/M_EUR_16",
+   "portraitOld": "characterportraits/M_EUR_16_Old",
+   "iconYoung": "charactericons/M_EUR_16_icon",
+   "iconOld": "charactericons/M_EUR_16_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Operative",
+      "Commando",
+      "Rebel",
+      "Astronaut",
+      "Officer"
+   ]
+},
+ {
+   "dataName": "CharImage173",
+   "string": "M_EUR_17",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_17",
+   "idleVideoOld": "charactervideos/M_EUR_17_Old",
+   "portraitYoung": "characterportraits/M_EUR_17",
+   "portraitOld": "characterportraits/M_EUR_17_Old",
+   "iconYoung": "charactericons/M_EUR_17_icon",
+   "iconOld": "charactericons/M_EUR_17_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Attorney",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Executive"
+   ]
+},
+ {
+   "dataName": "CharImage174",
+   "string": "M_EUR_18",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_18",
+   "idleVideoOld": "charactervideos/M_EUR_18_Old",
+   "portraitYoung": "characterportraits/M_EUR_18",
+   "portraitOld": "characterportraits/M_EUR_18_Old",
+   "iconYoung": "charactericons/M_EUR_18_icon",
+   "iconOld": "charactericons/M_EUR_18_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Activist",
+      "Fixer",
+      "Journalist",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage175",
+   "string": "M_EUR_19",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_19",
+   "idleVideoOld": "charactervideos/M_EUR_19_Old",
+   "portraitYoung": "characterportraits/M_EUR_19",
+   "portraitOld": "characterportraits/M_EUR_19_Old",
+   "iconYoung": "charactericons/M_EUR_19_icon",
+   "iconOld": "charactericons/M_EUR_19_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Diplomat",
+      "Politician",
+      "Journalist",
+      "Evangelist",
+      "Professor",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage176",
+   "string": "M_EUR_20",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_20",
+   "idleVideoOld": "charactervideos/M_EUR_20_Old",
+   "portraitYoung": "characterportraits/M_EUR_20",
+   "portraitOld": "characterportraits/M_EUR_20_Old",
+   "iconYoung": "charactericons/M_EUR_20_icon",
+   "iconOld": "charactericons/M_EUR_20_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Evangelist",
+      "Professor",
+      "Investigator",
+      "Journalist",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage177",
+   "string": "M_EUR_21",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_21",
+   "idleVideoOld": "charactervideos/M_EUR_21_Old",
+   "portraitYoung": "characterportraits/M_EUR_21",
+   "portraitOld": "characterportraits/M_EUR_21_Old",
+   "iconYoung": "charactericons/M_EUR_21_icon",
+   "iconOld": "charactericons/M_EUR_21_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage178",
+   "string": "M_EUR_22",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_22",
+   "idleVideoOld": "charactervideos/M_EUR_22_Old",
+   "portraitYoung": "characterportraits/M_EUR_22",
+   "portraitOld": "characterportraits/M_EUR_22_Old",
+   "iconYoung": "charactericons/M_EUR_22_icon",
+   "iconOld": "charactericons/M_EUR_22_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Spy",
+      "Fixer",
+      "Activist",
+      "Journalist",
+      "Hacker",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage179",
+   "string": "M_EUR_23",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_23",
+   "idleVideoOld": "charactervideos/M_EUR_23_Old",
+   "portraitYoung": "characterportraits/M_EUR_23",
+   "portraitOld": "characterportraits/M_EUR_23_Old",
+   "iconYoung": "charactericons/M_EUR_23_icon",
+   "iconOld": "charactericons/M_EUR_23_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Journalist",
+      "Rebel",
+      "Spy",
+      "Evangelist",
+      "Celebrity",
+      "Fixer",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage180",
+   "string": "M_EUR_24",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_24",
+   "idleVideoOld": "charactervideos/M_EUR_24_Old",
+   "portraitYoung": "characterportraits/M_EUR_24",
+   "portraitOld": "characterportraits/M_EUR_24_Old",
+   "iconYoung": "charactericons/M_EUR_24_icon",
+   "iconOld": "charactericons/M_EUR_24_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Kingpin",
+      "Executive",
+      "Politician",
+      "Journalist",
+      "Judge",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage191",
+   "string": "M_EUR_25",
+   "enable": true,
+   "specific_person": true,
+   "notes": "Brian Sanders",
+   "idleVideoYoung": "charactervideos/M_EUR_25",
+   "idleVideoOld": "charactervideos/M_EUR_25",
+   "portraitYoung": "characterportraits/M_EUR_25",
+   "portraitOld": "characterportraits/M_EUR_25",
+   "iconYoung": "charactericons/M_EUR_25_icon",
+   "iconOld": "charactericons/M_EUR_25_icon",
+   "allowedGenders": [
+      "Male"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Investigator",
+      "Professor",
+      "Executive",
+      "Diplomat",
+      "Politician",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage192",
+   "string": "M_EUR_26",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_26",
+   "idleVideoOld": "charactervideos/M_EUR_26_Old",
+   "portraitYoung": "characterportraits/M_EUR_26",
+   "portraitOld": "characterportraits/M_EUR_26_Old",
+   "iconYoung": "charactericons/M_EUR_26_icon",
+   "iconOld": "charactericons/M_EUR_26_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Journalist",
+      "Spy",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage193",
+   "string": "M_EUR_27",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_EUR_27",
+   "idleVideoOld": "charactervideos/M_EUR_27_Old",
+   "portraitYoung": "characterportraits/M_EUR_27",
+   "portraitOld": "characterportraits/M_EUR_27_Old",
+   "iconYoung": "charactericons/M_EUR_27_icon",
+   "iconOld": "charactericons/M_EUR_26_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "European"
+   ],
+   "allowedJobNames": [
+      "Hacker",
+      "Activist",
+      "Fixer",
+      "Journalist",
+      "Celebrity",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage197",
+   "string": "M_EUR_28",
+   "enable": true,
+   "specific_person": true,
+   "notes": "Matt",
+   "idleVideoYoung": "charactervideos/M_EUR_28",
+   "idleVideoOld": "charactervideos/M_EUR_28_Old",
+   "portraitYoung": "characterportraits/M_EUR_28",
+   "portraitOld": "characterportraits/M_EUR_28_Old",
+   "iconYoung": "charactericons/M_EUR_28_icon",
+   "iconOld": "charactericons/M_EUR_28_Old_icon",
+   "allowedGenders": [
+      "Male"
+   ],
+   "allowedJobNames": [
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage18",
+   "string": "M_HIS_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_01",
+   "idleVideoOld": "charactervideos/M_HIS_01_Old",
+   "portraitYoung": "characterportraits/M_HIS_01",
+   "portraitOld": "characterportraits/M_HIS_01_Old",
+   "iconYoung": "charactericons/M_HIS_01_icon",
+   "iconOld": "charactericons/M_HIS_01_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Professor",
+      "Journalist",
+      "Hacker",
+      "Spy",
+      "Scientist",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage39",
+   "string": "M_HIS_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_02",
+   "idleVideoOld": "charactervideos/M_HIS_02_Old",
+   "portraitYoung": "characterportraits/M_HIS_02",
+   "portraitOld": "characterportraits/M_HIS_02_Old",
+   "iconYoung": "charactericons/M_HIS_02_icon",
+   "iconOld": "charactericons/M_HIS_02_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic",
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Officer",
+      "Commando",
+      "Rebel",
+      "Inspector",
+      "Operative",
+      "Astronaut"
+   ]
+},
+ {
+   "dataName": "DestroyLeader01",
+   "string": "M_HIS_03",
+   "enable": false,
+   "idleVideoYoung": "charactervideos/M_HIS_03",
+   "idleVideoOld": "charactervideos/M_HIS_03_Mid",
+   "portraitYoung": "characterportraits/M_HIS_03",
+   "portraitOld": "characterportraits/M_HIS_03_Mid",
+   "iconYoung": "charactericons/M_HIS_03_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ]
+},
+ {
+   "dataName": "CharImage38",
+   "string": "M_HIS_04",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_04",
+   "idleVideoOld": "charactervideos/M_HIS_04_Old",
+   "portraitYoung": "characterportraits/M_HIS_04",
+   "portraitOld": "characterportraits/M_HIS_04_Old",
+   "iconYoung": "charactericons/M_HIS_04_icon",
+   "iconOld": "charactericons/M_HIS_04_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic",
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Spy",
+      "Fixer",
+      "Hacker",
+      "Journalist",
+      "Kingpin"
+   ]
+},
+ {
+   "dataName": "CharImage76",
+   "string": "M_HIS_05",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_05",
+   "idleVideoOld": "charactervideos/M_HIS_05_Old",
+   "portraitYoung": "characterportraits/M_HIS_05",
+   "portraitOld": "characterportraits/M_HIS_05_Old",
+   "iconYoung": "charactericons/M_HIS_05_icon",
+   "iconOld": "charactericons/M_HIS_05_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Engineer",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage81",
+   "string": "M_HIS_06",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_06",
+   "idleVideoOld": "charactervideos/M_HIS_06_Old",
+   "portraitYoung": "characterportraits/M_HIS_06",
+   "portraitOld": "characterportraits/M_HIS_06_Old",
+   "iconYoung": "charactericons/M_HIS_06_icon",
+   "iconOld": "charactericons/M_HIS_06_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Politician",
+      "Diplomat",
+      "Professor",
+      "Executive",
+      "Tycoon",
+      "Judge",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage186",
+   "string": "M_HIS_07",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_07",
+   "idleVideoOld": "charactervideos/M_HIS_07_Old",
+   "portraitYoung": "characterportraits/M_HIS_07",
+   "portraitOld": "characterportraits/M_HIS_07_Old",
+   "iconYoung": "charactericons/M_HIS_07_icon",
+   "iconOld": "charactericons/M_HIS_07_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Inspector",
+      "Activist",
+      "Celebrity",
+      "Evangelist"
+   ]
+},
+ {
+   "dataName": "CharImage187",
+   "string": "M_HIS_08",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_08",
+   "idleVideoOld": "charactervideos/M_HIS_08_Old",
+   "portraitYoung": "characterportraits/M_HIS_08",
+   "portraitOld": "characterportraits/M_HIS_08_Old",
+   "iconYoung": "charactericons/M_HIS_08_icon",
+   "iconOld": "charactericons/M_HIS_08_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Diplomat",
+      "Politician",
+      "Journalist",
+      "Evangelist",
+      "Professor",
+      "Judge",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage188",
+   "string": "M_HIS_09",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_09",
+   "idleVideoOld": "charactervideos/M_HIS_09_Old",
+   "portraitYoung": "characterportraits/M_HIS_09",
+   "portraitOld": "characterportraits/M_HIS_09_Old",
+   "iconYoung": "charactericons/M_HIS_09_icon",
+   "iconOld": "charactericons/M_HIS_09_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Celebrity",
+      "Activist",
+      "Journalist",
+      "Spy",
+      "Hacker",
+      "Engineer"
+   ]
+},
+ {
+   "dataName": "CharImage189",
+   "string": "M_HIS_10",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_10",
+   "idleVideoOld": "charactervideos/M_HIS_10_Old",
+   "portraitYoung": "characterportraits/M_HIS_10",
+   "portraitOld": "characterportraits/M_HIS_10_Old",
+   "iconYoung": "charactericons/M_HIS_10_icon",
+   "iconOld": "charactericons/M_HIS_10_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Judge",
+      "Evangelist",
+      "Journalist",
+      "Professor",
+      "Fixer",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage190",
+   "string": "M_HIS_11",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_HIS_11",
+   "idleVideoOld": "charactervideos/M_HIS_11_Old",
+   "portraitYoung": "characterportraits/M_HIS_11",
+   "portraitOld": "characterportraits/M_HIS_11_Old",
+   "iconYoung": "charactericons/M_HIS_11_icon",
+   "iconOld": "charactericons/M_HIS_11_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Hispanic"
+   ],
+   "allowedJobNames": [
+      "Executive",
+      "Tycoon",
+      "Professor",
+      "Politician",
+      "Diplomat",
+      "Judge",
+      "Scientist",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage230",
+   "string": "M_OCE_01",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_OCE_01",
+   "idleVideoOld": "charactervideos/M_OCE_01_Old",
+   "portraitYoung": "characterportraits/M_OCE_01",
+   "portraitOld": "characterportraits/M_OCE_01_Old",
+   "iconYoung": "charactericons/M_OCE_01_icon",
+   "iconOld": "charactericons/M_OCE_01_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Oceanic",
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Journalist",
+      "Investigator",
+      "Professor",
+      "Executive",
+      "Diplomat",
+      "Celebrity",
+      "Scientist",
+      "Engineer",
+      "Attorney"
+   ]
+},
+ {
+   "dataName": "CharImage194",
+   "string": "M_OCE_02",
+   "enable": true,
+   "idleVideoYoung": "charactervideos/M_OCE_02",
+   "idleVideoOld": "charactervideos/M_OCE_02_Old",
+   "portraitYoung": "characterportraits/M_OCE_02",
+   "portraitOld": "characterportraits/M_OCE_02_Old",
+   "iconYoung": "charactericons/M_OCE_02_icon",
+   "iconOld": "charactericons/M_OCE_02_Old_icon",
+   "allowedGenders": [
+      "Male",
+      "NonBinary"
+   ],
+   "allowedAncestries": [
+      "Oceanic",
+      "Asian"
+   ],
+   "allowedJobNames": [
+      "Fixer",
+      "Rebel",
+      "Operative",
+      "Spy",
+      "Kingpin",
+      "Engineer",
+      "Attorney",
+      "Evangelist"
+   ]
+}
+]

@@ -1,0 +1,1560 @@
+[
+ {
+   "dataName": "Staggered",
+   "disable": false,
+   "AICombatBaseWeight": 0,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": false,
+   "useZoffset": true,
+   "resetIdx": 1,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0.5,
+         "y": 0.5,
+         "z": -1
+      },
+      {
+         "x": 0.5,
+         "y": -0.5,
+         "z": -1
+      },
+      {
+         "x": -0.5,
+         "y": -0.5,
+         "z": -1
+      },
+      {
+         "x": -0.5,
+         "y": 0.5,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": 0.5,
+         "y": 0.5,
+         "z": -3.5
+      },
+      {
+         "x": 0.5,
+         "y": -0.5,
+         "z": -3.5
+      },
+      {
+         "x": -0.5,
+         "y": -0.5,
+         "z": -3.5
+      },
+      {
+         "x": -0.5,
+         "y": 0.5,
+         "z": -3.5
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -5
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -5
+      },
+      {
+         "x": 0.5,
+         "y": 0.5,
+         "z": -6
+      },
+      {
+         "x": 0.5,
+         "y": -0.5,
+         "z": -6
+      },
+      {
+         "x": -0.5,
+         "y": -0.5,
+         "z": -6
+      },
+      {
+         "x": -0.5,
+         "y": 0.5,
+         "z": -6
+      }
+   ]
+},
+ {
+   "dataName": "Convoy",
+   "disable": false,
+   "AICombatBaseWeight": 0,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": true,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 9,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": -0.5,
+         "z": -0.5
+      },
+      {
+         "x": 1,
+         "y": 0.5,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": 0.5,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": -0.5,
+         "z": -0.5
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": 2,
+         "z": -1
+      },
+      {
+         "x": -2,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": -2,
+         "z": -1
+      },
+      {
+         "x": 1,
+         "y": -0.5,
+         "z": -2
+      },
+      {
+         "x": 1,
+         "y": 0.5,
+         "z": -2
+      },
+      {
+         "x": -1,
+         "y": 0.5,
+         "z": -2
+      },
+      {
+         "x": -1,
+         "y": -0.5,
+         "z": -2
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": 0,
+         "y": 2,
+         "z": -2.5
+      },
+      {
+         "x": -2,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": 0,
+         "y": -2,
+         "z": -2.5
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -3
+      }
+   ]
+},
+ {
+   "dataName": "Cloud",
+   "disable": false,
+   "AICombatBaseWeight": 0.1,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": true,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 13,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": -0.5
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": -0.5
+      },
+      {
+         "x": 1.5,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": -1.5,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 0,
+         "y": 1.5,
+         "z": -1.5
+      },
+      {
+         "x": 0,
+         "y": -1.5,
+         "z": -1.5
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": -2,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": 2,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": -2,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -3
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -3
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": -3
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": -3
+      },
+      {
+         "x": 1.5,
+         "y": 0,
+         "z": -4
+      },
+      {
+         "x": -1.5,
+         "y": 0,
+         "z": -4
+      },
+      {
+         "x": 0,
+         "y": 1.5,
+         "z": -4
+      },
+      {
+         "x": 0,
+         "y": -1.5,
+         "z": -4
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": -3.5
+      },
+      {
+         "x": -2,
+         "y": 0,
+         "z": -3.5
+      },
+      {
+         "x": 0,
+         "y": 2,
+         "z": -3.5
+      },
+      {
+         "x": 0,
+         "y": -2,
+         "z": -3.5
+      }
+   ]
+},
+ {
+   "dataName": "EchelonRight",
+   "disable": false,
+   "AICombatBaseWeight": 0.25,
+   "AIMaximumAllowedShips": 20,
+   "patternShift": true,
+   "clampXpos": false,
+   "clampYpos": false,
+   "useZoffset": true,
+   "Zoffset": -1.5,
+   "resetIdx": 10,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": 3,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 4,
+         "y": 0,
+         "z": -2
+      },
+      {
+         "x": 5,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": 6,
+         "y": 0,
+         "z": -3
+      },
+      {
+         "x": 7,
+         "y": 0,
+         "z": -3.5
+      },
+      {
+         "x": 8,
+         "y": 0,
+         "z": -4
+      },
+      {
+         "x": 9,
+         "y": 0,
+         "z": -4.5
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -2
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": 3,
+         "y": 0,
+         "z": -3
+      },
+      {
+         "x": 4,
+         "y": 0,
+         "z": -3.5
+      },
+      {
+         "x": 5,
+         "y": 0,
+         "z": -4
+      },
+      {
+         "x": 6,
+         "y": 0,
+         "z": -4.5
+      },
+      {
+         "x": 7,
+         "y": 0,
+         "z": -5
+      },
+      {
+         "x": 8,
+         "y": 0,
+         "z": -5.5
+      },
+      {
+         "x": 9,
+         "y": 0,
+         "z": -6
+      }
+   ]
+},
+ {
+   "dataName": "EchelonLeft",
+   "disable": false,
+   "AICombatBaseWeight": 0.25,
+   "AIMaximumAllowedShips": 20,
+   "patternShift": true,
+   "clampXpos": true,
+   "clampYpos": false,
+   "useZoffset": true,
+   "Zoffset": -1.5,
+   "resetIdx": 10,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": -2,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": -3,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": -4,
+         "y": 0,
+         "z": -2
+      },
+      {
+         "x": -5,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": -6,
+         "y": 0,
+         "z": -3
+      },
+      {
+         "x": -7,
+         "y": 0,
+         "z": -3.5
+      },
+      {
+         "x": -8,
+         "y": 0,
+         "z": -4
+      },
+      {
+         "x": -9,
+         "y": 0,
+         "z": -4.5
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -2
+      },
+      {
+         "x": -2,
+         "y": 0,
+         "z": -2.5
+      },
+      {
+         "x": -3,
+         "y": 0,
+         "z": -3
+      },
+      {
+         "x": -4,
+         "y": 0,
+         "z": -3.5
+      },
+      {
+         "x": -5,
+         "y": 0,
+         "z": -4
+      },
+      {
+         "x": -6,
+         "y": 0,
+         "z": -4.5
+      },
+      {
+         "x": -7,
+         "y": 0,
+         "z": -5
+      },
+      {
+         "x": -8,
+         "y": 0,
+         "z": -5.5
+      },
+      {
+         "x": -9,
+         "y": 0,
+         "z": -6
+      }
+   ]
+},
+ {
+   "dataName": "EchelonRightWall",
+   "disable": false,
+   "AICombatBaseWeight": 0.5,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": true,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 3,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": -0.5
+      },
+      {
+         "x": 1,
+         "y": -1,
+         "z": -0.5
+      }
+   ]
+},
+ {
+   "dataName": "EchelonLeftWall",
+   "disable": false,
+   "AICombatBaseWeight": 0.5,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": true,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 3,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": -1,
+         "z": -0.5
+      }
+   ]
+},
+ {
+   "dataName": "Chevron",
+   "disable": false,
+   "AICombatBaseWeight": 0.25,
+   "AIMaximumAllowedShips": 9,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": false,
+   "useZoffset": false,
+   "resetIdx": 1,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -0.5
+      }
+   ]
+},
+ {
+   "dataName": "TwoChevrons",
+   "disable": false,
+   "AICombatBaseWeight": 0.5,
+   "AIMaximumAllowedShips": 18,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 2,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": -0.5
+      }
+   ]
+},
+ {
+   "dataName": "ThreeChevrons",
+   "disable": false,
+   "AICombatBaseWeight": 0.5,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 3,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": -0.5
+      },
+      {
+         "x": 1,
+         "y": -1,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": -1,
+         "z": -0.5
+      }
+   ]
+},
+ {
+   "dataName": "Arrow",
+   "disable": false,
+   "AICombatBaseWeight": 0.5,
+   "AIMaximumAllowedShips": 27,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": false,
+   "useZoffset": false,
+   "resetIdx": 1,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -0.5
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": -0.5
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": -0.5
+      }
+   ]
+},
+ {
+   "dataName": "Line",
+   "disable": false,
+   "AICombatBaseWeight": 0.75,
+   "AIMaximumAllowedShips": 9,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 1,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      }
+   ]
+},
+ {
+   "dataName": "TwoLines",
+   "disable": false,
+   "AICombatBaseWeight": 0.75,
+   "AIMaximumAllowedShips": 18,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 2,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": 0
+      }
+   ]
+},
+ {
+   "dataName": "ThreeLines",
+   "disable": false,
+   "AICombatBaseWeight": 0.75,
+   "AIMaximumAllowedShips": 27,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 3,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": -1,
+         "z": 0
+      }
+   ]
+},
+ {
+   "dataName": "Wall",
+   "disable": false,
+   "AICombatBaseWeight": 0.75,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 5,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 2,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": -2,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 2,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": -2,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 2,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": -2,
+         "z": 0
+      }
+   ]
+},
+ {
+   "dataName": "Wedge",
+   "disable": false,
+   "AICombatBaseWeight": 0.75,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": true,
+   "Zoffset": 0,
+   "resetIdx": 4,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": -1
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": -1
+      },
+      {
+         "x": 1,
+         "y": -1,
+         "z": -1
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": -1
+      },
+      {
+         "x": -1,
+         "y": -1,
+         "z": -1
+      }
+   ]
+},
+ {
+   "dataName": "DoubleWall",
+   "disable": true,
+   "AICombatBaseWeight": 0.75,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": false,
+   "clampYpos": true,
+   "useZoffset": true,
+   "Zoffset": 0,
+   "resetIdx": 2,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": -1
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": -1
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": -1
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": -1
+      },
+      {
+         "x": 1,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": -1,
+         "z": -1
+      },
+      {
+         "x": -1,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": -1,
+         "z": -1
+      }
+   ]
+},
+ {
+   "dataName": "Column",
+   "disable": false,
+   "AICombatBaseWeight": 0,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": true,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 1,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1.5
+      }
+   ]
+},
+ {
+   "dataName": "TwoColumn",
+   "disable": false,
+   "AICombatBaseWeight": 0,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": true,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 2,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -1.5
+      }
+   ]
+},
+ {
+   "dataName": "ThreeColumn",
+   "disable": false,
+   "AICombatBaseWeight": 0,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": true,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 3,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -1.5
+      }
+   ]
+},
+ {
+   "dataName": "FourColumn",
+   "disable": false,
+   "AICombatBaseWeight": 0,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": true,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 4,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": -1.5
+      }
+   ]
+},
+ {
+   "dataName": "FiveColumn",
+   "disable": false,
+   "AICombatBaseWeight": 0.5,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": true,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 5,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -2,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 2,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": -2,
+         "y": 0,
+         "z": -1.5
+      }
+   ]
+},
+ {
+   "dataName": "BoxThree",
+   "disable": false,
+   "AICombatBaseWeight": 0.5,
+   "AIMaximumAllowedShips": -1,
+   "patternShift": false,
+   "clampXpos": true,
+   "clampYpos": true,
+   "useZoffset": false,
+   "resetIdx": 9,
+   "pos": [
+      {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": 1,
+         "y": -1,
+         "z": 0
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": 0
+      },
+      {
+         "x": 0,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 1,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": -1,
+         "y": 0,
+         "z": -1.5
+      },
+      {
+         "x": 0,
+         "y": 1,
+         "z": -1.5
+      },
+      {
+         "x": 0,
+         "y": -1,
+         "z": -1.5
+      },
+      {
+         "x": 1,
+         "y": 1,
+         "z": -1.5
+      },
+      {
+         "x": -1,
+         "y": -1,
+         "z": -1.5
+      },
+      {
+         "x": 1,
+         "y": -1,
+         "z": -1.5
+      },
+      {
+         "x": -1,
+         "y": 1,
+         "z": -1.5
+      }
+   ]
+}
+]

@@ -1,0 +1,6319 @@
+[
+ {
+   "dataName": "Effect_DetectAbductions",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAlienActivity"
+   ]
+},
+ {
+   "dataName": "Effect_DetectEnthralls",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAlienActivity"
+   ]
+},
+ {
+   "dataName": "Effect_DetectAllOperations",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAlienActivity"
+   ]
+},
+ {
+   "dataName": "Effect_DetectAlienMovements",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAlienActivity"
+   ]
+},
+ {
+   "dataName": "Effect_CanCaptureHydra",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "CanCaptureHydra"
+   ]
+},
+ {
+   "dataName": "Effect_AlienRelationsEstablished",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "AlienRelationsEstablished"
+   ]
+},
+ {
+   "dataName": "Effect_CooperateTransferTerritorytoAliens",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "CanTransferTerritoryToAliens"
+   ]
+},
+ {
+   "dataName": "Effect_AppeaseTransferTerritoryToAliens",
+   "operation": "SetToFixedValue",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "CanTransferTerritoryToAliens"
+   ]
+},
+ {
+   "dataName": "Effect_SubmitTransferTerritoryToAliens",
+   "operation": "SetToFixedValue",
+   "value": 6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "CanTransferTerritoryToAliens"
+   ]
+},
+ {
+   "dataName": "Effect_Skywatch",
+   "operation": "IncreaseToValue",
+   "value": 10,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAlienSpaceAssetsRange"
+   ]
+},
+ {
+   "dataName": "Effect_DeepSkywatch",
+   "operation": "IncreaseToValue",
+   "value": 60,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAlienSpaceAssetsRange"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreVenus",
+   "operation": "DecreaseToValue",
+   "value": 0.65,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "InnerExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreInnerPlanets",
+   "operation": "DecreaseToValue",
+   "value": 0.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "InnerExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreLuna",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "ExploreLuna"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreMars",
+   "operation": "IncreaseToValue",
+   "value": 2,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "OuterExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreEarthLagrangePoints",
+   "operation": "IncreaseToValue",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "ExploreEarthLagrangePoints"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreAsteroids",
+   "operation": "IncreaseToValue",
+   "value": 4.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "OuterExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreJupiter",
+   "operation": "IncreaseToValue",
+   "value": 6,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "OuterExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreSaturn",
+   "operation": "IncreaseToValue",
+   "value": 12,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "OuterExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreOuterPlanets",
+   "operation": "IncreaseToValue",
+   "value": 31,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "OuterExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_ExploreKuiperBelt",
+   "operation": "IncreaseToValue",
+   "value": 60,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "OuterExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_TechProbeSpeed",
+   "instantEffect": "DummyInstantEffect",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CanFoundTier1Station",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "CanFoundTier1Station"
+   ]
+},
+ {
+   "dataName": "Effect_CanFoundTier2Station",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "CanFoundTier2Station"
+   ]
+},
+ {
+   "dataName": "Effect_CanFoundTier3Station",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "CanFoundTier3Station"
+   ]
+},
+ {
+   "dataName": "Effect_CanFoundTier1Base",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "CanFoundTier1Base"
+   ]
+},
+ {
+   "dataName": "Effect_CanFoundTier2Base",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "CanFoundTier2Base"
+   ]
+},
+ {
+   "dataName": "Effect_CanFoundTier3Base",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "CanFoundTier3Base"
+   ]
+},
+ {
+   "dataName": "Effect_CanFoundAutomatedT1Station",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "CanFoundAutomatedT1Station"
+   ]
+},
+ {
+   "dataName": "Effect_CanFoundAutomatedT1Base",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "CanFoundAutomatedT1Base"
+   ]
+},
+ {
+   "dataName": "Effect_CanAmassAntimatter",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "CanAmassAntimatter"
+   ]
+},
+ {
+   "dataName": "Effect_CanAmassExotics",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "CanAmassExotics"
+   ]
+},
+ {
+   "dataName": "Effect_GlobalListeningNetwork",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAliensOnEarth"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceTugs",
+   "operation": "Multiplicative",
+   "value": 0.9,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "GenericModuleTransferTime"
+   ]
+},
+ {
+   "dataName": "Effect_SolarSteamers",
+   "operation": "Multiplicative",
+   "value": 0.75,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "GenericTransfer_OffDate_PCT"
+   ]
+},
+ {
+   "dataName": "Effect_NuclearFreighters",
+   "operation": "Multiplicative",
+   "value": 0.85,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "GenericModuleTransferTime"
+   ]
+},
+ {
+   "dataName": "Effect_FusionFreighters",
+   "operation": "Multiplicative",
+   "value": 0.6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "GenericModuleTransferTime"
+   ]
+},
+ {
+   "dataName": "Effect_FastProbes",
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "ProbeTransferTime"
+   ]
+},
+ {
+   "dataName": "Effect_IncreaseCouncilSize",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil",
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "CouncilSize"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceMarketEfficiency1",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ResourceMarketSales"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceMarketEfficiency2",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ResourceMarketSales"
+   ]
+},
+ {
+   "dataName": "Effect_AdvancedAircraft",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "AllFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "AdvancedAircraft"
+   ]
+},
+ {
+   "dataName": "Effect_IncreaseMaxAvailableOrgs5",
+   "operation": "Additive",
+   "value": 5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil",
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "MaxAvailableOrgs"
+   ]
+},
+ {
+   "dataName": "Effect_IncreaseMaxArmyTechLevel",
+   "instantEffect": "NationMaxMiltechChange",
+   "value": 0.5,
+   "effectTarget": "AllNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_AllowSpaceDefensesConstruction",
+   "instantEffect": "NationSetCanBuildSpaceDefenses",
+   "effectTarget": "AllNations",
+   "effectDuration": "instant",
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ]
+},
+ {
+   "dataName": "Effect_AllowBuildSTOFighters",
+   "instantEffect": "NationSetCanBuildSTOFighters",
+   "effectTarget": "AllNations",
+   "effectDuration": "instant",
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ]
+},
+ {
+   "dataName": "Effect_AllowDecontaminateRegion",
+   "instantEffect": "NationSetCanDecontaminateRegion",
+   "effectTarget": "AllNations",
+   "effectDuration": "instant",
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceScan",
+   "instantEffect": "SpaceScan",
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorGlobalPropaganda",
+   "instantEffect": "Propaganda",
+   "value": 15,
+   "instantRnd": 0.1,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalPropaganda",
+   "instantEffect": "Propaganda",
+   "value": 10,
+   "instantRnd": 0.1,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalPropagandaForSecondary10",
+   "instantEffect": "Propaganda",
+   "value": 10,
+   "instantRnd": 0.1,
+   "effectTarget": "AllExtantNations",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorGlobalPropaganda",
+   "instantEffect": "Propaganda",
+   "value": 5,
+   "instantRnd": 0.05,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativeGlobalPropaganda5",
+   "instantEffect": "Propaganda",
+   "value": -5,
+   "instantRnd": 0.05,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativeGlobalPropaganda10",
+   "instantEffect": "Propaganda",
+   "value": -10,
+   "instantRnd": 0.05,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativeGlobalPropaganda25",
+   "instantEffect": "Propaganda",
+   "value": -25,
+   "instantRnd": 0.1,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativeGlobalPropaganda_Secondary50",
+   "instantEffect": "Propaganda",
+   "value": -50,
+   "instantRnd": 0.1,
+   "effectTarget": "AllExtantNations",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativeGlobalPropaganda_Secondary75",
+   "instantEffect": "Propaganda",
+   "value": -75,
+   "instantRnd": 0,
+   "effectTarget": "AllExtantNations",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NationPropaganda",
+   "instantEffect": "Propaganda",
+   "value": 10,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorNationPropaganda",
+   "instantEffect": "Propaganda",
+   "value": 25,
+   "instantRnd": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativeNationPropaganda",
+   "instantEffect": "Propaganda",
+   "value": -10,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativeNationPropaganda25",
+   "instantEffect": "Propaganda",
+   "value": -25,
+   "instantRnd": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativeNationPropaganda5_PerCP",
+   "instantEffect": "Propaganda_PerOwnedCP",
+   "value": -5,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativeNationPropaganda10_PerCP",
+   "instantEffect": "Propaganda_PerOwnedCP",
+   "value": -10,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinusculeSingleRegionDamage",
+   "instantEffect": "DamageRegions",
+   "value": 0.01,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorSingleRegionDamage",
+   "instantEffect": "DamageRegions",
+   "value": 0.05,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorSingleRegionDamage",
+   "instantEffect": "DamageRegions",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MassiveSingleRegionDamage",
+   "instantEffect": "DamageRegions",
+   "value": 0.25,
+   "instantRnd": 0.25,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_TotalSingleRegionDamage",
+   "instantEffect": "DamageRegions",
+   "value": 0.75,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMinusculeSingleRegionDamage",
+   "instantEffect": "DamageRegions",
+   "value": 0.01,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMinorSingleRegionDamage",
+   "instantEffect": "DamageRegions",
+   "value": 0.05,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMajorSingleRegionDamage",
+   "instantEffect": "DamageRegions",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMassiveSingleRegionDamage",
+   "instantEffect": "DamageRegions",
+   "value": 0.25,
+   "instantRnd": 0.25,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorRegionBoostDamage",
+   "instantEffect": "DamageRegionBoost",
+   "value": 0.35,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorRegionBoostDamage",
+   "instantEffect": "DamageRegionBoost",
+   "value": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NuclearDetonation025",
+   "instantEffect": "DamageRegions_Nuclear",
+   "value": 0.25,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NuclearDetonation05",
+   "instantEffect": "DamageRegions_Nuclear",
+   "value": 0.5,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryNuclearDetonation025",
+   "instantEffect": "DamageRegions_Nuclear",
+   "value": 0.25,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryNuclearDetonation05",
+   "instantEffect": "DamageRegions_Nuclear",
+   "value": 0.5,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LocalProsperity",
+   "instantEffect": "NationProsperity",
+   "value": 10,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorLocalProsperity",
+   "instantEffect": "NationProsperity",
+   "value": 20,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LocalProsperity50",
+   "instantEffect": "NationProsperity",
+   "value": 50,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LocalProsperity200",
+   "instantEffect": "NationProsperity",
+   "value": 200,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryProsperity1",
+   "instantEffect": "NationProsperity",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryProsperity2",
+   "instantEffect": "NationProsperity",
+   "value": 2,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryProsperity3",
+   "instantEffect": "NationProsperity",
+   "value": 3,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LocalRecession",
+   "instantEffect": "NationRecession",
+   "value": 10,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorLocalRecession",
+   "instantEffect": "NationRecession",
+   "value": 20,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LocalRecession50",
+   "instantEffect": "NationRecession",
+   "value": 50,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityWelfare10",
+   "instantEffect": "FreePriorityWelfare",
+   "value": 10,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityWelfare50",
+   "instantEffect": "FreePriorityWelfare",
+   "value": 50,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityWelfare200",
+   "instantEffect": "FreePriorityWelfare",
+   "value": 200,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryTargetFreePriorityWelfare200",
+   "instantEffect": "FreePriorityWelfare",
+   "value": 200,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityKnowledge10",
+   "instantEffect": "FreePriorityKnowledge",
+   "value": 10,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityKnowledge20",
+   "instantEffect": "FreePriorityKnowledge",
+   "value": 20,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityMilitary20",
+   "instantEffect": "FreePriorityMilitary",
+   "value": 20,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityMilitary200",
+   "instantEffect": "FreePriorityMilitary",
+   "value": 200,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryFreePriorityMilitary20",
+   "instantEffect": "FreePriorityMilitary",
+   "value": 20,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityBoost1",
+   "instantEffect": "FreePriorityBoost",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityBoost2",
+   "instantEffect": "FreePriorityBoost",
+   "value": 2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreePriorityFunding1",
+   "instantEffect": "FreePriorityFunding",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_XenoformingReduction",
+   "instantEffect": "XenoformingChange",
+   "value": -25,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_XenoformingReduction100",
+   "instantEffect": "XenoformingChange",
+   "value": -100,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_XenoformingIncrease25",
+   "instantEffect": "XenoformingChange",
+   "value": 25,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_XenoformingIncrease50",
+   "instantEffect": "XenoformingChange",
+   "value": 50,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_XenoformingIncrease75",
+   "instantEffect": "XenoformingChange",
+   "value": 75,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_XenoformingIncrease100",
+   "instantEffect": "XenoformingChange",
+   "value": 100,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorExposure",
+   "instantEffect": "Exposure",
+   "value": 0.25,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorExposure",
+   "instantEffect": "Exposure",
+   "value": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CouncilorExposure",
+   "instantEffect": "Exposure_SingleCouncilor",
+   "value": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryTargetNegativePropaganda_Faction10",
+   "instantEffect": "Propaganda_Faction",
+   "value": -10,
+   "instantRnd": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryTargetNegativePropaganda_Faction25",
+   "instantEffect": "Propaganda_Faction",
+   "value": -25,
+   "instantRnd": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryTargetPropaganda_Faction10",
+   "instantEffect": "Propaganda_Faction",
+   "value": 10,
+   "instantRnd": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryTargetPropaganda_Faction25",
+   "instantEffect": "Propaganda_Faction",
+   "value": 25,
+   "instantRnd": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryTargetPropaganda",
+   "instantEffect": "Propaganda",
+   "value": 25,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryTargetNegativePropaganda10",
+   "instantEffect": "Propaganda",
+   "value": -10,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryTargetPropagandaGlobal10",
+   "instantEffect": "Propaganda",
+   "value": 10,
+   "instantRnd": 0.05,
+   "effectTarget": "AllExtantNations",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryTargetRegionPropaganda15",
+   "instantEffect": "Propaganda_Region",
+   "value": 15,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SmallDemocracyLoss",
+   "instantEffect": "NationDemocracyChange",
+   "value": -0.01,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DemocracyLoss02",
+   "instantEffect": "NationDemocracyChange",
+   "value": -0.2,
+   "instantRnd": 0.01,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DemocracyLoss05",
+   "instantEffect": "NationDemocracyChange",
+   "value": -0.5,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DemocracyLoss1",
+   "instantEffect": "NationDemocracyChange",
+   "value": -1,
+   "instantRnd": 0.25,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DemocracyLoss5",
+   "instantEffect": "NationDemocracyChange",
+   "value": -5,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DemocracyLoss7",
+   "instantEffect": "NationDemocracyChange",
+   "value": -7,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DemocracyLossSecondary1",
+   "instantEffect": "NationDemocracyChange",
+   "value": -1,
+   "instantRnd": 0.25,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SmallDemocracyGain",
+   "instantEffect": "NationDemocracyChange",
+   "value": 0.25,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMiltechLoss",
+   "instantEffect": "NationMiltechChange",
+   "value": -0.1,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMiltechLoss02",
+   "instantEffect": "NationMiltechChange",
+   "value": -0.2,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MiltechLoss005",
+   "instantEffect": "NationMiltechChange",
+   "value": -0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MiltechLoss01",
+   "instantEffect": "NationMiltechChange",
+   "value": -0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MiltechLoss02",
+   "instantEffect": "NationMiltechChange",
+   "value": -0.2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MiltechGain005",
+   "instantEffect": "NationMiltechChange",
+   "value": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MiltechGain01",
+   "instantEffect": "NationMiltechChange",
+   "value": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MiltechGain02",
+   "instantEffect": "NationMiltechChange",
+   "value": 0.2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MiltechGain03",
+   "instantEffect": "NationMiltechChange",
+   "value": 0.3,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MassiveCohesionLoss",
+   "instantEffect": "NationCohesionChange_PopScaled",
+   "value": -8,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorCohesionGain",
+   "instantEffect": "NationCohesionChange_PopScaled",
+   "value": 2,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorCohesionLoss",
+   "instantEffect": "NationCohesionChange_PopScaled",
+   "value": -2,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorCohesionGain",
+   "instantEffect": "NationCohesionChange_PopScaled",
+   "value": 1,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorCohesionLoss",
+   "instantEffect": "NationCohesionChange_PopScaled",
+   "value": -1,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryCohesionGain",
+   "instantEffect": "NationCohesionChange_PopScaled",
+   "value": 1,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryCohesionLoss",
+   "instantEffect": "NationCohesionChange_PopScaled",
+   "value": -1,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalCohesionGain",
+   "instantEffect": "NationCohesionChange",
+   "value": 1,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorGlobalCohesionGain",
+   "instantEffect": "NationCohesionChange",
+   "value": 0.5,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalCohesionLoss",
+   "instantEffect": "NationCohesionChange",
+   "value": -1,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorGlobalCohesionLoss",
+   "instantEffect": "NationCohesionChange",
+   "value": -2,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_TotalGlobalCohesionLoss",
+   "instantEffect": "NationCohesionChange",
+   "value": -6,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorCohesionOutward",
+   "instantEffect": "NationCohesionChange_ToExtreme_PopScaled",
+   "value": 2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorCohesionOutward",
+   "instantEffect": "NationCohesionChange_ToExtreme_PopScaled",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorGlobalCohesionOutward",
+   "instantEffect": "NationCohesionChange_ToExtreme",
+   "value": 2,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorGlobalCohesionOutward",
+   "instantEffect": "NationCohesionChange_ToExtreme",
+   "value": 1,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MaximumUnrestGain",
+   "instantEffect": "NationUnrestChange",
+   "value": 10,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MassiveUnrestGain",
+   "instantEffect": "NationUnrestChange",
+   "value": 6,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorUnrestGain",
+   "instantEffect": "NationUnrestChange",
+   "value": 3,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorUnrestLoss",
+   "instantEffect": "NationUnrestChange",
+   "value": -3,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorUnrestGain",
+   "instantEffect": "NationUnrestChange",
+   "value": 1,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorUnrestLoss",
+   "instantEffect": "NationUnrestChange",
+   "value": -1,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorInequalityGain",
+   "instantEffect": "NationInequalityChange_PopScaled",
+   "value": 2.5,
+   "instantRnd": 0.25,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ModerateInequalityGain",
+   "instantEffect": "NationInequalityChange_PopScaled",
+   "value": 1,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorInequalityGain",
+   "instantEffect": "NationInequalityChange_PopScaled",
+   "value": 0.3,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorInequalityLoss",
+   "instantEffect": "NationInequalityChange_PopScaled",
+   "value": -0.3,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorUnrestGain_ByFaction",
+   "instantEffect": "NationUnrestChange_FactionCredit",
+   "value": 3,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorUnrestLoss_ByFaction",
+   "instantEffect": "NationUnrestChange_FactionCredit",
+   "value": -3,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorUnrestGain_ByFaction",
+   "instantEffect": "NationUnrestChange_FactionCredit",
+   "value": 1,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MinorUnrestLoss_ByFaction",
+   "instantEffect": "NationUnrestChange_FactionCredit",
+   "value": -1,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMassiveUnrestGain_ByFaction",
+   "instantEffect": "NationUnrestChange_FactionCredit",
+   "value": 6,
+   "instantRnd": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMajorUnrestGain_ByFaction",
+   "instantEffect": "NationUnrestChange_FactionCredit",
+   "value": 3,
+   "instantRnd": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMajorUnrestLoss_ByFaction",
+   "instantEffect": "NationUnrestChange_FactionCredit",
+   "value": -3,
+   "instantRnd": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMinorUnrestGain_ByFaction",
+   "instantEffect": "NationUnrestChange_FactionCredit",
+   "value": 1,
+   "instantRnd": 0.02,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMinorUnrestLoss_ByFaction",
+   "instantEffect": "NationUnrestChange_FactionCredit",
+   "value": -1,
+   "instantRnd": 0.02,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_EducationLoss",
+   "instantEffect": "NationEducationChange_PopScaled",
+   "value": -1,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_EducationGain01",
+   "instantEffect": "NationEducationChange",
+   "value": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GDPGain01",
+   "instantEffect": "NationGDPPctChange",
+   "value": 0.01,
+   "instantRnd": 0.01,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GDPGain02",
+   "instantEffect": "NationGDPPctChange",
+   "value": 0.02,
+   "instantRnd": 0.01,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GDPLoss02",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.02,
+   "instantRnd": 0.01,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GDPLoss04",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.04,
+   "instantRnd": 0.01,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GDPLoss20",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.2,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GDPLoss50",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.5,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalGDPLoss1",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.01,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalGDPLoss2",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.02,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalGDPLoss3",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.03,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalGDPLoss10",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.1,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalGDPLoss50",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.5,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalGDPLossByCPTrigger",
+   "instantEffect": "CPVariableNationGDPPctChange",
+   "value": -0.01,
+   "instantRnd": 0.005,
+   "effectTarget": "AllExtantNations",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryGDPLoss",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.01,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryGDPLoss02",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.02,
+   "instantRnd": 0.01,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryGDPLoss04",
+   "instantEffect": "NationGDPPctChange",
+   "value": -0.04,
+   "instantRnd": 0.01,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryInequalityIncrease",
+   "instantEffect": "NationInequalityChange",
+   "value": 0.3,
+   "instantRnd": 0.02,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryGDPGain",
+   "instantEffect": "NationGDPPctChange",
+   "value": 0.005,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryMiltechGain",
+   "instantEffect": "NationMiltechChange",
+   "value": 0.1,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NukeAdd1",
+   "instantEffect": "NationNukesChange",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NukeRemove1",
+   "instantEffect": "NationNukesChange",
+   "value": -1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NukeRemoveSecondary1",
+   "instantEffect": "NationNukesChange",
+   "value": -1,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LooseNukeAdd1",
+   "instantEffect": "GlobalLooseNukesChange",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LooseNukeAdd3",
+   "instantEffect": "GlobalLooseNukesChange",
+   "value": 3,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LooseNukeRemove1",
+   "instantEffect": "GlobalLooseNukesChange",
+   "value": -1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ShipNukeAdd1",
+   "instantEffect": "ShipNuclearTorpedoMagazineChange",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ShipNukeRemove1",
+   "instantEffect": "ShipNuclearTorpedoMagazineChange",
+   "value": -1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_UpgradeRelations",
+   "instantEffect": "UpgradeRelations",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DowngradeRelations",
+   "instantEffect": "DowngradeRelations",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DeclareLimitedWar",
+   "instantEffect": "DeclareLimitedWar",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DeclareFullWar",
+   "instantEffect": "DeclareFullWar",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RevealRegionAlienActivities",
+   "instantEffect": "RegionRevealAlienActivities",
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_Atrocity",
+   "instantEffect": "Atrocity",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_EconomyPriorityBonus02",
+   "operation": "Additive",
+   "value": 0.02,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "EconomyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_EconomyPriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "EconomyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_EconomyPriorityBonus1",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "EconomyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_WelfarePriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "WelfarePriority"
+   ]
+},
+ {
+   "dataName": "Effect_KnowledgePriorityBonus02",
+   "operation": "Additive",
+   "value": 0.02,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "KnowledgePriority"
+   ]
+},
+ {
+   "dataName": "Effect_KnowledgePriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "KnowledgePriority"
+   ]
+},
+ {
+   "dataName": "Effect_KnowledgePriorityBonus1",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "KnowledgePriority"
+   ]
+},
+ {
+   "dataName": "Effect_MilitaryPriorityBonus02",
+   "operation": "Additive",
+   "value": 0.02,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryPriority"
+   ]
+},
+ {
+   "dataName": "Effect_MilitaryPriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BuildArmyPriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildArmyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_UpgradeArmyPriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "UpgradeArmyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_LaunchFacilitiesPriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_LaunchFacilitiesPriorityBonus1",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_LaunchFacilitiesPriorityBonus15",
+   "operation": "Additive",
+   "value": 0.15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_LaunchFacilitiesPriorityBonus2",
+   "operation": "Additive",
+   "value": 0.2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_LaunchFacilitiesPriorityBonus25",
+   "operation": "Additive",
+   "value": 0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceflightProgramPriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceflightPriority"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceflightProgramPriorityBonus50",
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceflightPriority"
+   ]
+},
+ {
+   "dataName": "Effect_MissionControlPriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MissionControlPriority"
+   ]
+},
+ {
+   "dataName": "Effect_MissionControlPriorityBonus25",
+   "operation": "Additive",
+   "value": 0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MissionControlPriority"
+   ]
+},
+ {
+   "dataName": "Effect_UnityPriorityBonus05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "UnityPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BuildSpaceDefensesPriority05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildSpaceDefensesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BuildSpaceDefensesPriority10",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildSpaceDefensesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BuildSpaceDefensesPriority95",
+   "operation": "Additive",
+   "value": 0.95,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "BuildSpaceDefensesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_OppressionPriority05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "OppressionPriority"
+   ]
+},
+ {
+   "dataName": "Effect_OppressionPriority10",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "OppressionPriority"
+   ]
+},
+ {
+   "dataName": "Effect_GovernmentPriority05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "GovernmentPriority"
+   ]
+},
+ {
+   "dataName": "Effect_GovernmentPriority10",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "GovernmentPriority"
+   ]
+},
+ {
+   "dataName": "Effect_EnvironmentPriority05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "EnvironmentPriority"
+   ]
+},
+ {
+   "dataName": "Effect_EnvironmentPriority10",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "EnvironmentPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BuildSTOSquadronPriority05",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildSTOSquadronPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BuildSTOSquadronPriority10",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildSTOSquadronPriority"
+   ]
+},
+ {
+   "dataName": "Effect_DirectInvestMoneyReduction15",
+   "operation": "Additive",
+   "value": 0.15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DirectInvestGlobalDiscount_Money_PCT"
+   ]
+},
+ {
+   "dataName": "Effect_DirectInvestInfluenceReduction25",
+   "operation": "Additive",
+   "value": 0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DirectInvestGlobalDiscount_Influence_PCT"
+   ]
+},
+ {
+   "dataName": "Effect_ArcticMethaneRelease",
+   "instantEffect": "GlobalCH4Change_ppm",
+   "value": 0.05,
+   "instantRnd": 0.2,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CO2Fires",
+   "instantEffect": "GlobalCO2Change_ppm",
+   "value": 0.0002,
+   "instantRnd": 0.2,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_AerosolsFires",
+   "instantEffect": "GlobalStratosphericAerosolsChange_ppm",
+   "value": 0.00005,
+   "instantRnd": 0.2,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_AerosolsVolcano",
+   "instantEffect": "GlobalStratosphericAerosolsChange_ppm",
+   "value": 0.01,
+   "instantRnd": 0.2,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_AerosolsMajorVolcano",
+   "instantEffect": "GlobalStratosphericAerosolsChange_ppm",
+   "value": 0.02,
+   "instantRnd": 0.2,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_AerosolsColossalVolcano",
+   "instantEffect": "GlobalStratosphericAerosolsChange_ppm",
+   "value": 0.05,
+   "instantRnd": 0.2,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SpaceMiningBonus5",
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceMiningBonus"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceMiningBonus10",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceMiningBonus"
+   ]
+},
+ {
+   "dataName": "Effect_SolidFuelRockets",
+   "operation": "IncreaseToValue",
+   "value": 2.6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "GenericTransferEV_kps"
+   ]
+},
+ {
+   "dataName": "Effect_LiquidFuelRockets",
+   "operation": "IncreaseToValue",
+   "value": 3.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "GenericTransferEV_kps"
+   ]
+},
+ {
+   "dataName": "Effect_CryogenicFuelRockets",
+   "operation": "IncreaseToValue",
+   "value": 4.44,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "GenericTransferEV_kps"
+   ]
+},
+ {
+   "dataName": "Effect_ImprovedRockets",
+   "operation": "IncreaseToValue",
+   "value": 5.6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "GenericTransferEV_kps"
+   ]
+},
+ {
+   "dataName": "Effect_NuclearRockets",
+   "operation": "IncreaseToValue",
+   "value": 10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "GenericTransferEV_kps"
+   ]
+},
+ {
+   "dataName": "Effect_AdvancedRockets",
+   "operation": "IncreaseToValue",
+   "value": 21.6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "contexts": [
+      "GenericTransferEV_kps"
+   ]
+},
+ {
+   "dataName": "Effect_ManyAliensOnEarth",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "AlienFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "ManyAliensOnEarth"
+   ]
+},
+ {
+   "dataName": "Effect_PherocyteResistance",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "PherocyteResistance"
+   ]
+},
+ {
+   "dataName": "Effect_MinorFloodingRiskIncrease",
+   "instantEffect": "NationGDPPctChange",
+   "operation": "Multiplicative",
+   "value": -0.01,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ModerateFloodingRiskIncrease",
+   "instantEffect": "NationGDPPctChange",
+   "operation": "Multiplicative",
+   "value": -0.05,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MajorFloodingRiskIncrease",
+   "instantEffect": "NationGDPPctChange",
+   "operation": "Multiplicative",
+   "value": -0.15,
+   "effectTarget": "AllExtantNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ArcticOceanBlue",
+   "instantEffect": "GlobalSeasonalOceansToPermanent",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainOpenControlPoint",
+   "instantEffect": "GainOpenControlPoint",
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoseUndefendedControlPoint",
+   "instantEffect": "LoseUndefendedControlPoint",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoseUndefendedControlPoint_Plus",
+   "instantEffect": "LoseUndefendedControlPoint_Plus",
+   "value": 12,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainAnyControlPoint",
+   "instantEffect": "GainAnyControlPoint",
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainAnyControlPoint_Plus",
+   "instantEffect": "GainAnyControlPoint_Plus",
+   "value": 12,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CrackdownArmyControlPoint",
+   "instantEffect": "CrackdownArmyControlPoint",
+   "value": 12,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMaxMissionSliderSteps",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "MaxMissionSliderSteps"
+   ]
+},
+ {
+   "dataName": "Effect_ShipConstructionTimeReduction5",
+   "operation": "Multiplicative",
+   "value": 0.95,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipConstructionTime"
+   ]
+},
+ {
+   "dataName": "Effect_ShipConstructionTimeReduction10",
+   "operation": "Multiplicative",
+   "value": 0.9,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipConstructionTime"
+   ]
+},
+ {
+   "dataName": "Effect_ShipConstructionTimeReduction",
+   "operation": "Multiplicative",
+   "value": 0.8,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipConstructionTime"
+   ]
+},
+ {
+   "dataName": "Effect_FactionSoftPower",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_GainControlPoint"
+   ]
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyMoneyIncome2",
+   "instantEffect": "GainMoneyIncome",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyMoneyIncome10",
+   "instantEffect": "GainMoneyIncome",
+   "value": 10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyMoneyIncome200",
+   "instantEffect": "GainMoneyIncome",
+   "value": 200,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMonthlyMoneyIncome5",
+   "instantEffect": "GainMoneyIncome",
+   "value": -5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMonthlyMoneyIncome10",
+   "instantEffect": "GainMoneyIncome",
+   "value": -10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMonthlyMoneyIncome25",
+   "instantEffect": "GainMoneyIncome",
+   "value": -25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMonthlyMoneyIncome50",
+   "instantEffect": "GainMoneyIncome",
+   "value": -50,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMonthlyMoneyIncome100",
+   "instantEffect": "GainMoneyIncome",
+   "value": -100,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMonthlyMoneyIncome200",
+   "instantEffect": "GainMoneyIncome",
+   "value": -200,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyInfluenceIncome1",
+   "instantEffect": "GainInfluenceIncome",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyInfluenceIncome3",
+   "instantEffect": "GainInfluenceIncome",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyBoostIncome025",
+   "instantEffect": "GainBoostIncome",
+   "value": 0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyOpsIncome5",
+   "instantEffect": "GainOpsIncome",
+   "value": 5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyOpsIncome3",
+   "instantEffect": "GainOpsIncome",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyOpsIncome05",
+   "instantEffect": "GainOpsIncome",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyResearchIncome15",
+   "instantEffect": "GainResearchIncome",
+   "value": 15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyNoblesIncome10",
+   "instantEffect": "GainNoblesIncome",
+   "value": 10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMonthlyNoblesIncome10",
+   "instantEffect": "GainNoblesIncome",
+   "value": -10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RapidResponseTeams",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Terrorize_Def"
+   ]
+},
+ {
+   "dataName": "Effect_RapidDiplomacy",
+   "operation": "Multiplicative",
+   "value": 0.8,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BilateralRelationsCooldownMultiplier"
+   ]
+},
+ {
+   "dataName": "Effect_AlienDiplomacy",
+   "operation": "Multiplicative",
+   "value": 0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "BilateralRelationsCooldownMultiplier"
+   ]
+},
+ {
+   "dataName": "Effect_EnthrallElitesDefense",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_EnthrallElites_Def"
+   ]
+},
+ {
+   "dataName": "Effect_DestroyNationalSpaceAssets",
+   "instantEffect": "DamageNationalSpaceAssets",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DamageNationalSpaceAssets",
+   "instantEffect": "DamageNationalSpaceAssets",
+   "value": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DamageNationalSpaceAssetsSecondary025",
+   "instantEffect": "DamageNationalSpaceAssets",
+   "value": 0.25,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalFamine",
+   "instantEffect": "RegionPopulationPctChange_WealthMitigation",
+   "value": -0.33,
+   "instantRnd": 0.05,
+   "effectTarget": "AllRegions",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_WetBulb",
+   "instantEffect": "RegionPopulationPctChange_WealthMitigation",
+   "value": -0.005,
+   "instantRnd": 0.001,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MitigatedWetBulb",
+   "instantEffect": "RegionPopulationPctChange_WealthMitigation",
+   "value": -0.0025,
+   "instantRnd": 0.001,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_Apparatchiks",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Purge_Att"
+   ]
+},
+ {
+   "dataName": "Effect_IncreasePurgeAttack_10",
+   "operation": "Additive",
+   "value": 10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Purge_Att"
+   ]
+},
+ {
+   "dataName": "Effect_GainFactionSpaceOrg",
+   "instantEffect": "GainFactionSpaceOrg",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreeAbductions1",
+   "instantEffect": "RegionAbductionsChange",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreeAbductions2",
+   "instantEffect": "RegionAbductionsChange",
+   "value": 2,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreeAbductions4",
+   "instantEffect": "RegionAbductionsChange",
+   "value": 4,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreeAbductions6",
+   "instantEffect": "RegionAbductionsChange",
+   "value": 6,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_AtrocityMitigation50",
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "AtrocityMitigation"
+   ]
+},
+ {
+   "dataName": "Effect_HostileTakeoverDefense",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_HostileTakeover_Def"
+   ]
+},
+ {
+   "dataName": "Effect_HostileTakeoverAttack",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_HostileTakeover_Att"
+   ]
+},
+ {
+   "dataName": "Effect_FactionResearchEncryption",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_StealProject_Def",
+      "Mission_SabotageProject_Def"
+   ]
+},
+ {
+   "dataName": "Effect_AssassinationAttack",
+   "operation": "Additive",
+   "value": 4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Assassination_Att"
+   ]
+},
+ {
+   "dataName": "Effect_ControlAssetDefense",
+   "operation": "Additive",
+   "value": 4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_ControlAsset_Def"
+   ]
+},
+ {
+   "dataName": "Effect_GainControlPoint_Debuff2_12",
+   "operation": "Additive",
+   "value": -2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_GainControlPoint"
+   ]
+},
+ {
+   "dataName": "Effect_GainControlPoint_Debuff4_12",
+   "operation": "Additive",
+   "value": -4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_GainControlPoint"
+   ]
+},
+ {
+   "dataName": "Effect_ControlAssetDefense_Debuff4_12",
+   "operation": "Additive",
+   "value": -4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_ControlAsset_Def"
+   ]
+},
+ {
+   "dataName": "Effect_ControlAssetDefense_Debuff6_12",
+   "operation": "Additive",
+   "value": -6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_ControlAsset_Def"
+   ]
+},
+ {
+   "dataName": "Effect_AssassinationAttack_Debuff4_12",
+   "operation": "Additive",
+   "value": -4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_Assassination_Att"
+   ]
+},
+ {
+   "dataName": "Effect_AssassinationAttack_Debuff6_12",
+   "operation": "Additive",
+   "value": -6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_Assassination_Att"
+   ]
+},
+ {
+   "dataName": "Effect_TerrorizeDefense_Debuff4_12",
+   "operation": "Additive",
+   "value": -4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_Terrorize_Def"
+   ]
+},
+ {
+   "dataName": "Effect_TerrorizeDefense_Debuff6_12",
+   "operation": "Additive",
+   "value": -6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_Terrorize_Def"
+   ]
+},
+ {
+   "dataName": "Effect_EnthrallElitesDefense_Debuff2_12",
+   "operation": "Additive",
+   "value": -2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_EnthrallElites_Def"
+   ]
+},
+ {
+   "dataName": "Effect_EnthrallElitesDefense_Debuff4_12",
+   "operation": "Additive",
+   "value": -4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_EnthrallElites_Def"
+   ]
+},
+ {
+   "dataName": "Effect_StealSabotageProjectDefense_Debuff4_12",
+   "operation": "Additive",
+   "value": -4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_StealProject_Def",
+      "Mission_SabotageProject_Def"
+   ]
+},
+ {
+   "dataName": "Effect_StealSabotageProjectDefense_Debuff6_12",
+   "operation": "Additive",
+   "value": -6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_StealProject_Def",
+      "Mission_SabotageProject_Def"
+   ]
+},
+ {
+   "dataName": "Effect_PublicCampaign_Debuff6_12",
+   "operation": "Additive",
+   "value": -6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Mission_Propaganda_Att"
+   ]
+},
+ {
+   "dataName": "Effect_PrimaryOccupiesSecondary15",
+   "instantEffect": "PrimaryOccupiesSecondary",
+   "value": 0.15,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_PrimaryOccupiesSecondary25",
+   "instantEffect": "PrimaryOccupiesSecondary",
+   "value": 0.25,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryOccupiesPrimary15",
+   "instantEffect": "SecondaryOccupiesPrimary",
+   "value": 0.15,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryRegimeChangesPrimary",
+   "instantEffect": "SecondaryRegimeChangesPrimary",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryAnnexesPrimary",
+   "instantEffect": "SecondaryAnnexesPrimary",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SnapElection0",
+   "instantEffect": "RedistributeControlPointsByPopularity_Individual",
+   "value": 0,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SnapElection15",
+   "instantEffect": "RedistributeControlPointsByPopularity_Individual",
+   "value": 0.15,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_PopularityContestLegislature0",
+   "instantEffect": "ReassignControlPointOfTypeByPopularity",
+   "value": 0,
+   "strValue": "Legislature",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_PopularityContestLegislature25",
+   "instantEffect": "ReassignControlPointOfTypeByPopularity",
+   "value": 0.25,
+   "strValue": "Legislature",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RandomSecession",
+   "instantEffect": "RandomSecession",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SecondaryRandomSecession",
+   "instantEffect": "RandomSecession",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CoupNullFaction",
+   "instantEffect": "Coup",
+   "value": 0,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseProjectUnlockChance",
+   "operation": "Additive",
+   "value": 10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ProjectUnlockChance"
+   ]
+},
+ {
+   "dataName": "Effect_IncreaseUnrestAttack",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Unrest_Att"
+   ]
+},
+ {
+   "dataName": "Effect_StabilizeAttack",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Stabilize_Att"
+   ]
+},
+ {
+   "dataName": "Effect_PostRegimeChangeUnrestControl",
+   "operation": "Additive",
+   "value": -3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "PostRegimeChangeUnrestReduction"
+   ]
+},
+ {
+   "dataName": "Effect_PostRegimeLossUnrestIncrease",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "PostRegimeLossUnrestIncrease"
+   ]
+},
+ {
+   "dataName": "Effect_BreakawayChance",
+   "operation": "Multiplicative",
+   "value": 1.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BreakawayChance"
+   ]
+},
+ {
+   "dataName": "Effect_IncreaseInspireAttack",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Inspire_Att"
+   ]
+},
+ {
+   "dataName": "Effect_GlobalFissionTechIncrease",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "GlobalFissionTechLevel"
+   ]
+},
+ {
+   "dataName": "Effect_GlobalFusionTechIncrease",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "GlobalFusionTechLevel"
+   ]
+},
+ {
+   "dataName": "Effect_DestroyRandomModules1",
+   "instantEffect": "DestroyRandomModules",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyRandomModules_Marines1",
+   "instantEffect": "DestroyRandomModules_Marines",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyRandomModules_Marines2",
+   "instantEffect": "DestroyRandomModules_Marines",
+   "value": 2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyRandomModules_Power2",
+   "instantEffect": "DestroyRandomModules_Power",
+   "value": 2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyRandomModules_Power3",
+   "instantEffect": "DestroyRandomModules_Power",
+   "value": 3,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyRandomNumberOfModules1",
+   "instantEffect": "DestroyRandomNumberOfModules",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyRandomNumberOfModules2",
+   "instantEffect": "DestroyRandomNumberOfModules",
+   "value": 2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyRandomNumberOfModules3",
+   "instantEffect": "DestroyRandomNumberOfModules",
+   "value": 3,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyRandomNumberOfModules4",
+   "instantEffect": "DestroyRandomNumberOfModules",
+   "value": 4,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyHabSector",
+   "instantEffect": "DestroyHabSector",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyHab",
+   "instantEffect": "DestroyHab",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_HabDefectsToSecondary",
+   "instantEffect": "HabDefectsToSecondary",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FreeDailySpaceResources1",
+   "instantEffect": "FreeDaysSpaceResourceIncome",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoseDailySpaceResources1",
+   "instantEffect": "LoseDaysSpaceResourceIncome",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMineProduction25",
+   "instantEffect": "ModifyHabMiningResourceIncomes",
+   "value": 0.25,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMineProduction50",
+   "instantEffect": "ModifyHabMiningResourceIncomes",
+   "value": 0.5,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMineProduction25",
+   "instantEffect": "ModifyHabMiningResourceIncomes",
+   "value": -0.25,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMineProduction50",
+   "instantEffect": "ModifyHabMiningResourceIncomes",
+   "value": -0.5,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseMineProduction75",
+   "instantEffect": "ModifyHabMiningResourceIncomes",
+   "value": -0.75,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MiningPerformance_LuckyStrike",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "contexts": [
+      "MiningOutputPerformanceRecord"
+   ]
+},
+ {
+   "dataName": "Effect_MiningPerformance_DryHole",
+   "operation": "Additive",
+   "value": -1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "contexts": [
+      "MiningOutputPerformanceRecord"
+   ]
+},
+ {
+   "dataName": "Effect_IncreaseDebrisInOrbit1",
+   "instantEffect": "OrbitDestroyedAssetsChange",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseDebrisInOrbit3",
+   "instantEffect": "OrbitDestroyedAssetsChange",
+   "value": 3,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseDebrisInOrbit5",
+   "instantEffect": "OrbitDestroyedAssetsChange",
+   "value": 5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DecreaseDebrisInOrbit1",
+   "instantEffect": "OrbitDestroyedAssetsChange",
+   "value": -1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_KesslerSyndrome2",
+   "instantEffect": "LEODestroyedAssetsChange",
+   "value": 2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_KesslerSyndrome5",
+   "instantEffect": "LEODestroyedAssetsChange",
+   "value": 5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_KesslerSyndrome10",
+   "instantEffect": "LEODestroyedAssetsChange",
+   "value": 10,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LEOCleanup1",
+   "instantEffect": "LEODestroyedAssetsChange",
+   "value": -1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LEOCleanup3",
+   "instantEffect": "LEODestroyedAssetsChange",
+   "value": -3,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LEOCleanup6",
+   "instantEffect": "LEODestroyedAssetsChange",
+   "value": -6,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalSeaLevelRise_5cm",
+   "instantEffect": "GlobalSeaLevelChange_cm",
+   "value": 5,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalSeaLevelRise_10cm",
+   "instantEffect": "GlobalSeaLevelChange_cm",
+   "value": 10,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalSeaLevelRise_20cm",
+   "instantEffect": "GlobalSeaLevelChange_cm",
+   "value": 20,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalSeaLevelRise_50cm",
+   "instantEffect": "GlobalSeaLevelChange_cm",
+   "value": 50,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalSeaLevelRise_120cm",
+   "instantEffect": "GlobalSeaLevelChange_cm",
+   "value": 120,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ArmyNuclearHardening25",
+   "operation": "Multiplicative",
+   "value": 0.75,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil",
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "ArmyNuclearHardening"
+   ]
+},
+ {
+   "dataName": "Effect_ArmyNuclearHardening50",
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil",
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "ArmyNuclearHardening"
+   ]
+},
+ {
+   "dataName": "Effect_LifeExtension05",
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "HumanLifespan"
+   ]
+},
+ {
+   "dataName": "Effect_LifeExtension10",
+   "operation": "Additive",
+   "value": 10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "HumanLifespan"
+   ]
+},
+ {
+   "dataName": "Effect_SpawnMegafaunaArmy",
+   "instantEffect": "SpawnMegafaunaArmies",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SpawnMegafaunaArmyDamaged25",
+   "instantEffect": "SpawnMegafaunaArmyDamaged",
+   "value": 0.25,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MissionControlDisruption10_Global",
+   "operation": "Multiplicative",
+   "value": 0.9,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 3,
+   "contexts": [
+      "MissionControlDisruption_PCT"
+   ]
+},
+ {
+   "dataName": "Effect_MissionControlDisruption25",
+   "operation": "Multiplicative",
+   "value": 0.9,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 3,
+   "contexts": [
+      "MissionControlDisruption_PCT"
+   ]
+},
+ {
+   "dataName": "Effect_MissionControlDisruption50",
+   "operation": "Multiplicative",
+   "value": 0.8,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 3,
+   "contexts": [
+      "MissionControlDisruption_PCT"
+   ]
+},
+ {
+   "dataName": "Effect_MissionControlDisruption75",
+   "operation": "Multiplicative",
+   "value": 0.7,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 3,
+   "contexts": [
+      "MissionControlDisruption_PCT"
+   ]
+},
+ {
+   "dataName": "Effect_LaunchFacilitiesPriorityDisruption25_6",
+   "operation": "Multiplicative",
+   "value": 0.75,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 6,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_LaunchFacilitiesPriorityDisruption25_12",
+   "operation": "Multiplicative",
+   "value": 0.75,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_PropagandaStrengthMultiplier25",
+   "operation": "Multiplicative",
+   "value": 1.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "PublicCampaignStrength"
+   ]
+},
+ {
+   "dataName": "Effect_PropagandaStrengthMultiplier15",
+   "operation": "Multiplicative",
+   "value": 1.15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "PublicCampaignStrength"
+   ]
+},
+ {
+   "dataName": "Effect_AlienSpaceResourceShareMajor",
+   "instantEffect": "AlienSpaceResourceSharing",
+   "operation": "Multiplicative",
+   "value": 10,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "AlienFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_AlienSpaceResourceShareMinor",
+   "instantEffect": "AlienSpaceResourceSharing",
+   "operation": "Multiplicative",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "AlienFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ControlPointMaintenanceBonus160",
+   "operation": "Additive",
+   "value": -120,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil",
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_ControlPointMaintenanceBonus40",
+   "operation": "Additive",
+   "value": -40,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil",
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_ControlPointMaintenanceBonus20",
+   "operation": "Additive",
+   "value": -20,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_ControlPointMaintenanceBonus10",
+   "operation": "Additive",
+   "value": -10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_ControlPointMaintenanceBonus3",
+   "operation": "Additive",
+   "value": -5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_GainXP4",
+   "instantEffect": "CouncilorGainsXP",
+   "value": 4,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainXP10",
+   "instantEffect": "CouncilorGainsXP",
+   "value": 10,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainXP20",
+   "instantEffect": "CouncilorGainsXP",
+   "value": 20,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainXPSecondary20",
+   "instantEffect": "CouncilorGainsXP",
+   "value": 20,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainXP60",
+   "instantEffect": "CouncilorGainsXP",
+   "value": 60,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainXPSecondary60",
+   "instantEffect": "CouncilorGainsXP",
+   "value": 60,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitIndebted",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "Indebted",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitDelinquent",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "Delinquent",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitInflexible",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "Inflexible",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitAddict",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "Addict",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitIndulgent",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "Indulgent",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CouncilorDetained6",
+   "instantEffect": "CouncilorDetained",
+   "value": 6,
+   "instantRnd": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_SabotageFacilitiesDefense2",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_SabotageFacilities_Def"
+   ]
+},
+ {
+   "dataName": "Effect_SabotageFacilitiesOrHabModulesDefense1",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_SabotageHabModule_Def",
+      "Mission_SabotageFacilities_Def"
+   ]
+},
+ {
+   "dataName": "Effect_StandardLaserDefenses",
+   "operation": "IncreaseToValue",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "LaserDefenseType"
+   ]
+},
+ {
+   "dataName": "Effect_ArcLaserDefenses",
+   "operation": "IncreaseToValue",
+   "value": 2,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "LaserDefenseType"
+   ]
+},
+ {
+   "dataName": "Effect_PhaserDefenses",
+   "operation": "IncreaseToValue",
+   "value": 3,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "LaserDefenseType"
+   ]
+},
+ {
+   "dataName": "Effect_IRLaserDefenses",
+   "operation": "IncreaseToValue",
+   "value": 0.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "LaserDefenseFreq"
+   ]
+},
+ {
+   "dataName": "Effect_GreenLaserDefenses",
+   "operation": "IncreaseToValue",
+   "value": 0.2,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "LaserDefenseFreq"
+   ]
+},
+ {
+   "dataName": "Effect_UVLaserDefenses",
+   "operation": "IncreaseToValue",
+   "value": 0.3,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "LaserDefenseFreq"
+   ]
+},
+ {
+   "dataName": "Effect_ArmyHealingRate005",
+   "operation": "Additive",
+   "value": 0.005,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ArmyHealRate"
+   ]
+},
+ {
+   "dataName": "Effect_ArmyUrbanWarfare125",
+   "operation": "Additive",
+   "value": 0.125,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ArmyUrbanWarfare"
+   ]
+},
+ {
+   "dataName": "Effect_ArmyRuggedWarfare125",
+   "operation": "Additive",
+   "value": 0.125,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ArmyRuggedWarfare"
+   ]
+},
+ {
+   "dataName": "Effect_BonusDamageToXenoforming",
+   "operation": "Multiplicative",
+   "value": 1.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "XenoformingDestructionStrength"
+   ]
+},
+ {
+   "dataName": "Effect_ArmyDamageBonustoMegafauna",
+   "operation": "Multiplicative",
+   "value": 1.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ArmyDamageBonustoMegafauna"
+   ]
+},
+ {
+   "dataName": "Effect_ArmyDamageBonustoInvaderArmy",
+   "operation": "Multiplicative",
+   "value": 1.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ArmyDamageBonustoInvaderArmy"
+   ]
+},
+ {
+   "dataName": "Effect_ArmyDamageBonustoHumanArmy",
+   "operation": "Multiplicative",
+   "value": 1.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ArmyDamageBonustoHumanArmy"
+   ]
+},
+ {
+   "dataName": "Effect_ArmyDamageBonustoAllArmies",
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ArmyDamageBonustoAllArmies"
+   ]
+},
+ {
+   "dataName": "Effect_MegafaunaDamageMitigation",
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MegafaunaDamageMitigation"
+   ]
+},
+ {
+   "dataName": "Effect_MegafaunaDamageElimination",
+   "operation": "Multiplicative",
+   "value": 0,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MegafaunaDamageMitigation"
+   ]
+},
+ {
+   "dataName": "Effect_MegafaunaRepellent",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "MegafaunaRepellent"
+   ]
+},
+ {
+   "dataName": "Effect_CoupBonus3",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Coup_Att"
+   ]
+},
+ {
+   "dataName": "Effect_CrackdownBonus3",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Crackdown_Att"
+   ]
+},
+ {
+   "dataName": "Effect_CrackdownDefense3",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Crackdown_Def"
+   ]
+},
+ {
+   "dataName": "Effect_TotalHabMissionControlCost",
+   "operation": "Multiplicative",
+   "value": 0.85,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "HabMissionControlReduction"
+   ]
+},
+ {
+   "dataName": "Effect_TotalShipMissionControlCost",
+   "operation": "Multiplicative",
+   "value": 0.85,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipMissionControlReduction"
+   ]
+},
+ {
+   "dataName": "Effect_ImprovedSpaceCombatDamageControl5",
+   "operation": "Multiplicative",
+   "value": 1.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Combat_ShipRepairSpeed"
+   ]
+},
+ {
+   "dataName": "Effect_ImprovedSpaceCombatDamageControl25",
+   "operation": "Multiplicative",
+   "value": 1.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Combat_ShipRepairSpeed"
+   ]
+},
+ {
+   "dataName": "Effect_ImprovedSpaceCombatDamageControl",
+   "operation": "Multiplicative",
+   "value": 1.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Combat_ShipRepairSpeed"
+   ]
+},
+ {
+   "dataName": "Effect_ShipLaserDamage",
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipLaserDamage"
+   ]
+},
+ {
+   "dataName": "Effect_ShipMagDamage",
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipMagDamage"
+   ]
+},
+ {
+   "dataName": "Effect_ShipConvMissileDamage",
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipConvMissileDamage"
+   ]
+},
+ {
+   "dataName": "Effect_MiningWaterBonus",
+   "operation": "Multiplicative",
+   "value": 1.15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MiningWaterBonus"
+   ]
+},
+ {
+   "dataName": "Effect_MiningVolatilesBonus",
+   "operation": "Multiplicative",
+   "value": 1.15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MiningVolatilesBonus"
+   ]
+},
+ {
+   "dataName": "Effect_MiningMetalsBonus",
+   "operation": "Multiplicative",
+   "value": 1.15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MiningMetalsBonus"
+   ]
+},
+ {
+   "dataName": "Effect_MiningNoblesBonus",
+   "operation": "Multiplicative",
+   "value": 1.15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MiningNoblesBonus"
+   ]
+},
+ {
+   "dataName": "Effect_MiningFissilesBonus",
+   "operation": "Multiplicative",
+   "value": 1.15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MiningFissilesBonus"
+   ]
+},
+ {
+   "dataName": "Effect_EconomyInequalityReduction",
+   "operation": "Multiplicative",
+   "value": 0.9,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Economy_InequalityMultiplier"
+   ]
+},
+ {
+   "dataName": "Effect_WelfareInequalityReductionEffectiveness",
+   "operation": "Multiplicative",
+   "value": 1.25,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "WelfareInequalityReductionBonus"
+   ]
+},
+ {
+   "dataName": "Effect_WelfareReduction_CO2_ppm",
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Welfare_CO2_ppm"
+   ]
+},
+ {
+   "dataName": "Effect_WelfareReduction_CH4_ppm",
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Welfare_CH4_ppm"
+   ]
+},
+ {
+   "dataName": "Effect_WelfareReduction_N2O_ppm",
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Welfare_N2O_ppm"
+   ]
+},
+ {
+   "dataName": "Effect_NuclearStrikeDamageReduction80",
+   "operation": "Multiplicative",
+   "value": 0.8,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "NuclearStrikeDamageReduction"
+   ]
+},
+ {
+   "dataName": "Effect_RecruitStartingXP",
+   "operation": "Additive",
+   "value": 40,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "NewCouncilorRecruitXP"
+   ]
+},
+ {
+   "dataName": "Effect_Economy_BasePCGDPIncrease02",
+   "operation": "Multiplicative",
+   "value": 1.02,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Economy_BasePCGDPIncrease"
+   ]
+},
+ {
+   "dataName": "Effect_Economy_BasePCGDPIncreasePenalty02",
+   "operation": "Multiplicative",
+   "value": 0.98,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Economy_BasePCGDPIncrease"
+   ]
+},
+ {
+   "dataName": "Effect_Economy_BasePCGDPIncreaseDisruption08_12",
+   "operation": "Multiplicative",
+   "value": 0.92,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 12,
+   "contexts": [
+      "Economy_BasePCGDPIncrease"
+   ]
+},
+ {
+   "dataName": "Effect_NuclearWeaponsProgramPenalty50",
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildNuclearWeaponsPriority"
+   ]
+},
+ {
+   "dataName": "Effect_MilitaryPriorityPenalty10",
+   "operation": "Additive",
+   "value": -0.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BuildArmyPriorityPenalty10",
+   "operation": "Additive",
+   "value": -0.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildArmyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_UpgradeArmyPriorityPenalty10",
+   "operation": "Additive",
+   "value": -0.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "UpgradeArmyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_ArmyBombardmentDefenses",
+   "operation": "Multiplicative",
+   "value": 0.75,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BombardmentArmyDefenseBonus"
+   ]
+},
+ {
+   "dataName": "Effect_HabBombardmentDefenses",
+   "operation": "Multiplicative",
+   "value": 0.75,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BombardmentHabDefenseBonus"
+   ]
+},
+ {
+   "dataName": "Effect_TerrorKnowledge",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Terrorize_Def"
+   ]
+},
+ {
+   "dataName": "Effect_AssaultAlienAssetKnowledge",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_AssaultAlienAsset_Att"
+   ]
+},
+ {
+   "dataName": "Effect_CounterXenoforming",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Xenoform_Def"
+   ]
+},
+ {
+   "dataName": "Effect_FocusedDefenses",
+   "operation": "Multiplicative",
+   "value": 0.95,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DamageReductionAgainstAlienShips"
+   ]
+},
+ {
+   "dataName": "Effect_SurvivabilityUpgrades",
+   "operation": "Multiplicative",
+   "value": 0.95,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DamageReductionAgainstAllShips"
+   ]
+},
+ {
+   "dataName": "Effect_SeizeSpaceAssetAttack_Griffin",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_SeizeSpaceAsset_Att"
+   ]
+},
+ {
+   "dataName": "Effect_SeizeSpaceAssetDefense_Griffin",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_SeizeSpaceAsset_Def"
+   ]
+},
+ {
+   "dataName": "Effect_DamageArmy10",
+   "instantEffect": "ArmyStrengthChange",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DamageArmy15",
+   "instantEffect": "ArmyStrengthChange",
+   "value": 0.15,
+   "instantRnd": 0.1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DamageArmy20",
+   "instantEffect": "ArmyStrengthChange",
+   "value": 0.2,
+   "instantRnd": 0.15,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DamageArmy30",
+   "instantEffect": "ArmyStrengthChange",
+   "value": 0.3,
+   "instantRnd": 0.2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DamageArmy40",
+   "instantEffect": "ArmyStrengthChange",
+   "value": 0.4,
+   "instantRnd": 0.25,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RepairArmy20",
+   "instantEffect": "ArmyStrengthChange",
+   "value": -0.2,
+   "instantRnd": 0.15,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DamageAllRegionArmies10",
+   "instantEffect": "DamageAllRegionArmies",
+   "value": 0.1,
+   "instantRnd": 0.05,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MegafaunaMastery",
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MegafaunaMastery"
+   ]
+},
+ {
+   "dataName": "Effect_SpoilsBonus20",
+   "operation": "Multiplicative",
+   "value": 1.2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpoilsOutput"
+   ]
+},
+ {
+   "dataName": "Effect_CorruptionReduction20",
+   "operation": "Multiplicative",
+   "value": 0.8,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Corruption"
+   ]
+},
+ {
+   "dataName": "Effect_EndofOil",
+   "instantEffect": "EndofOil",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DummyTooltipImprovedMaintenanceProcedures1",
+   "instantEffect": "DummyInstantEffect",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DummyTooltipImprovedMaintenanceProcedures2",
+   "instantEffect": "DummyInstantEffect",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DummyTooltipDevolvedSpaceCommand1",
+   "instantEffect": "DummyInstantEffect",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DummyTooltipDevolvedSpaceCommand2",
+   "instantEffect": "DummyInstantEffect",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DummyTooltipInSituResourceUtilization1",
+   "instantEffect": "DummyInstantEffect",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DummyTooltipInSituResourceUtilization2",
+   "instantEffect": "DummyInstantEffect",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ShipDefectsToSecondary",
+   "instantEffect": "ShipDefectsToSecondary",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DestroyShip",
+   "instantEffect": "DestroyShip",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CouncilorSelfDetained4",
+   "instantEffect": "CouncilorDetained",
+   "value": 4,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CouncilorSelfDetainedSecondary6",
+   "instantEffect": "CouncilorDetained",
+   "value": 6,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CouncilorGoesToGround",
+   "instantEffect": "CouncilorInHiding",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyGain1",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": 1,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyGainSecondary1",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": 1,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyGain3",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": 3,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyGainSecondary3",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": 3,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyLoss3",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -3,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyLossSecondary3",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -3,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyLoss4",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -4,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyLossSecondary4",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -4,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyLoss6",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -6,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoyaltyLossSecondary6",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -6,
+   "strValue": "Loyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyGain1",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": 1,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyGainSecondary1",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": 1,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyGain3",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": 3,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyGainSecondary3",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": 3,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyLoss3",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -3,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyLossSecondary3",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -3,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyLoss4",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -4,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyLossSecondary4",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -4,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyLoss6",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -6,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_ApparentLoyaltyLossSecondary6",
+   "instantEffect": "CouncilorModifyAttribute",
+   "value": -6,
+   "strValue": "ApparentLoyalty",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_DamageShipParts_Marines05",
+   "instantEffect": "DamageShipParts_Marines",
+   "value": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_AlienECM",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "contexts": [
+      "HumanECMAgainstAliens"
+   ]
+},
+ {
+   "dataName": "Effect_GlobalEnergyCrisis1",
+   "instantEffect": "EnergyCrisis",
+   "value": 1,
+   "instantRnd": 0.4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalEnergyCrisis075",
+   "instantEffect": "EnergyCrisis",
+   "value": 0.75,
+   "instantRnd": 0.4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalEnergyCrisis066",
+   "instantEffect": "EnergyCrisis",
+   "value": 0.66,
+   "instantRnd": 0.4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalEnergyCrisis05",
+   "instantEffect": "EnergyCrisis",
+   "value": 0.5,
+   "instantRnd": 0.4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalEnergyCrisis025",
+   "instantEffect": "EnergyCrisis",
+   "value": 0.25,
+   "instantRnd": 0.4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_InterrogationTechniques25",
+   "operation": "Multiplicative",
+   "value": 1.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "contexts": [
+      "InterrogationBonus"
+   ]
+},
+ {
+   "dataName": "Effect_InterrogationTechniques100",
+   "operation": "Multiplicative",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "contexts": [
+      "InterrogationBonus"
+   ]
+},
+ {
+   "dataName": "Effect_AddTraitGroup5",
+   "instantEffect": "CouncilorGainsTraitGroup",
+   "value": 5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RemoveTraitGroup5",
+   "instantEffect": "CouncilorLosesTraitGroup",
+   "value": 5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_AddTraitGroup9",
+   "instantEffect": "CouncilorGainsTraitGroup",
+   "value": 9,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BuddyMovieFlag",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "BuddyMovie"
+   ]
+},
+ {
+   "dataName": "Effect_PropagandaCouncilorHome25",
+   "instantEffect": "CouncilorHomeNationPropaganda",
+   "value": 25,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativePropagandaCouncilorHome10",
+   "instantEffect": "CouncilorHomeNationPropaganda",
+   "value": -10,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativePropagandaCouncilorHome25",
+   "instantEffect": "CouncilorHomeNationPropaganda",
+   "value": -25,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_PropagandaCouncilorHomeSecondary25",
+   "instantEffect": "CouncilorHomeNationPropaganda",
+   "value": 25,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativePropagandaCouncilorHomeSecondary10",
+   "instantEffect": "CouncilorHomeNationPropaganda",
+   "value": -10,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_NegativePropagandaCouncilorHomeSecondary25",
+   "instantEffect": "CouncilorHomeNationPropaganda",
+   "value": -25,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GlobalCrackdown50_Secondary",
+   "instantEffect": "GlobalCrackdown",
+   "value": 0.5,
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_CouncilorHomeNationsImproveRelations",
+   "instantEffect": "CouncilorHomeNationsImproveRelations",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_KillCouncilor",
+   "instantEffect": "CouncilorKilled",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_KillCouncilorSecondary",
+   "instantEffect": "CouncilorKilled",
+   "effectTarget": "InputState",
+   "effectSecondaryTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_KillCouncilorNoSave",
+   "instantEffect": "CouncilorKilled_NoProtection",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RetireCouncilor",
+   "instantEffect": "CouncilorKilled_NoProtection_Nonviolent",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoseRandomNumberOfOrgs3",
+   "instantEffect": "CouncilorLosesOrgs",
+   "value": 3,
+   "instantRnd": 0.5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoseTraitGovernment",
+   "instantEffect": "CouncilorLosesTrait",
+   "strValue": "Government",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitEnemyOfTheState",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "EnemyoftheState",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitExtorted",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "Extorted",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainSpain",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Spain",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainRabat",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Morocco",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainAden",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.2,
+   "instantRnd": 0.1,
+   "strValue": "map_Aden",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainDjibouti",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.2,
+   "instantRnd": 0.1,
+   "strValue": "map_Djibouti",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainJava",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Java",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainSumatra",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Sumatra",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainHijaz",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Hijaz",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainCairo",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Egypt",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainAfghanistan",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Afghanistan",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainXinjiang",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Xinjiang",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainPanama",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Panama",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainColombia",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Colombia",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainTibet",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Tibet",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainUpperMyanmar",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_UpperMyanmar",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainAlaska",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Alaska",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainKamchatka",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Kamchatka",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainMalayPeninsula",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_MalayPeninsula",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainSriLanka",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_SriLanka",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainChennai",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Chennai",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainScotland",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_Scotland",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainNorthernIreland",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_NorthernIreland",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainRussianFarEast",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_RussianFarEast",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGainSakhalinKurils",
+   "instantEffect": "MapRegionGDPPctChange_StrValue",
+   "value": 0.1,
+   "instantRnd": 0.1,
+   "strValue": "map_SakhalinKurils",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionMinorGDPGain",
+   "instantEffect": "RegionGDPPctChange",
+   "value": 0.01,
+   "instantRnd": 0.01,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RegionGDPGain",
+   "instantEffect": "RegionGDPPctChange",
+   "value": 0.025,
+   "instantRnd": 0.025,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_MCUsageMasking",
+   "operation": "Multiplicative",
+   "value": 0.8,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "AlienHateFromMCUsage"
+   ]
+},
+ {
+   "dataName": "Effect_FreeXenoInvestigations10",
+   "instantEffect": "FactionInvestigationsChange",
+   "value": 10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_TriggerEventHabRevolt",
+   "instantEffect": "TriggerNarrativeEvent_StrValue",
+   "value": 0,
+   "strValue": "event_HabRevolt",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_EnthrallPublicDefense",
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_EnthrallPublic_Def"
+   ]
+},
+ {
+   "dataName": "Effect_AbductionsDefense",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Abductions_Def"
+   ]
+},
+ {
+   "dataName": "Effect_UpdateAlienThreatMeter",
+   "instantEffect": "UpdateAlienThreatMeter",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FixAlienThreatMeter",
+   "instantEffect": "UpdateAlienThreatMeter_Accurate",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_HackProject_Steal",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "duration_months": -1,
+   "contexts": [
+      "Mission_StealProject_Att"
+   ]
+},
+ {
+   "dataName": "Effect_HackProject_Sabotage",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_SabotageProject_Att"
+   ]
+},
+ {
+   "dataName": "Effect_InspireBonus",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Inspire_Att"
+   ]
+},
+ {
+   "dataName": "Effect_TurnBonus",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Turn_Att"
+   ]
+},
+ {
+   "dataName": "Effect_LoseTraitDeclining",
+   "instantEffect": "CouncilorLosesTrait",
+   "strValue": "Declining",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_EaseAbductions",
+   "operation": "Additive",
+   "value": 5,
+   "effectTarget": "GlobalEffectSet",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_Abductions_Att"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceResearchBoost05",
+   "operation": "Multiplicative",
+   "value": 1.01,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "HabResearchProduction"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceResearchBoost1",
+   "operation": "Multiplicative",
+   "value": 1.02,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "HabResearchProduction"
+   ]
+},
+ {
+   "dataName": "Effect_BlockAlienContact",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "CanContactAliens"
+   ]
+},
+ {
+   "dataName": "Effect_SetAlienHate0",
+   "instantEffect": "SetAlienHate",
+   "operation": "SetToFixedValue",
+   "value": 0,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitLoyaltyMonitor",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "LoyaltyMonitor",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_HabNuclearFreighters",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "HabNuclearFreighters"
+   ]
+},
+ {
+   "dataName": "Effect_VaccineTrackers",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "VaccineChips"
+   ]
+},
+ {
+   "dataName": "Effect_LiedAboutInfluence",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "InfluenceLies"
+   ]
+},
+ {
+   "dataName": "Effect_LoseTraitBillionaire",
+   "instantEffect": "CouncilorLosesTrait",
+   "strValue": "Billionaire",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitProsperous",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "Prosperous",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitBeloved",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "Beloved",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_LoseTraitMarked",
+   "instantEffect": "CouncilorLosesTrait",
+   "strValue": "Marked",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitMarked",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "Marked",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_FakedDeath",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "FakedDeath"
+   ]
+},
+ {
+   "dataName": "Effect_MarkedChain",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "MarkedChain"
+   ]
+},
+ {
+   "dataName": "Effect_MarkedCombatChain",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "MarkedCombatChain"
+   ]
+},
+ {
+   "dataName": "Effect_InfiltratedChain",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "InfiltratedChain"
+   ]
+},
+ {
+   "dataName": "Effect_InfiltratedCombatChain",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "InfiltratedCombatChain"
+   ]
+},
+ {
+   "dataName": "Effect_InfiltratedMoneyChain",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "InfiltratedMoneyChain"
+   ]
+},
+ {
+   "dataName": "Effect_InfiltratedInfluenceChain",
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "InfiltratedInfluenceChain"
+   ]
+},
+ {
+   "dataName": "Effect_IncreaseInfiltratedCount",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "InfiltratedCount"
+   ]
+},
+ {
+   "dataName": "Effect_EndInfiltratedChain",
+   "instantEffect": "RemoveEffectFromFaction",
+   "strValue": "Effect_InfiltratedChain",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "stackable": false,
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_GainTraitAce",
+   "instantEffect": "CouncilorGainsTrait",
+   "strValue": "AceAssassin",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_RemoveLiedAboutInfluence",
+   "instantEffect": "RemoveEffectFromFaction",
+   "value": 1,
+   "strValue": "Effect_LiedAboutInfluence",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "stackable": false,
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_IncreaseMonthlyProjectTriggerChance01",
+   "operation": "Additive",
+   "value": 0.01,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "MonthlyProjectTriggerChance"
+   ]
+},
+ {
+   "dataName": "Effect_TargetingComputer1",
+   "operation": "IncreaseToValue",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "TargetingComputerBonus"
+   ]
+},
+ {
+   "dataName": "Effect_TargetingComputer2",
+   "operation": "IncreaseToValue",
+   "value": 0.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "TargetingComputerBonus"
+   ]
+},
+ {
+   "dataName": "Effect_TargetingComputer3",
+   "operation": "IncreaseToValue",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "TargetingComputerBonus"
+   ]
+},
+ {
+   "dataName": "Effect_FighterECM1",
+   "operation": "IncreaseToValue",
+   "value": 0.2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "STOFighterECM"
+   ]
+},
+ {
+   "dataName": "Effect_FighterECM2",
+   "operation": "IncreaseToValue",
+   "value": 0.4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "STOFighterECM"
+   ]
+},
+ {
+   "dataName": "Effect_FighterECM3",
+   "operation": "IncreaseToValue",
+   "value": 0.6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "STOFighterECM"
+   ]
+},
+ {
+   "dataName": "Effect_AlienTargetingComputer",
+   "operation": "SetToFixedValue",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "TargetingComputerBonus"
+   ]
+},
+ {
+   "dataName": "Effect_EnvironmentBestSustainabilityValue05",
+   "operation": "Additive",
+   "value": -0.05,
+   "effectTarget": "AllFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Environment_BestSustainabilityValue"
+   ]
+},
+ {
+   "dataName": "Effect_EnvironmentBestSustainabilityValue10",
+   "operation": "Additive",
+   "value": -0.1,
+   "effectTarget": "AllFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Environment_BestSustainabilityValue"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceMineFreebies1",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "AllFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MCFreeSpaceMineNetwork"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceMineFreebies3",
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "AllFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MCFreeSpaceMineNetwork"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceMineFreebies4",
+   "operation": "Additive",
+   "value": 4,
+   "effectTarget": "AllFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MCFreeSpaceMineNetwork"
+   ]
+},
+ {
+   "dataName": "Effect_SpaceMineFreebies6",
+   "operation": "Additive",
+   "value": 6,
+   "effectTarget": "AllFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MCFreeSpaceMineNetwork"
+   ]
+},
+ {
+   "dataName": "Effect_OfficerSpawnChance02",
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipOfficerPromotion"
+   ]
+},
+ {
+   "dataName": "Effect_OfficerSpawnChance03",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipOfficerPromotion"
+   ]
+},
+ {
+   "dataName": "Effect_OfficerSpawnChance05",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipOfficerPromotion"
+   ]
+}
+]

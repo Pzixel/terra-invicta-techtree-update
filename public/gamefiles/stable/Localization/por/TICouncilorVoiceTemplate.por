@@ -1,0 +1,15 @@
+TICouncilorVoiceTemplate.ENG=Inglês
+TICouncilorVoiceTemplate.AMER=Americano
+TICouncilorVoiceTemplate.ENGL=Britânico
+TICouncilorVoiceTemplate.SCOT=Escocês
+TICouncilorVoiceTemplate.AUST=Australiano
+TICouncilorVoiceTemplate.SAFR=Sul-africano
+TICouncilorVoiceTemplate.IRSH=Irlandês
+TICouncilorVoiceTemplate.HING=Indiano
+TICouncilorVoiceTemplate.CRIB=Caribenho
+TICouncilorVoiceTemplate.LATN=Ibérico
+TICouncilorVoiceTemplate.RUSN=Eslávico
+TICouncilorVoiceTemplate.AFR=Africano
+TICouncilorVoiceTemplate.SING=Singapurense
+TICouncilorVoiceTemplate.EURO=Europeu
+TICouncilorVoiceTemplate.ARBC=Árabe

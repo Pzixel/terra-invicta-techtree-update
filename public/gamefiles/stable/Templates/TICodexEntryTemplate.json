@@ -1,0 +1,708 @@
+[
+ {
+   "dataName": "codex_welcome",
+   "index": 0,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_welcome"
+},
+ {
+   "dataName": "codex_factions",
+   "index": 1,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_factions",
+   "imgPath": "faction_logos/FAC_ResistCouncil_256"
+},
+ {
+   "dataName": "codex_objectives",
+   "index": 1.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_objectives"
+},
+ {
+   "dataName": "codex_diplomacy",
+   "index": 1.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_diplomacy"
+},
+ {
+   "dataName": "codex_resources",
+   "index": 2,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_resources"
+},
+ {
+   "dataName": "codex_money",
+   "index": 2.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_money",
+   "imgPath": "icons_2d/ICO_currency"
+},
+ {
+   "dataName": "codex_influence",
+   "index": 2.11,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_influence",
+   "imgPath": "icons_2d/ICO_influence"
+},
+ {
+   "dataName": "codex_ops",
+   "index": 2.12,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_ops",
+   "imgPath": "icons_2d/ICO_ops"
+},
+ {
+   "dataName": "codex_boost",
+   "index": 2.13,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_boost",
+   "imgPath": "icons_2d/ICO_boost"
+},
+ {
+   "dataName": "codex_missionControl",
+   "index": 2.14,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_missionControl",
+   "imgPath": "icons_2d/ICO_mission_control"
+},
+ {
+   "dataName": "codex_researchIncome",
+   "index": 2.15,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_researchIncome",
+   "imgPath": "icons_2d/ICO_research"
+},
+ {
+   "dataName": "codex_projectsIncome",
+   "index": 2.16,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_projectsIncome",
+   "imgPath": "icons_2d/ICO_projects"
+},
+ {
+   "dataName": "codex_water",
+   "index": 2.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_water",
+   "imgPath": "icons_2d/ICO_water"
+},
+ {
+   "dataName": "codex_volatiles",
+   "index": 2.21,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_volatiles",
+   "imgPath": "icons_2d/ICO_volatiles"
+},
+ {
+   "dataName": "codex_metals",
+   "index": 2.22,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_metals",
+   "imgPath": "icons_2d/ICO_metal"
+},
+ {
+   "dataName": "codex_nobleMetals",
+   "index": 2.23,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_nobleMetals",
+   "imgPath": "icons_2d/ICO_metal_noble"
+},
+ {
+   "dataName": "codex_fissiles",
+   "index": 2.24,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_fissiles",
+   "imgPath": "icons_2d/ICO_fissile"
+},
+ {
+   "dataName": "codex_antimatter",
+   "index": 2.25,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_antimatter",
+   "imgPath": "icons_2d/ICO_antimatter",
+   "unlockTech": "AntimatterContainment"
+},
+ {
+   "dataName": "codex_exotics",
+   "index": 2.26,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_exotics",
+   "imgPath": "icons_2d/ICO_exotics",
+   "unlockTech": "Project_Exotics"
+},
+ {
+   "dataName": "codex_councilors",
+   "index": 3,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_councilors"
+},
+ {
+   "dataName": "codex_professions",
+   "index": 3.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_professions",
+   "templateToPull": "TICouncilorTypeTemplate"
+},
+ {
+   "dataName": "codex_recruiting",
+   "index": 3.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_recruiting"
+},
+ {
+   "dataName": "codex_attributes",
+   "index": 3.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_attributes"
+},
+ {
+   "dataName": "codex_traits",
+   "index": 3.4,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_traits",
+   "templateToPull": "TITraitTemplate"
+},
+ {
+   "dataName": "codex_augmentations",
+   "index": 3.5,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_augmentations",
+   "unlockTech": "Project_CyberneticImplants"
+},
+ {
+   "dataName": "codex_XP",
+   "index": 3.6,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_XP"
+},
+ {
+   "dataName": "codex_orgs",
+   "index": 4,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_orgs",
+   "imgPath": "orglogos/CIA"
+},
+ {
+   "dataName": "codex_missions",
+   "index": 5,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_missions"
+},
+ {
+   "dataName": "codex_detection",
+   "index": 5.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_detection"
+},
+ {
+   "dataName": "codex_missionList",
+   "index": 5.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_missionList",
+   "templateToPull": "TIMissionTemplate"
+},
+ {
+   "dataName": "codex_alienMissionList",
+   "index": 5.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_missionList_alien",
+   "unlockTech": "Project_TheirMethods",
+   "templateToPull": "TMissionTemplate_Alien"
+},
+ {
+   "dataName": "codex_nations",
+   "index": 6,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_nations",
+   "imgPath": "nationflags/France"
+},
+ {
+   "dataName": "codex_regions",
+   "index": 6.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_regions"
+},
+ {
+   "dataName": "codex_claims",
+   "index": 6.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_claims"
+},
+ {
+   "dataName": "codex_controlPoints",
+   "index": 6.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_controlPoints"
+},
+ {
+   "dataName": "codex_incomes",
+   "index": 6.4,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_incomes"
+},
+ {
+   "dataName": "codex_nationStats",
+   "index": 6.5,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_nationStats"
+},
+ {
+   "dataName": "codex_publicOpinion",
+   "index": 6.6,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_publicOpinion"
+},
+ {
+   "dataName": "codex_relations",
+   "index": 6.7,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_relations"
+},
+ {
+   "dataName": "codex_federations",
+   "index": 6.8,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_federations",
+   "imgPath": "nationflags/European_Union"
+},
+ {
+   "dataName": "codex_policies",
+   "index": 6.9,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_policies",
+   "templateToPull": "TIPolicyTemplate"
+},
+ {
+   "dataName": "codex_priorities",
+   "index": 7,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_priorities",
+   "imgPath": "icons_2d/ICO_investments"
+},
+ {
+   "dataName": "codex_priority_economy",
+   "index": 7.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_economy",
+   "imgPath": "icons_2d/ICO_economy_priority"
+},
+ {
+   "dataName": "codex_priority_welfare",
+   "index": 7.13,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_welfare",
+   "imgPath": "icons_2d/ICO_welfare_priority"
+},
+ {
+   "dataName": "codex_priority_environment",
+   "index": 7.17,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_environment",
+   "imgPath": "icons_2d/ICO_environment_priority"
+},
+ {
+   "dataName": "codex_priority_knowledge",
+   "index": 7.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_knowledge",
+   "imgPath": "icons_2d/ICO_knowledge_priority"
+},
+ {
+   "dataName": "codex_priority_government",
+   "index": 7.23,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_government",
+   "imgPath": "icons_2d/ICO_government_priority"
+},
+ {
+   "dataName": "codex_priority_unity",
+   "index": 7.27,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_unity",
+   "imgPath": "icons_2d/ICO_unity_priority"
+},
+ {
+   "dataName": "codex_priority_foundMilitary",
+   "index": 7.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_foundMilitary",
+   "imgPath": "icons_2d/ICO_military_priority"
+},
+ {
+   "dataName": "codex_priority_military",
+   "index": 7.33,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_military",
+   "imgPath": "icons_2d/ICO_military_priority"
+},
+ {
+   "dataName": "codex_priority_oppression",
+   "index": 7.37,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_oppression",
+   "imgPath": "icons_2d/ICO_oppression_priority"
+},
+ {
+   "dataName": "codex_priority_spoils",
+   "index": 7.4,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_spoils",
+   "imgPath": "icons_2d/ICO_spoils_priority"
+},
+ {
+   "dataName": "codex_priority_funding",
+   "index": 7.43,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_funding",
+   "imgPath": "icons_2d/ICO_funding_priority"
+},
+ {
+   "dataName": "codex_priority_spaceflight",
+   "index": 7.47,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_spaceflight",
+   "imgPath": "icons_2d/ICO_spaceflightProgram_priority"
+},
+ {
+   "dataName": "codex_priority_launchFacilities",
+   "index": 7.5,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_launchFacilities",
+   "imgPath": "icons_2d/ICO_launchFacilities_Priority"
+},
+ {
+   "dataName": "codex_priority_missionControl",
+   "index": 7.52,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_missionControl",
+   "imgPath": "icons_2d/ICO_missionControl_priority"
+},
+ {
+   "dataName": "codex_priority_buildArmy",
+   "index": 7.55,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_buildArmy",
+   "imgPath": "icons_2d/ICO_buildArmy_priority",
+   "textParams": [
+      "minPopulationForFirstArmy_millions",
+      "minPopulationForAdditionalArmiesPer_millions"
+   ]
+},
+ {
+   "dataName": "codex_priority_sealift",
+   "index": 7.56,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_sealift",
+   "imgPath": "icons_2d/ICO_buildNavy_priority",
+   "textParams": [
+      "minControlPointsForNavy",
+      "minControlPointsForNavyException",
+      "PCGDPForNavyException"
+   ]
+},
+ {
+   "dataName": "codex_priority_initiateNuclearProgram",
+   "index": 7.6,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_initiateNuclearProgram",
+   "imgPath": "icons_2d/ICO_buildNuclearWeapons_priority"
+},
+ {
+   "dataName": "codex_priority_buildNuclearWeapons",
+   "index": 7.65,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_nuclearWeapons",
+   "imgPath": "icons_2d/ICO_buildNuclearWeapons_priority"
+},
+ {
+   "dataName": "codex_priority_buildSpaceDefenses",
+   "index": 7.68,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_spaceDefenses",
+   "imgPath": "icons_2d/ICO_buildSpaceDefenses_priority",
+   "unlockTech": "TransInterfaceWarfare"
+},
+ {
+   "dataName": "codex_priority_buildSTOSquadron",
+   "index": 7.7,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_priority_buildSTOSquadron",
+   "imgPath": "icons_2d/ICO_buildSTOSquadron_priority",
+   "unlockTech": "NextGenerationAerospace"
+},
+ {
+   "dataName": "codex_terrestrialWarfare",
+   "index": 8,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_terrestrialWarfare"
+},
+ {
+   "dataName": "codex_armies",
+   "index": 8.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_armies"
+},
+ {
+   "dataName": "codex_armyOperations",
+   "index": 8.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_armyOperations",
+   "templateToPull": "TIArmyOperationTemplate"
+},
+ {
+   "dataName": "codex_armyBattles",
+   "index": 8.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_armyBattles"
+},
+ {
+   "dataName": "codex_navalSuperiority",
+   "index": 8.4,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_navalSuperiority"
+},
+ {
+   "dataName": "codex_nuclearWarfare",
+   "index": 8.5,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_nuclearWarfare"
+},
+ {
+   "dataName": "codex_solarSystem",
+   "index": 9,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_solarSystem"
+},
+ {
+   "dataName": "codex_orbits",
+   "index": 9.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_orbits"
+},
+ {
+   "dataName": "codex_habSites",
+   "index": 9.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_habSites"
+},
+ {
+   "dataName": "codex_probes",
+   "index": 9.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_probes"
+},
+ {
+   "dataName": "codex_research",
+   "index": 10,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_research"
+},
+ {
+   "dataName": "codex_projects",
+   "index": 10.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_projects"
+},
+ {
+   "dataName": "codex_techCategories",
+   "index": 10.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_techCategories",
+   "templateToPull": "TechCategory"
+},
+ {
+   "dataName": "codex_habitats",
+   "index": 11,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_habitats"
+},
+ {
+   "dataName": "codex_foundingHabs",
+   "index": 11.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_foundingHabs"
+},
+ {
+   "dataName": "codex_automatedHabs",
+   "index": 11.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_automatedHabs",
+   "unlockTech": "AppliedArtificialIntelligence"
+},
+ {
+   "dataName": "codex_buildingHabs",
+   "index": 11.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_buildingHabs"
+},
+ {
+   "dataName": "codex_assaultingHabs",
+   "index": 11.4,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_assaultingHabs"
+},
+ {
+   "dataName": "codex_defendingHabs",
+   "index": 11.5,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_defendingHabs"
+},
+ {
+   "dataName": "codex_shipDesign",
+   "index": 12,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_shipDesign"
+},
+ {
+   "dataName": "codex_hull",
+   "index": 12.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_hull"
+},
+ {
+   "dataName": "codex_drive",
+   "index": 12.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_drive",
+   "imgPath": "shipbuildericons/empty_Drive"
+},
+ {
+   "dataName": "codex_powerPlant",
+   "index": 12.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_powerPlant",
+   "imgPath": "shipbuildericons/empty_Power_Plant"
+},
+ {
+   "dataName": "codex_radiators",
+   "index": 12.4,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_radiators",
+   "imgPath": "shipbuildericons/empty_Radiators"
+},
+ {
+   "dataName": "codex_batteries",
+   "index": 12.5,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_batteries",
+   "imgPath": "shipbuildericons/empty_Battery"
+},
+ {
+   "dataName": "codex_weapons",
+   "index": 12.6,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_weapons",
+   "imgPath": "shipbuildericons/empty_Nose_Hard_Point"
+},
+ {
+   "dataName": "codex_armor",
+   "index": 12.7,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_armor",
+   "imgPath": "shipbuildericons/empty_Armor"
+},
+ {
+   "dataName": "codex_propellantTanks",
+   "index": 12.8,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_propellantTanks"
+},
+ {
+   "dataName": "codex_shipOfficers",
+   "index": 12.9,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_shipOfficers",
+   "templateToPull": "TIOfficerTemplate"
+},
+ {
+   "dataName": "codex_fleets",
+   "index": 13,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_fleets"
+},
+ {
+   "dataName": "codex_shipConstruction",
+   "index": 13.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_shipConstruction"
+},
+ {
+   "dataName": "codex_shipRefits",
+   "index": 13.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_shipRefits"
+},
+ {
+   "dataName": "codex_propellant",
+   "index": 13.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_propellant"
+},
+ {
+   "dataName": "codex_transfers",
+   "index": 13.4,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_transfers"
+},
+ {
+   "dataName": "codex_fleetOperations",
+   "index": 13.5,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_fleetOperations",
+   "templateToPull": "TIFleetOperationTemplate"
+},
+ {
+   "dataName": "codex_orbitalBombardment",
+   "index": 13.6,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_orbitalBombardment"
+},
+ {
+   "dataName": "codex_spaceCombat",
+   "index": 14,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_spaceCombat"
+},
+ {
+   "dataName": "codex_maneuvers",
+   "index": 14.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_maneuvers"
+},
+ {
+   "dataName": "codex_specialManeuvers",
+   "index": 14.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_specialManeuvers"
+},
+ {
+   "dataName": "codex_fireControl",
+   "index": 14.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_fireControl"
+},
+ {
+   "dataName": "codex_targeting",
+   "index": 14.4,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_targeting"
+},
+ {
+   "dataName": "codex_heatManagement",
+   "index": 14.5,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_heatManagement"
+},
+ {
+   "dataName": "codex_batteryManagement",
+   "index": 14.6,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_batteryManagement"
+},
+ {
+   "dataName": "codex_damage",
+   "index": 14.7,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_damage"
+}
+]

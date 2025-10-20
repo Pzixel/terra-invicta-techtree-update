@@ -1,0 +1,1640 @@
+[
+ {
+   "dataName": "SunMercuryL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Mercury",
+   "effectToExplore": "Effect_ExploreInnerPlanets",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SunMercuryL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunMercuryL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Mercury",
+   "effectToExplore": "Effect_ExploreInnerPlanets",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SunMercuryL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunMercuryL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Mercury",
+   "effectToExplore": "Effect_ExploreInnerPlanets",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SunMercuryL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunMercuryL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Mercury",
+   "effectToExplore": "Effect_ExploreInnerPlanets",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SunMercuryL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunMercuryL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Mercury",
+   "effectToExplore": "Effect_ExploreInnerPlanets",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SunMercuryL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunVenusL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Venus",
+   "effectToExplore": "Effect_ExploreVenus",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SunVenusL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunVenusL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Venus",
+   "effectToExplore": "Effect_ExploreVenus",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SunVenusL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunVenusL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Venus",
+   "effectToExplore": "Effect_ExploreVenus",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SunVenusL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunVenusL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Venus",
+   "effectToExplore": "Effect_ExploreVenus",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SunVenusL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunVenusL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Venus",
+   "effectToExplore": "Effect_ExploreVenus",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SunVenusL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunEarthL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Earth",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SunEarthL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunEarthL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Earth",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SunEarthL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunEarthL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Earth",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SunEarthL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunEarthL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Earth",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SunEarthL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunEarthL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Earth",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SunEarthL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "EarthLunaL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Luna",
+   "effectToExplore": "Effect_ExploreLuna",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "EarthLunaL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "EarthLunaL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Luna",
+   "effectToExplore": "Effect_ExploreLuna",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "EarthLunaL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "EarthLunaL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Luna",
+   "effectToExplore": "Effect_ExploreLuna",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "EarthLunaL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "EarthLunaL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Luna",
+   "effectToExplore": "Effect_ExploreLuna",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "EarthLunaL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "EarthLunaL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Luna",
+   "effectToExplore": "Effect_ExploreLuna",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "EarthLunaL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunMarsL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Mars",
+   "effectToExplore": "Effect_ExploreMars",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SunMarsL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunMarsL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Mars",
+   "effectToExplore": "Effect_ExploreMars",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SunMarsL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunMarsL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Mars",
+   "effectToExplore": "Effect_ExploreMars",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SunMarsL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunMarsL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Mars",
+   "effectToExplore": "Effect_ExploreMars",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SunMarsL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunMarsL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Mars",
+   "effectToExplore": "Effect_ExploreMars",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SunMarsL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunJupiterL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Jupiter",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SunJupiterL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunJupiterL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Jupiter",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SunJupiterL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunJupiterL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Jupiter",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SunJupiterL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunJupiterL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Jupiter",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SunJupiterL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunJupiterL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Jupiter",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SunJupiterL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunSaturnL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Saturn",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SunSaturnL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunSaturnL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Saturn",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SunSaturnL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunSaturnL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Saturn",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SunSaturnL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunSaturnL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Saturn",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SunSaturnL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunSaturnL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Saturn",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SunSaturnL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunUranusL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Uranus",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SunUranusL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunUranusL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Uranus",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SunUranusL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunUranusL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Uranus",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SunUranusL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunUranusL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Uranus",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SunUranusL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunUranusL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Uranus",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SunUranusL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunNeptuneL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Neptune",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SunNeptuneL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunNeptuneL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Neptune",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SunNeptuneL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunNeptuneL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Neptune",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SunNeptuneL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunNeptuneL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Neptune",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SunNeptuneL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SunNeptuneL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Neptune",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SunNeptuneL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterIoL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Io",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "JupiterIoL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterIoL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Io",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "JupiterIoL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterIoL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Io",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "JupiterIoL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterIoL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Io",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "JupiterIoL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterIoL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Io",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "JupiterIoL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterEuropaL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Europa",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "JupiterEuropaL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterEuropaL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Europa",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "JupiterEuropaL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterEuropaL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Europa",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "JupiterEuropaL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterEuropaL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Europa",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "JupiterEuropaL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterEuropaL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Europa",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "JupiterEuropaL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterGanymedeL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Ganymede",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "JupiterGanymedeL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterGanymedeL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Ganymede",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "JupiterGanymedeL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterGanymedeL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Ganymede",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "JupiterGanymedeL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterGanymedeL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Ganymede",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "JupiterGanymedeL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterGanymedeL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Ganymede",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "JupiterGanymedeL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterCallistoL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Callisto",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "JupiterCallistoL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterCallistoL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Callisto",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "JupiterCallistoL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterCallistoL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Callisto",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "JupiterCallistoL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterCallistoL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Callisto",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "JupiterCallistoL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "JupiterCallistoL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Callisto",
+   "effectToExplore": "Effect_ExploreJupiter",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "JupiterCallistoL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnEnceladusL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Enceladus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SaturnEnceladusL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnEnceladusL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Enceladus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SaturnEnceladusL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnEnceladusL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Enceladus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SaturnEnceladusL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnEnceladusL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Enceladus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SaturnEnceladusL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnEnceladusL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Enceladus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SaturnEnceladusL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnTethysL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Tethys",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SaturnTethysL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnTethysL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Tethys",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SaturnTethysL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnTethysL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Tethys",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SaturnTethysL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnDioneL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Dione",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SaturnDioneL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnDioneL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Dione",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SaturnDioneL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnDioneL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Dione",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SaturnDioneL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnDioneL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Dione",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SaturnDioneL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnRheaL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Rhea",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SaturnRheaL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnRheaL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Rhea",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SaturnRheaL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnRheaL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Rhea",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SaturnRheaL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnRheaL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Rhea",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SaturnRheaL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnRheaL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Rhea",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SaturnRheaL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnTitanL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Titan",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SaturnTitanL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnTitanL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Titan",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SaturnTitanL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnTitanL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Titan",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SaturnTitanL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnTitanL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Titan",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SaturnTitanL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnTitanL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Titan",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SaturnTitanL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnIapetusL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Iapetus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "SaturnIapetusL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnIapetusL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Iapetus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "SaturnIapetusL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnIapetusL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Iapetus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "SaturnIapetusL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnIapetusL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Iapetus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "SaturnIapetusL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "SaturnIapetusL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Iapetus",
+   "effectToExplore": "Effect_ExploreSaturn",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "SaturnIapetusL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusArielL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Ariel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "UranusArielL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusArielL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Ariel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "UranusArielL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusArielL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Ariel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "UranusArielL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusArielL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Ariel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "UranusArielL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusArielL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Ariel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "UranusArielL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusUmbrielL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Umbriel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "UranusUmbrielL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusUmbrielL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Umbriel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "UranusUmbrielL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusUmbrielL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Umbriel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "UranusUmbrielL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusUmbrielL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Umbriel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "UranusUmbrielL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusUmbrielL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Umbriel",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "UranusUmbrielL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusTitaniaL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Titania",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "UranusTitaniaL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusTitaniaL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Titania",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "UranusTitaniaL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusTitaniaL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Titania",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "UranusTitaniaL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusTitaniaL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Titania",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "UranusTitaniaL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusTitaniaL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Titania",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "UranusTitaniaL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusOberonL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Oberon",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "UranusOberonL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusOberonL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Oberon",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "UranusOberonL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusOberonL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Oberon",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "UranusOberonL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusOberonL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Oberon",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "UranusOberonL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "UranusOberonL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Oberon",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "UranusOberonL5Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "NeptuneTritonL1",
+   "lagrangeValue": "L1",
+   "relatedObject": "Triton",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L1Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_1",
+   "orbits": [
+      "NeptuneTritonL1Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "NeptuneTritonL2",
+   "lagrangeValue": "L2",
+   "relatedObject": "Triton",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L2Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_2",
+   "orbits": [
+      "NeptuneTritonL2Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "NeptuneTritonL3",
+   "lagrangeValue": "L3",
+   "relatedObject": "Triton",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L3Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_3t",
+   "orbits": [
+      "NeptuneTritonL3Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "NeptuneTritonL4",
+   "lagrangeValue": "L4",
+   "relatedObject": "Triton",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L4Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_4d",
+   "orbits": [
+      "NeptuneTritonL4Orbit"
+   ],
+   "maxHabSize": 3
+},
+ {
+   "dataName": "NeptuneTritonL5",
+   "lagrangeValue": "L5",
+   "relatedObject": "Triton",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "positionCalculator": {
+      "$type": "L5Position"
+   },
+   "symbolTexture": "icons_2d/OrbitalIcons_5",
+   "orbits": [
+      "NeptuneTritonL5Orbit"
+   ],
+   "maxHabSize": 3
+}
+]

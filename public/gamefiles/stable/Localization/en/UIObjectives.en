@@ -1,0 +1,717 @@
+UI.Objectives.Header={0} Objectives
+UI.Objectives.ListContainerHeader=Objective List
+UI.Objectives.DetailContainerHeader=Objective Detail
+UI.Objectives.Tutorial=TUTORIAL OBJECTIVES
+UI.Objectives.General=GENERAL OBJECTIVES
+UI.Objectives.Campaign=CAMPAIGN OBJECTIVES
+UI.Objectives.Victory=VICTORY OBJECTIVE
+UI.Objectives.Completed=COMPLETED OBJECTIVES
+UI.Objectives.Detail.Tutorial=Tutorial objectives guide you through key game mechanics. Fulfilling these objectives does not have any direct bearing on your progress in the campaign. You can complete them in any order you prefer. Some may take a while to accomplish.
+UI.Objectives.Detail.General=General objectives lay out some useful guideposts throughout a campaign.
+UI.Objectives.Detail.Campaign=Campaign objectives are current goals for your faction to pursue. Completing these is necessary to win the game.
+UI.Objectives.Detail.Victory=Fulfilling victory objectives wins the game.
+UI.Objectives.Detail.Completed=These are campaign objectives we have already completed.
+UI.Objectives.Summary=We have completed the {0} objective.
+UI.Objectives.VictoryConditions1=To launch the councilor mission to win the game, we must first fulfill the following goal to ensure our victory:
+UI.Objectives.VictoryConditionsMult=To launch the councilor mission to win the game, we must first fulfill the following goals to ensure our victory:
+
+UI.Objectives.TechProjectPrereqs=We need to complete these prerequisite techs and projects to be able to complete the research needed to fulfill this objective:
+UI.Objectives.TechProjectPrereq_or=<sp>or {0}
+
+UI.Objectives.HelpPanel=Help Panel
+UI.Objectives.TipConfirm=Next Tip
+UI.Objectives.TipBack=Previous Tip
+UI.Objectives.TutorialSkip=Hide
+UI.Objectives.DontShowAgain=Don't Show This Again
+UI.Objectives.TutorialReset=Reset Tutorial
+UI.Objectives.TutorialResetAll=Reset All Tutorial Tips
+
+UI.Objectives.CouncilGridCanvas.CouncilorCard.Name=Council Grid
+UI.Objectives.CouncilGridCanvas.CouncilorCard.NameShort=Council
+UI.Objectives.CouncilGridCanvas.CouncilorCard.Desc=Each of your councilors is shown on a card here, along with their attributes, incomes, location, and any mission they are participating in. Up to two enemy councilors spying for you will be shown in the bottom right two cards.
+UI.Objectives.CouncilGridCanvas.Portrait.Name=Expand Councilor Details
+UI.Objectives.CouncilGridCanvas.Portrait.Desc=Click on the portrait of a councilor to open a detailed panel that also lets you spend experience to improve your councilor and acquire and manage the councilor's organizations.
+UI.Objectives.CouncilGridCanvas.GotoBtn.Name=Go To Councilor
+UI.Objectives.CouncilGridCanvas.GotoBtn.Desc=Click here to center your camera on the councilors location in the game.
+UI.Objectives.CouncilGridCanvas.RecruitBtn.Name=Recruit New Councilors
+UI.Objectives.CouncilGridCanvas.RecruitBtn.Desc=Councilors are vital to progressing in Terra Invicta. Recruit new councilors here to make sure your council is full.
+
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.Name=Councilor's Available Missions
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.NameShort=Info
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.Desc=This panel shows you the list of missions that this councilor can perform during the mission phase. Try to maintain a balanced council to ensure you can execute the necessary missions to achieve your goals.
+UI.Objectives.SingleCouncilorDetailCanvas.Attributes.Name=Councilor Attributes
+UI.Objectives.SingleCouncilorDetailCanvas.Attributes.Desc=This panel displays the councilor's attributes, hover over an attribute to see more details. Attribute scores can range from 0 to 25.
+UI.Objectives.SingleCouncilorDetailCanvas.Incomes.Name=Councilor's Incomes
+UI.Objectives.SingleCouncilorDetailCanvas.Incomes.Desc=This panel displays the resources that this councilor generates. Negative resources indicate upkeep.
+UI.Objectives.SingleCouncilorDetailCanvas.Traits.Name=Councilor Traits
+UI.Objectives.SingleCouncilorDetailCanvas.Traits.Desc=Traits are special characteristics and modifiers that affect this councilor's attributes, incomes, and other aspects. Many provide conditional bonuses to missions. Hover over a trait to view more details.
+UI.Objectives.SingleCouncilorDetailCanvas.Augment.Name=Augment Your Councilor
+UI.Objectives.SingleCouncilorDetailCanvas.Augment.Desc=When you gain enough XP, you can spend it here to increase your councilor's attributes or add or remove traits. Going on missions grants XP, with contested missions with a success chance granting more when a success is rolled.
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsEquipped.Name=Equipped Orgs
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsEquipped.Desc=Organizations, or "orgs," can be equipped on a councilor with sufficient Administration ability. Orgs grant attribute bonuses, incomes, and new missions to their owner. This area shows any Orgs that your councilor's currently has equipped.
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket.Name=Org Marketplace
+UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket.Desc=This area shows any orgs that are currently available to be purchased for this councilor. Simply right-click or drag an Org into the above panel to purchase it for your councilor.
+UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs.Name=Faction Orgs
+UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs.Desc=Switching from the marketplace to this panel area shows any orgs that are being held by the faction but belong to no councilor. They provide no benefits but still can be snatched by your enemies. If councilors are killed or dismissed, their orgs go here; you can also drag and drop orgs in this window to transfer them between councilors. There is a small fee when doing this.
+UI.Objectives.SingleCouncilorDetailCanvas.Customize.Name=Customize Your Councilor
+UI.Objectives.SingleCouncilorDetailCanvas.Customize.Desc=Click here to open up a new panel where you can customize your councilor's name, appearance, and voice.
+UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Name=Dismiss a councilor
+UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Desc=If a councilor no longer suits your goals you can dismiss them here to free up space in your council so you can replace them with another candidate.
+
+UI.Objectives.GeneralControlsCanvas.Intro.Name=Welcome To Terra Invicta
+UI.Objectives.GeneralControlsCanvas.Intro.Desc=As you navigate the UI for the first time, tutorial buttons will appear here, to the right of your current objective. Click on them to receive guidance on the currently open interface.
+UI.Objectives.GeneralControlsCanvas.IntroPart2.Name=Welcome To Terra Invicta
+UI.Objectives.GeneralControlsCanvas.IntroPart2.Desc=<h>Select the Intro Tutorial icon for a tour of Terra Invicta's user interface (UI).</h>
+
+UI.Objectives.GeneralControlsCanvas.Objectives.Name=View Objectives
+UI.Objectives.GeneralControlsCanvas.Objectives.NameShort=Intro
+UI.Objectives.GeneralControlsCanvas.Objectives.Desc=The objectives panel, reachable by clicking your faction symbol, tracks all of your current and completed objectives here. These are necessary to advance the storyline and discover what is behind the alien arrival in our Solar System. The tutorial also includes an extra series of objectives to guide you in performing basic actions in Terra Invicta.<br/><br/><h>Select this button to check your current Objectives.</h>
+UI.Objectives.GeneralControlsCanvas.PauseMenu.Name=Introduction
+UI.Objectives.GeneralControlsCanvas.PauseMenu.NameShort=Intro
+UI.Objectives.GeneralControlsCanvas.PauseMenu.Desc=Welcome to Terra Invicta! These tutorial windows will describe how to access and manage various aspects of your faction throughout the game.<br/><br/>The Pause Menu can be accessed here, where you can save your progress, view the extremely helpful <h>Codex</h>, adjust game settings, as well as exit the game. 
+UI.Objectives.GeneralControlsCanvas.Resources.Name=Resources
+UI.Objectives.GeneralControlsCanvas.Resources.Desc=This top panel shows your current resources and incomes. Hover over each for details. <h>Money</h>, <h>Influence</h>, and <h>Ops</h> are vital for advancing your goals on Earth. <h>Boost</h> and <h>Mission Control</h> are for developing your space programs. <h>Research</h>, along with <h>Engineering Projects</h> unlock new technologies and modules for your ships and habitats.  
+UI.Objectives.GeneralControlsCanvas.MoneyIncome.Name=Money
+UI.Objectives.GeneralControlsCanvas.MoneyIncome.Desc=<h>Money</h> is used to build components on Earth for our space program, acquire many councilor orgs, conduct certain financially oriented missions, and support our space assets. It is gained from national funding, the spoils priority, orgs, councilor traits, hab modules, and the sale of space resources on Earth.
+UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Name=Influence
+UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Desc=<h>Influence</h> represents political capital and the ability to sway institutions and people to pursue your goals. It is gained from a favorable global public opinion about your faction's ideology, orgs, councilor traits, and hab modules. It is also spent on maintaining your control points each month.
+UI.Objectives.GeneralControlsCanvas.OpsIncome.Name=Ops
+UI.Objectives.GeneralControlsCanvas.OpsIncome.Desc=<h>Ops</h>, or Operations, is our ability to conduct small-scale combat and espionage operations. It is primary gained from orgs, but also can come from councilor traits and certain hab modules in an Earth interface orbit.
+UI.Objectives.GeneralControlsCanvas.BoostIncome.Name=Boost
+UI.Objectives.GeneralControlsCanvas.BoostIncome.Desc=Each point of <h>Boost</h> represents the capability to move ten metric tons of material from Earth's surface to Low Earth Orbit via rocket launches and other conveyances. Boost can also deliver items to more distant destinations at a significant penalty. It is primarily generated from nations with a space program, but also can come from orgs.
+UI.Objectives.GeneralControlsCanvas.MissionControlCap.Name=Mission Control
+UI.Objectives.GeneralControlsCanvas.MissionControlCap.Desc=The <h>Mission Control</h> resource accounts for all the staff and technical apparatus required to support our operations in space. Insufficient Mission Control makes it much easier for other factions to seize our space assets and makes accidents far more likely. We may not build or acquire new habs or ships if we do not have any mission control available. Excess mission control is converted to research and money.
+UI.Objectives.GeneralControlsCanvas.ResearchIncome.Name=Research
+UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=<h>Research</h> represents the efforts of our scientists and engineers. Unlike other resources, it is not accumulated but immediately distributed according to our research priorities, which are divided between global investigations into new principles and technologies and private engineering projects that only benefit our faction.
+UI.Objectives.GeneralControlsCanvas.CPCap.Name=Control Points Capacity
+UI.Objectives.GeneralControlsCanvas.CPCap.Desc=Here you can find our current <h>Control Points</h> counted towards our <h>Control Point Capacity</h>. Being over the cap will result in a daily influence penalty, which is reflected in our nation influence income. Enemy missions targeting our control points will receive a bonus. We may abandon control points to reduce this cost or research projects to increase our cap.
+UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Name=Earth View
+UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Desc=This panel contains shortcuts to locations and management screens for Terra Invicta.<br/><br/>Clicking here will focus the camera on Earth and activate the political overlay showing national borders, armies, and alien-related phenomena.
+UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Name=Solar System View
+UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Desc=Clicking here will bring the camera view to the solar system.
+UI.Objectives.GeneralControlsCanvas.CouncilBtn.Name=Faction Council
+UI.Objectives.GeneralControlsCanvas.CouncilBtn.Desc=Your councilors are your chief agents on Earth and later throughout the Solar System. By going on missions, they can rally nations to your cause, hunt for aliens, or interfere with the operations of other factions. You can manage and recruit councilors here.
+UI.Objectives.GeneralControlsCanvas.NationsBtn.Name=Earth Nations
+UI.Objectives.GeneralControlsCanvas.NationsBtn.Desc=The Nations panel puts all nation data in one place. You can also assign priorities to your control points here. Influencing the nations of Earth is one of the main ways of establishing geopolitical dominance with your faction. View details on any nation by clicking here.
+UI.Objectives.GeneralControlsCanvas.HabsBtn.Name=View Habitats
+UI.Objectives.GeneralControlsCanvas.HabsBtn.Desc=View details on your and other factions' space stations and surface bases in the Habitats ("Habs") panel. You can also order construction of modules for your existing habs.
+UI.Objectives.GeneralControlsCanvas.FleetsBtn.Name=View Fleets
+UI.Objectives.GeneralControlsCanvas.FleetsBtn.Desc=The fleets panel is where you view all discovered fleets, as well as design new ships and manage ship construction.
+UI.Objectives.GeneralControlsCanvas.ResearchBtn.Name=View Research Information
+UI.Objectives.GeneralControlsCanvas.ResearchBtn.Desc=Research is vital to progressing in Terra Invicta. View and manage your faction's research priorities here, as well as any contributions to collective global research projects.
+UI.Objectives.GeneralControlsCanvas.IntelBtn.Name=View Intel Panel
+UI.Objectives.GeneralControlsCanvas.IntelBtn.Desc=The intel panel is a collection of data that you have discovered about the Aliens, other factions, activity on Earth, and any space bodies in the solar system. Check back frequently to assess your faction's current knowledge and to help make better decisions.
+UI.Objectives.GeneralControlsCanvas.MapModes.Name=Change Earth Map Mode
+UI.Objectives.GeneralControlsCanvas.MapModes.Desc=Cycle through the different nation color filters for Earth here.
+UI.Objectives.GeneralControlsCanvas.Finder.Name=Finder Panel
+UI.Objectives.GeneralControlsCanvas.Finder.Desc=This is the finder panel, it is a reference list of all councilors, habs, armies, and fleets that your faction controls. Click on any object in the list to center your camera view there. You can also filter the list with the buttons on the top of the panel.
+UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Name=Game Time Settings
+UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Desc=Pause and unpause the game here, as well as adjust the game speed. At times, the game will remain paused until you address an urgent matter. <br/><br/><h>If the game is paused, unpause it here to progress to the Mission Phase.</h>
+
+UI.Objectives.NotificationScreenCanvas.NewsFeed.Name=News Feed
+UI.Objectives.NotificationScreenCanvas.NewsFeed.NameShort=News
+UI.Objectives.NotificationScreenCanvas.NewsFeed.Desc=News items will appear here in the news feed. Hover over them to read a description. Left Click to go to the relevant location or menu. Right click to dismiss the news item.
+
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.Name=Selected Councilor
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.NameShort=Councilor
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.Desc=This window shows the currently selected councilor. You can select their portrait to open the Councilor Details Screen to learn more about them. Understanding your councilors strengths and weaknesses is key to success. <h>A councilor's mission list can be found, centered, at the bottom of the interface.</h>
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorMissions.Name=Councilor Missions
+UI.Objectives.CouncilorMissionControlsCanvas.CouncilorMissions.Desc=The missions available for a selected councilor appear here, across the bottom of the interface during the <h>Mission Phase</h>. Select a mission to view the assignment details.
+
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Name=Select A Mission
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.NameShort=Missions
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Desc=This panel contains a list of available missions for the selected councilor.
+UI.Objectives.CouncilorMissionControlsCanvas.Target.Name=Mission Target
+UI.Objectives.CouncilorMissionControlsCanvas.Target.Desc=The target of the selected mission is indicated here. You can also start missions by shift-left-clicking a potential target in the geoscape and a list of possible missions for that target will appear.
+UI.Objectives.CouncilorMissionControlsCanvas.Slider.Name=Resource Slider
+UI.Objectives.CouncilorMissionControlsCanvas.Slider.Desc=Certain missions allow you to spend additional resources for an increased success chance. That slider will appear here.
+UI.Objectives.CouncilorMissionControlsCanvas.Bonuses.Name=Mission Bonuses
+UI.Objectives.CouncilorMissionControlsCanvas.Bonuses.Desc=Positive effects that boost the success rate are listed here. Contested missions rely on a particular councilor attribute, like persuasion or command.
+UI.Objectives.CouncilorMissionControlsCanvas.Penalties.Name=Mission Maluses
+UI.Objectives.CouncilorMissionControlsCanvas.Penalties.Desc=Penalties that reduce the success rate are listed here.
+UI.Objectives.CouncilorMissionControlsCanvas.SuccessRate.Name=Mission Success Chance
+UI.Objectives.CouncilorMissionControlsCanvas.SuccessRate.Desc=The overall success chance of the mission is shown here, influenced by bonuses, penalties, and the resource slider.<br/><br/><h>Important:</h> Changing conditions in the world can cause a mission's chance to succeed to change, even after you assign the mission and Confirm Assignments. This is most common for missions targeting other factions' councilors. The latest success chance will be visible under your councilor icon on the Geoscape. If necessary, you can abort missions to recover your resource expenditure for the assignment.
+UI.Objectives.CouncilorMissionControlsCanvas.Confirm.Name=Confirm Mission
+UI.Objectives.CouncilorMissionControlsCanvas.Confirm.Desc=When you are satisfied with your plans, click here to assign the mission. It will be carried out in the days and weeks following the mission phase. You can reassign councilors during the mission phase without penalty.
+UI.Objectives.CouncilorMissionControlsCanvas.ConfirmAssignments.Name=Confirm Assignments
+UI.Objectives.CouncilorMissionControlsCanvas.ConfirmAssignments.Desc=When you have assigned all available councilors to missions, select Confirm Assignments to end the Mission Phase. You will be allowed to move time forward again, and you will be updated when a mission resolves.
+
+UI.Objectives.NationInfoCanvas.Intro.Name=Nation Overview
+UI.Objectives.NationInfoCanvas.Intro.NameShort=Nations
+UI.Objectives.NationInfoCanvas.Intro.Desc=In the nation panel, you can review important information about individual nations on Earth and direct the portions of its economy that you control.
+UI.Objectives.NationInfoCanvas.Federation.Name=Federation
+UI.Objectives.NationInfoCanvas.Federation.Desc=If a nation belongs to a federation, it will display here. Federations are nations in permanent alliance and share research and boost between them.
+UI.Objectives.NationInfoCanvas.CPs.Name=Control Points
+UI.Objectives.NationInfoCanvas.CPs.Desc=<h>Control Points</h> represent nodes of political and economic power in a nation, such as control of the Mass Media or its Legislature. Nations with larger economies may have up to six control points. One of the main goals of your council is to gain control points in nations useful to your cause.<br/><br/>Faction ownership of a control point is represented by their logo; simple colored circles mean no faction has taken that control point. The rightmost control point in a nation is the "executive" control point, which grants control over the nation's foreign relations via the Set Policy councilor mission.<br/><br/>Some councilor missions target control points directly. You may click them on the map or here to select them as targets during the mission phase.<br/><br/>Hover over a control point to learn more.
+UI.Objectives.NationInfoCanvas.Overview.Name=Nation Overview
+UI.Objectives.NationInfoCanvas.Overview.Desc=This section shows details about the nation's government, unrest, and GDP. Hover over a value to view more details. <h>Government and Unrest are represented by a value ranging from 0 to 10 while GDP is displayed at the scale of Billions (BN).
+UI.Objectives.NationInfoCanvas.Military.Name=Military Overview
+UI.Objectives.NationInfoCanvas.Military.Desc=This section displays the military tech level, available strategic nuclear attacks, and the naval strength of the nation. Hover over a value to learn more.
+UI.Objectives.NationInfoCanvas.Development.Name=Development Overview
+UI.Objectives.NationInfoCanvas.Development.Desc=This section displays the nation's economic details and the distribution of incomes to control point owners. Hover over any value to learn more.
+
+UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Name=Monthly Investment Points
+UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Desc=These represent the nation's economic surplus. These points can be distributed by factions with <h>Control Points</h> in the nation through use of the <h>Priorities</h> tab. The value is set by the nation's GDP and reduced by the number of <h>Armies</h> it fields as well as by high levels of <h>Unrest</h>.
+
+UI.Objectives.NationInfoCanvas.Funding.Name=Funding
+UI.Objectives.NationInfoCanvas.Funding.Desc=This is money the nation is providing each month to be distributed to owners of its control points.
+
+UI.Objectives.NationInfoCanvas.Research.Name=Monthly Research
+UI.Objectives.NationInfoCanvas.Research.Desc=A nation's research production is a product of its education level, economy, cohesion, democracy and unrest.
+
+UI.Objectives.NationInfoCanvas.Boost.Name=Monthly Boost
+UI.Objectives.NationInfoCanvas.Boost.Desc=The nation's boost capacity, in dekatons per month.
+
+UI.Objectives.NationInfoCanvas.MissionControl.Name=Mission Control
+UI.Objectives.NationInfoCanvas.MissionControl.Desc=This is how many Mission Control points the nation maintains.
+
+UI.Objectives.NationInfoCanvas.People.Name=People Overview
+UI.Objectives.NationInfoCanvas.People.Desc=This section displays the nation's population, demographics, and public opinion of factions. Hover over any value to learn more.
+
+UI.Objectives.NationInfoCanvas.Education.Name=Education
+UI.Objectives.NationInfoCanvas.Education.Desc=A nation's <h>Education</h> value is scored based on the average years of schooling of a citizen in this nation. Nations with higher education scores produce more research, are more resistant to extreme propaganda, but gain less Cohesion from the <h>Unity</h> priority.
+
+UI.Objectives.NationInfoCanvas.Cohesion.Name=Cohesion
+UI.Objectives.NationInfoCanvas.Cohesion.Desc=A nation's <h>Cohesion</h> represents the level of unity or conflict among the people of the nation. High values describe a unified society that brooks little deviation or dissent. Middle values represent a diverse society that has both internal conflict and a healthy, creative counterculture. Middle-low values represent a high degree of political polarization, and the lowest values mean the nation's people are fragmented or even tribal. <h>High values</h> keep unrest in check and increase the nation's ability to resist occupation, <h>middle values</h> provide a bonus to national research production, representing a robust (if messy) marketplace of ideas, while <h>low values will rapidly increase Unrest</h>. Cohesion is lowered by high inequality, anocracy, having lots of regions or a large population, destruction of armies, as well as a large difference between public opinion and the ideology of control point owners. Cohesion is increased by wars, autocracy, and the <h>Unity priority</h>. <h>Democracy</h> in a nation also influences Cohesion by pulling it towards a middle value.
+
+UI.Objectives.NationInfoCanvas.PublicOpinion.Name=Public Opinion
+UI.Objectives.NationInfoCanvas.PublicOpinion.Desc=This chart shows public opinion in this nation toward the aliens. Support for a particular ideology grants an influence income to the corresponding faction, and the faction receives bonuses when attempting to gain and maintain control of the nation. The <h>Public Campaign</h> councilor mission will shift opinion in your favor. Committing atrocities will shift it away from your faction.
+
+UI.Objectives.NationInfoCanvas.PerCapitaGDP.Name=Per Capita GDP
+UI.Objectives.NationInfoCanvas.PerCapitaGDP.Desc=A nation's GDP, or Gross Domestic Product, is a measure of its annual economic output in U.S. dollars adjusted by purchasing power parity. A nation's GDP determines how many <h>Control Points</h> a nation has, how many <h>Investment Points</h> it produces, and how difficult certain missions are to complete within its borders.
+
+UI.Objectives.NationInfoCanvas.Inequality.Name=Inequality
+UI.Objectives.NationInfoCanvas.Inequality.Desc=A nation's <h>Inequality</h> score is a measure of how wealth and income is distributed in the nation. High values mean the nation doesn't have much of a middle class. Inequality grows by a little as a product of normal economic activity (<h>Economy</h> priority) or by a lot because of corruption (<h>Spoils</h> priority). <h>Resource regions</h> in a nation can contribute to its Inequality. High Inequality <h>reduces Cohesion</h> as the nation divides into haves and have-nots. It is countered by use of the <h>Welfare</h> priority.
+
+UI.Objectives.NationInfoCanvas.Tabs.Name=Additional Info Tabs
+UI.Objectives.NationInfoCanvas.Tabs.Desc=Click on any of the tabs here to view additional important information about the nation. When you have a control point in a nation you can use the <h>Priority</h> tab to control the economic focus of the nation.
+
+UI.Objectives.NationInfoCanvas.Priorities.Name=Nation Priorities
+UI.Objectives.NationInfoCanvas.Priorities.NameShort=Priorities
+UI.Objectives.NationInfoCanvas.Priorities.Desc=This tab allows you to set priorities for each control point in Nations you have control over. A nation's prioities will dictate how a nation will change over time. For example: investing in Welfare can bring down a nation's Inequality.
+UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Name=Investment Points and Priorities
+UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Desc=The nation's Investment Points are distributed evenly between control points, and then are further distributed by the individual settings on each priority. 
+UI.Objectives.NationInfoCanvas.PrioritesGDP.Name=GDP and Investment Points
+UI.Objectives.NationInfoCanvas.PrioritesGDP.Desc=A nation's GDP governs the number of Investment Points it has to spend. 
+UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Name=Completing Priorities
+UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Desc=Investment Points fill the nation's priority "buckets" that trigger some effect when completely filled -- such an increase in per-capita GDP (Economy) or deployment of a new army (Build Army).
+UI.Objectives.NationInfoCanvas.PrioritesCycler.Name=Priorities Cycler 
+UI.Objectives.NationInfoCanvas.PrioritesCycler.Desc=By clicking these dots you can cycle the weight given to a particular priority. This will direct more of the nation's Investment Points towards that priority.
+UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Name=Apply Changes To All Control Points
+UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Desc=By selecting your faction symbol at the top of a priority column, you can apply that column's priorites to all your other control points in a nation. 
+UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Name=Starting Out
+UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Desc=There are many priorites and as such it can be easy to feel overwhelmed. Consider what you want a nation to specialize in and then focus on the priorites that will help you get there. For Example: you may want a small nation to specialize in producing Mission Control for your space assets, or a large nation to specialize in Science output to increase your research speed.
+UI.Objectives.NationInfoCanvas.PrioritesNegatives.Name=National Negatives
+UI.Objectives.NationInfoCanvas.PrioritesNegatives.Desc=Remember that Unrest, Low Cohesion and High Inequality are always a drain on a nation.
+UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Name=Priority Templates
+UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Desc=You can select different priority templates from the drop down menu here. 
+UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Name=Direct Investment 
+UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Desc=By accessing the Direct Investment window, you can spend Money and Influence to directly fund a nation's development.
+UI.Objectives.NationInfoCanvas.AbandonNation.Name=Abandon Nation
+UI.Objectives.NationInfoCanvas.AbandonNation.Desc=If for some reason you no longer wish to control a nation, you can abandon all your control points by selecting "Abandon Nation". This option is helpful for when you are over your control point limit and wish to avoid the ensuing penalties.
+
+UI.Objectives.NationInfoCanvas.DirectInvest.Name=Direct Investment In Nation
+UI.Objectives.NationInfoCanvas.DirectInvest.NameShort=Invest
+UI.Objectives.NationInfoCanvas.DirectInvest.Desc=Here you can spend money and influence to mirror the nation's investment point income for rapid effects.
+UI.Objectives.NationInfoCanvas.NuclearWeapons.Name=The Button
+UI.Objectives.NationInfoCanvas.NuclearWeapons.Desc=If you have executive control of a nation, you may launch nuclear strikes against its enemies with a button that appears here. These do horrific damage to regions and infrastructure.
+UI.Objectives.NationInfoCanvas.Policy.Name=Set Nation Policies
+UI.Objectives.NationInfoCanvas.Policy.Desc=If you have executive control of a nation, you may send a councilor on the <h>Set National Policy</h> mission for it. By setting national policies, you can direct nations to go to war, enter or leave federations, cede territory, and more. Use this tab to see what national policies are available.
+
+UI.Objectives.IntelScreenCanvas.AlienCouncilors.Name=Aliens
+UI.Objectives.IntelScreenCanvas.AlienCouncilors.NameShort=Aliens
+UI.Objectives.IntelScreenCanvas.AlienCouncilors.Desc=This section shows any individual aliens you have detected on Earth.
+UI.Objectives.IntelScreenCanvas.AlienEvents.Name=Alien Events
+UI.Objectives.IntelScreenCanvas.AlienEvents.Desc=This section shows all events related to aliens. Click on an event to center the camera on the location of the event.
+UI.Objectives.IntelScreenCanvas.AlienSites.Name=Alien Sites
+UI.Objectives.IntelScreenCanvas.AlienSites.Desc=This section displays all known locations of the aliens. Click on a site to center the camera on the location of the site.
+UI.Objectives.IntelScreenCanvas.AlienFleets.Name=Alien Fleets
+UI.Objectives.IntelScreenCanvas.AlienFleets.Desc=This section lists all known alien fleets. Click on a fleet to center the camera on the fleet.
+UI.Objectives.IntelScreenCanvas.AlienHabs.Name=Alien Habs
+UI.Objectives.IntelScreenCanvas.AlienHabs.Desc=This section list all known alien habs. Click on a hab to center the camera on the hab.
+UI.Objectives.IntelScreenCanvas.AlienThreat.NameShort=Threat
+UI.Objectives.IntelScreenCanvas.AlienThreat.Name=Estimated Alien Threat Level
+UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=This panel represents our intelligence section's best estimate about the degree to which the aliens regard our faction as a threat. It is based on our monitoring of pro-alien groups and visible alien activity in the Solar System.<br/><br/>We believe hostile actions against the aliens or their proxies on Earth, and/or a large visible space presence, increases their concern about us, and we may expect the aliens to retaliate against our interests on Earth and in space should the alert monitor reach the maximum level. They may also lose interest if we avoid opposing them or their proxies on Earth directly for a time.<br/><br/>Our analysts emphasize this is an imperfect estimate. We will correct our estimates when the aliens take direct action against us or by speaking with one of them directly.
+
+UI.Objectives.IntelScreenCanvas.FactionOverview.Name=Faction Overview
+UI.Objectives.IntelScreenCanvas.FactionOverview.NameShort=Factions
+UI.Objectives.IntelScreenCanvas.FactionOverview.Desc=This screen shows any details that you have discovered on any of the human factions.
+UI.Objectives.IntelScreenCanvas.FactionCouncilors.Name=Faction Councilors
+UI.Objectives.IntelScreenCanvas.FactionCouncilors.Desc=This tab will show you information on discovered councilors. You may shift-click on any tab to switch all faction tabs at once.
+UI.Objectives.IntelScreenCanvas.FactionResources.Name=Faction Resources
+UI.Objectives.IntelScreenCanvas.FactionResources.Desc=This tab shows any information on a faction's resources and income.
+UI.Objectives.IntelScreenCanvas.FactionObjectives.Name=Faction Objectives
+UI.Objectives.IntelScreenCanvas.FactionObjectives.Desc=This tab will display the faction's objectives, if you have discovered them.
+UI.Objectives.IntelScreenCanvas.FactionRelations.Name=Faction Relations
+UI.Objectives.IntelScreenCanvas.FactionRelations.Desc=This tab shows inter-faction relations.
+UI.Objectives.IntelScreenCanvas.FactionTech.Name=Faction Tech
+UI.Objectives.IntelScreenCanvas.FactionTech.Desc=This tab shows any intel gained on faction research. You may shift-click on any tab to switch all faction tabs at once.
+
+UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.Name=Public Opinion
+UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.NameShort=Stats
+UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.Desc=Here you can view the public support for the different factions and their objectives. Global public support contributes to influence income for each faction.
+UI.Objectives.IntelScreenCanvas.GlobalWorldData.Name=World Data
+UI.Objectives.IntelScreenCanvas.GlobalWorldData.Desc=This section shows basic demographics on Earth and in the Solar System.
+UI.Objectives.IntelScreenCanvas.GlobalCommodities.Name=Commodities
+UI.Objectives.IntelScreenCanvas.GlobalCommodities.Desc=This sections shows the current value of different resources.
+UI.Objectives.IntelScreenCanvas.GlobalEnvironment.Name=Environment
+UI.Objectives.IntelScreenCanvas.GlobalEnvironment.Desc=This sections contains information on the general health of Earth.
+UI.Objectives.IntelScreenCanvas.GlobalWars.Name=Global Wars
+UI.Objectives.IntelScreenCanvas.GlobalWars.Desc=This section contains a list of any ongoing wars between Earth's nations.
+UI.Objectives.IntelScreenCanvas.Atrocities.Name=Atrocities
+UI.Objectives.IntelScreenCanvas.Atrocities.Desc=This section contains a record of the number of Atrocities each faction has commited. Atrocites are actions that cause mass death or suffering, and responsible factions suffer the loss of supporters as a result. Atrocities effect public opinion and are cumulative; as a faction commits more, the public opinion penalty increases dramatically.
+
+UI.Objectives.IntelScreenCanvas.SpacebodySorting.Name=Sorting
+UI.Objectives.IntelScreenCanvas.SpacebodySorting.NameShort=Intel
+UI.Objectives.IntelScreenCanvas.SpacebodySorting.Desc=This panel contains a list of every space body in the solar system and information on each of them. Click on any information field to sort the list by that metric.
+UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Name=Supported Habs Limit
+UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Desc=This value shows the maximum number of Habs that the space body can support.
+UI.Objectives.IntelScreenCanvas.SpacebodyResources.Name=Available Resources
+UI.Objectives.IntelScreenCanvas.SpacebodyResources.Desc=This area displays the resources available for mining on the space body. Until you prospect a space body via probe or spacecraft, you only have estimates of its output. Chevrons indicate a measure of abundance; a "?" indicates only the possible presence of the resource, and a null symbol indicates the resource is not present.
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Name=Earth Launch Window
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=This value indicates the current launch window status, an increase or decrease in the time required to travel to the space body from Earth, a result of the variable distance between the objects on their respective orbits.
+UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Name=Go To Object
+UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Desc=Click here to center the camera on the location of the space body.
+
+UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Name=Transfer Planner
+UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.NameShort=Transfers
+UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Desc=This screen is for planning ship designs and exploring different trajectory options for fleets you control or ships you intend to build in the future. You can adjust the values below to see how long a particular transfer will take with the specified acceleration and Delta-v values.
+UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Name=Origin and Destination
+UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Desc=Set the fleet's origin and destination point here. A list will populate on the right with all of the available spacebodies and targets. You can use your fleet's existing position or plan a future transfer by selecting any 2 points.
+UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Name=Acceleration and Delta-v
+UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Desc=The acceleration and Delta-v is set here. These values are determined by the ship's drives within a fleet. You can use the values in your current ship's drives. Or adjust the numbers to represent a ship you are planning to build to observe the changes to trajectories.
+UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Name=Adjusting the Thrust Profile
+UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Desc=Make changes in this section to observe changes in the arrival time & Delta-v usage for the trajectory with any given thrust profile.
+
+UI.Objectives.HabScreenCanvas.HabInfo.Name=Habs
+UI.Objectives.HabScreenCanvas.HabInfo.NameShort=Habs
+UI.Objectives.HabScreenCanvas.HabInfo.Desc=Habitats or <h>Habs</h> come in two forms, <h>Stations</h> that orbit space bodies, and <h>Bases</h> that are built on space bodies. <br/><br/>Here you can view information about habs throughout the solar system. Information such as faction owner, population, income and maintenance costs, operatonal status, and if a hab has open module slots. 
+UI.Objectives.HabScreenCanvas.Bases.Name=Bases
+UI.Objectives.HabScreenCanvas.Bases.Desc=If this box is checked bases will be shown in the list below. Both stations and bases can be displayed at the same time.
+UI.Objectives.HabScreenCanvas.Stations.Name=Stations
+UI.Objectives.HabScreenCanvas.Stations.NameShort=Stations
+UI.Objectives.HabScreenCanvas.Stations.Desc=If this box is checked stations will be shown in the list below
+UI.Objectives.HabScreenCanvas.FactionFilter.Name=Faction Filter
+UI.Objectives.HabScreenCanvas.FactionFilter.Desc=Use this drop down to filter habs and stations by their owner factions.
+UI.Objectives.HabScreenCanvas.LocationFilter.Name=Location Filter
+UI.Objectives.HabScreenCanvas.LocationFilter.Desc=Use this drop down to filter habs and stations by their location in the solar system.
+UI.Objectives.HabScreenCanvas.ManageHabBtn.Name=Manage Hab
+UI.Objectives.HabScreenCanvas.ManageHabBtn.Desc=After selecting a Hab or Station that you control use the Manage button, that appears here, to make changes, such as adding or replacing modules.
+
+UI.Objectives.HabScreenCanvas.HabManagementInfo.Name=Hab General Info
+UI.Objectives.HabScreenCanvas.HabManagementInfo.NameShort=Habs
+UI.Objectives.HabScreenCanvas.HabManagementInfo.Desc=This section shows the overview data on the hab.
+UI.Objectives.HabScreenCanvas.HabManagementModuleInfo.Name=Selected Module Data
+UI.Objectives.HabScreenCanvas.HabManagementModuleInfo.Desc=Click on any module on the hab in the large window to the right to display it's data here.
+UI.Objectives.HabScreenCanvas.HabManagementModuleList.Name=Available Module List
+UI.Objectives.HabScreenCanvas.HabManagementModuleList.Desc=This list contains a list of available modules for this hab. Left click to view more details. Drag and drop or right-click a module to add it to the hab and begin construction.
+UI.Objectives.HabScreenCanvas.HabManagementModuleClick.Name=Click A Module
+UI.Objectives.HabScreenCanvas.HabManagementModuleClick.Desc=Left clicking this module will allow you to view more details on it.
+
+UI.Objectives.FleetScreenCanvas.FleetOverview.Name=Fleet Screen
+UI.Objectives.FleetScreenCanvas.FleetOverview.NameShort=Fleets
+UI.Objectives.FleetScreenCanvas.FleetOverview.Desc=This screen shows all of your fleet and ship data and serves as a hub for managing ship design and construction.
+UI.Objectives.FleetScreenCanvas.FleetCombat.Name=Fleet Combat Strength
+UI.Objectives.FleetScreenCanvas.FleetCombat.Desc=These values indicate the number of ships in the fleet and the overall combat strength of the fleet.
+UI.Objectives.FleetScreenCanvas.FleetOperations.Name=Fleet Operations
+UI.Objectives.FleetScreenCanvas.FleetOperations.Desc=This section indicates the location of the fleet and any operation or transfer it is currently undertaking.
+UI.Objectives.FleetScreenCanvas.FleetCapabilities.Name=Fleet Capabilities
+UI.Objectives.FleetScreenCanvas.FleetCapabilities.Desc=These values indicate your fleet's acceleration and Delta-v budget. Delta-v is a representation of fuel in space travel, and indicates the ability to change velocity.
+UI.Objectives.FleetScreenCanvas.FleetAbilities.Name=Fleet Abilities
+UI.Objectives.FleetScreenCanvas.FleetAbilities.Desc=These icons show which abilities are available to your fleet.
+UI.Objectives.FleetScreenCanvas.FleetGoto.Name=Go To Fleet
+UI.Objectives.FleetScreenCanvas.FleetGoto.Desc=Click here to focus the camera on the location of the fleet.
+UI.Objectives.FleetScreenCanvas.FleetToggleAll.Name=Show All Fleets
+UI.Objectives.FleetScreenCanvas.FleetToggleAll.Desc=Toggle this checkbox to view enemy fleets in the list.
+UI.Objectives.FleetScreenCanvas.FleetExpand.Name=Expand Fleet To View Ships
+UI.Objectives.FleetScreenCanvas.FleetExpand.Desc=Clicking on the name space of a fleet in the list will expand the view to show all of the ships contained inside of the fleet. Click on any ship listed to view details on that ship.
+
+UI.Objectives.FleetScreenCanvas.ClassOverview.Name=Ship Classes Overview
+UI.Objectives.FleetScreenCanvas.ClassOverview.NameShort=Classes
+UI.Objectives.FleetScreenCanvas.ClassOverview.Desc=This screen shows all of the ship classes that you have designed.
+UI.Objectives.FleetScreenCanvas.ClassBuild.Name=Build A Ship
+UI.Objectives.FleetScreenCanvas.ClassBuild.Desc=Click here to open up the construction screen, which is used to manage the construction of your ships and fleets.
+UI.Objectives.FleetScreenCanvas.ClassUpgrade.Name=Modify Or Upgrade An Existing Design.
+UI.Objectives.FleetScreenCanvas.ClassUpgrade.Desc=Click here to modify the current design and make improvements to it.
+UI.Objectives.FleetScreenCanvas.ClassDesign.Name=Design A New Class
+UI.Objectives.FleetScreenCanvas.ClassDesign.Desc=Click here to design a new ship class from scratch in the ship designer.
+UI.Objectives.FleetScreenCanvas.Obsolete.Name=Obsolete Toggle
+UI.Objectives.FleetScreenCanvas.Obsolete.Desc=Toggling a design to "Obsolete" will prevent it from appearing in the list of available designs in the construction manager. You may only delete a design entirely if no ships of the class have been built or are currently on order.
+
+UI.Objectives.FleetScreenCanvas.DetailSelectShip.Name=Select A Ship
+UI.Objectives.FleetScreenCanvas.DetailSelectShip.NameShort=Ships
+UI.Objectives.FleetScreenCanvas.DetailSelectShip.Desc=This column displays a list of all ships. Left click any ship on this list to view the details on that ship.
+UI.Objectives.FleetScreenCanvas.DetailPrimarySystems.Name=Ship Primary Systems
+UI.Objectives.FleetScreenCanvas.DetailPrimarySystems.Desc=This section contains all of the primary systems on the ship. Left-click any system to view more details on that system in the box below.
+UI.Objectives.FleetScreenCanvas.DetailMissionSystems.Name=Ship Mission System
+UI.Objectives.FleetScreenCanvas.DetailMissionSystems.Desc=This column displays all mission systems on the ship. Left-click any system to view more details on that system in the box at the bottom of the column.
+UI.Objectives.FleetScreenCanvas.DetailDamage.Name=Ship Damage Report
+UI.Objectives.FleetScreenCanvas.DetailDamage.Desc=This section contains the damage status on any hardpoints on the ship. Hover over any hardpoint to view more details.
+UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Name=View All Ships
+UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Desc=Toggle this checkbox to enable viewing of enemy ships in the list.
+
+UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Name=Select A Ship Class
+UI.Objectives.FleetScreenCanvas.ConstructSelectShip.NameShort=Build
+UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Desc=This list contains a list of all of your ship class designs and the costs to construction each ship. Click on a ship class to view more details and add it to a construction queue.
+UI.Objectives.FleetScreenCanvas.ConstructAddToQueue.Name=Add To Queue
+UI.Objectives.FleetScreenCanvas.ConstructAddToQueue.Desc=Once you have selected a ship class, click here to add it to a station's construction queue
+UI.Objectives.FleetScreenCanvas.ConstructBoostToggle.Name=Toggle Boost
+UI.Objectives.FleetScreenCanvas.ConstructBoostToggle.Desc=Toggle this checkbox to enable the shipyard to use boost and money to transport any missing space resources from Earth.
+UI.Objectives.FleetScreenCanvas.ConstructBuildData.Name=Construction Data
+UI.Objectives.FleetScreenCanvas.ConstructBuildData.Desc=This area shows the current status of the ship being constructed.
+UI.Objectives.FleetScreenCanvas.ConstructQueueUp.Name=Modify Queue Position
+UI.Objectives.FleetScreenCanvas.ConstructQueueUp.Desc=If you have multiple ships in the queue, you can use these arrows to adjust the order of ship construction.
+UI.Objectives.FleetScreenCanvas.ConstructQueueRemove.Name=Remove Ship From Queue
+UI.Objectives.FleetScreenCanvas.ConstructQueueRemove.Desc=You can click here to remove a selected ship from the queue if desired.
+
+UI.Objectives.FleetScreenCanvas.DesignOverview.Name=Ship Designer
+UI.Objectives.FleetScreenCanvas.DesignOverview.NameShort=Design
+UI.Objectives.FleetScreenCanvas.DesignOverview.Desc=This screen is where you create your ship designs.
+UI.Objectives.FleetScreenCanvas.DesignSelectClass.Name=Select a Hull
+UI.Objectives.FleetScreenCanvas.DesignSelectClass.Desc=First, select a hull from the list. This determines the layout of the ship and how many weapons and modules you can add.
+UI.Objectives.FleetScreenCanvas.DesignNoseWep.Name=Nose Weapons
+UI.Objectives.FleetScreenCanvas.DesignNoseWep.Desc=This tab contains all available nose weapons. Left-click a module to view more details in the bottom-left box. To add a module to the design simply right-click or drag and drop into a matching shape below. Nose weapons fire in a limited arc out of the "top" of the vessel.<br/><br/><h>Right-click the weapon sub-tabs to see the list view of available modules.</h>
+UI.Objectives.FleetScreenCanvas.DesignModuleData.Name=Selected Module Data
+UI.Objectives.FleetScreenCanvas.DesignModuleData.Desc=This area contains additional details on any module that you left-click.
+UI.Objectives.FleetScreenCanvas.DesignHullWep.Name=Hull Weapons
+UI.Objectives.FleetScreenCanvas.DesignHullWep.Desc=Left-click this tab to view all available hull weapons. Hull weapons have a full field of fire in all directions around a ship, but aren't as powerful as nose weapons.
+UI.Objectives.FleetScreenCanvas.DesignUtility.Name=Utility Modules
+UI.Objectives.FleetScreenCanvas.DesignUtility.Desc=This tab contains all available utility modules. Utility modules provide additional functionality or abilities to the ship.<br/><br/><h>Right-click the module tabs to see the list view of available modules.</h>
+UI.Objectives.FleetScreenCanvas.DesignRadiator.Name=Radiators
+UI.Objectives.FleetScreenCanvas.DesignRadiator.Desc=Radiators are required and maintain a functional temperature within the ship. <h>If heat is not properly managed the ship will take internal damage and eventually experience catastrophic failure.</h>
+UI.Objectives.FleetScreenCanvas.DesignBattery.Name=Batteries
+UI.Objectives.FleetScreenCanvas.DesignBattery.Desc=Batteries are required and store energy so they can be used by other systems on demand.
+UI.Objectives.FleetScreenCanvas.DesignPower.Name=Power Plants
+UI.Objectives.FleetScreenCanvas.DesignPower.Desc=Power plants are required and generate energy for your other systems.
+UI.Objectives.FleetScreenCanvas.DesignDrive.Name=Drives
+UI.Objectives.FleetScreenCanvas.DesignDrive.Desc=Drives are required and are responsible for propelling your ship through space. You may have up to six thrusters on a drive module, each one increasing the ship's thrust. You can also increase the number of propellant tanks to provide more Delta-v.
+UI.Objectives.FleetScreenCanvas.DesignArmor.Name=Armor Modules
+UI.Objectives.FleetScreenCanvas.DesignArmor.Desc=Armor modules protect your ship in combat. There are 3 armor slots: nose, lateral, and tail. A point of lateral armor is much heavier than nose or tail armor because it has a much greater surface area to cover.
+UI.Objectives.FleetScreenCanvas.DesignShipData.Name=Ship Data
+UI.Objectives.FleetScreenCanvas.DesignShipData.Desc=This section shows the overall characteristics of your designed ship, and updates with any module changes.
+
+UI.Objectives.FleetScreenCanvas.DesignDataShipMass.Name=Ship Mass
+UI.Objectives.FleetScreenCanvas.DesignDataShipMass.NameShort=Stats
+UI.Objectives.FleetScreenCanvas.DesignDataShipMass.Desc=Mass influences the ship's maneuverability. Higher mass decreases Delta-v and turn rate.
+UI.Objectives.FleetScreenCanvas.DesignDataShipCruiseAccel.Name=Cruise Accel
+UI.Objectives.FleetScreenCanvas.DesignDataShipCruiseAccel.Desc=This is how quickly a ship can change its velocity in the strategy layer. Higher cruise accelerations allow ships to overcome a space body's gravity and take more direct trajectories to its destination.
+UI.Objectives.FleetScreenCanvas.DesignDataShipCombatAccel.Name=Combat Accel
+UI.Objectives.FleetScreenCanvas.DesignDataShipCombatAccel.Desc=This is how quickly a ship can change its velocity in the combat layer.
+UI.Objectives.FleetScreenCanvas.DesignDataShipDV.Name=Delta-v
+UI.Objectives.FleetScreenCanvas.DesignDataShipDV.Desc=Delta-v, measured in kilometers per second, is the critical stat for a ship that determines where it can go and how fast it can get there. More propellant increases Delta-v. More mass on the ship decreases it. Efficient drives (with a high exhaust velocity value) use less propellant to get the same thrust as less efficient drives.<br/><br/>Note that ships with less than 5 kps Delta-v may have trouble reaching the Moon from an Earth orbit. Ships with less than 10 kps Delta-v will not be able to reliably perform interplanetary transfers from Earth. Trips to the outer planets or ships intended for heavy maneuvering in combat may require more. In some cases, ships with low Delta-v may have to wait for a favorable alignment of planets, called a launch window, before they can depart.
+UI.Objectives.FleetScreenCanvas.DesignDataShipTurnRate.Name=Turn Rate
+UI.Objectives.FleetScreenCanvas.DesignDataShipTurnRate.Desc=This is how quickly your ship can change its orientation in combat. This value is dependent on the length and mass of your ship; shorter ships will turn faster all other things being equal.
+UI.Objectives.FleetScreenCanvas.DesignDataShipHeatSink.Name=Heat Sink Capacity
+UI.Objectives.FleetScreenCanvas.DesignDataShipHeatSink.Desc=Heat sinks serve as a temporary substitute for a ship's heat management while a ship's vulnerable radiators are retracted in combat. Waste heat from ship systems are dumped into these sinks and stored until it can be expelled safely. Heat sinks have a capacity, measured in Gigajoules; higher values allow the ship to fight longer without extending its radiators. 
+UI.Objectives.FleetScreenCanvas.DesignDataShipBattery.Name=Battery Capacity
+UI.Objectives.FleetScreenCanvas.DesignDataShipBattery.Desc=The ship's batteries store power from its power plant for use by many weapon systems when the power plant is unavailable to supply power either due to damage or when the ship's drive is active. More advanced batteries are able to recharge during combat.
+UI.Objectives.FleetScreenCanvas.DesignDataShipCost.Name=Cost
+UI.Objectives.FleetScreenCanvas.DesignDataShipCost.Desc=This is the cost in space resources to build this ship. If the resources are readily available on Earth, you may substitute the boost and money resource at shipyards, although it will lengthen the time to complete it while awaiting delivery.
+UI.Objectives.FleetScreenCanvas.DesignDataShipBuildTime.Name=Build Time
+UI.Objectives.FleetScreenCanvas.DesignDataShipBuildTime.Desc=This is how long it will take to build the ship once all required materials are at the shipyard. Larger shipyards reduce build time.
+
+UI.Objectives.FleetScreenCanvas.DesignSave.Name=Save Design
+UI.Objectives.FleetScreenCanvas.DesignSave.Desc=When finished designing your ship class, click here to save the design. This will be unavailable for incomplete designs.
+
+UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Name=Weapon Tutorial
+UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleDrive.Name=Drive Tutorial
+UI.Objectives.FleetScreenCanvas.DesignModuleDrive.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModulePower.Name=Power Plant Tutorial
+UI.Objectives.FleetScreenCanvas.DesignModulePower.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleRadiator.Name=Radiator Tutorial
+UI.Objectives.FleetScreenCanvas.DesignModuleRadiator.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Name=Heat Sink Tutorial
+UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Desc=
+UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Name=Battery Tutorial
+UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Desc=
+
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Name=Global Research
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.NameShort=Research
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Desc=The alien arrival has caused a flurry of new ideas from the scientific community. The research screen shows progress on collective, global research efforts as well as the private projects your faction is pursuing.<br/><br/>The top row of three pie charts describe the ongoing investigations into broad scientific principles, the benefits of which will be shared among humanity. All factions may elect to contribute some or all of its research income to each. The faction who contributes the most to a specific effort may choose the next one.
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Name=Council Engineering Projects
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=The second row of pie charts represents your faction's projects. Unlike global research, these are internal to your faction, but they consume your research income as well.<br/><br/>Projects provide tangible benefits, such as resources or new ship or hab modules.<br/><br/>Project availability is primarily determined by what global research has been completed; the more you contribute to global research, the more likely you'll have quick access to the projects they trigger. You must acquire project-providing orgs and hab modules to be able to run multiple projects simultaneously.
+UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Name=Research Priority Cycler
+UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Desc=This is the priority cycler; left or right click to increase or decrease the filled squares. Your research income is spent proportionally between all projects based on the number of filled squares on each project. You get bonuses to research for contributing to multiple projects simultaneously.
+UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Name=Research Values
+UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Desc=This shows the research income spent on this project and how close it is to completion.
+UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Name=Tech Details
+UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Desc=This button shows the effect of researching this tech.
+UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Name=Tech Tree
+UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Desc=This button opens the tech tree. Where you can plan your path through the tech tree. 
+UI.Objectives.ResearchScreenCanvas.PrimaryArchives.Name=Research Archives
+UI.Objectives.ResearchScreenCanvas.PrimaryArchives.Desc=This button opens the research archives where you can see what projects your faction has completed.
+
+UI.Objectives.NationsScreenCanvas.NationsSort.Name=Nation Sorting
+UI.Objectives.NationsScreenCanvas.NationsSort.NameShort=Nations
+UI.Objectives.NationsScreenCanvas.NationsSort.Desc=This screen shows data on all of the nations on Earth. Click on any value field to sort the list by that value.
+UI.Objectives.NationsScreenCanvas.NationsExpand.Name=Expand To View Control Points
+UI.Objectives.NationsScreenCanvas.NationsExpand.Desc=Click on a nation's flag to expand the view to show each of the control points in that nation.
+UI.Objectives.NationsScreenCanvas.NationsControlPriority.Name=Modify Nation's Priorities
+UI.Objectives.NationsScreenCanvas.NationsControlPriority.Desc=If you have control over a nation, you can select an active priority template here. You cannot modify priorities for any nation you do not control.
+UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Name=Design A Priority Template
+UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Desc=Click here to design your own custom priority template.
+UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Name=Control Point Summary
+UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Desc=Click to open a panel that summarizes your faction's capacity to possess control points without influence and mission penalties.
+
+UI.Objectives.NationsScreenCanvas.DesignCycler.Name=Priority Cycler
+UI.Objectives.NationsScreenCanvas.DesignCycler.NameShort=Priorities
+UI.Objectives.NationsScreenCanvas.DesignCycler.Desc=This column contains the priority cycler. Left or right click to increase or decrease the value. Percentages are divided evenly based on the value of the cyclers.
+UI.Objectives.NationsScreenCanvas.DesignName.Name=Template Name
+UI.Objectives.NationsScreenCanvas.DesignName.Desc=When you are finished adjusted the priority values, you can specify a name for your template here.
+UI.Objectives.NationsScreenCanvas.DesignSave.Name=Save your Template
+UI.Objectives.NationsScreenCanvas.DesignSave.Desc=Once you are finished and have selected a name, click here to save your template.
+UI.Objectives.NationsScreenCanvas.DesignLoad.Name=Load A Design
+UI.Objectives.NationsScreenCanvas.DesignLoad.Desc=This dropdown selection allows you to load and view any saved templates.
+
+UI.Objectives.SpaceCombatCanvas.Intro.Name=Space Battles
+UI.Objectives.SpaceCombatCanvas.Intro.Desc=Welcome to combat in Terra Invicta. The goal of any combat depends on the strategic situation. If you believe you have the advantage, your goal is to destroy the opposing fleet or to force them to withdraw. If you do not like your odds, the goal may be to simply withdraw as many of your ships from the battle as possible.
+UI.Objectives.SpaceCombatCanvas.Formations.Name=Formations
+UI.Objectives.SpaceCombatCanvas.Formations.Desc=At the start of every battle in Terra Invicta, you will decide the starting formation for your ships. Do you want your most armored ships in the front, or your most heavily armed ships concentrated on one side? The choice is up to you. 
+UI.Objectives.SpaceCombatCanvas.MainFriendlyShipList.Name=Your Ships In Battle
+UI.Objectives.SpaceCombatCanvas.MainFriendlyShipList.Desc=This panel displays a list of your active ships in this space battle. You can click on any ship icon in this list to open a detail panel that includes ship-specific commands and fire control. Double-click a ship icon to focus the camera on that ship.
+UI.Objectives.SpaceCombatCanvas.MainEnemyShipList.Name=Enemy Ships In Battle
+UI.Objectives.SpaceCombatCanvas.MainEnemyShipList.Desc=This panel displays a list of all enemy ships in the battle and overall damage to the ships. Double click on a ship icon to center the camera on that ship.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Name=Fleet Command Bar
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Desc=This is the fleet command bar. The commands given here will apply to all of your ships at once. If you want to give a command to an individual ship, click on either the ship or its icon in the left panel to open up that ship's detail panel. You can hover over the command buttons to view more details.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Name=Fleet: Set Primary Target
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=This will prompt you to select an enemy ship as a primary target for all of your fleet's weapons. Missile weapons will only fire at primary targets.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Name=Fleet: Clear Primary Target
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Desc=This will clear the current target for all weapons in your fleet and allow them to fire at will.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandExtendRadiators.Name=Fleet: Extend Radiators
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandExtendRadiators.Desc=This command will extend the radiators of all ships in your fleet. Radiators bleed off heat stored in the ship's heat sinks when extended. When extended, however, they are extremely vulnerable to attack.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandRetractRadiators.Name=Fleet: Retract Radiators
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandRetractRadiators.Desc=This command will retract the radiators of all ships in your fleet. Radiators are protected from attack while retracted. However, they will not bleed off heat while retracted. When a ship's heat level is full, its radiators will be forced to extend. If they are destroyed, the ship will suffer damage and face destruction.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandAIControl.Name=Fleet: Set AI Control
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandAIControl.Desc=This will set all ships in your fleet to be controlled by the AI. You may restore control at any time.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFocusFire.Name=Fleet: Set Focus Fire Posture
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFocusFire.Desc=Set all offensive weapons in your fleet to Focus Fire on their primary target, they will ignore all other enemies. Guardian-capable weapons will not fire defensively.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureAttack.Name=Fleet: Set Attack Posture
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureAttack.Desc=Set all offensive weapons in your fleet to favor their primary target if it is in range, otherwise they will attack the nearest available target. Guardian-capable weapons will not fire defensively.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureBalanced.Name=Fleet: Set Balanced Posture
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureBalanced.Desc=Set all offensive weapons in your fleet to favor the primary target if it is in range, otherwise they will attack the nearest available target. Guardian-capable weapons will be set to Guardian mode and fire at threatening enemy projectiles before targeting ships.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureDefensive.Name=Fleet: Set Defensive Posture
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureDefensive.Desc=Set all offensive weapons in your fleet to favor the primary target if it is in range, otherwise they will attack the nearest available target. Guardian-capable weapons will only target projectiles and will not target ships.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFortified.Name=Fleet: Set Fortified Posture
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFortified.Desc=Set all offensive weapons in your fleet to idle to preserve power and ammo. All other weapons will be set to defensive mode.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandManeuver.Name=Fleet: Maneuver Commands
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandManeuver.Desc=This button opens an additional panel with advanced maneuvering options. For example, Lock-on to a ship's primary target to keep the ships nose pointed at it or order a fleetwide All Stop.
+UI.Objectives.SpaceCombatCanvas.OfferToEndBattle.Name=Offer To End Battle
+UI.Objectives.SpaceCombatCanvas.OfferToEndBattle.Desc=Check this to offer to end the battle by mutual consent with the enemy commander. If both sides select this option, the battle will end.
+UI.Objectives.SpaceCombatCanvas.EndBattle.Name=Ending The Battle
+UI.Objectives.SpaceCombatCanvas.EndBattle.Desc=Combat comes to an end when a fleet has been destroyed, a fleet has retreated, or both sides have agreed to end the battle. 
+UI.Objectives.SpaceCombatCanvas.TimeControls.Name=Combat Time Controls
+UI.Objectives.SpaceCombatCanvas.TimeControls.Desc=Use these controls to manage the flow of time during the battle.
+
+UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Name=Selected Ship Details
+UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Desc=This panel contains all of the information about the ship you currently have selected.
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Name=Ship Command Bar
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Desc=This bar contains commands that may be issued to your currently selected ship. To issue commands to your entire fleet simultaneously, use the fleet command bar at the top of the screen.
+UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Name=Ramming Speed
+UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Desc=This will command the ship to plot a collision course with its primary target. A collision will deal severe and likely fatal damage to both ships. This typically incurs an influence cost, which resprents the capability to persuade the crew to give up their lives.
+UI.Objectives.SpaceCombatCanvas.ShipDetailDisengage.Name=Disengage
+UI.Objectives.SpaceCombatCanvas.ShipDetailDisengage.Desc=This will command the ship to withdraw from the battle. A ship will withdraw when 30 minutes have passed, and the ship is 2,000 km away from any enemy ships.
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Name=Ship Maneuver Commands
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Desc=This button opens an additional panel with advanced maneuvering options. These allow you to control a ship's rotational and facing angles to better position itself in combat. For example, Lock-on to a ship's primary target to keep the ships nose pointed at it or enact Defensive Maneuvers to minimize exposure to incoming fire.
+UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Name=Ship Temperature
+UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Desc=This bar shows the stored heat within the ship's heat sinks. Heat will dissipate whenever the radiators are extended. When the heat level reaches maximum, the ship will start to take internal damage. If possible, the radiators will be extend to start radiating heat. <h>Without proper heat management a ship will experience catastrophic failure.</h> 
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=Ship Battery Remaining
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=This bar shows the remaining battery charge left on this ship. Some weapons consume battery charge when firing but will recharge from the power plant. Monitor your consumption and remaining charge to ensure your ship can fight at optimal strength in pivotal moments.
+UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Name=Ship Delta-v Remaining
+UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Desc=This shows the remaining Delta-v budget this ship may expend in the current battle. A ship always reserves enough Delta-v to complete its current trajectory.
+UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Name=Ship Hull Weapons
+UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Desc=The ship's hull weapons are listed here. Hull weapons are mounted in pairs on the lateral hull of the ship and can rotate to fire in any direction. You can click on the weapon icon listed here to cycle through the different available firing modes.
+UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Name=Ship Nose Weapons
+UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Desc=The ship's nose weapons are listed here. Nose weapons are mounted on the nose of the ship and can only fire in an arc relative to the forward facing angle to the ship. You can click on the weapon icon listed here to cycle through the different available firing modes. Hover over a weapon to view additional details.
+UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Name=Ship Damage Sustained
+UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Desc=This area shows any damage the selected ship has sustained and where the damage occurred. Hover over any of the hardpoints to view more details.
+UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Name=Ship Destruction
+UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Desc=A ship is destroyed when its nose, central, and tail sections sustain too much damage.
+
+UI.Objectives.SpaceCombatCanvas.CameraPan.Name=Panning the Camera (WSAD or Middle Mouse Button)
+UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=Use the W, S, A, and D, keys to pan the camera along the xz plane or click and drag with the Middle Mouse Button. 
+UI.Objectives.SpaceCombatCanvas.CameraRotate.Name=Rotating the Camera (RMB)
+UI.Objectives.SpaceCombatCanvas.CameraRotate.Desc=Hold the Right Mouse Button and move the mouse to change the camera's viewing angle.
+UI.Objectives.SpaceCombatCanvas.CameraFly.Name=Fly the Camera (RMB+WSAD)
+UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=Hold the Right Mouse Button and use the W, S, A, and D, keys to fly the camera around the battle scape.
+UI.Objectives.SpaceCombatCanvas.CameraHeight.Name=Adjust Camera Height (Ctrl+Middle Mouse Button)
+UI.Objectives.SpaceCombatCanvas.CameraHeight.Desc=Hold Ctrl and the Middle Mouse Button and move the mouse to change the camera's height. 
+
+UI.Objectives.SpaceCombatCanvas.Momentum.Name=Momentum
+UI.Objectives.SpaceCombatCanvas.Momentum.Desc=Per Sir Issac Newton, "An object in motion stays in motion unless acted upon by an outside force." This holds true for ships in combat in space. Ships maintain their momentum, and, with no air resistance or surface friction to slow them naturally, they will continue on their trajectory unless they use their engines to thrust. This allows for clever manuevers to be pulled by savvy commanders, but inexperienced commanders can create "hairball" situations where ships end up scattered and drifting across the battle space. Keep momentum in mind to avoid being picked apart by your enemies.
+UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Name=Ship Waypoints
+UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Desc=In Terra Invicta, you control the movement of your ships by manipulating their waypoints. A waypoint represents a ship's position, rotation, and velocity in the future. You can adjust a waypoint's position in three dimensions as well as its rotation in three dimensions. The ships will move from waypoint to waypoint sequentially with the red waypoint representing the closest waypoint and the purple waypoint the furthest one. All ships will reach the same color waypoint at the same time. Use this to plan their positions relative to other ships in the future.<br/><br/>(Note that enemy waypoints are merely projections of the associated ship's future position based on their current position and velocity.)
+UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Name=Adjusting Waypoint Yaw (Z key) 
+UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Desc=Hold the <h>Z key</h> while clicking and dragging on the waypoint to only adjust the Y rotational angle of the waypoint. This will keep the ship's trajectory constant while only changing the facing angle of the ship. Try Rotating the ship now. 
+UI.Objectives.SpaceCombatCanvas.WaypointsPitch.Name=Adjusting Waypoint Pitch (X key)
+UI.Objectives.SpaceCombatCanvas.WaypointsPitch.Desc=Hold the <h>X key</h> while clicking and dragging on the waypoint to only adjust the X rotational angle of the waypoint. This will keep the ship's trajectory constant while only changing the facing angle of the ship.
+UI.Objectives.SpaceCombatCanvas.WaypointsRoll.Name=Adjusting Waypoint Roll (C key)
+UI.Objectives.SpaceCombatCanvas.WaypointsRoll.Desc=Hold the <h>C key</h> while clicking and dragging on the waypoint to only adjust the Z rotational angle of the waypoint. This will keep the ship's trajectory constant while only changing the facing angle of the ship.
+UI.Objectives.SpaceCombatCanvas.WaypointsRotation.Name=Adjusting Waypoint Rotation
+UI.Objectives.SpaceCombatCanvas.WaypointsRotation.Desc=Keep in mind that if a current waypoint has enough thrust already applied (indicated by a red line), <h>you may not be able to adjust the rotation of the waypoint</h> as the ship would not have enough time to reach that angle with the applied velocity. In this case, you would have to apply the rotation on the next waypoint.
+UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Name=Adjusting Waypoint Burn (R key)
+UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Desc=Hold the <h>R key</h> while clicking and dragging on the waypoint to adjust the burn of the waypoint. The ship will thrust with its main drive in the direction it is facing. 
+UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Name=Adjusting Waypoint Height (Q key)
+UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Desc=Hold the <h>Q key</h> while while clicking and dragging on the waypoint to adjust the height of the waypoint. Space combat in Terra Invicta takes place in 3D space; use this feature to maneuver your ship's trajectory on the ZY plane. 
+UI.Objectives.SpaceCombatCanvas.WaypointsReset.Name=Reset Waypoint (RMB)
+UI.Objectives.SpaceCombatCanvas.WaypointsReset.Desc=<h>Select a waypoint with the Right Mouse Button</h> to reset the waypoint to its original trajectory.
+UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Name=Adjusting Waypoint Lateral (E Key)
+UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Desc=Hold the <h>E key</h> while while clicking and dragging on the waypoint to adjust the lateral position of the waypoint. Use this feature to maneuver your ship's trajectory on the XY plane. 
+UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Name=Adjusting Waypoint Position (LMB)
+UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Desc=To move a waypoint horizontally in the XZ plane, <h>click a waypoint and drag it in the direction you want the ship to travel</h>. Note that the position of a waypoint affects the range of possible movement for the rest of the waypoints, depending on the mobility of the ship. Try moving a waypoint now. 
+UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Name=Green and Red Lines
+UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Desc=After moving a waypoint, observe that the green line connecting the waypoints has changed to red. A green segment represents an idle trajectory, meaning that the ship will not perform any manuevers during that time. A red segment represents a burn, meaning that the ship will use its main drive to change its velocity. 
+UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Name=Yellow Lines
+UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Desc=After rotating a waypoint, observe that the line connecting the waypoints has changed to yellow. A yellow segment represents time the ship will spend using its thrusters to rotate. 
+UI.Objectives.SpaceCombatCanvas.WaypointsTip.Name=Maneuvering Ships
+UI.Objectives.SpaceCombatCanvas.WaypointsTip.Desc=Keep in mind your ships' weapon systems, armor, and incoming projectiles to help you determine how to maneuver your vessels through the battlefield. 
+
+UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Name=Group Selection (Shift+LMB)
+UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Desc=Multiple ships may be selected at once. <h>Hold Shift</h> and select your ships in the battle or their card in the fleet list. 
+UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Name=Box Selection (LMB+Drag)
+UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Desc=Ships may also be selected by <h>clicking and dragging</h> a box around the ships you want to select.
+UI.Objectives.SpaceCombatCanvas.ControlGroups.Name=Control Groups (Ctrl+[Number Key 0-9])
+UI.Objectives.SpaceCombatCanvas.ControlGroups.Desc=Ships may be grouped for easy selection by <h>holding Ctrl</h> and <h>pressing a number key (0-9)</h>. That selection of ships is now assinged to that number. Control Groups can be selected by pressing the assigned <h>number key</h>. 
+UI.Objectives.SpaceCombatCanvas.GroupCommands.Name=Group Commands
+UI.Objectives.SpaceCombatCanvas.GroupCommands.Desc=Note that when a group is selected the commands on the <h>bottom bar</h> apply to the <h>selected group</h>. 
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemement.Name=Group Movement
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemement.Desc=When a group of ships is selected, movement and rotation commands are sent to all ships in the group and manuverability will be limited to the least manuverable ships in the group so that ships easily stay in formation.
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemementFree.Name=Free Group Movement (Shift)
+UI.Objectives.SpaceCombatCanvas.MultiShipMovemementFree.Desc=Formation group movement can be overriden by holding shift and issuing movement and rotation commands.
+UI.Objectives.SpaceCombatCanvas.MultiShipAttraction.Name=Attraction Movement (Ctrl)
+UI.Objectives.SpaceCombatCanvas.MultiShipAttraction.Desc=When a group is selected, you may <h>hold Ctrl</h> to command all ships to move <h>towards</h> the mouse.
+UI.Objectives.SpaceCombatCanvas.MultiShipRepulsion.Name=Repulsion Movement (Alt)
+UI.Objectives.SpaceCombatCanvas.MultiShipRepulsion.Desc=When a group is selected, you may <h>hold Alt</h> to command all ships to move <h>away</h> from the mouse.
+
+
+UI.Objectives.NaturalSpaceObjectOps.1.Name=Space Operations
+UI.Objectives.NaturalSpaceObjectOps.1.NameShort=Operations
+UI.Objectives.NaturalSpaceObjectOps.1.Desc=When you select a planet, moon, asteroid or Lagrange Point, a selection of space operations will appear here. These operations allow you to work toward building habitats at this location without the use of your fleets.
+UI.Objectives.NaturalSpaceObjectOps.2.Name=Probes
+UI.Objectives.NaturalSpaceObjectOps.2.Desc=Various "Mission To ..." global technologies unlock parts of the Solar System for exploration. To build bases on the surface of space bodies, you must first prospect the body with a probe or a properly equipped fleet to learn about potential base sites.<br/><br/>You may launch probes here. They can either come from Earth or a nearby shipyard, if you have built one.
+UI.Objectives.NaturalSpaceObjectOps.3.Name=Founding Habitats
+UI.Objectives.NaturalSpaceObjectOps.3.Desc=With the appropriate construction and exploration technologies unlocked, you may also found habs at this space object via launches from Earth or from nearby habs with a construction module. These may take some time to arrive.
+
+UI.Objectives.ArmyOps.1.Name=Army Operations
+UI.Objectives.ArmyOps.1.NameShort=Armies
+UI.Objectives.ArmyOps.1.Desc=After selecting one of your armies, its available operations appear here.<br/><br/>Armies may move to regions in its home nation, allied nations, or nations at war with its home nation. They will engage enemy armies and occupy enemy territory automatically. They will also cross bodies of water if their nation has freedom of the seas.<br/><br/>Armies are less expensive to maintain if they are stationed in their home region.
+
+UI.Objectives.ArmyOps.2.Name=Army Operations
+UI.Objectives.ArmyOps.2.Desc=Other army operations allow them to target specific locations in their region.
+
+UI.Objectives.FleetOps.1.Name=Fleet Operations
+UI.Objectives.FleetOps.1.NameShort=Fleets
+UI.Objectives.FleetOps.1.Desc=These icons mark the various operations your fleets may undertake. These can vary widely depending on what modules you have equipped your fleets with.<br/><br/>Some fleet operations have a duration that will cause it to be unavailable until the operation is complete or aborted.
+
+UI.Objectives.FleetOps.2.Name=Transfer Operation
+UI.Objectives.FleetOps.2.Desc=To move your fleet to another orbit, station, or fleet, select the Transfer operation to choose a destination and open up the trajectory planner.<br/><br/>Targeting an enemy fleet, or a station with defensive modules or a defending fleet, will initiate a space battle. If an enemy station is undefended, you will dock upon arrival and may conduct additional operations there.
+
+UI.Objectives.TransferOp.1.Name=Trajectory Planning
+UI.Objectives.TransferOp.1.NameShort=Trajectory
+UI.Objectives.TransferOp.1.Desc=These panels allow you to send one of your fleets to another orbit, station, or fleet.<br/><br/>You may change destinations via the text menu or in the Solar System view.
+
+UI.Objectives.TransferOp.2.Name=Delta-v
+UI.Objectives.TransferOp.2.Desc=Delta-v is a measure of how much your ships can change their velocity before running out of propellant; it's essentially a measure of the ship's range. Your fleets use the lowest Delta-v value from among their ships.<br/><br/>If multiple options are available to reach your destination, a slider will appear, which you may use to trade off travel duration for Delta-v. While selecting, you can see the flight path in the Solar System view.<br/><br/>Note that some trajectories may include an option to loiter at your origin to wait for a launch window.
+
+UI.Objectives.TransferOp.3.Name=Delta-v Management
+UI.Objectives.TransferOp.3.Desc=You can resupply your ships at habs with shipyards or supply depots. Make sure you retain enough Delta-v to get to one. You may also want to preserve more Delta-v if you are expecting combat.
+
+UI.Objectives.TransferOp.4.Name=Special Maneuvers
+UI.Objectives.TransferOp.4.Desc=You may also set one of two special maneuvers for your trajectory.<br/><br/>Aerobraking is only possible at space bodies with atmospheres, but lets you save Delta-v by braking against an atmosphere to decelerate. It also risks damage to your ships if they aren't built for this sort of operation.<br/><br/>Selecting a fly-by maneuver means your fleet won't slow down to stop at the destination, but instead use it for a gravity assist. You will be prompted to select a new destination upon arrival.
+
+UI.Objectives.TransferOp.5.Name=Space Combat
+UI.Objectives.TransferOp.5.Desc=Sending your fleet on a trajectory to another fleet will initiate space combat on arrival.
+
+UI.Objectives.TransferOp.6.Name=Large Space Battles
+UI.Objectives.TransferOp.6.Desc=Very large space battles will have active and reinforcing ships. Reinforcing ships will join during combat to replace active ships when they are destroyed. You can adjust the maximum number of ships that can be active at any time during combat in the gameplay settings. A maximum value of 30 will limit each side to having 15 active ships at any time. This is for performance reasons.
+
+UI.Objectives.SpaceBodyDetail.1.Name=Space Body Detail
+UI.Objectives.SpaceBodyDetail.1.NameShort=Spacebody
+UI.Objectives.SpaceBodyDetail.1.Desc=This panel details the space body you have selected.<br/><br/>The top bar contains physical data about the body. Higher values for gravity and escape velocity mean it is more expensive to construct a mine and launch ships from the surface of this body.
+
+UI.Objectives.SpaceBodyDetail.2.Name=Mining Potential
+UI.Objectives.SpaceBodyDetail.2.Desc=These values are estimates of how much of the five primary space resources (water, volatiles, metals, nobles and fissiles) mines on this planet will produce. More chevrons indicate greater potential output.
+
+UI.Objectives.SpaceBodyDetail.3.Name=Orbits
+UI.Objectives.SpaceBodyDetail.3.Desc=This is a list of orbits around the body. Orbits serve as locations for stations and destinations for fleets. To land at a base or hab site, you must first transfer your fleet to an interface orbit (marked with an icon of the planet).
+
+UI.Objectives.SpaceBodyDetail.4.Name=Hab Sites
+UI.Objectives.SpaceBodyDetail.4.Desc=Hab sites are locations on the body where a faction may build a base. Once the space body has been surveyed, the exact incomes from its hab sites will be shown here.
+
+UI.Objectives.LagrangePoint.1.Name=Lagrange Point Detail
+UI.Objectives.LagrangePoint.1.NameShort=L-Points
+UI.Objectives.LagrangePoint.1.Desc=Lagrange points are points in space created by the interaction of gravity from nearby space bodies. They can serve as stable anchorages for fleets and stations.
+
+UI.Objectives.Hab.1.Name=Habitat Detail
+UI.Objectives.Hab.1.NameShort=Habitat
+UI.Objectives.Hab.1.Desc=This panel displays basic information about the station or base you have selected. Click on the image and you will open the full detail in the hab manager.
+
+UI.Objectives.EnemyFleet.1.Name=Fleet Detail
+UI.Objectives.EnemyFleet.1.NameShort=Fleet
+UI.Objectives.EnemyFleet.1.Desc=Details about a selected enemy fleet are shown here.<br/><br/>This crossed swords value is an estimate of the fleet's combat strength.
+
+UI.Tutorial.VO.1=Greetings Commander, I am Fiona Ayoade, your chief of staff. I'll be briefing you on the situation.
+UI.Tutorial.VO.2=Our council is made up of some of the Earth's best and brightest. They are capable, connected and standing by for your orders.
+UI.Tutorial.VO.3=If we truly face the threat of invasion, we need to start organizing now. We are going to need global cooperation on a never-before-seen scale. I recommend we start tasking our councilors with gaining support in strategic positions of power across the globe.
+UI.Tutorial.VO.4=Reports are still coming in but it is clear that an alien object has crashed down on the planet. We should send a councilor to investigate the site as soon as possible.
+UI.Tutorial.VO.5=This is your main command interface. From here we can monitor developments across the globe and beyond; send our councilors on missions; direct research and development; and much more. Take some time to familiarize yourself with it.
+UI.Tutorial.VO.6=Information about our currently selected councilor appears in the bottom-right of the screen. Their available missions can be found in the bottom-center of the screen.
+UI.Tutorial.VO.7=It will be critical for us to not lose sight of our goals. I will keep this screen updated with our current objectives.
+UI.Tutorial.VO.8=Our councilors will report in once their missions are complete. You will be able to assign them to new missions in the next mission phase.
+UI.Tutorial.VO.9=Our researchers are asking for your guidance in directing their efforts.
+UI.Tutorial.VO.10=This is the research screen. The top three charts show what the global scientific community is working on. The bottom charts show what council engineering projects we are privately pursuing. We can direct our researchers to prioritize any or all of these options.
+UI.Tutorial.VO.10a=This is the Tech Tree. Our researchers have extrapolated out what different scientific breakthroughs could lead to.
+UI.Tutorial.VO.10b= This is the Tech Tree. Our researchers have extrapolated out what different scientific breakthroughs could lead to. Frankly Commander, if I look at it too long I get a headache, and they say this is the simple one.
+UI.Tutorial.VO.10c= And this, is the "complete" one…
+UI.Tutorial.VO.10d=Commander, you have been staring at the tech tree for a while. How about a cup of coffee?
+UI.Tutorial.VO.10e=This is the list of all the council engineering projects we can pursue at this time.
+UI.Tutorial.VO.10f=These are the research archives where we can find reports on our completed research.
+UI.Tutorial.VO.11=Our councilor has gained the support of people in key positions of power in a nation. We should consider what our priorities are for that nation.
+UI.Tutorial.VO.12=Our current councilors are stretched thin. I recommend we expand the council.
+UI.Tutorial.VO.13=As we expand our operations, we will soon need the support of a large nation.
+UI.Tutorial.VO.14=We should make every effort to understand a nation's social and economic situation so we can best direct its development to support our efforts.
+UI.Tutorial.VO.15=A nation's priorities determine how it will develop over time. As we gain control points in a nation, we can direct more of its priorities.
+UI.Tutorial.VO.16=Remember Commander, we have enemies out there, and not just extraterrestrial ones.
+UI.Tutorial.VO.17=Commander, I'd like to introduce you to the Council. Take some time to familiarize yourself with our councilors. They are the backbone of our organization.
+UI.Tutorial.VO.17a=This is our councilor's dossier. Here you can view a councilor's missions, attributes, traits, monthly incomes and organizations. Different types of councilors will be able to conduct different types of missions.
+UI.Tutorial.VO.17b=I have compiled dossiers on potential councilor candidates for you to review. Commander, other factions have footholds in many of Earth's nations. If necessary, our councilors can move to root them out.
+UI.Tutorial.VO.18=In the worst cases our only option might be declaring war and imposing a complete regime change on another nation.
+UI.Tutorial.VO.19=This is the Intel Screen. It holds all of the intelligence data we have gathered and covers a wide range of topics. Here you can see what information we have gathered so far on the other major factions operating on Earth.
+UI.Tutorial.VO.19a=This section contains all intelligence we have gathered on the aliens. We will continue tracking any suspected alien activities and update accordingly. Be sure to check in periodically.
+UI.Tutorial.VO.19b=This section aggregates data collected from around the globe. You can see world data, the commodity market, the current environmental conditions, any ongoing wars, and how we stand in the eyes of the global public.
+UI.Tutorial.VO.19c=This section lists all known data on bodies in our Solar System.
+UI.Tutorial.VO.19d=This section is called the transfer planner. It is a powerful tool for planning journeys across the solar system. We can use it to make informed decisions about how to design our ships.
+UI.Tutorial.VO.19e=This section displays data on space bodies we have prospected. It should prove useful in deciding where to build our bases.
+UI.Tutorial.VO.20=This is the Nations screen. From here we can keep tabs on all nations we have control points in or view data on all the nations on Earth. This information should prove useful in directing our councilor's missions and in directing the priorities of nations under our control.
+UI.Tutorial.VO.20a=The Priority Template Designer allows us to create plans for national development that can be easily reused.
+UI.Tutorial.VO.20b=This screen reports on our Control Point Capacity. Managing more control points than we can handle will stress our operations and costs us influence to maintain.
+UI.Tutorial.VO.21=Tech Companies, Cartels, Intelligence organizations. Any one of them could be leveraged to give us powerful support.
+UI.Tutorial.VO.22=It seems we are not alone. Other faction's councilors are launching missions across the globe.
+UI.Tutorial.VO.23=On the left-hand side of your interface is the news feed. It will keep you apprised of important events. Some time-sensitive updates about our operations will also appear in the top left of your screen. 
+UI.Tutorial.VO.24=Commander, we are getting reports of an alien ship on its way to Earth.
+UI.Tutorial.VO.25=Commander, our contributions to global research have given us the opportunity to steer the scientific community's efforts. What are your orders?
+UI.Tutorial.VO.26=Research stations, space docks, resupply hubs, we are going to need it all. When you think we are ready, take the leap into orbit.
+UI.Tutorial.VO.27=Our station will be useless without a power generation solution.  
+UI.Tutorial.VO.28=Time to put our station to work.
+UI.Tutorial.VO.29=We are going to need extensive mining operations to support a fleet. Launching a probe will help us gain vital prospecting data.
+UI.Tutorial.VO.30=Mining complexes are your primary means of acquiring space resources, which means we won't have to use expensive rockets launched from Earth to build habitats and spacecraft.
+UI.Tutorial.VO.31=We will need to build a space dock if we are to start building a war fleet.  
+UI.Tutorial.VO.32=Finally, we get to build something with a little punch.
+UI.Tutorial.VO.33=The war against the aliens can't be won on Earth alone. We should continue constructing warships to defend against and eventually attack the aliens.
+UI.Tutorial.VO.34=This is the Habs Screen. From here we can manage our orbital stations and any bases we have on planets, moons, or asteroids. Additionally, we can view any other stations or bases we have discovered.
+UI.Tutorial.VO.35=This is the Fleets Screen. From here we can monitor both our own fleets and any other fleets we have detected.
+UI.Tutorial.VO.36=From the ship designer we can design new ship classes or plan to refit ships we have already built.
+UI.Tutorial.VO.36a=Ships that you design will appear here. We can order ships to be constructed at habs with construction facilities.
+UI.Tutorial.VO.37=Selecting a space body allows us to view data on physical properties, mining sites, orbits, and order the construction of stations and bases.  
+UI.Tutorial.VO.38=When soft power can't do the job, bring in the hardware.
+UI.Tutorial.VO.39=The Codex contains crucial information on how to manage our faction's operations. If you have a question, I recommend checking the codex. It will be kept up to date as the situation develops.
+
+
+
+
+
+
+
+
+
+

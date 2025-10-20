@@ -1,0 +1,534 @@
+TIMissionTemplate.displayName.Abductions=Abductions
+TIMissionTemplate.description.Abductions=Gather some humans from a region to study how to improve the alien ability to control them.
+TIMissionTemplate.CriticalSuccess.Abductions=We have gathered many human test subjects in {targetRegionName} without being detected by local authorities.
+TIMissionTemplate.Success.Abductions=We have gathered some human test subjects in {targetRegionName} for study.
+TIMissionTemplate.Failure.Abductions=We failed to gather a significant number of humans in {targetRegionName} for study.
+TIMissionTemplate.CriticalFailure.Abductions=We failed to gather any humans for study in {targetRegionName} and it is likely our enemies were alerted to our presence.
+
+TIMissionTemplate.displayName.GainInfluence=Control Nation
+TIMissionTemplate.description.GainInfluence=Gain an open control point in a nation.
+TIMissionTemplate.CriticalSuccess.GainInfluence=I have gained a control point for {myFactionName} {targetNationNameWithPrep}, and public opinion has shifted by {returnedValue} in our favor. We now have {myTargetNationControlPoints} of {totalTargetNationControlPoints} control points here.
+TIMissionTemplate.Success.GainInfluence=I have gained a control point for {myFactionName} {targetNationNameWithPrep}. We now have {myTargetNationControlPoints} of {totalTargetNationControlPoints} control points here.
+TIMissionTemplate.Failure.GainInfluence=My Control Nation mission {targetNationNameWithPrep} has failed.
+TIMissionTemplate.CriticalFailure.GainInfluence=I have encountered a major setback in my Control Nation mission {targetNationNameWithPrep}, causing public opinion of {myFactionName} to drop by {returnedValue}.
+
+TIMissionTemplate.displayName.Propaganda=Public Campaign
+TIMissionTemplate.description.Propaganda=Increase public support in a nation for our cause.
+TIMissionTemplate.CriticalSuccess.Propaganda=I have increased popular support for {myFactionName} {targetNationNameWithPrep}. {returnedValue}
+TIMissionTemplate.Success.Propaganda=I have increased popular support for {myFactionName} {targetNationNameWithPrep}. {returnedValue}
+TIMissionTemplate.Failure.Propaganda=My {missionName} mission {targetNationNameWithPrep} failed to make an impact on popular support.								
+TIMissionTemplate.CriticalFailure.Propaganda=My {missionName} mission {targetNationNameWithPrep} was a disaster! {returnedValue}
+
+TIMissionTemplate.displayName.Purge=Purge
+TIMissionTemplate.description.Purge=Take a control point from an enemy faction.
+TIMissionTemplate.CriticalSuccess.Purge=We have taken a control point for {myFactionName} {targetNationNameWithPrep} from {returnedValue} and gained some public support for doing so.
+TIMissionTemplate.Success.Purge=We have purged supporters of {returnedValue} and taken a control point for {myFactionName} {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.Purge=I failed to purge minions of {returnedValue} {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Purge=I failed in my purge mission against {returnedValue} {targetNationNameWithPrep}. My efforts were likely exposed to our enemies, and we have lost some public support there.
+
+TIMissionTemplate.displayName.Advise=Advise
+TIMissionTemplate.description.Advise=Provide expertise to a nation or hab. The councilor's Science, Command and Administration attributes will improve the target's research output, combat capabilities, and financial performance. Additional advising councilors provide diminishing benefits.
+TIMissionTemplate.Success.Advise=I am lending my expertise to {targetNationNameWithArticle}. {returnedValue}
+
+TIMissionTemplate.displayName.Assassinate=Assassinate
+TIMissionTemplate.description.Assassinate=Eliminate an identified enemy councilor.
+TIMissionTemplate.CriticalSuccess.Assassinate=I have eliminated {targetCouncilorName} of {targetFactionName}. {returnedValue}
+TIMissionTemplate.Success.Assassinate=I have eliminated {targetCouncilorName} of {targetFactionName}. {returnedValue}
+TIMissionTemplate.Failure.Assassinate=I failed in my mission to eliminate {targetCouncilorName} of {targetFactionName}.
+TIMissionTemplate.CriticalFailure.Assassinate=I failed in my mission to eliminate {targetCouncilorName} of {targetFactionName}.
+TIMissionTemplate.Assassinate.Special={targetFactionAdjective} operatives are closing in on my position.
+TIMissionTemplate.AssassinateAlien=We have learned a great deal about the aliens from this operation and will receive a bonus to our xenology research going forward.
+
+TIMissionTemplate.displayName.AssaultAlienAsset=Assault Alien Asset
+TIMissionTemplate.description.AssaultAlienAsset=Lead a combat unit against a fixed alien asset.
+TIMissionTemplate.CriticalSuccess.AssaultAlienAsset=Our assault on the {targetDisplayName} in the {targetRegionName} region was a complete success. {returnedValue}
+TIMissionTemplate.Success.AssaultAlienAsset=Our assault on the {targetDisplayName} in the {targetRegionName} region was successful. {returnedValue}
+TIMissionTemplate.Failure.AssaultAlienAsset=We were repelled by the target's defenses and failed to do any damage.
+TIMissionTemplate.CriticalFailure.AssaultAlienAsset=Our assault failed to do any damage to the target.
+TIMissionTemplate.CouncilorKilled.AssaultAlienAsset={0} was killed in the operation!
+
+TIMissionTemplate.displayName.AssumeControl=Grant Alien Control
+TIMissionTemplate.description.AssumeControl=We transfer a nation under our control to the Alien Administration. We must have built a facility there. This mission will create a new alien nation if none exists. They will aid us with resources in return.
+TIMissionTemplate.Success.AssumeControl=We have granted {targetNationNameWithArticle} to our benefactors.
+
+TIMissionTemplate.displayName.BuildFacility=Build Facility
+TIMissionTemplate.description.BuildFacility=Construct a research base to support alien operations and transportation and allow us to transfer them direct control of Earth's nations. Requires at least 15 abductions in the region.
+TIMissionTemplate.Success.BuildFacility=We have constructed a safe facility for aliens in {targetRegionName} {targetNationNameWithPrep}. We may now use the Grant Alien Control mission here if we own all control points in this nation.
+
+TIMissionTemplate.displayName.SetNationalPolicy=Set National Policy
+TIMissionTemplate.description.SetNationalPolicy=Set a major policy for the targeted nation, such as initiating a war. You will select the policy when the mission resolves. Requires executive control.
+TIMissionTemplate.Success.SetNationalPolicy=I have completed my mission to set a national policy {targetNationNameWithPrep}.
+
+TIMissionTemplate.displayName.Contact=Contact
+TIMissionTemplate.description.Contact=Contact an identified councilor from another faction to initiate a diplomatic exchange.
+TIMissionTemplate.Success.Contact=I have contacted {targetDisplayName} of {targetFactionName} for a diplomatic exchange.
+
+TIMissionTemplate.displayName.ControlSpaceAsset=Control Space Asset
+TIMissionTemplate.description.ControlSpaceAsset=Persuade a ship or hab crew to join your faction. Requires we have sufficient mission control to take on the asset.
+TIMissionTemplate.CriticalSuccess.ControlSpaceAsset=We led a mutiny on {targetDisplayName} and the crew there has joined {myFactionName}. They turned over extensive surveillance data to us and this asset will be especially resilient against enemy missions until {returnedValue}. 
+TIMissionTemplate.Success.ControlSpaceAsset=We inspired a mutiny on {targetDisplayName} and the crew there has joined {myFactionName}.
+TIMissionTemplate.Failure.ControlSpaceAsset=I failed to inspire an uprising on {targetDisplayName}. The powers here are on guard for future attempts at a mutiny. {returnedValue}
+TIMissionTemplate.FailurePlus.ControlSpaceAsset=I am to be arrested by {0} soon!
+TIMissionTemplate.CriticalFailure.ControlSpaceAsset=I failed to inspire an uprising on {targetDisplayName}. The powers here are on guard for future attempts at a mutiny. {returnedValue}
+
+TIMissionTemplate.displayName.Coup=Coup d'Etat
+TIMissionTemplate.description.Coup=Overthrow a government and reset its control points.
+TIMissionTemplate.CriticalSuccess.Coup=My coup attempt {targetNationNameWithPrep} was a resounding success and we have gained significant power in the new regime. 
+TIMissionTemplate.Success.Coup=My coup attempt {targetNationNameWithPrep} was a success, and we have rearranged the power structure there.
+TIMissionTemplate.Failure.Coup=I failed in my {missionName} mission {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Coup=Disaster! I failed in my mission to overthrow the government {targetNationNameWithPrep}! {returnedValue}
+
+TIMissionTemplate.displayName.Crackdown=Crackdown
+TIMissionTemplate.description.Crackdown=Temporarily disable the benefits of a control point, remove any Defenses, and make it easier to Purge the controlling faction.
+TIMissionTemplate.CriticalSuccess.Crackdown=We have conducted a successful crackdown on {targetFactionName} {targetNationNameWithPrep}. Their {controlPointTypeDisplayName} control point will be disabled until {returnedValue}.
+TIMissionTemplate.Success.Crackdown=We have conducted a successful crackdown on {targetFactionName} {targetNationNameWithPrep}. Their {controlPointTypeDisplayName} control point will be disabled until {returnedValue}.
+TIMissionTemplate.Failure.Crackdown=Our attempt to neutralize {targetFactionName} {targetNationNameWithPrep} failed.
+TIMissionTemplate.CriticalFailure.Crackdown=Our attempt to neutralize {targetFactionName} {targetNationNameWithPrep} failed, and we suffered some negative publicity as a result.
+
+TIMissionTemplate.displayName.DefendInterests=Defend Interests
+TIMissionTemplate.description.DefendInterests=Fortify our control points in this nation against enemy Crackdowns, Purges and Coups. Duration decreases with the number of control points we are protecting.
+TIMissionTemplate.Success.DefendInterests=I have put the right people in the right places, and our control {targetDisplayNameSent} is now protected until {returnedValue}. Enemy factions trying to wrest control from us there will suffer significant penalties.
+
+TIMissionTemplate.displayName.Detain=Detain Councilor
+TIMissionTemplate.description.Detain=Detain an enemy councilor for interrogation. Success will also disrupt any missions the enemy councilor is on.
+TIMissionTemplate.CriticalSuccess.Detain=We have detained {targetDisplayNameSent} for interrogation. We expect to learn a great deal of information about {targetFactionName} during questioning. {returnedValue}
+TIMissionTemplate.Success.Detain=We have detained {targetDisplayNameSent} for interrogation. {returnedValue}
+TIMissionTemplate.Failure.Detain=We failed to capture {targetDisplayNameSent}.
+TIMissionTemplate.CriticalFailure.Detain=We failed to capture {targetDisplayNameSent}. I believe our target was alerted to our mission.
+TIMissionTemplate.BonusEffect.Detain=We also disrupted the councilor's {0} mission.
+TIMissionTemplate.DetentionEnd.Detain=We can hold this councilor until {0}. We may repeatedly detain this councilor to continue holding them.<sp>
+TIMissionTemplate.Detain.DetainAlien=From our interrogations, we will receive a significant bonus to our xenology research going forward.
+
+TIMissionTemplate.displayName.DetectCouncilActivity=Surveil Location
+TIMissionTemplate.description.DetectCouncilActivity=Significantly increase the likelihood enemy councilors and aliens will be detected in the councilor's region and adjacent regions, or in a hab or fleet. May also detect hidden alien assets in nearby Earth regions.
+TIMissionTemplate.Success.DetectCouncilActivity=I am searching for our enemies {targetDisplayNameSent}.
+
+TIMissionTemplate.displayName.EnthrallElites=Enthrall Elites
+TIMissionTemplate.description.EnthrallElites=The aliens gain a control point for their human supporters in a target nation.
+TIMissionTemplate.CriticalSuccess.EnthrallElites=Our human allies have gained a control point {targetNationNameWithPrep}, and public support has moved in their favor.
+TIMissionTemplate.Success.EnthrallElites=Our human allies have gained a control point {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallElites=We failed to subjugate any leaders {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.EnthrallElites=We failed to subjugate any leaders {targetNationNameWithPrep}, and it is possible our activities were detected there.
+
+TIMissionTemplate.displayName.EnthrallPublic=Enthrall Public
+TIMissionTemplate.description.EnthrallPublic=The aliens domesticate a portion of the human population in this nation.
+TIMissionTemplate.CriticalSuccess.EnthrallPublic=We have subdued at least {returnedValue} of the populace {targetNationNameWithPrep}.
+TIMissionTemplate.Success.EnthrallPublic=We have subdued at least {returnedValue} of the populace {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallPublic=We have failed to subdue any humans {targetNationNameWithPrep}. More abductions and study may be necessary.
+TIMissionTemplate.CriticalFailure.EnthrallPublic=We failed to subdue any humans {targetNationNameWithPrep} and it is possible we were detected there.
+
+TIMissionTemplate.displayName.EnthrallOrg=Enthrall Org
+TIMissionTemplate.description.EnthrallOrg=The aliens seize an org from a councilor for their own use. Also may target faction orgs not assigned to any councilor.
+TIMissionTemplate.CriticalSuccess.EnthrallOrg=Our enthrall attempt against {targetDisplayName} of {targetFactionName} was extremely successful. In addition to securing one of their orgs, we also gained {returnedValue} in the transfer.
+TIMissionTemplate.Success.EnthrallOrg=Our enthrall attempt against {targetDisplayName} of {targetFactionName} was successful.
+TIMissionTemplate.Failure.EnthrallOrg=We failed to acquire an org belonging to {targetDisplayName} of {targetFactionName}.
+TIMissionTemplate.CriticalFailure.EnthrallOrg=We failed to acquire an org belonging to {targetDisplayName} of {targetFactionName}, and it is possible our enemies determined I was masterminding the operation.
+TIMissionTemplate.Prompt.EnthrallOrg=Select an org to steal from {0} ...
+
+TIMissionTemplate.displayName.EnthrallUnalignedElites=Enthrall Unaligned Elites
+TIMissionTemplate.description.EnthrallUnalignedElites=The aliens gain an unaligned control point for their human supporters in a target nation.
+TIMissionTemplate.CriticalSuccess.EnthrallUnalignedElites=Our human allies have gained a control point {targetNationNameWithPrep}, and public support has moved in their favor.
+TIMissionTemplate.Success.EnthrallUnalignedElites=Our human allies have gained a control point {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.EnthrallUnalignedElites=We failed to subjugate any leaders {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.EnthrallUnalignedElites=We failed to subjugate any leaders {targetNationNameWithPrep}, and it is possible our activities were detected there.
+
+TIMissionTemplate.displayName.Extract=Extract Councilor
+TIMissionTemplate.description.Extract=Extract one of our detained councilors from enemy hands.
+TIMissionTemplate.CriticalSuccess.Extract=We have extracted {targetDisplayName} from enemy detention. We recovered a cache of intel on their captors during the mission.
+TIMissionTemplate.Success.Extract=We have extracted {targetDisplayName} from enemy detention.
+TIMissionTemplate.Failure.Extract=We could not penetrate enemy security to extract {targetDisplayName}.
+TIMissionTemplate.CriticalFailure.Extract=Our attempt to extract {targetDisplayName} failed, and I was detected in the process. Enemy forces are closing in.
+
+TIMissionTemplate.displayName.GoToGround=Go To Ground
+TIMissionTemplate.description.GoToGround=Go into hiding in an Earth region to escape enemy detection and attacks.
+TIMissionTemplate.Success.GoToGround=I am laying low in {targetRegionName}.
+
+TIMissionTemplate.displayName.HostileTakeover=Hostile Takeover
+TIMissionTemplate.description.HostileTakeover=Seize an org from an enemy councilor for our own use. Also may target faction pool orgs not assigned to any councilor. Certain faction-specific orgs are immune.
+TIMissionTemplate.CriticalSuccess.HostileTakeover=Our hostile takeover attempt against {targetDisplayName} of {targetFactionName} was extremely successful. In addition to securing one of their orgs, we also gained {returnedValue} in the transfer.<br/><br/>{targetOrgDetails}
+TIMissionTemplate.Success.HostileTakeover=Our hostile takeover attempt against {targetDisplayName} of {targetFactionName} was successful.<br/><br/>{targetOrgDetails}
+TIMissionTemplate.Failure.HostileTakeover=We failed to acquire the org {targetDisplayName} from {targetFactionName}.
+TIMissionTemplate.CriticalFailure.HostileTakeover=We failed to acquire the org {targetDisplayName} from {targetFactionName}, and it is likely our enemies determined I was masterminding the operation.
+TIMissionTemplate.Prompt.HostileTakeover=Select an org to steal from {0} ...
+
+TIMissionTemplate.displayName.Inspire=Inspire
+TIMissionTemplate.description.Inspire=Improve the Loyalty of another councilor, making them more resistant to interrogation and attempts to turn them. May also bring back a turned councilor to our side.
+TIMissionTemplate.CriticalSuccess.Inspire=After we spoke, our councilor {targetDisplayNameSent} seems a great deal more enthusiastic about our efforts. {returnedValue}
+TIMissionTemplate.Success.Inspire=Our councilor {targetDisplayNameSent} seems to be more enthusiastic about the cause. {returnedValue}
+TIMissionTemplate.Failure.Inspire=I don't think I made much of an impact on the loyalty of {targetDisplayNameSent} to the cause. {returnedValue}
+TIMissionTemplate.CriticalFailure.Inspire=I'm sorry, but I believe I have made things worse with {targetDisplayNameSent}. {returnedValue}
+
+TIMissionTemplate.Inspire.PositiveEffect=The councilor's {0} has increased by {1}.
+TIMissionTemplate.Inspire.NoVisibleEffect=However, I'm afraid it's difficult to discern just how much the councilor's loyalty has changed.
+TIMissionTemplate.Inspire.NegativeEffect=The councilor's {0} has decreased by {1}.
+
+TIMissionTemplate.displayName.InvestigateAlienActivity=Investigate Alien Activity
+TIMissionTemplate.description.InvestigateAlienActivity=Target a site of suspected alien activity to learn more about the aliens' methods and motives.
+TIMissionTemplate.CriticalSuccess.InvestigateAlienActivity=I have learned a great deal from my investigation of the {targetDisplayName} {targetNationNameWithPrep}. We will receive a bonus to our xenology research going forward.
+TIMissionTemplate.Success.InvestigateAlienActivity=I have learned some useful information from my investigation of the {targetDisplayName} {targetNationNameWithPrep}. We will receive a small bonus to our xenology research going forward.
+TIMissionTemplate.Failure.InvestigateAlienActivity=I failed to learn anything new from my investigation of the {targetDisplayName} {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.InvestigateAlienActivity=I failed to learn anything new from my investigation of the {targetDisplayName} {targetNationNameWithPrep} and was likely discovered by enemy agents.
+
+TIMissionTemplate.displayName.InvestigateCouncilor=Investigate Councilor
+TIMissionTemplate.description.InvestigateCouncilor=Gather intelligence on a councilor, which can enable us to target the councilor with missions and learn more about the faction the councilor serves. Can also be used to verify Loyalty of one of our own councilors.
+TIMissionTemplate.CriticalSuccess.InvestigateCouncilor=We have learned significant new information about {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.Success.InvestigateCouncilor=We have improved our knowledge about {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.Failure.InvestigateCouncilor=I failed to learn anything new about {targetDisplayNameSent}. {returnedValue}
+TIMissionTemplate.CriticalFailure.InvestigateCouncilor=I failed to learn anything about {targetDisplayNameSent}, and I may have been detected by our enemies. {returnedValue}
+
+TIMissionTemplate.displayName.Orbit=Orbit
+TIMissionTemplate.description.Orbit=Move from the surface of Earth to any orbit in the Earth-Luna system, or from the surface of any space body to a station or ship in an interface orbit. The Undercover trait is only required to travel to enemy Tier 1 Habs (outposts and platforms) and fleets.
+TIMissionTemplate.Success.Orbit=I have arrived onboard {targetLocationStrSentence}.
+
+TIMissionTemplate.displayName.Deorbit=Deorbit
+TIMissionTemplate.description.Deorbit=Move from a hab or ship in an interface orbit to the surface of a space body, or from any location in the Earth-Luna system to Earth's surface.
+TIMissionTemplate.Success.Deorbit=I am on solid ground.
+
+TIMissionTemplate.displayName.PassTechnology=Pass Technology
+TIMissionTemplate.description.PassTechnology=Grant some of our technology to assist our human allies.
+TIMissionTemplate.Success.PassTechnology=I have provided assistance to our allies.
+
+TIMissionTemplate.displayName.Protect=Protect Target
+TIMissionTemplate.description.Protect=Apply the councilor's Security or Command attribute to shield a targeted region, hab, or allied councilor against physical attacks and other operations. Will also prevent the targeted councilor from dying in failed assault missions.
+TIMissionTemplate.Success.Protect=I am now protecting {targetDisplayName} from enemy operations.
+
+TIMissionTemplate.displayName.SabotageFacilities=Sabotage Facilities
+TIMissionTemplate.description.SabotageFacilities=Sabotage a selected space facility in a region.
+TIMissionTemplate.CriticalSuccess.SabotageFacilities=My bombs did significant damage to the {targetDisplayName}. It is unlikely our involvement will be detected.
+TIMissionTemplate.Success.SabotageFacilities=I succeeded in my mission to sabotage the {targetDisplayName}.
+TIMissionTemplate.Failure.SabotageFacilities=I was unable to get close enough to the {targetDisplayName} to sabotage it.
+TIMissionTemplate.CriticalFailure.SabotageFacilities=My mission to sabotage the {targetDisplayName} was a disaster! {returnedValue}
+
+TIMissionTemplate.displayName.SabotageHabModule=Sabotage Hab Module
+TIMissionTemplate.description.SabotageHabModule=Destroy a selected non-core hab module on your current hab.
+TIMissionTemplate.CriticalSuccess.SabotageHabModule=My bombs destroyed the {returnedValue} at {targetHabName}.
+TIMissionTemplate.Success.SabotageHabModule=My bombs destroyed the {returnedValue} at {targetHabName}.
+TIMissionTemplate.Failure.SabotageHabModule=I was unable to get close enough to the {targetDisplayName} at {targetHabName} to set the charges.
+TIMissionTemplate.CriticalFailure.SabotageHabModule=I was detected in a secure area near the {targetDisplayName} at {targetHabName}, and I am being detained for questioning.
+
+TIMissionTemplate.displayName.SabotageProject=Sabotage Project
+TIMissionTemplate.description.SabotageProject=Target a councilor or hab with an engineering module to remove up to 5,000 research points of progress from a project. A specific project may only be sabotaged once.
+TIMissionTemplate.CriticalSuccess.SabotageProject=I have dealt {targetFactionName} a major setback to their research and have also stolen {returnedValue} for our scientists to use.
+TIMissionTemplate.Success.SabotageProject=I have dealt {targetFactionName} a major setback to their research.
+TIMissionTemplate.Failure.SabotageProject=I failed to penetrate the target to sabotage their research.
+TIMissionTemplate.CriticalFailure.SabotageProject=I failed to penetrate the target to sabotage their research.
+TIMissionTemplate.Prompt.SabotageProject=Select a project to sabotage ...
+
+TIMissionTemplate.SecondarySelection=Selection: {0}
+
+TIMissionTemplate.displayName.SeizeSpaceAsset=Assault Enemy Space Asset
+TIMissionTemplate.description.SeizeSpaceAsset=Lead space Marines in an attempt to capture an enemy hab. Requires fleet or hab Marines at the councilor's location. Fleets must dock with enemy stations to assault it. Stations may drop troops to the surface, and bases may assault nearby hab sites. Marine modules may be damaged or destroyed.
+TIMissionTemplate.CriticalSuccess.SeizeSpaceAsset=Victory! We have captured {targetDisplayName} from {targetFactionName}. {returnedValue}
+TIMissionTemplate.Success.SeizeSpaceAsset=Victory! We have captured {targetDisplayName} from {targetFactionName}. {returnedValue}
+TIMissionTemplate.Failure.SeizeSpaceAsset=Defeat! We failed to capture {targetDisplayName} from {targetFactionName}. {returnedValue}
+TIMissionTemplate.CriticalFailure.SeizeSpaceAsset=Defeat! We failed to capture {targetDisplayName} from {targetFactionName}. {returnedValue}
+
+TIMissionTemplate.displayName.Stabilize=Stabilize Nation
+TIMissionTemplate.description.Stabilize=Reduce unrest in the target nation, improving the economy and reducing the chance the government is overthrown. Weakened effect if existing unrest is less than half of the nation's unrest rest state value.
+TIMissionTemplate.CriticalSuccess.Stabilize=We have significantly reduced unrest {targetNationNameWithPrep} by {returnedValue} to {targetNationUnrestWithString}.
+TIMissionTemplate.Success.Stabilize=We have reduced unrest {targetNationNameWithPrep} by {returnedValue} to {targetNationUnrestWithString}.
+TIMissionTemplate.Failure.Stabilize=I have failed in my mission to reduce the unrest {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Stabilize=My efforts to reduce unrest {targetNationNameWithPrep} have been a disaster and the nation is increasingly divided, gaining {returnedValue} unrest.
+
+TIMissionTemplate.displayName.StealProject=Steal Project
+TIMissionTemplate.description.StealProject=Steal an engineering project from an enemy faction by targeting one of their councilors or habs with an engineering module, unlocking it for us to research. We may also acquire <color=#FFFFFFFF><sprite name="research"></color> if the enemy faction is ahead of us in its research income.
+TIMissionTemplate.CriticalSuccess.StealProject=I have gained access to the research archives of {targetFactionName}. {returnedValue} We may now select one of their projects to steal.
+TIMissionTemplate.Success.StealProject=I have gained access to the research archives of {targetFactionName}. {returnedValue}
+TIMissionTemplate.Failure.StealProject=I failed to gain access to the research archives of {targetFactionName}.
+TIMissionTemplate.CriticalFailure.StealProject=I failed to gain access to the research archives of {targetFactionName}.
+TIMissionTemplate.Prompt.StealProject=Select a project to steal from {0}...
+
+TIMissionTemplate.displayName.TerrorizeRegion=Terrorize Region
+TIMissionTemplate.description.TerrorizeRegion=Attack civilians in this region to force concessions from the national government, gaining a control point for a human faction who regards us as a superior force. This risks hardening opposition to us, however.
+TIMissionTemplate.CriticalSuccess.TerrorizeRegion=Our shock troops were successful in terrorizing the {targetRegionName} region, and {1} has gained a control point {targetNationNameWithPrep}. The human public seems to have reacted largely with fear to our incursion.
+TIMissionTemplate.Success.TerrorizeRegion=Our shock troops were generally successful in terrorizing the {targetRegionName} region, and {1} has gained a control point {targetNationNameWithPrep}. The public seems increasingly polarized between resistance and fear.
+TIMissionTemplate.Failure.TerrorizeRegion=Our shock troops failed in their mission to terrorize the {targetRegionName} region.
+TIMissionTemplate.CriticalFailure.TerrorizeRegion=Our shock troops were defeated in their efforts to terrorize the the {targetRegionName} region, and the human populace seems emboldened in their efforts to oppose us.
+
+TIMissionTemplate.displayName.Xenoform=Xenoform
+TIMissionTemplate.description.Xenoform=Leave native alien bioforms scattered around this region. In time, they should subjugate native life, render humans more pliable, and eventually grow great herds of fauna that will hinder the human economy.
+TIMissionTemplate.CriticalSuccess.Xenoform=Our bioforms took extremely well in this region.
+TIMissionTemplate.Success.Xenoform=Our bioforms have taken root in this region.
+TIMissionTemplate.Failure.Xenoform=Our bioforms failed to have taken root here.
+TIMissionTemplate.CriticalFailure.Xenoform=Our bioforms failed to have taken root here, and it is likely my activities were detected.
+
+TIMissionTemplate.displayName.Transfer=Transfer
+TIMissionTemplate.description.Transfer=Relocate from one hab or fleet to another anywhere in space in the Earth-Luna system. Away from Earth, move to any hab or fleet in same orbit, or on the same space body. The Undercover trait is only required to travel to enemy Tier 1 Habs (outposts and platforms) and fleets.
+TIMissionTemplate.Success.Transfer=I have arrived at {targetDisplayName}.
+
+TIMissionTemplate.displayName.Turn=Turn Councilor
+TIMissionTemplate.description.Turn=Turn an enemy councilor to our cause, giving us a wealth of intelligence and control over whether the councilor's missions succeed or fail. We must know the target's actual Loyalty attribute to attempt this mission.
+TIMissionTemplate.CriticalSuccess.Turn=We have turned {targetDisplayName} to our cause. This councilor will continue to work for {targetFactionName}, but we will have access to all of the faction's intel and control over whether the councilor will succeed or fail on missions. We must take care not to arouse too much suspicion within {targetFactionName}!<br/><br/>We scored an additional coup: Our new agent brought a month's worth of research files, moving our own development forward significantly.
+TIMissionTemplate.Success.Turn=We have turned {targetDisplayName} to our cause. This councilor will continue to work for {targetFactionName}, but we will have access to all of the faction's intel and control over whether the councilor will succeed or fail on missions. We must take care not to arouse too much suspicion among {targetFactionName}!
+TIMissionTemplate.Failure.Turn=We failed to turn {targetDisplayName} to our cause.
+TIMissionTemplate.CriticalFailure.Turn=I failed to turn {targetDisplayName} to our cause and it seems likely my whereabouts are known to {targetFactionName}.
+
+TIMissionTemplate.displayName.Unrest=Increase Unrest
+TIMissionTemplate.description.Unrest=Increase unrest in the nation of the targeted region, hurting the economy and making coups, revolutions, and secessions more likely. Success in a region with an independence movement may trigger a secession there instead of a revolution. Weakened effect if unrest is already more than twice the nation's unrest rest value.
+TIMissionTemplate.CriticalSuccess.Unrest=My efforts have increased unrest {targetNationNameWithPrep} by {returnedValue} to {targetNationUnrestWithString}. We now have some support among insurgent movements here should they ever overthrow the government.
+TIMissionTemplate.Success.Unrest=My efforts have increased unrest {targetNationNameWithPrep} by {returnedValue} to {targetNationUnrestWithString}. We now have some support among insurgent movements here should they ever overthrow the government.
+TIMissionTemplate.Failure.Unrest=I was unable to increase unrest {targetNationNameWithPrep}.
+TIMissionTemplate.CriticalFailure.Unrest=I failed to increase unrest {targetNationNameWithPrep}. {returnedValue}
+
+TIMissionTemplate.displayName.DominateNation=Dominate Nation
+TIMissionTemplate.description.DominateNation=Threaten the targeted nation with bombardment from our Sentinel platforms. Success will convert a control point to our faction. Failure will require us to carry out our threat before acquiring the control point.
+TIMissionTemplate.CriticalSuccess.DominateNation=Some leaders {targetNationNameWithPrep} bowed to our superiority, allowing us to take a control point for {myFactionName}. A portion of the public there expressed gratitude for us bringing order to the nation.
+TIMissionTemplate.Success.DominateNation=Leaders {targetNationNameWithPrep} were cowed by our threats of orbital bombardment and surrendered, allowing us to take a control point for {myFactionName}.
+TIMissionTemplate.Failure.DominateNation=Our threats to use our Sentinel weapon systems went unheeded by leaders {targetNationNameWithPrep}, forcing us to bombard selected targets there until they surrendered. We have gained a control point for {myFactionName}.
+TIMissionTemplate.CriticalFailure.DominateNation=Leaders {targetNationNameWithPrep} laughed at our warnings to use the Sentinels against them, forcing us to conduct widespread bombardment to cow them into submission. We have gained a control point for {myFactionName}.
+
+TIMissionTemplate.displayName.AppeaseWin=Claim Hegemony
+TIMissionTemplate.description.AppeaseWin=Activate our network of Sentinel stations to establish our dominance of world affairs, placating the aliens. All human nations will surrender to us. Requires we have met our victory objectives.
+TIMissionTemplate.Success.AppeaseWin=We have activated our network of Sentinels, and, after a brief demonstration, Earth's nations have yielded their authority to us.
+
+TIMissionTemplate.displayName.CooperateWin=Forge an Alliance
+TIMissionTemplate.description.CooperateWin=Send our pherocyte-resistant diplomats through the wormhole to establish relations and end this conflict. We must assault the alien base and land first. Requires we have met our victory objectives.
+TIMissionTemplate.Success.CooperateWin=We have agreed to terms with the Hydra.
+
+TIMissionTemplate.displayName.DestroyWin=Trigger the Weapon
+TIMissionTemplate.description.DestroyWin=Send our biological weapon through the wormhole. We must assault the alien base and land first. Requires we have met our victory objectives.
+TIMissionTemplate.Success.DestroyWin=We have deployed the Shiva virus.
+
+TIMissionTemplate.displayName.EscapeWin=Launch the Bifrost
+TIMissionTemplate.description.EscapeWin=Issue the launch order to begin our interstellar journey. 
+TIMissionTemplate.Success.EscapeWin=We have launched the Bifrost.
+
+TIMissionTemplate.displayName.ExploitWin=Tame the Enemy
+TIMissionTemplate.description.ExploitWin=Send the neopherocyte package through the wormhole. We must assault the alien base and land first. Requires we have met our victory objectives.
+TIMissionTemplate.Success.ExploitWin=We have subjugated the Hydra empire.
+
+TIMissionTemplate.displayName.ResistWin=Close the Gate
+TIMissionTemplate.description.ResistWin=Activate the device to shut down the alien wormhole. We must assault the alien base and land first. Requires we have met our victory objectives.
+TIMissionTemplate.Success.ResistWin=The enemy's gate is shut.
+
+TIMissionTemplate.displayName.SubmitWin=Herald Our Masters
+TIMissionTemplate.description.SubmitWin=Assert the aliens' dominance on Earth. Requires we have met our victory objectives.
+TIMissionTemplate.Success.SubmitWin=Earth is now united under alien rule.
+
+TIMissionEffect_IncreaseUnrest.Special1=My work was detected, causing our public support here to drop by {0} and {1} to be accused of an atrocity.										// % change, councilor's faction name
+TIMissionEffect_IncreaseUnrest.Special2=My work was detected! {0} agents are accusing {1} of an atrocity and coming to detain me! Please secure my release!								// capturing faction name, councilor's faction name
+TIMissionEffect_Coup.Special1=Our public support here has dropped by {0}.
+TIMissionEffect_Coup.Special2=I am about to be captured by {0}. I will try to resist their interrogations as long as I can!			// faction name, capitalized
+TIMissionEffect_DamageSpaceFacilities.Special1=We have been connected to the attempt and our public support has dropped by {0}.
+TIMissionEffect_DamageSpaceFacilities.Special2=I have been arrested and expect to be turned over to {0} shortly.					// faction name
+TIMissionEffect_InvestigateCouncilor.EnemySpecial1=We know the target's identity, {0}, affiliation with {1}, and work as a {2}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial2=We also have a detailed profile of the councilor that is available in the intel section. We estimate the councilor has a loyalty score of {0}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial3=We further will be able to view the councilor's assigned mission for a time.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial4=We may know more about them than {1}. The councilor's actual loyalty score is {2}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial5=We have also learned that {0} is spying for {1}.
+TIMissionEffect_InvestigateCouncilor.MySpecial1=We have pinpointed their actual loyalty score at {0}.
+TIMissionEffect_InvestigateCouncilor.MySpecial2=We have learned that {0} has been turned against us by {1} and has been spying on us. This is a major leak that we need to plug as soon as possible.
+TIMissionEffect_InvestigateCouncilor.MySpecial3=Our investigation was handled so badly that {0} learned of it and was angered by it, losing a point of loyalty.
+TIMissionEffect_Advise.Special1=Until I am assigned a new mission, I shall be increasing the nation's research output by {0}, Investment Points by {1}, and the performance of its armies and defense forces by {2} miltech value.
+TIMissionEffect_Advise.Special2=Until I am assigned a new mission, I shall be increasing the hab's research output by {0}, its resource and monetary production by {1}, and the combat capabilities of its Marines by {2}.
+TIMissionEffect_Advise.Special3=Until I am assigned a new mission, I shall be increasing the fleet's combat performance by {0} and its research output by {1}.
+TIMissionEffect_StealProject.Special=I have been arrested and expect to be turned over to {0} shortly. I will resist their interrogation as long as I can.					// faction name
+TIMissionEffect_StealProject.Steal=I have also acquired {0} from their archives.
+TIMissionEffect_SabotageProject.Special=I have been arrested and expect to be turned over to {0} shortly. Please secure my release!									// faction name
+TIMissionEffect_Propaganda.Special=Our public support here has changed by {0}. It now stands at {1}.
+TIMissionEffect_Propaganda.Special2=Our public support here didn't budge from {0}, but people are moving away from opposing ideologies and toward ours.
+TIMissionEffect_Assassinate.Special1=Our assassination attempt has gained widespread attention, and I am now wanted by authorities around the globe.									// faction name
+TIMissionEffect_Assassinate.Special2=I have been arrested and expect to be turned over to {0} shortly. Please secure my release!									// faction name
+
+TIMissionResult_Responsibility=We have identified {0} as behind the operation.
+
+TIMissionModifier.Spend={0} Spent														// resource name, e.g. "Ops"
+TIMissionModifier.Flat={0} ({1})															// Flat Modifier (3)
+TIMissionModifier.CodexHeader=<h>Attacking Modifiers<line-height=0.01%><br/><align="right">Defending Modifiers</align></line-height></h>
+TIMissionModifier_FlatModifier.displayName=Mission Difficulty
+TIMissionModifier_TargetNationGDP.displayName=Size of National Economy
+TIMissionModifier_NationCohesion.displayName=National Cohesion
+TIMissionModifier_InvertedNationCohesion.displayName=National Cohesion
+TIMissionModifier_NationPopulation.displayName=Nation Population
+TIMissionModifier_NationUnrest.displayName=National Unrest
+TIMissionModifier_NationStability.displayName=National Stability
+TIMissionModifier_NationDemocracy.displayName=Democracy
+TIMissionModifier_NationEducation.displayName=Education
+TIMissionModifier_UnhappyElites.displayName=Elite Dissatisfaction
+TIMissionModifier_HappyElites.displayName=Elite Satisfaction
+TIMissionModifier_RegionalDefenses.displayName=Military in Region
+TIMissionModifier_AttackerPopulationIdeology.displayName=Popular Support
+TIMissionModifier_DefenderPopulationIdeology.displayName=Popular Support
+TIMissionModifier_DisabledControlPoint.displayName=Crackdown
+TIMissionModifier_DefenderLocalControlPoints.displayName=Local Control Points
+TIMissionModifier_AttackerLocalControlPoints.displayName=Local Control Points
+TIMissionModifier_OwnedControlPoint.displayName=Council {0}
+TIMissionModifier_AttackerAdjacentControlPoints.displayName=Control Points in Neighbors
+TIMissionModifier_AttackerAllyControlPoints.displayName=Control in Larger Allies / Federation
+TIMissionModifier_AbductionsInRegion_AlienOnly.displayName=Local Abductions
+TIMissionModifier_MeanAbductionsinNation_AlienOnly.displayName=Abductions in Nation
+TIMissionModifier_IdeologicalDistance.displayName=Difference in Ideology
+TIMissionModifier_JointControlPointStat.displayName=Joint Council {0}
+TIMissionModifier_JointCouncilStat.displayName=Joint Council {0}
+TIMissionModifier_DefendedAsset.displayName=Defend Interests
+TIMissionModifier_AlienAssetDefense.displayName=Alien Defenses
+TIMissionModifier_DetainedCouncilor.displayName=Detained Target
+TIMissionModifier_numDefendedControlPoints.displayName=Defended Control Points
+TIMissionModifier_IntelonDefendingCouncilor.displayName=Intel on Target
+TIMissionModifier_SpaceSupportShortage.displayName=Hab Support Shortages
+TIMissionModifier_AttackerHabSectors.displayName=Sectors in this Hab
+TIMissionModifier_DefenderHabSectors.displayName=Sectors in this Hab
+TIMissionModifier_AttackingForceSize.displayName=Attacking Force Strength
+TIMissionModifier_DefendingForceSize.displayName=Defending Force Strength
+TIMissionModifier_DefenderHabSize.displayName=Hab Size
+TIMissionModifier_Legislature_ExecCP.displayName=Legislature Control Point
+TIMissionModifier_Legislature_ExecCP_Defense.displayName=Legislature Control Point
+TIMissionModifier_TheParty_NonExecCP.displayName=Party Control Point
+TIMissionModifier_TheParty_NonExecCP_Defense.displayName=Party Control Point
+TIMissionModifier_Oligarchs.displayName=Oligarchs Control Point
+TIMissionModifier_Oligarchs_Defense.displayName=Oligarchs Control Point
+TIMissionModifier_NationalIndustries.displayName=National Industries Control Point
+TIMissionModifier_NationalIndustries_Def.displayName=National Industries Control Point
+TIMissionModifier_MassMedia.displayName=Mass Media Control Point
+TIMissionModifier_SecurityApparatus.displayName=Security Apparatus Control Point
+TIMissionModifier_Bureaucracy.displayName=Bureaucracy Control Point
+TIMissionModifier_RegionalAuthorities.displayName=Regional Authorities Control Point
+TIMissionModifier_IdentityBlocs.displayName=Identity Blocs Control Point
+TIMissionModifier_Warlords.displayName=Warlords Control Point
+TIMissionModifier_TargetNegativeInfluence.displayName=Target Has Negative Influence
+TIMissionModifier_TargetBroke.displayName=Target Has Negative Funds
+TIMissionModifier_CampaignDifficulty.displayName=Challenge
+TIMissionModifier_AlienNation.displayName=Alien Nation
+TIMissionModifier_ProtectionBonus.displayName=Protect Mission: {0} 
+TIMissionModifier_RegionXenoforming_AlienOnly.displayName=Local Xenoforming
+TIMissionModifier_RegionXenoforming_AlienAndProxyOnly.displayName=Local Xenoforming
+TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly.displayName=Xenoforming in Nation
+TIMissionModifier_PherocyteResistance.displayName=Pherocyte Resistance
+TIMissionModifier_AliensRemoved.displayName=Aliens Captured or Killed
+TIMissionModifier_SpaceAssetPopulation.displayName=Crew Size
+TIMissionModifier_RegionalOccupation.displayName=Occupation Progress
+TIMissionModifier_RegionalOccupation_MyFaction.displayName=Occupation Progress
+TIMissionModifier_RegionalInvadingForcesStrength.displayName=Invading Forces Strength
+TIMissionModifier_RegionalInvadingForcesStrength_MyFaction.displayName=Invading Forces Strength
+TIMissionModifier_AttackerUnrestIdeology.displayName=Prior Unrest Efforts
+TIMissionModifier_RegionPopulationDensity.displayName=Region Population Density
+TIMissionModifier_Censorship.displayName=Censorship
+TIMissionModifier_ExtractionDefense_Councilor.displayName=Nearby Councilors' {0}
+TIMissionModifier_ExtractionDefenseSecurityApparatus.displayName=Security Apparatus Control Point
+TIMissionModifier_ExtractionDefense_JointCouncilStat.displayName=Detaining Faction Joint {0}
+TIMissionModifier_MyFactionLoyaltyMonitor.displayName=Our Loyalty Monitor Implant
+TIMissionModifier_AlienDetainDifficulty.displayName=Alien
+TIMissionModifier_NationalRivalries.displayName=Control Points in Enemies
+TIMissionModifier_InsufficientCPMaintenance_Attacker.displayName=Attacker Over Control Point Cap
+TIMissionModifier_InsufficientCPMaintenance_Defender.displayName=Target Over Control Point Cap
+TIMissionModifier_EnthrallScience.displayName=Council {0} from Xenology Research
+TIMissionModifier_DecommissioningHab.displayName=Decommissioning Hab
+TIMissionModifier_AlienCoordination.displayName=Proxy Support
+TIMissionModifier_NationSizeEnthrallDifficulty.displayName=Nation Size
+TIMissionModifier_ConditionalEnthrallDefendedPoint.displayName=Defend Interests (Partial Defense)
+TIMissionModifier_AttackerMissionControlShortage.displayName=Recent Mission Control Shortage
+TIMissionModifier_DefenderMissionControlShortage.displayName=Recent Mission Control Shortage
+TIMissionModifier_HabStability.displayName=Stability-Granting Modules
+TIMissionModifier_OrgDefenses.displayName=Org Size
+TIMissionModifier_OrgDefenses_Admin.displayName=Org Administration Value
+TIMissionModifier_OrgDefense.displayName=Org Innate Takeover Defense
+TIMissionModifier_OrgPoolDefense.displayName=Joint Faction {0}
+
+TIMissionModifier_ScaledStat=Scaled {0}																// this means a stat is being used as a modifier but it's multiplied by some other number, like "Scaled Administration"
+
+TIMissionCondition_GenericFail=Invalid target for this mission
+TIMissionCondition_AvailableControlPoint=Nation has no open control points
+TIMissionCondition_AvailableControlPoint2=Must already have one Control Point in nation with multiple Control Points to seek Executive Control Point
+TIMissionCondition_VulnerableControlPoint=Must already have one Control Point in nation with multiple Control Points to attack Executive Control Point
+TIMissionCondition_TargetInRange=Councilor cannot reach target
+TIMissionCondition_EnemyCouncilor=Not an enemy councilor
+TIMissionCondition_EnemyOrTurnedCouncilor=Invalid target councilor for mission
+TIMissionCondition_ExtractionTarget2=Not one of our turned councilors
+TIMissionCondition_ExtractionTarget=Not one of our detained councilors
+TIMissionCondition_CouncilorHasKnownOrgs=Not a valid target with orgs to acquire
+TIMissionCondition_AnyCouncilorwithUnknowns2=Invalid councilor target
+TIMissionCondition_AnyCouncilorwithUnknowns=Councilor fully investigated
+TIMissionCondition_TurnableEnemyCouncilor=Invalid councilor target
+TIMissionCondition_TurnableEnemyCouncilor2=Target or their faction are already compromised
+TIMissionCondition_MyFactionCouncilor=Not one of our councilors
+TIMissionCondition_TurnedEnemyCouncilor=Not one of our agents
+TIMissionCondition_FreeCouncilSlot=No open position on council
+TIMissionCondition_HasSpaceFacility=No space facility to target
+TIMissionCondition_DetainTarget=Can't capture or hold target individual
+TIMissionCondition_EnemySpaceAsset=Not an enemy asset
+TIMissionCondition_EnemyHumanSpaceAsset=Not an enemy human asset
+TIMissionCondition_SpaceAssetNotInTransfer=Invalid target
+TIMissionCondition_SpaceAssetNotInTransfer2=Not possible while fleet is in transfer
+TIMissionCondition_NationHasEnemyControlPoint=We have complete control of target nation
+TIMissionCondition_NotSubmitControlPoint=Our human supporters have already captured target Control Point
+TIMissionCondition_NotAppeaseControlPoint=Our human allies have already captured target Control Point
+TIMissionCondition_NotAlienControlPoint=Alien control points are ineligible targets for this ability
+TIMissionCondition_BasicCouncilorIntel=We have insufficient knowledge of other councilor to target with this mission
+TIMissionCondition_DefendableAsset=Must have at least one control point not suffering from the Crackdown effect in the target polity
+TIMissionCondition_ScannableObjectWithMyControlPoints1=We have no control points in the target location
+TIMissionCondition_ScannableObjectWithMyControlPoints2=Not our hab
+TIMissionCondition_ScannableObjectWithMyControlPoints3=Not our fleet
+TIMissionCondition_ExecutiveControl=Cannot set policy without executive control point
+TIMissionCondition_MinimumGlobalAbductions_HigherValue=Requires abducting more humans before we can undertake this mission
+TIMissionCondition_MinimumGlobalAbductions_LowerValue=Requires abducting more humans before we can undertake this mission
+TIMissionCondition_ProtectTarget=Must be one of ours
+TIMissionCondition_CouncilorOnEarth=Councilor must be on Earth
+TIMissionCondition_CanConstructFacility=Region already has a facility
+TIMissionCondition_CanConstructFacility1=We must have diplomatic relations with the aliens to perform this mission
+TIMissionCondition_CanConstructFacility2=We need all the Control Points in region, sufficient prior abductions, and region is not being occupied
+TIMissionCondition_AssassinationTarget=Cannot assassinate our allies
+TIMissionCondition_AlienFacilityInNation=Requires a Hydra research facility in this nation
+TIMissionCondition_HumanFactionsPermitControl=Requires our executive control plus total control by factions willing to surrender territory to the aliens
+TIMissionCondition_HumanFactionsPermitControl2=Requires an alien to be on Earth or in Earth orbit
+TIMissionCondition_MinimumUnrest=No unrest in target nation
+TIMissionCondition_FactionHasStealableProjects=Faction has no projects to steal that we are aware of
+TIMissionCondition_HasSpySlot=No capacity for additional spies
+TIMissionCondition_FactionHasVulnerableProjects=Target has no projects to sabotage
+TIMissionCondition_CanLaunchToOrbit=Councilor must be on Earth or at a base
+TIMissionCondition_AllowedOrbitTarget=Target orbit must be in range of launch site
+TIMissionCondition_CanTransfer=Councilor must be in orbit or at a hab site
+TIMissionCondition_AllowedTransferTarget=Transfer target must be in range
+TIMissionCondition_CanDeorbit=Councilor must be in an interface orbit or in the Earth-Luna System
+TIMissionCondition_AllowedDeorbitTarget=Deorbit target must be in range
+TIMissionCondition_ContactableTarget=Can't target this councilor with a Contact mission
+TIMissionCondition_ContactableTarget2=Can't target our own councilor with a Contact mission
+TIMissionCondition_ContactableTarget3=This faction is ignoring our contact attempts
+TIMissionCondition_SeizeSpaceAssetTroopsPresent=No combat units present to conduct mission
+TIMissionCondition_SeizeSpaceAssetTargetInRange=Local combat units cannot reach target
+TIMissionCondition_SeizeSpaceAssetTargetInRange_2=Target already under assault
+TIMissionCondition_TerrorizeVulnerableControlPoint=Control Point already loyal or too well-defended
+TIMissionCondition_HasIntelOnCouncilorSecrets=Insufficient investigation of target councilor
+TIMissionCondition_HumanControlPoint=Cannot target alien control with this mission
+TIMissionCondition_HumanNation=Cannot target alien nation with this mission
+TIMissionCondition_Human=Councilor is not human
+TIMissionCondition_EnthrallableControlPoint=Supporters must already have one Control Point in nation with multiple Control Points to attack Executive Control Point
+TIMissionCondition_EnemyControlPointsInNation=Nation must have at least one control point that isn't ours
+TIMissionCondition_SentinelModulesActive=We must have at least one Sentinel module active in an Earth interface orbit
+TIMissionCondition_VictoryCondition=Faction must have met all victory conditions
+TIMissionCondition_SufficientMissionControl=Must have available mission control
+TIMissionCondition_FreeCouncilor=Targeted councilor must not be detained or otherwise inactive
+TIMissionCondition_TargetableHabModule=Must be enemy non-core module
+TIMissionCondition_TargetableOrg=Must be an org in an enemy faction's unassigned pool or assigned to a councilor we have gain significant intel on
+_Fail=Must be a valid target type for mission and accessible to the councilor.
+
+TIMissionAbort_ControlPointRemoved=This mission was aborted because the target control point no longer exists.
+TIMissionAbort_CouncilorRetired=This mission was aborted because the assigned councilor is no longer active.
+TIMissionAbort_CouncilorUnavailable=This mission was aborted because the assigned councilor is no longer available.
+TIMissionAbort_CouncilorDetained=This mission was aborted because the assigned councilor is detained.
+TIMissionAbort_CouncilorDead=This mission was aborted because the assigned councilor is dead.
+TIMissionAbort_TurnedCouncilorQuit=This mission was aborted because the assigned councilor quit.
+TIMissionAbort_MissionOrgLost=This mission was aborted because the councilor no longer has the org that was providing the mission.
+TIMissionAbort_ControlPointAlreadyPurged=This mission was aborted because the target control point was already purged by another councilor during this mission cycle.
+TIMissionAbort_BlanketCancel_ProbableError=<skip/>
+TIMissionAbort_NationAlreadyCouped=This mission was aborted because the target nation just underwent a coup.
+TIMissionAbort_TargetFleetDestroyed=This mission was aborted becuase the target fleet was disbanded or destroyed.
+TIMissionAbort_TargetShipDestroyed=This mission was aborted because the target ship was destroyed.
+TIMissionAbort_TargetHabDestroyed=This mission was aborted because the target hab was destroyed.
+TIMissionAbort_TargetInvalid=This mission was aborted because the assigned target has been eliminated.
+TIMissionAbort_VoluntaryAbort=This mission was voluntarily aborted by faction leadership.
+TIMissionAbort_OrgAlreadyTaken=This mission was aborted because the target org was already taken by another councilor during this mission cycle.
+
+TIMissionTargeting_NoTarget=No Target
+TIMissionTargeting_InvalidTarget={0}<br/>Invalid Target																// ID of target
+
+TIMissionResult_ExecutiveControlChange=Executive power over this nation now belongs to {0}.
+
+TIMission.Timing.0=This mission will be resolved almost immediately after it is assigned.
+TIMission.Timing.1=This mission will be resolved early in the resolution phase.
+TIMission.Timing.2=This mission will be resolved in the middle of the resolution phase.
+TIMission.Timing.3=This mission will be resolved late in the resolution phase.
+TIMission.Timing.4=This mission will be resolved at the end of the resolution phase.
+TIMission.Timing.5=This mission will be resolved after all other missions.
+
+TIMission_AttackerModifiers=<h>Councilor modifiers</h>
+TIMission_DefenderModifiers=<h>Target modifiers</h>

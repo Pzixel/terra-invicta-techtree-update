@@ -1,0 +1,15 @@
+UI.Markers.CouncilorMarker.Tooltip={0}{1} ({2})</color>																// faction color, councilor Name, councilor job
+UI.Markers.CouncilorMarker.TooltipWithMission={0}{1} ({2})</color>：{3} ({4})。										// faction color, councilor Name, councilor job, mission, target
+UI.Markers.CouncilorMarker.TooltipWithMissionResolveTime={0}{1} ({2})</color>：{3} ({4})。解决：{5}。				// faction color, councilor Name, councilor job, mission, target, completion date
+UI.Markers.Capital.TooltipHeader={0}控制点 ({1})															// nation, # CPs
+UI.Markers.Capital.ControlPoint=#{0} ({1})：{2}
+UI.Markers.Uncontrolled=未控制
+UI.Markers.InvalidTarget=无效目标
+UI.Markers.Occupation={0}：已占领{1}																				// Occupying nation, percentage
+UI.Markers.CoreEconomicRegion=核心经济区域<br/><br/>核心经济区域会提供加成给国家的经济优先计划。
+UI.Markers.CoreResourceRegion=资源区域<br/><br/>资源区域会提供加成给国家的经济优先计划，但也会让不平等及环境破坏的增加幅度更大。
+UI.Markers.MonsterArmy=外星巨兽{0}
+UI.Markers.NoFactionArmy={0} ({1}) {2} 攻击：{3}
+UI.Markers.FactionArmy={0} ({1}, {2}) {3} 攻击：{4}
+UI.Markers.Boost={0}<br/>{1}{2}/年
+UI.Markers.MissionControl={0}<br/>{1}{2}

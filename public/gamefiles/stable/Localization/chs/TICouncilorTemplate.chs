@@ -1,0 +1,12 @@
+TICouncilorTemplate.maleSubjectivePronoun=他
+TICouncilorTemplate.femaleSubjectivePronoun=她
+TICouncilorTemplate.nonBinarySubjectivePronoun=TA
+TICouncilorTemplate.maleObjectivePronoun=他
+TICouncilorTemplate.femaleObjectivePronoun=她
+TICouncilorTemplate.nonBinaryObjectivePronoun=TA
+TICouncilorTemplate.malePossessivePronoun=他的
+TICouncilorTemplate.femalePossessivePronoun=她的
+TICouncilorTemplate.nonBinaryPossessivePronoun=TA的
+TICouncilorTemplate.age=年龄
+TICouncilorTemplate.alienName1=异种
+TICouncilorTemplate.alienName2=阿尔法-{0}

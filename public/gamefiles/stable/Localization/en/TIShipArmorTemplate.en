@@ -1,0 +1,50 @@
+TIShipArmorTemplate.displayName.SteelArmor=Steel Armor
+TIShipArmorTemplate.description.SteelArmor=Venerable and heavy steel armor plating increases our vessels' survivability in combat.
+TIShipArmorTemplate.displayName.TitaniumArmor=Titanium Armor
+TIShipArmorTemplate.description.TitaniumArmor=Heat- and shatter-resistant armor that carries a significant expense.
+TIShipArmorTemplate.displayName.SiliconCarbideArmor=Silicon Carbide Armor
+TIShipArmorTemplate.description.SiliconCarbideArmor=Ceramic armor made by sintering silicon and carbon powder.
+TIShipArmorTemplate.displayName.BoronCarbideArmor=Boron Carbide Armor
+TIShipArmorTemplate.description.BoronCarbideArmor=Durable "black diamond" armor created from reduction of boron trioxide in a carbon atmosphere.
+TIShipArmorTemplate.displayName.CompositeArmor=Composite Armor
+TIShipArmorTemplate.description.CompositeArmor=Alternating layers of ceramics and metals offers broad and lightweight protection.
+TIShipArmorTemplate.displayName.FoamedMetalArmor=Foamed Metal Armor
+TIShipArmorTemplate.description.FoamedMetalArmor=Low-density "foamed" titanium and other alloys, layered with ceramic plates, offer lightweight protection to our spacecraft.
+TIShipArmorTemplate.displayName.NanotubeArmor=Nanotube Armor
+TIShipArmorTemplate.description.NanotubeArmor=Next-generation armor created by the fusion of millions of carbon nanotubes.
+TIShipArmorTemplate.displayName.AdamantaneArmor=Adamantine Armor
+TIShipArmorTemplate.description.AdamantaneArmor=Advanced diamondoids promise robust protection against kinetic weapons.
+TIShipArmorTemplate.displayName.ExoticArmor=Exotic Armor
+TIShipArmorTemplate.description.ExoticArmor=Alien alloys fashioned into ultralight layers of defenses.
+TIShipArmorTemplate.displayName.HybridArmor=Hybrid Armor
+TIShipArmorTemplate.description.HybridArmor=Exotic-seeded diamondoids offer previously unthinkable levels of protection.
+TIShipArmorTemplate.displayName.AlienAdamantaneArmor=Alien Diamondoid Armor
+TIShipArmorTemplate.description.AlienAdamantaneArmor=An alien material that appears to be based on carbon manipulation.
+TIShipArmorTemplate.displayName.AlienExoticArmor=Alien Exotic Armor
+TIShipArmorTemplate.description.AlienExoticArmor=An alien material with exotic properties.
+
+TIShipArmorTemplate.ResourcesPerTon=Cost Per Ton:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsResistance={0} bonus resistance to kinetic damage
+TIShipArmorTemplate.LaserResistance={0} bonus resistance to laser damage
+TIShipArmorTemplate.ChippingResistance={0} bonus resistance to chipping
+TIShipArmorTemplate.KineticsVulnerability=Suffers {0} extra damage from kinetic weapons
+TIShipArmorTemplate.LaserVulnerability=Suffers {0} extra damage from lasers
+TIShipArmorTemplate.ChippingVulnerability=Suffers {0} extra armor chipping from hits
+TIShipArmorTemplate.XRayResistance={0} bonus resistance to particle weapon x-rays relative to steel
+TIShipArmorTemplate.XRayVulnerability=Suffers {0} extra damage from particle weapon x-rays
+TIShipArmorTemplate.BaryonicResistance={0} bonus resistance to particle weapon neutrons
+TIShipArmorTemplate.BaryonicVulnerability=Suffers {0} extra damage from particle weapon neutrons
+
+TIShipArmorTemplate.ThicknessPerPoint=Thickness per point:<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.NoseTailTonsPerPoint=Mass per nose or tail armor point:<rcol>{0} tons</rcol>
+TIShipArmorTemplate.LateralTonsPerPoint=Mass per lateral armor point:<rcol>{0} tons</rcol>
+
+TIShipArmorTemplate.MaxArmorThickness_Lateral=Maximum Lateral Armor Thickness:<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Nose=Maximum Nose Armor Thickness:<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Tail=Maximum Tail Armor Thickness:<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.MaxArmorPoints_Lateral=Maximum Lateral Armor:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Nose=Maximum Nose Armor:<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Tail=Maximum Tail Armor:<rcol>{0}</rcol>
+

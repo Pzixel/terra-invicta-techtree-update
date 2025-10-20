@@ -1,0 +1,15 @@
+UI.Markers.CouncilorMarker.Tooltip={0}{1} ({2})</color>																// faction color, councilor Name, councilor job
+UI.Markers.CouncilorMarker.TooltipWithMission={0}{1} ({2})</color>: {3} ({4}).										// faction color, councilor Name, councilor job, mission, target
+UI.Markers.CouncilorMarker.TooltipWithMissionResolveTime={0}{1} ({2})</color>: {3} ({4}). Termina: {5}.				// faction color, councilor Name, councilor job, mission, target, completion date
+UI.Markers.Capital.TooltipHeader=Puntos de control de {0} ({1})															// nation, # CPs
+UI.Markers.Capital.ControlPoint=#{0} ({1}): {2}
+UI.Markers.Uncontrolled=Sin control
+UI.Markers.InvalidTarget=Objetivo inválido
+UI.Markers.Occupation={0}: ocupación al {1}																				// Occupying nation, percentage
+UI.Markers.CoreEconomicRegion=Región de importancia económica<br/><br/>Las regiones de importancia económica otorgan una bonificación a la prioridad de economía de la nación.
+UI.Markers.CoreResourceRegion=Región productora de recursos<br/><br/>Las regiones que producen recursos otorgan una bonificación a la prioridad de economía de la nación, aunque también hacen que aumente mucho la desigualdad y el impacto medioambiental.
+UI.Markers.MonsterArmy=Megafauna alienígena {0}
+UI.Markers.NoFactionArmy={0} ({1}) {2} ataca: {3}
+UI.Markers.FactionArmy={0} ({1}, {2}) {3} ataca: {4}
+UI.Markers.Boost={0}<br/>{1}{2} al año
+UI.Markers.MissionControl={0}<br/>{1}{2}

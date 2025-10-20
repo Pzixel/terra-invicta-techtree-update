@@ -1,0 +1,50 @@
+TIShipArmorTemplate.displayName.SteelArmor=Blindage en acier
+TIShipArmorTemplate.description.SteelArmor=Un lourd blindage en acier de qualité qui augmente la résistance de nos vaisseaux lors des combats.
+TIShipArmorTemplate.displayName.TitaniumArmor=Blindage en titane
+TIShipArmorTemplate.description.TitaniumArmor=Un blindage résistant à la chaleur et incassable, mais au coût important.
+TIShipArmorTemplate.displayName.SiliconCarbideArmor=Blindage en carbure de silicium
+TIShipArmorTemplate.description.SiliconCarbideArmor=Un blindage en céramique obtenu par le frittage de silicium et de poudre de carbone.
+TIShipArmorTemplate.displayName.BoronCarbideArmor=Blindage en carbure de bore
+TIShipArmorTemplate.description.BoronCarbideArmor=Un blindage en « diamant noir » obtenu par la réduction de sesquioxyde de bore dans une atmosphère de carbone.
+TIShipArmorTemplate.displayName.CompositeArmor=Blindage composite
+TIShipArmorTemplate.description.CompositeArmor=Des couches alternées de céramique et de métal apportent une protection légère et élargie.
+TIShipArmorTemplate.displayName.FoamedMetalArmor=Blindage en mousse de métal
+TIShipArmorTemplate.description.FoamedMetalArmor=Le titane et autre alliages « en mousse » à faible densité, intercalés avec des plaques en céramique, offrent une protection poids plume à notre vaisseau spatial.
+TIShipArmorTemplate.displayName.NanotubeArmor=Blindage en nanotubes
+TIShipArmorTemplate.description.NanotubeArmor=Une nouvelle génération de blindage obtenu par la fusion de millions de nanotubes en carbone.
+TIShipArmorTemplate.displayName.AdamantaneArmor=Armure en adamantane
+TIShipArmorTemplate.description.AdamantaneArmor=Un diamantoïde de pointe qui assure une protection contre les armes cinétiques.
+TIShipArmorTemplate.displayName.ExoticArmor=Blindage en exomatériaux
+TIShipArmorTemplate.description.ExoticArmor=Des couches ultralégères d'un alliage extraterrestre.
+TIShipArmorTemplate.displayName.HybridArmor=Blindage hybride
+TIShipArmorTemplate.description.HybridArmor=Des exomatériaux sous forme de diamantoïdes qui offrent un niveau de protection jusque-là impensable.
+TIShipArmorTemplate.displayName.AlienAdamantaneArmor=Blindage en diamantoïdes extraterrestres
+TIShipArmorTemplate.description.AlienAdamantaneArmor=Un matériau extraterrestre qui semble basé sur la manipulation du carbone.
+TIShipArmorTemplate.displayName.AlienExoticArmor=Blindage en exomatériaux extraterrestres
+TIShipArmorTemplate.description.AlienExoticArmor=Un matériau extraterrestre avec des propriétés en exomatériaux.
+
+TIShipArmorTemplate.ResourcesPerTon=Coût par tonne :<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsResistance={0} bonus de résistance aux dégâts cinétiques
+TIShipArmorTemplate.LaserResistance={0} bonus de résistance aux dégâts infligés par les lasers
+TIShipArmorTemplate.ChippingResistance={0} bonus de résistance aux fissures
+TIShipArmorTemplate.KineticsVulnerability=Subit {0} dégâts supplémentaires dus aux armes cinétiques
+TIShipArmorTemplate.LaserVulnerability=Subit {0} dégâts supplémentaires dus aux lasers
+TIShipArmorTemplate.ChippingVulnerability=Subit {0} fissures supplémentaires du blindage dues aux frappes
+TIShipArmorTemplate.XRayResistance={0} bonus de résistance aux rayons X des armes à particules par rapport à l’acier
+TIShipArmorTemplate.XRayVulnerability=Subit {0} dégâts supplémentaires dus aux rayons X des armes à particules
+TIShipArmorTemplate.BaryonicResistance={0} bonus de résistance aux neutrons des armes à particules
+TIShipArmorTemplate.BaryonicVulnerability=Subit {0} dégâts supplémentaires dus aux neutrons des armes à particules
+
+TIShipArmorTemplate.ThicknessPerPoint=Épaisseur par point :<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.NoseTailTonsPerPoint=Masse par point de blindage de la proue ou de la queue :<rcol>{0} tonnes</rcol>
+TIShipArmorTemplate.LateralTonsPerPoint=Masse par point de blindage latéral :<rcol>{0} tonnes</rcol>
+
+TIShipArmorTemplate.MaxArmorThickness_Lateral=Épaisseur maximale du blindage latéral :<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Nose=Épaisseur maximale du blindage de la proue :<rcol>{0} cm</rcol>
+TIShipArmorTemplate.MaxArmorThickness_Tail=Épaisseur maximale du blindage de la queue :<rcol>{0} cm</rcol>
+
+TIShipArmorTemplate.MaxArmorPoints_Lateral=Blindage latéral maximum :<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Nose=Blindage maximum de la proue :<rcol>{0}</rcol>
+TIShipArmorTemplate.MaxArmorPoints_Tail=Blindage maximum de la queue :<rcol>{0}</rcol>
+

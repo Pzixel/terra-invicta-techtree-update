@@ -1,0 +1,15 @@
+UI.Markers.CouncilorMarker.Tooltip={0}{1} ({2})</color>	// faction color, councilor Name, councilor job
+UI.Markers.CouncilorMarker.TooltipWithMission={0}{1} ({2})</color>: {3} ({4}).	// faction color, councilor Name, councilor job, mission, target
+UI.Markers.CouncilorMarker.TooltipWithMissionResolveTime={0}{1} ({2})</color>: {3} ({4}). Koniec: {5}.	// faction color, councilor Name, councilor job, mission, target, completion date
+UI.Markers.Capital.TooltipHeader={0} – filary władzy ({1})	// nation, # CPs
+UI.Markers.Capital.ControlPoint=#{0} ({1}): {2}
+UI.Markers.Uncontrolled=Neutralny
+UI.Markers.InvalidTarget=Nieprawidłowy cel
+UI.Markers.Occupation={0}: okupacja – {1}	// Occupying nation, percentage
+UI.Markers.CoreEconomicRegion=Kluczowy region gospodarczy<br/><br/>Kluczowe regiony gospodarcze zapewniają premię do priorytetu gospodarki państwa.
+UI.Markers.CoreResourceRegion=Region surowcowy<br/><br/>Regiony surowcowe zapewniają premię do priorytetu gospodarki państwa, ale powodują też większe nierówności społeczne oraz szkody dla środowiska.
+UI.Markers.MonsterArmy=Megafauna kosmitów {0}
+UI.Markers.NoFactionArmy={0} ({1}) {2} Atak: {3}
+UI.Markers.FactionArmy={0} ({1}, {2}) {3} Atak: {4}
+UI.Markers.Boost={0}<br/>{1}{2} na rok
+UI.Markers.MissionControl={0}<br/>{1}{2}

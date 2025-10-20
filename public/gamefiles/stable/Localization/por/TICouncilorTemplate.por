@@ -1,0 +1,12 @@
+TICouncilorTemplate.maleSubjectivePronoun=ele
+TICouncilorTemplate.femaleSubjectivePronoun=ela
+TICouncilorTemplate.nonBinarySubjectivePronoun=elu
+TICouncilorTemplate.maleObjectivePronoun=o
+TICouncilorTemplate.femaleObjectivePronoun=a
+TICouncilorTemplate.nonBinaryObjectivePronoun=lhe
+TICouncilorTemplate.malePossessivePronoun=dele
+TICouncilorTemplate.femalePossessivePronoun=dela
+TICouncilorTemplate.nonBinaryPossessivePronoun=delu
+TICouncilorTemplate.age=Idade
+TICouncilorTemplate.alienName1=Xenoforma
+TICouncilorTemplate.alienName2=Alfa-{0}

@@ -1,0 +1,245 @@
+[
+ {
+   "dataName": "USAArmy2",
+   "friendlyName": "2nd Infantry",
+   "startRegionStr": "SouthKorea",
+   "homeRegionStr": "Cascadia",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "USAArmy3",
+   "friendlyName": "3rd Infantry",
+   "startRegionStr": "Dixie",
+   "homeRegionStr": "Dixie",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "USAArmy5",
+   "friendlyName": "1st Marines",
+   "startRegionStr": "California",
+   "homeRegionStr": "California",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "USAArmy4",
+   "friendlyName": "1st Armored",
+   "startRegionStr": "Texas",
+   "homeRegionStr": "Texas",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "USAArmy1",
+   "friendlyName": "1st Infantry",
+   "startRegionStr": "HighPlains",
+   "homeRegionStr": "HighPlains",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "USAArmy6",
+   "friendlyName": "2nd Marines",
+   "startRegionStr": "Shenandoah",
+   "homeRegionStr": "Shenandoah",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "GBRArmy1",
+   "friendlyName": "1st Armored",
+   "startRegionStr": "England",
+   "homeRegionStr": "England",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "EUAArmy1",
+   "friendlyName": "1st Blindee",
+   "startRegionStr": "Paris",
+   "homeRegionStr": "Paris",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "RUSArmy1",
+   "friendlyName": "20th Guards Army",
+   "startRegionStr": "Moskva",
+   "homeRegionStr": "Moskva",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "RUSArmy2",
+   "friendlyName": "1st Tank Army",
+   "startRegionStr": "Kharkiv",
+   "homeRegionStr": "Novgorod",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 0.25
+ },
+ {
+   "dataName": "RUSArmy3",
+   "friendlyName": "8th Guards Army",
+   "startRegionStr": "Kharkiv",
+   "homeRegionStr": "Rostovskaya",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 0.55
+ },
+ {
+   "dataName": "CHNArmy1",
+   "friendlyName": "81st Group Army",
+   "startRegionStr": "Beijing",
+   "homeRegionStr": "Beijing",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "CHNArmy2",
+   "friendlyName": "73rd Group Army",
+   "startRegionStr": "Hangzhou",
+   "homeRegionStr": "Hangzhou",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "CHNArmy3",
+   "friendlyName": "79th Group Army",
+   "startRegionStr": "Manchuria",
+   "homeRegionStr": "Manchuria",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "CHNArmy4",
+   "friendlyName": "75th Group Army",
+   "startRegionStr": "Guizhou",
+   "homeRegionStr": "Guizhou",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "INDArmy1",
+   "friendlyName": "XII Corps",
+   "startRegionStr": "NewDelhi",
+   "homeRegionStr": "NewDelhi",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "INDArmy2",
+   "friendlyName": "X Corps",
+   "startRegionStr": "Jaipur",
+   "homeRegionStr": "Jaipur",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "INDArmy3",
+   "friendlyName": "IV Corps",
+   "startRegionStr": "Assam",
+   "homeRegionStr": "Kolkata",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "INDArmy4",
+   "friendlyName": "XVI Corps",
+   "startRegionStr": "JammuandKashmir",
+   "homeRegionStr": "Mumbai",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "PAKArmy1",
+   "friendlyName": "I Strike Corps",
+   "startRegionStr": "Punjab",
+   "homeRegionStr": "Punjab",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "PRKArmy1",
+   "friendlyName": "820th Armored",
+   "startRegionStr": "NorthKorea",
+   "homeRegionStr": "NorthKorea",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "ISRArmy1",
+   "friendlyName": "36th Armored",
+   "startRegionStr": "Israel",
+   "homeRegionStr": "Israel",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "KORArmy1",
+   "friendlyName": "1st Army",
+   "startRegionStr": "SouthKorea",
+   "homeRegionStr": "SouthKorea",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "TURArmy1",
+   "friendlyName": "2nd Army",
+   "startRegionStr": "Diyarbakir",
+   "homeRegionStr": "Anatolia",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "EGYArmy1",
+   "friendlyName": "1st Field Army",
+   "startRegionStr": "Cairo",
+   "homeRegionStr": "Cairo",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "IRNArmy1",
+   "friendlyName": "1st Army",
+   "startRegionStr": "Tehran",
+   "homeRegionStr": "Tehran",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "ISRArmy1Combined",
+   "friendlyName": "36th Armored",
+   "startRegionStr": "CombinedIsrael",
+   "homeRegionStr": "CombinedIsrael",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ }
+]

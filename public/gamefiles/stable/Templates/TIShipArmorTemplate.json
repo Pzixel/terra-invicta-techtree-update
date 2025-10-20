@@ -1,0 +1,358 @@
+[
+ {
+   "dataName": "SteelArmor",
+   "friendlyName": "Steel Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.02,
+      "metals": 0.98,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "xRayHalfValue_cm": 2,
+   "baryonicHalfValue_cm": 7.5,
+   "density_kgm3": 7850,
+   "heatofVaporization_MJkg": 6.8,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 1
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1
+      },
+      {
+         "armorSpecialty": "ChippingResistance",
+         "value": 0.75
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_SteelArmor"
+},
+ {
+   "dataName": "TitaniumArmor",
+   "friendlyName": "Titanium Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0,
+      "metals": 0.05,
+      "nobleMetals": 0.95,
+      "exotics": 0
+   },
+   "xRayHalfValue_cm": 4.2,
+   "baryonicHalfValue_cm": 10.5,
+   "density_kgm3": 4820,
+   "heatofVaporization_MJkg": 8.77,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 2.816
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.07
+      },
+      {
+         "armorSpecialty": "ChippingResistance",
+         "value": 0.75
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_TitaniumArmor"
+},
+ {
+   "dataName": "SiliconCarbideArmor",
+   "friendlyName": "Silicon Carbide Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "xRayHalfValue_cm": 9.1,
+   "baryonicHalfValue_cm": 58,
+   "density_kgm3": 3210,
+   "heatofVaporization_MJkg": 9.9,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 5.146
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.72
+      },
+      {
+         "armorSpecialty": "None",
+         "value": 0
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_SiliconCarbideArmor"
+},
+ {
+   "dataName": "BoronCarbideArmor",
+   "friendlyName": "Boron Carbide Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "xRayHalfValue_cm": 22.2,
+   "baryonicHalfValue_cm": 13.8,
+   "density_kgm3": 2520,
+   "heatofVaporization_MJkg": 7.14,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 6.705
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 0.654
+      },
+      {
+         "armorSpecialty": "KineticsResistance",
+         "value": 0.75
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_BoronCarbideArmor"
+},
+ {
+   "dataName": "CompositeArmor",
+   "friendlyName": "Composite Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.25,
+      "nobleMetals": 0.25,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_CompositeArmor",
+   "xRayHalfValue_cm": 15.3,
+   "baryonicHalfValue_cm": 72,
+   "density_kgm3": 1930,
+   "heatofVaporization_MJkg": 15,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 7.178
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.75
+      },
+      {
+         "armorSpecialty": "None",
+         "value": 0
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_CompositeArmor"
+},
+ {
+   "dataName": "FoamedMetalArmor",
+   "friendlyName": "Foamed Metal Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.3,
+      "metals": 0.5,
+      "nobleMetals": 0.2,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_FoamedMetalArmor",
+   "xRayHalfValue_cm": 29.4,
+   "baryonicHalfValue_cm": 134.9,
+   "density_kgm3": 920,
+   "heatofVaporization_MJkg": 24,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 8.758
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.821
+      },
+      {
+         "armorSpecialty": "ChippingResistance",
+         "value": 0.75
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_FoamedMetalArmor"
+},
+ {
+   "dataName": "NanotubeArmor",
+   "friendlyName": "Nanotube Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.6,
+      "metals": 0.35,
+      "nobleMetals": 0.05,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_NanotubeArmor",
+   "xRayHalfValue_cm": 19.9,
+   "baryonicHalfValue_cm": 155.4,
+   "density_kgm3": 1720,
+   "heatofVaporization_MJkg": 29.6,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 10.21
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.93
+      },
+      {
+         "armorSpecialty": "None",
+         "value": 0
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_NanotubeArmor"
+},
+ {
+   "dataName": "AdamantaneArmor",
+   "friendlyName": "Adamantane Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.55,
+      "metals": 0.35,
+      "nobleMetals": 0.1,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_AdamantaneArmor",
+   "xRayHalfValue_cm": 18,
+   "baryonicHalfValue_cm": 115.8,
+   "density_kgm3": 1800,
+   "heatofVaporization_MJkg": 59.534,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 11.627
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.955
+      },
+      {
+         "armorSpecialty": "KineticsResistance",
+         "value": 0.75
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_AdamantaneArmor"
+},
+ {
+   "dataName": "ExoticArmor",
+   "friendlyName": "Exotic Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.4,
+      "metals": 0.42,
+      "nobleMetals": 0.16,
+      "exotics": 0.02
+   },
+   "requiredProjectName": "Project_ExoticArmor",
+   "xRayHalfValue_cm": 5.2,
+   "baryonicHalfValue_cm": 12,
+   "density_kgm3": 2200,
+   "heatofVaporization_MJkg": 70,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 9.495
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.72
+      },
+      {
+         "armorSpecialty": "None",
+         "value": 0
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_ExoticArmor"
+},
+ {
+   "dataName": "HybridArmor",
+   "friendlyName": "Hybrid Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.38,
+      "metals": 0.45,
+      "nobleMetals": 0.16,
+      "exotics": 0.01
+   },
+   "requiredProjectName": "Project_HybridArmor",
+   "xRayHalfValue_cm": 4.5,
+   "baryonicHalfValue_cm": 11,
+   "density_kgm3": 2000,
+   "heatofVaporization_MJkg": 80,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 9.133
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.707
+      },
+      {
+         "armorSpecialty": "LaserResistance",
+         "value": 0.75
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_HybridArmor"
+},
+ {
+   "dataName": "AlienAdamantaneArmor",
+   "friendlyName": "Alien Adamantane Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.55,
+      "metals": 0.35,
+      "nobleMetals": 0.1,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_AlienMasterProject",
+   "xRayHalfValue_cm": 18,
+   "baryonicHalfValue_cm": 115.8,
+   "density_kgm3": 1800,
+   "heatofVaporization_MJkg": 59.534,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 11.627
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.955
+      },
+      {
+         "armorSpecialty": "KineticsResistance",
+         "value": 0.75
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_AdamantaneArmor"
+},
+ {
+   "dataName": "AlienExoticArmor",
+   "friendlyName": "Alien Exotic Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.4,
+      "metals": 0.44,
+      "nobleMetals": 0.14,
+      "exotics": 0.02
+   },
+   "requiredProjectName": "Project_AlienMasterProject",
+   "xRayHalfValue_cm": 5.2,
+   "baryonicHalfValue_cm": 12,
+   "density_kgm3": 2200,
+   "heatofVaporization_MJkg": 70,
+   "specialties": [
+      {
+         "armorSpecialty": "XRayResistance",
+         "value": 9.495
+      },
+      {
+         "armorSpecialty": "BaryonicResistance",
+         "value": 1.72
+      },
+      {
+         "armorSpecialty": "LaserResistance",
+         "value": 0.75
+      }
+   ],
+   "iconResource": "shipbuildericons/ICO_ExoticArmor"
+}
+]

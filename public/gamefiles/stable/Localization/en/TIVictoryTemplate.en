@@ -1,0 +1,75 @@
+TIVictoryCondition.description.GlobalControlPointProportion=Our faction's control point values must be at least {0} of all control point values on Earth.
+TIVictoryCondition.description.GlobalRegionProportion=Our faction must control {0} of all regions on Earth. We control a region when we have the executive control point in its nation and more than half of the total control points in that nation.
+TIVictoryCondition.description.GlobalEcoProportion=Our faction must control {0} of all core economic regions on Earth. We control a region when we have the executive control point in its nation and more than half of the total control points in that nation.
+TIVictoryCondition.description.GlobalPopulationProportion=Our faction must control regions with {0} of the Earth's population. We control a region when we have the executive control point in a nation and more than half of the total control points in that nation.
+TIVictoryCondition.description.GlobalGDPProportion=Our faction must control nations with at least {0} of Earth's GDP. We control a nation when we have the executive control point and more than half of all control points in the nation.
+TIVictoryCondition.description.AlienNationMaxRegionProportion_special=The aliens must control no regions on Earth.
+TIVictoryCondition.description.AlienNationMaxRegionProportion=The aliens must control no more than {0} of Earth's regions.
+TIVictoryCondition.description.AlienNationMinRegionProportion=The aliens must control at least {0} of Earth's regions.
+TIVictoryCondition.description.AlienNationMaxPopulationProportion=The aliens must control regions containing no more than {0} of Earth's population.
+TIVictoryCondition.description.AlienNationMinPopulationProportion=The aliens must control regions containing at least {0} of Earth's population.
+TIVictoryCondition.description.ProAlienMaxRegionProportion=Aliens and pro-alien factions must control no more than {0} of Earth's regions. A faction controls a region when it has the executive control point in the region's nation and more than half of the total control points in that nation.
+TIVictoryCondition.description.ProAlienMinRegionProportion=Aliens and pro-alien factions must control at least {0} of Earth's regions. A faction controls a region when it has the executive control point in the nation and more than half of the total control points in that nation.
+TIVictoryCondition.description.MinProAlienFleetPower=The combined fleet power of the Aliens and pro-alien factions must be at least {0} of the total fleet power among all factions in the Solar System.
+TIVictoryCondition.description.MaxProAlienFleetPower=The combined fleet power of the Aliens and pro-alien factions must be no more than {0} of the total fleet power among all factions in the Solar System.
+TIVictoryCondition.description.MaxOtherFactionsFleetPower=The combined fleet power of all enemy factions must be no more than {0} of the total fleet power among all factions in the Solar System.
+TIVictoryCondition.description.MinGlobalDemocracyWeightedAverage=The average Democracy score on Earth, weighted by national populations, must be at least {0}.
+TIVictoryCondition.description.MaxGlobalDemocracyWeightedAverage=The average Democracy score on Earth, weighted by national populations, must be less than {0}.
+TIVictoryCondition.description.MinGlobalInequalityWeightedAverage=The average Inequality score on Earth, weighted by national populations, must be at least {0}.
+TIVictoryCondition.description.MaxGlobalInequalityWeightedAverage=The average Inequality score on Earth, weighted by national populations, must be less than {0}.
+TIVictoryCondition.description.GlobalPopularityProportion=Our faction must be supported by {0} of the Earth's population.
+TIVictoryCondition.description.GlobalMissionControlCapacity=Our faction must control {0} of humanity's Mission Control capacity.
+TIVictoryCondition.Status=Current Value: {0}/{1} ({2})
+TIVictoryCondition.None=No additional conditions
+TIVictoryCondition.FreePlanets_DefeatAliens_PlanetarySystem=Destroy all alien habs of tier {0} and greater in the {1} planetary system
+TIVictoryCondition.FreePlanets_DefeatAliens_Region=Destroy all alien habs of tier {0} and greater at the following bodies: {1}
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_PlanetarySystem=Destroy all habs of tier {0} and greater belonging to the aliens and their human supporters ({2}) in the {1} system
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_Region=Destroy all habs of tier {0} and greater belonging to the aliens and their human supporters ({2}) at the following bodies: {1}
+TIVictoryCondition.FreePlanets_DefeatEveryone_PlanetarySystem=Destroy all habs of tier {0} and greater not belonging to our faction in the {1} planetary system
+TIVictoryCondition.FreePlanets_DefeatEveryone_Region=Destroy all habs of tier {0} and greater not belonging to our faction at the following bodies: {1}
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_PlanetarySystem=Destroy all habs of tier {0} and greater belonging to anti-alien factions ({2}) in the {1} planetary system
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_Region=Destroy all habs of tier {0} and greater belonging to anti-alien factions ({2}) at the following bodies: {1}
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_PlanetarySystem=Destroy all habs of tier {0} and greater belonging to factions not allied with the aliens ({2}) in the {1} planetary system
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Destroy all habs of tier {0} and greater belonging to factions not allied with the aliens ({2}) at the following bodies: {1}
+TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Destroy all habs of tier {0} and greater belonging to the aliens and human extremist factions ({2}) in the {1} planetary system
+TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Destroy all habs of tier {0} and greater belonging to the aliens and human extremist factions ({2}) at the following bodies: {1}
+
+TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem=Destroy all alien bases of tier {0} and greater in the {1} planetary system
+TIVictoryCondition.FreeBases_DefeatAliens_Region=Destroy all alien bases of tier {0} and greater at the following bodies: {1}
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem=Destroy all bases of tier {0} and greater belonging to the aliens and their human supporters ({2}) in the {1} system
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_Region=Destroy all bases of tier {0} and greater belonging to the aliens and their human supporters ({2}) at the following bodies: {1}
+TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem=Destroy all bases of tier {0} and greater not belonging to our faction in the {1} planetary system
+TIVictoryCondition.FreeBases_DefeatEveryone_Region=Destroy all bases of tier {0} and greater not belonging to our faction at the following bodies: {1}
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem=Destroy all bases of tier {0} and greater belonging to anti-alien factions ({2}) in the {1} planetary system
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=Destroy all bases of tier {0} and greater belonging to anti-alien factions ({2}) at the following bodies: {1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=Destroy all bases of tier {0} and greater belonging to factions not allied with the aliens ({2}) in the {1} planetary system
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=Destroy all bases of tier {0} and greater belonging to factions not allied with the aliens ({2}) at the following bodies: {1}
+TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem=Destroy all bases of tier {0} and greater belonging to the aliens and human extremist factions ({2}) in the {1} planetary system
+TIVictoryCondition.FreeBases_DefeatExtremists_Region=Destroy all bases of tier {0} and greater belonging to the aliens and human extremist factions ({2}) at the following bodies: {1}
+
+TIVictoryCondition.FreeFleets_DefeatAliens_All=Destroy all alien fleets with combat strength of {0} and greater
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and their human supporters ({2})
+TIVictoryCondition.FreeFleets_DefeatEveryone_All=Destroy all fleets with combat strength of {0} and greater not belonging to our faction 
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_All=Destroy all fleets with combat strength of {0} and greater belonging to anti-alien factions ({2})
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_All=Destroy all fleets with combat strength of {0} and greater belonging to factions not allied with the aliens ({2})
+TIVictoryCondition.FreeFleets_DefeatExtremists_All=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and human extremist factions ({2})
+
+TIVictoryCondition.FreeFleets_DefeatAliens_PlanetarySystem=Destroy all alien fleets with combat strength of {0} and greater in the {1} planetary system
+TIVictoryCondition.FreeFleets_DefeatAliens_Region=Destroy all alien fleets with combat strength of {0} and greater at the following bodies: {1}
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and their human supporters ({2}) in the {1} system
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_Region=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and their human supporters ({2}) at the following bodies: {1}
+TIVictoryCondition.FreeFleets_DefeatEveryone_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater not belonging to our faction in the {1} planetary system
+TIVictoryCondition.FreeFleets_DefeatEveryone_Region=Destroy all fleets with combat strength of {0} and greater not belonging to our faction at the following bodies: {1}
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater belonging to anti-alien factions ({2}) in the {1} planetary system
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_Region=Destroy all fleets with combat strength of {0} and greater belonging to anti-alien factions ({2}) at the following bodies: {1}
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater belonging to factions not allied with the aliens ({2}) in the {1} planetary system
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Destroy all fleets with combat strength of {0} and greater belonging to factions not allied with the aliens ({2}) at the following bodies: {1}
+TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and human extremist factions ({2}) in the {1} planetary system
+TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Destroy all fleets with combat strength of {0} and greater belonging to the aliens and human extremist factions ({2}) at the following bodies: {1}
+
+TIVictoryCondition.BasePresence_MajorPlanets=Have a fully built surface base with all modules at least tier {0} and powered and active in the following planetary systems:
+
+TIVictoryCondition.Complete=Complete
+TIVictoryCondition.Incomplete=Incomplete
+TIVictoryCondition.Colon={0}: {1}
+

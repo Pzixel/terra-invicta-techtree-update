@@ -1,0 +1,17 @@
+TILocalizationTemplate.displayName.en=Inglês
+TILocalizationTemplate.displayName.fr=Francês
+TILocalizationTemplate.displayName.deu=Alemão
+TILocalizationTemplate.displayName.esp=Espanhol
+TILocalizationTemplate.displayName.cht=Chinês (Tradicional)
+TILocalizationTemplate.displayName.chs=Chinês (Simplificado)
+TILocalizationTemplate.displayName.jpn=Japonês
+TILocalizationTemplate.displayName.rus=Russo
+TILocalizationTemplate.displayName.kor=Coreano
+TILocalizationTemplate.displayName.ita=Italiano
+TILocalizationTemplate.displayName.pol=Polonês
+TILocalizationTemplate.displayName.por=Português
+TILocalizationTemplate.displayName.nld=Holandês
+TILocalizationTemplate.displayName.cze=Tcheco
+TILocalizationTemplate.displayName.ukr=Ucraniano
+TILocalizationTemplate.displayName.ara=Árabe
+TILocalizationTemplate.displayName.tur=Turco
