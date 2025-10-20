@@ -10,7 +10,7 @@ import { TechDb } from './utils/TechDb';
 import { AppStaticData } from './types/props';
 import { getTemplateData, LocalizationDb, TemplateTypes, TechTemplate } from './types';
 import { DefaultLanguage, Language, Languages } from './language';
-import { DefaultVersion, GameVersion, GameVersions, isGameVersionCode } from './version';
+import { DefaultVersion, GameVersion, GameVersionCode, GameVersions, isGameVersionCode } from './version';
 import { useWindowSize } from './utils/useWindowSize';
 
 function App() {
@@ -32,20 +32,31 @@ function App() {
     const isMobileLayout = width < 900;
 
     // Get initial language from URL parameter
-    const getInitialLanguage = () => {
-        const queryParams = new URLSearchParams(window.location.search);
-        const langParam = queryParams.get('lang');
-        return langParam && Languages[langParam] ? Languages[langParam] : DefaultLanguage;
-    };
-
     const getInitialVersion = () => {
         const queryParams = new URLSearchParams(window.location.search);
         const versionParam = queryParams.get('ver');
         return isGameVersionCode(versionParam) ? GameVersions[versionParam] : DefaultVersion;
     };
 
-    const [language, setLanguage] = useState<Language>(getInitialLanguage());
-    const [version, setVersion] = useState<GameVersion>(getInitialVersion());
+    const getInitialLanguage = (versionCode: GameVersionCode) => {
+        const queryParams = new URLSearchParams(window.location.search);
+        const langParam = queryParams.get('lang');
+
+        if (langParam && Languages[langParam]) {
+            const candidate = Languages[langParam];
+            if (candidate.availableVersions.includes(versionCode)) {
+                return candidate;
+            }
+        }
+
+        return Object.values(Languages).find((lang) => lang.availableVersions.includes(versionCode)) ?? DefaultLanguage;
+    };
+
+    const [version, setVersion] = useState<GameVersion>(() => getInitialVersion());
+    const [language, setLanguage] = useState<Language>(() => {
+        const initialVersion = getInitialVersion();
+        return getInitialLanguage(initialVersion.code);
+    });
 
     const navigate = useNavigate();
     const { id } = useParams();
@@ -75,9 +86,22 @@ function App() {
     }, [language, version]);
 
     useEffect(() => {
+        if (!language.availableVersions.includes(version.code)) {
+            const fallbackLanguage = Object.values(Languages).find((lang) =>
+                lang.availableVersions.includes(version.code)
+            ) ?? DefaultLanguage;
+
+            if (fallbackLanguage.code !== language.code) {
+                setLanguage(fallbackLanguage);
+            }
+        }
+    }, [language, version]);
+
+    useEffect(() => {
         const handlePopState = () => {
-            setLanguage(getInitialLanguage());
-            setVersion(getInitialVersion());
+            const poppedVersion = getInitialVersion();
+            setVersion(poppedVersion);
+            setLanguage(getInitialLanguage(poppedVersion.code));
         };
 
         window.addEventListener('popstate', handlePopState);

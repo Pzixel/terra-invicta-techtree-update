@@ -2,7 +2,7 @@ import { FormControl, MenuItem, Paper, Select, ToggleButton, ToggleButtonGroup, 
 import { SelectChangeEvent } from '@mui/material/Select';
 import type { MouseEvent } from 'react';
 import { LanguageSelectorProps } from './types/props';
-import { Languages } from './language';
+import { DefaultLanguage, Languages } from './language';
 import { GameVersions, OrderedGameVersions, isGameVersionCode } from './version';
 
 export default function LanguageSelector({
@@ -24,9 +24,29 @@ export default function LanguageSelector({
     }
 
     if (isGameVersionCode(newVersionCode)) {
-      onVersionChange(GameVersions[newVersionCode]);
+      const nextVersion = GameVersions[newVersionCode];
+      onVersionChange(nextVersion);
+
+      if (!language.availableVersions.includes(nextVersion.code)) {
+        const fallbackLanguage = Object.values(Languages).find((langOption) =>
+          langOption.availableVersions.includes(nextVersion.code)
+        ) ?? DefaultLanguage;
+
+        if (fallbackLanguage.code !== language.code) {
+          onLanguageChange(fallbackLanguage);
+        }
+      }
     }
   };
+
+  const availableLanguages = Object.values(Languages).filter((langOption) =>
+    langOption.availableVersions.includes(version.code)
+  );
+
+  const isLanguageAvailable = language.availableVersions.includes(version.code);
+  const selectLanguages = isLanguageAvailable
+    ? availableLanguages
+    : [...availableLanguages, language];
 
   return (
     <Paper
@@ -63,7 +83,6 @@ export default function LanguageSelector({
             key={gameVersion.code}
             value={gameVersion.code}
             aria-label={gameVersion.name}
-            title={gameVersion.description}
           >
             <Tooltip
               title={
@@ -86,6 +105,8 @@ export default function LanguageSelector({
                   display: 'inline-flex',
                   alignItems: 'center',
                   justifyContent: 'center',
+                    width: '100%',
+                    height: '100%',
                   fontSize: '1.5rem',
                   lineHeight: 1,
                 }}
@@ -104,14 +125,23 @@ export default function LanguageSelector({
           value={language.code}
           onChange={handleLanguageChange}
           renderValue={(selected) => {
-            const selectedLang = selected && selected in Languages ? Languages[selected] : null;
-            return <span style={{ fontSize: '1.2rem' }}>{selectedLang?.icon}</span>;
+            const selectedCode = typeof selected === 'string' ? selected : language.code;
+            const selectedLang = selectedCode && selectedCode in Languages ? Languages[selectedCode] : language;
+            return <span style={{ fontSize: '1.2rem' }}>{selectedLang.icon}</span>;
           }}
         >
-          {Object.values(Languages).map((langOption) => (
-            <MenuItem key={langOption.code} value={langOption.code} sx={{ backgroundColor: 'white' }}>
+          {selectLanguages.map((langOption) => (
+            <MenuItem
+              key={langOption.code}
+              value={langOption.code}
+              sx={{ backgroundColor: 'white', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+              disabled={!langOption.availableVersions.includes(version.code)}
+            >
               <span style={{ fontSize: '1.2rem', marginRight: '8px' }}>{langOption.icon}</span>
-              {langOption.name}
+              <span>{langOption.name}</span>
+              {!langOption.availableVersions.includes('stable') && (
+                <span style={{ marginLeft: 'auto', color: '#6c757d', fontSize: '0.8rem' }}>Experimental</span>
+              )}
             </MenuItem>
           ))}
         </Select>

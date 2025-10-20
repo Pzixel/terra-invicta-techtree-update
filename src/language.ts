@@ -1,3 +1,5 @@
+import { GameVersionCode } from './version';
+
 interface LocalizedUi {
     adjacencies: string;
     baseAvailabilityChance: string;
@@ -82,6 +84,7 @@ export type Language = {
     name: string;
     uiTexts: LocalizedUi;
     locale: string;
+    availableVersions: GameVersionCode[];
 }
 
 const chsUi: LocalizedUi = {
@@ -396,16 +399,139 @@ const porUi: LocalizedUi = {
     unblocksResearch: "Desbloqueia Pesquisa",
 };
 
+const korUi: LocalizedUi = {
+    adjacencies: "인접 관계",
+    baseAvailabilityChance: "기본 가용 확률",
+    claims: "영유권",
+    completableOnceGlobally: "전 세계에서 한 번만 완료 가능",
+    completionQuote: "완료 인용구",
+    completionText: "완료 텍스트",
+    cost: "비용",
+    effects: "효과",
+    endgameTech: "엔드게임 기술",
+    factionAlways: "항상 사용 가능한 세력",
+    factionPrereq: "사용 가능한 세력 제한",
+    fullTextSearch: "전체 텍스트 검색",
+    hiddenEffect: "숨겨진 효과: ",
+    initialUnlockChance: "초기 해제 확률",
+    markDone: "완료 표시",
+    markUndone: "완료 취소",
+    clearAllProgress: "모든 진행도 초기화",
+    clearAllProgressTooltip: "모든 연구 진행도를 초기화하고 페이지를 새로 고칩니다",
+    maximumUnlockChance: "최대 해제 확률",
+    milestoneNeeded: "필요한 이정표",
+    modulesUnlocked: "해제된 모듈",
+    monthlyUnlockChanceIncrease: "월간 해제 확률 증가",
+    orgGranted: "획득한 조직",
+    orgsAddedToMarket: "시장에 추가된 조직",
+    repeatable: "반복 가능",
+    requiredResearch: "필요 연구",
+    resourcesGranted: "획득 자원",
+    search: "검색",
+    seeEntireTree: "전체 트리 보기",
+    seeTreeForThisNode: "이 노드의 트리 보기",
+    showProjects: "프로젝트 표시",
+    summary: "요약",
+    totalTreeCost: "트리 총 비용",
+    traits: "사용 가능한 고문 특성",
+    unblocksOneOrMoreModules: "하나 이상의 모듈을 해제합니다.",
+    unblocksResearch: "연구를 해제",
+};
+
+const rusUi: LocalizedUi = {
+    adjacencies: "Смежности",
+    baseAvailabilityChance: "Базовый шанс доступности",
+    claims: "Претензии",
+    completableOnceGlobally: "Завершается только один раз во всём мире",
+    completionQuote: "Цитата при завершении",
+    completionText: "Текст завершения",
+    cost: "Стоимость",
+    effects: "Эффекты",
+    endgameTech: "Финальная технология",
+    factionAlways: "Всегда доступно для",
+    factionPrereq: "Доступно только для",
+    fullTextSearch: "Полнотекстовый поиск",
+    hiddenEffect: "Скрытый эффект: ",
+    initialUnlockChance: "Начальный шанс разблокировки",
+    markDone: "Отметить выполненным",
+    markUndone: "Отметить невыполненным",
+    clearAllProgress: "Сбросить весь прогресс",
+    clearAllProgressTooltip: "Сбрасывает весь прогресс исследований и перезагружает страницу",
+    maximumUnlockChance: "Максимальный шанс разблокировки",
+    milestoneNeeded: "Требуемый рубеж",
+    modulesUnlocked: "Разблокированные модули",
+    monthlyUnlockChanceIncrease: "Ежемесячный прирост шанса разблокировки",
+    orgGranted: "Полученная организация",
+    orgsAddedToMarket: "Организации, добавленные на рынок",
+    repeatable: "Повторяемое",
+    requiredResearch: "Необходимое исследование",
+    resourcesGranted: "Выданные ресурсы",
+    search: "Поиск",
+    seeEntireTree: "Показать всё дерево",
+    seeTreeForThisNode: "Показать дерево для этого узла",
+    showProjects: "Показать проекты",
+    summary: "Сводка",
+    totalTreeCost: "Общая стоимость дерева",
+    traits: "Доступные черты советников",
+    unblocksOneOrMoreModules: "Разблокирует один или несколько модулей.",
+    unblocksResearch: "Разблокирует исследования",
+};
+
+const ukrUi: LocalizedUi = {
+    adjacencies: "Суміжності",
+    baseAvailabilityChance: "Базовий шанс доступності",
+    claims: "Претензії",
+    completableOnceGlobally: "Можна завершити лише один раз у світі",
+    completionQuote: "Цитата завершення",
+    completionText: "Текст завершення",
+    cost: "Вартість",
+    effects: "Ефекти",
+    endgameTech: "Фінальна технологія",
+    factionAlways: "Завжди доступно для",
+    factionPrereq: "Доступно лише для",
+    fullTextSearch: "Повнотекстовий пошук",
+    hiddenEffect: "Прихований ефект: ",
+    initialUnlockChance: "Початковий шанс розблокування",
+    markDone: "Позначити завершеним",
+    markUndone: "Позначити незавершеним",
+    clearAllProgress: "Очистити весь прогрес",
+    clearAllProgressTooltip: "Очищає весь прогрес досліджень і перезавантажує сторінку",
+    maximumUnlockChance: "Максимальний шанс розблокування",
+    milestoneNeeded: "Потрібний рубіж",
+    modulesUnlocked: "Розблоковані модулі",
+    monthlyUnlockChanceIncrease: "Щомісячне зростання шансу розблокування",
+    orgGranted: "Надана організація",
+    orgsAddedToMarket: "Організації, додані на ринок",
+    repeatable: "Повторюване",
+    requiredResearch: "Потрібне дослідження",
+    resourcesGranted: "Надані ресурси",
+    search: "Пошук",
+    seeEntireTree: "Переглянути все дерево",
+    seeTreeForThisNode: "Переглянути дерево для цього вузла",
+    showProjects: "Показати проєкти",
+    summary: "Підсумок",
+    totalTreeCost: "Загальна вартість дерева",
+    traits: "Доступні риси радників",
+    unblocksOneOrMoreModules: "Розблоковує один або більше модулів.",
+    unblocksResearch: "Розблоковує дослідження",
+};
+
+const stableAndExperimental: GameVersionCode[] = ['stable', 'experimental'];
+const experimentalOnly: GameVersionCode[] = ['experimental'];
+
 export const Languages: Record<string, Language> = {
-    en: { code: 'en', icon: '🇬🇧', name: 'English', uiTexts: englishUi, locale: 'en' },
-    chs: { code: 'chs', icon: '🇨🇳', name: '简体中文', uiTexts: chsUi, locale: 'zh' },
-    cht: { code: 'cht', icon: '🇨🇳', name: '繁體中文', uiTexts: chtUi, locale: 'zh' },
-    deu: { code: 'deu', icon: '🇩🇪', name: 'Deutsch', uiTexts: deuUi, locale: 'de' },
-    esp: { code: 'esp', icon: '🇪🇸', name: 'Español', uiTexts: espUi, locale: 'es' },
-    fr: { code: 'fr', icon: '🇫🇷', name: 'Français', uiTexts: frUi, locale: 'fr' },
-    jpn: { code: 'jpn', icon: '🇯🇵', name: '日本語', uiTexts: jpnUi, locale: 'ja' },
-    pol: { code: 'pol', icon: '🇵🇱', name: 'Polski', uiTexts: polUi, locale: 'pl' },
-    por: { code: 'por', icon: '🇧🇷', name: 'Português', uiTexts: porUi, locale:'pt' }
-}
+    en: { code: 'en', icon: '🇬🇧', name: 'English', uiTexts: englishUi, locale: 'en', availableVersions: stableAndExperimental },
+    chs: { code: 'chs', icon: '🇨🇳', name: '简体中文', uiTexts: chsUi, locale: 'zh', availableVersions: stableAndExperimental },
+    cht: { code: 'cht', icon: '🇨🇳', name: '繁體中文', uiTexts: chtUi, locale: 'zh', availableVersions: stableAndExperimental },
+    deu: { code: 'deu', icon: '🇩🇪', name: 'Deutsch', uiTexts: deuUi, locale: 'de', availableVersions: stableAndExperimental },
+    esp: { code: 'esp', icon: '🇪🇸', name: 'Español', uiTexts: espUi, locale: 'es', availableVersions: stableAndExperimental },
+    fr: { code: 'fr', icon: '🇫🇷', name: 'Français', uiTexts: frUi, locale: 'fr', availableVersions: stableAndExperimental },
+    jpn: { code: 'jpn', icon: '🇯🇵', name: '日本語', uiTexts: jpnUi, locale: 'ja', availableVersions: stableAndExperimental },
+    pol: { code: 'pol', icon: '🇵🇱', name: 'Polski', uiTexts: polUi, locale: 'pl', availableVersions: stableAndExperimental },
+    por: { code: 'por', icon: '🇧🇷', name: 'Português', uiTexts: porUi, locale: 'pt', availableVersions: stableAndExperimental },
+    kor: { code: 'kor', icon: '🇰🇷', name: '한국어', uiTexts: korUi, locale: 'ko', availableVersions: experimentalOnly },
+    rus: { code: 'rus', icon: '🇷🇺', name: 'Русский', uiTexts: rusUi, locale: 'ru', availableVersions: experimentalOnly },
+    ukr: { code: 'ukr', icon: '🇺🇦', name: 'Українська', uiTexts: ukrUi, locale: 'uk', availableVersions: experimentalOnly },
+};
 
 export const DefaultLanguage = Languages.en;
