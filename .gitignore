@@ -25,3 +25,7 @@ dist-ssr
 *.sw?
 .vite
 scripts/*.json
+resources
+exported_textures
+export_test_output
+.venv
