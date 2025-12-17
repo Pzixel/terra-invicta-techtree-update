@@ -11,19 +11,24 @@ UI.SpaceCombat.Battery=AKUM
 UI.SpaceCombat.Idle=Bezczynna 
 UI.SpaceCombat.Idle.description=Broń nie będzie strzelać.
 UI.SpaceCombat.Focus=Skupiony ostrzał
-UI.SpaceCombat.Focus.description=Broń będzie strzelać do celu głównego swojego statku; w przypadku niewybrania żadnego celu lub gdy cel będzie poza zasięgiem, broń nie będzie strzelać.
+UI.SpaceCombat.Focus.description=Broń będzie strzelać do celu głównego swojego statku; w przypadku niewyznaczenia żadnego celu lub gdy cel będzie poza zasięgiem, broń nie będzie strzelać.
 UI.SpaceCombat.Offense=Tryb ataku
-UI.SpaceCombat.Offense.description=Broń będzie strzelać do celu głównego swojego statku; w przypadku niewybrania żadnego celu broń będzie strzelać do najbliższej jednostki wroga.
+UI.SpaceCombat.Offense.description=Broń będzie strzelać do celu głównego swojego statku; w przypadku niewyznaczenia żadnego celu lub gdy cel znajdzie się poza zasięgiem, broń będzie strzelać do najbliższej jednostki wroga.
 UI.SpaceCombat.Defense=Tryb obronny
-UI.SpaceCombat.Defense.description=Broń będzie strzelać do najbliższego pocisku zagrażającego nam lub sprzymierzeńcom.
+UI.SpaceCombat.Defense.description=Broń będzie strzelać do najbliższego pocisku zagrażającego temu statkowi lub sprzymierzeńcom.
 UI.SpaceCombat.Guardian=Tryb straży
-UI.SpaceCombat.Guardian.description=Broń będzie strzelać do najbliższego pocisku zagrażającego nam lub sprzymierzeńcom; w przypadku niewykrycia takich pocisków będzie strzelać do celu głównego swojego statku; w przypadku niewybrania żadnego celu broń będzie strzelać do najbliższej jednostki wroga.
+UI.SpaceCombat.Guardian.description=Broń będzie strzelać do najbliższego pocisku zagrażającego temu statkowi lub sprzymierzeńcom; w przypadku niewykrycia takich pocisków będzie strzelać do celu głównego swojego statku; w przypadku niewybrania żadnego celu broń będzie strzelać do najbliższej jednostki wroga.
+UI.SpaceCombat.MissileOffense=Tryb ataku rakietowego
+UI.SpaceCombat.MissileOffense.description=Broń będzie strzelać do celu głównego swojego statku; w przypadku niewybrania żadnego celu broń będzie strzelać do różnych celów w zasięgu.
 UI.SpaceCombat.MissileDefense=Tryb przeciwrakietowy
-UI.SpaceCombat.MissileDefense.description=Broń będzie strzelać do najbliższych rakiet zagrażających nam lub sprzymierzeńcom.
+UI.SpaceCombat.MissileDefense.description=Broń będzie strzelać do najbliższej rakiety zagrażającej temu statkowi lub sprzymierzeńcom.
 UI.SpaceCombat.MissileGuardian=Tryb straży antyrakietowej
-UI.SpaceCombat.MissileGuardian.description=Broń będzie strzelać do najbliższej rakiety zagrażającej nam lub sprzymierzeńcom; w przypadku niewykrycia takich zagrożeń będzie strzelać do celu głównego swojego statku; w przypadku niewybrania żadnego celu broń będzie strzelać do najbliższej jednostki wroga.
+UI.SpaceCombat.MissileGuardian.description=Broń będzie strzelać do najbliższej rakiety zagrażającej temu statkowi lub sprzymierzeńcom; w przypadku niewykrycia takich zagrożeń będzie strzelać do celu głównego swojego statku; w przypadku niewybrania żadnego celu broń będzie strzelać do najbliższej jednostki wroga.
+ 
 UI.SpaceCombat.Salvo=Wystrzel salwę
 UI.SpaceCombat.Salvo.description=Uzbrojenie wystrzeli salwę rakiet w cel główny statku. Następnie uzbrojenie przejdzie w stan spoczynku. Liczba pocisków w salwie będzie wynosić 25% maksymalnego zapasu amunicji.
+UI.SpaceCombat.Bracket=Obramowanie
+UI.SpaceCombat.Bracket.description=Broń będzie strzelać do celu głównego swojego statku; w przypadku niewybrania żadnego celu broń będzie strzelać do najbliższej jednostki wroga. W przypadku wskazania statku jako celu broń będzie ostrzeliwać obszar wokół niego, aby trafić w przypadku zmiany wektora. 
 
 UI.SpaceCombat.CombatAccelgs={0} g
 UI.SpaceCombat.CombatAccelmgs={0} mili-g
@@ -31,14 +36,14 @@ UI.SpaceCombat.velocity_mps={0} m/s
 UI.SpaceCombat.velocity_kps={0} km/s
 UI.SpaceCombat.DeltaV={0} km/s
 UI.SpaceCombat.DeltaVCap={0}/{1} km/s
-UI.SpaceCombat.DeltaVTooltip=Delta v dostępne w walce: {0} km/s<br/>Walczące statki zarezerwują sobie delta v niezbędne do ukończenia bieżącego transferu.
+UI.SpaceCombat.DeltaVTooltip=Delta v dostępne w walce: {0} km/s<br/><br/>Statki floty zachowają delta v w ilości potrzebnej na dokończenie trwającego transferu po zakończeniu walki.
 UI.SpaceCombat.PrimaryTarget=Cel: {0}
 UI.SpaceCombat.NoPrimaryTarget=Swobodny ostrzał
-UI.SpaceCombat.EndBattleButtonText=Koniec bitwy
-UI.SpaceCombat.EndBattleButtonTooltipYes=Zaznacz tę opcję, by zaproponować przerwanie bitwy za obopólną zgodą stron. Jeśli przeciwnik także wybierze tę opcję, bitwa zostanie przerwana. Pamiętaj, że jeśli bitwa toczy się przy habitacie, zwycięstwo zostanie przyznane obrońcy.<br/><br/>Aktualnie dowódca wroga chce zakończyć bitwę.
-UI.SpaceCombat.EndBattleButtonTooltipNo=Zaznacz tę opcję, by zaproponować przerwanie bitwy za obopólną zgodą stron. Jeśli przeciwnik także wybierze tę opcję, bitwa zostanie przerwana. Pamiętaj, że jeśli bitwa toczy się przy habitacie, zwycięstwo zostanie przyznane obrońcy.<br/><br/>Aktualnie dowódca wroga NIE CHCE zakończyć bitwy.
+UI.SpaceCombat.EndBattleButtonText=Propozycja przerwania bitwy
+UI.SpaceCombat.EndBattleButtonTooltipYes=Włącz tę opcję, by zaproponować przerwanie bitwy za obopólną zgodą stron. Jeśli przeciwnik także wybierze tę opcję, bitwa zostanie przerwana. Jeśli bitwa toczy się przy habitacie, zwycięstwo zostanie przyznane frakcji broniącej się.<br/><br/>Aktualnie dowódca wroga chce zakończyć bitwę.
+UI.SpaceCombat.EndBattleButtonTooltipNo=Włącz tę opcję, by zaproponować przerwanie bitwy za obopólną zgodą stron. Jeśli przeciwnik także wybierze tę opcję, bitwa zostanie przerwana. Jeśli bitwa toczy się przy habitacie, zwycięstwo zostanie przyznane frakcji broniącej się.<br/><br/>Aktualnie dowódca wroga NIE CHCE zakończyć bitwy.
 UI.SpaceCombat.AutoResolve=Autorozstrzygnięcie
-UI.SpaceCombat.AutoResolve.Description=Bitwa zostanie dokończona przez sztuczną inteligencję, a gracz będzie mógł sprawdzić jej wynik.
+UI.SpaceCombat.AutoResolve.Description=Walka zostanie dokończona przez sztuczną inteligencję, a gracz będzie mógł sprawdzić jej wynik.
 UI.SpaceCombat.AutoResolve.Query=Autorozstrzygnięcie dokona symulacji dalszej części bitwy, a następnie wyświetli jej wynik. Czy chcesz kontynuować?
 
 UI.SpaceCombat.NoseStructure=Integralność strukturalna dziobu
@@ -55,15 +60,17 @@ UI.SpaceCombat.DamageControl=Naprawa uszkodzeń
 UI.SpaceCombat.Propellant=Paliwo
 UI.SpaceCombat.Sensors=Zespół czujników
 UI.SpaceCombat.NoseArmorIntegrity=Integralność pancerza dziobowego
+UI.SpaceCombat.ArmorValue=Wartość pancerza: {0}
 UI.SpaceCombat.PortArmorIntegrity=Integralność pancerza bakburtowego
 UI.SpaceCombat.StarboardArmorIntegrity=Integralność pancerza sterburtowego
 UI.SpaceCombat.TailArmorIntegrity=Integralność pancerza rufowego
+UI.SpaceCombat.SystemsReactor=Siłownia pokładowa
 UI.SpaceCombat.Description.NoseStructure=Gdy integralność strukturalna dziobu, śródokręcia i rufy zawiedzie, statek ulegnie zniszczeniu.
 UI.SpaceCombat.Description.CentralStructure=Gdy integralność strukturalna dziobu, śródokręcia i rufy zawiedzie, statek ulegnie zniszczeniu.
 UI.SpaceCombat.Description.TailStructure=Gdy integralność strukturalna dziobu, śródokręcia i rufy zawiedzie, statek ulegnie zniszczeniu.
 UI.SpaceCombat.Description.Bridge=Uszkodzenie mostka na poziomie 50% lub większym uniemożliwia statkowi odbieranie rozkazów i wprowadzanie zmian w ustawieniach broni. Uszkodzenie mostka na poziomie 100% uniemożliwia tworzenie i przesuwanie punktów nawigacyjnych dla statku.
 UI.SpaceCombat.Description.FireControl=Im większych uszkodzeń dozna ten system, tym bardziej wydłuża się czas regeneracji uzbrojenia i tym mniejsze są szanse pokonania wrogich systemów SPE. Uszkodzenie na poziomie 100% całkowicie uniemożliwia statkowi prowadzenie ognia.
-UI.SpaceCombat.Description.PowerCoupling=Uszkodzenie łącza energetycznego zmniejsza szybkość ładowania akumulatorów energią dostarczaną przez siłownię. Naprawa jest szybka.
+UI.SpaceCombat.Description.PowerCoupling=Uszkodzenie łącza energetycznego zmniejsza szybkość ładowania akumulatorów energią dostarczaną przez siłownię oraz ilość energii otrzymywanej przez systemy pokładowe. Naprawa jest szybka.
 UI.SpaceCombat.Description.DriveCoupling=Uszkodzenie łącza napędu uniemożliwia przekazanie pełnej mocy na silniki statku, zmniejszając dostępną siłę napędu. Zniszczenie łącza napędu całkowicie uniemożliwia statkowi zmienianie prędkości ruchu. Naprawa jest szybka.
 UI.SpaceCombat.Description.VectorThrusters=Uszkodzenie silników manewrowych ogranicza szybkość obracania się statku lub całkowicie blokuje obrót.
 UI.SpaceCombat.Description.LifeSupportMain=Główne podtrzymywanie życia
@@ -72,14 +79,15 @@ UI.SpaceCombat.Description.DamageControl=Utrata możliwości korzystania z napra
 UI.SpaceCombat.Description.Sensors=Uszkodzenie czujników zewnętrznych zredukuje zdolność do walki z wrogimi systemami SPE, a to oznacza, że uzbrojenie będzie się dłużej ładowało. Wrażliwe na ostrzał bronią promieniową. Naprawa jest szybka.
 UI.SpaceCombat.Description.Propellant=Uszkodzenie zbiorników paliwowych zmniejsza delta v dostępne dla statku.
 UI.SpaceCombat.Description.ArmorIntegrity=Utrata integralności pancerza zwiększa prawdopodobieństwo, że kolejne uszkodzenia nie zostaną wchłonięte przez pancerz statku.
-UI.SpaceCombat.SpecialManeuverPanel=Wł./wył. okno manewrów specjalnych.<br/><br/>Manewry specjalne obejmują obroty, manewry obronne i zablokowanie nakierowania na cel.
+UI.SpaceCombat.SpecialManeuverPanel=Wł./wył. okno manewrów specjalnych.<br/>Manewry specjalne obejmują obroty, manewry obronne i zablokowanie nakierowania na cel.
+UI.SpaceCombat.Description.SystemsReactor=Uszkodzenie tej siłowni zmniejszy ilość energii dostarczanej uzbrojeniu i modułom pomocniczym.
 
 UI.Precombat.Header=Nadciąga walka
 UI.Precombat.FleetName={0} flota {1}
 UI.Precombat.Engage=Atakuj
 UI.Precombat.EngageDetail=Zaatakuj flotę wroga. Jeśli będzie uciekać, możemy poświęcić delta v i spróbować doprowadzić do walki.
 UI.Precombat.Accept=Akceptuj
-UI.Precombat.AcceptDetail=Jeśli wroga flota zaatakuje, będziemy walczyć. W przeciwnym razie nie dojdzie do bitwy.
+UI.Precombat.AcceptDetail=Jeśli wroga flota przystąpi do walki, odbędzie się bitwa. W przeciwnym razie nie dojdzie do starcia.
 UI.Precombat.Flee=Unikaj
 UI.Precombat.FleeDetail=Spróbujemy uniknąć walki. Jeśli wróg będzie nas ścigać, możemy poświęcić delta v, by spróbować ucieczki.
 UI.Precombat.BiddingHeader=Pościg!
@@ -93,18 +101,25 @@ UI.Precombat.AlwaysFlee=<br/>Maksymalna deklaracja<br/>umożliwi ucieczkę
 UI.Precombat.EnemyAlwaysFlee=<br/>Maksymalna deklaracja wroga<br/>umożliwi ucieczkę
 UI.Precombat.SubmitBid=Zadeklaruj
 UI.Precombat.Autoresolve=Autorozstrzygnięcie
+UI.Precombat.AcceptAutoresolve=Akceptuj
+UI.Precombat.RejectAutoresolve=Odrzuć
 UI.Precombat.Watch=Obserwuj bitwę
 UI.Precombat.Close=Zamknij
 UI.Precombat.InitiateCombat=Rozpocznij bitwę
 UI.Precombat.NoBattle=Żadna ze stron nie podjęła próby ataku, nie doszło do bitwy.
 UI.Precombat.Fled={0} unika {1} i ucieka przed bitwą. {2} {3}
+UI.Precombat.SuccessStretch=Ścigająca flota pozostawiła niektóre statki i zdołała wymusić bitwę z użyciem mniejszej liczby jednostek.
+UI.Precombat.SuccessEnvelop=Ścigająca flota rozproszyła statki w celu okrążenia wroga i zdołała wymusić bitwę z użyciem mniejszej liczby jednostek.
 UI.Precombat.Spent=W trakcie pościgu obie floty zużywają {0} km/s delta v.
 UI.Precombat.SpentDiff=Statki ścigające flotę wroga zużyły podczas pogoni {0} km/s delta v. Flota uciekająca i pozostałe statki atakujące zużyły {1} km/s.
 UI.Precombat.Chase={0} próbuje uciec przed bitwą, ale {1} z powodzeniem ściga przeciwnika. {2} Przygotuj się do bitwy!
 UI.Precombat.Battle=Obie floty chcą walczyć. Przygotuj się do bitwy!
+UI.Precombat.BattleButNoDefenders=Żadni obrońcy nie przybyli z pomocą stacji. Nieprzyjacielska flota zadokuje i będzie mogła zniszczyć lub przejąć stację.
 UI.Precombat.PostChase=<br/>Obie floty nie będą mogły przyjmować nowych rozkazów do {0}.
 UI.Precombat.EnemyArmedHab=<br/>Aby wygrać bitwę, musimy unieszkodliwić wszystkie uzbrojone moduły na {0}. Jeśli zwyciężymy, będziemy mogli zniszczyć tę stację. Floty przewożące siły szturmowe będą mogły ją zająć.
 UI.Precombat.EnemyUnarmedHab=<br/>Habitat {0} jest nieuzbrojony. Jeśli pokonamy broniącą go flotę, będziemy mogli go zniszczyć. Floty przewożące siły szturmowe będą mogły go zająć.
+UI.Precombat.EnemyUnarmedHab_2=<br/>Habitat {0} jest nieuzbrojony. Zadokujemy w nim i będziemy mogli go zniszczyć. Floty z siłami szturmowymi będą mogły podjąć próbę przejęcia.
+UI.Precombat.EnemyUnarmedHab_3=<br/>Habitat {0} jest nieuzbrojony. Jeśli pokonamy broniącą go flotę, nasze egzomyśliwce zniszczą go.
 UI.Precombat.Pincer=ATAKUJ
 UI.Precombat.PincerDetail=Nasza flota rozdzieli się i otoczy wroga, by zapobiec jego ucieczce. Wróg zaatakuje słabszą z naszych flot.
 UI.Precombat.ChaseMechanics=O wyniku pościgu decyduje porównanie przyśpieszeń obu flot. Jeśli jedna z flot jest w stanie przyśpieszać znacznie mocniej niż przeciwnik, to zdoła zmusić go do walki lub uniknie starcia kosztem niewielkiej ilości delta v. Jeśli obie floty dysponują podobnym przyśpieszeniem, dojdzie do długiego pościgu za rufą, który może oznaczać zużycie dużej ilości ∆v, jeśli taka będzie decyzja obu stron.<br/><br/>Pościg zakończy się, gdy ścigająca flota zbliży się na dystans odpowiadający {0}-krotności maksymalnego zasięgu broni dowolnego statku którejkolwiek z flot ({1} km) lub gdy uciekająca flota zwiększy odległość od przeciwnika o taki sam dystans.<br/><br/>W niektórych przypadkach flota ścigająca może się rozdzielić, aby dopaść cel. Stanie się tak, gdy niektóre statki floty są dość szybkie, aby dogonić uciekających, lub flota jest dość duża, aby okrążyć wroga. 
@@ -119,7 +134,7 @@ UI.Precombat.AlienExofighter=Egzomyśliwiec kosmitów
 UI.Precombat.AddFightersButton=Dodaj egzomyśliwce
 UI.Precombat.AddFightersDetail=Wydaj {0}, by wystrzelić i skierować do tej bitwy myśliwce ziemia-orbita z tych ziemskich państw, które kontrolujesz. 
 UI.Precombat.STOFightersHeader=Start egzomyśliwców
-UI.Precombat.STOFightersExplainer=Przydziel do tej bitwy i uzbrój myśliwce orbitalne ze swoich państw. Łączny <sprite name="boost"> koszt ich wystrzelenia jest podany niżej.
+UI.Precombat.STOFightersExplainer=Przydziel do tej bitwy i uzbrój egzomyśliwce ze swoich państw. Łączny <sprite name="boost"> koszt ich wystrzelenia jest podany niżej.
 UI.Precombat.STOFightersResetButtonText=Usuń wszystkie
 UI.Precombat.STOFightersLaunchEverybodyButtonText=Wystrzel wszystkie
 UI.Precombat.STOCopyLoadoutTip=Zastosuj tę konfigurację rakiet we wszystkich pozostałych myśliwcach.
@@ -133,6 +148,8 @@ UI.Precombat.FighterCallsign={0} {1} 	// squadron name, number, like "Gold 1"
 UI.Precombat.Confirm=Potwierdź
 UI.Precombat.SkirmishExoSquadron1=Alfa
 UI.Precombat.SkirmishExoSquadron2=Omega
+UI.Precombat.PossibleFighters=<sprite name=warning>Wróg może wysłać egzomyśliwce, by wzięły udział w tej bitwie. Nie dowiemy się, czy to zrobił, dopóki nie potwierdzimy naszej postawy.
+UI.Precombat.EmptyFighters=<sprite name=warning><h>Wróg może wysyłać egzomyśliwce, by zaatakowały nasze obiekty. Nie dowiemy się, czy to zrobił, dopóki nie potwierdzimy naszej postawy.</h>
 
 UI.SpaceCombat.BattleName=Bitwa o {0}
 UI.SpaceCombat.BattleNameDeepSpace=Bitwa w otwartej przestrzeni
@@ -162,14 +179,24 @@ UI.SpaceCombat.Warning.DamConStatus.Disabled=Statek wykonuje zwrot z dużym prze
 UI.SpaceCombat.Warning.DamConStatus.DamagedAndDisabled=Statek wykonuje zwrot z dużym przeciążeniem. Naprawa uszkodzeń jest chwilowo wstrzymana.<br/><br/>Naprawa uszkodzeń działa ze zmniejszoną sprawnością. Postęp napraw statku spowolniony. 
 UI.SpaceCombat.Warning.DamConStatus.Damaged=System kontroli uszkodzeń funkcjonuje z obniżoną skutecznością. Spowalnia to postępy napraw.
 UI.SpaceCombat.Warning.DamConStatus.Critical=System kontroli uszkodzeń jest wyłączony. Statku nie można naprawić.
+UI.SpaceCombat.Warning.Avoidance=Statek manewruje, by uniknąć przewidywanej kolizji.
 
 UI.SpaceCombat.Offline=Niesprawne
 UI.SpaceCombat.Damaged=Uszkodzone
 UI.SpaceCombat.Online=Sprawne
 
+UI.SpaceCombat.Weapon.Damaged=Ta broń jest uszkodzona i nie będzie strzelać, dopóki się jej nie naprawi.
+UI.SpaceCombat.Weapon.Cooldown=Ta broń stygnie i będzie gotowa do działania, gdy ten proces się zakończy.
+UI.SpaceCombat.Weapon.Bollixed=Ta broń została zakłócona przez nieprzyjacielskiej SPE i nie może strzelać, dopóki nie obejdzie zakłócania.
+UI.SpaceCombat.Weapon.FireControlDamage=Kontrola ognia tego statku została zniszczona i statek nie może używać broni, dopóki się jej nie naprawi.
+UI.SpaceCombat.Weapon.NoAmmo=Ta broń nie ma amunicji.
+UI.SpaceCombat.Weapon.NoPower=Statek ma za mało energii, by móc strzelać z tej broni.
+UI.SpaceCombat.Weapon.HeatProblem=Ta broń została wyłączona, gdyż jej użycie spowodowałoby przegrzanie statku.
+
 UI.SpaceCombat.Outcome.DockedAtHab=<br/>Statek {0} zadokował w habitacie {1} i może przejąć lub zniszczyć stację.
 UI.SpaceCombat.CombatInProgress=Trwa bitwa…
 UI.SpaceCombat.MajorCombatInProgress=Trwa ważna bitwa…
+UI.SpaceCombat.AutoresolveComplete=Autorozstrzygnięcie ukończone. Możesz zaakceptować wynik lub odrzucić go i rozegrać bitwę samodzielnie. 
 UI.SpaceCombat.Outcome.Victor={0} zwycięża!
 UI.SpaceCombat.Outcome.MAD=W tej bitwie nie ma zwycięzcy.
 UI.SpaceCombat.Outcome.Indecisive=Obie strony opuściły bitwę.
@@ -203,3 +230,50 @@ UI.SpaceCombat.RadiationDamage=Uszkodzenia od promieniowania, które przebija pa
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Odprowadza ciepło
 UI.SpaceCombat.RadiatorStatus.Heating=Gromadzi ciepło
+
+UI.SpaceCombat.WeaponManager=<sp>Przełącza kolejno tryby ostrzału tej broni. Wyznaczaj tryby na wielu statkach za pomocą:
+UI.SpaceCombat.WeaponManagerShift=<sp>Przełącza kolejno każdą broń tego typu na tym statku.
+UI.SpaceCombat.WeaponManagerControlShift=<sp>Przełącza kolejno każdą broń tego typu na wszystkich wybranych statkach.
+UI.SpaceCombat.WeaponManagerAlt=<sp>Przełącza kolejno tę broń na wszystkich statkach tej klasy.
+UI.SpaceCombat.WeaponManagerControlAlt=<sp>Przełącza kolejno każdą broń tego typu na wszystkich statkach tej klasy.
+UI.SpaceCombat.WeaponManagerControl=<sp>Przełącza kolejno każdą broń tego typu na wszystkich statkach w bitwie.
+
+UI.SpaceCombat.BattleLog.Title=Rejestr bitwy
+UI.SpaceCombat.BattleLog.Log=Zapisane wydarzenia
+UI.SpaceCombat.BattleLog.ShipDestruction={0} {1} {2} ulega zniszczeniu przez {3} ({4} {5} {6}).
+UI.SpaceCombat.BattleLog.ShipDestructionNoKiller={0}{1}{2} ulega zniszczeniu.
+UI.SpaceCombat.BattleLog.ShipDestructionHeat={0} {1} {2} ulega zniszczeniu z powodu zbyt wysokiej temperatury wewnątrz.
+UI.SpaceCombat.BattleLog.ShipDestructionHabKiller={0} {1} {2} ulega zniszczeniu przez {3} ({4} {5} na {6}).
+UI.SpaceCombat.BattleLog.HabDestruction={0} na statku {1} ulega zniszczeniu przez {2} ({3} {4} {5}).
+UI.SpaceCombat.BattleLog.BattleGroupReinforced=Przybyły posiłki: liczba statków: {0}, frakcja {1}, dowódca – {2} {3}.
+UI.SpaceCombat.BattleLog.ShipReinforced={0} {1} {2} wkracza do bitwy.
+UI.SpaceCombat.BattleLog.ShipDisengaged={0} {1} {2} odrywa się od przeciwnika.
+UI.SpaceCombat.BattleLog.OutOfAmmo={0} {1} {2} zgłasza brak amunicji ({3}).
+UI.SpaceCombat.BattleLog.MultipleWeaponsOutOfAmmo={0} {1} {2} zgłasza brak amunicji ({3} oraz inne systemy broni: {4}).
+UI.SpaceCombat.BattleLog.OutOfDV={0} {1} {2} zgłasza brak paliwa.
+UI.SpaceCombat.BattleLog.OfficerKilled={0} ({1} {2} {3}) ginie w walce.
+UI.SpaceCombat.BattleLog.PartDestroyed={0} {1} {2} zgłasza zniszczenie systemu ({3}).
+UI.SpaceCombat.BattleLog.PartDestroyedEnemy={0} {1} {2}: {3} ulega zniszczeniu.
+UI.SpaceCombat.BattleLog.PartDestroyedEnemyUnknown={0} {1} {2}: nieznana część została zniszczona.
+UI.SpaceCombat.BattleLog.ShipInternalStructureDestroyed={0} {1} {2} zgłasza poważne uszkodzenie ({3}).
+UI.SpaceCombat.BattleLog.AllWeaponsDestroyed={0} {1} {2} zgłasza całkowite zniszczenie uzbrojenia.
+UI.SpaceCombat.BattleLog.ShipDamaged={0} {1} {2} otrzymuje trafienie ({3}) za <color=#FFFFFFFF><sprite name="army_battle"></color>{4} uszkodzeń łącznie, z czego <color=#FFFFFFFF><sprite name="armor"></color>{5} pochłonął pancerz, a <color=#FFFFFFFF><sprite name="ship_damage"></color>{6} przebiło pancerz.
+UI.SpaceCombat.BattleLog.ShipDamagedRadiation={0} {1} {2} otrzymuje trafienie ({3}) za <color=#FFFFFFFF><sprite name="army_battle"></color>{4}, z czego <color=#FFFFFFFF><sprite name="armor"></color>{5} pochłonął pancerz, <color=#FFFFFFFF><sprite name="ship_damage"></color>{6} przebiło pancerz, a załoga odniosła <color=#FFFFFFFF><sprite name="radioactive"></color>{7} obrażeń od promieniowania.
+UI.SpaceCombat.BattleLog.ShipDamagedNoWeapon={0} {1} {2} otrzymuje <color=#FFFFFFFF><sprite name="army_battle"></color>{4} uszkodzeń łącznie, z czego <color=#FFFFFFFF><sprite name="armor"></color>{5} pochłonął pancerz, a <color=#FFFFFFFF><sprite name="ship_damage"></color>{6} przebiło pancerz.
+UI.SpaceCombat.BattleLog.ArmorHolding={0} {1} {2} otrzymuje trafienie ({3}). Wszystkie uszkodzenia (<color=#FFFFFFFF><sprite name="armor"></color>{5}) zostały pochłonięte przez pancerz. {6} na {7}.
+UI.SpaceCombat.BattleLog.HabDamaged={0} (statek: {1}) otrzymuje trafienie ({2}) za <color=#FFFFFFFF><sprite name="army_battle"></color>{3} uszkodzeń łącznie.
+UI.SpaceCombat.BattleLog.PartRepaired={0} {1} {2} zgłasza naprawienie uszkodzonego systemu ({3}).
+
+UI.SpaceCombat.BattleLog.AllLogs.Title=Wszystkie dzienniki
+UI.SpaceCombat.BattleLog.Destruction.Title=Zniszczenie
+UI.SpaceCombat.BattleLog.Retreat.Title=Odwrót
+UI.SpaceCombat.BattleLog.Reinforcements.Title= Posiłki
+UI.SpaceCombat.BattleLog.OutOfAmmo.Title= Brak amunicji
+UI.SpaceCombat.BattleLog.OutOfDV.Title= Brak delta v
+UI.SpaceCombat.BattleLog.OfficerKilled.Title= Oficer poległ
+UI.SpaceCombat.BattleLog.PartDestroyed.Title= Część zniszczona
+UI.SpaceCombat.BattleLog.WeaponDestroyed.Title= Broń zniszczona
+UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Statek rozbrojony
+UI.SpaceCombat.BattleLog.ShipDamaged.Title= Uszkodzenia
+UI.SpaceCombat.BattleLog.ArmorHolding.Title= Pancerz trzyma
+UI.SpaceCombat.BattleLog.PartRepaired.Title= Napraw

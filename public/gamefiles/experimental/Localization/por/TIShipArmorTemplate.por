@@ -24,16 +24,16 @@ TIShipArmorTemplate.displayName.AlienExoticArmor=Escudo de exóticos alienígena
 TIShipArmorTemplate.description.AlienExoticArmor=Um material alienígena com propriedades exóticas.
 
 TIShipArmorTemplate.ResourcesPerTon=Custo por tonelada:<rcol>{0}</rcol>
-TIShipArmorTemplate.KineticsResistance={0} de bônus de resistência a dano cinético
-TIShipArmorTemplate.LaserResistance={0} de bônus de resistência a dano por laser
-TIShipArmorTemplate.ChippingResistance={0} de bônus de resistência a desgaste
-TIShipArmorTemplate.KineticsVulnerability=Sofre {0} de dano adicional por dano cinético
-TIShipArmorTemplate.LaserVulnerability=Sofre {0} de dano adicional por lasers
-TIShipArmorTemplate.ChippingVulnerability=Sofre {0} de desgaste adicional por impactos
-TIShipArmorTemplate.XRayResistance={0} de bônus de resistência a raios-x de armas de partículas com relação ao aço
-TIShipArmorTemplate.XRayVulnerability=Sofre {0} de dano adicional por armas de partículas com raios-x
-TIShipArmorTemplate.BaryonicResistance={0} de bônus de resistência a armas de partículas de nêutrons
-TIShipArmorTemplate.BaryonicVulnerability=Sofre {0} de dano adicional por armas de partículas de nêutrons
+TIShipArmorTemplate.KineticsResistance=Bônus de resistência a dano cinético:<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserResistance=Bônus de resistência a dano por laser:<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingResistance=Bônus de resistência a desgaste:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsVulnerability=Dano adicional por dano cinético:<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserVulnerability=Dano adicional por lasers:<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingVulnerability=Desgaste adicional por impactos:<rcol>{0}</rcol>
+TIShipArmorTemplate.XRayResistance_Header=Pontos para dividir dano por raio x pela metade
+TIShipArmorTemplate.XRayResistance=Pontos para dividir dano por raio x pela metade:<rcol>{0}</rcol>
+TIShipArmorTemplate.BaryonicResistance_Header=Pontos para dividir dano barionico pela metade
+TIShipArmorTemplate.BaryonicResistance=Pontos para dividir dano barionico pela metade:<rcol>{0}</rcol>
 
 TIShipArmorTemplate.ThicknessPerPoint=Espessura por ponto:<rcol>{0} cm</rcol>
 

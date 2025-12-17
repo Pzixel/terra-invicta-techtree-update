@@ -14,7 +14,7 @@ TIOfficerTemplate.displayName.Officer_Marine=Oficial de los marines
 TIOfficerTemplate.displayName.Officer_Supply=Oficial de suministros
 TIOfficerTemplate.displayName.Officer_Chief=Portavoz de la tripulación
 
-TIOfficerTemplate.description.Officer_Admiral=Oficial veterano que concede bonificaciones para toda la flota. Solo el almirante que opere en el módulo de centro de mando superior que se esté usando para reducir el <color=#FFFFFFFF><sprite name=mission_control></color> de la flota aplicará bonificaciones.
+TIOfficerTemplate.description.Officer_Admiral=Un oficial de alto rango que proporciona bonificaciones a la flota. Solo un solo almirante por flota aplicará <color=#FFFFFFFF><sprite name=mission_control></color> bonificaciones.
 TIOfficerTemplate.description.Officer_Captain=El jefe de esta nave.
 TIOfficerTemplate.description.Officer_First=El segundo al mando de la nave.
 TIOfficerTemplate.description.Officer_FireControl=El oficial a cargo de los sistemas de misiles de la nave.
@@ -27,7 +27,7 @@ TIOfficerTemplate.description.Officer_Medical=El oficial a cargo de garantizar q
 TIOfficerTemplate.description.Officer_CIC=El oficial a cargo del centro de combate de la nave y de las defensas activas.
 TIOfficerTemplate.description.Officer_Intel=El oficial a cargo de mantener al tanto a la tripulación de todo lo que sabemos del enemigo.
 TIOfficerTemplate.description.Officer_Marine=El oficial a cargo del destacamento de los Marines de la nave.
-TIOfficerTemplate.description.Officer_Supply=El oficial a cargo de los almacenes de la nave.
+TIOfficerTemplate.description.Officer_Supply=El oficial a cargo de los almacenes y los restos de la nave.
 TIOfficerTemplate.description.Officer_Chief=El astronauta de alto rango reclutado para representar a la tripulación en la nave.
 
 TIOfficerTemplate.Officer_Admiral_1=Contraalmirante
@@ -79,8 +79,8 @@ TIOfficerTemplate.Officer_Supply_3=Teniente
 TIOfficerTemplate.Officer_Chief_3=Suboficial jefe principal
 
 TIOfficerTemplate.MaxPerShip=-Se permite una cantidad máxima de oficiales ({0}) de este tipo en cada nave
-TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-Se permite una cantidad total de oficiales ({0}) de cualquier tipo, excepto los oficiales de vuelo y de mando, en {1} cascos							// number, hull display name
-TIOfficerTemplate.MaxTotalOfficersPerShip=Se permite una cantidad máxima de oficiales ({0}) de cualquier tipo, excepto los oficiales de vuelo y de mando, en las naves limitadas por el tamaño del casco
+TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-Se permite una cantidad total de oficiales ({1}) de cualquier tipo, excepto los oficiales de vuelo y de mando, en {0} cascos							// number, hull display name
+TIOfficerTemplate.MaxTotalOfficersPerShip=-Se permite una cantidad máxima de oficiales de cualquier tipo, excepto los oficiales de vuelo y de mando, en las naves limitadas por el tamaño del casco
 TIOfficerTemplate.CrewMin=-Se necesita un mínimo de {0} tripulantes
 TIOfficerTemplate.FlagBridge=-Requiere un módulo {0}																			// name of flag bridge ship utility module
 TIOfficerTemplate.MissileWeapons=-Requiere que la nave tenga armamento de misiles
@@ -121,6 +121,7 @@ TIOfficerTemplate.MaxSurvivableCombatAcceleration=-La aceleración de combate m�
 TIOfficerTemplate.MaxSurvivableCruiseAcceleration=-La aceleración de navegación máxima permitida de la nave aumenta en {0} g(s)
 TIOfficerTemplate.RadiationDamageReduction=-El daño de radiación de las armas de partículas se reduce en un {2}
 TIOfficerTemplate.NoDemotionOnTransfer=-No perderá un nivel tras un traslado a otra nave
+TIOfficerTemplate.NoCostToTransfer=-Transferir un oficial a otra nave no cuesta <color=#FFFFFFFF><sprite name="influence"></color>.
 
 TIOfficerTemplate.OfficerShipNameAndJob={0}: {1}, {2}			// ship name: rank + name, job
 TIOfficerTemplate.OfficerNameAndJob={0}, {1}					// rank + name, job
@@ -129,7 +130,7 @@ TIOfficerTemplate.RequirementsHeader=Requisitos de la nave para ascender al tipo
 TIOfficerTemplate.PromotionHeader=Motivo del ascenso:
 TIOfficerTemplate.Bonuses=Bonificaciones:
 TIOfficerTemplate.OfficersKilled=Oficiales muertos:
-TIOfficerTemplate.KilledInAction=Muerto en acción
+TIOfficerTemplate.KilledInAction=Muerto en combate
 
 TIOfficerTemplate.CompleteLongTrajectory=-La nave completa una trayectoria interplanetaria           
 TIOfficerTemplate.SurviveCombat=-La nave sobrevive a una batalla espacial            

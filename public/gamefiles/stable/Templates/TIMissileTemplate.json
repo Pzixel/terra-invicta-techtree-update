@@ -46,7 +46,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Solid-Fuel"
 },
  {
@@ -96,7 +96,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Hypergolic Fuel"
 },
  {
@@ -111,7 +111,7 @@
    "Rocket Thrust": 234560,
    "EV_kps": 3.23,
    "acceleration_g": 14.94,
-   "deltaV_kps": 3.45,
+   "deltaV_kps": 3.17,
    "baseWeaponMass_tons": 10,
    "cooldown_s": 5,
    "salvo_shots": 8,
@@ -120,10 +120,10 @@
    "flatChipping": 0.8,
    "magazine": 16,
    "ammoMass_kg": 1600,
-   "fuelMass_kg": 1050,
+   "fuelMass_kg": 1000,
    "systemMass_kg": 300,
-   "warheadMass_kg": 250,
-   "flatDamage_MJ": 450,
+   "warheadMass_kg": 300,
+   "flatDamage_MJ": 540,
    "thrustRamp_s": 6,
    "rotation_degps": 30,
    "turnRamp_s": 1,
@@ -146,7 +146,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "RacerMissileBay",
@@ -256,7 +256,7 @@
    "Rocket Thrust": 234560,
    "EV_kps": 3.23,
    "acceleration_g": 14.94,
-   "deltaV_kps": 4.1,
+   "deltaV_kps": 3.76,
    "baseWeaponMass_tons": 5,
    "cooldown_s": 5,
    "salvo_shots": 8,
@@ -265,9 +265,9 @@
    "flatChipping": 0.5,
    "magazine": 16,
    "ammoMass_kg": 1600,
-   "fuelMass_kg": 1150,
+   "fuelMass_kg": 1100,
    "systemMass_kg": 350,
-   "warheadMass_kg": 100,
+   "warheadMass_kg": 150,
    "thrustRamp_s": 3,
    "rotation_degps": 30,
    "turnRamp_s": 0.75,
@@ -338,7 +338,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "KeelbackMissileBay",
@@ -352,7 +352,7 @@
    "Rocket Thrust": 234560,
    "EV_kps": 3.23,
    "acceleration_g": 14.94,
-   "deltaV_kps": 4.1,
+   "deltaV_kps": 3.76,
    "baseWeaponMass_tons": 5,
    "cooldown_s": 5,
    "salvo_shots": 8,
@@ -361,9 +361,9 @@
    "flatChipping": 0.6,
    "magazine": 16,
    "ammoMass_kg": 1600,
-   "fuelMass_kg": 1150,
+   "fuelMass_kg": 1100,
    "systemMass_kg": 350,
-   "warheadMass_kg": 100,
+   "warheadMass_kg": 150,
    "thrustRamp_s": 6,
    "rotation_degps": 25,
    "turnRamp_s": 1,
@@ -386,7 +386,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "CopperheadMissileBay",
@@ -435,7 +435,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Hydrolox Fuel"
 },
  {
@@ -532,7 +532,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "PythonNuclearMissileBay",
@@ -583,7 +583,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/SpaceNuke",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Nuclear_Warhead_Detonates",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "50 kt"
 },
  {
@@ -636,7 +636,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/CasabaHowitzer",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Nuclear_Warhead_Detonates",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "100 KT"
 },
  {
@@ -684,7 +684,7 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/BigExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Hypergolic"
 },
  {
@@ -700,7 +700,7 @@
    "EV_kps": 3.23,
    "acceleration_g": 7.47,
    "deltaV_kps": 4.62,
-   "baseWeaponMass_tons": 5,
+   "baseWeaponMass_tons": 10,
    "cooldown_s": 7,
    "efficiency": 1,
    "flatChipping": 0.6,
@@ -731,7 +731,53 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
+},
+ {
+   "dataName": "HerculesTorpedoBay",
+   "friendlyName": "Hercules Torpedo Bay",
+   "mount": "OneHull",
+   "crew": 2,
+   "requiredProjectName": "Project_RattlerMissileBay",
+   "attackMode": true,
+   "defenseMode": false,
+   "warheadClass": "Fragmentation",
+   "Rocket Thrust": 351840,
+   "EV_kps": 3.23,
+   "acceleration_g": 7.47,
+   "deltaV_kps": 5.41,
+   "baseWeaponMass_tons": 10,
+   "cooldown_s": 7,
+   "efficiency": 1,
+   "flatChipping": 0.5,
+   "magazine": 6,
+   "ammoMass_kg": 4800,
+   "fuelMass_kg": 3900,
+   "systemMass_kg": 400,
+   "warheadMass_kg": 500,
+   "thrustRamp_s": 7,
+   "rotation_degps": 20,
+   "turnRamp_s": 1,
+   "maneuver_angle": 35,
+   "bombardmentValue": 0,
+   "targetingRange_km": 1000,
+   "pivotRange_deg": 180,
+   "isPointDefenseTargetable": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5
+   },
+   "ammoMaterials": {
+      "volatiles": 0.68,
+      "metals": 0.3,
+      "nobleMetals": 0.02
+   },
+   "iconResource": "shipbuildericons/ICO_HerculesTorpedoBay",
+   "modelResource": "shipweapons/torpedo_launcher",
+   "shotModelResource": "spacecombat/HeraTorpedo",
+   "impactVisualFXResource": "spaceCombat/TinyExplosion",
+   "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "ArtemisTorpedoBay",
@@ -778,7 +824,7 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/BigExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Hydrolox"
 },
  {
@@ -825,7 +871,53 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
+},
+ {
+   "dataName": "ApolloTorpedoBay",
+   "friendlyName": "Apollo Torpedo Bay",
+   "mount": "OneHull",
+   "crew": 2,
+   "requiredProjectName": "Project_ViperMissileBay",
+   "attackMode": true,
+   "defenseMode": false,
+   "warheadClass": "Fragmentation",
+   "Rocket Thrust": 430215,
+   "EV_kps": 4.45,
+   "acceleration_g": 9.14,
+   "deltaV_kps": 7.45,
+   "baseWeaponMass_tons": 10,
+   "cooldown_s": 7,
+   "efficiency": 1,
+   "flatChipping": 0.5,
+   "magazine": 6,
+   "ammoMass_kg": 4800,
+   "fuelMass_kg": 3900,
+   "systemMass_kg": 400,
+   "warheadMass_kg": 500,
+   "thrustRamp_s": 7,
+   "rotation_degps": 20,
+   "turnRamp_s": 1,
+   "maneuver_angle": 35,
+   "bombardmentValue": 0,
+   "targetingRange_km": 1000,
+   "pivotRange_deg": 180,
+   "isPointDefenseTargetable": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5
+   },
+   "ammoMaterials": {
+      "volatiles": 0.65,
+      "metals": 0.32,
+      "nobleMetals": 0.03
+   },
+   "iconResource": "shipbuildericons/ICO_ApolloTorpedoBay",
+   "modelResource": "shipweapons/torpedo_launcher",
+   "shotModelResource": "spacecombat/HeraTorpedo",
+   "impactVisualFXResource": "spaceCombat/TinyExplosion",
+   "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "AthenaTorpedoBay",
@@ -873,7 +965,7 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/BigExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Nuclear Thermal Rocket"
 },
  {
@@ -921,11 +1013,11 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "PoseidonTorpedoBay",
-   "friendlyName": "Poseidon Torpedo Bay",
+   "friendlyName": "Hestia Torpedo Bay",
    "mount": "OneHull",
    "crew": 2,
    "requiredProjectName": "Project_AresTorpedoBay",
@@ -968,7 +1060,54 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
+},
+ {
+   "dataName": "ZeusTorpedoBay",
+   "friendlyName": "Zeus Torpedo Bay",
+   "mount": "OneHull",
+   "crew": 2,
+   "requiredProjectName": "Project_ZeusTorpedoBay",
+   "attackMode": true,
+   "defenseMode": false,
+   "warheadClass": "Fragmentation",
+   "Rocket Thrust": 230300,
+   "EV_kps": 8.18,
+   "acceleration_g": 4.89,
+   "deltaV_kps": 13.69,
+   "baseWeaponMass_tons": 10,
+   "cooldown_s": 7,
+   "efficiency": 1,
+   "flatChipping": 0.5,
+   "magazine": 6,
+   "ammoMass_kg": 4800,
+   "fuelMass_kg": 3900,
+   "systemMass_kg": 400,
+   "warheadMass_kg": 500,
+   "thrustRamp_s": 5,
+   "rotation_degps": 20,
+   "turnRamp_s": 1,
+   "maneuver_angle": 35,
+   "bombardmentValue": 0,
+   "targetingRange_km": 1000,
+   "pivotRange_deg": 180,
+   "isPointDefenseTargetable": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5
+   },
+   "ammoMaterials": {
+      "volatiles": 0.6,
+      "metals": 0.29,
+      "nobleMetals": 0.1,
+      "fissiles": 0.01
+   },
+   "iconResource": "shipbuildericons/ICO_ZeusTorpedoBay",
+   "modelResource": "shipweapons/torpedo_launcher",
+   "shotModelResource": "spacecombat/HeraTorpedo",
+   "impactVisualFXResource": "spaceCombat/TinyExplosion",
+   "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "CerebrusNuclearTorpedoBay",
@@ -1261,9 +1400,10 @@
    },
    "ammoMaterials": {
       "volatiles": 0.5,
-      "metals": 0.17,
+      "metals": 0.169,
       "nobleMetals": 0.31,
-      "fissiles": 0.02
+      "fissiles": 0.02,
+      "exotics": 0.001
    },
    "iconResource": "shipbuildericons/ICO_TartarusNuclearTorpedoBay",
    "modelResource": "shipweapons/torpedo_launcher",
@@ -1312,10 +1452,10 @@
    },
    "ammoMaterials": {
       "volatiles": 0.5,
-      "metals": 0.169,
+      "metals": 0.168,
       "nobleMetals": 0.31,
       "fissiles": 0.02,
-      "exotics": 0.001
+      "exotics": 0.002
    },
    "iconResource": "shipbuildericons/ICO_StyxNuclearTorpedoBay",
    "modelResource": "shipweapons/torpedo_launcher",
@@ -1420,7 +1560,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Solid-Fuel"
 },
  {
@@ -1468,7 +1608,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Hypergolic Fuel"
 },
  {
@@ -1483,17 +1623,17 @@
    "Rocket Thrust": 234560,
    "EV_kps": 3.23,
    "acceleration_g": 14.94,
-   "deltaV_kps": 3.45,
+   "deltaV_kps": 3.17,
    "baseWeaponMass_tons": 5,
    "cooldown_s": 1,
    "efficiency": 1,
    "flatChipping": 0.8,
    "magazine": 4,
    "ammoMass_kg": 1600,
-   "fuelMass_kg": 1050,
+   "fuelMass_kg": 1000,
    "systemMass_kg": 300,
-   "warheadMass_kg": 250,
-   "flatDamage_MJ": 450,
+   "warheadMass_kg": 300,
+   "flatDamage_MJ": 540,
    "thrustRamp_s": 6,
    "rotation_degps": 30,
    "turnRamp_s": 1,
@@ -1516,7 +1656,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "RacerMissilePod",
@@ -1624,16 +1764,16 @@
    "Rocket Thrust": 234560,
    "EV_kps": 3.23,
    "acceleration_g": 14.94,
-   "deltaV_kps": 4.1,
+   "deltaV_kps": 3.76,
    "baseWeaponMass_tons": 2,
    "cooldown_s": 1,
    "efficiency": 1,
    "flatChipping": 0.5,
    "magazine": 4,
    "ammoMass_kg": 1600,
-   "fuelMass_kg": 1150,
+   "fuelMass_kg": 1100,
    "systemMass_kg": 350,
-   "warheadMass_kg": 100,
+   "warheadMass_kg": 150,
    "thrustRamp_s": 3,
    "rotation_degps": 30,
    "turnRamp_s": 0.75,
@@ -1702,7 +1842,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "KeelbackMissilePod",
@@ -1716,16 +1856,16 @@
    "Rocket Thrust": 234560,
    "EV_kps": 3.23,
    "acceleration_g": 14.94,
-   "deltaV_kps": 4.1,
+   "deltaV_kps": 3.76,
    "baseWeaponMass_tons": 2,
    "cooldown_s": 1,
    "efficiency": 1,
    "flatChipping": 0.6,
    "magazine": 4,
    "ammoMass_kg": 1600,
-   "fuelMass_kg": 1150,
+   "fuelMass_kg": 1100,
    "systemMass_kg": 350,
-   "warheadMass_kg": 100,
+   "warheadMass_kg": 150,
    "thrustRamp_s": 6,
    "rotation_degps": 25,
    "turnRamp_s": 1,
@@ -1748,7 +1888,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "CopperheadMissilePod",
@@ -1795,7 +1935,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Hydrolox Fuel"
 },
  {
@@ -1888,7 +2028,7 @@
    "shotModelResource": "spacecombat/AnacondaMissile",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "PythonNuclearMissilePod",
@@ -1985,7 +2125,7 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/BigExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Hypergolic"
 },
  {
@@ -2032,7 +2172,53 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
+},
+ {
+   "dataName": "HerculesTorpedoPod",
+   "friendlyName": "Hercules Torpedo Pod",
+   "mount": "HalfHull",
+   "crew": 0,
+   "requiredProjectName": "Project_RattlerMissileBay",
+   "attackMode": true,
+   "defenseMode": false,
+   "warheadClass": "Fragmentation",
+   "Rocket Thrust": 351840,
+   "EV_kps": 3.23,
+   "acceleration_g": 7.47,
+   "deltaV_kps": 5.41,
+   "baseWeaponMass_tons": 10,
+   "cooldown_s": 7,
+   "efficiency": 1,
+   "flatChipping": 0.5,
+   "magazine": 2,
+   "ammoMass_kg": 4800,
+   "fuelMass_kg": 3900,
+   "systemMass_kg": 400,
+   "warheadMass_kg": 500,
+   "thrustRamp_s": 7,
+   "rotation_degps": 20,
+   "turnRamp_s": 1,
+   "maneuver_angle": 35,
+   "bombardmentValue": 0,
+   "targetingRange_km": 1000,
+   "pivotRange_deg": 180,
+   "isPointDefenseTargetable": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5
+   },
+   "ammoMaterials": {
+      "volatiles": 0.68,
+      "metals": 0.3,
+      "nobleMetals": 0.02
+   },
+   "iconResource": "shipbuildericons/ICO_HerculesTorpedoBay",
+   "modelResource": "shipweapons/torpedo_launcher",
+   "shotModelResource": "spacecombat/HeraTorpedo",
+   "impactVisualFXResource": "spaceCombat/TinyExplosion",
+   "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "ArtemisTorpedoPod",
@@ -2079,7 +2265,7 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/BigExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Explosive_Missile_Detonates_Ship",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship",
    "notes": "Hydrolox"
 },
  {
@@ -2126,7 +2312,53 @@
    "shotModelResource": "spacecombat/HeraTorpedo",
    "impactVisualFXResource": "spaceCombat/ImpactWhite",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
+},
+ {
+   "dataName": "ApolloTorpedoPod",
+   "friendlyName": "Apollo Torpedo Pod",
+   "mount": "HalfHull",
+   "crew": 0,
+   "requiredProjectName": "Project_ViperMissileBay",
+   "attackMode": true,
+   "defenseMode": false,
+   "warheadClass": "Fragmentation",
+   "Rocket Thrust": 430215,
+   "EV_kps": 4.45,
+   "acceleration_g": 9.14,
+   "deltaV_kps": 7.45,
+   "baseWeaponMass_tons": 10,
+   "cooldown_s": 7,
+   "efficiency": 1,
+   "flatChipping": 0.5,
+   "magazine": 2,
+   "ammoMass_kg": 4800,
+   "fuelMass_kg": 3900,
+   "systemMass_kg": 400,
+   "warheadMass_kg": 500,
+   "thrustRamp_s": 7,
+   "rotation_degps": 20,
+   "turnRamp_s": 1,
+   "maneuver_angle": 35,
+   "bombardmentValue": 0,
+   "targetingRange_km": 1000,
+   "pivotRange_deg": 180,
+   "isPointDefenseTargetable": true,
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5
+   },
+   "ammoMaterials": {
+      "volatiles": 0.65,
+      "metals": 0.32,
+      "nobleMetals": 0.03
+   },
+   "iconResource": "shipbuildericons/ICO_ApolloTorpedoBay",
+   "modelResource": "shipweapons/torpedo_launcher",
+   "shotModelResource": "spacecombat/HeraTorpedo",
+   "impactVisualFXResource": "spaceCombat/TinyExplosion",
+   "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Torpedo_Launch",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "CerebrusNuclearTorpedoPod",
@@ -2274,7 +2506,7 @@
    "shotModelResource": "spacecombat/GlitteringJewelMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Alien_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "GlitteringJewelMissilePod",
@@ -2320,7 +2552,7 @@
    "shotModelResource": "spacecombat/GlitteringJewelMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Alien_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "IridescentStarTorpedoBay",
@@ -2366,7 +2598,7 @@
    "shotModelResource": "spaceCombat/IridescentStarTorpedo",
    "impactVisualFXResource": "spaceCombat/BigExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Alien_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "LuminousSwarmMissileBay",
@@ -2414,7 +2646,7 @@
    "shotModelResource": "spacecombat/GlitteringJewelMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Alien_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "BrilliantSkyMissileBay",
@@ -2462,7 +2694,7 @@
    "shotModelResource": "spacecombat/GlitteringJewelMissile",
    "impactVisualFXResource": "spaceCombat/SmallExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Alien_Missile_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 },
  {
    "dataName": "PredatoryStarTorpedoBay",
@@ -2508,6 +2740,6 @@
    "shotModelResource": "spaceCombat/IridescentStarTorpedo",
    "impactVisualFXResource": "spaceCombat/BigExplosion",
    "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Alien_Torpedo_Launch",
-   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Penetrator_Missile_Strikes_Ship"
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_Fragmentation_Missile_Detonates_Ship"
 }
 ]

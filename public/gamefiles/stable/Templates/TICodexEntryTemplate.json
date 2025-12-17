@@ -405,7 +405,7 @@
    "index": 7.6,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_priority_initiateNuclearProgram",
-   "imgPath": "icons_2d/ICO_buildNuclearWeapons_priority"
+   "imgPath": "icons_2d/ICO_develop_atomic_bomb_priority"
 },
  {
    "dataName": "codex_priority_buildNuclearWeapons",
@@ -428,7 +428,7 @@
    "mainTopic": false,
    "locPath": "UI.Codex.codex_priority_buildSTOSquadron",
    "imgPath": "icons_2d/ICO_buildSTOSquadron_priority",
-   "unlockTech": "NextGenerationAerospace"
+   "unlockTech": "OrbitalFighters"
 },
  {
    "dataName": "codex_terrestrialWarfare",
@@ -554,6 +554,12 @@
    "locPath": "UI.Codex.codex_shipDesign"
 },
  {
+   "dataName": "codex_propulsion",
+   "index": 12.05,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_propulsion"
+},
+ {
    "dataName": "codex_hull",
    "index": 12.1,
    "mainTopic": false,
@@ -581,25 +587,25 @@
    "imgPath": "shipbuildericons/empty_Radiators"
 },
  {
-   "dataName": "codex_batteries",
-   "index": 12.5,
-   "mainTopic": false,
-   "locPath": "UI.Codex.codex_batteries",
-   "imgPath": "shipbuildericons/empty_Battery"
-},
- {
    "dataName": "codex_weapons",
-   "index": 12.6,
+   "index": 12.5,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_weapons",
    "imgPath": "shipbuildericons/empty_Nose_Hard_Point"
 },
  {
    "dataName": "codex_armor",
-   "index": 12.7,
+   "index": 12.6,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_armor",
    "imgPath": "shipbuildericons/empty_Armor"
+},
+ {
+   "dataName": "codex_utilityModules",
+   "index": 12.7,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_utilityModules",
+   "imgPath": "shipbuildericons/empty_Utility"
 },
  {
    "dataName": "codex_propellantTanks",
@@ -608,100 +614,152 @@
    "locPath": "UI.Codex.codex_propellantTanks"
 },
  {
-   "dataName": "codex_shipOfficers",
+   "dataName": "codex_batteries",
    "index": 12.9,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_batteries"
+},
+ {
+   "dataName": "codex_shipOfficers",
+   "index": 12.95,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_shipOfficers",
    "templateToPull": "TIOfficerTemplate"
 },
  {
-   "dataName": "codex_fleets",
+   "dataName": "codex_shipWeapons",
    "index": 13,
+   "mainTopic": true,
+   "locPath": "UI.Codex.codex_shipWeapons"
+},
+ {
+   "dataName": "codex_guns",
+   "index": 13.1,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_guns"
+},
+ {
+   "dataName": "codex_missiles",
+   "index": 13.2,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_missiles"
+},
+ {
+   "dataName": "codex_lasers",
+   "index": 13.3,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_lasers",
+   "unlockTech": "DirectedEnergyWarfareDoctrine"
+},
+ {
+   "dataName": "codex_magGuns",
+   "index": 13.4,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_magGuns",
+   "unlockTech": "KineticsWarfareDoctrine"
+},
+ {
+   "dataName": "codex_particleWeapons",
+   "index": 13.5,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_particleWeapons",
+   "unlockTech": "DirectedEnergyWarfareDoctrine"
+},
+ {
+   "dataName": "codex_plasmaWeapons",
+   "index": 13.6,
+   "mainTopic": false,
+   "locPath": "UI.Codex.codex_plasmaWeapons",
+   "unlockTech": "PlasmaWeapons"
+},
+ {
+   "dataName": "codex_fleets",
+   "index": 14,
    "mainTopic": true,
    "locPath": "UI.Codex.codex_fleets"
 },
  {
    "dataName": "codex_shipConstruction",
-   "index": 13.1,
+   "index": 14.1,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_shipConstruction"
 },
  {
    "dataName": "codex_shipRefits",
-   "index": 13.2,
+   "index": 14.2,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_shipRefits"
 },
  {
    "dataName": "codex_propellant",
-   "index": 13.3,
+   "index": 14.3,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_propellant"
 },
  {
    "dataName": "codex_transfers",
-   "index": 13.4,
+   "index": 14.4,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_transfers"
 },
  {
    "dataName": "codex_fleetOperations",
-   "index": 13.5,
+   "index": 14.5,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_fleetOperations",
    "templateToPull": "TIFleetOperationTemplate"
 },
  {
    "dataName": "codex_orbitalBombardment",
-   "index": 13.6,
+   "index": 14.6,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_orbitalBombardment"
 },
  {
    "dataName": "codex_spaceCombat",
-   "index": 14,
+   "index": 15,
    "mainTopic": true,
    "locPath": "UI.Codex.codex_spaceCombat"
 },
  {
    "dataName": "codex_maneuvers",
-   "index": 14.1,
+   "index": 15.1,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_maneuvers"
 },
  {
    "dataName": "codex_specialManeuvers",
-   "index": 14.2,
+   "index": 15.2,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_specialManeuvers"
 },
  {
    "dataName": "codex_fireControl",
-   "index": 14.3,
+   "index": 15.3,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_fireControl"
 },
  {
    "dataName": "codex_targeting",
-   "index": 14.4,
+   "index": 15.4,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_targeting"
 },
  {
    "dataName": "codex_heatManagement",
-   "index": 14.5,
+   "index": 15.5,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_heatManagement"
 },
  {
    "dataName": "codex_batteryManagement",
-   "index": 14.6,
+   "index": 15.6,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_batteryManagement"
 },
  {
    "dataName": "codex_damage",
-   "index": 14.7,
+   "index": 15.7,
    "mainTopic": false,
    "locPath": "UI.Codex.codex_damage"
 }

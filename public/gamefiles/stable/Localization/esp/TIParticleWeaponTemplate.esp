@@ -60,6 +60,10 @@ TIParticleWeaponTemplate.displayName.HeavyParticleLance=Lanza de partículas pes
 TIParticleWeaponTemplate.description.HeavyParticleLance=Un gran acelerador lineal montado en el morro que dispara ráfagas de partículas neutralizadas. Es capaz de destruir los dispositivos electrónicos del enemigo e incapacitar a su tripulación.
 TIParticleWeaponTemplate.displayName.SpinalParticleLance=Lanza de partículas troncal
 TIParticleWeaponTemplate.description.SpinalParticleLance=Un enorme acelerador lineal montado en el morro que dispara ráfagas de partículas neutralizadas. Es capaz de destruir los dispositivos electrónicos del enemigo e incapacitar a su tripulación.
+TIParticleWeaponTemplate.displayName.AntimatterPointDefenseBattery=Batería de antimateria de defensa de punto
+TIParticleWeaponTemplate.description.AntimatterPointDefenseBattery=Torreta de haz de antimateria de ciclado rápido para la defensa de punto en ráfagas.
+TIParticleWeaponTemplate.displayName.HeavyAntimatterPointDefenseBattery=Batería pesada de antimateria de defensa de punto
+TIParticleWeaponTemplate.description.HeavyAntimatterPointDefenseBattery=Torreta de haz de antimateria masiva, diseñada para brindar apoyo de defensa de punto a toda la flota.
 TIParticleWeaponTemplate.displayName.AntimatterParticleCannon=Cañón de antimateria
 TIParticleWeaponTemplate.description.AntimatterParticleCannon=Un acelerador lineal que dispara un haz compacto de antimateria que puede causar daños térmicos y radioactivos considerables contra un objetivo.
 TIParticleWeaponTemplate.displayName.HeavyAntimatterParticleCannon=Cañón de antimateria pesado
@@ -88,4 +92,4 @@ TIParticleWeaponTemplate.XRayDamage=Daño de rayos X (radiación):<rcol>{0}</rco
 TIParticleWeaponTemplate.BaryonicDamage=Daño de bariones (radiación), {0}x de daño interno:<rcol>{1}</rcol>
 
 TIParticleWeaponTemplate.Defense.MissilesOnly=<h>El fuego de defensa solo atacará a los misiles enemigos.</h>
-TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>La efectividad del fuego de defensa será inferior contra proyectiles enemigos que no sean misiles</h>
+TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>El fuego de defensa contra proyectiles que no sean misiles tendrán una eficacia reducida</h>

@@ -126,7 +126,7 @@
    "XPonSuccess": 1,
    "sortOrder": 8,
    "missionContext": "Unlimited",
-   "utilityScore": 1,
+   "utilityScore": 2,
    "UIalertEnemyOnFail": false,
    "AIDoubleUpAllowed": true,
    "maximumTargetOptionCount": 20,
@@ -648,7 +648,7 @@
    "XPonSuccess": 2,
    "sortOrder": 29,
    "missionContext": "SpaceOnly",
-   "utilityScore": 4,
+   "utilityScore": 2,
    "UIalertEnemyOnFail": true,
    "AIDoubleUpAllowed": false,
    "maximumTargetOptionCount": 20,
@@ -786,7 +786,7 @@
    "XPonSuccess": 2,
    "sortOrder": 4,
    "missionContext": "EarthOnly",
-   "utilityScore": 2,
+   "utilityScore": 3,
    "UIalertEnemyOnFail": true,
    "AIDoubleUpAllowed": false,
    "maximumTargetOptionCount": 20,
@@ -1473,7 +1473,7 @@
    "XPonSuccess": 2,
    "sortOrder": 36,
    "missionContext": "EarthOnly",
-   "utilityScore": 1,
+   "utilityScore": 3,
    "UIalertEnemyOnFail": true,
    "AIDoubleUpAllowed": false,
    "maximumTargetOptionCount": 20,
@@ -1731,7 +1731,7 @@
    "XPonSuccess": 2,
    "sortOrder": 34,
    "missionContext": "EarthOnly",
-   "utilityScore": 1,
+   "utilityScore": 3,
    "UIalertEnemyOnFail": true,
    "AIDoubleUpAllowed": true,
    "maximumTargetOptionCount": 20,
@@ -1842,7 +1842,7 @@
    "XPonSuccess": 2,
    "sortOrder": 35,
    "missionContext": "EarthOnly",
-   "utilityScore": 1,
+   "utilityScore": 3,
    "UIalertEnemyOnFail": true,
    "AIDoubleUpAllowed": true,
    "maximumTargetOptionCount": 20,
@@ -1888,7 +1888,7 @@
    },
    "attackerContexts": [
       "Mission_GainControlPoint",
-      "None"
+      "Mission_GainInfluence_Att"
    ],
    "defenderContexts": [
       "None"
@@ -1958,7 +1958,7 @@
    "XPonSuccess": 2,
    "sortOrder": 17,
    "missionContext": "Unlimited",
-   "utilityScore": 2,
+   "utilityScore": 1,
    "UIalertEnemyOnFail": true,
    "AIDoubleUpAllowed": false,
    "maximumTargetOptionCount": 20,
@@ -2104,7 +2104,7 @@
    },
    "attackerContexts": [
       "Mission_GainControlPoint",
-      "None"
+      "Mission_GainInfluence_Att"
    ],
    "defenderContexts": [
       "None"
@@ -2279,6 +2279,10 @@
             "defenderAttribute": "Administration"
          },
          {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Administration"
+         },
+         {
             "$type": "TIMissionModifier_OrgDefenses"
          },
          {
@@ -2449,7 +2453,7 @@
    "XPonSuccess": 2,
    "sortOrder": 31,
    "missionContext": "EarthOnly",
-   "utilityScore": 0,
+   "utilityScore": 3,
    "UIalertEnemyOnFail": false,
    "AIDoubleUpAllowed": false,
    "maximumTargetOptionCount": 20,
@@ -2781,7 +2785,7 @@
    "XPonSuccess": 2,
    "sortOrder": 6,
    "missionContext": "EarthOnly",
-   "utilityScore": 2,
+   "utilityScore": 3,
    "UIalertEnemyOnFail": false,
    "AIDoubleUpAllowed": true,
    "maximumTargetOptionCount": 20,
@@ -3412,7 +3416,7 @@
    "XPonSuccess": 2,
    "sortOrder": 30,
    "missionContext": "SpaceOnly",
-   "utilityScore": 4,
+   "utilityScore": 2,
    "UIalertEnemyOnFail": true,
    "AIDoubleUpAllowed": false,
    "maximumTargetOptionCount": 20,
@@ -3627,10 +3631,6 @@
       "defendingModifiers": [
          {
             "$type": "TIMissionModifier_NationPopulation"
-         },
-         {
-            "$type": "TIMissionModifier_ProtectionBonus",
-            "defenderAttribute": "Command"
          },
          {
             "$type": "TIMissionModifier_NationalRivalries"
@@ -3992,7 +3992,7 @@
    "XPonSuccess": 2,
    "sortOrder": 16,
    "missionContext": "Unlimited",
-   "utilityScore": 4,
+   "utilityScore": 3,
    "UIalertEnemyOnFail": true,
    "AIDoubleUpAllowed": false,
    "maximumTargetOptionCount": 20,

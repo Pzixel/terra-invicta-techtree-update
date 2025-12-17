@@ -60,6 +60,10 @@ TIParticleWeaponTemplate.displayName.HeavyParticleLance=Lança de partículas pe
 TIParticleWeaponTemplate.description.HeavyParticleLance=Um grande acelerador linear para montagem no nariz das naves que dispara partículas neutras para interromper transmissões eletrônicas e membros da tripulação inimiga.
 TIParticleWeaponTemplate.displayName.SpinalParticleLance=Lança de partículas espinhal
 TIParticleWeaponTemplate.description.SpinalParticleLance=Um acelerador linear gigantesco para montagem no nariz das naves que dispara partículas neutras para interromper transmissões eletrônicas e membros da tripulação inimiga.
+TIParticleWeaponTemplate.displayName.AntimatterPointDefenseBattery=Bateria de defesa de ponto antimatéria
+TIParticleWeaponTemplate.description.AntimatterPointDefenseBattery=Uma torre de partículas antimatéria de ciclo rápido que oferece defesa de ponto em rajadas.
+TIParticleWeaponTemplate.displayName.HeavyAntimatterPointDefenseBattery=Bateria de defesa de ponto antimatéria pesada
+TIParticleWeaponTemplate.description.HeavyAntimatterPointDefenseBattery=Uma torre de partículas antimatéria enorme projetada para apoio de defesa de ponto para toda a frota.
 TIParticleWeaponTemplate.displayName.AntimatterParticleCannon=Canhão de antimatéria
 TIParticleWeaponTemplate.description.AntimatterParticleCannon=Um acelerador linear que dispara um feixe estreito de antimatéria contra um alvo capaz de causar considerável dano térmico e radioativo.
 TIParticleWeaponTemplate.displayName.HeavyAntimatterParticleCannon=Canhão de antimatéria pesado
@@ -88,4 +92,4 @@ TIParticleWeaponTemplate.XRayDamage=Dano de raio-x (radiação):<rcol>{0}</rcol>
 TIParticleWeaponTemplate.BaryonicDamage=Dano bariônico (radiação), {0}x para elementos internos:<rcol>{1}</rcol>
 
 TIParticleWeaponTemplate.Defense.MissilesOnly=<h>Disparos defensivos terão apenas mísseis como alvo.</h>
-TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Disparos defensivos contra alvos que não mísseis terão sua eficácia reduzida.</h>
+TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Disparos defensivos contra projéteis não mísseis terão sua eficácia reduzida.</h>

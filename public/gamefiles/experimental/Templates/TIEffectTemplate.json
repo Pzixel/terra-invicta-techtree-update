@@ -5031,7 +5031,7 @@
  {
    "dataName": "Effect_RecruitStartingXP_1",
    "operation": "Additive",
-   "value": 1,
+   "value": 5,
    "effectTarget": "AllHumanFactions",
    "effectDuration": "permanent",
    "stackable": true,
@@ -7277,7 +7277,7 @@
  {
    "dataName": "Effect_GlobalHumanFactionsGainXP",
    "instantEffect": "FactionAllEligibleCouncilorsGainXP",
-   "value": 1,
+   "value": 5,
    "effectTarget": "AllHumanFactions",
    "effectDuration": "instant",
    "duration_months": -1

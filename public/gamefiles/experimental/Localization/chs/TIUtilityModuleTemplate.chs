@@ -1,6 +1,6 @@
 TIUtilityModuleTemplate.displayName.ISRUModule=就地资源利用舱体
 TIUtilityModuleTemplate.description.ISRUModule=就地资源利用舱体将允许舰船在未开发的太空殖民地据点补充推进剂，只要该太空殖民地能产出推进剂的所有原材料。将<h>任何事物</h>列为推进剂的舰船可在任何据点补充推进剂。在推进剂中使用反物质的舰船不得使用。
-TIUtilityModuleTemplate.displayName.RemassScoop=重聚合铲
+TIUtilityModuleTemplate.displayName.RemassScoop=重物质勺
 TIUtilityModuleTemplate.description.RemassScoop=重聚合铲赋予舰船优秀气动性能，以防止在大气制动时受损，并允许船舰从类木行星的界面轨道补充<h>氢</h>推进剂储量的唯一要素<color=#FFFFFFFF><sprite name="water"></color>。将<h>任何事物</h>列为推进剂的舰船也可以在类木行星的世界补充推进剂。
 TIUtilityModuleTemplate.displayName.MuonSpiker=缈子催化剂
 TIUtilityModuleTemplate.description.MuonSpiker=使用缈子催化核聚变反应，为核聚变推进器提供 {1} 的推力加成。
@@ -8,9 +8,9 @@ TIUtilityModuleTemplate.displayName.NeutroniumSpiker=中子星物质催化剂
 TIUtilityModuleTemplate.description.NeutroniumSpiker=生成少量自由中子用于催化核反应，为核裂变推进器提供 {1} 的推力加成。
 TIUtilityModuleTemplate.displayName.AntimatterSpiker=反物质催化剂
 TIUtilityModuleTemplate.description.AntimatterSpiker=储存着微量的反物质用于催化核反应，为核裂变和核聚变推进器提供 {1} 的推力加成。 
-TIUtilityModuleTemplate.displayName.MobileSpaceScienceLab=移动太空科学实验室
-TIUtilityModuleTemplate.description.MobileSpaceScienceLab=使一支科学家团队登船，提供 {5} 的太空研究力加成，该舰船可以在交互轨道勘探天体，寻找合适的基地位置。
-TIUtilityModuleTemplate.displayName.RepairBay=修理舱
+TIUtilityModuleTemplate.displayName.MobileSpaceScienceLab=行动太空科学实验室
+TIUtilityModuleTemplate.description.MobileSpaceScienceLab=使一支科学家团队登船，该舰船可以在交互轨道勘探天体，寻找合适的基地位置，并且只要其舰队未停靠在太空殖民地内或未处于地球-月球系统内，就将为太空科学研究项目提供 {5} 加成。
+TIUtilityModuleTemplate.displayName.RepairBay=修复舱
 TIUtilityModuleTemplate.description.RepairBay=一支规模更大的损伤控制小组以及一个能在远离造船厂的地方提供更多修理能力的工坊。<br><br/>显著增加了你的损伤控制小组在战斗中的价值。在战斗之外，修理舱能够部分修复舰桥、生命维持系统、炮组和损伤控制舱体，并将被已摧毁舱体的修复上限从 5% 提高到 25%。<br><br/><h>注意，武器和设施舱体等部分舱体一旦被摧毁，只能在空间站进行修理。</h>
 TIUtilityModuleTemplate.displayName.SalvageBay=回收舱
 TIUtilityModuleTemplate.description.SalvageBay=一个由无人机和技术人员组成的中队，在战斗后从被摧毁的舰船上收集材料。提高我方回收能力，最多 {8}。舰队的回收加成不能超过 50%。
@@ -31,7 +31,7 @@ TIUtilityModuleTemplate.description.LaserEngine=将所有进攻型激光武器�
 TIUtilityModuleTemplate.displayName.AdvancedLaserEngine=进阶激光引擎
 TIUtilityModuleTemplate.description.AdvancedLaserEngine=将所有进攻型激光武器功率提高 {0} MJ，使舰船的激光武器能在远距离造成更高伤害。对于仅能进行点防御的武器，加成会有所降低。安装额外激光引擎舱体的加成可以叠加。
 TIUtilityModuleTemplate.displayName.Cyclotron=回旋加速器
-TIUtilityModuleTemplate.description.Cyclotron=将所有粒子武器功率提高 {13} MJ，使其能造成更高伤害。对于仅能进行点防御的粒子武器，加成会有所降低。安装额外回旋加速器舱体的加成可以叠加。
+TIUtilityModuleTemplate.description.Cyclotron=将所有攻击型粒子武器功率提高 {13} MJ，使其能造成更高伤害。安装额外回旋加速器舱体的加成可以叠加。
 TIUtilityModuleTemplate.displayName.VectorThrusters=矢量推进器
 TIUtilityModuleTemplate.description.VectorThrusters=推进器可以进行多方向旋转，推进力额外增加 {12} N，加快飞船的旋转速度。<h>如果可能达到的最大转速已经超过人类的极限，则对体积非常小的飞船可能没有任何益处。</h>
 TIUtilityModuleTemplate.displayName.LiquidHydrogenContainment=液氢容器
@@ -115,13 +115,13 @@ TIUtilityModuleTemplate.description.AlienSurveillanceOrbital=此舱体的功能�
 TIUtilityModuleTemplate.displayName.AlienSurveillanceRing=未知舱体
 TIUtilityModuleTemplate.description.AlienSurveillanceRing=此舱体的功能仍属未知。
 
-TIUtilityModuleTemplate.description.RequiresHydrogenPropellant=<h>需要一台可以使用氢作为推进剂的推进器。</h>
+TIUtilityModuleTemplate.description.RequiresHydrogenPropellant=<h>需要一台可以使用氢（不是反应产物）作为推进剂的推进器。</h>
 TIUtilityModuleTemplate.description.RequiresFissionDrive=<h>需要一台核裂变驱动器。</h>
-TIUtilityModuleTemplate.description.RequiresNuclearDrive=<h>需要一台核能推进器。</h>
+TIUtilityModuleTemplate.description.RequiresNuclearDrive=<h>需要一台核聚变或裂变热能型驱动器。</h>
 TIUtilityModuleTemplate.description.RequiresFusionDrive=<h>需要一台核聚变推进器。</h>
 TIUtilityModuleTemplate.description.RequiresNonISRUDrive=<h>如舰船驱动器本身具有就地资源利用能力，则无法使用。</h>
 TIUtilityModuleTemplate.description.ConsTier=<h>仅可用于大型船体。</h>
 TIUtilityModuleTemplate.description.ImmuneToDamage=<h>此舱体不会受损。</h>
 TIUtilityModuleTemplate.description.RepairOnlyWhenMarineModulePresent=<h>只能在满足以下条件的太空殖民地进行修理：同时具有船舶建造舱体和陆战队舱体。如果在没有陆战队舱体的太空殖民地上建造这个舱体，将导致舱体被禁用，直到修复完毕。</h>
 TIUtilityModuleTemplate.description.RepairOnlyWhenConstructionModulePresent=<h>只能在满足以下条件的太空殖民地进行修理：同时具有船舶建造舱体和可建造太空殖民地的舱体。如果在没有太空殖民地建造舱体的太空殖民地上建造这个舱体，将导致舱体被禁用，直到修复完毕。</h>
-
+TIUtilityModuleTemplate.description.FullRepairCost=<h>修复此舱体需要支付受损部分的全部建设费用，而非通常的 {0}。</h>

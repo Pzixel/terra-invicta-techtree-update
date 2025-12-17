@@ -60,6 +60,10 @@ TIParticleWeaponTemplate.displayName.HeavyParticleLance=Schwere Partikellanze
 TIParticleWeaponTemplate.description.HeavyParticleLance=Ein großer am Bug montierter Linearbeschleuniger, der neutralisierte Partikel abfeuert, um feindliche Elektronik zu stören und Crewmitglieder außer Gefecht zu setzen.
 TIParticleWeaponTemplate.displayName.SpinalParticleLance=Dorsale Partikellanze
 TIParticleWeaponTemplate.description.SpinalParticleLance=Ein großer, am Bug montierter Linearbeschleuniger, der neutralisierte Partikel abfeuert, um feindliche Elektronik zu stören und Crewmitglieder außer Gefecht zu setzen.
+TIParticleWeaponTemplate.displayName.AntimatterPointDefenseBattery=Antimaterie-Punktverteidigungsbatterie
+TIParticleWeaponTemplate.description.AntimatterPointDefenseBattery=Ein schnellfeuerndes Antimaterie-Strahlengeschütz für Sperrfeuer-Punktverteidigung.
+TIParticleWeaponTemplate.displayName.HeavyAntimatterPointDefenseBattery=Schwere-Antimaterie-Punktverteidigungsbatterie
+TIParticleWeaponTemplate.description.HeavyAntimatterPointDefenseBattery=Ein massives Antimaterie-Strahlengeschütz für flottenweite Punktverteidigung.
 TIParticleWeaponTemplate.displayName.AntimatterParticleCannon=Antimaterie-Kanone
 TIParticleWeaponTemplate.description.AntimatterParticleCannon=Ein Linearbeschleuniger, der einen straffen Antimaterie-Strahl auf ein Ziel abfeuert, der signifikanten thermischen Schaden und Strahlenschaden verursachen kann.
 TIParticleWeaponTemplate.displayName.HeavyAntimatterParticleCannon=Schwere Antimaterie-Kanone
@@ -88,4 +92,4 @@ TIParticleWeaponTemplate.XRayDamage=Röntgenschaden (Strahlung):<rcol>{0}</rcol>
 TIParticleWeaponTemplate.BaryonicDamage=Baryonischer Schaden (Strahlung), {0}x an inneren Komponenten und Crew:<rcol>{1}</rcol>
 
 TIParticleWeaponTemplate.Defense.MissilesOnly=<h>Defensives Feuer zielt ausschließlich auf Raketen ab.</h>
-TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Defensives Feuer gegen alle Ziele, die keine Raketen sind, ist weniger effektiv.</h>
+TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Defensives Feuer gegen alle Projektile, die keine Raketen sind, ist weniger effektiv.</h>

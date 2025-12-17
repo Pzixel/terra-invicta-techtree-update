@@ -10,7 +10,7 @@ TITechTemplate.description.AdAstra=单凭科技进步并不能使一个物种改
 
 TITechTemplate.displayName.AdministrationAlgorithms=行政管理演算法
 TITechTemplate.summary.AdministrationAlgorithms=能自主指挥大大小小行动的人工智能。
-TITechTemplate.quote.AdministrationAlgorithms=「历史上每场冲突都出自于人类的愤怒、恐惧、贪婪或妒忌。没错，这的确是爱、信念和艺术的源泉，但或许──只是或许──我们不该让人心建立在这种基础上。」<br/><align=right>{escapeLeader}<align=left><br/><align=right><i>《海湾新闻》</i>专栏文章<align=left>
+TITechTemplate.quote.AdministrationAlgorithms=「历史上每场冲突都出自于人类的愤怒、恐惧、贪婪或妒忌。没错，这的确是爱、信念和艺术的源泉，但或许──只是或许──我们不该让人心建立在这种基础上。」<br/><align=right>{escapeLeader}<align=left><br/><align=right><i>《海湾新闻》</i><align=left>专栏文章
 TITechTemplate.description.AdministrationAlgorithms=既然我们已开发出功能完善的人工智能，就能探索机器意识能在哪些方面丰富人类社会。其中最明显、立刻引人注意的应用，就是把工厂、国家和太空殖民地的日常运营交给这些实际上无所不知，却又完全无私的实体。它们可以管理公共服务、规范市场、推动太空交通自动化，还可以安全运作及维护危险的深空反应堆和采矿设施。说实话，它们可以指挥几乎所有社会面向，同时却依然是我们忠实的奴仆。此外，它们也能比人脑更快适应不断变更的银河系地图。世界一流的软件工程师确信，他们终于开发出安全可靠的测试版本，肯定会成为日后众多人工智能行政官的先驱。若领袖们已做好万全准备，现在就能立刻推出，迎接这个新时代。
 
 TITechTemplate.displayName.AdvancedAtomicManipulation=进阶原子操纵术
@@ -90,7 +90,7 @@ TITechTemplate.description.AppliedArtificialIntelligence=虽然过去开发的�
 
 TITechTemplate.displayName.ArcLasers=电弧激光炮
 TITechTemplate.summary.ArcLasers=比起第一代激光武器系统，电弧激光炮的设计可提升射程和效率。
-TITechTemplate.quote.ArcLasers=「人类曾经以为闪电是众神的愤怒，因而感到害怕，直到后来学会如何利用闪电的力量。有人说勇气能克服恐惧，但我会说，克服恐惧的是知识。」<br/><align=right>{escapeLeader}<align=left><br/><align=right>出自其<i>「科学哲学」</i>系列讲座的录影<align=left>
+TITechTemplate.quote.ArcLasers=「人类曾经以为闪电是众神的愤怒，因而感到害怕，直到后来学会如何利用闪电的力量。有人说勇气能克服恐惧，但我会说，克服恐惧的是知识。」<br/><align=right>{escapeLeader}<align=left><br/><align=right>出自其<i>「科学哲学」</i><align=left>系列讲座的录影
 TITechTemplate.description.ArcLasers=作为遨游星际的种族，我们已达到曾经视为不可能的科技高度，但面前的危险并未减少。 <br/><br/>为了提高我们保护自己的能力，研究人员设计出革命性的新导能武器：电弧激光炮。通过将气体、晶体等旧式激光媒介替换成电浆，电弧激光炮可产生更强烈的光束，效率也大幅提高。电浆是由磁场围阻，带有持续的电流 (很像雷雨中的云朵)，可通过电荷将离子分离出来，产生两个电极。一旦电极累积足够的电荷，一道闪电电弧就会从电浆涌出，以光的形式释放出猛烈的能量，这时电弧激光就会变成致命的脉冲武器。 <br/><br/>这项科技的至美之处，就是电浆迅速重新充电的速度，因此能创造出比过去任何一代更具效率、射程更远的战斗激光炮。 
 
 TITechTemplate.displayName.PrinciplesofSpaceWarfare=太空战原则
@@ -246,7 +246,7 @@ TITechTemplate.description.ElectromagneticPropulsion=传统火箭将易挥发的
 TITechTemplate.displayName.ElectrostaticPlasmaConfinement=静电等离子体约束
 TITechTemplate.summary.ElectrostaticPlasmaConfinement=物理学家开发以静电场来围阻核聚变电浆的机制。
 TITechTemplate.quote.ElectrostaticPlasmaConfinement=「博士，我之所以让你加入，是因为我相信你是唯一能做到的人。好消息是，如果我错了，也不会有人能留下来告诉我。」<br/><align=right>{resistLeader}<align=left><br/><align=right>工程简报<align=left>
-TITechTemplate.description.ElectrostaticPlasmaConfinement=若使用静电场来围阻核聚变反应，这种形式的核聚变动力可直接加热燃料，避免其他类型的核聚变动力都会发生的大部分能量损失，并与无中子燃料相容。这种燃料发生核聚变时不会产生有害的游离辐射，因此能降低处理燃料和相关物质时的生物风险，并提高设备的使用寿命。这种作法单纯将带电粒子转化为动力，是我们特别感兴趣的动力系统。
+TITechTemplate.description.ElectrostaticPlasmaConfinement=若使用静电场来围阻核聚变反应，这种形式的核聚变动力可直接加热燃料，避免其他类型的核聚变动力都会发生的大部分能量损失，这种作法单纯将带电粒子转化为动力，是我们特别感兴趣的动力系统。虽然该方案在其他类型的核聚变中无法实现极高的功率输出，但仍然有望为我们的航天器提供轻便高效的反应堆。
 
 TITechTemplate.displayName.ElectrostaticPropulsion=静电推进
 TITechTemplate.summary.ElectrostaticPropulsion=我们开发出使用静电场来加速推进剂的推进器。
@@ -260,7 +260,7 @@ TITechTemplate.description.ElectrothermalPropulsion=数十年来，真正的星�
 
 TITechTemplate.displayName.ExtendedSpaceSurvival=延长太空生存
 TITechTemplate.summary.ExtendedSpaceSurvival=医学界寻求长期治疗方法，以治疗在封闭的低重力环境中生存造成的病症。
-TITechTemplate.quote.ExtendedSpaceSurvival=“人生若是只有忍耐，就无异于是在等待死亡。”让自己成为驱散黑暗的火焰吧，让众人簇拥在你身旁。<br/><align=right>{submitLeader}<align=left><br/><align=right>她写给赛门·卡内基 2017 年出版的非虚构类畅销书<i>《如何领导：小步骤，大改变》</i>一书的序言<align=left>
+TITechTemplate.quote.ExtendedSpaceSurvival=“人生若是只有忍耐，就无异于是在等待死亡。”让自己成为驱散黑暗的火焰吧，让众人簇拥在你身旁。<br/><align=right>{submitLeader}<align=left><br/><align=right>她写给赛门·卡内基 2017 年出版的非虚构类畅销书<i>《如何领导：小步骤，大改变》</i><align=left>一书的序言
 TITechTemplate.description.ExtendedSpaceSurvival=在地球大气层之外长期生活所带来的问题远远超出单纯的氧气和食物需求。长时间的太空飞行会对人体造成沉重负担，尤其因为微重力的缘故。我们已经能够在一定程度上缓解其负面影响，但从长远来看，应对这种情况需要更积极的应对措施。经年累月的太空航行会导致肌肉萎缩、骨骼变脆、视力下降，甚至加速人体衰老。其他问题包括长期的辐射照射，以及（相对轻微的）指甲变形、肾结石和痛风的风险增高。这还不包括心理上的影响：长期处于封闭的舰船内会使乘员同时感到孤独和缺乏隐私，而且还会因为担心系统故障或船体破裂，时刻受到恐惧的折磨。<br/><br/>如果我们定居在没有或几乎没有大气层的行星，那么即便踏上了陆地这些问题也照样会不断出现。因此，要在外太空或行星殖民地建立人类社会，所有这些问题都必须得到解决。幸好，我们手头上已经有了一系列方案，能利用易于大规模生产的药物、补充剂和技术，在短期内缓解最糟糕的影响，并在长期培育出下一代的宇航员，使其拥有更适应残酷的太空生活的生理机能。
 
 TITechTemplate.displayName.FallofEmpires=帝国陷落
@@ -426,7 +426,7 @@ TITechTemplate.quote.MissionToSpace=「《可兰经》苏拉章的黄牛章教�
 TITechTemplate.description.MissionToSpace=在太空中生存，和仅仅穿越太空截然不同。如果我们打算从游客变成居民，我们必须适应。后勤人员得提前几个月规划补给任务，工程师则必须应对长期暴露在太阳辐射下，以及在真空中进行设备维护的艰辛。同样地，心理学家必须开发训练方案，好让大家能在不存在上下颠倒的环境中维持最佳表现。 <br/><br/>当然，我们已有一段时间能在太空中旅行，但现在我们必须确立如何轻松、规律、经济地这么做，且次数规模比过去都大上许多。因此，这项更新后的太空任务意味着，我们必须改变许多最基本的固有概念。不过这一切的辛苦完全是必要的，因为只有在舒适地离开地球轨道后，我们才能期待去探索、利用，甚至在最终殖民邻近的世界，然后随着时间推移，或许又去得更远。
 
 TITechTemplate.displayName.MissiontotheAsteroids=小行星任务
-TITechTemplate.summary.MissiontotheAsteroids=开采在木星内侧绕行的千万颗小天体，可加速太空工业化。
+TITechTemplate.summary.MissiontotheAsteroids=开采木星轨道内部的千万颗小天体，可加速太空工业化。
 TITechTemplate.quote.MissiontotheAsteroids=“我们不拿，别人就会拿，而且拿到后，迟早会用它来对付我们。所以我们必须把它拿下，无论需要与否。”<br/><align=right>{destroyLeader}<align=left><br/><align=right>引自他的官方传记《先人五步》（2015 年，于出版前取消）<align=left>
 TITechTemplate.description.MissiontotheAsteroids=在火星和木星之间，充满着许多富含珍贵元素的岩石。它们分为三大类：S 型小行星含有一些金属和稀有的裂变物；C 型小行星是含有挥发性物质，M 型小行星则富含基金属和贵金属。小行星离太阳的距离越远，存在水的可能性就越高。虽然比月球和火星远得多，但这些小行星具有微不足道的引力，使我们能够以更低的成本建造弹射器。 
 
@@ -442,7 +442,7 @@ TITechTemplate.description.MissiontotheOuterPlanets=我们还须多多了解太�
 
 TITechTemplate.displayName.MolecularAssemblers=分子组装器
 TITechTemplate.summary.MolecularAssemblers=自我复制的纳米机器，能在分子层级打造出多种厉害的物质。 
-TITechTemplate.quote.MolecularAssemblers=「以前在农场上，如果有什么坏了，他们没有花俏的机器能用来修理，也来不及等什么维修工过来，所以通通自己修，就用他们饱经风霜的手。」<br/><align=right>{submitLeader}<align=left><br/><align=right>出自播客节目<i>《第八脉轮》</i>的访谈<align=left>
+TITechTemplate.quote.MolecularAssemblers=「以前在农场上，如果有什么坏了，他们没有花俏的机器能用来修理，也来不及等什么维修工过来，所以通通自己修，就用他们饱经风霜的手。」<br/><align=right>{submitLeader}<align=left><br/><align=right>出自播客节目<i>《第八脉轮》</i><align=left>的访谈
 TITechTemplate.description.MolecularAssemblers=分子组装器这种机器能以原子级的精准度移动和摆放反应分子，是纳米科技的一个分支，对于在许多方面取得进展至关重要。例如在科技方面，可用于创造出能承受最猛烈攻击的超强韧自我修复装甲，以及能储存和释放大量能量的低质量电容器。在生物方面，则可排列特定的胺基酸串以组装蛋白质分子，从而改变、甚至创造出活生生的有机体。若要这么做，我们会需要庞大的专用纳米工厂。科学家现在相信，可以用自我复制的单一分子组装器来建造这些纳米工厂，进而几乎完全免除任何对人力或资源运输的依赖。一旦建好这些自动化工厂，我们就有几乎无穷无尽的可能性。
 
 TITechTemplate.displayName.MoltenCoreFissionSystems=熔融炉心核裂变系统
@@ -498,11 +498,11 @@ TITechTemplate.description.OrbitalRingHabs=在太空长期生存的基础已经�
 TITechTemplate.displayName.OrbitalTorusHabs=环状空间站
 TITechTemplate.summary.OrbitalTorusHabs=我们在开发方法，以建造能容纳数千人的大型太空结构。
 TITechTemplate.quote.OrbitalTorusHabs=「世界不停转动，这一点我们无法改变。我们能做的是，确保我们转向彼此，且绝不会背离彼此，这样我们就能一起无所畏惧地拥抱所有未来。」<br/><align=right>{submitLeader}<align=left><br/><align=right>出自其著作《统一：打造更好人类的 8 条简单规则》的简介<align=left>
-TITechTemplate.description.OrbitalTorusHabs=既然我们不仅能在太空建立殖民地，还拥有科技和医药，可让长期住在其中的居民相对安全，那么是时候以更大的规模考虑人类在太空的未来了。我们现在设计的殖民地不只能供养数百人，而是能供养数千人，因此整个社会都不会知道脚下踩着真实土地是什么感觉。社会组成除了军事和科学人员，还包括家庭和儿童，也就是带领人类进一步深入星际的新世代。因此，舒适度、生活品质 (如休闲、运动、教育) 都至关重要。为了实现目标，我们将需要更多的空间，也需要类似重力的东西，来解决零重力所造成的诸多健康并发症和不便。以前的微重力舱集群无法提供重力，于是工程师想出一种完全不同的设计──环状太空殖民地，因其外形膨润，被昵称为「甜甜圈」。这些环的外观和运作方式类似于巨大的轮子，外轮圈在大辐条上不停旋转，其内部就会产生重力。辐条本身和相连的轮毂则保持在零重力状态，因此可以容纳太空港、反应堆和仓库等等。环面空间站的生活和地球生活不同，但至少很接近，而且重要的是，这些巨大的宇宙甜甜圈将让我们在太空真正建立人类文明。
+TITechTemplate.description.OrbitalTorusHabs=既然我们不仅能在太空建立殖民地，还拥有科技和医药，可让长期住在其中的居民相对安全，那么是时候以更大的规模考虑人类在太空的未来了。我们现在设计的殖民地不只能供养数百人，而是能供养数千人，因此整个社会都不会知道脚下踩着真实土地是什么感觉。社会组成除了军事和科学人员，还包括家庭和儿童，也就是带领人类进一步深入星际的新世代。因此，舒适度、生活品质 (如休闲、运动、教育) 都至关重要。为了实现目标，我们将需要更多的空间，也需要类似重力的东西，来解决零重力所造成的诸多健康并发症和不便。以前的微重力舱集群无法提供重力，于是工程师想出一种完全不同的设计──环状太空殖民地，因其外形膨润，被昵称为「甜甜圈」。这些环的外观和运作方式类似于巨大的轮子，外轮圈在大辐条上不停旋转，其内部就会产生重力。辐条本身和相连的轮毂则保持在零重力状态，因此可以容纳太空港、反应堆和仓库等等。环状空间站的生活和地球生活不同，但至少很接近，而且重要的是，这些巨大的宇宙甜甜圈将让我们在太空真正建立人类文明。
 
 TITechTemplate.displayName.OurSpaceFuture=太空未来
 TITechTemplate.summary.OurSpaceFuture=随着我们越来越多在太空生活，我们在思考太空地球混合型社会可能带来哪些改变。
-TITechTemplate.quote.OurSpaceFuture=「相信并接受外头还有其他灵魂吧──那也是由神创造的，和我们一样。加入他们、展开跨星际的心灵交会，既是我们的任务、我们的职责，也是我们的荣幸。」<br/><align=right>{submitLeader}<align=left><br/>出自容外浸信会的宣传传单，于净化火焰之夜前五个月<align=left>
+TITechTemplate.quote.OurSpaceFuture=「相信并接受外头还有其他灵魂吧──那也是由神创造的，和我们一样。加入他们、展开跨星际的心灵交会，既是我们的任务、我们的职责，也是我们的荣幸。」<br/><align=right>{submitLeader}<align=left><br/><align=right>出自容外浸信会的宣传传单，于净化火焰之夜前五个月<align=left>
 TITechTemplate.description.OurSpaceFuture=如今已无法回头，人类已在太空中发展军事和工业，更别提人口不停增长，还觉得地球生活是越来越遥远的记忆。是时候加倍努力，不再认为自己是受限于地球的物种。换句话说，我们要建立新形式的法律、秩序和通讯，来治理陆地、天空和太空，而在适应这混合型新社会的过程中，将产生无数的动荡。因此，为了抵御内忧外患，我们还需要受过特殊训练的部队。至于如何达成这一切，我们现在已有具体方案，一旦实现，我们就可以认真考虑建立真正的、更大规模的太空社会。
 
 TITechTemplate.displayName.OutpostHabs=前哨站殖民地
@@ -547,7 +547,7 @@ TITechTemplate.description.Superalloys=随着对碳纳米管、类金刚石和�
 
 TITechTemplate.displayName.ProtonProtonFusion=质子-质子聚变
 TITechTemplate.summary.ProtonProtonFusion=通过掌握核聚变反应的终极形式，我们将驯服太阳的力量。 
-TITechTemplate.quote.ProtonProtonFusion=「伯特兰‧罗素定义了『述知』和『亲知』的区别。很快地，就在不久后，我们对远方世界的了解将不仅仅来自资料和照片，而是来自于在外星土地上行走。」<br/><align=right>{escapeLeader}<align=left><br/><align=right>出自<i>彩虹桥计划</i>的媒体简报素材<align=left>
+TITechTemplate.quote.ProtonProtonFusion=「伯特兰‧罗素定义了『述知』和『亲知』的区别。很快地，就在不久后，我们对远方世界的了解将不仅仅来自资料和照片，而是来自于在外星土地上行走。」<br/><align=right>{escapeLeader}<align=left><br/><align=right>出自<i>彩虹桥计划</i><align=left>的媒体简报素材
 TITechTemplate.description.ProtonProtonFusion=从现代以来，我们已能去到天上的星体。自从发现其他世界确实存在生命，我们就在寻求相关知识。为了达成目标，我们还需要取得太阳的力量──具体来说，就是要重现发生在恒星中心的核聚变连锁反应。从我们第一次在太空实现核聚变那一天起，我们打造出愈渐强大的电磁围阻场，设计出多层反应堆室，也开发出更强劲的燃料来源。 <br/><br/>结合所有这些进步后，我们终于掌握了宇宙间最活跃的核聚变反应：双质子核聚变。通过使用复杂而精炼的电磁场网，我们在反应堆中把质子压在一起，以模仿太阳极高的压力和温度，将质子融合成氦原子。此反应单纯以电磁辐射和电子的形式来释放巨大能量，这两种形式都能用固态收集器来收集，然后直接转化成能量。因此，我们将有可能建造出效率惊人的核聚变反应堆，让人类以超越以往的方式翱翔星际。
 
 TITechTemplate.displayName.QuantumComputing=量子计算
@@ -612,13 +612,13 @@ TITechTemplate.description.SpaceMiningandRefining=把原料送到地球重力井
 
 TITechTemplate.displayName.SpaceNavies=太空海军
 TITechTemplate.summary.SpaceNavies=军事领导人抛弃了地面指挥的概念，转而支持一种新的组织模式。
-TITechTemplate.quote.SpaceNavies=“太空战和陆地战争根本没有可比性，尽管教官们一直试图用陆地战的例子打比方。说什么太空战就像是在滑溜溜的冰面上进行的坦克战，无处藏身的潜艇战，不需要对抗重力和空气阻力的空战，诸如此类的。企图以一个比方概括太空战的全貌，这样只会导致新兵产生错误的认知，最终酿成大祸。踏踏实实传授太空战背后的物理原理和决策制定吧，我们的人学得会的。”<br/><align=right>{resistLeader}<align=left><br/><align=right>致联合国太空学院指挥官的电子邮件<align=left>
+TITechTemplate.quote.SpaceNavies=“太空战和地面战根本无法类比，尽管教官们一直在用试图用陆地战的例子打比方。像什么在滑溜溜的冰面上进行的坦克战？无处可以藏身的潜艇战？不需要对抗重力和空气阻力的空战？企图以一个比方概括太空战的全貌，只会导致新兵产生错误的认知，最终酿成大祸。老老实实教导太空战背后的物理学和决策吧，我们的人学得会的。”<br/><align=right>{resistLeader}<align=left><br/><align=right>致联合国太空学院指挥官的电子邮件<align=left>
 TITechTemplate.description.SpaceNavies=最早的太空冲突可能不是发生在两个国家之间，而是发生在空军和海军这两个武装部队之间。美国空军最初对这一领域提出了主权要求，并将其视为其在空中作战角色的略微延伸。但随着发射演变为任务，随后发展为长期部署，太空<i>航天器</i>也变成了太空<i>舰船</i>，与空军不同的职能占据了主导地位：军官必须站岗，船员们必须在一起生活和工作数月甚至数年。但舰船上的生活也不能完全反映水上海军的生活，因为舰船像建筑物一样布置，并且长时间处于零重力状态。我们的军官和船员正在学习和适应，制定新的战术和程序，并开展新的文化。
 
 TITechTemplate.displayName.SpaceResearch=太空研究
 TITechTemplate.summary.SpaceResearch=我们开发专门的方法，以在零重力和行星环境中执行研究。
 TITechTemplate.quote.SpaceResearch=「我很荣幸能获选参加这一生一次的体验。他们在这里能做的事简直不可思议。他们研究的微重力长期影响很有趣，燃烧方面的进展还可能彻底改变地球上的能源生产。」<br/><align=right>{cooperateLeader}<align=left><br/><align=right>到国际空间站参加校外教学时的影片访谈<br/>撷取自纪录片<i>《青少年天才》</i><align=left>
-TITechTemplate.description.SpaceResearch=回顾 20 世纪后期在国际空间站上的早期太空研究，生物、物理和化学方面的进步，使人类更深入了解在一般陆地条件下无法探索的概念。由于太空飞行和更长期的太空居住变得越来越普遍，我们可以研究并最终应对微重力对人体的无数影响、改良种出食物和生产氧气的方法，甚至尝试新的动力来源。一开始，我们会需要扩大轨道上的空间站，但一步步突破后，我们将有能力离地球的怀抱越来越远。 
+TITechTemplate.description.SpaceResearch=回顾 20 世纪后期在和平号和国际空间站上的早期太空研究，生物、物理和化学方面的进步，使人类更深入了解在一般陆地条件下无法探索的概念。由于太空飞行和更长期的太空居住变得越来越普遍，我们可以研究并最终应对微重力对人体的无数影响、改良种出食物和生产氧气的方法，甚至尝试新的动力来源。一开始，我们会需要扩大轨道上的空间站，但一步步突破后，我们将有能力离地球的怀抱越来越远。 
 
 TITechTemplate.displayName.SpaceTourism=太空观光
 TITechTemplate.summary.SpaceTourism=企业看准了要把富裕和好奇的人们带上太空设施，这将可资助其他方面的努力。
@@ -713,37 +713,37 @@ TITechTemplate.description.ZPinchTechniques=Zeta 箍缩 (或简称 Z 箍缩) 会
 TITechTemplate.displayName.FutureTechEnergy=未来科技：能源
 TITechTemplate.summary.FutureTechEnergy=提供前进的动力，或者对能量武器来说，是提供发射的动力。
 TITechTemplate.quote.FutureTechEnergy=<skip/>
-TITechTemplate.description.FutureTechEnergy=- 有机会解锁各阵营之前未能触发的能源计划。
+TITechTemplate.description.FutureTechEnergy=- 有机会解锁各阵营之前未能触发的能源和异星生命学计划。
 
 TITechTemplate.displayName.FutureTechMilitaryScience=未来科技：军事科学
 TITechTemplate.summary.FutureTechMilitaryScience=武力的有组织运用将始终是达成政治目标的一种手段。愿武力永远不会成为目的本身。
 TITechTemplate.quote.FutureTechMilitaryScience=<skip/>
-TITechTemplate.description.FutureTechMilitaryScience=- 有机会解锁各阵营之前未能触发的军事科学计划。
+TITechTemplate.description.FutureTechMilitaryScience=- 有机会解锁各阵营之前未能触发的军事科学和异星生命学计划。
 
 TITechTemplate.displayName.FutureTechSocialScience=未来科技：社会科学
 TITechTemplate.summary.FutureTechSocialScience=研究人的行为不像破解物理定律，但那不代表我们不该试一试。
 TITechTemplate.quote.FutureTechSocialScience=<skip/>
-TITechTemplate.description.FutureTechSocialScience=- 有机会解锁各阵营之前未能触发的社会科学计划。
+TITechTemplate.description.FutureTechSocialScience=- 有机会解锁各阵营之前未能触发的社会科学和异星生命学计划。
 
 TITechTemplate.displayName.FutureTechMaterials=未来科技：材料
 TITechTemplate.summary.FutureTechMaterials=就探索和改良而言，物质科学就像个无底洞。
 TITechTemplate.quote.FutureTechMaterials=<skip/>
-TITechTemplate.description.FutureTechMaterials=- 有机会解锁各阵营之前未能触发的材料计划。
+TITechTemplate.description.FutureTechMaterials=- 有机会解锁各阵营之前未能触发的材料和异星生命学计划。
 
 TITechTemplate.displayName.FutureTechInformationScience=未来科技：资讯科学
 TITechTemplate.summary.FutureTechInformationScience=资料不等于知识，知识不等于智慧。
 TITechTemplate.quote.FutureTechInformationScience=<skip/>
-TITechTemplate.description.FutureTechInformationScience=- 有机会解锁各阵营之前未能触发的资讯科学计划。
+TITechTemplate.description.FutureTechInformationScience=- 有机会解锁各阵营之前未能触发的资讯科学和异星生命学计划。
 
 TITechTemplate.displayName.FutureTechLifeScience=未来科技：生命科学
 TITechTemplate.summary.FutureTechLifeScience=地球不过是个摇篮。
 TITechTemplate.quote.FutureTechLifeScience=<skip/>
-TITechTemplate.description.FutureTechLifeScience=- 有机会解锁各阵营之前未能触发的生命科学计划。
+TITechTemplate.description.FutureTechLifeScience=- 有机会解锁各阵营之前未能触发的生命科学和异星生命学计划。
 
 TITechTemplate.displayName.FutureTechSpaceScience=未来科技：太空科学
 TITechTemplate.summary.FutureTechSpaceScience=当我们往外看，总会好奇还有什么尚未遇见的未知。
 TITechTemplate.quote.FutureTechSpaceScience=<skip/>
-TITechTemplate.description.FutureTechSpaceScience=- 有机会解锁各阵营之前未能触发的太空科学计划。
+TITechTemplate.description.FutureTechSpaceScience=- 有机会解锁各阵营之前未能触发的生命科学和异星生命学计划。
 
 TITechTemplate.quote.ResistanceSpaceScience=「我们已抵达太阳系的边缘，我们已定义太空战的时代，但革命尚未成功，战争还没结束。所以，告诉我，下一个带领我们穿越虚空的是什么？」 
 TITechTemplate.quote.ResistanceLifeScience=「母亲在晚年告诉我，我们应该珍惜生命。我们应该将生命看作有明确终点的冒险。当我们记着生命的终点，每一刻都会活得更充实。」
@@ -800,7 +800,7 @@ TITechTemplate.quote.ExploitInformationScience=「把它藏在授权协议里吧
 TITechTemplate.quote.ExploitMilitaryScience=「把原理图泄漏出去，然后尽可能卸载多余的弹药。这些动力障碍是阻挡他们的唯一办法，而且以我们贩卖的价格，卖个半打就能弥补损失。」
 TITechTemplate.quote.ExploitSocialScience=「早期的罗马人真是精明：把军队停在你家的领土外，给你选要加入还是灭亡。只要付出让自己的文化融入的小小代价，就能保全性命。太聪明了。」
 
-TITechTemplate.desc.EndGameReroll=在完成时，最终目标科技会重新掷骰，解锁阵营私有计划。
+TITechTemplate.desc.EndGameReroll=在完成时，最终目标科技会触发重新掷骰，解锁所有阵营已错过的私有计划。
 
 TITechTemplate.summary.HighEnergyElectrostaticPropulsion_deprecated=我们进一步改进了使用静电场进行加速的推进器。
 TITechTemplate.description.HighEnergyElectrostaticPropulsion_deprecated=太阳系是一座资源宝库，它将帮助我们成为我们注定要成为的星际种族。当然，这并不意味着不需要人类的聪明才智。因此，我们现在将希望寄托于静电推进系统的再进化，以期它能帮助我们探索太阳系最遥远的角落，乃至是太阳系之外。<br/><br/>这个新的推进器概念是基于我们现有的静电驱动，但采用更强的静电场，以及更轻的电力推进剂。这种推进剂的加速过程更快，速度上限也大幅提升；而强化后的静电场体积较小，允许更紧凑的引擎设计。装备了这些新种推进器的飞船将能够轻松突破目前太空旅行的极限。

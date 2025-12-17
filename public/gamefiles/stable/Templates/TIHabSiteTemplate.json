@@ -22,7 +22,7 @@
    "longitude": 212.19,
    "miningProfileName": "MercuryPolarMine",
    "backgroundPath": "habmodules/surface_05",
-   "fabricatedData": "58",
+   "fabricatedData": "65",
    "Density": 5.43
  },
  {
@@ -35,7 +35,7 @@
    "longitude": 297.17,
    "miningProfileName": "MercuryPolarMine",
    "backgroundPath": "habmodules/surface_05",
-   "fabricatedData": "65",
+   "fabricatedData": "66",
    "Density": 5.43
  },
  {
@@ -48,7 +48,7 @@
    "longitude": 62.92,
    "miningProfileName": "MercuryPolarMine",
    "backgroundPath": "habmodules/surface_05",
-   "fabricatedData": "36",
+   "fabricatedData": "45",
    "Density": 5.43
  },
  {
@@ -61,7 +61,7 @@
    "longitude": 294.7,
    "miningProfileName": "MercuryPolarMine",
    "backgroundPath": "habmodules/surface_05",
-   "fabricatedData": "45",
+   "fabricatedData": "49",
    "Density": 5.43
  },
  {
@@ -74,7 +74,7 @@
    "longitude": 89.85,
    "miningProfileName": "MercuryPolarMine",
    "backgroundPath": "habmodules/surface_05",
-   "fabricatedData": "59",
+   "fabricatedData": "63",
    "Density": 5.43
  },
  {
@@ -152,7 +152,7 @@
    "longitude": -20.08,
    "miningProfileName": "LunarCopernicusMine",
    "backgroundPath": "habmodules/surface_09",
-   "fabricatedData": "14",
+   "fabricatedData": "23",
    "Density": 3.34
  },
  {
@@ -204,7 +204,7 @@
    "longitude": 0,
    "miningProfileName": "LunarSouthPolarMine",
    "backgroundPath": "habmodules/surface_09",
-   "fabricatedData": "50",
+   "fabricatedData": "51",
    "Density": 3.34
  },
  {
@@ -217,7 +217,7 @@
    "longitude": 129.1,
    "miningProfileName": "LunarMine",
    "backgroundPath": "habmodules/surface_09",
-   "fabricatedData": "62",
+   "fabricatedData": "64",
    "Density": 3.34
  },
  {
@@ -2236,7 +2236,7 @@
    "Density": 1.29
  },
  {
-   "friendlyName": "Nergal site",
+   "friendlyName": "Achlys site",
    "dataName": "208996KBOSite1",
    "parentBodyName": "208996KBO",
    "X": 0,
@@ -2246,7 +2246,7 @@
    "Density": 0.87
  },
  {
-   "friendlyName": "Nergal site",
+   "friendlyName": "Achlys site",
    "dataName": "208996KBOSite2",
    "parentBodyName": "208996KBO",
    "X": 0,
@@ -2256,7 +2256,7 @@
    "Density": 0.87
  },
  {
-   "friendlyName": "Nergal site",
+   "friendlyName": "Achlys site",
    "dataName": "208996KBOSite3",
    "parentBodyName": "208996KBO",
    "X": 1,
@@ -2266,7 +2266,7 @@
    "Density": 0.87
  },
  {
-   "friendlyName": "Nergal site",
+   "friendlyName": "Achlys site",
    "dataName": "208996KBOSite4",
    "parentBodyName": "208996KBO",
    "X": 1,
@@ -2276,7 +2276,7 @@
    "Density": 0.87
  },
  {
-   "friendlyName": "Pangu Site",
+   "friendlyName": "Máni Site",
    "dataName": "307261KBOSite1",
    "parentBodyName": "307261KBO",
    "X": 0,
@@ -2287,7 +2287,7 @@
    "Density": 1.2
  },
  {
-   "friendlyName": "Pangu Site",
+   "friendlyName": "Máni Site",
    "dataName": "307261KBOSite2",
    "parentBodyName": "307261KBO",
    "X": 1,
@@ -2298,7 +2298,7 @@
    "Density": 1.2
  },
  {
-   "friendlyName": "Pangu Site",
+   "friendlyName": "Máni Site",
    "dataName": "307261KBOSite3",
    "parentBodyName": "307261KBO",
    "X": 0,
@@ -2309,7 +2309,7 @@
    "Density": 1.2
  },
  {
-   "friendlyName": "Pangu Site",
+   "friendlyName": "Máni Site",
    "dataName": "307261KBOSite4",
    "parentBodyName": "307261KBO",
    "X": 1,
@@ -2388,6 +2388,16 @@
    "Density": 0.86
  },
  {
+   "friendlyName": "Themisto site",
+   "dataName": "ThemistoSite1",
+   "parentBodyName": "Themisto",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "MixedCMMine",
+   "backgroundPath": "habmodules/surface_06",
+   "Density": 1.63
+ },
+ {
    "friendlyName": "Leda site",
    "dataName": "LedaSite1",
    "parentBodyName": "Leda",
@@ -2395,7 +2405,7 @@
    "Y": 0,
    "miningProfileName": "CarbonaceousMine",
    "backgroundPath": "habmodules/surface_16",
-   "Density": 2.6
+   "Density": 1.63
  },
  {
    "friendlyName": "Himalia site",
@@ -2405,7 +2415,7 @@
    "Y": 0,
    "miningProfileName": "MixedCMMine",
    "backgroundPath": "habmodules/surface_16",
-   "Density": 2.88
+   "Density": 1.63
  },
  {
    "friendlyName": "Lysithea site",
@@ -2415,7 +2425,7 @@
    "Y": 0,
    "miningProfileName": "CarbonaceousMine",
    "backgroundPath": "habmodules/surface_16",
-   "Density": 2.6
+   "Density": 1.63
  },
  {
    "friendlyName": "Elara site",
@@ -2425,7 +2435,17 @@
    "Y": 0,
    "miningProfileName": "CarbonaceousMine",
    "backgroundPath": "habmodules/surface_16",
-   "Density": 2.6
+   "Density": 1.63
+ },
+ {
+   "friendlyName": "Praxidike site",
+   "dataName": "PraxidikeSite1",
+   "parentBodyName": "Praxidike",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_06",
+   "Density": 1.3
  },
  {
    "friendlyName": "Ananke site",
@@ -2435,7 +2455,27 @@
    "Y": 0,
    "miningProfileName": "MixedCSMine",
    "backgroundPath": "habmodules/surface_02",
-   "Density": 2.6
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "Iocaste site",
+   "dataName": "IocasteSite1",
+   "parentBodyName": "Iocaste",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_17",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "Taygete site",
+   "dataName": "TaygeteSite1",
+   "parentBodyName": "Taygete",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "CarbonaceousMine",
+   "backgroundPath": "habmodules/surface_03",
+   "Density": 1.63
  },
  {
    "friendlyName": "Carme site",
@@ -2445,7 +2485,17 @@
    "Y": 0,
    "miningProfileName": "StonyMine",
    "backgroundPath": "habmodules/surface_02",
-   "Density": 2.6
+   "Density": 1.63
+ },
+ {
+   "friendlyName": "Kalyke site",
+   "dataName": "KalykeSite1",
+   "parentBodyName": "Kalyke",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "MixedCSMine",
+   "backgroundPath": "habmodules/surface_02",
+   "Density": 1.63
  },
  {
    "friendlyName": "Pasiphae site",
@@ -2455,7 +2505,17 @@
    "Y": 0,
    "miningProfileName": "CarbonaceousMine",
    "backgroundPath": "habmodules/surface_16",
-   "Density": 2.6
+   "Density": 1.7
+ },
+ {
+   "friendlyName": "Megaclite site",
+   "dataName": "MegacliteSite1",
+   "parentBodyName": "Megaclite",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "CarbonaceousMine",
+   "backgroundPath": "habmodules/surface_16",
+   "Density": 1.7
  },
  {
    "friendlyName": "Sinope site",
@@ -2465,7 +2525,7 @@
    "Y": 0,
    "miningProfileName": "WetCarbonaceusMine",
    "backgroundPath": "habmodules/surface_17",
-   "Density": 2.6
+   "Density": 1.7
  },
  {
    "friendlyName": "Callirrhoe site",
@@ -2475,7 +2535,7 @@
    "Y": 0,
    "miningProfileName": "WetCarbonaceusMine",
    "backgroundPath": "habmodules/surface_17",
-   "Density": 1.24
+   "Density": 1.7
  },
  {
    "friendlyName": "Pan site",
@@ -2562,6 +2622,16 @@
    "Density": 1.15
  },
  {
+   "friendlyName": "Pallene site",
+   "dataName": "PalleneSite1",
+   "parentBodyName": "Pallene",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyMine",
+   "backgroundPath": "habmodules/surface_06",
+   "Density": 0.25
+ },
+ {
    "friendlyName": "Sarandib Planitia",
    "dataName": "EnceladusSite1",
    "parentBodyName": "Enceladus",
@@ -2634,7 +2704,8 @@
    "X": 0,
    "Y": 0,
    "miningProfileName": "IcyCarbonaceousMine",
-   "backgroundPath": "habmodules/surface_02"
+   "backgroundPath": "habmodules/surface_02",
+   "Density": 2.3
  },
  {
    "friendlyName": "Kiviuq site",
@@ -2647,12 +2718,22 @@
    "Density": 2.3
  },
  {
+   "friendlyName": "S2005 S4 site",
+   "dataName": "S2005S4Site1",
+   "parentBodyName": "S2005S4",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_17",
+   "Density": 2.3
+ },
+ {
    "friendlyName": "Ijiraq site",
    "dataName": "IjiraqSite1",
    "parentBodyName": "Ijiraq",
    "X": 0,
    "Y": 0,
-   "miningProfileName": "WetCarbonaceusMine",
+   "miningProfileName": "DryCarbonaceousMine",
    "backgroundPath": "habmodules/surface_04",
    "Density": 2.3
  },
@@ -2669,6 +2750,16 @@
    "Density": 1.64
  },
  {
+   "friendlyName": "S2006 S20 site",
+   "dataName": "S2006S20Site1",
+   "parentBodyName": "S2006S20",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_12",
+   "Density": 1.64
+ },
+ {
    "friendlyName": "Paaliaq site",
    "dataName": "PaaliaqSite1",
    "parentBodyName": "Paaliaq",
@@ -2679,6 +2770,26 @@
    "Density": 2.3
  },
  {
+   "friendlyName": "Skathi site",
+   "dataName": "SkathiSite1",
+   "parentBodyName": "Skathi",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_12",
+   "Density": 1.38
+ },
+ {
+   "friendlyName": "S2007 S2 site",
+   "dataName": "S2007S2Site1",
+   "parentBodyName": "S2007S2",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_12",
+   "Density": 1.64
+ },
+ {
    "friendlyName": "Albiorix site",
    "dataName": "AlbiorixSite1",
    "parentBodyName": "Albiorix",
@@ -2686,7 +2797,17 @@
    "Y": 0,
    "miningProfileName": "WetCarbonaceusMine",
    "backgroundPath": "habmodules/surface_04",
-   "Density": 2.3
+   "Density": 1.85
+ },
+ {
+   "friendlyName": "Bebhionn site",
+   "dataName": "BebhionnSite1",
+   "parentBodyName": "Bebhionn",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_04",
+   "Density": 1.85
  },
  {
    "friendlyName": "Erriapus site",
@@ -2696,7 +2817,27 @@
    "Y": 0,
    "miningProfileName": "WetCarbonaceusMine",
    "backgroundPath": "habmodules/surface_04",
-   "Density": 2.3
+   "Density": 1.85
+ },
+ {
+   "friendlyName": "Skoll site",
+   "dataName": "SkollSite1",
+   "parentBodyName": "Skoll",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "MixedCSMine",
+   "backgroundPath": "habmodules/surface_02",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "Tarqeq site",
+   "dataName": "TarqeqSite1",
+   "parentBodyName": "Tarqeq",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_12",
+   "Density": 0.92
  },
  {
    "friendlyName": "Siarnaq site",
@@ -2704,9 +2845,9 @@
    "parentBodyName": "Siarnaq",
    "X": 0,
    "Y": 0,
-   "miningProfileName": "WetCarbonaceusMine",
+   "miningProfileName": "IcyCarbonaceousMine",
    "backgroundPath": "habmodules/surface_17",
-   "Density": 2.3
+   "Density": 0.92
  },
  {
    "friendlyName": "Tarvos site",
@@ -2716,7 +2857,217 @@
    "Y": 0,
    "miningProfileName": "WetCarbonaceusMine",
    "backgroundPath": "habmodules/surface_04",
-   "Density": 2.3
+   "Density": 1.85
+ },
+ {
+   "friendlyName": "Hyrrokkin site",
+   "dataName": "HyrrokkinSite1",
+   "parentBodyName": "Hyrrokkin",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_12",
+   "Density": 1.38
+ },
+ {
+   "friendlyName": "Greip site",
+   "dataName": "GreipSite1",
+   "parentBodyName": "Greip",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_04",
+   "Density": 1.64
+ },
+ {
+   "friendlyName": "Mundilfari site",
+   "dataName": "MundilfariSite1",
+   "parentBodyName": "Mundilfari",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "MixedCSMine",
+   "backgroundPath": "habmodules/surface_02",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "S2006S1 site",
+   "dataName": "S2006S1Site1",
+   "parentBodyName": "S2006S1",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "MixedCSMine",
+   "backgroundPath": "habmodules/surface_02",
+   "Density": 2.2
+ },
+ {
+   "friendlyName": "Bergelmir site",
+   "dataName": "BergelmirSite1",
+   "parentBodyName": "Bergelmir",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_04",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "Jarnsaxa site",
+   "dataName": "JarnsaxaSite1",
+   "parentBodyName": "Jarnsaxa",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_04",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "Narvi site",
+   "dataName": "NarviSite1",
+   "parentBodyName": "Narvi",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_04",
+   "Density": 1.38
+ },
+ {
+   "friendlyName": "Suttungr site",
+   "dataName": "SuttungrSite1",
+   "parentBodyName": "Suttungr",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "CarbonaceousMine",
+   "backgroundPath": "habmodules/surface_05",
+   "Density": 1.64
+ },
+ {
+   "friendlyName": "S2007S3 site",
+   "dataName": "S2007S3Site1",
+   "parentBodyName": "S2007S3",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "CarbonaceousMine",
+   "backgroundPath": "habmodules/surface_05",
+   "Density": 1.64
+ },
+ {
+   "friendlyName": "Hati site",
+   "dataName": "HatiSite1",
+   "parentBodyName": "Hati",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_04",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "Eggther site",
+   "dataName": "EggtherSite1",
+   "parentBodyName": "Eggther",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_04",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "Farbauti site",
+   "dataName": "FarbautiSite1",
+   "parentBodyName": "Farbauti",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_04",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "Thrymr site",
+   "dataName": "ThrymrSite1",
+   "parentBodyName": "Thrymr",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "CarbonaceousMine",
+   "backgroundPath": "habmodules/surface_05",
+   "Density": 1.64
+ },
+ {
+   "friendlyName": "Bestla site",
+   "dataName": "BestlaSite1",
+   "parentBodyName": "Bestla",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "WetCarbonaceusMine",
+   "backgroundPath": "habmodules/surface_04",
+   "Density": 1.38
+ },
+ {
+   "friendlyName": "Aegir site",
+   "dataName": "AegirSite1",
+   "parentBodyName": "Aegir",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyMine",
+   "backgroundPath": "habmodules/surface_06",
+   "Density": 0.5
+ },
+ {
+   "friendlyName": "S2004S7 site",
+   "dataName": "S2004S7Site1",
+   "parentBodyName": "S2004S7",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_12",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "S2006S3 site",
+   "dataName": "S2006S3Site1",
+   "parentBodyName": "S2006S3",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "MixedCSMine",
+   "backgroundPath": "habmodules/surface_02",
+   "Density": 2.2
+ },
+ {
+   "friendlyName": "Alvaldi site",
+   "dataName": "AlvaldiSite1",
+   "parentBodyName": "Alvaldi",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "CarbonaceousMine",
+   "backgroundPath": "habmodules/surface_05",
+   "Density": 1.64
+ },
+ {
+   "friendlyName": "Kari site",
+   "dataName": "KariSite1",
+   "parentBodyName": "Kari",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "MixedCSMine",
+   "backgroundPath": "habmodules/surface_02",
+   "Density": 2.2
+ },
+ {
+   "friendlyName": "Surtur site",
+   "dataName": "SurturSite1",
+   "parentBodyName": "Surtur",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_12",
+   "Density": 1.3
+ },
+ {
+   "friendlyName": "Loge site",
+   "dataName": "LogeSite1",
+   "parentBodyName": "Loge",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_12",
+   "Density": 1.3
  },
  {
    "friendlyName": "Ymir site",
@@ -2726,7 +3077,17 @@
    "Y": 0,
    "miningProfileName": "CarbonaceousMine",
    "backgroundPath": "habmodules/surface_05",
-   "Density": 2.3
+   "Density": 1.64
+ },
+ {
+   "friendlyName": "Ymir site",
+   "dataName": "FornjotSite1",
+   "parentBodyName": "Fornjot",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "IcyCarbonaceousMine",
+   "backgroundPath": "habmodules/surface_12",
+   "Density": 1.38
  },
  {
    "friendlyName": "Cordelia site",
@@ -2747,6 +3108,16 @@
    "miningProfileName": "WetCarbonaceusMine",
    "backgroundPath": "habmodules/surface_04",
    "Density": 1.3
+ },
+ {
+   "friendlyName": "Beatrice site",
+   "dataName": "S2025U1Site1",
+   "parentBodyName": "S2025U1",
+   "X": 0,
+   "Y": 0,
+   "miningProfileName": "MixedCSMine",
+   "backgroundPath": "habmodules/surface_02",
+   "Density": 0.86
  },
  {
    "friendlyName": "Bianca site",
@@ -5197,7 +5568,7 @@
    "Density": 0.9
  },
  {
-   "friendlyName": "Jasagnan site",
+   "friendlyName": "Aya Site 1",
    "dataName": "55565KBOSite1",
    "parentBodyName": "55565KBO",
    "X": 0,
@@ -5207,7 +5578,7 @@
    "Density": 1.1
  },
  {
-   "friendlyName": "Jasagnan site 1",
+   "friendlyName": "Aya Site 2",
    "dataName": "55565KBOSite2",
    "parentBodyName": "55565KBO",
    "X": 1,
@@ -5497,7 +5868,7 @@
    "Density": 1.21
  },
  {
-   "friendlyName": "Kamuy site",
+   "friendlyName": "Ritona site",
    "dataName": "145452KBOSite1",
    "parentBodyName": "145452KBO",
    "X": 0,
@@ -5507,7 +5878,7 @@
    "Density": 1.2
  },
  {
-   "friendlyName": "Kamuy site",
+   "friendlyName": "Ritona site 2",
    "dataName": "145452KBOSite2",
    "parentBodyName": "145452KBO",
    "X": 1,

@@ -98,7 +98,7 @@
    "friendly name": "Sun-Mercury L-2 Halo Orbit",
    "barycenterName": "SunMercuryL2",
    "orbitIndex": "SunMercuryL21",
-   "irradiatedMultiplier": 1,
+   "irradiatedMultiplier": 2,
    "stationCapacity": 1,
    "semiMajorAxis_km": 3500,
    "semiMajorAxisRange_km": 100,
@@ -254,7 +254,7 @@
    "friendly name": "Sun-Venus L-2 Halo Orbit",
    "barycenterName": "SunVenusL2",
    "orbitIndex": "SunVenusL21",
-   "irradiatedMultiplier": 1,
+   "irradiatedMultiplier": 1.1,
    "stationCapacity": 1,
    "semiMajorAxis_km": 3500,
    "semiMajorAxisRange_km": 100,
@@ -1052,7 +1052,7 @@
    "orbitIndex": "SunJupiterL11",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -1068,7 +1068,7 @@
    "orbitIndex": "SunJupiterL21",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -1084,7 +1084,7 @@
    "orbitIndex": "SunJupiterL31",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -1100,7 +1100,7 @@
    "orbitIndex": "SunJupiterL41",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
+   "semiMajorAxis_km": 100000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -1116,7 +1116,7 @@
    "orbitIndex": "SunJupiterL51",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
+   "semiMajorAxis_km": 100000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -1421,6 +1421,25 @@
    "barycenter hill radius": "49,769.49"
  },
  {
+   "builder name": "Themisto Parking Orbit",
+   "dataName": "ThemistoParkingOrbit",
+   "friendly name": "Themisto Parking Orbit",
+   "barycenterName": "Themisto",
+   "orbitIndex": "Themisto1",
+   "irradiatedMultiplier": 1,
+   "interfaceOrbit": true,
+   "radialOrbit": true,
+   "stationCapacity": 1,
+   "semiMajorAxisRange_km": 20,
+   "eccentricity": 0,
+   "inclination_Deg": 0,
+   "inclinationRange_Deg": 10,
+   "longAscendingNode_Deg": 0,
+   "argPeriapsis_Deg": 0,
+   "mass": 340000000000000,
+   "barycenter hill radius": "214.07"
+ },
+ {
    "builder name": "Leda Parking Orbit",
    "dataName": "LedaParkingOrbit",
    "friendly name": "Leda Parking Orbit",
@@ -1436,8 +1455,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 11000000000000000,
-   "barycenter hill radius": "1,161.85"
+   "mass": 3500000000000000,
+   "barycenter hill radius": "792.87"
  },
  {
    "builder name": "Low Himalia Orbit",
@@ -1455,8 +1474,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 4200000000000000000,
-   "barycenter hill radius": "8,676.15"
+   "mass": 3200000000000000000,
+   "barycenter hill radius": "7,938.56"
  },
  {
    "builder name": "High Himalia Orbit",
@@ -1466,15 +1485,15 @@
    "orbitIndex": "Himalia2",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 4300,
+   "altitude_km": 4000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 4200000000000000000,
-   "barycenter hill radius": "8,676.15"
+   "mass": 3200000000000000000,
+   "barycenter hill radius": "7,938.56"
  },
  {
    "builder name": "Lysithea Parking Orbit",
@@ -1492,8 +1511,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 63000000000000000,
-   "barycenter hill radius": "2,318.83"
+   "mass": 40000000000000000,
+   "barycenter hill radius": "1,990.00"
  },
  {
    "builder name": "Low Elara Orbit",
@@ -1511,8 +1530,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 870000000000000000,
-   "barycenter hill radius": "4,913.81"
+   "mass": 540000000000000000,
+   "barycenter hill radius": "4,198.93"
  },
  {
    "builder name": "High Elara Orbit",
@@ -1522,15 +1541,15 @@
    "orbitIndex": "Elara2",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 1200,
+   "altitude_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 870000000000000000,
-   "barycenter hill radius": "4,913.81"
+   "mass": 540000000000000000,
+   "barycenter hill radius": "4,198.93"
  },
  {
    "builder name": "Praxidike Parking Orbit",
@@ -1548,8 +1567,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 470000000000000,
-   "barycenter hill radius": "707.36"
+   "mass": 230000000000000,
+   "barycenter hill radius": "561.44"
  },
  {
    "builder name": "Ananke Parking Orbit",
@@ -1567,8 +1586,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 30000000000000000,
-   "barycenter hill radius": "2,799.08"
+   "mass": 17000000000000000,
+   "barycenter hill radius": "2,489.15"
  },
  {
    "builder name": "Iocaste Parking Orbit",
@@ -1586,8 +1605,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 65000000000000,
-   "barycenter hill radius": "0.00"
+   "mass": 96000000000000,
+   "barycenter hill radius": "370.58"
  },
  {
    "builder name": "Taygete Parking Orbit",
@@ -1605,8 +1624,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 65000000000000,
-   "barycenter hill radius": "0.00"
+   "mass": 110000000000000,
+   "barycenter hill radius": "449.82"
  },
  {
    "builder name": "Low Carme Orbit",
@@ -1624,8 +1643,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 130000000000000000,
-   "barycenter hill radius": "4,958.30"
+   "mass": 87000000000000000,
+   "barycenter hill radius": "4,335.75"
  },
  {
    "builder name": "High Carme Orbit",
@@ -1635,15 +1654,15 @@
    "orbitIndex": "Carme2",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 1400,
+   "altitude_km": 1200,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 130000000000000000,
-   "barycenter hill radius": "4,958.30"
+   "mass": 87000000000000000,
+   "barycenter hill radius": "4,335.75"
  },
  {
    "builder name": "Kalyke Parking Orbit",
@@ -1661,8 +1680,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 170000000000000,
-   "barycenter hill radius": "0.00"
+   "mass": 280000000000000,
+   "barycenter hill radius": "616.99"
  },
  {
    "builder name": "Low Pasiphae Orbit",
@@ -1680,8 +1699,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 300000000000000000,
-   "barycenter hill radius": "5,232.66"
+   "mass": 170000000000000000,
+   "barycenter hill radius": "4,346.03"
  },
  {
    "builder name": "High Pasiphae Orbit",
@@ -1691,15 +1710,15 @@
    "orbitIndex": "Pasiphae2",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 2500,
+   "altitude_km": 2200,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 300000000000000000,
-   "barycenter hill radius": "5,232.66"
+   "mass": 170000000000000000,
+   "barycenter hill radius": "4,346.03"
  },
  {
    "builder name": "Megaclite Parking Orbit",
@@ -1717,8 +1736,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 65000000000000,
-   "barycenter hill radius": "0.00"
+   "mass": 190000000000000,
+   "barycenter hill radius": "452.43"
  },
  {
    "builder name": "Sinope Parking Orbit",
@@ -1736,8 +1755,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 75000000000000000,
-   "barycenter hill radius": "4,239.89"
+   "mass": 49000000000000000,
+   "barycenter hill radius": "3,675.08"
  },
  {
    "builder name": "Callirrhoe Parking Orbit",
@@ -1755,8 +1774,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 460000000000000,
-   "barycenter hill radius": "733.65"
+   "mass": 790000000000000,
+   "barycenter hill radius": "877.66"
  },
  {
    "builder name": "Jupiter-Io L1 Orbit",
@@ -2178,7 +2197,7 @@
    "orbitIndex": "SunSaturnL11",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -2194,7 +2213,7 @@
    "orbitIndex": "SunSaturnL21",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -2210,7 +2229,7 @@
    "orbitIndex": "SunSaturnL31",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -2226,7 +2245,7 @@
    "orbitIndex": "SunSaturnL41",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
+   "semiMajorAxis_km": 100000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -2242,7 +2261,7 @@
    "orbitIndex": "SunSaturnL51",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
+   "semiMajorAxis_km": 100000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -2406,6 +2425,25 @@
    "argPeriapsis_Deg": 0,
    "mass": 37000000000000000000,
    "barycenter hill radius": "509.26"
+ },
+ {
+   "builder name": "Pallene Parking Orbit",
+   "dataName": "PalleneParkingOrbit",
+   "friendly name": "Pallene Parking Orbit",
+   "barycenterName": "Pallene",
+   "orbitIndex": "Pallene1",
+   "irradiatedMultiplier": 2,
+   "interfaceOrbit": true,
+   "radialOrbit": true,
+   "stationCapacity": 1,
+   "semiMajorAxisRange_km": 20,
+   "eccentricity": 0,
+   "inclination_Deg": 0,
+   "inclinationRange_Deg": 10,
+   "longAscendingNode_Deg": 0,
+   "argPeriapsis_Deg": 0,
+   "mass": 13000000000000,
+   "barycenter hill radius": "4.11"
  },
  {
    "builder name": "Enceladus Parking Orbit",
@@ -2738,8 +2776,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 110000000000000,
-   "barycenter hill radius": "0.00"
+   "mass": 150000000000000,
+   "barycenter hill radius": "308.46"
  },
  {
    "builder name": "Kiviuq Parking Orbit",
@@ -2757,8 +2795,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 2800000000000000,
-   "barycenter hill radius": "1,094.25"
+   "mass": 68000000000000000,
+   "barycenter hill radius": "2,805.03"
  },
  {
    "builder name": "S2005S4 Parking Orbit",
@@ -2776,8 +2814,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 65000000000000,
-   "barycenter hill radius": "0.00"
+   "mass": 150000000000000,
+   "barycenter hill radius": "345.43"
  },
  {
    "builder name": "Ijiraq Parking Orbit",
@@ -2795,8 +2833,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 1200000000000000,
-   "barycenter hill radius": "533.13"
+   "mass": 2600000000000000,
+   "barycenter hill radius": "928.60"
  },
  {
    "builder name": "Low Phoebe Orbit",
@@ -2815,7 +2853,7 @@
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
    "mass": 8300000000000000000,
-   "barycenter hill radius": "18,242.03"
+   "barycenter hill radius": "18,313.50"
  },
  {
    "builder name": "High Phoebe Orbit",
@@ -2825,7 +2863,7 @@
    "orbitIndex": "Phoebe2",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 9100,
+   "altitude_km": 9200,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -2833,7 +2871,7 @@
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
    "mass": 8300000000000000000,
-   "barycenter hill radius": "18,242.03"
+   "barycenter hill radius": "18,313.50"
  },
  {
    "builder name": "S2006S20 Parking Orbit",
@@ -2851,8 +2889,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 65000000000000,
-   "barycenter hill radius": "0.00"
+   "mass": 110000000000000,
+   "barycenter hill radius": "416.75"
  },
  {
    "builder name": "Paaliaq Parking Orbit",
@@ -2871,7 +2909,7 @@
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
    "mass": 7300000000000000,
-   "barycenter hill radius": "1,132.29"
+   "barycenter hill radius": "1,511.36"
  },
  {
    "builder name": "Skathi Parking Orbit",
@@ -2889,7 +2927,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 370000000000000,
+   "barycenter hill radius": "672.95"
  },
  {
    "builder name": "S2007S2 Parking Orbit",
@@ -2907,7 +2946,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 110000000000000,
+   "barycenter hill radius": "486.98"
  },
  {
    "builder name": "Albiorix Parking Orbit",
@@ -2926,7 +2966,7 @@
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
    "mass": 22000000000000000,
-   "barycenter hill radius": "1,967.88"
+   "barycenter hill radius": "1,992.94"
  },
  {
    "builder name": "Bebhionn Parking Orbit",
@@ -2944,7 +2984,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 210000000000000,
+   "barycenter hill radius": "457.77"
  },
  {
    "builder name": "S2004S31 Parking Orbit",
@@ -2961,8 +3002,7 @@
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
-   "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "argPeriapsis_Deg": 0
  },
  {
    "builder name": "Erriapus Parking Orbit",
@@ -2980,8 +3020,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 2100000000000000,
-   "barycenter hill radius": "1,006.60"
+   "mass": 1200000000000000,
+   "barycenter hill radius": "826.66"
  },
  {
    "builder name": "Skoll Parking Orbit",
@@ -2999,7 +3039,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 85000000000000,
+   "barycenter hill radius": "348.44"
  },
  {
    "builder name": "Tarqeq Parking Orbit",
@@ -3017,7 +3058,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 100000000000000,
+   "barycenter hill radius": "593.95"
  },
  {
    "builder name": "Siarnaq Parking Orbit",
@@ -3035,8 +3077,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 40000000000000000,
-   "barycenter hill radius": "2,984.97"
+   "mass": 29000000000000000,
+   "barycenter hill radius": "3,186.35"
  },
  {
    "builder name": "Tarvos Parking Orbit",
@@ -3054,8 +3096,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 2300000000000000,
-   "barycenter hill radius": "931.96"
+   "mass": 3300000000000000,
+   "barycenter hill radius": "1,081.73"
  },
  {
    "builder name": "Hyrrokkin Parking Orbit",
@@ -3073,7 +3115,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 370000000000000,
+   "barycenter hill radius": "731.83"
  },
  {
    "builder name": "Greip Parking Orbit",
@@ -3091,7 +3134,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 110000000000000,
+   "barycenter hill radius": "499.40"
  },
  {
    "builder name": "Mundilfari Parking Orbit",
@@ -3109,7 +3153,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 360000000000000,
+   "barycenter hill radius": "875.07"
  },
  {
    "builder name": "S2006S1 Parking Orbit",
@@ -3127,7 +3172,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 140000000000000,
+   "barycenter hill radius": "736.12"
  },
  {
    "builder name": "Gridr Parking Orbit",
@@ -3145,7 +3191,7 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 77000000000000
  },
  {
    "builder name": "Bergelmir Parking Orbit",
@@ -3163,7 +3209,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 110000000000000,
+   "barycenter hill radius": "667.20"
  },
  {
    "builder name": "Jarnsaxa Parking Orbit",
@@ -3181,7 +3228,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 69000000000000,
+   "barycenter hill radius": "517.90"
  },
  {
    "builder name": "Narvi Parking Orbit",
@@ -3199,7 +3247,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 100000000000000,
+   "barycenter hill radius": "418.39"
  },
  {
    "builder name": "Suttungr Parking Orbit",
@@ -3217,7 +3266,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 160000000000000,
+   "barycenter hill radius": "772.89"
  },
  {
    "builder name": "S2007S3 Parking Orbit",
@@ -3235,7 +3285,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 110000000000000,
+   "barycenter hill radius": "663.24"
  },
  {
    "builder name": "S2004S44 Parking Orbit",
@@ -3252,8 +3303,7 @@
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
-   "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "argPeriapsis_Deg": 0
  },
  {
    "builder name": "Hati Parking Orbit",
@@ -3271,7 +3321,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 85000000000000,
+   "barycenter hill radius": "455.38"
  },
  {
    "builder name": "Eggther Parking Orbit",
@@ -3289,7 +3340,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 150000000000000,
+   "barycenter hill radius": "739.07"
  },
  {
    "builder name": "Farbauti Parking Orbit",
@@ -3307,14 +3359,15 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 120000000000000,
+   "barycenter hill radius": "635.83"
  },
  {
-   "builder name": "Thyrmr Parking Orbit",
-   "dataName": "ThyrmrParkingOrbit",
-   "friendly name": "Thyrmr Parking Orbit",
-   "barycenterName": "Thyrmr",
-   "orbitIndex": "Thyrmr1",
+   "builder name": "Thrymr Parking Orbit",
+   "dataName": "ThrymrParkingOrbit",
+   "friendly name": "Thrymr Parking Orbit",
+   "barycenterName": "Thrymr",
+   "orbitIndex": "Thrymr1",
    "irradiatedMultiplier": 1,
    "interfaceOrbit": true,
    "radialOrbit": true,
@@ -3325,7 +3378,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 630000000000000,
+   "barycenter hill radius": "775.96"
  },
  {
    "builder name": "Bestla Parking Orbit",
@@ -3343,7 +3397,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 620000000000000,
+   "barycenter hill radius": "747.03"
  },
  {
    "builder name": "Aegir Parking Orbit",
@@ -3361,7 +3416,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 57000000000000,
+   "barycenter hill radius": "494.64"
  },
  {
    "builder name": "Beli Parking Orbit",
@@ -3378,8 +3434,7 @@
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
-   "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "argPeriapsis_Deg": 0
  },
  {
    "builder name": "Gunnlod Parking Orbit",
@@ -3396,8 +3451,7 @@
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
-   "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "argPeriapsis_Deg": 0
  },
  {
    "builder name": "S2004S7 Parking Orbit",
@@ -3415,7 +3469,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 150000000000000,
+   "barycenter hill radius": "460.78"
  },
  {
    "builder name": "S2006S3 Parking Orbit",
@@ -3433,7 +3488,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 140000000000000,
+   "barycenter hill radius": "532.14"
  },
  {
    "builder name": "Skrymir Parking Orbit",
@@ -3450,8 +3506,7 @@
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
-   "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "argPeriapsis_Deg": 0
  },
  {
    "builder name": "S2004S28 Parking Orbit",
@@ -3468,8 +3523,7 @@
    "inclination_Deg": 0,
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
-   "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "argPeriapsis_Deg": 0
  },
  {
    "builder name": "Alvaldi Parking Orbit",
@@ -3487,7 +3541,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 110000000000000,
+   "barycenter hill radius": "666.73"
  },
  {
    "builder name": "Kari Parking Orbit",
@@ -3505,7 +3560,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 250000000000000,
+   "barycenter hill radius": "615.97"
  },
  {
    "builder name": "Surtur Parking Orbit",
@@ -3523,7 +3579,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 96000000000000,
+   "barycenter hill radius": "480.75"
  },
  {
    "builder name": "Loge Parking Orbit",
@@ -3541,7 +3598,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 85000000000000,
+   "barycenter hill radius": "682.65"
  },
  {
    "builder name": "Ymir Parking Orbit",
@@ -3559,8 +3617,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 5100000000000000,
-   "barycenter hill radius": "2,203.99"
+   "mass": 7600000000000000,
+   "barycenter hill radius": "2,498.68"
  },
  {
    "builder name": "Fornjot Parking Orbit",
@@ -3578,7 +3636,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "barycenter hill radius": "0.00"
+   "mass": 160000000000000,
+   "barycenter hill radius": "884.49"
  },
  {
    "builder name": "Saturn-Enceladus L1 Orbit",
@@ -3588,8 +3647,7 @@
    "orbitIndex": "SaturnEnceladusL11",
    "irradiatedMultiplier": 2,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3605,8 +3663,7 @@
    "orbitIndex": "SaturnEnceladusL21",
    "irradiatedMultiplier": 2,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3622,8 +3679,7 @@
    "orbitIndex": "SaturnEnceladusL31",
    "irradiatedMultiplier": 2,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3639,8 +3695,7 @@
    "orbitIndex": "SaturnEnceladusL41",
    "irradiatedMultiplier": 2,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 3500,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3656,8 +3711,7 @@
    "orbitIndex": "SaturnEnceladusL51",
    "irradiatedMultiplier": 2,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 3500,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3673,8 +3727,7 @@
    "orbitIndex": "SaturnTethysL11",
    "irradiatedMultiplier": 1.7,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3690,8 +3743,7 @@
    "orbitIndex": "SaturnTethysL21",
    "irradiatedMultiplier": 1.7,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3707,8 +3759,7 @@
    "orbitIndex": "SaturnTethysL31",
    "irradiatedMultiplier": 1.7,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3724,8 +3775,7 @@
    "orbitIndex": "SaturnDioneL11",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3741,8 +3791,7 @@
    "orbitIndex": "SaturnDioneL21",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3758,8 +3807,7 @@
    "orbitIndex": "SaturnDioneL31",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3775,8 +3823,7 @@
    "orbitIndex": "SaturnDioneL51",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 3500,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3792,7 +3839,7 @@
    "orbitIndex": "SaturnRheaL11",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3808,7 +3855,7 @@
    "orbitIndex": "SaturnRheaL21",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3824,7 +3871,7 @@
    "orbitIndex": "SaturnRheaL31",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 1000,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3840,7 +3887,7 @@
    "orbitIndex": "SaturnRheaL41",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
+   "semiMajorAxis_km": 3500,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -3856,7 +3903,7 @@
    "orbitIndex": "SaturnRheaL51",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
+   "semiMajorAxis_km": 3500,
    "semiMajorAxisRange_km": 20,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -4124,7 +4171,7 @@
    "orbitIndex": "SunUranusL11",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -4140,7 +4187,7 @@
    "orbitIndex": "SunUranusL21",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -4156,7 +4203,7 @@
    "orbitIndex": "SunUranusL31",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 3500,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -4172,7 +4219,7 @@
    "orbitIndex": "SunUranusL41",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
+   "semiMajorAxis_km": 100000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -4188,7 +4235,7 @@
    "orbitIndex": "SunUranusL51",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "semiMajorAxis_km": 10000,
+   "semiMajorAxis_km": 100000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -4233,6 +4280,25 @@
    "argPeriapsis_Deg": 0,
    "mass": 53000000000000000,
    "barycenter hill radius": "31.33"
+ },
+ {
+   "builder name": "S2025U1 Parking Orbit",
+   "dataName": "S2025U1ParkingOrbit",
+   "friendly name": "Beatrice Parking Orbit",
+   "barycenterName": "S2025U1",
+   "orbitIndex": "S2025U11",
+   "irradiatedMultiplier": 1,
+   "interfaceOrbit": true,
+   "radialOrbit": true,
+   "stationCapacity": 1,
+   "semiMajorAxisRange_km": 0,
+   "eccentricity": 0,
+   "inclination_Deg": 0,
+   "inclinationRange_Deg": 0,
+   "longAscendingNode_Deg": 0,
+   "argPeriapsis_Deg": 0,
+   "mass": 450000000000000,
+   "barycenter hill radius": "6.75"
  },
  {
    "builder name": "Bianca Parking Orbit",
@@ -5238,7 +5304,7 @@
    "orbitIndex": "SunNeptuneL11",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -5254,7 +5320,7 @@
    "orbitIndex": "SunNeptuneL21",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -5270,7 +5336,7 @@
    "orbitIndex": "SunNeptuneL31",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 35000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -5286,7 +5352,7 @@
    "orbitIndex": "SunNeptuneL41",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 100000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -5302,7 +5368,7 @@
    "orbitIndex": "SunNeptuneL51",
    "irradiatedMultiplier": 1,
    "stationCapacity": 1,
-   "altitude_km": 1000,
+   "semiMajorAxis_km": 100000,
    "semiMajorAxisRange_km": 100,
    "eccentricity": 0,
    "inclination_Deg": 0,
@@ -12286,8 +12352,8 @@
    "inclinationRange_Deg": 10,
    "longAscendingNode_Deg": 0,
    "argPeriapsis_Deg": 0,
-   "mass": 920000000000000,
-   "barycenter hill radius": "886.71",
+   "mass": 450000000000000,
+   "barycenter hill radius": "697.88",
    "hill order of magnitude": 3
  },
  {
@@ -13193,7 +13259,7 @@
  {
    "builder name": "Low 55565KBO Orbit",
    "dataName": "Low55565KBOOrbit",
-   "friendly name": "Low Jasagnan Orbit",
+   "friendly name": "Low Aya Orbit",
    "barycenterName": "55565KBO",
    "orbitIndex": "55565KBO1",
    "irradiatedMultiplier": 1,
@@ -13213,7 +13279,7 @@
  {
    "builder name": "High 55565KBO Orbit",
    "dataName": "High55565KBOOrbit",
-   "friendly name": "High Jasagnan Orbit",
+   "friendly name": "High Aya Orbit",
    "barycenterName": "55565KBO",
    "orbitIndex": "55565KBO2",
    "irradiatedMultiplier": 1,
@@ -14211,7 +14277,7 @@
  {
    "builder name": "Low 145452KBO Orbit",
    "dataName": "Low145452KBOOrbit",
-   "friendly name": "Low Kandakoro Orbit",
+   "friendly name": "Low Ritona Orbit",
    "barycenterName": "145452KBO",
    "orbitIndex": "145452KBO1",
    "irradiatedMultiplier": 1,
@@ -14231,7 +14297,7 @@
  {
    "builder name": "High 145452KBO Orbit",
    "dataName": "High145452KBOOrbit",
-   "friendly name": "High Kandakoro Orbit",
+   "friendly name": "High Ritona Orbit",
    "barycenterName": "145452KBO",
    "orbitIndex": "145452KBO2",
    "irradiatedMultiplier": 1,
@@ -14426,7 +14492,7 @@
  {
    "builder name": "Low 208996KBO Orbit",
    "dataName": "Low208996KBOOrbit",
-   "friendly name": "Low Nergal Orbit",
+   "friendly name": "Low Achlys Orbit",
    "barycenterName": "208996KBO",
    "orbitIndex": "208996KBO1",
    "irradiatedMultiplier": 1,
@@ -14446,7 +14512,7 @@
  {
    "builder name": "High 208996KBO Orbit",
    "dataName": "High208996KBOOrbit",
-   "friendly name": "High Nergal Orbit",
+   "friendly name": "High Achlys Orbit",
    "barycenterName": "208996KBO",
    "orbitIndex": "208996KBO2",
    "irradiatedMultiplier": 1,
@@ -14582,7 +14648,7 @@
  {
    "builder name": "Low 307261KBO Orbit",
    "dataName": "Low307261KBOOrbit",
-   "friendly name": "Low Pangu Orbit",
+   "friendly name": "Low Máni Orbit",
    "barycenterName": "307261KBO",
    "orbitIndex": "307261KBO1",
    "irradiatedMultiplier": 1,
@@ -14602,7 +14668,7 @@
  {
    "builder name": "High 307261KBO Orbit",
    "dataName": "High307261KBOOrbit",
-   "friendly name": "High Pangu Orbit",
+   "friendly name": "High Máni Orbit",
    "barycenterName": "307261KBO",
    "orbitIndex": "307261KBO2",
    "irradiatedMultiplier": 1,

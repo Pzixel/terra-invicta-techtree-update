@@ -118,7 +118,7 @@ TIMissionTemplate.Failure.EnthrallPublic=We have failed to subdue any humans {ta
 TIMissionTemplate.CriticalFailure.EnthrallPublic=We failed to subdue any humans {targetNationNameWithPrep} and it is possible we were detected there.
 
 TIMissionTemplate.displayName.EnthrallOrg=Enthrall Org
-TIMissionTemplate.description.EnthrallOrg=The aliens seize an org from a councilor for their own use. Also may target faction orgs not assigned to any councilor.
+TIMissionTemplate.description.EnthrallOrg=The aliens seize an org from a councilor for their own use. Also may target faction pool orgs not assigned to any councilor. Certain faction-specific orgs are immune.
 TIMissionTemplate.CriticalSuccess.EnthrallOrg=Our enthrall attempt against {targetDisplayName} of {targetFactionName} was extremely successful. In addition to securing one of their orgs, we also gained {returnedValue} in the transfer.
 TIMissionTemplate.Success.EnthrallOrg=Our enthrall attempt against {targetDisplayName} of {targetFactionName} was successful.
 TIMissionTemplate.Failure.EnthrallOrg=We failed to acquire an org belonging to {targetDisplayName} of {targetFactionName}.
@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=We failed to turn {targetDisplayName} to our caus
 TIMissionTemplate.CriticalFailure.Turn=I failed to turn {targetDisplayName} to our cause and it seems likely my whereabouts are known to {targetFactionName}.
 
 TIMissionTemplate.displayName.Unrest=Increase Unrest
-TIMissionTemplate.description.Unrest=Increase unrest in the nation of the targeted region, hurting the economy and making coups, revolutions, and secessions more likely. Success in a region with an independence movement may trigger a secession there instead of a revolution. Weakened effect if unrest is already more than twice the nation's unrest rest value.
+TIMissionTemplate.description.Unrest=Increase unrest in the nation of the targeted region, hurting the economy and making coups and revolutions more likely. Success in a region with an independence movement may trigger a secession there. Weakened effect if unrest is already more than twice the nation's unrest rest value.
 TIMissionTemplate.CriticalSuccess.Unrest=My efforts have increased unrest {targetNationNameWithPrep} by {returnedValue} to {targetNationUnrestWithString}. We now have some support among insurgent movements here should they ever overthrow the government.
 TIMissionTemplate.Success.Unrest=My efforts have increased unrest {targetNationNameWithPrep} by {returnedValue} to {targetNationUnrestWithString}. We now have some support among insurgent movements here should they ever overthrow the government.
 TIMissionTemplate.Failure.Unrest=I was unable to increase unrest {targetNationNameWithPrep}.
@@ -291,7 +291,7 @@ TIMissionTemplate.Success.DestroyWin=We have deployed the Shiva virus.
 
 TIMissionTemplate.displayName.EscapeWin=Launch the Bifrost
 TIMissionTemplate.description.EscapeWin=Issue the launch order to begin our interstellar journey. 
-TIMissionTemplate.Success.EscapeWin=We have launched the Bifrost.
+TIMissionTemplate.Success.EscapeWin=We have launched the Bifrost.<br/><br/>We have fulfilled our charter, but life goes on for those left behind. If we so choose, we may build another interstellar spacecraft and launch it.
 
 TIMissionTemplate.displayName.ExploitWin=Tame the Enemy
 TIMissionTemplate.description.ExploitWin=Send the neopherocyte package through the wormhole. We must assault the alien base and land first. Requires we have met our victory objectives.
@@ -309,13 +309,14 @@ TIMissionEffect_IncreaseUnrest.Special1=My work was detected, causing our public
 TIMissionEffect_IncreaseUnrest.Special2=My work was detected! {0} agents are accusing {1} of an atrocity and coming to detain me! Please secure my release!								// capturing faction name, councilor's faction name
 TIMissionEffect_Coup.Special1=Our public support here has dropped by {0}.
 TIMissionEffect_Coup.Special2=I am about to be captured by {0}. I will try to resist their interrogations as long as I can!			// faction name, capitalized
+TIMissionEffect_Coup.Special3=Local authorities are arresting our supporters throughout the country. Each of our control points has suffered a crackdown.
 TIMissionEffect_DamageSpaceFacilities.Special1=We have been connected to the attempt and our public support has dropped by {0}.
 TIMissionEffect_DamageSpaceFacilities.Special2=I have been arrested and expect to be turned over to {0} shortly.					// faction name
 TIMissionEffect_InvestigateCouncilor.EnemySpecial1=We know the target's identity, {0}, affiliation with {1}, and work as a {2}.
 TIMissionEffect_InvestigateCouncilor.EnemySpecial2=We also have a detailed profile of the councilor that is available in the intel section. We estimate the councilor has a loyalty score of {0}.
 TIMissionEffect_InvestigateCouncilor.EnemySpecial3=We further will be able to view the councilor's assigned mission for a time.
-TIMissionEffect_InvestigateCouncilor.EnemySpecial4=We may know more about them than {1}. The councilor's actual loyalty score is {2}.
-TIMissionEffect_InvestigateCouncilor.EnemySpecial5=We have also learned that {0} is spying for {1}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial4=We may know more about them than {0}. The councilor's actual loyalty score is {1}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial5=We have also learned that they are spying for {0}.
 TIMissionEffect_InvestigateCouncilor.MySpecial1=We have pinpointed their actual loyalty score at {0}.
 TIMissionEffect_InvestigateCouncilor.MySpecial2=We have learned that {0} has been turned against us by {1} and has been spying on us. This is a major leak that we need to plug as soon as possible.
 TIMissionEffect_InvestigateCouncilor.MySpecial3=Our investigation was handled so badly that {0} learned of it and was angered by it, losing a point of loyalty.
@@ -498,7 +499,7 @@ TIMissionCondition_VictoryCondition=Faction must have met all victory conditions
 TIMissionCondition_SufficientMissionControl=Must have available mission control
 TIMissionCondition_FreeCouncilor=Targeted councilor must not be detained or otherwise inactive
 TIMissionCondition_TargetableHabModule=Must be enemy non-core module
-TIMissionCondition_TargetableOrg=Must be an org in an enemy faction's unassigned pool or assigned to a councilor we have gain significant intel on
+TIMissionCondition_TargetableOrg=Must be an org in an enemy faction's unassigned pool or assigned to a councilor we have significant intel on
 _Fail=Must be a valid target type for mission and accessible to the councilor.
 
 TIMissionAbort_ControlPointRemoved=This mission was aborted because the target control point no longer exists.
@@ -511,7 +512,7 @@ TIMissionAbort_MissionOrgLost=This mission was aborted because the councilor no 
 TIMissionAbort_ControlPointAlreadyPurged=This mission was aborted because the target control point was already purged by another councilor during this mission cycle.
 TIMissionAbort_BlanketCancel_ProbableError=<skip/>
 TIMissionAbort_NationAlreadyCouped=This mission was aborted because the target nation just underwent a coup.
-TIMissionAbort_TargetFleetDestroyed=This mission was aborted becuase the target fleet was disbanded or destroyed.
+TIMissionAbort_TargetFleetDestroyed=This mission was aborted because the target fleet was disbanded or destroyed.
 TIMissionAbort_TargetShipDestroyed=This mission was aborted because the target ship was destroyed.
 TIMissionAbort_TargetHabDestroyed=This mission was aborted because the target hab was destroyed.
 TIMissionAbort_TargetInvalid=This mission was aborted because the assigned target has been eliminated.
@@ -524,10 +525,10 @@ TIMissionTargeting_InvalidTarget={0}<br/>Invalid Target																// ID of 
 TIMissionResult_ExecutiveControlChange=Executive power over this nation now belongs to {0}.
 
 TIMission.Timing.0=This mission will be resolved almost immediately after it is assigned.
-TIMission.Timing.1=This mission will be resolved early in the resolution phase.
-TIMission.Timing.2=This mission will be resolved in the middle of the resolution phase.
-TIMission.Timing.3=This mission will be resolved late in the resolution phase.
-TIMission.Timing.4=This mission will be resolved at the end of the resolution phase.
+TIMission.Timing.1=This mission will be resolved early in the mission phase.
+TIMission.Timing.2=This mission will be resolved in the middle of the mission phase.
+TIMission.Timing.3=This mission will be resolved late in the mission phase.
+TIMission.Timing.4=This mission will be resolved at the end of the mission phase.
 TIMission.Timing.5=This mission will be resolved after all other missions.
 
 TIMission_AttackerModifiers=<h>Councilor modifiers</h>

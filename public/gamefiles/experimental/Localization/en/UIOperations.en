@@ -49,8 +49,11 @@ UI.Operations.Impulse=Impulse Conic
 UI.Operations.Torch=Torch Kinematic
 UI.Operations.ChangeTrajectoryPrompt=Change Fleet Trajectory
 UI.Operations.ChangeTrajectoryInfo=Your fleet {0} no longer has a valid trajectory to the target fleet {1}. Select a new transfer to intercept the fleet or cancel the intercept and remain on the original trajectory.
-UI.Operations.ChangeTrajectoryInfoPostCombat=Fleet: {0}, was on an intercept trajectory. Select a new transfer destination or cancel to attempt to remain on the target's trajectory.
-UI.Operations.ChangeTrajectoryInfoPostCombatAdHoc=Fleet: {0}, was on an intercept trajectory. Select a new transfer destination or cancel to attempt to transfer to a temporary orbit.
+UI.Operations.ChangeTrajectoryInfoPostCombat=Fleet {0} was on an intercept trajectory. Select a new transfer destination or cancel to attempt to remain on the target's trajectory.
+UI.Operations.ChangeTrajectoryInfoPostCombatCanSplit=Some ships in {0} can no longer complete the fleet's trajectory.<br/><br/> Select a new transfer destination, cancel to attempt to transfer to a temporary orbit, or continue the trajectory by splitting those ships into their own fleet or by disbanding them. Disbanding those ships will cost {1} <color=#FFFFFFFF><sprite name="boost"></color> to recover any crew that can’t be absorbed into the rest of the fleet.
+UI.Operations.ChangeTrajectorySplit=Split	//split off any ships that can't complete the trajectory and drop them into an ad-hoc orbit
+UI.Operations.ChangeTrajectoryDisband=Disband	//disband any ships that can't complete the trajectory
+UI.Operations.ChangeTrajectoryInfoPostCombatAdHoc=Fleet {0} was on an intercept trajectory. Select a new transfer destination or cancel to attempt to transfer to a temporary orbit.
 UI.Operations.OperationTabbed={0}<rcol>{1}</rcol>
 UI.Operations.CostEarth=<sp>Requires {0} to launch from Earth.
 UI.Operations.CostBoth=<sp>Requires {0} to launch from Earth and {1} to build at a hab.

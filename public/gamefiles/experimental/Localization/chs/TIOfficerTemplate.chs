@@ -14,7 +14,7 @@ TIOfficerTemplate.displayName.Officer_Marine=陆战队军官
 TIOfficerTemplate.displayName.Officer_Supply=补给军官
 TIOfficerTemplate.displayName.Officer_Chief=组员长
 
-TIOfficerTemplate.description.Officer_Admiral=高级军官，能为整支舰队赋予加成。只有位于舰队<color=#FFFFFFFF><sprite name=mission_control></color>的旗舰舰桥舱体中的旗官才能赋予加成。
+TIOfficerTemplate.description.Officer_Admiral=高级军官，可为整支舰队提供加成。每支舰队仅有一名将军的<color=#FFFFFFFF><sprite name=mission_control></color>加成会生效。
 TIOfficerTemplate.description.Officer_Captain=舰船的主管。
 TIOfficerTemplate.description.Officer_First=舰船的副主管。
 TIOfficerTemplate.description.Officer_FireControl=负责管理舰船导弹系统的军官。
@@ -27,7 +27,7 @@ TIOfficerTemplate.description.Officer_Medical=负责管理乘员生存与健康�
 TIOfficerTemplate.description.Officer_CIC=负责管理舰船战斗中心与主动防御的军官。
 TIOfficerTemplate.description.Officer_Intel=负责让乘员更加了解敌人的军官。
 TIOfficerTemplate.description.Officer_Marine=负责管理舰船陆战分队的军官。
-TIOfficerTemplate.description.Officer_Supply=负责管理舰船物资存储的军官。
+TIOfficerTemplate.description.Officer_Supply=负责管理舰船物资存储和回收的军官。
 TIOfficerTemplate.description.Officer_Chief=本舰船的资深老兵，是所有乘员的代表。
 
 TIOfficerTemplate.Officer_Admiral_1=少将
@@ -79,7 +79,7 @@ TIOfficerTemplate.Officer_Supply_3=中尉
 TIOfficerTemplate.Officer_Chief_3=海军军士长
 
 TIOfficerTemplate.MaxPerShip=- 每艘舰船上最多可搭乘 {0} 位此类军官
-TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=- {1}船体中最多可搭乘 {0} 位军官（类型不限，舰队司令和舰长除外）							// number, hull display name
+TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=- {0}船体中最多可搭乘 {1} 位军官（类型不限，舰队司令和舰长除外）							// number, hull display name
 TIOfficerTemplate.MaxTotalOfficersPerShip=- 舰船最多可搭乘的军官数量（类型不限，舰队司令和舰长除外）于受船体尺寸限制
 TIOfficerTemplate.CrewMin=- 至少需要 {0} 位组员
 TIOfficerTemplate.FlagBridge=- 需要一个{0}舱体																			// name of flag bridge ship utility module
@@ -121,6 +121,7 @@ TIOfficerTemplate.MaxSurvivableCombatAcceleration=- 舰船的最大战斗加速�
 TIOfficerTemplate.MaxSurvivableCruiseAcceleration=- 舰船的最大巡航加速度提高 {0} G
 TIOfficerTemplate.RadiationDamageReduction=- 粒子武器的辐射伤害减少 {2}
 TIOfficerTemplate.NoDemotionOnTransfer=- 当转移到另一艘船上时不会有等级损失
+TIOfficerTemplate.NoCostToTransfer=- 军官转移至其他舰船时无需花费<color=#FFFFFFFF><sprite name="influence"></color>。
 
 TIOfficerTemplate.OfficerShipNameAndJob={0}：{1}，{2}			// ship name: rank + name, job
 TIOfficerTemplate.OfficerNameAndJob={0}，{1}					// rank + name, job

@@ -691,7 +691,7 @@
    "factionName": "AlienCouncil",
    "hullAppearanceIndex": 0,
    "hideInSkirmish": false,
-   "role": "LL_Intruder",
+   "role": "CouncilorTransport",
    "hullName": "AlienCruiser",
    "driveName": "AlienFusionTorchx6",
    "powerPlantName": "AlienAdvancedHybridConfinementFusionReactor",
@@ -727,7 +727,7 @@
          "slot": 16
       },
       {
-         "moduleName": "Magazine",
+         "moduleName": "HydraInfiltrationPod",
          "slot": 17
       },
       {
@@ -744,20 +744,19 @@
    ],
    "hullWeaponTemplateEntries": [
       {
-         "moduleName": "AlienPointDefenseLaserTurret",
+         "moduleName": "AlienMagBattery",
          "slot": 9
       },
       {
          "moduleName": "AlienPointDefenseParticleBeam",
-         "slot": 10
+         "slot": 11
       },
       {
-         "moduleName": "Gen3AlienLightMagBattery",
-		 "slot": 11
+         "moduleName": "AlienPointDefenseLaserTurret",
+		 "slot": 12
       },
       {
-         "moduleName": "IridescentStarTorpedoBay",
-         "slot": 12
+         "moduleName": "Empty"
       },
       {
          "moduleName": "Empty"
@@ -774,7 +773,7 @@
    ],
    "noseWeaponTemplateEntries": [
       {
-         "moduleName": "AlienParticleCannon",
+         "moduleName": "Alien512cmVioletLaserCannon",
          "slot": 7
       },
       {
@@ -2737,12 +2736,11 @@
    ],
    "noseWeaponTemplateEntries": [
       {
-         "moduleName": "720cmGreenPhaserCannon",
-         "slot": 9
+         "moduleName": "SpinalNeutronLance",
+         "slot": 8
       },
       {
-         "moduleName": "LightCoilCannonMk3",
-         "slot": 8
+         "moduleName": "Empty"
       },
       {
          "moduleName": "Empty"
@@ -3193,19 +3191,19 @@
    ],
    "hullWeaponTemplateEntries": [
       {
-         "moduleName": "PythonNuclearMissileBay",
+         "moduleName": "ViperMissileBay",
          "slot": 10
       },
       {
-         "moduleName": "PythonNuclearMissileBay",
+         "moduleName": "ViperMissileBay",
          "slot": 7
       },
       {
-         "moduleName": "PythonNuclearMissileBay",
+         "moduleName": "ViperMissileBay",
          "slot": 12
       },
       {
-         "moduleName": "PythonNuclearMissileBay",
+         "moduleName": "ViperMissileBay",
          "slot": 9
       },
       {
@@ -3990,7 +3988,7 @@
    ],
    "noseWeaponTemplateEntries": [
       {
-         "moduleName": "35mmAutocannon",
+         "moduleName": "40mmNoseAutocannon",
          "slot": 7
       }
    ],
@@ -4207,6 +4205,103 @@
    "tailArmor": {
       "materialName": "CompositeArmor",
       "armorValue": 2
+   },
+   "moduleTemplateEntries": [
+      {
+         "moduleName": "Empty",
+         "slot": 9
+      },
+      {
+         "moduleName": "Empty",
+         "slot": 10
+      },
+      {
+         "moduleName": "Lithium-IonBattery",
+		 "slot": 2
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "hullWeaponTemplateEntries": [
+      {
+         "moduleName": "6-inchCannon",
+         "slot": 8
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "noseWeaponTemplateEntries": [
+      {
+         "moduleName": "10-inchCannon",
+         "slot": 7
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      },
+      {
+         "moduleName": "Empty"
+      }
+   ],
+   "fireModeTemplateEntries": []
+},
+{
+   "dataName": "2030Corvette",
+   "friendlyName": "2030 Corvette",
+   "factionName": "ResistCouncil",
+   "hullAppearanceIndex": 0,
+   "hideInSkirmish": true,
+   "role": "SM_Patrol",
+   "hullName": "Corvette",
+   "driveName": "NovaLiquidRocketx6",
+   "powerPlantName": "FuelCellI",
+   "radiatorName": "TitaniumArray",
+   "propellantTanks": 60,
+   "noseArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 3
+   },
+   "lateralArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 0
+   },
+   "tailArmor": {
+      "materialName": "CompositeArmor",
+      "armorValue": 1
    },
    "moduleTemplateEntries": [
       {

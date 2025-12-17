@@ -24,16 +24,16 @@ TIShipArmorTemplate.displayName.AlienExoticArmor=エイリアン外来装甲
 TIShipArmorTemplate.description.AlienExoticArmor=外来特性を持つエイリアンの原材料を使用した装甲。
 
 TIShipArmorTemplate.ResourcesPerTon=1トンあたりのコスト：<rcol>{0}</rcol>
-TIShipArmorTemplate.KineticsResistance=キネティックダメージに対して{0}ボーナス耐性
-TIShipArmorTemplate.LaserResistance=レーザーダメージに対して{0}ボーナス耐性
-TIShipArmorTemplate.ChippingResistance=チッピングに対して{0}ボーナス耐性
-TIShipArmorTemplate.KineticsVulnerability=キネティック兵器による{0}追加ダメージを受ける
-TIShipArmorTemplate.LaserVulnerability=レーザーによる{0}追加ダメージを受ける
-TIShipArmorTemplate.ChippingVulnerability=被弾時に{0}追加装甲チッピングを受ける
-TIShipArmorTemplate.XRayResistance=粒子兵器のX線に対する耐性は、鋼鉄製に比べ{0}ボーナス
-TIShipArmorTemplate.XRayVulnerability=粒子兵器のX線から{0}追加ダメージを受ける
-TIShipArmorTemplate.BaryonicResistance=粒子兵器の中性子に対して{0}ボーナス耐性
-TIShipArmorTemplate.BaryonicVulnerability=粒子兵器の中性子から{0}追加ダメージを受ける
+TIShipArmorTemplate.KineticsResistance=キネティックダメージへのボーナス耐性：<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserResistance=レーザーダメージへのボーナス耐性：<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingResistance=チッピングへのボーナス耐性：<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsVulnerability=キネティック兵器による追加ダメージ：<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserVulnerability=レーザーによる追加ダメージ：<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingVulnerability=被弾時の追加装甲チッピング：<rcol>{0}</rcol>
+TIShipArmorTemplate.XRayResistance_Header=X線ダメージ半減へのポイント
+TIShipArmorTemplate.XRayResistance=X線ダメージ半減へのポイント：<rcol>{0}</rcol>
+TIShipArmorTemplate.BaryonicResistance_Header=バリオンダメージ半減へのポイント
+TIShipArmorTemplate.BaryonicResistance=バリオンダメージ半減へのポイント：<rcol>{0}</rcol>
 
 TIShipArmorTemplate.ThicknessPerPoint=ポイントあたりの厚さ：<rcol>{0} cm</rcol>
 

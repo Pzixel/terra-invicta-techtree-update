@@ -197,7 +197,8 @@
       "nobleMetals": 0.25
    },
    "specialModuleRules": [
-      "Assault"
+      "Assault",
+      "FullRepairCost"
    ],
    "specialModuleValue": 4,
    "iconResource": "shipbuildericons/ICO_MarineAssaultUnit"
@@ -219,7 +220,8 @@
       "nobleMetals": 0.25
    },
    "specialModuleRules": [
-      "Assault"
+      "Assault",
+      "FullRepairCost"
    ],
    "specialModuleValue": 6,
    "iconResource": "shipbuildericons/ICO_AdvancedMarineAssaultUnit"
@@ -241,7 +243,8 @@
       "nobleMetals": 0.25
    },
    "specialModuleRules": [
-      "Assault"
+      "Assault",
+      "FullRepairCost"
    ],
    "specialModuleValue": 8,
    "iconResource": "shipbuildericons/ICO_EliteMarineAssaultUnit"
@@ -263,7 +266,8 @@
       "nobleMetals": 0.3
    },
    "specialModuleRules": [
-      "Assault"
+      "Assault",
+      "FullRepairCost"
    ],
    "specialModuleValue": 10,
    "iconResource": "shipbuildericons/ICO_Spartans"
@@ -285,7 +289,8 @@
       "nobleMetals": 0.3
    },
    "specialModuleRules": [
-      "Assault"
+      "Assault",
+      "FullRepairCost"
    ],
    "specialModuleValue": 10,
    "iconResource": "shipbuildericons/ICO_Rangers"
@@ -307,7 +312,8 @@
       "nobleMetals": 0.3
    },
    "specialModuleRules": [
-      "Assault"
+      "Assault",
+      "FullRepairCost"
    ],
    "specialModuleValue": 10,
    "iconResource": "shipbuildericons/ICO_Immortals"
@@ -466,7 +472,7 @@
    "dataName": "SolarPlatformKit",
    "friendlyName": "Solar Platform Kit",
    "crew": 3,
-   "mass_tons": 200,
+   "mass_tons": 260,
    "grouping": -1,
    "requiredProjectName": "Project_SolarPlatformKit",
    "minConsTier": 0,
@@ -486,7 +492,7 @@
    "dataName": "SolarOutpostKit",
    "friendlyName": "Solar Outpost Kit",
    "crew": 3,
-   "mass_tons": 250,
+   "mass_tons": 300,
    "grouping": -1,
    "requiredProjectName": "Project_SolarOutpostKit",
    "minConsTier": 0,
@@ -506,7 +512,7 @@
    "dataName": "FissionPlatformKit",
    "friendlyName": "Fission Platform Kit",
    "crew": 3,
-   "mass_tons": 250,
+   "mass_tons": 325,
    "grouping": -1,
    "requiredProjectName": "Project_FissionPlatformKit",
    "minConsTier": 0,
@@ -528,7 +534,7 @@
    "dataName": "FissionOutpostKit",
    "friendlyName": "Fission Outpost Kit",
    "crew": 3,
-   "mass_tons": 300,
+   "mass_tons": 350,
    "grouping": -1,
    "requiredProjectName": "Project_FissionOutpostKit",
    "minConsTier": 0,
@@ -550,7 +556,7 @@
    "dataName": "FusionPlatformKit",
    "friendlyName": "Fusion Platform Kit",
    "crew": 3,
-   "mass_tons": 250,
+   "mass_tons": 375,
    "grouping": -1,
    "requiredProjectName": "Project_FusionPlatformKit",
    "minConsTier": 0,
@@ -572,7 +578,7 @@
    "dataName": "FusionOutpostKit",
    "friendlyName": "Fusion Outpost Kit",
    "crew": 3,
-   "mass_tons": 300,
+   "mass_tons": 400,
    "grouping": -1,
    "requiredProjectName": "Project_FusionOutpostKit",
    "minConsTier": 0,
@@ -594,7 +600,7 @@
    "dataName": "AutomatedSolarPlatformKit",
    "friendlyName": "Automated Solar Platform Kit",
    "crew": 12,
-   "mass_tons": 250,
+   "mass_tons": 325,
    "grouping": -1,
    "requiredProjectName": "Project_AutomatedSolarPlatformKit",
    "minConsTier": 0,
@@ -614,7 +620,7 @@
    "dataName": "AutomatedSolarOutpostKit",
    "friendlyName": "Automated Solar Outpost Kit",
    "crew": 12,
-   "mass_tons": 1200,
+   "mass_tons": 1500,
    "grouping": -1,
    "requiredProjectName": "Project_AutomatedSolarOutpostKit",
    "minConsTier": 0,
@@ -634,7 +640,7 @@
    "dataName": "AutomatedFissionPlatformKit",
    "friendlyName": "Automated Fission Platform Kit",
    "crew": 12,
-   "mass_tons": 300,
+   "mass_tons": 325,
    "grouping": -1,
    "requiredProjectName": "Project_AutomatedFissionPlatformKit",
    "minConsTier": 0,
@@ -656,7 +662,7 @@
    "dataName": "AutomatedFissionOutpostKit",
    "friendlyName": "Automated Fission Outpost Kit",
    "crew": 12,
-   "mass_tons": 1800,
+   "mass_tons": 1650,
    "grouping": -1,
    "requiredProjectName": "Project_AutomatedFissionOutpostKit",
    "minConsTier": 0,
@@ -966,7 +972,8 @@
       "fissiles": 0.01
    },
    "specialModuleRules": [
-      "FoundFusionOutpost"
+      "FoundFusionOutpost",
+      "FullRepairCost"
    ],
    "iconResource": "shipbuildericons/ICO_Unknown"
 },
@@ -988,7 +995,8 @@
       "fissiles": 0.01
    },
    "specialModuleRules": [
-      "FoundFusionPlatform"
+      "FoundFusionPlatform",
+      "FullRepairCost"
    ],
    "iconResource": "shipbuildericons/ICO_Unknown"
 },

@@ -203,7 +203,7 @@ TITechTemplate.summary.DeepSystemSkywatch=我々は太陽系全体をほぼリ�
 TITechTemplate.quote.DeepSystemSkywatch=「現代社会に甘やかされたあなたのような若者に、戦争の何たるかが理解できるはずはない。私はなすべきことをなしたまでだ。目を閉じて、怪物をが逃げ去ることを念じる者は、手軽な餌になるまでだ」<br/><align=right>{destroyLeader}<align=left><br/><align=right>コンドル作戦の戦争裁判での最終陳述<align=left>
 TITechTemplate.description.DeepSystemSkywatch=我々が孤独でないことを確信して生きるには、科学的な目的に合うときだけ、太陽系外の冷たい世界を観察するのではなく、、監視塔の見張りのように、情報収集活動として積極的に監視しなければならない。地球と宇宙ステーションは常に動いているため、一瞬の輝点が宇宙を飛行するニッケルと鉄の小片なのか、地球に近づいてくるエイリアンの宇宙船なのかを調査するため、センサーとアナリストの統合ネットワークが必要となる。
 
-TITechTemplate.displayName.DesignerLifeforms=設計生命体
+TITechTemplate.displayName.DesignerLifeforms=生命体設計者
 TITechTemplate.summary.DesignerLifeforms=遺伝子工学者が、特定の目的を持った生命体を作ることを学ぶ。
 TITechTemplate.quote.DesignerLifeforms=「彼我の区別は昔から常にあった。長年の血と苦しみを経て、自分たちが何らかの形で発展したという錯覚と同じくらい昔から」<br/><align=right>{resistLeader}<align=left><br/><align=right>SISの通信<align=left>
 TITechTemplate.description.DesignerLifeforms=ゲノムを容易に意のままに操れるようになったことで、単に生命を変化させるだけでなく、生命を創造することすら可能になった。胚レベルでの遺伝子編集は、過酷な環境でも生き延びることのできる家畜、増殖力の強いテラフォーミングに適した植物、ラボで生産できる食物、これまで知られていなかった病気と戦うための細菌ベースの新型医薬品、さらには想像できる限り最高に魅力的で性格がよく従順なペットのデザインさえ実現することができる。そして何より、人類が設計したこれらの新種は、宇宙や遠い世界での生活を、生存可能どころか快適なものにさえしてくれるだろう。そして、最終的には気候変動の流れを変え、地球そのものを救うこともできるかもしれない。 
@@ -246,7 +246,7 @@ TITechTemplate.description.ElectromagneticPropulsion=古典的なロケットは
 TITechTemplate.displayName.ElectrostaticPlasmaConfinement=静電場プラズマ閉じ込め
 TITechTemplate.summary.ElectrostaticPlasmaConfinement=物理学者が静電場による核融合プラズマの閉じ込め機構を開発する。
 TITechTemplate.quote.ElectrostaticPlasmaConfinement=「博士、あなたを同乗させたのは、これをやり遂げられるのがあなただけだと思うからです。幸い、もし私が間違っていたとしても、それを教えてくれる人は誰もいなくなりますしね」<br/><align=right>{resistLeader}<align=left><br/><align=right>機関室報告<align=left>
-TITechTemplate.description.ElectrostaticPlasmaConfinement=静電場を利用して核融合反応を抑制することで、燃料を直接加熱し、他の形態の核融合発電のようなエネルギー損失を回避し、無電解質燃料との互換性を与える。この燃料は、有害な電離放射線を発生させることなく核融合を起こし、燃料や材料の取り扱いにおける生物学的リスクを下げ、機器の寿命を向上させる。また、荷電粒子を電力に変えるという比較的単純な性質上、電力システムとして特に注目されている。
+TITechTemplate.description.ElectrostaticPlasmaConfinement=静電場を利用して核融合反応を抑制することで、燃料を直接加熱し、他の形態の核融合発電のようなエネルギー損失を回避する。荷電粒子を電力に変えるという比較的単純な性質上、電力システムとして特に注目されている。他の酒類の核融合と異なり、極めて高い出力は発揮できないものの、宇宙船用の軽量かつ効率的な原子炉を実現できる可能性を秘めている。
 
 TITechTemplate.displayName.ElectrostaticPropulsion=静電気推進
 TITechTemplate.summary.ElectrostaticPropulsion=静電場を利用して推進剤を加速させるスラスターを開発する。
@@ -413,7 +413,7 @@ TITechTemplate.description.MissiontoVenus=金星の地表は、太陽系で最�
 TITechTemplate.displayName.MissiontotheInnerPlanets=水星への飛行
 TITechTemplate.summary.MissiontotheInnerPlanets=研究者は水星を探索する手段を追求する。
 TITechTemplate.quote.MissiontotheInnerPlanets=「燃えることを恐れてはなりません。その燃える坩堝の中でこそ、真の自己が鍛えられるのです」<br/><align=right>{submitLeader}<align=left><br/><align=right>『バーン・ブライター』<i>最終章</i>コース<align=left>より
-TITechTemplate.description.MissiontotheInnerPlanets=太陽系内最奥部の完全植民地化は夢物語に過ぎない。灼熱と凍結が交互に起きる水星では、人類はほんの一時的な存在でしかありえないだろう。しかし水星の両極にある、永久に日陰となっているクレーターには、限定的な居住が可能かもしれないし、凍り付いた水が堆積している可能性もあると考えている。しかし我々の艦隊が、太陽に最も近いこの惑星に到達することの真のメリットは、その豊富な資源であろう。水星の約70％は金属で構成されており、私たちの宇宙開発の支えとなる。そして太陽に近いということは、私たちの太陽発電所は、私たちのハブのために豊富な電力を供給できるということだ。
+TITechTemplate.description.MissiontotheInnerPlanets=太陽系内最奥部の完全植民地化は夢物語に過ぎない。灼熱と凍結が交互に起きる水星では、人類はほんの一時的な存在でしかありえないだろう。しかし水星の両極にある、永久に日陰となっているクレーターには、限定的な居住が可能かもしれないし、凍り付いた水が堆積している可能性もあると考えている。しかし我々の艦隊が、太陽に最も近いこの惑星に到達することの真のメリットは、その豊富な資源であろう。水星の約70%は金属で構成されており、私たちの宇宙開発の支えとなる。そして太陽に近いということは、私たちの太陽発電所は、私たちのハブのために豊富な電力を供給できるということだ。
 
 TITechTemplate.displayName.MissiontoSaturn=土星へのミッション
 TITechTemplate.quote.MissiontoSaturn=「ネットショップの人と電気自動車の人が火星をめぐって争うのは勝手ですが、これは人類を軽視しています。もっと大事なことがあるはずです」<br/><align=right>{escapeLeader}<align=left><br/><align=right>レイトショー出演時の発言<align=left>
@@ -442,7 +442,7 @@ TITechTemplate.description.MissiontotheOuterPlanets=太陽系の最果てにあ�
 
 TITechTemplate.displayName.MolecularAssemblers=分子アセンブラー
 TITechTemplate.summary.MolecularAssemblers=分子レベルで様々な優れた物質を生産できる、自己複製型のナノマシン。 
-TITechTemplate.quote.MolecularAssemblers=「農地では、何かが壊れても、それを修理する立派な機械はありませんでしたし、修理工が来るのを待つこともできませんでした。ですから風雨にさらされた手を使い、すべて自分たちでやっていたのです」<br/><align=right>{submitLeader}<align=left><br/><align=right>ポッドキャスト <i>第八のチャクラ</i>のインタビューより<align=left>
+TITechTemplate.quote.MolecularAssemblers=「農地では、何かが壊れても、それを修理する立派な機械はありませんでしたし、修理工が来るのを待つこともできませんでした。ですから風雨にさらされた手を使い、すべて自分たちでやっていたのです」<br/><align=right>{submitLeader}<align=left><br/><align=right>ポッドキャスト <i>第八のチャクラ</i><align=left>のインタビューより
 TITechTemplate.description.MolecularAssemblers=分子アセンブラーは、反応分子を原子レベルの精度で移動・配置するための機械であり、ナノテクノロジーの一分野として、様々な面での前進に欠かせない。その一つは技術的なもので、どれほど激しい攻撃にも耐えうる、超強力で自己修復可能な鎧や、驚異的な電力を貯蔵・放出できる低質量キャパシターの創造である。もうひとつは生物学的なもので、アミノ酸を配列してタンパク質分子を構築し、生物を改造または創出することである。これには広大な専用ナノ工場が必要である。科学者らは、自己複製する分子アセンブラー1台で、スタッフや資源の輸送にほぼ依存せずこの工場を建設することができると考えている。このような自動化工場が確立されれば、可能性はほぼ無限大に広がるだろう。
 
 TITechTemplate.displayName.MoltenCoreFissionSystems=溶融炉心核分裂システム
@@ -483,7 +483,7 @@ TITechTemplate.description.NuclearFusioninSpace=我々は、空に輝く太陽�
 TITechTemplate.displayName.OrbitalFighters=大気圏外戦闘機
 TITechTemplate.summary.OrbitalFighters=地表から地球低軌道に到達できる小型の戦闘機を開発する。
 TITechTemplate.quote.OrbitalFighters=「歴史の海には、彼らが持っていたとされる力の重さに沈んだ艦隊が散乱している。私は巨大な戦斧には興味がない。完璧にバランスの取れたナイフが欲しいのだ」<br/><align=right>{destroyLeader}<align=left><br/><align=right>軌道戦の基礎知識<align=left>
-TITechTemplate.description.OrbitalFighters=巨大な装甲軍艦を地球の重力圏から脱出させるのは非常に困難であり、また武装スペースシャトルのようなものでは生存能力がまったくないため、これまでのところ、戦闘能力のある地上-軌道間用船舶を検討することはできなかった。代わりに、私たちは宇宙船を地球表面から離して組み立てることに重点を置いてきた。しかし、推進力と軽量素材の進歩により、小型戦闘機は地球付近の軌道でなら実行可能な選択肢となった。これらの大気圏外戦闘機（「エクソファイター」）は、従来のロケットステージを使って地表からブーストされたり、ジェット旅客機サイズの母船から打ち上げられたり、あるいは低軌道で戦闘地域に到達するための新しい単段式軌道間能力を利用したりする。交戦後、彼らは地球に戻り、長い滑走路に飛行機のように着陸する。<br/><br/>これらの機体には大規模な地上でのサポートが必要なため、国家の資産として管理され、実行指導派の指揮のもと、国家投資によって建造され、地球の発射施設に格納される。地球とのインターフェース軌道上での戦闘に参加したり、軌道上の目標に対して単独で戦闘を開始したりすることができる。化学およびソリッドコア核推進システム、小型ソリッドコア原子炉、装甲、照準コンピュータ、ECM、ミサイルのアップグレードにより、その能力は強化される。
+TITechTemplate.description.OrbitalFighters=巨大な装甲軍艦を地球の重力圏から脱出させるのは非常に困難であり、また武装スペースシャトルのようなものでは生存能力がまったくないため、これまでのところ、戦闘能力のある地上-軌道間用船舶を検討することはできなかった。代わりに、私たちは宇宙船を地球表面から離して組み立てることに重点を置いてきた。しかし、推進力と軽量素材の進歩により、小型戦闘機は地球付近の軌道でなら実行可能な選択肢となった。これらの大気圏外戦闘機（「エクゾファイター」）は、従来のロケットステージを使って地表からブーストされたり、ジェット旅客機サイズの母船から打ち上げられたり、あるいは低軌道で戦闘地域に到達するための新しい単段式軌道間能力を利用したりする。交戦後、彼らは地球に戻り、長い滑走路に飛行機のように着陸する。<br/><br/>これらの機体には大規模な地上でのサポートが必要なため、国家の資産として管理され、実行指導派の指揮のもと、国家投資によって建造され、地球の発射施設に格納される。地球との境界軌道上での戦闘に参加したり、軌道上の目標に対して単独で戦闘を開始したりすることができる。化学およびソリッドコア核推進システム、小型ソリッドコア原子炉、装甲、照準コンピュータ、ECM、ミサイルのアップグレードにより、その能力は強化される。
 
 TITechTemplate.displayName.OrbitalShipbuilding=軌道造船
 TITechTemplate.summary.OrbitalShipbuilding=非大気圏内飛行船のゼロG組立施設の建設。
@@ -502,7 +502,7 @@ TITechTemplate.description.OrbitalTorusHabs=宇宙でのコロニー建設が可
 
 TITechTemplate.displayName.OurSpaceFuture=宇宙の未来
 TITechTemplate.summary.OurSpaceFuture=我々の宇宙での存在感が高まる中、宇宙と地球のハイブリッドな社会がもたらす変化について考える。
-TITechTemplate.quote.OurSpaceFuture=「私たち自身がそうであったように、神によって創造された他の魂が宇宙に存在することを信じ、受け入れましょう。星を越えて心を通わせることが、私たちの使命であり、義務であり、特権なのです」<br/><align=right>{submitLeader}<align=left><br/>ゼノバプテスト派の宣伝ビラより。「炎浄化の炎の夜」の5か月前。<align=left>
+TITechTemplate.quote.OurSpaceFuture=「私たち自身がそうであったように、神によって創造された他の魂が宇宙に存在することを信じ、受け入れましょう。星を越えて心を通わせることが、私たちの使命であり、義務であり、特権なのです」<br/><align=right>{submitLeader}<align=left><br/><align=right>ゼノバプテスト派の宣伝ビラより。「炎浄化の炎の夜」の5か月前。<align=left>
 TITechTemplate.description.OurSpaceFuture=もう後戻りはできない。人類は宇宙で軍事的・産業的な存在感を示しており、言うまでもなく地球での生活を知らない人口は増え続けている。もはや、自分たちが地球に住むべき種であるとは考えず、この状態をさらに推し進める時期に来ている。つまり、陸・空・宇宙を支配する新しい法・秩序・コミュニケーションを確立せねばならず、新たなハイブリッド社会がこれに慣れるまで、計り知れない波乱が起きることとなるだろう。これを見据えて、内外の脅威から身を守るため、特別な訓練を受けた軍隊が必要となる。これが実現したとき、我々は真の、成長を続ける地球外社会の創設を本格的に考えられるようになるだろう。
 
 TITechTemplate.displayName.OutpostHabs=前哨基地ハブ
@@ -547,8 +547,8 @@ TITechTemplate.description.Superalloys=カーボンナノチューブやダイ�
 
 TITechTemplate.displayName.ProtonProtonFusion=プロトン・プロトン融合
 TITechTemplate.summary.ProtonProtonFusion=究極の核融合反応を極め、太陽のパワーを制御できるようにする。 
-TITechTemplate.quote.ProtonProtonFusion=「記述による知識と、知見による知識との区別を定義したのはバートランド・ラッセルだった。ごく近い将来、遠い世界に対する我々の理解は、単なる読み物や写真からではなく、エイリアンの地を歩くことから得られるようになるだろう」<br/><align=right>{escapeLeader}<align=left><br/><align=right><i>プロジェクト・ビフロスト</i>の記者会見説明資料より<align=left>
-TITechTemplate.description.ProtonProtonFusion=近代が始まって以来、我々は頭上の星空に手を伸ばしてきた。そして、他の星に実際に生命が存在することが判明して以来、我々はその知識を求めてきた。そのためには太陽の力、具体的には星の中心で起こる核融合の連鎖を再現する必要がある。宇宙で初めて核融合が実現した日から、我々はより強力な電磁場を作り、多層構造の原子炉室を設計し、より強力な燃料源を開発してきた。<br/><br/>これらの進歩を組み合わせることで、我々はついに、宇宙で最もエネルギーの高い核融合反応である陽子-陽子核融合を完全に制御することができるようになった。複雑で巧妙な電磁場の網を使い、太陽のような極端な圧力と温度の原子炉の中で陽子を押しつけ合い、陽子をヘリウム原子に融合させる。この反応により、巨大なエネルギーが純粋な電磁放射線および電子として放出される。この2つのエネルギーは固体捕集装置によって集められ、直接エネルギーに変換される。これにより、驚異的に高効率の核融合炉が可能になり、人類はかつてないほど大きく羽ばたけるようになるはずだ。
+TITechTemplate.quote.ProtonProtonFusion=「記述による知識と、知見による知識との区別を定義したのはバートランド・ラッセルだった。ごく近い将来、遠い世界に対する我々の理解は、単なる読み物や写真からではなく、エイリアンの地を歩くことから得られるようになるだろう」<br/><align=right>{escapeLeader}<align=left><br/><align=right><i>プロジェクト・ビフロスト</i><align=left>の記者会見説明資料より
+TITechTemplate.description.ProtonProtonFusion=近代が始まって以来、我々は頭上の星空に手を伸ばしてきた。そして、他の星に実際に生命が存在することが判明して以来、我々はその知識を求めてきた。そのためには太陽の力、具体的には星の中心で起こる核融合の連鎖を再現する必要がある。宇宙で初めて核融合が実現した日から、我々はより強力な電磁場を作り、多層構造の原子炉室を設計し、より強力な燃料源を開発してきた。<br/><br/>これらの進歩を組み合わせることで、我々はついに、宇宙で最もエネルギーの高い核融合反応である陽子-陽子核融合を完全に制御することができるようになった。複雑で巧妙な電磁場の網を使い、太陽のような極端な圧力と温度の原子炉の中で陽子を押しつけ合い、陽子をヘリウム原子に融合させる。この反応により、巨大なエネルギーが純粋な電磁放射線および電子として放出される。この2つのエネルギーは固体捕集装置によって集められ、直接エネルギーに変換される。このブレイクスルーにより、驚異的に高効率の核融合炉が可能になり、人類はかつてないほど大きく羽ばたけるようになるはずだ。
 
 TITechTemplate.displayName.QuantumComputing=量子計算
 TITechTemplate.summary.QuantumComputing=何十億もの演算を一度に処理できる機器で、コンピューティングの可能性を一変させる。
@@ -587,7 +587,7 @@ TITechTemplate.description.SolidCoreFissionSystems=1938年に核分裂が発見�
 
 TITechTemplate.displayName.SpaceAgriculture=宇宙農業
 TITechTemplate.summary.SpaceAgriculture=微小・無重力環境下での農業技術の推進。
-TITechTemplate.quote.SpaceAgriculture=「私の家族はミシシッピに農場を持っていました。トウモロコシ、大豆、綿…何でも栽培していました。昼も夜も、仕事は山ほどありました。ですが、生き物を最高の状態に育て上げるには、一所懸命働かなければならないことを学びました」<br/><align=right>{submitLeader}<align=left><br/><align=right>ポッドキャスト <i>第８のチャクラ</i>のインタビューより<align=left>
+TITechTemplate.quote.SpaceAgriculture=「私の家族はミシシッピに農場を持っていました。トウモロコシ、大豆、綿…何でも栽培していました。昼も夜も、仕事は山ほどありました。ですが、生き物を最高の状態に育て上げるには、一所懸命働かなければならないことを学びました」<br/><align=right>{submitLeader}<align=left><br/><align=right>ポッドキャスト <i>第８のチャクラ</i><align=left>のインタビューより
 TITechTemplate.description.SpaceAgriculture=有人飛行のたびに大量の食料を送るのは不便で面倒で危険であり、宇宙ステーションが地球からの補給物資に依存し続けることはあまりにも短絡的な考えである。重力がほとんどなく、大気の状態が厳しい環境でも、宇宙飛行士らが自力で食料を栽培できることが最も重要である。その最大の希望は閉鎖生態系生命維持システム（CELSS）、つまり光と電力と人間しか必要とせず、食料と酸素の両方を作り出す密閉されたループである。後者が排出する二酸化炭素は植物によって酸素に変わり、尿や排水は飲料水にリサイクルされ、排泄物や生ゴミは栄養豊富な植物の肥料となる。このようなシステムは何十年もの間成功をみずに追求されてきたが、成長が早くタンパク質を豊富に含む新種の藻類の創造により、ついに必要なブレークスルーが実現した。葉物野菜や魚の養殖を導入することで、いずれ宇宙飛行士の食事も多様になり、惑星外での長期滞在がより快適になるだろう。 
 
 TITechTemplate.displayName.SpaceAssaultDoctrine=宇宙攻撃ドクトリン
@@ -618,7 +618,7 @@ TITechTemplate.description.SpaceNavies=おそらく、宇宙における最も�
 TITechTemplate.displayName.SpaceResearch=宇宙開発
 TITechTemplate.summary.SpaceResearch=ゼロG環境や惑星環境での研究を行うための専門的な方法論を開発する。
 TITechTemplate.quote.SpaceResearch=「一生に一度の経験にあずかり、身の引き締まる思いです。彼らがこの宇宙でできることは、実に脅威的です。微小重力の長期的な影響に関する研究は魅力的ですし、燃焼に関する進歩は、地球でのエネルギー生産に革命をもたらすかもしれません」<br/><align=right>{cooperateLeader}<align=left><br/><align=right>国際宇宙ステーションへのフィールドトリップでのインタビュー映像<br/>ドキュメンタリー映画<i>「十代の天才たち」より抜粋</i><align=left>
-TITechTemplate.description.SpaceResearch=20世紀後半に国際宇宙ステーションで行われた初期の宇宙研究以来、生物学、物理学、化学の進歩は、通常の地上の条件下では不可能な概念に対する人間の理解を深めてきた。宇宙旅行や長期間の宇宙居住がより一般的になれば、微小重力が人体に及ぼす無数の影響を研究し、いずれはこれに対応することができるようになり、食料の栽培や酸素の生成方法を改善し、さらには新しい動力源も実験できるようになる。まずは軌道上の宇宙ステーションを拡大することになるだろうが、さらなる大躍進が実現すれば、地球からますます離れてゆくことができるようになるだろう。 
+TITechTemplate.description.SpaceResearch=20世紀後半にミールと国際宇宙ステーションで行われた初期の宇宙研究以来、生物学、物理学、化学の進歩は、通常の地上の条件下では不可能な概念に対する人間の理解を深めてきた。宇宙旅行や長期間の宇宙居住がより一般的になれば、微小重力が人体に及ぼす無数の影響を研究し、いずれはこれに対応することができるようになり、食料の栽培や酸素の生成方法を改善し、さらには新しい動力源も実験できるようになる。まずは軌道上の宇宙ステーションを拡大することになるだろうが、さらなる大躍進が実現すれば、地球からますます離れてゆくことができるようになるだろう。 
 
 TITechTemplate.displayName.SpaceTourism=宇宙観光
 TITechTemplate.summary.SpaceTourism=富裕層や好奇心旺盛な人々を宇宙施設に呼び込むビジネスは、他の試みの資金源となる。
@@ -713,37 +713,37 @@ TITechTemplate.description.ZPinchTechniques=ゼータピンチ（略称Zピン�
 TITechTemplate.displayName.FutureTechEnergy=未来技術：エネルギー
 TITechTemplate.summary.FutureTechEnergy=物を動かす（エネルギー兵器の場合、消し去る）。
 TITechTemplate.quote.FutureTechEnergy=<skip/>
-TITechTemplate.description.FutureTechEnergy=-各派閥が過去に発動できなかったエネルギープロジェクトが一定確率でアンロックされる。
+TITechTemplate.description.FutureTechEnergy=-各派閥が過去に発動できなかったエネルギーおよび地球外生命体学プロジェクトが一定確率でアンロックされる。
 
 TITechTemplate.displayName.FutureTechMilitaryScience=未来技術：軍事科学
 TITechTemplate.summary.FutureTechMilitaryScience=組織的な武力行使は常に、望ましい政治目的を実現するための一つの手段であり続けるだろう。願わくは、武力行使そのものが目的になることがないよう。
 TITechTemplate.quote.FutureTechMilitaryScience=<skip/>
-TITechTemplate.description.FutureTechMilitaryScience=-各派閥が過去に発動できなかった軍事科学プロジェクトが一定確率でアンロックされる。
+TITechTemplate.description.FutureTechMilitaryScience=-各派閥が過去に発動できなかった軍事科学および地球外生命体学プロジェクトが一定確率でアンロックされる。
 
 TITechTemplate.displayName.FutureTechSocialScience=未来技術：社会科学
 TITechTemplate.summary.FutureTechSocialScience=人の行動は、物理法則のように解決できるものではない。しかし、だからといって努力すべきでないということにはならない。
 TITechTemplate.quote.FutureTechSocialScience=<skip/>
-TITechTemplate.description.FutureTechSocialScience=-各派閥が過去に発動できなかった社会科学プロジェクトが一定確率でアンロックされる。
+TITechTemplate.description.FutureTechSocialScience=-各派閥が過去に発動できなかった社会科学および地球外生命体学プロジェクトが一定確率でアンロックされる。
 
 TITechTemplate.displayName.FutureTechMaterials=未来技術：素材
 TITechTemplate.summary.FutureTechMaterials=物質の科学は、発見と洗練の底なし井戸である。
 TITechTemplate.quote.FutureTechMaterials=<skip/>
-TITechTemplate.description.FutureTechMaterials=-各派閥が過去に発動できなかった素材プロジェクトが一定確率でアンロックされる。
+TITechTemplate.description.FutureTechMaterials=-各派閥が過去に発動できなかった素材および地球外生命体学プロジェクトが一定確率でアンロックされる。
 
 TITechTemplate.displayName.FutureTechInformationScience=未来技術：情報科学
 TITechTemplate.summary.FutureTechInformationScience=データは知識ではない。知識は知恵ではない。
 TITechTemplate.quote.FutureTechInformationScience=<skip/>
-TITechTemplate.description.FutureTechInformationScience=-各派閥が過去に発動できなかった情報科学プロジェクトが一定確率でアンロックされる。
+TITechTemplate.description.FutureTechInformationScience=-各派閥が過去に発動できなかった情報科学および地球外生命体学プロジェクトが一定確率でアンロックされる。
 
 TITechTemplate.displayName.FutureTechLifeScience=未来技術：生命科学
 TITechTemplate.summary.FutureTechLifeScience=地球はただのゆりかごだ。
 TITechTemplate.quote.FutureTechLifeScience=<skip/>
-TITechTemplate.description.FutureTechLifeScience=-各派閥が過去に発動できなかった生命科学プロジェクトが一定確率でアンロックされる。
+TITechTemplate.description.FutureTechLifeScience=-各派閥が過去に発動できなかった生命科学および地球外生命体学プロジェクトが一定確率でアンロックされる。
 
 TITechTemplate.displayName.FutureTechSpaceScience=未来技術：宇宙科学
 TITechTemplate.summary.FutureTechSpaceScience=我々は外に目を向け、どのような未知の存在が待っているのかと考える。
 TITechTemplate.quote.FutureTechSpaceScience=<skip/>
-TITechTemplate.description.FutureTechSpaceScience=-各派閥が過去に発動できなかった軍事科学プロジェクトが一定確率でアンロックされる。
+TITechTemplate.description.FutureTechSpaceScience=-各派閥が過去に発動できなかった宇宙科学および地球外生命体学プロジェクトが一定確率でアンロックされる。
 
 TITechTemplate.quote.ResistanceSpaceScience=「我々は太陽系の果てに到達した。宇宙での戦闘の時代を定義した。しかしまだまだ終わりではない。戦争は終わっていない。さて、虚空の中の我々を導いてくれる次のものは何なのだろうか？」 
 TITechTemplate.quote.ResistanceLifeScience=「母は晩年に、命を大切にするようにと言った。命は、はっきりとした終わりのある冒険だと思えばよい。人生の終わりを意識することで、一分一秒を精一杯生きることができるだろう」
@@ -800,7 +800,7 @@ TITechTemplate.quote.ExploitInformationScience=「ライセンス契約のどこ
 TITechTemplate.quote.ExploitMilitaryScience=「回路図を流出させろ。そして、余剰弾薬をできるだけ多く抜き取れ。奴らを止められるのはこのキネティックバリアだけだ。それにこの値段で売れば、半ダースで損失が補えるぞ」
 TITechTemplate.quote.ExploitSocialScience=「初期のローマ人の計画は巧みだった。自分の領土の外に軍隊を駐屯させ、参加するか死ぬかのチャンスを与えたのだ。小さな代償としてお前たちの文化を吸収するが、お前たちは死なずに済むぞ、ということだ。素晴らしい」
 
-TITechTemplate.desc.EndGameReroll=完成すると、最終目標の技術が再利用され、派閥プロジェクトのロックが解除される。
+TITechTemplate.desc.EndGameReroll=完成すると、最終目標の技術は再ロールを発動し、すべての派閥が過去に発動できなかったプロジェクトのロックが解除される。
 
 TITechTemplate.summary.HighEnergyElectrostaticPropulsion_deprecated=静電場を利用して加速する推進機をさらに改善する。
 TITechTemplate.description.HighEnergyElectrostaticPropulsion_deprecated=太陽系は、我々の運命である宇宙種族になるための資源の宝庫である。だからといって、人間の創意工夫が不要になるわけではない。そこで我々は、太陽系の最果てを、そしておそらくその先を探検するために、静電推進システムのさらなる進化を目指すことにした。<br/><br/>この新たな推進機のコンセプトは、既存の静電駆動装置を基にしているが、より軽いイオン化推進剤と組み合わせて、はるかに強力な電場を使用する。また、強化された電場はより実装面積が小さく、よりコンパクトな駆動装置設計を可能にする。この新たな推進機を搭載した船は、現在の宇宙旅行の限界を軽々と超えることができるだろう。

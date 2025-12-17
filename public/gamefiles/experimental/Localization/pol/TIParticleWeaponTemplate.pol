@@ -60,6 +60,10 @@ TIParticleWeaponTemplate.displayName.HeavyParticleLance=Ciężka lanca cząstek
 TIParticleWeaponTemplate.description.HeavyParticleLance=Duży montowany dziobowo akcelerator liniowy, który miota cząstkami obojętnymi, aby zaburzać działanie elektroniki wroga i eliminować załogę.
 TIParticleWeaponTemplate.displayName.SpinalParticleLance=Osiowa lanca cząstek
 TIParticleWeaponTemplate.description.SpinalParticleLance=Olbrzymi montowany dziobowo akcelerator liniowy, który miota cząstkami obojętnymi, aby zaburzać działanie elektroniki wroga i eliminować załogę.
+TIParticleWeaponTemplate.displayName.AntimatterPointDefenseBattery=Bateria obrony punktowej na antymaterię
+TIParticleWeaponTemplate.description.AntimatterPointDefenseBattery=Szybkostrzelna wieżyczka miotająca wiązkami antymaterii, która pełni rolę obrony punktowej.
+TIParticleWeaponTemplate.displayName.HeavyAntimatterPointDefenseBattery=Ciężka bateria obrony punktowej na antymaterię
+TIParticleWeaponTemplate.description.HeavyAntimatterPointDefenseBattery=Ogromna wieżyczka miotająca wiązkami antymaterii, przeznaczona do obrony punktowej całej floty.
 TIParticleWeaponTemplate.displayName.AntimatterParticleCannon=Działo na antymaterię
 TIParticleWeaponTemplate.description.AntimatterParticleCannon=Akcelerator liniowy emitujący cienką wiązkę antymaterii, która po trafieniu w cel powoduje duże zniszczenia promieniowaniem i wysoką temperaturą.
 TIParticleWeaponTemplate.displayName.HeavyAntimatterParticleCannon=Ciężkie działo na antymaterię
@@ -88,4 +92,4 @@ TIParticleWeaponTemplate.XRayDamage=Uszkodzenia RTG (promieniowanie):<rcol>{0}</
 TIParticleWeaponTemplate.BaryonicDamage=Uszkodzenia barionami (promieniowanie), {0}x przeciwko modułom:<rcol>{1}</rcol>
 
 TIParticleWeaponTemplate.Defense.MissilesOnly=<h>Ostrzał defensywny będzie atakować jedynie rakiety i torpedy.</h>
-TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Ostrzał defensywny przeciwko celom, które nie są rakietami i torpedami, ma mniejszą skuteczność</h>
+TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Ostrzał defensywny przeciwko pociskom, które nie są rakietami i torpedami, ma mniejszą skuteczność</h>

@@ -246,7 +246,7 @@ TITechTemplate.description.ElectromagneticPropulsion=Klasyczne rakiety działaj�
 TITechTemplate.displayName.ElectrostaticPlasmaConfinement=Elektrostatyczne uwięzienie plazmy
 TITechTemplate.summary.ElectrostaticPlasmaConfinement=Fizycy opracowują mechanizmy uwięzienia plazmy termojądrowej za pomocą statycznych pól elektrycznych.
 TITechTemplate.quote.ElectrostaticPlasmaConfinement=„Sprowadziłem pana na pokład, doktorze, gdyż sądzę, że tylko pan jest w stanie tego dokonać. Dobrą stroną sytuacji jest to, że jeśli się mylę, nie pozostanie nikt, kto mógłby mi o tym powiedzieć”.<br/><align=right>{resistLeader}<align=left><br/><align=right>Odprawa techniczna<align=left>
-TITechTemplate.description.ElectrostaticPlasmaConfinement=Dzięki wykorzystaniu statycznych pól elektrycznych do uwięzienia reakcji termojądrowej ta metoda wytwarzania energii bezpośrednio ogrzewa swoje paliwo, unikając większości strat energetycznych występujących w przypadku innych tego typu procesów. Dodatkowo odpowiadają jej paliwa bezneutronowe. Umożliwiają one zachodzenie fuzji bez powstawania szkodliwego promieniowania jonizującego, co zmniejsza zagrożenie dla istot żywych i zwiększa żywotność urządzeń. Względnie prosty charakter procesu przekształcania naładowanych cząstek w elektryczność czyni tę metodę szczególnie interesującą.
+TITechTemplate.description.ElectrostaticPlasmaConfinement=Dzięki wykorzystaniu statycznych pól elektrycznych do uwięzienia reakcji termojądrowej ta metoda wytwarzania energii bezpośrednio ogrzewa swoje paliwo, unikając większości strat energetycznych występujących w przypadku innych tego typu procesów. Względnie prosty charakter procesu przekształcania naładowanych cząstek w elektryczność czyni tę metodę szczególnie interesującą. Nie zapewnia aż tak wysokiej mocy jak inne typy fuzji termojądrowej, ale umożliwia budowę lekkich i wydajnych reaktorów do naszych statków kosmicznych.
 
 TITechTemplate.displayName.ElectrostaticPropulsion=Napęd elektrostatyczny
 TITechTemplate.summary.ElectrostaticPropulsion=Konstruujemy silniki wykorzystujące statyczne pola elektryczne do przyśpieszania czynnika pędnego.
@@ -426,7 +426,7 @@ TITechTemplate.quote.MissionToSpace=„Sura Al-Bakara naucza, że w stworzeniu n
 TITechTemplate.description.MissionToSpace=Mieszkanie w przestrzeni kosmicznej to coś zupełnie innego niż samo podróżowanie przez kosmos. Jeśli planujemy przejść od turystyki do osadnictwa, musimy się przystosować. Logistyka kolonizacji przestrzeni kosmicznej wymaga planowania misji zaopatrzeniowych na całe miesiące naprzód. Inżynierowie natomiast muszą rozwiązać problemy długoterminowej ekspozycji na wiatr słoneczny i rygorów konserwacji urządzeń w próżni. Z kolei psycholodzy powinni opracować plan szkoleniowy, umożliwiający personelowi zachowanie szczytowej sprawności w środowisku, w którym góra i dół nie istnieją.<br/><br/>Oczywiście już od jakiegoś czasu dysponujemy techniką umożliwiającą loty kosmiczne, teraz jednak musimy ustalić, jak dokonywać ich z łatwością, regularnie i oszczędnie – i to znacznie częściej niż dotąd. Odnowiony program misji kosmicznych wymaga zmiany wielu naszych najbardziej fundamentalnych przyzwyczajeń, jednak przetrwanie tych trudności jest absolutnie konieczne. Dopiero gdy poczujemy się w kosmosie jak w domu, będziemy mogli liczyć na eksplorację, wykorzystanie i ostatecznie kolonizację sąsiednich planet – a z czasem także bardziej oddalonych ciał niebieskich.
 
 TITechTemplate.displayName.MissiontotheAsteroids=Misja na asteroidy
-TITechTemplate.summary.MissiontotheAsteroids=Wydobycie surowców z tysięcy małych ciał niebieskich okrążających Słońce bliżej niż Jowisz mogłoby zasilić szybkie uprzemysłowienie kosmosu.
+TITechTemplate.summary.MissiontotheAsteroids=Wydobycie surowców z tysięcy małych ciał niebieskich okrążających Słońce wewnątrz orbity Jowisza mogłoby zasilić szybkie uprzemysłowienie kosmosu.
 TITechTemplate.quote.MissiontotheAsteroids=„Jeśli coś nie jest nasze, należy do kogoś innego. A jeśli należy do kogoś innego, to prędzej czy później zostanie użyte przeciwko nam. Właśnie dlatego musimy to zabrać, niezależnie od tego, czy jest nam rzeczywiście potrzebne”.<br/><align=right>{destroyLeader}<align=left><br/><align=right>Cytat z oficjalnej biografii „Na pięć ruchów do przodu”, 2015 rok (publikacja anulowana)<align=left>
 TITechTemplate.description.MissiontotheAsteroids=Między Marsem a Jowiszem znajduje się mnóstwo kamieni pełnych cennych pierwiastków. Można je podzielić na trzy ogólne kategorie: asteroidy kamienne zawierają nieco metali, a także rzadkie radioizotopy; asteroidy węglowe są źródłem paliw; asteroidy metaliczne obfitują w metale zwykłe i szlachetne. Szanse znalezienia wody są tym większe, im bardziej asteroida jest oddalona od Słońca. Co prawda znajdują się one znacznie dalej od Ziemi niż Księżyc i Mars, ale panujące na nich znikome ciążenie sprawi, że użycie katapult elektromagnetycznych będzie tu znacznie tańsze. 
 
@@ -502,7 +502,7 @@ TITechTemplate.description.OrbitalTorusHabs=Teraz nie tylko możemy budować kol
 
 TITechTemplate.displayName.OurSpaceFuture=Nasza kosmiczna przyszłość
 TITechTemplate.summary.OurSpaceFuture=Eksplorujemy przestrzeń kosmiczną coraz intensywniej i zaczynamy się zastanawiać, jakie zmiany czekają hybrydowe kosmiczno-ziemskie społeczeństwo.
-TITechTemplate.quote.OurSpaceFuture=„Uwierzcie, że tam są inne dusze, zaakceptujcie ten fakt. Inne dusze stworzone przez Boga, tak jak my. Naszym zadaniem, obowiązkiem i przywilejem jest połączyć się z nimi – niech dojdzie do spotkania umysłów wśród gwiazd”.<br/><align=right>{submitLeader}<align=left><br/>Z ulotki propagandowej ksenobaptystów, pięć miesięcy przed Nocą Oczyszczającego Płomienia<align=left>
+TITechTemplate.quote.OurSpaceFuture=„Uwierzcie, że tam są inne dusze, zaakceptujcie ten fakt. Inne dusze stworzone przez Boga, tak jak my. Naszym zadaniem, obowiązkiem i przywilejem jest połączyć się z nimi – niech dojdzie do spotkania umysłów wśród gwiazd”.<br/><align=right>{submitLeader}<align=left><br/><align=right>Z ulotki propagandowej ksenobaptystów, pięć miesięcy przed Nocą Oczyszczającego Płomienia<align=left>
 TITechTemplate.description.OurSpaceFuture=Teraz nie możemy się już wycofać: ludzkość wyprowadziła w przestrzeń kosmiczną zarówno wojska, jak i przemysł. Nie należy też zapominać o nieustannie rosnącej liczbie kosmicznego personelu, dla którego życie na Ziemi jest coraz bardziej odległym wspomnieniem. Pora zdwoić wysiłki i przestać uważać człowieka za gatunek nierozerwalnie związany z Ziemią. Oznacza to stworzenie nowych praw, zasad i komunikacji, by zarządzać tak ziemią, jak i przestrzenią powietrzną oraz kosmiczną. Zanim nowe, hybrydowe społeczeństwo przywyknie do tego, nieuniknione będą rozliczne turbulencje, co będzie z kolei wymagać zastosowania specjalnie wyszkolonych sił, które będą bronić ludzi przez zagrożeniem zarówno wewnętrznym, jak i zewnętrznym. Mamy już konkretne propozycje odnośnie do tego, jak postępować – a gdy je urzeczywistnimy, będziemy mogli poważnie myśleć o zakładaniu prawdziwych kolonii poza Ziemią.
 
 TITechTemplate.displayName.OutpostHabs=Placówki pozaziemskie
@@ -618,7 +618,7 @@ TITechTemplate.description.SpaceNavies=Możliwe, że pierwszym konfliktem w prze
 TITechTemplate.displayName.SpaceResearch=Nauka w kosmosie
 TITechTemplate.summary.SpaceResearch=Przygotowujemy specjalne metodyki prowadzenia badań w stanie nieważkości i na innych ciałach niebieskich.
 TITechTemplate.quote.SpaceResearch=„Jestem zaszczycona, że wybrano mnie do tej jedynej w swoim rodzaju wycieczki. To, co się tu dzieje, jest niewiarygodne. Badania nad długoterminowymi efektami mikrograwitacji są fascynujące, a postępy w dziedzinie paliw mogą zrewolucjonizować produkcję energii na Ziemi”.<br/><align=right>{cooperateLeader}<align=left><br/><align=right>Wywiad przeprowadzony podczas wycieczki na Międzynarodową Stację Kosmiczną<br/>Fragment filmu dokumentalnego „Młodzi geniusze”<align=left>
-TITechTemplate.description.SpaceResearch=Postępy w dziedzinie biologii, fizyki i chemii, których początki datuje się na czasy pierwszych badań wykonywanych w kosmosie na Międzynarodowej Stacji Kosmicznej pod koniec XX wieku, poszerzyły ludzkie rozumienie spraw niemożliwych do badania w warunkach ziemskich. W miarę, jak podróże kosmiczne i długoterminowy pobyt w kosmosie stają się coraz powszechniejsze, możemy badać różnorodny wpływ mikrograwitacji na organizm człowieka, a także zapobiegać szkodom. Możemy ulepszyć metody wytwarzania żywności i tlenu, a nawet eksperymentować z nowymi źródłami energii. Początkowo będzie to wymagać rozbudowy naszych stacji orbitalnych, ale gdy osiągniemy kolejne przełomy, będziemy w stanie jeszcze bardziej oddalić się od objęć Ziemi. 
+TITechTemplate.description.SpaceResearch=Postępy w dziedzinie biologii, fizyki i chemii, których początki datuje się na czasy pierwszych badań wykonywanych w kosmosie na stacji kosmicznej Mir i Międzynarodowej Stacji Kosmicznej pod koniec XX wieku, poszerzyły ludzkie rozumienie spraw niemożliwych do badania w warunkach ziemskich. W miarę, jak podróże kosmiczne i długoterminowy pobyt w kosmosie stają się coraz powszechniejsze, możemy badać różnorodny wpływ mikrograwitacji na organizm człowieka, a także zapobiegać szkodom. Możemy ulepszyć metody wytwarzania żywności i tlenu, a nawet eksperymentować z nowymi źródłami energii. Początkowo będzie to wymagać rozbudowy naszych stacji orbitalnych, ale gdy osiągniemy kolejne przełomy, będziemy w stanie jeszcze bardziej oddalić się od objęć Ziemi. 
 
 TITechTemplate.displayName.SpaceTourism=Kosmiczna turystyka
 TITechTemplate.summary.SpaceTourism=Firmy, których zadaniem będzie organizowanie wycieczek do obiektów kosmicznych dla bogatych i ciekawych ludzi, sfinansują inne przedsięwzięcia.
@@ -713,37 +713,37 @@ TITechTemplate.description.ZPinchTechniques=Skurcz zeta, czasem określany też 
 TITechTemplate.displayName.FutureTechEnergy=Technologia przyszłościowa: elektrodynamika
 TITechTemplate.summary.FutureTechEnergy=Wyrzucanie rzeczy w kosmos, a przypadku broni – obrzucanie nimi wroga.
 TITechTemplate.quote.FutureTechEnergy=<skip/>
-TITechTemplate.description.FutureTechEnergy=– Daje szansę na uzyskanie dostępu do projektów związanych z wytwarzaniem energii, których wcześniej żadnej frakcji nie udało się odblokować.
+TITechTemplate.description.FutureTechEnergy=– Daje szansę na uzyskanie dostępu do projektów związanych z wytwarzaniem energii i kseonologią, których wcześniej żadnej frakcji nie udało się odblokować.
 
 TITechTemplate.displayName.FutureTechMilitaryScience=Technologia przyszłościowa: wojskowość
 TITechTemplate.summary.FutureTechMilitaryScience=Zorganizowane użycie siły zawsze będzie jednym ze środków osiągania celów politycznych. Oby tylko nie stało się celem samym w sobie.
 TITechTemplate.quote.FutureTechMilitaryScience=<skip/>
-TITechTemplate.description.FutureTechMilitaryScience=– Daje szansę na uzyskanie dostępu do projektów wojskowości, których wcześniej żadnej frakcji nie udało się odblokować.
+TITechTemplate.description.FutureTechMilitaryScience=– Daje szansę na uzyskanie dostępu do projektów wojskowości i ksenologii, których wcześniej żadnej frakcji nie udało się odblokować.
 
 TITechTemplate.displayName.FutureTechSocialScience=Technologia przyszłościowa: socjologia
 TITechTemplate.summary.FutureTechSocialScience=Ludzkie zachowania nie są czymś, co dałoby się opisać równaniami jak zjawiska fizyczne. Ale to nie znaczy, że nie możemy próbować.
 TITechTemplate.quote.FutureTechSocialScience=<skip/>
-TITechTemplate.description.FutureTechSocialScience=– Daje szansę na uzyskanie dostępu do projektów socjologicznych, których wcześniej żadnej frakcji nie udało się odblokować.
+TITechTemplate.description.FutureTechSocialScience=– Daje szansę na uzyskanie dostępu do projektów socjologicznych i ksenologicznych, których wcześniej żadnej frakcji nie udało się odblokować.
 
 TITechTemplate.displayName.FutureTechMaterials=Technologia przyszłościowa: materiały
 TITechTemplate.summary.FutureTechMaterials=Nauka o budowie i właściwościach materiałów jest niewyczerpanym źródłem odkryć i ulepszeń.
 TITechTemplate.quote.FutureTechMaterials=<skip/>
-TITechTemplate.description.FutureTechMaterials=– Daje szansę na uzyskanie dostępu do projektów związanych z materiałami, których wcześniej żadnej frakcji nie udało się odblokować.
+TITechTemplate.description.FutureTechMaterials=– Daje szansę na uzyskanie dostępu do projektów związanych z materiałami i kseonologią, których wcześniej żadnej frakcji nie udało się odblokować.
 
 TITechTemplate.displayName.FutureTechInformationScience=Technologia przyszłościowa: informatyka
 TITechTemplate.summary.FutureTechInformationScience=Dane to nie wiedza. Wiedza to nie mądrość.
 TITechTemplate.quote.FutureTechInformationScience=<skip/>
-TITechTemplate.description.FutureTechInformationScience=– Daje szansę na uzyskanie dostępu do projektów informatycznych, których wcześniej żadnej frakcji nie udało się odblokować.
+TITechTemplate.description.FutureTechInformationScience=– Daje szansę na uzyskanie dostępu do projektów informatycznych i ksenologicznych, których wcześniej żadnej frakcji nie udało się odblokować.
 
 TITechTemplate.displayName.FutureTechLifeScience=Technologia przyszłościowa: nauki przyrodnicze
 TITechTemplate.summary.FutureTechLifeScience=Ziemia jest tylko kolebką.
 TITechTemplate.quote.FutureTechLifeScience=<skip/>
-TITechTemplate.description.FutureTechLifeScience=– Daje szansę na uzyskanie dostępu do projektów nauk przyrodniczych, których wcześniej żadnej frakcji nie udało się odblokować.
+TITechTemplate.description.FutureTechLifeScience=– Daje szansę na uzyskanie dostępu do projektów nauk przyrodniczych i ksenologicznych, których wcześniej żadnej frakcji nie udało się odblokować.
 
 TITechTemplate.displayName.FutureTechSpaceScience=Technologia przyszłościowa: kosmologia
 TITechTemplate.summary.FutureTechSpaceScience=Patrzymy w kosmos i zastanawiamy się, co też tam nas spotka.
 TITechTemplate.quote.FutureTechSpaceScience=<skip/>
-TITechTemplate.description.FutureTechSpaceScience=– Daje szansę na uzyskanie dostępu do projektów kosmologicznych, których wcześniej żadnej frakcji nie udało się odblokować.
+TITechTemplate.description.FutureTechSpaceScience=– Daje szansę na uzyskanie dostępu do projektów kosmologicznych i ksenologicznych, których wcześniej żadnej frakcji nie udało się odblokować.
 
 TITechTemplate.quote.ResistanceSpaceScience=„Dotarliśmy na skraj Układu Słonecznego. Rozpoczęliśmy erę walki w kosmosie. Ale do celu wciąż daleko, wojna jeszcze się nie skończyła. Więc powiedzcie mi, co teraz? Co przeprowadzi nas przez pustkę?” 
 TITechTemplate.quote.ResistanceLifeScience=„Na kilka dni przed śmiercią moja matka powiedziała mi, że powinniśmy się cieszyć każdą chwilą naszego życia. Powinniśmy widzieć je jako przygodę bez określonego końca. Pamięć o końcu życia sprawi, że będziemy pełniej przeżywać każdą jego minutę”.
@@ -800,7 +800,7 @@ TITechTemplate.quote.ExploitInformationScience=„Wkręćcie to gdzieś do umowy
 TITechTemplate.quote.ExploitMilitaryScience=„Wypuśćcie po cichu plany do internetu. I rozdajcie jak najwięcej nadwyżek amunicji. Te bariery kinetyczne są jedyną rzeczą, która może ją powstrzymać, a przy cenie, za którą je sprzedajemy, już pół tuzina pokryje nasze straty”.
 TITechTemplate.quote.ExploitSocialScience=„Starożytni Rzymianie działali w sposób planowy – rozkładali swoją armię obok miejsca, na które mieli ochotę, i składali propozycję: poddajcie się lub zgińcie. Za niewielką cenę wyzbycia się swojej kultury wy również moglibyście cieszyć się dalszym życiem. Genialne”.
 
-TITechTemplate.desc.EndGameReroll=Po ukończeniu badań technologie końcowe dokonują ponownych losowań, by odblokować projekty dla frakcji.
+TITechTemplate.desc.EndGameReroll=Po ukończeniu badań technologie końcowe wywołują ponowne losowanie, by odblokować pominięte projekty dla wszystkich frakcji.
 
 TITechTemplate.summary.HighEnergyElectrostaticPropulsion_deprecated=Ulepszamy silniki wykorzystujące statyczne pola elektryczne do przyśpieszania.
 TITechTemplate.description.HighEnergyElectrostaticPropulsion_deprecated=Układ Słoneczny jest prawdziwą skarbnicą zasobów, która pomoże nam w kosmicznym wyścigu. Rzecz jasna to nie likwiduje potrzeby wykazania się pomysłowością. W ten sposób dochodzimy do dalszej ewolucji systemów napędu elektrostatycznego, niezbędnego podczas eksplorowania najdalszych zakątków Układu – a nawet, być może, zapuszczenia się poza jego granice.<br/><br/>Nowa koncepcja silnika jest oparta na istniejących napędach elektrostatycznych, lecz wykorzystuje dużo silniejsze pola w połączeniu z lżejszym zjonizowanym czynnikiem pędnym. Będzie go można szybciej przyśpieszać, co pozwoli osiągnąć znacznie większe prędkości maksymalne. Natomiast silniejsze pola będą mieć mniejszy przekrój, dzięki czemu konstrukcja silnika będzie bardziej zwarta. Statki wyposażone w ten nowy typ napędu z łatwością przekroczą aktualne ograniczenia podróży kosmicznej.

@@ -472,23 +472,14 @@
  {
    "dataName": "testFleet9",
    "friendlyName": "6th Fleet",
-   "factionName": "ExploitCouncil",
+   "factionName": "AlienCouncil",
    "formationSpacing": "Spread",
    "formationName": "Staggered",
    "formationFocus": "Center",
    "formationConcentration": "Heavy",
    "shipsInFleet": [
       {
-         "shipTemplateName": "Ship7"
-      },
-      {
-         "shipTemplateName": "Ship6"
-      },
-      {
-         "shipTemplateName": "Ship14"
-      },
-      {
-         "shipTemplateName": "Ship12"
+         "shipTemplateName": "Ship13"
       }
    ],
    "orbitTemplateName": "LowEarthOrbit1",
@@ -504,19 +495,19 @@
    "formationConcentration": "Heavy",
    "shipsInFleet": [
       {
-         "shipTemplateName": "Ship10"
+         "shipTemplateName": "2030Corvette"
       },
       {
-         "shipTemplateName": "Ship24"
+         "shipTemplateName": "2030Corvette"
       },
       {
-         "shipTemplateName": "Ship24"
+         "shipTemplateName": "2030Corvette"
       },
       {
-         "shipTemplateName": "Ship24"
+         "shipTemplateName": "2030Corvette"
       },
       {
-         "shipTemplateName": "Ship24"
+         "shipTemplateName": "2030Corvette"
       }
    ],
    "orbitTemplateName": "LowEarthOrbit1",
@@ -715,5 +706,85 @@
    ],
    "orbitTemplateName": "LowEarthOrbit1",
    "meanAnomalyAtEpoch_Deg": 350
+},
+{
+   "dataName": "alienFleet12070",
+   "friendlyName": "Bravo",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship36"
+      }
+   ],
+   "orbitTemplateName": "LowJupiterOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "alienFleet22070",
+   "friendlyName": "Charlie",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship36"
+      }
+   ],
+   "orbitTemplateName": "LowSaturnOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "alienFleet32070",
+   "friendlyName": "Delta",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship36"
+      }
+   ],
+   "orbitTemplateName": "LowUranusOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "alienFleet42070",
+   "friendlyName": "Echo",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship36"
+      }
+   ],
+   "orbitTemplateName": "LowNeptuneOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
+},
+ {
+   "dataName": "alienFleet52070",
+   "friendlyName": "Foxtrot",
+   "factionName": "AlienCouncil",
+   "formationSpacing": "Tight",
+   "formationName": "Staggered",
+   "formationFocus": "Center",
+   "formationConcentration": "Heavy",
+   "shipsInFleet": [
+      {
+         "shipTemplateName": "Ship36"
+      }
+   ],
+   "orbitTemplateName": "LowPlutoOrbit",
+   "meanAnomalyAtEpoch_Deg": 0
 }
 ]

@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=We failed to turn {targetDisplayName} to our caus
 TIMissionTemplate.CriticalFailure.Turn=I failed to turn {targetDisplayName} to our cause and it seems likely my whereabouts are known to {targetFactionName}.
 
 TIMissionTemplate.displayName.Unrest=Increase Unrest
-TIMissionTemplate.description.Unrest=Increase unrest in the nation of the targeted region, hurting the economy and making coups, revolutions, and secessions more likely. Success in a region with an independence movement may trigger a secession there instead of a revolution. Weakened effect if unrest is already more than twice the nation's unrest rest value.
+TIMissionTemplate.description.Unrest=Increase unrest in the nation of the targeted region, hurting the economy and making coups and revolutions more likely. Success in a region with an independence movement may trigger a secession there. Weakened effect if unrest is already more than twice the nation's unrest rest value.
 TIMissionTemplate.CriticalSuccess.Unrest=My efforts have increased unrest {targetNationNameWithPrep} by {returnedValue} to {targetNationUnrestWithString}. We now have some support among insurgent movements here should they ever overthrow the government.
 TIMissionTemplate.Success.Unrest=My efforts have increased unrest {targetNationNameWithPrep} by {returnedValue} to {targetNationUnrestWithString}. We now have some support among insurgent movements here should they ever overthrow the government.
 TIMissionTemplate.Failure.Unrest=I was unable to increase unrest {targetNationNameWithPrep}.
@@ -499,7 +499,7 @@ TIMissionCondition_VictoryCondition=Faction must have met all victory conditions
 TIMissionCondition_SufficientMissionControl=Must have available mission control
 TIMissionCondition_FreeCouncilor=Targeted councilor must not be detained or otherwise inactive
 TIMissionCondition_TargetableHabModule=Must be enemy non-core module
-TIMissionCondition_TargetableOrg=Must be an org in an enemy faction's unassigned pool or assigned to a councilor we have gain significant intel on
+TIMissionCondition_TargetableOrg=Must be an org in an enemy faction's unassigned pool or assigned to a councilor we have significant intel on
 _Fail=Must be a valid target type for mission and accessible to the councilor.
 
 TIMissionAbort_ControlPointRemoved=This mission was aborted because the target control point no longer exists.

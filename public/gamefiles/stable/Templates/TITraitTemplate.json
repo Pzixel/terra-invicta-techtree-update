@@ -45,7 +45,7 @@
    "friendlyName": "Affluent",
    "grouping": 1,
    "XPCost": 10,
-   "incomeMoney": 1,
+   "incomeMoney": 3,
    "statMods": [
       {},
       {},
@@ -159,7 +159,7 @@
    "grouping": 1,
    "XPCost": 20,
    "upgradesFrom": "Affluent",
-   "incomeMoney": 3,
+   "incomeMoney": 5,
    "statMods": [
       {},
       {},
@@ -273,7 +273,7 @@
    "grouping": 1,
    "XPCost": 40,
    "upgradesFrom": "Prosperous",
-   "incomeMoney": 5,
+   "incomeMoney": 10,
    "statMods": [
       {},
       {},
@@ -3346,6 +3346,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 20,
    "incomeInfluence": 6,
    "detectionEspBonus": -2,
@@ -3464,6 +3465,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 40,
    "upgradesFrom": "Eminent",
    "incomeInfluence": 9,
@@ -3589,6 +3591,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 60,
    "upgradesFrom": "Famous",
    "incomeInfluence": 12,
@@ -3719,6 +3722,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 20,
    "incomeInfluence": 4,
    "detectionEspBonus": -2,
@@ -3845,6 +3849,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 40,
    "upgradesFrom": "OpinionLeader",
    "incomeInfluence": 7,
@@ -3978,6 +3983,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 60,
    "upgradesFrom": "MediaDarling",
    "incomeInfluence": 10,
@@ -4546,6 +4552,7 @@
       "Badguy",
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 40,
    "upgradesFrom": "Agitator",
    "incomeInfluence": 4,
@@ -4705,6 +4712,7 @@
       "Badguy",
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 60,
    "upgradesFrom": "Firebrand",
    "randomCouncilorsOnly": true,
@@ -5357,8 +5365,9 @@
    "friendlyName": "National Hero",
    "grouping": 4,
    "tags": [
-      "Popular "
+      "Popular"
    ],
+   "easilyVisible": true,
    "XPCost": 30,
    "influenceCost": 50,
    "rerollTrait": "FamilyTies",
@@ -5505,6 +5514,7 @@
    "tags": [
       "Open"
    ],
+   "easilyVisible": true,
    "incomeInfluence": 2,
    "statMods": [
       {
@@ -6200,7 +6210,7 @@
       },
       {
          "councilorClass": "Tycoon",
-         "chance": 2
+         "chance": 0
       },
       {
          "councilorClass": "Attorney"
@@ -6327,7 +6337,8 @@
          "councilorClass": "TechMogul"
       },
       {
-         "councilorClass": "Tycoon"
+         "councilorClass": "Tycoon",
+         "chance": 0
       },
       {
          "councilorClass": "Attorney"
@@ -6711,8 +6722,7 @@
          "chance": 1
       },
       {
-         "councilorClass": "Tycoon",
-         "chance": 0
+         "councilorClass": "Tycoon"
       },
       {
          "councilorClass": "Attorney"
@@ -7053,7 +7063,8 @@
          "councilorClass": "TechMogul"
       },
       {
-         "councilorClass": "Tycoon"
+         "councilorClass": "Tycoon",
+         "chance": 0
       },
       {
          "councilorClass": "Attorney"
@@ -9690,7 +9701,7 @@
    "tags": [
       "Nerd"
    ],
-   "XPModifier": -0.2,
+   "XPModifier": -0.1,
    "rerollTrait": "Demanding",
    "rerollTraitBonus": 10,
    "statMods": [
@@ -9811,7 +9822,7 @@
    "dataName": "Striver",
    "friendlyName": "Striver",
    "grouping": 10,
-   "XPModifier": -0.3,
+   "XPModifier": -0.2,
    "rerollTrait": "Demanding",
    "rerollTraitBonus": 50,
    "statMods": [
@@ -10818,7 +10829,7 @@
       "AlienAugment"
    ],
    "moneyCost": 10000,
-   "projectDataName": "Project_PherocyteMastery",
+   "projectDataName": "Project_PherocyteMassEmitter",
    "upgradesFrom": "PherocyteEmitter",
    "statMods": [
       {
@@ -10945,6 +10956,7 @@
       "Badguy",
       "Dangerous"
    ],
+   "easilyVisible": true,
    "XPCost": 150,
    "moneyCost": 500,
    "influenceCost": 500,
@@ -11070,6 +11082,7 @@
       "Goodguy",
       "Dangerous"
    ],
+   "easilyVisible": true,
    "incomeInfluence": 3,
    "statMods": [
       {
@@ -11761,6 +11774,7 @@
  {
    "dataName": "Martyr",
    "friendlyName": "Martyr",
+   "easilyVisible": true,
    "statMods": [
       {
          "stat": "Persuasion",

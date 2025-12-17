@@ -34,6 +34,19 @@ TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=次の天体
 TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem={1}惑星系にある、エイリアンと人間の過激主義派閥（{2}）に属するティア{0}以上のすべてのハブを破壊する
 TIVictoryCondition.FreePlanets_DefeatExtremists_Region=次の天体にて、エイリアンと人間の過激主義派閥（{2}）に属するティア{0}以上のすべてのハブを破壊する:{1}
 
+TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem={1}惑星系にある、ティア{0}以上のエイリアンの基地をすべて破壊する
+TIVictoryCondition.FreeBases_DefeatAliens_Region=次の天体のティア{0}以上のエイリアンの基地を全て破壊する：{1}
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem={0}帯にあるエイリアンおよび彼らを支援する人間（{2}）に属するティア{1}以上のすべての基地を破壊する
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_Region=エイリアンとその支援者（{2}）が所有するティア{0}以上の基地を、次の天体で全て破壊する：{1}
+TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem={1}惑星系にある自分の派閥に属さないティア{0}以上のすべての基地を破壊する
+TIVictoryCondition.FreeBases_DefeatEveryone_Region=次の天体にて、自分の派閥に属さないティア{0}以上のすべての基地を破壊する：{1}
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem={1}惑星系にある反エイリアン派閥（{2}）に属するティア{0}以上のすべての基地を破壊する
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=次の天体にある反エイリアン派閥（{2}）に属するティア{0}以上のすべての基地を破壊する：{1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem={1}惑星系にあるエイリアン（{2}）と同盟を組んでいない派閥に属するティア{0}以上のすべての基地を破壊する
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=次の天体にて、エイリアン（{2}）と同盟を組んでいない派閥に属するティア{0}以上のすべての基地を破壊する：{1}
+TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem={1}惑星系にある、エイリアンと人間の過激主義派閥（{2}）に属するティア{0}以上のすべての基地を破壊する
+TIVictoryCondition.FreeBases_DefeatExtremists_Region=次の天体にて、エイリアンと人間の過激主義派閥（{2}）に属するティア{0}以上のすべての基地を破壊する:{1}
+
 TIVictoryCondition.FreeFleets_DefeatAliens_All=戦闘力{0}以上のエイリアン艦隊をすべて破壊する
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=エイリアンとその人間の支援者（{2}）に属する戦闘力{0}以上の艦隊をすべて破壊する
 TIVictoryCondition.FreeFleets_DefeatEveryone_All=自分の派閥に属しない戦闘力{0}以上の艦隊をすべて破壊する 
@@ -54,4 +67,9 @@ TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=次の天体�
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem={1}惑星系にて、エイリアンと人間の過激主義派閥（{2}）に属する戦闘力{0}以上の艦隊をすべて破壊する
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region=次の天体にて、エイリアンと人間の過激主義派閥（{2}）に属する戦闘力{0}以上の艦隊をすべて破壊する：{1}
 
+TIVictoryCondition.BasePresence_MajorPlanets=次の惑星系（主星またはいずれかの衛星）にて、全モジュールがティア{0}以上かつ、電力が供給され、稼働状態にある完全な地上基地を有する：
+
 TIVictoryCondition.Complete=完了
+TIVictoryCondition.Incomplete=未完了
+TIVictoryCondition.Colon={0}：{1}
+

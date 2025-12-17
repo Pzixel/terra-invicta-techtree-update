@@ -3346,6 +3346,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 20,
    "incomeInfluence": 6,
    "detectionEspBonus": -2,
@@ -3464,6 +3465,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 40,
    "upgradesFrom": "Eminent",
    "incomeInfluence": 9,
@@ -3589,6 +3591,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 60,
    "upgradesFrom": "Famous",
    "incomeInfluence": 12,
@@ -3719,6 +3722,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 20,
    "incomeInfluence": 4,
    "detectionEspBonus": -2,
@@ -3845,6 +3849,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 40,
    "upgradesFrom": "OpinionLeader",
    "incomeInfluence": 7,
@@ -3978,6 +3983,7 @@
    "tags": [
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 60,
    "upgradesFrom": "MediaDarling",
    "incomeInfluence": 10,
@@ -4546,6 +4552,7 @@
       "Badguy",
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 40,
    "upgradesFrom": "Agitator",
    "incomeInfluence": 4,
@@ -4705,6 +4712,7 @@
       "Badguy",
       "Popular "
    ],
+   "easilyVisible": true,
    "XPCost": 60,
    "upgradesFrom": "Firebrand",
    "randomCouncilorsOnly": true,
@@ -5357,8 +5365,9 @@
    "friendlyName": "National Hero",
    "grouping": 4,
    "tags": [
-      "Popular "
+      "Popular"
    ],
+   "easilyVisible": true,
    "XPCost": 30,
    "influenceCost": 50,
    "rerollTrait": "FamilyTies",
@@ -5505,6 +5514,7 @@
    "tags": [
       "Open"
    ],
+   "easilyVisible": true,
    "incomeInfluence": 2,
    "statMods": [
       {
@@ -10946,6 +10956,7 @@
       "Badguy",
       "Dangerous"
    ],
+   "easilyVisible": true,
    "XPCost": 150,
    "moneyCost": 500,
    "influenceCost": 500,
@@ -11071,6 +11082,7 @@
       "Goodguy",
       "Dangerous"
    ],
+   "easilyVisible": true,
    "incomeInfluence": 3,
    "statMods": [
       {
@@ -11762,6 +11774,7 @@
  {
    "dataName": "Martyr",
    "friendlyName": "Martyr",
+   "easilyVisible": true,
    "statMods": [
       {
          "stat": "Persuasion",

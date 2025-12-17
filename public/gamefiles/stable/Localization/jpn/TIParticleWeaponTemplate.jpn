@@ -60,6 +60,10 @@ TIParticleWeaponTemplate.displayName.HeavyParticleLance=重粒子ランス
 TIParticleWeaponTemplate.description.HeavyParticleLance=敵の電子機器を混乱させ、乗組員を行動不能する無力化粒子を発射する、大型の船首搭載リニア加速器。
 TIParticleWeaponTemplate.displayName.SpinalParticleLance=棘状粒子ランス
 TIParticleWeaponTemplate.description.SpinalParticleLance=敵の電子機器を混乱させ、乗組員を行動不能する無力化粒子を発射する、巨大な船首搭載リニア加速器。
+TIParticleWeaponTemplate.displayName.AntimatterPointDefenseBattery=反物質局所防衛バッテリー
+TIParticleWeaponTemplate.description.AntimatterPointDefenseBattery=バースト射撃にて局所防衛を行う高速回転する反物質ビーム砲塔。
+TIParticleWeaponTemplate.displayName.HeavyAntimatterPointDefenseBattery=重反物質砲局所防衛バッテリー
+TIParticleWeaponTemplate.description.HeavyAntimatterPointDefenseBattery=艦隊全体の局所防衛支援用に設計された、巨大な反物質ビーム砲塔
 TIParticleWeaponTemplate.displayName.AntimatterParticleCannon=反物質砲
 TIParticleWeaponTemplate.description.AntimatterParticleCannon=リニア加速器は反物質の集中型ビームをターゲットに向けて発射して、膨大な熱および放射能ダメージを与える。
 TIParticleWeaponTemplate.displayName.HeavyAntimatterParticleCannon=重反物質砲
@@ -88,4 +92,4 @@ TIParticleWeaponTemplate.XRayDamage=X線ダメージ（放射能）：<rcol>{0}<
 TIParticleWeaponTemplate.BaryonicDamage=バリオンダメージ（放射線）、 内部へは ×{0}：<rcol>{1}</rcol>
 
 TIParticleWeaponTemplate.Defense.MissilesOnly=<h>防御砲火は対ミサイルのみ。</h>
-TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>ミサイル以外の標的に対する防御砲火の効果は低下する</h>
+TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>ミサイル以外の発射物に対する防御砲火の効果は低下する</h>

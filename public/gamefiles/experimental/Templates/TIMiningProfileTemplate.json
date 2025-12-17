@@ -78,7 +78,7 @@
    "fissiles_mean": 0,
    "fissiles_width": 0.25,
    "fissiles_min": 0,
-   "fissiles_jump": 0.1
+   "fissiles_jump": 0.2
  },
  {
    "dataName": "MixedCSMine",
@@ -130,9 +130,9 @@
    "nobles_min": 3,
    "nobles_jump": 0.1,
    "fissiles_mean": 0,
-   "fissiles_width": 0,
+   "fissiles_width": 0.25,
    "fissiles_min": 0,
-   "fissiles_jump": 0
+   "fissiles_jump": 0.1
  },
  {
    "dataName": "IcyCarbonaceousMine",
@@ -238,9 +238,9 @@
    "nobles_min": 5,
    "nobles_jump": 0.2,
    "fissiles_mean": 0,
-   "fissiles_width": 0.75,
-   "fissiles_min": 0,
-   "fissiles_jump": 0.4
+   "fissiles_width": 1,
+   "fissiles_min": 0.1,
+   "fissiles_jump": 0.5
  },
  {
    "dataName": "MetallicMine",
@@ -292,7 +292,7 @@
    "nobles_min": 0,
    "nobles_jump": 0.2,
    "fissiles_mean": 0,
-   "fissiles_width": 1.5,
+   "fissiles_width": 1.75,
    "fissiles_min": 0,
    "fissiles_jump": 0.7
  },
@@ -319,9 +319,9 @@
    "nobles_min": 0,
    "nobles_jump": 0.2,
    "fissiles_mean": 0,
-   "fissiles_width": 1.75,
+   "fissiles_width": 2,
    "fissiles_min": 0,
-   "fissiles_jump": 0.6
+   "fissiles_jump": 0.8
  },
  {
    "dataName": "VestoidMine",

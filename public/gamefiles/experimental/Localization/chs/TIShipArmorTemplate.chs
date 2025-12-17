@@ -24,16 +24,16 @@ TIShipArmorTemplate.displayName.AlienExoticArmor=外星奇异装甲
 TIShipArmorTemplate.description.AlienExoticArmor=具有奇异性质的异物质。
 
 TIShipArmorTemplate.ResourcesPerTon=每吨成本：<rcol>{0}</rcol>
-TIShipArmorTemplate.KineticsResistance={0} 点动能伤害抗性加成
-TIShipArmorTemplate.LaserResistance={0} 点激光伤害抗性加成
-TIShipArmorTemplate.ChippingResistance={0} 点破片抗性加成
-TIShipArmorTemplate.KineticsVulnerability=遭受动能武器攻击时受到 {0} 点额外伤害
-TIShipArmorTemplate.LaserVulnerability=遭受激光攻击时受到 {0} 点额外伤害
-TIShipArmorTemplate.ChippingVulnerability=被击中时产生 {0} 点额外装甲破片
-TIShipArmorTemplate.XRayResistance=相对于钢，对粒子武器 X 射线拥有 {0} 点抗性加成
-TIShipArmorTemplate.XRayVulnerability=遭受粒子武器 X 射线攻击时受到 {0} 点额外伤害
-TIShipArmorTemplate.BaryonicResistance=相对于钢，对粒子武器中子束拥有 {0} 点抗性加成
-TIShipArmorTemplate.BaryonicVulnerability=遭受粒子武器中子束攻击时受到 {0} 点额外伤害
+TIShipArmorTemplate.KineticsResistance=动能伤害抗性加成：<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserResistance=激光伤害抗性加成：<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingResistance=破片抗性加成：<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsVulnerability=遭受动能武器攻击时受到的额外伤害：<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserVulnerability=遭受激光武器攻击时受到的额外伤害：<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingVulnerability=被击中时产生的额外装甲破片：<rcol>{0}</rcol>
+TIShipArmorTemplate.XRayResistance_Header=X 射线伤害减半点数
+TIShipArmorTemplate.XRayResistance=X 射线伤害减半点数：<rcol>{0}</rcol>
+TIShipArmorTemplate.BaryonicResistance_Header=重子伤害减半点数
+TIShipArmorTemplate.BaryonicResistance=重子伤害减半点数：<rcol>{0}</rcol>
 
 TIShipArmorTemplate.ThicknessPerPoint=每个装甲点的厚度：<rcol>{0} 厘米</rcol>
 

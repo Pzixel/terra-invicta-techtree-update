@@ -809,14 +809,13 @@
    "dataName": "NovaLiquidRocketx1",
    "friendlyName": "Nova Liquid Rocket x1",
    "thrusters": 1,
-   "notes": "Monoatomic Hydrogen",
    "driveClassification": "Chemical",
    "requiredProjectName": "Project_ImprovedInterplanetaryRockets",
    "thrust_N": 7850000,
-   "EV_kps": 5.6,
+   "EV_kps": 5.3,
    "specificPower_kgMW": 0,
    "efficiency": 1,
-   "thrustRating_GW": "21.980",
+   "thrustRating_GW": "20.803",
    "req power": "0.000",
    "flatMass_tons": 15,
    "requiredPowerPlant": "Any_General",
@@ -839,10 +838,10 @@
    "driveClassification": "Chemical",
    "requiredProjectName": "Project_ImprovedInterplanetaryRockets",
    "thrust_N": 15700000,
-   "EV_kps": 5.6,
+   "EV_kps": 5.3,
    "specificPower_kgMW": 0,
    "efficiency": 1,
-   "thrustRating_GW": "43.960",
+   "thrustRating_GW": "41.605",
    "req power": "0.000",
    "flatMass_tons": 30,
    "requiredPowerPlant": "Any_General",
@@ -865,10 +864,10 @@
    "driveClassification": "Chemical",
    "requiredProjectName": "Project_ImprovedInterplanetaryRockets",
    "thrust_N": 23550000,
-   "EV_kps": 5.6,
+   "EV_kps": 5.3,
    "specificPower_kgMW": 0,
    "efficiency": 1,
-   "thrustRating_GW": "65.940",
+   "thrustRating_GW": "62.408",
    "req power": "0.000",
    "flatMass_tons": 45,
    "requiredPowerPlant": "Any_General",
@@ -891,10 +890,10 @@
    "driveClassification": "Chemical",
    "requiredProjectName": "Project_ImprovedInterplanetaryRockets",
    "thrust_N": 31400000,
-   "EV_kps": 5.6,
+   "EV_kps": 5.3,
    "specificPower_kgMW": 0,
    "efficiency": 1,
-   "thrustRating_GW": "87.920",
+   "thrustRating_GW": "83.210",
    "req power": "0.000",
    "flatMass_tons": 60,
    "requiredPowerPlant": "Any_General",
@@ -917,10 +916,10 @@
    "driveClassification": "Chemical",
    "requiredProjectName": "Project_ImprovedInterplanetaryRockets",
    "thrust_N": 39250000,
-   "EV_kps": 5.6,
+   "EV_kps": 5.3,
    "specificPower_kgMW": 0,
    "efficiency": 1,
-   "thrustRating_GW": "109.900",
+   "thrustRating_GW": "104.013",
    "req power": "0.000",
    "flatMass_tons": 75,
    "requiredPowerPlant": "Any_General",
@@ -943,10 +942,10 @@
    "driveClassification": "Chemical",
    "requiredProjectName": "Project_ImprovedInterplanetaryRockets",
    "thrust_N": 47100000,
-   "EV_kps": 5.6,
+   "EV_kps": 5.3,
    "specificPower_kgMW": 0,
    "efficiency": 1,
-   "thrustRating_GW": "131.880",
+   "thrustRating_GW": "124.815",
    "req power": "0.000",
    "flatMass_tons": 90,
    "requiredPowerPlant": "Any_General",
@@ -3075,16 +3074,16 @@
    "thrusters": 1,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_MassDriver",
-   "thrust_N": 10400,
+   "thrust_N": 12000,
    "EV_kps": 9.81,
-   "specificPower_kgMW": 50,
+   "specificPower_kgMW": 35,
    "efficiency": 0.65,
-   "thrustRating_GW": "0.051",
-   "req power": "0.078",
+   "thrustRating_GW": "0.059",
+   "req power": "0.091",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
    "thrustCap": 10,
-   "cooling": "Calc",
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3102,16 +3101,16 @@
    "thrusters": 2,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_MassDriver",
-   "thrust_N": 20800,
+   "thrust_N": 24000,
    "EV_kps": 9.81,
-   "specificPower_kgMW": 50,
+   "specificPower_kgMW": 35,
    "efficiency": 0.65,
-   "thrustRating_GW": "0.102",
-   "req power": "0.157",
+   "thrustRating_GW": "0.118",
+   "req power": "0.181",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
    "thrustCap": 10,
-   "cooling": "Calc",
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3129,16 +3128,16 @@
    "thrusters": 3,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_MassDriver",
-   "thrust_N": 31200,
+   "thrust_N": 36000,
    "EV_kps": 9.81,
-   "specificPower_kgMW": 50,
+   "specificPower_kgMW": 35,
    "efficiency": 0.65,
-   "thrustRating_GW": "0.153",
-   "req power": "0.235",
+   "thrustRating_GW": "0.177",
+   "req power": "0.272",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
    "thrustCap": 10,
-   "cooling": "Calc",
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3156,16 +3155,16 @@
    "thrusters": 4,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_MassDriver",
-   "thrust_N": 41600,
+   "thrust_N": 48000,
    "EV_kps": 9.81,
-   "specificPower_kgMW": 50,
+   "specificPower_kgMW": 35,
    "efficiency": 0.65,
-   "thrustRating_GW": "0.204",
-   "req power": "0.314",
+   "thrustRating_GW": "0.235",
+   "req power": "0.362",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
    "thrustCap": 10,
-   "cooling": "Calc",
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3183,16 +3182,16 @@
    "thrusters": 5,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_MassDriver",
-   "thrust_N": 52000,
+   "thrust_N": 60000,
    "EV_kps": 9.81,
-   "specificPower_kgMW": 50,
+   "specificPower_kgMW": 35,
    "efficiency": 0.65,
-   "thrustRating_GW": "0.255",
-   "req power": "0.392",
+   "thrustRating_GW": "0.294",
+   "req power": "0.453",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
    "thrustCap": 10,
-   "cooling": "Calc",
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3210,16 +3209,16 @@
    "thrusters": 6,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_MassDriver",
-   "thrust_N": 62400,
+   "thrust_N": 72000,
    "EV_kps": 9.81,
-   "specificPower_kgMW": 50,
+   "specificPower_kgMW": 35,
    "efficiency": 0.65,
-   "thrustRating_GW": "0.306",
-   "req power": "0.471",
+   "thrustRating_GW": "0.353",
+   "req power": "0.543",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
    "thrustCap": 10,
-   "cooling": "Calc",
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3237,16 +3236,16 @@
    "thrusters": 1,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_SuperconductingMassDriver",
-   "thrust_N": 20000,
-   "EV_kps": 30,
+   "thrust_N": 28000,
+   "EV_kps": 22,
    "specificPower_kgMW": 10,
    "efficiency": 0.85,
-   "thrustRating_GW": "0.300",
-   "req power": "0.353",
+   "thrustRating_GW": "0.308",
+   "req power": "0.362",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
-   "thrustCap": 20,
-   "cooling": "Calc",
+   "thrustCap": 15,
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3264,16 +3263,16 @@
    "thrusters": 2,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_SuperconductingMassDriver",
-   "thrust_N": 40000,
-   "EV_kps": 30,
+   "thrust_N": 56000,
+   "EV_kps": 22,
    "specificPower_kgMW": 10,
    "efficiency": 0.85,
-   "thrustRating_GW": "0.600",
-   "req power": "0.706",
+   "thrustRating_GW": "0.616",
+   "req power": "0.725",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
-   "thrustCap": 20,
-   "cooling": "Calc",
+   "thrustCap": 15,
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3291,16 +3290,16 @@
    "thrusters": 3,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_SuperconductingMassDriver",
-   "thrust_N": 60000,
-   "EV_kps": 30,
+   "thrust_N": 84000,
+   "EV_kps": 22,
    "specificPower_kgMW": 10,
    "efficiency": 0.85,
-   "thrustRating_GW": "0.900",
-   "req power": "1.059",
+   "thrustRating_GW": "0.924",
+   "req power": "1.087",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
-   "thrustCap": 20,
-   "cooling": "Calc",
+   "thrustCap": 15,
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3318,16 +3317,16 @@
    "thrusters": 4,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_SuperconductingMassDriver",
-   "thrust_N": 80000,
-   "EV_kps": 30,
+   "thrust_N": 112000,
+   "EV_kps": 22,
    "specificPower_kgMW": 10,
    "efficiency": 0.85,
-   "thrustRating_GW": "1.200",
-   "req power": "1.412",
+   "thrustRating_GW": "1.232",
+   "req power": "1.449",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
-   "thrustCap": 20,
-   "cooling": "Calc",
+   "thrustCap": 15,
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3345,16 +3344,16 @@
    "thrusters": 5,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_SuperconductingMassDriver",
-   "thrust_N": 100000,
-   "EV_kps": 30,
+   "thrust_N": 140000,
+   "EV_kps": 22,
    "specificPower_kgMW": 10,
    "efficiency": 0.85,
-   "thrustRating_GW": "1.500",
-   "req power": "1.765",
+   "thrustRating_GW": "1.540",
+   "req power": "1.812",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
-   "thrustCap": 20,
-   "cooling": "Calc",
+   "thrustCap": 15,
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -3372,16 +3371,16 @@
    "thrusters": 6,
    "driveClassification": "Electromagnetic",
    "requiredProjectName": "Project_SuperconductingMassDriver",
-   "thrust_N": 120000,
-   "EV_kps": 30,
+   "thrust_N": 168000,
+   "EV_kps": 22,
    "specificPower_kgMW": 10,
    "efficiency": 0.85,
-   "thrustRating_GW": "1.800",
-   "req power": "2.118",
+   "thrustRating_GW": "1.848",
+   "req power": "2.174",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Any_General",
-   "thrustCap": 20,
-   "cooling": "Calc",
+   "thrustCap": 15,
+   "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
       "metals": 1
@@ -13055,9 +13054,8 @@
    },
    "propellant": "ReactionProducts",
    "perTankPropellantMaterials": {
-      "water": 0.989,
-      "nobleMetals": 0.01,
-      "antimatter": 0.001
+      "water": 0.99,
+      "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_ProtiumConverterTorch"
 },
@@ -13084,9 +13082,8 @@
    },
    "propellant": "ReactionProducts",
    "perTankPropellantMaterials": {
-      "water": 0.989,
-      "nobleMetals": 0.01,
-      "antimatter": 0.001
+      "water": 0.99,
+      "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_ProtiumConverterTorch"
 },
@@ -13113,9 +13110,8 @@
    },
    "propellant": "ReactionProducts",
    "perTankPropellantMaterials": {
-      "water": 0.989,
-      "nobleMetals": 0.01,
-      "antimatter": 0.001
+      "water": 0.99,
+      "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_ProtiumConverterTorch"
 },
@@ -13142,9 +13138,8 @@
    },
    "propellant": "ReactionProducts",
    "perTankPropellantMaterials": {
-      "water": 0.989,
-      "nobleMetals": 0.01,
-      "antimatter": 0.001
+      "water": 0.99,
+      "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_ProtiumConverterTorch"
 },
@@ -13171,9 +13166,8 @@
    },
    "propellant": "ReactionProducts",
    "perTankPropellantMaterials": {
-      "water": 0.989,
-      "nobleMetals": 0.01,
-      "antimatter": 0.001
+      "water": 0.99,
+      "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_ProtiumConverterTorch"
 },
@@ -13200,9 +13194,8 @@
    },
    "propellant": "ReactionProducts",
    "perTankPropellantMaterials": {
-      "water": 0.989,
-      "nobleMetals": 0.01,
-      "antimatter": 0.001
+      "water": 0.99,
+      "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_ProtiumConverterTorch"
 },
@@ -13221,7 +13214,7 @@
    "req power": "166.579",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 60,
+   "thrustCap": 30,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13248,7 +13241,7 @@
    "req power": "333.158",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 60,
+   "thrustCap": 30,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13275,7 +13268,7 @@
    "req power": "499.737",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 60,
+   "thrustCap": 30,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13302,7 +13295,7 @@
    "req power": "666.316",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 60,
+   "thrustCap": 30,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13329,7 +13322,7 @@
    "req power": "832.895",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 60,
+   "thrustCap": 30,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13356,7 +13349,7 @@
    "req power": "999.474",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 60,
+   "thrustCap": 30,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13383,7 +13376,7 @@
    "req power": "1,065.464",
    "flatMass_tons": 10,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 65,
+   "thrustCap": 40,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13411,7 +13404,7 @@
    "req power": "2,130.928",
    "flatMass_tons": 20,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 65,
+   "thrustCap": 40,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13439,7 +13432,7 @@
    "req power": "3,196.392",
    "flatMass_tons": 30,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 65,
+   "thrustCap": 40,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13467,7 +13460,7 @@
    "req power": "4,261.856",
    "flatMass_tons": 40,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 65,
+   "thrustCap": 40,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13495,7 +13488,7 @@
    "req power": "5,327.320",
    "flatMass_tons": 50,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 65,
+   "thrustCap": 40,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13523,7 +13516,7 @@
    "req power": "6,392.784",
    "flatMass_tons": 60,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 65,
+   "thrustCap": 40,
    "cooling": "Closed",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13551,7 +13544,7 @@
    "req power": "3,583.673",
    "flatMass_tons": 10,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 70,
+   "thrustCap": 50,
    "cooling": "Calc",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13579,7 +13572,7 @@
    "req power": "7,167.347",
    "flatMass_tons": 20,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 70,
+   "thrustCap": 50,
    "cooling": "Calc",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13607,7 +13600,7 @@
    "req power": "10,751.020",
    "flatMass_tons": 30,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 70,
+   "thrustCap": 50,
    "cooling": "Calc",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13635,7 +13628,7 @@
    "req power": "14,334.694",
    "flatMass_tons": 40,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 70,
+   "thrustCap": 50,
    "cooling": "Calc",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13663,7 +13656,7 @@
    "req power": "17,918.367",
    "flatMass_tons": 50,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 70,
+   "thrustCap": 50,
    "cooling": "Calc",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13691,7 +13684,7 @@
    "req power": "21,502.041",
    "flatMass_tons": 60,
    "requiredPowerPlant": "Hybrid_Confinement_Fusion",
-   "thrustCap": 70,
+   "thrustCap": 50,
    "cooling": "Calc",
    "powerGen": "DriveIdle",
    "weightedBuildMaterials": {
@@ -13726,8 +13719,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999968059,
-      "antimatter": 0.000031941
+      "water": 0.99997,
+      "antimatter": 0.00003
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13753,8 +13746,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999968059,
-      "antimatter": 0.000031941
+      "water": 0.99997,
+      "antimatter": 0.00003
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13780,8 +13773,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999968059,
-      "antimatter": 0.000031941
+      "water": 0.99997,
+      "antimatter": 0.00003
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13807,8 +13800,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999968059,
-      "antimatter": 0.000031941
+      "water": 0.99997,
+      "antimatter": 0.00003
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13834,8 +13827,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999968059,
-      "antimatter": 0.000031941
+      "water": 0.99997,
+      "antimatter": 0.00003
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13861,8 +13854,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999968059,
-      "antimatter": 0.000031941
+      "water": 0.99997,
+      "antimatter": 0.00003
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13888,8 +13881,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999909,
-      "antimatter": 0.000091
+      "water": 0.99994,
+      "antimatter": 0.00006
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -13915,8 +13908,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999909,
-      "antimatter": 0.000091
+      "water": 0.99994,
+      "antimatter": 0.00006
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -13942,8 +13935,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999909,
-      "antimatter": 0.000091
+      "water": 0.99994,
+      "antimatter": 0.00006
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -13969,8 +13962,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999909,
-      "antimatter": 0.000091
+      "water": 0.99994,
+      "antimatter": 0.00006
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -13996,8 +13989,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999909,
-      "antimatter": 0.000091
+      "water": 0.99994,
+      "antimatter": 0.00006
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -14023,8 +14016,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.999909,
-      "antimatter": 0.000091
+      "water": 0.99994,
+      "antimatter": 0.00006
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -14050,8 +14043,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.9999,
-      "antimatter": 0.0001
+      "water": 0.99991,
+      "antimatter": 0.00009
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14077,8 +14070,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.9999,
-      "antimatter": 0.0001
+      "water": 0.99991,
+      "antimatter": 0.00009
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14104,8 +14097,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.9999,
-      "antimatter": 0.0001
+      "water": 0.99991,
+      "antimatter": 0.00009
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14131,8 +14124,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.9999,
-      "antimatter": 0.0001
+      "water": 0.99991,
+      "antimatter": 0.00009
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14158,8 +14151,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.9999,
-      "antimatter": 0.0001
+      "water": 0.99991,
+      "antimatter": 0.00009
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14185,8 +14178,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.9999,
-      "antimatter": 0.0001
+      "water": 0.99991,
+      "antimatter": 0.00009
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },

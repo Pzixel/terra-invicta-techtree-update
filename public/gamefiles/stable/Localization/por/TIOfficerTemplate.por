@@ -14,7 +14,7 @@ TIOfficerTemplate.displayName.Officer_Marine=Oficial de Fuzileiros
 TIOfficerTemplate.displayName.Officer_Supply=Oficial de Suprimentos
 TIOfficerTemplate.displayName.Officer_Chief=Chefe de Tripulação
 
-TIOfficerTemplate.description.Officer_Admiral=Um oficial veterano cuja presença concede bonificações para toda a frota. Apenas o almirante que esteja no módulo da ponte do almirantado sendo usado para reduzir o <color=#FFFFFFFF><sprite name=mission_control></color> da frota concederá bonificações.
+TIOfficerTemplate.description.Officer_Admiral=Um oficial veterano cuja presença concede bonificações para toda a frota. Apenas um almirante por frota concederá <color=#FFFFFFFF><sprite name=mission_control></color> de bonificações.
 TIOfficerTemplate.description.Officer_Captain=Comandante da nave.
 TIOfficerTemplate.description.Officer_First=O segundo em comando da nave.
 TIOfficerTemplate.description.Officer_FireControl=O oficial encarregado pelos sistemas de mísseis da nave.
@@ -27,7 +27,7 @@ TIOfficerTemplate.description.Officer_Medical=O oficial encarregado por manter a
 TIOfficerTemplate.description.Officer_CIC=O oficial encarregado pelo centro de informações de combate e defesas ativas da nave.
 TIOfficerTemplate.description.Officer_Intel=O oficial encarregado pelo conhecimento da tripulação sobre o inimigo.
 TIOfficerTemplate.description.Officer_Marine=O oficial encarregado pelo destacamento da fuzileiros desta nave.
-TIOfficerTemplate.description.Officer_Supply=O oficial encarregado pelos armazéns da nave.
+TIOfficerTemplate.description.Officer_Supply=O oficial encarregado pelos armazéns e sucatas da nave.
 TIOfficerTemplate.description.Officer_Chief=O astronauta sênior da nave que representa a tripulação.
 
 TIOfficerTemplate.Officer_Admiral_1=Contra-Almirante
@@ -79,7 +79,7 @@ TIOfficerTemplate.Officer_Supply_3=Tenente
 TIOfficerTemplate.Officer_Chief_3=Chefe Suboficial Mestre
 
 TIOfficerTemplate.MaxPerShip=-Máximo de oficiais desta categoria por nave: {0}
-TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-Máximo total de quaisquer categorias de oficiais, com exceção do almirante e do imediato, em cascos tipo {1}: {0}							// number, hull display name
+TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-Máximo total de {1} de quaisquer categorias de oficiais, com exceção do almirante e do imediato, em cascos tipo {0}							// number, hull display name
 TIOfficerTemplate.MaxTotalOfficersPerShip=-Máximo total de quaisquer categorias de oficiais na nave, com exceção do almirante e do imediato, limitado pelo tamanho do casco
 TIOfficerTemplate.CrewMin=-Tripulação mínima exigida: {0}
 TIOfficerTemplate.FlagBridge=-Requere um módulo de {0}																			// name of flag bridge ship utility module
@@ -121,6 +121,7 @@ TIOfficerTemplate.MaxSurvivableCombatAcceleration=-Aumenta a aceleração de com
 TIOfficerTemplate.MaxSurvivableCruiseAcceleration=-Aumenta a aceleração de navegação máxima permitida na nave em {0} g(s)
 TIOfficerTemplate.RadiationDamageReduction=-Reduz o dano de radiação provocado por armas de partícula em {2}
 TIOfficerTemplate.NoDemotionOnTransfer=-Não perderá um nível com transferência à outra nave
+TIOfficerTemplate.NoCostToTransfer=-O oficial não tem o custo de <color=#FFFFFFFF><sprite name="influence"></color> para ser transferido a outra nave
 
 TIOfficerTemplate.OfficerShipNameAndJob={0}: {1}, {2}			// ship name: rank + name, job
 TIOfficerTemplate.OfficerNameAndJob={0}, {1}					// rank + name, job

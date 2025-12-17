@@ -34,6 +34,19 @@ TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=在下列天
 TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=在{1}行星系统中摧毁所有阶层至少为 {0}，且属于外星人和人类极端分子阵营 ({2}) 的太空殖民地
 TIVictoryCondition.FreePlanets_DefeatExtremists_Region=在下列天体中摧毁所有阶层至少为 {0}，且属于外星人和人类极端分子阵营 ({2}) 的太空殖民地：{1}
 
+TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem=在{1}行星系统中摧毁所有阶层至少为 {0} 的外星人基地
+TIVictoryCondition.FreeBases_DefeatAliens_Region=在下列天体中摧毁所有阶层至少为 {0} 的外星人基地：{1}
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem=在{1}星系中摧毁所有阶层至少为 {0}，且属于外星人及其人类支持者 ({2}) 的基地
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_Region=在下列天体中摧毁所有阶层至少为 {0}，且属于外星人及其人类支持者 ({2}) 的基地：{1}
+TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem=在{1}行星系统中摧毁所有阶层至少为 {0}，且不属于我方阵营的基地
+TIVictoryCondition.FreeBases_DefeatEveryone_Region=在下列天体中摧毁所有阶层至少为 {0}，且不属于我方阵营的基地：{1}
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem=在{1}行星系统中摧毁所有阶层至少为 {0}，且属于反外星人阵营 ({2}) 的基地
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=在下列天体中摧毁所有阶层至少为 {0}，且属于反外星人阵营 ({2}) 基地：{1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=在{1}行星系统中摧毁所有阶层至少为 {0}，且属于未与外星人结盟阵营 ({2}) 的基地
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=在下列天体中摧毁所有阶层至少为 {0}，且属于未与外星人结盟阵营 ({2}) 的基地：{1}
+TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem=在{1}行星系统中摧毁所有阶层至少为 {0}，且属于外星人和人类极端分子阵营 ({2}) 的基地
+TIVictoryCondition.FreeBases_DefeatExtremists_Region=在下列天体中摧毁所有阶层至少为 {0}，且属于外星人和人类极端分子阵营 ({2}) 的基地：{1}
+
 TIVictoryCondition.FreeFleets_DefeatAliens_All=摧毁所有战斗力至少达到 {0} 的外星人舰队
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=摧毁所有战斗力至少达到 {0}，且属于外星人及其人类支持者 ({2}) 的舰队
 TIVictoryCondition.FreeFleets_DefeatEveryone_All=摧毁所有战斗力至少达到 {0}，且不属于我方阵营的舰队 
@@ -54,7 +67,9 @@ TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=在下列天�
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=在{1}行星系统中摧毁所有战斗力至少达到 {0}，且属于外星人和人类极端分子阵营 ({2}) 的舰队
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region=在下列天体中摧毁所有战斗力至少达到 {0}，且属于外星人和人类极端分子阵营 ({2}) 的舰队：{1}
 
+TIVictoryCondition.BasePresence_MajorPlanets=拥有一个完整的地面基地，其中所有舱体至少达到 {0} 级，并且在以下行星系统（主星或其任何卫星）中处于运行和活跃状态：
 
 TIVictoryCondition.Complete=完成
-
+TIVictoryCondition.Incomplete=未完成
+TIVictoryCondition.Colon={0}：{1}
 

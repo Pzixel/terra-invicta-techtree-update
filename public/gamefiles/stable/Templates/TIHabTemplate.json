@@ -74,7 +74,7 @@
          "habModuleNames": [
             "PlatformCore",
             "",
-            "",
+            "SolarCollector",
             "",
             ""
          ]
@@ -126,6 +126,7 @@
    "alien": true,
    "orbitTemplateName": "",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "AlienCouncil",
@@ -184,6 +185,7 @@
    "alien": true,
    "orbitTemplateName": "",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "AlienCouncil",
@@ -242,6 +244,7 @@
    "alien": false,
    "orbitTemplateName": "LowSaturnOrbit",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "ResistCouncil",
@@ -300,6 +303,7 @@
    "alien": false,
    "orbitTemplateName": "MediumEarthOrbit",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "ResistCouncil",
@@ -311,8 +315,8 @@
             "OperationsCenter"
          ]
       },
-	  {
-         "faction": "",
+      {
+         "faction": "ResistCouncil",
          "habModuleNames": [
             "",
             "",
@@ -330,7 +334,7 @@
          ]
       },
       {
-         "faction": "",
+         "faction": "ResistCouncil",
          "habModuleNames": [
             "",
             "",
@@ -346,7 +350,66 @@
             "FusionReactorArray",
             "FusionReactorArray"
          ]
-      }      
+      }
+   ]
+},
+ {
+   "dataName": "ValkyrieStation",
+   "friendlyName": "Valkyrie Station",
+   "habType": "Station",
+   "tier": 3,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "HighMercuryOrbit",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "RingCore",
+            "SolarFarm",
+            "SolarFarm",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "MarineBattalionBarracks",
+            "SolarFarm",
+            "Battlestations",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "InterstellarLaunchingLaser",
+            "Battlestations",
+            "Battlestations",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "Supercollider",
+            "SolarFarm",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      },
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "MediaCenter",
+            "Battlestations",
+            "SolarFarm",
+            "SolarFarm"
+         ]
+      }
    ]
 },
  {
@@ -358,14 +421,74 @@
    "alien": false,
    "orbitTemplateName": "",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "ResistCouncil",
          "habModuleNames": [
             "OutpostCore",
             "OutpostMiningComplex",
-            "FusionPile",
-            "FusionPile",
+            "",
+            "",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "StormBase",
+   "friendlyName": "Storm Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "LunaSite1",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "DestroyCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "SolarCollector",
             ""
          ]
       },
@@ -403,6 +526,360 @@
             "",
             "",
             ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "CopernicusBase",
+   "friendlyName": "Copernicus Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "LunaSite4",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "CooperateCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "SolarCollector",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "PearyBase",
+   "friendlyName": "Peary Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "LunaSite2",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "ShackletonBase",
+   "friendlyName": "Shackleton Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "LunaSite8",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "ExploitCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "SolarCollector",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "KorolevBase",
+   "friendlyName": "Korolev Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "LunaSite6",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "AppeaseCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "SolarCollector",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "DAlembertBase",
+   "friendlyName": "D'Alembert Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "LunaSite3",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "KalininBase",
+   "friendlyName": "Kalinin Base",
+   "habType": "Base",
+   "tier": 3,
+   "habSite": "LunaSite7",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "ColonyCore",
+            "OutpostMiningComplex",
+            "FusionReactorArray",
+            "MarineBattalionBarracks",
+            "PointDefenseArray"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "FusionReactorArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "LayeredDefenseArray"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "FusionReactorArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "FusionReactorFarm"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "LayeredDefenseArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "FusionReactorFarm"
+         ]
+      },
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "FusionReactorArray",
+            "LayeredDefenseArray",
+            "Battlestations",
+            "FusionReactorFarm"
          ]
       }
    ]
@@ -416,70 +893,13 @@
    "alien": false,
    "orbitTemplateName": "",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "ResistCouncil",
          "habModuleNames": [
             "ColonyCore",
-            "OutpostMiningComplex",
-            "HeavyFissionReactorFarm",
-            "MarineCompanyBarracks",
-            "LayeredDefenseArray"
-         ]
-      },
-      {
-         "faction": "ResistCouncil",
-         "habModuleNames": [
-            "CommandCenter",
-            "CommandCenter",
-            "CommandCenter",
-            "HeavyFissionReactorArray"
-         ]
-      },
-      {
-         "faction": "ResistCouncil",
-         "habModuleNames": [
-            "CommandCenter",
-            "CommandCenter",
-            "CommandCenter",
-            "SupplyDepot"
-         ]
-      },
-      {
-         "faction": "ResistCouncil",
-         "habModuleNames": [
-            "CommandCenter",
-            "CommandCenter",
-            "CommandCenter",
-            "HeavyFissionPile"
-         ]
-      },
-      {
-         "faction": "ResistCouncil",
-         "habModuleNames": [
-		    "CommandCenter",
-            "Farm",
-            "CommandCenter",
-            "FusionReactorArray"
-         ]
-      }
-   ]
-},
-{
-   "dataName": "MarsBase2",
-   "friendlyName": "Mars Base 2",
-   "habType": "Base",
-   "tier": 1,
-   "habSite": "MarsSite4",
-   "alien": false,
-   "orbitTemplateName": "",
-   "meanAnomalyAtEpoch_Deg": null,
-   "sectors": [
-      {
-         "faction": "ResistCouncil",
-         "habModuleNames": [
-            "OutpostCore",
-            "OutpostMiningComplex",
+            "",
             "FusionReactorArray",
             "MarineCompanyBarracks",
             "LayeredDefenseArray"
@@ -515,7 +935,7 @@
       {
          "faction": "ResistCouncil",
          "habModuleNames": [
-		    "CommandCenter",
+            "CommandCenter",
             "Farm",
             "CommandCenter",
             "FusionReactorArray"
@@ -524,72 +944,74 @@
    ]
 },
  {
-   "dataName": "KalininBase",
-   "friendlyName": "Kalinin Base",
+   "dataName": "TerraSirenumBase",
+   "friendlyName": "Terra Sirenum Base",
    "habType": "Base",
-   "tier": 3,
-   "habSite": "LunaSite9",
+   "tier": 1,
+   "habSite": "MarsSite3",
    "alien": false,
    "orbitTemplateName": "",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
-         "faction": "SubmitCouncil",
+         "faction": "ResistCouncil",
          "habModuleNames": [
-            "ColonyCore",
-            "OutpostMiningComplex",
+            "OutpostCore",
+            "",
             "FusionReactorArray",
-            "MarineBattalionBarracks",
-            "PointDefenseArray"
-         ]
-      },
-      {
-         "faction": "SubmitCouncil",
-         "habModuleNames": [
-            "FusionReactorArray",
-            "LayeredDefenseArray",
-            "Battlestations",
+            "MarineCompanyBarracks",
             "LayeredDefenseArray"
          ]
       },
       {
-         "faction": "SubmitCouncil",
+         "faction": "",
          "habModuleNames": [
-            "FusionReactorArray",
-            "LayeredDefenseArray",
-            "Battlestations",
-            "FusionReactorFarm"
+            "",
+            "",
+            "",
+            ""
          ]
       },
       {
-         "faction": "SubmitCouncil",
+         "faction": "",
          "habModuleNames": [
-            "LayeredDefenseArray",
-            "LayeredDefenseArray",
-            "Battlestations",
-            "FusionReactorFarm"
+            "",
+            "",
+            "",
+            ""
          ]
       },
       {
-         "faction": "SubmitCouncil",
+         "faction": "",
          "habModuleNames": [
-            "FusionReactorArray",
-            "LayeredDefenseArray",
-            "Battlestations",
-            "FusionReactorFarm"
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
          ]
       }
    ]
 },
-{
+ {
    "dataName": "MaddenBase",
    "friendlyName": "Madden Base",
    "habType": "Base",
    "tier": 3,
-   "habSite": "PhobosSite1",
+   "habSite": "MarsSite22",
    "alien": false,
    "orbitTemplateName": "",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "SubmitCouncil",
@@ -639,15 +1061,16 @@
       }
    ]
 },
-{
+ {
    "dataName": "InternationalSpaceStationSkirmish",
    "friendlyName": "International Space Station",
    "habType": "Station",
    "tier": 1,
    "habSite": "",
    "alien": false,
-   "orbitTemplateName": "LowEarthOrbit1",
-   "meanAnomalyAtEpoch_Deg": 241.0107,
+   "orbitTemplateName": "LowEarthOrbit4",
+   "meanAnomalyAtEpoch_Deg": 312.374,
+   "epoch_floatJYears": 2021.4767,
    "sectors": [
       {
          "faction": "ResistCouncil",
@@ -697,7 +1120,7 @@
       }
    ]
 },
-{
+ {
    "dataName": "AlienHQStationSkirmish",
    "friendlyName": "Alien Station Alpha",
    "habType": "Station",
@@ -706,6 +1129,7 @@
    "alien": true,
    "orbitTemplateName": "LowNeptuneOrbit",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "AlienCouncil",
@@ -764,6 +1188,7 @@
    "alien": false,
    "orbitTemplateName": "LowEarthOrbit2",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "SubmitCouncil",
@@ -822,6 +1247,7 @@
    "alien": false,
    "orbitTemplateName": "LowLunarOrbit",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "ResistCouncil",
@@ -833,8 +1259,8 @@
             "LayeredDefenseArray"
          ]
       },
-	  {
-         "faction": "",
+      {
+         "faction": "ResistCouncil",
          "habModuleNames": [
             "",
             "",
@@ -852,7 +1278,7 @@
          ]
       },
       {
-         "faction": "",
+         "faction": "ResistCouncil",
          "habModuleNames": [
             "",
             "",
@@ -868,68 +1294,10 @@
             "FissionReactorArray",
             "FissionReactorArray"
          ]
-      }      
-   ]
-},
- {
-   "dataName": "ValkyrieStation",
-   "friendlyName": "Valkyrie Station",
-   "habType": "Station",
-   "tier": 3,
-   "habSite": "",
-   "alien": false,
-   "orbitTemplateName": "HighMercuryOrbit",
-   "meanAnomalyAtEpoch_Deg": null,
-   "sectors": [
-      {
-         "faction": "EscapeCouncil",
-         "habModuleNames": [
-            "RingCore",
-            "SolarFarm",
-            "SolarFarm",
-            "SolarFarm",
-            "SolarFarm"
-         ]
-      },
-      {
-         "faction": "EscapeCouncil",
-         "habModuleNames": [
-            "MarineBattalionBarracks",
-            "SolarFarm",
-            "Battlestations",
-            "SolarFarm"
-         ]
-      },
-      {
-         "faction": "EscapeCouncil",
-         "habModuleNames": [
-            "",
-            "Battlestations",
-            "Battlestations",
-            "SolarFarm"
-         ]
-      },
-      {
-         "faction": "EscapeCouncil",
-         "habModuleNames": [
-            "Supercollider",
-            "SolarFarm",
-            "SolarFarm",
-            "SolarFarm"
-         ]
-      },
-      {
-         "faction": "EscapeCouncil",
-         "habModuleNames": [
-            "MediaCenter",
-            "Battlestations",
-            "SolarFarm",
-            "SolarFarm"
-         ]
       }
    ]
 },
-{
+ {
    "dataName": "ValkyrieStationSkirmish",
    "friendlyName": "Valkyrie Station",
    "habType": "Station",
@@ -938,6 +1306,7 @@
    "alien": false,
    "orbitTemplateName": "LowMercuryOrbit",
    "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
    "sectors": [
       {
          "faction": "EscapeCouncil",
@@ -961,7 +1330,7 @@
       {
          "faction": "EscapeCouncil",
          "habModuleNames": [
-            "InterstellarLaunchingLaser",
+            "SolarFarm",
             "Battlestations",
             "Battlestations",
             "SolarFarm"
@@ -987,4 +1356,1243 @@
       }
    ]
 },
+ {
+   "dataName": "2070ScienceStation1",
+   "friendlyName": "Albert Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "CooperateCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "SpaceScienceLab",
+            "SolarCollector",
+            "EnergyLab",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070ScienceStation2",
+   "friendlyName": "Mvezo Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit2",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "AppeaseCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "InformationScienceLab",
+            "SolarCollector",
+            "SocialScienceLab",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070ScienceStation3",
+   "friendlyName": "Fadlan Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "",
+            "SolarCollector",
+            "LifeScienceLab",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070SpaceDockStation1",
+   "friendlyName": "Endeavour Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit2",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "SpaceDock",
+            "SolarCollector",
+            "",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070SpaceDockStation2",
+   "friendlyName": "Wu Zetian Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "AppeaseCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "",
+            "SolarCollector",
+            "SpaceDock",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070MilitaryStation1",
+   "friendlyName": "Witkó Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit2",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "MilitaryScienceLab",
+            "SolarCollector",
+            "MaterialsLab",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070MilitaryStation2",
+   "friendlyName": "Achillies Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "DestroyCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "MarinePlatoonBarracks",
+            "SolarCollector",
+            "MilitaryScienceLab",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070TouristStation",
+   "friendlyName": "Elysian Fields Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit2",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "ExploitCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "",
+            "SolarCollector",
+            "TouristBerth",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070MediaStation",
+   "friendlyName": "Signal Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "LowEarthOrbit1",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "BroadcastOutlet",
+            "SolarCollector",
+            "",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070MoonStation",
+   "friendlyName": "Gateway Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "MediumLunarOrbit",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "CooperateCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "",
+            "SolarCollector",
+            "SpaceDock",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070MarsStation",
+   "friendlyName": "Feldspar Station",
+   "habType": "Station",
+   "tier": 1,
+   "habSite": "",
+   "alien": false,
+   "orbitTemplateName": "DeimosParkingOrbit",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "CooperateCouncil",
+         "habModuleNames": [
+            "PlatformCore",
+            "SupplyDepot",
+            "SolarCollector",
+            "",
+            "SolarCollector"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070ArcadiaPlanitiaBase",
+   "friendlyName": "Arcadia Planitia Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "MarsSite1",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "SubmitCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "FissionPile",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070TempeTerraBase",
+   "friendlyName": "Tempe Terra Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "MarsSite3",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "AppeaseCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "",
+            "FissionPile"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070AcidaliaPlanitiaBase",
+   "friendlyName": "Acidalia Planitia Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "MarsSite4",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "ExploitCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "FissionPile",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070UtopiaPlanitiaBase",
+   "friendlyName": "Utopia Planitia Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "MarsSite5",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "CooperateCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "FissionPile",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070OlympusMonsBase",
+   "friendlyName": "Olympus Mons Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "MarsSite6",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "DestroyCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "",
+            "FissionPile"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070XantheTerraBase",
+   "friendlyName": "Xanthe Terra Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "MarsSite13",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "ResistCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "FissionPile",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070ArabiaTerraBase",
+   "friendlyName": "Arabia Terra Base",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "MarsSite8",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "EscapeCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "FissionPile",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070DeimosBase",
+   "friendlyName": "Voltaire Crater Mine",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "DeimosSite1",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "ExploitCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "",
+            "FissionPile"
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070PhobosBase",
+   "friendlyName": "Stickney Crater Mine",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "PhobosSite1",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "ExploitCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "",
+            "FissionPile",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "2070ErosBase",
+   "friendlyName": "Charlois Regio Mine",
+   "habType": "Base",
+   "tier": 1,
+   "habSite": "433ErosSite1",
+   "alien": false,
+   "orbitTemplateName": "",
+   "meanAnomalyAtEpoch_Deg": null,
+   "epoch_floatJYears": null,
+   "sectors": [
+      {
+         "faction": "ExploitCouncil",
+         "habModuleNames": [
+            "OutpostCore",
+            "OutpostMiningComplex",
+            "FissionPile",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "faction": "",
+         "habModuleNames": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
+   ]
+}
 ]

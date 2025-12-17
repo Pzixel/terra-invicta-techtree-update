@@ -60,6 +60,15 @@ TIFactionTemplate.leader.description.EscapeCouncil=2008 年，取得牛津大学
 TIFactionTemplate.leader.description.SubmitCouncil=曾就读德州沃思堡的西南浸信会神学院，2012 年辍学。后因煽动群众和运送管控物质被起诉，该管控物资与 2014 年亚利桑那州永恒之源邪教成员集体自杀有关；随后指控被撤销。2015 年至今为一系列总部位于加州的新世纪网站担任内容主管，预测外星人会在未来数十年间登陆地球。在此期间，她成为了一名颇受欢迎的公众演说家兼自我成长大师。
 TIFactionTemplate.leader.description.AppeaseCouncil=1975 年获得钦奈大学政治学学士学位，在学期间为德拉维达进步联盟学生支部的成员。 1976 年，在北方邦穆扎法尔讷格尔参加反强制绝育抗争时遭到警方开枪射击。 1976 到 1980 年居住于加拿大温哥华。 1980 到 2000 年，在黎巴嫩、卢安达及科索沃等多地担任联合国维和活动公民监督员及申诉专员。 1984 年于康考迪亚大学取得法律硕士学位，主攻国际人权法。曾在战犯法庭及对任务期间犯下严重罪行的维和人员的起诉中作证。自 2000 年起，他在诸多人权及和平组织中担任顾问一职。
 TIFactionTemplate.leader.description.CooperateCouncil=1988 年取得清华大学航空航天学士学位；1994 年取得麻省理工学院化学硕士及博士学位；1999 年于清华大学取得公共管理学博士；自 2000 年起担任西安交通大学科技政策及管理教授；2014 到 2017 年担任九校联盟的主任。她积极倡导建设天眼射电望远镜及使用其搜寻地外文明计划的任务。
+
+TIFactionTemplate.leader.description.2070_ResistCouncil=2056 年，英国陆军情报团上尉退役；2056 到 2057 年，未公开地点，英国秘密情报局情报官员；2058 到 2059 年，秘密情报局与欧洲反恐中心联络人；2059 到 2062 年，拉各斯情报站长；2062 到 2064 年，伊斯兰堡情报站长；2064 到 2065 年，非洲事务副处长；2066 年至今，未公开地点，叛乱组织高级顾问。
+TIFactionTemplate.leader.description.2070_DestroyCouncil=曾作为伞兵参加马普切战争，2042 年因在隆登山战役中的英勇表现受到嘉奖。2045 年于西半球安全合作学院受训。21 世纪 50 年代，在委内瑞拉、巴拿马和秘鲁担任各种反分裂主义特种作战单位及民兵部队担任前线军官或顾问。21 世纪 60 年代，曾在五角大楼的拉丁美洲政策部门工作。2065 年，因涉嫌在 21 世纪 50 年代的兀鹰行动中犯下战争罪行，短暂在布宜诺斯艾利斯遭到监禁，于 2066 年无罪释放。
+TIFactionTemplate.leader.description.2070_ExploitCouncil=2054 年至今在军火制造商西部军械中担任诸多职位，包含自2064 起担任的董事长。在 DWKY 工业公司拥有少数股权，该公司与博茨瓦纳及纳米比亚政府拥有钻石开采合作关系。他偶尔会因为各种利益相关的用工行为遭到激进媒体批评，但目前尚未受到过任何正式调查。
+TIFactionTemplate.leader.description.2070_EscapeCouncil=2058 年，取得牛津大学物理及哲学硕士学位；阿尔札比卫星通信公司主要投资人；2067 到 2069 年，海湾联盟谷神星任务副行政主管。数个太空爱好者组织及刊物的知名赞助者。
+TIFactionTemplate.leader.description.2070_SubmitCouncil=曾就读德州沃思堡的西南浸信会神学院，2012 年辍学。后因煽动群众和运送管控物质被起诉，该管控物资与 2064 年亚利桑那州永恒之源邪教成员集体自杀有关；随后指控被撤销。2015 年至今为一系列总部位于加州的新世纪网站担任内容主管，预测外星人会在未来数十年间登陆地球。在此期间，她成为了一名颇受欢迎的公众演说家兼自我成长大师。
+TIFactionTemplate.leader.description.2070_AppeaseCouncil=2035 年获得钦奈大学政治学学士学位，在学期间成为民权活动家。 2034 年，在北方邦穆扎法尔讷格尔的一场抗议活动中遭到警方开枪射击。2034 到 2040 年居住于加拿大温哥华。2040 到 2060 年，在俾路支省、塔毛利帕斯州和摩尔多瓦等多地担任联合国维和活动公民监督员及申诉专员。 2044 年于康考迪亚大学取得法律硕士学位，主攻国际人权法。曾在战犯法庭及对任务期间犯下严重罪行的维和人员的起诉中作证。自 2060 年起，他在诸多人权及和平组织中担任顾问一职。
+TIFactionTemplate.leader.description.2070_CooperateCouncil=2038 年取得清华大学航空航天学士学位；1994 年取得麻省理工学院化学硕士及博士学位；1999 年于清华大学取得公共管理学博士；自 2050 年起担任西安交通大学科技政策及管理教授；2014 到 2017 年担任九校联盟的主任。她积极倡导建设天眼射电望远镜及使用其搜寻地外文明计划的任务。
+
 TIFactionTemplate.CampaignStartHeadline.ResistCouncil=抵抗外星人入侵
 TIFactionTemplate.CampaignStartHeadline.DestroyCouncil=根除外星人侵扰
 TIFactionTemplate.CampaignStartHeadline.ExploitCouncil=设法取得权力
@@ -74,7 +83,7 @@ TIFactionTemplate.CampaignStart.ExploitCouncil=欢迎，{0}。理事会已任命
 TIFactionTemplate.CampaignStart.AppeaseCouncil=欢迎，{0}。理事会已任命您为{1}的领袖。我是您的助手{2}。<br/><br/>外星人抵达{3}是人类有史以来面临的最大危机。任何能够穿越广袤宇宙来到我们星球的种族，其实力肯定非我们能比。我们是一群来自各行各业的志愿者，深知我们不能拿整个人类种族的生存做赌注。我们必须和外星人合作，和他们达成最理想的共识。<br/><br/>我建议我们尽快派遣一位理事去调查{4}地区的坠毁地点。与此同时您也可以派遣其他理事，试着在能为我们的事业贡献资源的国家中建立影响力。<br/><br/>点击屏幕左上角的阵营标志，即可随时查看我们的目标。 // rank, council name, leader name
 TIFactionTemplate.CampaignStart.CooperateCouncil=您好，{0}。理事会已任命您为{1}的领袖。我是您的教务长{2}。<br/><br/>我们生活在一个混乱的时代，也是一个风险和机遇并存的时代。外星人抵达{3}对我们来说可能是福音，也可能是灾厄，但我们目前还无法确认何者为真。<br/><br/>至于您要如何运用各位理事的专业知识，我不会冒昧地给你建议。从您所处的职位来看，您的专业知识一定远超于我。// rank, council name, leader name
 TIFactionTemplate.CampaignStart.EscapeCouncil=向您问好，{0}。理事会已任命您为{1}的领袖。我是你的副行政官{2}。<br/><br/>外星人迫降{3}，既是绝佳的机会，也是极大的危险。因此，我们集结了一小群精通天体物理、情报分析和太空探索的专家。我们必须了解这些生物、他们的来历，以及他们在地球上的计划。<br/><br/>我建议我们尽快派遣一位理事去调查{4}地区的坠毁地点。与此同时您也可以派遣其他理事，试着在能为我们的事业贡献资源的国家中建立影响力。<br/><br/>点击屏幕左上角的阵营标志，即可随时查看我们的目标。 // rank, council name, leader name
-TIFactionTemplate.CampaignStart.SubmitCouncil=你好，{0}。理事会已任命你为我们的临时代表和军事指挥官。我是你的随从兼向导{2}。<br/><br/>发生在{3}的事件想必让你感到很不安，甚至是害怕。这很正常，毕竟一切都变了，过去的生活一去不复返。不过新世界就要降临，在其中每个人都有各自的职责，而你将会承担起最为重大的责任。<br/><br/>相信你已经听说过很多关于我和{1}的事了，而且大部分都不是什么好事。你肯定有很多疑问，但我恐怕无法为你一一解答，至少现在还不行。你只需要知道，我给你的指示背后有更崇高的目的。我保证，总有一天会把一切解释给你听。而那天来临之前，希望你能相信我。// rank, council name, leader name
+TIFactionTemplate.CampaignStart.SubmitCouncil=你好，{0}。理事会已任命你为我们的临时代表和军事指挥官。我是你的随从兼向导{2}。<br/><br/>发生在{3}的事件想必让你感到很不安，甚至是害怕。这很正常，毕竟一切都变了，过去的生活一去不复返。不过新世界就要降临，在其中每个人都有各自的职责，而你将会承担起最为重大的责任。<br/><br/>相信你已经听说过很多关于我和{1}的事了，而且大部分都不是什么好事。你肯定有很多疑问，但我恐怕无法为你一一解答，至少现在还不行。你只需要知道，我给你的指示背后有更崇高的目的。我保证，总有一天会把一切解释给你听。而那天来临之前，希望你能相信我。<br/><br/>点击屏幕左上角的阵营标志，即可随时查看我们的目标。	// rank, council name, leader name
 TIFactionTemplate.Introduction.Summary=我们遇到了{0}。
 TIFactionTemplate.Introduction.ResistCouncil=我们遇到了{0}。<br/><br/>该团体的领袖深信外星人对人类是威胁，将会阻止人类掌握自己的未来，他们正在悄悄地准备与外星人作战。<br/><br/>{4}<br/>   - {1} {2} {3}
 TIFactionTemplate.Introduction.DestroyCouncil=我们遇到了{0}。<br/><br/>这个阵营集结了地球上所有的排外主义者。他们的追随者一律反对外星人的到来，甚至还威胁那些支持想要和外星人沟通的人类。<br/><br/>{4}<br/>   - {1} {2} {3}
@@ -86,7 +95,7 @@ TIFactionTemplate.Introduction.EscapeCouncil=我们遇到了{0}。<br/><br/>这�
 TIFactionTemplate.Introduction.AlienCouncil=我们首次直接目睹了{0}。
 TIFactionTemplate.Quote.AppeaseCouncil=<align="right">“我们不能打一场会导致人类灭绝的战争。我们唯一的希望就是了解外星人来访的目的，并想办法在不失去自主权的前提下满足他们。”<align="left">
 TIFactionTemplate.Quote.CooperateCouncil=<align="right">“我相信我们可以和他们如手足般平起平坐，唯一的前提就是要说服他们我们配得上这样的待遇。”<align="left">
-TIFactionTemplate.Quote.DestroyCouncil=<align="right">“他们不是‘生命体’或‘外星人’。他们是魔鬼的化身。他们和支持他们的叛徒都将面对我们的审判。”<align="left">
+TIFactionTemplate.Quote.DestroyCouncil=<align="right">“他们不是‘生命体’，也不是‘外星人’，而是魔鬼的化身。他们和支持他们的叛徒都将面对我们的审判。”<align="left">
 TIFactionTemplate.Quote.EscapeCouncil=<align="right">“我们必须离开摇篮，我们这个物种才能延续下去，一向都是如此。如果这些外星人真的抱有敌意，那现在就是离开的时候。”<align="left">
 TIFactionTemplate.Quote.ExploitCouncil=<align="right">“每个情况都是一个机会。辨识并把握机会就是我们要面对的考验。”<align="left">
 TIFactionTemplate.Quote.ResistCouncil=<align="right">“我们要做的不仅仅是保护人类不受外星人伤害，而是要确保人类还能有尊严地活下去。”<align="left">
@@ -97,7 +106,7 @@ TIFactionTemplate.Goal.ExploitCouncil=利用外星人的到来获取权力
 TIFactionTemplate.Goal.SubmitCouncil=用尽一切方法支持外星人
 TIFactionTemplate.Goal.AppeaseCouncil=讨好外星人来保护人类
 TIFactionTemplate.Goal.CooperateCouncil=说服外星人我们是平等的物种
-TIFactionTemplate.Goal.EscapeCouncil=将人类送去别的星球来逃离外星人威胁
+TIFactionTemplate.Goal.EscapeCouncil=将人类送去别的星球来逃离外星人
 TIFactionTemplate.Victory.ResistCouncil=关闭海德拉虫洞
 TIFactionTemplate.Victory.DestroyCouncil=将生化武器送进海德拉虫洞
 TIFactionTemplate.Victory.ExploitCouncil=使用外星人科技控制地球和外星人
@@ -254,6 +263,3 @@ TIFactionTemplate.Diplomacy.Alien.Appease.Tolerance=我们容忍你的存在（<
 TIFactionTemplate.Diplomacy.Alien.Cooperate.War=讨厌的障碍（<color=#9964FF>除掉威胁</color>）。
 TIFactionTemplate.Diplomacy.Alien.Cooperate.Conflict=停止，停止，停止。（<color=#9964FF>威胁，威胁，威胁</color>）。
 TIFactionTemplate.Diplomacy.Alien.Cooperate.Tolerance=沟通=可接受（<color=#9964FF>人类=可被说服？</color>）。
-
-
-

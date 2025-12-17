@@ -2279,6 +2279,10 @@
             "defenderAttribute": "Administration"
          },
          {
+            "$type": "TIMissionModifier_ProtectionBonus",
+            "defenderAttribute": "Administration"
+         },
+         {
             "$type": "TIMissionModifier_OrgDefenses"
          },
          {
@@ -3627,10 +3631,6 @@
       "defendingModifiers": [
          {
             "$type": "TIMissionModifier_NationPopulation"
-         },
-         {
-            "$type": "TIMissionModifier_ProtectionBonus",
-            "defenderAttribute": "Command"
          },
          {
             "$type": "TIMissionModifier_NationalRivalries"

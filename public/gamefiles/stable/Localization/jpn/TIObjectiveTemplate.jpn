@@ -6,7 +6,7 @@ TIObjectiveTemplate.MilestoneFulfilled.AccessLiveHydra=生け捕りにされた�
 TIObjectiveTemplate.MilestoneFulfilled.Summary.AccessLiveHydra=我々は、別世界からやって来た知的生命体と直面した。
 TIObjectiveTemplate.MilestoneFulfilled.Detail.AccessLiveHydra=別世界からやって来た生命体を自らの目で見た時の感覚を伝えるのは不可能だ。そんな生命体が動き、息を吸い、間違いなくエイリアンな目で我々を見つめるを目の当たりにすることの違和感は言葉にすることができない。<br/><br/>たとえもし我々の中に詩人がいたとしても、混沌とした畏敬の念と<i>何かが間違っているに違いないという感覚</i>、そして人間としての経験からかけ離れた存在を目の当たりにするという特権を十分に表現することはできまい。不格好な頭蓋骨、不自然に口の中に踊る巻きひげ、地球に存在する何物にも似ないテクスチャーと模様の肌に反射する光の揺れ…<br/><br/>この生命体が発生する音ですら、我々の知る言語という定義を超越する。この生命体の内面をいつか知ることができるかもしれないという可能性など、現在のところ、戯言にしか過ぎない。そんな見解が近い将来に変わることを期待しよう。<br/><br/>我々や他の人々が以前こんな生命体と瞬間的に遭遇したことがあったとしても、また、今後何が起こるとしても、これは歴史に永遠に残る分岐点だ。
 
-TIObjectiveTemplate.MilestoneFulfilled.AccessAlienTech=サルベージされたエイリアン・テクノロジー
+TIObjectiveTemplate.MilestoneFulfilled.AccessAlienTech=回収されたエイリアン・テクノロジー
 TIObjectiveTemplate.MilestoneFulfilled.Summary.AccessAlienTech=我々は先端的な地球外物資を回収したので、これらを研究することができる。
 TIObjectiveTemplate.MilestoneFulfilled.Detail.AccessAlienTech=我々は真の宝の山とも呼べる地球外テクノロジーを回収した。基本的な機能ですら我々には理解できない不可解なマシン、我々には全く馴染みのない構造を持った金属、さらに、ネジやボルトですら馬鹿げた耐性を備えている。これらを金の鉱脈と呼ぶのでは世紀の過小評価として笑われるであろう。<br/><br/>この度回収された品々の中の微々たる欠片も研究する価値が大いにあるはずだ。これらはきっと、遠く離れた世界から我々の惑星に到達する方法を知っている種の至高の技術であるのだから。 
 
@@ -58,14 +58,18 @@ TIObjectiveTemplate.MilestoneFulfilled.AlienMegafaunaSpawns=エイリアン・�
 TIObjectiveTemplate.MilestoneFulfilled.Summary.AlienMegafaunaSpawns=地球で、新種の巨大地球外生命体が確認された。
 TIObjectiveTemplate.MilestoneFulfilled.Detail.AlienMegafaunaSpawns=以前は、エイリアン訪問者によって変容された地帯は奇妙なまでに静かだったが、今はこの世離れした植生の一帯を巨大な山のようなシルエットが徘徊している。これまでは、我々の世界に地球外生命体がいるということを頑なに信じない人々がいたが、今回現れた映像に捉えられたこれらの巨大な生物は、これらの懐疑家の確信を粉々に打ち砕いた。<br/><br/>この生物の巨大な胴体は太陽の光を遮り、歩けば一歩ごとに大地が揺れる。木々や建物はまるでティッシュペーパーであるかのように横になぎ倒されるか、あたかも苗木であるかのように膨大な巻きひげに引き抜かれる。さらに、何キロも離れた所でも、この巨大生物が泣く時は空気が歪曲するかのようだ。既に全世界が知っている。我々の世界に巨人がいるということを。
 
+TIObjectiveTemplate.MilestoneFulfilled.AlienInfrastructureExists=エイリアンとの接触
+TIObjectiveTemplate.MilestoneFulfilled.Summary.AlienInfrastructureExists=地球上でエイリアンの存在が明らかとなった。
+TIObjectiveTemplate.MilestoneFulfilled.Detail.AlienInfrastructureExists=エイリアンは地球に大して何らかの計画を進めており、自らの領地をみなす場所へと固定された防衛施設を建設している。
+
 TIObjectiveTemplate.MilestoneFulfilled.TutorialAssignMission=ミッションを割り当てた
 TIObjectiveTemplate.MilestoneFulfilled.TutorialGainControlPoint=コントロール・ポイントを獲得した
-TIObjectiveTemplate.MilestoneFulfilled.TutorialCheckNationalPriority=国家のプライオリティを確認した
+TIObjectiveTemplate.MilestoneFulfilled.TutorialCheckNationalPriority=国家のプライオリティを調整した
 TIObjectiveTemplate.MilestoneFulfilled.TutorialSetResearchPriority=リサーチ・プライオリティを設定した
 TIObjectiveTemplate.MilestoneFulfilled.TutorialRecruitCouncilor=評議員をリクルートした
 TIObjectiveTemplate.MilestoneFulfilled.TutorialPurchaseOrg=組織を購入した
-TIObjectiveTemplate.MilestoneFulfilled.TutorialFoundStation=国際宇宙ステーションを建設した
-TIObjectiveTemplate.MilestoneFulfilled.TutorialProbeSpaceBody=天体を探査した
+TIObjectiveTemplate.MilestoneFulfilled.TutorialFoundStation=ステーションを建設した
+TIObjectiveTemplate.MilestoneFulfilled.TutorialProbeSpaceBody=天体を調査した
 TIObjectiveTemplate.MilestoneFulfilled.TutorialFoundBase=基地を建設した
 TIObjectiveTemplate.MilestoneFulfilled.TutorialBuildShip=宇宙船を建設した
 
@@ -81,190 +85,230 @@ TIObjectiveTemplate.VictorySummary.AlienCouncil=人類を従属させる
 TIObjectiveTemplate.ResourcesGain=次の資源を獲得した：{0}
 
 
-TIObjectiveTemplate.displayName.TutorialSelectCouncilor.ResistCouncil=ミッションフェーズ中に、評議員の一人を選択
-TIObjectiveTemplate.solution.TutorialSelectCouncilor.ResistCouncil=次のミッションフェーズが始まるまでゲームの時計を前送り。その後、地球のジオスケープ上にいる評議員の一人を選択。
+
+TIObjectiveTemplate.displayName.TutorialSelectCouncilor.ResistCouncil=ミッション割り当てフェーズ中に我々の評議員から1人選択
+TIObjectiveTemplate.solution.TutorialSelectCouncilor.ResistCouncil=次のミッション割り当てフェーズが開始されるまでゲーム内の時計を早送りする。その後、地球のジオスケープ上、または画面右側の「ファインダーパネル」から評議員を1人選択する。
 
 TIObjectiveTemplate.displayName.TutorialSelectMission.ResistCouncil=評議員のミッションを選択
-TIObjectiveTemplate.solution.TutorialSelectMission.ResistCouncil=インターフェイスの中央下にあるリストから実行するミッションを選択し、ジオスケープ内の適切なターゲットをクリックする。
+TIObjectiveTemplate.solution.TutorialSelectMission.ResistCouncil=ビュー中央下部のミッションインターフェースから、評議員に割り当てるミッションを選択する。その後、ジオスケープ上または「ミッションのターゲット」メニューから適切なターゲットを選択する。
 
-TIObjectiveTemplate.displayName.TutorialUseMissionSlider.ResistCouncil=評議員ミッションの資源スライダーを使う
-TIObjectiveTemplate.solution.TutorialUseMissionSlider.ResistCouncil=もしミッションの難易度が高ければ、このスライダーを使って使用する資源の量を増やし、成功する確率を高めることができる。
+TIObjectiveTemplate.displayName.TutorialUseMissionSlider.ResistCouncil=評議員ミッションの資源スライダーを調整
+TIObjectiveTemplate.solution.TutorialUseMissionSlider.ResistCouncil=もしミッションの難易度が高ければ、このスライダーを使って使用する資源の量を増やし、評議員が成功する確率を高めることができる。資源の消費量は、しばしば成否を左右するものとなる。
 
 TIObjectiveTemplate.displayName.TutorialAssignMission.ResistCouncil=評議員をミッションに任命
-TIObjectiveTemplate.solution.TutorialAssignMission.ResistCouncil=全ての評議員をミッションに任命した後、任命確定ボタンを押す必要がある。
-TIObjectiveTemplate.description.TutorialAssignMission.ResistCouncil=地球上での影響力を高めるのにもっとも重要なのが評議員の<h>ミッション</h>だ。月に二回ある<h>ミッションフェーズ</h>期間に、全ての派閥が自らの評議員をミッションに割り当てる必要がある。ミッションのターゲットの対象となるのは国家、コントロール・ポイント、宇宙施設、そして他の評議員である。<br/><br/>ミッションは、ミッション・フェーズの間の数週間に特定の順序で行われる。守備的なミッションは、性質上攻撃的なミッションの前に行われる。自動的に成功するミッションもあるものの、その多くは遂行が難しいものであり、成功させるためには相当な知恵と労力が必要とされる。
-TIObjectiveTemplate.resolution.TutorialAssignMission.ResistCouncil=毎週発生する各ミッションフェーズの最初に、評議員を新しいミッションに割り当てることができ、ゲームが進むにつれて月2回にペースダウンしていく。<br/><br/><h>右上のコントロールで、ゲーム速度を上げることもできる。</h>
+TIObjectiveTemplate.solution.TutorialAssignMission.ResistCouncil=全ての評議員をミッションに任命した後、任命確定ボタンをクリックする必要がある。これで時間を進めれば、ミッションは自動的に解決される。
 
+TIObjectiveTemplate.description.TutorialAssignMission.ResistCouncil=地球上の状況への対応において我々の派閥の主要な手段となるのが<h>評議員</h>だ。評議員は、地球上の国家での我々の影響力を高めたり、世界中での我々の利益を守ったいr、エイリアンの到来を調査する<h>ミッション</h>を行える。<br/><br/>定期的に<h>ミッション割り当てフェーズ</h>が訪れ、この機関中に全ての派閥が自らの評議員をミッションに割り当てる必要がある。ミッションのターゲットの対象となるのは国家、コントロール・ポイント、宇宙施設、そして他の評議員である。<br/><br/>ミッション割り当てフェーズの後、ミッションは数日から数週間に特定の順序で行われる。守備的なミッションは、性質上攻撃的なミッションの前に行われる。自動的に成功するミッションもあるものの、その多くは遂行が難しいものであり、成功させるためには相当な知恵と労力が必要とされる。
+
+TIObjectiveTemplate.resolution.TutorialAssignMission.ResistCouncil=ミッション割り当てフェーズごとに、評議員に新たなミッションを割り当てるようにしよう。これらはキャンペーン開始時には毎週発生するが、時間が経つにつれて発生頻度が少なくなっていく。<br/><br/><h>ビューの右上隅の時間制御昨日を使って、ゲームをより早く進めることができる。</h>
 
 TIObjectiveTemplate.displayName.TutorialSetResearchPriority.ResistCouncil=プライオリティ「研究」の設定
-TIObjectiveTemplate.solution.TutorialSetResearchPriority.ResistCouncil=研究スクリーンを開き、完了したいテクノロジーかプロジェクトのサイクラーをクリックして、公共研究または派閥エンジニアリング・プロジェクトのプライオリティを変更できる。
-TIObjectiveTemplate.description.TutorialSetResearchPriority.ResistCouncil=Terra Invictaの研究は2つのカテゴリーに分かれている。ひとつは公共研究で、もうひとつは派閥エンジニアリング。科学的原理を理解するための世界的な努力の一環として、全ての派閥は同時に最大3つまでの公共研究に関与することができる。<h>特定の公共研究に最も貢献した派閥が、次に世界が遂行する公共プロジェクトを選択することになる。</h><br/><br/>派閥エンジニアリング・プロジェクトは民間で行われるものであり、ほとんどの場合に具体的な利益を生み出す。<br/><br/>それぞれの派閥は、研究収入を公共プロジェクトと民間プロジェクトに配分することができる。全ての研究をひとつの分野に集中させて速やかに完了させることもできるが、この場合、特定の研究分野に関連した派閥ボーナスが得られない。
-TIObjectiveTemplate.resolution.TutorialSetResearchPriority.ResistCouncil=全世界技術に貢献すると、研究できる民間派閥プロジェクトをアンロックする可能性を上げることができる。特定のハブ・モジュールや組織があれば、複数の民間プロジェクトを同時に遂行することが可能。
+TIObjectiveTemplate.solution.TutorialSetResearchPriority.ResistCouncil=「研究開発」ウィンドウの研究タブを開こう。国際技術または派閥プロジェクトのサイクラーをクリックして、いずれかのプライオリティ設定を変更しよう。
+
+TIObjectiveTemplate.description.TutorialSetResearchPriority.ResistCouncil=『Terra Invicta』の研究は2つのカテゴリーに分かれている。ひとつは<h>国際研究</h>で、もうひとつは<h>エンジニアリング・プロジェクト</h>だ。科学的原理を理解するための世界的な努力の一環として、全ての派閥は同時に最大3つまでの国際研究に関与することができる。研究が完了すると、派閥が研究できる新たなプロジェクトがアンロックされる。<h>特定の国際研究に最も貢献した派閥が、次に世界が遂行する研究を選択することになる。</h><br/><br/>派閥エンジニアリング・プロジェクトは各派閥が独自に進めるものであり、ほとんどの場合に具体的な利益を生み出す。<br/><br/>それぞれの派閥は、<h>研究収入</h>を国際研究と派閥内の研究に配分することができる。全ての研究をひとつの分野に集中させて速やかに完了させることもできるが、この場合、特定の研究分野に関連した派閥ボーナスが得られない。
+
+TIObjectiveTemplate.resolution.TutorialSetResearchPriority.ResistCouncil=国際研究に貢献すると、研究できる民間プロジェクトをアンロックする可能性を上げることができる。特定の<h>ハブ・モジュール</h>や<h>組織</h>があれば、派閥の研究能力を向上させ、複数の民間プロジェクトを同時に遂行することが可能。
 
 TIObjectiveTemplate.displayName.TutorialSelectProject.ResistCouncil=プロジェクトの選択
-TIObjectiveTemplate.solution.TutorialSelectProject.ResistCouncil=あなたの派閥が研究する新しいプロジェクトを選択してください。
-
+TIObjectiveTemplate.solution.TutorialSelectProject.ResistCouncil=我々の派閥が研究する新しいプロジェクトを選択する。
 
 TIObjectiveTemplate.displayName.TutorialAssignControlNationMission.ResistCouncil=評議員を「国家コントロール」ミッションに任命
-TIObjectiveTemplate.solution.TutorialAssignControlNationMission.ResistCouncil=影響力を高めたい国家に評議員を送る。評議員を選択し、インターフェイスの中央下にあるミッションリストから「国家コントロール」ミッションを選択する。
+TIObjectiveTemplate.solution.TutorialAssignControlNationMission.ResistCouncil=影響力を高めたい国家に評議員を送る。評議員を選択し、画面中央下にある評議員のミッションリストから「国家コントロール」ミッションをクリックする。次に、ジオスケープまたは「ミッションのターゲット」メニューから対象となる国を選択し、「国家コントロール」ミッションボタンをクリックしてミッションを確定する。
 
 TIObjectiveTemplate.displayName.TutorialGainControlPoint.ResistCouncil=特定の国家でコントロール・ポイントを獲得
-TIObjectiveTemplate.solution.TutorialGainControlPoint.ResistCouncil=国家コントロール・ミッションの遂行に成功すると、その国家でコントロール・ポイントを獲得できる。
-TIObjectiveTemplate.description.TutorialGainControlPoint.ResistCouncil=国家の政治力と経済力を示すのが<h>コントロール・ポイント</h>だ。このポイントを有していると、その国家の資源を使用でき、投資の優先順位を決定し、特定の場合には軍隊を指揮することもできる。<br/><br/>各国家には1～6のコントロール・ポイントがあり、その数はその国家の経済力に比例する。<br/><br/>ゲーム開始時、全てのコントロール・ポイントはどの派閥にも属さない。しかし、全派閥がキャンペーン初期にそれを狙っていると想定したほうが良いだろう。まだ手を付けられていないコントロール・ポイントは、「コントロール獲得」評議員ミッションで獲得することができる。一方、「粛清」ミッションでは、他の派閥からコントロール・ポイントを奪うことができる。<br/><br/>国家の一番右のコントロール・ポイントは行政コントロール・ポイントと呼ばれ、これを有していると政策制定ミッションを遂行することができる。これによって可能になるのは、開戦、同盟締結、その他の高レベルな国家活動である。
-TIObjectiveTemplate.resolution.TutorialGainControlPoint.ResistCouncil=我々は最初のコントロール・ポイントを獲得した。これにより、この国家の資源を使用したり、国家活動のプライオリティを決定することができ、さらには軍隊を指揮できる可能性もある。コントロール・ポイントは弾圧や粛清ミッションにより、他の派閥から狙われることがある。そのため、この国家においてミッション「利益を守る」を行い、他の派閥のそのような行動を抑止するのが賢明な策かもしれない。 
+TIObjectiveTemplate.solution.TutorialGainControlPoint.ResistCouncil=評議員に「国家コントロール」ミッションを成功させることで、我々の派閥はその国家内のコントロール・ポイントの所有権を獲得する。
 
+TIObjectiveTemplate.description.TutorialGainControlPoint.ResistCouncil=国家の政治力と経済力を示すのが<h>コントロール・ポイント</h>だ。このポイントを有していると、その国家の資源を使用でき、その国家の<h>プライオリティ</h>を決定し、特定の場合には1つ以上の<h>軍隊</h>を指揮することもできる。<br/><br/>各国家には1～6のコントロール・ポイントがあり、その数はその国家の経済力に比例する。<br/><br/>ゲーム開始時、全てのコントロール・ポイントはどの派閥にも属さない。しかし、全派閥がキャンペーン初期にそれを狙っていると想定したほうが良いだろう。まだ手を付けられていないコントロール・ポイントは、<h>国家コントロール</h>ミッションで獲得することができる。一方、<h>粛清</h>ミッションでは、他の派閥からコントロール・ポイントを奪うことができる。強力な国家のコントロール・ポイントほど、奪うことが難しくなる。<br/><br/>国家の一番右のコントロール・ポイントは<h>行政コントロール・ポイント</h>と呼ばれ、これを有していると<h>国家政策の制定</h>ミッションを遂行することができる。これによって可能になるのは、開戦、同盟締結、その他の高レベルな国家活動である。
+
+TIObjectiveTemplate.resolution.TutorialGainControlPoint.ResistCouncil=我々は最初のコントロール・ポイントを獲得した。これにより、この国家の資源を使用したり、国家活動のプライオリティを決定することができ、さらには軍隊を指揮できる可能性もある。コントロール・ポイントは弾圧や粛清ミッションにより、他の派閥から狙われることがある。そのため、この国家においてミッション「利益を守る」を行い、他の派閥のそのような行動を抑止するのが賢明な策かもしれない。
 
 TIObjectiveTemplate.displayName.TutorialCheckNationalPriority.ResistCouncil=国家のプライオリティの変更
-TIObjectiveTemplate.solution.TutorialCheckNationalPriority.ResistCouncil=国家を選択し、「国家情報パネル」で「プライオリティ」ボタンを選択すると、その国家の現在のプライオリティが表示されます。次に、国のプライオリティを、関連する点をクリックすることで調整できます。  
-TIObjectiveTemplate.description.TutorialCheckNationalPriority.ResistCouncil=国家のプライオリティは、その国の経済的余剰分を、<h>投資ポイント</h>という形でどのように分配するかを決定します。プライオリティは、国家の成長を決定します。例えば、軍隊の編成、教育への投資、宇宙開発などの分野に、どのくらい投資するかを決定することができます。国家のコントロール・ポイントを取得すると、その国家のプライオリティを決定することができます。 
-TIObjectiveTemplate.resolution.TutorialCheckNationalPriority.ResistCouncil=我々の支配下にある国家のプライオリティを指示するだけでなく、敵の支配下にある国家の発展を監視することは、エイリアンの脅威に対応する私たちの努力において非常に重要なことです。<br/><br/>我々の支配下にある国々をどのように成長させたいか、少し考えてみましょう。おそらくある国は、宇宙資産のための<h>ミッション・コントロール</h>を生産することに集中できるでしょう。また、新しいテクノロジーをより早く研究できるように、<h>科学</h>の生産量を増やすことに集中することもできます。また、<h>軍事技術</h>に集中することで、エイリアンとの直接対決に備えることもできるでしょう。<br/><br/>エイリアンの脅威に立ち向かえるような安定した国家を目指すのであれば、<h>結束力</h>が下がりすぎないよう、<h>社会不安</h>が高まらないよう、<h>格差</h>が手に負えなくならないように気を配りましょう。 
 
+TIObjectiveTemplate.solution.TutorialCheckNationalPriority.ResistCouncil=我々の派閥が少なくとも1つのコントロール・ポイントを有する国家をクリックし、国家パネルの<h>プライオリティ</h>タブを選択する。次に、関連する点をクリックすることで、国家のプライオリティを調整できる。  
+
+TIObjectiveTemplate.description.TutorialCheckNationalPriority.ResistCouncil=国家の<h>プライオリティ</h>は、その国の経済的余剰分を、<color=#FFFFFFFF><sprite name=investments></color><h>投資ポイント</h>という形でどのように分配するかを決定する。プライオリティは、国家の成長の方向性を、軍隊の編制、教育への投資、<h>宇宙開発計画</h>の発展等様々な形で決定する。国家のコントロール・ポイントを多く獲得するほどに、その国家のプライオリティへの影響力を高めることができる。
+
+TIObjectiveTemplate.resolution.TutorialCheckNationalPriority.ResistCouncil=我々の支配下にある国家の<h>プライオリティ</h>を指示するだけでなく、他の派閥の支配下にある国家の発展を監視することは、エイリアンの脅威に対応する私たちの努力において非常に重要なことだ。<br/><br/>我々の支配下にある国々をどのように成長させたいか、少し考えてみよう。おそらくある国は、宇宙資産のための<color=#FFFFFFFF><sprite name=mission_control></color><h>ミッション・コントロール</h>を生産することに集中できるだろう。また、新しいテクノロジーをより早く研究できるように、<color=#FFFFFFFF><sprite name=research></color><h>毎月の研究生産量</h>を増やすことに集中することもできる。また、<h>軍事</h>に集中することで、エイリアンとの直接対決や、敵国への侵略に備えることもできるはずだ。<br/><br/>エイリアンの脅威に立ち向かえるような安定した国家を目指すのであれば、<color=#FFFFFFFF><sprite name=culture></color><h>結束力</h>が下がりすぎないよう、<color=#FFFFFFFF><sprite name=nation_unrest></color><h>社会不安</h>が高まらないよう、<color=#FFFFFFFF><sprite name=inequality></color><h>格差</h>が手に負えなくならないように気を配ろう。
 
 TIObjectiveTemplate.displayName.TutorialAssignPublicCampaign.ResistCouncil=評議員を社会広報ミッションに任命
-TIObjectiveTemplate.solution.TutorialAssignPublicCampaign.ResistCouncil=国家の経済規模が大きくなればなるほど、その国家でミッションを遂行することがかなり難しくなる。もし<h>世論</h>を味方につければ、この問題を解決することができる。社会広報ミッションを使って、<h>世論</h>を我々の味方につけよう。国民の支持が高ければ、その国家で行われるミッション（例えば「国家コントロール」ミッションなど）の成功確率が上がるだろう。
+TIObjectiveTemplate.solution.TutorialAssignPublicCampaign.ResistCouncil=国家の経済規模が大きくなればなるほど、その国家でミッションを遂行することがかなり難しくなる。もし世論を味方につければ、この問題を解決することができる。社会広報ミッションに人員を割り当てて、世論を我々の味方につけよう。国民の支持が高ければ、その国家で行われる様々な種類のミッションの成功確率が上がるだろう。
 
-TIObjectiveTemplate.displayName.TutorialTakeOverAdjacentControlPoint.ResistCouncil=近隣のコントロール・ポイントを1個奪取する。
-TIObjectiveTemplate.solution.TutorialTakeOverAdjacentControlPoint.ResistCouncil=自分が支配している国に隣接している国のコントロールポイントを占領する方が簡単です。「国家コントロール・ミッション」ミッションを使って隣接するコントロールポイントを占領しましょう。
+TIObjectiveTemplate.displayName.TutorialTakeOverAdjacentControlPoint.ResistCouncil=近隣のコントロール・ポイントを1個奪取する
+TIObjectiveTemplate.solution.TutorialTakeOverAdjacentControlPoint.ResistCouncil=我々がすでに支配した国家と国境を接する国家では、コントロール・ポイントを獲得しやすい。隣接するコントロール・ポイントを獲得するための「国家コントロール」ミッションを割り当てて実行し、より大きな国家における、同様のミッションの成功率を高めよう。
 
-TIObjectiveTemplate.displayName.TutorialTakeOverFederationControlPoint.ResistCouncil=同じ連邦のコントロール・ポイントを1個奪取する。
-TIObjectiveTemplate.solution.TutorialTakeOverFederationControlPoint.ResistCouncil=国家コントロール・ミッションの成功を高めるもうひとつの方法は、同じ連邦に所属する国にコントロール・ポイントを所有することである。
+TIObjectiveTemplate.displayName.TutorialTakeOverFederationControlPoint.ResistCouncil=同じ連邦のコントロール・ポイントを1個奪取する
+TIObjectiveTemplate.solution.TutorialTakeOverFederationControlPoint.ResistCouncil=国家コントロール・ミッションの成功を高めるもうひとつの方法は、対象となる国家と同じ連邦に所属する国にコントロール・ポイントを所有することである。
 
 TIObjectiveTemplate.displayName.TutorialGainLargeNationControlPoint.ResistCouncil=大国家でコントロール・ポイントを獲得する
-TIObjectiveTemplate.solution.TutorialGainLargeNationControlPoint.ResistCouncil=少なくとも5つのコントロール・ポイントがある国家で、「国家コントロール」ミッションを成功させる。
+TIObjectiveTemplate.solution.TutorialGainLargeNationControlPoint.ResistCouncil=少なくとも4つのコントロール・ポイントがある国家で、「国家コントロール」ミッションを成功させる。
+
 TIObjectiveTemplate.description.TutorialGainLargeNationControlPoint.ResistCouncil=さまざまな支援を協力して勝ち取るべきではあるが、エイリアンがもたらす潜在的な脅威に有意義に立ち向かうには、膨大な資源を保有する複数の国家からの支援が必要だ。必要であれば、エイリアンの脅威と互角に戦えるよう、<h>ブースト</h>を発生させている国家や、短期間で宇宙開発計画を立ち上げられる資源を持つ国家と手を組むべきでしょう。さらに、<h>軍隊</h>を保有する国や、宇宙人が地球に敵対的な意図を示した場合、軍隊を派遣できる国家と手を組むことも検討すべきだろう。
+
 TIObjectiveTemplate.resolution.TutorialGainLargeNationControlPoint.ResistCouncil=我々は今、大国内に足がかりを築き、我々の大義を支持する強固な基盤を築きつつある。今後は、この国の<h>国家政策</h>を決めることができる<h>行政コントロール・ポイント</h>を掌握することに焦点を合わせるべきだろう。
 
 TIObjectiveTemplate.displayName.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=大国家で行政コントロール・ポイントを獲得する
+
 TIObjectiveTemplate.solution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=少なくとも4つのコントロール・ポイントがある国家で、行政コントロール・ポイントで「国家コントロール」ミッションを成功させる。
-TIObjectiveTemplate.description.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=大国への足がかりが築けたところで、<h>行政コントロール・ポイント</h>を占領することで、我々の地位と確固たるものとしよう。大国家で行政コントロール・ポイントを掌握できるまで、国家コントロール・ミッションを行い続けよう。
-TIObjectiveTemplate.resolution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=我々は今、この国の行政府を掌握した。これにより、この国に対して<h>国家政策の制定</h>ミッションを使うことができるようになった。我々はさらに、この国に核兵器があれば、それを利用することもできるようになった。<br/><br/><h>国家政策の制定</h>は強力なミッションだ。いくつかの例を挙げれば、核兵器の武装解除、軍隊の解散、同盟関係の変更などを行うことができる。国家を選択した後、国家情報パネルの概要部分にある国家政策アイコンにカーソルを合わせると、利用可能な政策が表示される。<br/><br/>我々はこの国に多大な投資をしており、敵がここを攻撃すれば、我々の努力に大きな支障をきたす可能性がある。コントロール・ポイントは、弾圧ミッションや粛清ミッションによって他の派閥から攻撃される可能性がある。この国の<h>利益の保護</h>ミッションを使って、それに対抗しよう。
+
+TIObjectiveTemplate.description.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=大国への影響力を確保できたところで、<h>行政コントロール・ポイント</h>を占領することで、我々の地位と確固たるものとしよう。大国を対象として、行政コントロール・ポイントを占領できるまで<h>国家コントロール</h>ミッションを割り当てて実行しつづけよう。
+
+TIObjectiveTemplate.resolution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=我々は今、この国の行政府を掌握した。これにより、この国に対して<h>国家政策の制定</h>ミッションを割り当てることができるようになった。我々はさらに、この国に核兵器があれば、それを利用することもできるようになった。<br/><br/>国家政策の制定は強力なミッションだ。敵対国への宣戦布告、適切な地域に対する独立の付与、他国との連邦化などを行えるが、その真価を発揮するには、この国の支配を確固たるものとするまで、しばらく時間をかけねばならない。<br/><br/>国家をクリックした後、国家パネルの<h>政策</h>タブを選択することで、利用可能な政策が表示される。<br/><br/>我々はこの国に多大な投資をしており、敵がここを攻撃すれば、我々の努力に大きな支障をきたす可能性がある。コントロール・ポイントは、<h>弾圧</h>ミッションや<h>粛清</h>ミッションによって他の派閥から攻撃される可能性がある。他の派閥の評議員が、我々の派閥が支配している国家に対して行っているミッションには注意するようにしよう。
 
 TIObjectiveTemplate.displayName.TutorialRecruitCouncilor3.ResistCouncil=3人目の評議員をリクルート
-TIObjectiveTemplate.solution.TutorialRecruitCouncilor3.ResistCouncil=評議員をリクルートし、議会に3人の評議員を確保する。
+TIObjectiveTemplate.solution.TutorialRecruitCouncilor3.ResistCouncil=評議会に3人の評議員を確保しよう。
 
 TIObjectiveTemplate.displayName.TutorialRecruitCouncilor4.ResistCouncil=4人目の評議員をリクルート
-TIObjectiveTemplate.solution.TutorialRecruitCouncilor4.ResistCouncil=評議員をリクルートし、議会に4人の評議員を確保する。
+TIObjectiveTemplate.solution.TutorialRecruitCouncilor4.ResistCouncil=評議会に4人の評議員を確保しよう。
 
-TIObjectiveTemplate.displayName.TutorialResearchWeAreNotAlone.ResistCouncil=「我々は独りではない」を研究する
-TIObjectiveTemplate.solution.TutorialResearchWeAreNotAlone.ResistCouncil=全世界技術「我々は独りではない」を研究する。この技術は、「秘密組織」プロジェクトの前提条件である。研究が完了後、しばらくして「秘密組織」プロジェクトが利用できるようになる。
+TIObjectiveTemplate.displayName.TutorialResearchWeAreNotAlone.ResistCouncil=技術「我々は独りではない」を研究する
+TIObjectiveTemplate.solution.TutorialResearchWeAreNotAlone.ResistCouncil=国際技術「我々は独りではない」を研究する。この技術は、「秘密組織」プロジェクトの条件である。国際研究が完了後、しばらくして「秘密組織」プロジェクトが利用できるようになる。
 
-TIObjectiveTemplate.displayName.TutorialResearchClandestineCells.ResistCouncil=細胞組織の研究
-TIObjectiveTemplate.solution.TutorialResearchClandestineCells.ResistCouncil=「秘密組織」プロジェクトが利用可能になった後に研究する。このプロジェクトで5人目の評議員をリクルートできるようになる。
+TIObjectiveTemplate.displayName.TutorialResearchClandestineCells.ResistCouncil=「秘密組織」プロジェクトを研究する
+TIObjectiveTemplate.solution.TutorialResearchClandestineCells.ResistCouncil=「秘密組織」プロジェクトが利用可能になった後に研究しよう。このプロジェクトで5人目の評議員をリクルートできるようになる。
 
 TIObjectiveTemplate.displayName.TutorialBuildCouncil.ResistCouncil=議会の発展
-TIObjectiveTemplate.solution.TutorialBuildCouncil.ResistCouncil=評議員をリクルートし、議会に5人の評議員を確保する。
-TIObjectiveTemplate.description.TutorialBuildCouncil.ResistCouncil=地球での政治活動の原動力となるのがあなたの派閥議会である。議会を発展させることで毎月遂行できるミッションが増加する。それぞれの評議員には多様な属性、バックグラウンド、可能なミッション、属性がある。幅広いタスクを行える議会を育てることで、他の派閥との調和を保つことが可能だ。
-TIObjectiveTemplate.resolution.TutorialBuildCouncil.ResistCouncil=各国家でコントロール・ポイントを獲得できる能力を備えた評議員を複数名リクルートすることが重要だ。あなたの派閥の目標に見合ったビジョンを持っている評議員は、比較的少ない影響力でリクルートすることができる。
 
+TIObjectiveTemplate.solution.TutorialBuildCouncil.ResistCouncil=評議会に5人の評議員を確保しよう。
+
+TIObjectiveTemplate.description.TutorialBuildCouncil.ResistCouncil=地球での政治活動の原動力となるのが我々の派閥<h>評議会</h>である。評議会を発展させることで毎月遂行できるミッションが増加する。それぞれの評議員には多様な属性、バックグラウンド、遂行可能なミッション、特性がある。<br/><br/>幅広いタスクを行える評議会を作り上げることは、他の派閥との競争に遅れを取らないために必要なことだが、国家のコントロール・ポイントを獲得する能力を持った評議員を複数採用するのが好ましいだろう。我々の派閥の目標と親和性のある職業の評議員候補者は、採用にかかる<color=#FFFFFFFF><sprite name=influence></color><h>影響力</h>が少なくなる。
+TIObjectiveTemplate.resolution.TutorialBuildCouncil.ResistCouncil=評議会は拡大したものの、必ずしも確固たるものとは言えない状態だ。現在の評議員のうち、無能…あるいは不実であると判断した者は、いつでも<h>解任</h>することができる。その後、我々の目標により適した別の評議員候補者を採用することができる。採用可能な評議員候補者は、定期的に変化する。
 
 TIObjectiveTemplate.displayName.TutorialPurchaseOrg.ResistCouncil=組織の獲得
-TIObjectiveTemplate.solution.TutorialPurchaseOrg.ResistCouncil=評議員スクリーンを開き、評議員を選択し、組織マーケットプレイスで組織のアイコンを組織ウィンドウに入れて費用を支払うことで組織を獲得することができる。
 
-TIObjectiveTemplate.displayName.TutorialUnequipOrg.ResistCouncil=評議員から組織を外す
-TIObjectiveTemplate.solution.TutorialUnequipOrg.ResistCouncil=評議員スクリーンで組織を持っている評議員を選択し、組織タブを派閥待機人員に切り替える。その後、右クリック、もしくは割り当てられている組織を派閥待機人員にドラッグして組織を評議員から外すことができる。以上により、この組織を別の評議員に割り当てることができる。
+TIObjectiveTemplate.solution.TutorialPurchaseOrg.ResistCouncil=「評議会」ウィンドウを開いて、評議員のいずれかをクリックして「評議員の詳細」ウィンドウを開こう。選択した組織を右クリックするか、ドラッグ&ドロップで「割り当てられた組織」パネルに移動し、コストを支払うことで組織マーケットプレイスから組織の購入、割り当てが行える。購入するコストが十分用意できるまで待つ必要があるかもしれない。
 
-TIObjectiveTemplate.displayName.TutorialEquipOrg.ResistCouncil=組織の管理
-TIObjectiveTemplate.solution.TutorialEquipOrg.ResistCouncil=評議員スクリーンで評議員の一人を選択。その後、右クリック、もしくは組織を派閥待機人員にドラッグすると組織を割り当てることができる。
-TIObjectiveTemplate.description.TutorialEquipOrg.ResistCouncil=組織とは、あなたの評議員のコントロール下にある政府機関、犯罪組織、もしくは民間企業である。組織を保有していると、統計ボーナス、収入、ミッション、研究へのボーナス、あなたのコントロール下にある国家の特定のプライオリティへのボーナスを得ることができる。<br/><br/>組織は資金、影響力、（犯罪カルテルの場合は）稀にオペレーションによって獲得することができる。組織の中には、一定の特性や国籍を保有している評議員が利用できるものもある。
-TIObjectiveTemplate.resolution.TutorialEquipOrg.ResistCouncil=購入していない組織は、一定期間、他の派閥が獲得できるようになる。さらに、派閥プロジェクトを通して組織を発展させたり、評議員の間で組織を譲り渡すこともできる。
+TIObjectiveTemplate.displayName.TutorialUnequipOrg.ResistCouncil=評議員から組織を外す		//deprecated
+
+TIObjectiveTemplate.solution.TutorialUnequipOrg.ResistCouncil=割り当てられた組織を解除するには、組織を割り当てている評議員の「評議員の詳細」ウィンドウに戻ろう。組織を右クリックするか、ドラッグ&ドロップで「未割り当ての組織」プールを開くことができる。ここから、組織を我々の派閥の他の評議員へと割り当てることも可能だ。		//deprecated
+
+TIObjectiveTemplate.displayName.TutorialEquipOrg.ResistCouncil=組織の管理		//deprecated
+
+TIObjectiveTemplate.solution.TutorialEquipOrg.ResistCouncil=「評議会」ウィンドウの「組織管理」タブを開く。我々の派閥の「未割り当ての組織」プールまたは「組織マーケットプレイス」から組織をドラッグ&ドロップして評議員のパネルを開く。「変更を確定」ボタンをクリックし、組織の購入および/または割り当てのコストを支払う。		//deprecated
+
+TIObjectiveTemplate.description.TutorialPurchaseOrg.ResistCouncil=<h>組織</h>とは、評議員のコントロール下にある政府機関、犯罪組織、もしくは民間企業である。組織を保有していると、統計ボーナス、収入、ミッション、研究へのボーナス、コントロール下にある国家の特定のプライオリティへのボーナスを得ることができる。<br/><br/>組織は<color=#FFFFFFFF><sprite name=currency></color><h>資金</h>、<color=#FFFFFFFF><sprite name=influence></color><h>影響力</h>、（特に犯罪カルテルの場合は）稀に<color=#FFFFFFFF><sprite name=ops></color><h>軍事作戦</h>によって獲得することができる。組織の中には、一定の特性や国籍を保有している評議員が利用できるものもある。
+
+TIObjectiveTemplate.resolution.TutorialPurchaseOrg.ResistCouncil=我々のマーケットプレイスの未購入の組織は、我々だけが利用可能なものだ。だが、それらを獲得しないままでいると、一定期間で他の派閥へと移ってしまう。特定の派閥プロジェクトを完了することで、新たな組織をアンロックし、組織マーケットプレイスで購入可能な組織の数を増やすことができる。また、少額のコストで評議員の間で組織を移動することも可能だ。
 
 TIObjectiveTemplate.displayName.TutorialAssignCrackdown.ResistCouncil=評議員を弾圧ミッションに任命
-TIObjectiveTemplate.solution.TutorialAssignCrackdown.ResistCouncil=敵にコントロールされている国家で弾圧ミッションを行い、コントロール・ポイントの安定性を崩すと、粛清ミッション成功の確率を上げられる。
+
+TIObjectiveTemplate.solution.TutorialAssignCrackdown.ResistCouncil=敵のコントロール・ポイントで「弾圧」ミッションをまず実行し、そのコントロール・ポイントの恩恵を無効化し、一時的に他のミッションへの耐性を弱めることで、「粛清」ミッションの成功率が上昇する。
 
 TIObjectiveTemplate.displayName.TutorialAssignPurge.ResistCouncil=評議員を粛清ミッションに任命
-TIObjectiveTemplate.solution.TutorialAssignPurge.ResistCouncil=敵のコントロールポイントに粛清ミッションを使うと敵派閥からそれを奪うことができる。特に効果的なのは、まず弾圧ミッションを使い敵の安定性を崩すことで、成功の確率を上げることである。
-TIObjectiveTemplate.description.TutorialAssignPurge.ResistCouncil=国家をコントロールすることは非常に重要で、これが地盤固め、そして研究と資源の増大につながり、ひいては太陽系に乗り出すことを可能にする。時には、自分が覇権を握りたいと考えている国家のコントロールポイントが敵の派閥に取られていることもある。既に敵の派閥に獲得されているコントロールポイントを奪うためには、評議員を弾圧ミッションと粛清ミッションに送る必要がある。弾圧は敵のコントロールポイントの安定性を崩す。その後、粛清を行うことでコントロールポイントを自らの派閥のものにできる。
-TIObjectiveTemplate.resolution.TutorialAssignPurge.ResistCouncil=敵のコントロールポイントを粛清するのは非常に効果的なアプローチ。常に守りの弱いコントロールポイントを探し、機が熟せば奪い取ろう。
 
+TIObjectiveTemplate.solution.TutorialAssignPurge.ResistCouncil=敵のコントロール・ポイントを対象とした「粛清」ミッションに割り当て、敵派閥からこのコントロール・ポイントを奪取しよう。
+
+TIObjectiveTemplate.description.TutorialAssignPurge.ResistCouncil=時として、敵派閥が我々が支配下に置きたいと望む国家のコントロール・ポイントを獲得することがある。すでに他派閥が所有しているコントロール・ポイントを奪うには、評議員を<h>弾圧</h>および<h>粛清</h>ミッションに派遣しなければならない。「弾圧」ミッションが成功すると、そのコントロール・ポイントは弱体化する。続く「粛清」ミッションで、そのコントロール・ポイントを我々の派閥のものとしよう。
+
+TIObjectiveTemplate.resolution.TutorialAssignPurge.ResistCouncil=敵のコントロール・ポイントを粛清することは、戦術的に有効な手段となる。「弾圧」ミッションは「粛清」ミッションよりも先に解決されるため、両ミッションの成功確率に自身があれば、素早くコントロール・ポイントを奪取することが可能だ。無防備になっている敵コントロール・ポイントを見逃さず、奪い取ろう。
 
 TIObjectiveTemplate.displayName.TutorialAssignDefendInterests.ResistCouncil=評議員を「利益を守る」ミッションに任命
-TIObjectiveTemplate.solution.TutorialAssignDefendInterests.ResistCouncil=コントロールポイントを既に獲得している国家で「利益を守る」ミッションを使うと、コントロールポイントを敵の評議員のミッションから守ることができる。守りの高いコントロールポイントは、攻撃的なミッションにも耐えうる可能性が高い。
-TIObjectiveTemplate.description.TutorialAssignDefendInterests.ResistCouncil=「利益を守る」ミッションは、敵の派閥に弾圧、粛清、クーデター・ミッションを成功させないために有効な防衛ツール。最も重要な国家に使うことが勧められる。この保護には期限があるため、定期的に更新する必要がある。
-TIObjectiveTemplate.resolution.TutorialAssignDefendInterests.ResistCouncil=「利益を守る」ミッションを使うと、敵の弾圧、粛清、クーデター・ミッションから重要な国家を守ることができる。
+TIObjectiveTemplate.solution.TutorialAssignDefendInterests.ResistCouncil=我々の陣営がコントロール・ポイントを既に獲得している国家で「利益防衛」ミッションを行うことで、コントロール・ポイントを敵の評議員のミッションから守ることができる。守りの高いコントロール・ポイントは、攻撃的なミッションにも耐えうる可能性が高い。
+
+TIObjectiveTemplate.description.TutorialAssignDefendInterests.ResistCouncil=<h>利益防衛</h>ミッションは、敵評議員による<h>弾圧</h>、<h>粛清</h>、<h>クーデター</h>ミッションの成功率を抑えることのできる、有用な防御手段だ。「利益防衛」ミッションを行うことで、対象国家に我々の陣営が所有するすべてのコントロール・ポイントに保護が適用される。我々の最も重要な国家を守るうえで大切なことだ。<br/><br/><h>この保護はいずれ効果が切れるため、定期的な更新が必要だ。</h>保護期間は、防衛するコントロール・ポイントの数で減少する。
+
+TIObjectiveTemplate.resolution.TutorialAssignDefendInterests.ResistCouncil=必要に応じて、敵のミッションから我々の貴重な国家を守るため、<h>利益防衛</h>ミッションの割り当てと実行を継続しよう。「利益防衛」ミッションの保護は期限切れがあるが、我々の陣営が所有するコントロール・ポイントには再適用できる。
 
 TIObjectiveTemplate.displayName.TutorialAssignIncreaseUnrest.ResistCouncil=評議員を「社会不安の拡大」ミッションに任命
-TIObjectiveTemplate.solution.TutorialAssignIncreaseUnrest.ResistCouncil=「社会不安の拡大」ミッションを使うと、ターゲット国家の経済を弱体化し、クーデター、革命、分離独立運動を成功しやすくなる。
 
-TIObjectiveTemplate.displayName.TutorialAssignCoup.ResistCouncil=評議員をクーデターミッションに任命する
-TIObjectiveTemplate.solution.TutorialAssignCoup.ResistCouncil=別の派閥にコントロールされる国家に評議員を送り、クーデターミッションを遂行させる。クーデターが成功すると政府が転覆し、全てのコントロールポイントがリセットされる。
-TIObjectiveTemplate.description.TutorialAssignCoup.ResistCouncil=クーデターを使うと敵に覇権を握られている国家のコントロールポイントをリセットすることができる。社会不安に苛まれる国家であれば、クーデターは成功しやすい。よって、クーデターを実行する前に「社会不安の拡大」ミッションを遂行するのが効果的だ。
-TIObjectiveTemplate.resolution.TutorialAssignCoup.ResistCouncil=「社会不安の拡大」ミッションを遂行して敵の国家の経済を揺るがすと、クーデターで政府を転覆させて、その国家のコントロールポイントをリセットしやすくなる。
+TIObjectiveTemplate.solution.TutorialAssignIncreaseUnrest.ResistCouncil=「社会不安の拡大」ミッションを実行することで、対象国家に混乱を引き起こして経済を弱体化させることができる。これにより、革命や分離独立が発生しやすくなったり、「クーデター」ミッションが成功しやすくなったりする。
 
+TIObjectiveTemplate.displayName.TutorialAssignCoup.ResistCouncil=評議員を「クーデター」ミッションに任命
+
+TIObjectiveTemplate.solution.TutorialAssignCoup.ResistCouncil=<color=#FFFFFFFF><sprite name=unrest_increasing_bad></color>社会不安が高まっている国家に「クーデター」ミッションを割り当てて実行しよう。「クーデター」ミッションが成功すると、政府が崩壊し、すべてのコントロール・ポイントが新たな所有者のものとなる。
+
+TIObjectiveTemplate.description.TutorialAssignCoup.ResistCouncil=<h>クーデター</h>は、対象国家の全てのコントロール・ポイントの所有権を剥奪し、それらをクーデター派閥とその国家での社会不安に貢献した他の派閥へと与えるものだ。クーデターは、<color=#FFFFFFFF><sprite name=nation_unrest></color><h>社会不安</h>が高い国家ほど成功しやすくなる。「クーデター」ミッションに先んじて複数回の<h>社会不安の拡大</h>ミッションを行っておけば、成功確率も高まる。
+
+TIObjectiveTemplate.resolution.TutorialAssignCoup.ResistCouncil=<h>社会不安の拡大</h>ミッションを完了して敵国家の安定性を低下させ、続く<h>クーデター</h>ミッションで政府を転覆し、その国家のコントロール・ポイントをリセットしよう。クーデターが成功するほどに国家を不安定化させるには、複数回の「社会不安の拡大」ミッションが必要になる場合もある。<br/><br/>我々が支配する国家の<color=#FFFFFFFF><sprite name=unrest_increasing_bad></color>社会不安の急増には警戒しよう。それは、敵評議員による我々の支配を転覆させる試みの可能性がある。
 
 TIObjectiveTemplate.displayName.TutorialFoundStation.ResistCouncil=ステーションの建設
-TIObjectiveTemplate.description.TutorialFoundStation.ResistCouncil=人類が宇宙に飛び出すための足がかりとなるのが宇宙ステーションまたはプラットフォーム。宇宙の工業化と戦争艦隊を造り上げる上で欠かせない。ステーションは研究にボーナスを与えるモジュールとその他の資源から構成され、船や追加モジュールの建設を可能にする。ステーション設立の準備として、<h>ブースト</h>と<h>ミッション・コントロール</h>の2点を備蓄しておく必要がある。 
-TIObjectiveTemplate.solution.TutorialFoundStation.ResistCouncil=プラットフォーム・コア・モジュール実施費用をまかなうのに十分な資金、ブースト、ミッション・コントロールを蓄える。その後、国家間の境界が見えなくなるまで地球からズームアウトし、惑星をクリック。スクリーンの下方に表示されるアイコンから「プラットフォーム建設」アイコンを選択。ステーションを設置する地球周辺の軌道を選択し、プラットフォーム建設ボタンをクリックして確定。<br/><br/><h>達成できるまでに、数ヶ月かかる可能性がある。</h>
-TIObjectiveTemplate.resolution.TutorialFoundStation.ResistCouncil=ステーションは、我々の活動にとってますます重要になる。準備ができたら、起動技術を研究して、より大きなステーションを開発することを検討するのが良い。地球から遠く離れた場所にステーションを建設するには、「…への飛行」公共研究プロジェクトを完了する必要がある。 
+
+TIObjectiveTemplate.description.TutorialFoundStation.ResistCouncil=<h>プラットフォーム</h>と呼ばれる小型の宇宙ステーションは、人類が外宇宙へ飛び出し、宇宙の工業化と戦争艦隊を作り上げるための重要な第一歩となる足がかりだ。ステーションは、天体の<h>軌道</h>上か、ラグランジュ点に固定される。ステーションは研究にボーナスを与える<h>モジュール</h>とその他の資源から構成され、船や追加モジュールの建設を可能にする。<br/><br/>地球軌道上にプラットフォームを設立する準備として、<color=#FFFFFFFF><sprite name=boost></color><h>ブースト</h></color>と<color=#FFFFFFFF><sprite name=mission_control></color><h>ミッション・コントロール</h>の2点を備蓄しておく必要がある。
+
+TIObjectiveTemplate.solution.TutorialFoundStation.ResistCouncil=プラットフォーム・コア・モジュール実施費用をまかなうのに十分な<color=#FFFFFFFF><sprite name=currency></color>資金、<color=#FFFFFFFF><sprite name=boost></color>ブースト、<color=#FFFFFFFF><sprite name=mission_control></color>ミッション・コントロールを蓄えよう。その後、ジオスケープが見えなくなるまで地球からズームアウトし、惑星を選択しよう。ビューの中央下部の操作インターフェースから「プラットフォーム建設」アイコンをクリックする。ステーションを設置可能な地球周辺の軌道を選択し、「プラットフォーム建設」ボタンをクリックして確定する。<br/><br/>これは、達成できるまでに、数ヶ月かかる可能性がある。
+
+TIObjectiveTemplate.resolution.TutorialFoundStation.ResistCouncil=太陽系の探査と工業化が進むほどに、<h>ステーション</h>と惑星上の<h>基地</h>は、我々の活動にとってますます重要になるだろう。<br/><br/>準備ができたら、<h>軌道</h>技術を研究して、より大きなステーションを開発することを検討するのが良い。地球から遠く離れた場所にステーションを建設するには、国際技術の<h>XXXへの飛行</h>を完了する必要がある。<br/><br/><color=#FFFFFFFF><sprite name=mission_control></color>ミッション・コントロールの管理に加え、我々の居住地全てで資金と宇宙資源の形で維持コストが必要になることに注意しよう。ハブを支えられるだけの宇宙資源を生産できない場合、不足分を補うために地球から資源を運ぶための<color=#FFFFFFFF><sprite name=boost></color>ブーストを使用する。ハブへの支援が不十分だと、重大な結果に繋がる可能性がある！
 
 TIObjectiveTemplate.displayName.TutorialBuildStationPower.ResistCouncil=太陽コレクターの建設
-TIObjectiveTemplate.description.TutorialBuildStationPower.ResistCouncil=我々の新しいステーションは4つのモジュールをサポートすることができる。研究所モジュールをいくつか稼働させると、エイリアンに対する効果的なレジスタンスの組織化を支援することができる。しかし、モジュールの稼働には電力が必要だ。要するに、このステーションには発電装置が必要なのだ。
-TIObjectiveTemplate.solution.TutorialBuildStationPower.ResistCouncil=「ハブ」画面から自分のステーションを選択し、「管理」ボタンを選択する。太陽コレクターをクリックして、ステーションの4個のモジュールスロットのうちの1つにドラッグする。
-TIObjectiveTemplate.resolution.TutorialBuildStationPower.ResistCouncil=太陽コレクターが完成すれば、我々のステーションに電力が供給されるようになる。太陽コレクターは太陽に近いほど効率的だ。外惑星で効率よく活動するためには、他の発電方法を考えなければならない。 
+
+TIObjectiveTemplate.description.TutorialBuildStationPower.ResistCouncil=我々の新しいステーションは、コアモジュールに加えて4つの<h>モジュール</h>をサポートすることができる。<h>研究所</h>モジュールをいくつか稼働させると、エイリアンに対する効果的なレジスタンスの組織化を支援することができる。しかし、モジュールの稼働には<color=#FFFFFFFF><sprite name=hab_power></color><h>電力</h>が必要だ。要するに、このステーションには発電装置が必要なのだ。
+
+TIObjectiveTemplate.solution.TutorialBuildStationPower.ResistCouncil=「ハブ」ウィンドウを開いてからステーションを選択しよう。「管理」ボタンをクリックして、「ハブマネージャー」ウィンドウを開く。ステーションの4つのモジュールスロットの1つに太陽コレクターモジュールを右クリックするかドラッグ&ドロップしよう。
+
+TIObjectiveTemplate.resolution.TutorialBuildStationPower.ResistCouncil=太陽コレクターモジュールの建設が進むにつれて、我々のステーションに<color=#FFFFFFFF><sprite name=hab_power></color><h>電力</h>が供給されるようになる。コアモジュールを含む複数のモジュールを同時に建設できる。<br/><br/>太陽コレクターモジュールは太陽に近いほど効率的だ。太陽系外で効率よく活動するためには、他の<color=#FFFFFFFF><sprite name=hab_power></color><h>電力</h>生産方法を考えなければならない。 
 
 TIObjectiveTemplate.displayName.TutorialBuildStationLab.ResistCouncil=研究所の建設
-TIObjectiveTemplate.description.TutorialBuildStationLab.ResistCouncil=ステーションに電力が供給されるようになった。これで、研究所を建設することができる。研究所からはさまざまなボーナスがもらえるが、通常はその軌道上にある天体に付与される。利用可能な研究所から選択するか、新しい研究所の派閥エンジニアリング・プロジェクトを研究して、新しい研究所をアンロックしよう。そして、我々のステーションに研究所を建設してくれ。 
-TIObjectiveTemplate.solution.TutorialBuildStationLab.ResistCouncil=「ハブ」画面から自分のステーションを選択し、「管理」ボタンを選択する。研究所をクリックして、ステーションの4個のモジュールスロットのうちの1つにドラッグする。
-TIObjectiveTemplate.resolution.TutorialBuildStationLab.ResistCouncil=研究所が完成したら、このステーションは、我々が地球上でエイリアンに対抗するのをサポートしてくれるだろう。いや、それ以上かもしれない。将来的には、ステーションの機能を拡張し、4つ以上のモジュールをサポートする必要がある。そのためには、「起動」技術を研究し、「軌道コア」プロジェクトを完成させる必要がある。
 
+TIObjectiveTemplate.description.TutorialBuildStationLab.ResistCouncil=これでプラットフォームに<color=#FFFFFFFF><sprite name=hab_power></color><h>電力</h>が供給されるようになり、完成し次第<h>研究所モジュール</h>が稼働するよう建設を行うことができる。研究所はさまざまなボーナスを提供し、地球の<h>周回軌道上</h>に建設された場合、追加の恩恵を得られる。周回軌道上とは、地表と交流できる高度の軌道を示す。利用可能な研究所モジュールから選択するか、新規の研究所モジュールプロジェクトの研究を完了し、プラットフォームに研究所を建築しよう。
+
+TIObjectiveTemplate.solution.TutorialBuildStationLab.ResistCouncil=ステーションの「ハブマネージャー」ウィンドウに戻ろう。ステーションのモジュールスロットの研究所モジュールを右クリックするかドラッグ&ドロップして建設を開始しよう。
+
+TIObjectiveTemplate.resolution.TutorialBuildStationLab.ResistCouncil=研究所が完成したら、このステーションは、我々が地球上でエイリアンに対抗するのをサポートしてくれるだろう。いや、それ以上かもしれない。将来的には、ステーションの機能を拡張し、4つ以上のモジュールをサポートする必要がある。そのためには、<h>軌道</h>技術を研究し、<h>軌道コア</h>プロジェクトを完成させる必要がある。
 
 TIObjectiveTemplate.displayName.TutorialResearchMissionToMoonMars.ResistCouncil=「月への飛行」と「火星への飛行」のテクノロジーを研究する。
-TIObjectiveTemplate.solution.TutorialResearchMissionToMoonMars.ResistCouncil=「…への飛行」テクノロジーを研究することで、各天体に探査機を送る作戦をアンロックすることができる。
+TIObjectiveTemplate.solution.TutorialResearchMissionToMoonMars.ResistCouncil=「XXXへの飛行」技術を研究することで、各天体に探査機を送る作戦をアンロックすることができる。
 
 TIObjectiveTemplate.displayName.TutorialProbeSpaceBody.ResistCouncil=探査機の打ち上げ
-TIObjectiveTemplate.description.TutorialProbeSpaceBody.ResistCouncil=今のところ、我々の宇宙資産に必要な資材は、地球上の打ち上げ施設によって供給されている。そのため、<h>ブースト収入が圧迫されている。</h>この状況を緩和し、強力な惑星間経済を構築するためには、太陽系全体に事業を拡大する必要がある。他の惑星、月、小惑星に基地を建設するための第一歩は、探査機を打ち上げて天体の様々な地点を査定することだ。探査機の打ち上げは、地球、宇宙ドックのある居住地、もしくは大型の宇宙船建設モジュールで行うことができる。<br/><br/>探査機がターゲットの天体に着くと、各現場の採掘データが表示される。
-TIObjectiveTemplate.solution.TutorialProbeSpaceBody.ResistCouncil=範囲内にある天体を選択、探査機作戦を選択してターゲットを決定し、打ち上げを確定。
-TIObjectiveTemplate.resolution.TutorialProbeSpaceBody.ResistCouncil=探査機が目的地に届くまでは暫くかかる。到着後、適切なテクノロジーを発展させていれば、基地を建設することができる。
 
+TIObjectiveTemplate.description.TutorialProbeSpaceBody.ResistCouncil=今のところ、我々の宇宙資産に必要な資材は、地球上の打ち上げ施設によって支えられている。そのため、<h>これが、我々の<color=#FFFFFFFF><sprite name=boost></color>ブースト収入を圧迫している。</h>この状況を緩和し、強力な惑星間経済を構築するためには、太陽系全体に事業を拡大する必要がある。<br/><br/>他の惑星、月、小惑星に<h>基地</h>を建設するための第一歩は、<h>探査機</h>を打ち上げて天体の様々な<h>地点</h>を査定することだ。探査機の打ち上げは、地球、<h>宇宙ドック</h>のある居住地、もしくは大型の<color=#FFFFFFFF><sprite name=construction_shipyard></color><h>造船所</h>モジュールで行うことができる。<br/><br/>探査機がターゲットの天体に着くと、各現場の<h>採掘可能性</h>が表示される。
 
-TIObjectiveTemplate.displayName.TutorialResearchMissionToSpace.ResistCouncil=「宇宙への飛行」テクノロジーを研究
-TIObjectiveTemplate.solution.TutorialResearchMissionToSpace.ResistCouncil=「宇宙への飛行」テクノロジーを研究。
+TIObjectiveTemplate.solution.TutorialProbeSpaceBody.ResistCouncil=「XXXへの飛行」技術でアンロック済みの地球以外の天体を選択し、予測資源生産量を調べた後、操作インターフェースから「探査機を発射」アイコンをクリックしよう。「探査機を打ち上げ」のボタンをクリックすることで、打ち上げを確定する。
 
-TIObjectiveTemplate.displayName.TutorialResearchOutpostHabs.ResistCouncil=「前哨基地ハブ」テクノロジーを研究
-TIObjectiveTemplate.solution.TutorialResearchOutpostHabs.ResistCouncil=「前哨基地ハブ」テクノロジーを研究。
+TIObjectiveTemplate.resolution.TutorialProbeSpaceBody.ResistCouncil=探査機が目的地に到着し、調査を完了するまでしばらく時間を要する。調査が完了し、適切な研究を終えれば、その天体に<h>基地</h>を建設できる。
+
+TIObjectiveTemplate.displayName.TutorialResearchMissionToSpace.ResistCouncil=「宇宙への飛行」技術を研究
+TIObjectiveTemplate.solution.TutorialResearchMissionToSpace.ResistCouncil=「宇宙への飛行」技術を研究しよう。これは「前哨基地ハブ」技術の研究に必要だ。
+
+TIObjectiveTemplate.displayName.TutorialResearchOutpostHabs.ResistCouncil=「前哨基地ハブ」技術を研究
+TIObjectiveTemplate.solution.TutorialResearchOutpostHabs.ResistCouncil=「前哨基地ハブ」技術を研究しよう。これは、他の天体へと探査機を打ち上げることのできる「月への飛行」と「火星への飛行」の両方の技術の条件となる。
 
 TIObjectiveTemplate.displayName.TutorialResearchOutpostCore.ResistCouncil=「前哨基地コア」プロジェクトを研究
-TIObjectiveTemplate.solution.TutorialResearchOutpostCore.ResistCouncil=「前哨基地コア」プロジェクトを研究すると、前哨基地を設置できるようになる。
+TIObjectiveTemplate.solution.TutorialResearchOutpostCore.ResistCouncil=「前哨基地コア」プロジェクトを研究すると、他の天体に前哨基地を設置できるようになる。
 
 TIObjectiveTemplate.displayName.TutorialFoundBase.ResistCouncil=基地の建設
-TIObjectiveTemplate.solution.TutorialFoundBase.ResistCouncil=基地を建設するのに十分な資源を集め、以前探査機を送った天体を選択して基地を設置する場所を選択し、作戦を確定。
-TIObjectiveTemplate.description.TutorialFoundBase.ResistCouncil=ステーションのように、基地は多様な利益をもたらすモジュールから造られ、採鉱場を設けることができ、電磁場カタパルトを使って他のハブに宇宙資源を供給することができる。地球の重力から遠く離れたところに採掘ネットワークを築くと、希少なブースト資源への依存を軽減でき、宇宙産業拡大の促進が可能だ。
-TIObjectiveTemplate.resolution.TutorialFoundBase.ResistCouncil=採鉱場を建設するには、先端マグネティックス、マス・ドライバー、宇宙採掘、精製の公共テクノロジーを支援する必要がある。
 
+TIObjectiveTemplate.solution.TutorialFoundBase.ResistCouncil=前哨基地を建設するための十分な資源を蓄えたら、探査機で調査済みの天体を選択しよう。操作インターフェースから「前哨基地の建設」アイコンをクリックしよう。基地のハブ拠点を選択してから、「前哨基地の建設」ボタンをクリックすることで、前哨基地のコアモジュールの建設が開始される。
 
-TIObjectiveTemplate.displayName.TutorialResearchSpaceMining.ResistCouncil=宇宙採掘と精錬テクノロジーを研究
-TIObjectiveTemplate.solution.TutorialResearchSpaceMining.ResistCouncil=宇宙採掘と精錬テクノロジーを研究。
+TIObjectiveTemplate.description.TutorialFoundBase.ResistCouncil=地表の小型の<h>基地</h>または<h>前哨基地</h>は、<h>ステーション</h>のもののように様々な恩恵をもたらすモジュールで構成される。ただし、これらは電磁場カタパルトを使って他のハブへと<h>宇宙資源</h>を供給することができる<h>採鉱施設</h>を設けることができる。地球の重力圏から離れたところに採掘ネットワークを築くと、希少な<color=#FFFFFFFF><sprite name=boost></color>ブーストへの依存を減らし、宇宙産業を急速な成長を促進できる。
+
+TIObjectiveTemplate.resolution.TutorialFoundBase.ResistCouncil=天体に基地を建設したら、この地点に<h>採鉱施設</h>を建設するための<h>高度電磁気学</h>、<h>マス・ドライバー</h>、<h>宇宙採掘と精錬</h>の国際研究をサポートしよう。
+
+TIObjectiveTemplate.displayName.TutorialResearchSpaceMining.ResistCouncil=「宇宙採掘と精錬」技術を研究
+TIObjectiveTemplate.solution.TutorialResearchSpaceMining.ResistCouncil=「宇宙採掘と精錬」技術を研究しよう。これは、「高度電磁気学」と「マス・ドライバー」技術の研究に必要となる。研究が完了したら、基地に採鉱施設モジュールを建設するために必要な「前哨地採鉱場」プロジェクトがアンロックされる。
 
 TIObjectiveTemplate.displayName.TutorialResearchOutpostMining.ResistCouncil=前哨基地採鉱場プロジェクトを研究
-TIObjectiveTemplate.solution.TutorialResearchOutpostMining.ResistCouncil=前哨基地採鉱場プロジェクトを研究すると、基地に採掘モジュールを建設できる。
+TIObjectiveTemplate.solution.TutorialResearchOutpostMining.ResistCouncil=「前哨基地採鉱場」プロジェクトを研究すると、前哨基地に採掘モジュールを建設できる。
 
-TIObjectiveTemplate.displayName.TutorialBuildMine.ResistCouncil=基地のひとつに採鉱場を建設する
-TIObjectiveTemplate.solution.TutorialBuildMine.ResistCouncil=採鉱場を建設するのに十分な資源を集め、ハブスクリーンで基地のひとつを選び、採鉱場の建設を始める。
-TIObjectiveTemplate.description.TutorialBuildMine.ResistCouncil= 採鉱場は宇宙資源を獲得するのに欠かせない。
-TIObjectiveTemplate.resolution.TutorialBuildMine.ResistCouncil=採鉱場は、艦隊の建造に必要な宇宙資源を獲得するための主な手段だ。今後も天体を探査し、太陽系全体に採鉱場を建設していこう。
+TIObjectiveTemplate.displayName.TutorialBuildMine.ResistCouncil=基地に採鉱場を建設する
+TIObjectiveTemplate.solution.TutorialBuildMine.ResistCouncil=採鉱施設モジュールを建設するのに十分な資源を蓄えたら、いずれかの基地の「ハブマネージャー」ウィンドウを開こう。前哨基地採鉱場モジュールを右クリックするか、ドラッグ&ドロップで基地の上部中央スロットに配置すると、採鉱場の建設が開始される。
 
+TIObjectiveTemplate.description.TutorialBuildMine.ResistCouncil=採鉱場は、ハブの建設とサポートや脅威となるエイリアンと戦うための船を建設するために重要な<h>宇宙資源</h>の収集に欠かせないものだ。他の天体から宇宙資源を収集することは、太陽系での活動範囲拡大のため、地球から高価なロケットを打ち上げるための<color=#FFFFFFFF><sprite name=boost></color><h>ブースト</h>を使用する必要がないことも意味する。
 
-TIObjectiveTemplate.displayName.TutorialBuildHab.ResistCouncil=国際宇宙ステーションを建設
-TIObjectiveTemplate.solution.TutorialBuildHab.ResistCouncil=国際宇宙ステーションの建設は宇宙船建造への第一歩。
+TIObjectiveTemplate.resolution.TutorialBuildMine.ResistCouncil=<h>採鉱施設</h>は、ハブの発展やサポートに用いたり、艦隊の建造に必要な<h>宇宙資源</h>を獲得するための主な手段だ。今後も天体を探査し、太陽系全体に採鉱場を建設していこう。
 
-TIObjectiveTemplate.displayName.TutorialResearchOrbitalShipbuilding.ResistCouncil=軌道上造船テクノロジーを研究
-TIObjectiveTemplate.solution.TutorialResearchOrbitalShipbuilding.ResistCouncil=軌道上造船テクノロジーを研究。
+TIObjectiveTemplate.displayName.TutorialBuildHab.ResistCouncil=国際宇宙ステーションを建設 //deprecated
+TIObjectiveTemplate.solution.TutorialBuildHab.ResistCouncil=国際宇宙ステーションの建設は宇宙船建造への第一歩。 //deprecated
+
+TIObjectiveTemplate.displayName.TutorialResearchOrbitalShipbuilding.ResistCouncil=「軌道造船」技術を研究
+TIObjectiveTemplate.solution.TutorialResearchOrbitalShipbuilding.ResistCouncil=「軌道造船」技術を研究しよう。これは我々の派閥の宇宙船を建設するための「宇宙ドック」プロジェクトのために必要だ。
 
 TIObjectiveTemplate.displayName.TutorialResearchSpaceDock.ResistCouncil=宇宙ドックプロジェクトを研究
-TIObjectiveTemplate.solution.TutorialResearchSpaceDock.ResistCouncil=宇宙ドックプロジェクトを研究しよう。宇宙ドックがあれば、スペースステーションでの建設をアンロックできる。
+TIObjectiveTemplate.solution.TutorialResearchSpaceDock.ResistCouncil=「宇宙ドック」プロジェクトをしよう。これにより、ステーションと基地の両方に<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船所モジュールの最初のティアである宇宙ドックを建設できる。
 
 TIObjectiveTemplate.displayName.TutorialResearchInterplanetaryWarships.ResistCouncil=惑星間宇宙戦艦プロジェクトを研究
-TIObjectiveTemplate.solution.TutorialResearchInterplanetaryWarships.ResistCouncil=惑星間宇宙戦艦プロジェクトを研究しよう。これにより、対地攻撃機、護衛艦、コルベット級の船を設計、建造できるようになる。
+TIObjectiveTemplate.solution.TutorialResearchInterplanetaryWarships.ResistCouncil=「惑星間宇宙戦艦」プロジェクトを研究しよう。これにより、対地攻撃機、護衛艦、コルベット級の船体を設計、建造できるようになる。
 
 TIObjectiveTemplate.displayName.TutorialSpaceDock.ResistCouncil=宇宙ドックを建設
-TIObjectiveTemplate.solution.TutorialSpaceDock.ResistCouncil=宇宙ドックを建設しよう。ステーションに宇宙ドックモジュールがあると船を建造できる。ステーションの1つに宇宙ドックを建設しよう。
+TIObjectiveTemplate.solution.TutorialSpaceDock.ResistCouncil=ステーションの1つに宇宙ドックを建設しよう。船の建造には、ハブに<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船所モジュールが必要となる。造船所は地上基地にも建設可能だが、軌道への打ち上げには、最小限の加速性能とデルタV条件を満たす必要がある。
 
 TIObjectiveTemplate.displayName.TutorialDesignShip.ResistCouncil=船のテンプレートを設計
-TIObjectiveTemplate.solution.TutorialDesignShip.ResistCouncil=艦隊スクリーンで宇宙船デザイナーボタンをクリック。宇宙船デザイナーチュートリアルに従い、船の設計を完了。自分の設計に満足であればテンプレートを保存。これでテンプレートを船の建造に使えるようになる。
+TIObjectiveTemplate.solution.TutorialDesignShip.ResistCouncil=「艦隊と造船」ウィンドウの「宇宙船デザイナー」タブを開こう。「設計」インターフェースのチュートリアルを完了し、好きな船級の設計をカスタマイズしよう。「設計を保存」ボタンをクリックすると、設計が自派閥の船級に追加され、艦船建造に使用できるようになる。
 
 TIObjectiveTemplate.displayName.TutorialBuildShip.ResistCouncil=宇宙船の造船
-TIObjectiveTemplate.solution.TutorialBuildShip.ResistCouncil=艦隊スクリーンの造船スクリーンを使えば、制作したテンプレートを使って特定の船の建造をオーダーできる。
+TIObjectiveTemplate.solution.TutorialBuildShip.ResistCouncil=「艦隊と造船」ウィンドウで造船タブを開こう。利用可能な設計の一覧から船級を選択肢、利用可能な<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船所の1つの「建造」ボタンをクリックすることで、その建造キューに船を追加しよう。
+
 TIObjectiveTemplate.description.TutorialBuildShip.ResistCouncil=エイリアンとの戦争は地球だけに留まらない。我々は宇宙空間でも戦えるテクノロジーを発展させる必要がある。戦艦をハブで建造するには、莫大な費用がかかり、その建設プロセスは容易ではない。これには相当規模の宇宙産業を発達させる必要がある。<br/><br/><h>これには数年かかる可能性がある。</h>
-TIObjectiveTemplate.resolution.TutorialBuildShip.ResistCouncil=艦隊は軌道に位置づけることもできれば、ハブに停泊させることもできる。「移動」作戦を使えば他の艦隊をインターセプトすることができるが、ターゲットと備蓄基地に届くのに十分なデルタVを擁している必要がある。
+
+TIObjectiveTemplate.resolution.TutorialBuildShip.ResistCouncil=船が建造されると、自動的に<h>名前</h>がつけられ、新しい<h>艦隊</h>に割り当てられ、建造されたハブに<h>ドッキング</h>された状態となる。艦隊は1隻以上の船で構成され、軌道を占拠したりハブにドッキングしたりできる。艦隊は、<h>輸送</h>作戦によって他の軌道やハブに移動し、他の艦隊を妨害することができる。艦隊が目的地へ到達したり、補給のために<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船所または<color=#FFFFFFFF><sprite name=supply></color>補給基地のあるハブへ向かえるたけの十分な<h>デルタV</h>を確保するようにしよう。
 
 TIObjectiveTemplate.displayName.HumanGeneralEarth=地球の国家をコントロール
 TIObjectiveTemplate.description.HumanGeneralEarth=エイリアン到来後の予断を許せない状況にあって、我々は国際的なステージで自らの存在感を示す機会がある。各国の政府上官や産業界の重要人物とコネクションを築き、まだその全貌が不明なエイリアンの計画を打ち砕くために地球の資源を密かに集め始めなければならない。各国の主席を裏から操る権力となり、我々の目的を達成するために国際的な同盟を発展させなければならない。<br/><br/>このため、我々の優先事項は評議員を送り、経済、軍事、研究、宇宙事業に強い国家のコントロール・ポイントを獲得することである。さらに、必要とあらば、社会広報を行い、民衆が我々の活動に賛同するように仕向けることも重要だ。<br/><br/>地球の資本の多くは「利権」絡みで無駄に使われている。他人に苦渋を強いることで、巨額の富を集める一握りの人々。十分な影響力を獲得することができれば、こういった国家をもっと有意義な活動に従事させることができる。<br/><br/>我々と似た国際組織が他にも発足していることを、我々は認識している。このような組織が、あまりに数多くの国家を自らのイデオロギーに染めるようであれば、このような組織と全面対決する必要が出てくるであろう。
@@ -694,7 +738,7 @@ TIObjectiveTemplate.quote.ResearchExotics.EscapeCouncil=我々のミッション
 
 TIObjectiveTemplate.displayName.ConductHydraInterrogation.EscapeCouncil=捕獲したヒュドラの尋問
 TIObjectiveTemplate.description.ConductHydraInterrogation.EscapeCouncil=人類史上初の宇宙生物言語翻訳ツールをひっさげ、「訪問者」らと協議を始める準備が整った。我々の目的は2つある。エイリアンの目的と計画を暴くこと、そしてエイリアンが我々の銀河系のどこを現在占拠しているかを特定することである。
-TIObjectiveTemplate.solution.ConductHydraInterrogation.EscapeCouncil=捕獲したヒュドラの尋問
+TIObjectiveTemplate.solution.ConductHydraInterrogation.EscapeCouncil=「ヒュドラの尋問」プロジェクトが着手可能になったら、それを完了する。
 TIObjectiveTemplate.resolution.ConductHydraInterrogation.EscapeCouncil=史上初の人類とエイリアンの対話。現況がこれほどまでに深刻でなければ、記念すべき日となっていたことであろう。<br/><br/>捕獲したヒュドラは、エンジニア／テクニシャン兼リーダー代理（恐らくは人間で言うマネージャーかチーム・スーパーバイザー）であると言っている。また、「防衛コンセンサス」の一員であるとも言っている。これはヒュドラ企業か政府系プログラムの何かであろうか？ 残念ながら、種族としてのヒュドラに関して行われた更なる尋問は功を奏さなかった。このヒュドラは一族が地球を制圧できることをまったく疑っておらず、悲しくも、歴史的に言ってヒュドラの主張には根拠がある。ヒュドラはもう既に別の2種族の母星を侵略し、難なく制圧した経歴があるのだ。腹立たしいことに、ヒュドラは光より速く飛行するテクノロジーに関しては一切回答する素振りを見せず、ただただヒュドラ・テクノロジーの優位性を自慢するだけである。我々のスタッフの中の「道徳的柔軟性」を持ち合わせる複数名は、強化型尋問テクニックの使用を提案したが、ほとんどのスタッフはまだこのような措置を取ることに違和感を感じている。しかも、そのような方法を使っても、有益な情報を得ることができる保証もない。現在、ヒュドラから技術的な情報を引き出すことに関して、我々の進捗は停滞気味だ。<br/><br/>ポジティブな進展と言えば、ヒュドラの天文学的位置に関して多くを学べたということ。ヒュドラの帝国は比較的小さく、たった3つの星の周辺の一族が居住するエリアに限られている。これら3星はきょしちょう座ゼータ星、テーブルさん座アルファ星、そして母星のくじゃく座デルタ星である。この情報獲得に成功したこと、そして他の面では進展がないことから、ヒュドラの尋問のプライオリティを引き下げる決定が下された。研究者らには今後もヒュドラに対するアクセスが与えられ、尋問を継続し、翻訳メソッドを向上することができるが、我々の最優先課題は我々のプロジェクトに最適な星系の特定へと移った。
 TIObjectiveTemplate.quote.ConductHydraInterrogation.EscapeCouncil=捕虜からかなりの情報を聞き出すことに成功しました、長官。
 
@@ -1115,7 +1159,7 @@ TIObjectiveTemplate.quote.InvestigateEnthrallMission.AppeaseCouncil=委員、エ
 TIObjectiveTemplate.displayName.ResearchTheirOperations.AppeaseCouncil=エイリアンの作戦の研究
 TIObjectiveTemplate.description.ResearchTheirOperations.AppeaseCouncil=先日の拉致被害者の事件の後、さらに関連情報が入って来た。これらの情報によると、我々が目撃した事件以外にも似たような事件が頻繁に発生するようになっており、少なくとも部分的にはエイリアンがこれらの事件に関連しているようなのである。エイリアンに対する民衆の態度は急速に敵対的なものになっている。我々は一刻も早く真相を突き止めなければならない。もし、これらのシニカルな役者らが世論を影響し続けたら、悲惨な結果をもたらすことは間違いない。
 TIObjectiveTemplate.solution.ResearchTheirOperations.AppeaseCouncil=「エイリアンの作戦」プロジェクトが着手可能になったら、それを研究する。
-TIObjectiveTemplate.resolution.ResearchTheirOperations.AppeaseCouncil=時間の経過とともに、世界中の世論が変化している証拠が数多く上がって来た。以前は反エイリアン派だった国々がより中立的もしくは平和的な政策に切り替えている。このような変化は、これら政府の重要人物らが政治的見解をよりソフトなものしたり、エイリアンに対してもっと親和的な態度を示す人物らに取って代わられたためだ。私としては、人類が理性を示すようになったことを喜びたいところではあるが、このような人々の心境の変化は自然に起こったものではないかもしれない。<br/><br/>我々の組織内のムードは気まずい。世界中で極端なもしくは差別的な見解が和らいだのは良いことだが、エイリアンが我々人間をコントロールしようとしていると主張している人々にこの状況を上手く利用されかねない。以前は平和的解決を望んでいた人々のムードも沈んできた。<br/><br/>しかし、結果は結果だ。「平和的」になった国々は自ら進んでそうなったのではないかもしれないが、これを前向きな変化として受け止めることにしよう。<h>エイリアン脅威モニターを有効にした。情報画面のエイリアンタブから閲覧可能だ。</h>
+TIObjectiveTemplate.resolution.ResearchTheirOperations.AppeaseCouncil=時間の経過とともに、世界中の世論が変化している証拠が数多く上がって来た。以前は反エイリアン派だった国々がより中立的もしくは平和的な政策に切り替えている。このような変化は、これら政府の重要人物らが政治的見解をよりソフトなものしたり、エイリアンに対してもっと親和的な態度を示す人物らに取って代わられたためだ。私としては、人類が理性を示すようになったことを喜びたいところではあるが、このような人々の心境の変化は自然に起こったものではないかもしれない。<br/><br/>我々の組織内のムードは気まずい。世界中で極端なもしくは差別的な見解が和らいだのは良いことだが、エイリアンが我々人間をコントロールしようとしていると主張している人々にこの状況を上手く利用されかねない。以前は平和的解決を望んでいた人々のムードも沈んできた。<br/><br/>しかし、結果は結果だ。「平和的」になった国々は自ら進んでそうなったのではないかもしれないが、これを前向きな変化として受け止めることにしよう。<h>また、我々の利益の直接的な脅威となる可能性のあるエイリアン脅威モニターを有効にした。これは、メイン画面の右上から確認可能だ。</h></h>
 TIObjectiveTemplate.quote.ResearchTheirOperations.AppeaseCouncil=長官、平和的解決を推し進めるにはいい機会かもしれません。
 
 TIObjectiveTemplate.displayName.ResearchTheirMovements.AppeaseCouncil=エイリアンの動向の研究

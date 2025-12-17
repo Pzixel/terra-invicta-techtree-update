@@ -1,0 +1,75 @@
+TIVictoryCondition.description.GlobalControlPointProportion=Общая ценность точек контроля у нашей фракции должна составлять не менее {0} ценности всех контрольных точек Земли.
+TIVictoryCondition.description.GlobalRegionProportion=Наша фракция должна контролировать {0} регионов Земли. Регион считается контролируемым, если удерживается более половины контрольных точек государства, в которое он входит, а также правительственная контрольная точка этой страны.
+TIVictoryCondition.description.GlobalEcoProportion=Наша фракция должна контролировать {0} всех ключевых экономических регионов Земли. Регион считается контролируемым, если удерживается более половины контрольных точек государства, в которое он входит, а также правительственная контрольная точка этой страны.
+TIVictoryCondition.description.GlobalPopulationProportion=Наша фракция должна контролировать регионы, в которых проживает {0} населения Земли. Регион считается контролируемым, если удерживается более половины контрольных точек государства, в которое он входит, а также правительственная контрольная точка этой страны.
+TIVictoryCondition.description.GlobalGDPProportion=Наша фракция должна контролировать государства, суммарный ВВП которых составляет как минимум {0} от общего ВВП Земли. Страна считается контролируемой, если удерживается более половины ее контрольных точек, а также правительственная контрольная точка.
+TIVictoryCondition.description.AlienNationMaxRegionProportion_special=Пришельцы не должны контролировать ни один регион Земли.
+TIVictoryCondition.description.AlienNationMaxRegionProportion=Пришельцы должны контролировать не более {0} регионов Земли.
+TIVictoryCondition.description.AlienNationMinRegionProportion=Пришельцы должны контролировать не менее {0} регионов Земли.
+TIVictoryCondition.description.AlienNationMaxPopulationProportion=Пришельцы должны контролировать регионы, где проживает не более {0} населения Земли.
+TIVictoryCondition.description.AlienNationMinPopulationProportion=Пришельцы должны контролировать регионы, где проживает не менее {0} населения Земли.
+TIVictoryCondition.description.ProAlienMaxRegionProportion=Пришельцы и их сторонники должны контролировать не более {0} регионов Земли. Регион считается контролируемым, если удерживается более половины контрольных точек государства, в которое он входит, а также правительственная контрольная точка этой страны.
+TIVictoryCondition.description.ProAlienMinRegionProportion=Пришельцы и их сторонники должны контролировать не менее {0} регионов Земли. Регион считается контролируемым, если удерживается более половины контрольных точек государства, в которое он входит, а также правительственная контрольная точка этой страны.
+TIVictoryCondition.description.MinProAlienFleetPower=Совокупная мощь флотов пришельцев и их сторонников должна составлять не менее {0} суммарной мощности флотов всех фракций Солнечной системы.
+TIVictoryCondition.description.MaxProAlienFleetPower=Совокупная мощь флотов пришельцев и их сторонников должна составлять не более {0} суммарной мощности флотов всех фракций Солнечной системы.
+TIVictoryCondition.description.MaxOtherFactionsFleetPower=Совокупная мощь флотов всех враждебных фракций должна составлять не более {0} суммарной мощности флотов всех фракций Солнечной системы.
+TIVictoryCondition.description.MinGlobalDemocracyWeightedAverage=Средний показатель демократии на Земле с учетом численности населения государств должен быть не менее {0}.
+TIVictoryCondition.description.MaxGlobalDemocracyWeightedAverage=Средний показатель демократии на Земле с учетом численности населения государств должен быть менее {0}.
+TIVictoryCondition.description.MinGlobalInequalityWeightedAverage=Средний показатель неравенства на Земле с учетом численности населения государств должен быть не менее {0}.
+TIVictoryCondition.description.MaxGlobalInequalityWeightedAverage=Средний показатель неравенства на Земле с учетом численности населения государств должен быть менее {0}.
+TIVictoryCondition.description.GlobalPopularityProportion=Нашу фракцию должно поддерживать {0} населения Земли.
+TIVictoryCondition.description.GlobalMissionControlCapacity=Наша фракция должна контролировать {0} космической связи человечества.
+TIVictoryCondition.Status=Текущее значение: {0}/{1} ({2})
+TIVictoryCondition.None=Нет дополнительных условий
+TIVictoryCondition.FreePlanets_DefeatAliens_PlanetarySystem=Уничтожить все жилые объекты пришельцев уровня {0} и выше в системе планеты {1}
+TIVictoryCondition.FreePlanets_DefeatAliens_Region=Уничтожить все жилые объекты пришельцев уровня {0} и выше в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_PlanetarySystem=Уничтожить все жилые объекты пришельцев и их сторонников-людей ({2}) уровня {0} и выше в определенной системе ({1})
+TIVictoryCondition.FreePlanets_DefeatAliensAndAllies_Region=Уничтожить все жилые объекты пришельцев и их сторонников-людей ({2}) уровня {0} и выше в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreePlanets_DefeatEveryone_PlanetarySystem=Уничтожить все жилые объекты уровня {0} и выше, не принадлежащие нашей фракции, в системе планеты {1}
+TIVictoryCondition.FreePlanets_DefeatEveryone_Region=Уничтожить все жилые объекты уровня {0} и выше, не принадлежащие нашей фракции, в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_PlanetarySystem=Уничтожить все жилые объекты противников пришельцев ({2}) уровня {0} и выше в системе планеты {1}
+TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_Region=Уничтожить все жилые объекты противников пришельцев ({2}) уровня {0} и выше в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_PlanetarySystem=Уничтожить все жилые объекты уровня {0} и выше, не принадлежащие союзникам пришельцев ({2}), в системе планеты {1}
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Уничтожить все жилые объекты уровня {0} и выше, не принадлежащие союзникам пришельцев ({2}), в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Уничтожить все жилые объекты пришельцев и экстремистских фракций людей ({2}) уровня {0} и выше в системе планеты {1}
+TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Уничтожить все жилые объекты пришельцев и экстремистских фракций людей ({2}) уровня {0} и выше в окрестностях следующих космических тел: {1}
+
+TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem=Уничтожить все базы пришельцев уровня {0} и выше в системе планеты {1}
+TIVictoryCondition.FreeBases_DefeatAliens_Region=Уничтожить все базы пришельцев уровня {0} и выше в окрестностях следующих небесных тел: {1}
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem=Уничтожить все базы пришельцев и их сторонников-людей ({2}) уровня {0} и выше в следующей системе: {1}
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_Region=Уничтожить все базы пришельцев и их сторонников-людей ({2}) уровня {0} и выше в окрестностях следующих небесных тел: {1}
+TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem=Уничтожить все базы уровня {0} и выше, не принадлежащие нашей фракции, в системе планеты {1}
+TIVictoryCondition.FreeBases_DefeatEveryone_Region=Уничтожить все базы уровня {0} и выше, не принадлежащие нашей фракции, в окрестностях следующих небесных тел: {1}
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem=Уничтожить все базы противников пришельцев ({2}) уровня {0} и выше в системе планеты {1}
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=Уничтожить все базы противников пришельцев ({2}) уровня {0} и выше в окрестностях следующих небесных тел: {1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=Уничтожить все базы уровня {0} и выше, не принадлежащие союзникам пришельцев ({2}), в системе планеты {1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=Уничтожить все базы уровня {0} и выше, не принадлежащие союзникам пришельцев ({2}), в окрестностях следующих небесных тел: {1}
+TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem=Уничтожить все базы пришельцев и экстремистских фракций людей ({2}) уровня {0} и выше в системе планеты {1}
+TIVictoryCondition.FreeBases_DefeatExtremists_Region=Уничтожить все базы пришельцев и экстремистских фракций людей ({2}) уровня {0} и выше в окрестностях следующих космических тел: {1}
+
+TIVictoryCondition.FreeFleets_DefeatAliens_All=Уничтожить все флоты пришельцев с боевой мощью {0} и выше
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Уничтожить все флоты пришельцев и их сторонников-людей ({2}) с боевой мощью {0} и выше
+TIVictoryCondition.FreeFleets_DefeatEveryone_All=Уничтожить все флоты с боевой мощью {0} и выше, не принадлежащие нашей фракции 
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_All=Уничтожить все флоты противников пришельцев ({2}) с боевой мощью {0} и выше
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_All=Уничтожить все флоты с боевой мощью {0} и выше, не принадлежащие союзникам пришельцев ({2})
+TIVictoryCondition.FreeFleets_DefeatExtremists_All=Уничтожить все флоты пришельцев и экстремистских фракций людей ({2}) с боевой мощью {0} и выше
+
+TIVictoryCondition.FreeFleets_DefeatAliens_PlanetarySystem=Уничтожить все флоты пришельцев с боевой мощью {0} и выше в системе планеты {1}
+TIVictoryCondition.FreeFleets_DefeatAliens_Region=Уничтожить все флоты пришельцев с боевой мощью {0} и выше в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_PlanetarySystem=Уничтожить все флоты пришельцев и их сторонников-людей ({2}) с боевой мощью {0} и выше в определенной системе ({1})
+TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_Region=Уничтожить все флоты пришельцев и их сторонников-людей ({2}) с боевой мощью {0} и выше в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreeFleets_DefeatEveryone_PlanetarySystem=Уничтожить все флоты с боевой мощью {0} и выше, не принадлежащие нашей фракции, в системе планеты {1}
+TIVictoryCondition.FreeFleets_DefeatEveryone_Region=Уничтожить все флоты с боевой мощью {0} и выше, не принадлежащие нашей фракции, в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_PlanetarySystem=Уничтожить все флоты противников пришельцев ({2}) с боевой мощью {0} и выше в системе планеты {1}
+TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_Region=Уничтожить все флоты противников пришельцев ({2}) с боевой мощью {0} и выше в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_PlanetarySystem=Уничтожить все флоты с боевой мощью {0} и выше, не принадлежащие союзникам пришельцев ({2}), в системе планеты {1}
+TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Уничтожить все флоты с боевой мощью {0} и выше, не принадлежащие союзникам пришельцев ({2}), в окрестностях следующих космических тел: {1}
+TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Уничтожить все флоты пришельцев и экстремистских фракций людей ({2}) с боевой мощью {0} и выше в системе планеты {1}
+TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Уничтожить все флоты пришельцев и экстремистских фракций людей ({2}) с боевой мощью {0} и выше в окрестностях следующих космических тел: {1}
+
+TIVictoryCondition.BasePresence_MajorPlanets=Построить полностью укомплектованную базу с уровнем всех модулей не ниже {0} и достаточным энергоснабжением в следующих планетарных системах (включая основные планеты и их спутники):
+
+TIVictoryCondition.Complete=Выполнено
+TIVictoryCondition.Incomplete=Не выполнено
+TIVictoryCondition.Colon={0}: {1}
+

@@ -6,7 +6,7 @@ TIObjectiveTemplate.MilestoneFulfilled.AccessLiveHydra=活捉了一个外星人
 TIObjectiveTemplate.MilestoneFulfilled.Summary.AccessLiveHydra=我们与来自另一个世界的智慧生物面对面接触。
 TIObjectiveTemplate.MilestoneFulfilled.Detail.AccessLiveHydra=亲眼见到来自另一个世界的生物的感觉太奇妙了。它有生命，还在呼吸，扑闪着一双外星人的眼睛看向我们。太不可思议了，根本无法用语言形容。<br/><br/>哪怕将笔交给最伟大的诗人，也无法写出这种敬畏与<i>异样</i>互相交融的感受有多奇妙。可是，能亲眼看到与人类所见所闻毫无相似之处的生物，也是一项可怕的特权。笨重头骨的形状、嘴中不自然舞动的卷须、皮肤上的纹理和图样在地球上前所未见，且光线可穿透肉体……<br/><br/>就连这些生物发出的声音都远超出我们对语言的定义。老实说，就目前看来，我们永远无法理解它们的想法。不过或许在不远的将来，这一切都会改变。<br/><br/>无论过去我们之间是否有过短暂的相遇，无论未来发生什么，这次人类与外星人的相遇，将是改变历史的重要时刻。
 
-TIObjectiveTemplate.MilestoneFulfilled.AccessAlienTech=搜刮了外星科技成品
+TIObjectiveTemplate.MilestoneFulfilled.AccessAlienTech=带回了外星科技成品
 TIObjectiveTemplate.MilestoneFulfilled.Summary.AccessAlienTech=我们带回了先进的外星制品以供研究。
 TIObjectiveTemplate.MilestoneFulfilled.Detail.AccessAlienTech=我们带回了名副其实的外星科技宝藏：一大堆我们连基本功能都无从了解的高科技机器。它们的金属结构极为罕见，螺丝和螺栓拥有极高的抗拉强度。这绝对是个史诗级的重大发现。<br/><br/>这次运回的物品，每一件都值得我们深入地研究学习。它们代表了另一个物种所掌握的顶尖科技，而如今，这个物种已经找到了某种方式，成功地从它们遥远的世界来到我们这里。 
 
@@ -58,16 +58,20 @@ TIObjectiveTemplate.MilestoneFulfilled.AlienMegafaunaSpawns=外星怪物
 TIObjectiveTemplate.MilestoneFulfilled.Summary.AlienMegafaunaSpawns=侦测到地球上出现一个全新的巨型外星物种。
 TIObjectiveTemplate.MilestoneFulfilled.Detail.AlienMegafaunaSpawns=先前，被外星访客改变的那片土地安静地令人毛骨悚然；如今，如山脉般庞大的身影在奇异的植被中来回穿梭。直至今日，仍有人坚信我们的世界并不存在外星生物，但一段惊人的影片拍下了这些新出现的庞然大物，足以让坚决不相信的人们摧毁信念。<br/><br/>它们巨大的身躯遮住了光线，大地随着它们的脚步而撼动，树木和建筑物如同薄纸般被推到一边，或像幼苗一样被巨大的卷须连根拔起。即使是数英里之外的空气，都似乎能在它们震耳欲聋的尖叫声中扭曲。现在全世界都知道：巨大的怪物就在我们身边。
 
+TIObjectiveTemplate.MilestoneFulfilled.AlienInfrastructureExists=外星人联络
+TIObjectiveTemplate.MilestoneFulfilled.Summary.AlienInfrastructureExists=外星人在地球上的存在感已经无法忽视。
+TIObjectiveTemplate.MilestoneFulfilled.Detail.AlienInfrastructureExists=外星人正在推进针对地球的所有计划，还在据为己有的领土上建立固定的防御设施。
+
 TIObjectiveTemplate.MilestoneFulfilled.TutorialAssignMission=指派了一个任务
 TIObjectiveTemplate.MilestoneFulfilled.TutorialGainControlPoint=取得了一个控制点
-TIObjectiveTemplate.MilestoneFulfilled.TutorialCheckNationalPriority=查看了一个国家的优先计划
+TIObjectiveTemplate.MilestoneFulfilled.TutorialCheckNationalPriority=调整了一个国家优先计划
 TIObjectiveTemplate.MilestoneFulfilled.TutorialSetResearchPriority=设定研究优先计划
 TIObjectiveTemplate.MilestoneFulfilled.TutorialRecruitCouncilor=招募了一名理事
 TIObjectiveTemplate.MilestoneFulfilled.TutorialPurchaseOrg=买下了一个组织
-TIObjectiveTemplate.MilestoneFulfilled.TutorialFoundStation=建立了一个空间站
-TIObjectiveTemplate.MilestoneFulfilled.TutorialProbeSpaceBody=探测到一个天体
+TIObjectiveTemplate.MilestoneFulfilled.TutorialFoundStation=建立一个空间站
+TIObjectiveTemplate.MilestoneFulfilled.TutorialProbeSpaceBody=已探勘一个天体
 TIObjectiveTemplate.MilestoneFulfilled.TutorialFoundBase=建立了一座基地
-TIObjectiveTemplate.MilestoneFulfilled.TutorialBuildShip=建造了一艘航天器
+TIObjectiveTemplate.MilestoneFulfilled.TutorialBuildShip=已建造航天器
 
 TIObjectiveTemplate.VictorySummary.ResistCouncil=攻击古柏带上的外星人主基地并关闭虫洞
 TIObjectiveTemplate.VictorySummary.DestroyCouncil=通过虫洞向外星人主基地发射生物武器以消灭它们
@@ -81,190 +85,230 @@ TIObjectiveTemplate.VictorySummary.AlienCouncil=征服人类
 TIObjectiveTemplate.ResourcesGain=我们获得了下列资源：{0}
 
 
-TIObjectiveTemplate.displayName.TutorialSelectCouncilor.ResistCouncil=在任务阶段中，选择一位你的理事
-TIObjectiveTemplate.solution.TutorialSelectCouncilor.ResistCouncil=让游戏时钟继续运转，直到下一个任务阶段触发，然后在地球地景上选择其中一位理事。
+
+TIObjectiveTemplate.displayName.TutorialSelectCouncilor.ResistCouncil=在任务指派阶段选择一位我方理事
+TIObjectiveTemplate.solution.TutorialSelectCouncilor.ResistCouncil=让游戏内时钟继续运转，直到下一个任务指派阶段触发，然后在地球地景上或屏幕右侧的查找器面板中点击其中一位理事。
 
 TIObjectiveTemplate.displayName.TutorialSelectMission.ResistCouncil=选择一个理事任务
-TIObjectiveTemplate.solution.TutorialSelectMission.ResistCouncil=从界面中下方的列表里选择一个要执行的任务，并在地景上点击合适的目标。
+TIObjectiveTemplate.solution.TutorialSelectMission.ResistCouncil=从界面中下方的任务窗口中选择要指派给我方理事的任务，然后在地景上或任务目标菜单中选择适当的目标。
 
-TIObjectiveTemplate.displayName.TutorialUseMissionSlider.ResistCouncil=对理事任务使用资源滑块
-TIObjectiveTemplate.solution.TutorialUseMissionSlider.ResistCouncil=如果有人争夺任务，你可以使用滑块，花费资源来提高成功的机会。
+TIObjectiveTemplate.displayName.TutorialUseMissionSlider.ResistCouncil=对理事任务调整资源滑块
+TIObjectiveTemplate.solution.TutorialUseMissionSlider.ResistCouncil=如果有人争夺任务，我们可以使用资源滑块花费资源，提高理事成功的机会。花费资源往往意味着成功与失败之间的差异。
 
 TIObjectiveTemplate.displayName.TutorialAssignMission.ResistCouncil=指派理事执行任务
-TIObjectiveTemplate.solution.TutorialAssignMission.ResistCouncil=完成所有理事的任务指派后，选择确认指派按键。
-TIObjectiveTemplate.description.TutorialAssignMission.ResistCouncil=理事<h>任务</h>是在地球上扩大势力的主要方式。每个月，游戏会出现两次<h>任务阶段</h>，在此期间，所有阵营都会给他们的理事指派任务。任务目标可能是国家、控制点、太空设施和其他理事。<br/><br/>任务会在接下来几周内的不同任务阶段中依序完成。防御性任务会在攻击性任务之前触发。虽然有些任务会自动成功，但大部分需要争夺和成功掷骰子。
-TIObjectiveTemplate.resolution.TutorialAssignMission.ResistCouncil=你可以在每个任务阶段开始时，指派手下的理事执行新任务，任务阶段每周都有，但随着游戏向前推进，任务阶段出现频率会减少到每月两次。<br/><br/><h>如果你想加快游戏速度，可以通过右上角的控制选项进行设置。</h>
+TIObjectiveTemplate.solution.TutorialAssignMission.ResistCouncil=完成所有理事的任务指派后，选择“确认指派”按键。你现在可以把时间往前推进，任务也会自动解决。
 
+TIObjectiveTemplate.description.TutorialAssignMission.ResistCouncil=理事<h>任务</h>是我方阵营影响地球局势的主要方式。理事可以执行<h>任务</h>，扩大我们在地球各国的影响力、保护我们的全球利益，调查外星人的到来。<br/><br/>每隔一段时间，游戏就会进入<h>“任务指派阶段”</h>，在此期间，所有阵营都会秘密地将自己的理事指派到不同的任务中。任务可能针对国家、控制点、太空设施以及其他理事。<br/><br/>在任务指派阶段之后，任务将在接下来的几天和几周内按照固定顺序得到解决。防御性任务会在攻击性任务之前解决。虽然有些任务会自动成功，但大部分需要争夺和成功掷骰子。
+
+TIObjectiveTemplate.resolution.TutorialAssignMission.ResistCouncil=在每次任务指派阶段，我们都应指派理事执行新的任务。这些任务每周都会在战役开始时进行，但随着时间的推移会减少执行频率。<br/><br/><h>你可以通过右上角的控制栏调整游戏速度，从而加快游戏进程。</h>
 
 TIObjectiveTemplate.displayName.TutorialSetResearchPriority.ResistCouncil=设定一个研究优先计划
-TIObjectiveTemplate.solution.TutorialSetResearchPriority.ResistCouncil=前往研究界面，打开轮盘选择你想完成的科技或计划，即可变更公共研究或阵营工程计划的优先计划设定。
-TIObjectiveTemplate.description.TutorialSetResearchPriority.ResistCouncil=《地球不屈》中的研究分为两类：公共研究和阵营工程。所有阵营最多可以同时参与三个公共研究计划，这代表着全球在理解广泛的科学原理方面有所进步。<h>对特定公共研究项目贡献最大的阵营，可选择下一个全世界要追求完成的公共计划。</h><br/><br/>阵营工程计划是各阵营私有的，通常可实现具体的好处。<br/><br/>每个阵营会将自己的研究收益投入到公共和私有计划中。虽然将所有研究收益集中在一个领域可能加快计划完成进度，但这么做等于放弃与特定研究领域相关的许多阵营加成。
-TIObjectiveTemplate.resolution.TutorialSetResearchPriority.ResistCouncil=投入全球科技研究会增加你解锁阵营私有计划研究的机会。某些太空殖民地舱体和组织会允许你同时进行多项私有计划。
+TIObjectiveTemplate.solution.TutorialSetResearchPriority.ResistCouncil=前往“研究与开发”窗口中的“研究”选项卡。通过点击特定研究的循环图标来更改某个全局技术或某个阵营计划的优先级设置。
+
+TIObjectiveTemplate.description.TutorialSetResearchPriority.ResistCouncil=《地球不屈》中的研究分为两类：<h>全球研究</h>和<h>阵营工程计划</h>。所有阵营最多可以同时参与三个全球研究，这些技术代表着全球范围内为深入理解某一广泛科学原理而进行的共同努力。完成之后还能解锁新的研究项目供各阵营进行研究。<h>在一项全球研究技术完成时，为该技术做出贡献最多的阵营将获得下一个研究项目的优先权，由全球范围内的其他阵营来进一步研究。</h><br/><br/>各阵营的工程研究项目由各阵营自行开展，通常会带来实际的益处。<br/><br/>各阵营将其<h>研究收益</h>指派到全球研究项目和私有计划中。虽然将所有研究集中在一个领域可能会更快地完成项目，但这样会放弃许多与特定研究领域相关的阵营奖励。
+
+TIObjectiveTemplate.resolution.TutorialSetResearchPriority.ResistCouncil=投入全球研究会为我方增加解锁阵营私有计划研究的机会。我们可以凭借某些<h>太空殖民地舱体</h>和<h>组织</h>扩展我方阵营的研究能力，还能同时进行多个私有计划。
 
 TIObjectiveTemplate.displayName.TutorialSelectProject.ResistCouncil=选择一个计划
-TIObjectiveTemplate.solution.TutorialSelectProject.ResistCouncil=为你的阵营选择一个新计划以研究。
-
+TIObjectiveTemplate.solution.TutorialSelectProject.ResistCouncil=为我方阵营选择一个新计划以研究。
 
 TIObjectiveTemplate.displayName.TutorialAssignControlNationMission.ResistCouncil=为一名理事指派一项掌控国家任务
-TIObjectiveTemplate.solution.TutorialAssignControlNationMission.ResistCouncil=向您想要立足的国家派出一名理事。选择一名理事，然后从界面底部中心的任务列表中选择“掌控国家”任务。
+TIObjectiveTemplate.solution.TutorialAssignControlNationMission.ResistCouncil=选择一名理事，从界面底部中心的任务列表中选择“掌控国家”任务图标，以此来向您希望取得立足之地的国家派遣理事。然后从地景或任务目标菜单中选择目标国家。点击“控制国家”任务按钮就能确认任务指派。
 
 TIObjectiveTemplate.displayName.TutorialGainControlPoint.ResistCouncil=在一个国家获得一个控制点
-TIObjectiveTemplate.solution.TutorialGainControlPoint.ResistCouncil=成功完成“掌控国家”任务时，你会在该国家获得一个控制点。
-TIObjectiveTemplate.description.TutorialGainControlPoint.ResistCouncil=<h>控制点</h>代表着一个国家政治和经济实力的关键节点，可授予国家资源的使用权限、控制投资的优先顺序，且在某些情况下可指挥军队。<br/><br/>每个国家都有一到六个控制点，数量与国家经济规模相对应。<br/><br/>一开始所有控制点都处于中立状态，不过所有阵营都会在战役初期锁定它们。中立控制点可通过“取得控制权”理事任务获得，“肃清”任务则可夺取其他阵营手中的控制点。在所有情况下，国家的实力越强越难取得其控制点。<br/><br/>国家面板最右边的控制点称为行政控制点。取得该控制点后你便能够进行制定政策任务，这项任务允许发起战争、结盟以及类似的高层级国家行动。
-TIObjectiveTemplate.resolution.TutorialGainControlPoint.ResistCouncil=我们已获得第一个控制点，如此一来就能获得这个国家的部分资源、控制国家的优先计划，甚至掌控一支军队。其他阵营可能会通过镇压和肃清任务攻击这个控制点，因此在这个国家使用捍卫利益任务来阻止这种行为可能是最好的应对手段。 
+TIObjectiveTemplate.solution.TutorialGainControlPoint.ResistCouncil=有一位理事成功完成“掌控国家”任务之后，就会在该国家获得一个属于我方阵营控制点。
 
+TIObjectiveTemplate.description.TutorialGainControlPoint.ResistCouncil=<h>控制点</h>代表着一个国家政治和经济实力的关键节点，可授予国家资源的使用权限、控制国家优先计划，且在某些情况下可指挥一支或多支军队。<br/><br/>每个国家都有一到六个控制点，数量与国家经济规模相对应。<br/><br/>一开始所有控制点都处于中立状态，不过所有阵营都会在战役初期锁定它们。中立控制点可通过“取得控制权”理事任务获得，“肃清”任务则可夺取其他阵营手中的控制点。在所有情况下，国家的实力越强越难取得其控制点。<br/><br/>国家面板最右边的控制点称为行政控制点。取得该控制点后你便能够进行制定国家政策任务，这项任务允许发起战争、结盟以及类似的高层级国家行动。
+
+TIObjectiveTemplate.resolution.TutorialGainControlPoint.ResistCouncil=我们已获得第一个控制点，如此一来就能获得这个国家的部分资源、控制国家的优先计划，甚至掌控一支军队。其他阵营可能会通过镇压和肃清任务攻击这个控制点，因此在这个国家使用捍卫利益任务来阻止这种行为可能是最好的应对手段。
 
 TIObjectiveTemplate.displayName.TutorialCheckNationalPriority.ResistCouncil=改变一个国家优先计划
-TIObjectiveTemplate.solution.TutorialCheckNationalPriority.ResistCouncil=选择一个国家，然后在该国家的信息面板中，点击优先计划按键即可打开优先计划页签。接着只要点击相关的点状图示就能调整该国的一个优先计划。  
-TIObjectiveTemplate.description.TutorialCheckNationalPriority.ResistCouncil=一个国家的优先计划决定它如何以<h>投资点</h>的形式分配经济结余。优先计划可以决定国家成长的很多面向。例如：军队的建立、教育方面的投资，以及发展太空计划。若我们拥有一个国家的控制点，就能左右该国的优先计划。 
-TIObjectiveTemplate.resolution.TutorialCheckNationalPriority.ResistCouncil=在对抗外星人威胁的时候，掌控一国的优先计划并追踪敌方控制国家的发展至关重要。<br/><br/>花点时间思考一下你想要自己掌控的国家如何成长。有些国家或许可以专注于发展太空资产的<h>任务管控力</h>。其他国家可以致力于促进<h>科学</h>产出，这样就能更快研究新科技。有些国家可以专注于<h>军事科技</h>，这样就能做好正面迎战外星人的准备。<br/><br/>若想要准备好面对外星威胁的稳定国家，就要避免<h>凝聚力</h>掉得太低，避免<h>动乱</h>增加，还要确保<h>不平等</h>的状况在掌控之中。 
 
+TIObjectiveTemplate.solution.TutorialCheckNationalPriority.ResistCouncil=点击我方阵营拥有至少一个控制点的国家，然后在“国家”面板中选择“优先事项”选项卡。通过转动与该国相关的标记来调整其一项优先计划的值。  
+
+TIObjectiveTemplate.description.TutorialCheckNationalPriority.ResistCouncil=一个国家的<h>优先计划</h>决定它如何以<color=#FFFFFFFF><sprite name=investments></color><h>投资点</h>的形式指派经济结余。优先事项会以多种方式引导一个国家的发展，比如组建军队、投资教育或者开展<h>太空计划</h>。在一个国家中获取更多的控制点，能够让我们进一步影响该国的优先计划。
+
+TIObjectiveTemplate.resolution.TutorialCheckNationalPriority.ResistCouncil=在对抗外星人威胁的时候，掌控一国的<h>优先计划</h>并追踪其他阵营国家的发展至关重要。<br/><br/>花点时间思考一下你想要自己掌控的国家如何成长。有些国家或许可以专注于发展太空资产的<color=#FFFFFFFF><sprite name=mission_control></color><h>任务管控力</h>。其他国家可以致力于促进<color=#FFFFFFFF><sprite name=research></color><h>每月研究</h>产出，这样就能更快研究新科技。有些国家可以专注于建设或改善自己的<h>军事</h>，这样就能做好袭击敌方阵营或正面迎战外星人的准备。<br/><br/>若想要准备好面对外星威胁的稳定国家，就要避免<color=#FFFFFFFF><sprite name=culture></color><h>凝聚力</h>掉得太低，避免<color=#FFFFFFFF><sprite name=nation_unrest></color><h>动乱</h>增加，还要确保<color=#FFFFFFFF><sprite name=inequality></color><h>不平等</h>的状况在掌控之中。
 
 TIObjectiveTemplate.displayName.TutorialAssignPublicCampaign.ResistCouncil=为理事指派公众活动任务
-TIObjectiveTemplate.solution.TutorialAssignPublicCampaign.ResistCouncil=一个国家的经济规模越大，在该国执行大部分任务就会变得越困难。如果能够让<h>公众支持</h>站在我们一方，就能减轻困难程度。使用公众活动任务，争取<h>公众支持</h>。拥有高度的公众支持，可以提高在该国家执行掌控国家等任务的成功率。
+TIObjectiveTemplate.solution.TutorialAssignPublicCampaign.ResistCouncil=一个国家的经济规模越大，在该国执行大部分任务就会变得越困难。如果能够让公众支持站在我们一方，就能减轻困难程度。指派和执行公众活动任务，争取公众支持。拥有高度的公众支持，可以提高在该国执行多种任务的成功机会。
 
 TIObjectiveTemplate.displayName.TutorialTakeOverAdjacentControlPoint.ResistCouncil=接管邻近的控制点
-TIObjectiveTemplate.solution.TutorialTakeOverAdjacentControlPoint.ResistCouncil=接管你控制的国家邻国的控制点会比较容易。利用掌控国家任务就能接管邻近的控制点。
+TIObjectiveTemplate.solution.TutorialTakeOverAdjacentControlPoint.ResistCouncil=在与我们已经占领的国家接壤的地区获取控制点会更容易些。指派并执行“掌控国家”任务，获取周边的控制点，从而提高在更大规模的国家中执行类似任务的成功几率。
 
 TIObjectiveTemplate.displayName.TutorialTakeOverFederationControlPoint.ResistCouncil=接管同一联盟中的控制点
-TIObjectiveTemplate.solution.TutorialTakeOverFederationControlPoint.ResistCouncil=拥有同一联盟中的控制点也是一种增加掌控国家任务成功机率的方式。
+TIObjectiveTemplate.solution.TutorialTakeOverFederationControlPoint.ResistCouncil=拥有与目标国家处于同一联盟中的控制点也是一种增加掌控国家任务成功机率的方式。
 
 TIObjectiveTemplate.displayName.TutorialGainLargeNationControlPoint.ResistCouncil=在一个大型国家取得一个控制点
-TIObjectiveTemplate.solution.TutorialGainLargeNationControlPoint.ResistCouncil=在一个至少拥有五个控制点的国家中，成功执行一次掌控国家任务。
+TIObjectiveTemplate.solution.TutorialGainLargeNationControlPoint.ResistCouncil=在一个至少拥有四个控制点的国家，成功执行一次掌控国家任务。
+
 TIObjectiveTemplate.description.TutorialGainLargeNationControlPoint.ResistCouncil=虽然我们应该追求的是多元的支持联合体。如果我们要有效面对外星人的潜在威胁，就需要得到一些资源丰足的国家的支持。我们应该和可以产生<h>运载力</h>或拥有资源、可以在短时间内完成空间计划的国家合作，如此，在必要时，我们才能平等地抵御这些外星人造成的任何威胁。此外，我们应该考虑能够建立<h>军队</h>，或是在外星人有意进犯时能够派出军队作战的国家。
+
 TIObjectiveTemplate.resolution.TutorialGainLargeNationControlPoint.ResistCouncil=我们如今涉足一个大型国家，并且正在奠定实现我们远大目标的基础。我们现在应该要立志掌握<h>行政控制点</h>，这种控制点能让我们制定该国的<h>国家政策</h>。
 
 TIObjectiveTemplate.displayName.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=在一个大型国家获得行政控制点
-TIObjectiveTemplate.solution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=在一个至少拥有五个控制点的国家中，成功针对行政控制点执行一次掌控国家任务。
-TIObjectiveTemplate.description.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=我们如今涉足一个大型国家，应该要通过接管<h>行政控制点</h>来巩固我们的势力。继续在大型国家中执行掌控国家任务，直到我们接管行政控制点为止。
-TIObjectiveTemplate.resolution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=我们已掌控了这个国家的行政体系。这让我们能在本国使用<h>制定国家政策</h>任务，如果该国有核武，我们也能使用。<br/><br/><h>制定国家政策</h>是一种强大的任务，举例来说，我们可以借此解除核武、解散军队以及变更联盟。选择一个国家后，在该国家信息面板中的总览部分将光标停在国家政策图标上，就能看见可用的政策。<br/><br/>我们已在此国家投注不少资源，如果对手攻击此处会重挫我们的努力。其他阵营能通过镇压与肃清任务攻击控制点，请使用本国的<h>捍卫利益</h>任务对抗他们的攻击。
+
+TIObjectiveTemplate.solution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=在一个至少拥有四个控制点的国家中，成功针对行政控制点执行一次掌控国家任务。
+
+TIObjectiveTemplate.description.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=既然我们在一个大国中已经获得了一定的影响力，那么我们就应该通过接管<h>行政控制点</h>来巩固我们的地位。继续指派并执行针对大国的<h>掌控国家</h>任务，直至我们接管其执行控制点为止。
+
+TIObjectiveTemplate.resolution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=我们已掌控了这个国家的行政体系。这让我们能在本国使用<h>制定国家政策</h>任务，如果该国有核武，我们也能使用。<br/><br/>制定国家政策是一项强大的任务，我们可以利用它对敌对国家宣战、赋予符合条件的地区独立地位、与其他国家结成联盟等等，但我们需要再等一段时间，以便巩固对这个国家的控制权，从而充分发挥其作用。选择一个国家后，在该国家信息面板中的总览部分将光标停在国家政策图标上，就能看见可用的政策。<br/><br/>点击一个国家，然后在“国家”面板中选择<h>政策</h>页签，即可查看可用的政策。<br/><br/>我们在这个国家投入了大量资源，如果对手在此发起攻击，可能会严重阻碍我们的行动。控制点可能会被其他阵营通过<h>镇压</h>和<h>肃清</h>任务攻击。要留意其他阵营的理事在我们控制的国家中执行任务的情况。
 
 TIObjectiveTemplate.displayName.TutorialRecruitCouncilor3.ResistCouncil=招募第3位理事
-TIObjectiveTemplate.solution.TutorialRecruitCouncilor3.ResistCouncil=为你的理事会招募并留任3位理事。
+TIObjectiveTemplate.solution.TutorialRecruitCouncilor3.ResistCouncil=为我方理事会招募并留任3位理事。
 
 TIObjectiveTemplate.displayName.TutorialRecruitCouncilor4.ResistCouncil=招募第4位理事
-TIObjectiveTemplate.solution.TutorialRecruitCouncilor4.ResistCouncil=为你的理事会招募并留任4位理事。
+TIObjectiveTemplate.solution.TutorialRecruitCouncilor4.ResistCouncil=为我方理事会招募并留任4位理事。
 
-TIObjectiveTemplate.displayName.TutorialResearchWeAreNotAlone.ResistCouncil=研究“不只有我们”
-TIObjectiveTemplate.solution.TutorialResearchWeAreNotAlone.ResistCouncil=研究全球科技“不只有我们”。这项科技是开展秘密细胞项目的前提条件。如果此项研究已完成，那么一段时间后就可以开展秘密细胞项目了。
+TIObjectiveTemplate.displayName.TutorialResearchWeAreNotAlone.ResistCouncil=研究“不只有我们”科技
+TIObjectiveTemplate.solution.TutorialResearchWeAreNotAlone.ResistCouncil=研究“不只有我们”全球科技。这项科技是开展秘密细胞项目的前提条件。如果此项全球研究已完成，那么一段时间后就可以开展秘密细胞项目了。
 
-TIObjectiveTemplate.displayName.TutorialResearchClandestineCells.ResistCouncil=研究秘密细胞
-TIObjectiveTemplate.solution.TutorialResearchClandestineCells.ResistCouncil=在秘密细胞项目可开展后，请研究此项目，这样你就能招募第5位理事。
+TIObjectiveTemplate.displayName.TutorialResearchClandestineCells.ResistCouncil=研究“秘密细胞”计划
+TIObjectiveTemplate.solution.TutorialResearchClandestineCells.ResistCouncil=在“秘密细胞”项目可开展后，请研究此项目，这样你就能招募第5位理事。
 
-TIObjectiveTemplate.displayName.TutorialBuildCouncil.ResistCouncil=成立你的理事会
-TIObjectiveTemplate.solution.TutorialBuildCouncil.ResistCouncil=为你的理事会招募并留任5位理事。
-TIObjectiveTemplate.description.TutorialBuildCouncil.ResistCouncil=阵营理事会是你在地球上政治工作的骨干。壮大你的理事会可让你每个月能承担的任务量更多。理事的属性、背景、可用的任务和特征不胜枚举，成立可处理各种任务的理事会，有助于跟上其他阵营的脚步。
-TIObjectiveTemplate.resolution.TutorialBuildCouncil.ResistCouncil=请务必招募多名有能力在各国获得控制点的理事；如果理事的职业与你的派系目标密切相关，就可以花费较少的影响力来招募。
+TIObjectiveTemplate.displayName.TutorialBuildCouncil.ResistCouncil=成立理事会
 
+TIObjectiveTemplate.solution.TutorialBuildCouncil.ResistCouncil=为我方理事会招募并留任5位理事。
+
+TIObjectiveTemplate.description.TutorialBuildCouncil.ResistCouncil=我方阵营的<h>理事会</h>是你在地球上政治工作的骨干。壮大理事会可让我们每个月能承担的任务量更多。理事的属性、背景、可用的任务和特征不胜枚举。<br/><br/>成立可处理各种任务的理事会，有助于跟上其他阵营的脚步，但是建议招募几位具备在国家中获取控制点能力的理事。理事候选人的职业若与我方阵营的目标有契合度，招募的<color=#FFFFFFFF><sprite name=influence></color><h>影响力</h>成本通常会更低。
+TIObjectiveTemplate.resolution.TutorialBuildCouncil.ResistCouncil=虽然我们的理事会规模已经有所扩大，但以后可不会一成不变。如果发现现任理事表现不佳或不忠诚，我们随时都可以<h>解聘</h>他们……然后可以招募一位更适合目标的新理事候选人。我们会定期选拔不同理事候选人，供你选择。
 
 TIObjectiveTemplate.displayName.TutorialPurchaseOrg.ResistCouncil=获得一个组织
-TIObjectiveTemplate.solution.TutorialPurchaseOrg.ResistCouncil=前往理事会界面，选取一位理事，将组织市集中一个组织的图示放到你的组织视窗中，然后支付费用，即可获得组织。
 
-TIObjectiveTemplate.displayName.TutorialUnequipOrg.ResistCouncil=解除管控组织的理事
-TIObjectiveTemplate.solution.TutorialUnequipOrg.ResistCouncil=在理事会界面上，选取一位拥有组织的理事，然后从组织页签切换至阵营页签。用右键按一下或拖放由该理事控管的组织到阵营名单中，即可解除该理事和组织的关系。这样你就能指派另一位理事来管理组织。
+TIObjectiveTemplate.solution.TutorialPurchaseOrg.ResistCouncil=前往“理事会”窗口，然后点击我们的一位理事，打开“理事详情”窗口。在组织卖场中，通过右键点击或将所选组织拖拽到“已指派组织”面板中并支付费用，即可购买并指派一个组织单位。可能需要等待一段时间，直到我们能够承担起费用为止。
 
-TIObjectiveTemplate.displayName.TutorialEquipOrg.ResistCouncil=管理组织
-TIObjectiveTemplate.solution.TutorialEquipOrg.ResistCouncil=在理事会界面上选取一位理事，在阵营名单中用右键按一下或拖放组织，即可为组织指派理事。
-TIObjectiveTemplate.description.TutorialEquipOrg.ResistCouncil=组织可能是政府机关、非政府组织、犯罪组织和私营企业，由一位理事负责控制。组织可为你控制的国家提供属性加成、收入、任务、研究加成和某些优先计划的加成。<br/><br/>要获得组织需使用金钱、影响力和极少的行动（通常用于犯罪集团）。某些组织只限具有特定特征或特定国籍的理事可获得。
-TIObjectiveTemplate.resolution.TutorialEquipOrg.ResistCouncil=未购买的组织有时会在一段时间过后开放其他阵营取得。你也可以通过阵营计划发展组织，并以小额费用在理事之间转移组织。
+TIObjectiveTemplate.displayName.TutorialUnequipOrg.ResistCouncil=取消指派管控组织的理事		//deprecated
+
+TIObjectiveTemplate.solution.TutorialUnequipOrg.ResistCouncil=若要取消指派组织，请返回已指派组织单位的理事详情窗口中，针对已指派组织的理事执行操作。右键点击该组织，或拖放至“未指派组织”清单中。这样还能将该组织指派给本阵营的其他理事。		//deprecated
+
+TIObjectiveTemplate.displayName.TutorialEquipOrg.ResistCouncil=管理组织		//deprecated
+
+TIObjectiveTemplate.solution.TutorialEquipOrg.ResistCouncil=前往“理事会”窗口中的“组织管理”页签。从我们阵营的“未指派组织”清单或组织卖场中选择一个组织，拖拽到我方理事的面板上。点击“确认更改”按钮来支付购买和/或指派该组织的费用。		//deprecated
+
+TIObjectiveTemplate.description.TutorialPurchaseOrg.ResistCouncil=<h>组织</h>可能是政府机关、非政府组织、犯罪组织和私营企业，由一位理事负责控制。组织可为你控制的国家提供属性加成、收入、任务、研究加成和某些优先计划的加成。<br/><br/>要获得组织需使用<color=#FFFFFFFF><sprite name=currency></color><h>金钱</h>、<color=#FFFFFFFF><sprite name=influence></color><h>影响力</h>和极少的<color=#FFFFFFFF><sprite name=ops></color><h>行动</h>（通常用于犯罪集团）。某些组织只限具有特定特征或特定国籍的理事可获得。
+
+TIObjectiveTemplate.resolution.TutorialPurchaseOrg.ResistCouncil=卖场中未被购买的组织仅对我们开放，但如果我们不把这些组织购入手中，它们就会定期转移到其他阵营的卖场中。如果完成某些阵营计划，就可以解锁新的组织，增加组织卖场中可供选择的组织数量。我们还可以花费少量费用，将组织从我们的一位理事转移到另一位理事手中。
 
 TIObjectiveTemplate.displayName.TutorialAssignCrackdown.ResistCouncil=为理事指派镇压任务
-TIObjectiveTemplate.solution.TutorialAssignCrackdown.ResistCouncil=对敌军控制的国家使用镇压任务可以削弱控制点，增加肃清任务的成功率。
+
+TIObjectiveTemplate.solution.TutorialAssignCrackdown.ResistCouncil=抢先在敌方控制点执行镇压任务，削弱这些控制点的效能，令其暂时无法为其他任务提供帮助，从而提高肃清任务的成功几率。
 
 TIObjectiveTemplate.displayName.TutorialAssignPurge.ResistCouncil=为理事指派肃清任务
-TIObjectiveTemplate.solution.TutorialAssignPurge.ResistCouncil=对敌方控制点使用肃清任务，可从敌方阵营夺取控制点的掌控权。强烈建议先执行镇压任务，使控制点无法产生利益并增加任务成功机率。
-TIObjectiveTemplate.description.TutorialAssignPurge.ResistCouncil=掌控国家是一项重要手段，可让你建立据点、提升研究和增加资源，以便前往太阳系深处探险。敌方阵营有时可能会在你想掌控的国家拥有控制点，若要取得已由其他阵营掌控的控制点，你需要派遣理事前往执行镇压和肃清任务。镇压任务会削弱控制点，接着执行肃清任务就能为你的阵营夺取控制点。
-TIObjectiveTemplate.resolution.TutorialAssignPurge.ResistCouncil=肃清敌方控制点是你可以采取的宝贵出击方式。留意敌军未设下防御的控制点，这些非常适合夺取。
 
+TIObjectiveTemplate.solution.TutorialAssignPurge.ResistCouncil=针对敌方控制点指派肃清任务，从敌方阵营手中夺取这些控制点。
+
+TIObjectiveTemplate.description.TutorialAssignPurge.ResistCouncil=有时，敌对阵营可能会掌控我们希望亲自管理的国家中的控制点。若要夺取已被另一方掌控的控制点，我们就要派遣理事执行<h>镇压</h>和<h>肃清</h>任务。镇压任务如果成功，就能削弱该控制点的效力。随后再进行肃清任务，就能将控制点纳入我方阵营。
+
+TIObjectiveTemplate.resolution.TutorialAssignPurge.ResistCouncil=清除敌方控制点是我们武器库中的一项重要手段。由于镇压任务会比肃清任务先完成，所以如果对这两项任务成功的可能性都有十足的信心，我们就可以尝试迅速夺取一个控制点。留意那些无人防守且易于夺取的敌方控制点吧。
 
 TIObjectiveTemplate.displayName.TutorialAssignDefendInterests.ResistCouncil=为理事指派捍卫利益任务
-TIObjectiveTemplate.solution.TutorialAssignDefendInterests.ResistCouncil=在你拥有控制点的国家使用捍卫利益任务，可以保护控制点不受敌方理事任务的威胁。如果你捍卫控制点，就能降低敌军在此执行恶意任务的成功率。
-TIObjectiveTemplate.description.TutorialAssignDefendInterests.ResistCouncil=捍卫利益是实用的防御手段，可防止敌方阵营成功完成镇压、肃清和政变任务。强烈建议你保卫你最具价值的国家。
-TIObjectiveTemplate.resolution.TutorialAssignDefendInterests.ResistCouncil=使用捍卫利益任务保护最具价值的国家，以防敌人执行镇压、肃清和政变任务。
+TIObjectiveTemplate.solution.TutorialAssignDefendInterests.ResistCouncil=在我们拥有控制点的国家使用捍卫利益任务，可以保护控制点不受敌方理事任务的威胁。如果你捍卫控制点，就能降低敌军在此执行恶意任务的成功率。
+
+TIObjectiveTemplate.description.TutorialAssignDefendInterests.ResistCouncil=<h>捍卫利益</h>任务是一种很有效的防御手段，可以让敌方理事更难完成<h>镇压</h>、<h>肃清</h>和<h>政变</h>任务。执行该任务时，会为我方在目标国家所控制的所有控制点提供保护。保护范围至关重要，必须保护我们最宝贵的国家。<br/><br/><h>这种保护会到期，还需要定期延续。</h>需要保护的控制点越多，保护的持续时间就越短。
+
+TIObjectiveTemplate.resolution.TutorialAssignDefendInterests.ResistCouncil=继续指派并执行<h>捍卫利益</h>任务，在必要时保护我们珍视的国家，抵抗敌方的攻击。保护行动的效力会自动失效，但可以在我们所属阵营控制的控制点上再次使用。
 
 TIObjectiveTemplate.displayName.TutorialAssignIncreaseUnrest.ResistCouncil=为理事指派增加动乱任务
-TIObjectiveTemplate.solution.TutorialAssignIncreaseUnrest.ResistCouncil=使用增加动乱任务能削弱目标国家的经济，提高政变、革命和分裂的成功机率。
+
+TIObjectiveTemplate.solution.TutorialAssignIncreaseUnrest.ResistCouncil=执行增加动乱任务，在目标国家制造混乱并削弱其经济，从而增加革命和分裂发生的可能性，还能提高政变成功的几率。
 
 TIObjectiveTemplate.displayName.TutorialAssignCoup.ResistCouncil=为理事指派政变任务
-TIObjectiveTemplate.solution.TutorialAssignCoup.ResistCouncil=派遣理事前往由其他阵营掌控的国家来执行政变任务。政变任务成功时，会推翻该国政府并重建所有控制点。
-TIObjectiveTemplate.description.TutorialAssignCoup.ResistCouncil=你可以使用政变任务来重置敌方国家的控制点。在动乱程度较高的国家，政变任务的成功机率较高。建议先执行增加动乱任务，再尝试政变任务。
-TIObjectiveTemplate.resolution.TutorialAssignCoup.ResistCouncil=你可以先使用增加动乱任务来削弱敌方国家的经济，接着执行政变任务来推翻政府和重置该国控制点。
 
+TIObjectiveTemplate.solution.TutorialAssignCoup.ResistCouncil=在一个<color=#FFFFFFFF><sprite name=unrest_increasing_bad></color>动乱加剧的国家执行一场政变任务。成功的政变行动可以推翻现政府，然后将所有控制权点交给新的掌控者。
+
+TIObjectiveTemplate.description.TutorialAssignCoup.ResistCouncil=<h>政变</h>的目的是剥夺国家内所有控制点的所有权，转交给发动政变的阵营以及其他对提高国家动乱做出贡献的阵营。在<color=#FFFFFFFF><sprite name=nation_unrest></color><h>动乱</h>程度较高的国家中，政变更有可能成功。在尝试发动政变任务之前，应先完成多个<h>增加动乱</h>任务，提高成功几率。
+
+TIObjectiveTemplate.resolution.TutorialAssignCoup.ResistCouncil=完成<h>增加动乱</h>任务，削弱敌方国家的稳定性，随后执行<h>政变</h>任务，推翻政府，重置该国控制点的状态。要使一个国家的局势足够动乱，导致成功发动政变，可能需要多次执行增加动乱任务。要留意我们所控制的国家中突然出现的<color=#FFFFFFFF><sprite name=unrest_increasing_bad></color>动乱现象，因为这可能是敌方理事试图破坏我们努力的结果。
 
 TIObjectiveTemplate.displayName.TutorialFoundStation.ResistCouncil=建立一个空间站
-TIObjectiveTemplate.description.TutorialFoundStation.ResistCouncil=空间站或“空间平台”是人类在外太空的据点，对太空工业化和建立战舰队而言至关重要。空间站是由舱体组成，这些舱体会为研究和其他资源提供加成，且可用于建造舰船和其他舱体。我们应该开始储存<h>运载力</h>并获取<h>地面控制</h>点数，为建立空间站做准备。 
-TIObjectiveTemplate.solution.TutorialFoundStation.ResistCouncil=储存足够的金钱、运载力和地面控制资源，才能发射平台核心舱体。然后缩放视野，与地球拉开一段距离，当看不见国家边界时点击行星。在画面底部的各种图示中，选择“建造空间平台”图标。选择一条围绕地球的轨道供空间站停驻，然后点击建造空间平台键确认。<br/><br/><h>可能需要几个月的时间才能完成建造。</h>
-TIObjectiveTemplate.resolution.TutorialFoundStation.ResistCouncil=对我们的工作而言，空间站的重要性会逐步提高。当你准备好以后，就可以考虑研究轨道站科技，开发更大型的空间站。要建造距离地球更远的空间站，我们必须完成“xx 任务”公众研究计划。 
+
+TIObjectiveTemplate.description.TutorialFoundStation.ResistCouncil=小型空间站被称为<h>空间平台</h>，是人类在太空中的立足点，也是实现太空工业化和建立战舰舰队的关键第一步。这些空间站被安置在围绕天体或拉格朗日点的固定<h>轨道</h>上。空间站由<h>舱体</h>组成，这些舱体能为研究及其他资源提供增益，还可以建造舰船和额外的舱体。<br/><br/>我们应该储备<color=#FFFFFFFF><sprite name=boost></color><h>运载力</h></color>以及少量的<color=#FFFFFFFF><sprite name=mission_control></color><h>任务管控力</h>数，准备建立一个环绕地球运行的空间平台。
+
+TIObjectiveTemplate.solution.TutorialFoundStation.ResistCouncil=储存足够的<color=#FFFFFFFF><sprite name=currency></color>金钱、<color=#FFFFFFFF><sprite name=boost></color>运载力和<color=#FFFFFFFF><sprite name=mission_control></color>任务管控力，才能发射平台核心舱体。缩放视野，与地球拉开一段距离，当看不见地景时点击我们的星球。在视图底部中央的操作界面上点击“建立平台”操作图标。选择一条围绕地球的轨道供空间站停驻，然后点击“建造空间平台”操作按钮以确认并开始构建空间平台的核心舱体。<br/><br/>可能需要几个月的时间才能完成。
+
+TIObjectiveTemplate.resolution.TutorialFoundStation.ResistCouncil=随着太阳系的探索和开发不断深入，<h>空间站</h>和<h>地面基地</h>对我们的意义也会变得愈发重要。等到我们做好准备之后，可以考虑通过研究轨道技术来建设更大的空间站。我们还需要完成<h>“xx 任务”</h>全球技术，以便在离地球更远的地方建造空间站。<br/><br/>请注意，除了需要由<color=#FFFFFFFF><sprite name=mission_control></color>任务管控力进行管理之外，我们所有的居住空间都有维护成本，以金钱和空间资源衡量。如果我们无法生产足够的空间资源来支持我们的居住空间，我们将使用<color=#FFFFFFFF><sprite name=boost></color>运载力从地球运送物资来弥补差额。如果居住空间缺乏足够的支持，可能会带来严重的后果！
 
 TIObjectiveTemplate.displayName.TutorialBuildStationPower.ResistCouncil=建造一架太阳能收集器
-TIObjectiveTemplate.description.TutorialBuildStationPower.ResistCouncil=我们的新空间站可以支援四种舱体。建造一些实验室舱体并开始运作，有助于我们组织高效能的反抗军，对抗外星人。然而，舱体需要动力才能运作。我们必须为空间站找到解决供电的方案。
-TIObjectiveTemplate.solution.TutorialBuildStationPower.ResistCouncil=在太空殖民地画面，选择你的空间站，然后选择“管理”按键。点击太阳能收集器，再将它拉到空间站的四个舱体栏位之一。
-TIObjectiveTemplate.resolution.TutorialBuildStationPower.ResistCouncil=兴建太阳能收集器，空间站很快就能获得动力。越靠近太阳，太阳能收集器的工作效率越高。如果空间站要在其他星球上高效率地运作，我们必须找到其他的供电方法。 
+
+TIObjectiveTemplate.description.TutorialBuildStationPower.ResistCouncil=除了核心舱体，我们的新空间站可以支援四种<h>舱体</h>。建造一些<h>实验室</h>舱体并开始运作，有助于我们组织高效能的反抗军，对抗外星人。然而，舱体需要<color=#FFFFFFFF><sprite name=hab_power></color><h>动力</h>才能运作。我们必须为空间站找到解决供电的方案。
+
+TIObjectiveTemplate.solution.TutorialBuildStationPower.ResistCouncil=进入太空殖民地画面，然后选择我们的空间站。点击管理按钮，进入太空殖民地管理工具窗口。右键点击或将它拉到空间站的四个舱体栏位之一。
+
+TIObjectiveTemplate.resolution.TutorialBuildStationPower.ResistCouncil=太阳能收集舱体的建造工作正在进行中，我们的基地很快就会获得过剩的<color=#FFFFFFFF><sprite name=hab_power></color><h>电力</h>，可用于驱动其他舱体。你可以同时建造包括核心舱体在内的多个舱体。<br/><br/>太阳能收集舱体离太阳越近，工作效率就越高。如果空间站要在太阳系之外高效率地运作，我们必须找到其他的<color=#FFFFFFFF><sprite name=hab_power></color><h>供电</h>方法。 
 
 TIObjectiveTemplate.displayName.TutorialBuildStationLab.ResistCouncil=建造一间实验室
-TIObjectiveTemplate.description.TutorialBuildStationLab.ResistCouncil=现在空间站有了电力，我们就可以建造实验室了。实验室通常会为其绕行的天体提供各式各样的加成效果。要解锁新的实验室，可以在我们可用的实验室中做选择，或是研究新的实验室阵营工程项目。然后才能在空间站中建造一间实验室。 
-TIObjectiveTemplate.solution.TutorialBuildStationLab.ResistCouncil=在太空殖民地画面，选择你的空间站，然后选择“管理”按键。点击实验室，再将它拉到空间站的四个舱体栏位之一。
-TIObjectiveTemplate.resolution.TutorialBuildStationLab.ResistCouncil=实验室完工后，这个空间站就会帮助我们抵抗地球及其他地方的外星人。未来，我们会需要扩大空间站的容量，才能支援四个以上的舱体。要达到此目标，我们必须研究“轨道站”科技，然后完成“轨道站核心”计划。
 
+TIObjectiveTemplate.description.TutorialBuildStationLab.ResistCouncil=既然空间平台即将拥有充足的<color=#FFFFFFFF><sprite name=hab_power></color><h>电力</h>，我们就可以建造一个<h>实验室舱体</h>。该舱体建造完成之后就会立即上线运行。实验室舱体能带来多种加成，而且如果将其建在地球<h>交互轨道</h>上（该术语指的是围绕行星运行的低轨道，该轨道低到足以让资产与行星表面进行交互），还会带来额外的益处。你可以从现有的实验室舱体中选择，或者完成新实验室舱体项目的研发，然后在我们的空间平台上建造一个实验室舱体。
+
+TIObjectiveTemplate.solution.TutorialBuildStationLab.ResistCouncil=返回空间站的太空殖民地管理工具窗口。右键点击实验室舱体或将它拉到空间站的四个舱体栏位之一，即可开始建造。
+
+TIObjectiveTemplate.resolution.TutorialBuildStationLab.ResistCouncil=实验室完工后，这个空间站就会帮助我们抵抗地球及其他地方的外星人。未来，我们会需要扩大空间站的容量，才能支援四个以上的舱体。要达到此目标，我们必须研究<h>轨道站</h>科技，然后完成<h>轨道站核心</h>计划。
 
 TIObjectiveTemplate.displayName.TutorialResearchMissionToMoonMars.ResistCouncil=研究月球任务或火星任务科技。
 TIObjectiveTemplate.solution.TutorialResearchMissionToMoonMars.ResistCouncil=研究“xx 任务”的科技会解锁将探测器发送至月球或火星的行动。
 
 TIObjectiveTemplate.displayName.TutorialProbeSpaceBody.ResistCouncil=发射一部探测器
-TIObjectiveTemplate.description.TutorialProbeSpaceBody.ResistCouncil=目前我们的太空资产所需要的材料都是由地球上的发射设施提供的。<h>这样会限制我们的运载力收益。</h>我们必须将行动扩大到整个太阳系，减轻地球的负担，建立强大的星际经济体系。发射探测器乃是在其他行星、卫星和小行星上建造基地的第一步，这能让我们评估其他天体上的各种据点。探测器可以从地球发射，或是由具备太空港或较大型宇宙舰船建造舱体的太空殖民地发射。<br/><br/>探测器抵达一处天体时，会显示每个据点的采矿资料。
-TIObjectiveTemplate.solution.TutorialProbeSpaceBody.ResistCouncil=选择范围内的一个天体，选择要锁定的探测器作业，然后确认发射。
-TIObjectiveTemplate.resolution.TutorialProbeSpaceBody.ResistCouncil=探测器需要花费一定时间才能抵达目的地，如果你已开发出适用的科技，抵达后就能建立基地。
 
+TIObjectiveTemplate.description.TutorialProbeSpaceBody.ResistCouncil=目前我们的太空资产所需要的材料都是由地球上的发射设施提供的。<h>这样会限制我们的<color=#FFFFFFFF><sprite name=boost></color>运载力收益。</h>我们必须将行动扩大到整个太阳系，减轻地球的负担，建立强大的星际经济体系。<br/><br/>发射<h>探测器</h>乃是在其他行星、卫星和小行星上建造<h>基地</h>的第一步，这能让我们评估其他天体上的各种<h>据点</h>。探测器可以从地球发射，或是由具备<h>太空船坞</h>或较大型<color=#FFFFFFFF><sprite name=construction_shipyard></color><h>造船厂</h>舱体的太空殖民地发射。<br/><br/>探测器抵达一处天体时，就会开展勘探，还会显示每个据点的<h>采矿潜力</h>。
+
+TIObjectiveTemplate.solution.TutorialProbeSpaceBody.ResistCouncil=选择一个并非地球的其他天体（该天体需通过“xx 任务”技术解锁），查看其预计的资源产出量，然后从操作界面点击“发射探勘探测器”图标。点击“发射探勘探测器”操作按钮以确认探测器的发射。
+
+TIObjectiveTemplate.resolution.TutorialProbeSpaceBody.ResistCouncil=探测器需要一些时间才能抵达目的地并完成探测任务。等到探测任务完成，且我们完成了相应的研究工作，就可以在该天体上建立<h>基地</h>了。
 
 TIObjectiveTemplate.displayName.TutorialResearchMissionToSpace.ResistCouncil=研究太空任务科技
-TIObjectiveTemplate.solution.TutorialResearchMissionToSpace.ResistCouncil=研究太空任务科技。
+TIObjectiveTemplate.solution.TutorialResearchMissionToSpace.ResistCouncil=研究太空任务科技。这是研究前哨站殖民地科技的必要条件。
 
 TIObjectiveTemplate.displayName.TutorialResearchOutpostHabs.ResistCouncil=研究前哨站太空殖民地科技
-TIObjectiveTemplate.solution.TutorialResearchOutpostHabs.ResistCouncil=研究前哨站殖民地科技。
+TIObjectiveTemplate.solution.TutorialResearchOutpostHabs.ResistCouncil=研究前哨站太空殖民地科技。这是“月球任务”科技和“火星任务”科技的共同要求，我们有了这项科技，就能向这两个天体发射探测器。
 
 TIObjectiveTemplate.displayName.TutorialResearchOutpostCore.ResistCouncil=研究前哨站核心计划
-TIObjectiveTemplate.solution.TutorialResearchOutpostCore.ResistCouncil=研究前哨站核心计划，这样你就能建立前哨站。
+TIObjectiveTemplate.solution.TutorialResearchOutpostCore.ResistCouncil=研究前哨站核心计划，我们就能在其他天体上建立前哨站。
 
 TIObjectiveTemplate.displayName.TutorialFoundBase.ResistCouncil=建立一个基地
-TIObjectiveTemplate.solution.TutorialFoundBase.ResistCouncil=累积足以建立基地的资源。依序选择你先前发送探测器抵达的天体，以及成立基地的地点，然后确认作业。
-TIObjectiveTemplate.description.TutorialFoundBase.ResistCouncil=跟空间站一样，基地是以提供各种效益的舱体建造而成，不过也可能含有一座复合型矿场，可以用来通过电磁弹射器为其他太空殖民地提供空间资源。如果在地球重力穴之外拥有一个矿场网，可减少对稀有加成资源的依赖，且有助于快速发展你的太空工业。
-TIObjectiveTemplate.resolution.TutorialFoundBase.ResistCouncil=若要建造复合型矿场，需支援开发进阶磁学、质量传动器和太空采矿与精炼这几项公共科技。
 
+TIObjectiveTemplate.solution.TutorialFoundBase.ResistCouncil=先积累足够的资源，建立一个前哨站，然后从通过探测器探测到的天体中选择一个位置。在操作界面点击“建立前哨站”图标。选择基地的居住区域，然后点击“建立前哨站”操作按钮以确认并开始建造前哨站的核心舱体。
+
+TIObjectiveTemplate.description.TutorialFoundBase.ResistCouncil=小型<h>表面基地</h>或<h>前哨站</h>由一系列舱体构成，这些舱体能提供与<h>空间站</h>类似的多种益处。此外，它们还能容纳一个<h>复合型矿场</h>舱体，该舱体可通过电磁弹射器为其他居住舱提供<h>太空资源</h>。在地球引力范围之外建立一系列矿场可以帮我们降低对稀缺<color=#FFFFFFFF><sprite name=boost></color>运载力的依赖，而且有助于我们迅速发展太空工业。
+
+TIObjectiveTemplate.resolution.TutorialFoundBase.ResistCouncil=等到我们在一个天体上建造好了基地，就要支援开发<h>进阶电磁学</h>、<h>质量投射器</h>和<h>太空采矿与精炼</h>这几项全球研究，才能在这个站点建造一座<h>复合型矿场</h>舱体。
 
 TIObjectiveTemplate.displayName.TutorialResearchSpaceMining.ResistCouncil=研究太空采矿与精炼科技
-TIObjectiveTemplate.solution.TutorialResearchSpaceMining.ResistCouncil=研究太空采矿与精炼科技。
+TIObjectiveTemplate.solution.TutorialResearchSpaceMining.ResistCouncil=研究“太空采矿与精炼”科技，该科技需要先研究“进阶电磁学”和“质量投射器”科技。研究完成后，很快就会解锁“前哨站复合型矿场”计划，这是在基地建造复合型矿场舱体的前置条件。
 
 TIObjectiveTemplate.displayName.TutorialResearchOutpostMining.ResistCouncil=研究前哨站复合型矿场计划
-TIObjectiveTemplate.solution.TutorialResearchOutpostMining.ResistCouncil=研究前哨站复合型矿场计划，这样你就能在基地上建造矿场舱体。
+TIObjectiveTemplate.solution.TutorialResearchOutpostMining.ResistCouncil=研究前哨站复合型矿场计划，我们就能在前哨站建造矿场舱体。
 
 TIObjectiveTemplate.displayName.TutorialBuildMine.ResistCouncil=在一个基地上建造矿场
-TIObjectiveTemplate.solution.TutorialBuildMine.ResistCouncil=累积足以建造矿场的资源，然后在太空殖民地界面上选择一个基地，开始建造矿场。
-TIObjectiveTemplate.description.TutorialBuildMine.ResistCouncil= 矿场是搜集空间资源的必要设施。
-TIObjectiveTemplate.resolution.TutorialBuildMine.ResistCouncil=开采设施是获得建造舰队所需的空间资源的主要手段。请持续在整个太阳系勘探天体、建立矿场。
+TIObjectiveTemplate.solution.TutorialBuildMine.ResistCouncil=积累足够的资源，建造一个复合型矿场舱体，然后在“太空殖民地管理工具”窗口中选择我们的一个基地。右键单击或将“前哨站复合型矿场”舱体拖放到基地顶部中间的栏位，开始建造矿场。
 
+TIObjectiveTemplate.description.TutorialBuildMine.ResistCouncil=矿场对于收集<h>太空资源</h>至关重要，而太空资源对于建造和维持栖息地以及飞船以对抗外星威胁也是必不可少的。从其他天体收集太空资源也意味着我们不必使用<color=#FFFFFFFF><sprite name=boost></color><h>运载力</h>从地球发射昂贵的火箭来扩大我们在太阳系中的影响力。
 
-TIObjectiveTemplate.displayName.TutorialBuildHab.ResistCouncil=建造空间站
-TIObjectiveTemplate.solution.TutorialBuildHab.ResistCouncil=建造空间站，这是建造舰船的第一步。
+TIObjectiveTemplate.resolution.TutorialBuildMine.ResistCouncil=<h>开采设施</h>是获得建造舰队所需的<h>空间资源</h>的主要手段。这些资源用于开发和支持我们的太空殖民地，也会用于建造我们的舰队。请持续在整个太阳系勘探天体、建立矿场。
+
+TIObjectiveTemplate.displayName.TutorialBuildHab.ResistCouncil=建造空间站 //deprecated
+TIObjectiveTemplate.solution.TutorialBuildHab.ResistCouncil=建造空间站，这是建造舰船的第一步。 //deprecated
 
 TIObjectiveTemplate.displayName.TutorialResearchOrbitalShipbuilding.ResistCouncil=研究轨道造船科技
-TIObjectiveTemplate.solution.TutorialResearchOrbitalShipbuilding.ResistCouncil=研究轨道造船科技。
+TIObjectiveTemplate.solution.TutorialResearchOrbitalShipbuilding.ResistCouncil=研究“轨道造船”科技。这是“太空船坞”计划的前置要求，而“太空船坞”计划是为我们的阵营建造太空飞船所必需的。
 
 TIObjectiveTemplate.displayName.TutorialResearchSpaceDock.ResistCouncil=研究太空船坞计划
-TIObjectiveTemplate.solution.TutorialResearchSpaceDock.ResistCouncil=研究太空船坞计划。太空船坞会解锁空间站建造作业。
+TIObjectiveTemplate.solution.TutorialResearchSpaceDock.ResistCouncil=研究“太空船坞”计划，我们就能在空间站和基地建造太空船坞，这是<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船厂舱体的第一步。
 
 TIObjectiveTemplate.displayName.TutorialResearchInterplanetaryWarships.ResistCouncil=研究星际战舰计划
-TIObjectiveTemplate.solution.TutorialResearchInterplanetaryWarships.ResistCouncil=研究星际战舰计划。星际战舰计划可让你设计和建造炮舰、护航舰和护卫级别的舰船。
+TIObjectiveTemplate.solution.TutorialResearchInterplanetaryWarships.ResistCouncil=研究星际战舰计划。我们就可以设计和建造炮舰、护航舰和护卫级别的舰船船体。
 
 TIObjectiveTemplate.displayName.TutorialSpaceDock.ResistCouncil=建造太空船坞舱体
-TIObjectiveTemplate.solution.TutorialSpaceDock.ResistCouncil=建造太空船坞舱体。空间站需要太空船坞舱体才能建造舰船。在一个空间站上建造太空船坞。
+TIObjectiveTemplate.solution.TutorialSpaceDock.ResistCouncil=在一座空间站中建造一个太空船坞。太空殖民地需要一个<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船厂舱体来建造舰船。造船厂也可以建在地面基地，但是有最低的加速度和 Delta-V 要求，才能发射到轨道上。
 
 TIObjectiveTemplate.displayName.TutorialDesignShip.ResistCouncil=设计舰船范本
-TIObjectiveTemplate.solution.TutorialDesignShip.ResistCouncil=前往舰队界面，点击设计舰船等级按键。按照舰船设计师的教学来完成舰船设计。对设计满意的话，可以储存范本并用于建造舰船。
+TIObjectiveTemplate.solution.TutorialDesignShip.ResistCouncil=在“舰队和舰队建造”窗口中，来到“舰船设计工具”页签。完成“设计”界面教程，根据你的喜好自定义舰船类别设计。点击“保存设计”按钮，将设计添加到我们阵营的舰船类别中，用于建造舰船。
 
 TIObjectiveTemplate.displayName.TutorialBuildShip.ResistCouncil=建造一艘舰船
-TIObjectiveTemplate.solution.TutorialBuildShip.ResistCouncil=在舰队界面中，使用舰船建造界面，指定特定舰船使用你建立的范本执行造船作业。
+TIObjectiveTemplate.solution.TutorialBuildShip.ResistCouncil=在“舰队和舰船建造”窗口中，来到“舰船建造”页签。从可用设计列表中选择一个舰船类别，然后点击其中一个可用<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船厂的“建造”按钮，将舰船添加到其建造队列中。
+
 TIObjectiveTemplate.description.TutorialBuildShip.ResistCouncil=与外星人间的战争不能只在地球上获胜，我们还需要开发在太空中与对方作战的科技。在我们的太空殖民地建造战舰是昂贵且困难重重的任务，我们需有重要的太空工业为后盾。<br/><br/><h>这可能要花费许多年来完成。</h>
-TIObjectiveTemplate.resolution.TutorialBuildShip.ResistCouncil=舰队可以停泊在绕行轨道上或太空殖民地的船坞，如果要拦截另一支舰队，可使用“调动”行动，但请确认你有充分的 Delta-v 足以抵达目标和补给基地。
+
+TIObjectiveTemplate.resolution.TutorialBuildShip.ResistCouncil=舰船建造完成后，就会自动获得一个<h>名称</h>，被指派到一个新的<h>舰队</h>，并停靠在建造它的太空殖民地。舰队由一艘或多艘舰船组成，可以占据一个轨道或<h>停靠</h>在栖息地。可以通过<h>“转移”</h>操作将舰队移动到不同的轨道或太空殖民地，以及拦截其他舰队。确保我们的舰队有足够的 <h>Delta-V</h> 可以抵达目标，前往带有<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船厂或<color=#FFFFFFFF><sprite name=supply></color>补给站舱体的宜居星球进行补给。
 
 TIObjectiveTemplate.displayName.HumanGeneralEarth=控制地球国家
 TIObjectiveTemplate.description.HumanGeneralEarth=在不确定外星人是否真的抵达的不安氛围中，我们有机会在全球舞台上证明自己盘据重要的一席之地。我们必须与政府和工业界志同道合的人士联系，开始悄悄整合地球资源，以应付外星人盘算的任何可能计划。我们必须成为地球上许多国家掌权者背后的力量，借此建立一个能推进我们目标的国际联盟。 <br/><br/>为此，我们的第一要务应该是派出理事，前往具有强大经济、军事、研究和太空计划的国家取得控制点，并在必要时发起公众运动，煽动大众支持我们的目标。 <br/><br/>地球上的大部分经济都浪费在“战利品”上，人们以牺牲他人为代价来富足自己；有了足够的控制权，我们就可以重新调整这些国家的方向，实现更有效益的成果。 <br/><br/>我们知道有其他像我们这样的跨国集团正在兴起，如果他们让太多国家接受他们的意识形态，我们可能有必要与他们正面交锋。
@@ -322,7 +366,7 @@ TIObjectiveTemplate.quote.ResearchTheirMovements.ResistCouncil=这是个重大�
 
 TIObjectiveTemplate.displayName.ResearchTheirOrigin.ResistCouncil=调查外星人起源
 TIObjectiveTemplate.description.ResearchTheirOrigin.ResistCouncil=我们的研究部门一直在研究理事从坠机现场带回的碎片，虽然这些碎片非常小，但我们的研究人员还是得出一些重要的结论。<br/><br/>这些碎片是由某种金属材料制成，这种材料异常坚硬强固，其性质是人类工程无法完全仿制的。一些研究人员怀疑，这种物质的一部分可能起源于太阳系之外。不过我们已经确定，碎片中的大部分质量都带有形成太阳系的独有特征。这艘航天器很可能是在太阳绕行轨道上的某个地方建造的。<br/><br/>如果我们的分析正确，那么外星人在太阳系中，或非常靠近太阳系的地方至少拥有一个行动基地。若能进一步找出基地的位置信息，将是非常珍贵的情报。
-TIObjectiveTemplate.solution.ResearchTheirOrigin.ResistCouncil=研究巡天观测和深空巡天观测全球科技，然后在外星人起源计划开放后对其展开研究。
+TIObjectiveTemplate.solution.ResearchTheirOrigin.ResistCouncil=研究“天空守望者”和“深层天空守望者”全球科技，然后在“外星人起源”计划开放后就展开研究。
 TIObjectiveTemplate.resolution.ResearchTheirOrigin.ResistCouncil=我们已经大幅拓展了观察太阳系更遥远的范围并收集情报的能力，过程中我们在古柏带上发现多个外星人“殖民地”，这些是人造殖民地，看来我们的访客已经在这里待一段时间了。<br/><br/>观察外星人殖民地，并重新检视外星人抵达地球前拍摄的旧望远镜影像后，可更清晰看出“当地”外星人行动的概况。在过去两年间的某个时间点，外星人建造了自己的殖民地，并发射那艘坠毁在地球上的航天器。有鉴于 a) 复杂的生命体似乎不可能在太阳系的冰冻外围演化，以及 b) 外星舰船的一部分似乎是以来自太阳系之外的材料建造而成，因此我们相信外星人是从另一个星系抵达这里。至于它们如何做到这件事，我们提出了三个主要理论。<br/><br/>1. 他们搭乘比光速慢的星际航天器前往太阳系，这样的航天器极有可能非常庞大：需要大量的能量用于推进和维持生命，而且很可能需花几个世代的时间才能完成这趟旅程。目前为止我们还没发现这种外星“母舰”存在的证据。<br/>2. 外星人（或它们的祖先）很久以前就到达了，最近才从休眠中苏醒，或者它们是用某种原料打造出来的。我们目前还没办法解释这怎么做到。<br/>3. 外星人已经开发出某些比光速还快的运输方式，例如曲速引擎或可穿梭的虫洞。虽然这个理论看起来可能很异想天开，但外星人在太阳系最外层区域长期休眠的可能性似乎同样微乎其微。<br/><br/>我们的影像分析人员还在外星人的地表基地发现了一个结构体，这个结构体发出极度不寻常的能量读数，似乎没有任何已知的发电形式能比拟。这次的研究为我们带来的问题还是比解答多，但有证据显示，外星人殖民地扮演着它们物流网的关键要角。如果我们打算反抗它们的行动，这些殖民地应该会成为主要目标。
 TIObjectiveTemplate.quote.ResearchTheirOrigin.ResistCouncil=指挥官，我们掌握了它们在太阳系中的基地位置。
 
@@ -356,7 +400,7 @@ TIObjectiveTemplate.solution.CaptureAHydra.ResistCouncil=侦测地球上的外�
 TIObjectiveTemplate.resolution.CaptureAHydra.ResistCouncil=行动很成功！我们的抓捕队找到目标并展开了一场混战，最终获得胜利，他们对海德拉造成了有针对性的伤害，使它失去行动能力，并避开了其三个主要神经/心脏群，交战就此结束。为了防止接触信息素细胞，我们正在隔离三名队员，他们在执行任务时被撕裂了服装，但捕获行动顺利完成，没有人员死亡，我们离目标又近了一步。<br/><br/>海德拉已移送到我们的隔离设施，它的伤势仍在恢复中，但我们的观察员回报已经看到再生的迹象，一旦它恢复意识我们就会收到通知。
 TIObjectiveTemplate.quote.CaptureAHydra.ResistCouncil=我们捉到一只活体了，指挥官。
 
-TIObjectiveTemplate.displayName.ResearchTheirLanguage.ResistCouncil=与捕获的海德拉沟通
+TIObjectiveTemplate.displayName.ResearchTheirLanguage.ResistCouncil=与海德拉俘虏交谈
 TIObjectiveTemplate.description.ResearchTheirLanguage.ResistCouncil=经过一段时间的努力，我们意识到，与外星人交流会是不小的挑战。一支语言学家团队一直在研究这个问题，他们确信已经开发出一个基准词汇库，如果我们的理论正确，就可以结合化学和听觉方式与捕获的海德拉进行交流。他们要求优先进入隔离设施完成研究。
 TIObjectiveTemplate.solution.ResearchTheirLanguage.ResistCouncil=“海德拉语言”研究计划开放后就着手进行。
 TIObjectiveTemplate.resolution.ResearchTheirLanguage.ResistCouncil=语言学家已从俘虏身上收集到足够的资料，可建立海德拉版的罗塞塔石碑。聆听外星人的滴答声并与我们录制的所有外星人语音实例进行比较，再根据过滤读数进行测量，这支团队认为他们的系统准确率达到 70-80%。这套流程仍需要改进，但仅对我们俘虏的海德拉进行粗略的审问而言也已经够用了。<br/><br/>遗憾的是，虽然我们可以略微了解海德拉语言以声音为载体的部分，但依靠海德拉信息素细胞传达的情感和意义却非常难翻译。因此，沟通中的细节可能会被忽视，而且我们可能也很难详细传达自己的意图。 
@@ -506,7 +550,7 @@ TIObjectiveTemplate.solution.CaptureAHydra.DestroyCouncil=侦测地球上的外�
 TIObjectiveTemplate.resolution.CaptureAHydra.DestroyCouncil=我必须亲自监督这件事，很多手下不情愿让这东西留活口，其中有两个还人试图带着机关枪「以防万一」。还好我们收到了那些解剖简报，这些资讯很有用，但我们最终还是在那家伙进入五公尺范围内才撂倒它。 <br/><br/>正当我担心造成的损伤太大，那东西已经再生了，我第一次对于这些家伙很难杀死感到欣慰。首席病理学家说，它应该会在二十四小时内恢复意识，现在我们需要想清楚它醒来时如何进行审问。
 TIObjectiveTemplate.quote.CaptureAHydra.DestroyCouncil=任务完成，上校，我们现在正与敌人面对面接触。
 
-TIObjectiveTemplate.displayName.ResearchTheirLanguage.DestroyCouncil=与捕获的海德拉沟通
+TIObjectiveTemplate.displayName.ResearchTheirLanguage.DestroyCouncil=与海德拉俘虏交谈
 TIObjectiveTemplate.description.ResearchTheirLanguage.DestroyCouncil=该如何审问一半用滴答声、一半通过气味说话的生物？嗯，这就是语言团队正在努力解决的问题。我们让他们利用海德拉进行工作...在密切监督下。 
 TIObjectiveTemplate.solution.ResearchTheirLanguage.DestroyCouncil=“海德拉语言”研究计划开放后就着手进行。
 TIObjectiveTemplate.resolution.ResearchTheirLanguage.DestroyCouncil=唉，这是个令人头疼的问题。我们有多个团队日以继夜奋斗，尝试了十几种不同方法。最后，来自苏黎世联盟理工学院的瑞士团队提出了一个解决方案：一种应急改良而成的自动分析仪，可以测量每秒钟的费洛细胞量变化，再结合音讯分析，他们非常有信心能理解它在说什么。回话是更困难的任务，不过我们正在建立九头蛇滴答声词汇资料库，要进行基本对话应该足够。场面绝对不会太好看，但这不是我第一次在不会说对方语言的情况下进行审问，至少这次是在设备完善的设施中进行，而不是只备有一组桌椅的简陋藏身处。
@@ -628,7 +672,7 @@ TIObjectiveTemplate.quote.ResearchTheirMovements.EscapeCouncil=地球上的外�
 
 TIObjectiveTemplate.displayName.ResearchTheirOrigin.EscapeCouncil=研究外星人起源
 TIObjectiveTemplate.description.ResearchTheirOrigin.EscapeCouncil=我们对外星碎片进行分析后，虽然有限，仍得到有趣的结果。虽然少部分碎片无法辨识，而且来源很有可能在太阳系之外，但大部分物质的组成元素，似乎是撷取自我们太阳系内的遥远天体。有证据显示这艘飞船是在太阳绕行轨道上组装而成。我们应该把进一步调查列为优先要务。
-TIObjectiveTemplate.solution.ResearchTheirOrigin.EscapeCouncil=研究巡天观测和深空巡天观测全球科技，然后在外星人起源计划开放后对其展开研究。
+TIObjectiveTemplate.solution.ResearchTheirOrigin.EscapeCouncil=研究“天空守望者”和“深层天空守望者”全球科技，然后在“外星人起源”计划开放后就展开研究。
 TIObjectiveTemplate.resolution.ResearchTheirOrigin.EscapeCouncil=对通过巡天观测计划发现的外星人殖民地进行分析后，我们对外星人活动概况有了更清晰的了解。看来在首次接触之前，外星人在太阳系中活动的时间不长，顶多一年而已。它们能如此迅速地建好这艘飞船，意味着它们具备极为先进的工程技术，但更大的问题显而易见：如果它们是最近才来到这里，那它们到底是从哪里来的？<br/><br/>很多理论陆续提出，其中两种可能性引起了最多关注。一种说法是，外星人是利用先进但常规的推进方法从另一个星系来到这里的。另一种说法是，外星人是使用某种超越光速的未知移动方法从别的星系前来。<br/><br/>这两种可能性都相当令人兴奋。第一种可能性意味着外星人已经找到了某种方式克服了迄今为止阻止我们发展任何形式的亚光速星际旅行的所有障碍。第二种可能性则代表我们对物理学的整个理解大错特错。无论是哪个情况，都能确定外星人拥有在星际之间穿梭和定居的科技。<br/><br/>倘若我们能获得这项科技...
 TIObjectiveTemplate.quote.ResearchTheirOrigin.EscapeCouncil=我们必须了解它们是通过什么方式抵达我们太阳系的，总管。
 
@@ -662,7 +706,7 @@ TIObjectiveTemplate.solution.CaptureAHydra.EscapeCouncil=侦测地球上的外�
 TIObjectiveTemplate.resolution.CaptureAHydra.EscapeCouncil=行动非常成功！我们的异形生物学部门坚持对九头蛇目标使用非致命性武器，然而建议的镇静剂剂量却无效，导致行动小队有若干人员伤亡。最后，几名维安人员在未获授权的情况下使用枪支攻击，让九头蛇失去行动能力；虽然他们受到谴责，但幸好九头蛇能自行复原伤势，现在受到安全收容。 <br/><br/>生物学家们现在忙着研究九头蛇的再生过程并监测它的健康状况；与此同时，语言学团队迫不及待开始学习它的语言。
 TIObjectiveTemplate.quote.CaptureAHydra.EscapeCouncil=外星人已遭到监禁，总管，我们准备好审问它了。
 
-TIObjectiveTemplate.displayName.ResearchTheirLanguage.EscapeCouncil=与捕获的海德拉沟通
+TIObjectiveTemplate.displayName.ResearchTheirLanguage.EscapeCouncil=与海德拉俘虏交谈
 TIObjectiveTemplate.description.ResearchTheirLanguage.EscapeCouncil=虽然我们有充分的理由预计我们的海德拉俘虏不会完全合作，但与另一个有情物种交流的可能性具有巨大的潜力。我们的语言团队已请求优先使用被俘虏的海德拉。不出所料，我们的生物团队也提出了同样的要求。 
 TIObjectiveTemplate.solution.ResearchTheirLanguage.EscapeCouncil=“海德拉语言”研究计划开放后就着手进行。
 TIObjectiveTemplate.resolution.ResearchTheirLanguage.EscapeCouncil=语言学团队日以继夜奋斗，努力编制第一个中文对九头蛇语翻译工具。藉由分析我们手上的每一个外星语音录音实例，并与九头蛇的行为和费洛细胞产生过程进行比较，团队相信他们已经成功将九头蛇的滴答声翻译成可理解的句子。播放语音应该能让我们与九头蛇「交谈」。 <br/><br/>遗憾的是，九头蛇沟通的很大一部分似乎是通过费洛细胞进行的，它们语言中的听觉部分只是骨架，费洛细胞在这个基础上传递情境和意义。由于我们自己无法仿制九头蛇费洛细胞，而且让我们的团队接触九头蛇费洛细胞可能并非可行之道，因此我们将局限在语音交流。这会使得所有沟通内容粗糙且受限。尽管如此，这仍然是个重要的里程碑。
@@ -694,7 +738,7 @@ TIObjectiveTemplate.quote.ResearchExotics.EscapeCouncil=总管，我们的任务
 
 TIObjectiveTemplate.displayName.ConductHydraInterrogation.EscapeCouncil=审问海德拉俘虏
 TIObjectiveTemplate.description.ConductHydraInterrogation.EscapeCouncil=有了史上第一个异形翻译工具，我们已准备好与我们的“访客”展开对话。我们的目标有两个：尽可能了解外星人的目标和计划，并找出它们目前占领银河系的哪个区域。
-TIObjectiveTemplate.solution.ConductHydraInterrogation.EscapeCouncil=审问海德拉俘虏
+TIObjectiveTemplate.solution.ConductHydraInterrogation.EscapeCouncil=“海德拉审讯”计划开放后就着手完成。
 TIObjectiveTemplate.resolution.ConductHydraInterrogation.EscapeCouncil=人类与外星人史无前例的第一次对话！如果情况不是那么严峻，这会是相当重要的时刻。<br/><br/>这只九头蛇将自己定位为工程师/技术人员和副首领，也许就相当于我们的经理或团队主管职位。它宣称自己是“防御共识”的成员，这也许是某个九头蛇公司或政府计划？我们进一步针对九头蛇物种的问题进行审问，很可惜徒劳无功，九头蛇似乎信心满满，认定它们这个物种终将成功征服地球，遗憾的是，在这方面历史似乎站在它们那边；九头蛇曾入侵另外两个物种的母星，不费吹灰之力就征服了它们。九头蛇断然拒绝提供任何关于超光速技术的资讯，只是一股脑吹嘘这项技术赋予它们的优势，这着实令人沮丧。我们一些“对道德持弹性态度”的成员建议加重审问手段，但大多数人仍对这些做法感到不舒服，此外，也不能保证我们能得到任何有用的资讯。目前我们陷入僵局，无法顺利从九头蛇身上取得有关科技的资讯。<br/><br/>较正面的消息是，我们已经了解很多关于九头蛇的天文位置的资讯。它们的帝国规模相对较小，仅由三颗恒星周围有人居住的世界组成：杜鹃座ζ、山案座α和它们的母星孔雀座δ。我们虽成功获得了这方面的资讯，但是鉴于在其他方面毫无进展，我们决定暂时放弃进一步审问九头蛇。研究人员可以利用这名俘虏，且会继续与它互动并改良我们的翻译方法，但我们的首要任务会转移到为我们的计划找到合适的星系。
 TIObjectiveTemplate.quote.ConductHydraInterrogation.EscapeCouncil=我们从俘虏身上获得了很多资讯，总管！
 
@@ -784,7 +828,7 @@ TIObjectiveTemplate.quote.ResearchTheirMovements.ExploitCouncil=我们已发展�
 
 TIObjectiveTemplate.displayName.ResearchTheirOrigin.ExploitCouncil=调查外星人起源
 TIObjectiveTemplate.description.ResearchTheirOrigin.ExploitCouncil=我们对外星人的了解仍然极其有限。虽然更全面地了解他们的意图和能力仍然是我们的首要任务，但了解他们的来源可能会有一些好处。 
-TIObjectiveTemplate.solution.ResearchTheirOrigin.ExploitCouncil=研究巡天观测和深空巡天观测全球科技，然后在外星人起源计划开放后对其展开研究。
+TIObjectiveTemplate.solution.ResearchTheirOrigin.ExploitCouncil=研究“天空守望者”和“深层天空守望者”全球科技，然后在“外星人起源”计划开放后就展开研究。
 TIObjectiveTemplate.resolution.ResearchTheirOrigin.ExploitCouncil=提供资金给天文组织后，我们收到了他们报告的副本。外星人似乎在我们太阳系的外围有一个行动基地。根据推测，它们是通过某种超光速技术移动到那里，接着开始利用当地资源建造航天器和其他硬体。 <br/><br/>对于外星人的超光速技术以及找到外星智慧的可能性，天文学家似乎兴趣浓厚。时间宝贵，我们不能浪费在这些不具生产力的主题上，只能专注面对更实际的问题。
 TIObjectiveTemplate.quote.ResearchTheirOrigin.ExploitCouncil=我们确信已经找到太阳系中的外星人总部。
 
@@ -1019,7 +1063,7 @@ TIObjectiveTemplate.quote.ResearchExotics.CooperateCouncil=我们在理解外星
 TIObjectiveTemplate.displayName.ConductHydraInterrogation.CooperateCouncil=审问九头蛇俘虏
 TIObjectiveTemplate.description.ConductHydraInterrogation.CooperateCouncil=现在我们既有活的海德拉，又有与它交流的手段，我们可以尝试进行适当的对话。不幸的是，我们的翻译方法仍然很粗糙；我们预计这将是一个漫长的过程。希望 "鲁迪"，正如我们的一个安全人员给他起的名字，会愿意交谈。
 TIObjectiveTemplate.solution.ConductHydraInterrogation.CooperateCouncil=“海德拉审讯”计划开放后就着手完成。 
-TIObjectiveTemplate.resolution.ConductHydraInterrogation.CooperateCouncil=“鲁迪”确实愿意说话，我们学到了很多。我们翻译团队负责人的总结报告如下，并附上注释<br/><br/>请我们的囚犯作自我介绍<br/>A.Hydra通过（大概）一个名字和一个组织职位来确定自己的身份。他显然是一名外交官/生物工程师/动物管理员。显然，这三个角色在海德拉社会中有相当大的重叠。（译者注：海德拉的名字完全无法发音。为了我们的喉咙，我们将继续叫他鲁迪。）<br/><br/>问：为什么你们物种来到我们的太阳系<br/><br/>为了[不可译动词]人类和其他地球本土物种的目的<br/><br/>请定义[不可译动词]<br/>答：（译者注：这花了很长时间来解释。海德拉使用的动词似乎意味着风险分析、动物驯化和资源开发的结合。海德拉对这三个词都只有一个词，这一点很有启发性。最接近的英语术语可能是“驯化”）<br/><br/>问：你为什么要驯化我们的物种<br/><br/>人类被[不可译专有名词1]归类为第四类[不可译-某种规模]物种<br/><br/>请解释一下<br/>答：【不可译专有名词2】的协议要求所有III类及以上的地外物种在第一次接触时都要驯化<br/><br/>请定义[不可译专有名词2]<br/>答：（译者注：解释这个词既有趣又令人沮丧。鲁迪在接下来的一个小时里描述的似乎是一场政治运动、一种哲学和一个安全组织之间的交叉。我们最好的翻译是“国防共识”。）<br/><br/>问：你是海德拉防御共识的成员吗<br/>答：所有海德拉都遵循国防部的共识<br/><br/>问：我们有什么办法可以与你的国防共识领导人进行谈判吗<br/>答：不。<br/><br/>问：除了防御共识之外，还有其他海德拉[阵营]吗<br/>答：没有。<br/><br/>问：除了人类驯化，国防共识是否会接受一些结果<br/>答：不，我们不希望被驯化<br/>答（译者注：幽默是出了名的难以翻译，但我强烈怀疑海德拉对这句话的反应，以及我们按照同样思路的后续行动，是一种娱乐。无论如何，我们没有得到任何帮助。）<br/><br/>审讯又持续了一个小时，但进展甚微<br/><br/>译者注：一般反应参差不齐。“鲁迪”很愿意交谈，也许只是出于无聊，因为除了与关押在他牢房里的安全人员交流外，他几乎没有任何交流。他的态度也既没有敌意，也没有特别咄咄逼人。然而，他显然没有兴趣与我们平等相待。他显然认为我们的谈判请求就像我们对待德国牧羊犬的外交请求一样。我们将继续努力。<br/><br/>
+TIObjectiveTemplate.resolution.ConductHydraInterrogation.CooperateCouncil=“鲁迪”确实愿意说话，我们学到了很多。我们翻译团队负责人的总结报告如下，并附上注释<br/><br/>请我们的囚犯作自我介绍<br/><br/>A.Hydra通过（大概）一个名字和一个组织职位来确定自己的身份。他显然是一名外交官/生物工程师/动物管理员。显然，这三个角色在海德拉社会中有相当大的重叠。（译者注：海德拉的名字完全无法发音。为了我们的喉咙，我们将继续叫他鲁迪。）<br/>问：为什么你们物种来到我们的太阳系<br/><br/>为了[不可译动词]人类和其他地球本土物种的目的<br/><br/><br/>请定义[不可译动词]答：（译者注：这花了很长时间来解释。海德拉使用的动词似乎意味着风险分析、动物驯化和资源开发的结合。海德拉对这三个词都只有一个词，这一点很有启发性。最接近的英语术语可能是“驯化”）<br/><br/><br/>问：你为什么要驯化我们的物种<br/>人类被[不可译专有名词1]归类为第四类[不可译-某种规模]物种<br/><br/>请解释一下<br/>答：【不可译专有名词2】的协议要求所有III类及以上的地外物种在第一次接触时都要驯化<br/><br/>请定义[不可译专有名词2]<br/>答：（译者注：解释这个词既有趣又令人沮丧。鲁迪在接下来的一个小时里描述的似乎是一场政治运动、一种哲学和一个安全组织之间的交叉。我们最好的翻译是“国防共识”。）<br/><br/>问：你是海德拉防御共识的成员吗<br/>答：所有海德拉都遵循国防部的共识<br/><br/>问：我们有什么办法可以与你的国防共识领导人进行谈判吗<br/>答：不。<br/><br/>问：除了防御共识之外，还有其他海德拉[阵营]吗<br/>答：没有。<br/><br/>问：除了人类驯化，国防共识是否会接受一些结果<br/>答：不，我们不希望被驯化<br/><br/>答（译者注：幽默是出了名的难以翻译，但我强烈怀疑海德拉对这句话的反应，以及我们按照同样思路的后续行动，是一种娱乐。无论如何，我们没有得到任何帮助。）<br/>审讯又持续了一个小时，但进展甚微<br/><br/>译者注：一般反应参差不齐。“鲁迪”很愿意交谈，也许只是出于无聊，因为除了与关押在他牢房里的安全人员交流外，他几乎没有任何交流。他的态度也既没有敌意，也没有特别咄咄逼人。然而，他显然没有兴趣与我们平等相待。他显然认为我们的谈判请求就像我们对待德国牧羊犬的外交请求一样。我们将继续努力。<br/><br/>
 TIObjectiveTemplate.quote.ConductHydraInterrogation.CooperateCouncil=校长，我们已针对外星人俘虏审问内容提出第一份完整报告。
 
 TIObjectiveTemplate.displayName.ConductHydraDiplomacy.CooperateCouncil=与外星人进行外交活动
@@ -1115,7 +1159,7 @@ TIObjectiveTemplate.quote.InvestigateEnthrallMission.AppeaseCouncil=总督，我
 TIObjectiveTemplate.displayName.ResearchTheirOperations.AppeaseCouncil=研究外星人行动
 TIObjectiveTemplate.description.ResearchTheirOperations.AppeaseCouncil=近来与被绑架者有关的不幸事件发生后，后续报导陆续浮上台面，看来除了我们牵涉的这起事件之外，还有其他类似的事件正以越来越高的频率发生着，而且外星人似乎脱不了干系。大众对外星人的看法正在迅速转为敌视。我们必须尽快厘清真相：如果这些自私自利的演员能带动舆论风向，结果将会是场灾难。
 TIObjectiveTemplate.solution.ResearchTheirOperations.AppeaseCouncil=“外星人行动”计划开放后就展开研究。
-TIObjectiveTemplate.resolution.ResearchTheirOperations.AppeaseCouncil=随着时间过去，越来越多的证据显示，我们世界的舆论氛围正在转变。某些政权的关键人物突然放软自己的观点，或被较不激进的人物取代，在这股情势推波助澜下，先前反对外星人的国家正迅速转向更加温和、以和平为导向的政治立场。虽然我很想将这归因于人类集体找到理智，但恐怕这些转变可能不是出于自愿。 <br/><br/>人民情绪充满不安，虽然对于能消除如此多的极端或仇恨观点，我们当然觉得何乐而不为，却让声称外星人希望主宰或控制人类的一派占了上风。许多之前投身于和平运动的人现在明显低调许多。 <br/><br/>虽然如此，结果还是难以质疑，被这种未知方式“安抚”的国家可能不是出于自愿，但必须承认，他们的变化是往好的方向发展。
+TIObjectiveTemplate.resolution.ResearchTheirOperations.AppeaseCouncil=随着时间过去，越来越多的证据显示，我们世界的舆论氛围正在转变。某些政权的关键人物突然放软自己的观点，或被较不激进的人物取代，在这股情势推波助澜下，先前反对外星人的国家正迅速转向更加温和、以和平为导向的政治立场。虽然我很想将这归因于人类集体找到理智，但恐怕这些转变可能不是出于自愿。 <br/><br/>人民情绪充满不安，虽然对于能消除如此多的极端或仇恨观点，我们当然觉得何乐而不为，却让声称外星人希望主宰或控制人类的一派占了上风。许多之前投身于和平运动的人现在明显低调许多。<br/><br/>虽然如此，结果还是难以质疑，被这种未知方式“安抚”的国家可能不是出于自愿，但必须承认，他们的变化是往好的方向发展。<h>我们还启动了一个外星威胁监测系统，该系统能够评估它们是否直接针对我们的利益。该系统会在主游戏界面的右上角显示出来。</h></h>
 TIObjectiveTemplate.quote.ResearchTheirOperations.AppeaseCouncil=也许这是个尽力争取和平的机会，总督？
 
 TIObjectiveTemplate.displayName.ResearchTheirMovements.AppeaseCouncil=研究外星人行动

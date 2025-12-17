@@ -14,7 +14,7 @@ TIOfficerTemplate.displayName.Officer_Marine=Marineoffizier
 TIOfficerTemplate.displayName.Officer_Supply=Versorgungsoffizier
 TIOfficerTemplate.displayName.Officer_Chief=Crewleiter
 
-TIOfficerTemplate.description.Officer_Admiral=Ein erfahrener Offizier, der dir einen flottenweiten Bonus verschafft. Nur der Flaggoffizier im zur <color=#FFFFFFFF><sprite name=mission_control></color>- Reduktion der Flotte benutzten Flaggbrückenmodul sorgt für Boni.
+TIOfficerTemplate.description.Officer_Admiral=Ein erfahrener Offizier, der dir einen flottenweiten Bonus verschafft. Nur ein Admiral pro Flotte gewährt <color=#FFFFFFFF><sprite name=mission_control></color>-Boni.
 TIOfficerTemplate.description.Officer_Captain=Der Kommandant des Schiffs.
 TIOfficerTemplate.description.Officer_First=Der stellvertretende Kommandant des Schiffs.
 TIOfficerTemplate.description.Officer_FireControl=Der für die Raketensysteme des Schiffs verantwortliche Offizier.
@@ -27,7 +27,7 @@ TIOfficerTemplate.description.Officer_Medical=Der für die Versorgung und Gesund
 TIOfficerTemplate.description.Officer_CIC=Der für die Einsatzzentrale und die aktive Verteidigung des Schiffs verantwortliche Offizier.
 TIOfficerTemplate.description.Officer_Intel=Der für die Weitergabe von Informationen über den Feind an die Crew verantwortliche Offizier.
 TIOfficerTemplate.description.Officer_Marine=Der für die Marines- Abteilung des Schiffs verantwortliche Offizier.
-TIOfficerTemplate.description.Officer_Supply=Der für die Lager des Schiffs verantwortliche Offizier.
+TIOfficerTemplate.description.Officer_Supply=Der für die Lager und Bergung des Schiffs verantwortliche Offizier.
 TIOfficerTemplate.description.Officer_Chief=Ein Astronaut mit reichlich Diensterfahrung, der als Repräsentant für die Crew des Schiffs auftritt.
 
 TIOfficerTemplate.Officer_Admiral_1=Konteradmiral
@@ -79,7 +79,7 @@ TIOfficerTemplate.Officer_Supply_3=Leutnant
 TIOfficerTemplate.Officer_Chief_3=Oberstmaat
 
 TIOfficerTemplate.MaxPerShip=- Max. {0} Offizier(e) dieses Typs pro Schiff
-TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=- Max. {0} Offizier(e) eines beliebigen Typs gesamt, ausgenommen Flaggoffiziere und befehlshabende Offiziere, auf {1}- Rümpfen							// number, hull display name
+TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=- Max. {1} Offizier(e) eines beliebigen Typs gesamt, ausgenommen Flaggoffiziere und befehlshabende Offiziere, auf {0}- Rümpfen							// number, hull display name
 TIOfficerTemplate.MaxTotalOfficersPerShip=- Max. Offizier(e) eines beliebigen Typs gesamt, ausgenommen Flaggoffiziere und befehlshabende Offiziere, auf dem Schiff begrenzt durch Rumpfgröße
 TIOfficerTemplate.CrewMin=- Mindestens {0} Crew erforderlich
 TIOfficerTemplate.FlagBridge=- {0}- Modul erforderlich																			// name of flag bridge ship utility module
@@ -121,6 +121,7 @@ TIOfficerTemplate.MaxSurvivableCombatAcceleration=- Erhöht die maximal erlaubte
 TIOfficerTemplate.MaxSurvivableCruiseAcceleration=- Erhöht die maximal erlaubte Beschleunigung in Normalfahrt des Schiffs um {0} g(s)
 TIOfficerTemplate.RadiationDamageReduction=- Reduziert den Strahlenschaden durch Partikelwaffen um {2}
 TIOfficerTemplate.NoDemotionOnTransfer=- Verliert beim Transfer auf ein anderes Schiff nicht an Niveau
+TIOfficerTemplate.NoCostToTransfer=- Die Verlegung eines Offiziers zu einem anderen Schiff kostet keinen <color=#FFFFFFFF><sprite name="influence"></color>.
 
 TIOfficerTemplate.OfficerShipNameAndJob={0}: {1}, {2}			// ship name: rank + name, job
 TIOfficerTemplate.OfficerNameAndJob={0}, {1}					// rank + name, job

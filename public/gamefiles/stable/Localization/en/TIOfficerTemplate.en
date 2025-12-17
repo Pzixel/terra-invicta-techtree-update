@@ -14,7 +14,7 @@ TIOfficerTemplate.displayName.Officer_Marine=Marine Officer
 TIOfficerTemplate.displayName.Officer_Supply=Supply Officer
 TIOfficerTemplate.displayName.Officer_Chief=Crew Chief
 
-TIOfficerTemplate.description.Officer_Admiral=A senior officer who grants fleetwide bonuses. Only the flag officer in the flag bridge module being used to reduce fleet <color=#FFFFFFFF><sprite name=mission_control></color> will apply bonuses.
+TIOfficerTemplate.description.Officer_Admiral=A senior officer who grants fleetwide bonuses. Only one admiral per fleet will apply <color=#FFFFFFFF><sprite name=mission_control></color> bonuses.
 TIOfficerTemplate.description.Officer_Captain=The master of the vessel.
 TIOfficerTemplate.description.Officer_First=The second-in-command of the vessel.
 TIOfficerTemplate.description.Officer_FireControl=The officer in charge of ship missile systems.
@@ -27,7 +27,7 @@ TIOfficerTemplate.description.Officer_Medical=The officer in charge of keeping t
 TIOfficerTemplate.description.Officer_CIC=The officer in charge of the ship's combat center and active defenses.
 TIOfficerTemplate.description.Officer_Intel=The officer in charge of the crew's knowledge of the enemy.
 TIOfficerTemplate.description.Officer_Marine=The officer in charge of the ship's Marine detachment.
-TIOfficerTemplate.description.Officer_Supply=The officer in charge of ship's stores.
+TIOfficerTemplate.description.Officer_Supply=The officer in charge of ship's stores and salvage.
 TIOfficerTemplate.description.Officer_Chief=The senior enlisted astronaut on the ship who represents the crew.
 
 TIOfficerTemplate.Officer_Admiral_1=Rear Admiral
@@ -38,7 +38,7 @@ TIOfficerTemplate.Officer_Gunnery_1=Ensign
 TIOfficerTemplate.Officer_DirectedEnergy_1=Ensign
 TIOfficerTemplate.Officer_DamageControl_1=Ensign
 TIOfficerTemplate.Officer_Engineering_1=Lieutenant
-TIOfficerTemplate.Officer_Propulsion_1=Sub-Lieutenant
+TIOfficerTemplate.Officer_Propulsion_1=Ensign
 TIOfficerTemplate.Officer_Medical_1=Flight Surgeon
 TIOfficerTemplate.Officer_CIC_1=Ensign
 TIOfficerTemplate.Officer_Intel_1=Ensign
@@ -79,7 +79,7 @@ TIOfficerTemplate.Officer_Supply_3=Lieutenant
 TIOfficerTemplate.Officer_Chief_3=Master Chief Petty Officer
 
 TIOfficerTemplate.MaxPerShip=-Max {0} officer(s) of this type per ship
-TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-Max {0} total officer(s) of any type, except flag and commanding officers, on {1} hulls							// number, hull display name
+TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-Max {1} total officer(s) of any type, except flag and commanding officers, on {0} hulls							// number, hull display name
 TIOfficerTemplate.MaxTotalOfficersPerShip=-Max total officer(s) of any type, except flag and commanding officers, on the ship limited by hull size
 TIOfficerTemplate.CrewMin=-Requires a minimum of {0} crew
 TIOfficerTemplate.FlagBridge=-Requires a {0} module																			// name of flag bridge ship utility module
@@ -88,7 +88,7 @@ TIOfficerTemplate.EnergyWeapons=-Requires lasers or particle beam weapons on the
 TIOfficerTemplate.GunWeapons=-Requires magnetic, plasma or gun weapons on the ship
 TIOfficerTemplate.DefenseWeapons=-Requires weapons with defense fire mode on the ship
 TIOfficerTemplate.Marines=-Requires Marines on the ship
-TIOfficerTemplate.TunableDrive=-Requires a drive capable with a combat thrust multiplier greater than 1
+TIOfficerTemplate.TunableDrive=-Requires a drive with a combat thrust multiplier greater than 1
 
 TIOfficerTemplate.FleetMissionControl=-Reduces fleet mission control cost by {2}
 TIOfficerTemplate.ShipMissionControl=-Changes ship mission control cost by {0}, to minimum of 1
@@ -104,7 +104,7 @@ TIOfficerTemplate.MagWeaponCooldown=-Reduces magnetic weapon cooldowns by {2}
 TIOfficerTemplate.PointDefenseCooldown=-Reduces cooldown of point defense weapons by {2}
 TIOfficerTemplate.GlobalDamage=-Increases damage from all weapons except nuclear and antimatter missiles by {3}
 TIOfficerTemplate.DamageControlSpeed=-Increases the rate at which damage control teams fix ship systems and modules by {3}
-TIOfficerTemplate.InternalDamageTaken=-Reduces internal damage taken by the ship by {1}
+TIOfficerTemplate.InternalDamageTaken=-Reduces internal damage taken by the ship by {4}
 TIOfficerTemplate.DockRepairSpeed=-Increases ship's repair speed at shipyards by {3}
 TIOfficerTemplate.DockResupplySpeed=-Increases ship's resupply speed at habs by {3}
 TIOfficerTemplate.Salvage=-Increases post-combat salvage by {1}
@@ -114,13 +114,14 @@ TIOfficerTemplate.GlobalWeaponCooldown=-Reduces cooldown of all weapons by {2}
 TIOfficerTemplate.ECM=-Increases ship's ECM value by {1}, reducing enemy chances to target it
 TIOfficerTemplate.BatteryRechargeRate=-Increases ship battery recharge rate by {3}
 TIOfficerTemplate.OfficerDeathChance=-Reduces chance of officer death in combat by {4}
-TIOfficerTemplate.AssaultCombatValue=-Increases ship assault value by {0}
+TIOfficerTemplate.AssaultCombatValue=-Increases ship Assault Value by {0}
 TIOfficerTemplate.ShipDefectionChance=-Ship will never defect to another faction
 TIOfficerTemplate.DriveCombatThrustMultiplier=-Adds {0} to the ship's drive combat thrust multiplier
 TIOfficerTemplate.MaxSurvivableCombatAcceleration=-Increases maximum allowed combat acceleration of the ship by {0} g(s)
 TIOfficerTemplate.MaxSurvivableCruiseAcceleration=-Increases maximum allowed cruise acceleration of the ship by {0} g(s)
 TIOfficerTemplate.RadiationDamageReduction=-Reduces radiation damage from particle weapons by {2}
 TIOfficerTemplate.NoDemotionOnTransfer=-Will not lose a level when transferred to another ship
+TIOfficerTemplate.NoCostToTransfer=-Officer does not cost <color=#FFFFFFFF><sprite name="influence"></color> to transfer to another ship.
 
 TIOfficerTemplate.OfficerShipNameAndJob={0}: {1}, {2}			// ship name: rank + name, job
 TIOfficerTemplate.OfficerNameAndJob={0}, {1}					// rank + name, job

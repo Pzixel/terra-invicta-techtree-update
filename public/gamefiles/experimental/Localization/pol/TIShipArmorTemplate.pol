@@ -24,16 +24,16 @@ TIShipArmorTemplate.displayName.AlienExoticArmor=Pancerz egzotyczny kosmitów
 TIShipArmorTemplate.description.AlienExoticArmor=Pochodzący od kosmitów materiał o egzotycznych właściwościach.
 
 TIShipArmorTemplate.ResourcesPerTon=Koszt na tonę:<rcol>{0}</rcol>
-TIShipArmorTemplate.KineticsResistance={0} dodatkowej odporności na uszkodzenia kinetyczne
-TIShipArmorTemplate.LaserResistance={0} dodatkowej odporności na uszkodzenia od laserów
-TIShipArmorTemplate.ChippingResistance={0} dodatkowej odporności na łuszczenie się
-TIShipArmorTemplate.KineticsVulnerability=Otrzymuje {0} dodatkowych uszkodzeń od broni kinetycznej
-TIShipArmorTemplate.LaserVulnerability=Otrzymuje {0} dodatkowych uszkodzeń od laserów
-TIShipArmorTemplate.ChippingVulnerability=Otrzymuje {0} dodatkowych uszkodzeń w wyniku łuszczenia się
-TIShipArmorTemplate.XRayResistance={0} dodatkowej odporności na promieniowanie RTG miotaczy cząstek w porównaniu ze stalą
-TIShipArmorTemplate.XRayVulnerability=Otrzymuje {0} dodatkowych uszkodzeń od promieniowania RTG miotaczy cząstek
-TIShipArmorTemplate.BaryonicResistance={0} dodatkowej odporności na neutrony miotaczy cząstek
-TIShipArmorTemplate.BaryonicVulnerability=Otrzymuje {0} dodatkowych uszkodzeń od neutronów miotaczy cząstek
+TIShipArmorTemplate.KineticsResistance= Dodatkowej odporności na uszkodzenia kinetyczne
+TIShipArmorTemplate.LaserResistance= Dodatkowej odporności na uszkodzenia od laserów
+TIShipArmorTemplate.ChippingResistance= Dodatkowej odporności na łuszczenie się
+TIShipArmorTemplate.KineticsVulnerability=Dodatkowe uszkodzenia od broni kinetycznej:<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserVulnerability=Dodatkowe uszkodzenia od laserów:<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingVulnerability=Dodatkowych złuszczenie pancerza od trafień:<rcol>{0}</rcol>
+TIShipArmorTemplate.XRayResistance_Header=Pkt do zmniejszenia uszkodzeń od promieni X o połowę
+TIShipArmorTemplate.XRayResistance=Pkt do zmniejszenia uszkodzeń od promieni X o połowę:<rcol>{0}</rcol>
+TIShipArmorTemplate.BaryonicResistance_Header=Pkt do zmniejszenia uszkodzeń od barionów X o połowę
+TIShipArmorTemplate.BaryonicResistance=Pkt do zmniejszenia uszkodzeń od barionów X o połowę:<rcol>{0}</rcol>
 
 TIShipArmorTemplate.ThicknessPerPoint=Grubość/pkt:<rcol>{0} cm</rcol>
 

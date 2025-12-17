@@ -123,7 +123,7 @@ UI.Nation.Military_BuildSTOSquadronPriorityGeneric=Completing this priority will
 UI.Nation.Civilian_InitiateSpaceflightProgramPriorityGeneric=This one-time priority, for nations that do not have a domestic spaceflight program at the campaign's start, will unlock the Boost and Mission Control priorities once completed.
 UI.Nation.GenericPriorityNotAvailable=The technology that unlocks this priority has not been researched. While it can be added to presets, it will do nothing until it is unlocked.
 
-UI.Nation.WelfareGHGReductionShort=CO2: {0}; CH4: {1}; N2O: {2}
+UI.Nation.WelfareGHGReductionShort=CO<sub>2</sub>: {0}; CH<sub>4</sub>: {1}; N<sub>2</sub>O: {2}
 UI.Nation.PriorityBonuses=Our orgs, councilor traits, Low Earth Orbit stations, and projects give us a {0} bonus to investments from our Control Points worldwide in the {1} priority.
 UI.Nation.NationPriorityBonuses_Economy=Being in a federation provides a {0} bonus to investments in the {1} priority in this nation.
 UI.Nation.NationPriorityBonuses_BuildMilitaryAssets=Resource regions in this nation provide a {0} bonus to investments in the {1} priority.
@@ -315,7 +315,7 @@ UI.Nation.HostileClaim=Hostile Claim<br/>The people of this region generally do 
 
 UI.Nation.HostileClaim_Reason1=-If annexed, this region will be hostile because this nation does not have a claim on it.
 UI.Nation.HostileClaim_Reason2=-If annexed, this region will be hostile because of the nature of this nation's claim on it or this region's nation previously broke away.
-UI.Nation.HostileClaim_Reason3=-This region will be hostile because annexing this nation's government score is {0} lower than that of the nation that currently controls it.
+UI.Nation.HostileClaim_Reason3=-This region will be hostile if annexed because this nation's government score is {0} lower than that of the nation that currently controls it.
 
 UI.Nation.AlienEntityPresent= Alien Activity<br/> Some form of alien activity has been detected in this region.
 UI.Nation.OccupationTooltip=Foreign Occupation
@@ -336,7 +336,7 @@ UI.Nation.NuclearTooltip=Strategic nuclear barrages: {0}<br/><br/>The number of 
 UI.Nation.NuclearTooltip.None=This nation has not completed the Initiate Nuclear Program priority and cannot stockpile nuclear weapons.
 UI.Nation.numArmiesTip=Number of armies: {0}. Maximum armies {1}: {2}.<br/><br/>Nations may build one Army per non-colony region, and a nation may only build an army if it has at least {3} million in population, and additional armies may be formed for every {4} million population.
 UI.Nation.STOFighters={0}/{1}/{2}
-UI.Nation.numSTOTip=The number of surface-to-orbit Exofighters available for missions to this nation, the total number including those undergoing repairs and post-mission maintenance, and the maximum allowed in this nation.<br/><br/>These craft are stationed at boost facilities and can be launched by the owner of the executive control point against targets in Low Earth Orbit by spending {0}. The required {0} amount varies with the loadout of the ship.<br/><br/>Fighters in this nation require {1} days between missions, and {2} days if they are damaged enough to require repair.<br/><br/>Any region that has a Boost facility may host one fighter; the maximum number of fighters in each region equates to 1 per {3} monthly Boost production.
+UI.Nation.numSTOTip=The number of surface-to-orbit exofighters available for missions to this nation, the total number including those undergoing repairs and post-mission maintenance, and the maximum allowed in this nation.<br/><br/>These craft are stationed at boost facilities and can be launched by the owner of the executive control point against targets in Low Earth Orbit by spending {0}. The required {0} amount varies with the loadout of the exofighter.<br/><br/>Fighters in this nation require {1} days between missions, and {2} days if they are damaged enough to require repair.<br/><br/>Any region that has a Boost facility may host one fighter; the maximum number of fighters in each region equates to 1 per {3} monthly Boost production.
 UI.Nation.EcoVulnerable=Vulnerable
 UI.Nation.EcoStandard=Standard
 UI.Nation.EcoImmune=Protected
@@ -458,6 +458,7 @@ UI.Nation.CanUnifyFeedback5=-{0} executive faction must own all control points i
 UI.Nation.CanUnifyFeedback6=-Must be in same federation
 UI.Nation.CanUnifyFeedback7=-{0} has non-hostile claim on {1} original capital region ({2})
 UI.Nation.CanUnifyFeedback7a=<sp><sp>Current claim is hostile due to {1} democracy score being {2} higher than {0}
+UI.Nation.CanUnifyFeedback7b=<sp><sp>Current claim is innately hostile and cannot be changed without seizing the region in war
 UI.Nation.CanUnifyFeedback8=-Must be in federation for a sufficient duration
 UI.Nation.CanUnifyFeedback9=-Must be in federation until {0}
 UI.Nation.CanUnifyFeedback10=-Both nations' executive factions must have taken power by force or held power for {0} days

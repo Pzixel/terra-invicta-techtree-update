@@ -79,7 +79,7 @@
    "specialRulesValue": 0.05,
    "supportMaterials_month": {
       "money": 30,
-      "boost": 5,
+      "boost": 4,
       "volatiles": 0.1,
       "metals": 0.1,
       "nobleMetals": 0.1
@@ -130,7 +130,7 @@
    "specialRulesValue": 0.1,
    "supportMaterials_month": {
       "money": 90,
-      "boost": 20,
+      "boost": 12,
       "volatiles": 0.5,
       "metals": 0.5,
       "nobleMetals": 0.5
@@ -3595,7 +3595,7 @@
    "specialRulesValue": 6,
    "supportMaterials_month": {
       "money": 0,
-      "boost": 1,
+      "boost": 0.5,
       "water": 3,
       "volatiles": 1,
       "metals": 1
@@ -3647,7 +3647,7 @@
    "specialRulesValue": 12,
    "supportMaterials_month": {
       "money": 0,
-      "boost": 3,
+      "boost": 1,
       "water": 10,
       "volatiles": 6,
       "metals": 2
@@ -3975,7 +3975,7 @@
    "requiredProjectName": "Project_SolarMirror",
    "crew": 1,
    "power": -1,
-   "baseMass_tons": 40,
+   "baseMass_tons": 50,
    "buildTime_Days": 30,
    "constructionTimeModifier": 1,
    "miningModifier": 0,
@@ -4021,7 +4021,7 @@
    "requiredProjectName": "Project_SolarMirrorArray",
    "crew": 5,
    "power": -4,
-   "baseMass_tons": 200,
+   "baseMass_tons": 250,
    "buildTime_Days": 90,
    "constructionTimeModifier": 1,
    "miningModifier": 0,
@@ -4033,7 +4033,7 @@
    "specialRulesValue": 6,
    "supportMaterials_month": {
       "money": 5,
-      "metals": 0.5,
+      "metals": 1,
       "nobleMetals": 0.1
    },
    "weightedBuildMaterials": {
@@ -4067,7 +4067,7 @@
    "requiredProjectName": "Project_Soletta",
    "crew": 25,
    "power": -12,
-   "baseMass_tons": 1600,
+   "baseMass_tons": 2000,
    "buildTime_Days": 180,
    "constructionTimeModifier": 1,
    "miningModifier": 0,
@@ -4079,7 +4079,7 @@
    "specialRulesValue": 12,
    "supportMaterials_month": {
       "money": 10,
-      "metals": 1,
+      "metals": 3,
       "nobleMetals": 0.5
    },
    "weightedBuildMaterials": {
@@ -4125,7 +4125,7 @@
    "supportMaterials_month": {
       "money": 1,
       "metals": 0.1,
-      "nobleMetals": 0.01
+      "nobleMetals": 0.03
    },
    "weightedBuildMaterials": {
       "water": 0,
@@ -4515,7 +4515,7 @@
    ],
    "supportMaterials_month": {
       "money": 0,
-      "boost": 0.1
+      "boost": 0.2
    },
    "weightedBuildMaterials": {
       "water": 0.15,
@@ -6523,6 +6523,11 @@
    "supportMaterials_month": {
       "money": 0
    },
+   "weightedBuildMaterials": {
+      "volatiles": 0.08,
+      "metals": 0.9,
+      "nobleMetals": 0.02
+   },
    "stationIconResource": "habmodules/station_T1_AlienObservationPost",
    "stationModelResource": "habmodules/station_T1_AlienObservationPost_Module",
    "stationDestructionResource": "habmodules/stationdestruction_alien_T1_generic",
@@ -6563,6 +6568,11 @@
    "supportMaterials_month": {
       "money": 0
    },
+   "weightedBuildMaterials": {
+      "volatiles": 0.08,
+      "metals": 0.9,
+      "nobleMetals": 0.02
+   },
    "stationIconResource": "habmodules/station_T2_AlienSurveillanceArray",
    "stationModelResource": "habmodules/station_T2_AlienSurveillanceArray_Module",
    "stationDestructionResource": "habmodules/stationdestruction_alien_T2_generic",
@@ -6602,6 +6612,11 @@
    "specialRulesValue": 3,
    "supportMaterials_month": {
       "money": 0
+   },
+   "weightedBuildMaterials": {
+      "volatiles": 0.08,
+      "metals": 0.9,
+      "nobleMetals": 0.02
    },
    "stationIconResource": "habmodules/station_T3_AlienWatchtower",
    "stationModelResource": "habmodules/station_T3_AlienWatchtower_Module",

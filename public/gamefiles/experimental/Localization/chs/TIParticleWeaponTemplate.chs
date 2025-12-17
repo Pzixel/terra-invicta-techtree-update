@@ -60,6 +60,10 @@ TIParticleWeaponTemplate.displayName.HeavyParticleLance=重型粒子骑枪炮
 TIParticleWeaponTemplate.description.HeavyParticleLance=安装在舰艏，发射中性粒子的大型线性加速器，可以干扰敌人的电子设备并使组员瘫痪。
 TIParticleWeaponTemplate.displayName.SpinalParticleLance=龙骨粒子骑枪炮
 TIParticleWeaponTemplate.description.SpinalParticleLance=安装在舰艏，发射中性粒子的巨型线性加速器，可以干扰敌人的电子设备并使组员瘫痪。
+TIParticleWeaponTemplate.displayName.AntimatterPointDefenseBattery=反物质点防御炮组
+TIParticleWeaponTemplate.description.AntimatterPointDefenseBattery=快速循环反物质光束炮塔，可以连续发射点防御。
+TIParticleWeaponTemplate.displayName.HeavyAntimatterPointDefenseBattery=重型反物质点防御炮组
+TIParticleWeaponTemplate.description.HeavyAntimatterPointDefenseBattery=大规模反物质光束炮塔，功能是为整个舰队提供点防御支援。
 TIParticleWeaponTemplate.displayName.AntimatterParticleCannon=反物质加农炮
 TIParticleWeaponTemplate.description.AntimatterParticleCannon=向目标发射高密度反物质光束的线性加速器，可以造成严重的热损伤和辐射损伤。
 TIParticleWeaponTemplate.displayName.HeavyAntimatterParticleCannon=重型反物质加农炮
@@ -88,4 +92,4 @@ TIParticleWeaponTemplate.XRayDamage=X 射线伤害（辐射）：<rcol>{0}</rcol
 TIParticleWeaponTemplate.BaryonicDamage=重子伤害（辐射）：<rcol>{1}</rcol>（造成 {0} 倍的内部伤害）
 
 TIParticleWeaponTemplate.Defense.MissilesOnly=<h>防御火力只会瞄准导弹。</h>
-TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>瞄准非导弹目标的防御火力效果将会降低</h>
+TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>瞄准非导弹弹药的防御火力效果将会降低</h>

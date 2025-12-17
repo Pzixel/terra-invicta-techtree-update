@@ -86,269 +86,232 @@ TIObjectiveTemplate.ResourcesGain=We have gained the following resources: {0}
 
 
 
-TIObjectiveTemplate.displayName.TutorialSelectCouncilor.ResistCouncil=<y101>Select one of our Councilors during the Mission Assignment Phase
-TIObjectiveTemplate.solution.TutorialSelectCouncilor.ResistCouncil=<z101>Run the in-game clock forward until the next Mission Assignment Phase triggers. Then click on one of our Councilors on Earth's Geoscape or in the Finder Panel.
+TIObjectiveTemplate.displayName.TutorialSelectCouncilor.ResistCouncil=Select one of our Councilors during the Mission Assignment Phase
+TIObjectiveTemplate.solution.TutorialSelectCouncilor.ResistCouncil=Run the in-game clock forward until the next Mission Assignment Phase triggers. Then click on one of our councilors on Earth's Geoscape or in the Finder panel on the right hand side of the screen.
 
-TIObjectiveTemplate.displayName.TutorialSelectMission.ResistCouncil=<y102>Select a Councilor Mission
-TIObjectiveTemplate.solution.TutorialSelectMission.ResistCouncil=<z102>Select a Mission to assign to our Councilor from the  Mission interface at the bottom center of the view, then select an appropriate target on the Geoscape or from the Mission target menu.
+TIObjectiveTemplate.displayName.TutorialSelectMission.ResistCouncil=Select a Councilor Mission
+TIObjectiveTemplate.solution.TutorialSelectMission.ResistCouncil=Select a mission to assign to our councilor from the mission interface at the bottom center of the view, then select an appropriate target on the Geoscape or from the mission target menu.
 
-TIObjectiveTemplate.displayName.TutorialUseMissionSlider.ResistCouncil=<y103>Adjust the resource slider on a Councilor Mission
-TIObjectiveTemplate.solution.TutorialUseMissionSlider.ResistCouncil=<z103>If a Mission is contested, you may spend resources to improve our Councilor's chance of success using the resource slider.
+TIObjectiveTemplate.displayName.TutorialUseMissionSlider.ResistCouncil=Adjust the Resource Slider on a Councilor Mission
+TIObjectiveTemplate.solution.TutorialUseMissionSlider.ResistCouncil=If a mission is contested, we may spend resources to improve our councilor's chance of success using the resource slider. Spending resources will often mean the difference between success and failure.
 
-TIObjectiveTemplate.displayName.TutorialAssignMission.ResistCouncil=<y104>Assign Councilors to Missions
-TIObjectiveTemplate.solution.TutorialAssignMission.ResistCouncil=<z104>After all Councilors have been assigned Missions click the "Confirm Assignments" button to enter the Mission Phase.
+TIObjectiveTemplate.displayName.TutorialAssignMission.ResistCouncil=Assign Councilors to Missions
+TIObjectiveTemplate.solution.TutorialAssignMission.ResistCouncil=After all councilors have been assigned missions, click the "Confirm Assignments" button. You will now be able to advance time forward, and missions will resolve automatically.
 
-TIObjectiveTemplate.description.TutorialAssignMission.ResistCouncil=<v101>Councilor <h>Missions</h> are the primary way to expand our reach on Earth. Several times a month the game will enter the <h>Mission Assignment Phase</h>, during which all factions will assign their Councilors to Missions. Missions may target Nations, Control Points, space facilities, and other Councilors.<br/><br/>After the Mission Assignment Phase Missions will be carried out and resolved in a set sequence during the <h>Mission Phase</h>. Defensive Missions will generally resolve before Missions that are offensive in nature. While some Missions are automatically successful, many are contested and require a success roll.
+TIObjectiveTemplate.description.TutorialAssignMission.ResistCouncil=Our <h>Councilors</h> are our faction's primary way to interact with the situation on Earth. Councilors can perform <h>Missions</h> to expand our influence in Earth's nations, protect our interests worldwide, and investigate the alien arrival.<br/><br/>Perodically, the game will enter the <h>Mission Assignment Phase</h>, during which all factions will secretly assign their councilors to missions. Missions may target nations, Control Points, space facilities, and other councilors.<br/><br/>After the Mission Assignment Phase, missions will be resolved in a fixed sequence during the following days and weeks. Defensive missions will generally resolve before missions that are offensive in nature. While some missions are automatically successful, many are contested and require a success roll.
 
-TIObjectiveTemplate.resolution.TutorialAssignMission.ResistCouncil=<r101>We will be able to assign our Councilors to new Missions prior to each Mission Phase which occur weekly at the start of the campaign.<br/><br/><h>You can increase the game speed to progress through Mission Phases more quickly using the time controls in the top right corner of the view.</h>
+TIObjectiveTemplate.resolution.TutorialAssignMission.ResistCouncil=We should assign our councilors to new missions during each Mission Assignments Phase. These occur weekly at the start of the campaign but will occur with less frequency as time passes.<br/><br/><h>You can increase the game speed to progress more quickly using the time controls in the top right corner of the view.</h>
 
+TIObjectiveTemplate.displayName.TutorialSetResearchPriority.ResistCouncil=Set a Research Priority
+TIObjectiveTemplate.solution.TutorialSetResearchPriority.ResistCouncil=Navigate to the Research tab in the "Research and Development" window. Change the priority settings for one of the global techs or a faction projects by clicking on the cycler for that research.
 
+TIObjectiveTemplate.description.TutorialSetResearchPriority.ResistCouncil=Research in Terra Invicta is divided into two categories: <h>Global Research</h> and faction <h>Engineering Projects</h>. All factions may contribute to up to three simultaneous Global Research techs, which represent a worldwide effort to advance in the understanding of a broad scientific principle. Once is it complete, it will unlock new Projects for factions to research.<h>The faction that contributes the most to a particular Global Research tech at the time it is completed selects the next one for the world to pursue.</h><br/><br/>Faction Engineering Projects are pursued privately by each faction and typically confer a concrete benefit.<br/><br/>Each faction distributes its <h>research income</h> across global efforts and private projects. While putting all research into a single area may see it completed sooner, this will forgo many faction bonuses tied to particular areas of research.
 
-TIObjectiveTemplate.displayName.TutorialSetResearchPriority.ResistCouncil=<y301>Set a Research Priority
-TIObjectiveTemplate.solution.TutorialSetResearchPriority.ResistCouncil=<z301>Navigate to the Research tab in the "Research and Development" window and change the Priority settings for one of the global techs or our faction projects by clicking on the cycler for that research.
-
-TIObjectiveTemplate.description.TutorialSetResearchPriority.ResistCouncil=<v301>Research in Terra Invicta is divided into two categories: <h>Global Research</h> and faction <h>Engineering Projects</h>. All factions may contribute to up to three simultaneous Global Research techs, which represent a global move forward in the understanding of broad scientific principles. <h>The faction that contributes the most to a particular Global Research tech selects the next one for the world to pursue.</h><br/><br/>Faction Engineering Projects are conducted privately and typically confer a concrete benefit.<br/><br/>Each faction distributes its <h>research income</h> across global efforts and private projects. While putting all research into a single area may see it completed sooner, this will forgo many faction bonuses tied to particular areas of research.
-
-TIObjectiveTemplate.resolution.TutorialSetResearchPriority.ResistCouncil=<r301>Contributing to Global Research will increase our chances of unlocking private projects to research. Certain Hab Modules and Orgs will allow us to expand our faction's research capabilities and pursue multiple private projects at once.
-
-
+TIObjectiveTemplate.resolution.TutorialSetResearchPriority.ResistCouncil=Contributing to Global Research will increase our chances of unlocking private projects to research. Certain <h>Hab Modules</h> and <h>Orgs</h> will allow us to expand our faction's research capabilities and pursue multiple private projects at once.
 
 TIObjectiveTemplate.displayName.TutorialSelectProject.ResistCouncil=Select a Project
 TIObjectiveTemplate.solution.TutorialSelectProject.ResistCouncil=Select a new project for our faction to research.
 
+TIObjectiveTemplate.displayName.TutorialAssignControlNationMission.ResistCouncil=Assign a Councilor to a Control Nation Mission
+TIObjectiveTemplate.solution.TutorialAssignControlNationMission.ResistCouncil=Send a councilor to a nation you wish to gain a foothold in by selecting a councilor and clicking the "Control Nation" mission icon in the councilor's mission list at the bottom-center of the screen. Then select the target nation from the Geoscape or the mission target menu. Click the "Control Nation" mission button to confirm the assignment.
 
+TIObjectiveTemplate.displayName.TutorialGainControlPoint.ResistCouncil=Gain a Control Point in a Nation
+TIObjectiveTemplate.solution.TutorialGainControlPoint.ResistCouncil=Have a councilor successfully carry out a Control Nation mission. This will grant our faction ownership of a Control Point in that nation.
 
-TIObjectiveTemplate.displayName.TutorialAssignControlNationMission.ResistCouncil=<y201>Assign a Councilor to a Control Nation Mission
-TIObjectiveTemplate.solution.TutorialAssignControlNationMission.ResistCouncil=<z201>Send a Councilor to a Nation you wish to gain a foothold in: Select a Councilor and then click the "Control Nation" Mission icon from the Mission interface. Then select the target Nation from the Geoscape or the Mission target menu. Click the "Control Nation" Mission button to confirm the assignment. 
+TIObjectiveTemplate.description.TutorialGainControlPoint.ResistCouncil=<h>Control Points</h> represent key nodes of political and economic power in a nation. They grant access to the nation's resources, control over its national <h>Priorities</h>, and in some cases command of one or more <h>Armies</h>.<br/><br/>Each nation has between one and six Control Points; the amount corresponds to the size of the nation's economy.<br/><br/>Initially all Control Points are neutral, but expect all factions to target them early in the campaign. Neutral Control Points may be acquired by the <h>Control Nation</h> mission, while the <h>Purge</h> mission seizes Control Points from other factions. Control Points in more powerful nations will be harder to acquire in all cases.<br/><br/>The rightmost Control Point in the nation panel, called the <h>Executive Control Point</h>, also grants access to the <h>Set National Policy</h> mission which allows initiating wars, forming alliances, and similar high-level national actions.
 
-TIObjectiveTemplate.displayName.TutorialGainControlPoint.ResistCouncil=<y202>Gain a Control Point in a Nation
-TIObjectiveTemplate.solution.TutorialGainControlPoint.ResistCouncil=<z202>Have a Councilor successfully carry out a Control Nation Mission. This will grant our faction ownership of a Control Point in that Nation.
+TIObjectiveTemplate.resolution.TutorialGainControlPoint.ResistCouncil=We have gained our first Control Point. Excellent! This gives us access to some of the nation's resources, some degree of control over the nation's <h>Priorities</h>, and possibly an <h>army</h>. Control Points may be attacked by other factions via the <h>Crackdown</h> and <h>Purge</h> missions, so it may be wise to use the <h>Defend Interests</h> mission in this nation to discourage this.
 
-TIObjectiveTemplate.description.TutorialGainControlPoint.ResistCouncil=<v201><h>Control Points</h> represent key nodes of political and economic power in a Nation. They grant access to the Nation's resources, control over its national <h>Priorities</h>, and in some cases command of an <h>army</h>.<br/><br/>Each Nation has between one and six Control Points; the amount corresponds to the size of the Nation's economy.<br/><br/>Initially all Control Points are neutral, but expect all factions to target them early in the campaign. Neutral Control Points may be acquired by the <h>Control Nation</h> Mission, while the <h>Purge</h> Mission seizes Control Points from other factions. Control Points in more powerful Nations will be harder to acquire in all cases.<br/><br/>The rightmost Control Point in a Nation, called the <h>Executive Control Point</h>, also grants access to the <h>Set National Policy</h> Mission which allows initiating wars, forming alliances, and similar high-level national actions.
+TIObjectiveTemplate.displayName.TutorialCheckNationalPriority.ResistCouncil=Change a Nation's Priorities
 
-TIObjectiveTemplate.resolution.TutorialGainControlPoint.ResistCouncil=<r201>We have gained our first Control Point. This gives us access to some of the Nation's resources, some degree of control over the Nation's <h>Priorities</h>, and possibly an <h>army</h>. Control Points may be attacked by other factions via the <h>Crackdown</h> and <h>Purge</h> Missions, so it may be wise to use the <h>Defend Interests</h> Mission in this Nation to discourage this.
+TIObjectiveTemplate.solution.TutorialCheckNationalPriority.ResistCouncil=Click on a nation where our faction has ownership of at least one Control Point, then select the <h>Priorities</h> tab in the Nation panel. Adjust one of the nation's priorities by cycling the pips associated with it.  
 
+TIObjectiveTemplate.description.TutorialCheckNationalPriority.ResistCouncil=A nation's <h>Priorities</h> govern how it will distribute its economic surplus over time in the form of <color=#FFFFFFFF><sprite name=investments></color> <h>Investment Points</h>. Priorities direct a nation's development in various ways, including building armies, investing in education, or developing <h>Space Programs</h>. Taking over more Control Points in a nation lets us further influence that nation's priorities.
 
+TIObjectiveTemplate.resolution.TutorialCheckNationalPriority.ResistCouncil=Directing the <h>Priorities</h> of nations under our control as well as keeping tabs on the development of nations under other factions' control will be critical in our efforts to combat the alien threat.<br/><br/>Take a moment to consider how you would like the nations under our control to grow. Perhaps some can focus on developing <color=#FFFFFFFF><sprite name=mission_control></color> <h>Mission Control</h> for our space assets. Others could focus on increasing their <color=#FFFFFFFF><sprite name=research></color> <h>monthly research output</h> so we can research new technologies faster. A few could focus on building up or improving their <h>military</h> so we are prepared if we need invade enemy nations or face the aliens directly.<br/><br/>If we want stable nations ready to face the alien arrival, we should move to keep <color=#FFFFFFFF><sprite name=culture></color> <h>Cohesion</h> from dropping too low, keep <color=#FFFFFFFF><sprite name=nation_unrest></color> <h>Unrest</h> from rising, and make sure <color=#FFFFFFFF><sprite name=inequality></color> <h>Inequality</h> does not get out of hand.
 
-TIObjectiveTemplate.displayName.TutorialCheckNationalPriority.ResistCouncil=<y801>Change a Nation's Priorities
+TIObjectiveTemplate.displayName.TutorialAssignPublicCampaign.ResistCouncil=Assign a Councilor to a Public Campaign Mission
+TIObjectiveTemplate.solution.TutorialAssignPublicCampaign.ResistCouncil=The larger a nation's economy the harder it will be to perform most missions in that nation. This can be mitigated if the nation's public opinion is on our side. Assign and carry out Public Campaign missions to sway public opinion toward us. Having a high level of public support increases success chances for multiple types of missions carried out in that nation.
 
-TIObjectiveTemplate.solution.TutorialCheckNationalPriority.ResistCouncil=<z801>Click on a Nation where our faction has ownership of at least one Control Point. Click on the "Priorities" tab in the Nation Info Panel. Adjust one of the Nation's Priorities by clicking the pips associated with it.  
+TIObjectiveTemplate.displayName.TutorialTakeOverAdjacentControlPoint.ResistCouncil=Take over neighboring Control Points
+TIObjectiveTemplate.solution.TutorialTakeOverAdjacentControlPoint.ResistCouncil=It is easier to gain Control Points in nations that border nations which we have already taken over. Assign and carry out Control Nation missions to gain neighboring Control Points to increase the chance of success of similar missions in a larger nation.
 
-TIObjectiveTemplate.description.TutorialCheckNationalPriority.ResistCouncil=<v801>A Nation's <h>Priorities</h> determine how it will distribute it's economic surplus over time in the form of <color=#FFFFFFFF><sprite name=investments></color> <h>Investment Points</h>. Priorities determine much about a Nation's growth. A few examples include: the building of armies, investment in education, and developing a Space Program. Taking over more Control Points in a Nation allows us further influence over a Nation's Priorities.
+TIObjectiveTemplate.displayName.TutorialTakeOverFederationControlPoint.ResistCouncil=Take over Control Points in the same Federation
+TIObjectiveTemplate.solution.TutorialTakeOverFederationControlPoint.ResistCouncil=Another way to increase the success of a Control Nation mission is to already own Control Points in nations that are in the same Federation as the target nation.
 
-TIObjectiveTemplate.resolution.TutorialCheckNationalPriority.ResistCouncil=<r801>Directing the Priorities of Nations under our control as well as keeping tabs on the development of Nations under our opponents' control will be critical in our efforts to meet the alien threat.<br/><br/>Take a moment to consider how you would like the Nations under our control to grow. Perhaps some can focus on developing <color=#FFFFFFFF><sprite name=mission_control></color> <h>Mission Control</h> for our space assets. Others could focus on increasing their <color=#FFFFFFFF><sprite name=research></color> <h>monthly research</h> output so we can research new technologies faster. A few could focus on building up or improving their <h>military</h> so we are prepared if we need to face the aliens directly.<br/><br/>If we want stable Nations ready to face the alien threat we should move to keep <color=#FFFFFFFF><sprite name=culture></color> <h>Cohesion</h> from dropping too low, keep <color=#FFFFFFFF><sprite name=nation_unrest></color> <h>Unrest</h> from rising, and make sure <color=#FFFFFFFF><sprite name=inequality></color> <h>Inequality</h> does not get out of hand.
+TIObjectiveTemplate.displayName.TutorialGainLargeNationControlPoint.ResistCouncil=Gain a Control Point in a Large Nation
+TIObjectiveTemplate.solution.TutorialGainLargeNationControlPoint.ResistCouncil=Successfully carry out a Control Nation mission in a nation with at least four Control Points.
 
+TIObjectiveTemplate.description.TutorialGainLargeNationControlPoint.ResistCouncil=While we should pursue a diverse coalition of support, if we are to meaningfully face the potential threat posed by the aliens we will need the backing of some nations with significant resources.<br/><br/>We should align ourselves with nations that are generating <color=#FFFFFFFF><sprite name=boost></color> <h>Boost</h> or have the resources to bootstrap a <h>Space Program</h> within a short period of time so that if necessary we can meet whatever threat these aliens pose on an even footing. Additionally, we should consider nations that have access to an <h>Army</h> or could assemble one quickly if the aliens reveal terrestrial hostile intent.
 
+TIObjectiveTemplate.resolution.TutorialGainLargeNationControlPoint.ResistCouncil=We now have a foothold in a large nation and are on our way toward building a solid foundation of support for our cause. We should now set our sights on taking over the <h>Executive Control Point</h> which will allow us to set this nation's <h>National Polices</h>.
 
-TIObjectiveTemplate.displayName.TutorialAssignPublicCampaign.ResistCouncil=<y401>Assign a Councilor to a Public Campaign Mission
-TIObjectiveTemplate.solution.TutorialAssignPublicCampaign.ResistCouncil=<z401>The larger a Nation's economy the harder it will be to perform most Missions in that Nation. This can be mitigated if the Nation's public opinion is on our side. Assign and carry out Public Campaign Missions to sway public opinion toward us. Having a high level of public support increases success chances for multiple types of Missions carried out in that Nation.
+TIObjectiveTemplate.displayName.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=Gain the Executive Control Point in a Large Nation
 
-TIObjectiveTemplate.displayName.TutorialTakeOverAdjacentControlPoint.ResistCouncil=<y402>Take over neighboring Control Points
-TIObjectiveTemplate.solution.TutorialTakeOverAdjacentControlPoint.ResistCouncil=<z402>It is easier to gain Control Points in Nations that neighbor Nations which we have already taken over. Assign and carry out Control Nation Missions to gain neighboring Control Points to increase the chance of success of similar Missions in a larger Nation.
+TIObjectiveTemplate.solution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=Successfully carry out a Control Nation mission on the Executive Control Point in a nation with at least four Control Points.
 
-TIObjectiveTemplate.displayName.TutorialTakeOverFederationControlPoint.ResistCouncil=<y403>Take over Control Points in the same Federation
-TIObjectiveTemplate.solution.TutorialTakeOverFederationControlPoint.ResistCouncil=<z403>Another way to increase the success of a Control Nation Mission is to already own Control Points in Nations that are in the same Federation as the target Nation.
+TIObjectiveTemplate.description.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=Now that we have gained some influence in a large nation we should move to cement our position by taking over the <h>Executive Control Point</h>. Continue to assign and carry out <h>Control Nation</h> missions targeting a large nation until we have taken over its Executive Control Point.
 
-TIObjectiveTemplate.displayName.TutorialGainLargeNationControlPoint.ResistCouncil=<y404>Gain a Control Point in a Large Nation
-TIObjectiveTemplate.solution.TutorialGainLargeNationControlPoint.ResistCouncil=<z404>Successfully carry out a Control Nation Mission in a Nation with at least five Control Points.
+TIObjectiveTemplate.resolution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=We are now in control of this nation's executive branch. This allows us to assign the <h>Set National Policy</h> mission in this nation. We also gain access to this nation's nuclear arsenal if it has one.<br/><br/>Set National Policy is a powerful mission we can use to declare war on rival nations, grant independence to eligible regions, federate with other nations, and more, but we will have to wait a little longer while we consolidate control of this nation to use it to full effect.<br/><br/>Click on a nation and then select the <h>Policies</h> tab in the Nation panel to see what policies are available.<br/><br/>We have heavily invested ourselves in this nation and our opponents could severely hamper our efforts if they attack us here. Control Points may be attacked by other factions via the <h>Crackdown</h> and <h>Purge</h> missions. Be on the lookout for other faction's councilors conducting missions in nations our faction controls.
 
-TIObjectiveTemplate.description.TutorialGainLargeNationControlPoint.ResistCouncil=<r401>While we should pursue a diverse coalition of support, if we are to meaningfully face the potential threat posed by the aliens, we will need the backing of some Nations with significant resources.<br><br>We should align ourselves with Nations that are generating <color=#FFFFFFFF><sprite name=boost></color> <h>Boost</h> or have the resources to bootstrap a <h>Space Program</h> within a short period of time so that if necessary we can meet whatever threat these aliens pose on an even footing. Additionally, we should consider Nations that have access to an <h>army</h> or could field one if the aliens reveal terrestrial hostile intent.
+TIObjectiveTemplate.displayName.TutorialRecruitCouncilor3.ResistCouncil=Recruit a third Councilor
+TIObjectiveTemplate.solution.TutorialRecruitCouncilor3.ResistCouncil=Recruit and maintain three councilors in our Council.
 
-TIObjectiveTemplate.resolution.TutorialGainLargeNationControlPoint.ResistCouncil=<r401>We now have a foothold in a large Nation and are on our way towards building a solid foundation of support for our cause. We should now set our sights on taking over the <h>Executive Control Point</h> which will allow us to set this Nation's <h>National Policy</h>.
+TIObjectiveTemplate.displayName.TutorialRecruitCouncilor4.ResistCouncil=Recruit a fourth Councilor
+TIObjectiveTemplate.solution.TutorialRecruitCouncilor4.ResistCouncil=Recruit and maintain four councilors in our Council.
 
+TIObjectiveTemplate.displayName.TutorialResearchWeAreNotAlone.ResistCouncil=Research the We Are Not Alone tech
+TIObjectiveTemplate.solution.TutorialResearchWeAreNotAlone.ResistCouncil=Research the "We Are Not Alone" global tech. This tech is a requirement for the "Clandestine Cells" project. Once global research for the tech is complete the "Clandestine Cells" project will become available after some time.
 
+TIObjectiveTemplate.displayName.TutorialResearchClandestineCells.ResistCouncil=Research the Clandestine Cells project
+TIObjectiveTemplate.solution.TutorialResearchClandestineCells.ResistCouncil=Research the "Clandestine Cells" project once it becomes available. This project allows us to recruit a fifth councilor.
 
-TIObjectiveTemplate.displayName.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=<y601>Gain the Executive Control Point in a Large Nation
+TIObjectiveTemplate.displayName.TutorialBuildCouncil.ResistCouncil=Build the Council
 
-TIObjectiveTemplate.solution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=<z601>Successfully carry out a Control Nation Mission on the Executive Control Point in a Nation with at least five Control Points.
+TIObjectiveTemplate.solution.TutorialBuildCouncil.ResistCouncil=Recruit and maintain five councilors in our Council.
 
-TIObjectiveTemplate.description.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=<v601>Now that we have a foothold in a large Nation we should move to cement our position by taking over the <h>Executive Control Point</h>. Continue to assign and carry out <h>Control Nation</h> Missions targeting a large Nation until we have taken over its <h>Executive Control Point</h>.
+TIObjectiveTemplate.description.TutorialBuildCouncil.ResistCouncil=Our faction's <h>Council</h> is the backbone of our political efforts on Earth, and growing our Council will allow us to undertake more missions simultaneously. Councilors have a variety of attributes, backgrounds, available missions, and traits.<br/><br/>Building a Council that can handle a variety of tasks will help us keep pace with the other factions, but it's advisable to recruit several councilors with the ability to gain Control Points in nations. Councilor candidates whose professions have an affinity to our faction's goals will generally cost less <color=#FFFFFFFF><sprite name=influence></color> <h>Influence</h> to recruit.
+TIObjectiveTemplate.resolution.TutorialBuildCouncil.ResistCouncil=While our council has expanded it is not necessarily set in stone. The option to <h>dismiss</h> one of our current councilors is always available if you find them to be ineffective... or disloyal. You can then recruit a different councilor candidate that better suits our goals. Different councilor candidates will become available to recruit periodically.
 
-TIObjectiveTemplate.resolution.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=<r601>We are now in control of this Nation's executive branch. This allows us to assign the <h>Set National Policy</h> Mission in this Nation, we also gain access to this Nation's nuclear arsenal if it has one.<br/><br/><h>Set National Policy</h> is a powerful Mission we can use to declare war on rival Nations, grant independence to eligible regions, federate with other Nations, and more.<br><br>Click on a Nation and then click the <h>Policies</h> tab in the Nation Info Panel to see what policies are available.<br/><br/>We have heavily invested ourselves in this Nation and our opponents could severely hamper our efforts if they attacked us here. Control Points may be attacked by other factions via the <h>Crackdown</h> and <h>Purge</h> Missions. Be on the lookout for other faction's Councilors conducting Missions in Nations our faction controls.
+TIObjectiveTemplate.displayName.TutorialPurchaseOrg.ResistCouncil=Acquire an Org
 
+TIObjectiveTemplate.solution.TutorialPurchaseOrg.ResistCouncil=Navigate to the "Council" window and click on one of our councilors to open the "Councilor Details" window. Purchase and assign an org from the Org Marketplace by right-clicking or drag and dropping the chosen org into the Assigned Orgs panel and paying the cost. We may have to wait until we can afford one.
 
+TIObjectiveTemplate.displayName.TutorialUnequipOrg.ResistCouncil=Unassign an Org from a Councilor		//deprecated
 
-TIObjectiveTemplate.displayName.TutorialRecruitCouncilor3.ResistCouncil=<y501>Recruit a 3rd Councilor
-TIObjectiveTemplate.solution.TutorialRecruitCouncilor3.ResistCouncil=<z501>Recruit and maintain three Councilors in our Council.
+TIObjectiveTemplate.solution.TutorialUnequipOrg.ResistCouncil=To unassign an org, return to the Councilor Details window for a councilor with an assigned org. Right-click or drag and drop the org into the Unassigned Orgs pool. This will also allow you to assign the org to other councilors of our faction.		//deprecated
 
-TIObjectiveTemplate.displayName.TutorialRecruitCouncilor4.ResistCouncil=<y502>Recruit a 4th Councilor
-TIObjectiveTemplate.solution.TutorialRecruitCouncilor4.ResistCouncil=<z502>Recruit and maintain four Councilors in our Council.
+TIObjectiveTemplate.displayName.TutorialEquipOrg.ResistCouncil=Manage Orgs		//deprecated
 
-TIObjectiveTemplate.displayName.TutorialResearchWeAreNotAlone.ResistCouncil=<y503>Research the We Are Not Alone tech
-TIObjectiveTemplate.solution.TutorialResearchWeAreNotAlone.ResistCouncil=<z503>Research the global tech "We Are Not Alone". This tech is a requirement for the "Clandestine Cells" project. Once global research for the tech is complete the "Clandestine Cells" project will become available after some time.
+TIObjectiveTemplate.solution.TutorialEquipOrg.ResistCouncil=Navigate to the Org Management tab in the "Council" window. Drag and drop an org from our faction's Unassigned Orgs pool or the Org Marketplace to one of our councilors' panels. Click the "Confirm Changes" button to pay the cost to purchase and/or assign the org.		//deprecated
 
-TIObjectiveTemplate.displayName.TutorialResearchClandestineCells.ResistCouncil=<y504>Research Clandestine Cells project
-TIObjectiveTemplate.solution.TutorialResearchClandestineCells.ResistCouncil=<z504>Research the Clandestine Cells project once it becomes available. This project allows us to recruit a 5th Councilor.
+TIObjectiveTemplate.description.TutorialPurchaseOrg.ResistCouncil=<h>Orgs</h> (Organizations) are government agencies, NGOs, criminal organizations, and private companies under the control of a councilor. Orgs provide stat bonuses, incomes, missions, bonuses to research, and bonuses to certain priorities for nations under our control.<br/><br/>Orgs are acquired with <color=#FFFFFFFF><sprite name=currency></color> <h>Money</h>, <color=#FFFFFFFF><sprite name=influence></color> <h>Influence</h> and rarely <color=#FFFFFFFF><sprite name=ops></color> <h>Ops</h> (typically for criminal cartels). Some orgs are available to councilors with certain traits or of a certain nationality.
 
-TIObjectiveTemplate.displayName.TutorialBuildCouncil.ResistCouncil=<y505>Build the Council
+TIObjectiveTemplate.resolution.TutorialPurchaseOrg.ResistCouncil=Unpurchased orgs in our Marketplace are available exclusively to us, but they will periodically rotate into other factions' marketplaces if we do not acquire them ourselves. We can unlock new orgs and expand the number of orgs available in the Org Marketplace by completing certain faction projects. We may also transfer orgs between our councilors at a small cost.
 
-TIObjectiveTemplate.solution.TutorialBuildCouncil.ResistCouncil=<z505>Recruit and maintain five Councilors in our Council.
+TIObjectiveTemplate.displayName.TutorialAssignCrackdown.ResistCouncil=Assign a Councilor to a Crackdown Mission
 
-TIObjectiveTemplate.description.TutorialBuildCouncil.ResistCouncil=<v501>Our faction's <h>Council</h> is the backbone of our political efforts on Earth, and growing our Council will allow us to undertake more Missions each Mission Phase. Councilors have a variety of Attributes, backgrounds, available Missions and Traits.<br><br>Building a Council that can handle a variety of tasks will help us keep pace with the other factions but it's advisable to recruit several Councilors with the ability to gain Control Points in Nations. Councilor candidates whose professions have an affinity to our faction's goals will generally cost less <color=#FFFFFFFF><sprite name=influence></color> <h>Influence</h> to recruit.
-TIObjectiveTemplate.resolution.TutorialBuildCouncil.ResistCouncil=<r501>While our Council has expanded, it is not necessarily set in stone. The option to <h>dismiss</h> one of our current Councilors is always available if you find them to be ineffective...or disloyal. You can then recruit a different Councilor candidate in their place that better suits our goals. Different Councilor candidates will become available to recruit periodically.
+TIObjectiveTemplate.solution.TutorialAssignCrackdown.ResistCouncil=Increase the success chance for Purge missions by first carrying out Crackdown missions on enemy Control Points to disable the Control Point's benefits and temporarily weaken it against other missions.
 
+TIObjectiveTemplate.displayName.TutorialAssignPurge.ResistCouncil=Assign a Councilor to a Purge Mission
 
+TIObjectiveTemplate.solution.TutorialAssignPurge.ResistCouncil=Assign Purge missions targeting enemy Control Points to seize them from an enemy faction.
 
-TIObjectiveTemplate.displayName.TutorialPurchaseOrg.ResistCouncil=<y901>Acquire an Org
+TIObjectiveTemplate.description.TutorialAssignPurge.ResistCouncil=Sometimes an enemy faction may gain ownership of Control Points in a nation we would prefer to be under our management. To seize Control Points already owned by another faction, we must send our councilors on <h>Crackdown</h> and <h>Purge</h> missions. A successful Crackdown mission will weaken the Control Point. Follow up with a Purge mission to steal the Control Point for our faction.
 
-TIObjectiveTemplate.solution.TutorialPurchaseOrg.ResistCouncil=<z901>Navigate to the "Council" window and click on one of our Councilors to open the "Councilor Details" window. Purchase and assign an Org from the Org Marketplace by right-clicking or drag and dropping the chosen Org into the Assigned Orgs panel and paying the cost.
+TIObjectiveTemplate.resolution.TutorialAssignPurge.ResistCouncil=Purging enemy Control Points is a valuable tool in our arsenal. Because Crackdown missions resolve before Purge missions, we can attempt to quickly seize a Control Point if we are confident in both missions' chances of success. Keep an eye out for undefended enemy Control Points that are ripe for the taking.
 
-TIObjectiveTemplate.displayName.TutorialUnequipOrg.ResistCouncil=<y902>Unassign an Org from a Councilor
+TIObjectiveTemplate.displayName.TutorialAssignDefendInterests.ResistCouncil=Assign a Councilor to a Defend Interests Mission
+TIObjectiveTemplate.solution.TutorialAssignDefendInterests.ResistCouncil=Carry out the Defend Interests mission in nations with Control Points our faction owns to protect them from enemy councilor missions. Hostile missions are much less likely to succeed against defended Control Points.
 
-TIObjectiveTemplate.solution.TutorialUnequipOrg.ResistCouncil=<z902>To unassign an Org, return to the Councilor Details window for a Councilor with an assigned Org. Right-click or drag and drop the Org into the Unassigned Orgs pool. This will also allow you to assign the Org to other Councilors of our faction.
+TIObjectiveTemplate.description.TutorialAssignDefendInterests.ResistCouncil=The <h>Defend Interests</h> mission is a useful defensive tool that makes <h>Crackdown</h>, <h>Purge</h>, and <h>Coup</h> missions much more difficult to successfully complete for enemy councilors. When carried out, the Defend Interest mission provides protections that apply to all Control Points our faction owns in the target nation. It is vital to defend our most valuable nations.<br/><br/><h>Its protections will expire and must be renewed periodically.</h> The duration of the protection decreases with the number of Control Points to be defended.
 
-TIObjectiveTemplate.displayName.TutorialEquipOrg.ResistCouncil=<y903>Manage Orgs
+TIObjectiveTemplate.resolution.TutorialAssignDefendInterests.ResistCouncil=Continue to assign and carry out <h>Defend Interests</h> missions to protect our valuable nations against enemy missions as needed. Defend Interests protections expire but can be reapplied to Control Points our faction owns.
 
-TIObjectiveTemplate.solution.TutorialEquipOrg.ResistCouncil=<z903>Navigate to the Org Management tab in the "Council" window. Drag and drop an Org from our faction's Unassigned Orgs pool or the Org Marketplace to one of our Councilors' panels. Click the "Confirm Changes" button to pay the cost to purchase and/or assign the Org.
+TIObjectiveTemplate.displayName.TutorialAssignIncreaseUnrest.ResistCouncil=Assign a Councilor to an Increase Unrest Mission
 
-TIObjectiveTemplate.description.TutorialEquipOrg.ResistCouncil=<v901><h>Orgs</h> (Organizations) are government agencies, NGOs, criminal organizations, and private companies under the control of a Councilor. Orgs provide stat bonuses, incomes, Missions, bonuses to research, and bonuses to certain Priorities for Nations under our control.<br/><br/>Orgs are acquired with <color=#FFFFFFFF><sprite name=currency></color> <h>Money</h>, <color=#FFFFFFFF><sprite name=influence></color> <h>Influence</h> and rarely <color=#FFFFFFFF><sprite name=ops></color> <h>Ops</h> (typically for criminal cartels). Some Orgs are available to Councilors with certain traits or of a certain nationality.
+TIObjectiveTemplate.solution.TutorialAssignIncreaseUnrest.ResistCouncil=Carry out Increase Unrest missions to cause turmoil and weaken the economy in the targeted nation to make revolutions and secessions more likely to occur and Coup d'Etat missions more likely to succeed.
 
-TIObjectiveTemplate.resolution.TutorialEquipOrg.ResistCouncil=<r901>Unpurchased Orgs will periodically be made available to other factions after a certain period. We can expand the number of Orgs available from the Org Marketplace via  We can also develop Orgs via faction projects and transfer Orgs between our Councilors at a small cost.
+TIObjectiveTemplate.displayName.TutorialAssignCoup.ResistCouncil=Assign a Councilor to a Coup d'Etat Mission
 
+TIObjectiveTemplate.solution.TutorialAssignCoup.ResistCouncil=Assign and carry out a Coup d'Etat mission in a nation with heightened <color=#FFFFFFFF><sprite name=unrest_increasing_bad></color> Unrest. A successful Coup mission will overthrow the government and grant all control points to new owners.
 
+TIObjectiveTemplate.description.TutorialAssignCoup.ResistCouncil=<h>Coups</h> are used to remove ownership of all control points in the nation and award them to the couping faction and other factions that have contributed to unrest in the nation. Coups are more likely to succeed in nations with high <color=#FFFFFFFF><sprite name=nation_unrest></color> <h>Unrest</h>. Carry out multiple <h>Increase Unrest</h> missions prior to attempting the Coup d'Etat mission for a better chance of success.
 
-TIObjectiveTemplate.displayName.TutorialAssignCrackdown.ResistCouncil=<y1201>Assign a Councilor to a Crackdown Mission
+TIObjectiveTemplate.resolution.TutorialAssignCoup.ResistCouncil=Complete <h>Increase Unrest</h> missions to weaken an enemy nation's stability followed by a <h>Coup d'Etat</h> mission to overthrow the government and reset the nation's Control Points. It may take multiple Increase Unrest missions for a nation to become destabilized enough for a Coup to be successful.<br/><br/>Be on the lookout for sudden spikes of <color=#FFFFFFFF><sprite name=unrest_increasing_bad></color> Unrest in nations we control, as they may be caused by enemy councilors attempting to undermine our efforts.
 
-TIObjectiveTemplate.solution.TutorialAssignCrackdown.ResistCouncil=<z1201>Increase the success chance for Purge Missions by assigning and carrying out Crackdown Missions on enemy Control Points first to disable the Control Point's benefits and temporarily weaken it for other Missions.
+TIObjectiveTemplate.displayName.TutorialFoundStation.ResistCouncil=Found a Station
 
-TIObjectiveTemplate.displayName.TutorialAssignPurge.ResistCouncil=<y1202>Assign a Councilor to a Purge Mission
+TIObjectiveTemplate.description.TutorialFoundStation.ResistCouncil=Small space stations, called <h>Platforms</h>, are humanity's foothold in outer space and the critical first step for industrializing space and building a war fleet. Stations are placed in a fixed <h>orbit</h> around a space body or Lagrange point. Stations are composed of <h>Modules</h> that grant bonuses to research and other resources and allow construction of ships and additional Modules.<br/><br/>We should stockpile <color=#FFFFFFFF><sprite name=boost></color> <h>Boost</h></color> and a few points of <color=#FFFFFFFF><sprite name=mission_control></color> <h>Mission Control</h> in preparation for founding a Platform to orbit Earth.
 
-TIObjectiveTemplate.solution.TutorialAssignPurge.ResistCouncil=<z1202>Assign Purge Missions on enemy Control Points to seize them from an enemy faction.
+TIObjectiveTemplate.solution.TutorialFoundStation.ResistCouncil=Save sufficient <color=#FFFFFFFF><sprite name=currency></color> Money, <color=#FFFFFFFF><sprite name=boost></color> Boost, and <color=#FFFFFFFF><sprite name=mission_control></color> Mission Control to afford to launch a Platform core Module. Zoom out on Earth to a distance that the Geoscape is no longer visible and select our planet. Click on the "Found Platform" operation icon from the operation interface at the bottom center of the view. Select an available orbit around Earth in which the station will be constructed, then click the "Found Platform" operation button to confirm and begin construction of the Platform's core Module.<br/><br/>This may take several months to accomplish.
 
-TIObjectiveTemplate.description.TutorialAssignPurge.ResistCouncil=<v1202>Sometimes an enemy faction may gain ownership of Control Points in a Nation we are seeking to control. In order to seize Control Points already owned by another faction, we must send our Councilors on <h>Crackdown</h> and <h>Purge</h> Missions. A successful Crackdown Mission will weaken the Control Point. Follow up with a Purge Mission to steal the Control Point for our faction.
+TIObjectiveTemplate.resolution.TutorialFoundStation.ResistCouncil=As more of the Solar System is explored and industrialized, <h>Stations</h> and surface <h>Bases</h> will become more and more critical to our efforts.<br/><br/>When we are ready, consider developing larger stations by researching the <h>Orbitals</h> tech. We will also need to complete the <h>"Mission to ..."</h> global techs to build stations further away from Earth.<br/><br/>Note that in addition to requiring <color=#FFFFFFFF><sprite name=mission_control></color> Mission Control to manage, all of our habitats have a maintenance cost measured in money and space resources. If we do not produce sufficient space resources to support our habs, we will use <color=#FFFFFFFF><sprite name=boost></color> Boost to ship materials from Earth to make up the difference. Insufficient support for our habs can have dire consequences!
 
-TIObjectiveTemplate.resolution.TutorialAssignPurge.ResistCouncil=<r1202>Purging enemy Control Points is a valuable tool in our arsenal. Since all Crackdown Missions resolve before Purge Missions we can attempt to quickly gain a Control Point in a single Mission Phase if we are confident in both Missions' chance for success. Keep an eye out for undefended enemy Control Points, which are ripe for the taking.
+TIObjectiveTemplate.displayName.TutorialBuildStationPower.ResistCouncil=Build a Solar Collector
 
+TIObjectiveTemplate.description.TutorialBuildStationPower.ResistCouncil=Our new station can support four <h>Modules</h> in addition to its core module. Getting some <h>Lab</h> Modules up and running will help support our efforts to organize an effective resistance against the aliens. However, Modules require <color=#FFFFFFFF><sprite name=hab_power></color> <h>Power</h> to operate. We are going to need a power generation solution for our station.
 
+TIObjectiveTemplate.solution.TutorialBuildStationPower.ResistCouncil=Navigate to the "Habs" window then select our station. Click the "Manage" button to enter the "Hab Manager" window. Right-click or drag and drop a Solar Collector Module into one of the station's four Module slots.
 
-TIObjectiveTemplate.displayName.TutorialAssignDefendInterests.ResistCouncil=<y701>Assign a Councilor to a Defend Interests Mission
-TIObjectiveTemplate.solution.TutorialAssignDefendInterests.ResistCouncil=<z701>Carry out the Defend Interests Mission in Nations with Control Points our faction owns to protect them from enemy Councilor Missions. Hostile Missions are much less likely to succeed on defended Control Points.
+TIObjectiveTemplate.resolution.TutorialBuildStationPower.ResistCouncil=With the Solar Collector Module under construction, our station will soon have excess <color=#FFFFFFFF><sprite name=hab_power></color> <h>Power</h> to use for other Modules. Multiple Modules including the core Module can be under construction at once.<br/><br/>Solar Collector Modules work more efficiently the closer they are to the Sun. We will have to find other means of <color=#FFFFFFFF><sprite name=hab_power></color> <h>Power</h> generation if our Habs are to operate effectively in the outer reaches of the Solar System. 
 
-TIObjectiveTemplate.description.TutorialAssignDefendInterests.ResistCouncil=<v701>The <h>Defend Interests</h> Mission is a useful defensive tool that makes <h>Crackdown</h>, <h>Purge</h>, and <h>Coup</h> Missions much more difficult to successfully complete for enemy Councilors. When carried out the Defend Interest Mission provides protections that apply to all Control Points our faction owns in the target Nation. It is highly recommended to defend our most valuable Nations.<br><br><h>Be aware that its protections will expire and must be renewed periodically.</h> The duration of the protection decreases with the number of Control Points to be defended.
+TIObjectiveTemplate.displayName.TutorialBuildStationLab.ResistCouncil=Build a Lab
 
-TIObjectiveTemplate.resolution.TutorialAssignDefendInterests.ResistCouncil=<r701>Continue to assign and carry out <h>Defend Interests</h> Missions to protect our valuable Nations against enemy Missions as needed. Defend Interests protections expire but can be reapplied to Control Points our faction owns.
+TIObjectiveTemplate.description.TutorialBuildStationLab.ResistCouncil=Now that our Platform will have <color=#FFFFFFFF><sprite name=hab_power></color> <h>Power</h>, we can build a <h>Lab Module</h> that will come online as soon as it is complete. Labs provide a diverse set of bonuses with additional benefits when they are built in an Earth <h>interface orbit</h>, a term describing the orbits around a planet that are low enough for assets to interact with the surface. Choose from our available Lab Modules or complete research of a new Lab Module project, then build a Lab at our Platform.
 
+TIObjectiveTemplate.solution.TutorialBuildStationLab.ResistCouncil=Return to the "Hab Manager" window for our station. Right-click or drag and drop a Lab Module into one of the station's Module slots to begin its construction.
 
+TIObjectiveTemplate.resolution.TutorialBuildStationLab.ResistCouncil=Once our Lab is built, the station will lend support to our efforts in resisting the aliens on Earth and beyond. In the future, we will want to expand our stations' capabilities to support more than four Modules. To do so, we will need to research the <h>Orbitals</h> tech and then complete the <h>Orbital Core</h> project.
 
-TIObjectiveTemplate.displayName.TutorialAssignIncreaseUnrest.ResistCouncil=<y1301>Assign a Councilor to Increase Unrest Mission
+TIObjectiveTemplate.displayName.TutorialResearchMissionToMoonMars.ResistCouncil=Research the Mission to the Moon or Mission to Mars tech
+TIObjectiveTemplate.solution.TutorialResearchMissionToMoonMars.ResistCouncil=Research the "Mission to ..." techs to unlock the operation to launch probes to the respective space bodies.
 
-TIObjectiveTemplate.solution.TutorialAssignIncreaseUnrest.ResistCouncil=<z1301>Assign and carry out Increase Unrest Missions to cause turmoil and weaken the economy in the targeted Nation, making revolutions and secessions more likely to occur and <h>Coup</h> Missions more likely to succeed.
+TIObjectiveTemplate.displayName.TutorialProbeSpaceBody.ResistCouncil=Launch a Probe
 
-TIObjectiveTemplate.displayName.TutorialAssignCoup.ResistCouncil=<y1302>Assign a Councilor to a Coup Mission
+TIObjectiveTemplate.description.TutorialProbeSpaceBody.ResistCouncil=For the moment, our material support for our space assets is being provided by our launch facilities on Earth. <h>This strains our <color=#FFFFFFFF><sprite name=boost></color> Boost income.</h> We will have to expand our operations across the Solar System to alleviate this and build a strong interplanetary economy.<br/><br/>The first step to constructing <h>bases</h> on other planets, moons, and asteroids is to launch <h>probes</h> to assess various <h>sites</h> on those space bodies. Probes may be launched from Earth or from Habs with a <h>Space Dock</h> or a larger <color=#FFFFFFFF><sprite name=construction_shipyard></color> <h>Shipyard</h> Module.<br/><br/>Once a probe arrives at a space body, it will be prospected and each site's <h>mining potential</h> will become visible.
 
-TIObjectiveTemplate.solution.TutorialAssignCoup.ResistCouncil=<z1302>Assign and carry out a Coup Mission in a Nation with heightened <color=#FFFFFFFF><sprite name=nation_unrest></color> Unrest. A successful Coup Mission will overthrow the government and reset all Control Points in the Nation.
+TIObjectiveTemplate.solution.TutorialProbeSpaceBody.ResistCouncil=Select a space body other than Earth that has been unlocked by a "Mission To" tech, inspect its estimated resource production, and click the "Launch Prospector Probe" icon from the operation interface. Click the "Launch Prospector Probe" operation button to confirm the probe launch.
 
-TIObjectiveTemplate.description.TutorialAssignCoup.ResistCouncil=<v1301><h>Coups</h> are used to <h>reset all Control Points</h> in the Nation. Coups are more likely to succeed in Nations with high <color=#FFFFFFFF><sprite name=nation_unrest></color> <h>Unrest</h>. Carry out multiple <h>Increase Unrest</h> Missions prior to attempting the Coup Mission for a better chance at success.
+TIObjectiveTemplate.resolution.TutorialProbeSpaceBody.ResistCouncil=Probes take some time to reach their destination and complete its survey. Once the survey is complete, and we have completed the appropriate research, we can found a <h>base</h> on the space body.
 
-TIObjectiveTemplate.resolution.TutorialAssignCoup.ResistCouncil=<r1301>Complete <h>Increase Unrest</h> Missions to weaken an enemy Nation's stability, followed by a Coup Mission to overthrow the government and reset the Nation's Control Points. It may take multiple Missions for a Nation to become destabilized enough for a Coup to be successful.<br><br>Be on the lookout for sudden spikes of <color=#FFFFFFFF><sprite name=nation_unrest></color> in Nations we control as it may be caused by enemy Councilors attempting to undermine our influence.
+TIObjectiveTemplate.displayName.TutorialResearchMissionToSpace.ResistCouncil=Research the Mission to Space tech
+TIObjectiveTemplate.solution.TutorialResearchMissionToSpace.ResistCouncil=Research the "Mission to Space" tech. This is a requirement for researching the "Outpost Habs" tech.
 
+TIObjectiveTemplate.displayName.TutorialResearchOutpostHabs.ResistCouncil=Research the Outpost Habs tech
+TIObjectiveTemplate.solution.TutorialResearchOutpostHabs.ResistCouncil=Research the "Outpost Habs" tech. This is a requirement for both the "Mission to the Moon" tech and the "Mission to Mars" tech, which will allow us to launch probes to those space bodies.
 
+TIObjectiveTemplate.displayName.TutorialResearchOutpostCore.ResistCouncil=Research the Outpost Core project
+TIObjectiveTemplate.solution.TutorialResearchOutpostCore.ResistCouncil=Research the "Outpost Core" project, which will allow us to found Outposts on other space bodies.
 
-TIObjectiveTemplate.displayName.TutorialFoundStation.ResistCouncil=<y1001>Found a Station
+TIObjectiveTemplate.displayName.TutorialFoundBase.ResistCouncil=Found a Base
 
-TIObjectiveTemplate.description.TutorialFoundStation.ResistCouncil=<v1001>Small space stations or <h>Platforms</h> are humanity's foothold in outer space and the critical first step for industrializing space and building a war fleet. Stations are composed of <h>Modules</h> that grant bonuses to research and other resources and allow construction of ships and additional Modules. We should stockpile <color=#FFFFFFFF><sprite name=boost></color> <h>Boost</h></color> and a few points of <color=#FFFFFFFF><sprite name=mission_control></color> <h>Mission Control</h> in preparation for founding a Platform to orbit Earth.
+TIObjectiveTemplate.solution.TutorialFoundBase.ResistCouncil=Accumulate sufficient resources to found an Outpost, then select a space body we have surveyed via probe. Click on the Found Outpost icon from the operations interface. Select a hab site for the base and then click the "Found Outpost" operation button to confirm and begin construction of the Outpost's core Module.
 
-TIObjectiveTemplate.solution.TutorialFoundStation.ResistCouncil=<z1001>Save sufficient <color=#FFFFFFFF><sprite name=currency></color> Money, <color=#FFFFFFFF><sprite name=boost></color> Boost, and <color=#FFFFFFFF><sprite name=mission_control></color> Mission Control to afford to launch a Platform core Module. Zoom out on Earth to a distance that the nation boundaries are no longer visible and click on our planet. Then click on the Found Platform icon from the operation interface at the bottom center of the view. Select an available orbit around Earth in which the station will be located, and then click the "Found Platform" operation button to confirm and begin construction of the Platform's core module.<br/><br/>This may take several months to accomplish.
+TIObjectiveTemplate.description.TutorialFoundBase.ResistCouncil=Small surface <h>bases</h>, or <h>Outposts</h>, consist of Modules that provide a variety of benefits just like those found in <h>stations</h>. However, they can also host a <h>Mining Complex</h> Module which can provide <h>Space Resources</h> to other Habs via an electromagnetic catapult. Having a network of mines outside Earth's gravity well will reduce our reliance on our scarce supply of <color=#FFFFFFFF><sprite name=boost></color> Boost and help us grow our space industry rapidly.
 
-TIObjectiveTemplate.resolution.TutorialFoundStation.ResistCouncil=<r1001>As more of the Solar System is explored and industrialized, stations and their surface equivalent <h>bases</h> will become more and more critical to our efforts.<br><br>When we are ready consider developing larger stations by researching the <h>Orbitals</h> tech. We will also need to complete the <h>"Mission to ..."</h> global techs to build stations further away from Earth.
+TIObjectiveTemplate.resolution.TutorialFoundBase.ResistCouncil=Once we have founded a base on a space body, support the global research of the <h>Advanced Electromagnetism</h>, <h>Mass Drivers</h>, and <h>Space Mining and Refining</h> techs in order to build a <h>Mining Complex</h> module at the site.
 
+TIObjectiveTemplate.displayName.TutorialResearchSpaceMining.ResistCouncil=Research the Space Mining and Refining tech
+TIObjectiveTemplate.solution.TutorialResearchSpaceMining.ResistCouncil=Research the "Space Mining and Refining" tech, which requires both the "Advanced Electromagnetism" and "Mass Drivers" techs to be researched. When completed, it will soon unlock the "Outpost Mining Complex" project, which is needed to build Mining Complex modules at bases.
 
+TIObjectiveTemplate.displayName.TutorialResearchOutpostMining.ResistCouncil=Research the Outpost Mining Complex project
+TIObjectiveTemplate.solution.TutorialResearchOutpostMining.ResistCouncil=Research the "Outpost Mining Complex" project, which will allow us to build a mine at our Outposts.
 
-TIObjectiveTemplate.displayName.TutorialBuildStationPower.ResistCouncil=<y1101>Build a Solar Collector
+TIObjectiveTemplate.displayName.TutorialBuildMine.ResistCouncil=Build a Mine at a Base
+TIObjectiveTemplate.solution.TutorialBuildMine.ResistCouncil=Accumulate sufficient resources to build a Mining Complex Module, then navigate to the "Hab Manager" window for one of our bases. Right-click or drag and drop the Outpost Mining Complex module into the top-center slot of the base to begin construction of the mine.
 
-TIObjectiveTemplate.description.TutorialBuildStationPower.ResistCouncil=<v1101>Our new station can support four Modules. Getting some lab Modules up and running will help support our efforts to organize an effective resistance to the aliens. However, Modules require <color=#FFFFFFFF><sprite name=hab_power></color> <h>Power</h> to operate. We are going to need a power generation solution for our station.
+TIObjectiveTemplate.description.TutorialBuildMine.ResistCouncil=Mines are essential for gathering <h>Space Resources</h>, which are vital for the construction and support of Habs and ships to combat the alien threat. Gathering Space Resources from other space bodies also means we won't have to use <color=#FFFFFFFF><sprite name=boost></color> <h>Boost</h> to launch expensive rockets from Earth to expand our reach in the Solar System.
 
-TIObjectiveTemplate.solution.TutorialBuildStationPower.ResistCouncil=<z1101>Navigate to the "Habs" window then select our station. Click the "Manage" button to enter the "Hab Manager" window. Right-click or drag and drop a Solar Collector into one of the station's four Module slots.
+TIObjectiveTemplate.resolution.TutorialBuildMine.ResistCouncil=<h>Mining Complexes</h> are our primary means of acquiring <h>Space Resources</h> which are used for developing and supporting our Habs and will also be used to build our fleets. Continue prospecting space bodies and establishing mines throughout the Solar System.
 
-TIObjectiveTemplate.resolution.TutorialBuildStationPower.ResistCouncil=<r1101>With the Solar Collector under construction, our station will soon have excess <color=#FFFFFFFF><sprite name=hab_power></color> <h>Power</h> to use for other Modules. Multiple Modules including the core Module can be under construction at once.<br><br>Solar Collectors work more efficiently the closer they are to the Sun. We will have to find other means of <color=#FFFFFFFF><sprite name=hab_power></color> <h>Power</h> generation if our Habs are to operate effectively in the outer reaches of the Solar System. 
-
-
-
-TIObjectiveTemplate.displayName.TutorialBuildStationLab.ResistCouncil=<y1401>Build a Lab
-
-TIObjectiveTemplate.description.TutorialBuildStationLab.ResistCouncil=<v1401>Now that our Platform will have <color=#FFFFFFFF><sprite name=hab_power></color> <h>Power</h>, we can build a <h>lab Module</h> that will come online as soon as its complete. Labs provide a diverse set of bonuses with additional benefits when they are built in an <h>Earth interface orbit</h>. Choose from our available lab Modules or complete research of a new lab Module project. Then build a lab at our Platform.
-
-TIObjectiveTemplate.solution.TutorialBuildStationLab.ResistCouncil=<z1401>Return to the Hab Manager for our station. Right-click or drag and drop a lab Module into one of the station's Module slots to begin its construction.
-
-TIObjectiveTemplate.resolution.TutorialBuildStationLab.ResistCouncil=<r1401>Once our lab is built the station will lend support to our efforts to resist the aliens on Earth and beyond. In the future we will need to expand our stations capabilities to support more than four Modules. To do so we will need to research the <h>Orbitals</h> tech and then complete the "Orbital Core" project.
-
-
-
-TIObjectiveTemplate.displayName.TutorialResearchMissionToMoonMars.ResistCouncil=<y1501>Research the Mission to the Moon or Mission to Mars tech
-TIObjectiveTemplate.solution.TutorialResearchMissionToMoonMars.ResistCouncil=<z1501>Research the "Mission to ..." techs to unlock the operation to launch probes to the respective space bodies.
-
-TIObjectiveTemplate.displayName.TutorialProbeSpaceBody.ResistCouncil=<y1502>Launch a Probe
-
-TIObjectiveTemplate.description.TutorialProbeSpaceBody.ResistCouncil=<v1501>For the moment our material needs for our space assets are being provided by our launch facilities on Earth. <h>This strains our <color=#FFFFFFFF><sprite name=boost></color> Boost income.</h> We will have to expand our operations across the Solar System to alleviate this and build a strong interplanetary economy.<br/><br/>The first step to constructing bases on other planets, moons, and asteroids is to launch <h>probes</h> to assess various <h>sites</h> on those bodies. Probes may be launched from Earth or from Habs with a Space Dock or a larger <color=#FFFFFFFF><sprite name=construction_shipyard></color> Shipyard Module.<br/><br/>Once a probe arrives at a space body, it will be be prospected and each site's <h>mining potential</h> will become visible.
-
-TIObjectiveTemplate.solution.TutorialProbeSpaceBody.ResistCouncil=<z1502>Select a space body other than Earth within range in the Solar System, then click the "Launch Prospector Probe" icon from the operation interface. Click the "Launch Prospector Probe" operation button to confirm the probe launch.
-
-TIObjectiveTemplate.resolution.TutorialProbeSpaceBody.ResistCouncil=<r1501>Probes take some time to reach their destination. Once a probe's prospecting survey is complete, and we have completed the appropriate research, we can found a <h>base</h> on the space body.
-
-
-
-TIObjectiveTemplate.displayName.TutorialResearchMissionToSpace.ResistCouncil=<y1601>Research the Mission to Space tech
-TIObjectiveTemplate.solution.TutorialResearchMissionToSpace.ResistCouncil=<z1601>Research the Mission to Space tech. This is a requirement for the Outpost Habs tech that is needed to found a base.
-
-TIObjectiveTemplate.displayName.TutorialResearchOutpostHabs.ResistCouncil=<y1602>Research the Outpost Habs tech
-TIObjectiveTemplate.solution.TutorialResearchOutpostHabs.ResistCouncil=<y1602>Research the Outpost Habs tech. This is a requirement for the Outpost Core project that is needed to found a base.
-
-TIObjectiveTemplate.displayName.TutorialResearchOutpostCore.ResistCouncil=<y1603>Research the Outpost Core project
-TIObjectiveTemplate.solution.TutorialResearchOutpostCore.ResistCouncil=<y1603>Research the Outpost Core Project, which will allow us to found Outposts on other space bodies.
-
-TIObjectiveTemplate.displayName.TutorialFoundBase.ResistCouncil=<y1604>Found a Base
-
-TIObjectiveTemplate.solution.TutorialFoundBase.ResistCouncil=<z1604>Accumulate sufficient resources to found a Outpost, then click on a space body you have previously surveyed via probe. Click on the Found Outpost icon from the operations interface. Select a site for the base and then click the "Found Outpost" operation button to confirm and begin construction of the Outpost's core Module.
-
-TIObjectiveTemplate.description.TutorialFoundBase.ResistCouncil=<v1601>Like stations, <h>bases</h>, the first of which are called <h>Outposts</h> are built out of Modules that provide a variety of benefits, but they can also host a <h>mining complex</h> which can provide <h>Space Resources</h> to other Habs via an electromagnetic catapult. Having a network of mines outside Earth's gravity well will reduce our reliance on the scarce <color=#FFFFFFFF><sprite name=boost></color> Boost resource and help us grow our space industry rapidly.
-
-TIObjectiveTemplate.resolution.TutorialFoundBase.ResistCouncil=<r1601>Once we have founded a base on a space body, support the global development of the <h>Advanced Electromagnetism</h>, <h>Mass Drivers</h>, and <h>Space Mining and Refining</h> techs in order to build a mining complex at the site.
-
-
-
-TIObjectiveTemplate.displayName.TutorialResearchSpaceMining.ResistCouncil=<y1701>Research the Space Mining and Refining tech
-TIObjectiveTemplate.solution.TutorialResearchSpaceMining.ResistCouncil=<z1701>Research the Space Mining and Refining tech which requires both the Advanced Electromagnetism and Mass Drivers techs to be researched. It also unlocks the Outpost Mining Complex project which is needed in order to build a mining complex Modules at bases.
-
-TIObjectiveTemplate.displayName.TutorialResearchOutpostMining.ResistCouncil=<y1702>Research the Outpost Mining Complex project
-TIObjectiveTemplate.solution.TutorialResearchOutpostMining.ResistCouncil=<z1702> Research the Outpost Mining Complex Project, which will allow us to build mining complexes at Outposts.
-
-TIObjectiveTemplate.displayName.TutorialBuildMine.ResistCouncil=<y1703>Build a Mine at One of Our Bases
-TIObjectiveTemplate.solution.TutorialBuildMine.ResistCouncil=<z1703>Accumulate sufficient resources to build a mining complex Module, then navigate to the "Hab Manager" window for one of our bases. Right-click or drag and drop the mining complex module into the top-center slot of the Hab to begin construction of the mine.
-
-TIObjectiveTemplate.description.TutorialBuildMine.ResistCouncil=<v1704>Mines are essential for gathering <h>Space Resources</h>.//EXTEND
-
-TIObjectiveTemplate.resolution.TutorialBuildMine.ResistCouncil=<r1701>Mining complexes are our primary means of acquiring <h>Space Resources</h> which are used for developing and supporting our Habs and will also be used to build our fleets. Continue prospecting space bodies and establishing mines throughout the Solar System.
-
-
-TIObjectiveTemplate.displayName.TutorialBuildHab.ResistCouncil=Build a Space Station //defunct
-TIObjectiveTemplate.solution.TutorialBuildHab.ResistCouncil=Build a Space Station, which is the first step to constructing ships. //defunct
+TIObjectiveTemplate.displayName.TutorialBuildHab.ResistCouncil=Build a Space Station //deprecated
+TIObjectiveTemplate.solution.TutorialBuildHab.ResistCouncil=Build a Space Station, which is the first step to constructing ships. //deprecated
 
 TIObjectiveTemplate.displayName.TutorialResearchOrbitalShipbuilding.ResistCouncil=Research the Orbital Shipbuilding tech
-TIObjectiveTemplate.solution.TutorialResearchOrbitalShipbuilding.ResistCouncil=Research the Orbital Shipbuilding tech. This is a requirement for the Space Dock project which is needed to build ships.
+TIObjectiveTemplate.solution.TutorialResearchOrbitalShipbuilding.ResistCouncil=Research the "Orbital Shipbuilding" tech. This is a requirement for the "Space Dock" project, which is needed to construct space ships for our faction.
 
 TIObjectiveTemplate.displayName.TutorialResearchSpaceDock.ResistCouncil=Research the Space Dock project
-TIObjectiveTemplate.solution.TutorialResearchSpaceDock.ResistCouncil=Research the Space Dock Project which will allow us to construct Space Docks, the first type of <color=#FFFFFFFF><sprite name=construction_shipyard></color> Shipyard Module, at both stations and bases.
+TIObjectiveTemplate.solution.TutorialResearchSpaceDock.ResistCouncil=Research the "Space Dock" project which will allow us to construct Space Docks, the first tier of <color=#FFFFFFFF><sprite name=construction_shipyard></color> Shipyard modules, at both stations and bases.
 
 TIObjectiveTemplate.displayName.TutorialResearchInterplanetaryWarships.ResistCouncil=Research the Interplanetary Warships project
-TIObjectiveTemplate.solution.TutorialResearchInterplanetaryWarships.ResistCouncil=Research the Interplanetary Warships project which will allow us to design and construct gunship, escort, and corvette class ships.
+TIObjectiveTemplate.solution.TutorialResearchInterplanetaryWarships.ResistCouncil=Research the "Interplanetary Warships" project, which will allow us to design and construct Gunship, Escort, and Corvette class ship hulls.
 
 TIObjectiveTemplate.displayName.TutorialSpaceDock.ResistCouncil=Construct a Space Dock Module
-TIObjectiveTemplate.solution.TutorialSpaceDock.ResistCouncil=Construct a Space Dock at one of our stations. Habs require a <color=#FFFFFFFF><sprite name=construction_shipyard></color> Shipyard to construct ships. Ships constructed at a base on the surface of a space body will have additional <h>acceleration</h> and <h>Delta-V</h> requirements in order to reach orbit.
+TIObjectiveTemplate.solution.TutorialSpaceDock.ResistCouncil=Construct a Space Dock at one of our stations. Habs require a <color=#FFFFFFFF><sprite name=construction_shipyard></color> Shipyard module to construct ships. Shipyards may also be built at surface bases, but they will have minimum acceleration and Delta-V requirements so they are able to launch to orbit.
 
 TIObjectiveTemplate.displayName.TutorialDesignShip.ResistCouncil=Design a Ship Template
-TIObjectiveTemplate.solution.TutorialDesignShip.ResistCouncil=Navigate to the Ship Designer tab in the "Fleets and Ship Construction" window. Follow the Design tutorial and complete a class design to your liking. Click the "Save Design" button to add the design to our faction's ship classes and so it can be used to construct a ship.
+TIObjectiveTemplate.solution.TutorialDesignShip.ResistCouncil=Navigate to the Ship Designer tab in the "Fleets and Ship Construction" window. Complete the "Design" interface tutorial and customize a ship class design to your liking. Click the "Save Design" button to add the design to our faction's ship classes so it can be used to construct ships.
 
-TIObjectiveTemplate.displayName.TutorialBuildShip.ResistCouncil=<y1608>Build a Ship
-TIObjectiveTemplate.solution.TutorialBuildShip.ResistCouncil=<z1608>Navigate to the Ship Construction tab in the "Fleets and Ship Construction" window. Select a ship class from the list of available designs. Then click on the "Build" button on one of the available <color=#FFFFFFFF><sprite name=construction_shipyard></color> Shipyards to add the ship to its construction queue.
+TIObjectiveTemplate.displayName.TutorialBuildShip.ResistCouncil=Build a Ship
+TIObjectiveTemplate.solution.TutorialBuildShip.ResistCouncil=Navigate to the Ship Construction tab in the "Fleets and Ship Construction" window. Select a ship class from the list of available designs, then click the "Build" button on one of the available <color=#FFFFFFFF><sprite name=construction_shipyard></color> Shipyards to add the ship to its construction queue.
 
-TIObjectiveTemplate.description.TutorialBuildShip.ResistCouncil=<v1601>The fight against the aliens can't be won on Earth alone. We need to develop the technologies to fight them in space as well. Constructing warships at our Habs is an expensive and challenging task and we will need significant space-based industry to support it.<br/><br/><h>This may take several years to accomplish.</h>
+TIObjectiveTemplate.description.TutorialBuildShip.ResistCouncil=The fight against the aliens can't be won on Earth alone. We need to develop technologies to fight them in space as well. Constructing warships at our Habs is an expensive and challenging task and we will need significant space-based industry to support it.<br/><br/><h>This may take several years to accomplish.</h>
 
-TIObjectiveTemplate.resolution.TutorialBuildShip.ResistCouncil=<r1601>When a ship is constructed, it will be automatically given a <h>name</h>, assigned to a new <h>fleet</h>, and start out <h>docked</h> at the Hab where it was constructed. Fleets can occupy a orbit or be docked at Habs and can move via the <h>Transfer</h> operation to a different orbit, station, or to intercept another fleet. Make sure our fleets have sufficient <h>Delta-V</h> to reach their target and get to a Hab with a <color=#FFFFFFFF><sprite name=construction_shipyard></color> Shipyard or <color=#FFFFFFFF><sprite name=supply></color> Supply Depot Module in order to resupply.
-
-
+TIObjectiveTemplate.resolution.TutorialBuildShip.ResistCouncil=When a ship is constructed, it will be automatically given a <h>name</h>, assigned to a new <h>fleet</h>, and start out <h>docked</h> at the Hab where it was constructed. Fleets consist of one or more ships and can occupy an orbit or be docked at Habs. They move to a different orbit or Hab and intercept other fleets via the <h>Transfer</h> operation. Make sure our fleets have sufficient <h>Delta-V</h> to reach their target and get to a Hab with a <color=#FFFFFFFF><sprite name=construction_shipyard></color> Shipyard or <color=#FFFFFFFF><sprite name=supply></color> Supply Depot module in order to resupply.
 
 TIObjectiveTemplate.displayName.HumanGeneralEarth=Control Earth's Nations
-TIObjectiveTemplate.description.HumanGeneralEarth=Amid the uncertainty about the arrival of the aliens, we have an opportunity to establish ourselves as an important power on the global stage. We must connect with like-minded officials in government and industry and begin quietly marshaling Earth's resources to address whatever plans the aliens may have. We must become the power behind the throne in many of Earth's nations to build an international alliance that will advance our objectives.<br/><br/>To that end, our first priority should be to send councilors to gain Control Points in Nations with strong research and space programs, economies, militaries as well as initiate public campaigns where necessary to sway the public to our cause.<br/><br/>Much of Earth's economy is wasted on "Spoils" — people enriching themselves at others' expense; with sufficient control, we can reorient those nations to serve more productive ends.<br/><br/>We are aware of other transnational groups like ours forming, and it may become necessary to oppose them directly if they turn too many Nations to their ideology.
+TIObjectiveTemplate.description.HumanGeneralEarth=Amid the uncertainty about the arrival of the aliens, we have an opportunity to establish ourselves as an important power on the global stage. We must connect with like-minded officials in government and industry and begin quietly marshaling Earth's resources to address whatever plans the aliens may have. We must become the power behind the throne in many of Earth's nations to build an international alliance that will advance our objectives.<br/><br/>To that end, our first priority should be to send councilors to gain Control Points in nations with strong research and space programs, economies, militaries as well as initiate public campaigns where necessary to sway the public to our cause.<br/><br/>Much of Earth's economy is wasted on "Spoils" — people enriching themselves at others' expense; with sufficient control, we can reorient those nations to serve more productive ends.<br/><br/>We are aware of other transnational groups like ours forming, and it may become necessary to oppose them directly if they turn too many nations to their ideology.
 TIObjectiveTemplate.solution.HumanGeneralEarth=Have our councilors conduct Control Nation, Purge, Coup and Unrest missions to gain Control Points in Earth's nations. If necessary, employ armies to invade enemy nations and impose regimes allied to our cause. Set the priorities of those nations to develop space and research programs, improve stability and economic output, and to field defenses against our rivals. 
 
 TIObjectiveTemplate.displayName.HumanGeneralSpace=Industrialize Space
@@ -356,12 +319,12 @@ TIObjectiveTemplate.description.HumanGeneralSpace=The alien arrival via a small 
 TIObjectiveTemplate.solution.HumanGeneralSpace=Stockpile the boost and mission control resources and use them to construct and manage industrial and research habs in locations our current technology allows.
 
 TIObjectiveTemplate.displayName.HumanGeneralCouncil=Build the Council
-TIObjectiveTemplate.description.HumanGeneralCouncil=Councilors will form the backbone of our efforts on Earth. We must recruit a diverse, influential and loyal group of supporters to accomplish Missions around the world. Councilors with high persuasion and the Control Nation mission will be particularly useful early in our campaign.
+TIObjectiveTemplate.description.HumanGeneralCouncil=Councilors will form the backbone of our efforts on Earth. We must recruit a diverse, influential and loyal group of supporters to accomplish missions around the world. Councilors with high persuasion and the Control Nation mission will be particularly useful early in our campaign.
 TIObjectiveTemplate.solution.HumanGeneralCouncil=Spend influence to recruit councilors with attributes and missions that best advance our cause. Acquire orgs that improve their capabilities.
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.ResistCouncil=Investigate Alien Crash
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.ResistCouncil=Our first knowledge of the alien arrival came when its spacecraft aerobraked in our upper atmosphere before crashing down in a remote territory and apparently self-destructing. We should send a councilor to the site to learn what we can.
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.ResistCouncil=Have a councilor conduct the Investigate Alien Activity Mission at the crash site.
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.ResistCouncil=Have a councilor conduct the Investigate Alien Activity mission at the crash site.
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.ResistCouncil=Despite heavy security, we were able to obtain some surveillance records of the crash site, as well as a small quantity of debris. We should have a project ready for research shortly.
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.ResistCouncil=We have found something, Commander.
 
@@ -373,7 +336,7 @@ TIObjectiveTemplate.quote.ResearchTheirSignatures.ResistCouncil=Commander, we ap
 
 TIObjectiveTemplate.displayName.InvestigateAlienAbductions.ResistCouncil=Investigate Alien Abductions
 TIObjectiveTemplate.description.InvestigateAlienAbductions.ResistCouncil=Reports are continuing to surface of missing animals and people in the regions near the alien crash site. Using the Surveil Location mission in those regions will help us detect those events. When we confirm such a report, we should investigate it for any signs of alien activity. 
-TIObjectiveTemplate.solution.InvestigateAlienAbductions.ResistCouncil=Conduct Surveil Location Missions in regions near any alien crash sites. If abductions are detected, send a councilor on an Investigate Alien Activity Mission to that location.
+TIObjectiveTemplate.solution.InvestigateAlienAbductions.ResistCouncil=Conduct Surveil Location missions in regions near any alien crash sites. If abductions are detected, send a councilor on an Investigate Alien Activity mission to that location.
 TIObjectiveTemplate.resolution.InvestigateAlienAbductions.ResistCouncil=Our councilor has investigated some of these reported abductions, interviewing residents and local authorities. The local government continues to deny that anything has happened, and in fact has done its best to actively hinder us. Though we have no proof as yet, we suspect that other organizations are pulling strings to block our investigations.<br/><br/>Despite the obstacles, our councilor has confirmed that a small but statistically significant number of people and animals have gone missing in the area since the alien crash-landing. This is disturbing news – many among our faction had clung to the hope that despite their secrecy, the intentions of the aliens towards our species might be benevolent, or at least neutral. These apparent abductions leave little chance of that. But what is their purpose?
 TIObjectiveTemplate.quote.InvestigateAlienAbductions.ResistCouncil=The alien is taking people, Commander. We need to learn why.
 
@@ -511,7 +474,7 @@ TIObjectiveTemplate.quote.ResistVictory.ResistCouncil=We've done it, Commander. 
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.DestroyCouncil=Investigate Alien Crash
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.DestroyCouncil=An alien spacecraft has been detected in our upper atmosphere. It has crashed in a remote location and – apparently – self-destructed. Send a councilor to the crash site to evaluate the threat.
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.DestroyCouncil=Have a councilor conduct the Investigate Alien Activity Mission at the crash site.
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.DestroyCouncil=Have a councilor conduct the Investigate Alien Activity mission at the crash site.
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.DestroyCouncil=The site was heavily guarded by local security forces. This raises the worrying possibility that the locals may already be cooperating with the aliens. Was their crash in this particular location an accident, or were they attempting to meet with human collaborators?<br/><br/>In any case, we've managed to get hold of some samples from the crash site. We should begin research immediately.
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.DestroyCouncil=There's no evidence of a hoax, Colonel. The world suddenly seems very dangerous.
 
@@ -667,7 +630,7 @@ TIObjectiveTemplate.quote.DestroyVictory.DestroyCouncil=A glorious victory, Colo
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.EscapeCouncil=Investigate Alien Crash
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.EscapeCouncil=First contact came when an alien spacecraft aerobraked in our upper atmosphere before crashing down in a remote territory and apparently self-destructing. The remains of that spacecraft could potentially advance human spaceflight capabilities by centuries. We should send a councilor to the site immediately.
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.EscapeCouncil=Have a councilor conduct the Investigate Alien Activity Mission at the crash site.
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.EscapeCouncil=Have a councilor conduct the Investigate Alien Activity mission at the crash site.
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.EscapeCouncil=Despite heavy security, we have been able to gather some debris from the crash site. Our scientists are eager to begin research.
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.EscapeCouncil=An amazing turn of events, Director. Let us hope they have come in peace.
 
@@ -822,8 +785,8 @@ TIObjectiveTemplate.resolution.EscapeVictory.EscapeCouncil=It is done.<br/><br/>
 TIObjectiveTemplate.quote.EscapeVictory.EscapeCouncil=Congratulations, Director. You have led humanity to its greatest adventure, an achievement that will be remembered for all of human history.
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.ExploitCouncil=Investigate Alien Crash
-TIObjectiveTemplate.description.InvestigateAlienCrashdown.ExploitCouncil=An unknown spacecraft has crashed in a remote region of our planet. Though not fully confirmed, all evidence we have thus far been able to obtain suggests that this spacecraft is of extraterrestrial origin. We should send a Councilor to learn what we can.
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.ExploitCouncil=Have a councilor conduct the Investigate Alien Activity Mission at the crash site.
+TIObjectiveTemplate.description.InvestigateAlienCrashdown.ExploitCouncil=An unknown spacecraft has crashed in a remote region of our planet. Though not fully confirmed, all evidence we have thus far been able to obtain suggests that this spacecraft is of extraterrestrial origin. We should send a councilor to learn what we can.
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.ExploitCouncil=Have a councilor conduct the Investigate Alien Activity mission at the crash site.
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.ExploitCouncil=We have successfully gathered some samples from the crash site and are ready to investigate further. Numerous other groups are attempting to take control of the site in the meantime. Heavy competition seems likely.
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.ExploitCouncil=We're out in front of this for now.
 
@@ -979,7 +942,7 @@ TIObjectiveTemplate.quote.ExploitVictory.ExploitCouncil=Welcome to a new, bright
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.CooperateCouncil=Investigate Alien Crash
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.CooperateCouncil=First contact ... our artists and scientists have dreamed of it for so long. What will we find, and what will they see in us?
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.CooperateCouncil=Have a Councilor conduct the Investigate Alien Activity Mission at the crash site.
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.CooperateCouncil=Have a councilor conduct the Investigate Alien Activity mission at the crash site.
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.CooperateCouncil=We have gathered some fragments of debris from the site for analysis, but there is no sign of the spacecraft's crew. Are they hiding? Did some other human organization seize them? Or do they have their own plans?
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.CooperateCouncil=Chancellor, we have completed our initial field investigation at the crash site.
 
@@ -1159,7 +1122,7 @@ TIObjectiveTemplate.quote.CooperateVictory.CooperateCouncil=Against all odds, we
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.AppeaseCouncil=Investigate Alien Crash
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.AppeaseCouncil=The alien spacecraft has crashed in a remote region of our planet, and from what we have learned, everyone is on their way there. Agents from many organizations are converging on the crash site. We must get there first and prevent anyone from starting a war.
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.AppeaseCouncil=Have a councilor conduct the Investigate Alien Activity Mission at the crash site.
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.AppeaseCouncil=Have a councilor conduct the Investigate Alien Activity mission at the crash site.
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.AppeaseCouncil=We arrived too late to contact the aliens, but thankfully, so did everyone else. From what we can tell, the alien crew departed the crashed ship and disappeared into the surrounding wilderness before any of the soldiers hunting them could find them. All in all, it is very good news.<br/><br/>In the meantime, we must continue to build our numbers. Other factions are using the same old-fashioned discriminatory hiring practices. We will be different: more open, more inclusive, sensitive to the needs of the marginalized. Our faction will be something revolutionary, open to all.
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.AppeaseCouncil=The race to meet an alien is underway, Commissioner. We have had a good start.
 
@@ -1267,7 +1230,7 @@ TIObjectiveTemplate.quote.AppeaseVictory.AppeaseCouncil=It's over, Commissioner.
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.SubmitCouncil=Journey To Their Arrival!
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.SubmitCouncil=From the highest to the lowest, the arrival caught everyone by surprise. I was no exception. It was only after some time that I came to understand what I should have seen immediately. This was no accident.
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.SubmitCouncil=Have a councilor conduct the Investigate Alien Activity Mission at the crash site.
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.SubmitCouncil=Have a councilor conduct the Investigate Alien Activity mission at the crash site.
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.SubmitCouncil=Unfortunately, the emissaries were long gone by the time our councilor arrived. We must be cautious; others are active in the area and will certainly seek to track the emissaries for purposes of their own. We cannot afford to lead them to their goal.
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.SubmitCouncil=Superior, we did not locate the emissaries, but we collected a great deal of information at the crash site.
 
@@ -1291,7 +1254,7 @@ TIObjectiveTemplate.quote.ResearchTheirMethods.SubmitCouncil=Superior, it is upo
 
 TIObjectiveTemplate.displayName.InvestigateEnthrallMission.SubmitCouncil=Speak with the Chosen
 TIObjectiveTemplate.description.InvestigateEnthrallMission.SubmitCouncil=When a populace settles a new land, they work to change it, to mold it, using their technology and traditions. At the same time, however, the land, far more subtly, works to change its new owners. Sometimes the land bends to the colonists' will, but far more often what happens is a fusion, a symbiosis, where what evolves is something entirely new. The settlers are the masters of the land, yet they in turn are shaped by it.
-TIObjectiveTemplate.solution.InvestigateEnthrallMission.SubmitCouncil=Perform Surveil Location missions in areas with a suspected alien presence. Send councilors on Investigate Alien Activity Missions when you discover evidence of alien influence on the populace or leaders.
+TIObjectiveTemplate.solution.InvestigateEnthrallMission.SubmitCouncil=Perform Surveil Location missions in areas with a suspected alien presence. Send councilors on Investigate Alien Activity missions when you discover evidence of alien influence on the populace or leaders.
 TIObjectiveTemplate.resolution.InvestigateEnthrallMission.SubmitCouncil=We have, at last, been able to meet with some of the humans chosen by the emissaries. Contacting them has been difficult – many unfriendly eyes are upon them, and some have disappeared once again, perhaps for good. We have learned to be extremely cautious upon a first meeting, and only later, in a more secure location, to speak of more sensitive subjects.<br/><br/>The Chosen are of course careful not to give away their emissaries' secrets. They listen, but do not speak. Earning their trust, and convincing to place us in contact with the emissaries, will be a long and slow process. But hard as it is, it will be a mere dress rehearsal for the task that lies ahead.
 TIObjectiveTemplate.quote.InvestigateEnthrallMission.SubmitCouncil=Patience led us to the Chosen, Superior. Faith will guide us to the emissaries. 
 

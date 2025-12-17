@@ -8,9 +8,12 @@
 		"combatLayerSpeedSettings": [
 			0, 1, 3, 5, 10, 15
 			],
+		"dontStopBimonthlyMissions": false,
+		"useSiteNameWhenNamingBases": false,
+		"immediateNewsAlert": true,
+		"verboseStatDescriptions": true,		
 		"missionDifficultyModifier": 2,
 		"eventManagerQueueProcessTime": 0.4,
-		"immediateNewsAlert": true,
 		/* national investment variables */
         "nationalInvestmentArmyFactorHome": 0.5,
 		"nationalInvestmentArmyFactorAway": 1,

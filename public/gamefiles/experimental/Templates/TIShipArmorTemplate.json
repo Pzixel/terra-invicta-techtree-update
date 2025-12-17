@@ -15,7 +15,7 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 1
+         "value": 0.27
       },
       {
          "armorSpecialty": "BaryonicResistance",
@@ -44,11 +44,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 2.816
+         "value": 0.44
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.07
+         "value": 1.11
       },
       {
          "armorSpecialty": "ChippingResistance",
@@ -73,11 +73,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 5.146
+         "value": 0.72
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.72
+         "value": 4.61
       },
       {
          "armorSpecialty": "None",
@@ -102,11 +102,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 6.705
+         "value": 1
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 0.654
+         "value": 0.62
       },
       {
          "armorSpecialty": "KineticsResistance",
@@ -132,11 +132,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 7.178
+         "value": 1.11
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.75
+         "value": 5.21
       },
       {
          "armorSpecialty": "None",
@@ -149,9 +149,9 @@
    "dataName": "FoamedMetalArmor",
    "friendlyName": "Foamed Metal Armor",
    "weightedBuildMaterials": {
-      "volatiles": 0.3,
-      "metals": 0.5,
-      "nobleMetals": 0.2,
+      "volatiles": 0.15,
+      "metals": 0.7,
+      "nobleMetals": 0.15,
       "exotics": 0
    },
    "requiredProjectName": "Project_FoamedMetalArmor",
@@ -162,11 +162,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 8.758
+         "value": 1.62
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.821
+         "value": 7.45
       },
       {
          "armorSpecialty": "ChippingResistance",
@@ -192,11 +192,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 10.21
+         "value": 2.53
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.93
+         "value": 19.78
       },
       {
          "armorSpecialty": "None",
@@ -222,11 +222,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 11.627
+         "value": 4.82
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.955
+         "value": 31.02
       },
       {
          "armorSpecialty": "KineticsResistance",
@@ -241,8 +241,8 @@
    "weightedBuildMaterials": {
       "volatiles": 0.4,
       "metals": 0.42,
-      "nobleMetals": 0.16,
-      "exotics": 0.02
+      "nobleMetals": 0.17,
+      "exotics": 0.01
    },
    "requiredProjectName": "Project_ExoticArmor",
    "xRayHalfValue_cm": 5.2,
@@ -252,11 +252,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 9.495
+         "value": 2
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.72
+         "value": 4.62
       },
       {
          "armorSpecialty": "None",
@@ -271,8 +271,8 @@
    "weightedBuildMaterials": {
       "volatiles": 0.38,
       "metals": 0.45,
-      "nobleMetals": 0.16,
-      "exotics": 0.01
+      "nobleMetals": 0.165,
+      "exotics": 0.005
    },
    "requiredProjectName": "Project_HybridArmor",
    "xRayHalfValue_cm": 4.5,
@@ -282,11 +282,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 9.133
+         "value": 1.8
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.707
+         "value": 4.4
       },
       {
          "armorSpecialty": "LaserResistance",
@@ -312,11 +312,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 11.627
+         "value": 4.82
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.955
+         "value": 31.02
       },
       {
          "armorSpecialty": "KineticsResistance",
@@ -331,8 +331,8 @@
    "weightedBuildMaterials": {
       "volatiles": 0.4,
       "metals": 0.44,
-      "nobleMetals": 0.14,
-      "exotics": 0.02
+      "nobleMetals": 0.15,
+      "exotics": 0.01
    },
    "requiredProjectName": "Project_AlienMasterProject",
    "xRayHalfValue_cm": 5.2,
@@ -342,11 +342,11 @@
    "specialties": [
       {
          "armorSpecialty": "XRayResistance",
-         "value": 9.495
+         "value": 2
       },
       {
          "armorSpecialty": "BaryonicResistance",
-         "value": 1.72
+         "value": 4.62
       },
       {
          "armorSpecialty": "LaserResistance",

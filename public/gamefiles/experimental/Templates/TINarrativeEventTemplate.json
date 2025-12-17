@@ -150,7 +150,7 @@
                   "metals": 0,
                   "nobleMetals": 0,
                   "fissiles": 0,
-                  "antimatter": "0",
+                  "antimatter": 0,
                   "exotics": 0
                }
             },
@@ -683,7 +683,7 @@
    "numOptions": 2,
    "forceEvent": false,
    "reqEventUnlock": false,
-   "baseWeight": 7,
+   "baseWeight": 4,
    "monthlyWeightDelta": 0,
    "altBaseWeight": {
       "condition": {
@@ -691,7 +691,7 @@
          "sign": "Has",
          "strValue": "ClimateChangeMitigation"
       },
-      "value": 4
+      "value": 1
    },
    "weightDeltaWhenTriggered": 0,
    "targetType": "mapRegion",
@@ -969,7 +969,7 @@
    "numOptions": 2,
    "forceEvent": false,
    "reqEventUnlock": false,
-   "baseWeight": 9,
+   "baseWeight": 4,
    "monthlyWeightDelta": 0,
    "altBaseWeight": {
       "condition": {
@@ -977,7 +977,7 @@
          "sign": "Has",
          "strValue": "ClimateChangeMitigation"
       },
-      "value": 6
+      "value": 1
    },
    "weightDeltaWhenTriggered": 0,
    "targetType": "mapRegion",
@@ -1802,7 +1802,7 @@
          "sign": "Has",
          "strValue": "AdvancedChemicalRocketry"
       },
-      "value": 0.02
+      "value": 0.1
    },
    "weightDeltaWhenTriggered": 0,
    "targetType": "faction",
@@ -4951,7 +4951,7 @@
    "global_cooldown_months": 18,
    "targetConditions": [
       {
-         "$type": "TIGlobalCondition_bWaveOfFearEligible ",
+         "$type": "TIGlobalCondition_bWaveOfFearEligible",
          "sign": "EqualTo",
          "strValue": "TRUE"
       }
@@ -14571,6 +14571,7 @@
  {
    "dataName": "event_Inquisition",
    "friendlyName": "Inquisition",
+   "illustrationResource": "illustrations/Event_Vigilantes",
    "requiresAliens": true,
    "logPublicity": "target",
    "alertPublicity": "target",
@@ -18174,6 +18175,7 @@
  {
    "dataName": "event_BorderWarfare",
    "friendlyName": "Border Warfare",
+   "illustrationResource": "illustrations/Event_BrushWar",
    "requiresAliens": false,
    "logPublicity": "global",
    "alertPublicity": "target_PrimaryOnly",
@@ -36753,6 +36755,12 @@
          "$type": "TISpaceShipCondition_bIsAlien",
          "sign": "EqualTo",
          "strValue": "FALSE"
+      },
+      {
+         "$type": "TISpaceBodyCondition_ebIsObjectType",
+         "strIdx": "Asteroid",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
       }
    ],
    "targetWeightModifiers": [
@@ -36763,14 +36771,7 @@
    ],
    "secondaryStateType": "SpaceBody_FleetInOrbit",
    "sameSecondaryForAllTargets": false,
-   "secondaryStateConditions": [
-      {
-         "$type": "TISpaceBodyCondition_ebIsObjectType",
-         "strIdx": "Asteroid",
-         "sign": "EqualTo",
-         "strValue": "TRUE"
-      }
-   ],
+   "secondaryStateConditions": [],
    "secondaryWeightModifiers": [
       {},
       {},
@@ -64926,7 +64927,8 @@
    "targetType": "hab",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "target_cooldown_months": 12,
+   "global_cooldown_months": 2,
+   "target_cooldown_months": 24,
    "targetConditions": [
       {
          "$type": "TIHabCondition_bHasMine",
@@ -65496,6 +65498,7 @@
    "targetType": "officer",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 1,
    "target_cooldown_months": 120,
    "targetConditions": [
       {
@@ -65762,8 +65765,8 @@
    "targetType": "nation",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
-   "target_cooldown_months": 24,
+   "global_cooldown_months": 24,
+   "target_cooldown_months": 48,
    "targetConditions": [
       {
          "$type": "TINationCondition_fDemocracy",
@@ -66509,7 +66512,7 @@
    "targetType": "hab",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
+   "target_cooldown_months": 1,
    "targetConditions": [
       {
          "$type": "TIFactionCondition_fMissionControlBalance",
@@ -66778,7 +66781,7 @@
    "targetType": "ship",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
+   "target_cooldown_months": 1,
    "targetConditions": [
       {
          "$type": "TIFactionCondition_fMissionControlBalance",
@@ -67741,7 +67744,7 @@
    "targetType": "region",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
+   "global_cooldown_months": 6,
    "targetConditions": [
       {
          "$type": "TINationCondition_bFactionControlled",
@@ -68071,7 +68074,7 @@
    "targetType": "region",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
+   "global_cooldown_months": 6,
    "targetConditions": [
       {
          "$type": "TINationCondition_bFactionControlled",
@@ -68388,7 +68391,7 @@
    "targetType": "region",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
+   "global_cooldown_months": 6,
    "targetConditions": [
       {
          "$type": "TINationCondition_bFactionControlled",
@@ -68686,7 +68689,7 @@
    "targetType": "region",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
+   "global_cooldown_months": 6,
    "targetConditions": [
       {
          "$type": "TINationCondition_bFactionControlled",
@@ -68707,12 +68710,6 @@
          "$type": "TINationCondition_bPolicyClosedBorders",
          "sign": "EqualTo",
          "strValue": "FALSE"
-      },
-      {
-         "$type": "TIFactionCondition_bCouncilorHasTrait",
-         "strIdx": "Criminal",
-         "sign": "EqualTo",
-         "strValue": "TRUE"
       }
    ],
    "targetWeightModifiers": [
@@ -68948,8 +68945,8 @@
       },
       {
          "actingFactionCondition": {
-            "$type": "TIFactionCondition_bCouncilorHasTraitGrouping",
-            "strIdx": "20",
+            "$type": "TIFactionCondition_bCouncilorHasTrait",
+            "strIdx": "Criminal",
             "sign": "EqualTo",
             "strValue": "TRUE"
          },
@@ -69034,7 +69031,7 @@
    "targetType": "nation",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 12,
+   "global_cooldown_months": 36,
    "target_cooldown_months": 360,
    "targetConditions": [
       {
@@ -69294,8 +69291,8 @@
    "targetType": "nation",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 6,
-   "target_cooldown_months": 120,
+   "global_cooldown_months": 36,
+   "target_cooldown_months": 180,
    "targetConditions": [
       {
          "$type": "TINationCondition_iRivals",
@@ -69317,6 +69314,16 @@
          "strIdx": "Military",
          "sign": "LessThanOrEqualTo",
          "strValue": "0.2"
+      },
+      {
+         "$type": "TINationCondition_bHasMilitary",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      },
+      {
+         "$type": "TINationCondition_fMiltech",
+         "sign": "GreaterThanOrEqualTo",
+         "strValue": "2.2"
       }
    ],
    "targetWeightModifiers": [
@@ -69577,8 +69584,8 @@
    "targetType": "councilor",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
-   "target_cooldown_months": 4,
+   "global_cooldown_months": 4,
+   "target_cooldown_months": 12,
    "targetConditions": [
       {
          "$type": "TICouncilorCondition_iSpareOrgCapacity",
@@ -69806,8 +69813,8 @@
    "targetType": "nation",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
-   "target_cooldown_months": 12,
+   "global_cooldown_months": 24,
+   "target_cooldown_months": 600,
    "targetConditions": [
       {
          "$type": "TINationCondition_iControlPoints",
@@ -70078,13 +70085,23 @@
    "targetType": "region",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 1,
-   "target_cooldown_months": 12,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 600,
    "targetConditions": [
       {
          "$type": "TIRegionCondition_fPerCapitaGDP",
          "sign": "LessThanOrEqualTo",
          "strValue": "10000"
+      },
+      {
+         "$type": "TINationCondition_bSpaceflightProgram",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      },
+      {
+         "$type": "TINationCondition_bAnySpaceAssets",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
       }
    ],
    "targetWeightModifiers": [
@@ -70349,19 +70366,19 @@
    "numOptions": 4,
    "forceEvent": false,
    "reqEventUnlock": false,
-   "baseWeight": 3,
+   "baseWeight": 1,
    "altBaseWeight": {
       "condition": {
          "$type": "TIGlobalCondition_tbCompletedTech",
          "sign": "Has",
          "strValue": "SpaceNavies"
       },
-      "value": 5
+      "value": 2
    },
    "targetType": "officer",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 12,
+   "global_cooldown_months": 60,
    "target_cooldown_months": 900,
    "targetConditions": [
       {
@@ -70605,19 +70622,19 @@
    "numOptions": 4,
    "forceEvent": false,
    "reqEventUnlock": false,
-   "baseWeight": 3,
+   "baseWeight": 1,
    "altBaseWeight": {
       "condition": {
          "$type": "TIGlobalCondition_tbCompletedTech",
          "sign": "Has",
          "strValue": "SpaceNavies"
       },
-      "value": 5
+      "value": 2
    },
    "targetType": "officer",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 12,
+   "global_cooldown_months": 60,
    "target_cooldown_months": 900,
    "targetConditions": [
       {
@@ -70873,7 +70890,8 @@
    "targetType": "nation",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "target_cooldown_months": 12,
+   "global_cooldown_months": 3,
+   "target_cooldown_months": 24,
    "targetConditions": [],
    "targetWeightModifiers": [
       {},
@@ -71116,6 +71134,7 @@
    "targetType": "faction",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
+   "target_cooldown_months": 36,
    "targetConditions": [],
    "targetWeightModifiers": [
       {},
@@ -71336,6 +71355,7 @@
    "targetType": "faction",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
+   "target_cooldown_months": 24,
    "targetConditions": [
       {
          "$type": "TIFactionCondition_bAntiAlien",
@@ -71563,6 +71583,7 @@
    "targetType": "faction",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
+   "target_cooldown_months": 24,
    "targetConditions": [
       {
          "$type": "TIFactionCondition_eIdeology",
@@ -71790,6 +71811,7 @@
    "targetType": "faction",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
+   "target_cooldown_months": 24,
    "targetConditions": [
       {
          "$type": "TIFactionCondition_eIdeology",
@@ -72017,6 +72039,7 @@
    "targetType": "faction",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
+   "target_cooldown_months": 24,
    "targetConditions": [
       {
          "$type": "TIFactionCondition_eIdeology",
@@ -72244,6 +72267,7 @@
    "targetType": "faction",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
+   "target_cooldown_months": 24,
    "targetConditions": [
       {
          "$type": "TIFactionCondition_eIdeology",
@@ -72472,6 +72496,7 @@
    "targetType": "faction",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
+   "target_cooldown_months": 24,
    "targetConditions": [
       {
          "$type": "TIFactionCondition_eIdeology",

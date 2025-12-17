@@ -93,6 +93,7 @@ TICouncilorCondition_iNumLoseableOrgs= quando a carteira de organizações não 
 TICouncilorCondition_iAssassinatedHumans= quando a quantidade de conselheiros humanos assassinados por esse conselheiro {0}
 TICouncilorCondition_iAssassinatedAliens= quando a quantidade de agentes alienígenas assassinados por esse conselheiro {0}
 TICouncilorCondition_iAssassinations= quando a quantidade de assassinatos bem sucedidos por esse conselheiro {0}
+TIHabCondition_iCrewSize= para habitats com tripulação de {0}
 TIHabCondition_tbHasModuleFunctioningTRUE= para habitats com um módulo de {0}
 TIHabCondition_tbHasModuleFunctioningFALSE= para habitats sem um módulo de {0}
 TIHabCondition_tbHasModuleOrUpgradePrereqFunctioningTRUE= para habitats com um módulo de {0} ou {1}

@@ -24,16 +24,16 @@ TIShipArmorTemplate.displayName.AlienExoticArmor=Alien Exotic Armor
 TIShipArmorTemplate.description.AlienExoticArmor=An alien material with exotic properties.
 
 TIShipArmorTemplate.ResourcesPerTon=Cost Per Ton:<rcol>{0}</rcol>
-TIShipArmorTemplate.KineticsResistance={0} bonus resistance to kinetic damage
-TIShipArmorTemplate.LaserResistance={0} bonus resistance to laser damage
-TIShipArmorTemplate.ChippingResistance={0} bonus resistance to chipping
-TIShipArmorTemplate.KineticsVulnerability=Suffers {0} extra damage from kinetic weapons
-TIShipArmorTemplate.LaserVulnerability=Suffers {0} extra damage from lasers
-TIShipArmorTemplate.ChippingVulnerability=Suffers {0} extra armor chipping from hits
-TIShipArmorTemplate.XRayResistance={0} bonus resistance to particle weapon x-rays relative to steel
-TIShipArmorTemplate.XRayVulnerability=Suffers {0} extra damage from particle weapon x-rays
-TIShipArmorTemplate.BaryonicResistance={0} bonus resistance to particle weapon neutrons
-TIShipArmorTemplate.BaryonicVulnerability=Suffers {0} extra damage from particle weapon neutrons
+TIShipArmorTemplate.KineticsResistance=Bonus resistance to kinetic damage:<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserResistance=Bonus resistance to laser damage:<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingResistance=Bonus resistance to chipping:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsVulnerability=Extra damage from kinetic weapons:<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserVulnerability=Extra damage from lasers:<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingVulnerability=Extra armor chipping from hits:<rcol>{0}</rcol>
+TIShipArmorTemplate.XRayResistance_Header=Points to halve X-ray damage
+TIShipArmorTemplate.XRayResistance=Points to halve X-ray damage:<rcol>{0}</rcol>
+TIShipArmorTemplate.BaryonicResistance_Header=Points to halve baryonic damage
+TIShipArmorTemplate.BaryonicResistance=Points to halve baryonic damage:<rcol>{0}</rcol>
 
 TIShipArmorTemplate.ThicknessPerPoint=Thickness per point:<rcol>{0} cm</rcol>
 

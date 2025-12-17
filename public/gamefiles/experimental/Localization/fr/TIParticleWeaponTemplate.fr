@@ -60,6 +60,10 @@ TIParticleWeaponTemplate.displayName.HeavyParticleLance=Lance à particules lour
 TIParticleWeaponTemplate.description.HeavyParticleLance=Un grand accélérateur linéaire intégré à la proue tirant des particules neutralisées afin de perturber les systèmes électroniques ennemis et d’incapaciter les équipages.
 TIParticleWeaponTemplate.displayName.SpinalParticleLance=Lance à particules intégrée
 TIParticleWeaponTemplate.description.SpinalParticleLance=Un accélérateur linéaire géant intégré à la proue tirant des particules neutralisées afin de perturber les systèmes électroniques ennemis et d’incapaciter les équipages.
+TIParticleWeaponTemplate.displayName.AntimatterPointDefenseBattery=Tourelle de défense de point à antimatière
+TIParticleWeaponTemplate.description.AntimatterPointDefenseBattery=Tourelle de défense de point à antimatière rapide pour la défense de point en rafales.
+TIParticleWeaponTemplate.displayName.HeavyAntimatterPointDefenseBattery=Tourelle de défense de point à antimatière lourde
+TIParticleWeaponTemplate.description.HeavyAntimatterPointDefenseBattery=Tourelle à faisceau d'antimatière massive, conçue pour soutenir la défense de point de l'ensemble de la flotte.
 TIParticleWeaponTemplate.displayName.AntimatterParticleCannon=Canon d'antimatière
 TIParticleWeaponTemplate.description.AntimatterParticleCannon=Un accélérateur linéaire tirant un rayon serré d’antimatière sur une cible capable de causer des dégâts thermiques et de rayonnement.
 TIParticleWeaponTemplate.displayName.HeavyAntimatterParticleCannon=Canon d’antimatière lourd
@@ -88,4 +92,4 @@ TIParticleWeaponTemplate.XRayDamage=Dégâts dus aux rayons X (rayonnement) : <
 TIParticleWeaponTemplate.BaryonicDamage=Dégâts baryoniques (radiation), {0}x aux éléments internes :<rcol>{1}</rcol>
 
 TIParticleWeaponTemplate.Defense.MissilesOnly=<h>Les tirs défensifs ne cibleront que les missiles.</h>
-TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Les tirs défensifs contre les cibles autres que des missiles auront une efficacité réduite</h>
+TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>Les tirs défensifs contre les projectiles autres que des missiles auront une efficacité réduite</h>

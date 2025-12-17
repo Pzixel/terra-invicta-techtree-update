@@ -34,6 +34,19 @@ TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Destruir tod
 TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Destruir todos os habitats de nível {0} e superior pertencentes aos alienígenas e a facções humanas extremistas ({2}) no sistema planetário de {1}.
 TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Destruir todos os habitats de nível {0} e superior pertencentes aos alienígenas e a facções humanas extremistas ({2}) nos seguintes corpos: {1}
 
+TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem=Destruir todas as bases alienígenas de nível {0} e superior no sistema planetário de {1}.
+TIVictoryCondition.FreeBases_DefeatAliens_Region=Destruir todas as bases alienígenas de nível {0} e superior nos seguintes corpos: {1}
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem=Destruir todas as bases de nível {0} e superior pertencente aos alienígenas e seus apoiadores humanos ({2}) no sistema de {1}.
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_Region=Destruir todas as bases de nível {0} e superior pertencente aos alienígenas e seus apoiadores humanos ({2}) nos seguintes corpos: {1}
+TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem=Destruir todas as bases de nível {0} e superior que não pertençam à nossa facção no sistema planetário de {1}.
+TIVictoryCondition.FreeBases_DefeatEveryone_Region=Destruir todas as bases de nível {0} e superior que não pertençam à nossa facção nos seguintes corpos: {1}
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem=Destruir todas as bases de nível {0} e superior pertencentes a facções antialienígena ({2}) no sistema planetário de {1}.
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=Destruir todas as bases de nível {0} e superior pertencentes a facções antialienígena ({2}) nos seguintes corpos: {1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=Destruir todas as bases de nível {0} e superior pertencentes a facções não aliadas aos alienígenas ({2}) no sistema planetário de {1}.
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=Destruir todas as bases de nível {0} e superior pertencentes a facções não aliadas aos alienígenas ({2}) nos seguintes corpos: {1}
+TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem=Destruir todas as bases de nível {0} e superior pertencentes aos alienígenas e a facções humanas extremistas ({2}) no sistema planetário de {1}.
+TIVictoryCondition.FreeBases_DefeatExtremists_Region=Destruir todas as bases de nível {0} e superior pertencentes aos alienígenas e a facções humanas extremistas ({2}) nos seguintes corpos: {1}
+
 TIVictoryCondition.FreeFleets_DefeatAliens_All=Destruir todas as frotas alienígenas com força de combate de {0} e superior.
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Destruir todas as frotas com força de combate de {0} e superior pertencente aos alienígenas e seus apoiadores humanos ({2}).
 TIVictoryCondition.FreeFleets_DefeatEveryone_All=Destruir todas as frotas alienígenas com força de combate de {0} e superior que não pertençam à nossa facção. 
@@ -54,4 +67,9 @@ TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Destruir toda
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Destruir todas as frotas com força de combate de {0} e superior pertencente aos alienígenas e a facções humanas extremistas ({2}) no sistema planetário de {1}.
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Destruir todas as frotas com força de combate de {0} e superior pertencente aos alienígenas e a facções humanas extremistas ({2}) nos seguintes corpos: {1}
 
-TIVictoryCondition.Complete=Concluída
+TIVictoryCondition.BasePresence_MajorPlanets=Tenha uma base de superfície completamente construída com todos os módulos pelo menos em nível {0}, energizada e ativa nos seguintes sistemas planetários (no elemento principal ou qualquer de suas luas):
+
+TIVictoryCondition.Complete=Completa
+TIVictoryCondition.Incomplete=Incompleta
+TIVictoryCondition.Colon={0}: {1}
+

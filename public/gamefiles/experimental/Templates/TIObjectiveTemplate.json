@@ -369,7 +369,7 @@
    "objectiveType": "Tutorial",
    "starter": false,
    "unlockingObjectiveNames": [
-      "TutorialGainLargeNationExecutiveControlPoint"
+      "TutorialGainControlPoint"
    ],
    "isChildObjective": false,
    "targetMilestone": "TutorialCheckNationalPriority",
@@ -384,40 +384,10 @@
    "objectiveType": "Tutorial",
    "starter": false,
    "unlockingObjectiveNames": [
-      "TutorialCheckNationalPriority"
-   ],
-   "isChildObjective": true,
-   "targetMilestone": "TutorialEquipOrg",
-   "NewAIValuesIndex": -1,
-   "resourcesGranted": [],
-   "factionDataNames": [
-      "ResistCouncil"
-   ]
-},
- {
-   "dataName": "TutorialUnequipOrg",
-   "objectiveType": "Tutorial",
-   "starter": false,
-   "unlockingObjectiveNames": [
-      "TutorialCheckNationalPriority"
-   ],
-   "isChildObjective": true,
-   "targetMilestone": "TutorialEquipOrg",
-   "NewAIValuesIndex": -1,
-   "resourcesGranted": [],
-   "factionDataNames": [
-      "ResistCouncil"
-   ]
-},
- {
-   "dataName": "TutorialEquipOrg",
-   "objectiveType": "Tutorial",
-   "starter": false,
-   "unlockingObjectiveNames": [
-      "TutorialCheckNationalPriority"
+      "TutorialBuildCouncil"
    ],
    "isChildObjective": false,
-   "targetMilestone": "TutorialEquipOrg",
+   "targetMilestone": "TutorialPurchaseOrg",
    "NewAIValuesIndex": -1,
    "resourcesGranted": [],
    "factionDataNames": [
@@ -429,7 +399,7 @@
    "objectiveType": "Tutorial",
    "starter": false,
    "unlockingObjectiveNames": [
-      "TutorialEquipOrg"
+      "TutorialPurchaseOrg"
    ],
    "isChildObjective": false,
    "targetMilestone": "TutorialFoundStation",
@@ -470,6 +440,38 @@
    ]
 },
  {
+   "dataName": "TutorialResearchMissionToSpace",
+   "objectiveType": "Tutorial",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "TutorialBuildStationLab"
+   ],
+   "targetTechTemplateName": "MissionToSpace",
+   "isChildObjective": true,
+   "targetMilestone": "TutorialProbeSpaceBody",
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "ResistCouncil"
+   ]
+},
+ {
+   "dataName": "TutorialResearchOutpostHabs",
+   "objectiveType": "Tutorial",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "TutorialBuildStationLab"
+   ],
+   "targetTechTemplateName": "OutpostHabs",
+   "isChildObjective": true,
+   "targetMilestone": "TutorialProbeSpaceBody",
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "ResistCouncil"
+   ]
+},
+ {
    "dataName": "TutorialResearchMissionToMoonMars",
    "objectiveType": "Tutorial",
    "starter": false,
@@ -494,38 +496,6 @@
    ],
    "isChildObjective": false,
    "targetMilestone": "TutorialProbeSpaceBody",
-   "NewAIValuesIndex": -1,
-   "resourcesGranted": [],
-   "factionDataNames": [
-      "ResistCouncil"
-   ]
-},
- {
-   "dataName": "TutorialResearchMissionToSpace",
-   "objectiveType": "Tutorial",
-   "starter": false,
-   "unlockingObjectiveNames": [
-      "TutorialProbeSpaceBody"
-   ],
-   "targetTechTemplateName": "MissionToSpace",
-   "isChildObjective": true,
-   "targetMilestone": "TutorialFoundBase",
-   "NewAIValuesIndex": -1,
-   "resourcesGranted": [],
-   "factionDataNames": [
-      "ResistCouncil"
-   ]
-},
- {
-   "dataName": "TutorialResearchOutpostHabs",
-   "objectiveType": "Tutorial",
-   "starter": false,
-   "unlockingObjectiveNames": [
-      "TutorialProbeSpaceBody"
-   ],
-   "targetTechTemplateName": "OutpostHabs",
-   "isChildObjective": true,
-   "targetMilestone": "TutorialFoundBase",
    "NewAIValuesIndex": -1,
    "resourcesGranted": [],
    "factionDataNames": [
@@ -604,21 +574,6 @@
    ],
    "isChildObjective": false,
    "targetMilestone": "TutorialBuildMine",
-   "NewAIValuesIndex": -1,
-   "resourcesGranted": [],
-   "factionDataNames": [
-      "ResistCouncil"
-   ]
-},
- {
-   "dataName": "TutorialBuildHab",
-   "objectiveType": "Tutorial",
-   "starter": false,
-   "unlockingObjectiveNames": [
-      "TutorialFoundBase"
-   ],
-   "isChildObjective": true,
-   "targetMilestone": "TutorialBuildShip",
    "NewAIValuesIndex": -1,
    "resourcesGranted": [],
    "factionDataNames": [

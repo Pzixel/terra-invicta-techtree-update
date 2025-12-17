@@ -48,7 +48,7 @@ Context.displayName.BuildArmyPriority=Build Army Priority Investments
 Context.displayName.UpgradeArmyPriority=Build Navy Priority Investments
 Context.displayName.BuildNuclearWeaponsPriority=Build Nuclear Weapons Priority Investments
 Context.displayName.BuildSpaceDefensesPriority=Build Space Defenses Priority Investments
-Context.displayName.BuildSTOSquadronPriority=Build Orbital Fighter Priority Investments
+Context.displayName.BuildSTOSquadronPriority=Build Exofighter Priority Investments
 Context.displayName.DirectInvestGlobalDiscount_Money_PCT=Direct Investment <color=#FFFFFFFF><sprite name="currency"></color> Discount
 Context.displayName.DirectInvestGlobalDiscount_Influence_PCT=Direct Investment <color=#FFFFFFFF><sprite name="influence"></color> Discount
 Context.displayName.DirectInvestGlobalDiscount_Ops_PCT=Direct Investment <color=#FFFFFFFF><sprite name="ops"></color> Discount
@@ -559,8 +559,8 @@ TIEffectTemplate.description.Effect_GovernmentPriority05=-National Investment Po
 TIEffectTemplate.description.Effect_GovernmentPriority10=-National Investment Points we direct to the Government priority are increased by {3}
 TIEffectTemplate.description.Effect_EnvironmentPriority05=-National Investment Points we direct to the Environment priority are increased by {3}
 TIEffectTemplate.description.Effect_EnvironmentPriority10=-National Investment Points we direct to the Environment priority are increased by {3}
-TIEffectTemplate.description.Effect_BuildSTOSquadronPriority05=-National Investment Points we direct to the Build Orbital Fighter priority are increased by {3}
-TIEffectTemplate.description.Effect_BuildSTOSquadronPriority10=-National Investment Points we direct to the Build Orbital Fighter priority are increased by {3}
+TIEffectTemplate.description.Effect_BuildSTOSquadronPriority05=-National Investment Points we direct to the Build Exofighter priority are increased by {3}
+TIEffectTemplate.description.Effect_BuildSTOSquadronPriority10=-National Investment Points we direct to the Build Exofighter priority are increased by {3}
 TIEffectTemplate.description.Effect_DirectInvestMoneyReduction15=-Money Cost of Direct Investment reduced by {3}
 TIEffectTemplate.description.Effect_DirectInvestInfluenceReduction25=-Influence cost of Direct Investment reduced by {3}
 TIEffectTemplate.displayName.Effect_ArcticMethaneRelease=Arctic methane release
@@ -1079,7 +1079,7 @@ TIEffectTemplate.description.Effect_GlobalHumanFactionsGainXP=-All councilors an
 TIEffectTemplate.description.Effect_AllHumanFactionsGainExotics=-All human factions that have researched Exotics gain Exotics in amounts that scale with the number of nanofactories they have constructed
 TIEffectTemplate.description.Effect_RandomNationGainsClaim=-A nation controlled by the highest contributor to this tech will gain a new territorial claim, if possible; otherwise another nation will gain a new claim
 TIEffectTemplate.description.Effect_GlobalIPProduction=-All human nations immediately receive {0} days of Investment Points
-TIEffectTemplate.description.Effect_RecruitsGainGovernment=-All future councilor recruits will have the {13} trait if they are otherwise eligible for it
-TIEffectTemplate.description.Effect_RecruitsGainQuickLearner=-All future councilor recruits will have the {13} trait if they are otherwise eligible for it
+TIEffectTemplate.description.Effect_RecruitsGainGovernment=-All future councilor candidates will have the {13} trait if they are eligible for it
+TIEffectTemplate.description.Effect_RecruitsGainQuickLearner=-All future councilor candidates will have the {13} trait if they are eligible for it
 TIEffectTemplate.description.Effect_IncreaseMaxSurvivableCombatAcceleration=-The maximum combat acceleration of all human ships increases by {0} g if the ship's propulsion system allows it
 TIEffectTemplate.description.Effect_IncreaseMaxSurvivableCruiseAcceleration=-The maximum cruise acceleration of all human ships increases by {0} g if the ship's propulsion system allows it

@@ -24,16 +24,16 @@ TIShipArmorTemplate.displayName.AlienExoticArmor=Exotische Panzerung der Aliens
 TIShipArmorTemplate.description.AlienExoticArmor=Ein Alien-Material mit exotischen Eigenschaften.
 
 TIShipArmorTemplate.ResourcesPerTon=Kosten pro Tonne:<rcol>{0}</rcol>
-TIShipArmorTemplate.KineticsResistance={0} Bonuswiderstand gegen kinetischen Schaden
-TIShipArmorTemplate.LaserResistance={0} Bonuswiderstand gegen Laserschaden
-TIShipArmorTemplate.ChippingResistance={0} Bonuswiderstand gegen Abriebschaden
-TIShipArmorTemplate.KineticsVulnerability=Erleidet {0} zusätzlichen Schaden durch kinetische Waffen
-TIShipArmorTemplate.LaserVulnerability=Erleidet {0} zusätzlichen Schaden durch Laser
-TIShipArmorTemplate.ChippingVulnerability=Erleidet {0} zusätzlichen Panzerungsabrieb durch Treffer
-TIShipArmorTemplate.XRayResistance={0} Bonuswiderstand gegen Röntgenstrahlen aus Partikelwaffen im Verhältnis zu Stahl
-TIShipArmorTemplate.XRayVulnerability=Erleidet {0} zusätzlichen Schaden durch Röntgenstrahlen aus Partikelwaffen
-TIShipArmorTemplate.BaryonicResistance={0} Bonuswiderstand gegen Partikelwaffen-Neutronen
-TIShipArmorTemplate.BaryonicVulnerability=Erleidet {0} zusätzlichen Schaden durch Partikelwaffen-Neutronen
+TIShipArmorTemplate.KineticsResistance=Bonuswiderstand gegen kinetischen Schaden:<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserResistance=Bonuswiderstand gegen Schaden durch Laser:<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingResistance=Bonuswiderstand gegen Abriebschaden:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsVulnerability=Zusätzlicher Schaden durch kinetische Waffen:<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserVulnerability=Zusätzlicher Schaden durch Laser:<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingVulnerability=Zusätzlicher Panzerungsabrieb durch Treffer:<rcol>{0}</rcol>
+TIShipArmorTemplate.XRayResistance_Header=Punkte zum Halbieren des Röntgenschadens
+TIShipArmorTemplate.XRayResistance=Punkte zum Halbieren des Röntgenschadens:<rcol>{0}</rcol>
+TIShipArmorTemplate.BaryonicResistance_Header=Punkte zum Halbieren des baryonischen Schadens
+TIShipArmorTemplate.BaryonicResistance=Punkte zum Halbieren des baryonischen Schadens:<rcol>{0}</rcol>
 
 TIShipArmorTemplate.ThicknessPerPoint=Stärke pro Punkt:<rcol>{0} cm</rcol>
 

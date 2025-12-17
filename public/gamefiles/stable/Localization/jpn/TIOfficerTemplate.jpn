@@ -14,7 +14,7 @@ TIOfficerTemplate.displayName.Officer_Marine=海軍将校
 TIOfficerTemplate.displayName.Officer_Supply=補給担当士官
 TIOfficerTemplate.displayName.Officer_Chief=乗組員チーフ
 
-TIOfficerTemplate.description.Officer_Admiral=艦隊全体にボーナスを支給する上級士官。艦隊の<color=#FFFFFFFF><sprite name=mission_control></color>を減少させるために旗艦ブリッジモジュールを使用している旗艦士官のみがボーナスを適用できる。
+TIOfficerTemplate.description.Officer_Admiral=艦隊全体にボーナスを支給する上級士官。艦隊ごとに1人の提督だけが<color=#FFFFFFFF><sprite name=mission_control></color>ボーナスを適用する。
 TIOfficerTemplate.description.Officer_Captain=船の艦長。
 TIOfficerTemplate.description.Officer_First=船の副司令官。
 TIOfficerTemplate.description.Officer_FireControl=船のミサイルシステムを担当する士官。
@@ -27,7 +27,7 @@ TIOfficerTemplate.description.Officer_Medical=乗組員の生命と健康を維�
 TIOfficerTemplate.description.Officer_CIC=艦内のコンバットセンターとアクティブディフェンスを担当する士官。
 TIOfficerTemplate.description.Officer_Intel=乗組員に敵に関する知識を提供する士官。
 TIOfficerTemplate.description.Officer_Marine=本船の海兵隊分遣隊の士官。
-TIOfficerTemplate.description.Officer_Supply=船用品を担当する士官。
+TIOfficerTemplate.description.Officer_Supply=船用品およびサルベージを担当する士官。
 TIOfficerTemplate.description.Officer_Chief=乗組員を代表する船の上級宇宙飛行士。
 
 TIOfficerTemplate.Officer_Admiral_1=少将
@@ -79,7 +79,7 @@ TIOfficerTemplate.Officer_Supply_3=中尉
 TIOfficerTemplate.Officer_Chief_3=上等兵曹
 
 TIOfficerTemplate.MaxPerShip=-船一艦につき、本種類の士官は最大{0}名
-TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-船体{1}つにつき、旗艦士官と司令官を除き、各種士官の合計は最大{0}名							// number, hull display name
+TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-船体{0}つにつき、旗艦士官と司令官を除き、各種士官の合計は最大{1}名							// number, hull display name
 TIOfficerTemplate.MaxTotalOfficersPerShip=-船体の大きさによって制限される、旗艦士官および指揮官を除く、あらゆる種類の士官の最大総数
 TIOfficerTemplate.CrewMin=-最低{0}名の乗組員が必要
 TIOfficerTemplate.FlagBridge=-{0}モジュールが必要																			// name of flag bridge ship utility module
@@ -121,6 +121,7 @@ TIOfficerTemplate.MaxSurvivableCombatAcceleration=-船の最大許容戦闘時�
 TIOfficerTemplate.MaxSurvivableCruiseAcceleration=-船の最大許容巡航加速度が{0}g(s)増加
 TIOfficerTemplate.RadiationDamageReduction=-粒子兵器による放射能ダメ―ジが{2}減少
 TIOfficerTemplate.NoDemotionOnTransfer=-他の船に乗り換えてもレベルが下がらない
+TIOfficerTemplate.NoCostToTransfer=-士官を他の船へ移動するのに<color=#FFFFFFFF><sprite name="influence"></color>がかからない
 
 TIOfficerTemplate.OfficerShipNameAndJob={0}: {1}、{2}			// ship name: rank + name, job
 TIOfficerTemplate.OfficerNameAndJob={0}、{1}					// rank + name, job

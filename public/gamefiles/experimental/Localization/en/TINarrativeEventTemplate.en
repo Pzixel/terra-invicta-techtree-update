@@ -2750,13 +2750,13 @@ TINarrativeEventTemplate.event_PhoebeBase.optionResult2={targetFactionName} has 
 TINarrativeEventTemplate.displayName.event_FirstMaglev=World's first Maglev network
 TINarrativeEventTemplate.event_FirstMaglev.summary=The first full Maglev network comes online.
 TINarrativeEventTemplate.event_FirstMaglev.query={targetNationNameWithArticleCap} has become the first nation in the world to convert their entire rail network to magnetic levitation trains. Commuters have been enjoying the benefit of improved public transportation for some time, but with the final parts in place a new era in high speed rail has begun in {targetNationNameWithArticle}! 
-TINarrativeEventTemplate.event_FirstMaglev.option0=Excellent
+TINarrativeEventTemplate.event_FirstMaglev.option0=Excellent.
 TINarrativeEventTemplate.event_FirstMaglev.optionDetail0=Do nothing.
 TINarrativeEventTemplate.event_FirstMaglev.optionResult0={targetNationNameWithArticleCap} has completed their Maglev network.
 TINarrativeEventTemplate.event_FirstMaglev.option1=Make it free for the first month.
 TINarrativeEventTemplate.event_FirstMaglev.optionDetail1=<skip/>
 TINarrativeEventTemplate.event_FirstMaglev.optionResult1={targetNationNameWithArticleCap} has completed their Maglev network and made it free for the first month!
-TINarrativeEventTemplate.event_FirstMaglev.option2=Subsidize ticket costs
+TINarrativeEventTemplate.event_FirstMaglev.option2=Subsidize ticket costs.
 TINarrativeEventTemplate.event_FirstMaglev.optionDetail2=<skip/>
 TINarrativeEventTemplate.event_FirstMaglev.optionResult2={targetNationNameWithArticleCap} has completed their Maglev network and will subsidize ticket costs! 
 TINarrativeEventTemplate.event_FirstMaglev.option3=Crank up the price.
@@ -3499,6 +3499,8 @@ TINarrativeEventTemplate.event_RichPocket.option0.outcome1.Detail=We gained a me
 TINarrativeEventTemplate.event_RichPocket.option0.outcome2=Large influx.
 TINarrativeEventTemplate.event_RichPocket.option0.outcome2.Summary=We gained a large influx of resources from {targetHabName}.
 TINarrativeEventTemplate.event_RichPocket.option0.outcome2.Detail=We gained a large influx of resources from {targetHabName}.
+TINarrativeEventTemplate.event_RichPocket.optionResult0={summary}
+
 
 TINarrativeEventTemplate.displayName.event_RisingTalent=Rising Talent
 TINarrativeEventTemplate.event_RisingTalent.summary=We have identified a crewman aboard {targetSpaceShipName}, {targetSpaceFleetName} as an officer candidate.

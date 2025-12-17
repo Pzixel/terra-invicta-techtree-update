@@ -79,7 +79,7 @@ TIMissionTemplate.Failure.Coup=Ich bin bei meiner {missionName}-Mission in {targ
 TIMissionTemplate.CriticalFailure.Coup=Desaster! Ich bin bei meiner Mission zum Umsturz der Regierung in {targetNationNameWithPrep} gescheitert! {returnedValue}
 
 TIMissionTemplate.displayName.Crackdown=Bekämpfung
-TIMissionTemplate.description.Crackdown=Die Vorteile eines Kontrollpunkts deaktivieren, jegliche Verteidigung beseitigen und es leichter machen, eine andere Fraktion zu eliminieren.
+TIMissionTemplate.description.Crackdown=Deaktiviere die Vorteile eines Kontrollpunkts, beseitige jegliche Verteidigung und mach es leichter, die kontrollierende Fraktion zu eliminieren.
 TIMissionTemplate.CriticalSuccess.Crackdown=Wir haben {targetFactionName} in {targetNationNameWithPrep} erfolgreich bekämpft. Ihr {controlPointTypeDisplayName}-Kontrollpunkt wird bis {returnedValue} deaktiviert.
 TIMissionTemplate.Success.Crackdown=Wir haben {targetFactionName} in {targetNationNameWithPrep} erfolgreich bekämpft. Ihr {controlPointTypeDisplayName}-Kontrollpunkt wird bis {returnedValue} deaktiviert.
 TIMissionTemplate.Failure.Crackdown=Unser Versuch, {targetFactionName} in {targetNationNameWithPrep} zu neutralisieren, ist fehlgeschlagen.
@@ -118,7 +118,7 @@ TIMissionTemplate.Failure.EnthrallPublic=Wir konnten keine Menschen in {targetNa
 TIMissionTemplate.CriticalFailure.EnthrallPublic=Wir konnten keine Menschen in {targetNationNameWithPrep} bezwingen und es ist möglich, dass wir dort entdeckt wurden.
 
 TIMissionTemplate.displayName.EnthrallOrg=Organisation fesseln
-TIMissionTemplate.description.EnthrallOrg=Die Aliens beschlagnahmen eine Organisation eines gegnerischen Ratsmitglieds für eigene Zwecke. Sie können außerdem Fraktionsorganisationen ins Visier nehmen, die keinem Ratsmitglied zugewiesen sind.
+TIMissionTemplate.description.EnthrallOrg=Die Aliens beschlagnahmen eine Organisation eines gegnerischen Ratsmitglieds für eigene Zwecke. Sie können außerdem Fraktionspoolorganisationen ins Visier nehmen, die keinem Ratsmitglied zugewiesen sind. Bestimmte fraktionsspezifische Organisationen sind immun.
 TIMissionTemplate.CriticalSuccess.EnthrallOrg=Unser Fesselungsversuch von {targetDisplayName} von {targetFactionName} war überaus erfolgreich. Wir haben nicht nur eine ihrer Organisationen erworben, sondern bei der Übergabe außerdem {returnedValue} gewonnen.
 TIMissionTemplate.Success.EnthrallOrg=Unser Fesselungsversuch von {targetDisplayName} von {targetFactionName} war erfolgreich.
 TIMissionTemplate.Failure.EnthrallOrg=Wir konnten uns eine Organisation, die {targetDisplayName} von {targetFactionName} gehört, nicht aneignen.
@@ -291,7 +291,7 @@ TIMissionTemplate.Success.DestroyWin=Wir haben das Shiva-Virus eingesetzt.
 
 TIMissionTemplate.displayName.EscapeWin=Bifröst starten
 TIMissionTemplate.description.EscapeWin=Den Startbefehl geben, um unsere interstellare Reise zu beginnen. 
-TIMissionTemplate.Success.EscapeWin=Wir haben den Bifröst gestartet.
+TIMissionTemplate.Success.EscapeWin=Wir haben das Bifröst gestartet.<br/><br/>Wir haben unsere Aufgabe erfüllt, aber das Leben geht für jene, die zurückbleiben, weiter. Wenn wir wollen, können wir ein neues interstellares Raumschiff bauen und starten.
 
 TIMissionTemplate.displayName.ExploitWin=Den Feind zähmen
 TIMissionTemplate.description.ExploitWin=Sende das Neophärozytenpaket durch das Wurmloch. Wir müssen den Alienstützpunkt angreifen und zuerst landen. Erfordert, dass wir unsere Zielvorgaben für den Sieg erreicht haben.
@@ -309,13 +309,14 @@ TIMissionEffect_IncreaseUnrest.Special1=Meine Arbeit wurde aufgedeckt, wodurch u
 TIMissionEffect_IncreaseUnrest.Special2=Meine Arbeit wurde aufgedeckt! {0}-Agenten beschuldigen {1} einer Gräueltat und wollen mich festnehmen! Bitte bewirke meine Freilassung!								// capturing faction name, councilor's faction name
 TIMissionEffect_Coup.Special1=Unsere öffentliche Unterstützung hier ist um {0} gefallen.
 TIMissionEffect_Coup.Special2=Ich werde bald von {0} verhaftet werden. Ich werde versuchen, ihren Verhören standzuhalten, solange ich kann!			// faction name, capitalized
+TIMissionEffect_Coup.Special3=Die lokalen Behörden verhaften überall im Land unsere Unterstützer. Jeder unserer Kontrollpunkte wurde Ziel einer Bekämpfung.
 TIMissionEffect_DamageSpaceFacilities.Special1=Wir wurden mit dem Versuch in Verbindung gebracht und unsere öffentliche Unterstützung ist um {0} gefallen.
 TIMissionEffect_DamageSpaceFacilities.Special2=Ich wurde verhaftet und werde in Kürze an {0} übergeben.					// faction name
 TIMissionEffect_InvestigateCouncilor.EnemySpecial1=Wir kennen die Identität des Ziels: {0} arbeitet für {1} als {2}.
 TIMissionEffect_InvestigateCouncilor.EnemySpecial2=Wir haben auch ein detailliertes Profil des Ratsmitglieds, das im Informationsbereich verfügbar ist. Wir schätzen, das Ratsmitglied hat einen Loyalitätswert von {0}.
 TIMissionEffect_InvestigateCouncilor.EnemySpecial3=Wir werden die dem Ratsmitglied zugewiesene Mission für einen gewissen Zeitraum beobachten können.
-TIMissionEffect_InvestigateCouncilor.EnemySpecial4=Wir wissen vielleicht mehr über sie als {1}. Der aktuelle Loyalitätswert des Ratsmitglieds ist {2}.
-TIMissionEffect_InvestigateCouncilor.EnemySpecial5=Wir haben auch herausgefunden, dass {0} für {1} spioniert.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial4=Wir wissen vielleicht mehr über sie als {0}. Der aktuelle Loyalitätswert des Ratsmitglieds ist {1}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial5=Wir haben auch herausgefunden, dass sie für {0} spionieren.
 TIMissionEffect_InvestigateCouncilor.MySpecial1=Wir haben festgestellt, dass ihr Loyalitätswert bei {0} liegt.
 TIMissionEffect_InvestigateCouncilor.MySpecial2=Wir haben herausgefunden, dass {0} sich wegen {1} gegen uns gewandt und uns ausspioniert hat. Diese große Lücke müssen wir so schnell wie möglich schließen.
 TIMissionEffect_InvestigateCouncilor.MySpecial3=Unsere Untersuchung wurde so schlecht geführt, dass {0} davon erfahren hat und wütend geworden ist, wodurch er einen Loyalitätspunkt verloren hat.
@@ -332,7 +333,7 @@ TIMissionEffect_Assassinate.Special2=Ich wurde verhaftet und werde in Kürze an 
 
 TIMissionResult_Responsibility=Wir haben herausgefunden, dass {0} hinter der Operation steckt.
 
-TIMissionModifier.Spend={0} ausgegeben														// resource name, e.g. "Ops"
+TIMissionModifier.Spend={0} Ausgegeben														// resource name, e.g. "Ops"
 TIMissionModifier.Flat={0} ({1})															// Flat Modifier (3)
 TIMissionModifier.CodexHeader=<h>Angriffs-Modifikatoren<line-height=0.01%><br/><align="right">Verteidigungsmodifikatoren</align></line-height></h>
 TIMissionModifier_FlatModifier.displayName=Schwierigkeitsgrad der Mission
@@ -341,7 +342,7 @@ TIMissionModifier_NationCohesion.displayName=Nationaler Zusammenhalt
 TIMissionModifier_InvertedNationCohesion.displayName=Nationaler Zusammenhalt
 TIMissionModifier_NationPopulation.displayName=Nationale Bevölkerung
 TIMissionModifier_NationUnrest.displayName=Nationale Unruhen
-TIMissionModifier_NationStability.displayName=Nationale Unruhen
+TIMissionModifier_NationStability.displayName=Nationale Stabilität
 TIMissionModifier_NationDemocracy.displayName=Demokratie
 TIMissionModifier_NationEducation.displayName=Bildung
 TIMissionModifier_UnhappyElites.displayName=Unzufriedenheit der Elite
@@ -403,7 +404,7 @@ TIMissionModifier_RegionalInvadingForcesStrength_MyFaction.displayName=Stärke d
 TIMissionModifier_AttackerUnrestIdeology.displayName=Vorherige Unruhestiftungen
 TIMissionModifier_RegionPopulationDensity.displayName=Bevölkerungsdichte der Region
 TIMissionModifier_Censorship.displayName=Zensur
-TIMissionModifier_ExtractionDefense_Councilor.displayName={0} naher Ratsmitglieder
+TIMissionModifier_ExtractionDefense_Councilor.displayName={0} Naher Ratsmitglieder
 TIMissionModifier_ExtractionDefenseSecurityApparatus.displayName=Kontrollpunkt über Sicherheitsapparat
 TIMissionModifier_ExtractionDefense_JointCouncilStat.displayName=Festhaltender Fraktionsverband {0}
 TIMissionModifier_MyFactionLoyaltyMonitor.displayName=Unser Loyalitätsmonitor-Implantat
@@ -416,8 +417,8 @@ TIMissionModifier_DecommissioningHab.displayName=Habitat abreißen
 TIMissionModifier_AlienCoordination.displayName=Stellvertretende Unterstützung
 TIMissionModifier_NationSizeEnthrallDifficulty.displayName=Größe der Nation
 TIMissionModifier_ConditionalEnthrallDefendedPoint.displayName=Interessen verteidigen (partielle Verteidigung)
-TIMissionModifier_AttackerMissionControlShortage.displayName=Missionskontrollmangel
-TIMissionModifier_DefenderMissionControlShortage.displayName=Missionskontrollmangel
+TIMissionModifier_AttackerMissionControlShortage.displayName=Aktueller Missionskontrollmangel
+TIMissionModifier_DefenderMissionControlShortage.displayName=Aktueller Missionskontrollmangel
 TIMissionModifier_HabStability.displayName=Stabilitätsverleihende Module
 TIMissionModifier_OrgDefenses.displayName=Organisationsgröße
 TIMissionModifier_OrgDefenses_Admin.displayName=Organisations-Verwaltungswert
@@ -524,10 +525,10 @@ TIMissionTargeting_InvalidTarget={0}<br/>Ungültiges Ziel																// ID o
 TIMissionResult_ExecutiveControlChange=Die Exekutivgewalt über diese Nation besitzt jetzt {0}.
 
 TIMission.Timing.0=Diese Mission wird fast sofort, nachdem sie zugewiesen wurde, ausgeführt.
-TIMission.Timing.1=Diese Mission wird zu Beginn der Auflösungsphase durchgeführt.
-TIMission.Timing.2=Diese Mission wird mitten in der Auflösungsphase durchgeführt.
-TIMission.Timing.3=Diese Mission wird zum Ende der Auflösungsphase durchgeführt.
-TIMission.Timing.4=Diese Mission wird beim Abschluss Auflösungsphase durchgeführt.
+TIMission.Timing.1=Diese Mission wird zu Beginn der Missionsphase durchgeführt.
+TIMission.Timing.2=Diese Mission wird mitten in der Missionsphase durchgeführt.
+TIMission.Timing.3=Diese Mission wird zum Ende der Missionsphase durchgeführt.
+TIMission.Timing.4=Diese Mission wird beim Abschluss Missionsphase durchgeführt.
 TIMission.Timing.5=Diese Mission wird nach allen anderen Missionen durchgeführt.
 
 TIMission_AttackerModifiers=<h>Ratsmitglied-Modifikatoren</h>

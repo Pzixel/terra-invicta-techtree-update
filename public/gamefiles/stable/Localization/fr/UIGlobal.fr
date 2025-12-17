@@ -35,7 +35,7 @@ UI.Global.Common=Ordinaire
 UI.Global.Div=___
 UI.Global.AltDiv=─────────
 UI.Global.AltDivCentered=<align="center">─────────</align>
-UI.Global.SerialDividerWithSpace=,<sp>
+UI.Global.SerialDividerWithSpace={0},
 UI.Global.ListConjunction=et<sp>
 UI.Global.ListSerialConjunction=, et <sp>
 UI.Global.ListConjuctionOr=<sp>ou<sp>
@@ -48,7 +48,7 @@ UI.Global.2IC={0}, {1}
 UI.Global.2ItemsSpaced={1}, {0}
 UI.Global.Thousands={0} K
 UI.Global.Millions={0} M
-UI.Global.Billions={0} Md
+UI.Global.Billions={0} MD
 UI.Global.Trillions={0} T
 UI.Global.Quadrillions={0}Q
 UI.Global.milli={0} m

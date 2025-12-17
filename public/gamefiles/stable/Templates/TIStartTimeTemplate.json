@@ -8,7 +8,7 @@
    "minute": 0,
    "second": 0,
    "bonusMoney": 0,
-   "bonusInfluence": 0,
+   "bonusInfluence": 200,
    "bonusOps": 0,
    "bonusBoost": 0,
    "bonusMissionControl": 0,
@@ -26,6 +26,8 @@
    "initialStratosphericAerosols_ppm": 0,
    "initialGlobalSeaLevelAnomaly_cm": 0,
    "initialLooseNukes": 0,
+   "globalStartingGDPScaling": 1,
+   "distributeFactionlessHabsAndFleets": true,
    "startingTechs": [
       "WeAreNotAlone",
       "Skywatch",
@@ -44,7 +46,7 @@
    "bonusInfluence": 10,
    "bonusOps": 0,
    "bonusBoost": 200,
-   "bonusMissionControl": 5,
+   "bonusMissionControl": 8,
    "bonusWater": 1200,
    "bonusVolatiles": 500,
    "bonusMetals": 1000,
@@ -59,6 +61,8 @@
    "initialStratosphericAerosols_ppm": 0,
    "initialGlobalSeaLevelAnomaly_cm": 28,
    "initialLooseNukes": 0,
+   "globalStartingGDPScaling": 1,
+   "distributeFactionlessHabsAndFleets": true,
    "startingTechs": [
       "WeAreNotAlone",
       "AdvancedMagnetics",
@@ -67,14 +71,10 @@
    "globalTechsCompleted": [
       "MissionToSpace",
       "OrbitalShipbuilding",
-	  "OrbialHabs",
       "MissiontotheMoon",
       "MissiontoMars",
       "Skywatch",
-      "DeepSystemSkywatch",
-	  "PrinciplesofSpaceWarfare",
-	  "NextGenerationAerospace",
-	  "OrbitalFighters"
+      "DeepSystemSkywatch"
    ],
    "projectsCompleted": [
       "Project_Solid-FuelSpaceRockets",
@@ -91,6 +91,13 @@
    ],
    "startingShipDesigns": [
       "Ship12"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12020",
+      "alienFleet22020",
+      "alienFleet32020",
+      "alienFleet42020",
+      "alienFleet52020"
    ]
 },
  {
@@ -120,6 +127,8 @@
    "initialStratosphericAerosols_ppm": 0,
    "initialGlobalSeaLevelAnomaly_cm": 24,
    "initialLooseNukes": 0,
+   "globalStartingGDPScaling": 1,
+   "distributeFactionlessHabsAndFleets": true,
    "startingTechs": [
       "WeAreNotAlone",
       "Skywatch",
@@ -134,6 +143,173 @@
       "Project_PlatformCore",
       "Project_SolarCollector",
       "Project_SpaceScienceLab"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12020",
+      "alienFleet22020",
+      "alienFleet32020",
+      "alienFleet42020",
+      "alienFleet52020"
+   ]
+},
+ {
+   "dataName": "2026Start",
+   "year": 2026,
+   "month": 1,
+   "day": 31,
+   "hour": 23,
+   "minute": 59,
+   "second": 59,
+   "bonusMoney": 0,
+   "bonusInfluence": 0,
+   "bonusOps": 0,
+   "bonusBoost": 0,
+   "bonusMissionControl": 0,
+   "bonusWater": 0,
+   "bonusVolatiles": 0,
+   "bonusMetals": 0,
+   "bonusNobles": 0,
+   "bonusFissiles": 0,
+   "bonusAntimatter": 0,
+   "bonusExotics": 0,
+   "initialCrashdownRegionTemplateName": "random",
+   "initialAtmosphericCO2_ppm": 425,
+   "initialAtmosphericCH4_ppm": 1.93,
+   "initialAtmosphericN2O_ppm": 0.3392,
+   "initialStratosphericAerosols_ppm": 0,
+   "initialGlobalSeaLevelAnomaly_cm": 25,
+   "initialLooseNukes": 0,
+   "globalStartingGDPScaling": 0.89,
+   "distributeFactionlessHabsAndFleets": true,
+   "startingTechs": [
+      "WeAreNotAlone",
+      "Skywatch",
+      "MissionToSpace"
+   ],
+   "projectsCompleted": [
+      "Project_Solid-FuelSpaceRockets",
+      "Project_Liquid-FuelRockets",
+      "Project_CryogenicLiquid-FuelRockets",
+      "Project_LifeScienceLab",
+      "Project_MaterialsLab",
+      "Project_PlatformCore",
+      "Project_SolarCollector",
+      "Project_SpaceScienceLab"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12020",
+      "alienFleet22020",
+      "alienFleet32020",
+      "alienFleet42020",
+      "alienFleet52020"
+   ]
+},
+ {
+   "dataName": "2070Start",
+   "year": 2070,
+   "month": 5,
+   "day": 31,
+   "hour": 23,
+   "minute": 59,
+   "second": 59,
+   "bonusMoney": 10,
+   "bonusInfluence": 10,
+   "bonusOps": 10,
+   "bonusBoost": 10,
+   "bonusMissionControl": 16,
+   "bonusWater": 10,
+   "bonusVolatiles": 10,
+   "bonusMetals": 10,
+   "bonusNobles": 10,
+   "bonusFissiles": 10,
+   "bonusAntimatter": 0,
+   "bonusExotics": 0,
+   "initialCrashdownRegionTemplateName": "random",
+   "initialAtmosphericCO2_ppm": 560,
+   "initialAtmosphericCH4_ppm": 1.95,
+   "initialAtmosphericN2O_ppm": 0.3798,
+   "initialStratosphericAerosols_ppm": 0,
+   "initialGlobalSeaLevelAnomaly_cm": 51,
+   "initialLooseNukes": 1,
+   "globalStartingGDPScaling": 0.7,
+   "distributeFactionlessHabsAndFleets": false,
+   "startingTechs": [
+      "WeAreNotAlone",
+      "DeepSystemSkywatch",
+      "MissiontotheAsteroids"
+   ],
+   "globalTechsCompleted": [
+      "MissionToSpace",
+      "OrbitalShipbuilding",
+      "MissiontotheMoon",
+      "MissiontoMars",
+      "Skywatch",
+      "OutpostHabs",
+      "DeepSpacePropulsionConcepts",
+      "NuclearFissioninSpace",
+      "SolidCoreFissionSystems",
+      "AdvancedHeatManagementConcepts",
+      "AdvancedCarbonManipulation",
+      "AdvancedChemicalRocketry",
+      "AdvancedMagnetics",
+      "MassDrivers",
+      "SpaceMiningandRefining"
+   ],
+   "projectsCompleted": [
+      "Project_Solid-FuelSpaceRockets",
+      "Project_Liquid-FuelRockets",
+      "Project_CryogenicLiquid-FuelRockets",
+      "Project_LifeScienceLab",
+      "Project_MaterialsLab",
+      "Project_PlatformCore",
+      "Project_SolarCollector",
+      "Project_SpaceScienceLab",
+      "Project_SpaceDock",
+      "Project_OutpostCore",
+      "Project_CompositeArmor",
+      "Project_PotassiumHeatSink",
+      "Project_SolidCoreFissionReactorI",
+      "Project_FissionPile",
+      "Project_OutpostMiningComplex",
+      "Project_NervaDrive",
+      "Project_ImprovedInterplanetaryRockets",
+      "Project_SuperheavyRockets",
+      "Project_LiquidHydrogenContainment",
+      "Project_Warships",
+      "Project_EnergyLab",
+      "Project_MilitaryScienceLab",
+      "Project_SocialScienceLab",
+      "Project_InformationScienceLab",
+      "Project_Quarters",
+      "Project_EastAfricanFederation",
+      "Project_RegionalAfricanUnions",
+      "Project_NordicFederation",
+      "Project_CaribbeanCommunity",
+      "Project_EuropeanDecolonization",
+      "Project_SouthAmericanUnion",
+      "Project_GulfCooperationCouncil",
+      "Project_SoutheastAsianAlliance",
+      "Project_CentralAsianUnion",
+      "Project_CentralAmericanConfederation"
+   ],
+   "startingShipDesigns": [
+      "2070Gunship",
+      "2070Escort",
+      "2070Corvette"
+   ],
+   "startingSurveyedSpaceBodies": [
+      "Luna",
+      "Mars",
+      "Phobos",
+      "Deimos",
+      "433Eros"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12070",
+      "alienFleet22070",
+      "alienFleet32070",
+      "alienFleet42070",
+      "alienFleet52070"
    ]
 }
 ]

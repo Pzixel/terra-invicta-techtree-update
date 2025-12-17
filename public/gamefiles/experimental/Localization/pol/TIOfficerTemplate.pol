@@ -14,7 +14,7 @@ TIOfficerTemplate.displayName.Officer_Marine=Oficer desantu
 TIOfficerTemplate.displayName.Officer_Supply=Oficer zaopatrzenia
 TIOfficerTemplate.displayName.Officer_Chief=Szef załogi
 
-TIOfficerTemplate.description.Officer_Admiral=Wysokiej rangi oficer, który zapewnia premie całej flocie. Premie zapewnia tylko oficer flagowy na mostku flagowym, który redukuje <color=#FFFFFFFF><sprite name=mission_control></color> floty.
+TIOfficerTemplate.description.Officer_Admiral=Wysokiej rangi oficer, który zapewnia premie całej flocie. Premie do <color=#FFFFFFFF><sprite name=mission_control></color> daje tylko jeden admirał na flotę.
 TIOfficerTemplate.description.Officer_Captain=Dowódca okrętu.
 TIOfficerTemplate.description.Officer_First=Zastępca dowódcy okrętu.
 TIOfficerTemplate.description.Officer_FireControl=Oficer dowodzący artylerią rakietową okrętu.
@@ -27,7 +27,7 @@ TIOfficerTemplate.description.Officer_Medical=Oficer odpowiedzialny za stan i sp
 TIOfficerTemplate.description.Officer_CIC=Oficer odpowiedzialny za funkcjonowanie systemu kierowania walką i obrony aktywnej.
 TIOfficerTemplate.description.Officer_Intel=Oficer odpowiedzialny za walkę informacyjną.
 TIOfficerTemplate.description.Officer_Marine=Oficer dowodzący siłami desantowymi na pokładzie.
-TIOfficerTemplate.description.Officer_Supply=Oficer odpowiedzialny za zaopatrzenie okrętu.
+TIOfficerTemplate.description.Officer_Supply=Oficer odpowiedzialny za zaopatrzenie okrętu i odzysk materiałów.
 TIOfficerTemplate.description.Officer_Chief=Podoficer będący przedstawicielem załogi.
 
 TIOfficerTemplate.Officer_Admiral_1=Kontradmirał
@@ -79,7 +79,7 @@ TIOfficerTemplate.Officer_Supply_3=Porucznik
 TIOfficerTemplate.Officer_Chief_3=Młodszy chorąży
 
 TIOfficerTemplate.MaxPerShip=– Na każdym statku może znajdować się maks. {0} oficer(ów) tego rodzaju.
-TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=– Na statkach z kadłubem {1} może znajdować się łącznie {0} oficer(ów) dowolnego rodzaju, nie licząc oficerów flagowych i oficerów dowodzących.	// number, hull display name
+TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=– Na statkach z kadłubem {0} może znajdować się łącznie {1} oficer(ów) dowolnego rodzaju, nie licząc oficerów flagowych i oficerów dowodzących.	// number, hull display name
 TIOfficerTemplate.MaxTotalOfficersPerShip=– Maksymalna liczba oficerów dowolnego typu, jaka może znajdować się na statku z danym kadłubem, nie licząc oficerów flagowych i oficerów dowodzących.
 TIOfficerTemplate.CrewMin=– Wymaga minimum {0} członków załogi.
 TIOfficerTemplate.FlagBridge=– Wymaga modułu {0}.	// name of flag bridge ship utility module
@@ -121,6 +121,7 @@ TIOfficerTemplate.MaxSurvivableCombatAcceleration=– Zwiększa maksymalne przy�
 TIOfficerTemplate.MaxSurvivableCruiseAcceleration=– Zwiększa maksymalne przyśpieszenie przelotowe statku o {0} g.
 TIOfficerTemplate.RadiationDamageReduction=– Zmniejsza uszkodzenia powodowane przez promieniowanie miotaczy cząstek o {2}.
 TIOfficerTemplate.NoDemotionOnTransfer=– Nie utraci poziomu po przeniesieniu na inny statek.
+TIOfficerTemplate.NoCostToTransfer=– Przeniesienie oficera na inny statek nie wymaga użycia <color=#FFFFFFFF><sprite name="influence"></color>.
 
 TIOfficerTemplate.OfficerShipNameAndJob={0}: {1}, {2}	// ship name: rank + name, job
 TIOfficerTemplate.OfficerNameAndJob={0}, {1}	// rank + name, job

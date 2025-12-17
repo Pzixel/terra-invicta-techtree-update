@@ -748,7 +748,7 @@
          "value": 1.1
       },
       {
-         "level": 1,
+         "level": 2,
          "effect": "DamageControlSpeed",
          "value": 1.2
       },
@@ -761,9 +761,6 @@
          "level": 3,
          "effect": "ShipMissionControl",
          "value": -1
-      },
-      {
-         "level": 3
       }
    ]
 }

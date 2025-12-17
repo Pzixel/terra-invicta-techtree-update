@@ -75,6 +75,7 @@ export default function LanguageSelector({
             textTransform: 'none',
             px: 1.5,
             fontWeight: 600,
+            display: 'none'
           },
         }}
       >

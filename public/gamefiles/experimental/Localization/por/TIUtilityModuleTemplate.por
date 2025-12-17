@@ -1,5 +1,5 @@
 TIUtilityModuleTemplate.displayName.ISRUModule=Módulo ISRU
-TIUtilityModuleTemplate.description.ISRUModule=O módulo de utilização de recursos <i>in-situ</i> permitirá que as naves se reabasteçam em áreas de habitat sem melhoras que produzam a matéria-prima usada no propelente da nave. Naves que usam <h>qualquer coisa</h> como propelente podem se reabastecer em qualquer área. Proibido para naves que usem antimatéria como propelente.
+TIUtilityModuleTemplate.description.ISRUModule=O módulo de utilização de recursos in-situ permitirá que as naves se reabasteçam em áreas de habitat sem melhoras que produzam a matéria-prima usada no propelente da nave. Naves que usam <h>qualquer coisa</h> como propelente podem se reabastecer em qualquer área. Proibido para naves que usem antimatéria como propelente.
 TIUtilityModuleTemplate.displayName.RemassScoop=Coletor de massa de reação
 TIUtilityModuleTemplate.description.RemassScoop=O coletor de massa de reação confere propriedades aerodinâmicas à nave que previnem danos durante a aerofrenagem. Ele permite também que a nave reabasteça suas reservas de propelente de <h>hidrogênio</h> com <color=#FFFFFFFF><sprite name="water"></color> como seu único componente nas órbitas adjacentes a planetas jovianos. Naves que usam <h>qualquer coisa</h> como propelente também podem se reabastecer de propelente nos planetas jovianos.
 TIUtilityModuleTemplate.displayName.MuonSpiker=Injetor de múons
@@ -9,7 +9,7 @@ TIUtilityModuleTemplate.description.NeutroniumSpiker=Pequenas quantidades de nê
 TIUtilityModuleTemplate.displayName.AntimatterSpiker=Injetor de antimatéria
 TIUtilityModuleTemplate.description.AntimatterSpiker=Pequenas quantidades de antimatéria são usadas para catalizar reações nucleares e conceder um bônus de {1} de empuxo para propulsores de fusão e de fissão. 
 TIUtilityModuleTemplate.displayName.MobileSpaceScienceLab=Laboratório de ciência espacial móvel
-TIUtilityModuleTemplate.description.MobileSpaceScienceLab=Uma equipe de cientistas se junta à tripulação e confere um bônus de {5} à pesquisa de ciência espacial, permitindo que a nave prospecte corpos celestes em busca de áreas adequadas para bases a partir de órbitas adjacentes.
+TIUtilityModuleTemplate.description.MobileSpaceScienceLab=Uma equipe de cientistas se junta à tripulação, permitindo que a nave prospecte corpos celestes em busca de áreas adequadas para bases a partir de órbitas adjacentes e confere um bônus de {5} à pesquisa de ciência espacial, contanto que a frota não esteja atracada em um habitat ou no sistema Terra-Luna.
 TIUtilityModuleTemplate.displayName.RepairBay=Oficina de reparos
 TIUtilityModuleTemplate.description.RepairBay=Uma equipe de resposta a danos maior e uma oficina para conduzir reparos mais extensivos longe dos estaleiros.<br><br/>Aumenta consideravelmente a efetividade das suas equipes de resposta a danos durante combates. Fora de combate, a oficina de reparos permite que os módulos de ponte, suporte à vida, bateria e resposta a danos sejam parcialmente reparados e aumenta o limite de reparos de módulos destruídos de 5% a 25%.<br><br/><h>Atenção: alguns módulos, como as armas e os módulos de utilidade só podem ser reparados em estações se forem destruídos.</h>
 TIUtilityModuleTemplate.displayName.SalvageBay=Doca de recuperação
@@ -31,7 +31,7 @@ TIUtilityModuleTemplate.description.LaserEngine=Aumenta a potência de todas as 
 TIUtilityModuleTemplate.displayName.AdvancedLaserEngine=Motor laser avançado
 TIUtilityModuleTemplate.description.AdvancedLaserEngine=Aumenta a potência de todas as armas laser ofensivas em {0} MJ, para que as armas laser desta nave causem mais dano com maior alcance. Este bônus é reduzido em armas apenas de defesa de ponto. Este bônus é cumulativo com outros módulos de propulsor laser.
 TIUtilityModuleTemplate.displayName.Cyclotron=Ciclotron
-TIUtilityModuleTemplate.description.Cyclotron=Aumenta a força de todas as armas de partículas em {13} MJ, para elas causem mais dano. Este bônus é reduzido em armas apenas de defesa de ponto. Este bônus é cumulativo com outros módulos de ciclotron.
+TIUtilityModuleTemplate.description.Cyclotron=Aumenta a força ofensiva de todas as armas de partículas em {13} MJ, para elas causem mais dano. Este bônus é cumulativo com outros módulos de ciclotron.
 TIUtilityModuleTemplate.displayName.VectorThrusters=Impulsores de vetor
 TIUtilityModuleTemplate.description.VectorThrusters=Propulsores rotacionais adicionais que concedem mais {12} Newtons de força, para que rotações de nave mais rápidas sejam executadas. <h>As naves muito pequenas podem não se beneficiar se o máximo de rotação possível já ultrapassar os limites humanos.</h>
 TIUtilityModuleTemplate.displayName.LiquidHydrogenContainment=Reserva de hidrogênio líquido
@@ -115,13 +115,13 @@ TIUtilityModuleTemplate.description.AlienSurveillanceOrbital=A função deste m�
 TIUtilityModuleTemplate.displayName.AlienSurveillanceRing=Desconhecido
 TIUtilityModuleTemplate.description.AlienSurveillanceRing=A função deste módulo é desconhecida.
 
-TIUtilityModuleTemplate.description.RequiresHydrogenPropellant=<h>Requere um propulsor que use hidrogênio como propelente.</h>
+TIUtilityModuleTemplate.description.RequiresHydrogenPropellant=<h>Requere um propulsor que use hidrogênio (não produtos de reação) como propelente.</h>
 TIUtilityModuleTemplate.description.RequiresFissionDrive=<h>Requere um propulsor de fusão nuclear.</h>
-TIUtilityModuleTemplate.description.RequiresNuclearDrive=<h>Requere um propulsor nuclear.</h>
+TIUtilityModuleTemplate.description.RequiresNuclearDrive=<h>Requere um propulsor de fusão ou fissão térmica.</h>
 TIUtilityModuleTemplate.description.RequiresFusionDrive=<h>Requere um propulsor de fusão nuclear.</h>
 TIUtilityModuleTemplate.description.RequiresNonISRUDrive=<h>Não é permitido para naves com propulsores que tenham capacidade ISRU de fábrica.</h>
 TIUtilityModuleTemplate.description.ConsTier=<h>Permitido apenas em cascos maiores.</h>
 TIUtilityModuleTemplate.description.ImmuneToDamage=<h>Este módulo não pode ser danificado.</h>
 TIUtilityModuleTemplate.description.RepairOnlyWhenMarineModulePresent=<h>Só pode receber reparos em habitats que tenham tanto um módulo de construção de naves quanto um módulo de fuzileiros. Construir em um habitat sem um módulo de fuzileiros fará com que este módulo permaneça desativado até que seja reparado.</h>
 TIUtilityModuleTemplate.description.RepairOnlyWhenConstructionModulePresent=<h>Só pode receber reparos em habitats que tenham tanto um módulo de construção de naves quanto um módulo que possa fundar habitats. Construir em um habitat sem um módulo de fundação de habitats fará com que este módulo permaneça desativado até que seja reparado.</h>
-
+TIUtilityModuleTemplate.description.FullRepairCost=<h>O conserto deste módulo requere o pagamento integral do custo de construção da parte danificada em vez dos {0} normais.</h>

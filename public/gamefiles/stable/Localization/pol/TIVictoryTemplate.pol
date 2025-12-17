@@ -34,6 +34,19 @@ TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Zniszcz wszy
 TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Zniszcz wszystkie habitaty poziomu {0} lub wyższego należące do kosmitów i ludzkich frakcji ekstremistycznych ({2}) w układzie planetarnym {1}.
 TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Zniszcz wszystkie habitaty poziomu {0} lub wyższego należące do kosmitów i ludzkich frakcji ekstremistycznych ({2}) przy następujących ciałach niebieskich: {1}.
 
+TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem=Zniszcz wszystkie bazy kosmitów poziomu {0} lub wyższego w układzie planetarnym {1}.
+TIVictoryCondition.FreeBases_DefeatAliens_Region=Zniszcz wszystkie bazy kosmitów poziomu {0} lub wyższego przy następujących ciałach niebieskich: {1}.
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem=Zniszcz wszystkie bazy poziomu {0} lub wyższego należące do kosmitów i ich ludzkich popleczników ({2}) w układzie {1}.
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_Region=Zniszcz wszystkie bazy poziomu {0} lub wyższego należące do kosmitów i ich ludzkich popleczników ({2}) przy następujących ciałach niebieskich: {1}.
+TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem=Zniszcz wszystkie habitaty poziomu {0} lub wyższego nienależące do naszej frakcji w układzie planetarnym {1}.
+TIVictoryCondition.FreeBases_DefeatEveryone_Region=Zniszcz wszystkie habitaty poziomu {0} lub wyższego nienależące do naszej frakcji przy następujących ciałach niebieskich: {1}.
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem=Zniszcz wszystkie bazy poziomu {0} lub wyższego należące do frakcji przeciwnych kosmitom ({2}) w układzie planetarnym {1}.
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=Zniszcz wszystkie bazy poziomu {0} lub wyższego należące do frakcji przeciwnych kosmitom ({2}) przy następujących ciałach niebieskich: {1}.
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=Zniszcz wszystkie bazy poziomu {0} lub wyższego należące do frakcji niesprzymierzonych z kosmitami ({2}) w układzie planetarnym {1}.
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=Zniszcz wszystkie bazy poziomu {0} lub wyższego należące do frakcji niesprzymierzonych z kosmitami ({2}) przy następujących ciałach niebieskich: {1}.
+TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem=Zniszcz wszystkie bazy poziomu {0} lub wyższego należące do kosmitów i ludzkich frakcji ekstremistycznych ({2}) w układzie planetarnym {1}.
+TIVictoryCondition.FreeBases_DefeatExtremists_Region=Zniszcz wszystkie bazy poziomu {0} lub wyższego należące do kosmitów i ludzkich frakcji ekstremistycznych ({2}) przy następujących ciałach niebieskich: {1}.
+
 TIVictoryCondition.FreeFleets_DefeatAliens_All=Zniszcz wszystkie floty kosmitów o sile bojowej {0} lub większej.
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Zniszcz wszystkie floty o sile bojowej {0} lub większej należące do kosmitów i ich ludzkich popleczników ({2}).
 TIVictoryCondition.FreeFleets_DefeatEveryone_All=Zniszcz wszystkie floty o sile bojowej {0} lub większej nienależące do naszej frakcji. 
@@ -54,4 +67,9 @@ TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Zniszcz wszys
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Zniszcz wszystkie floty o sile bojowej {0} lub większej należące do kosmitów i ludzkich frakcji ekstremistycznych ({2}) w układzie planetarnym {1}.
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Zniszcz wszystkie floty o sile bojowej {0} lub większej należące do kosmitów i ludzkich frakcji ekstremistycznych ({2}) przy następujących ciałach niebieskich: {1}.
 
+TIVictoryCondition.BasePresence_MajorPlanets=Posiadaj całkowicie ukończoną bazę powierzchniową z wszystkimi modułami co najmniej poziomu {0}, zasilanymi i działającymi, w następujących układach planetarnych (przy ciele głównym lub dowolnym z jego księżyców):
+
 TIVictoryCondition.Complete=Gotowe
+TIVictoryCondition.Incomplete=Niegotowe
+TIVictoryCondition.Colon={0}: {1}
+

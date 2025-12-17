@@ -24,16 +24,16 @@ TIShipArmorTemplate.displayName.AlienExoticArmor=Blindaje exótico alienígena
 TIShipArmorTemplate.description.AlienExoticArmor=Un material de origen alienígena con propiedades exóticas.
 
 TIShipArmorTemplate.ResourcesPerTon=Coste por tonelada:<rcol>{0}</rcol>
-TIShipArmorTemplate.KineticsResistance=Bonificación a la resistencia de {0} ante daños cinéticos
-TIShipArmorTemplate.LaserResistance=Bonificación a la resistencia de {0} ante daños por láser
-TIShipArmorTemplate.ChippingResistance=Bonificación a la resistencia de {0} ante golpes
-TIShipArmorTemplate.KineticsVulnerability=Las armas cinéticas infligen {0} de daño adicional
-TIShipArmorTemplate.LaserVulnerability=Los láseres infligen {0} de daño adicional
-TIShipArmorTemplate.ChippingVulnerability=Los golpes infligen {0} de daño adicional al blindaje
-TIShipArmorTemplate.XRayResistance=Bonificación a la resistencia de {0} ante los rayos X que emiten las armas de partículas en función del acero
-TIShipArmorTemplate.XRayVulnerability=Los rayos X que emiten las armas de partículas infligen {0} de daño adicional
-TIShipArmorTemplate.BaryonicResistance=Bonificación a la resistencia de {0} ante los neutrones que emiten las armas de partículas
-TIShipArmorTemplate.BaryonicVulnerability=Los neutrones que emiten las armas de partículas infligen {0} de daño adicional
+TIShipArmorTemplate.KineticsResistance=Bonificación a la resistencia ante daños cinéticos:<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserResistance=Bonificación a la resistencia ante daños por láser:<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingResistance=Bonificación a la resistencia ante golpes:<rcol>{0}</rcol>
+TIShipArmorTemplate.KineticsVulnerability=Daño adicional con armas cinéticas:<rcol>{0}</rcol>
+TIShipArmorTemplate.LaserVulnerability=Daño adicional con láseres:<rcol>{0}</rcol>
+TIShipArmorTemplate.ChippingVulnerability=Golpes adicionales en el blindaje por golpe:<rcol>{0}</rcol>
+TIShipArmorTemplate.XRayResistance_Header=Puntos para reducir a la mitad el daño de rayos X
+TIShipArmorTemplate.XRayResistance=Puntos para reducir a la mitad el daño de rayos X: <rcol>{0}</rcol>
+TIShipArmorTemplate.BaryonicResistance_Header=Puntos para reducir a la mitad el daño de bariones
+TIShipArmorTemplate.BaryonicResistance=Puntos para reducir a la mitad el daño de bariones: <rcol>{0}</rcol>
 
 TIShipArmorTemplate.ThicknessPerPoint=Grosor por punto:<rcol>{0} cm</rcol>
 

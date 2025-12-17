@@ -345,7 +345,7 @@ HabModuleSpecialRule.TechBonusDiminishingReturns=-All research category bonuses 
 HabModuleSpecialRule.LEOBonusArmyCombatValue=-Adds +{2} to the miltech value of our armies during combat if the module is in an Earth interface orbit, up to a maximum of +0.3 across all faction habs         								// Military Science Labs; bonus to armies in combat
 HabModuleSpecialRule.LEOBonusPropagandaStrength=-Adds +{0} strength to our successful Public Campaign missions, if the module is in an Earth interface orbit, to maximum of +9 across all faction habs 										// Social Science
 HabModuleSpecialRule.LEOBonusAlienDetection=-Grants +{3} bonus to alien detection on Earth if the module is in an Earth interface orbit, to a maximum of +9 across all faction habs             												// Xenology; bonus to alien detection
-HabModuleSpecialRule.LEOBonusHumanDetection=-Grants +{3} bonus to detecting enemy councilors on Earth if the module is in an Earth interface orbit, to a maximum of +9 across all faction habs             									// Xenology; bonus to alien detection
+HabModuleSpecialRule.LEOBonusHumanDetection=-Grants +{3} bonus to detecting enemy councilors on Earth if the module is in an Earth interface orbit, to a maximum of +9 across all faction habs             									
 HabModuleSpecialRule.LEOBonusMiltech=-Grants +{1} bonus to our investments in the Military priority if module is in an Earth interface orbit, up to a maximum of 30% from all faction habs
 HabModuleSpecialRule.LEOBonusWelfare=-Grants +{1} bonus to our investments in the Welfare priority if module is in an Earth interface orbit, up to a maximum of 30% from all faction habs
 HabModuleSpecialRule.LEOBonusLaunchFacilities=-Grants +{1} bonus to our investments in the Boost priority if module is in an Earth interface orbit, up to a maximum of 30% from all faction habs
@@ -357,9 +357,9 @@ HabModuleSpecialRule.LEOBonusOppression=-Grants +{1} bonus to our investments in
 HabModuleSpecialRule.LEOBonusEnvironment=-Grants +{1} bonus to our investments in the Environment priority if module is in an Earth interface orbit, up to a maximum of 30% from all faction habs
 HabModuleSpecialRule.LEOBonusGovernment=-Grants +{1} bonus to our investments in the Government priority if module is in an Earth interface orbit, up to a maximum of 30% from all faction habs
 HabModuleSpecialRule.LEOControlPointCapacity=-Control Point capacity bonuses only if hab is in a Low Earth Orbit
-HabModuleSpecialRule.AtrocityToKill=-Destroying this module is an atrocity. 
-HabModuleSpecialRule.AtrocityToKill_Populous=-Destroying this module in the Earth-Luna system or on or above worlds with 50,000 population is an atrocity.
-HabModuleSpecialRule.AtrocityToLose=-If this module is destroyed by a hostile enemy, the owning faction will suffer public opinion damage for failing to protect its vulnerable inhabitants. The damage will scale with the number of atrocities committed by the faction.
+HabModuleSpecialRule.AtrocityToKill=-Destroying this module is an atrocity
+HabModuleSpecialRule.AtrocityToKill_Populous=-Destroying this module in the Earth-Luna system or on or above worlds with 50,000 population is an atrocity
+HabModuleSpecialRule.AtrocityToLose=-If this module is destroyed by a hostile enemy, the owning faction will suffer negative public opinion for failing to protect its vulnerable inhabitants. The degree of negative public opinion is based on the number of atrocities the faction has previously committed.
 HabModuleSpecialRule.Stability=-Module confers {0} malus to Control Space Asset missions at a hab and costs no money upkeep for module's crew
 HabModuleSpecialRule.Efficiency=-Module confers {1} bonus to hab's production of <color=#FFFFFFFF><sprite name="currency"><sprite name="influence"><sprite name="ops"><sprite name="research"><sprite name="water"><sprite name="metal"><sprite name="metal_noble"><sprite name="volatiles"><sprite name="radioactive"></color>
 HabModuleSpecialRule.HarvestHelium3=-When active, all of this faction's Helion fusion drives do not use any fissiles in its propellant load, and heavy fusion modules do not use fissiles in their construction or ongoing support costs
@@ -367,8 +367,8 @@ HabModuleSpecialRule.UsesHelium3=-This fusion module is fueled with Helium-3. If
 HabModuleSpecialRule.RepairsMarineShipModules=-This module, in conjunction with a ship construction module, allows for construction and repair of shipborne modules with Marines
 HabModuleSpecialRule.RepairsHabKitShipModules=-This module, in conjunction with a ship construction module, allows for construction and repair of shipborne modules that found new habs
 HabModuleSpecialRule.StaticHab=<skip/>
-HabModuleSpecialRule.FleetTargeting=-Grants +{1} to all defending ships' targeting rolls to overcome enemy ECM.
-HabModuleSpecialRule.FleetECM=-Grants +{1} to all defending ships' ECM value.
+HabModuleSpecialRule.FleetTargeting=-Grants +{1} to targeting rolls to overcome ECM; for station modules this applies to all defending ships.
+HabModuleSpecialRule.FleetECM=-Grants +{1} ECM value; for station modules this applies to all defending ships.
 HabModuleSpecialRule.SolarMirror=-Grants +{0}<color=#FFFFFFFF><sprite name=hab_power></color> production to all solar power modules, multiplied by solar module tier, for faction bases on the space body it orbits.<br/>-Bonus also applies on a moon if the module is the L-1, L-4, or L-5 points between the moon and its parent planet.<br/>-If placed in the L-1 point between a planet and the sun, the bonus applies to all bases in the planetary system.<br/>-Mass increases based on distance from the Sun<br/>-Solar panels may produce a maximum of {4}x their baseline maximum power value
 
 TIHabModuleTemplate.OnePerHab=A hab may only have one of this type of module.

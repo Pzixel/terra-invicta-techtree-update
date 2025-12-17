@@ -1,6 +1,6 @@
 UI.MissionPhase.ConfirmAssignments=Potwierdź przydziały
 UI.MissionPhase.ConfirmPromptHeader=Uwaga!
-UI.MissionPhase.ConfirmPrompt=Nie wszystkim twoim konsultantom przydzielono misje.<br/>Czy na pewno chcesz zakończyć fazę misji?
+UI.MissionPhase.ConfirmPrompt=Nie wszystkim twoim konsultantom przydzielono misje.<br/>Czy na pewno chcesz zakończyć fazę przydziału misji?
 UI.MissionPhase.ConfirmYes=Potwierdzam
 UI.MissionPhase.ConfirmNo=O nie!
 UI.MissionPhase.Success=Sukces
@@ -18,3 +18,4 @@ UI.MissionPhase.BadTrait={0}: {1}
 UI.MissionPhase.NoTargetsHelp=Ten konsultant nie może wykonać tej misji, ponieważ obecnie nie ma dla niej odpowiednich celów. Cele mogą być unieważnione z wielu powodów, np.:
 UI.MissionPhase.Unknown=Brak danych
 UI.MissionPhase.AIWorking=Wrogowie planują działania
+UI.MissionPhase.CantAfford=Ten konsultant nie może wykonać tej misji, ponieważ frakcji na nią nie stać.

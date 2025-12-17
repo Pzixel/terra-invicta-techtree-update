@@ -79,6 +79,46 @@
    "damage_MJ": 11
 },
  {
+   "dataName": "40mmNoseAutocannon",
+   "friendlyName": "40mm Nose Autocannon",
+   "mount": "HalfNose",
+   "requiredProjectName": "Project_40mmAutocannon",
+   "crew": 0,
+   "attackMode": true,
+   "defenseMode": true,
+   "baseWeaponMass_tons": 2,
+   "cooldown_s": 4,
+   "salvo_shots": 4,
+   "intraSalvoCooldown_s": 0.5,
+   "efficiency": 1,
+   "flatChipping": 0.005,
+   "magazine": 200,
+   "ammoMass_kg": 10,
+   "muzzleVelocity_kps": 2.6,
+   "bombardmentValue": 0,
+   "warheadMass_kg": 6,
+   "targetingRange_km": 200,
+   "pivotRange_deg": 15,
+   "isPointDefenseTargetable": false,
+   "weightedBuildMaterials": {
+      "volatiles": 0.05,
+      "metals": 0.75,
+      "nobleMetals": 0.2
+   },
+   "ammoMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.495,
+      "nobleMetals": 0.005
+   },
+   "iconResource": "shipbuildericons/ICO_30mmAutocannon",
+   "modelResource": "shipweapons/30mm_Autocannon",
+   "effectResource": "spaceCombat/MuzzleFlashFlame",
+   "shotModelResource": "spaceCombat/BulletAutocannon",
+   "fireSoundFXResource": "event:/SFX/Game_SFX/Guns/trig_SFX_AutoCannon",
+   "impactVisualFXResource": "spaceCombat/ImpactOrange",
+   "impactSoundFXResource": "event:/SFX/Game_SFX/Ship_Fire_Impacts/trig_SFX_BlasterMediumVeryLoudHighMid020MonoRR"
+},
+ {
    "dataName": "40mmAutocannon",
    "friendlyName": "40mm Autocannon",
    "mount": "OneHull",

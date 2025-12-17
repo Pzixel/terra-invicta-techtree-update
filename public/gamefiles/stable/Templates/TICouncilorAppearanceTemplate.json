@@ -2387,7 +2387,7 @@
  {
    "dataName": "HydraImage01",
    "string": "Hydra_01",
-   "enable": true,
+   "enable": false,
    "idleVideoYoung": "charactervideos/Hydra_01",
    "portraitYoung": "characterportraits/Hydra_01",
    "iconYoung": "charactericons/Hydra_01_icon",
@@ -3380,7 +3380,6 @@
  {
    "dataName": "CharImage233",
    "string": "M_AFR_08",
-   "disable": false,
    "enable": true,
    "notes": "bad - young and old video skip",
    "idleVideoYoung": "charactervideos/M_AFR_08",
@@ -4061,7 +4060,7 @@
       "Male",
       "NonBinary"
    ],
-   "IslamicHeadwear": true,
+   "regionalHeadwear": true,
    "allowedAncestries": [
       "Asian"
    ]
@@ -4097,7 +4096,7 @@
       "Male",
       "NonBinary"
    ],
-   "IslamicHeadwear": true,
+   "regionalHeadwear": true,
    "allowedAncestries": [
       "Asian"
    ],
@@ -4126,7 +4125,7 @@
       "Male",
       "NonBinary"
    ],
-   "IslamicHeadwear": true,
+   "regionalHeadwear": true,
    "allowedAncestries": [
       "Asian"
    ],

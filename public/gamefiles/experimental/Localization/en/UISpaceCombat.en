@@ -119,7 +119,7 @@ UI.Precombat.PostChase=<br/>Both fleets will be unavailable for orders until {0}
 UI.Precombat.EnemyArmedHab=<br/>We must disable all armed hab modules on {0} to win the battle. We may destroy the station if we are victorious. Fleets with assault forces may seize the station.
 UI.Precombat.EnemyUnarmedHab=<br/>{0} is unarmed. We may destroy it if we are victorious over any fleet defending it. Fleets with assault forces may seize the station.
 UI.Precombat.EnemyUnarmedHab_2=<br/>{0} is unarmed. We will dock with it. We can destroy it, and fleets with assault forces can attempt to seize the station.
-UI.Precombat.EnemyUnarmedHab_3=<br/>{0} is unarmed. Our Exofighters will destroy it if we are victorious over any fleet defending it.
+UI.Precombat.EnemyUnarmedHab_3=<br/>{0} is unarmed. Our exofighters will destroy it if we are victorious over any fleet defending it.
 UI.Precombat.Pincer=ENGAGE
 UI.Precombat.PincerDetail=Split our fleet and encircle the enemy to prevent evasion. Enemy will engage the weaker of our two fleets.
 UI.Precombat.ChaseMechanics=In a pursuit, the two fleets' relative accelerations determine how the chase will play out. If one fleet can significantly out-accelerate its opponent, it can force the engagement, or dodge it for little Delta-V. Two fleets with similar accelerations will engage in a slow stern chase, potentially spending a great deal of DV to resolve, if both sides commit to spending it.<br/><br/>The pursuit ends when the chasing fleet closes a distance of {0} times the maximum weapons targeting range of any ship in either fleet ({1} km), or the evading fleet extends the distance between to the two fleets by the same amount.<br/><br/>In some cases, the pursuing fleet may be able to break up in order to force combat. This will occur if some ships can catch the fleet, or the fleet is large enough to be able to surround the enemy fleet. 
@@ -134,7 +134,7 @@ UI.Precombat.AlienExofighter=Alien Exofighter
 UI.Precombat.AddFightersButton=Add Exofighters
 UI.Precombat.AddFightersDetail=Spend {0} to launch surface-to-orbit fighters from Earth's nations you control to this combat. 
 UI.Precombat.STOFightersHeader=Scramble Exofighters
-UI.Precombat.STOFightersExplainer=Allocate and arm orbital fighters from your nations to this combat. The total <sprite name="boost"> cost to launch is below.
+UI.Precombat.STOFightersExplainer=Allocate and arm exofighters from your nations to this combat. The total <sprite name="boost"> cost to launch is below.
 UI.Precombat.STOFightersResetButtonText=Clear All
 UI.Precombat.STOFightersLaunchEverybodyButtonText=Launch All
 UI.Precombat.STOCopyLoadoutTip=Apply this missile loadout to all other fighters.

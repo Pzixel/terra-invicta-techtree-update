@@ -5,6 +5,7 @@ UI.StartScreen.Loading=ロード中…
 UI.StartScreen.Continue=続きから
 UI.StartScreen.NewGame=はじめから
 UI.StartScreen.LoadGame=ゲームのロード
+UI.StartScreen.OpenSaveFolder=フォルダーを開く
 UI.StartScreen.Options=設定
 UI.StartScreen.SkirmishMode=前哨戦
 UI.StartScreen.SetDefaults=デフォルトに設定
@@ -64,8 +65,7 @@ UI.StartScreen.Mods.UpdateModSuccess=正常にMODをアップデートしまし�
 UI.StartScreen.Mods.UpdateModFromFolder=フォルダーからWorkshop MODを更新する
 UI.StartScreen.Mods.UploadWorkshopTabTitle=Steam Workshopにアップロードする
 UI.StartScreen.Mods.UpdateWorkshopTabTitle=Steam Workshopの既存MODを更新する
-UI.StartScreen.Mods.Tag=タグ
-UI.StartScreen.Mods.Tags=タグ
+UI.StartScreen.Mods.SelectTag=タグ（オプション）
 UI.StartScreen.Mods.UploadFailGeneric=MODのアップロードに失敗しました。
 UI.StartScreen.Mods.UpdateFailGeneric=MODの更新に失敗しました。
 UI.StartScreen.Mods.Update=更新
@@ -73,8 +73,20 @@ UI.StartScreen.Mods.UpdateConfirmation=Steam Workshopで、このMODの既存の
 UI.StartScreen.Mods.ModToolsInfo1=MODはRootディレクトリ内のMods/Enabled/、またはMods/Disabledフォルダ内にあります。Mods/EnabledフォルダにあるMODは、起動時に有効になります。Mods/DisabledフォルダにあるMODは、起動時にアンインストールされ、有効にするまでフォルダ内に保存されます。MODには、MOD専用のフォルダが必要です。フォルダ内では、すべてのMODのコンテンツをルートに置く必要があります。MODのメタデータを読み込むために、modinfo.jsonファイルが必要です。
 UI.StartScreen.Mods.ModToolsInfo2=MODフォルダ内のテンプレートファイルがパースされ、json内の既存のエントリはデフォルトのゲームデータを上書きし、json内の新しいエントリが追加されます。MODフォルダ内のAssetbundlesは起動時にロードされ、ゲームにグラフィックアセットを追加することができます。MODフォルダ内のローカライズされたテキストファイルは、ファイル名の言語に対応したテキストエントリーを追加＆置換します。例えば、.enファイルは、そのテンプレートの英語テキストエントリーを置換します。
 UI.StartScreen.Mods.ModsInSave=使用中のMOD
+UI.StartScreen.Mods.Checking=MODの更新を確認中…
+UI.StartScreen.Mods.Tags.0=なし
+UI.StartScreen.Mods.Tags.1=バランス
+UI.StartScreen.Mods.Tags.2=ゲームプレイ
+UI.StartScreen.Mods.Tags.3=トータルコンバージョン
+UI.StartScreen.Mods.Tags.4=翻訳
+UI.StartScreen.Mods.Tags.5=UI.
+UI.StartScreen.Mods.Tags.6=評議員
+UI.StartScreen.Mods.Tags.7=宇宙船
+UI.StartScreen.Mods.Tags.8=ユーティリティ
 UI.StartScreen.FailedToLoadSave=セーブファイルのロード失敗
 UI.StartScreen.FailedToLoadSaveDescription=ゲームのバージョンが異なる、またはセーブデータが無効だったため、セーブデータをロードできませんでした。<br/><br/>0.3のセーブを継続してプレイしたい方で、古いビルドが利用可能なサービス（SteamやGOGなど）をご利用の場合は、そのサービスでゲームを以前のバージョンにロールバックしてください。
+UI.StartScreen.StartupErrorHeader=ゲーム初期化エラー
+UI.StartScreen.StartupErrorSavePath=ゲームが必要なセーブフォルダのパスにアクセスできず、起動できません。次の場所でゲームがファイルの読み取りと書き込みを行えるよう、権限やクラウドストレージソフトウェア（OneDriveなど）を確認してください：<br/><br/>{0}<br/><br/>サポートが必要な場合は、「support@pavonisinteractive.com」までメールでお問い合わせください。<br/><br/>「OK」ボタンを押すと、ソフトウェアは終了します。
 UI.StartScreen.TutorialDesc=最初のゲームでは、チュートリアルを有効にし、レジスタンス派閥としてプレイすることをおすすめします。
 UI.StartScreen.Credits=開発チーム
 UI.StartScreen.Exit=ゲームの終了
@@ -130,8 +142,8 @@ UI.StartScreen.CustomizeCampaign.MCFreebiesAI=AIのボーナスミッション�
 UI.StartScreen.CustomizeCampaign.MCFreebiesAITooltip=ボーナスミッション・コントロールを、AI派閥にのみ付与する。
 UI.StartScreen.CustomizeCampaign.ResearchSpeed=研究率
 UI.StartScreen.CustomizeCampaign.ResearchSpeedTooltip=全派閥に対して、グローバル技術やプロジェクトを研究するスピードを設定する。
-UI.StartScreen.CustomizeCampaign.MiningProductivity=採鉱場の生産率
-UI.StartScreen.CustomizeCampaign.MiningProductivityTooltip=地表ハブの資源収集率の係数。
+UI.StartScreen.CustomizeCampaign.MiningProductivity=全世界の採鉱場の生産率
+UI.StartScreen.CustomizeCampaign.MiningProductivityTooltip=全ハブ拠点での資源収集率の倍率
 UI.StartScreen.CustomizeCampaign.AlienProgressionRate=エイリアンの進行率
 UI.StartScreen.CustomizeCampaign.AlienProgressionRateTooltip=キャンペーンにおけるエイリアンの進行速度をコントロールする。侵略のスピードや人間の派閥に対する攻撃性に影響する。
 UI.StartScreen.CustomizeCampaign.VariableProjectUnlocks=可変プロジェクトをアンロック
@@ -141,23 +153,56 @@ UI.StartScreen.CustomizeCampaign.ShowTriggeredProjectsTooltip=キャンペーン
 UI.StartScreen.CustomizeCampaign.HomeNationCouncilor=同僚市民評議員
 UI.StartScreen.CustomizeCampaign.CustomDifficultyTooltip=難易度に影響するキャンペーン設定を変更すると、そのキャンペーンで難易度に関係する実績が獲得できなくなります。
 UI.StartScreen.CustomizeCampaign.CustomDifficultyOptionsText=<h>現在の設定では、難易度関連の実績が無効になります</h>
-UI.StartScreen.CustomizeCampaign.SkipCouncilor=評議員ゼロ、+{0}{1}																		//skip, +(number) Influence icon(resource)
+UI.StartScreen.CustomizeCampaign.SkipCouncilor=評議員ゼロ、+{0}{1} 																		//skip, +(number) Influence icon(resource)
 UI.StartScreen.CustomizeCampaign.HomeNationCouncilorTip=選択された場合、最初の評議員の出身国は、あなたのコンピュータの地域設定から抽選されます。そうでない場合はランダムになります。
 UI.StartScreen.CustomizeCampaign.NationalIPModifier=国内投資率
 UI.StartScreen.CustomizeCampaign.AverageMonthlyEvents=月々の平均イベント数
 UI.StartScreen.CustomizeCampaign.NationalIPModifierTooltip=国家のプライオリティを到達するために必要な投資ポイント数をコントロールする。
 UI.StartScreen.CustomizeCampaign.AverageMonthlyEventsTooltip=月ごとのランダムイベント数
+UI.StartScreen.CustomizeCampaign.CinematicCombatScaling=シネマティック戦闘スケーリング
+UI.StartScreen.CustomizeCampaign.CinematicCombatScalingTooltip=有効にすると、戦闘時に現実的な規模感ではなく、大規模なモデルスケールが使用される
+UI.StartScreen.CustomizeCampaign.CinematicCombatMovement=シネマティック戦闘移動
+UI.StartScreen.CustomizeCampaign.CinematicCombatMovementTooltip=有効にすると、戦闘時の船のデルタV消費量を減らすことができる
+UI.StartScreen.CustomizeCampaign.MiningRatePlayer=プレイヤー採鉱生産率
+UI.StartScreen.CustomizeCampaign.MiningRatePlayerTooltip=モジュールレベルでプレイヤーの採掘生産率を制御します。
+UI.StartScreen.CustomizeCampaign.MiningRateHumanAI=ヒューマンAI採鉱生産率
+UI.StartScreen.CustomizeCampaign.MiningRateHumanAITooltip=モジュールレベルで、ヒューマンAI派閥の採掘生産率を制御します。
+UI.StartScreen.CustomizeCampaign.MiningRateAlien=エイリアン採鉱生産率
+UI.StartScreen.CustomizeCampaign.MiningRateAlienTooltip=モジュールレベルでエイリアンの採掘生産率を制御します。
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedPlayer=プレイヤーハブ建設速度
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedPlayerTooltip=プレイヤーのハブ・モジュールでの基本建設速度を制御します。地球からの移動時間には影響しません。
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedHumanAI=ヒューマンAIハブ建設速度
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedHumanAITooltip=全ヒューマンAI派閥のハブ・モジュールでの基本建設速度を制御します。地球からの移動時間には影響しません。
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedAlien=エイリアンのハブ建設速度
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedAlienTooltip=全ハブ・モジュールのエイリアンの建設速度を制御します。
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedPlayer=プレイヤー造船速度
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedPlayerTooltip=プレイヤーの母艦造船速度を制御します。ブースト使用時の地球からの移動時間には影響しません。
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedHumanAI=ヒューマンAI造船速度
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedHumanAITooltip=全ヒューマンAI派閥の母艦造船速度を制御します。ブースト使用時の地球からの移動時間には影響しません。
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedAlien=エイリアン造船速度
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedAlienTooltip=エイリアンの造船速度を制御します。
+UI.StartScreen.CustomizeCampaign.CustomStartingNationGroupText=開始時国家グループ
+UI.StartScreen.CustomizeCampaign.CustomStartingNationGroupTooltip=派閥が完全に支配権を行使する状態で開始する国家または国家グループを選択します。多くの場合、国家の集合体を表わします。他の派閥も同様にこのメニューから開始時国家が割り当てられます。
+UI.StartScreen.CustomizeCampaign.OtherFactionsReceivesGroup=他派閥のグループ受け取り
+UI.StartScreen.CustomizeCampaign.OtherFactionsReceivesGroupTooltip=開始時国家グループが選択され、このオプションにチェックが入れていない場合、AI派閥は最初からどの国家も保有しません。この場合、キャンペーンは大幅に容易になります。
+UI.StartScreen.CustomizeCampaign.NationGroupNone=なし
+UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=小型船の名称
+UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=中型船の名称
+UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=大型船の名称
+UI.StartScreen.CustomizeCampaign.HabNameListIdxText=ハブの名前
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=エイリアン攻撃艦隊の追加
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=キャンペーン開始時に、攻撃空母に追加のエイリアン艦隊を追加する
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=加速キャンペーンのデフォルト
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=長期キャンペーンのデフォルト
+UI.StartScreen.CustomizeCampaign.LastCampaignPreset=過去のキャンペーン設定
 UI.StartScreen.Cancel=キャンセル
-UI.StartScreen.FactionDifficult=（ハード）
-UI.StartScreen.FactionEasy=（イージー）
-UI.StartScreen.FactionDescription={0}<br/>{1}
+UI.StartScreen.FactionDescription={0}<br/>派閥の難易度：{1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=パッチノート
 UI.StartScreen.TranslationWarning=『Terra Invicta』の早期アクセスバージョンへようこそ！<br/><br/>英語以外の翻訳は、追加の翻訳者によって校正され、ゲーム内で問題がないかテストされている最中です。この初期の早期アクセス版には、文法の間違い、用語の一貫性のない使い方、英語のプレースホルダーテキスト、その他の言語の間違いが含まれています。できるだけ早く修正するよう努力していますが、『Terra Invicta』には小説数冊分のテキストが含まれており、すべてを完全に修正するには時間がかかると思われます。<br/><br/>早期アクセスの『Terra Invicta』をプレイしていただきありがとうございます。私たちはこれからも、ゲームの改善に懸命に取り組んでまいります！
 UI.StartScreen.GamepassWarning=Terra Invictaはゲームプレビュー版です。そのため、特定のゲームやプラットフォームの機能が期待通りに機能せず、バグやクラッシュに遭遇する可能性があります。サポートについては、support@pavonisinteractive.com までメールでお問い合わせください。<br/><br/>クラウドセーブが確実に機能しない場合があります。問題が発生した場合、セーブデータは C:\Users\YOURNAME\Documents\My Games\TerraInvicta\Saves または%homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\に保存されています
+//<Developer> Credits
 UI.StartScreen.TICredits_0=TERRA INVICTA<br/><br/>
 UI.StartScreen.TICredits_1=制作：<br/>Pavonis Interactive<br/><br/>
 UI.StartScreen.TICredits_2=発売元：<br/>Hooded Horse<br/><br/>
@@ -177,49 +222,62 @@ UI.StartScreen.TICredits_15=コンテンツデザイナー<br/>Tayta Malikai<br/
 UI.StartScreen.TICredits_16=プロダクションコーディネーター<br/>Shannon Sindorf<br/><br/>
 UI.StartScreen.TICredits_17=その他のデベロッパー<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Zach Parsons<br/>Amineri<br/><br/>
 UI.StartScreen.TICredits_18=エグゼクティブプロデューサー<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Pottenger<br/>Xavier Wynns<br/><br/>
-UI.StartScreen.TICredits_19=アソシエイトプロデューサー<br/>
-UI.StartScreen.TICredits_20=Rachel Dilger<br/><br/>
+
+//<AP> Credits + Messages
+
+UI.StartScreen.TICredits_19=アソシエイトプロデューサー<br/><br/>
+UI.StartScreen.TICredits_20=Rachel Dilger<br/>
 UI.StartScreen.TICredits_21=<skip/>
 UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
-UI.StartScreen.TICredits_23=「謙虚であれ。あなたは地球から生まれたのだから。気高くあれ。あなたは星から生まれたのだから」<br/><br/>
-UI.StartScreen.TICredits_24=Martti Aarnio-Wihuri<br/><br/>
+UI.StartScreen.TICredits_23=「謙虚であれ。あなたは地球から生まれたのだから。気高くあれ。あなたは星から生まれたのだから」<br/>
+UI.StartScreen.TICredits_24=Martti Aarnio-Wihuri<br/>
 UI.StartScreen.TICredits_25=<skip/>
 UI.StartScreen.TICredits_26=John O.＆Eileen Lumpkin<br/>
-UI.StartScreen.TICredits_27=「第二次世界大戦中に太平洋上空を飛ぶコックピットから、星々に広がる未来の世界まで - 家族の旅」<br/><br/>
+UI.StartScreen.TICredits_27=「第二次世界大戦中に太平洋上空を飛ぶコックピットから、星々に広がる未来の世界まで - 家族の旅」<br/>
 UI.StartScreen.TICredits_28=Schinhofen Books<br/>
-UI.StartScreen.TICredits_29=「老化を止めるか、死ぬまで挑戦するか」<br/><br/>
+UI.StartScreen.TICredits_29=「老化を止めるか、死ぬまで挑戦するか」<br/>
 UI.StartScreen.TICredits_30=Schinhofen Books<br/>
-UI.StartScreen.TICredits_31=「読書もまた別の気晴らしだ」<br/><br/>
-UI.StartScreen.TICredits_32=Florian Ossiander<br/><br/>
+UI.StartScreen.TICredits_31=「読書もまた別の気晴らしだ」<br/>
+UI.StartScreen.TICredits_32=Florian Ossiander<br/>
 UI.StartScreen.TICredits_33=<skip/>
 UI.StartScreen.TICredits_34=Jeffrey Lee Henninger<br/>
-UI.StartScreen.TICredits_35=「宇宙は挑戦者たちを待っている」<br/><br/>
-UI.StartScreen.TICredits_36=Stardust<br/>「太陽風と共に行け」<br/><br/>
-UI.StartScreen.TICredits_37=Stefano de Stefano<br/>「問題を作ったときに用いたのと同じ考え方では、問題を解決できない」<br/><br/>
-UI.StartScreen.TICredits_38=Sean Hassan<br/>「私達の挑戦は、幻想を抱くことなく、幻滅することなく生きていくことだ」<br/><br/>
-UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>「戦争、災害、気候変動など、刻々と変化する危機に直面したとき、我々が今何をするか。それは時代を超えて波及し、人類の運命を左右するだろう。宇宙とテクノロジーを通じて、我々はこの存亡に関わる難題の救世主を見つけ出すことができるかもしれないのだ」<br/><br/>
+UI.StartScreen.TICredits_35=「宇宙は挑戦者たちを待っている」<br/>
+UI.StartScreen.TICredits_36=Stardust<br/>「太陽風と共に行け」<br/>
+UI.StartScreen.TICredits_37=Stefano de Stefano<br/>「問題を作ったときに用いたのと同じ考え方では、問題を解決できない」<br/>
+UI.StartScreen.TICredits_38=Sean Hassan<br/>「私達の挑戦は、幻想を抱くことなく、幻滅することなく生きていくことだ」<br/>
+UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>「戦争、災害、気候変動など、刻々と変化する危機に直面したとき、我々が今何をするか。それは時代を超えて波及し、人類の運命を左右するだろう。宇宙とテクノロジーを通じて、我々はこの存亡に関わる難題の救世主を見つけ出すことができるかもしれないのだ」<br/><br/><br/>
+
+//<VA> Credits
+
 UI.StartScreen.TICredits_40=声の出演<br/>
-UI.StartScreen.TICredits_41=Fiona Ayoade<br/>
+UI.StartScreen.TICredits_41=Fiona Ayoade<sp>
 UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
-UI.StartScreen.TICredits_43=Li Qingzhao<br/>
+UI.StartScreen.TICredits_43=Li Qingzhao<sp>
 UI.StartScreen.TICredits_44=Zura Johnson<br/><br/>
-UI.StartScreen.TICredits_45=Soren Van Wyk<br/>
+UI.StartScreen.TICredits_45=Soren Van Wyk<sp>
 UI.StartScreen.TICredits_46=Etienne Durandt<br/><br/>
-UI.StartScreen.TICredits_47=Khalid Al-Ashgar<br/>
+UI.StartScreen.TICredits_47=Khalid Al-Ashgar<sp>
 UI.StartScreen.TICredits_48=Erik Ransom<br/><br/>
-UI.StartScreen.TICredits_49=Li Qingzhao<br/>
+UI.StartScreen.TICredits_49=Li Qingzhao<sp>
 UI.StartScreen.TICredits_50=Christina Ho<br/><br/>
-UI.StartScreen.TICredits_51=Hanse Castillo<br/>
+UI.StartScreen.TICredits_51=Hanse Castillo<sp>
 UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
-UI.StartScreen.TICredits_53=Kiran Banerjee<br/>
+UI.StartScreen.TICredits_53=Kiran Banerjee<sp>
 UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
+
 UI.StartScreen.TICredits_55=評議員の声<br/>
 UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton T<br/>Jim Lenaway • Andy Mack<br/>Mike Apgar • Damon Alums<br/>Josephine Croft • Les Horovitz<br/>Heidi Kwiat • Ian Phillips<br/>Helen Clapp • Lizzie Crow<br/>Sophie Roberts • Steven Kelly<br/>Thom Welham • Conor James<br/>Mohita Namjoshi • Mamta Gurnani<br/>Vikram Rawat • Gagan Pathak<br/>Jenny Fennessy • Alan Kelly<br/>Diana Silva • Anita Lauren<br/>Carlos Cerrato • Fernando Macias Jimenez<br/>Marina Kalmykova • Sebastian Agner<br/>Gaelle Gosselin • Jesse Meiring<br/>Mhairi Morrison • Kieran Flitton<br/>Lina Sinuan • Val Cheah<br/>Hagen Valerio • Jati Andito<br/>Ore Apampa • Uzy Hamman<br/>Rachel Oladejo • Jonathan Mabote<br/>Jonathan Brandt • Nadia Cavelle<br/>Christian Michalak • Sonja Palmu<br/>Sarí AK • Mona Saadeh<br/>Loay Al-Hakimi • Silina Choueiry<br/><br/>
-UI.StartScreen.TICredits_57=品質保証のスペシャリスト<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah<br/>
-UI.StartScreen.TICredits_58=スペシャルサンクス：<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/>
-UI.StartScreen.TICredits_59=HOODED HORSE<br/>
+
+//<QA> Credits
+
+UI.StartScreen.TICredits_57=品質保証のスペシャリスト<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah<br/><br/>
+UI.StartScreen.TICredits_58=スペシャルサンクス：<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/><br/>
+
+//<Publisher> Credits
+
+UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>
 UI.StartScreen.TICredits_60=最高経営責任者<br/>Tim Bender<br/><br/>
-UI.StartScreen.TICredits_61=最高財務責任者<br/>AND GENERAL COUNSEL<br/>Snow Rui<br/><br/>
+UI.StartScreen.TICredits_61=最高財務責任者AND GENERAL COUNSEL<br/>Snow Rui<br/><br/>
 UI.StartScreen.TICredits_62=最高製品責任者<br/>Ashkan Namousi<br/><br/>
 UI.StartScreen.TICredits_63=顧問<br/>Shams Jorjani<br/><br/>
 UI.StartScreen.TICredits_64=コミュニケーションディレクター<br/>Joe Robinson<br/><br/>コミュニケーションマネージャー<br/>Marcello Perricone<br/><br/>
@@ -233,12 +291,22 @@ UI.StartScreen.TICredits_71=ローカライザー<br/>Roboto Global<br/>EC Innov
 UI.StartScreen.TICredits_72=スペシャルサンクス<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D'Arcy<br/><br/>
 UI.StartScreen.TICredits_73=制作中に誕生した赤ちゃんたち！<br/>Théodore<br/>Carmen Rose<br/><br/>
 
+//<Contributing Backers> Credits
+
 UI.StartScreen.TICredits_74=キックスターターのクリエイティブ協力者<br/>
 
-UI.StartScreen.TICredits_105=キックスターター
-UI.StartScreen.TICredits_106=プレイテスター<br/>
 
-UI.StartScreen.TICredits_1255=ソフトウエア<br/>Unity<br/>FMOD Studio<br/>Firelight Technologies Limited<br/><br/>
-UI.StartScreen.TICredits_1256=作中に登場する民間企業のロゴアイコンの多くは、LogoLogo.comの提供によります。<br/>本作品はフィクションです。作中における政府機関のロゴの使用は、それらの機関による支援を意味しません。<br/><br/>
-UI.StartScreen.TICredits_1257=評議員の背景画像のベースとなった写真の一部は、NASAの提供です。
-UI.StartScreen.TICredits_1258=『二都物語』の著者…チャールズ・ディケンズ
+//<Playtester> Credits
+
+UI.StartScreen.TICredits_105=キックスターター
+UI.StartScreen.TICredits_106= プレイテスター<br/>
+
+
+//<Backers> Credits
+
+UI.StartScreen.TICredits_393=<br/>キックスターターの支援者<br/>
+
+UI.StartScreen.TICredits_1337=ソフトウエア<br/><br/>Unity<br/><br/>FMOD Studio<br/>Firelight Technologies Limited<br/><br/>
+UI.StartScreen.TICredits_1338=作中に登場する民間企業のロゴアイコンの多くは、LogoLogo.comの提供によります。<br/>本作品はフィクションです。作中における政府機関のロゴの使用は、それらの機関による支援を意味しません。<br/><br/>
+UI.StartScreen.TICredits_1339=評議員の背景画像のベースとなった写真の一部は、NASAの提供です。<br/><br/>
+UI.StartScreen.TICredits_1340=『二都物語』の著者…チャールズ・ディケンズ

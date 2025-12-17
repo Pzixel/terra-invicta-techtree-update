@@ -12,7 +12,7 @@
         "dataName": "ArmyMapGroup",
         "mapGroupLabel": "Army",
         "mapGroupControlType": "PavonisInteractive.TerraInvicta.ArmyMarkerController",
-        "groupScale": 0.00125,
+        "groupScale": 0.001225,
 		"highPriorityScaleAppearanceThreshold": 0.25,
 		"lowPriorityScaleAppearanceThreshold": 0.25,
 		"sortingValue": 7
@@ -30,7 +30,7 @@
         "dataName": "AlienMapGroup",
         "mapGroupLabel": "Alien",
         "mapGroupControlType": "PavonisInteractive.TerraInvicta.AlienMarkerController",
-        "groupScale": 0.00125,
+        "groupScale": 0.001225,
 		"highPriorityScaleAppearanceThreshold": 0.25,
 		"lowPriorityScaleAppearanceThreshold": 0.65,
 		"sortingValue": 5
@@ -48,9 +48,18 @@
 		"dataName": "SeaMapGroup",
 		"mapGroupLabel": "Sea",
         "mapGroupControlType": "PavonisInteractive.TerraInvicta.SeaMarkerController",
-        "groupScale": 0.00125,
+        "groupScale": 0.001225,
 		"highPriorityScaleAppearanceThreshold": 0.25,
 		"lowPriorityScaleAppearanceThreshold": 0.25,
 		"sortingValue": 5
-	}
+	},
+	{
+		"dataName": "CanalMapGroup",
+		"mapGroupLabel": "Canal",
+        "mapGroupControlType": "PavonisInteractive.TerraInvicta.CanalMarkerController",
+        "groupScale": 0.001225,
+		"highPriorityScaleAppearanceThreshold": 0.25,
+		"lowPriorityScaleAppearanceThreshold": 0.25,
+		"sortingValue": 5
+	},
 ]

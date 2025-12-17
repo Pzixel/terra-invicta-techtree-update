@@ -34,6 +34,19 @@ TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Destruir tod
 TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Destruir todos los hábitats de grado {0} o de los alienígenas o de las facciones extremistas humanas ({2}) en el sistema planetario: {1}.
 TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Destruir todos los hábitats de grado {0} o más de los alienígenas o de las facciones extremistas humanas ({2}) en los siguientes cuerpos celestes: {1}.
 
+TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem=Destruir todas las bases alienígenas de grado {0} o más del sistema planetario {1}.
+TIVictoryCondition.FreeBases_DefeatAliens_Region=Destruir todas las bases alienígenas de grado {0} o más de los siguientes cuerpos celestes: {1}.
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem=Destruir todas las bases de grado {0} o más de los alienígenas y de sus simpatizantes humanos ({2}) en el sistema {1}.
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_Region=Destruir todas las bases de grado {0} o más de los alienígenas y de sus simpatizantes humanos ({2}) en los siguientes cuerpos celestes: {1}.
+TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem=Destruir todas las bases de grado {0} o más que no sean de nuestra facción en el sistema planetario: {1}.
+TIVictoryCondition.FreeBases_DefeatEveryone_Region=Destruir todas las bases de grado {0} o más que no sean de nuestra facción en los siguientes cuerpos celestes: {1}.
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem=Destruir todas las bases de grado {0} o más que sean de facciones antialienígenas ({2}) en el sistema planetario: {1}.
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=Destruir todas las bases de grado {0} o más que sean de facciones antialienígenas ({2}) en los siguientes cuerpos celestes: {1}.
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=Destruir todas las bases de grado {0} o más que sean de facciones no aliadas con los alienígenas ({2}) en el sistema planetario: {1}.
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=Destruir todas las bases de grado {0} o más que sean de facciones no aliadas con los alienígenas ({2}) en los siguientes cuerpos celestes: {1}.
+TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem=Destruir todas las bases de grado {0} o de los alienígenas o de las facciones extremistas humanas ({2}) en el sistema planetario: {1}.
+TIVictoryCondition.FreeBases_DefeatExtremists_Region=Destruir todas las bases de grado {0} o más de los alienígenas o de las facciones extremistas humanas ({2}) en los siguientes cuerpos celestes: {1}.
+
 TIVictoryCondition.FreeFleets_DefeatAliens_All=Destruir todas las flotas alienígenas con una potencia de combate de {0} o más.
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Destruir todas las flotas con una potencia de combate de {0} o más de los alienígenas y de sus simpatizantes humanos ({2}).
 TIVictoryCondition.FreeFleets_DefeatEveryone_All=Destruir todas las flotas con una potencia de combate de {0} o más que no pertenezcan a nuestra facción. 
@@ -54,4 +67,9 @@ TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Destruir toda
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Destruir todas las flotas con una potencia de combate de {0} o más de los alienígenas y de facciones extremistas humanas ({2}) en el sistema planetario: {1}.
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Destruir todas las flotas con una potencia de combate de {0} o más de los alienígenas y de facciones extremistas humanas ({2}) en los siguientes cuerpos celestes: {1}.
 
+TIVictoryCondition.BasePresence_MajorPlanets=Tener una base en superficie completamente construida con todos los módulos de grado {0} como mínimo que tengan acceso energético y estén activas en los siguientes sistemas planetarios (en el principal o en cualquiera de sus lunas):
+
 TIVictoryCondition.Complete=Completada
+TIVictoryCondition.Incomplete=No completada
+TIVictoryCondition.Colon={0}: {1}
+

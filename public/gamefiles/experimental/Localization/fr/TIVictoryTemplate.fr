@@ -34,6 +34,19 @@ TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Nous devons 
 TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Nous devons détruire tous les habitats de niveau {0} et supérieur qui appartiennent à des extraterrestres et des factions humaines extrémistes ({2}) dans le système planétaire {1}.
 TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Nous devons détruire tous les habitats de niveau {0} et supérieur qui appartiennent à des extraterrestres et des factions humaines extrémistes ({2}) sur les corps célestes suivants : {1}
 
+TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem=Nous devons détruire toutes les bases extraterrestres de niveau {0} et supérieur dans le système planétaire {1}.
+TIVictoryCondition.FreeBases_DefeatAliens_Region=Nous devons détruire toutes les bases extraterrestres de niveau {0} et supérieur sur les corps célestes suivants : {1}
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem=Nous devons détruire toutes les bases de niveau {0} et supérieur qui appartiennent aux extraterrestres et à leurs partisans humains ({2}) dans le système {1}.
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_Region=Nous devons détruire toutes les bases de niveau {0} et supérieur qui appartiennent aux extraterrestres et à leurs partisans humains ({2}) sur les corps célestes suivants : {1}
+TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem=Nous devons détruire toutes les bases de niveau {0} et supérieur qui n'appartiennent pas à notre faction dans le système planétaire {1}.
+TIVictoryCondition.FreeBases_DefeatEveryone_Region=Nous devons détruire toutes les bases de niveau {0} et supérieur qui n'appartiennent pas à notre faction sur les corps célestes suivant : {1}
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem=Nous devons détruire toutes les bases de niveau {0} et supérieur qui appartiennent à des factions anti-extraterrestres ({2}) dans le système planétaire {1}.
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=Nous devons détruire toutes les bases de niveau {0} et supérieur qui appartiennent à des factions anti-extraterrestres ({2}) sur les corps célestes suivant : {1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=Nous devons détruire toutes les bases de niveau {0} et supérieur qui appartiennent à des factions non alliées aux extraterrestres ({2}) dans le système planétaire {1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=Nous devons détruire toutes les bases de niveau {0} et supérieur qui appartiennent à des factions non alliées aux extraterrestres ({2}) sur les corps célestes suivants : {1}
+TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem=Nous devons détruire toutes les bases de niveau {0} et supérieur qui appartiennent à des extraterrestres et des factions humaines extrémistes ({2}) dans le système planétaire {1}.
+TIVictoryCondition.FreeBases_DefeatExtremists_Region=Nous devons détruire toutes les bases de niveau {0} et supérieur qui appartiennent à des extraterrestres et des factions humaines extrémistes ({2}) sur les corps célestes suivants : {1}
+
 TIVictoryCondition.FreeFleets_DefeatAliens_All=Nous devons détruire toutes les flottes extraterrestres dont l'endurance est supérieure ou égale à {0}.
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Nous devons détruire toutes les flottes dont l'endurance est supérieure ou égale à {0} et qui appartiennent aux extraterrestres et à leurs partisans humains ({2}).
 TIVictoryCondition.FreeFleets_DefeatEveryone_All=Nous devons détruire toutes les flottes dont l'endurance est supérieure ou égale à {0} et qui n'appartiennent pas à notre faction. 
@@ -54,4 +67,9 @@ TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Nous devons d
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Nous devons détruire toutes les flottes dont l'endurance est supérieure ou égale à {0} et qui appartiennent aux extraterrestres et à des factions humaines extrémistes ({2}) dans le système planétaire {1}.
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Nous devons détruire toutes les flottes dont l'endurance est supérieure ou égale à {0} et qui appartiennent aux extraterrestres et à des factions humaines extrémistes ({2}) sur les corps célestes suivants : {1}
 
+TIVictoryCondition.BasePresence_MajorPlanets=Nous devons construire une base de surface complète sur tous les systèmes planétaires suivants (corps principal ou une des lunes). Tous les modules doivent être de niveau {0} ou supérieur, alimentés et actifs.
+
 TIVictoryCondition.Complete=Terminé
+TIVictoryCondition.Incomplete=Non terminé
+TIVictoryCondition.Colon={0} : {1}
+

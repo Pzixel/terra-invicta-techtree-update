@@ -30,9 +30,22 @@ TIVictoryCondition.FreePlanets_DefeatEveryone_Region=Vernichte alle Habitate der
 TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_PlanetarySystem=Vernichte im Planetensystem {1} alle Habitate der Klasse {0} und höher, die zu Anti-Alien-Fraktionen gehören ({2})
 TIVictoryCondition.FreePlanets_DefeatAntiAlienFactions_Region=Vernichte alle Habitate der Klasse {0} und höher, die zu Anti-Alien-Fraktionen gehören ({2}) – auf folgenden Himmelskörpern: {1}
 TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_PlanetarySystem=Vernichte im Planetensystem {1} alle Habitate der Klasse {0} und höher, die nicht mit den Aliens verbündet sind ({2})
-TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Vernichte alle Habitate der Klasse {0} und höher, die nicht mit den Aliens verbündet sind ({2}) – auf folgenden Himmelskörpern: {1}
+TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region=Vernichte alle Habitate der Klasse {0} und höher, die nicht mit den Aliens verbündet sind ({2}) – auf folgenden Himmelskörpern: {1}
 TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem=Vernichte im Planetensystem {1} alle Habitate der Klasse {0} und höher, die zu Aliens oder menschlichen extremistischen Fraktionen gehören ({2})
 TIVictoryCondition.FreePlanets_DefeatExtremists_Region=Vernichte alle Habitate der Klasse {0} und höher, die von Aliens oder menschlichen extremistischen Fraktionen gehören ({2}) – auf folgenden Himmelskörpern: {1}
+
+TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem=Vernichte im Planetensystem {1} alle Alien-Stützpunkte der Klasse {0} und höher
+TIVictoryCondition.FreeBases_DefeatAliens_Region=Vernichte alle Alien-Stützpunkte der Klasse {0} und höher auf folgenden Himmelskörpern: {1}
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem=Vernichte im System {1} alle Stützpunkte der Klasse {0} und höher, die im Besitz von Aliens und ihren menschlichen Unterstützern ({2}) sind
+TIVictoryCondition.FreeBases_DefeatAliensAndAllies_Region=Vernichte alle Stützpunkte der Klasse {0} und höher, die im Besitz von Aliens und ihren menschlichen Unterstützern ({2}) sind – auf folgenden Himmelskörpern: {1}
+TIVictoryCondition.FreeBases_DefeatEveryone_PlanetarySystem=Vernichte im Planetensystem {1} alle Stützpunkte der Klasse {0} und höher, die nicht von unserer Fraktion kontrolliert werden
+TIVictoryCondition.FreeBases_DefeatEveryone_Region=Vernichte alle Stützpunkte der Klasse {0} und höher, die nicht von unserer Fraktion kontrolliert werden – auf folgenden Himmelskörpern: {1}
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_PlanetarySystem=Vernichte im Planetensystem {1} alle Stützpunkte der Klasse {0} und höher, die zu Anti-Alien-Fraktionen gehören ({2})
+TIVictoryCondition.FreeBases_DefeatAntiAlienFactions_Region=Vernichte alle Stützpunkte der Klasse {0} und höher, die zu Anti-Alien-Fraktionen gehören ({2}) – auf folgenden Himmelskörpern: {1}
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem=Vernichte im Planetensystem {1} alle Stützpunkte der Klasse {0} und höher, die nicht mit den Aliens verbündet sind ({2})
+TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region=Vernichte alle Stützpunkte der Klasse {0} und höher, die nicht mit den Aliens verbündet sind ({2}) – auf folgenden Himmelskörpern: {1}
+TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem=Vernichte im Planetensystem {1} alle Stützpunkte der Klasse {0} und höher, die zu Aliens oder menschlichen extremistischen Fraktionen gehören ({2})
+TIVictoryCondition.FreeBases_DefeatExtremists_Region=Vernichte alle Stützpunkte der Klasse {0} und höher, die zu Aliens oder menschlichen extremistischen Fraktionen gehören ({2}) – auf folgenden Himmelskörpern: {1}
 
 TIVictoryCondition.FreeFleets_DefeatAliens_All=Vernichte alle Alien-Flotten mit einer Kampfstärke von {0} und höher
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=Vernichte alle Flotten mit einer Kampfstärke von {0} und höher, die den Aliens und ihren menschlichen Unterstützern gehören ({2})
@@ -54,5 +67,9 @@ TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region=Vernichte all
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem=Vernichte im Planetensystem {1} alle Flotten mit einer Kampfstärke von {0} und höher, die zu den Aliens oder menschlichen extremistischen Fraktionen gehören ({2})
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region=Vernichte alle Flotten mit einer Kampfstärke von {0} und höher, die zu den Aliens oder menschlichen extremistischen Fraktionen gehören ({2}) – auf folgenden Himmelskörpern: {1}
 
+TIVictoryCondition.BasePresence_MajorPlanets=Besitze einen fertiggestellten Stützpunkt, der über alle Module mit mindestens Klasse {0} verfügt, die in den folgenden Planetensystemen (auf dem Hauptplaneten oder einem seiner Monde) mit Strom versorgt und aktiv sind:
 
 TIVictoryCondition.Complete=Abgeschlossen
+TIVictoryCondition.Incomplete=Unvollständig
+TIVictoryCondition.Colon={0}: {1}
+

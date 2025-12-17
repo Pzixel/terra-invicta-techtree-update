@@ -5,6 +5,7 @@ UI.StartScreen.Loading=Cargando...
 UI.StartScreen.Continue=Continuar
 UI.StartScreen.NewGame=Nueva partida
 UI.StartScreen.LoadGame=Cargar partida
+UI.StartScreen.OpenSaveFolder=Abrir carpeta
 UI.StartScreen.Options=Opciones
 UI.StartScreen.SkirmishMode=Escaramuza
 UI.StartScreen.SetDefaults=Por defecto
@@ -17,7 +18,7 @@ UI.StartScreen.Mods.WorkshopUploadModDesc=Descripción del mod
 UI.StartScreen.Mods.WorkshopUploadModFolder=Abrir carpeta de mods
 UI.StartScreen.Mods.WorkshopUploadSubmit=Subir mod
 UI.StartScreen.Mods.WorkshopUploadModHelp=Usa el botón de «Abrir carpeta de mods» situado arriba para ir a la carpeta donde guardas los mods. Coloca los archivos del mod en el interior de la carpeta junto con un archivo en formato png con el mismo nombre que tenga el mod. Una vez que hayas terminado, haz clic en Subir y se subirá tu nuevo mod al Workshop de Steam.
-UI.StartScreen.Mods.WorkshopUpdateExistingInfo= Si necesitas actualizar tu mod en el futuro, usa la pestaña de actualizar mod y sigue los mismos pasos para actualizar la información existente y los archivos en Steam.
+UI.StartScreen.Mods.WorkshopUpdateExistingInfo=Si necesitas actualizar tu mod en el futuro, usa la pestaña de actualizar mod y sigue los mismos pasos para actualizar la información existente y los archivos en Steam.
 UI.StartScreen.Mods.WorkshopSearch=Buscando mods...
 UI.StartScreen.Mods.SortVotes=Votos
 UI.StartScreen.Mods.SortNewest=Nuevos
@@ -36,21 +37,25 @@ UI.StartScreen.Mods.InvalidDescDesc=Asigna una descripción al mod.
 UI.StartScreen.Mods.InvalidIconTitle=Icono inválido
 UI.StartScreen.Mods.InvalidIconDesc=Facilita una imagen en formato png que tenga el mismo nombre que el mod.
 UI.StartScreen.Mods.ModDownloadError=Ha ocurrido un error al descargar el mod. Puede ser que ya haya sido descargado.
-UI.StartScreen.Mods.ModDownloadedName=Nombre: 
+UI.StartScreen.Mods.ModDownloadedName=Nombre:  
 UI.StartScreen.Mods.ModDownloadedID=ID del archivo publicado: 
 UI.StartScreen.Mods.ModDownloadedLocalFolder=Carpeta local: 
 UI.StartScreen.Mods.ModDownloaded=Se ha descargado el mod correctamente
-UI.StartScreen.Mods.ModDownloadedInfo=Vuelve a abrir TI una vez más para completar la instalación del mod<br/>
+UI.StartScreen.Mods.ModDownloadedInfo=Vuelve a abrir Terra Invicta para completar la instalación del mod<br/>
 UI.StartScreen.Mods.UseMods=Usar mods
-UI.StartScreen.Mods.UseModsDescription=Habilitar esta opción hará que carguen las plantillas y los paquetes de recursos delos mods instalados. Los cambios en esta opción o en la instalación/eliminación de mods podrían requerir un reinicio para que surtan efecto. Los logros quedarán desactivados si se activa esta opción.
+UI.StartScreen.Mods.UseModsDescription=Habilitar esta opción hará que carguen las plantillas y los paquetes de recursos delos mods instalados. Los cambios en esta opción o en la instalación/eliminación de mods podrían requerir un reinicio para que surtan efecto.
 UI.StartScreen.Mods.ModWarningHeaderBadState=El mod está en mal estado.
 UI.StartScreen.Mods.ModWarningDescriptionBadState=El mod {0} está presente tanto en la carpeta Desactivado como en la carpeta Activado. Revisa y elimínalo de una de ellas.
 UI.StartScreen.Mods.ModWarningHeaderFailLoadJson=El gestor de mods no pudo cargar el json.
-UI.StartScreen.Mods.ModWarningDescriptionFailLoadJson=El archivo modificado {0} no pudo cargar el json y los mods no se instalaron correctamente. Arregla este error o desactiva el mod y reinicia Terra Invicta.<br/><br/> Error-{1}
+UI.StartScreen.Mods.ModWarningDescriptionFailLoadJson=El archivo modificado {0} no pudo cargar el json y los mods no se instalaron correctamente. Arregla este error o desactiva el mod y reinicia Terra Invicta.<br/><br/> Error- {1}
 UI.StartScreen.Mods.ModWarningNoItemsFoundHeader=Artículos no encontrados
 UI.StartScreen.Mods.ModWarningNoItemsFoundDescription=No se encuentran artículos que actualizar: parece que todavía no has cargado ninguno o que no pueden recuperarse.
 UI.StartScreen.TemplateLoadingFailureHeader=Se han detectado archivos de plantillas corruptos
 UI.StartScreen.TemplateLoadingFailureDesc=La partida anterior no se pudo cargar debido a archivos de plantillas corruptos. Se han desactivado los mods. Puede que alguno de tus mods esté desfasado y contenga datos de plantilla incompatibles.
+UI.StartScreen.Mods.ModWarningHeaderFailGeneral=Error subiendo mods
+UI.StartScreen.Mods.ModWarningDescriptionFailGeneral=Ha habido un error cargando uno o más archivos de mods. Desactívalos en la parte inferior y reinicia el juego:<br/><br/>{0}<br/><br/>{1}
+UI.StartScreen.Mods.ModWarningHeaderDeleteFail=Error al eliminar archivos
+UI.StartScreen.Mods.ModWarningDescriptionDeleteFail=Es posible que los archivos estén en uso. Reinicia el juego e inténtalo de nuevo.
 UI.StartScreen.Mods.Install=Instalar
 UI.StartScreen.Mods.Enabled=Activado
 UI.StartScreen.Mods.Disabled=Desactivado
@@ -64,8 +69,7 @@ UI.StartScreen.Mods.UpdateModSuccess=Mod actualizado con éxito
 UI.StartScreen.Mods.UpdateModFromFolder=Subir mod del Workshop desde la carpeta
 UI.StartScreen.Mods.UploadWorkshopTabTitle=Subir a Steam Workshop
 UI.StartScreen.Mods.UpdateWorkshopTabTitle=Actualizar mod en Steam Workshop
-UI.StartScreen.Mods.Tag=Etiqueta
-UI.StartScreen.Mods.Tags=Etiquetas
+UI.StartScreen.Mods.SelectTag=Etiqueta (opcional)
 UI.StartScreen.Mods.UploadFailGeneric=Error al subir el mod
 UI.StartScreen.Mods.UpdateFailGeneric=Error al actualizar el mod
 UI.StartScreen.Mods.Update=Actualizar
@@ -73,8 +77,27 @@ UI.StartScreen.Mods.UpdateConfirmation=Esto actualizará la información y los a
 UI.StartScreen.Mods.ModToolsInfo1=Los mods se alojan en el directorio raíz, en la carpeta Mods/Enabled o Mods/Disabled. Los mods en la carpeta Mods/Enabled se activan al arrancar. Los mods que están en la carpeta Mods/Disabled se desinstalan al inicio y se almacenan hasta que los vuelvas a activar. Un mod debería tener su propia carpeta y tener todo el contenido del mod dentro de la carpeta directamente, sin subcarpetas. Hace falta un archivo modinfo.json para cargar los metadatos para el mod.
 UI.StartScreen.Mods.ModToolsInfo2=Los archivos Template dentro de la carpeta de mods se analizarán y las entradas existentes en el .json sobrescribirán los datos por defecto del juego y se añadirán las entradas nuevas del .json. Los assetbundles en la carpeta del mod se cargarán al iniciar y te permitirán añadir elementos gráficos al juego. Los archivos de texto localizados en la carpeta del mod añadirán y reemplazarán las entradas correspondientes en el idioma del archivo. Por ejemplo, los archivos .en reemplazarán el texto en inglés para ese archivo Template
 UI.StartScreen.Mods.ModsInSave=Mods utilizados
+UI.StartScreen.Mods.Checking=Buscando actualizaciones del mod...
+UI.StartScreen.Mods.Subscribe=Suscribirse
+UI.StartScreen.Mods.Unsubscribe=Desuscribirse
+UI.StartScreen.Mods.Subscribed=Suscritos
+UI.StartScreen.Mods.Unsubscribed=Desuscritos
+UI.StartScreen.Mods.Updated=Actualizados
+UI.StartScreen.Mods.InstallModsNotice=Los mods suscritos desde Steam Workshop se han instalado o actualizado. Reiniciar el juego para jugar con los cambios instalados.
+UI.StartScreen.Mods.UninstallModsNotice=Los mods instalados de Steam Workshop a los que te has suscrito se han desactivado. Reinicia el juego para finalizar su instalación.
+UI.StartScreen.Mods.Tags.0=Ninguno
+UI.StartScreen.Mods.Tags.1=Equilibrio
+UI.StartScreen.Mods.Tags.2=Jugabilidad
+UI.StartScreen.Mods.Tags.3=Conversión total
+UI.StartScreen.Mods.Tags.4=Traducción
+UI.StartScreen.Mods.Tags.5=Interfaz
+UI.StartScreen.Mods.Tags.6=Consejeros
+UI.StartScreen.Mods.Tags.7=Naves
+UI.StartScreen.Mods.Tags.8=Utilidades
 UI.StartScreen.FailedToLoadSave=Error al cargar el archivo de guardado
-UI.StartScreen.FailedToLoadSaveDescription=No se pudo cargar el archivo de guardado porque la versión del juego es incompatible o los datos de guardado no son válidos.<br/><br/>Si quieres seguir jugando con los archivos de guardado de la versión 0.3 gracias a los servicios que permiten que las versiones más antiguas estén disponibles (como Steam y GOG), puedes elegir la versión anterior del juego dentro de ese servicio.
+UI.StartScreen.FailedToLoadSaveDescription=No se pudo cargar el archivo de guardado porque la versión del juego es incompatible o los datos de guardado no son válidos.<br/><br/>Si quieres seguir jugando con los archivos de guardado de la versión más antigua gracias a los servicios que permiten que las versiones más antiguas estén disponibles (como Steam y GOG), puedes elegir la versión anterior del juego dentro de ese servicio.
+UI.StartScreen.StartupErrorHeader=Error al iniciar el juego
+UI.StartScreen.StartupErrorSavePath=No se puedo acceder a la ruta para abrir la carpeta seleccionada para ejecutar el juego. Revisa los permisos y/o el programa de almacenamiento en la nube, como OneDrive, para asegurarte de que el juego puede leer y escribir los archivos de la siguiente ubicación: <br/><br/>{0}<br/><br/> Si necesitas ayuda, envía un correo electrónico a support@pavonisinteractive.com<br/><br/>El programa se cerrará cuando pulses el botón Vale.
 UI.StartScreen.TutorialDesc=Es recomendable jugar con la facción de la Resistencia con el tutorial activado durante tu primera partida.
 UI.StartScreen.Credits=Créditos
 UI.StartScreen.Exit=Salir
@@ -130,10 +153,10 @@ UI.StartScreen.CustomizeCampaign.MCFreebiesAI=Puntos de control de misiones extr
 UI.StartScreen.CustomizeCampaign.MCFreebiesAITooltip=Concede puntos adicionales de control de misiones a las facciones controladas por el juego.
 UI.StartScreen.CustomizeCampaign.ResearchSpeed=Velocidad de investigación
 UI.StartScreen.CustomizeCampaign.ResearchSpeedTooltip=Establece el ritmo al que todas las facciones investigan las tecnologías globales y los proyectos.
-UI.StartScreen.CustomizeCampaign.MiningProductivity=Productividad minera
-UI.StartScreen.CustomizeCampaign.MiningProductivityTooltip=Multiplica la velocidad a la que los hábitats de superficie recolectan recursos.
+UI.StartScreen.CustomizeCampaign.MiningProductivity=Productividad minera global
+UI.StartScreen.CustomizeCampaign.MiningProductivityTooltip=Multiplica la velocidad a la que todas las áreas habitables recolectan recursos.
 UI.StartScreen.CustomizeCampaign.AlienProgressionRate=Progresión de los alienígenas
-UI.StartScreen.CustomizeCampaign.AlienProgressionRateTooltip=Controla el ritmo de la progresión de los alienígenas durante la campaña. Afecta a la velocidad de invasión y la agresividad contra las facciones humanas.
+UI.StartScreen.CustomizeCampaign.AlienProgressionRateTooltip=Controla el ritmo de la progresión de los alienígenas durante la campaña. Afecta a la velocidad de invasión y la hostilidad contra las facciones humanas.
 UI.StartScreen.CustomizeCampaign.VariableProjectUnlocks=Desbloqueo de proyectos variable
 UI.StartScreen.CustomizeCampaign.VariableProjectUnlocksTooltip=Algunos de los proyectos no esenciales no estarán disponibles para todas las facciones durante la campaña. Si se desactiva esta opción, se desbloquearán todos los proyectos desbloqueables por tu facción y estarán disponibles en algún momento.
 UI.StartScreen.CustomizeCampaign.ShowTriggeredProjects=Mostrar proyectos activados
@@ -147,17 +170,50 @@ UI.StartScreen.CustomizeCampaign.NationalIPModifier=Tasa de inversión nacional
 UI.StartScreen.CustomizeCampaign.AverageMonthlyEvents=Promedio de eventos mensuales
 UI.StartScreen.CustomizeCampaign.NationalIPModifierTooltip=Controla el número de puntos de inversión necesarios para terminar las prioridades de la nación.
 UI.StartScreen.CustomizeCampaign.AverageMonthlyEventsTooltip=Número de eventos aleatorios por mes.
+UI.StartScreen.CustomizeCampaign.CinematicCombatScaling=Escalado de combate de la cinemática
+UI.StartScreen.CustomizeCampaign.CinematicCombatScalingTooltip=Activa esta opción para utilizar una escala de modelo más grande en combate, en lugar de modelos realistas.
+UI.StartScreen.CustomizeCampaign.CinematicCombatMovement=Movimiento de combate de la cinemática
+UI.StartScreen.CustomizeCampaign.CinematicCombatMovementTooltip=Activa esta opción para reducir el consumo de Delta-V de las naves en combate.
+UI.StartScreen.CustomizeCampaign.MiningRatePlayer=Tasa de minería del jugador
+UI.StartScreen.CustomizeCampaign.MiningRatePlayerTooltip=Controla la producción minera del jugador a nivel del módulo.
+UI.StartScreen.CustomizeCampaign.MiningRateHumanAI=Tasa de minería de la IA humana
+UI.StartScreen.CustomizeCampaign.MiningRateHumanAITooltip=Controla la producción minera a nivel del módulo para todas las facciones de IA humanas.
+UI.StartScreen.CustomizeCampaign.MiningRateAlien=Tasa de minería de los alienígenas
+UI.StartScreen.CustomizeCampaign.MiningRateAlienTooltip=Controla la producción minera de los alienígenas a nivel del módulo.
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedPlayer=Velocidad de construcción de hábitats del jugador
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedPlayerTooltip=Controla la velocidad a la que el jugador construye los módulos habitables. No afecta a los tiempos de viaje de la Tierra.
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedHumanAI=Velocidad de construcción de hábitats de la IA humana
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedHumanAITooltip=Controla la velocidad a la que las facciones de IA humanas construyen los módulos habitables. No afecta a los tiempos de viaje de la Tierra.
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedAlien=Velocidad de construcción de hábitats de los alienígenas
+UI.StartScreen.CustomizeCampaign.HabConstructionSpeedAlienTooltip=Controla la velocidad a la que los alienígenas construyen los módulos habitables.
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedPlayer=Velocidad de construcción de naves del jugador
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedPlayerTooltip=Controla la velocidad a la que el jugador construye las naves. No afecta a los tiempos de viaje de la Tierra cuando se utiliza impulso.
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedHumanAI=Velocidad de construcción de naves de la IA humana
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedHumanAITooltip=Controla la velocidad a la que las facciones de IA humanas construyen las naves. No afecta a los tiempos de viaje de la Tierra cuando se utiliza impulso.
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedAlien=Velocidad de construcción de naves de los alienígenas
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedAlienTooltip=Controla la velocidad a la que los alienígenas construyen las naves.
+UI.StartScreen.CustomizeCampaign.CustomStartingNationGroupText=Grupo de naciones inicial
+UI.StartScreen.CustomizeCampaign.CustomStartingNationGroupTooltip=Selecciona una nación o un grupo de naciones de las que tu nación tendrá el control completo desde el principio. En muchos casos pueden representar agrupaciones de naciones. También se asignarán naciones iniciales a otras facciones desde este menú.
+UI.StartScreen.CustomizeCampaign.OtherFactionsReceivesGroup=Recepción de conjuntos por parte de otras facciones
+UI.StartScreen.CustomizeCampaign.OtherFactionsReceivesGroupTooltip=Cuando se selecciona un conjunto de naciones iniciales y esta opción está desactivada, las facciones de IA comenzarán sin naciones asignadas. Así, la campaña será mucho más fácil.
+UI.StartScreen.CustomizeCampaign.NationGroupNone=Ninguno
+UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=Nombres de naves pequeñas
+UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=Nombres de naves medianas
+UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=Nombres de naves grandes
+UI.StartScreen.CustomizeCampaign.HabNameListIdxText=Nombres de hábitats
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Añadir flota de asalto alienígena
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Añade una flota alienígena adicional con cargueros de asalto al inicio de la campaña.
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Val. de campaña acelerada
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=Val. de campaña larga
+UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Config. de campaña anterior
 UI.StartScreen.Cancel=Cancelar
-UI.StartScreen.FactionDifficult=(Difícil)
-UI.StartScreen.FactionEasy=(Más fácil)
-UI.StartScreen.FactionDescription={0}<br/>{1}
+UI.StartScreen.FactionDescription={0}<br/>Dificultad de la facción: {1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=Notas del parche
-UI.StartScreen.TranslationWarning=¡Te damos la bienvenida a la versión de acceso anticipado de Terra Invicta!<br/><br/>Todavía estamos dándolo todo para revisar la traducción del juego en busca de errores en los textos para corregirlos lo antes posible. Las versiones de acceso anticipado pueden contener errores gramaticales, terminología inconsistente, textos en inglés y otro tipo de errores lingüísticos. Trabajamos tan rápido como podemos, pero Terra Invicta tiene texto como para llenar un par de novelas, así que tardaremos un poco en corregirlo todo.<br/><br/>¡Gracias por probar Terra Invicta en su fase de acceso anticipado, nos estamos dejando la piel por mejorar el juego!
+UI.StartScreen.TranslationWarning=¡Te damos la bienvenida a la versión de acceso anticipado de Terra Invicta!<br/><br/>Todavía estamos dándolo todo para revisar la traducción del juego en busca de errores en los textos para corregirlos lo antes posible. Esas versiones de acceso anticipado pueden contener errores gramaticales, terminología inconsistente, textos en inglés y otro tipo de errores lingüísticos. Trabajamos tan rápido como podemos, pero Terra Invicta tiene texto como para llenar un par de novelas, así que tardaremos un poco en corregirlo todo.<br/><br/>¡Gracias por probar Terra Invicta en su fase de acceso anticipado, nos estamos dejando la piel por mejorar el juego!
 UI.StartScreen.GamepassWarning=Terra Invicta está en Game Preview Por ello, ciertas funciones del juego o la plataforma podrían no funcionar como deberían, y puede que te topes con bugs y cuelgues. Para recibir asistencia, envía un correo a support@pavonisinteractive.com<br/><br/>Es posible que la función de guardado en la nube no funcione correctamente. En caso de experimentar problemas, podrás encontrar tus archivos de guardado en C:\Users\TUNOMBRE\Documents\My Games\TerraInvicta\Saves or %homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\
+//<Developer> Credits
 UI.StartScreen.TICredits_0=TERRA INVICTA<br/><br/>
 UI.StartScreen.TICredits_1=CREADO POR<br/>Pavonis Interactive<br/><br/>
 UI.StartScreen.TICredits_2=PUBLICADO POR<br/>Hooded Horse<br/><br/>
@@ -177,7 +233,10 @@ UI.StartScreen.TICredits_15=DISEÑADORES DE CONTENIDO<br/>Tayta Malikai<br/>Davi
 UI.StartScreen.TICredits_16=COORDINADOR DE PRODUCCIÓN<br/>Shannon Sindorf<br/><br/>
 UI.StartScreen.TICredits_17=DESAROLLADORES ADICIONALES<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Amineri<br/><br/>
 UI.StartScreen.TICredits_18=PRODUCTORES EJECUTIVOS<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Pottenger<br/>Xavier Wynns<br/><br/>
-UI.StartScreen.TICredits_19=PRODUCTORES ASOCIADOS<br/>
+
+//<AP> Credits + Messages
+
+UI.StartScreen.TICredits_19=PRODUCTORES ASOCIADOS<br/><br/>
 UI.StartScreen.TICredits_20=Rachel Dilger<br/><br/>
 UI.StartScreen.TICredits_21=<skip/>
 UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
@@ -197,29 +256,26 @@ UI.StartScreen.TICredits_35=«El universo espera a los atrevidos».<br/><br/>
 UI.StartScreen.TICredits_36=Stardust<br/>«Fluye junto al viento solar».<br/><br/>
 UI.StartScreen.TICredits_37=Stefano de Stefano<br/>«No podemos resolver nuestros problemas si pensamos igual que cuando los originamos».<br/><br/>
 UI.StartScreen.TICredits_38=Sean Hassan<br/>«El reto es evitar desilusionarnos en una vida sin ilusiones».<br/><br/>
-UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>«Lo que hagamos ahora frente a una crisis en constante cambio, sea una guerra, desastres o el cambio climático, tendrá consecuencias en el futuro y determinará el destino de la humanidad. Puede que encontramos salvación en el espacio y la tecnología para estos desafíos existenciales».<br/><br/>
+UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>«Lo que hagamos ahora frente a una crisis en constante cambio, sea una guerra, desastres o el cambio climático, tendrá consecuencias en el futuro y determinará el destino de la humanidad. Puede que encontramos salvación en el espacio y la tecnología para estos desafíos existenciales».<br/><br/><br/>
+
+//<VA> Credits
+
 UI.StartScreen.TICredits_40=REPARTO VOCAL<br/>
-UI.StartScreen.TICredits_41=Fiona Ayoade<br/>
-UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
-UI.StartScreen.TICredits_43=Judith Howell<br/>
-UI.StartScreen.TICredits_44=Zura Johnson<br/><br/>
-UI.StartScreen.TICredits_45=Soren Van Wyk<br/>
-UI.StartScreen.TICredits_46=Etienne Durandt<br/><br/>
-UI.StartScreen.TICredits_47=Khalid Al-Ashgar<br/>
-UI.StartScreen.TICredits_48=Erik Ransom<br/><br/>
-UI.StartScreen.TICredits_49=Li Qingzhao<br/>
-UI.StartScreen.TICredits_50=Christina Ho<br/><br/>
-UI.StartScreen.TICredits_51=Hanse Castillo<br/>
-UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
-UI.StartScreen.TICredits_53=Kiran Banerjee<br/>
-UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
+
+
 UI.StartScreen.TICredits_55=VOCES DE LOS CONSEJEROS<br/>
-UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton T<br/>Jim Lenaway • Andy Mack<br/>Mike Apgar • Damon Alums<br/>Josephine Croft • Les Horovitz<br/>Heidi Kwiat • Ian Phillips<br/>Helen Clapp • Lizzie Crow<br/>Sophie Roberts • Steven Kelly<br/>Thom Welham • Conor James<br/>Mohita Namjoshi • Mamta Gurnani<br/>Vikram Rawat • Gagan Pathak<br/>Jenny Fennessy • Alan Kelly<br/>Diana Silva • Anita Lauren<br/>Carlos Cerrato • Fernando Macias Jimenez<br/>Marina Kalmykova • Sebastian Agner<br/>Gaelle Gosselin • Jesse Meiring<br/>Mhairi Morrison • Kieran Flitton<br/>Lina Sinuan • Val Cheah<br/>Hagen Valerio • Jati Andito<br/>Ore Apampa • Uzy Hamman<br/>Rachel Oladejo • Jonathan Mabote<br/>Jonathan Brandt • Nadia Cavelle<br/>Christian Michalak • Sonja Palmu<br/>Sarí AK • Mona Saadeh<br/>Loay Al-Hakimi • Silina Choueiry<br/><br/>
-UI.StartScreen.TICredits_57=ESTRELLAS DEL CONTROL DE CALIDAD<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/><br/>
+
+
+//<QA> Credits
+
+UI.StartScreen.TICredits_57=ESTRELLAS DEL CONTROL DE CALIDAD<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/><br/><br/>
 UI.StartScreen.TICredits_58=AGRADECIMIENTOS A<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/>
-UI.StartScreen.TICredits_59=HOODED HORSE<br/>
+
+//<Publisher> Credits
+
+UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>
 UI.StartScreen.TICredits_60=DIRECTOR EJECUTIVO<br/>Tim Bender<br/><br/>
-UI.StartScreen.TICredits_61=DIRECTORA FINANCIERA<br/>Y ASESORA JURÍDICA<br/>Snow Rui<br/><br/>
+UI.StartScreen.TICredits_61=DIRECTORA FINANCIERAY ASESORA JURÍDICA<br/>Snow Rui<br/><br/>
 UI.StartScreen.TICredits_62=DIRECTOR DE PRODUCTO<br/>Ashkan Namousi<br/><br/>
 UI.StartScreen.TICredits_63=ASESOR<br/>Shams Jorjani<br/><br/>
 UI.StartScreen.TICredits_64=DIRECTOR DE COMUNICACIONES<br/>Joe Robinson<br/><br/>GERENTE DE COMUNICACIONES<br/>Marcello Perricone<br/><br/>
@@ -230,15 +286,23 @@ UI.StartScreen.TICredits_68=PRODUCTORES DE TRÁILERES<br/>Slavic Magic<br/>Grzeg
 UI.StartScreen.TICredits_69=DIRECTORES DE RELACIONES PÚBLICAS<br/>Vicarious PR<br/>Michael Brown<br/>Lewis Burnell<br/>Matt Brown<br/><br/>
 UI.StartScreen.TICredits_70=COORDINACIÓN DE LOCALIZACIÓN<br/>Miguel David Medina García<br/><br/>
 UI.StartScreen.TICredits_71=LOCALIZACIÓN<br/>Brenda Triandafeledis<br/>Laura Nieves Díaz Suárez<br/>Carlota Marie Dávila Santana<br/>Marta Medina González<br/>Wenwei Jiang<br/>Yuki Fujita<br/>EC Innovations<br/>Roboto Global<br/>Grupo independiente de traducción al chino de Terra Invicta<br/><br/>
-UI.StartScreen.TICredits_72=AGRADECIMIENTOS ESPECIALES<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D'Arcy<br/><br/>
+UI.StartScreen.TICredits_72=AGRADECIMIENTOS ESPECIALES A<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D'Arcy<br/><br/>
 UI.StartScreen.TICredits_73=¡RETOÑOS DEL DESARROLLO!<br/>Théodore<br/>Carmen Rose<br/><br/>
+
+//<Contributing Backers> Credits
 
 UI.StartScreen.TICredits_74=CONTRIBUIDORES CREATIVOS DE KICKSTARTER<br/>
 
-UI.StartScreen.TICredits_105=PLAYTESTERS DE
-UI.StartScreen.TICredits_106=KICKSTARTER<br/>
-	
-UI.StartScreen.TICredits_1255=SOFTWARE<br/>Hecho en Unity<br/>Hecho en FMOD Studio<br/>de Firelight Technologies Limited<br/><br/>
-UI.StartScreen.TICredits_1256=Muchos de los logos de los iconos de las organizaciones que aparecen en el juego en las empresas privadas ficticias son cortesía de LogoLogo.com.<br/>El uso de los logos de las agencias del gobierno en esta obra ficticia no pretende insinuar apoyo por nuestra parte a tales agencias.<br/><br/>
-UI.StartScreen.TICredits_1257=Algunas fotos que se utilizan como fondo en las imágenes de los consejeros son cortesía de la NASA.
-UI.StartScreen.TICredits_1258=Autor de «Historia de dos ciudades»: Charles Dickens
+//<Playtester> Credits
+
+UI.StartScreen.TICredits_105=- PLAYTESTERS DE
+UI.StartScreen.TICredits_106= KICKSTARTER -<br/>
+
+//<Backers> Credits
+
+UI.StartScreen.TICredits_393=<br/>- MECENAS DE KICKSTARTER -<br/>
+
+UI.StartScreen.TICredits_1337=SOFTWARE<br/><br/>Hecho en Unity<br/><br/>Hecho en FMOD Studio<br/>de Firelight Technologies Limited<br/><br/>
+UI.StartScreen.TICredits_1338=Muchos de los logos de los iconos de las organizaciones que aparecen en el juego en las empresas privadas ficticias son cortesía de LogoLogo.com.<br/>El uso de los logos de las agencias del gobierno en esta obra ficticia no pretende insinuar apoyo por nuestra parte a tales agencias.<br/><br/>
+UI.StartScreen.TICredits_1339=Algunas fotos que se utilizan como fondo en las imágenes de los consejeros son cortesía de la NASA.
+UI.StartScreen.TICredits_1340=Autor de «Historia de dos ciudades»: Charles Dickens

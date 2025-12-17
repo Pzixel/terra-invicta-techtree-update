@@ -1,6 +1,6 @@
 UI.MissionPhase.ConfirmAssignments=确认指派
 UI.MissionPhase.ConfirmPromptHeader=警告！
-UI.MissionPhase.ConfirmPrompt=你的理事有些还没被指派到任务。 <br/>你确定要结束任务阶段吗？
+UI.MissionPhase.ConfirmPrompt=你的理事有些还没被指派到任务。<br/>你确定要结束任务指派阶段吗？
 UI.MissionPhase.ConfirmYes=确认
 UI.MissionPhase.ConfirmNo=噢，不！
 UI.MissionPhase.Success=成功

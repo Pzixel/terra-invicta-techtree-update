@@ -14,7 +14,7 @@ TIOfficerTemplate.displayName.Officer_Marine=Officier de la marine
 TIOfficerTemplate.displayName.Officer_Supply=Agent d’approvisionnement
 TIOfficerTemplate.displayName.Officer_Chief=Chef d’équipage
 
-TIOfficerTemplate.description.Officer_Admiral=Un officier supérieur qui accorde des bonus à l’ensemble de la flotte. Seul l’officier général du module de pont utilisé pour la réduction de la flotte <color=#FFFFFFFF><sprite name=mission_control></color> appliquera les bonus.
+TIOfficerTemplate.description.Officer_Admiral=Un officier supérieur qui accorde des bonus à l'ensemble de la flotte. Un seul amiral par flotte peut appliquer les bonus de <color=#FFFFFFFF><sprite name=mission_control></color>.
 TIOfficerTemplate.description.Officer_Captain=Le capitaine du vaisseau.
 TIOfficerTemplate.description.Officer_First=Le commandant en second du vaisseau.
 TIOfficerTemplate.description.Officer_FireControl=L’officier responsable des systèmes de missiles du vaisseau.
@@ -27,7 +27,7 @@ TIOfficerTemplate.description.Officer_Medical=L’officier responsable du mainti
 TIOfficerTemplate.description.Officer_CIC=L’officier responsable des systèmes du centre de combat et des défenses actives du vaisseau.
 TIOfficerTemplate.description.Officer_Intel=L’officier responsable des connaissances de l’équipage sur l’ennemi.
 TIOfficerTemplate.description.Officer_Marine=L’officier responsable du détachement de la Marine du vaisseau.
-TIOfficerTemplate.description.Officer_Supply=L’officier responsable des réserves du vaisseau.
+TIOfficerTemplate.description.Officer_Supply=L'officier responsable des réserves du vaisseau et de la récupération.
 TIOfficerTemplate.description.Officer_Chief=L’astronaute en chef engagé sur le vaisseau et qui représente l’équipage.
 
 TIOfficerTemplate.Officer_Admiral_1=Vice-amiral
@@ -78,8 +78,8 @@ TIOfficerTemplate.Officer_Marine_3=Major
 TIOfficerTemplate.Officer_Supply_3=Lieutenant
 TIOfficerTemplate.Officer_Chief_3=Premier maître principal
 
-TIOfficerTemplate.MaxPerShip=- {0} officier(s) max. pour ce type de vaisseau
-TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=- {0} officier(s) de tout type en tout, excepté les officiers généraux et commandants, sur {1} coques							// number, hull display name
+TIOfficerTemplate.MaxPerShip=- {0} Officier(s) max. pour ce type de vaisseau
+TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=- {1} Officier(s) de tout type en tout, excepté les officiers généraux et commandants, sur {0} coques							// number, hull display name
 TIOfficerTemplate.MaxTotalOfficersPerShip=- Max. officier(s) de tout type en tout, excepté les officiers généraux et commandants, sur le vaisseau limité par la taille de la coque
 TIOfficerTemplate.CrewMin=- Nécessite un équipage de {0} minimum
 TIOfficerTemplate.FlagBridge=- Nécessite un module {0}																			// name of flag bridge ship utility module
@@ -99,7 +99,7 @@ TIOfficerTemplate.BeamTargeting=- Augmente les chances que les systèmes laser e
 TIOfficerTemplate.BeamDamage=- Augmente les dégâts des lasers et des rayons de particules de {3}
 TIOfficerTemplate.BeamCooldown=- Réduit le refroidissement des armes à rayons de {2}
 TIOfficerTemplate.GunTargeting=- Augmente les chances que les armes magnétiques, plasma et de tir déjouent les CME ennemies de {1}
-TIOfficerTemplate.GunDamage=- Augmente les dégâts des armes magnétiques, plasma et de tir de {3}
+TIOfficerTemplate.GunDamage=- Augmente les dégâts des armes magnétiques, plasma et de tir de {3}.
 TIOfficerTemplate.MagWeaponCooldown=- Réduit le refroidissement des armes magnétiques de {2}
 TIOfficerTemplate.PointDefenseCooldown=- Réduit le refroidissement des armes de défense de point de {2}
 TIOfficerTemplate.GlobalDamage=- Augmente les dégâts de toutes les armes à l’exception des armes nucléaires et des missiles antimatière {3}
@@ -121,6 +121,7 @@ TIOfficerTemplate.MaxSurvivableCombatAcceleration=- Augmente l’accélération 
 TIOfficerTemplate.MaxSurvivableCruiseAcceleration=- Augmente l’accélération de croisière maximum autorisée du vaisseau de {0} g(s)
 TIOfficerTemplate.RadiationDamageReduction=- Réduit les dégâts causés par les armes à particules de {2}
 TIOfficerTemplate.NoDemotionOnTransfer=- Ne perdra pas de niveau s'il y a transfert vers un autre vaisseau
+TIOfficerTemplate.NoCostToTransfer=- Le transfert d'officier vers un autre vaisseau a un coût nul en <color=#FFFFFFFF><sprite name="influence"></color>.
 
 TIOfficerTemplate.OfficerShipNameAndJob={0} : {1}, {2}			// ship name: rank + name, job
 TIOfficerTemplate.OfficerNameAndJob={0}, {1}					// rank + name, job

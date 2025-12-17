@@ -628,5 +628,244 @@
    "armyType": "Human",
    "deploymentType": "Standard",
    "startingStrength": 1
+ },
+ {
+   "dataName": "2026_USAArmy2",
+   "friendlyName": "2nd Infantry",
+   "startRegionStr": "2026_SouthKorea",
+   "homeRegionStr": "2026_Cascadia",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_USAArmy3",
+   "friendlyName": "3rd Infantry",
+   "startRegionStr": "2026_Dixie",
+   "homeRegionStr": "2026_Dixie",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_USAArmy5",
+   "friendlyName": "1st Marines",
+   "startRegionStr": "2026_California",
+   "homeRegionStr": "2026_California",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_USAArmy4",
+   "friendlyName": "1st Armored",
+   "startRegionStr": "2026_Texas",
+   "homeRegionStr": "2026_Texas",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_USAArmy1",
+   "friendlyName": "1st Infantry",
+   "startRegionStr": "2026_HighPlains",
+   "homeRegionStr": "2026_HighPlains",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_USAArmy6",
+   "friendlyName": "2nd Marines",
+   "startRegionStr": "2026_Shenandoah",
+   "homeRegionStr": "2026_Shenandoah",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_GBRArmy1",
+   "friendlyName": "1st Armored",
+   "startRegionStr": "2026_England",
+   "homeRegionStr": "2026_England",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_EUAArmy1",
+   "friendlyName": "1st Blindee",
+   "startRegionStr": "2026_Paris",
+   "homeRegionStr": "2026_Paris",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_RUSArmy1",
+   "friendlyName": "1st",
+   "startRegionStr": "2026_Moskva",
+   "homeRegionStr": "2026_Moskva",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_RUSArmy2",
+   "friendlyName": "8th",
+   "startRegionStr": "2026_Donetsk",
+   "homeRegionStr": "2026_Rostovskaya",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 0.6
+ },
+ {
+   "dataName": "2026_RUSArmy3",
+   "friendlyName": "20th",
+   "startRegionStr": "2026_Donetsk",
+   "homeRegionStr": "2026_Voronezh",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 0.6
+ },
+ {
+   "dataName": "2026_UKRArmy1",
+   "friendlyName": "10th Mountain",
+   "startRegionStr": "2026_Donetsk",
+   "homeRegionStr": "2026_Kiev",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 0.7
+ },
+ {
+   "dataName": "2026_CHNArmy1",
+   "startRegionStr": "2026_Beijing",
+   "homeRegionStr": "2026_Beijing",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_CHNArmy2",
+   "startRegionStr": "2026_Fujian",
+   "homeRegionStr": "2026_Fujian",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_CHNArmy3",
+   "startRegionStr": "2026_Manchuria",
+   "homeRegionStr": "2026_Manchuria",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_CHNArmy4",
+   "startRegionStr": "2026_Chongqing",
+   "homeRegionStr": "2026_Chongqing",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_INDArmy1",
+   "friendlyName": "XII Corps",
+   "startRegionStr": "2026_NewDelhi",
+   "homeRegionStr": "2026_NewDelhi",
+   "armyType": "Human",
+   "deploymentType": "Naval",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_INDArmy2",
+   "friendlyName": "X Corps",
+   "startRegionStr": "2026_Jaipur",
+   "homeRegionStr": "2026_Jaipur",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_INDArmy3",
+   "friendlyName": "IV Corps",
+   "startRegionStr": "2026_Assam",
+   "homeRegionStr": "2026_Kolkata",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_INDArmy4",
+   "friendlyName": "XVI Corps",
+   "startRegionStr": "2026_JammuandKashmir",
+   "homeRegionStr": "2026_Mumbai",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_PAKArmy1",
+   "friendlyName": "I Strike Corps",
+   "startRegionStr": "2026_Punjab",
+   "homeRegionStr": "2026_Punjab",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_PRKArmy1",
+   "friendlyName": "820th Armored",
+   "startRegionStr": "2026_NorthKorea",
+   "homeRegionStr": "2026_NorthKorea",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_ISRArmy1",
+   "friendlyName": "36th Armored",
+   "startRegionStr": "2026_Israel",
+   "homeRegionStr": "2026_Israel",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_KORArmy1",
+   "friendlyName": "1st Army",
+   "startRegionStr": "2026_SouthKorea",
+   "homeRegionStr": "2026_SouthKorea",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_TURArmy1",
+   "friendlyName": "2nd Army",
+   "startRegionStr": "2026_Diyarbakir",
+   "homeRegionStr": "2026_Anatolia",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_EGYArmy1",
+   "friendlyName": "1st Field Army",
+   "startRegionStr": "2026_Cairo",
+   "homeRegionStr": "2026_Cairo",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
+ },
+ {
+   "dataName": "2026_IRNArmy1",
+   "friendlyName": "1st Army",
+   "startRegionStr": "2026_Tehran",
+   "homeRegionStr": "2026_Tehran",
+   "armyType": "Human",
+   "deploymentType": "Standard",
+   "startingStrength": 1
  }
 ]

@@ -8,7 +8,7 @@
    "minute": 0,
    "second": 0,
    "bonusMoney": 0,
-   "bonusInfluence": 0,
+   "bonusInfluence": 200,
    "bonusOps": 0,
    "bonusBoost": 0,
    "bonusMissionControl": 0,
@@ -46,7 +46,7 @@
    "bonusInfluence": 10,
    "bonusOps": 0,
    "bonusBoost": 200,
-   "bonusMissionControl": 5,
+   "bonusMissionControl": 8,
    "bonusWater": 1200,
    "bonusVolatiles": 500,
    "bonusMetals": 1000,
@@ -91,6 +91,13 @@
    ],
    "startingShipDesigns": [
       "Ship12"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12020",
+      "alienFleet22020",
+      "alienFleet32020",
+      "alienFleet42020",
+      "alienFleet52020"
    ]
 },
  {
@@ -136,6 +143,65 @@
       "Project_PlatformCore",
       "Project_SolarCollector",
       "Project_SpaceScienceLab"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12020",
+      "alienFleet22020",
+      "alienFleet32020",
+      "alienFleet42020",
+      "alienFleet52020"
+   ]
+},
+ {
+   "dataName": "2026Start",
+   "year": 2026,
+   "month": 1,
+   "day": 31,
+   "hour": 23,
+   "minute": 59,
+   "second": 59,
+   "bonusMoney": 0,
+   "bonusInfluence": 0,
+   "bonusOps": 0,
+   "bonusBoost": 0,
+   "bonusMissionControl": 0,
+   "bonusWater": 0,
+   "bonusVolatiles": 0,
+   "bonusMetals": 0,
+   "bonusNobles": 0,
+   "bonusFissiles": 0,
+   "bonusAntimatter": 0,
+   "bonusExotics": 0,
+   "initialCrashdownRegionTemplateName": "random",
+   "initialAtmosphericCO2_ppm": 425,
+   "initialAtmosphericCH4_ppm": 1.93,
+   "initialAtmosphericN2O_ppm": 0.3392,
+   "initialStratosphericAerosols_ppm": 0,
+   "initialGlobalSeaLevelAnomaly_cm": 25,
+   "initialLooseNukes": 0,
+   "globalStartingGDPScaling": 0.89,
+   "distributeFactionlessHabsAndFleets": true,
+   "startingTechs": [
+      "WeAreNotAlone",
+      "Skywatch",
+      "MissionToSpace"
+   ],
+   "projectsCompleted": [
+      "Project_Solid-FuelSpaceRockets",
+      "Project_Liquid-FuelRockets",
+      "Project_CryogenicLiquid-FuelRockets",
+      "Project_LifeScienceLab",
+      "Project_MaterialsLab",
+      "Project_PlatformCore",
+      "Project_SolarCollector",
+      "Project_SpaceScienceLab"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12020",
+      "alienFleet22020",
+      "alienFleet32020",
+      "alienFleet42020",
+      "alienFleet52020"
    ]
 },
  {
@@ -150,7 +216,7 @@
    "bonusInfluence": 10,
    "bonusOps": 10,
    "bonusBoost": 10,
-   "bonusMissionControl": 10,
+   "bonusMissionControl": 16,
    "bonusWater": 10,
    "bonusVolatiles": 10,
    "bonusMetals": 10,
@@ -165,7 +231,7 @@
    "initialStratosphericAerosols_ppm": 0,
    "initialGlobalSeaLevelAnomaly_cm": 51,
    "initialLooseNukes": 1,
-   "globalStartingGDPScaling": 0.75,
+   "globalStartingGDPScaling": 0.7,
    "distributeFactionlessHabsAndFleets": false,
    "startingTechs": [
       "WeAreNotAlone",
@@ -237,6 +303,13 @@
       "Phobos",
       "Deimos",
       "433Eros"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12070",
+      "alienFleet22070",
+      "alienFleet32070",
+      "alienFleet42070",
+      "alienFleet52070"
    ]
 }
 ]
