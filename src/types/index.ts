@@ -94,6 +94,10 @@ export class LocalizationDb {
             return "";
         }
 
+        if (dataName.startsWith("2026")) {
+            return "";
+        }
+
         if (dataName.startsWith("map_")) {
             text = this.getLocalizationString(type, dataName.replace("map_", ""), field);
         }
