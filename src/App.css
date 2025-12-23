@@ -223,3 +223,98 @@ img {
 .checkboxContainer {
     margin-top: 1em;
 }
+
+.utility-links {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.25rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.utility-link {
+    color: #0b4b87;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.utility-link:hover {
+    text-decoration: underline;
+}
+
+.gamefiles-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 2rem;
+    color: #0f172a;
+    line-height: 1.5;
+}
+
+.gamefiles-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.gamefiles-hint {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #334155;
+}
+
+.gamefiles-tree {
+    background: #f5fbff;
+    border: 1px solid #c6d8e7;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.gamefiles-tree details {
+    margin-bottom: 0.35rem;
+}
+
+.gamefiles-tree summary {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.gamefiles-children {
+    padding-left: 1rem;
+}
+
+.gamefiles-file {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    padding-left: 0.4rem;
+    margin: 0.15rem 0;
+}
+
+.gamefiles-meta {
+    color: #475569;
+    font-size: 0.9em;
+}
+
+.gamefiles-empty {
+    color: #64748b;
+    font-style: italic;
+}
+
+.gamefiles-status,
+.gamefiles-error {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+}
+
+.gamefiles-status {
+    background: #e2f3ff;
+    color: #0f172a;
+}
+
+.gamefiles-error {
+    background: #fde2e1;
+    color: #991b1b;
+    border: 1px solid #fecaca;
+}

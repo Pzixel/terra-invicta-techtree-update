@@ -31,6 +31,7 @@ interface LocalizedUi {
     search: string;
     seeEntireTree: string;
     seeTreeForThisNode: string;
+    browseGamefiles: string;
     showProjects: string;
     summary: string;
     totalTreeCost: string;
@@ -70,6 +71,7 @@ const englishUi: LocalizedUi = {
     search: "Search",
     seeEntireTree: "See entire tree",
     seeTreeForThisNode: "See tree for this node",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "Show Projects",
     summary: "Summary",
     totalTreeCost: "Total Tree Cost",
@@ -118,6 +120,7 @@ const chsUi: LocalizedUi = {
     search: "搜索",
     seeEntireTree: "查看完整技术树",
     seeTreeForThisNode: "查看该节点的技术树",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "显示项目",
     summary: "摘要",
     totalTreeCost: "总树形成本",
@@ -157,6 +160,7 @@ const chtUi: LocalizedUi = {
     search: "搜索",
     seeEntireTree: "查看完整技術樹",
     seeTreeForThisNode: "查看該節點的技術樹",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "顯示項目",
     summary: "摘要",
     totalTreeCost: "總樹形成本",
@@ -196,6 +200,7 @@ const deuUi: LocalizedUi = {
     search: "Suche",
     seeEntireTree: "Gesamten Baum anzeigen",
     seeTreeForThisNode: "Baum für diesen Knoten anzeigen",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "Projekte anzeigen",
     summary: "Zusammenfassung",
     totalTreeCost: "Gesamte Baumkosten",
@@ -235,6 +240,7 @@ const espUi: LocalizedUi = {
     search: "Buscar",
     seeEntireTree: "Ver árbol completo",
     seeTreeForThisNode: "Ver árbol para este nodo",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "Mostrar Proyectos",
     summary: "Resumen",
     totalTreeCost: "Costo Total del Árbol",
@@ -274,6 +280,7 @@ const frUi: LocalizedUi = {
     search: "Rechercher",
     seeEntireTree: "Voir l'arbre entier",
     seeTreeForThisNode: "Voir l'arbre pour ce nœud",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "Afficher les projets",
     summary: "Résumé",
     totalTreeCost: "Coût total de l'arbre",
@@ -313,6 +320,7 @@ const jpnUi: LocalizedUi = {
     search: "検索",
     seeEntireTree: "ツリー全体を表示",
     seeTreeForThisNode: "このノードのツリーを表示",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "プロジェクトを表示",
     summary: "概要",
     totalTreeCost: "ツリー総コスト",
@@ -352,6 +360,7 @@ const polUi: LocalizedUi = {
     search: "Szukaj",
     seeEntireTree: "Zobacz całe drzewo",
     seeTreeForThisNode: "Zobacz drzewo dla tego węzła",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "Pokaż projekty",
     summary: "Podsumowanie",
     totalTreeCost: "Całkowity koszt drzewa",
@@ -391,6 +400,7 @@ const porUi: LocalizedUi = {
     search: "Pesquisar",
     seeEntireTree: "Ver árvore completa",
     seeTreeForThisNode: "Ver árvore para este nó",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "Mostrar Projetos",
     summary: "Resumo",
     totalTreeCost: "Custo Total da Árvore",
@@ -430,6 +440,7 @@ const korUi: LocalizedUi = {
     search: "검색",
     seeEntireTree: "전체 트리 보기",
     seeTreeForThisNode: "이 노드의 트리 보기",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "프로젝트 표시",
     summary: "요약",
     totalTreeCost: "트리 총 비용",
@@ -469,6 +480,7 @@ const rusUi: LocalizedUi = {
     search: "Поиск",
     seeEntireTree: "Показать всё дерево",
     seeTreeForThisNode: "Показать дерево для этого узла",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "Показать проекты",
     summary: "Сводка",
     totalTreeCost: "Общая стоимость дерева",
@@ -508,6 +520,7 @@ const ukrUi: LocalizedUi = {
     search: "Пошук",
     seeEntireTree: "Переглянути все дерево",
     seeTreeForThisNode: "Переглянути дерево для цього вузла",
+    browseGamefiles: "Browse gamefiles",
     showProjects: "Показати проєкти",
     summary: "Підсумок",
     totalTreeCost: "Загальна вартість дерева",

@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run generate:gamefiles-manifest && vite build",
+    "generate:gamefiles-manifest": "node scripts/generate_gamefiles_manifest.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "tsc": "tsc --noEmit"

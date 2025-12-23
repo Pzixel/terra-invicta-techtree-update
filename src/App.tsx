@@ -4,7 +4,7 @@ import { TechGraph } from './TechGraph'
 import { TechSidebar } from './TechSidebar'
 import React, { useEffect, useState, useCallback } from 'react';
 import { getAncestorTechs, getDescendentTechs } from './utils'
-import { useNavigate, useParams } from "react-router";
+import { Link, useNavigate, useParams } from "react-router";
 import LanguageSelector from './LanguageSelector';
 import { TechDb } from './utils/TechDb';
 import { AppStaticData } from './types/props';
@@ -180,6 +180,10 @@ function App() {
                                         onVersionChange={setVersion}
                                     />
                                 </div>
+                            </div>
+
+                            <div className="utility-links" style={{ display: 'none' }}>
+                                <Link className="utility-link" to="/browse">{language.uiTexts.browseGamefiles}</Link>
                             </div>
 
                         </>
