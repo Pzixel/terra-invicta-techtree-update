@@ -490,8 +490,25 @@ def generate_optimized_svg_plot(output_data, output_file, fig_width=18, fig_heig
 def main():
     # Define the path to the JSON file and localization file
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    json_file = os.path.join(base_dir, '..', 'public', 'gamefiles', 'Templates', 'TIDriveTemplate.json')
-    localization_file = os.path.join(base_dir, '..', 'public', 'gamefiles', 'Localization', 'en', 'TIDriveTemplate.en')
+    gamefiles_root = os.path.join(base_dir, '..', 'public', 'gamefiles')
+
+    # Prefer the "stable" subtree, then "experimental", then the root for backwards compatibility
+    for candidate in (
+        os.path.join(gamefiles_root, 'stable'),
+        os.path.join(gamefiles_root, 'experimental'),
+        gamefiles_root,
+    ):
+        templates_dir = os.path.join(candidate, 'Templates')
+        localization_dir = os.path.join(candidate, 'Localization', 'en')
+        json_file = os.path.join(templates_dir, 'TIDriveTemplate.json')
+        localization_file = os.path.join(localization_dir, 'TIDriveTemplate.en')
+
+        if os.path.exists(json_file) and os.path.exists(localization_file):
+            break
+    else:
+        raise FileNotFoundError(
+            'Could not locate TIDriveTemplate.json and TIDriveTemplate.en under public/gamefiles'
+        )
 
     # Generate both combat and cruise thrust charts
     
