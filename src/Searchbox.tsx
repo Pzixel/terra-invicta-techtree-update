@@ -58,6 +58,10 @@ export function Searchbox({
                 effectsText = node.effects.filter(effect => effect !== "").map(effect => localizationDb.getLocalizationString("effect", effect, "description"));
             }
 
+            const factionText = (node.factionPrereq ?? [])
+                .filter(faction => faction !== "")
+                .map(faction => localizationDb.getReadable("faction", faction, "displayName") ?? faction);
+
             const modulesText: string[] = [];
             if (node.isProject) {
                 const modTypes = ["battery", "drive", "gun", "habmodule", "heatsink", "laserweapon", "magneticgun", "missile", "particleweapon", "plasmaweapon", "powerplant", "radiator", "shiparmor", "shiphull", "utilitymodule"] as const;
@@ -85,7 +89,7 @@ export function Searchbox({
                 }
             }
 
-            searchData.fullText = [node.displayName, summaryText, effectsText, modulesText, claimsText].join(" ");
+            searchData.fullText = [node.displayName, summaryText, effectsText, modulesText, claimsText, factionText].join(" ");
             documentSearchIndex.add(searchData);
         };
 
@@ -119,11 +123,14 @@ export function Searchbox({
             const field = fullText ? "fullText" : "displayName";
             const regex = new RegExp(query, "i");
             // Simulate exact match
-            searchResults = rawResults
-                .filter(entry => entry.doc[field].match(regex))
-                .map(entry => entry.doc.displayName);
+            searchResults = Array.from(new Set(
+                rawResults
+                    .filter(entry => entry.doc[field].match(regex))
+                    .map(entry => entry.doc.displayName)
+            ));
         } else {
-            searchResults = rawResults.map(entry => entry.doc.displayName);
+            // Deduplicate results to avoid repeated techs when multiple fields match the query
+            searchResults = Array.from(new Set(rawResults.map(entry => entry.doc.displayName)));
         }
 
         setResults(searchResults);
