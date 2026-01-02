@@ -131,7 +131,10 @@ export default function LanguageSelector({
           renderValue={(selected) => {
             const selectedCode = typeof selected === 'string' ? selected : language.code;
             const selectedLang = selectedCode && selectedCode in Languages ? Languages[selectedCode] : language;
-            return <span style={{ fontSize: '1.2rem' }}>{selectedLang.icon}</span>;
+            return <span>
+              <span style={{ fontSize: '1.2rem', marginRight: '8px' }}>{selectedLang.icon}</span>
+              <span>{selectedLang.name}</span>
+            </span>
           }}
         >
           {selectLanguages.map((langOption) => (
