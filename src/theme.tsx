@@ -34,6 +34,8 @@ const darkPalette = {
   },
 };
 
+const THEME_STORAGE_KEY = 'terraInvictaThemeMode';
+
 const baseComponents = {
   components: {
     MuiPaper: {
@@ -58,19 +60,34 @@ function buildTheme(mode: PaletteMode) {
 }
 
 export function AppThemeProvider({ children }: { children: ReactNode }) {
-  const [mode, setMode] = useState<PaletteMode>('light');
+  const [mode, setMode] = useState<PaletteMode>(() => {
+    if (typeof window === 'undefined') return 'light';
+    const stored = localStorage.getItem(THEME_STORAGE_KEY) as PaletteMode | null;
+    if (stored === 'light' || stored === 'dark') return stored;
+    const media = window.matchMedia('(prefers-color-scheme: dark)');
+    return media.matches ? 'dark' : 'light';
+  });
 
   useEffect(() => {
-    const media = window.matchMedia('(prefers-color-scheme: dark)');
-    setMode(media.matches ? 'dark' : 'light');
+    if (typeof window === 'undefined') return;
 
+    const media = window.matchMedia('(prefers-color-scheme: dark)');
     const handleChange = (event: MediaQueryListEvent) => {
+      const stored = localStorage.getItem(THEME_STORAGE_KEY) as PaletteMode | null;
+      if (stored === 'light' || stored === 'dark') {
+        return;
+      }
       setMode(event.matches ? 'dark' : 'light');
     };
 
     media.addEventListener('change', handleChange);
     return () => media.removeEventListener('change', handleChange);
   }, []);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    localStorage.setItem(THEME_STORAGE_KEY, mode);
+  }, [mode]);
 
   const colorMode = useMemo<ColorModeContextValue>(() => ({
     mode,
