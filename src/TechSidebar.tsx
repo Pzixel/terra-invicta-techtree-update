@@ -873,7 +873,7 @@ export function TechSidebar({
                             .filter(faction => faction !== "")
                             .map((faction, index) => (
                                 <span key={`faction-${faction}`}>
-                                    {index > 0 ? ", " : null}
+                                    {index > 0 ? " " : null}
                                     {renderFactionWithIcon(faction)}
                                 </span>
                             ))}
