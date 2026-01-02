@@ -271,6 +271,29 @@ export function TechSidebar({
         return localizationDb.getLocalizationString("faction", faction, "fullLeader")!;
     }
 
+    function getFactionIconPath(faction: string): string {
+        const iconPath = `./icons/FAC_${faction}_128.png`;
+        return iconPath;
+    }
+
+    function getFactionIcon(faction: string) {
+        const iconPath = getFactionIconPath(faction);
+        return <img className="faction-icon" src={iconPath} alt={`${name} icon`} />;
+    }
+
+    function renderFactionWithIcon(faction: string | undefined) {
+        if (!faction) {
+            return null;
+        }
+        const name = localizationDb.getReadable("faction", faction, "displayName") ?? faction;
+        return (
+            <span className="faction-label">
+                {getFactionIcon(faction)}
+                <span className="faction-name">{name}</span>
+            </span>
+        );
+    }
+
     const BUILD_MATERIAL_ICONS = {
         water: { label: "Water", icon: "ICO_water" },
         volatiles: { label: "Volatiles", icon: "ICO_volatiles" },
@@ -448,6 +471,7 @@ export function TechSidebar({
 
     const renderProjectButton = (tech: TechTemplate) => {
         const canFailToRoll = tech.factionAvailableChance !== undefined && tech.factionAvailableChance < 100;
+        const factions = tech.factionPrereq?.map(faction => getFactionIcon(faction)!) ?? [];
         return (
             <Button
                 key={`${tech.displayName}`}
@@ -459,7 +483,7 @@ export function TechSidebar({
                 aria-label={tech ? `${tech.displayName} ${tech.isProject ? "Faction Project" : "Global Research"}` : ""}
                 color={tech.isProject ? canFailToRoll ? "warning" : "success" : "primary"}
             >
-                {tech.displayName} {canFailToRoll ? `${tech.factionAvailableChance}%` : ""}
+                {factions} {tech.displayName} {canFailToRoll ? `${tech.factionAvailableChance}%` : ""}
             </Button>
         )
     }
@@ -837,17 +861,22 @@ export function TechSidebar({
 
                 {/* Faction requirements */}
                 {node.isProject && node.factionAlways && (
-                    <h5>{language.uiTexts.factionAlways} {localizationDb.getReadable("faction", node.factionAlways, "displayName")}</h5>
+                    <h5>
+                        {language.uiTexts.factionAlways} {renderFactionWithIcon(node.factionAlways)}
+                    </h5>
                 )}
 
                 {node.isProject && node.factionPrereq && node.factionPrereq.filter(faction => faction !== "").length > 0 && (
                     <h5>
-                        {language.uiTexts.factionPrereq}: {
-                            node.factionPrereq
-                                .filter(faction => faction !== "")
-                                .map(faction => localizationDb.getReadable("faction", faction, "displayName"))
-                                .join(", ")
-                        }
+                        {language.uiTexts.factionPrereq}:{" "}
+                        {node.factionPrereq
+                            .filter(faction => faction !== "")
+                            .map((faction, index) => (
+                                <span key={`faction-${faction}`}>
+                                    {index > 0 ? ", " : null}
+                                    {renderFactionWithIcon(faction)}
+                                </span>
+                            ))}
                     </h5>
                 )}
 
