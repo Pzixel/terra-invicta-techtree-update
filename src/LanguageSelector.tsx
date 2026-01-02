@@ -1,5 +1,6 @@
 import { FormControl, MenuItem, Paper, Select, ToggleButton, ToggleButtonGroup, Tooltip } from '@mui/material';
 import { SelectChangeEvent } from '@mui/material/Select';
+import { alpha, useTheme } from '@mui/material/styles';
 import type { MouseEvent } from 'react';
 import { LanguageSelectorProps } from './types/props';
 import { DefaultLanguage, Languages } from './language';
@@ -48,12 +49,16 @@ export default function LanguageSelector({
     ? availableLanguages
     : [...availableLanguages, language];
 
+  const theme = useTheme();
+  const paperBg = alpha(theme.palette.background.paper, 0.92);
+  const selectBg = theme.palette.background.paper;
+
   return (
     <Paper
       elevation={3}
       className="preferences-selector"
       sx={{
-        backgroundColor: 'rgba(255, 255, 255, 0.92)',
+        backgroundColor: paperBg,
         backdropFilter: 'blur(4px)',
         borderRadius: 2,
         p: 1,
@@ -122,7 +127,7 @@ export default function LanguageSelector({
       <FormControl size="small" fullWidth sx={{ minWidth: 70 }} className="language-selector">
         <Select
           fullWidth
-          sx={{ backgroundColor: 'white' }}
+          sx={{ backgroundColor: selectBg }}
           value={language.code}
           onChange={handleLanguageChange}
           renderValue={(selected) => {
@@ -135,13 +140,13 @@ export default function LanguageSelector({
             <MenuItem
               key={langOption.code}
               value={langOption.code}
-              sx={{ backgroundColor: 'white', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+              sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
               disabled={!langOption.availableVersions.includes(version.code)}
             >
               <span style={{ fontSize: '1.2rem', marginRight: '8px' }}>{langOption.icon}</span>
               <span>{langOption.name}</span>
               {!langOption.availableVersions.includes('stable') && (
-                <span style={{ marginLeft: 'auto', color: '#6c757d', fontSize: '0.8rem' }}>Experimental</span>
+                <span style={{ marginLeft: 'auto', color: theme.palette.text.secondary, fontSize: '0.8rem' }}>Experimental</span>
               )}
             </MenuItem>
           ))}
