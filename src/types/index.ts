@@ -184,12 +184,24 @@ export interface ResourceGranted {
   value: number;
 }
 
+export type WeightedBuildMaterials = {
+    water?: number;
+    volatiles?: number;
+    metals?: number;
+    nobleMetals?: number;
+    fissiles?: number;
+    exotics?: number;
+    [key: string]: number | undefined;
+}
+
 export interface ModuleTemplate {
   dataName: string;
   requiredProjectName?: string;
   iconResource?: string;
   baseIconResource?: string;
   stationIconResource?: string;
+    baseMass_tons?: number;
+    weightedBuildMaterials?: WeightedBuildMaterials;
   // Add other common module properties as needed
 }
 

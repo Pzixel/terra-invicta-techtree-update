@@ -318,3 +318,65 @@ img {
     color: #991b1b;
     border: 1px solid #fecaca;
 }
+
+.module-wrapper {
+    margin-top: 0.75em;
+}
+
+.module-name {
+    font-weight: 700;
+    margin-bottom: 0.25em;
+}
+
+.module-display {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35em;
+    align-items: center;
+}
+
+.module-icon {
+    display: block;
+    max-height: 160px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.module-description {
+    margin: 0;
+}
+
+.module-cost {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+.module-cost-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.module-cost-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 8px;
+    border: 1px solid #222;
+    border-radius: 6px;
+    background: #000;
+    color: #fff;
+}
+
+.module-cost-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.module-cost-value {
+    font-weight: 700;
+    color: #fff;
+}
