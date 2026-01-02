@@ -131,8 +131,9 @@ export function TechSidebar({
                     return Math.abs((effectVal - 1.0)).toLocaleString(locale, { style: "percent" });
 
                 case "{13}":
-                    return localizationDb.getReadable("region", effectStr, "displayName");
-
+                    return localizationDb.tryGetReadable("region", effectStr, "displayName")
+                        ?? localizationDb.tryGetReadable("trait", effectStr, "displayName")
+                        ?? effectStr; // fallback to raw string, actually should look in all files but usually it's just those two
                 case "{14}":
                     return "our faction";
 

@@ -84,6 +84,22 @@ export class LocalizationDb {
         dataName: string,
         field: string
     ): string {
+        let text = this.tryGetReadable(type, dataName, field);
+
+        if (text) {
+            return text;
+        }
+
+        console.log(`Missing localization for ${this.toKey(type, dataName, field)}`);
+
+        return this.toKey(type, dataName, field);
+    }
+
+    tryGetReadable(
+        type: TemplateType,
+        dataName: string,
+        field: string
+    ): string | undefined {
         let text = this.getLocalizationString(type, dataName, field);
 
         if (text) {
@@ -102,13 +118,7 @@ export class LocalizationDb {
             text = this.getLocalizationString(type, dataName.replace("map_", ""), field);
         }
 
-        if (text) {
-            return text;
-        }
-
-        console.log(`Missing localization for ${this.toKey(type, dataName, field)}`);
-
-        return this.toKey(type, dataName, field);
+        return text;
     }
 }
 
