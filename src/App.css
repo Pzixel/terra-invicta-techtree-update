@@ -156,6 +156,10 @@ ul.hideBullets {
     border: 1px solid lightgray;
 }
 
+#mynetwork canvas {
+    background-color: #d3e7f5 !important;
+}
+
 #sidebar-react {
     position: absolute;
     top: 0px;
