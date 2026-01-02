@@ -89,6 +89,17 @@ body {
     gap: 0.5rem;
 }
 
+.preferences-selector.inline {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.settings-button-container {
+    display: flex;
+    align-items: center;
+}
+
 #options.mobile {
     position: relative;
     left: 0;

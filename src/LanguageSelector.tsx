@@ -1,6 +1,7 @@
 import { FormControl, MenuItem, Paper, Select, ToggleButton, ToggleButtonGroup, Tooltip } from '@mui/material';
 import { SelectChangeEvent } from '@mui/material/Select';
 import { alpha, useTheme } from '@mui/material/styles';
+import Box from '@mui/material/Box';
 import type { MouseEvent } from 'react';
 import { LanguageSelectorProps } from './types/props';
 import { DefaultLanguage, Languages } from './language';
@@ -11,6 +12,7 @@ export default function LanguageSelector({
   onLanguageChange,
   version,
   onVersionChange,
+  variant = 'card',
 }: LanguageSelectorProps) {
   const handleLanguageChange = (event: SelectChangeEvent<string>) => {
     const newLang = event.target.value;
@@ -53,17 +55,13 @@ export default function LanguageSelector({
   const paperBg = alpha(theme.palette.background.paper, 0.92);
   const selectBg = theme.palette.background.paper;
 
-  return (
-    <Paper
-      elevation={3}
+  const content = (
+    <Box
       className="preferences-selector"
       sx={{
-        backgroundColor: paperBg,
-        backdropFilter: 'blur(4px)',
-        borderRadius: 2,
-        p: 1,
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: variant === 'inline' ? 'row' : 'column',
+        alignItems: variant === 'inline' ? 'center' : 'stretch',
         gap: 1,
         minWidth: 'fit-content',
       }}
@@ -74,7 +72,7 @@ export default function LanguageSelector({
         exclusive
         onChange={handleVersionChange}
         aria-label="Game version"
-        fullWidth
+        fullWidth={variant !== 'inline'}
         sx={{
           '& .MuiToggleButton-root': {
             textTransform: 'none',
@@ -152,6 +150,24 @@ export default function LanguageSelector({
           ))}
         </Select>
       </FormControl>
+    </Box>
+  );
+
+  if (variant === 'inline') {
+    return content;
+  }
+
+  return (
+    <Paper
+      elevation={3}
+      sx={{
+        backgroundColor: paperBg,
+        backdropFilter: 'blur(4px)',
+        borderRadius: 2,
+        p: 1,
+      }}
+    >
+      {content}
     </Paper>
   );
 }

@@ -314,31 +314,32 @@ export function TechSidebar({
     };
 
     function calculateHabModuleCost(module: ModuleTemplate): ModuleCostItem[] {
-        if (!module.baseMass_tons || !module.weightedBuildMaterials) {
+        if (module.baseMass_tons == null || module.weightedBuildMaterials == null) {
             return [];
         }
 
+        const baseMass = module.baseMass_tons;
+
         return Object.entries(module.weightedBuildMaterials)
-            .map(([key, weight]) => {
+            .flatMap(([key, weight]) => {
                 if (!weight || weight <= 0) {
-                    return null;
+                    return [] as ModuleCostItem[];
                 }
 
                 const material = BUILD_MATERIAL_ICONS[key as BuildMaterialKey];
                 if (!material) {
-                    return null;
+                    return [] as ModuleCostItem[];
                 }
 
-                const amount = (module.baseMass_tons * weight) / 10;
+                const amount = (baseMass * weight) / 10;
 
-                return {
+                return [{
                     key: key as BuildMaterialKey,
                     amount,
                     label: material.label,
                     icon: material.icon,
-                };
-            })
-            .filter((entry): entry is ModuleCostItem => entry !== null);
+                }];
+            });
     }
 
     const buildModuleDisplay = (dataModule: DataModule) => {
