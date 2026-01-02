@@ -1,4 +1,4 @@
-import { CssBaseline, PaletteMode, ThemeProvider, createTheme, responsiveFontSizes } from '@mui/material';
+import { PaletteMode, ThemeProvider, createTheme } from '@mui/material';
 import { deepmerge } from '@mui/utils';
 import { createContext, ReactNode, useEffect, useMemo, useState } from 'react';
 
@@ -54,8 +54,7 @@ const baseComponents = {
 
 function buildTheme(mode: PaletteMode) {
   const palette = mode === 'dark' ? darkPalette : lightPalette;
-  const theme = createTheme(deepmerge({ palette: { mode } }, deepmerge(baseComponents, palette)));
-  return responsiveFontSizes(theme);
+  return createTheme(deepmerge({ palette: { mode } }, deepmerge(baseComponents, palette)));
 }
 
 export function AppThemeProvider({ children }: { children: ReactNode }) {
@@ -84,7 +83,6 @@ export function AppThemeProvider({ children }: { children: ReactNode }) {
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
         {children}
       </ThemeProvider>
     </ColorModeContext.Provider>
