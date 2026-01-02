@@ -471,7 +471,8 @@ export function TechSidebar({
 
     const renderProjectButton = (tech: TechTemplate) => {
         const canFailToRoll = tech.factionAvailableChance !== undefined && tech.factionAvailableChance < 100;
-        const factions = tech.factionPrereq?.map(faction => getFactionIcon(faction)!) ?? [];
+        const factionAlways = tech.factionAlways ? [tech.factionAlways] : [];
+        const factions = factionAlways.concat(tech.factionPrereq ?? []).map(faction => getFactionIcon(faction)!);
         return (
             <Button
                 key={`${tech.displayName}`}
