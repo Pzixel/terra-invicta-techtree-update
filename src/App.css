@@ -55,7 +55,7 @@ html, body {
 
 body {
     font: 12pt Roboto;
-    background-color: #d3e7f5;
+    background-color: transparent;
     height: 100vh; 
     width: 100vw;
 }
@@ -66,7 +66,7 @@ body {
     display: flex;
     gap: 10px;
   
-    width: 450px;
+    width: 420px;
     padding: 10px;
 }
 
@@ -87,6 +87,17 @@ body {
     flex-direction: column;
     align-items: stretch;
     gap: 0.5rem;
+}
+
+.preferences-selector.inline {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.settings-button-container {
+    display: flex;
+    align-items: center;
 }
 
 #options.mobile {
@@ -154,6 +165,10 @@ ul.hideBullets {
     bottom: 0px;
     left: 0px;
     border: 1px solid lightgray;
+}
+
+#mynetwork canvas {
+    background-color: #d3e7f5 !important;
 }
 
 #sidebar-react {

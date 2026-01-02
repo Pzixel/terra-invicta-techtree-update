@@ -5,13 +5,13 @@ import { TechSidebar } from './TechSidebar'
 import React, { useEffect, useState, useCallback } from 'react';
 import { getAncestorTechs, getDescendentTechs } from './utils'
 import { Link, useNavigate, useParams } from "react-router";
-import LanguageSelector from './LanguageSelector';
 import { TechDb } from './utils/TechDb';
 import { AppStaticData } from './types/props';
 import { getTemplateData, LocalizationDb, TemplateTypes, TechTemplate } from './types';
 import { DefaultLanguage, Language, Languages } from './language';
 import { DefaultVersion, GameVersion, GameVersionCode, GameVersions, isGameVersionCode } from './version';
 import { useWindowSize } from './utils/useWindowSize';
+import { SettingsMenu } from './SettingsMenu';
 
 function App() {
     const [appStaticData, setAppStaticData] = useState<AppStaticData>({
@@ -172,8 +172,8 @@ function App() {
                                         language={language}
                                     />
                                 </div>
-                                <div className="language-container">
-                                    <LanguageSelector
+                                <div className="settings-button-container">
+                                    <SettingsMenu
                                         language={language}
                                         onLanguageChange={setLanguage}
                                         version={version}

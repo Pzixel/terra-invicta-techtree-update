@@ -36,6 +36,7 @@ export interface LanguageSelectorProps {
   onLanguageChange: (language: Language) => void;
   version: GameVersion;
   onVersionChange: (version: GameVersion) => void;
+  variant?: 'card' | 'inline';
 }
 
 export interface AppStaticData {

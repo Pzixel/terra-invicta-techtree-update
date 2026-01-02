@@ -1,5 +1,7 @@
 import { FormControl, MenuItem, Paper, Select, ToggleButton, ToggleButtonGroup, Tooltip } from '@mui/material';
 import { SelectChangeEvent } from '@mui/material/Select';
+import { alpha, useTheme } from '@mui/material/styles';
+import Box from '@mui/material/Box';
 import type { MouseEvent } from 'react';
 import { LanguageSelectorProps } from './types/props';
 import { DefaultLanguage, Languages } from './language';
@@ -10,6 +12,7 @@ export default function LanguageSelector({
   onLanguageChange,
   version,
   onVersionChange,
+  variant = 'card',
 }: LanguageSelectorProps) {
   const handleLanguageChange = (event: SelectChangeEvent<string>) => {
     const newLang = event.target.value;
@@ -48,17 +51,17 @@ export default function LanguageSelector({
     ? availableLanguages
     : [...availableLanguages, language];
 
-  return (
-    <Paper
-      elevation={3}
+  const theme = useTheme();
+  const paperBg = alpha(theme.palette.background.paper, 0.92);
+  const selectBg = theme.palette.background.paper;
+
+  const content = (
+    <Box
       className="preferences-selector"
       sx={{
-        backgroundColor: 'rgba(255, 255, 255, 0.92)',
-        backdropFilter: 'blur(4px)',
-        borderRadius: 2,
-        p: 1,
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: variant === 'inline' ? 'row' : 'column',
+        alignItems: variant === 'inline' ? 'center' : 'stretch',
         gap: 1,
         minWidth: 'fit-content',
       }}
@@ -69,7 +72,7 @@ export default function LanguageSelector({
         exclusive
         onChange={handleVersionChange}
         aria-label="Game version"
-        fullWidth
+        fullWidth={variant !== 'inline'}
         sx={{
           '& .MuiToggleButton-root': {
             textTransform: 'none',
@@ -122,31 +125,52 @@ export default function LanguageSelector({
       <FormControl size="small" fullWidth sx={{ minWidth: 70 }} className="language-selector">
         <Select
           fullWidth
-          sx={{ backgroundColor: 'white' }}
+          sx={{ backgroundColor: selectBg }}
           value={language.code}
           onChange={handleLanguageChange}
           renderValue={(selected) => {
             const selectedCode = typeof selected === 'string' ? selected : language.code;
             const selectedLang = selectedCode && selectedCode in Languages ? Languages[selectedCode] : language;
-            return <span style={{ fontSize: '1.2rem' }}>{selectedLang.icon}</span>;
+            return <span>
+              <span style={{ fontSize: '1.2rem', marginRight: '8px' }}>{selectedLang.icon}</span>
+              <span>{selectedLang.name}</span>
+            </span>
           }}
         >
           {selectLanguages.map((langOption) => (
             <MenuItem
               key={langOption.code}
               value={langOption.code}
-              sx={{ backgroundColor: 'white', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+              sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
               disabled={!langOption.availableVersions.includes(version.code)}
             >
               <span style={{ fontSize: '1.2rem', marginRight: '8px' }}>{langOption.icon}</span>
               <span>{langOption.name}</span>
               {!langOption.availableVersions.includes('stable') && (
-                <span style={{ marginLeft: 'auto', color: '#6c757d', fontSize: '0.8rem' }}>Experimental</span>
+                <span style={{ marginLeft: 'auto', color: theme.palette.text.secondary, fontSize: '0.8rem' }}>Experimental</span>
               )}
             </MenuItem>
           ))}
         </Select>
       </FormControl>
+    </Box>
+  );
+
+  if (variant === 'inline') {
+    return content;
+  }
+
+  return (
+    <Paper
+      elevation={3}
+      sx={{
+        backgroundColor: paperBg,
+        backdropFilter: 'blur(4px)',
+        borderRadius: 2,
+        p: 1,
+      }}
+    >
+      {content}
     </Paper>
   );
 }
