@@ -7,7 +7,7 @@ import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Tooltip from '@mui/material/Tooltip';
 import SettingsIcon from '@mui/icons-material/Settings';
-import { ColorModeContext } from './theme';
+import { ColorModeContext } from './theme.tsx';
 import LanguageSelector from './LanguageSelector';
 import { LanguageSelectorProps } from './types/props';
 

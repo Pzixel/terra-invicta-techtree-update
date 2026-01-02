@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { HashRouter, Routes, Route } from "react-router";
 import App from './App'
 import GamefilesBrowser from './GamefilesBrowser';
-import { AppThemeProvider } from './theme';
+import { AppThemeProvider } from './theme.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
