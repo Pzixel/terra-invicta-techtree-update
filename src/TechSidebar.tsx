@@ -296,6 +296,7 @@ export function TechSidebar({
     }
 
     const BUILD_MATERIAL_ICONS = {
+        antimatter: { label: "Antimatter", icon: "ICO_antimatter" },
         water: { label: "Water", icon: "ICO_water" },
         volatiles: { label: "Volatiles", icon: "ICO_volatiles" },
         metals: { label: "Metals", icon: "ICO_metal" },
