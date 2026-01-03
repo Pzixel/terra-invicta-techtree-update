@@ -212,6 +212,8 @@ export interface ModuleTemplate {
   stationIconResource?: string;
     baseMass_tons?: number;
     weightedBuildMaterials?: WeightedBuildMaterials;
+    perTankPropellantMaterials?: WeightedBuildMaterials;
+    thrusters?: number;
   // Add other common module properties as needed
 }
 

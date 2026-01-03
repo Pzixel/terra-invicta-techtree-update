@@ -342,29 +342,65 @@ export function TechSidebar({
             });
     }
 
-    const buildModuleDisplay = (dataModule: DataModule) => {
+    function calculateDriveFuelCost(module: ModuleTemplate): ModuleCostItem[] {
+        if (!module.perTankPropellantMaterials) {
+            return [];
+        }
+
+        return Object.entries(module.perTankPropellantMaterials)
+            .flatMap(([key, amount]) => {
+                if (!amount || amount <= 0) {
+                    return [] as ModuleCostItem[];
+                }
+
+                const material = BUILD_MATERIAL_ICONS[key as BuildMaterialKey];
+                if (!material) {
+                    return [] as ModuleCostItem[];
+                }
+
+                return [{
+                    key: key as BuildMaterialKey,
+                    amount: amount * 10,
+                    label: material.label,
+                    icon: material.icon,
+                }];
+            });
+    }
+
+    const renderCostItems = (cost: ModuleCostItem[], label?: string) => {
+        if (cost.length === 0) {
+            return null;
+        }
+
+        return (
+            <div className="module-cost">
+                {label && <div className="module-cost-label">{label}</div>}
+                <div className="module-cost-items">
+                    {cost.map(costItem => (
+                        <div
+                            className="module-cost-item"
+                            key={`${label ?? "cost"}-${costItem.key}-${costItem.amount}`}
+                            title={costItem.label}
+                        >
+                            <img className="module-cost-icon" src={`./icons/${costItem.icon}.png`} alt={`${costItem.label} icon`} />
+                            <span className="module-cost-value">{costItem.amount.toLocaleString(locale, { maximumFractionDigits: 2, minimumFractionDigits: 0 })}</span>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        );
+    };
+
+    const buildModuleDisplay = (dataModule: DataModule, options?: { showDriveFuelCost?: boolean }) => {
         const icon = getIcon(dataModule.data);
-        const cost = dataModule.type === "habmodule" ? calculateHabModuleCost(dataModule.data) : [];
+        const buildCost = dataModule.type === "habmodule" ? calculateHabModuleCost(dataModule.data) : [];
+        const fuelCost = options?.showDriveFuelCost && dataModule.type === "drive" ? calculateDriveFuelCost(dataModule.data) : [];
         return (
             <div className="module-display">
                 {icon && <img className="module-icon" src={`./icons/${icon}.png`} alt={`${dataModule.data.dataName} icon`} />}
+                {renderCostItems(fuelCost, "Fuel per tank")}
                 <p className="module-description">{localizationDb.getLocalizationString(dataModule.type, dataModule.data.dataName, "description")}</p>
-                {cost.length > 0 && (
-                    <div className="module-cost">
-                        <div className="module-cost-items">
-                            {cost.map(costItem => (
-                                <div
-                                    className="module-cost-item"
-                                    key={`${dataModule.data.dataName}-${costItem.key}`}
-                                    title={costItem.label}
-                                >
-                                    <img className="module-cost-icon" src={`./icons/${costItem.icon}.png`} alt={`${costItem.label} icon`} />
-                                    <span className="module-cost-value">{costItem.amount.toLocaleString(locale, { maximumFractionDigits: 2, minimumFractionDigits: 0 })}</span>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                )}
+                {renderCostItems(buildCost)}
                 <pre>{JSON.stringify(dataModule.data, null, 2)}</pre>
             </div>
         );
@@ -675,12 +711,17 @@ export function TechSidebar({
         if (modules.length === 0) {
             return null;
         }
+        let driveFuelCostShown = false;
         const moduleElements = modules.map(module => {
+            const showDriveFuelCost = module.type === "drive" && module.data.thrusters === 1 && !driveFuelCostShown;
+            if (showDriveFuelCost) {
+                driveFuelCostShown = true;
+            }
             const displayName = localizationDb.getLocalizationString(module.type, module.data.dataName, "displayName");
             return (
                 <div key={`mod-${module.data.dataName}`} className="module-wrapper">
                     <div className="module-name">{displayName ? displayName : module.data.dataName}</div>
-                    {buildModuleDisplay(module)}
+                    {buildModuleDisplay(module, { showDriveFuelCost })}
                 </div>
             );
         });

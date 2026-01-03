@@ -365,14 +365,22 @@ img {
 
 .module-cost {
     display: flex;
-    flex-direction: column;
-    gap: 0.25em;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.module-cost-label {
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
 }
 
 .module-cost-items {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    align-items: center;
 }
 
 .module-cost-item {
