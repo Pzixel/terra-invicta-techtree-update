@@ -409,7 +409,7 @@ export function TechSidebar({
                             title={costItem.label}
                         >
                             <img className="module-cost-icon" src={`./icons/${costItem.icon}.png`} alt={`${costItem.label} icon`} />
-                            <span className="module-cost-value">{costItem.amount.toLocaleString(locale, { maximumFractionDigits: 2, minimumFractionDigits: 0 })}</span>
+                            <span className="module-cost-value">{costItem.amount.toLocaleString(locale, { maximumFractionDigits: 10, minimumFractionDigits: 0 })}</span>
                         </div>
                     ))}
                 </div>
