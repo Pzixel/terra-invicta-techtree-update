@@ -536,40 +536,52 @@ export function TechSidebar({
                     </tbody>
                 </table>
 
-                <table className="module-drive-matrix">
-                    <thead>
-                        <tr>
-                            {varyFields.map(field => (
-                                <th key={`head-${field.key}`}>{field.label}</th>
-                            ))}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {drives.map(drive => (
-                            <tr key={`drive-row-${drive.dataName}`}>
-                                {varyFields.map(field => {
-                                    if (field.key === "friendlyName") {
-                                        const icon = getDriveIcon(drive);
-                                        return (
-                                            <td key={`cell-${drive.dataName}-${field.key}`}>
-                                                <span className="module-drive-name">
-                                                    {icon && <img className="module-drive-icon" src={`./icons/${icon}.png`} alt={`${drive.dataName} icon`} />}
-                                                    {getDriveLabel(drive)}
-                                                </span>
-                                            </td>
-                                        );
-                                    }
-                                    const value = (drive as unknown as Record<string, unknown>)[field.key as string];
-                                    return (
-                                        <td key={`cell-${drive.dataName}-${field.key}`}>
-                                            {typeof value === "object" ? JSON.stringify(value) : String(value ?? "")}
-                                        </td>
-                                    );
-                                })}
-                            </tr>
+                <div className="module-drive-matrix-container">
+                    <div className="module-drive-matrix-header module-drive-matrix-grid">
+                        {varyFields.map(field => (
+                            <div key={`head-${field.key}`} className="module-drive-matrix-cell">
+                                {field.label}
+                            </div>
                         ))}
-                    </tbody>
-                </table>
+                    </div>
+
+                    {drives.map(drive => (
+                        <Accordion key={`drive-acc-${drive.dataName}`} disableGutters>
+                            <AccordionSummary
+                                sx={{
+                                    minHeight: 'auto',
+                                    '& .MuiAccordionSummary-content': { margin: 0 },
+                                }}
+                            >
+                                <div className="module-drive-matrix-grid">
+                                    {varyFields.map(field => {
+                                        if (field.key === "friendlyName") {
+                                            const icon = getDriveIcon(drive);
+                                            return (
+                                                <div key={`cell-${drive.dataName}-${field.key}`} className="module-drive-matrix-cell">
+                                                    <span className="module-drive-name">
+                                                        {icon && <img className="module-drive-icon" src={`./icons/${icon}.png`} alt={`${drive.dataName} icon`} />}
+                                                        {getDriveLabel(drive)}
+                                                    </span>
+                                                </div>
+                                            );
+                                        }
+
+                                        const value = (drive as unknown as Record<string, unknown>)[field.key as string];
+                                        return (
+                                            <div key={`cell-${drive.dataName}-${field.key}`} className="module-drive-matrix-cell">
+                                                {typeof value === "object" ? JSON.stringify(value) : String(value ?? "")}
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                <pre>{JSON.stringify(drive, null, 2)}</pre>
+                            </AccordionDetails>
+                        </Accordion>
+                    ))}
+                </div>
             </div>
         );
     };

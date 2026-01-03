@@ -404,25 +404,41 @@ img {
     color: #fff;
 }
 
-.module-drive-table,
-.module-drive-matrix {
+.module-drive-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 8px;
 }
 
 .module-drive-table th,
-.module-drive-table td,
-.module-drive-matrix th,
-.module-drive-matrix td {
+.module-drive-table td {
     border: 1px solid #222;
     padding: 4px 6px;
     text-align: left;
 }
 
-.module-drive-matrix th:first-child,
-.module-drive-matrix td:first-child {
-    white-space: nowrap;
+.module-drive-matrix-container {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.module-drive-matrix-grid {
+    display: grid;
+    grid-template-columns: minmax(220px, 2fr) repeat(4, 1fr);
+    gap: 8px;
+    align-items: center;
+}
+
+.module-drive-matrix-header {
+    border: 1px solid #222;
+    padding: 4px 6px;
+    font-weight: 600;
+}
+
+.module-drive-matrix-cell {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
 }
 
 .module-drive-name {
