@@ -455,6 +455,7 @@ export function TechSidebar({
         const allowedDiffKeys = new Set([
             "dataName",
             "friendlyName",
+            "notes",
             "thrusters",
             "thrust_N",
             "thrustRating_GW",
