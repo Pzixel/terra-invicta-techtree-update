@@ -367,6 +367,31 @@ export function TechSidebar({
             });
     }
 
+    function calculateWeightedBuildMaterialsRaw(module: ModuleTemplate): ModuleCostItem[] {
+        if (!module.weightedBuildMaterials) {
+            return [];
+        }
+
+        return Object.entries(module.weightedBuildMaterials)
+            .flatMap(([key, amount]) => {
+                if (!amount || amount <= 0) {
+                    return [] as ModuleCostItem[];
+                }
+
+                const material = BUILD_MATERIAL_ICONS[key as BuildMaterialKey];
+                if (!material) {
+                    return [] as ModuleCostItem[];
+                }
+
+                return [{
+                    key: key as BuildMaterialKey,
+                    amount,
+                    label: material.label,
+                    icon: material.icon,
+                }];
+            });
+    }
+
     const renderCostItems = (cost: ModuleCostItem[], label?: string) => {
         if (cost.length === 0) {
             return null;
@@ -402,6 +427,147 @@ export function TechSidebar({
                 <p className="module-description">{localizationDb.getLocalizationString(dataModule.type, dataModule.data.dataName, "description")}</p>
                 {renderCostItems(buildCost)}
                 <pre>{JSON.stringify(dataModule.data, null, 2)}</pre>
+            </div>
+        );
+    };
+
+    const normalizeValue = (value: unknown): unknown => {
+        if (Array.isArray(value)) {
+            return value.map(normalizeValue);
+        }
+        if (value && typeof value === "object") {
+            return Object.keys(value as Record<string, unknown>)
+                .sort()
+                .reduce<Record<string, unknown>>((acc, key) => {
+                    acc[key] = normalizeValue((value as Record<string, unknown>)[key]);
+                    return acc;
+                }, {});
+        }
+        return value;
+    };
+
+    const renderDriveGroup = (driveModules: DataModule[]) => {
+        if (driveModules.length === 0) {
+            return null;
+        }
+
+        const allowedDiffKeys = new Set([
+            "dataName",
+            "friendlyName",
+            "thrusters",
+            "thrust_N",
+            "thrustRating_GW",
+            "req power",
+            "iconResource",
+            "baseIconResource",
+            "stationIconResource",
+        ]);
+
+        const drives = driveModules.map(mod => mod.data);
+        const referenceDrive = drives[0];
+
+        // Validate all shared fields are identical across drives (except allowed differences)
+        drives.slice(1).forEach(other => {
+            const keys = new Set<string>([
+                ...Object.keys(referenceDrive),
+                ...Object.keys(other),
+            ]);
+            keys.forEach(key => {
+                if (allowedDiffKeys.has(key)) {
+                    return;
+                }
+                const a = normalizeValue((referenceDrive as unknown as Record<string, unknown>)[key]);
+                const b = normalizeValue((other as unknown as Record<string, unknown>)[key]);
+                if (JSON.stringify(a) !== JSON.stringify(b)) {
+                    throw new Error(`Drive field mismatch for ${key}: ${referenceDrive.dataName} vs ${other.dataName}`);
+                }
+            });
+        });
+
+        const fuelDrive = drives.find(d => d.thrusters === 1) ?? referenceDrive;
+        const fuelCost = calculateDriveFuelCost(fuelDrive);
+        const weightedBuildMaterialsCost = calculateWeightedBuildMaterialsRaw(referenceDrive);
+        const sharedDriveIcon = getIcon(referenceDrive);
+
+        const commonEntries = Object.entries(referenceDrive)
+            .filter(([key]) => !allowedDiffKeys.has(key) && key !== "perTankPropellantMaterials" && key !== "weightedBuildMaterials")
+            .map(([key, value]) => [key, value] as const);
+
+        const varyFields: { key: keyof ModuleTemplate; label: string }[] = [
+            { key: "friendlyName", label: "Drive" },
+            { key: "thrusters", label: "Thrusters" },
+            { key: "thrust_N", label: "Thrust (N)" },
+            { key: "thrustRating_GW", label: "Thrust Rating (GW)" },
+            { key: "req power", label: "Req power" },
+        ];
+
+        const getDriveLabel = (drive: ModuleTemplate) => localizationDb.getLocalizationString("drive", drive.dataName, "displayName") ?? drive.friendlyName ?? drive.dataName;
+        const getDriveIcon = (drive: ModuleTemplate) => getIcon(drive);
+        const driveDescription = localizationDb.getLocalizationString("drive", referenceDrive.dataName, "description");
+
+        return (
+            <div className="module-display">
+                {sharedDriveIcon && <img className="module-icon" src={`./icons/${sharedDriveIcon}.png`} alt={`${referenceDrive.dataName} icon`} />}
+                {driveDescription && <p className="module-description">{driveDescription}</p>}
+
+                <table className="module-drive-table">
+                    <thead>
+                        <tr>
+                            <th colSpan={2}>Drive specs (shared)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Fuel per tank</th>
+                            <td>{renderCostItems(fuelCost)}</td>
+                        </tr>
+                        <tr>
+                            <th>weightedBuildMaterials</th>
+                            <td>{renderCostItems(weightedBuildMaterialsCost)}</td>
+                        </tr>
+                        {commonEntries.map(([key, value]) => (
+                            <tr key={`common-${key}`}>
+                                <th>{key}</th>
+                                <td>{typeof value === "object" ? JSON.stringify(value) : String(value)}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+
+                <table className="module-drive-matrix">
+                    <thead>
+                        <tr>
+                            {varyFields.map(field => (
+                                <th key={`head-${field.key}`}>{field.label}</th>
+                            ))}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {drives.map(drive => (
+                            <tr key={`drive-row-${drive.dataName}`}>
+                                {varyFields.map(field => {
+                                    if (field.key === "friendlyName") {
+                                        const icon = getDriveIcon(drive);
+                                        return (
+                                            <td key={`cell-${drive.dataName}-${field.key}`}>
+                                                <span className="module-drive-name">
+                                                    {icon && <img className="module-drive-icon" src={`./icons/${icon}.png`} alt={`${drive.dataName} icon`} />}
+                                                    {getDriveLabel(drive)}
+                                                </span>
+                                            </td>
+                                        );
+                                    }
+                                    const value = (drive as unknown as Record<string, unknown>)[field.key as string];
+                                    return (
+                                        <td key={`cell-${drive.dataName}-${field.key}`}>
+                                            {typeof value === "object" ? JSON.stringify(value) : String(value ?? "")}
+                                        </td>
+                                    );
+                                })}
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
             </div>
         );
     };
@@ -711,17 +877,27 @@ export function TechSidebar({
         if (modules.length === 0) {
             return null;
         }
-        let driveFuelCostShown = false;
-        const moduleElements = modules.map(module => {
-            const showDriveFuelCost = module.type === "drive" && module.data.thrusters === 1 && !driveFuelCostShown;
-            if (showDriveFuelCost) {
-                driveFuelCostShown = true;
-            }
+
+        const driveModules = modules.filter(m => m.type === "drive");
+        const nonDriveModules = modules.filter(m => m.type !== "drive");
+
+        const moduleElements: React.ReactElement[] = [];
+
+        if (driveModules.length > 0) {
+            moduleElements.push(
+                <div key="drive-group" className="module-wrapper">
+                    <div className="module-name">Drives</div>
+                    {renderDriveGroup(driveModules)}
+                </div>
+            );
+        }
+
+        nonDriveModules.forEach(module => {
             const displayName = localizationDb.getLocalizationString(module.type, module.data.dataName, "displayName");
-            return (
+            moduleElements.push(
                 <div key={`mod-${module.data.dataName}`} className="module-wrapper">
                     <div className="module-name">{displayName ? displayName : module.data.dataName}</div>
-                    {buildModuleDisplay(module, { showDriveFuelCost })}
+                    {buildModuleDisplay(module)}
                 </div>
             );
         });

@@ -404,6 +404,39 @@ img {
     color: #fff;
 }
 
+.module-drive-table,
+.module-drive-matrix {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.module-drive-table th,
+.module-drive-table td,
+.module-drive-matrix th,
+.module-drive-matrix td {
+    border: 1px solid #222;
+    padding: 4px 6px;
+    text-align: left;
+}
+
+.module-drive-matrix th:first-child,
+.module-drive-matrix td:first-child {
+    white-space: nowrap;
+}
+
+.module-drive-name {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.module-drive-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
 .faction-label {
     display: inline-flex;
     align-items: center;

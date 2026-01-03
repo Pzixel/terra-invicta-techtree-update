@@ -206,6 +206,7 @@ export type WeightedBuildMaterials = {
 
 export interface ModuleTemplate {
   dataName: string;
+    friendlyName?: string;
   requiredProjectName?: string;
   iconResource?: string;
   baseIconResource?: string;
@@ -214,6 +215,16 @@ export interface ModuleTemplate {
     weightedBuildMaterials?: WeightedBuildMaterials;
     perTankPropellantMaterials?: WeightedBuildMaterials;
     thrusters?: number;
+    thrust_N?: number;
+    thrustRating_GW?: string | number;
+    "req power"?: string | number;
+    driveClassification?: string;
+    requiredPowerPlant?: string;
+    thrustCap?: number;
+    cooling?: string;
+    powerGen?: string;
+    propellant?: string;
+    notes?: string;
   // Add other common module properties as needed
 }
 
