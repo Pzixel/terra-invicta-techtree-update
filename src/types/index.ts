@@ -1,6 +1,8 @@
 // Basic data types
+import type { LocalizedUi } from '../language';
+
 export interface LocalizationEntry {
-  [field: string]: string | { [faction: string]: string };
+    [field: string]: string | { [faction: string]: string };
 }
 
 export const TemplateTypes = {
@@ -34,9 +36,11 @@ export type TemplateType = keyof typeof TemplateTypes;
 
 export class LocalizationDb {
     localizationStrings: Map<string, string>;
+    private uiTexts: LocalizedUi;
     
-    constructor(localizationFileContent: string[]) {
+    constructor(localizationFileContent: string[], uiTexts: LocalizedUi) {
         this.localizationStrings = new Map<string, string>();
+        this.uiTexts = uiTexts;
 
         for (const file of localizationFileContent) {
             const lines = file.split("\n");
@@ -76,7 +80,10 @@ export class LocalizationDb {
       dataName: string,
       field: string
     ): string | undefined {
-      return this.localizationStrings.get(this.toKey(type, dataName, field));
+        if (type === 'faction' && dataName === 'Random') {
+            return this.uiTexts.randomFaction;
+        }
+        return this.localizationStrings.get(this.toKey(type, dataName, field));
     }
 
     getReadable(

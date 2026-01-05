@@ -1,6 +1,6 @@
 import { GameVersionCode } from './version';
 
-interface LocalizedUi {
+export interface LocalizedUi {
     adjacencies: string;
     baseAvailabilityChance: string;
     claims: string;
@@ -38,6 +38,7 @@ interface LocalizedUi {
     traits: string;
     unblocksOneOrMoreModules: string;
     unblocksResearch: string;
+    randomFaction: string;
 }
 
 const englishUi: LocalizedUi = {
@@ -78,6 +79,7 @@ const englishUi: LocalizedUi = {
     traits: "Councilor Traits Available",
     unblocksOneOrMoreModules: "Unlocks one or more modules.",
     unblocksResearch: "Unblocks Research",
+    randomFaction: "Random",
 };
 
 export type Language = {
@@ -127,6 +129,7 @@ const chsUi: LocalizedUi = {
     traits: "可用理事特质",
     unblocksOneOrMoreModules: "解锁一个或多个模块。",
     unblocksResearch: "解锁研究",
+    randomFaction: "随机",
 };
 
 const chtUi: LocalizedUi = {
@@ -167,6 +170,7 @@ const chtUi: LocalizedUi = {
     traits: "可用理事特質",
     unblocksOneOrMoreModules: "解鎖一個或多個模組。",
     unblocksResearch: "解鎖研究",
+    randomFaction: "隨機",
 };
 
 const deuUi: LocalizedUi = {
@@ -207,6 +211,7 @@ const deuUi: LocalizedUi = {
     traits: "Verfügbare Ratseigenschaften",
     unblocksOneOrMoreModules: "Schaltet ein oder mehrere Module frei.",
     unblocksResearch: "Schaltet Forschung frei",
+    randomFaction: "Zufällig",
 };
 
 const espUi: LocalizedUi = {
@@ -247,6 +252,7 @@ const espUi: LocalizedUi = {
     traits: "Rasgos de Consejero Disponibles",
     unblocksOneOrMoreModules: "Desbloquea uno o más módulos.",
     unblocksResearch: "Desbloquea Investigación",
+    randomFaction: "Aleatorio",
 };
 
 const frUi: LocalizedUi = {
@@ -287,6 +293,7 @@ const frUi: LocalizedUi = {
     traits: "Traits de conseiller disponibles",
     unblocksOneOrMoreModules: "Débloque un ou plusieurs modules.",
     unblocksResearch: "Débloque la recherche",
+    randomFaction: "Aléatoire",
 };
 
 const jpnUi: LocalizedUi = {
@@ -327,6 +334,7 @@ const jpnUi: LocalizedUi = {
     traits: "利用可能な評議員特性",
     unblocksOneOrMoreModules: "1つ以上のモジュールをアンロックします。",
     unblocksResearch: "研究をアンロック",
+    randomFaction: "ランダム",
 };
 
 const polUi: LocalizedUi = {
@@ -367,6 +375,7 @@ const polUi: LocalizedUi = {
     traits: "Dostępne cechy radnych",
     unblocksOneOrMoreModules: "Odblokowuje jeden lub więcej modułów.",
     unblocksResearch: "Odblokowuje badania",
+    randomFaction: "Losowo",
 };
 
 const porUi: LocalizedUi = {
@@ -407,6 +416,7 @@ const porUi: LocalizedUi = {
     traits: "Características de Conselheiro Disponíveis",
     unblocksOneOrMoreModules: "Desbloqueia um ou mais módulos.",
     unblocksResearch: "Desbloqueia Pesquisa",
+    randomFaction: "Aleatório",
 };
 
 const korUi: LocalizedUi = {
@@ -447,6 +457,7 @@ const korUi: LocalizedUi = {
     traits: "사용 가능한 고문 특성",
     unblocksOneOrMoreModules: "하나 이상의 모듈을 해제합니다.",
     unblocksResearch: "연구를 해제",
+    randomFaction: "무작위",
 };
 
 const rusUi: LocalizedUi = {
@@ -487,6 +498,7 @@ const rusUi: LocalizedUi = {
     traits: "Доступные черты советников",
     unblocksOneOrMoreModules: "Разблокирует один или несколько модулей.",
     unblocksResearch: "Разблокирует исследования",
+    randomFaction: "Случайно",
 };
 
 const ukrUi: LocalizedUi = {
@@ -527,6 +539,7 @@ const ukrUi: LocalizedUi = {
     traits: "Доступні риси радників",
     unblocksOneOrMoreModules: "Розблоковує один або більше модулів.",
     unblocksResearch: "Розблоковує дослідження",
+    randomFaction: "Випадково",
 };
 
 const stableAndExperimental: GameVersionCode[] = ['stable', 'experimental'];

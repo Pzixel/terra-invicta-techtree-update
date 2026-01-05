@@ -19,7 +19,7 @@ function App() {
         effects: [],
         techs: [],
         projects: [],
-        localizationDb: new LocalizationDb([]),
+        localizationDb: new LocalizationDb([], DefaultLanguage.uiTexts),
     });
 
     const [techDb, setTechDb] = useState<TechDb | null>(null);
@@ -212,7 +212,7 @@ function App() {
 export default App
 
 async function init(language: Language, version: GameVersion, setTechDb: React.Dispatch<React.SetStateAction<TechDb | null>>, setAppStaticData: React.Dispatch<React.SetStateAction<AppStaticData>>) {
-    const { localizationDb, templateData } = await loadTemplateData(language.code, version);
+    const { localizationDb, templateData } = await loadTemplateData(language, version);
 
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
     const techs = templateData.tech ?? [];
@@ -248,8 +248,9 @@ async function init(language: Language, version: GameVersion, setTechDb: React.D
     setTechDb(new TechDb(techTreeTmp));
 };
 
-async function loadTemplateData(language: string, version: GameVersion) {
+async function loadTemplateData(language: Language, version: GameVersion) {
     const basePath = `gamefiles/${version.code}`;
+    const languageCode = language.code;
 
     const fetchText = async (url: string) => {
         const response = await fetch(url);
@@ -260,7 +261,7 @@ async function loadTemplateData(language: string, version: GameVersion) {
     };
 
     const localizationFiles = Object.entries(TemplateTypes).map(([type, filename]) => ({
-        url: `${basePath}/Localization/${language}/${filename}.${language}`,
+        url: `${basePath}/Localization/${languageCode}/${filename}.${languageCode}`,
         type
     }));
 
@@ -278,7 +279,7 @@ async function loadTemplateData(language: string, version: GameVersion) {
     }));
     const [localizationResults, templateResults] = await Promise.all([fetchLocalizationPromises, fetchTemplatePromises]);
 
-    const localizationDb = new LocalizationDb(localizationResults);
+    const localizationDb = new LocalizationDb(localizationResults, language.uiTexts);
     const templateData = getTemplateData(templateResults);
 
     // Remove alien master projects
