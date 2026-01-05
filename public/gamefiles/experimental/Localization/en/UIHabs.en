@@ -16,6 +16,7 @@ UI.Habs.MainHeader=Habs
 UI.Habs.NoHabSelected=No Hab Selected
 UI.Habs.TierCrew={0} (Tier {1}/Max {2})
 UI.Habs.SelectAModule=Select a Module
+UI.Habs.CantBuild=<size=60%>Habs under assault or bombardment, or being decommissioned, cannot build or upgrade modules.</size>
 UI.Habs.SectorID=Sector {0}
 UI.Habs.Tier=Tier {0} module
 UI.Habs.Crew={0} crew
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath={0} to {1}																// old module displayName, upgrade
 UI.Habs.UpgradeAllofTypeQuery=Confirming will upgrade {0} modules: {1} to {2}.
 UI.Habs.CantAffordUpgradeAllofType=We cannot afford this right now.
 UI.Habs.BaseSiteName={0} Base																// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks={0} This hab may not build or upgrade modules while it is under attack.

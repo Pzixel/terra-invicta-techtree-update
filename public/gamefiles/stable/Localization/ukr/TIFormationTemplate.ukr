@@ -12,8 +12,8 @@ TIFormationTemplate.displayName.EchelonLeft=Уступ праворуч
 TIFormationTemplate.displayName.EchelonRightWall=Ешел. стіна л.
 TIFormationTemplate.displayName.EchelonLeftWall=Ешел. стіна п.
 TIFormationTemplate.displayName.Chevron=Шеврон
-TIFormationTemplate.displayName.TwoChevrons=Подвій. шеврон
-TIFormationTemplate.displayName.ThreeChevrons=Потрій. шеврон
+TIFormationTemplate.displayName.TwoChevrons=Подвійний
+TIFormationTemplate.displayName.ThreeChevrons=Потрійний
 TIFormationTemplate.displayName.Arrow=Наконечник
 TIFormationTemplate.displayName.Line=Лінія
 TIFormationTemplate.displayName.TwoLines=Низька стіна
@@ -29,11 +29,11 @@ TIFormationTemplate.displayName.FiveColumn=Квінтет
 TIFormationTemplate.displayName.Cloud=Хмара
 TIFormationTemplate.displayName.BoxThree=Блок
 
-TIFormationTemplate.Focus.Heavy=Важкий
+TIFormationTemplate.Focus.Heavy=Важкі
 TIFormationTemplate.Focus.Ranged=Стрільці
 TIFormationTemplate.Focus.Armored=Лицарі
 TIFormationTemplate.Focus.Battle=Мечі
-TIFormationTemplate.Focus.Swift=Спритний
+TIFormationTemplate.Focus.Swift=Спритні
 TIFormationTemplate.Focus.PointDefense=Щити
 TIFormationTemplate.Focus.NoseWeapons=Списи
 
@@ -49,8 +49,8 @@ TIFormationTemplate.Concentration.High=Високий
 TIFormationTemplate.Concentration.Low=Низький
 TIFormationTemplate.Concentration.Fins=Плавці
 
-TIFormationTemplate.displayName={0}. {1}. {2}. {3}.							// Spread + Formation + Focus + Concentration, e.g. "Spread Line Archers Right." This is intended to sound a bit like a football formation and it describes how ships are laid out in space.
-TIFormationTemplate.description={0}.<br/>{1}. {2}.
+TIFormationTemplate.displayName={0} {1} {2} {3}							// Spread + Formation + Focus + Concentration, e.g. "Spread Line Archers Right." This is intended to sound a bit like a football formation and it describes how ships are laid out in space.
+TIFormationTemplate.description={0}<br/>{1} {2}
 
 TIFormationTemplate.Desc.Staggered=Нерівномірний
 TIFormationTemplate.Desc.Convoy=Колона

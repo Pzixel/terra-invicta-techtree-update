@@ -105,7 +105,7 @@ TIObjectiveTemplate.resolution.TutorialAssignMission.ResistCouncil=在每次任�
 TIObjectiveTemplate.displayName.TutorialSetResearchPriority.ResistCouncil=设定一个研究优先计划
 TIObjectiveTemplate.solution.TutorialSetResearchPriority.ResistCouncil=前往“研究与开发”窗口中的“研究”选项卡。通过点击特定研究的循环图标来更改某个全局技术或某个阵营计划的优先级设置。
 
-TIObjectiveTemplate.description.TutorialSetResearchPriority.ResistCouncil=《地球不屈》中的研究分为两类：<h>全球研究</h>和<h>阵营工程计划</h>。所有阵营最多可以同时参与三个全球研究，这些技术代表着全球范围内为深入理解某一广泛科学原理而进行的共同努力。完成之后还能解锁新的研究项目供各阵营进行研究。<h>在一项全球研究技术完成时，为该技术做出贡献最多的阵营将获得下一个研究项目的优先权，由全球范围内的其他阵营来进一步研究。</h><br/><br/>各阵营的工程研究项目由各阵营自行开展，通常会带来实际的益处。<br/><br/>各阵营将其<h>研究收益</h>指派到全球研究项目和私有计划中。虽然将所有研究集中在一个领域可能会更快地完成项目，但这样会放弃许多与特定研究领域相关的阵营奖励。
+TIObjectiveTemplate.description.TutorialSetResearchPriority.ResistCouncil=《地球不屈》中的研究分为两类：<h>全球研究</h>和阵营<h>工程计划</h>。所有阵营最多可以同时参与三个全球研究，这些技术代表着全球范围内为深入理解某一广泛科学原理而进行的共同努力。完成之后还能解锁新的研究项目供各阵营进行研究。<h>在一项全球研究技术完成时，为该技术做出贡献最多的阵营将获得下一个研究项目的优先权，由全球范围内的其他阵营来进一步研究。</h><br/><br/>各阵营的工程研究项目由各阵营自行开展，通常会带来实际的益处。<br/><br/>各阵营将其<h>研究收益</h>指派到全球研究项目和私有计划中。虽然将所有研究集中在一个领域可能会更快地完成项目，但这样会放弃许多与特定研究领域相关的阵营奖励。
 
 TIObjectiveTemplate.resolution.TutorialSetResearchPriority.ResistCouncil=投入全球研究会为我方增加解锁阵营私有计划研究的机会。我们可以凭借某些<h>太空殖民地舱体</h>和<h>组织</h>扩展我方阵营的研究能力，还能同时进行多个私有计划。
 
@@ -137,14 +137,14 @@ TIObjectiveTemplate.displayName.TutorialTakeOverAdjacentControlPoint.ResistCounc
 TIObjectiveTemplate.solution.TutorialTakeOverAdjacentControlPoint.ResistCouncil=在与我们已经占领的国家接壤的地区获取控制点会更容易些。指派并执行“掌控国家”任务，获取周边的控制点，从而提高在更大规模的国家中执行类似任务的成功几率。
 
 TIObjectiveTemplate.displayName.TutorialTakeOverFederationControlPoint.ResistCouncil=接管同一联盟中的控制点
-TIObjectiveTemplate.solution.TutorialTakeOverFederationControlPoint.ResistCouncil=拥有与目标国家处于同一联盟中的控制点也是一种增加掌控国家任务成功机率的方式。
+TIObjectiveTemplate.solution.TutorialTakeOverFederationControlPoint.ResistCouncil=拥有与目标国家处于同一联盟中的控制点也是一种增加掌控国家任务成功几率的方式。
 
 TIObjectiveTemplate.displayName.TutorialGainLargeNationControlPoint.ResistCouncil=在一个大型国家取得一个控制点
 TIObjectiveTemplate.solution.TutorialGainLargeNationControlPoint.ResistCouncil=在一个至少拥有四个控制点的国家，成功执行一次掌控国家任务。
 
 TIObjectiveTemplate.description.TutorialGainLargeNationControlPoint.ResistCouncil=虽然我们应该追求的是多元的支持联合体。如果我们要有效面对外星人的潜在威胁，就需要得到一些资源丰足的国家的支持。我们应该和可以产生<h>运载力</h>或拥有资源、可以在短时间内完成空间计划的国家合作，如此，在必要时，我们才能平等地抵御这些外星人造成的任何威胁。此外，我们应该考虑能够建立<h>军队</h>，或是在外星人有意进犯时能够派出军队作战的国家。
 
-TIObjectiveTemplate.resolution.TutorialGainLargeNationControlPoint.ResistCouncil=我们如今涉足一个大型国家，并且正在奠定实现我们远大目标的基础。我们现在应该要立志掌握<h>行政控制点</h>，这种控制点能让我们制定该国的<h>国家政策</h>。
+TIObjectiveTemplate.resolution.TutorialGainLargeNationControlPoint.ResistCouncil=我们已经在一个大国中站稳了脚跟，接着要为我们的事业建立坚实的基础。现在，我们应当把目标转向夺取<h>行政控制点</h>，这样就能制定该国的<h>国家政策</h>。
 
 TIObjectiveTemplate.displayName.TutorialGainLargeNationExecutiveControlPoint.ResistCouncil=在一个大型国家获得行政控制点
 
@@ -323,14 +323,14 @@ TIObjectiveTemplate.description.HumanGeneralCouncil=理事们将成为我们地�
 TIObjectiveTemplate.solution.HumanGeneralCouncil=花费影响力来招募理事，这些理事需拥有最能推动我们目标的属性和任务。取得可改善他们能力的组织。
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.ResistCouncil=调查外星人坠机事件
-TIObjectiveTemplate.description.InvestigateAlienCrashdown.ResistCouncil=我们第一次知道外星人的到来，是因为它们的航天器在我们的大气上层发动气压制动器进行减速，然后坠毁在一个偏远的区域，而且显然采取自毁行动。我们应派一名理事到现场尽可能了解情况。
+TIObjectiveTemplate.description.InvestigateAlienCrashdown.ResistCouncil=外星人的飞船在通过高层大气时进行气动制动，随后坠落在一片偏远地区。就在他们开启自毁程序时，人类发现了他们——这就是我们最初得知外星人抵达的情形。我们应该派一名理事前往现场，尽可能获取情报。
 TIObjectiveTemplate.solution.InvestigateAlienCrashdown.ResistCouncil=派一名理事在坠机现场执行调查外星人活动任务。
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.ResistCouncil=虽然戒备森严，我们还是获得了坠毁现场的一些监控影像记录以及少量碎片。我们应该很快就会准备好一个计划可进行研究。
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.ResistCouncil=我们有一些发现，指挥官。
 
 TIObjectiveTemplate.displayName.ResearchTheirSignatures.ResistCouncil=研究外星人特征
 TIObjectiveTemplate.description.ResearchTheirSignatures.ResistCouncil=我们的理事设法取得了一些外星人坠机现场的监控录音片段，研究员正全力赶工分析中。
-TIObjectiveTemplate.solution.ResearchTheirSignatures.ResistCouncil=“外星人特征”计划开放后就着手完成。
+TIObjectiveTemplate.solution.ResearchTheirSignatures.ResistCouncil=“外星人特征”计划开放后，请完成该项目。
 TIObjectiveTemplate.resolution.ResearchTheirSignatures.ResistCouncil=我们对坠机现场进行研究后，确定有一个可活动且有智慧的生命形体在坠毁事故中幸存下来，而且带着某种目的进入附近的荒野中。我们没有拍到那个生物的画面，也没有任何进一步的目击报告。然而令人担忧的是，我们收到了附近社区发生奇怪事件的报告，包括有动物和人类失踪。目前为止，我们没有确切证据能证明这些事件与外星人到来有关，但如果密探发现具体证据，证实确为绑架事件，我们就应该立即展开调查。
 TIObjectiveTemplate.quote.ResearchTheirSignatures.ResistCouncil=指挥官，似乎有个外星人在外恣意妄为。
 
@@ -432,25 +432,25 @@ TIObjectiveTemplate.quote.ResearchExotics.ResistCouncil=我们已开始揭开外
 
 TIObjectiveTemplate.displayName.ConductHydraInterrogation.ResistCouncil=审问海德拉俘虏
 TIObjectiveTemplate.description.ConductHydraInterrogation.ResistCouncil=现在我们对海德拉语言已经有充分的理解，准备好直接了当地让我们的海德拉俘虏开口谈谈它们物种的起源和动机。我们选择不采用强化审问手段……暂时如此。
-TIObjectiveTemplate.solution.ConductHydraInterrogation.ResistCouncil=“海德拉审讯”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ConductHydraInterrogation.ResistCouncil=“海德拉审讯”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ConductHydraInterrogation.ResistCouncil=随着审问开始进行，房里弥漫着紧绷气氛，许多人员认为海德拉根本不会回应。看到感测器开始侦测到信息素细胞活动时，我们既惊讶又欣慰，原来海德拉非常有意愿说话……不过这是否能视为“合作”又另当别论了<br/><br/>(译者注：海德拉语言中的言外之意和情绪主要由信息素细胞传达：我们用括号表示每个语句的“情绪状态”。具体翻译出来是不可能的，我们使用星号来表示我们最适合的近似词。有些词很遗憾没办法充分理解，将其被标记为【无法翻译】；我们认为这些是专有名词或科技术语，我们的语言中没有对应的语词。）<br/><br/>开始记录<br/><br/>提问：表明/名称/自我/物种<br/>(可疑-谨慎）物种称为【无法翻译】。（警戒-疑惑）个体称为【无法翻译】，【无法翻译】中的【无法翻译】。（自豪-确信）所有真正的*海德拉*共同担任*防御共识*成员。 <br/>提问：表明/起源/物种<br/>(反抗-回避）恒星系统的边缘，【无法翻译】。丰富的天体资源是【无法翻译】所必需的。（藐视）成功*计划完成*势在必行。 <br/>提问：阐明/起源/物种/星球<br/>(藐视）【无法翻译】的行为是禁止的。 *野生物种*必须安全隔离。禁止*野生物种*进出*闸门？ *。 <br/>提问:阐明/闸门<br/>(耻辱-愤怒）不。释放。立刻。（译者注：这时海德拉变得激动并拒绝回答更多问题。）
 TIObjectiveTemplate.quote.ConductHydraInterrogation.ResistCouncil=我们对审问俘虏并得到了关键讯息，指挥官。
 
 TIObjectiveTemplate.displayName.ResearchTheirPurpose.ResistCouncil=判断它们的目的
 TIObjectiveTemplate.description.ResearchTheirPurpose.ResistCouncil=第一次审问获得的信息并不是很重要，但起码我们的俘虏愿意交流。我们打算再提出一轮问题，这次将焦点集中在海德拉的目的上。
-TIObjectiveTemplate.solution.ResearchTheirPurpose.ResistCouncil=“了解它们的目的”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchTheirPurpose.ResistCouncil=“了解它们的目的”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchTheirPurpose.ResistCouncil=（译者注：我们分析了海德拉对于上次审问的反应，并克服了几个障碍。我们在“词汇表”中加入了语词，相信我们现在应该能传达和理解稍微复杂一点的概念。）<br/><br/>开始文字记录<br/><br/>提问：阐明/征服/原因<br/>（事实）消除威胁。 <br/>陈述：人类/威胁/否定<br/>（事实）不正确。 <br/>陈述：人类/威胁/否定<br/>（高人一等态度）潜在威胁仍然是威胁。 【无法翻译】指示*初期/初步阶段*是消除威胁的理想阶段。（自信-笃定）人类表现出*攻击性/蛮横任性的行为*，我们认得这种模式，星际侵略是迟早的事。 <br/>陈述：目标/物种/受到威胁/团结/抵抗<br/>（被逗乐-敌意）不正确。 【无法翻译】会在我们的*影响*下瓦解。缺乏*共识*，人类会逃离你们的太阳系，人类会为了利益而颠覆抵抗势力，人类会为实现我们的目标而奋斗。（确定）没有*共识*，没有胜利。 <br/>陈述：共识/缺乏/无关/人类/抵抗/结束/否定<br/>（事实）*沙拉曼达*曾有同样的信念，但现在它们效忠*海德拉*。（愤怒）第一个攻击*海德拉*的威胁。第一个威胁被压制，受到许多抵抗。你们现在看到的那些*沙拉曼达*是幸运的一群，不*服从/屈服*的*沙拉曼达*已经沦为部落。永远不允许它们再成为威胁。（骄傲-自负）*狮鹫*也一样，在受我们*控制/指示*之前，它们几乎摧毁了自己的物种。生物武器的知识不得离开*狮鹫*的家园。 <br/>提问：沙拉曼达/狮鹫/人类/征服/理由/阐明<br/>（渴望-忧郁）*沙拉曼达*占领了我们的家园。 *敌意/恐惧*驱使他们走向*种族灭绝*。 *大火/恐怖/尖叫/灾难*吞噬了*法官*、*舞者*、【无法翻译】、*艺术家*。 *海德拉*的*美景/文化/历史？ *瞬间消失。（坚定）*殖民地和殖民地*上残存的*海德拉*立即达成*共识*：永不再发生。
 TIObjectiveTemplate.quote.ResearchTheirPurpose.ResistCouncil=我们终于知道它们来这里的原因了，指挥官。
 
 TIObjectiveTemplate.displayName.ResearchWormholes.ResistCouncil=研究虫洞
 TIObjectiveTemplate.description.ResearchWormholes.ResistCouncil=我们的俘虏简短地提到了其物种使用的“门”。这是支持“虫洞理论”的证据，即海德拉是如何穿越深太空的。虽然单个俘虏的一句话并不能证明这一点，但我们的许多研究人员热衷于探索潜在的方法，通过这些方法，我们可以检测到一个稳定的虫洞将我们的太阳系连接到另一个太阳系。如果这样一个物体真的存在，那么它很可能就是外星人对我们世界发动进攻的核心。 
-TIObjectiveTemplate.solution.ResearchWormholes.ResistCouncil=“虫洞”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchWormholes.ResistCouncil=“虫洞”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchWormholes.ResistCouncil=天体物理学家利用我们的深层天空守望者天文台以及新获得的一些科技成品，研究古柏带上的外星人主基地。他们得出一致的结论：海德拉基地的一端有个可穿梭的稳定虫洞。<br/><br/>根据我们研究人员所做的研究和航天器在这场冲突过程中收集的资料，外星虫洞的最佳模型为埃利斯排水孔，这是一套从前的理论数学结构，以不连续的空间组成，虫洞一侧的物质藉由“排水”到达目的地。如果我们的模型正确，就表示将质量传输到太阳系所需的能量，会大幅少于反方向送回任何东西。研究人员推测，海德拉利用某种方式将虫洞口从另一个星系的源头移到这里，可能是藉由探测器或其他专用于星际旅行的航天器。<br/><br/>海德拉是如何建造或移动这个虫洞，我们完全无从得知，但我们确信海德拉异星物质在这之中一定发挥着某种作用；天空守望者天文台已确认，虫洞所在位置附近存在大量异星物质；但几位天体物理学家承认，若想真正了解虫洞的建造方式，需掌握的知识远远超出我们的物理学范畴，相当于一个崭新的科学分支。无论如何，我们不需要知道制造方法，只需要知道如何阻止它。我们没有在其他地方取得任何类似的读数，所以目前我们假设这是太阳系中唯一的虫洞。如果外星人失去这个虫洞，将能大幅削弱它们的战力。
 TIObjectiveTemplate.quote.ResearchWormholes.ResistCouncil=指挥官，现在我们知道它们是怎么来到我们太阳系了。
 
 TIObjectiveTemplate.displayName.ResearchAlienChokePoint.ResistCouncil=研究阻塞点
 TIObjectiveTemplate.description.ResearchAlienChokePoint.ResistCouncil=现在我们知道我们要处理的是埃利斯排水孔，物理学家和海军军官们就可以共同拟定一套计划，目标是切断外星人的补给来源。我们申请了一间会议室和大量咖啡。 
-TIObjectiveTemplate.solution.ResearchAlienChokePoint.ResistCouncil=“阻塞点”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchAlienChokePoint.ResistCouncil=“阻塞点”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchAlienChokePoint.ResistCouncil=我们研究了十几个计划，讨论后又不断放弃，不过随着时间推移产生了共识，我们不断回到同样两种构想的变化做法上：占领虫洞，或是摧毁它。<br/><br/>最终，风险成为决定性因素。占领虫洞可以为我们带来最大的潜在利益，但同时也带来最大的潜在危险。我们仍无法理解虫洞是如何产生的，也无法保证我们有办法理解或操作海德拉的控制机制。试图占领可能会让我们徒然占据着虫洞的一端，光是为了弄清楚如何控制就焦头烂额，同时另一端的海德拉派出源源不绝的奴隶援兵过来攻击我们。而且追根究柢，我们的任务并不是夺取海德拉的交通工具，而是捍卫地球。封闭虫洞是彻底破坏海德拉入侵管道的最可靠方法。<br/><br/>话虽如此，要封闭虫洞谈何容易。最直接的解决方案是从远处轰炸外星人基地；遗憾的是，我们的研究人员认为，虫洞的起点和目的地连接起来的同时，海德拉一定已经建立了某种量子“搭架”，依靠异星物质来让闸门保持开启状态。如果确实如此，攻击虫洞的一端只会让攻击“反弹”到另一端，即使将外星基地及其所在天体化为太空尘埃，也不会破坏虫洞本身；这会对海德拉带来不便，但我们的攻击绝对不能只是造成不便而已，我们需要以决定性的一击结束这场战役。<br/><br/>研究人员提出的解决方案是同时攻击两端，挤压闸门迫使它崩塌。若想成功完成这项任务，我们需要科学知识和军事武器之间的精准配合。天体物理学家和工程师将开发两套采用异星物质的酬载，分别在排水孔的两端使用，目的是同时引爆它们。与此同时，我们将集结一支武装精良的突击连队，负责护送酬载操作员，以及占领虫洞和维持掌控权。整个单位将仅由志愿者组成。实际上，我们得做好心理准备，这些成员中能回来的人少之又少。
 TIObjectiveTemplate.quote.ResearchAlienChokePoint.ResistCouncil=我们的任务确定了，指挥官，我们必须封闭敌人的闸门。
 
@@ -462,7 +462,7 @@ TIObjectiveTemplate.quote.ResearchResistVictory.ResistCouncil=我们前方的道
 
 TIObjectiveTemplate.displayName.ResearchTheFinalAssault.ResistCouncil=准备展开最终突击
 TIObjectiveTemplate.description.ResearchTheFinalAssault.ResistCouncil=我们的舰队和突击团队都准备就绪，现在必须制定一个计划，目标是封闭虫洞和切断外星人入侵行动的补给来源。 
-TIObjectiveTemplate.solution.ResearchTheFinalAssault.ResistCouncil=“最终突击”研究计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchTheFinalAssault.ResistCouncil=“最终突击”研究计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchTheFinalAssault.ResistCouncil=研究可利用的资料后，我们最终定下一个简单的计划。海军部队将在海德拉基地周围与它们的航天器交战，并为我们的突击运输机清出一条清晰的飞行路径，用来让{winnerOrg}降落和卸载。接着的突击队员将一路奋战到虫洞入口并守住入口，而酬载操作员会将炸弹移到定点并引爆。<br/><br/>这套计划有许多可能失败的点，最大的失败点是虫洞本身。我们相信突击队有充分的战斗力，能在海德拉安全部队中杀出一条血路；但我们无从得知敌方还有多少兵力在远处待命，说不定我们的突击队被迫得与源源不绝的援军展开战斗。没有更多资料就没办法知道。<br/><br/>另一个潜在问题是酬载；两种酬载所使用以异星物质制成的炸药仍处于实验阶段，但我们相信应该能提供足够的能量可破坏虫洞。不过，我们完全不知道“虫洞崩塌”的后果是什么，也不知道爆炸会与异星物质驱动的虫洞装置产生什么交互作用。即使我们成功了，对我们的理事和派去的其他人来说也可能是场自杀任务。一些物理学家还推测，虫洞崩塌可能会导致失控的全转化反应，如果发生这种情况，就会成为整支舰队的自杀任务。<br/><br/>我们已准备好继续执行您的命令。
 TIObjectiveTemplate.quote.ResearchTheFinalAssault.ResistCouncil=我们准备好起飞了，指挥官。
 
@@ -480,7 +480,7 @@ TIObjectiveTemplate.quote.InvestigateAlienCrashdown.DestroyCouncil=没有证据�
 
 TIObjectiveTemplate.displayName.ResearchTheirSignatures.DestroyCouncil=研究外星人特征
 TIObjectiveTemplate.description.ResearchTheirSignatures.DestroyCouncil=从坠机现场带回的样本能让我们对这些不请自来的访客有更多的认识，尽快展开研究，我们的时间可能不多。
-TIObjectiveTemplate.solution.ResearchTheirSignatures.DestroyCouncil=“外星人特征”计划开放后就着手完成。
+TIObjectiveTemplate.solution.ResearchTheirSignatures.DestroyCouncil=“外星人特征”计划开放后，请完成该项目。
 TIObjectiveTemplate.resolution.ResearchTheirSignatures.DestroyCouncil=不速之客确实存在。<br/><br/>经过研究，我们确定有一种外星生命形式在坠机事故中幸存下来。它离开了那个区域，目前在地球上无法无天地自由行动着。我们听到了有关动物消失的传言，而且也有人类失踪，这情况令人不寒而栗。看来那些外星人绑架的老掉牙故事可能不再只是故事了。我们需尽快搞清楚这些不请自来的访客到底在做什么。 
 TIObjectiveTemplate.quote.ResearchTheirSignatures.DestroyCouncil=上校，报告指出我们应做最坏的打算。 
 
@@ -547,7 +547,7 @@ TIObjectiveTemplate.quote.ResearchAlienContainment.DestroyCouncil=我们准备�
 TIObjectiveTemplate.displayName.CaptureAHydra.DestroyCouncil=捕获一只活体九头蛇
 TIObjectiveTemplate.description.CaptureAHydra.DestroyCouncil=抓回一只九头蛇进行审问，得留活口。
 TIObjectiveTemplate.solution.CaptureAHydra.DestroyCouncil=侦测地球上的外星特工，并对其执行拘禁任务，也可以找到地球区域中的外星设施并对其执行外星资产攻击任务，或是侦测并占领太阳系中的外星人殖民地。
-TIObjectiveTemplate.resolution.CaptureAHydra.DestroyCouncil=我必须亲自监督这件事，很多手下不情愿让这东西留活口，其中有两个还人试图带着机关枪「以防万一」。还好我们收到了那些解剖简报，这些资讯很有用，但我们最终还是在那家伙进入五公尺范围内才撂倒它。 <br/><br/>正当我担心造成的损伤太大，那东西已经再生了，我第一次对于这些家伙很难杀死感到欣慰。首席病理学家说，它应该会在二十四小时内恢复意识，现在我们需要想清楚它醒来时如何进行审问。
+TIObjectiveTemplate.resolution.CaptureAHydra.DestroyCouncil=我必须亲自监督这件事，很多手下不情愿让这东西留活口，其中有两个还人试图带着机关枪“以防万一”。还好我们收到了那些解剖简报，这些资讯很有用，但我们最终还是在那家伙进入五公尺范围内才撂倒它。 <br/><br/>正当我担心造成的损伤太大，那东西已经再生了，我第一次对于这些家伙很难杀死感到欣慰。首席病理学家说，它应该会在二十四小时内恢复意识，现在我们需要想清楚它醒来时如何进行审问。
 TIObjectiveTemplate.quote.CaptureAHydra.DestroyCouncil=任务完成，上校，我们现在正与敌人面对面接触。
 
 TIObjectiveTemplate.displayName.ResearchTheirLanguage.DestroyCouncil=与海德拉俘虏交谈
@@ -582,44 +582,44 @@ TIObjectiveTemplate.quote.ResearchExotics.DestroyCouncil=上校，科学部门�
 
 TIObjectiveTemplate.displayName.ConductHydraInterrogation.DestroyCouncil=审问海德拉俘虏
 TIObjectiveTemplate.description.ConductHydraInterrogation.DestroyCouncil=我们的人对海德拉翻译系统已经准备就绪，是时候看看我们可以从这位访客口中问出什么资讯了。 
-TIObjectiveTemplate.solution.ConductHydraInterrogation.DestroyCouncil=“海德拉审讯”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ConductHydraInterrogation.DestroyCouncil=“海德拉审讯”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ConductHydraInterrogation.DestroyCouncil=受试者最初不愿意合作，几经说服后，它透露了以下内容。 <br/><br/>1. 海德拉来到这里是为了奴役地球上的居民，并强迫他们成为“战斗奴隶”，也就是奴隶士兵。它们已经通过这种方式奴役了另外至少两个物种，我们分别命名为“沙拉曼达”和“狮鹫”。 <br/>2. 海德拉在初次接触的不到一年前，就通过不连续时空 (通常称为虫洞) 抵达太阳系。通往我们这端的虫洞开口，位于柯伊伯带上的外星人主基地；另一端位于受海德拉控制的另一个星系中。 <br/>3. 建造和维持虫洞需耗费大量的能量，而且只能在指定的时段内接纳相对少量的质量。这严重限制了这些入侵者可以携带的人力和科技成品数量。 <br/>4. 由于第3点的限制，让海德拉的入侵势力相对薄弱。受试者估计，太阳系中目前存在的海德拉不超过500，它们的奴隶数量则多出很多倍，而它们的整支航天器舰队都是在这里建造的。 <br/>5. 海德拉的观点和看法似乎极为统一。受试者和太阳系中的其他所有海德拉，都被认定为“防御共识”的成员，它们齐心致力于奴役所有其他物种，而且没有持不同意见的海德拉阵营。当然，受试者也有可能在撒谎，但所有证据都指出，维持和平关系是不可能的。最终只会有两种可能的结果：它们奴役我们，或者我们杀光它们。 <br/><br/>一旦受试者恢复意识，我们将继续审问。
 TIObjectiveTemplate.quote.ConductHydraInterrogation.DestroyCouncil=上校，我们通过审问从俘虏口中获得了大量资讯。
 
 TIObjectiveTemplate.displayName.ResearchTheirWeakness.DestroyCouncil=了解它们的弱点
 TIObjectiveTemplate.description.ResearchTheirWeakness.DestroyCouncil=进行第二次审问，这次的重点会放在攻击角度上，我们需要能用来对付它们的弱点。 
-TIObjectiveTemplate.solution.ResearchTheirWeakness.DestroyCouncil=“了解它们的弱点”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchTheirWeakness.DestroyCouncil=“了解它们的弱点”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchTheirWeakness.DestroyCouncil=在不知道我们要寻找什么的情况下，实在很难进行审问。这个外星物种可以奴役所接触到的任何东西，到底该如何阻止它们？几位科学家建议封闭虫洞，而这名海德拉在压力下承认，这么做是可能的。但这只是应付永久性问题的暂时解决方案，没有任何方法能阻止海德拉创造另一个虫洞并卷土重来，甚至可能做出更糟糕的事情。 <br/><br/>最后，一句无意间脱口而出的话引导我们踏上了正确的道路。海德拉不堪压力而承认，第二个被奴役的物种“狮鹫”并没有构成军事威胁，但是海德拉特别关注它们，是因为它们倾向进行生物战。在不间断的逼问下，受试者的情绪变得激动，暗示人类过去曾使用 (相对有限的) 生物武器，让它们更加坚定地做出入侵决定。结束审问后，在前来这里的途中，我向几位病毒学家悄悄说了一些话，海德拉对信息素细胞的依赖可能导致它们特别容易受生物攻击影响，我认为这一点值得研究。
 TIObjectiveTemplate.quote.ResearchTheirWeakness.DestroyCouncil=外星人最厉害的武器可能也是它们的弱点，上校。
 
 TIObjectiveTemplate.displayName.ResearchWormholes.DestroyCouncil=研究虫洞
 TIObjectiveTemplate.description.ResearchWormholes.DestroyCouncil=我们通过审问确定了海德拉是通过虫洞抵达这里。若想击败它们，我们需要了解整个运作方式。
-TIObjectiveTemplate.solution.ResearchWormholes.DestroyCouncil=“虫洞”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchWormholes.DestroyCouncil=“虫洞”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchWormholes.DestroyCouncil=根据那些书呆子们的说法，海德拉虫洞就是称为“埃利斯排水孔”的东西。就在一个月前，他们还信誓旦旦表示这些东西不可能存在，现在却改口说确实存在。随便他们怎么说。他们给出一个跟什么科技有关的冗长解释，从战术的角度来看根本毫无用处；简而言之，他们对运作原理一无所知、不知道外星人是如何做到的，他们根本毫无头绪从哪里着手。 <br/><br/>他们得到还算有用的资讯是，虫洞的两端并不相等，可通过虫洞传回的质量受到限制，远少于传来这里的质量。除此之外，他们只能告诉我们“需要进行更多研究”。我真讨厌这些家伙。
 TIObjectiveTemplate.quote.ResearchWormholes.DestroyCouncil=上校，我们逐渐了解外星人的星际运输系统了。
 
 TIObjectiveTemplate.displayName.ResearchAlienChokePoint.DestroyCouncil=研究阻塞点
 TIObjectiveTemplate.description.ResearchAlienChokePoint.DestroyCouncil=早期研究的前景并不乐观，但我们别无选择，只能继续尝试。继续研究敌人的虫洞，期望能幸运有所突破。
-TIObjectiveTemplate.solution.ResearchAlienChokePoint.DestroyCouncil=“阻塞点”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchAlienChokePoint.DestroyCouncil=“阻塞点”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchAlienChokePoint.DestroyCouncil=好吧，派我们的飞船穿越海德拉虫洞的计划绝对出局了，即使我们能克服“海德拉系统正面攻击”的问题，质量限制实在低得离谱。我们从那边送回来的任何东西必须与其质量成极高的致命性正比。 <br/><br/>如果想阻止海德拉通过无止尽的虫洞管道派遣源源不绝的援军，我们就得拿下那个虫洞并通过它运送某些“东西”过去，用来让这件事一劳永逸地终结。唯一最有可能完成这项任务的武器是化学、生物或核能武器。
 TIObjectiveTemplate.quote.ResearchAlienChokePoint.DestroyCouncil=外星人的闸门并不是单向的，上校，我们可以运送武器过去彼端。
 
 TIObjectiveTemplate.displayName.ResearchHydraBiowarfare.DestroyCouncil=研究九头蛇生物战
 TIObjectiveTemplate.description.ResearchHydraBiowarfare.DestroyCouncil=从我们的审问内容得知，也许能利用九头蛇费洛细胞当作生物武器的运送系统。运用各种方法百般说服后，我们召集了一群在工程生物战方面拥有专业知识的病毒学家。没错，他们的专业知识就来自于你所想的地方。这个计划超乎想像地黑暗，如果我们成立这个团队的消息走漏，恐怕地球上一半的政府都会群起指责我们。
 TIObjectiveTemplate.solution.ResearchHydraBiowarfare.DestroyCouncil=“海德拉生物战”计划开放后就展开研究。
-TIObjectiveTemplate.resolution.ResearchHydraBiowarfare.DestroyCouncil=真不敢相信我会这么说，我们得到了一些好消息。 <br/><br/>我们终于知道为什么九头蛇对生物战的可能性如此发狂地执着。它们用来互相交谈的那些费洛细胞，会直接进入九头蛇系统中最脆弱的部分，完全没有进行过滤。这表示如果这些费洛细胞中存在有害物质，就会被它们完全吸收，就像人类吃到毒药一样，只不过九头蛇不能呕吐或从口中吐出来。 <br/><br/>当然也有坏消息，虽然利用费洛细胞能非常容易地通过生物武器感染九头蛇，对杀死它们却毫无帮助。病毒学家尝试了十几种不同的病毒，目标是攻击九头蛇的组织或细胞结构，但没有一种起作用。九头蛇免疫系统太强了，只要病毒开始扩散，九头蛇免疫细胞就会适应并全部消灭。 <br/><br/>好吧，这部分不会列入事后检讨中。我们的一位病毒学家 (我用S博士来称呼他)，你没听过这个人，不过一定会认可他在工作上的成就。我真心不想带他上船，但少数认识他的人一致认为他是最好的人选。而他真的办到了。 <br/><br/>S博士采取了与我们团队其他成员不同的做法，他没有试图攻击九头蛇的免疫系统，而是想出了一种折衷的方式。他的病毒转移到称为「滑囊」的九头蛇解剖结构，在九头蛇身上相当于人类的骨髓。这种病毒不会造成任何伤害，只会改造组成方式。改造过的滑囊会产生经改造的免疫细胞，而这些免疫细胞会攻击九头蛇系统。基本上就是利用九头蛇超强的免疫系统攻击自体。刚开始会是个缓慢的过程，但一旦开始...这样说吧，确实会奏效。 <br/><br/>我已经看过测试，老实说我相信我们已经拥有可以赢得这场战争的武器。现在我们需要一个运送系统。
+TIObjectiveTemplate.resolution.ResearchHydraBiowarfare.DestroyCouncil=真不敢相信我会这么说，我们得到了一些好消息。 <br/><br/>我们终于知道为什么九头蛇对生物战的可能性如此发狂地执着。它们用来互相交谈的那些费洛细胞，会直接进入九头蛇系统中最脆弱的部分，完全没有进行过滤。这表示如果这些费洛细胞中存在有害物质，就会被它们完全吸收，就像人类吃到毒药一样，只不过九头蛇不能呕吐或从口中吐出来。 <br/><br/>当然也有坏消息，虽然利用费洛细胞能非常容易地通过生物武器感染九头蛇，对杀死它们却毫无帮助。病毒学家尝试了十几种不同的病毒，目标是攻击九头蛇的组织或细胞结构，但没有一种起作用。九头蛇免疫系统太强了，只要病毒开始扩散，九头蛇免疫细胞就会适应并全部消灭。 <br/><br/>好吧，这部分不会列入事后检讨中。我们的一位病毒学家 (我用S博士来称呼他)，你没听过这个人，不过一定会认可他在工作上的成就。我真心不想带他上船，但少数认识他的人一致认为他是最好的人选。而他真的办到了。 <br/><br/>S博士采取了与我们团队其他成员不同的做法，他没有试图攻击九头蛇的免疫系统，而是想出了一种折衷的方式。他的病毒转移到称为“滑囊”的九头蛇解剖结构，在九头蛇身上相当于人类的骨髓。这种病毒不会造成任何伤害，只会改造组成方式。改造过的滑囊会产生经改造的免疫细胞，而这些免疫细胞会攻击九头蛇系统。基本上就是利用九头蛇超强的免疫系统攻击自体。刚开始会是个缓慢的过程，但一旦开始...这样说吧，确实会奏效。 <br/><br/>我已经看过测试，老实说我相信我们已经拥有可以赢得这场战争的武器。现在我们需要一个运送系统。
 TIObjectiveTemplate.quote.ResearchHydraBiowarfare.DestroyCouncil=我们发现能赢下这场战争的武器了，上校。
 
 TIObjectiveTemplate.displayName.ResearchDestroyVictory.DestroyCouncil=设立目标
 TIObjectiveTemplate.description.ResearchDestroyVictory.DestroyCouncil=虽然现在还为时尚早，但我们需要制定出行动计划，怎么做才能赢得这场战争？
-TIObjectiveTemplate.solution.ResearchDestroyVictory.DestroyCouncil=完成「净化地球」计划。
+TIObjectiveTemplate.solution.ResearchDestroyVictory.DestroyCouncil=完成“净化地球”计划。
 TIObjectiveTemplate.resolution.ResearchDestroyVictory.DestroyCouncil=很多人对这件事提出分歧意见。我们是在地球上还是在太空中与外星人对战？该把重心放在外星人还是合作者？怎么做才能永远摆脱这些入侵者？ <br/><br/>如果没办法取得更多资讯，就不可能找出明确的答案，但就目前状况来说，以下是我们做的猜测中可能性最高的。 <br/><br/>1. 调查外星人绑架事件；弄清楚外星人这么做的企图为何，不管它们在盘算什么，都得找出破坏它们计划的方法。 <br/>2. 取得外星人及其科技成品的样本，分析对方的弱点。 <br/>3. 利用这些弱点将外星人赶出地球，并确保它们没办法再回来。 <br/><br/>说来容易做来难，不过有件事所有人一致同意：我们想万无一失确保这些外星人不会再回来，永远摆脱它们，不惜一切代价。
 TIObjectiveTemplate.quote.ResearchDestroyVictory.DestroyCouncil=我们必须采取任何必要的手段，摧毁外星人和它们的人类魁儡，上校。
 
 TIObjectiveTemplate.displayName.ResearchKilltheHive.DestroyCouncil=准备击杀巢穴
 TIObjectiveTemplate.description.ResearchKilltheHive.DestroyCouncil=病毒已经准备好了，现在得想办法在九头蛇之间散播。 <br/><br/>一网打尽。
-TIObjectiveTemplate.solution.ResearchKilltheHive.DestroyCouncil=完成「击杀巢穴」计划。
-TIObjectiveTemplate.resolution.ResearchKilltheHive.DestroyCouncil=我们对九头蛇费洛细胞的研究，大部分都集中在如何阻止或破坏它们，不过有几个团队一直在更彻底地研究它们的运作方式。标准的九头蛇费洛细胞沟通机制非常复杂，带有很多我们无法解码的资讯，但是有某些「积木」费洛细胞具有基本发号施令功能，类似人类的战斗/逃跑/屈服反应。对九头蛇俘虏进行测试后，证实如果这类费洛细胞的数量足够，可以对行为带来压倒性的影响。 <br/><br/>目前为止我们只能识别和仿制其中的四种，我们的人员习惯称其中一种为「聚拢」费洛细胞，它可让九头蛇尽可能广泛聚集和分享费洛细胞。在剂量够多的情况下，获得分享的九头蛇会反过来产生相同的费洛细胞，进而寻找其他九头蛇，而后者又会寻找其他九头蛇..以此类推。把这种费洛细胞和我们的抗免疫病毒放在一起，我们就获得了拼成一个整体的两块拼图，一种可以杀死所接触到每一只九头蛇的武器，以及一个能保证尽可能广泛传播的散布系统。 <br/><br/>病毒一准备好，就在我们的俘虏身上进行了测试。 「聚拢」命令显然没有发挥太多作用，不过九头蛇在试图遵循命令时对自己造成了相当大的伤害，最初的费洛细胞剂量消耗完后，它马上就平静下来，似乎没有意识到自己遭到感染。 S博士估算最初的潜伏期为46小时，而且一如往常准确无误。不过我得承认，就连我都没料想到之后事情进展得如此之快。一定是有够多的费洛细胞受损而达到某种临界点。六个小时之间它的行为越来越古怪，随后变得疯狂。我们不确定这只九头蛇是否真的发疯了，或者只是感染造成的痛苦程度让它看起来如此。噪音和暴力行为夸张到守卫无法忍受而想杀了它，我应S博士的要求驳回了他们的提议，博士说他需要数据，花了三个半小时让它死亡，这期间他一直待在观察室里看着。光看他的举止，会以为他是在看足球赛。 <br/><br/>要知道，构建输送系统很简单，只是基本粒子炸弹，整个东西不到三十公斤，很容易低于质量限制，现在我们只需要运送过去就好。
+TIObjectiveTemplate.solution.ResearchKilltheHive.DestroyCouncil=完成“击杀巢穴”计划。
+TIObjectiveTemplate.resolution.ResearchKilltheHive.DestroyCouncil=我们对九头蛇费洛细胞的研究，大部分都集中在如何阻止或破坏它们，不过有几个团队一直在更彻底地研究它们的运作方式。标准的九头蛇费洛细胞沟通机制非常复杂，带有很多我们无法解码的资讯，但是有某些“积木”费洛细胞具有基本发号施令功能，类似人类的战斗/逃跑/屈服反应。对九头蛇俘虏进行测试后，证实如果这类费洛细胞的数量足够，可以对行为带来压倒性的影响。 <br/><br/>目前为止我们只能识别和仿制其中的四种，我们的人员习惯称其中一种为“聚拢”费洛细胞，它可让九头蛇尽可能广泛聚集和分享费洛细胞。在剂量够多的情况下，获得分享的九头蛇会反过来产生相同的费洛细胞，进而寻找其他九头蛇，而后者又会寻找其他九头蛇..以此类推。把这种费洛细胞和我们的抗免疫病毒放在一起，我们就获得了拼成一个整体的两块拼图，一种可以杀死所接触到每一只九头蛇的武器，以及一个能保证尽可能广泛传播的散布系统。 <br/><br/>病毒一准备好，就在我们的俘虏身上进行了测试。 “聚拢”命令显然没有发挥太多作用，不过九头蛇在试图遵循命令时对自己造成了相当大的伤害，最初的费洛细胞剂量消耗完后，它马上就平静下来，似乎没有意识到自己遭到感染。 S博士估算最初的潜伏期为46小时，而且一如往常准确无误。不过我得承认，就连我都没料想到之后事情进展得如此之快。一定是有够多的费洛细胞受损而达到某种临界点。六个小时之间它的行为越来越古怪，随后变得疯狂。我们不确定这只九头蛇是否真的发疯了，或者只是感染造成的痛苦程度让它看起来如此。噪音和暴力行为夸张到守卫无法忍受而想杀了它，我应S博士的要求驳回了他们的提议，博士说他需要数据，花了三个半小时让它死亡，这期间他一直待在观察室里看着。光看他的举止，会以为他是在看足球赛。 <br/><br/>要知道，构建输送系统很简单，只是基本粒子炸弹，整个东西不到三十公斤，很容易低于质量限制，现在我们只需要运送过去就好。
 TIObjectiveTemplate.quote.ResearchKilltheHive.DestroyCouncil=一切准备就绪，上校，所有单位都在等候你下令。
 
 TIObjectiveTemplate.displayName.DestroyVictory.DestroyCouncil=将它们赶尽杀绝
@@ -630,13 +630,13 @@ TIObjectiveTemplate.quote.DestroyVictory.DestroyCouncil=这是场光荣的胜利
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.EscapeCouncil=调查外星人坠机事件
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.EscapeCouncil=第一次接触的情况是它们的航天器在我们的大气上层发动气压制动器进行减速，然后坠毁在一个偏远的区域，而且显然采取自毁行动。航天器的残骸很有可能帮助人类的太空飞行技术跃进数个世纪。我们应该立刻派一名理事前往现场。
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.EscapeCouncil=派一名理事在坠机现场执行「调查外星人活动」任务。
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.EscapeCouncil=派一名理事在坠机现场执行“调查外星人活动”任务。
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.EscapeCouncil=虽然戒备森严，我们还是成功在坠机现场收集到一些残骸。我们的科学家等不及展开研究了。
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.EscapeCouncil=好个惊人转折，总管，希望它们是为了和平而来。
 
 TIObjectiveTemplate.displayName.ResearchTheirSignatures.EscapeCouncil=研究外星人特征
 TIObjectiveTemplate.description.ResearchTheirSignatures.EscapeCouncil=我们设法获得了散落的外星碎片，希望这些能让我们展开漫长而缓慢的过程，开始了解外星技术。我们应该立即着手研究。
-TIObjectiveTemplate.solution.ResearchTheirSignatures.EscapeCouncil=“外星人特征”计划开放后就着手完成。
+TIObjectiveTemplate.solution.ResearchTheirSignatures.EscapeCouncil=“外星人特征”计划开放后，请完成该项目。
 TIObjectiveTemplate.resolution.ResearchTheirSignatures.EscapeCouncil=很遗憾，我们获得的样本太小而且数量有限，无法让我们真正了解外星航天器，不过却给我们留下了耐人寻味的线索。其他消息指出，一只外星人在坠机事故中幸存下来，并进入了附近的荒野区域。奇怪的是，我们收到了附近社区发生失踪事件的报告。到目前为止，我们还没办法解释原因。
 TIObjectiveTemplate.quote.ResearchTheirSignatures.EscapeCouncil=我们获得的资讯不多，总管，但我们发现许多可能性待之后探索。
 
@@ -647,7 +647,7 @@ TIObjectiveTemplate.resolution.InvestigateAlienAbductions.EscapeCouncil=虽然�
 TIObjectiveTemplate.quote.InvestigateAlienAbductions.EscapeCouncil=一些怪异而遗憾的事情似乎正在上演，总管，但我们必须继续追查更多消息。
 
 TIObjectiveTemplate.displayName.ResearchTheirMethods.EscapeCouncil=研究外星人做法
-TIObjectiveTemplate.description.ResearchTheirMethods.EscapeCouncil=我们收集到大量关于这些所谓「外星人绑架」的资料和报告，从夸大和耸动的故事中筛选出准确的资讯需花点时间。
+TIObjectiveTemplate.description.ResearchTheirMethods.EscapeCouncil=我们收集到大量关于这些所谓“外星人绑架”的资料和报告，从夸大和耸动的故事中筛选出准确的资讯需花点时间。
 TIObjectiveTemplate.solution.ResearchTheirMethods.EscapeCouncil=“外星人做法”计划开放后就展开研究。
 TIObjectiveTemplate.resolution.ResearchTheirMethods.EscapeCouncil=最早失踪的都是低等哺乳动物，除了发生频率和数量启人疑窦外，没有什么特别之处。在坠毁后10到20天的时间里，动物失踪事件消停，换人类失踪。早期的人类失踪事件没有明显的模式，但后来的失踪对象中，社会经济地位高的人物高得不成比例。 <br/><br/>研究团队相当沮丧，我们原本抱持着共存和资讯交流的希望，如今看来要破灭了。外星人似乎连我们的福祉都不关心，甚至很可能充满敌意。
 TIObjectiveTemplate.quote.ResearchTheirMethods.EscapeCouncil=总管，与我们的访客和平进行第一次接触的希望，随着一份份报告传来逐渐变得渺茫。
@@ -655,7 +655,7 @@ TIObjectiveTemplate.quote.ResearchTheirMethods.EscapeCouncil=总管，与我们�
 TIObjectiveTemplate.displayName.InvestigateEnthrallMission.EscapeCouncil=调查归来的被绑架者
 TIObjectiveTemplate.description.InvestigateEnthrallMission.EscapeCouncil=许多“被绑架者”已经归来。我们的一些研究人员表示希望这些“绑架事件”只是场骗局；但是鉴于目前情况，我们认为不能如此乐观。派理事更深入调查。 
 TIObjectiveTemplate.solution.InvestigateEnthrallMission.EscapeCouncil=在疑似出现外星人的区域执行监视地点任务。一旦发现外星人对民众或领袖施加影响的证据，就派理事执行调查外星人活动任务。
-TIObjectiveTemplate.resolution.InvestigateEnthrallMission.EscapeCouncil=除了少数顽固的坚持者之外，现在所有人都将「骗局」理论抛在脑后。调查人员已经证实，一些归来的被绑架者正在针对当地政府刺探情报，换句话说，就是间谍活动。很遗憾，可能性最高的解释是外星人以某种方式对被绑架者施加影响，并利用他们来收集资讯。看来我们必须重新分配部分研究和情报资源来调查外星人的计划。
+TIObjectiveTemplate.resolution.InvestigateEnthrallMission.EscapeCouncil=除了少数顽固的坚持者之外，现在所有人都将“骗局”理论抛在脑后。调查人员已经证实，一些归来的被绑架者正在针对当地政府刺探情报，换句话说，就是间谍活动。很遗憾，可能性最高的解释是外星人以某种方式对被绑架者施加影响，并利用他们来收集资讯。看来我们必须重新分配部分研究和情报资源来调查外星人的计划。
 TIObjectiveTemplate.quote.InvestigateEnthrallMission.EscapeCouncil=总管，看来我们必须通过外交以外的手段了解外星人和它们的科技。
 
 TIObjectiveTemplate.displayName.ResearchTheirOperations.EscapeCouncil=研究外星人行动
@@ -679,7 +679,7 @@ TIObjectiveTemplate.quote.ResearchTheirOrigin.EscapeCouncil=我们必须了解�
 TIObjectiveTemplate.displayName.AccessHydraCorpus.EscapeCouncil=取得一具外星人尸体
 TIObjectiveTemplate.description.AccessHydraCorpus.EscapeCouncil=我们想方设法了解远方的外星人，可惜已无计可施。为了进一步了解外星人及它们有效影响人类的方法，我们的研究团队要求对外星人标本直接进行检查。虽然令人遗憾，但在这种情况下，对一个决心渗透我们社会的物种成员抱持道德关怀，重要性必须排在科学进步志业之后。 <br/><br/>研究团队的补充说明：考量到外星人似乎能对人类施加一定程度的影响，我们认为第一步先取得外星人尸体，可能比活捉一只外星人来得可行。 <br/><br/>然而重要的是，我们得仔细考虑行动的时机，并提醒所有空间站准备好迎接外星人及其人类盟友的报复。
 TIObjectiveTemplate.solution.AccessHydraCorpus.EscapeCouncil=侦测地球上的外星人特工，并对其执行暗杀任务。对地表或太空中的外星设施发动攻击，也有机会发现可供研究的外星人尸体。但是很难预测这些事情会在什么情况下发生。
-TIObjectiveTemplate.resolution.AccessHydraCorpus.EscapeCouncil=任务成功！虽然造成一些伤亡，但幸运的是没有重要人员受伤。我们的科学家对于有机会能研究在地球之外演化的物种感到兴奋无比，不仅如此，还是一个具有智慧而且可能更为先进的物种！这可能会彻底改变我们对生物学的理解，就像外星科技将彻底改变我们对物理学的理解一样。 <br/><br/>各团队正争相为新物种命名，已有多种分类法提出，但与此同时，教育程度较低的人员显然已参考一种神话生物，开始称这个外星物种为「九头蛇」。不管怎样，我们应该立即开始进行尸检。
+TIObjectiveTemplate.resolution.AccessHydraCorpus.EscapeCouncil=任务成功！虽然造成一些伤亡，但幸运的是没有重要人员受伤。我们的科学家对于有机会能研究在地球之外演化的物种感到兴奋无比，不仅如此，还是一个具有智慧而且可能更为先进的物种！这可能会彻底改变我们对生物学的理解，就像外星科技将彻底改变我们对物理学的理解一样。 <br/><br/>各团队正争相为新物种命名，已有多种分类法提出，但与此同时，教育程度较低的人员显然已参考一种神话生物，开始称这个外星物种为“九头蛇”。不管怎样，我们应该立即开始进行尸检。
 TIObjectiveTemplate.quote.AccessHydraCorpus.EscapeCouncil=我们的生物学家已经准备好开始对突击队带回来的尸体进行尸检了，总管。
 
 TIObjectiveTemplate.displayName.ResearchHydraBiology.EscapeCouncil=研究九头蛇生物学
@@ -697,7 +697,7 @@ TIObjectiveTemplate.quote.ResearchPherocytes.EscapeCouncil=对于到底是什么
 TIObjectiveTemplate.displayName.ResearchAlienContainment.EscapeCouncil=研究海德拉隔离设施
 TIObjectiveTemplate.description.ResearchAlienContainment.EscapeCouncil=既然我们准确理解了外星人控制它们的人类目标的方法，应该能建造一个基本的防护收容设施来容纳活体外星人，以防这样的机会真的出现。 
 TIObjectiveTemplate.solution.ResearchAlienContainment.EscapeCouncil=“海德拉隔离设施”计划开放后就展开研究。
-TIObjectiveTemplate.resolution.ResearchAlienContainment.EscapeCouncil=建造这样的设施需进行一些测试，不过程序相对简单。负责人员有信心应该能关押一只活体外星人。关于这个问题，我们的研究团队不断提到，如果能有活体外星人可供研究，对他们的工作会大有帮助。 <br/><br/>补充说明：虽然试图鼓励使用更具科学性的名称，但我们的人员仍继续以「九头蛇」称呼外星人。到这个地步，我们可能得放弃争论并接受这个用词了。
+TIObjectiveTemplate.resolution.ResearchAlienContainment.EscapeCouncil=建造这样的设施需进行一些测试，不过程序相对简单。负责人员有信心应该能关押一只活体外星人。关于这个问题，我们的研究团队不断提到，如果能有活体外星人可供研究，对他们的工作会大有帮助。 <br/><br/>补充说明：虽然试图鼓励使用更具科学性的名称，但我们的人员仍继续以“九头蛇”称呼外星人。到这个地步，我们可能得放弃争论并接受这个用词了。
 TIObjectiveTemplate.quote.ResearchAlienContainment.EscapeCouncil=我们捕获了一只外星人，总管。
 
 TIObjectiveTemplate.displayName.CaptureAHydra.EscapeCouncil=捕获一只活体九头蛇
@@ -709,7 +709,7 @@ TIObjectiveTemplate.quote.CaptureAHydra.EscapeCouncil=外星人已遭到监禁�
 TIObjectiveTemplate.displayName.ResearchTheirLanguage.EscapeCouncil=与海德拉俘虏交谈
 TIObjectiveTemplate.description.ResearchTheirLanguage.EscapeCouncil=虽然我们有充分的理由预计我们的海德拉俘虏不会完全合作，但与另一个有情物种交流的可能性具有巨大的潜力。我们的语言团队已请求优先使用被俘虏的海德拉。不出所料，我们的生物团队也提出了同样的要求。 
 TIObjectiveTemplate.solution.ResearchTheirLanguage.EscapeCouncil=“海德拉语言”研究计划开放后就着手进行。
-TIObjectiveTemplate.resolution.ResearchTheirLanguage.EscapeCouncil=语言学团队日以继夜奋斗，努力编制第一个中文对九头蛇语翻译工具。藉由分析我们手上的每一个外星语音录音实例，并与九头蛇的行为和费洛细胞产生过程进行比较，团队相信他们已经成功将九头蛇的滴答声翻译成可理解的句子。播放语音应该能让我们与九头蛇「交谈」。 <br/><br/>遗憾的是，九头蛇沟通的很大一部分似乎是通过费洛细胞进行的，它们语言中的听觉部分只是骨架，费洛细胞在这个基础上传递情境和意义。由于我们自己无法仿制九头蛇费洛细胞，而且让我们的团队接触九头蛇费洛细胞可能并非可行之道，因此我们将局限在语音交流。这会使得所有沟通内容粗糙且受限。尽管如此，这仍然是个重要的里程碑。
+TIObjectiveTemplate.resolution.ResearchTheirLanguage.EscapeCouncil=语言学团队日以继夜奋斗，努力编制第一个中文对九头蛇语翻译工具。藉由分析我们手上的每一个外星语音录音实例，并与九头蛇的行为和费洛细胞产生过程进行比较，团队相信他们已经成功将九头蛇的滴答声翻译成可理解的句子。播放语音应该能让我们与九头蛇“交谈”。 <br/><br/>遗憾的是，九头蛇沟通的很大一部分似乎是通过费洛细胞进行的，它们语言中的听觉部分只是骨架，费洛细胞在这个基础上传递情境和意义。由于我们自己无法仿制九头蛇费洛细胞，而且让我们的团队接触九头蛇费洛细胞可能并非可行之道，因此我们将局限在语音交流。这会使得所有沟通内容粗糙且受限。尽管如此，这仍然是个重要的里程碑。
 TIObjectiveTemplate.quote.ResearchTheirLanguage.EscapeCouncil=我们在与外星人沟通上大有进展，总管。
 
 TIObjectiveTemplate.displayName.SalvageAlienTechnology.EscapeCouncil=搜刮外星科技成品
@@ -733,12 +733,12 @@ TIObjectiveTemplate.quote.SalvageAlienWarship.EscapeCouncil=我们的部队战�
 TIObjectiveTemplate.displayName.ResearchExotics.EscapeCouncil=研究外来物
 TIObjectiveTemplate.description.ResearchExotics.EscapeCouncil=我们终于有充足的太阳系外合金可以运用，这种合金出现在各种外星科技成品中，我们相信，这种材料就是解开星际旅行谜题的关键所在。
 TIObjectiveTemplate.solution.ResearchExotics.EscapeCouncil=“外来材质”计划开放后就展开研究。
-TIObjectiveTemplate.resolution.ResearchExotics.EscapeCouncil=在我们目前为止回收的每一项外星科技成品中，都发现了数量不一的外星「外来物」(我们的科学家目前如此称呼它)。虽然我们对它的结构仍然只有最粗略的了解，但据我们所知，它的工程效应是直接改变与其结合的任何物质的物理性质。潜在的应用层面可说是无穷无尽。我们可以制造出比地球上最佳导体导电性更高的电路、比地球上最坚韧装甲的抗冲击性还高的防护屏障，还有足以承受前所未有压力的坚固船艛材料。最棒的是，我们不需要做任何相应的牺牲就能达成这一点！无需在低质量、高强度和高耐热性这些特性之间选择，而是能在这三个方面都有亮眼表现！只要我们有充足的外来物供应，几乎一切皆有可能。 <br/><br/>我们的希望已经实现：外星外来物是先进航太及最终星际旅行的关键。遗憾的是，我们的计划有一个很大的缺陷，虽然我们已竭尽所能，但要制作外来物还是远远超出我们的能力范围。在可预见的未来里，我们只能取得可以从外星人那里搜刮或偷走的东西。
+TIObjectiveTemplate.resolution.ResearchExotics.EscapeCouncil=在我们目前为止回收的每一项外星科技成品中，都发现了数量不一的外星“外来物”(我们的科学家目前如此称呼它)。虽然我们对它的结构仍然只有最粗略的了解，但据我们所知，它的工程效应是直接改变与其结合的任何物质的物理性质。潜在的应用层面可说是无穷无尽。我们可以制造出比地球上最佳导体导电性更高的电路、比地球上最坚韧装甲的抗冲击性还高的防护屏障，还有足以承受前所未有压力的坚固船艛材料。最棒的是，我们不需要做任何相应的牺牲就能达成这一点！无需在低质量、高强度和高耐热性这些特性之间选择，而是能在这三个方面都有亮眼表现！只要我们有充足的外来物供应，几乎一切皆有可能。 <br/><br/>我们的希望已经实现：外星外来物是先进航太及最终星际旅行的关键。遗憾的是，我们的计划有一个很大的缺陷，虽然我们已竭尽所能，但要制作外来物还是远远超出我们的能力范围。在可预见的未来里，我们只能取得可以从外星人那里搜刮或偷走的东西。
 TIObjectiveTemplate.quote.ResearchExotics.EscapeCouncil=总管，我们的任务成功：我们必须尽可能多搜刮一点外来物材料，才能推动出走计划。
 
 TIObjectiveTemplate.displayName.ConductHydraInterrogation.EscapeCouncil=审问海德拉俘虏
 TIObjectiveTemplate.description.ConductHydraInterrogation.EscapeCouncil=有了史上第一个异形翻译工具，我们已准备好与我们的“访客”展开对话。我们的目标有两个：尽可能了解外星人的目标和计划，并找出它们目前占领银河系的哪个区域。
-TIObjectiveTemplate.solution.ConductHydraInterrogation.EscapeCouncil=“海德拉审讯”计划开放后就着手完成。
+TIObjectiveTemplate.solution.ConductHydraInterrogation.EscapeCouncil=“海德拉审讯”计划开放后，请完成该项目。
 TIObjectiveTemplate.resolution.ConductHydraInterrogation.EscapeCouncil=人类与外星人史无前例的第一次对话！如果情况不是那么严峻，这会是相当重要的时刻。<br/><br/>这只九头蛇将自己定位为工程师/技术人员和副首领，也许就相当于我们的经理或团队主管职位。它宣称自己是“防御共识”的成员，这也许是某个九头蛇公司或政府计划？我们进一步针对九头蛇物种的问题进行审问，很可惜徒劳无功，九头蛇似乎信心满满，认定它们这个物种终将成功征服地球，遗憾的是，在这方面历史似乎站在它们那边；九头蛇曾入侵另外两个物种的母星，不费吹灰之力就征服了它们。九头蛇断然拒绝提供任何关于超光速技术的资讯，只是一股脑吹嘘这项技术赋予它们的优势，这着实令人沮丧。我们一些“对道德持弹性态度”的成员建议加重审问手段，但大多数人仍对这些做法感到不舒服，此外，也不能保证我们能得到任何有用的资讯。目前我们陷入僵局，无法顺利从九头蛇身上取得有关科技的资讯。<br/><br/>较正面的消息是，我们已经了解很多关于九头蛇的天文位置的资讯。它们的帝国规模相对较小，仅由三颗恒星周围有人居住的世界组成：杜鹃座ζ、山案座α和它们的母星孔雀座δ。我们虽成功获得了这方面的资讯，但是鉴于在其他方面毫无进展，我们决定暂时放弃进一步审问九头蛇。研究人员可以利用这名俘虏，且会继续与它互动并改良我们的翻译方法，但我们的首要任务会转移到为我们的计划找到合适的星系。
 TIObjectiveTemplate.quote.ConductHydraInterrogation.EscapeCouncil=我们从俘虏身上获得了很多资讯，总管！
 
@@ -751,25 +751,25 @@ TIObjectiveTemplate.quote.ResearchExoticHybridSystems.EscapeCouncil=地球和海
 TIObjectiveTemplate.displayName.BeginTheSearch.EscapeCouncil=开始搜寻
 TIObjectiveTemplate.description.BeginTheSearch.EscapeCouncil=每一段旅程都从踏出第一步开始，运用更先进的外太空观测能力，我们可以寻觅外星人的星系...或是从未遭染指的星系。
 TIObjectiveTemplate.solution.BeginTheSearch.EscapeCouncil=研究外太空望远镜空间站舱计划，并在其中一个太空殖民地上建造一个舱体。
-TIObjectiveTemplate.resolution.BeginTheSearch.EscapeCouncil=从外星人研究中获得的分析资料，让我们的外太空观测技术有了微小但至关重要的改进。全新的「亚萨」望远镜的诞生，代表我们第一次接触前最好的太空观测阵列跃进了至少一个级别。天文学家们为了使用它几乎要大打出手。不用说，如果你能继续保护「亚萨」所在的太空殖民地，天文学家们及我们所有人都会感激万分。
+TIObjectiveTemplate.resolution.BeginTheSearch.EscapeCouncil=从外星人研究中获得的分析资料，让我们的外太空观测技术有了微小但至关重要的改进。全新的“亚萨”望远镜的诞生，代表我们第一次接触前最好的太空观测阵列跃进了至少一个级别。天文学家们为了使用它几乎要大打出手。不用说，如果你能继续保护“亚萨”所在的太空殖民地，天文学家们及我们所有人都会感激万分。
 TIObjectiveTemplate.quote.BeginTheSearch.EscapeCouncil=我们现在可以寻觅人类的新家园了，总管。
 
 TIObjectiveTemplate.displayName.ResearchANewHome.EscapeCouncil=新的家园
 TIObjectiveTemplate.description.ResearchANewHome.EscapeCouncil=我们现在已有缩小殖民候选星球范围所需的工具。遗憾的是，我们最终确定的一个星系中，包含一个具有可呼吸的氧气且存在生命的星球：九头蛇母星，这是我们绝对得避开的地方。让我们尝试寻找另一个可居住的星球吧，一个没有九头蛇的星球。
 TIObjectiveTemplate.solution.ResearchANewHome.EscapeCouncil=“新的家园”计划开放后就展开研究。
-TIObjectiveTemplate.resolution.ResearchANewHome.EscapeCouncil=在天空中寻找新家园是个令人筋疲力尽的过程，天文学家团队日以继夜工作，调查我们现有的已知太阳系外星球资料库，并使用「亚萨」观测它们的星系是否有适合居住的迹象。这有点像决定是否要买下房子，只不过你所知道一切都是从另一个国家通过望远镜看到的东西。 <br/><br/>我们最终还是找到了候选星球，离太阳系合理距离内的两颗恒星的星系中，似乎包含宜居机率很高的行星：猎犬座β (距离27光年) 和仙后座η A (距离19光年)。经过激烈的辩论，我们决定排除仙后座η；它的低金属丰度引发了我们对殖民资源供应情况的担忧，而且它的位置较靠近九头蛇的势力范围，因此更容易受其影响。猎犬座β也略微缺乏金属，但情况较轻微，而且就质量、年龄和进化状态而言，非常接近我们的太阳。 27光年不是一段轻松的旅程，但同样的距离会让九头蛇相对更难追击我们。 <br/><br/>绕着猎犬座β运行的行星绝大部分仍是一团谜。通过「亚萨」观测显示存在氧气大气层，可能是蓝绿菌群的产物。除此之外，我们所知有限。我们的殖民者将踏入未知世界。 <br/><br/>天文学家的补充说明：猎犬座β也称为查拉 (Chara)，在希腊语中是「欢乐」的意思，我们希望结果能证明这个名字是个好选择。
+TIObjectiveTemplate.resolution.ResearchANewHome.EscapeCouncil=在天空中寻找新家园是个令人筋疲力尽的过程，天文学家团队日以继夜工作，调查我们现有的已知太阳系外星球资料库，并使用“亚萨”观测它们的星系是否有适合居住的迹象。这有点像决定是否要买下房子，只不过你所知道一切都是从另一个国家通过望远镜看到的东西。 <br/><br/>我们最终还是找到了候选星球，离太阳系合理距离内的两颗恒星的星系中，似乎包含宜居几率很高的行星：猎犬座β (距离27光年) 和仙后座η A (距离19光年)。经过激烈的辩论，我们决定排除仙后座η；它的低金属丰度引发了我们对殖民资源供应情况的担忧，而且它的位置较靠近九头蛇的势力范围，因此更容易受其影响。猎犬座β也略微缺乏金属，但情况较轻微，而且就质量、年龄和进化状态而言，非常接近我们的太阳。 27光年不是一段轻松的旅程，但同样的距离会让九头蛇相对更难追击我们。 <br/><br/>绕着猎犬座β运行的行星绝大部分仍是一团谜。通过“亚萨”观测显示存在氧气大气层，可能是蓝绿菌群的产物。除此之外，我们所知有限。我们的殖民者将踏入未知世界。 <br/><br/>天文学家的补充说明：猎犬座β也称为查拉 (Chara)，在希腊语中是“欢乐”的意思，我们希望结果能证明这个名字是个好选择。
 TIObjectiveTemplate.quote.ResearchANewHome.EscapeCouncil=有好消息，总管！我们找到目的地了，而且离外星人的势力范围很远。
 
 TIObjectiveTemplate.displayName.ResearchEscapeVictory.EscapeCouncil=设立目标
 TIObjectiveTemplate.description.ResearchEscapeVictory.EscapeCouncil=我们现在知道这是可能的：实际可行的星际旅行。地球上的其他阵营把重心放在外星人和自己的目标上；支持外星人，或是反对外星人。我们将它们视为达成目标的手段，但结局会如何收场？
-TIObjectiveTemplate.solution.ResearchEscapeVictory.EscapeCouncil=完成「离开摇篮」计划。
+TIObjectiveTemplate.solution.ResearchEscapeVictory.EscapeCouncil=完成“离开摇篮”计划。
 TIObjectiveTemplate.resolution.ResearchEscapeVictory.EscapeCouncil=对于我们下一步该如何行动，正进行着激烈的辩论，我们当中有些人坚持，抵抗外星人企图控制人类是我们的责任；另一方则认为我们应该寻求通过谈判得到某种解决方案或和平状态。 <br/><br/>但最终只有一个阵营胜出，人类历史上第一次，我们将有能力离开太阳系并成为多星球物种。与这个单纯的事实相比，其他所有考量都显得不重要了。 <br/><br/>也许外星人会成功征服人类；也许人类势力会奋力抵抗。但无论谁获胜，以银河系规模来看，一颗行星根本无关紧要。重要的是我们作为一个物种是否能扩散到地球和太阳系之外。有些人辞职以示抗议，但我们意志坚定。外星人拥有殖民其他世界的能力；而我们必须确实掌握这种能力。 <br/><br/>往后还有很多工作得做。
 TIObjectiveTemplate.quote.ResearchEscapeVictory.EscapeCouncil=人类版图是时候往其他恒星扩张了，总管，而你正是带领我们达成这个目标的要角。
 
 TIObjectiveTemplate.displayName.ResearchTheGreatJourney.EscapeCouncil=策划伟大旅程
 TIObjectiveTemplate.description.ResearchTheGreatJourney.EscapeCouncil=我们已选定目的地：猎犬座β (又称为查拉)。现在我们得设计飞船并规划旅程。
 TIObjectiveTemplate.solution.ResearchTheGreatJourney.EscapeCouncil=“伟大旅程”计划开放后就展开研究。
-TIObjectiveTemplate.resolution.ResearchTheGreatJourney.EscapeCouncil=我们第一艘星际飞船的蓝图已绘制完成，并命名为「彩虹桥号」，这将成为人类史上最大型的载运工具。 <br/><br/>彩虹桥号的基本设计包括一个大型中央推进和工程区域，而外环圆柱体可容纳我们的殖民地移民。飞船会绕着中心轴旋转，为外环提供 (有效) 重力；推进和工程区域则会保持零重力状态。飞船后端的烧蚀防护罩会成为太空殖民地发射激光光的瞄准目标，用来提供初始爆发加速力，将其带出太阳系；从那里开始会由主驱动器接手，提供0.25g的稳定加速度。速度会在0.97c达到峰值。计入加速和减速，从地球座标系算起，总旅行时间为32年，但从乘客的角度来看，从出发到抵达会经过16年的时间。 <br/><br/>我们的预备殖民地移民肩负相当艰巨的任务。我们对目的地只有最基本的了解，任务可能以数百种方式失败，在这种情况下，任务失败也代表着舰上的每个男人、女人和小孩都会失去性命。有鉴于此，本来预期志愿者可能寥寥无几，但事实恰恰相反，彩虹桥号将能以最大承载量载运4,180位殖民地移民，我们的申请人数已达这个数字的十倍以上，而且每天都有更多人联系我们表达意愿。开疆拓土的精神让人类跃跃欲试。
+TIObjectiveTemplate.resolution.ResearchTheGreatJourney.EscapeCouncil=我们第一艘星际飞船的蓝图已绘制完成，并命名为“彩虹桥号”，这将成为人类史上最大型的载运工具。 <br/><br/>彩虹桥号的基本设计包括一个大型中央推进和工程区域，而外环圆柱体可容纳我们的殖民地移民。飞船会绕着中心轴旋转，为外环提供 (有效) 重力；推进和工程区域则会保持零重力状态。飞船后端的烧蚀防护罩会成为太空殖民地发射激光光的瞄准目标，用来提供初始爆发加速力，将其带出太阳系；从那里开始会由主驱动器接手，提供0.25g的稳定加速度。速度会在0.97c达到峰值。计入加速和减速，从地球座标系算起，总旅行时间为32年，但从乘客的角度来看，从出发到抵达会经过16年的时间。 <br/><br/>我们的预备殖民地移民肩负相当艰巨的任务。我们对目的地只有最基本的了解，任务可能以数百种方式失败，在这种情况下，任务失败也代表着舰上的每个男人、女人和小孩都会失去性命。有鉴于此，本来预期志愿者可能寥寥无几，但事实恰恰相反，彩虹桥号将能以最大承载量载运4,180位殖民地移民，我们的申请人数已达这个数字的十倍以上，而且每天都有更多人联系我们表达意愿。开疆拓土的精神让人类跃跃欲试。
 TIObjectiveTemplate.quote.ResearchTheGreatJourney.EscapeCouncil=前进查拉的任务已准备就绪，总管，现在我们必须建造桥梁。
 
 TIObjectiveTemplate.displayName.ConstructTheBifrost.EscapeCouncil=建造彩虹桥号
@@ -786,13 +786,13 @@ TIObjectiveTemplate.quote.EscapeVictory.EscapeCouncil=恭喜，总管，你成�
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.ExploitCouncil=调查外星人坠机事件
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.ExploitCouncil=一艘不知名的航天器在我们星球上的一个偏远区域坠毁。虽然尚未完全证实，但至今为止我们能获得的所有证据，都指出这艘航天器来自外星。我们应派一名理事到现场尽可能了解情况。
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.ExploitCouncil=派一名理事在坠机现场执行「调查外星人活动」任务。
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.ExploitCouncil=派一名理事在坠机现场执行“调查外星人活动”任务。
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.ExploitCouncil=我们成功从坠机现场收集到一些样本，准备展开进一步调查。与此同时，其他多个团体正试图控制现场，似乎很可能发生激烈的竞争。
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.ExploitCouncil=我们暂时不插手管这件事。
 
 TIObjectiveTemplate.displayName.ResearchTheirSignatures.ExploitCouncil=研究外星人特征
 TIObjectiveTemplate.description.ResearchTheirSignatures.ExploitCouncil=我们已准备好分析从坠机现场收集的少量残骸；也应该调查船员发生了什么事。 
-TIObjectiveTemplate.solution.ResearchTheirSignatures.ExploitCouncil=“外星人特征”计划开放后就着手完成。
+TIObjectiveTemplate.solution.ResearchTheirSignatures.ExploitCouncil=“外星人特征”计划开放后，请完成该项目。
 TIObjectiveTemplate.resolution.ResearchTheirSignatures.ExploitCouncil=观察卫星影像和采访当地人后证实，至少有一名船员在坠机事件中幸存下来，并消失在周围的荒野中。我们对碎片的研究也证实，这艘飞船并不是在地球上组装而成。将这两件事放在一起思考，我们得出一个不可避免的结论：外星人在我们的星球上自由行动着。这听起来更偏向大众娱乐的话题，而不是世界经济理事会该讨论的议题。 <br/><br/>进一步调查发现多起附近居民失踪的消息。这引发令人不安的问题：外星人到这里做什么，而且考量到我们现在才发现它们的存在，那它们到底在我们不知情的状态下行动了多久？
 TIObjectiveTemplate.quote.ResearchTheirSignatures.ExploitCouncil=样本已分析完毕。
 
@@ -841,7 +841,7 @@ TIObjectiveTemplate.quote.AccessHydraCorpus.ExploitCouncil=结果令人满意，
 TIObjectiveTemplate.displayName.ResearchHydraBiology.ExploitCouncil=研究海德拉生物学
 TIObjectiveTemplate.description.ResearchHydraBiology.ExploitCouncil=我们终于找到了一具完整的外星人尸体。我们希望尸检能提供一些研究线索。 
 TIObjectiveTemplate.solution.ResearchHydraBiology.ExploitCouncil=“海德拉生物学”计划开放后就展开研究。
-TIObjectiveTemplate.resolution.ResearchHydraBiology.ExploitCouncil=尸检几乎没有能直接派上用场的发现。我们聘雇的生物学家和其他科学家，针对这个外星物种 (此后代号为「九头蛇」) 的解剖细节提供了一份老实说乏味又冗长的报告。大部分内容都与获利或策略性资讯沾不上边，但有一个小细节引起了我们的注意。九头蛇身体似乎会产生自由浮动的细胞，这些细胞会反过来产生化学物质，其中一些物质与精神药物非常相似。如果我们的发现是正确的，这可能与九头蛇控制人类仆人的方式有关。
+TIObjectiveTemplate.resolution.ResearchHydraBiology.ExploitCouncil=尸检几乎没有能直接派上用场的发现。我们聘雇的生物学家和其他科学家，针对这个外星物种 (此后代号为“九头蛇”) 的解剖细节提供了一份老实说乏味又冗长的报告。大部分内容都与获利或策略性资讯沾不上边，但有一个小细节引起了我们的注意。九头蛇身体似乎会产生自由浮动的细胞，这些细胞会反过来产生化学物质，其中一些物质与精神药物非常相似。如果我们的发现是正确的，这可能与九头蛇控制人类仆人的方式有关。
 TIObjectiveTemplate.quote.ResearchHydraBiology.ExploitCouncil=也许我们的制药部门有不同看法。
 
 TIObjectiveTemplate.displayName.ResearchPherocytes.ExploitCouncil=研究海德拉信息素细胞
@@ -859,7 +859,7 @@ TIObjectiveTemplate.quote.ResearchAlienContainment.ExploitCouncil=我们准备�
 TIObjectiveTemplate.displayName.CaptureAHydra.ExploitCouncil=捕获一只活体九头蛇
 TIObjectiveTemplate.description.CaptureAHydra.ExploitCouncil=一只活体九头蛇将能我们让更详细研究它们的费洛细胞，也带来了与俘虏受试者进行交流的可能性。从至今为止的情况看来，九头蛇对于与我们谈判兴趣缺缺，也许更强势的手段会让它们做出更进贴近我们期望的反应。
 TIObjectiveTemplate.solution.CaptureAHydra.ExploitCouncil=侦测地球上的外星特工，并对其执行拘禁任务，也可以找到地球区域中的外星设施并对其执行外星资产攻击任务，或是侦测并占领太阳系中的外星人殖民地。
-TIObjectiveTemplate.resolution.CaptureAHydra.ExploitCouncil=我们的维安部门找到并拘禁了一只九头蛇，他们再次展现出令人满意的表现。遗憾的是，九头蛇的「仆人」们已经意识到我们的行动，并谴责我们拘禁九头蛇的行为视同「亵渎神明」。很显然，只要服从派阵营保持活跃，针对九头蛇问题的任何长期解决方案都不太可能行得通。
+TIObjectiveTemplate.resolution.CaptureAHydra.ExploitCouncil=我们的维安部门找到并拘禁了一只九头蛇，他们再次展现出令人满意的表现。遗憾的是，九头蛇的“仆人”们已经意识到我们的行动，并谴责我们拘禁九头蛇的行为视同“亵渎神明”。很显然，只要服从派阵营保持活跃，针对九头蛇问题的任何长期解决方案都不太可能行得通。
 TIObjectiveTemplate.quote.CaptureAHydra.ExploitCouncil=我们的维安部门带回了一只活体受试者进行测试。
 
 TIObjectiveTemplate.displayName.ResearchTheirLanguage.ExploitCouncil=与海德拉俘虏交谈
@@ -889,24 +889,24 @@ TIObjectiveTemplate.quote.SalvageAlienWarship.ExploitCouncil=我们逐渐了解�
 TIObjectiveTemplate.displayName.ResearchExotics.ExploitCouncil=研究外来物
 TIObjectiveTemplate.description.ResearchExotics.ExploitCouncil=外星外来物是它们科技优势的关键所在，我们能不能找出办法自行生产这种物质？
 TIObjectiveTemplate.solution.ResearchExotics.ExploitCouncil=“外来材质”计划开放后就展开研究。
-TIObjectiveTemplate.resolution.ResearchExotics.ExploitCouncil=外星外来物令人赞叹不已，它们可用来生产新材料，让地球上能制造出的任何东西都相形见绌。研发人员已经提议几十个全新市场，若能利用只有外来物合金可实现的设计来开拓这些市场，创造财富的潜力巨大无穷。 <br/><br/>然而令人失望的是，研究人员无法提出任何可行的方法能让我们自行仿制这些外来物。有证据指出，生产这种物质需要大量高度先进的基础设施，这可能是外星人选择直接从母星进口它们的原因。从长远来看，若要追上外星人的能力，需派遣我们的团队前往它们的本土生产设施并亲自研究它们的工业技术。与此同时，有人建议我们应该从太阳系中现存的外星人身上「种植」外来物。考量到外来物蕴含的巨大价值，即使需以大量的飞船和人员损失来换取少量的外来物，仍是一笔有利的交换。有鉴于此，董事会已授权你扩大我们造船计划的规模。
+TIObjectiveTemplate.resolution.ResearchExotics.ExploitCouncil=外星外来物令人赞叹不已，它们可用来生产新材料，让地球上能制造出的任何东西都相形见绌。研发人员已经提议几十个全新市场，若能利用只有外来物合金可实现的设计来开拓这些市场，创造财富的潜力巨大无穷。 <br/><br/>然而令人失望的是，研究人员无法提出任何可行的方法能让我们自行仿制这些外来物。有证据指出，生产这种物质需要大量高度先进的基础设施，这可能是外星人选择直接从母星进口它们的原因。从长远来看，若要追上外星人的能力，需派遣我们的团队前往它们的本土生产设施并亲自研究它们的工业技术。与此同时，有人建议我们应该从太阳系中现存的外星人身上“种植”外来物。考量到外来物蕴含的巨大价值，即使需以大量的飞船和人员损失来换取少量的外来物，仍是一笔有利的交换。有鉴于此，董事会已授权你扩大我们造船计划的规模。
 TIObjectiveTemplate.quote.ResearchExotics.ExploitCouncil=我们需要从外星航天器上收集更多这些材料。
 
 TIObjectiveTemplate.displayName.ConductHydraInterrogation.ExploitCouncil=审问海德拉俘虏
 TIObjectiveTemplate.description.ConductHydraInterrogation.ExploitCouncil=如今我们有了海德拉翻译装置，可以对海德拉俘虏进行审问了。我们对它们的文化和组织结构特别感兴趣。虽然研究团队将继续与我们的俘虏交流，但我们已将实际审问工作发包给这个领域的专家。
-TIObjectiveTemplate.solution.ConductHydraInterrogation.ExploitCouncil=“海德拉审讯”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ConductHydraInterrogation.ExploitCouncil=“海德拉审讯”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ConductHydraInterrogation.ExploitCouncil=我们审讯俘虏的内容广泛而冗长，获得了大量有用的资讯。 <br/><br/>看来海德拉的思维模式基本上合乎逻辑和理性。它们过去显然曾受到外星物种的重大伤害，因此对其他种族采取防御性谨慎态度，强调控制和自我保护。遗憾的是，虽然它们具有理智，但想通过谈判达成协议似乎不切实际。海德拉对任何未来有可能威胁到自己的外星物种都带着极度负面的反应；若想藉由谈判达到任何形式的和平，都需要将一定程度的掌控权拱手交给海德拉，让它们掌管这个理事会和全体人类，这对我们来说根本无法接受。 <br/><br/>海德拉文化似乎受到集体主义和共识驱使，这可能是海德拉信息素细胞造成的影响：它们具有强烈的阶层和秩序倾向。从许多方面来看，它们的社会有很多值得钦佩的地方：犯罪几乎不曾出现，而海德拉工人的平均效率和生产力明显高于人类，不过可能缺乏创造力。虽然我们的俘虏只是单一个体，但我们收集的各种资料都明显指出，它的观点就代表着它的整个种族；事实上，这可能适用于任何海德拉个体。从它们的统一性再加上这些信息素细胞在海德拉社会中所扮演的角色，可看出存在某些弱点。 <br/><br/>另外还有个不那么重要的消息，我们发现了海德拉进行星际旅行的方法：它们使用一种从前认为只存在科幻小说领域中的“虫洞”。建议进一步研究。
 TIObjectiveTemplate.quote.ConductHydraInterrogation.ExploitCouncil=我们的俘虏开口说话了。
 
 TIObjectiveTemplate.displayName.ResearchPherocyteResistance.ExploitCouncil=研究费洛细胞抗性
 TIObjectiveTemplate.description.ResearchPherocyteResistance.ExploitCouncil=现在我们对海德拉信息素细胞的机制有了较深入的了解，还有一个可以进行实验的活体，可以继续进行更具针对性的研究。第一步是充分了解海德拉信息素细胞，找出能有效抵抗它们的方法。
-TIObjectiveTemplate.solution.ResearchPherocyteResistance.ExploitCouncil=“信息素细胞抗性”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchPherocyteResistance.ExploitCouncil=“信息素细胞抗性”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchPherocyteResistance.ExploitCouncil=经过反复试验，研发部门发现了许多天然存在于地球上的化合物，它们对人类相对无害，但对海德拉的生理来说有害甚至有毒。若将这些化合物注射到血液中，顶多会对人体产生轻微的刺激，却会对包括信息素细胞在内的海德拉细胞造成破坏。我们制作出这种混合物的长效版配方，可利用注射器注入我方人员和特务体内，只需每隔几天补充一次，进到人体内的海德拉信息素细胞就会迅速死亡，进而阻止信息素细胞达到有效精神控制所需的临界质量。这个解决方案相当粗略，但就目前情况来说已经足够。 <br/><br/>更重要的是，我们为海德拉信息素细胞性质分析投入的努力已开始获得成果。我们认为，理论上应该可以在受控环境中培育我们自己版本的信息素细胞。
 TIObjectiveTemplate.quote.ResearchPherocyteResistance.ExploitCouncil=我们对外星人的研究终于获得有利的结果和潜在的产品线。
 
 TIObjectiveTemplate.displayName.ResearchPherocyteMastery.ExploitCouncil=研究费洛细胞大师
 TIObjectiveTemplate.description.ResearchPherocyteMastery.ExploitCouncil=海德拉在自己体内产生信息素细胞。但似乎没有理论上的理由说明我们不可能用我们自己的生物工业基地来生产它们。利用海德拉到来后开发的新技术，我们希望开发出一种新的、改良的信息素细胞，它有可能为我们在这场对抗中取得成功。
-TIObjectiveTemplate.solution.ResearchPherocyteMastery.ExploitCouncil=“信息素细胞控制”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchPherocyteMastery.ExploitCouncil=“信息素细胞控制”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchPherocyteMastery.ExploitCouncil=我们投入的资源相当可观，但很高兴在此宣布，我们的信息素细胞计划终于开花结果。我们利用微型培养工厂，成功开发出能大量生产新信息素细胞的便携式设备，这些新信息素细胞可以按照我们自己的方式产生能影响精神的物质。我们不仅可以获得接近海德拉强迫他者服从的能力，而且我们造成影响的速度更快、效果更强。<br/><br/>新信息素细胞确实有一些缺点，很可惜，我们的人工生产系统缺少海德拉信息素细胞数千年的演化过程，因此效率较低；任何固定数量的新信息素细胞都会被数量相近的海德拉信息素细胞覆盖，不过这一点可以藉由增加剂量来弥补这点。进入海德拉体内的新信息素细胞数量如果够多，就能淹没原生的信息素细胞并控制该个体。须注意的是剂量不能过高：我们发现，新信息素细胞达到一定数量就足以导致癫痫发作和脑死。有件事与此相关，研发部门提出要求，想研究有关人类和海德拉的新主题。<br/><br/>虽然目前还处于早期阶段，但新信息素细胞似乎对人类非常有效。我们欠缺只有海德拉能办到的“即时”调适能力，因此不得不将新海德拉细胞改写得更通用，目的是促使受试者服从我们的代表，并对自己所处岗位感到满足。我们相信应该能藉由微调，针对不同职业的受试者产生最合适的最佳新信息素细胞株、注入不同特征来将受试者塑造成理想的工人。我们所有的细胞株都具有抑制创造力和独立性的倾向，但这似乎是个可以接受的交换条件。与此相关的是，我们的研究也许能应用在娱乐产业；我方人员中已有人私下联系我们，要求我们提供改良的新信息素细胞株，希望用于心仪对象受试者身上，这有可能在促进伴侣关系的产业产生巨大的利润。当然，一切都得等到解决海德拉之后再说。<br/><br/>从负面角度来看，亲外星阵营似乎不太可能对我们的突破感到满意。相信海德拉优越地位的“服从派”和“求安派”可能会做出极为负面的反应。我们与这些阵营的关系似乎越来越有可能以直接冲突收场。 
 TIObjectiveTemplate.quote.ResearchPherocyteMastery.ExploitCouncil=这一系列调查的机会似乎无穷无尽。
 
@@ -918,37 +918,37 @@ TIObjectiveTemplate.quote.ResearchExploitVictory.ExploitCouncil=必须有人领�
 
 TIObjectiveTemplate.displayName.ResearchWormholes.ExploitCouncil=研究虫洞
 TIObjectiveTemplate.description.ResearchWormholes.ExploitCouncil=我们对俘虏的审问表明，海德拉是通过一个“虫洞”来到我们的太阳系的，由于海德拉问题的任何长期解决方案都需要安抚太阳系以外的海德拉，我们应该研究这个虫洞的机制。 
-TIObjectiveTemplate.solution.ResearchWormholes.ExploitCouncil=“虫洞”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchWormholes.ExploitCouncil=“虫洞”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchWormholes.ExploitCouncil=海德拉虫洞带来一个令人向往的机会，也许能在我们太阳系和它们星系之间建立直接且立即性的通道。我们专为这个计划聘请的研究人员似乎对科学意义感到无比兴奋，但我们尽力让他们专注处理更实际的问题。 <br/><br/>虽然虫洞可能有一些限制，但仍是个极为强大的工具。谁拥有虫洞，谁就拥有在星系之间旅行的唯一可行管道。地球上所有国家都只能在一条海路或陆路通道上建立经济体系；而这个虫洞是两个完整星系之间的通道！它可以产生的贸易价值简直是天文数字。 <br/><br/>当然，目前虫洞是由海德拉控制，因此任何潜在的利益都没有实际意义。虽然如此，我们还是应努力争取尽快巩固虫洞的控制权。
 TIObjectiveTemplate.quote.ResearchWormholes.ExploitCouncil=与丝绸之路或巴拿马运河的比较似乎是恰当的。
 
 TIObjectiveTemplate.displayName.ResearchAlienChokePoint.ExploitCouncil=研究外星人阻塞点
 TIObjectiveTemplate.description.ResearchAlienChokePoint.ExploitCouncil=谁控制了虫洞，谁就将在未来几代人中统治海德拉太阳系和我们自己的太阳系。我们应该继续我们的研究。 
-TIObjectiveTemplate.solution.ResearchAlienChokePoint.ExploitCouncil=“阻塞点”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchAlienChokePoint.ExploitCouncil=“阻塞点”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchAlienChokePoint.ExploitCouncil=我们的研究人员归类为“埃利斯排水孔”的虫洞，是一项令人赞叹的工程壮举。虽然我们目前还无法自己建造出来，但已了解它的运作机制。虫洞在任何时段内都只能传输相对较小的总质量；可以传输一组人，整艘航天器却行不通。这就解释了为什么海德拉只能被迫在这里建造它们的飞船，而不是从故乡大量转移过来。 <br/><br/>另一个奇怪的特征是虫洞是不对称的；可从海德拉星系传输很多质量到我们这边，从这边传过去却相反。海德拉利用这一点为它们的入侵行动提供补给，但假设我们能建立殖民前哨并用来开发资源，理论上也可以让我们从海德拉的母星运送大量高价值货物到地球，例如异物质。 <br/><br/>遗憾的是，从我们的情报来源得知，某些人类阵营对虫洞有完全不同的计划：自封“抵抗派”的阵营不仅希望将它封闭，更想摧毁它。似乎不太可能有折衷方案。
 TIObjectiveTemplate.quote.ResearchAlienChokePoint.ExploitCouncil=谁掌握了这个虫洞，就掌控了人类的未来。
 
 TIObjectiveTemplate.displayName.ResearchEnslavetheMasters.ExploitCouncil=准备成为奴役大师
 TIObjectiveTemplate.description.ResearchEnslavetheMasters.ExploitCouncil=现在已万事俱备。研究海德拉虫洞的运作机制后，我们确认一支小队应该能够通过它前往遥远的海德拉星系，抵达后他们会在那里部署新费洛细胞来煽动当地的海德拉，招揽它们成为我们志业的生力军。这些海德拉会将我们的新费洛细胞传播到其他海德拉身上，就此扩散蔓延。基本上，我们打算对海德拉执行的计划，就跟它们想对我们执行的一模一样。我们许多成员都认为这种对称性带着可笑的讽刺意味。<br/><br/>与此同时，终于到了对其他人类阵营做出一些永久性决定的时候了，虽然少数人可能愿意接受我们推出的新费洛细胞，但看来绝大部分人都不会接受。 
 TIObjectiveTemplate.solution.ResearchEnslavetheMasters.ExploitCouncil=“准备成为奴役大师”计划开放后就展开研究。
-TIObjectiveTemplate.resolution.ResearchEnslavetheMasters.ExploitCouncil=我们的九头蛇渗透小队已集结完毕。流程其实很简单，只需开发一些更先进的便携式微型工厂就好，他们抵达后应该能利用虫洞另一侧可取得的材料生产大量新费洛细胞。 <br/><br/>事实证明，对其他阵营和子阵营的计划复杂得多。目前我们「最合适」的解决方案如下：<br/><br/>人类派：虽然他们对私营企业有某种反射性敌意，但能够以牙还牙反过来控制九头蛇的可能性，似乎吸引了HF的低层成员。因此，我们预计会有很大一部分的HF成员愿意加入我们。 <br/>抵抗派：这个阵营似乎既致力于摧毁九头蛇虫洞，又想尽力维持地球统治阶层的传统权力结构。因此，虽然他们反对九头蛇，似乎仍必须将他们清算掉。 <br/>出走派：虽然他们对建造殖民船的狂热有点荒谬，但至少展现出远见。星际殖民的前景未来也许会成为一种有用的「安全阀」，用于重新定位地球人口中有问题的元素。他们也是各阵营中对企业最友好的。通过协商达成共识应该可行。 <br/>学院派：学院派一直对我们怀有敌意，多次宣称我们比起九头蛇「好不到哪去」。他们似乎非常冥顽不灵，更不用说那可悲的天真态度了。我们建议清算他们。 <br/>求安派：这个阵营的核心成员似乎由思想家组成，他们希望对从属阶级行使支配权，不过似乎有许多人深受这个阵营的愿景吸引。这些思想家应该被清算，但较愤世嫉俗的成员应该能成为可预测的员工，如果受到限制的话。 <br/>服从派：他们整个意识形态的基础是对外星人至高无上的狂热宗教信仰。必须清算，无一例外。
+TIObjectiveTemplate.resolution.ResearchEnslavetheMasters.ExploitCouncil=我们的九头蛇渗透小队已集结完毕。流程其实很简单，只需开发一些更先进的便携式微型工厂就好，他们抵达后应该能利用虫洞另一侧可取得的材料生产大量新费洛细胞。 <br/><br/>事实证明，对其他阵营和子阵营的计划复杂得多。目前我们“最合适”的解决方案如下：<br/><br/>人类派：虽然他们对私营企业有某种反射性敌意，但能够以牙还牙反过来控制九头蛇的可能性，似乎吸引了HF的低层成员。因此，我们预计会有很大一部分的HF成员愿意加入我们。 <br/>抵抗派：这个阵营似乎既致力于摧毁九头蛇虫洞，又想尽力维持地球统治阶层的传统权力结构。因此，虽然他们反对九头蛇，似乎仍必须将他们清算掉。 <br/>出走派：虽然他们对建造殖民船的狂热有点荒谬，但至少展现出远见。星际殖民的前景未来也许会成为一种有用的“安全阀”，用于重新定位地球人口中有问题的元素。他们也是各阵营中对企业最友好的。通过协商达成共识应该可行。 <br/>学院派：学院派一直对我们怀有敌意，多次宣称我们比起九头蛇“好不到哪去”。他们似乎非常冥顽不灵，更不用说那可悲的天真态度了。我们建议清算他们。 <br/>求安派：这个阵营的核心成员似乎由思想家组成，他们希望对从属阶级行使支配权，不过似乎有许多人深受这个阵营的愿景吸引。这些思想家应该被清算，但较愤世嫉俗的成员应该能成为可预测的员工，如果受到限制的话。 <br/>服从派：他们整个意识形态的基础是对外星人至高无上的狂热宗教信仰。必须清算，无一例外。
 TIObjectiveTemplate.quote.ResearchEnslavetheMasters.ExploitCouncil=事态发展至此我们已经没有退路。
 
 TIObjectiveTemplate.displayName.ExploitVictory.ExploitCouncil=地球已不敷所需
 TIObjectiveTemplate.description.ExploitVictory.ExploitCouncil=发动敌意接管行动所需的一切已集结完毕，我们的目标不只是九头蛇入侵部队，更锁定整个九头蛇帝国。虫洞是关键所在，将我们的渗透小队部署到九头蛇虫洞基地，将他们送往九头蛇的母星，完成我们的征服大业。
 TIObjectiveTemplate.solution.ExploitVictory.ExploitCouncil=为理事指派{winnerOrg}组织，目标锁定古柏带上外星人主基地的外星虫洞舱，执行{winnerOrgMission}任务。
-TIObjectiveTemplate.resolution.ExploitVictory.ExploitCouncil=很高兴宣布，这次行动圆满成功。 <br/><br/>我们的渗透小队顺利部署到虫洞，没有发生重大事故；我们舰队的损失情况尚可接受。穿越虫洞后，他们很快就扫荡了在虫洞另一端建造基地作为据点的九头蛇，并在附近发现更多闸门。在外星空间站之间跳跃多次后，他们找到了九头蛇母星系。根据我们收到的报告，大部分九头蛇人口都集中在 (目前不适合居住的) 九头蛇母星周围绕行轨道上的殖民地中；这使得我们的新费洛细胞能在九头蛇社会中迅速散播开来。 <br/><br/>根据我们目前的估计，大约70%的原住民九头蛇 (入侵前) 人口目前已落入我们的控制之中。遗憾的是，有几个绕行轨道殖民地自行切断了新费洛细胞流入管道，让我们不得已消灭这些殖民地，因此损失了另外25%的人口。研发部门向我们保证，九头蛇人口的遗传多样性相当充足，可吸收这些损失。其余5%的顽强分子目前暂且仍极力抵抗中，但它们与支援基地和基础设施的接触管道已被切断，估计不会构成重大威胁。九头蛇的军事和行政设施已落入我们的掌握；我们有效地统治了九头蛇的孔雀座δ母星系，并通过那里将统治范围延伸到它们的星际帝国。 <br/><br/>既然已经处理掉九头蛇，就只剩下其他人类阵营的问题待解决了。在此报告好消息，解决这个问题的计划正顺利进行着。部署新费洛细胞后，我们成功让已知的敌方特务迅速倒戈，反过来成为我们进一步扩大影响力的推手。我们估计应该能在几个月内有效掌控地球，并分配最多一年的时间追踪顽强分子。如同先前所讨论，我们目前的推测指出，必须彻底消灭学院派、抵抗派和服从派。 <br/><br/>展望未来，本理事会认为民族国家的时代已经终结，地球上大多数国家政府已被推翻或沦为傀儡，而那些撑过入侵时的动荡情势，并在我们的新费洛细胞扫荡行动中幸存下来的国家政府，可能会式微到举无轻重的地步。我们的分析师表示 (在我看来正确无误) 没有理由消灭残余的政府组织，我们认为没有理由表面上支持他们主张自己权威地位的立场；任何试图强迫我们接受这些主张的总统或其他领袖，都会自然而然被现实情况说服。 <br/><br/>新费洛细胞结合我们对虫洞和九头蛇社会的控制权，使我们对人类活动的影响力达到了史无前例的水准，我们正在制定计划，在崭新的「社会2.0」中善用这股影响力。有了新费洛细胞，我们能为传统上被视为不受欢迎或地位低下的产业和市场领域，塑造出最合适的工人；我们的新工人阶级将能在自己的岗位上发挥更高的生产力且更加快乐。之后可以根据选贤任能的原则，选拔有前途的人晋升为主管阶级，自在地专注处理更高级别的事务。当然，一定数量的犯罪和社会失序情况是人类社会永恒不变的特征，因此我们认为，将这种行为限制在指定区域内而不是试图彻底抹灭，是较符合现实的做法。这种非企业的「自由区」应当成一种有用的奖励措施，鼓励人民在我们的组织中就业。我们估计其他阵营的幸存成员可能会发起抵抗运动或成立恐怖组织苟延残喘一段时间，但只要他们的活动范围被限制在地球上，就不会对我们更先进、更有生产力的新社会构成重大威胁。 <br/><br/>无论是我们理事会还是全体人类，都将迎来光明无限的未来。
+TIObjectiveTemplate.resolution.ExploitVictory.ExploitCouncil=很高兴宣布，这次行动圆满成功。 <br/><br/>我们的渗透小队顺利部署到虫洞，没有发生重大事故；我们舰队的损失情况尚可接受。穿越虫洞后，他们很快就扫荡了在虫洞另一端建造基地作为据点的九头蛇，并在附近发现更多闸门。在外星空间站之间跳跃多次后，他们找到了九头蛇母星系。根据我们收到的报告，大部分九头蛇人口都集中在 (目前不适合居住的) 九头蛇母星周围绕行轨道上的殖民地中；这使得我们的新费洛细胞能在九头蛇社会中迅速散播开来。 <br/><br/>根据我们目前的估计，大约70%的原住民九头蛇 (入侵前) 人口目前已落入我们的控制之中。遗憾的是，有几个绕行轨道殖民地自行切断了新费洛细胞流入管道，让我们不得已消灭这些殖民地，因此损失了另外25%的人口。研发部门向我们保证，九头蛇人口的遗传多样性相当充足，可吸收这些损失。其余5%的顽强分子目前暂且仍极力抵抗中，但它们与支援基地和基础设施的接触管道已被切断，估计不会构成重大威胁。九头蛇的军事和行政设施已落入我们的掌握；我们有效地统治了九头蛇的孔雀座δ母星系，并通过那里将统治范围延伸到它们的星际帝国。 <br/><br/>既然已经处理掉九头蛇，就只剩下其他人类阵营的问题待解决了。在此报告好消息，解决这个问题的计划正顺利进行着。部署新费洛细胞后，我们成功让已知的敌方特务迅速倒戈，反过来成为我们进一步扩大影响力的推手。我们估计应该能在几个月内有效掌控地球，并分配最多一年的时间追踪顽强分子。如同先前所讨论，我们目前的推测指出，必须彻底消灭学院派、抵抗派和服从派。 <br/><br/>展望未来，本理事会认为民族国家的时代已经终结，地球上大多数国家政府已被推翻或沦为傀儡，而那些撑过入侵时的动荡情势，并在我们的新费洛细胞扫荡行动中幸存下来的国家政府，可能会式微到举无轻重的地步。我们的分析师表示 (在我看来正确无误) 没有理由消灭残余的政府组织，我们认为没有理由表面上支持他们主张自己权威地位的立场；任何试图强迫我们接受这些主张的总统或其他领袖，都会自然而然被现实情况说服。 <br/><br/>新费洛细胞结合我们对虫洞和九头蛇社会的控制权，使我们对人类活动的影响力达到了史无前例的水准，我们正在制定计划，在崭新的“社会2.0”中善用这股影响力。有了新费洛细胞，我们能为传统上被视为不受欢迎或地位低下的产业和市场领域，塑造出最合适的工人；我们的新工人阶级将能在自己的岗位上发挥更高的生产力且更加快乐。之后可以根据选贤任能的原则，选拔有前途的人晋升为主管阶级，自在地专注处理更高级别的事务。当然，一定数量的犯罪和社会失序情况是人类社会永恒不变的特征，因此我们认为，将这种行为限制在指定区域内而不是试图彻底抹灭，是较符合现实的做法。这种非企业的“自由区”应当成一种有用的奖励措施，鼓励人民在我们的组织中就业。我们估计其他阵营的幸存成员可能会发起抵抗运动或成立恐怖组织苟延残喘一段时间，但只要他们的活动范围被限制在地球上，就不会对我们更先进、更有生产力的新社会构成重大威胁。 <br/><br/>无论是我们理事会还是全体人类，都将迎来光明无限的未来。
 TIObjectiveTemplate.quote.ExploitVictory.ExploitCouncil=准备迎接光明美好的崭新明天。
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.CooperateCouncil=调查外星人坠机事件
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.CooperateCouncil=初次接触...这是我们的艺术家和科学家一直以来梦寐以求的，我们会有什么发现，它们又会怎么看待我们？
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.CooperateCouncil=派一名理事在坠机现场执行「调查外星人活动」任务。
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.CooperateCouncil=派一名理事在坠机现场执行“调查外星人活动”任务。
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.CooperateCouncil=我们从现场收集了一些残骸碎片进行分析，但没有发现宇宙船上船员的踪迹，它们躲起来了吗？有没有其他人类组织抓住了它们？还是它们有自己的计划？
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.CooperateCouncil=校长，我们已在坠机现场完成初步的现场调查。
 
 TIObjectiveTemplate.displayName.ResearchTheirSignatures.CooperateCouncil=研究外星人特征
 TIObjectiveTemplate.description.ResearchTheirSignatures.CooperateCouncil=我们从坠机现场收集到的样本很少，但代表着我们朝漫长的道路踏出了第一步，将能了解外星人及它们看待这世界的方式。 
-TIObjectiveTemplate.solution.ResearchTheirSignatures.CooperateCouncil=“外星人特征”计划开放后就着手完成。
+TIObjectiveTemplate.solution.ResearchTheirSignatures.CooperateCouncil=“外星人特征”计划开放后，请完成该项目。
 TIObjectiveTemplate.resolution.ResearchTheirSignatures.CooperateCouncil=我们从残骸碎片中并未获得太多解答，却带来了更多疑问；其中一些成分似乎与我们熟知的任何合金都不完全相同。更重要的是，我们已经确定至少有一名外星人在坠机事故中幸存下来。它靠自己的力量离开坠机地点，进入了当地的荒野之中。 <br/><br/>这个外星人做了怎样的准备才抵达地球，现在它要做什么？外星人很可能对我们一无所知，就像我们对它们一样。它们将有自己的程序、自己的论战。观察它们的行动，我们将能逐渐厘清第一条线索。
 TIObjectiveTemplate.quote.ResearchTheirSignatures.CooperateCouncil=校长，目前为止，我们四处打探却只发现了更多谜团。
 
@@ -977,7 +977,7 @@ TIObjectiveTemplate.resolution.ResearchTheirOperations.CooperateCouncil=打从�
 TIObjectiveTemplate.quote.ResearchTheirOperations.CooperateCouncil=校长，有鉴于它们在科技上的优势，它们没有采取种族灭绝行动一定有其原因，而那个原因可能就是我们的机会。
 
 TIObjectiveTemplate.displayName.ResearchCooperateVictory.CooperateCouncil=设立目标
-TIObjectiveTemplate.description.ResearchCooperateVictory.CooperateCouncil=现在外星人的目标已明朗，我们遇到了分歧点，所有人都必须选择要站在哪一方。 <br/><br/>一方是「和平」阵营，他们主张外星人拥有如此压倒性的明显优势，我们唯一的现实机会是通过谈判签订某种条约或投降，我们越早达成协议，条款的苛刻性就可能越低。这会是个平淡无奇的结局，但也许是唯一可能实现的结局。 <br/><br/>另一方则是「战争」阵营。他们的论点是，外星人已堂而皇之展现敌对态度，我们别无选择，只能奋力抵抗。消息指出有其他外星物种被当成炮灰牺牲；如果我们投降，人类的命运很可能好不到哪去。抵抗至少能争取到微乎其微获得自由的机会；投降则意味着黯淡而笃定的命运。 <br/><br/>还有少数像我一样的顽强分子，心中仍希望找到某种合作解决办法。这有可能吗？还是我们是所有人之中最傻的？
+TIObjectiveTemplate.description.ResearchCooperateVictory.CooperateCouncil=现在外星人的目标已明朗，我们遇到了分歧点，所有人都必须选择要站在哪一方。 <br/><br/>一方是“和平”阵营，他们主张外星人拥有如此压倒性的明显优势，我们唯一的现实机会是通过谈判签订某种条约或投降，我们越早达成协议，条款的苛刻性就可能越低。这会是个平淡无奇的结局，但也许是唯一可能实现的结局。 <br/><br/>另一方则是“战争”阵营。他们的论点是，外星人已堂而皇之展现敌对态度，我们别无选择，只能奋力抵抗。消息指出有其他外星物种被当成炮灰牺牲；如果我们投降，人类的命运很可能好不到哪去。抵抗至少能争取到微乎其微获得自由的机会；投降则意味着黯淡而笃定的命运。 <br/><br/>还有少数像我一样的顽强分子，心中仍希望找到某种合作解决办法。这有可能吗？还是我们是所有人之中最傻的？
 TIObjectiveTemplate.solution.ResearchCooperateVictory.CooperateCouncil=完成“一份合作决议”计划
 TIObjectiveTemplate.resolution.ResearchCooperateVictory.CooperateCouncil=我们的支持率下降至少有一个好处，这使得我们的论点更显文明。大多数强硬派都抛弃我们，加入了抵抗派、服从派、人类至上派，甚至是被称为主动派的暗黑组织。留下来的是一个形成紧密关系的小团体，这些人之所以团结在一起，与其说是因为意识形态，不如说是靠着忠诚和决心。<br/><br/>但我们已达成共识。将同时采取两种做法。<br/><br/>首先，我们将利用我们与服从派和其他亲外星派团体之间的人脉，尝试与外星人联系并展开谈判。理想情况下将能以谈和告终，但我们深知这不太可能发生。我们处于非常劣势的立场，外星人没理由结束一场它们显然占尽上风的战争。实际上，我们最希望的是更清楚了解它们是谁以及它们的目标是什么。<br/><br/>其次，我们会同时努力巩固自己的地位。要达到这个目标需与抵抗派合作，向外星人展开游击战，目的是更深入了解它们的物种，并对它们的技术进行逆向工程。我们将打造自己的太空舰队、取得对太阳系的控制权，以及发展我们的军事技术，希望最终能以此为杠杆，迫使外星人坐到谈判桌前，这次以更认真态度面对我们。<br/><br/>倘若失败，我们将被迫回到最初的立场二选一：投降，或是战斗到最后。届时我们的团队肯定会永远分崩离析。<br/><br/>我为我们的大胆提议颤抖不已。想试图实现永久和平，同时保持我们自己的独立性，无疑是最困难的道路。如果失败，我们将成为历史上的一个注脚，被标注为理想主义傻瓜。只有时间能证明是否正确。
 TIObjectiveTemplate.quote.ResearchCooperateVictory.CooperateCouncil=我们正走在一条荆棘遍布的道路上，校长，但也许这是能获得最大回报的一条路，将成为星际世界友谊的根基。
@@ -1003,11 +1003,11 @@ TIObjectiveTemplate.quote.ResearchTheirOrigin.CooperateCouncil=我们已经完�
 TIObjectiveTemplate.displayName.AccessHydraCorpus.CooperateCouncil=取得一具外星人尸体
 TIObjectiveTemplate.description.AccessHydraCorpus.CooperateCouncil=在我们持续尝试联系外星人的同时，将采取一种平行并进、更具侵略性的做法。若想与外星人达成任何形式的长期休战状态，前提都是我们能有效抵抗它们颠覆人类的能力，而我们必须了解它们的生物学才能办到这件事。对尸体进行尸检是不可或缺的第一步。遗憾的是，我们得自己制造机会取得一具尸体。 <br/><br/>这一步具有风险，一定会破坏我们与亲外星派的关系，且面临引起外星人敌意的极端危险性；我们意识到自己仍脆弱无比而惴惴不安，但还是迫切需要取得更多资讯。
 TIObjectiveTemplate.solution.AccessHydraCorpus.CooperateCouncil=侦测地球上的外星人特工，并对其执行暗杀任务。对地表或太空中的外星设施发动攻击，也有机会发现可供研究的外星人尸体。但是很难预测这些事情会在什么情况下发生。
-TIObjectiveTemplate.resolution.AccessHydraCorpus.CooperateCouncil=这起行动跟我们料想的一样，是场惨烈的腥风血雨。外星人受到人类保镖的保护，而我们的小队被迫与他们交战。我虽然说「被迫」，但事实上这是我们的决定。现在我们手上沾满了人类和外星人的鲜血，我担心这只是个开端，接下来将踏上漫长而黑暗的路途。外星人和它们的支持者会视我们为恐怖分子，而我不能完全否认这点。 <br/><br/>当然，我们也有人员伤亡。在我的坚持下，我们的小队出现在外星人及它们保镖的面前，并提出投降条件，这个提议遭到忽视，而提出提议的谈判人员在随后的交战中丧生。队上的副官直截了当告诉我，如果他们当初获得先发制人的授权，本来可以在没有人员伤亡的情况下完成任务。我对当初下的这个命令感到遗憾，但老实说，如果重来一次，我还是会给出同样的命令。 <br/><br/>不过我们还是成功获得尸体。希望生物学家们从中收集到的资讯值得我们付出这一切代价。
+TIObjectiveTemplate.resolution.AccessHydraCorpus.CooperateCouncil=这起行动跟我们料想的一样，是场惨烈的腥风血雨。外星人受到人类保镖的保护，而我们的小队被迫与他们交战。我虽然说“被迫”，但事实上这是我们的决定。现在我们手上沾满了人类和外星人的鲜血，我担心这只是个开端，接下来将踏上漫长而黑暗的路途。外星人和它们的支持者会视我们为恐怖分子，而我不能完全否认这点。 <br/><br/>当然，我们也有人员伤亡。在我的坚持下，我们的小队出现在外星人及它们保镖的面前，并提出投降条件，这个提议遭到忽视，而提出提议的谈判人员在随后的交战中丧生。队上的副官直截了当告诉我，如果他们当初获得先发制人的授权，本来可以在没有人员伤亡的情况下完成任务。我对当初下的这个命令感到遗憾，但老实说，如果重来一次，我还是会给出同样的命令。 <br/><br/>不过我们还是成功获得尸体。希望生物学家们从中收集到的资讯值得我们付出这一切代价。
 TIObjectiveTemplate.quote.AccessHydraCorpus.CooperateCouncil=我们带回了一具外星人尸体，校长，希望这个战利品对得起我们付出的代价。
 
 TIObjectiveTemplate.displayName.ResearchHydraBiology.CooperateCouncil=研究九头蛇生物学
-TIObjectiveTemplate.description.ResearchHydraBiology.CooperateCouncil=所有地球生物的文化和思维方式首先都植根于身体，也就是生物学、生理学、遗传学。虽然会存在差异，但我相信这些外星人肯定也大同小异。我们拭目以待能得到什么资讯。 <br/><br/>人们开始将这些生物称为「九头蛇」，因为它们在地球的影响力扩张和再生的速度非常快，除去它们任何一个仆人，只会让有另外两个人取代他们的位置。在希腊神话中，被派去屠杀九头蛇的英雄必须它肢解成块，然后烧掉残骸才能成功杀死，希望这不是某种预兆。
+TIObjectiveTemplate.description.ResearchHydraBiology.CooperateCouncil=所有地球生物的文化和思维方式首先都植根于身体，也就是生物学、生理学、遗传学。虽然会存在差异，但我相信这些外星人肯定也大同小异。我们拭目以待能得到什么资讯。 <br/><br/>人们开始将这些生物称为“九头蛇”，因为它们在地球的影响力扩张和再生的速度非常快，除去它们任何一个仆人，只会让有另外两个人取代他们的位置。在希腊神话中，被派去屠杀九头蛇的英雄必须它肢解成块，然后烧掉残骸才能成功杀死，希望这不是某种预兆。
 TIObjectiveTemplate.solution.ResearchHydraBiology.CooperateCouncil=“海德拉生物学”计划开放后就展开研究。
 TIObjectiveTemplate.resolution.ResearchHydraBiology.CooperateCouncil=尸检无法替代外交交流；尽管如此，我们还是学到了很多。 <br/><br/>九头蛇很强壮，体型比人类大、力量也更大，而且复原能力更强，它们有一套冗余器官系统，因此很难杀死它们，受伤的九头蛇几乎可以从任何伤害中自行复原。奇怪的是，虽然它们很强壮，但在生物学上似乎并未妥善适应个人战。它们的体型和肌肉量仍使它危险无比，却不及体型和力量相当的人类。它们欠缺天生的武器，就像我们一样，但与我们不同的是，它们使用工具的附肢似乎不太适合使用棍棒或长矛，而且好像不具备我们祖先用来追杀猎物的耐力。虽然过度推测很危险，但看来虽然它们确实有能力从事暴力行为，不过选择在进化上专精于其他方向发展。 <br/><br/>九头蛇生理机制很复杂且非常耗能，成长和发展过程需花相当长的时间。我们研究的这具尸体似乎已100多岁，我们推测寿命达到200岁并非不可能。这个物种是顺序雌雄同体，只有在生命后期才出现性特征。缓慢的生长速度、成熟周期和每胎数量会促使这个物种变得谨慎和规避风险...也许这能解释是它们为何倾向依赖他人之力？缺乏性别分化也可能与较统一的社会文化有关。 <br/><br/>不过最重要的发现是一组能产生气溶胶工厂细胞的器官。如果我们的推论正确，这就是九头蛇控制他们的人类奴隶的方式，而且将对我们未来与它们物种之间的关系产生深远影响。
 TIObjectiveTemplate.quote.ResearchHydraBiology.CooperateCouncil=我们研究外星人遗骸后，可以窥探到它们社会最枝微末节的细节，校长。
@@ -1062,31 +1062,31 @@ TIObjectiveTemplate.quote.ResearchExotics.CooperateCouncil=我们在理解外星
 
 TIObjectiveTemplate.displayName.ConductHydraInterrogation.CooperateCouncil=审问九头蛇俘虏
 TIObjectiveTemplate.description.ConductHydraInterrogation.CooperateCouncil=现在我们既有活的海德拉，又有与它交流的手段，我们可以尝试进行适当的对话。不幸的是，我们的翻译方法仍然很粗糙；我们预计这将是一个漫长的过程。希望 "鲁迪"，正如我们的一个安全人员给他起的名字，会愿意交谈。
-TIObjectiveTemplate.solution.ConductHydraInterrogation.CooperateCouncil=“海德拉审讯”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ConductHydraInterrogation.CooperateCouncil=“海德拉审讯”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ConductHydraInterrogation.CooperateCouncil=“鲁迪”确实愿意说话，我们学到了很多。我们翻译团队负责人的总结报告如下，并附上注释<br/><br/>请我们的囚犯作自我介绍<br/><br/>A.Hydra通过（大概）一个名字和一个组织职位来确定自己的身份。他显然是一名外交官/生物工程师/动物管理员。显然，这三个角色在海德拉社会中有相当大的重叠。（译者注：海德拉的名字完全无法发音。为了我们的喉咙，我们将继续叫他鲁迪。）<br/>问：为什么你们物种来到我们的太阳系<br/><br/>为了[不可译动词]人类和其他地球本土物种的目的<br/><br/><br/>请定义[不可译动词]答：（译者注：这花了很长时间来解释。海德拉使用的动词似乎意味着风险分析、动物驯化和资源开发的结合。海德拉对这三个词都只有一个词，这一点很有启发性。最接近的英语术语可能是“驯化”）<br/><br/><br/>问：你为什么要驯化我们的物种<br/>人类被[不可译专有名词1]归类为第四类[不可译-某种规模]物种<br/><br/>请解释一下<br/>答：【不可译专有名词2】的协议要求所有III类及以上的地外物种在第一次接触时都要驯化<br/><br/>请定义[不可译专有名词2]<br/>答：（译者注：解释这个词既有趣又令人沮丧。鲁迪在接下来的一个小时里描述的似乎是一场政治运动、一种哲学和一个安全组织之间的交叉。我们最好的翻译是“国防共识”。）<br/><br/>问：你是海德拉防御共识的成员吗<br/>答：所有海德拉都遵循国防部的共识<br/><br/>问：我们有什么办法可以与你的国防共识领导人进行谈判吗<br/>答：不。<br/><br/>问：除了防御共识之外，还有其他海德拉[阵营]吗<br/>答：没有。<br/><br/>问：除了人类驯化，国防共识是否会接受一些结果<br/>答：不，我们不希望被驯化<br/><br/>答（译者注：幽默是出了名的难以翻译，但我强烈怀疑海德拉对这句话的反应，以及我们按照同样思路的后续行动，是一种娱乐。无论如何，我们没有得到任何帮助。）<br/>审讯又持续了一个小时，但进展甚微<br/><br/>译者注：一般反应参差不齐。“鲁迪”很愿意交谈，也许只是出于无聊，因为除了与关押在他牢房里的安全人员交流外，他几乎没有任何交流。他的态度也既没有敌意，也没有特别咄咄逼人。然而，他显然没有兴趣与我们平等相待。他显然认为我们的谈判请求就像我们对待德国牧羊犬的外交请求一样。我们将继续努力。<br/><br/>
 TIObjectiveTemplate.quote.ConductHydraInterrogation.CooperateCouncil=校长，我们已针对外星人俘虏审问内容提出第一份完整报告。
 
 TIObjectiveTemplate.displayName.ConductHydraDiplomacy.CooperateCouncil=与外星人进行外交活动
 TIObjectiveTemplate.description.ConductHydraDiplomacy.CooperateCouncil=现在我们对海德拉的语言有了粗浅的了解，我们有希望利用我们与仆人阵营的关系来安排与外星人的外交会议。
-TIObjectiveTemplate.solution.ConductHydraDiplomacy.CooperateCouncil=“海德拉外交活动”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ConductHydraDiplomacy.CooperateCouncil=“海德拉外交活动”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ConductHydraDiplomacy.CooperateCouncil=对我们要求的接受情况并不令人鼓舞。我们给海德拉的第一条信息被忽略了。在询问降临派联系人时，我们发现这并不罕见。海德拉对与他们的大部分“臣民”沟通不感兴趣，更喜欢通过一小部分受信任的仆人来传播信息。这些仆人自然是在海德拉的完全控制之下<br/><br/>我们不是海德拉“精英”的成员，我们唯一的办法就是要求我们在仆人中的联系人为我们提供担保；这是一个缓慢的过程，使我们与他们派别本已脆弱的关系紧张到了破裂的地步。但我们毕竟取得了成功；已经向我们发送了一条消息，声明海德拉将向我们的阵营发布正式声明。然而，将其描述为声明而非对话的事实并不令人鼓舞。
 TIObjectiveTemplate.quote.ConductHydraDiplomacy.CooperateCouncil=我们本来就知道这条路布满荆棘，校长。
 
 TIObjectiveTemplate.displayName.ResearchTheirDemands.CooperateCouncil=了解它们的要求
 TIObjectiveTemplate.description.ResearchTheirDemands.CooperateCouncil=海德拉同意以“简化版海德拉语”向我们阵营发表声明。我们希望能翻译出来，然后让它们参与对话。
-TIObjectiveTemplate.solution.ResearchTheirDemands.CooperateCouncil=“研究它们的要求”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchTheirDemands.CooperateCouncil=“研究它们的要求”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchTheirDemands.CooperateCouncil=我们已经翻译了海德拉的声明。不幸的是，将其称为“声明”是不准确的。这实际上是一系列要求<br/><br/>1.人类将停止所有针对海德拉部队的军事行动，并将其所有部队置于海德拉指定代表的指挥之下<br/>2.人类将致力于不建造任何可能对海德拉种族构成威胁的太空舰队、大规模杀伤性武器或其他军事资产。现存的任何此类武器必须移交给海德拉任命的代表<br/>3.人类将承诺在任何和所有未来的努力或军事冲突中支持海德拉种族。一支常备人力将被提升和训练，以便在未来的行动中在海德拉处理人员的领导下服务<br/>4.为确保第2点和第3点，轨道武器平台将被放置在近地轨道，携带足够的火力，以压制任何可能的人类抵抗。这些武器平台将由海德拉任命的代表控制<br/><br/>我们试图根据这些要求进行谈判。我们的消息没有收到回复<br/><br/>我们人民的情绪很悲观。我们派别中越来越多的反外星人成员一直在用很多话说，“我们早就告诉过你了。”外星人的要求不仅是投降，而且是彻底征服<br/><br/>我们所有重启谈判的尝试都遭到了沉默。我们正处在一堵外交砖墙前，我担心没有前进的道路。 
 TIObjectiveTemplate.quote.ResearchTheirDemands.CooperateCouncil=我认为还有一线希望，或许它们根本不屑与我们交流，校长。
 
 TIObjectiveTemplate.displayName.ResearchTheirPurpose.CooperateCouncil=判断它们的目的
 TIObjectiveTemplate.description.ResearchTheirPurpose.CooperateCouncil=我们对海德拉俘虏进行“正式”审问的成果有限，不过翻译团队负责人提出一个建议。出于某种原因，这只海德拉似乎对我们的一名维安人员威廉·帕克 (为他取名为“鲁迪”的那个人) 有一定的好感，有人建议进行一些不那么正式的对话可能会有成效。
-TIObjectiveTemplate.solution.ResearchTheirPurpose.CooperateCouncil=“了解它们的目的”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchTheirPurpose.CooperateCouncil=“了解它们的目的”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchTheirPurpose.CooperateCouncil=附上我们翻译组组长的报告。<br/><br/>——————————<br/><br/>尽管我们团队中更有资历的成员表示反对，我还是给威廉-帕克分配了每天两个小时的时间与鲁迪沟通。除了有关军事安全的最基本的话题外，我们对要讨论的话题没有任何限制。结果是令人惊讶的。<br/><br/>鲁迪虽然不愿意讨论任何他认为是军事或国家机密的事情，但却非常愿意谈论他的物种的历史。海德拉显然是在一个古老的星球上进化的，这个星球上有一个单一的超级大陆，上面有一个巨大的海洋--这个海洋包含了世界上大部分的自然资源，但也充斥着致命的掠食者。海德拉驯化了各种两栖动物，并利用它们从海床上搜刮和开采资源。显然，海德拉与这些物种建立了密切的关系，有时甚至是友好的关系；他们的文明是建立在这些物种之上的，一旦他们的基因科学取得足够的进展，他们就会把许多物种提升到接近人类的智慧。<br/><br/>不幸的是，这种状态并没有持续下去：当海德拉在实现太空飞行时，他们的世界被第三种智慧物种向他们的星球发射的星际武器所摧毁。整个海德拉族99%的人当场死亡，因此遗失了海德拉族的大部分历史和文化。唯一幸存下来的群体是那些在星球外，在海德拉的太空舱和殖民地的人。大灾变，正如它所知道的那样，似乎主宰了海德拉文化的残余部分。大灾变罪魁祸首是我们已经知道的；这些是被称为 "沙拉曼达"的海德拉奴隶战士。海德拉国防共识的第一项行动就是消灭和征服沙拉曼达，他们存在的全部原因是为了确保类似大灾变的事情不会再发生。<br/><br/>——————————<br/><br/>这说明了很多问题。现在，我们在外交交流中收到的僵硬、不信任的反应可以得到理解。海德拉对其他物种的偏执是可以理解的--问题是，我们如何才能克服它？
 TIObjectiveTemplate.quote.ResearchTheirPurpose.CooperateCouncil=我们现在知道它们来这里的原因了，校长。
 
 TIObjectiveTemplate.displayName.ResearchTheirWeakness.CooperateCouncil=了解它们的弱点
 TIObjectiveTemplate.description.ResearchTheirWeakness.CooperateCouncil=我们与海德拉的谈判遇到了麻烦。外星人显然没有妥协的动机和意愿。<br/><br/>从历史上看，外交不是一个开明的理性问题，而是一个在相互毁灭的威胁下做出妥协的问题。看来我们需要一些筹码。
-TIObjectiveTemplate.solution.ResearchTheirWeakness.CooperateCouncil=“了解它们的弱点”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchTheirWeakness.CooperateCouncil=“了解它们的弱点”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchTheirWeakness.CooperateCouncil=这是对我们来说较为棘手的计划之一，为了找出方法迫使海德拉坐到谈判桌前，我们走上了黑暗的道路。 <br/><br/>最后，解决方案再度来自我们的流亡者，一些离开我们阵营的反外星成员转为加入一个名为人类派的阵营，领导者是人称卡斯提欧上校的人物。光是击退海德拉无法让人类派满足，他们想全部赶尽杀绝，且已构想出生物武器，希望借此彻底歼灭海德拉种族。 <br/><br/>人类派认为，海德拉信息素细胞可当成弱点来利用，用来直接进入海德拉的大脑和免疫系统。研究人员看了人类派的资料，虽然他们欠缺足够的专业知识而无法完全笃定，但他们相信人类派的设计有可能发挥作用。 <br/><br/>很显然，我们不希望这个计划继续进行。即使不考虑伦理问题，部署这种生物武器也代表人类与海德拉的战争将进一步升级，结局很可能演变成我们物种、它们物种灭绝，或双方同归于尽。然而，以发动这种攻击作为威胁，也许正是我们缺少和需要的杠杆。这种边缘政策是个极度危险的赌注，但我们目前别无选择。 <br/><br/>我们将让研究人员全力投入开发一种处于概念验证阶段的生物武器。希望我们这么做不是在犯天大的错误。
 TIObjectiveTemplate.quote.ResearchTheirWeakness.CooperateCouncil=这也许能让我们站上强而有力的谈判立场，校长，这可能是它们唯一理解的立场。
 
@@ -1098,20 +1098,20 @@ TIObjectiveTemplate.quote.ResearchPherocyteResistance.CooperateCouncil=我们现
 
 TIObjectiveTemplate.displayName.ResearchWormholes.CooperateCouncil=研究虫洞
 TIObjectiveTemplate.description.ResearchWormholes.CooperateCouncil=尽管鲁迪试图避免泄露任何敏感信息，但某些偶然的言论表明，海德拉必须与他们的领导人进行实时或接近实时的联系。海德拉外星生物的存在也意味着有某种补给机制。将这一点与我们从天眼计划中收集到的数据结合起来，表明外星基地内存在某种门，海德拉正在利用它作为增援或补给路线。 
-TIObjectiveTemplate.solution.ResearchWormholes.CooperateCouncil=“虫洞”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchWormholes.CooperateCouncil=“虫洞”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchWormholes.CooperateCouncil=海德拉在他们位于柯伊伯带的基地创造了一个人工时空断层，也就是一个虫洞。在任何其他情况下，这将彻底改变我们对物理学的理解，并开辟新的科学分支。在我们目前的情况下，它主要代表了一种威胁：只要虫洞处于活动状态，海德拉就能不断地加强他们的入侵部队。<br/><br/>然而，这个虫洞也代表了一个机会。我们可以--在理论上--利用海德拉的虫洞直接联系海德拉的领导层。这个计划的问题是显而易见和巨大的。然而，它代表了我们实现永久和平的唯一合理机会，而且我们的人员也在鼓励着我们。让我们开始工作吧。
 TIObjectiveTemplate.quote.ResearchWormholes.CooperateCouncil=校长，外星虫洞是进入我们太阳系的连接通道，不过我们相信这扇门是可双向进出。
 
 TIObjectiveTemplate.displayName.ResearchAlienChokePoint.CooperateCouncil=研究外星人阻塞点
 TIObjectiveTemplate.description.ResearchAlienChokePoint.CooperateCouncil=虫洞既是我们通往海德拉的途径，也是他们增援入侵部队的途径。为了与他们谈判，我们将不得不使用它。如果失败了，我们可能不得不摧毁它。
-TIObjectiveTemplate.solution.ResearchAlienChokePoint.CooperateCouncil=“阻塞点”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchAlienChokePoint.CooperateCouncil=“阻塞点”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchAlienChokePoint.CooperateCouncil=这个虫洞是一种不连续的类型，被称为埃利斯排水孔。据我们所知，它的结构是稳定的，但不是无懈可击的；破坏其两端的支持机器应该会导致隧道自我坍塌。然而，摧毁虫洞是我们最后的手段。我们打算派一个谈判小组通过虫洞。
 TIObjectiveTemplate.quote.ResearchAlienChokePoint.CooperateCouncil=我们有办法联系到它们的领导层，校长。
 
 TIObjectiveTemplate.displayName.ResearchAPermanentPeace.CooperateCouncil=研究永久性和平
 TIObjectiveTemplate.description.ResearchAPermanentPeace.CooperateCouncil=我们已经了解了关于海德拉族的一切。我们已经研究了他们的文化、语言和历史。我们对他们的技术进行了逆向工程，开发了我们自己的太空舰队。我们已经分析了他们的生理学和能力。我们已经学会了如何抵御他们的细胞，并制定了将他们自己的武器用来对付他们的计划。现在，是时候把一切叠加在一起了。<br/><br/>通过证明我们有能力真正威胁到海德拉物种，同时也展示出和平解决的意愿，我们希望能把他们带到谈判桌上，永远结束这场战争。风险很大，但如果我们成功的话，回报也更大。<br/><br/>第一步将是鲁迪。如果我们能说服他与我们的特使合作，这将是一个无价的外交优势。如果我们不能说服他，我认为没有希望说服海德拉的领导人。 
-TIObjectiveTemplate.solution.ResearchAPermanentPeace.CooperateCouncil=“永远性和平”计划开放后就着手完成。
-TIObjectiveTemplate.resolution.ResearchAPermanentPeace.CooperateCouncil=我们的语言学团队没有闲着，在我们努力达成其他目标的同时，他们已开发出一套「解读」和仿制费洛细胞的初步机制，因此可以进行更复杂的交流，我们用来与鲁迪沟通，详细说明我们的计划。维安人员帕尔默与九头蛇俘虏明显关系融洽，有鉴于此，就派他来陈述我们的情况。 <br/><br/>如我们所料，鲁迪的第一反应是拒绝。我们向他展示使用改良版九头蛇细胞制造生物武器的蓝图，这项武器利用九头蛇费洛细胞的行为效应来加快传播速度，估计感染后的死亡率为99%。根据我们的预测，最轻微会造成重大的人口损失，最严重则可彻底消灭九头蛇种族。 <br/><br/>我们展示的内容其实有一部分是虚张声势，我们还欠缺实际生产这种病毒的生物战专业知识。尽管如此，虽然我们无法制造这样的武器，但其他人类可以，而对于九头蛇来说，这几乎没有差别。鲁迪第一次表现出真正恐惧的迹象。向他提出我们的提案时，他几乎没有争论就同意了：他将担任为我们协调展开谈判流程的中间人。 <br/><br/>我们已拟定策略，方向明确，而且还招揽到一只九头蛇 (虽然不是很稳定) 加入我们的计划。我们已经准备就绪。
+TIObjectiveTemplate.solution.ResearchAPermanentPeace.CooperateCouncil=“永远性和平”计划开放后，请完成该项目。
+TIObjectiveTemplate.resolution.ResearchAPermanentPeace.CooperateCouncil=我们的语言学团队没有闲着，在我们努力达成其他目标的同时，他们已开发出一套“解读”和仿制费洛细胞的初步机制，因此可以进行更复杂的交流，我们用来与鲁迪沟通，详细说明我们的计划。维安人员帕尔默与九头蛇俘虏明显关系融洽，有鉴于此，就派他来陈述我们的情况。 <br/><br/>如我们所料，鲁迪的第一反应是拒绝。我们向他展示使用改良版九头蛇细胞制造生物武器的蓝图，这项武器利用九头蛇费洛细胞的行为效应来加快传播速度，估计感染后的死亡率为99%。根据我们的预测，最轻微会造成重大的人口损失，最严重则可彻底消灭九头蛇种族。 <br/><br/>我们展示的内容其实有一部分是虚张声势，我们还欠缺实际生产这种病毒的生物战专业知识。尽管如此，虽然我们无法制造这样的武器，但其他人类可以，而对于九头蛇来说，这几乎没有差别。鲁迪第一次表现出真正恐惧的迹象。向他提出我们的提案时，他几乎没有争论就同意了：他将担任为我们协调展开谈判流程的中间人。 <br/><br/>我们已拟定策略，方向明确，而且还招揽到一只九头蛇 (虽然不是很稳定) 加入我们的计划。我们已经准备就绪。
 TIObjectiveTemplate.quote.ResearchAPermanentPeace.CooperateCouncil=一切就绪，校长。一旦我方舰队抵达外星人基地并由我们的部队严密把守，就准备好让使者通过了。
 
 TIObjectiveTemplate.displayName.CooperateVictory.CooperateCouncil=派遣我们的特使通过虫洞
@@ -1122,13 +1122,13 @@ TIObjectiveTemplate.quote.CooperateVictory.CooperateCouncil=我们突破万难�
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.AppeaseCouncil=调查外星人坠机事件
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.AppeaseCouncil=外星航天器坠毁在我们星球上的一个偏远区域，据我们所知，各方人马都积极赶往那里，许多组织的特务聚集在坠机现场。我们必须抢先到达，以防任何人发动战争。
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.AppeaseCouncil=派一名理事在坠机现场执行「调查外星人活动」任务。
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.AppeaseCouncil=派一名理事在坠机现场执行“调查外星人活动”任务。
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.AppeaseCouncil=我们抵达时为时已晚，无法接触到外星人，但谢天谢地，其他人也一样。据我们所知，外星船员已离开失事飞船，在任何前来追捕的士兵发现它们之前，就消失在周围的荒野中。总而言之，这是个非常好的消息。 <br/><br/>与此同时，我们必须继续招揽更多人马，其他阵营采用老掉牙的歧视性招聘做法。我们采不同的路线，更开放、更包容、更关注弱势族群的需求。我们将成为具革命性的阵营，欢迎所有人加入。
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.AppeaseCouncil=抢先见到外星人的竞赛正进行着，总督，我们有个好开始。
 
 TIObjectiveTemplate.displayName.ResearchTheirSignatures.AppeaseCouncil=研究外星人特征
 TIObjectiveTemplate.description.ResearchTheirSignatures.AppeaseCouncil=当地和国际各阵营正激烈争夺外星人坠毁地点的控制权。虽然大多数人似乎都聚焦于取得飞船，但更重要的是船员的下落。理想情况下，我们会找到某种方式与它们交流，但目前的首要任务是确保它们的安危。
-TIObjectiveTemplate.solution.ResearchTheirSignatures.AppeaseCouncil=“外星人特征”计划开放后就着手完成。
+TIObjectiveTemplate.solution.ResearchTheirSignatures.AppeaseCouncil=“外星人特征”计划开放后，请完成该项目。
 TIObjectiveTemplate.resolution.ResearchTheirSignatures.AppeaseCouncil=我们已竭尽所能消除外星船员的任何踪迹，就目前情况来看似乎成功了，外星人消失得无影无踪，看来投机者和极端分子正忙着争夺航天器的碎片。我们可以为自己的努力感到自豪。 <br/><br/>新成员涌入我们刚起步的组织，我们的行动基地充满乐观和崭新的想法。许多人对外星人到来可能代表的意义抱有计划和想法。有种快要遍地开花的感觉，相当令人兴奋！我相信这只会引导事态往正面发展，就好像我们正在见证一场文化革命的开端。
 TIObjectiveTemplate.quote.ResearchTheirSignatures.AppeaseCouncil=总督，我们只能希望成功第一次接触的是我们了。
 
@@ -1141,7 +1141,7 @@ TIObjectiveTemplate.quote.ResearchTheirOrigin.AppeaseCouncil=我们已完成调�
 TIObjectiveTemplate.displayName.InvestigateAlienAbductions.AppeaseCouncil=调查外星人绑架事件
 TIObjectiveTemplate.description.InvestigateAlienAbductions.AppeaseCouncil=出现令人不安的报导，我们收到报告，坠机现场附近区域有动物和人类失踪。媒体中有越来越多仇外声音已开始指责外星人。 <br/><br/>我们必须尽快对此进行调查。如果这是某种刻意损害人类与外星人关系的宣传行为，我们必须赶快揭发，绝不容许少数高谈阔论的顽强分子破坏我们的未来。 
 TIObjectiveTemplate.solution.InvestigateAlienAbductions.AppeaseCouncil=在靠近任何外星人坠机位置的区域执行监控地点任务，如果侦测到绑架事件，就派一名理事前往现场执行调查外星人活动任务。
-TIObjectiveTemplate.resolution.InvestigateAlienAbductions.AppeaseCouncil=我们已针对失踪事件进行调查。起初我们怀疑这些是有心人士刻意制造的事件，但经过一些交叉验证后，发现似乎正如报导所述，确实有一定数量的不同物种生物及多名人类失踪了，但我们没有发现任何证据可证明外星人是背后的始作俑者。 <br/><br/>「抵抗派」这类团体目前正四处散播阴谋论的观点，考量到目前处于极度紧张且可能一触即发的局势，我们认为鼓励任何人相信这种论调是非常不负责任的行为。因此我们的官方立场是，这些失踪事件是反外星派极端分子的杰作，他们试图在我们和外星访客之间挑拨离间。毕竟这毫无意义；为什么外星人费心穿越浩瀚的外太空，会只为了绑架一些偏远区域的当地人？外星人似乎更有可能被当成代做羔羊。我们组织的所有成员都将收到相应的指令，针对这件事，我们必须以统一立场发声。
+TIObjectiveTemplate.resolution.InvestigateAlienAbductions.AppeaseCouncil=我们已针对失踪事件进行调查。起初我们怀疑这些是有心人士刻意制造的事件，但经过一些交叉验证后，发现似乎正如报导所述，确实有一定数量的不同物种生物及多名人类失踪了，但我们没有发现任何证据可证明外星人是背后的始作俑者。 <br/><br/>“抵抗派”这类团体目前正四处散播阴谋论的观点，考量到目前处于极度紧张且可能一触即发的局势，我们认为鼓励任何人相信这种论调是非常不负责任的行为。因此我们的官方立场是，这些失踪事件是反外星派极端分子的杰作，他们试图在我们和外星访客之间挑拨离间。毕竟这毫无意义；为什么外星人费心穿越浩瀚的外太空，会只为了绑架一些偏远区域的当地人？外星人似乎更有可能被当成代做羔羊。我们组织的所有成员都将收到相应的指令，针对这件事，我们必须以统一立场发声。
 TIObjectiveTemplate.quote.InvestigateAlienAbductions.AppeaseCouncil=我们必须将这些离奇的失踪事件查个水落石出，总督。
 
 TIObjectiveTemplate.displayName.ResearchTheirMethods.AppeaseCouncil=研究外星人做法
@@ -1170,7 +1170,7 @@ TIObjectiveTemplate.quote.ResearchTheirMovements.AppeaseCouncil=总督，这是�
 
 TIObjectiveTemplate.displayName.ContactTheAliens.AppeaseCouncil=联系外星人
 TIObjectiveTemplate.description.ContactTheAliens.AppeaseCouncil=与我们的外星访客建立外交关系的时候到了，我们召集了一支完整的代表团，成员包含在解决冲突方面有相关经验的外交官、演说家和谈判专家。代表团的成员一直在准备要发表的内容，希望确实强调我们对和平收场的渴望，以及我们阵营可以提供的好处。我们必须向外星人展示并非所有人类都像人类派一样。 <br/><br/>我们最近收到的讯息是外星人愿意与我们谈话，剩下的就是开启联系管道了。
-TIObjectiveTemplate.solution.ContactTheAliens.AppeaseCouncil=找到一个位于地球的外星人特务，并派一名理事对它进行「联系」任务。
+TIObjectiveTemplate.solution.ContactTheAliens.AppeaseCouncil=找到一个位于地球的外星人特务，并派一名理事对它进行“联系”任务。
 TIObjectiveTemplate.resolution.ContactTheAliens.AppeaseCouncil=我们仍试图拼凑出到底发生什么事。 <br/><br/>大家都说我们的代表团到达了面会地点，并严加看守着周围区域，然后外星人代表出现，我们的代表团开始发表内容...就在那时，一切开始变调。 <br/><br/>那些关于外星访客的荒谬谣言似乎并非凭空捏造。它们对附近人类施加影响的能力比我们预期的还广泛，显然它们与我方代表团一见面时就开始行动了。一些代表团成员的反应...非常糟糕。许多人试图逃离或中断谈判，我们不确定是谁先开火的，伤亡名单令人震惊，一些人打从一开始就和我们并肩作战，他们都是好人，致力投入和平志业。怎么会发生这种事？ <br/><br/>这场灾难有个枝微末节的唯一好消息，外星人似乎对这些事件漠不关心；它们为我们提供了某种教学装置，可用来帮助我们理解它们的语言，而且愿意在我们成功学会后建立全面的外交关系。它们讯息的语气透露着它们认为我们的伤亡根本无关紧要，不过这一定是因为沟通不良吧。 <br/><br/>但与此同时，最坏的情况尚未到来。一些逃离会议的代表团成员还没有回来，如果他们发布有关会议事件的报导 (或更糟糕的情况是录影片段)，将会演变成一场公关灾难。我们的敌人会对这起事件穷追猛打，并声称这证明了他们一直都是对的。理事会投票一致决定，寻找我们失踪的成员并带他们回来。 <br/><br/>祈祷他们自愿回来。
 TIObjectiveTemplate.quote.ContactTheAliens.AppeaseCouncil=总督，我们第一次尝试接触外星人并不顺利，但我们得到了一部装置，可以教会我们它们的语言。
 
@@ -1188,7 +1188,7 @@ TIObjectiveTemplate.quote.ResearchTheirLanguage.AppeaseCouncil=除了向前进�
 
 TIObjectiveTemplate.displayName.ConductHydraDiplomacy.AppeaseCouncil=与外星人进行外交活动
 TIObjectiveTemplate.description.ConductHydraDiplomacy.AppeaseCouncil=既然我们有一批精通海德拉语言的谈判专家，现在可以用更有系统的方式展开谈判。我们从过去的错误中吸取了教训；谈判团队的所有成员都必须经过仔细筛选，维安负责人拉夫伦蒂分别与他们进行面谈，他亲自向我保证不会再发生类似的事件。 <br/><br/>我们决心走出之前的悲剧继续向前迈进。虽然令人遗憾，但这种沟通不良和翻译错误事件，是迥然不同的文化之间接触可能会发生的不幸现实。现在重要的是确保失去的生命没有白白浪费，每个人都必须全心投入我们的志业。 
-TIObjectiveTemplate.solution.ConductHydraDiplomacy.AppeaseCouncil=“海德拉外交活动”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ConductHydraDiplomacy.AppeaseCouncil=“海德拉外交活动”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ConductHydraDiplomacy.AppeaseCouncil=成功！我们与海德拉代表建立了长期的双向外交管道。从现在开始，我们将能与他们近乎即时地互传讯息。目前为止，海德拉并没有完全回应我们进行谈判或建立融洽关系所做的努力，但我有充分理由期待这个情况会随着时间推移而改善。一旦展开和平进程，从人类历史可以得知，我们确实有理由抱持乐观态度。海德拉表示它们很快就会发送一份外交要求清单，我认为这是非常正面的讯号。 <br/><br/>遗憾的是，在这件事情上顾问团队并没有我希望的团结。拉夫伦蒂向我提供证据，显示某些成员正在考虑放弃和平进程。我无法相信我们阵营里有任何忠诚的成员会采取这种自我毁灭的行动方案；不过我过去也曾感到失望，希望他们能及时消除嫌疑。
 TIObjectiveTemplate.quote.ConductHydraDiplomacy.AppeaseCouncil=总督，我方人马的牺牲正获得回报，愿外交进程顺利展开。
 
@@ -1200,13 +1200,13 @@ TIObjectiveTemplate.quote.ResearchExotics.AppeaseCouncil=这些惊人的材料�
 
 TIObjectiveTemplate.displayName.ResearchTheirDemands.AppeaseCouncil=了解它们的要求
 TIObjectiveTemplate.description.ResearchTheirDemands.AppeaseCouncil=我们已收到海德拉的要求，不过“要求”似乎不是个准确的翻译。初步了解内容后发现，这些似乎更像是命令。我们试图进行谈判，但目前为止没有收到任何回应。 <br/><br/>显然我们别无选择 (至少暂时如此)，只能开始依照海德拉的要求前进，但理事会成员间出现一些分歧意见，我会亲自与他们面谈，解释我们采取行动的必要性。我们已经走得太远了，现在不能停下来。
-TIObjectiveTemplate.solution.ResearchTheirDemands.AppeaseCouncil=“研究它们的要求”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchTheirDemands.AppeaseCouncil=“研究它们的要求”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchTheirDemands.AppeaseCouncil=海德拉的要求如下。<br/><br/>1. 人类要停止对海德拉部队的所有军事行动，并将其所有部队置于海德拉任命的代表的指挥之下。<br/>2. 人类要承诺不建立太空舰队、大规模杀伤性武器或其他可能对海德拉种族构成威胁的军事资产。任何存在的此类武器都必须移交给海德拉指定的代表。<br/>3. 人类将承诺在未来任何和所有的努力或军事冲突中支持海德拉种族。在未来的行动中，将培养和训练一支常备的人类部队，在海德拉操纵者的领导下服务，首先是志愿者，然后是征兵，如果外星人需要。<br/>4. 为了确保第2点和第3点得到执行，轨道武器平台将被放置在近地轨道上，携带足够的火力来压制任何可能的人类抵抗。这些武器平台将被置于海德拉任命的代表的控制之下。<br/><br/>理事会的辩论很激烈。许多人发言反对外来条件。建立辅助军的要求引起了最多的愤怒；许多人坚持认为，我们阵营的目的是和平，而不是战争。最后，我被迫中断了辩论，发布了一项行政命令，接受了海德拉的要求。情况很敏感，讨论的时间已经结束。<br/><br/>不幸的是，看来拉夫伦蒂的警告是准确的。会议结束后，咨询小组的某些成员试图推翻我的决定。为了保护他们和我们，他们已被暂时逮捕。我不禁感到沮丧。难道他们真的看不出我们行动的必要性吗？这不仅关系到我们运动的成功，而且关系到人类本身的生存。
 TIObjectiveTemplate.quote.ResearchTheirDemands.AppeaseCouncil=总督，外星人太强大了，如果希望保护人类，我们别无选择。 
 
 TIObjectiveTemplate.displayName.ResearchAppeaseVictory.AppeaseCouncil=设立目标
 TIObjectiveTemplate.description.ResearchAppeaseVictory.AppeaseCouncil=既然对外星人所遵循的计划有了一些了解，我们必须调整自己的目标。这不需要立即办到；联系外星人并展开对话仍是我们的首要任务，但总有一天我们必须面对这个问题：一旦我们与外星人达成协议，该如何让世界上的其他人接受这个协议？
-TIObjectiveTemplate.solution.ResearchAppeaseVictory.AppeaseCouncil=完成「安抚入侵者」计划。
+TIObjectiveTemplate.solution.ResearchAppeaseVictory.AppeaseCouncil=完成“安抚入侵者”计划。
 TIObjectiveTemplate.resolution.ResearchAppeaseVictory.AppeaseCouncil=这一直是个难题，理事会的一些成员从理想主义角度切入这个问题，将注意力放在人权上；另一些成员则采取更现实的立场。 <br/><br/>最后我们不断绕回同一个问题上：如何对付反外星派？这是宽容的悖论；就算我们再怎么想维持善良包容的立场，当其他人选择寻求暴力途径，这一切都只是枉然。显然两种立场不可能彼此理解，也不可能共存。 <br/><br/>我们目前打算从两个方向解决这个问题。首先，强调党内团结和并肩作战共识的重要性。我们和所有盟友必须以同样的立场发声，然后以能让大多数听众满意的方式发表我们与外星人谈判的结果。其次，我们将采取一切必要的行动，压制更多极端主义者和反外星阵营的势力，而在这方面，恐怕我们不得不诉诸武力。外星科技的压倒性优势应能在这件事的争论中增加我们论点的分量。至于那些信奉外星人至高无上地位的人、还有仍选择顽强抵抗的人...嗯，我们也不会忘了他们。 <br/><br/>我们面对的是一个艰巨的任务，但我还是充满希望。追根究柢，虽然做出了这么多妥协，但与那些寻求与外星人开战的人相比，我们有一项很大的优势：我们是比他们更好人。历史站在我们这边；试图否定进步的人，当下也许看起来很强大，但最终一定会失败。
 TIObjectiveTemplate.quote.ResearchAppeaseVictory.AppeaseCouncil=牺牲势在必行，但我们的目标是正义的，总督。 
 
@@ -1230,13 +1230,13 @@ TIObjectiveTemplate.quote.AppeaseVictory.AppeaseCouncil=结束了，总督，我
 
 TIObjectiveTemplate.displayName.InvestigateAlienCrashdown.SubmitCouncil=它们的到来之旅！
 TIObjectiveTemplate.description.InvestigateAlienCrashdown.SubmitCouncil=到来者让所有人不分程度都感到吃惊，我也不例外。过了一段时间我才意识到当下应该看到什么，这绝非偶然。
-TIObjectiveTemplate.solution.InvestigateAlienCrashdown.SubmitCouncil=派一名理事在坠机现场执行「调查外星人活动」任务。
+TIObjectiveTemplate.solution.InvestigateAlienCrashdown.SubmitCouncil=派一名理事在坠机现场执行“调查外星人活动”任务。
 TIObjectiveTemplate.resolution.InvestigateAlienCrashdown.SubmitCouncil=遗憾的是，理事抵达现场时，使徒早已不见踪影。我们必须谨慎行事；其他阵营在这个区域很活跃，一定会为了自身目的找到使徒。我们承担不起引导他们达到目标的后果。
 TIObjectiveTemplate.quote.InvestigateAlienCrashdown.SubmitCouncil=教宗，我们没有找到使徒，但在坠机现场收集到大量资讯。
 
 TIObjectiveTemplate.displayName.ResearchTheirSignatures.SubmitCouncil=研究它们的特征
 TIObjectiveTemplate.description.ResearchTheirSignatures.SubmitCouncil=你有没有想过为什么那艘航天器会就这样坠毁？噢，我相信研究那艘失事舰船的科学家和工程师会想出一些机械上的解释。但你不觉得奇怪吗，比我们先进得多、经验丰富许多的另一个物种，竟然会发生如此令人费解的意外？我们直到二十世纪才解开飞行的奥秘，但我们的客机与任何运输工具一样，几乎达到百分之百的安全性。使徒的宇宙航行技术远比我们的空中飞行技术娴熟，那么到底是什么能导致它们的舰船坠毁呢？ 
-TIObjectiveTemplate.solution.ResearchTheirSignatures.SubmitCouncil=“外星人特征”计划开放后就着手完成。
+TIObjectiveTemplate.solution.ResearchTheirSignatures.SubmitCouncil=“外星人特征”计划开放后，请完成该项目。
 TIObjectiveTemplate.resolution.ResearchTheirSignatures.SubmitCouncil=我们已经确认，至少有一名使徒在坠机事故中幸存下来，并逃到了当地的荒野中。目前为止，各方追捕它的人类势力都没有发现它的踪迹。 <br/><br/>我们还收到报告指出周边区域有动物和人类失踪。罪魁祸首是使徒还是追捕者？
 TIObjectiveTemplate.quote.ResearchTheirSignatures.SubmitCouncil=别担心，教宗，使徒仍安好。
 
@@ -1247,7 +1247,7 @@ TIObjectiveTemplate.resolution.InvestigateAlienAbductions.SubmitCouncil=谨慎�
 TIObjectiveTemplate.quote.InvestigateAlienAbductions.SubmitCouncil=保持信仰并不代表僵化死板，教宗，意思是顺其自然。
 
 TIObjectiveTemplate.displayName.ResearchTheirMethods.SubmitCouncil=研究它们的做法
-TIObjectiveTemplate.description.ResearchTheirMethods.SubmitCouncil=外星人与我们并没有太大的不同，确实，它们比我们大得多，至少在某些方面，但从根本上将它们视为「异种」是错误的。倘若过去我们的立场颠倒 (也许只是几千年的事)，那么现在轻视它们星球的就会是我们，如同它们看不起我们星球一样。真正的问题是：如果真是这样，我们会做出跟它们一样的事吗？我们会张开双手和平接近吗？还是我们会比它们更残酷？这个问题我没办法回答，但我怀疑会是后者。我们有可能比使徒更高尚，也有可能恶劣得多。
+TIObjectiveTemplate.description.ResearchTheirMethods.SubmitCouncil=外星人与我们并没有太大的不同，确实，它们比我们大得多，至少在某些方面，但从根本上将它们视为“异种”是错误的。倘若过去我们的立场颠倒 (也许只是几千年的事)，那么现在轻视它们星球的就会是我们，如同它们看不起我们星球一样。真正的问题是：如果真是这样，我们会做出跟它们一样的事吗？我们会张开双手和平接近吗？还是我们会比它们更残酷？这个问题我没办法回答，但我怀疑会是后者。我们有可能比使徒更高尚，也有可能恶劣得多。
 TIObjectiveTemplate.solution.ResearchTheirMethods.SubmitCouncil=“外星人做法”计划开放后就展开研究。
 TIObjectiveTemplate.resolution.ResearchTheirMethods.SubmitCouncil=失踪对象一开始是动物，后来目标转移到人类身上。早期的失踪事件没有遵循我们可以辨别的模式，但随着时间推移，它们开始聚焦于有钱有势的人。 <br/><br/>遗憾的是，很明显那些消失的人绝非出于自愿。看来外星人目前正在寻求控制而不是了解，这令人沮丧，但并不在意料之外。我们知道外星人正在寻找某些东西，但现在很明显它们也不明白自己要寻找什么。目前，它们对人类持敌对态度，原因不难理解，对它们来说，理解它们的人和讨厌它们的人之间没有明显的区别。简单利用它们天生的优势直接控制目标，诱惑一定很大。 <br/><br/>虽然如此，我们打从一开始就知道这个任务绝不容易。使徒选择做出那些行动，意味着会有很多人死去...也许包括我们在内。但是，为了一个值得实现的目标而牺牲并不可怕。留得青山在，不怕没柴烧。
 TIObjectiveTemplate.quote.ResearchTheirMethods.SubmitCouncil=教宗，我们有责任向使徒展现我们的高贵。
@@ -1272,7 +1272,7 @@ TIObjectiveTemplate.quote.ResearchTheirMovements.SubmitCouncil=教宗，我们�
 
 TIObjectiveTemplate.displayName.ContactTheAliens.SubmitCouncil=联系外星人
 TIObjectiveTemplate.description.ContactTheAliens.SubmitCouncil=是时候与使徒见面了，如果我回不来，就由你继续我们的工作。
-TIObjectiveTemplate.solution.ContactTheAliens.SubmitCouncil=找到一个位于地球的外星人特务，并派一名理事对它进行「联系」任务。
+TIObjectiveTemplate.solution.ContactTheAliens.SubmitCouncil=找到一个位于地球的外星人特务，并派一名理事对它进行“联系”任务。
 TIObjectiveTemplate.resolution.ContactTheAliens.SubmitCouncil=我回来了。 <br/><br/>这个经历很...难以描述。实际与它们接触的情况与我想像的非常不同。我没有得到启蒙、没有看到伟大的真理；反而感觉到某种无法抵抗的同情和认同感。我一直对使徒的微小动作和讯号保持警觉，当它们停下动作或深思时，我感到胆战心惊，仿佛我以某种方式冒犯或辜负了它们。当它们下达命令时，我反射性地渴望服从，毫不犹豫、没有质疑，这种心无旁鹜的决心，在训练有素的士兵或带着孩子的母亲身上才看得到。 <br/><br/>一离开它们身边，我就退出去冥想。我能感觉到一股执行它们命令、跟随每个指令的欲望，但内心另一部分明白我需要重新找回自我。渐渐地，我仿佛从梦中醒来，忠诚、奉献...这些念头全都留下了，但我又可以清晰思考了。 <br/><br/>与我同行的人出现更多样化的反应，有些人仍试图完成它们下达的每个命令，无论内容有多微不足道：一旦完成它们的指示，这些人就只会茫然注视前方，直到接到提示。不过另外一些人似乎保留了更多的自我意识。我认为外星人的影响可以当成某种测试，有些人的思想被效忠的愿望盖过，但原来就仰慕着使徒、已效忠它们的人，则可以保留自己的身分，因为对它们来说没有冲突。 <br/><br/>我想休息一下，但有太多事情得做。首先，我们必须学习使徒的语言，才能更妥善服侍它们。
 TIObjectiveTemplate.quote.ContactTheAliens.SubmitCouncil=每经过一次测试，就离我们的目标更近了一些，教宗。
 
@@ -1296,13 +1296,13 @@ TIObjectiveTemplate.quote.ResearchTheAlienNation.SubmitCouncil=由外星人领�
 
 TIObjectiveTemplate.displayName.ResearchTheirDemands.SubmitCouncil=了解它们的目的
 TIObjectiveTemplate.description.ResearchTheirDemands.SubmitCouncil=很长一段时间以来，有个问题一直困扰着我。过去使徒发生了什么事？是什么伤害了它们，把它们伤得如此之重，以至于再也没有康复过。但我们一直没有办法找出真正的原因，直到现在。 <br/><br/>我们与海德拉见面后得到一些线索，不在于它们说了什么，而在于没有说出口的。虽然拥有优越的力量和智慧，使徒却受到某些限制。它们操控惰性物质的能力无与伦比；它们命令和指挥其它生物的能力同样令人惊叹。但这些都是科技领域，它们的艺术家、哲学家、精神领袖在哪里？显而易见的结论是，在别的地方，在别的星球上。但我知道的越多，就越不觉得这就是答案。海德拉身上带着一种空虚感，似乎少了什么东西。也许这就是我们要填补的空洞。 
-TIObjectiveTemplate.solution.ResearchTheirDemands.SubmitCouncil=“研究它们的要求”计划开放后就着手完成。 
+TIObjectiveTemplate.solution.ResearchTheirDemands.SubmitCouncil=“研究它们的要求”计划开放后，请完成该项目。 
 TIObjectiveTemplate.resolution.ResearchTheirDemands.SubmitCouncil=现在我开始明白了。 <br/><br/>使徒过去并不像现在这个样子。它们的同胞大多数都被从太空发动攻击的武器杀害，顺利逃脱的只有士兵、工程师和技术人员。它们的社会幸存下来，但遭受破坏而不残缺不堪。现在，它们付出的所有努力都是为了确保这种情况永远不会再发生，而且在这么做的过程中，它们抛弃了接受领导与指导的老路，它们迷失了方向。 <br/><br/>使徒已指示我们建造绕行轨道武器系统。我认为避免这件事发生对我们很重要，虽然这些武器也许能帮助我们对抗仍活跃在地球上的其他阵营，但也会带给使徒一种感受，觉得我们就跟被它们征服的其他物种没有两样，只是出于被迫而服侍它们的怨怼奴隶。我们必须展现出并非单纯因受到支配而行动的样貌，积极协助使徒；向它们证明我们之所以服侍它们，是出于仰慕而不是恐惧。
 TIObjectiveTemplate.quote.ResearchTheirDemands.SubmitCouncil=我们发现了使徒内心深处的空虚感，教宗，我们现在明白我们的使命是填补这个空洞。我们将实现我们双方物种的命运。
 
 TIObjectiveTemplate.displayName.ResearchSubmitVictory.SubmitCouncil=设立目标
 TIObjectiveTemplate.description.ResearchSubmitVictory.SubmitCouncil=很难解释我看到的一切。 <br/><br/>我没有听到外星人的声音，但可以理解它们的意思。我不认得它们，但我知道它们，因为人们可以了解童年时期学到的东西。它们来到我们的世界是为了寻找某种东西，但同时也逃离着什么；它们是主人，却也是奴隶。恐惧是驱使它们前进的动力，过去发生在它们身上的事带来的恐惧、对惨剧可能再度上演的恐惧。它们的能力绝对不只这样，还有着无限潜力，但它们必须克服恐惧。必须有人教导它们、帮助它们，而我们有机会成为指导者、协助者。 <br/><br/>也许我们会失败，若真如此，后果会很凄惨。但我不认为我们会失败，我对我们有信心、对人性有信心，也对你有信心。
-TIObjectiveTemplate.solution.ResearchSubmitVictory.SubmitCouncil=完成「天堂之路」计划。
+TIObjectiveTemplate.solution.ResearchSubmitVictory.SubmitCouncil=完成“天堂之路”计划。
 TIObjectiveTemplate.resolution.ResearchSubmitVictory.SubmitCouncil=问题在于控制。 <br/><br/>使徒不信任我们，这很令人遗憾，但可以理解。我们是一个暴力的物种；当然外星人也以它门的方式展现暴力行为，不过任何了解我们星球历史的人，都会倾向先将我们视为威胁。而处理威胁的方式为何？控制它。 <br/><br/>光是与外星人交谈并呼吁它们信任我们，当然是不够的。外星人不会相信我们，它们为什么要相信？我们必须向它们证明我们值得信赖，代价也许会很高昂，也许会有成千上万人类将为了服侍使徒而死。然而，重要的是留得青山在，就不怕没柴烧。每条性命、每个牺牲都会成为证明。 <br/><br/>使徒有可能更加伟大，伟大到我们永远达不到的境界。但它们深受伤害且迷失方向，只能接受它们信任的人指导。赢得这样的信任是我们的使命，不惜一切代价。
 TIObjectiveTemplate.quote.ResearchSubmitVictory.SubmitCouncil=恐惧控制着使徒，教宗，恐惧驱使它们不假思索地进行控制。我们可以改变这一点。
 

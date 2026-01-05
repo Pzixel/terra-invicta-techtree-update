@@ -1,6 +1,6 @@
 UI.Council.RecruitButton=招募
 UI.Council.CouncilNameCouncil={0}理事会							// Council Name
-UI.Council.ReservedForTurned=这个栏位会显示我们拉拢到我方理想的对手理事。
+UI.Council.ReservedForTurned=这个栏位将显示我们策反的敌方理事。
 UI.Council.CouncilSize5=我们必须发展秘密组织计划，来招募第五位理事。
 UI.Council.CouncilSize6=我们必须发展隐密行动计划，来招募第六位理事。
 UI.CouncilRecruiting.ConfirmRecruitDialog=要花费 {1} 招募{0}吗？		// Councilor Name, Cost

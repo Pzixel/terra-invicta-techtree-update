@@ -5,10 +5,8 @@ UI.SpaceCombat.CombatSpeed3=5x
 UI.SpaceCombat.CombatSpeed4=10x
 UI.SpaceCombat.CombatSpeed5=15x
 UI.SpaceCombat.CombatSpeed6=20x
-
 UI.SpaceCombat.Battery=배터리
-
-UI.SpaceCombat.Idle=유휴 
+UI.SpaceCombat.Idle=유휴
 UI.SpaceCombat.Idle.description=무기가 발사되지 않습니다.
 UI.SpaceCombat.Focus=집중 사격
 UI.SpaceCombat.Focus.description=무기가 함선의 주요 표적을 향해 발사됩니다. 표적을 설정하지 않았거나 표적이 사거리를 벗어나면 무기가 발사되지 않습니다.
@@ -24,12 +22,10 @@ UI.SpaceCombat.MissileDefense=미사일 방어 모드
 UI.SpaceCombat.MissileDefense.description=무기는 이 함선이나 동맹을 위협하는 가장 가까운 미사일을 향해 발사됩니다.
 UI.SpaceCombat.MissileGuardian=미사일 호위 모드
 UI.SpaceCombat.MissileGuardian.description=무기는 이 함선이나 동맹군을 위협하는 가장 가까운 미사일을 향해 발사됩니다. 그러한 위협이 감지되지 않으면 무기는 함선의 주요 목표물을 향해 발사됩니다. 목표물을 선택하지 않으면 무기는 가장 가까운 적 함선을 향해 발사됩니다.
-
 UI.SpaceCombat.Salvo=일제 사격
 UI.SpaceCombat.Salvo.description=무기가 함선의 주요 표적에 지정된 수의 미사일을 일제 사격합니다. 그 후 무기는 유휴 상태가 됩니다. 일제 사격은 무기 최대 탄약 용량의 25%에 해당합니다.
 UI.SpaceCombat.Bracket=브래킷 사격
-UI.SpaceCombat.Bracket.description=무기는 함선의 주요 목표물을 향해 발사됩니다. 아무것도 선택하지 않으면 가장 가까운 적을 향해 발사됩니다. 함선을 표적으로 삼는 경우, 무기는 함선의 벡터가 바뀌면 일부 총알이 함선을 맞추지 못하고 약간 빗나가는 패턴으로 발사됩니다. 
-
+UI.SpaceCombat.Bracket.description=무기는 함선의 주요 목표물을 향해 발사됩니다. 아무것도 선택하지 않으면 가장 가까운 적을 향해 발사됩니다. 함선을 표적으로 삼는 경우, 무기는 함선의 벡터가 바뀌면 일부 총알이 함선을 맞추지 못하고 약간 빗나가는 패턴으로 발사됩니다.
 UI.SpaceCombat.CombatAccelgs={0}G
 UI.SpaceCombat.CombatAccelmgs={0}mG
 UI.SpaceCombat.velocity_mps={0}m/s
@@ -45,15 +41,14 @@ UI.SpaceCombat.EndBattleButtonTooltipNo=이를 토글하여 적 지휘관과의 
 UI.SpaceCombat.AutoResolve=전투 자동 해결
 UI.SpaceCombat.AutoResolve.Description=현재의 전투 상태를 가져와 화면 밖에서 완료한 다음, 결과를 보고하여 전투를 종료합니다.
 UI.SpaceCombat.AutoResolve.Query=자동 해결은 현재 전투 상태를 가져와 화면 밖에서 완료한 다음, 결과를 보고하게 됩니다. 계속하시겠습니까?
-
 UI.SpaceCombat.NoseStructure=함수 구조적 완결성
 UI.SpaceCombat.CentralStructure=함체 구조적 완결성
 UI.SpaceCombat.TailStructure=함미 구조적 완결성
 UI.SpaceCombat.Bridge=함교
 UI.SpaceCombat.FireControl=사격 제어
-UI.SpaceCombat.PowerCoupling=전력 연결              
-UI.SpaceCombat.DriveCoupling=추진기 연결              
-UI.SpaceCombat.VectorThrusters=백터 추력기            
+UI.SpaceCombat.PowerCoupling=전력 연결 // / recharges battery from power plant
+UI.SpaceCombat.DriveCoupling=추진기 연결 // / powers drive from power plant
+UI.SpaceCombat.VectorThrusters=백터 추력기 // / turns ship
 UI.SpaceCombat.LifeSupportMain=주 생명 유지 시스템
 UI.SpaceCombat.LifeSupportBackup=보조 생명 유지 시스템
 UI.SpaceCombat.DamageControl=피해 통제
@@ -81,7 +76,6 @@ UI.SpaceCombat.Description.Propellant=추진제 탱크가 손상되면 함선의
 UI.SpaceCombat.Description.ArmorIntegrity=장갑의 완결성이 손상되면 함선의 장갑에 들어오는 공격이 흡수되지 않을 가능성이 높아집니다.
 UI.SpaceCombat.SpecialManeuverPanel=특수 기동 패널을 전환합니다. <br/>특수 기동에는 선회, 방어 기동, 그리고 표적에 고정 등이 포함됩니다.
 UI.SpaceCombat.Description.SystemsReactor=이 발전기가 피해를 입으면 무기와 유틸리티 모듈에 사용 가능한 전력이 감소합니다.
-
 UI.Precombat.Header=전투 임박
 UI.Precombat.FleetName={0} 함대 {1}
 UI.Precombat.Engage=교전
@@ -104,7 +98,7 @@ UI.Precombat.Autoresolve=자동 해결
 UI.Precombat.AcceptAutoresolve=수락
 UI.Precombat.RejectAutoresolve=거부
 UI.Precombat.Watch=전투 보기
-UI.Precombat.Close=근접
+UI.Precombat.Close=닫기
 UI.Precombat.InitiateCombat=전투 시작
 UI.Precombat.NoBattle=양측 모두 교전을 선택하지 않아 전투가 벌어지지 않았습니다.
 UI.Precombat.Fled={0} 측은 {1} 및 전투를 피합니다. {2} {3}
@@ -122,17 +116,17 @@ UI.Precombat.EnemyUnarmedHab_2=<br/>{0} 측은 비무장 상태입니다. 도킹
 UI.Precombat.EnemyUnarmedHab_3=<br/>{0} 측은 비무장 상태입니다. 만약 우리가 방어하는 함대를 상대로 승리한다면, 우리 우주전투기가 파괴할 것입니다.
 UI.Precombat.Pincer=교전
 UI.Precombat.PincerDetail=우리 함대를 분할하여 적을 포위하고 도주를 막으세요. 적은 우리 두 함대 중 약한 쪽과 교전할 것입니다.
-UI.Precombat.ChaseMechanics=추격 중에는 두 함대의 상대 가속도가 추격의 전개 방식을 결정합니다. 한 함대의 가속도가 상대방보다 현저히 빠르면 교전을 강요하거나 낮은 델타-V를 소모하여 회피할 수 있습니다. 가속도가 유사한 두 함대는 만약 느린 선미 추격을 벌이게 되며, 양측이 이를 위해 델타-V를 소모하기로 한다면 엄청난 양을 소모할 수 있습니다.<br/><br/>추격 함대가 두 함대({1}km)에 속한 어느 함선의 최대 무기 조준 범위의 {0}배까지 거리를 좁히거나, 회피 함대가 두 함대 사이의 거리를 같은 거리만큼 벌리면 추격이 종료됩니다.<br/><br/>일부 경우, 추격 함대가 전투를 강제하기 위해 분할될 수도 있습니다. 이는 일부 함선이 함대를 따라잡을 수 있거나, 함대 규모가 적 함대를 포위할 수 있을 만큼 충분히 큰 경우에 발생합니다. 
+UI.Precombat.ChaseMechanics=추격 중에는 두 함대의 상대 가속도가 추격의 전개 방식을 결정합니다. 한 함대의 가속도가 상대방보다 현저히 빠르면 교전을 강요하거나 낮은 델타-V를 소모하여 회피할 수 있습니다. 가속도가 유사한 두 함대는 만약 느린 선미 추격을 벌이게 되며, 양측이 이를 위해 델타-V를 소모하기로 한다면 엄청난 양을 소모할 수 있습니다.<br/><br/>추격 함대가 두 함대({1}km)에 속한 어느 함선의 최대 무기 조준 범위의 {0}배까지 거리를 좁히거나, 회피 함대가 두 함대 사이의 거리를 같은 거리만큼 벌리면 추격이 종료됩니다.<br/><br/>일부 경우, 추격 함대가 전투를 강제하기 위해 분할될 수도 있습니다. 이는 일부 함선이 함대를 따라잡을 수 있거나, 함대 규모가 적 함대를 포위할 수 있을 만큼 충분히 큰 경우에 발생합니다.
 UI.Precombat.ChaseMechanics_Fixed=추격전에서 두 함대의 상대적인 가속도에 따라 추격전 전개 양상이 결정됩니다. 한 함대의 가속도가 상대방보다 현저히 빠르면 교전을 강요하거나 낮은 델타-V를 소모하여 회피할 수 있습니다. 가속도가 유사한 두 함대는 만약 느린 선미 추격을 벌이게 되며, 양측이 이를 위해 델타-V를 소모하기로 한다면 엄청난 양을 소모할 수 있습니다.<br/><br/>추격 함대가 {0}km까지 거리를 좁히거나, 회피 함대가 두 함대 사이의 거리를 같은 거리만큼 벌리면 추격이 종료됩니다.
 UI.Precombat.AIExtendedPursuitNormal=<h>추격 연장 경고</h>: 적 함대의 일부 함선은 우리가 최대 델타-V를 제시하더라도 소규모 함선과의 전투를 강제할 수 있을 만큼 충분히 빠릅니다.
 UI.Precombat.AIExtendedPursuitEnvelop=<h>추격 연장 경고</h>: 적 함대에는 우리가 최대 델타-V를 제시하더라도 우리 함대를 포위하여 전투를 강제할 수 있는 함선이 충분합니다. 이 경우 전체 함대 중 일부와 전투를 벌이게 됩니다.
-UI.Precombat.ExtendedPursuitNormal=<h>추격 연장</h>: 적 함대가 최대값을 제시하더라도 우리 함선의 일부는 적 함대를 추격하여 전투를 강제할 수 있습니다. 확인란을 클릭하여 참가할 함선을 확인하고 {0}를 클릭하여 이 옵션을 확인하세요. 
+UI.Precombat.ExtendedPursuitNormal=<h>추격 연장</h>: 적 함대가 최대값을 제시하더라도 우리 함선의 일부는 적 함대를 추격하여 전투를 강제할 수 있습니다. 확인란을 클릭하여 참가할 함선을 확인하고 {0}를 클릭하여 이 옵션을 확인하세요.
 UI.Precombat.ExtendedPursuitEnvelop=<h>추격 연장</h>: 우리는 함대를 소규모 그룹으로 분할하여 적 함대를 포위하고, 제시 값과 무관하게 파견대와 싸우도록 강제할 수 있습니다. 확인란을 클릭하여 참가할 함선을 확인하고 {0}를 클릭하여 이 옵션을 확인합니다.
 UI.Precombat.OfficerKilled_Header=전투 중에 사망한 장교:
 UI.Precombat.Exofighter=우주전투기
 UI.Precombat.AlienExofighter=외계 우주전투기
 UI.Precombat.AddFightersButton=우주전투기 추가
-UI.Precombat.AddFightersDetail={0} 소비로 통제 중인 지구 국가의 지대궤도 전투기를 이 전투에 투입합니다. 
+UI.Precombat.AddFightersDetail={0} 소비로 통제 중인 지구 국가의 지대궤도 전투기를 이 전투에 투입합니다.
 UI.Precombat.STOFightersHeader=우주전투기 긴급 출동
 UI.Precombat.STOFightersExplainer=플레이어 국가에서 외계전투기를 이 전투에 할당하고 무장하십시오. 발사에 드는 총 <sprite name="boost"> 비용은 아래와 같습니다.
 UI.Precombat.STOFightersResetButtonText=전부 취소
@@ -144,13 +138,12 @@ UI.Precombat.SlashValue={0}/{1}
 UI.Precombat.ParensValue=({0})
 UI.Precombat.SquadronName={0} 중대
 UI.Precombat.SquadronName2={0} 우주전투기 중대
-UI.Precombat.FighterCallsign={0} {1} 					
+UI.Precombat.FighterCallsign={0} {1} // / squadron name, number, like "Gold 1"
 UI.Precombat.Confirm=확인
 UI.Precombat.SkirmishExoSquadron1=알파
 UI.Precombat.SkirmishExoSquadron2=오메가
 UI.Precombat.PossibleFighters=<sprite name=warning>적군은 이 전투에 참여하기 위해 우주전투기를 발진시킬 수 있습니다. 우리가 입장을 정하기 전까지는 실제로 적의 행동을 알 수 없을 것입니다.
 UI.Precombat.EmptyFighters=<sprite name=warning><h>적이 우리 자산을 상대로 우주전투기를 발사할 수도 있습니다. 우리가 입장을 정하기 전까지는 실제로 적의 행동을 알 수 없을 것입니다.</h>
-
 UI.SpaceCombat.BattleName={0}에서의 전투
 UI.SpaceCombat.BattleNameDeepSpace=심우주 전투
 UI.SpaceCombat.Status.Undamaged=작전 가능
@@ -159,7 +152,6 @@ UI.SpaceCombat.Status.MissionKilled=임무 실패
 UI.SpaceCombat.Status.HabDisabled=무력화됨
 UI.SpaceCombat.Status.HabNoncombatant=전투 불가
 UI.SpaceCombat.Status.Destroyed=파괴됨
-
 UI.SpaceCombat.Warning.EmptyMagazine=이 함선은 탄약고가 비어서 더 이상 발사하지 못하는 무기가 하나 이상 있습니다.<br/><br/>빈 탄약고: {0}
 UI.SpaceCombat.Warning.WeaponNoTarget=이 함선에는 집중 사격 모드인 무기가 있으나, 표적을 설정하지 않았습니다. 표적이 설정될 때까지 무기는 발사되지 않습니다.
 UI.SpaceCombat.Warning.ShipNoThrust=이 함선은 연료 부족이나 함교 또는 추진기 시스템의 심각한 손상으로 인해 더 이상 기동할 수 없습니다.
@@ -168,23 +160,21 @@ UI.SpaceCombat.Warning.ShipTarget=이 함선의 표적은 {0}입니다.
 UI.SpaceCombat.Warning.ManeuverTarget={0} 측이 이 함선과 속도를 맞추려고 시도 중입니다.
 UI.SpaceCombat.Warning.RotationStatus.Critical=이 함선의 벡터 추력기가 심각하게 손상되어 선회 속도가 심각하게 저하되었습니다.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=이 함선의 벡터 추력기가 손상되어 선회 속도가 저하되었습니다.
-UI.SpaceCombat.Warning.RotationStatus.Good=이 함선의 벡터 추력기는 완전히 작동 중입니다. 
+UI.SpaceCombat.Warning.RotationStatus.Good=이 함선의 벡터 추력기는 완전히 작동 중입니다.
 UI.SpaceCombat.Warning.WeaponStatus.Critical=함선 무기 시스템이 파괴되었습니다.<br/><br/>작동 중지 무기: {0}<br/>사격 제어: {1}
 UI.SpaceCombat.Warning.WeaponStatus.Damaged=함선 무기 시스템이 손상되었습니다.<br/><br/>작동 중지 무기: {0}<br/>사격 제어: {1}
 UI.SpaceCombat.Warning.WeaponStatus.Good=무기 및 사격 제어 장치가 완전히 작동 중입니다.
 UI.SpaceCombat.Warning.ShipSystemStatus.Critical=중요한 함선 시스템이 작동 중지 상태입니다.
 UI.SpaceCombat.Warning.ShipSystemStatus.Damaged=함선 시스템이 손상되었습니다.
 UI.SpaceCombat.Warning.ShipSystemStatus.Good=함선 시스템이 작동 중입니다.
-UI.SpaceCombat.Warning.DamConStatus.Disabled=함선이 고중력 회전 중입니다. 피해 통제가 일시적으로 중단됩니다. 
-UI.SpaceCombat.Warning.DamConStatus.DamagedAndDisabled=함선이 고중력 회전 중입니다. 피해 통제가 일시적으로 중단됩니다. <br/><br/>피해 통제가 효율이 감소된 상태로 작동 중입니다. 함선의 수리 진행 속도가 느려졌습니다. 
+UI.SpaceCombat.Warning.DamConStatus.Disabled=함선이 고중력 회전 중입니다. 피해 통제가 일시적으로 중단됩니다.
+UI.SpaceCombat.Warning.DamConStatus.DamagedAndDisabled=함선이 고중력 회전 중입니다. 피해 통제가 일시적으로 중단됩니다. <br/><br/>피해 통제가 효율이 감소된 상태로 작동 중입니다. 함선의 수리 진행 속도가 느려졌습니다.
 UI.SpaceCombat.Warning.DamConStatus.Damaged=피해 통제가 효율이 감소된 상태로 작동 중입니다. 함선의 수리 진행 속도가 느려졌습니다.
 UI.SpaceCombat.Warning.DamConStatus.Critical=피해 통제가 작동 중단되었습니다. 함선을 수리할 수 없습니다.
 UI.SpaceCombat.Warning.Avoidance=함선은 예상되는 충돌을 피하기 위해 기동 중입니다.
-
 UI.SpaceCombat.Offline=작동 중지
 UI.SpaceCombat.Damaged=손상됨
 UI.SpaceCombat.Online=작동 중
-
 UI.SpaceCombat.Weapon.Damaged=이 무기는 손상되었으며 수리하여야 발사할 수 있습니다.
 UI.SpaceCombat.Weapon.Cooldown=이 무기는 냉각 중이며, 냉각이 완료되면 발사할 수 있습니다.
 UI.SpaceCombat.Weapon.Bollixed=이 무기는 적 ECM에 의해 방해를 받고 있으며, 방해를 극복하여야 발사할 수 있습니다.
@@ -192,11 +182,10 @@ UI.SpaceCombat.Weapon.FireControlDamage=함선의 사격 통제 장치가 파괴
 UI.SpaceCombat.Weapon.NoAmmo=이 무기에는 탄약이 없습니다.
 UI.SpaceCombat.Weapon.NoPower=이 함선에는 이 무기를 발사할 만큼 전력이 충분하지 않습니다.
 UI.SpaceCombat.Weapon.HeatProblem=이 무기는 발사하면 함선이 과열되기 때문에 사용이 중단되었습니다.
-
 UI.SpaceCombat.Outcome.DockedAtHab=<br/>{0}의 {1} 도킹이 완료되었으며 이제 스테이션을 점령하거나 파괴할 수 있습니다.
 UI.SpaceCombat.CombatInProgress=전투 진행 중...
 UI.SpaceCombat.MajorCombatInProgress=주요 전투 진행 중...
-UI.SpaceCombat.AutoresolveComplete=자동 해결이 완료되었습니다. 결과를 수락하거나 거부하여 수동으로 전투를 플레이할 수 있습니다. 
+UI.SpaceCombat.AutoresolveComplete=자동 해결이 완료되었습니다. 결과를 수락하거나 거부하여 수동으로 전투를 플레이할 수 있습니다.
 UI.SpaceCombat.Outcome.Victor={0}의 승리!
 UI.SpaceCombat.Outcome.MAD=이 전투에는 승자가 없습니다.
 UI.SpaceCombat.Outcome.Indecisive=양측 모두 전장을 떠났습니다.
@@ -205,39 +194,32 @@ UI.SpaceCombat.Outcome.MissionKilledOne=함선 한 척이 너무 손상되어 �
 UI.SpaceCombat.Outcome.MissionKilledMultiple=함선 일부가 너무 손상되어 현재 항행을 완료할 수 없습니다. 별도의 함대로 분리되었습니다.
 UI.SpaceCombat.Outcome.StationDefended=<sp>{0}의 승리! {1} 방어에 성공했습니다.
 UI.SpaceCombat.Outcome.HabDestroyed=<br/>우주전투기가 {0} 파괴했습니다.
-
 UI.SpaceCombat.Reinforcements=증원 함선:
-UI.SpaceCombat.ReinforceEntry= 전투에 증원됨.
+UI.SpaceCombat.ReinforceEntry=전투에 증원됨.
 UI.SpaceCombat.ReinforcementsTimer=T-{0}
 UI.SpaceCombat.ReinforcementReady=<h>준비 완료 </h>
-
 UI.SpaceCombat.CommandTarget.Fleet=함대 지휘
 UI.SpaceCombat.CommandTarget.Group=그룹 지휘
 UI.SpaceCombat.CommandTarget.Single=함선 지휘
-
 UI.SpaceCombat.FormationTitle=함대 대형 선택
 UI.SpaceCombat.InitialVelocity=초기 속도
 UI.SpaceCombat.FleetHabPlacement=거주지 앞에 함대 배치
 UI.SpaceCombat.ShipSwapping=전투 공간에서 두 척의 함선을 선택하면 선택한 대형에서 두 함선의 위치가 교환됩니다.
 UI.SpaceCombat.ReinforcementSwapping=<sp>전투 공간에서 한 척의 함선을 선택하고 목록에서 한 척을 선택하면 증원 함대에서 함선을 교체할 수 있습니다.
 UI.SpaceCombat.ReinforcementReorderPanelHeaderText=증원 명령
-
 UI.SpaceCombat.Critical=치명타!
 UI.SpaceCombat.RawDamage=일반 직격 피해
 UI.SpaceCombat.AbsorbedDamage=함선의 장갑이 흡수한 피해
 UI.SpaceCombat.PenetratedDamage=함선 시스템에 대한 관통 피해
 UI.SpaceCombat.RadiationDamage=장갑을 우회하여 함선 시스템에 직접 가해지는 방사선 피해
-
 UI.SpaceCombat.RadiatorStatus.Cooling=현재 열기 방출 중
 UI.SpaceCombat.RadiatorStatus.Heating=현재 열기 축적 중
-
 UI.SpaceCombat.WeaponManager=<sp>이 무기의 발사 모드를 순환합니다. 다음을 사용하여 여러 함선의 모드를 설정합니다.
 UI.SpaceCombat.WeaponManagerShift=<sp>이 함선의 이 유형의 모든 무기 순환
 UI.SpaceCombat.WeaponManagerControlShift=<sp>선택된 모든 함선의 이 유형의 모든 무기 순환
 UI.SpaceCombat.WeaponManagerAlt=<sp>이 함급의 모든 함선에 이 특정 무기 순환
 UI.SpaceCombat.WeaponManagerControlAlt=<sp>이 함급의 모든 함선에 이 유형의 모든 무기 순환
 UI.SpaceCombat.WeaponManagerControl=<sp>전투에 참여하는 모든 함선에 이 유형의 모든 무기 순환
-
 UI.SpaceCombat.BattleLog.Title=전투 기록
 UI.SpaceCombat.BattleLog.Log=기록된 전투 이벤트
 UI.SpaceCombat.BattleLog.ShipDestruction={0} {1} {2}, {4} {5} {6}의 {3}에 의해 파괴되었습니다.
@@ -263,17 +245,16 @@ UI.SpaceCombat.BattleLog.ShipDamagedNoWeapon={0} {1} {2}, <color=#FFFFFFFF><spri
 UI.SpaceCombat.BattleLog.ArmorHolding={0} {1} {2}, {3}에 피격. 전체 <color=#FFFFFFFF><sprite name="armor"></color>{5} 피해 장갑에 의해 흡수되었습니다. {7}의 {6}.
 UI.SpaceCombat.BattleLog.HabDamaged={1}의 {0}, {2}에 피격. <color=#FFFFFFFF><sprite name="army_battle"></color>{3} 총 피해.
 UI.SpaceCombat.BattleLog.PartRepaired={0} {1} {2}의 {3}, 수리되었다고 보고했습니다.
-
 UI.SpaceCombat.BattleLog.AllLogs.Title=모든 로그
 UI.SpaceCombat.BattleLog.Destruction.Title=파괴
 UI.SpaceCombat.BattleLog.Retreat.Title=철수
-UI.SpaceCombat.BattleLog.Reinforcements.Title= 증원
-UI.SpaceCombat.BattleLog.OutOfAmmo.Title= 탄약 부족
-UI.SpaceCombat.BattleLog.OutOfDV.Title= Delta-V 부족
-UI.SpaceCombat.BattleLog.OfficerKilled.Title= 장교 사망
-UI.SpaceCombat.BattleLog.PartDestroyed.Title= 일부 파괴됨
-UI.SpaceCombat.BattleLog.WeaponDestroyed.Title= 무기 파괴됨
-UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= 함선 무장 해제됨
-UI.SpaceCombat.BattleLog.ShipDamaged.Title= 피해
-UI.SpaceCombat.BattleLog.ArmorHolding.Title= 장갑 착용
-UI.SpaceCombat.BattleLog.PartRepaired.Title= 수리
+UI.SpaceCombat.BattleLog.Reinforcements.Title=증원
+UI.SpaceCombat.BattleLog.OutOfAmmo.Title=탄약 부족
+UI.SpaceCombat.BattleLog.OutOfDV.Title=Delta-V 부족
+UI.SpaceCombat.BattleLog.OfficerKilled.Title=장교 사망
+UI.SpaceCombat.BattleLog.PartDestroyed.Title=일부 파괴됨
+UI.SpaceCombat.BattleLog.WeaponDestroyed.Title=무기 파괴됨
+UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title=함선 무장 해제됨
+UI.SpaceCombat.BattleLog.ShipDamaged.Title=피해
+UI.SpaceCombat.BattleLog.ArmorHolding.Title=장갑 착용
+UI.SpaceCombat.BattleLog.PartRepaired.Title=수리

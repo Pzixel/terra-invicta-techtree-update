@@ -359,7 +359,7 @@
    "dataName": "VaporCoreFissionReactorIII",
    "friendlyName": "Vapor Core Fission Reactor III",
    "maxOutput_GW": 60,
-   "specificPower_tGW": 3,
+   "specificPower_tGW": 2.5,
    "powerPlantClass": "Gas_Core_Fission",
    "requiredProjectName": "Project_VaporCoreFissionReactorIII",
    "efficiency": 0.92,
@@ -377,7 +377,7 @@
    "dataName": "GasCoreFissionReactorI",
    "friendlyName": "Gas Core Fission Reactor I",
    "maxOutput_GW": 8,
-   "specificPower_tGW": 10,
+   "specificPower_tGW": 8,
    "powerPlantClass": "Gas_Core_Fission",
    "requiredProjectName": "Project_GasCoreFissionReactorI",
    "efficiency": 0.9,
@@ -395,7 +395,7 @@
    "dataName": "GasCoreFissionReactorII",
    "friendlyName": "Gas Core Fission Reactor II",
    "maxOutput_GW": 33,
-   "specificPower_tGW": 7,
+   "specificPower_tGW": 5,
    "powerPlantClass": "Gas_Core_Fission",
    "requiredProjectName": "Project_GasCoreFissionReactorII",
    "efficiency": 0.91,
@@ -529,9 +529,9 @@
    "weightedBuildMaterials": {
       "water": 0.02,
       "volatiles": 0.3,
-      "metals": 0.51,
+      "metals": 0.519,
       "nobleMetals": 0.16,
-      "exotics": 0.01
+      "exotics": 0.001
    },
    "iconResource": "shipbuildericons/ICO_ElectrostaticConfinementFusionReactorIII"
 },
@@ -539,7 +539,7 @@
    "dataName": "MirrorCellFusionReactorI",
    "friendlyName": "Mirror Cell Fusion Reactor I",
    "maxOutput_GW": 120,
-   "specificPower_tGW": 8,
+   "specificPower_tGW": 5,
    "powerPlantClass": "Mirrored_Magnetic_Confinement_Fusion",
    "requiredProjectName": "Project_MirrorCellFusionReactorI",
    "efficiency": 0.93,
@@ -906,9 +906,9 @@
    "weightedBuildMaterials": {
       "water": 0.02,
       "volatiles": 0.15,
-      "metals": 0.479,
+      "metals": 0.47999,
       "nobleMetals": 0.35,
-      "exotics": 0.001
+      "exotics": 0.00001
    },
    "iconResource": "shipbuildericons/ICO_InertialConfinementFusionReactorV"
 },
@@ -924,9 +924,9 @@
    "weightedBuildMaterials": {
       "water": 0.02,
       "volatiles": 0.15,
-      "metals": 0.47,
+      "metals": 0.479,
       "nobleMetals": 0.35,
-      "exotics": 0.01
+      "exotics": 0.001
    },
    "iconResource": "shipbuildericons/ICO_InertialConfinementFusionReactorVI"
 },
@@ -942,9 +942,9 @@
    "weightedBuildMaterials": {
       "water": 0.02,
       "volatiles": 0.15,
-      "metals": 0.43,
+      "metals": 0.39,
       "nobleMetals": 0.34,
-      "exotics": 0.06
+      "exotics": 0.1
    },
    "iconResource": "shipbuildericons/ICO_InertialConfinementFusionReactorVII"
 },
@@ -977,9 +977,9 @@
    "weightedBuildMaterials": {
       "water": 0.02,
       "volatiles": 0.16,
-      "metals": 0.665,
+      "metals": 0.6658,
       "nobleMetals": 0.15,
-      "exotics": 0.005
+      "exotics": 0.001
    },
    "iconResource": "shipbuildericons/ICO_AlienHybridConfinementFusionReactor"
 },
@@ -997,7 +997,7 @@
       "volatiles": 0.16,
       "metals": 0.665,
       "nobleMetals": 0.15,
-      "exotics": 0.005
+      "exotics": 0.007
    },
    "iconResource": "shipbuildericons/ICO_AlienHybridConfinementFusionReactor"
 },
@@ -1005,51 +1005,51 @@
    "dataName": "AntimatterPlasmaCoreReactorI",
    "friendlyName": "Antimatter Plasma Core Reactor I",
    "maxOutput_GW": 1200,
-   "specificPower_tGW": 0.45,
+   "specificPower_tGW": 0.4,
    "powerPlantClass": "Antimatter_Plasma_Core",
    "requiredProjectName": "Project_AntimatterPlasmaCoreReactorI",
    "efficiency": 0.9975,
    "crew": 12,
    "weightedBuildMaterials": {
       "volatiles": 0.2,
-      "metals": 0.599,
+      "metals": 0.5999,
       "nobleMetals": 0.2,
-      "antimatter": 0.001
+      "antimatter": 0.0001
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreReactorI"
 },
  {
    "dataName": "AntimatterPlasmaCoreReactorII",
    "friendlyName": "Antimatter Plasma Core Reactor II",
-   "maxOutput_GW": 7250,
-   "specificPower_tGW": 0.05,
+   "maxOutput_GW": 11150,
+   "specificPower_tGW": 0.04,
    "powerPlantClass": "Antimatter_Plasma_Core",
    "requiredProjectName": "Project_AntimatterPlasmaCoreReactorII",
    "efficiency": 0.9975,
    "crew": 12,
    "weightedBuildMaterials": {
       "volatiles": 0.2,
-      "metals": 0.59,
+      "metals": 0.59999,
       "nobleMetals": 0.2,
-      "antimatter": 0.01
+      "antimatter": 0.00001
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreReactorII"
 },
  {
    "dataName": "AntimatterPlasmaCoreReactorIII",
    "friendlyName": "Antimatter Plasma Core Reactor III",
-   "maxOutput_GW": 42000,
-   "specificPower_tGW": 0.005,
+   "maxOutput_GW": 66000,
+   "specificPower_tGW": 0.004,
    "powerPlantClass": "Antimatter_Plasma_Core",
    "requiredProjectName": "Project_AntimatterPlasmaCoreReactorIII",
    "efficiency": 0.998,
    "crew": 12,
    "weightedBuildMaterials": {
       "volatiles": 0.2,
-      "metals": 0.55,
+      "metals": 0.599989,
       "nobleMetals": 0.2,
-      "antimatter": 0.04,
-      "exotics": 0.01
+      "antimatter": 0.000001,
+      "exotics": 0.00001
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreReactorIII"
 },

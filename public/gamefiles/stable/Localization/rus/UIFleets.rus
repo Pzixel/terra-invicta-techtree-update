@@ -55,7 +55,7 @@ UI.Fleets.BatteryLine=Батарея:<rcol>{0}</rcol>
 UI.Fleets.NoBatteries=—
 UI.Fleets.RadiatorsLine=Рад.:<rcol>{0}</rcol>
 UI.Fleets.HeatSinkCapacity=Емкость рассеивателей:<rcol>{0} ГДж</rcol>	// GJ = gigajoules
-UI.Fleets.HeatSinkCapacityUnk=Емкость рассеивателей:<rcol>нет данных</rcol>	// GJ = gigajoules
+UI.Fleets.HeatSinkCapacityUnk=Емкость рассеивателей:<rcol>Неизвестно</rcol>	// GJ = gigajoules
 UI.Fleets.NoseWeaponsHeader=Носовое вооружение
 UI.Fleets.HullWeaponsHeader=Корпусное вооружение
 UI.Fleets.UtilityModuleHeader=Технические модули
@@ -63,9 +63,9 @@ UI.Fleets.NoseArmorMaterial=Носовая броня:<rcol>{0} см, {1}</rcol>
 UI.Fleets.ArmorRating=Рейтинг брони / уменьшение урона:<rcol>{0}</rcol>
 UI.Fleets.LateralArmorMaterial=Бортовая броня:<rcol>{0} см, {1}</rcol>
 UI.Fleets.TailArmorMaterial=Кормовая броня:<rcol>{0} см, {1}</rcol>
-UI.Fleets.NoseArmorMaterialunk=Носовая броня:<rcol>нет данных</rcol>
-UI.Fleets.LateralArmorMaterialunk=Бортовая броня:<rcol>нет данных</rcol>
-UI.Fleets.TailArmorMaterialunk=Кормовая броня:<rcol>нет данных</rcol>
+UI.Fleets.NoseArmorMaterialunk=Носовая броня:<rcol>Неизвестно</rcol>
+UI.Fleets.LateralArmorMaterialunk=Бортовая броня:<rcol>Неизвестно</rcol>
+UI.Fleets.TailArmorMaterialunk=Кормовая броня:<rcol>Неизвестно</rcol>
 UI.Fleets.Crew=Экипаж:<rcol>{0}</rcol>
 UI.Fleets.DamConCrew=Аварийная команда:<rcol>{0}</rcol>
 UI.Fleets.DamConCrew.Description=От численности аварийной команды зависит скорость ремонта во время боя. Большая команда может восстанавливать несколько модулей одновременно.

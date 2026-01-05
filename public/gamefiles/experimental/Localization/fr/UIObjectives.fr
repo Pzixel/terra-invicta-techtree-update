@@ -40,7 +40,7 @@ UI.Objectives.CouncilGridCanvas.RecruitBtn.Name=Recruter de nouveaux conseillers
 UI.Objectives.CouncilGridCanvas.RecruitBtn.Desc=La présence de conseillers est cruciale pour atteindre les objectifs de notre faction. Recrutez de nouveaux conseillers dans cet onglet afin de remplir votre conseil. Pour apprendre à développer votre conseil, relisez les cartes situées en bas du conseil.
 
 UI.Objectives.SingleCouncilorDetailCanvas.Missions.Name=Missions disponibles
-UI.Objectives.SingleCouncilorDetailCanvas.Missions.Desc=Cette fenêtre affiche la liste des <h>missions</h> que ce conseiller peut mener. Le symbole visible à droite de chaque mission indique la ressource nécessaire pour effectuer la mission. <br/><br/>La colonne de chiffres à droite des noms des missions indique le nombre de membres de notre conseil à même de mener la mission. Essayez de maintenir l'équilibre au sein du conseil pour pouvoir exécuter les missions nécessaires à la réalisation de nos objectifs.
+UI.Objectives.SingleCouncilorDetailCanvas.Missions.Desc=Cette fenêtre affiche la liste des <h>missions</h> que ce conseiller peut mener. Le symbole visible à droite d'une mission indique la ressource nécessaire pour effectuer la mission. <br/><br/>La colonne de chiffres à droite des noms des missions indique le nombre de membres de notre conseil à même de mener la mission. Essayez de maintenir l'équilibre au sein du conseil pour pouvoir exécuter les missions nécessaires à la réalisation de nos objectifs.
 UI.Objectives.SingleCouncilorDetailCanvas.Attributes.Name=Attributs
 UI.Objectives.SingleCouncilorDetailCanvas.Attributes.Desc=Cette fenêtre affiche les <h>attributs</h> du conseiller. Passez le curseur sur un attribut pour en obtenir plus de détails. Les valeurs des attributs sont comprises entre 0 et 25.
 UI.Objectives.SingleCouncilorDetailCanvas.Incomes.Name=Revenus du conseiller
@@ -60,8 +60,8 @@ UI.Objectives.SingleCouncilorDetailCanvas.Customize.Desc=Cliquez ici pour ouvrir
 UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Name=Destituer un conseiller
 UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Desc=Si un conseiller n'est plus compatible avec nos objectifs, cliquez ici pour le destituer et libérer ainsi une place dans votre conseil. Remplacez-le ensuite par un autre candidat.
 
-UI.Objectives.GeneralControlsCanvas.Intro.Name=Tutoriels de l'interface – Bienvenue !
-UI.Objectives.GeneralControlsCanvas.Intro.Desc=Bienvenue à Terra Invicta ! Découvrez les différents systèmes du jeu grâce à ces tutoriels. <br/><br/>Comme c'est la première fois que vous parcourez l'interface, des boutons de tutoriel de l'interface s'afficheront ici, à droite de votre objectif de tutoriel actuel. Cliquez sur ces boutons pour obtenir des conseils sur l'interface actuellement ouverte.
+UI.Objectives.GeneralControlsCanvas.Intro.Name=Tutoriels de l'interface
+UI.Objectives.GeneralControlsCanvas.Intro.Desc=Bienvenue à Terra Invicta ! Découvrez les différents systèmes du jeu grâce à ces tutoriels. <br/><br/>Comme c'est la première fois que vous parcourez l'interface, des icônes s'afficheront ici, à droite de votre objectif actuel. Cliquez sur ces boutons pour obtenir des conseils sur l'interface actuellement ouverte.
 UI.Objectives.GeneralControlsCanvas.IntroPart2.Name=Pour commencer
 UI.Objectives.GeneralControlsCanvas.IntroPart2.Desc=Cliquez sur l'icône de tutoriel <color=#FFFFFFFF><sprite name=tutorial></color> <h>Introduction</h> pour découvrir l'interface d'utilisation générale de Terra Invicta.
 
@@ -73,14 +73,14 @@ UI.Objectives.GeneralControlsCanvas.PauseMenu.Desc=Accédez ici au <h>menu des p
 UI.Objectives.GeneralControlsCanvas.Resources.Name=Ressources
 UI.Objectives.GeneralControlsCanvas.Resources.Desc=Cette partie de la barre supérieure indique vos ressources et revenus actuels. Passez le curseur sur ces éléments pour plus d'informations. <br/><br/><color=#FFFFFFFF><sprite name=currency></color> L'<h>argent</h>, <color=#FFFFFFFF><sprite name=influence></color> l'<h>influence</h> et <color=#FFFFFFFF><sprite name=ops></color> les <h>opérations</h> sont cruciaux pour réaliser nos objectifs sur Terre. <color=#FFFFFFFF><sprite name=boost></color> La <h>propulsion</h> et le <color=#FFFFFFFF><sprite name=mission_control></color> <h>contrôle de mission</h> permettent de développer nos programmes spatiaux. La <color=#FFFFFFFF><sprite name=research></color> <h>recherche</h> débloque de nouvelles technologies pour notre faction telles que des modules et des armes pour nos vaisseaux et habitats. <color=#FFFFFFFF><sprite name=control_point></color> Les <h>points de contrôle</h> indiquent notre capacité à gérer les affaires de nos nations.
 UI.Objectives.GeneralControlsCanvas.MoneyIncome.Name=Argent
-UI.Objectives.GeneralControlsCanvas.MoneyIncome.Desc=L'<h>argent</h> permet de construire sur Terre des composants nécessaires à nos programmes spatiaux, d'acquérir de nouvelles organisations pour les conseillers, de mener certaines missions financières et d'entretenir nos biens spatiaux. <br/><br/>Obtenez de l'argent grâce au financement national, à la priorité « Butin », aux organisations, aux traits des conseillers, aux modules d'habitat et à la vente de ressources spatiales sur Terre.
+UI.Objectives.GeneralControlsCanvas.MoneyIncome.Desc=L'<h>argent</h> permet de construire sur Terre des composants nécessaires à nos programmes spatiaux, d'acquérir de nouvelles organisations pour les conseillers, de mener certaines missions financières et d'entretenir nos biens spatiaux. <br/><br/>Obtenez de l'argent grâce au financement national, à la priorité Butin, aux organisations, aux traits des conseillers, aux modules d'habitat et à la vente de ressources spatiales sur Terre.
 UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Name=Influence
 UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Desc=L'<h>influence</h> représente les bénéfices politiques et la capacité à influencer les institutions et les populations pour les encourager à poursuivre nos objectifs. <br/><br/>Obtenez de l'influence grâce aux organisations, aux traits des conseillers, aux modules d'habitat et à une opinion publique mondiale favorable aux idéologies de votre faction. Vous en dépenserez tous les mois pour maintenir nos points de contrôle.
 UI.Objectives.GeneralControlsCanvas.OpsIncome.Name=Opérations
 UI.Objectives.GeneralControlsCanvas.OpsIncome.Desc=Les <h>opérations</h> représentent notre capacité à mener des combats et des opérations d'espionnage à petite échelle. <br/><br/>Obtenez des opérations grâce aux organisations, mais aussi grâce aux traits des conseillers et à certains modules d'habitat situés sur des orbites d'interface terrestres.
 UI.Objectives.GeneralControlsCanvas.BoostIncome.Name=Propulsion
 UI.Objectives.GeneralControlsCanvas.BoostIncome.Desc=Chaque point de <h>propulsion</h> représente la capacité à déplacer dix tonnes métriques de matériel depuis la surface de la Terre vers l'orbite basse terrestre par lancement de fusées ou d'autres moyens de transport. La propulsion permet également de transporter des objets vers des destinations plus lointaines, moyennant un certain coût. <br/><br/>Obtenez de la propulsion grâce aux nations dotées d'un programme spatial, mais aussi grâce aux organisations.
-UI.Objectives.GeneralControlsCanvas.MissionControlCap.Name=Contrôle de missions
+UI.Objectives.GeneralControlsCanvas.MissionControlCap.Name=Contrôle de mission
 UI.Objectives.GeneralControlsCanvas.MissionControlCap.Desc=Le <h>contrôle de mission</h> prend en compte tout le personnel et l'équipement technique nécessaires pour soutenir nos opérations spatiales. <br/><br/>Obtenez du contrôle de mission grâce aux installations au sol sur Terre, mais aussi grâce à certaines opérations et certains modules d'habitat. <br/><br/>Si nous n'avons pas assez de contrôle de mission, les autres factions peuvent saisir facilement nos biens spatiaux et nous risquons beaucoup d'accidents. Cette ressource est indispensable pour construire ou acquérir de nouveaux habitats ou vaisseaux. Le surplus de contrôle de mission est converti en revenus de recherche et en argent.
 UI.Objectives.GeneralControlsCanvas.ResearchIncome.Name=Recherche
 UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=La <h>recherche</h> représente les efforts déployés par nos scientifiques et nos ingénieurs. Contrairement aux autres ressources, elle ne s'accumule pas, mais est directement redistribuée selon nos priorités de recherche, elles-mêmes divisées entre les recherches mondiales sur les nouveaux principes et les technologies, et les projets d'ingénierie privés qui ne profitent qu'à notre faction. <br/><br/>Obtenez de la recherche grâce aux nations, aux conseillers, aux organisations et aux modules d'habitat. Une grande partie des conseillers, des organisations et des modules d'habitat octroient des bonus pour certaines catégories de recherche spécifiques. 
@@ -109,7 +109,7 @@ UI.Objectives.GeneralControlsCanvas.Finder.Desc=La fenêtre <h>Rechercher</h> r�
 UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Name=Paramètres de temps du jeu
 UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Desc=Mettez ici le jeu en pause, relancez-le ou modifiez la vitesse de jeu. <br/><br/>Parfois, le jeu restera en pause jusqu'à ce que vous ayez réglé un problème urgent. <h>Passez le curseur sur les commandes pour voir quelle action doit être terminée pour reprendre le cours du temps.</h>
 
-UI.Objectives.NotificationScreenCanvas.NewsFeed.Name=Fil d’actualités
+UI.Objectives.NotificationScreenCanvas.NewsFeed.Name=Fil d'actualités
 UI.Objectives.NotificationScreenCanvas.NewsFeed.NameShort=Actualités
 UI.Objectives.NotificationScreenCanvas.NewsFeed.Desc=Les notifications concernant les événements récents apparaîtront ici, dans le <h>fil d'actualités</h>. Passez le curseur sur une notification pour en lire la description. Cliquez sur le bouton gauche de la souris pour centrer la caméra sur son emplacement ou pour ouvrir la fenêtre correspondante. Cliquez sur le bouton droit de la souris pour éliminer cette actualité de la liste.
 
@@ -146,9 +146,9 @@ UI.Objectives.NationInfoCanvas.CPs.Name=Points de contrôle
 UI.Objectives.NationInfoCanvas.CPs.Desc=Les <h>points de contrôle</h> représentent les centres des pouvoirs politique et économique d'une nation, comme le contrôle législatif ou celui des médias de masse. Les nations peuvent posséder jusqu'à six points de contrôle, selon la taille de leur économie. Passez le curseur sur un point de contrôle pour plus de détails. <br/><br/>L'un des principaux objectifs de votre conseil est de gagner des points de contrôle dans les nations utiles à notre cause. Un symbole de faction affiché sur un point de contrôle indique que cette faction le détient. Un cercle de couleur signifie qu'aucune faction n'a pris ce point de contrôle. <br/><br/>Le point de contrôle le plus à droite d'une nation est son <h>point de contrôle exécutif</h>. Seules les factions qui possèdent déjà au moins un point de contrôle dans la nation peuvent généralement le cibler. En prenant le point de contrôle exécutif d'une nation, une faction prend le contrôle de ses relations étrangères. <br/><br/>Certaines missions de conseillers ciblent directement les points de contrôle. Lorsque vous assignez ces missions, cliquez sur un point de contrôle affiché dans cette fenêtre ou sur le géorama pour le sélectionner comme cible.
 UI.Objectives.NationInfoCanvas.Overview.Name=Vue d'ensemble
 UI.Objectives.NationInfoCanvas.Overview.Desc=Consultez ici les valeurs <color=#FFFFFFFF><sprite name=gov_type></color> <h>Gouvernement</h> et <color=#FFFFFFFF><sprite name=nation_unrest></color> <h>Agitation</h> ainsi que le <color=#FFFFFFFF><sprite name=investments></color> <h>PIB</h> annuel de la nation sélectionnée. Passez le curseur sur un élément pour afficher plus de détails. <br/><br/>Les valeurs Gouvernement et Agitation sont représentées par une valeur allant de 0 à 10. Le PIB est affiché sur une échelle en milliards (Md).
-UI.Objectives.NationInfoCanvas.Military.Name=Vue d’ensemble de l'armée
+UI.Objectives.NationInfoCanvas.Military.Name=Vue d'ensemble de l'armée
 UI.Objectives.NationInfoCanvas.Military.Desc=Consultez ici le niveau de <h>technologie militaire</h> de la nation sélectionnée, sa force navale et l'endurance de son armée, ainsi que sa capacité nucléaire disponible. Passez le curseur sur un élément pour afficher plus de détails. <br/><br/>Découvrez si la nation est en <color=#FFFFFFFF><sprite name=nation_at_war></color> guerre ou en <color=#FFFFFFFF><sprite name=nation_at_peace></color> paix grâce à l'icône en haut à droite.
-UI.Objectives.NationInfoCanvas.Development.Name=Vue d’ensemble du développement
+UI.Objectives.NationInfoCanvas.Development.Name=Vue d'ensemble du développement
 UI.Objectives.NationInfoCanvas.Development.Desc=Consultez ici les détails économiques de la nation sélectionnée et les revenus qu'elle partage avec notre faction si l'on y détient des points de contrôle. En effet, la production d'une nation est distribuée de manière proportionnelle aux factions qui y détiennent des points de contrôle. <br/><br/>La production d'une nation dépend de ses <color=#FFFFFFFF><sprite name=investments></color> <h>points d'investissement</h>, de son <color=#FFFFFFFF><sprite name=currency></color> <h>financement</h>, de sa <color=#FFFFFFFF><sprite name=research></color> <h>recherche mensuelle</h>, de sa <color=#FFFFFFFF><sprite name=boost></color> <h>propulsion mensuelle</h> et de son <color=#FFFFFFFF><sprite name=mission_control></color> <h>contrôle de mission</h>. Passez le curseur sur une icône à gauche pour afficher plus de détails. <br/><br/>Si la nation sélectionnée fait partie d'une fédération, vous pourrez également consulter ici, dans une colonne à part, la part de financement et de propulsion de la fédération allouée à la nation. Lors du calcul de la part des revenus de la nation destinée à notre faction, sont prises en compte les valeurs de la fédération et non celles de la nation. 
 
 UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Name=Points d'investissement
@@ -166,14 +166,14 @@ UI.Objectives.NationInfoCanvas.Boost.Desc=Consultez ici la production mensuelle 
 UI.Objectives.NationInfoCanvas.MissionControl.Name=Contrôle de missions
 UI.Objectives.NationInfoCanvas.MissionControl.Desc=Ces valeurs indiquent les points de <h>contrôle de mission</h> détenus par la nation et le maximum qu'elle peut fournir.
 
-UI.Objectives.NationInfoCanvas.People.Name=Vue d’ensemble de la population
+UI.Objectives.NationInfoCanvas.People.Name=Vue d'ensemble de la population
 UI.Objectives.NationInfoCanvas.People.Desc=Consultez ici des informations concernant le peuple de la nation et son bien-être, indiquées par plusieurs valeurs qui reflètent sa <h>population</h>, une valeur qui reflète sa <h>durabilité environnementale</h> et trois valeurs qui reflètent sa <h>démographie</h>. Le diagramme indique quant à lui l'<h>opinion publique</h> de la nation au sujet des différentes factions. Passez le curseur sur un élément pour plus de détails.
 
 UI.Objectives.NationInfoCanvas.Education.Name=Éducation
 UI.Objectives.NationInfoCanvas.Education.Desc=La valeur <color=#FFFFFFFF><sprite name=education> </color><h>Éducation</h> d'une nation est calculée selon le nombre moyen d'années de scolarité de ses citoyens. Les nations dont le niveau d'éducation est plus élevé sont plus actives dans le domaine de la recherche et plus résistantes à la propagande extrême, mais obtiennent moins de cohésion de la priorité Unité.
 
 UI.Objectives.NationInfoCanvas.Cohesion.Name=Cohésion
-UI.Objectives.NationInfoCanvas.Cohesion.Desc=La <color=#FFFFFFFF><sprite name=culture></color> <h>cohésion</h> d'une nation représente le niveau d'unité ou de conflit au sein de sa population. Une valeur élevée signifie qu'une société est unifiée et qu'elle tolère peu toute déviation par rapport à l'idéal de la nation. Une valeur moyenne indique une société diversifiée, souffrant de conflits internes, mais ayant une contre-culture saine et créative. Une valeur moyenne à basse indique un degré élevé de polarisation politique. Enfin, la valeur la plus basse signifie que la population est fragmentée, voire tribale. <br/><br/>Les valeurs élevées permettent de contenir l'agitation et d'augmenter la capacité de la nation à résister à l'occupation, les valeurs moyennes offrent un bonus en termes de recherche nationale, ce qui représente un excellent (mais tumultueux) « marché des idées », tandis que les valeurs basses augmentent rapidement l'agitation. <br/><br/>La cohésion d'une nation peut diminuer en raison de plusieurs facteurs : fortes inégalités, anocratie, présence de nombreuses régions ou d'une importante population, destruction d'armées ou fossé notable entre l'opinion publique et l'idéologie des propriétaires de points de contrôle. <br/><br/>La cohésion peut augmenter en cas de guerres, d'autocratie et grâce à la priorité Unité. Le niveau de démocratie d'une nation a également une influence sur la cohésion, en la tirant vers une valeur moyenne.
+UI.Objectives.NationInfoCanvas.Cohesion.Desc=La <color=#FFFFFFFF><sprite name=culture></color> <h>cohésion</h> d'une nation représente le niveau d'unité ou de conflit au sein de sa population. Une valeur élevée signifie qu'une société est unifiée et qu'elle tolère peu toute déviation par rapport à l'idéal de la nation. Une valeur moyenne indique une société diversifiée, souffrant de conflits internes, mais ayant une contre-culture saine et créative. Une valeur moyenne à basse indique un degré élevé de polarisation politique. Enfin, la valeur la plus basse signifie que la population est fragmentée, voire tribale. <br/><br/>Les valeurs élevées permettent de contenir l'agitation et d'augmenter la capacité de la nation à résister à l'occupation, les valeurs moyennes offrent un bonus en termes de recherche nationale, ce qui représente un excellent (mais tumultueux) marché des idées, tandis que les valeurs basses augmentent rapidement l'agitation. <br/><br/>La cohésion d'une nation peut diminuer en raison de plusieurs facteurs : fortes inégalités, anocratie, présence de nombreuses régions ou d'une importante population, destruction d'armées ou fossé notable entre l'opinion publique et l'idéologie des propriétaires de points de contrôle. <br/><br/>La cohésion peut augmenter en cas de guerres, d'autocratie et grâce à la priorité Unité. Le niveau de démocratie d'une nation a également une influence sur la cohésion, en la tirant vers une valeur moyenne.
 
 UI.Objectives.NationInfoCanvas.PublicOpinion.Name=Opinion publique
 UI.Objectives.NationInfoCanvas.PublicOpinion.Desc=Ce graphique montre l'état de l'<h>opinion publique</h> au sein de cette nation envers les extraterrestres. Le fait de soutenir l'idéologie d'une faction confère à cette dernière un revenu d'influence, revenu qui lui confère à son tour des bonus lorsqu'elle tente d'obtenir et de maintenir le contrôle d'une nation grâce aux points de contrôle. <br/><br/>La mission <h>Campagne publique</h> renversera l'opinion d'une nation en notre faveur. Le fait de commettre des <h>atrocités</h> fera basculer au contraire l'opinion en notre défaveur.
@@ -182,21 +182,21 @@ UI.Objectives.NationInfoCanvas.PerCapitaGDP.Name=PIB par habitant
 UI.Objectives.NationInfoCanvas.PerCapitaGDP.Desc=Le <color=#FFFFFFFF><sprite name=per_capita_GDP></color> <h>PIB par habitant</h> correspond au produit intérieur brut d'une nation (la parité du pouvoir d'achat) divisé par sa population. Il représente la situation économique d'un citoyen moyen de cette nation. Les nations dont le PIB par habitant est faible sont soumises à une plus grande agitation, et ce tant que les besoins de leur population ne sont pas satisfaits. <br/><br/>Investissez dans la priorité Économie pour accroître le PIB. Les conflits, la perte de population et le changement climatique font partie des facteurs susceptibles de réduire cette valeur.
 
 UI.Objectives.NationInfoCanvas.Inequality.Name=Inégalité
-UI.Objectives.NationInfoCanvas.Inequality.Desc=La valeur <color=#FFFFFFFF><sprite name=inequality></color> <h>Inégalité</h> d'une nation mesure la répartition des richesses et des revenus dans la nation. Une valeur élevée traduit une classe moyenne faible. L'inégalité augmente peu dans le cas d'une activité économique normale (la priorité Économie) ou beaucoup en cas de corruption (la priorité Butin). Les régions riches en ressources peuvent également faire augmenter l'inégalité. <br/><br/>Une forte inégalité réduit la cohésion, la nation se divisant entre riches et démunis. Elle peut être contrée en investissant dans la priorité Providence.
+UI.Objectives.NationInfoCanvas.Inequality.Desc=La valeur <color=#FFFFFFFF><sprite name=inequality></color> <h>Inégalité</h> d'une nation mesure la répartition des richesses et des revenus dans la nation. Une valeur élevée traduit une classe moyenne faible. L'inégalité augmente peu dans le cas d'une activité économique normale (priorité Économie) ou beaucoup en cas de corruption (priorité Butin). Les régions riches en ressources peuvent également faire augmenter l'inégalité. <br/><br/>Une forte inégalité réduit la cohésion, la nation se divisant entre riches et démunis. Elle peut être contrée en investissant dans la priorité Providence.
 
 UI.Objectives.NationInfoCanvas.Tabs.Name=Onglets de la nation
 UI.Objectives.NationInfoCanvas.Tabs.Desc=Cliquez sur ces onglets pour obtenir plus de détails sur la nation sélectionnée.
 
 UI.Objectives.NationInfoCanvas.Priorities.Name=Priorités de la nation
 UI.Objectives.NationInfoCanvas.Priorities.NameShort=Priorités
-UI.Objectives.NationInfoCanvas.Priorities.Desc=Paramétrez ici les <h>priorités</h> pour chaque point de contrôle détenu par notre faction dans la nation. Les priorités d'une nation détermineront le développement de cette nation dans le temps. Par exemple, investir dans la priorité <h>Providence</h> réduit les inégalités d'une nation.
-UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Name=Points d’investissement et priorités
+UI.Objectives.NationInfoCanvas.Priorities.Desc=Paramétrez ici les <h>priorités</h> pour chaque point de contrôle détenu par notre faction dans la nation. Les priorités d'une nation détermineront le développement de cette nation dans le temps. Par exemple, investissez dans la priorité <h>Providence</h> pour réduire les inégalités d'une nation.
+UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Name=Points d'investissement et priorités
 UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Desc=Les points d'investissement de la nation sont répartis de manière égale entre les points de contrôle, puis en fonction des paramètres spécifiques à chaque priorité. 
-UI.Objectives.NationInfoCanvas.PrioritesGDP.Name=PIB et points d’investissement
+UI.Objectives.NationInfoCanvas.PrioritesGDP.Name=PIB et points d'investissement
 UI.Objectives.NationInfoCanvas.PrioritesGDP.Desc=Le PIB d'une nation régit le nombre de points d'investissement qu'elle peut dépenser. Augmentez le PIB d'une nation pour augmenter les points d'investissement à allouer dans les priorités.
 UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Name=Achever les priorités
 UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Desc=Les points d'investissement remplissent les jauges de priorité d'une nation. Certains effets se déclenchent lorsque les jauges sont remplies, comme l'augmentation du PIB par habitant (<h>Économie</h>) ou le déploiement d'une nouvelle armée (<h>Construire une armée</h>). <br/><br/>Lorsqu'une jauge de priorité est remplie, le surplus de points d'investissement est réinvesti.
-UI.Objectives.NationInfoCanvas.PrioritesCycler.Name=Jauge de priorités 
+UI.Objectives.NationInfoCanvas.PrioritesCycler.Name=Jauge de priorité 
 UI.Objectives.NationInfoCanvas.PrioritesCycler.Desc=Utilisez les boutons gauche et droit de la souris sur ces cases pour accorder plus ou moins d'importance à une priorité en particulier dans chaque point de contrôle détenu par notre faction et paramétrer ainsi les points d'investissement alloués par la nation à cette priorité.
 UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Name=Appliquer à tous les points de contrôle
 UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Desc=Pour copier la distribution des points d'une colonne dans tous les autres points de contrôle d'une nation lorsque notre faction en détient plusieurs, cliquez sur le symbole de notre faction en haut de la colonne d'une priorité.
@@ -237,7 +237,7 @@ UI.Objectives.IntelScreenCanvas.AlienThreat.NameShort=Menace
 UI.Objectives.IntelScreenCanvas.AlienThreat.Name=Indicateur extraterrestre de menace
 UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=Cet indicateur donne la meilleure estimation de nos services de renseignement concernant la menace que représente notre faction du point de vue des extraterrestres. Elle se fonde sur les données issues de notre surveillance des groupes pro-extraterrestres et de l'activité visible des extraterrestres dans le système solaire. <br/><br/>Nous supposons que la visibilité et l'ampleur de notre présence dans l'espace, mesurées par l'utilisation de notre contrôle de mission, ainsi que les actions hostiles de notre part contre les extraterrestres et leurs alliés sur Terre, augmentent le degré de préoccupation des extraterrestres à notre sujet. Si notre niveau de menace atteint un certain seuil, nous pouvons nous attendre à ce que les extraterrestres attaquent nos intérêts sur Terre et dans l'espace. Ils pourraient également répliquer ponctuellement aux actions de nos agents contre eux, mais pourraient aussi cesser de s'inquiéter à notre sujet si nous ne nous opposons pas directement à eux ou à leurs alliés sur Terre pendant un certain temps. <br/><br/>Nos analystes insistent sur le fait que cette estimation est imprécise. Si les extraterrestres mènent des actions à notre encontre ou si nous parvenons à discuter directement avec l'un d'entre eux, nous pourrons corriger nos calculs. <br/><br/>L'estimation deviendra entièrement rouge si nous concluons que les extraterrestres livrent une guerre totale contre nos intérêts.
 
-UI.Objectives.IntelScreenCanvas.FactionOverview.Name=Vue d’ensemble des factions
+UI.Objectives.IntelScreenCanvas.FactionOverview.Name=Vue d'ensemble des factions
 UI.Objectives.IntelScreenCanvas.FactionOverview.NameShort=Factions
 UI.Objectives.IntelScreenCanvas.FactionOverview.Desc=L'onglet <h>Factions</h> de la fenêtre Renseignements affiche tous les détails découverts sur les factions adversaires terrestres. <br/><br/><h>Maintenez Maj et cliquez sur un onglet afin d'afficher cet onglet-là pour toutes les factions.</h>
 UI.Objectives.IntelScreenCanvas.FactionCouncilors.Name=Conseillers des factions
@@ -247,7 +247,7 @@ UI.Objectives.IntelScreenCanvas.FactionResources.Desc=L'onglet <h>Ressources</h>
 UI.Objectives.IntelScreenCanvas.FactionObjectives.Name=Objectifs de la faction
 UI.Objectives.IntelScreenCanvas.FactionObjectives.Desc=L'onglet <h>Objectifs</h> affiche les objectifs de la faction si vous les avez découverts.
 UI.Objectives.IntelScreenCanvas.FactionRelations.Name=Relations entre les factions
-UI.Objectives.IntelScreenCanvas.FactionRelations.Desc=L'onglet <h>Relations</h> affiche l'attitude de la faction envers toutes les autres ainsi que les <h>pactes de non-agression</h> et les accords d'<h>échange des renseignements</h> éventuellement signés. <br/><br/>Pour signer des accords, améliorez vos relations avec une faction et ouvrez la fenêtre <h>Négociations commerciales</h>, accessible dès que l'un de vos conseillers a terminé la mission <h>Contact diplomatique</h> auprès de cette nation. <br/><br/>Pour annuler un pacte de non-agression ou un accord d'échange de renseignements signé avec une faction, cliquez sur le bouton situé à côté de notre faction.
+UI.Objectives.IntelScreenCanvas.FactionRelations.Desc=L'onglet <h>Relations</h> affiche l'attitude de la faction envers toutes les autres ainsi que les <h>pactes de non-agression</h> et les accords d'<h>échange de renseignements</h> éventuellement signés. <br/><br/>Pour signer des accords, améliorez vos relations avec une faction et ouvrez la fenêtre <h>Négociations commerciales</h>, accessible dès que l'un de vos conseillers a terminé la mission <h>Contact diplomatique</h> auprès de cette nation. <br/><br/>Pour annuler un pacte de non-agression ou un accord d'échange de renseignements signé avec une faction, cliquez sur le bouton situé à côté de notre faction.
 UI.Objectives.IntelScreenCanvas.FactionTech.Name=Technologies de la faction
 UI.Objectives.IntelScreenCanvas.FactionTech.Desc=L'onglet <h>Technologie</h> affiche toutes les informations que nous avons recueillies sur les travaux de recherche d'une faction, dont les projets qu'elle a terminés.
 
@@ -271,15 +271,15 @@ UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Desc=Les valeurs affichées da
 UI.Objectives.IntelScreenCanvas.SpacebodyResources.Name=Ressources disponibles
 UI.Objectives.IntelScreenCanvas.SpacebodyResources.Desc=Consultez ici les ressources à exploiter sur le corps céleste. Il ne s'agira que d'estimations tant que vous n'avez pas prospecté le corps céleste grâce à une sonde ou un vaisseau spatial. Les barres indiquent le degré d'abondance de la ressource et un point d'interrogation indique une possible présence. Notez que les corps célestes inhabitables n'offrent aucune ressource à exploiter.
 UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Name=Fenêtre de lancement terrestre
-UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=Consultez ici l'état de la fenêtre de lancement actuelle, c'est-à-dire la dernière variation enregistrée du temps nécessaire pour se rendre sur le corps céleste depuis la Terre, qui dépend de la distance entre les objets sur leurs orbites respectives. <br/><br/><h>La meilleure fenêtre de lancement survient lorsque le pourcentage est au plus bas.</h> Passez le curseur sur une valeur pour plus de détails.
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=Consultez ici l'état de la fenêtre de lancement actuelle, c'est-à-dire la dernière variation enregistrée du temps nécessaire pour se rendre sur le corps céleste depuis la Terre, qui dépend de la distance entre les objets sur leurs orbites respectives.<br/><br/><h>La meilleure fenêtre de lancement survient lorsque le pourcentage est au plus bas.</h> Passez le curseur sur une valeur pour plus de détails.
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Name=Centrer sur l'objet
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Desc=Cliquez ici pour centrer la caméra sur l'emplacement du corps céleste.
 
 UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Name=Paramètres du planificateur de transferts
 UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Desc=Modifiez ici les paramètres d'un transfert hypothétique.
 
-UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Name=Origine et destination
-UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Desc=Configurez ici le point d'<h>origine</h> et la <h>destination</h> du transfert. Vous pouvez utiliser les positions de nos flottes ou sélectionner deux autres points pour planifier un futur transfert.
+UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Name=Point de départ et destination
+UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Desc=Configurez ici <h>point de départ</h> et la <h>destination</h> du transfert. Vous pouvez utiliser les positions de nos flottes ou sélectionner deux autres points pour planifier un futur transfert.
 
 UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Name=Accélération et Delta-V
 UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Desc=Configurez ici l'accélération et le Delta-V pour le transfert, dont les valeurs sont déterminées par les moteurs des vaisseaux de la flotte. Vous pouvez également ajuster ces valeurs pour simuler les données d'un vaisseau que vous comptez construire afin d'observer les changements de trajectoires possibles.
@@ -294,9 +294,9 @@ UI.Objectives.HabScreenCanvas.Bases.Desc=Cochez cette case pour afficher les bas
 UI.Objectives.HabScreenCanvas.Stations.Name=Stations
 UI.Objectives.HabScreenCanvas.Stations.NameShort=Stations
 UI.Objectives.HabScreenCanvas.Stations.Desc=Cochez cette case pour afficher les stations dans la liste d'habitats ci-dessous.
-UI.Objectives.HabScreenCanvas.FactionFilter.Name=Filtre « Factions »
+UI.Objectives.HabScreenCanvas.FactionFilter.Name=Filtre Factions
 UI.Objectives.HabScreenCanvas.FactionFilter.Desc=Filtrez la liste d'habitats par faction propriétaire grâce à ce menu déroulant.
-UI.Objectives.HabScreenCanvas.LocationFilter.Name=Filtre « Emplacement »
+UI.Objectives.HabScreenCanvas.LocationFilter.Name=Filtre Emplacement
 UI.Objectives.HabScreenCanvas.LocationFilter.Desc=Filtrez la liste d'habitats par localisation dans le système solaire grâce à ce menu déroulant.
 UI.Objectives.HabScreenCanvas.ManageHabBtn.Name=Gérer les habitats
 UI.Objectives.HabScreenCanvas.ManageHabBtn.Desc=Sélectionnez un habitat contrôlé par notre faction et cliquez sur le bouton qui apparaît ici pour accéder à la fenêtre de gestion des habitats et modifier l'habitat (ajouter ou remplacer des modules, par exemple).
@@ -391,8 +391,8 @@ UI.Objectives.FleetScreenCanvas.DesignUtility.Desc=L'onglet <h>Modules utilitair
 UI.Objectives.FleetScreenCanvas.DesignRadiator.Name=Radiateurs
 UI.Objectives.FleetScreenCanvas.DesignRadiator.Desc=L'onglet <h>Radiateurs</h> répertorie tous les modules de radiateur disponibles. Ces derniers sont indispensables au maintien d'une température fonctionnelle à l'intérieur du vaisseau. Vous pouvez les rétracter lors des combats si le vaisseau est doté de dissipateurs thermiques pour les remplacer. <h>Une mauvaise gestion de la chaleur peut causer des dégâts internes au vaisseau et entraîner une défaillance catastrophique.</h>
 UI.Objectives.FleetScreenCanvas.DesignBattery.Name=Batteries //defunct
-UI.Objectives.FleetScreenCanvas.DesignBattery.Desc=Les batteries sont indispensables pour stocker l'énergie afin de pouvoir l’utiliser selon les besoins des différents systèmes. //defunct
-UI.Objectives.FleetScreenCanvas.DesignPower.Name=Centrale d’énergie
+UI.Objectives.FleetScreenCanvas.DesignBattery.Desc=Les batteries sont indispensables pour stocker l'énergie afin de pouvoir l'utiliser selon les besoins des différents systèmes. //defunct
+UI.Objectives.FleetScreenCanvas.DesignPower.Name=Centrales d'énergie
 UI.Objectives.FleetScreenCanvas.DesignPower.Desc=L'onglet <h>Centrales d'énergie</h> répertorie toutes les centrales d'énergie disponibles. Ces dernières sont indispensables pour générer l'énergie nécessaire au moteur et à d'autres systèmes primaires des vaisseaux. Les centrales d'énergie sont grisées si elles sont incompatibles avec le moteur installé.
 UI.Objectives.FleetScreenCanvas.DesignDrive.Name=Propulseurs
 UI.Objectives.FleetScreenCanvas.DesignDrive.Desc=L'onglet <h>Moteurs</h> répertorie tous les moteurs disponibles. Ces derniers sont indispensables pour propulser nos vaisseaux dans l'espace. De nombreux moteurs requièrent un type de centrale d'énergie précis pour pouvoir être installés et sont grisés s'ils sont incompatibles avec la centrale d'énergie installée. Vous pouvez installer jusqu'à six propulseurs sur un moteur, chacun augmentant la poussée du vaisseau. Vous pouvez également augmenter le nombre de réservoirs de propergol pour augmenter la capacité de Delta-V.
@@ -439,14 +439,14 @@ UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Desc=
 UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Name=Recherche mondiale
 UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Desc=Les trois panneaux dans la rangée supérieure affichent la <h>recherche mondiale</h>, c'est-à-dire les recherches en cours à l'échelle mondiale sur différentes <h>technologies</h>. Il s'agit de grands principes scientifiques dont les bénéfices seront partagés par l'humanité tout entière. Toutes les factions peuvent choisir d'investir une partie ou la totalité de leurs revenus de recherche dans ces technologies, mais la faction ayant le plus contribué à une technologie choisira la suivante.
 UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Name=Projets d'ingénierie de faction
-UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=La rangée inférieure affiche les <h>projets</h> actifs de notre faction. Contrairement à la recherche mondiale, ces projets sont internes à votre faction, mais consomment aussi nos revenus de recherche. <br/><br/>Les projets apportent des avantages tangibles, comme des ressources, de nouveaux modules de vaisseau ou d'habitat, ou encore l'accès à de nouvelles armes. <br/><br/>La disponibilité des projets est principalement déterminée par les recherches effectuées à l'échelle mondiale. Plus vous contribuez à la recherche mondiale, plus vous avez de chances d'avoir un accès rapide aux projets qu'elle débloque. <br/><br/><h>Vous devez acquérir une organisation et un module d'habitat qui fournissent des projets pour pouvoir gérer plusieurs projets simultanément.</h>
-UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Name=Jauge de priorité des recherches
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=La rangée inférieure affiche les <h>projets</h> actifs de notre faction. Contrairement à la recherche mondiale, ces projets sont internes à votre faction, mais consomment aussi nos revenus de recherche. <br/><br/>Les projets apportent des avantages tangibles, comme des ressources, de nouveaux modules de vaisseau ou d'habitat, ou encore l'accès à de nouvelles armes. <br/><br/>La disponibilité des projets est principalement déterminée par les recherches effectuées à l'échelle mondiale. Plus vous contribuez à la recherche mondiale, plus vous avez de chances d'avoir un accès rapide aux projets qu'elle débloque. <br/><br/><h>Certains projets sont cruciaux pour atteindre la victoire, mais d'autres ne sont utiles que dans certaines situations particulières : menez donc la recherche associée uniquement si elle répond à un besoin pressant ou augmente considérablement vos capacités. Il n'est pas nécessaire de mener toutes les recherches pour terminer le jeu. </h><br/><br/>Vous devez acquérir une organisation et un module d'habitat qui fournissent des projets pour pouvoir gérer plusieurs projets simultanément.
+UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Name=Jauge de priorité de recherche
 UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Desc=Voici une <h>jauge de priorité</h>. Utilisez les boutons gauche et droit de la souris pour augmenter ou réduire la priorité de chaque recherche active. Nos revenus de recherche sont proportionnellement répartis entre les différentes recherches selon leur niveau de priorité. <br/><br/>Notre faction obtient des bonus de recherche quand elle contribue à plusieurs technologies et projets en même temps.
 UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Name=Progression des recherches
 UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Desc=Ces barres de progression indiquent les revenus de recherche déjà alloués à chaque technologie ou projet et ce qu'il reste pour les terminer. <br/><br/>La recherche mondiale indiquera combien de revenus de recherche chaque faction a alloués et quelle faction est actuellement en tête.
 UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Name=Afficher les détails
 UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Desc=Cliquez sur ce bouton pour découvrir ce qu'apportera la recherche dans la technologie ou le projet.
-UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Name=Arbre des technologies
+UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Name=Arbre des recherches
 UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Desc=Cliquez sur ce bouton pour ouvrir l'onglet <h>Arbre des recherches</h> et accéder à la technologie en cours de recherche. L'arbre des recherches vous permet de prévoir les prochaines recherches à effectuer. <br/><br/>Vous pouvez également accéder à l'arbre des recherches depuis l'onglet en haut de la fenêtre.
 
 UI.Objectives.NationsScreenCanvas.NationsSort.Name=Tri
@@ -489,7 +489,7 @@ UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Name=Barre de commandement d
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Desc=La <h>barre de commandement de la flotte</h> permet de donner plusieurs <h>ordres</h> à <h>tous nos vaisseaux en même temps</h>. <br/><br/>Les ordres sont des instructions que nos vaisseaux tenteront de suivre jusqu'à exécution ou jusqu'à ce que de nouveaux ordres soient donnés. Certains paramètres peuvent empêcher un vaisseau de suivre un ordre : des dégâts, un manque de Delta-V... <br/><br/>Passez le curseur sur un bouton d'ordre pour afficher plus de détails.
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Name=Désigner la cible principale
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=Cliquez sur le bouton d'ordre <h>Désigner la cible principale</h> pour désigner un ennemi comme cible principale des armes défensives de nos vaisseaux. Les armes à missiles doivent avoir une cible principale désignée pour tirer. <br/><br/>Pour désigner un ennemi comme cible principale de notre flotte, vous pouvez également <h>maintenir {0} et cliquer dessus</h>.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=Cliquez sur le bouton d'ordre <h>Désigner la cible principale</h> pour désigner un ennemi comme cible principale des armes défensives de nos vaisseaux. Les armes à missiles doivent avoir une cible principale désignée pour tirer. <br/><br/>Pour désigner un ennemi comme cible principale de notre flotte, vous pouvez également <h>maintenir ({0}) et cliquer dessus</h>.
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Name=Désélectionner la cible principale
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Desc=Cliquez sur le bouton d'ordre <h>Désélectionner la cible principale</h> pour supprimer la cible actuelle et laisser les vaisseaux de votre flotte tirer à volonté.
@@ -534,7 +534,7 @@ UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Name=Détails du vaisseau sé
 UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Desc=Consultez ici toutes les informations relatives au vaisseau allié sélectionné.
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Name=Barre de commandement du vaisseau
-UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Desc=La <h>barre de commandement du vaisseau</h> permet de donner plusieurs <h>ordres</h> <h>au vaisseau sélectionné ou à un groupe de vaisseaux</h>. <br/><br/>Les commandes présentes dans cette barre sont en partie les mêmes que celles de la <h>barre de commandement de la flotte</h> ci-dessus. <br/><br/>Passez le curseur sur un bouton d'ordre pour afficher plus de détails.
+UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Desc=La <h>barre de commandement du vaisseau</h> permet de donner plusieurs <h>ordres</h> <h>au vaisseau sélectionné ou à un groupe de vaisseaux</h>. <br/><br/>Les ordres présents dans cette barre sont en partie les mêmes que ceux de la <h>barre de commandement de la flotte</h> ci-dessus. <br/><br/>Passez le curseur sur un bouton d'ordre pour afficher plus de détails.
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Name=Bélier
 UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Desc=Cliquez sur le bouton d'ordre <h>Bélier</h> pour autoriser ce vaisseau à entrer en collision avec les vaisseaux ennemis. Si vous avez désigné une cible principale, le vaisseau tentera activement de lui foncer dessus, infligeant ainsi d'importants dégâts aux deux vaisseaux. Cet ordre a un coût en <color=#FFFFFFFF><sprite name=influence></color> points d'influence pour convaincre l'équipage de se sacrifier. <br/><br/>Cliquez sur le bouton d'ordre <h>Annuler le bélier</h> pour ne pas faire entrer le vaisseau en collision avec sa cible ou avec les vaisseaux ennemis. Notez que les <color=#FFFFFFFF><sprite name=influence></color> points d'influence ne seront pas remboursés.
@@ -548,14 +548,14 @@ UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Desc=Cliquez sur le bo
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Name=Température du vaisseau
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Desc=Cet indicateur reflète le niveau de chaleur stockée dans les dissipateurs thermiques du vaisseau. La chaleur est évacuée quand les radiateurs sont déployés. Lorsqu'un vaisseau atteint son niveau de chaleur maximal, il subit des dégâts internes. Si possible, ses radiateurs sont alors automatiquement déployés pour évacuer la chaleur. <br/><br/><h>Si la chaleur n'est pas gérée correctement, le vaisseau connaîtra une défaillance catastrophique</h>.
 
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=Batterie du vaisseau
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=Cet indicateur reflète le niveau de charge de la batterie du vaisseau sélectionné. Certaines armes consomment de la batterie lorsqu'elles tirent, mais se rechargent grâce à la centrale d'énergie. <br/><br/><h>Surveillez la consommation d'énergie et le niveau de charge du vaisseau afin qu'il puisse combattre à pleine puissance dans les moments cruciaux.</h>
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=Énergie du vaisseau
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=Cet indicateur reflète le niveau d'énergie du vaisseau sélectionné. Tous les vaisseaux sont dotés d'un réacteur assez puissant pour alimenter ses systèmes et ses armes. Si le réacteur subit des dégâts, les systèmes peuvent cesser de fonctionner. Pensez donc à installer des batteries.<br/><br/><h>Surveillez la consommation d'énergie et le niveau de charge du vaisseau afin qu'il puisse combattre à pleine puissance dans les moments cruciaux.</h>
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Name=Delta-V du vaisseau
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Desc=Cet indicateur reflète le Delta-V disponible pour ce vaisseau pendant ce combat. <br/><br/><h>Les vaisseaux d'une flotte stockent assez de Delta-V pour pouvoir se déplacer après le combat.</h>
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Name=Armes de coque du vaisseau
-UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Desc=Consultez ici les <h>armes de coque</h> du vaisseau sélectionné. Les armes de coque sont placées par paires sur la coque du vaisseau et pivotent pour tirer dans toutes les directions. Passez le curseur sur une arme pour afficher plus de détails. <br/><br/><h>Utilisez les boutons gauche et droit de la souris</h> sur l'icône de mode de tir des armes pour choisir parmi les différents modes de tir disponibles. <br/><br/>Pour appliquer le même mode de tir à toutes les armes du même type sur tous les vaisseaux actifs de notre flotte, <h>maintenez Ctrl et cliquez sur l'icône</h>. <br/><br/>Pour appliquer le même mode de tir à toutes les armes du même type sur le vaisseau sélectionné, <h>maintenez Maj et cliquez sur l'icône</h>. <br/><br/>Pour appliquer le même mode de tir à une même arme sur tous les vaisseaux actifs de la même classe que le vaisseau sélectionné, <h>maintenez Alt et cliquez sur l'icône</h>. <br/><br/>Pour appliquer le même mode de tir à toutes les armes du même type sur tous les vaisseaux actifs de la même classe que le vaisseau sélectionné, <h>maintenez Ctrl+Alt et cliquez sur l'icône</h>. <br/><br/>Pour appliquer le même mode de tir à toutes les armes du même type sur tous les vaisseaux du groupe, <h>maintenez Ctrl+Shift et cliquez sur l'icône</h> (uniquement si vous avez sélectionné un groupe de vaisseaux).
+UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Desc=Consultez ici les <h>armes de coque</h> du vaisseau sélectionné. Les armes de coque sont placées par paires sur la coque du vaisseau et pivotent pour tirer dans toutes les directions. Passez le curseur sur une arme pour afficher plus de détails. <br/><br/><h>Utilisez les boutons gauche et droit de la souris</h> sur l'icône de mode de tir des armes pour choisir parmi les différents modes de tir disponibles. <br/><br/><h>Pour appliquer le même mode de tir à toutes les armes du même type sur tous les vaisseaux actifs de notre flotte, maintenez Ctrl et cliquez sur l'icône</h>. <br/><br/><h>Pour appliquer le même mode de tir à toutes les armes du même type sur le vaisseau sélectionné, maintenez Maj et cliquez sur l'icône</h>. <br/><br/><h>Pour appliquer le même mode de tir à une même arme sur tous les vaisseaux actifs de la même classe que le vaisseau sélectionné, maintenez Alt et cliquez sur l'icône</h>. <br/><br/><h>Pour appliquer le même mode de tir à toutes les armes du même type sur tous les vaisseaux actifs de la même classe que le vaisseau sélectionné, maintenez Ctrl+Alt et cliquez sur l'icône</h>. <br/><br/><h>Pour appliquer le même mode de tir à toutes les armes du même type sur tous les vaisseaux du groupe, maintenez Ctrl+Shift et cliquez sur l'icône</h> (uniquement si vous avez sélectionné un groupe de vaisseaux).
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Name=Armes de proue du vaisseau
 UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Desc=Consultez ici les <h>armes de proue</h> du vaisseau. Elles tirent en arc de cercle depuis l'avant du vaisseau. <br/><br/>Pour choisir le mode de tir des armes de coque, utilisez les mêmes commandes que pour les armes de proue.
@@ -563,17 +563,17 @@ UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Desc=Consultez ici les <h>
 UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Name=Rapport de dégâts du vaisseau
 UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Desc=Consultez ici les <h>dégâts</h> infligés aux systèmes et aux modules du vaisseau. Passez le curseur sur un point d'emport pour afficher plus de détails.
 
-UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Name=Destruction d’un vaisseau
+UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Name=Destruction d'un vaisseau
 UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Desc=Un vaisseau est détruit lorsque l'<h>intégrité structurelle</h> de sa proue, de son centre ou de sa queue subit trop de dégâts.
 
 UI.Objectives.SpaceCombatCanvas.CameraPan.Name=Déplacer la caméra
-UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=Pour déplacer la caméra sur le plan horizontal, utilisez les touches <h>W</h>, <h>A</h>, <h>S</h> et <h>D</h>. <br/><br/>Alternativement, <h>maintenez Ctrl et le bouton central de la souris puis faites glisser le curseur</h>.
+UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=Pour déplacer la caméra sur le plan horizontal, utilisez les touches <h>({0})</h>, <h>({1})</h>, <h>({2})</h>, et <h>({3})</h>. <br/><br/>Alternativement, <h>maintenez Ctrl et le bouton central de la souris puis faites glisser le curseur</h>.
 
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Name=Tourner la caméra
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Desc=Pour faire pivoter la caméra, <h>maintenez le bouton droit de la souris et faites glisser le curseur</h>.
 
 UI.Objectives.SpaceCombatCanvas.CameraFly.Name=Déplacer la caméra
-UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=Pour déplacer la caméra dans l'espace de combat, <h>maintenez le bouton droit de la souris et utilisez les touches W, A, S et D</h>.
+UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=Pour déplacer la caméra dans l'espace de combat, <h>maintenez le bouton droit de la souris et utilisez les touches ({0}), ({1}), ({2}), et ({3})</h>.
 
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Name=Ajuster la hauteur de la caméra
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Desc=Pour ajuster la hauteur de la caméra, <h>maintenez le bouton central de la souris et faites glisser le curseur</h>. Vous pouvez également incliner la caméra grâce à ces commandes.
@@ -599,7 +599,7 @@ UI.Objectives.SpaceCombatCanvas.WaypointsRotation.Desc=Si vous appliquez trop de
 UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Name=Ajuster la poussée au point de cheminement
 UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Desc=<h>Maintenez la touche {0} et le bouton gauche de la souris puis faites glisser</h> le point de cheminement pour ajuster la poussée à appliquer au vaisseau. Ce dernier s'alignera dans la direction du point de cheminement avant d'être propulsé par son moteur principal.
 
-UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Name=Ajuster la hauteur du point de cheminement
+UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Name=Ajuster la hauteur au point de cheminement
 UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Desc=<h>Maintenez la touche {0} et le bouton gauche de la souris puis faites glisser</h> le point de cheminement pour ajuster la <h>hauteur</h> à appliquer au vaisseau. Les combats spatiaux ayant lieu dans un espace 3D, ajustez la hauteur d'un vaisseau pour changer sa trajectoire sur le plan vertical. 
 
 UI.Objectives.SpaceCombatCanvas.WaypointsReset.Name=Réinitialiser les points de cheminement
@@ -621,7 +621,7 @@ UI.Objectives.SpaceCombatCanvas.WaypointsTip.Name=Manœuvrer les vaisseaux
 UI.Objectives.SpaceCombatCanvas.WaypointsTip.Desc=Pour contrôler efficacement des vaisseaux, prenez en compte leur système d'armes, leur blindage et leur manœuvrabilité ainsi que les projectiles en approche, la position des ennemis et l'état général de l'espace de combat.
 
 UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Name=Sélectionner un groupe
-UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Desc=Pour sélectionner plusieurs vaisseaux, <h>maintenez Maj et cliquez</h> dessus dans l'espace de combat. Le dernier vaisseau sélectionné sera mis en évidence dans l'espace de combat par deux cadres et ses informations seront affichées dans la fenêtre Détails du vaisseau. <br/><br/>Vous pouvez également sélectionner un groupe de vaisseaux depuis la liste de vaisseaux. <br/><br/>Pour retirer un vaisseau de la sélection, <h>maintenez Ctrl et cliquez</h> dessus.
+UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Desc=Pour sélectionner plusieurs vaisseaux, <h>maintenez Maj et cliquez</h> dessus dans l'espace de combat. Le dernier vaisseau sélectionné sera mis en évidence dans l'espace de combat par deux cadres et ses informations seront affichées dans la fenêtre Détails du vaisseau. <br/><br/>Vous pouvez également sélectionner un groupe de vaisseaux depuis la liste de vaisseaux. <br/><br/><h>Pour retirer un vaisseau de la sélection, maintenez Ctrl et cliquez</h> dessus.
 
 UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Name=Sélectionner par cadre
 UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Desc=Pour sélectionner plusieurs vaisseaux, vous pouvez également utiliser le <h>cadre de sélection</h>. <h>Maintenez le bouton gauche de la souris et déplacez le curseur</h> pour créer un cadre autour des vaisseaux de votre choix.
@@ -629,7 +629,7 @@ UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Desc=Pour sélectionner plusi
 UI.Objectives.SpaceCombatCanvas.ControlGroups.Name=Groupes de contrôle
 UI.Objectives.SpaceCombatCanvas.ControlGroups.Desc=Lorsque vous avez sélectionné un groupe de vaisseaux, <h>maintenez Ctrl et appuyez sur une touche numérique (de 0 à 9)</h> pour assigner les vaisseaux sélectionnés à un <h>groupe de contrôle</h>, lui-même assigné à la touche numérique choisie. <br/><br/><h>Appuyez sur la touche numérique ou sur le bouton correspondant en haut de la fenêtre</h> pour sélectionner à nouveau les vaisseaux actifs du groupe. Vous pouvez assigner un vaisseau à plusieurs groupes de contrôle.
  
-UI.Objectives.SpaceCombatCanvas.GroupCommands.Name=Commandes de groupe
+UI.Objectives.SpaceCombatCanvas.GroupCommands.Name=Ordres de groupe
 UI.Objectives.SpaceCombatCanvas.GroupCommands.Desc=Lorsque vous sélectionnez un groupe de vaisseaux, la <h>barre de commandement du vaisseau</h> est remplacée par la <h>barre de commandement du groupe</h>. Vous pouvez alors donner des ordres au groupe sélectionné.
 
 UI.Objectives.SpaceCombatCanvas.MultiShipMovemement.Name=Déplacement de groupe
@@ -648,7 +648,7 @@ UI.Objectives.NaturalSpaceObjectOps.1.Name=Opérations spatiales
 UI.Objectives.NaturalSpaceObjectOps.1.NameShort=Opérations
 UI.Objectives.NaturalSpaceObjectOps.1.Desc=Lorsque vous sélectionnez un corps céleste ou un point de Lagrange, les opérations spatiales disponibles seront affichées ici. Ces dernières vous permettent généralement d'explorer et de coloniser le corps céleste grâce à des éléments lancés depuis la Terre grâce à de la propulsion. Ces éléments n'apparaîtront pas dans le géorama. <br/><br/>Pour activer ces opérations terrestres, vous devrez peut-être dézoomer jusqu'à ce que la carte de la région disparaisse.
 UI.Objectives.NaturalSpaceObjectOps.2.Name=Sondes
-UI.Objectives.NaturalSpaceObjectOps.2.Desc=Plusieurs technologies mondiales « Destination [...] » débloquent des parties du système solaire à explorer. Pour construire une base à la surface d'un corps céleste, vous devez d'abord prospecter celui-ci avec une sonde ou une flotte correctement équipée afin de découvrir ses potentiels emplacements de base. <br/><br/>Vous pouvez lancer des sondes ici, grâce à l'opération <h>Lancer une sonde chercheuse</h>, ou depuis <h>l'onglet Système solaire de la fenêtre Renseignements</h>. Les sondes peuvent être lancées depuis la Terre ou depuis le <color=#FFFFFFFF><sprite name=construction_shipyard></color> chantier spatial d'un habitat à proximité, si vous en avez construit un.
+UI.Objectives.NaturalSpaceObjectOps.2.Desc=Plusieurs technologies mondiales Destination [...] débloquent des parties du système solaire à explorer. Pour construire une base à la surface d'un corps céleste, vous devez d'abord le prospecter avec une sonde ou une flotte correctement équipée afin de découvrir ses potentiels emplacements de base. <br/><br/>Vous pouvez lancer des sondes ici, grâce à l'opération <h>Lancer une sonde de prospection</h>, ou depuis <h>l'onglet Système solaire de la fenêtre Renseignements</h>. Les sondes peuvent être lancées depuis la Terre ou depuis le <color=#FFFFFFFF><sprite name=construction_shipyard></color> chantier spatial d'un habitat à proximité, si vous en avez construit un.
 UI.Objectives.NaturalSpaceObjectOps.3.Name=Fonder des habitats
 UI.Objectives.NaturalSpaceObjectOps.3.Desc=Lorsque vous avez débloqué les recherches nécessaires liées à la construction et à l'exploration, vous pouvez également fonder ici des <h>habitats</h> (des stations et des bases). Pour cela, lancez des éléments depuis la Terre ou depuis des habitats à proximité dotés de modules de construction. Lorsque vous utilisez de la propulsion, le temps de trajet depuis la Terre est pris en compte : la construction d'éléments destinés aux objets lointains peut ainsi être longue.
 
@@ -671,7 +671,7 @@ UI.Objectives.TransferOp.1.NameShort=Transferts
 UI.Objectives.TransferOp.1.Desc=Dans le <h>planificateur de trajectoire</h>, envoyez l'une de vos flottes vers une autre orbite, station ou flotte. <br/><br/>Choisissez la destination de la flotte dans le menu déroulant ci-dessus ou sélectionnez une cible dans la vue du système solaire.
 
 UI.Objectives.TransferOp.6.Name=Profils de poussée
-UI.Objectives.TransferOp.6.Desc=Si les systèmes de propulsion de nos vaisseaux le permettent, plusieurs trajectoires vous sont proposées dans le <h>planificateur de trajectoire</h> lorsque vous sélectionnez une cible de transfert. <br/><br/>Ces différentes options dépendent de l'accélération et du Delta-V les plus faibles des vaisseaux de notre flotte et peuvent donc changer si vous retirez des vaisseaux de la flotte. <br/><br/>Pour les trajets interplanétaires, les options peuvent varier considérablement selon les positions actuelle et future du point d'origine et de la destination. Il peut donc être judicieux d'attendre un alignement plus favorable, une meilleure fenêtre de lancement, pour économiser du Delta-V. Le planificateur propose donc également des options prenant en compte ce temps d'attente.
+UI.Objectives.TransferOp.6.Desc=Si les systèmes de propulsion de nos vaisseaux le permettent, plusieurs trajectoires vous sont proposées dans le <h>planificateur de trajectoire</h> lorsque vous sélectionnez une cible de transfert. <br/><br/>Ces différentes options dépendent de l'accélération et du Delta-V les plus faibles des vaisseaux de notre flotte et peuvent donc changer si vous retirez des vaisseaux de la flotte. <br/><br/>Pour les trajets interplanétaires, les options peuvent varier considérablement selon les positions actuelle et future du point de départ et de la destination. Il peut donc être judicieux d'attendre un alignement plus favorable, une meilleure fenêtre de lancement, pour économiser du Delta-V. Le planificateur propose donc également des options prenant en compte ce temps d'attente.
 
 UI.Objectives.TransferOp.2.Name=Delta-V
 UI.Objectives.TransferOp.2.Desc=Les transferts consomment le Delta-V de la flotte. Le Delta-V mesure la portée d'un vaisseau, ou encore sa capacité à changer de vitesse avant d'épuiser sa réserve de propergol. Avec un Delta-V insuffisant, une flotte peut ne pas réussir à quitter le champ de gravité local ou être si lente que le transfert n'est plus profitable. <br/><br/>Si plusieurs trajectoires sont disponibles entre l'emplacement actuel de la flotte et sa destination, un curseur apparaîtra ici pour réduire la durée en utilisant du Delta-V. <br/><br/>Lorsque vous choisissez un profil de poussée, la trajectoire sera affichée dans la vue du système solaire.
@@ -680,13 +680,13 @@ UI.Objectives.TransferOp.3.Name=Gestion du Delta-V
 UI.Objectives.TransferOp.3.Desc=Réapprovisionnez vos flottes dans les habitats dotés d'un module de <color=#FFFFFFFF><sprite name=construction_shipyard></color> chantier spatial ou de <color=#FFFFFFFF><sprite name=supply></color> dépôt d'approvisionnement. Assurez-vous que vos flottes ont assez de Delta-V pour en atteindre un. Conservez aussi assez de Delta-V si vous prévoyez de mener la flotte au combat.
 
 UI.Objectives.TransferOp.4.Name=Manœuvres spéciales
-UI.Objectives.TransferOp.4.Desc=Vous pouvez faire exécuter deux manœuvres spéciales à vos vaisseaux sur leur trajectoire. <br/><br/>L'<h>aérofreinage</h> n'est réalisable qu'autour des corps célestes entourés d'une atmosphère. Cette manœuvre permet d'économiser du Delta-V en utilisant les forces de frottement exercées par l'atmosphère de la planète, mais risque d'endommager les vaisseaux qui ne sont pas construits pour ce genre d'opération. <br/><br/>Le <h>survol</h> permet à la flotte d'utiliser l'attraction d'un corps céleste sans s'y arrêter. Lorsque la flotte sera arrivée au corps céleste, vous devrez sélectionner une nouvelle destination.
+UI.Objectives.TransferOp.4.Desc=Vous pouvez faire exécuter deux manœuvres spéciales à vos vaisseaux sur leur trajectoire. <br/><br/><h>L'aérofreinage</h> n'est réalisable qu'autour des corps célestes entourés d'une atmosphère. Cette manœuvre permet d'économiser du Delta-V en utilisant les forces de frottement exercées par l'atmosphère de la planète, mais risque d'endommager les vaisseaux qui ne sont pas construits pour ce genre d'opération. <br/><br/><h>Le survol</h> permet à la flotte d'utiliser l'attraction d'un corps céleste sans s'y arrêter. Lorsque la flotte sera arrivée au corps céleste, vous devrez sélectionner une nouvelle destination.
 
 UI.Objectives.TransferOp.5.Name=Combat spatial
 UI.Objectives.TransferOp.5.Desc=L'une des manières d'engager un combat spatial est d'envoyer notre flotte en direction de celle d'une autre faction. À l'arrivée de notre flotte ou de celle de l'autre faction, trois options s'offriront à vous : <h>attaquer</h> la flotte ennemie, <h>accepter</h> le combat si l'ennemi décide d'attaquer, ou essayer d'<h>éviter</h> le combat.
 
 UI.Objectives.SpaceBodyDetail.1.Name=Détails du corps céleste
-UI.Objectives.SpaceBodyDetail.1.NameShort=Corps spatial
+UI.Objectives.SpaceBodyDetail.1.NameShort=Corps céleste
 UI.Objectives.SpaceBodyDetail.1.Desc=Consultez ici les informations de base concernant le corps céleste sélectionné : ses données physiques, son potentiel minier, la population qui s'y trouve et le niveau d'habitat qu'il peut supporter. <br/><br/>Plus la gravité d'un corps céleste et la vitesse d'échappement sont importantes, plus il est coûteux d'y construire des mines et de lancer des vaisseaux depuis sa surface.
 
 UI.Objectives.SpaceBodyDetail.2.Name=Potentiel minier
@@ -700,7 +700,7 @@ UI.Objectives.SpaceBodyDetail.4.Desc=Si le corps céleste est habitable, l'ongle
 
 UI.Objectives.LagrangePoint.1.Name=Détails du point de Lagrange
 UI.Objectives.LagrangePoint.1.NameShort=Points-L
-UI.Objectives.LagrangePoint.1.Desc=Les points de Lagrange sont des points créés dans l’espace par l'interaction de la gravité de corps spatiaux proches les uns des autres. Ils peuvent servir d'ancrages stables pour les flottes et les stations.
+UI.Objectives.LagrangePoint.1.Desc=Les points de Lagrange sont des points créés dans l'espace par l'interaction de la gravité de corps spatiaux proches les uns des autres. Ils peuvent servir d'ancrages stables pour les flottes et les stations.
 
 UI.Objectives.Hab.1.Name=Détails de l'habitat
 UI.Objectives.Hab.1.NameShort=Habitat
@@ -710,61 +710,61 @@ UI.Objectives.EnemyFleet.1.Name=Détails de la flotte
 UI.Objectives.EnemyFleet.1.NameShort=Flotte ennemie
 UI.Objectives.EnemyFleet.1.Desc=Consultez ici les informations concernant la flotte ennemie sélectionnée, dont sa localisation, ses opérations en cours, son Delta-V et son accélération. <br/><br/>Cliquez sur l'image de la flotte pour ouvrir la liste des flottes appartenant à la faction qui détient celle-ci.
 
-UI.Tutorial.VO.1=Bonjour, commandant. Je suis Fiona Ayoade, votre cheffe d’état-major. Je vais à présent faire le point sur notre situation.
-UI.Tutorial.VO.2=Notre conseil est composé d’individus qui comptent parmi les plus capables et les plus talentueux de la Terre. Ces personnes, aptes à accomplir de grandes choses, se tiennent à présent disposées à suivre vos ordres.
-UI.Tutorial.VO.3=Si nous sommes effectivement confrontés à une menace d’invasion, nous devons commencer à nous organiser dès maintenant. Nous devrons établir une coopération mondiale d’une ampleur sans précédent dans l’histoire de l’Humanité. Je recommande de commencer par demander à nos conseillers de gagner des soutiens parmi les positions de pouvoir stratégiques à travers la planète.
-UI.Tutorial.VO.4=Les rapports continuent de nous parvenir, mais il est établi qu’un objet extraterrestre vient de s’écraser sur notre planète. Nous devrions envoyer un conseiller enquêter sur le site de l’atterrissage dès que possible.
-UI.Tutorial.VO.5=Voici votre principale interface de commandement. D’ici, vous pourrez suivre l’évolution de la situation sur Terre et au-delà, envoyer des conseillers en mission, diriger la recherche et le développement et bien plus encore. Prenez le temps de vous familiariser avec elle.
-UI.Tutorial.VO.6=Les informations concernant le conseiller sélectionné apparaissent en bas à droite de l’écran. Les missions qu’il ou elle peut accomplir s’affichent en bas au centre de l’écran.
-UI.Tutorial.VO.7=Il sera essentiel pour nous de ne pas perdre nos objectifs de vue. J’actualiserai cet écran avec nos objectifs actuels.
+UI.Tutorial.VO.1=Bonjour, commandant. Je suis Fiona Ayoade, votre cheffe d'état-major. Je vais à présent faire le point sur notre situation.
+UI.Tutorial.VO.2=Notre conseil est composé d'individus qui comptent parmi les plus capables et les plus talentueux de la Terre. Ces personnes, aptes à accomplir de grandes choses, se tiennent à présent disposées à suivre vos ordres.
+UI.Tutorial.VO.3=Si nous sommes effectivement confrontés à une menace d'invasion, nous devons commencer à nous organiser dès maintenant. Nous devrons établir une coopération mondiale d'une ampleur sans précédent dans l'histoire de l'Humanité. Je recommande de commencer par demander à nos conseillers de gagner des soutiens parmi les positions de pouvoir stratégiques à travers la planète.
+UI.Tutorial.VO.4=Les rapports continuent de nous parvenir, mais il est établi qu'un objet extraterrestre vient de s'écraser sur notre planète. Nous devrions envoyer un conseiller enquêter sur le site de l'atterrissage dès que possible.
+UI.Tutorial.VO.5=Voici votre principale interface de commandement. D'ici, vous pourrez suivre l'évolution de la situation sur Terre et au-delà, envoyer des conseillers en mission, diriger la recherche et le développement et bien plus encore. Prenez le temps de vous familiariser avec elle.
+UI.Tutorial.VO.6=Les informations concernant le conseiller sélectionné apparaissent en bas à droite de l'écran. Les missions qu'il ou elle peut accomplir s'affichent en bas au centre de l'écran.
+UI.Tutorial.VO.7=Il sera essentiel pour nous de ne pas perdre nos objectifs de vue. J'actualiserai cet écran avec nos objectifs actuels.
 UI.Tutorial.VO.8=Nos conseillers viendront faire leur rapport sitôt leur mission accomplie. Vous pourrez leur attribuer de nouvelles missions lors de la prochaine phase de mission.
 UI.Tutorial.VO.9=Nos chercheurs vous demandent de leur indiquer dans quelle direction orienter leurs travaux.
 UI.Tutorial.VO.10=Voici l'écran de recherche. Les trois tableaux supérieurs montrent ce sur quoi travaille actuellement la communauté scientifique mondiale. Les tableaux du bas indiquent les projets d'ingénierie du conseil sur lesquels nous travaillons de notre côté. Nous pouvons définir pour nos chercheurs les champs d'études qu'ils devraient considérer comme prioritaires.
-UI.Tutorial.VO.10a=Voici l’arbre des technologies. D’après les extrapolations de nos chercheurs, voici à quoi devrait nous mener chacune de nos différentes avancées scientifiques.
+UI.Tutorial.VO.10a=Voici l'arbre des recherches. D'après les extrapolations de nos chercheurs, voici à quoi devrait nous mener chacune de nos différentes avancées scientifiques.
 UI.Tutorial.VO.10b=Voici l'arbre des recherches. D'après les extrapolations de nos chercheurs, voici à quoi devrait nous mener chacune de nos différentes avancées scientifiques. Honnêtement, commandant, si je le regarde trop longtemps, j'ai mal à la tête. Apparemment, c'est la version simplifiée.
-UI.Tutorial.VO.10c=Et voici la version « complète »…
-UI.Tutorial.VO.10d=Commandant, cela fait un moment que vous observez cet arbre des technologies. Vous voulez une tasse de café ?
-UI.Tutorial.VO.10e=Voilà la liste de tous les projets d'ingénierie du conseil sur lesquels nous pouvons travailler à l’heure actuelle.
+UI.Tutorial.VO.10c=Et voici la version complète…
+UI.Tutorial.VO.10d=Commandant, cela fait un moment que vous observez cet arbre des recherches. Vous voulez une tasse de café ?
+UI.Tutorial.VO.10e=Voilà la liste de tous les projets d'ingénierie du conseil sur lesquels nous pouvons travailler à l'heure actuelle.
 UI.Tutorial.VO.10f=Voici les archives des recherches, où vous pourrez trouver des rapports sur les recherches terminées.
 UI.Tutorial.VO.11=Notre conseiller a acquis le soutien de personnes occupant des positions de pouvoir clés dans cette nation. Nous devrions considérer quelles sont nos priorités pour cette nation.
-UI.Tutorial.VO.12=Nos conseillers sont très sollicités Je recommande d’élargir notre conseil.
-UI.Tutorial.VO.13=À mesure que nous étendons l’envergure de nos opérations, nous aurons bientôt besoin du soutien d’une grande nation.
+UI.Tutorial.VO.12=Nos conseillers sont très sollicités Je recommande d'élargir notre conseil.
+UI.Tutorial.VO.13=À mesure que nous étendons l'envergure de nos opérations, nous aurons bientôt besoin du soutien d'une grande nation.
 UI.Tutorial.VO.14=Nous devrions nous efforcer de comprendre la situation économique et sociale des nations avec lesquelles nous coopérons afin de pouvoir mieux diriger son développement pour soutenir nos efforts.
-UI.Tutorial.VO.15=Les priorités d’une nation déterminent la manière dont celle-ci évolue au fil du temps. Plus nous obtiendrons de points de contrôle dans cette nation, plus il nous sera facile de définir ses priorités.
-UI.Tutorial.VO.16=N’oubliez pas, commandant, nous avons de nombreux ennemis, et ils ne sont pas tous extraterrestres.
-UI.Tutorial.VO.17=Commandant, j’aimerais vous présenter au conseil. Je vous suggère de passer un peu de temps à faire connaissance avec nos conseillers. Ils sont les piliers de notre organisation.
+UI.Tutorial.VO.15=Les priorités d'une nation déterminent la manière dont celle-ci évolue au fil du temps. Plus nous obtiendrons de points de contrôle dans cette nation, plus il nous sera facile de définir ses priorités.
+UI.Tutorial.VO.16=N'oubliez pas, commandant, nous avons de nombreux ennemis, et ils ne sont pas tous extraterrestres.
+UI.Tutorial.VO.17=Commandant, j'aimerais vous présenter au conseil. Je vous suggère de passer un peu de temps à faire connaissance avec nos conseillers. Ils sont les piliers de notre organisation.
 UI.Tutorial.VO.17a=Voici le dossier de notre conseiller. Il regroupe toutes les missions, attributs, traits, revenus mensuels et organisations de notre conseiller. Chaque conseiller peut exécuter différents types de mission.
-UI.Tutorial.VO.17b=J’ai compilé des dossiers sur les candidats et candidates potentiels à notre conseil, afin de les soumettre à votre examen. Commandant, d’autres factions sont implantées dans de nombreuses nations sur Terre. Si nécessaire, nos conseillers peuvent mener campagne pour réduire leur influence.
+UI.Tutorial.VO.17b=J'ai compilé des dossiers sur les candidats et candidates potentiels à notre conseil, afin de les soumettre à votre examen. Commandant, d'autres factions sont implantées dans de nombreuses nations sur Terre. Si nécessaire, nos conseillers peuvent mener campagne pour réduire leur influence.
 UI.Tutorial.VO.18=Dans le pire des cas, notre seule option sera de déclarer une guerre pour imposer un changement de régime à une autre nation.
-UI.Tutorial.VO.19=Voici l’écran des renseignements. Il contient tous les renseignements que nous avons recueillis sur tout un éventail de sujets. Vous y trouverez notamment les informations dont nous disposons sur les autres grandes factions qui opèrent sur Terre.
-UI.Tutorial.VO.19a=Cette section contient les données que nous avons collectées sur les extraterrestres. Nous continuerons à suivre toutes les activités extraterrestres suspectes et actualiserons notre base de données en conséquence. N’oubliez donc pas de revenir la consulter régulièrement.
-UI.Tutorial.VO.19b=Cette section regroupe les informations qui nous parviennent du monde entier. On y parle notamment du marché des matières premières, des conditions environnementales actuelles, des guerres en cours en ce moment, et de la façon dont nous sommes perçus par l’opinion mondiale.
+UI.Tutorial.VO.19=Voici l'écran des renseignements. Il contient tous les renseignements que nous avons recueillis sur tout un éventail de sujets. Vous y trouverez notamment les informations dont nous disposons sur les autres grandes factions qui opèrent sur Terre.
+UI.Tutorial.VO.19a=Cette section contient les données que nous avons collectées sur les extraterrestres. Nous continuerons à suivre toutes les activités extraterrestres suspectes et actualiserons notre base de données en conséquence. N'oubliez donc pas de revenir la consulter régulièrement.
+UI.Tutorial.VO.19b=Cette section regroupe les informations qui nous parviennent du monde entier. On y parle notamment du marché des matières premières, des conditions environnementales actuelles, des guerres en cours en ce moment, et de la façon dont nous sommes perçus par l'opinion mondiale.
 UI.Tutorial.VO.19c=Cette section regroupe toutes les données connues sur les corps de notre système solaire.
-UI.Tutorial.VO.19d=Cette section s’appelle le planificateur de transferts. Il s’agit d’un outil extrêmement puissant permettant de planifier les voyages à travers le système solaire. Nous pouvons l’utiliser pour prendre des décisions éclairées concernant la conception de nos vaisseaux.
+UI.Tutorial.VO.19d=Cette section s'appelle le planificateur de transferts. Il s'agit d'un outil extrêmement puissant permettant de planifier les voyages à travers le système solaire. Nous pouvons l'utiliser pour prendre des décisions éclairées concernant la conception de nos vaisseaux.
 UI.Tutorial.VO.19e=Cette section présente des données sur les corps célestes que nous avons prospectés. Elle devrait nous permettre de décider où installer nos bases.
 UI.Tutorial.VO.20=Voici l'écran des nations. Ici, vous pouvez suivre de près toutes les nations dans lesquelles nous avons des points de contrôle ou examiner les données de toutes les nations de la Terre. Ces informations devraient nous permettre de diriger au mieux les missions de nos conseillers et de définir les priorités des nations sous notre contrôle.
-UI.Tutorial.VO.20a=L’outil de conception de modèles de priorités nous permet de concevoir des plans de développement nationaux pouvant être facilement réutilisés.
-UI.Tutorial.VO.20b=Cet écran rend compte de nos capacités en termes de points de contrôle. Si nous tentons de gérer plus de points de contrôle que nous ne le pouvons, cela mettra nos opérations sous tension et nous forcera à dépenser de l’influence pour nous assurer du maintien de l’ensemble de ces points.
+UI.Tutorial.VO.20a=L'outil de conception de modèles de priorités nous permet de concevoir des plans de développement nationaux pouvant être facilement réutilisés.
+UI.Tutorial.VO.20b=Cet écran rend compte de nos capacités en termes de points de contrôle. Si nous tentons de gérer plus de points de contrôle que nous ne le pouvons, cela mettra nos opérations sous tension et nous forcera à dépenser de l'influence pour nous assurer du maintien de l'ensemble de ces points.
 UI.Tutorial.VO.21=Compagnies technologiques, cartels et organismes de renseignement. Toutes ces organisations peuvent être utilisées pour nous apporter un soutien important.
 UI.Tutorial.VO.22=Il semblerait que nous ne soyons pas seuls. Les conseillers des autres factions lancent eux aussi des missions partout sur la planète.
-UI.Tutorial.VO.23=Dans la partie gauche de votre interface, se trouve le fil d’actualités. Il vous tiendra informé des événements importants. Des mises à jour urgentes concernant nos opérations apparaîtront également en haut à gauche de votre écran. 
-UI.Tutorial.VO.24=Commandant, on nous signale la présence d’un vaisseau extraterrestre approchant de la Terre.
-UI.Tutorial.VO.25=Commandant, notre contribution aux recherches mondiales nous a donné la possibilité d’orienter les travaux de la communauté scientifique. Quels sont vos ordres ?
+UI.Tutorial.VO.23=Dans la partie gauche de votre interface, se trouve le fil d'actualités. Il vous tiendra informé des événements importants. Des mises à jour urgentes concernant nos opérations apparaîtront également en haut à gauche de votre écran. 
+UI.Tutorial.VO.24=Commandant, on nous signale la présence d'un vaisseau extraterrestre approchant de la Terre.
+UI.Tutorial.VO.25=Commandant, notre contribution aux recherches mondiales nous a donné la possibilité d'orienter les travaux de la communauté scientifique. Quels sont vos ordres ?
 UI.Tutorial.VO.26=Nous aurons besoin de stations de recherche, de quais spatiaux et de centres de ravitaillement. Dès que vous considérerez que nous sommes prêts, nous pourrons nous mettre sur orbite.
-UI.Tutorial.VO.27=Notre station ne nous servira à rien sans générateur d’énergie.
+UI.Tutorial.VO.27=Notre station ne nous servira à rien sans générateur d'énergie.
 UI.Tutorial.VO.28=Le moment est venu de mettre notre station au travail.
 UI.Tutorial.VO.29=Pour pouvoir maintenir une flotte, nous allons devoir mettre en place de larges opérations minières. En lançant une sonde, nous pourrons obtenir des informations cruciales pour notre prospection.
-UI.Tutorial.VO.30=Les complexes miniers sont notre principal moyen d’acquérir des ressources dans l’espace, ce qui nous permettra de construire nos habitats et nos vaisseaux sans devoir dépenser une fortune pour faire monter des matériaux depuis la Terre à l’aide de fusées.
-UI.Tutorial.VO.31=Si nous voulons commencer à construire une flotte de guerre, nous devons tout d’abord construire un quai spatial.
-UI.Tutorial.VO.32=Enfin ! Nous pouvons nous doter d’un peu de force de frappe.
+UI.Tutorial.VO.30=Les complexes miniers sont notre principal moyen d'acquérir des ressources dans l'espace, ce qui nous permettra de construire nos habitats et nos vaisseaux sans devoir dépenser une fortune pour faire monter des matériaux depuis la Terre à l'aide de fusées.
+UI.Tutorial.VO.31=Si nous voulons commencer à construire une flotte de guerre, nous devons tout d'abord construire un quai spatial.
+UI.Tutorial.VO.32=Enfin ! Nous pouvons nous doter d'un peu de force de frappe.
 UI.Tutorial.VO.33=La guerre contre les extraterrestres ne pourra être remportée uniquement sur Terre. Nous devrions continuer à assembler des vaisseaux de guerre pour nous protéger et, dans un deuxième temps, mener la riposte contre les extraterrestres.
-UI.Tutorial.VO.34=Voici l’écran des habitats. D’ici, nous pouvons gérer nos stations orbitales et toutes les bases que nous possédons sur les planètes, lunes et astéroïdes. Cet écran permet également d’examiner toutes les autres stations et bases que nous avons découvertes.
-UI.Tutorial.VO.35=Voici l’écran des flottes. D’ici, nous pouvons examiner l’état de nos flottes et de toutes les autres flottes que nous avons détectées.
-UI.Tutorial.VO.36=À partir de l’outil de conception de vaisseaux, nous pouvons créer de nouvelles classes de vaisseaux ou prévoir le rééquipement de vaisseaux que nous avons déjà construits.
-UI.Tutorial.VO.36a=Les vaisseaux que vous concevez apparaîtront ici. Nous pouvons commander aux habitats dotés d’installations correspondantes de construire des vaisseaux.
+UI.Tutorial.VO.34=Voici l'écran des habitats. D'ici, nous pouvons gérer nos stations orbitales et toutes les bases que nous possédons sur les planètes, lunes et astéroïdes. Cet écran permet également d'examiner toutes les autres stations et bases que nous avons découvertes.
+UI.Tutorial.VO.35=Voici l'écran des flottes. D'ici, nous pouvons examiner l'état de nos flottes et de toutes les autres flottes que nous avons détectées.
+UI.Tutorial.VO.36=À partir de l'outil de conception de vaisseaux, nous pouvons créer de nouvelles classes de vaisseaux ou prévoir le rééquipement de vaisseaux que nous avons déjà construits.
+UI.Tutorial.VO.36a=Les vaisseaux que vous concevez apparaîtront ici. Nous pouvons commander aux habitats dotés d'installations correspondantes de construire des vaisseaux.
 UI.Tutorial.VO.37=Sélectionnez un corps céleste pour afficher des données sur ses propriétés physiques, ses sites miniers et ses orbites, et pouvoir ordonner la construction de stations et de bases.
 UI.Tutorial.VO.38=Lorsque la manière douce ne suffit pas, il faut employer la manière forte.
-UI.Tutorial.VO.39=Le codex contient des informations cruciales sur la manière de gérer au mieux les opérations de notre faction. Si vous avez la moindre question, je vous recommande de consulter le codex. Il sera actualisé à mesure de l’évolution de la situation.
+UI.Tutorial.VO.39=Le codex contient des informations cruciales sur la manière de gérer au mieux les opérations de notre faction. Si vous avez la moindre question, je vous recommande de consulter le codex. Il sera actualisé à mesure de l'évolution de la situation.
 
 UI.Objectives.GeneralControlsCanvas.IntroInterface.NameShort=Intro
 UI.Objectives.GeneralControlsCanvas.IntroInterface.Name=Interface d'utilisation
@@ -777,7 +777,7 @@ UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Name=Vue de la Terre
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Desc=Cliquez sur ce bouton pour centrer la caméra sur la Terre et activer le géorama qui affiche les frontières nationales, les armées et les phénomènes liés aux extraterrestres.
 
 UI.Objectives.GeneralControlsCanvas.Finder2.Name=Recherche 
-UI.Objectives.GeneralControlsCanvas.Finder2.Desc=Cliquez sur ce bouton pour ouvrir la fenêtre <h>Recherche</h> et rechercher différents objets du système solaire ou terrestre par leur nom. Pour ouvrir cette fenêtre, vous pouvez également <h>appuyer sur {0}</h> à tout moment.
+UI.Objectives.GeneralControlsCanvas.Finder2.Desc=Cliquez sur ce bouton pour ouvrir la fenêtre <h>Recherche</h> et rechercher différents objets du système solaire ou terrestre par leur nom. Pour ouvrir cette fenêtre, vous pouvez également <h>appuyer sur ({0})</h> à tout moment.
 
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Name=Définir une alarme
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Desc=Cliquez sur l'horloge du jeu pour ouvrir la fenêtre <h>Définir une alarme</h> et créer des notifications personnalisées qui apparaîtront au moment voulu. Ces alarmes sont également visibles dans le calendrier de notre faction, accessible depuis la fenêtre Conseil.
@@ -789,7 +789,7 @@ UI.Objectives.GeneralControlsCanvas.CloseTutorial.Name=Masquer le tutoriel
 UI.Objectives.GeneralControlsCanvas.CloseTutorial.Desc=Pour masquer temporairement le tutoriel d'une interface, cliquez sur le bouton Masquer. L'icône de <color=#FFFFFFFF><sprite name=tutorial></color> tutoriel apparaîtra près de votre objectif de tutoriel en haut de l'écran.
 
 UI.Objectives.GeneralControlsCanvas.CloseTutorial2.Name=Masquer définitivement le tutoriel
-UI.Objectives.GeneralControlsCanvas.CloseTutorial2.Desc=Pour masquer définitivement le tutoriel d'une interface, cliquez sur le bouton X. Vous pourrez réinitialiser tous les tutoriels d'interface sur le codex.
+UI.Objectives.GeneralControlsCanvas.CloseTutorial2.Desc=Pour masquer définitivement le tutoriel d'une interface, cliquez sur ce bouton. Vous pourrez réinitialiser tous les tutoriels d'interface sur le codex.
 
 UI.Objectives.GeneralControlsCanvas.SpaceResource.Name=Ressources spatiales
 UI.Objectives.GeneralControlsCanvas.SpaceResource.Desc=Cette partie de la barre supérieure indique nos <h>ressources spatiales</h> et nos revenus actuels, qui permettent de développer et d'entretenir nos biens spatiaux sans devoir acheter et faire venir de ressources depuis la Terre, nous faisant ainsi économiser de la <color=#FFFFFFFF><sprite name=boost></color> propulsion. Passez le curseur sur une ressource pour afficher plus de détails. <br/><br/><color=#FFFFFFFF><sprite name=water></color> L'<h>eau</h>, les <color=#FFFFFFFF><sprite name=volatiles></color> <h>explosifs</h>, les <color=#FFFFFFFF><sprite name=metal></color> <h>métaux de base</h>, les <color=#FFFFFFFF><sprite name=metal_noble></color> <h>métaux nobles</h> et les <color=#FFFFFFFF><sprite name=radioactive></color> <h>matériaux fissiles</h> sont des ressources qui proviennent principalement des exploitations minières présentes sur les corps célestes autres que la Terre. Lorsque nous aurons établi notre présence au-delà de la surface terrestre, les revenus provenant de ces ressources seront la clé de notre expansion dans le système solaire.
@@ -885,7 +885,7 @@ UI.Objectives.FleetScreenCanvas.DesignHeader2.Desc=Cliquez sur un onglet en haut
 UI.Objectives.FleetScreenCanvas.DesignDataShipCrew.Name=Équipage
 UI.Objectives.FleetScreenCanvas.DesignDataShipCrew.Desc=L'<h>équipage</h> représente le nombre de membres du personnel à bord d'un vaisseau. Passez le curseur sur l'équipage pour savoir combien de membres peuvent s'occuper des réparations pendant les combats.
 
-UI.Objectives.FleetScreenCanvas.DesignDataSupport.Name=Soutien
+UI.Objectives.FleetScreenCanvas.DesignDataSupport.Name=Entretien
 UI.Objectives.FleetScreenCanvas.DesignDataSupport.Desc=L'<h>entretien</h> est le coût mensuel à payer pour faire fonctionner et entretenir un vaisseau et son équipage. Si ces frais ne sont pas payés, le vaisseau devient plus vulnérable aux tentatives des autres factions de s'en emparer.
 
 UI.Objectives.FleetScreenCanvas.DesignTransferPlanner.Name=Planifier un transfert
@@ -904,7 +904,7 @@ UI.Objectives.FleetScreenCanvas.DesignArmor2.Name=Emplacements de blindage
 UI.Objectives.FleetScreenCanvas.DesignArmor2.Desc=Il existe trois emplacements de blindage en bas de chaque modèle : le blindage de la <h>queue</h> à gauche, le blindage <h>latéral</h> au milieu et le blindage de la <h>proue</h> à droite. Chaque emplacement octroie des points de blindage qui augmentent l'épaisseur du blindage jusqu'à une valeur maximale. Chaque point de blindage supplémentaire augmente également la masse du vaisseau. Notez qu'un point de blindage latéral est beaucoup plus lourd qu'un point de blindage de proue ou de queue, car il doit couvrir une surface nettement plus étendue.
 
 UI.Objectives.NotificationScreenCanvas.NewsFeed2.Name=Supprimer les actualités
-UI.Objectives.NotificationScreenCanvas.NewsFeed2.Desc=Cliquez sur le bouton X pour supprimer tous les éléments du fil d'actualités.
+UI.Objectives.NotificationScreenCanvas.NewsFeed2.Desc=Cliquez sur ce bouton pour supprimer tous les éléments du fil d'actualités.
 
 UI.Objectives.NotificationScreenCanvas.TimerFeed.Name=Fil d'événements
 UI.Objectives.NotificationScreenCanvas.TimerFeed.Desc=Certaines notifications, telles que celles qui informent qu'un module d'habitat a été construit ou qu'une mission <h>Défense des intérêts</h> est sur le point d'expirer, peuvent également apparaître dans le <h>fil d'événements</h> près de la barre de navigation.
@@ -919,7 +919,7 @@ UI.Objectives.FleetScreenCanvas.ConstructOverview.Desc=Gérez la construction de
 UI.Objectives.FleetScreenCanvas.ConstructShipyards.Name=Files d'attente de construction
 UI.Objectives.FleetScreenCanvas.ConstructShipyards.Desc=Consultez ici la file d'attente des <color=#FFFFFFFF><sprite name=construction_shipyard></color> <h>chantiers spatiaux</h> disponibles (des modules qui permettent de construire des vaisseaux dans un habitat). <br/><br/>Un habitat doté de plusieurs chantiers spatiaux installés et alimentés a plusieurs files d'attente.
 
-UI.Objectives.FleetScreenCanvas.ConstructFilter.Name=Filtre « Emplacement »
+UI.Objectives.FleetScreenCanvas.ConstructFilter.Name=Filtre Emplacement
 UI.Objectives.FleetScreenCanvas.ConstructFilter.Desc=Filtrez la liste de chantiers spatiaux par emplacement grâce à ce menu déroulant.
 
 UI.Objectives.FleetScreenCanvas.ConstructTabs.Name=Construire et rééquiper
@@ -961,7 +961,7 @@ UI.Objectives.CouncilRecruiting.RecruitTraits.Name=Traits
 UI.Objectives.CouncilRecruiting.RecruitTraits.Desc=Les <h>traits</h> sont des caractéristiques spéciales et des modificateurs qui affectent les attributs, les revenus et d'autres aspects d'un candidat. Un grand nombre d'entre eux confère des bonus supplémentaires pour les missions tandis que d'autres causent des inconvénients qui peuvent limiter le candidat. <br/><br/>Passez le curseur sur un trait pour plus d'informations.
 
 UI.Objectives.CouncilRecruiting.RecruitMissions.Name=Missions du candidat
-UI.Objectives.CouncilRecruiting.RecruitMissions.Desc=Cette fenêtre affiche la liste des <h>missions</h> que ce candidat peut mener. Le symbole visible à droite de chaque mission indique la ressource nécessaire pour effectuer la mission. <br/><br/>La colonne de chiffres à droite des noms des missions indique le nombre de membres de notre conseil à même de mener la mission. Cherchez des candidats qui peuvent mener des missions que nos conseillers actuels ne peuvent pas accomplir pour avoir un conseil équilibré.
+UI.Objectives.CouncilRecruiting.RecruitMissions.Desc=Cette fenêtre affiche la liste des <h>missions</h> que ce candidat peut mener. Le symbole visible à droite d'une mission indique la ressource nécessaire pour effectuer la mission. <br/><br/>La colonne de chiffres à droite des noms des missions indique le nombre de membres de notre conseil à même de mener la mission. Cherchez des candidats qui peuvent mener des missions que nos conseillers actuels ne peuvent pas accomplir pour avoir un conseil équilibré.
 
 UI.Objectives.CouncilRecruiting.RecruitData.Name=Informations sur le candidat
 UI.Objectives.CouncilRecruiting.RecruitData.Desc=Consultez ici les informations de base du candidat telles que son apparence, sa profession, sa ville d'origine et le coût en <color=#FFFFFFFF><sprite name=influence></color> <h>points d'influence</h> de son recrutement.
@@ -1021,7 +1021,7 @@ UI.Objectives.HabScreenCanvas.HabManagementInfo3.Desc=Consultez ici les informat
 UI.Objectives.HabScreenCanvas.HabManagementInfo4.Name=Retour à la liste d'habitats
 UI.Objectives.HabScreenCanvas.HabManagementInfo4.Desc=Cliquez sur ce bouton pour retourner à la liste d'habitats.
 
-UI.Objectives.HabScreenCanvas.Decommission.Name=Mettre l’habitat hors service
+UI.Objectives.HabScreenCanvas.Decommission.Name=Mettre l'habitat hors service
 UI.Objectives.HabScreenCanvas.Decommission.Desc=Cliquez sur ce bouton pour désactiver l'habitat et le détruire. <h>Cette action ne peut pas être annulée et l'habitat sera vulnérable aux prises de contrôle ennemies jusqu'à sa destruction complète.</h>
 
 UI.Objectives.HabScreenCanvas.Productivity.Name=Potentiel minier
@@ -1068,7 +1068,7 @@ UI.Objectives.Ledger.Header.Name=Tri
 UI.Objectives.Ledger.Header.Desc=Cliquez sur une icône dans le titre d'une colonne pour trier les entrées du registre selon l'avantage correspondant. Les icônes mises en évidence en rouge indiquent que cet avantage a un coût, tandis que les autres indiquent des revenus.
 
 UI.Objectives.Ledger.Assets.Name=Biens du registre
-UI.Objectives.Ledger.Assets.Desc=Cette colonne répertorie les biens de notre faction. Cliquez sur un bien pour voir d'où viennent ses revenus et ses dépenses. <br/><br/>L'entrée « Totaux » affiche les sommes des revenus et des dépenses de tous les biens de notre faction. Le QG de notre faction fournit également un revenu de base pour certaines ressources, revenu qui peut augmenter à mesure que notre faction se développe.
+UI.Objectives.Ledger.Assets.Desc=Cette colonne répertorie les biens de notre faction. Cliquez sur un bien pour voir d'où viennent ses revenus et ses dépenses. <br/><br/>L'entrée Totaux affiche les sommes des revenus et des dépenses de tous les biens de notre faction. Le QG de notre faction fournit également un revenu de base pour certaines ressources, revenu qui peut augmenter à mesure que notre faction se développe.
 
 UI.Objectives.Ledger.Controls.Name=Commandes
 UI.Objectives.Ledger.Controls.Desc=Cliquez sur ces boutons pour agrandir ou réduire toutes les entrées.
@@ -1139,18 +1139,18 @@ UI.Objectives.IntelScreenCanvas.FactionNations.Desc=Cliquez sur ce bouton pour i
 
 UI.Objectives.IntelScreenCanvas.AlienOverview.Name=Extraterrestres
 UI.Objectives.IntelScreenCanvas.AlienOverview.NameShort=Extraterrestres
-UI.Objectives.IntelScreenCanvas.AlienOverview.Desc=L'onglet <h>Extraterrestres</h> de la fenêtre Renseignements répertorie les informations que nous avons recueillies sur la menace extraterrestre et les activités liées.
+UI.Objectives.IntelScreenCanvas.AlienOverview.Desc=L'onglet <h>Extraterrestres</h> de la fenêtre Renseignements répertorie les informations que nous avons recueillies sur la menace extraterrestre et les activités qui y sont liées.
 
-UI.Objectives.IntelScreenCanvas.GlobalOverview.Name=Renseignements (Terre)
-UI.Objectives.IntelScreenCanvas.GlobalOverview.NameShort=Mondial
-UI.Objectives.IntelScreenCanvas.GlobalOverview.Desc=L'onglet <h>Renseignements terrestres</h> fournit des informations sur des facteurs liés à la <h>Terre</h>.
+UI.Objectives.IntelScreenCanvas.GlobalOverview.Name=Terre
+UI.Objectives.IntelScreenCanvas.GlobalOverview.NameShort=Terre
+UI.Objectives.IntelScreenCanvas.GlobalOverview.Desc=L'onglet <h>Terre</h> de la fenêtre Renseignements fournit des informations sur des facteurs liés à la <h>Terre</h>.
 
 UI.Objectives.IntelScreenCanvas.SpacebodyOverview.NameShort=Système solaire
-UI.Objectives.IntelScreenCanvas.SpacebodyOverview.Name=Renseignements (système solaire)
-UI.Objectives.IntelScreenCanvas.SpacebodyOverview.Desc=L'onglet <h>Renseignements (système solaire)</h> répertorie tous les corps célestes du système solaire et fournit des informations sur chacun.
+UI.Objectives.IntelScreenCanvas.SpacebodyOverview.Name=Système solaire
+UI.Objectives.IntelScreenCanvas.SpacebodyOverview.Desc=L'onglet <h>Système solaire</h> de la fenêtre Renseignements répertorie tous les corps célestes du système solaire et fournit des informations sur chacun.
 
 UI.Objectives.IntelScreenCanvas.SpacebodyFilters.Name=Filtres
-UI.Objectives.IntelScreenCanvas.SpacebodyFilters.Desc=Découvrez ici différentes options pour filtrer la liste des corps célestes du système solaire : par <h>statut de prospection</h>, par <h>localisation</h>, par <h>faction présente</h> ou par <h>nom</h>.
+UI.Objectives.IntelScreenCanvas.SpacebodyFilters.Desc=Découvrez ici différentes options pour filtrer la liste des corps célestes du système solaire : par <h>niveau de prospection</h>, par <h>localisation</h>, par <h>faction présente</h> ou par <h>nom</h>.
 
 UI.Objectives.IntelScreenCanvas.SpacebodyDescriptions.Name=Descriptions
 UI.Objectives.IntelScreenCanvas.SpacebodyDescriptions.Desc=Consultez dans ces colonnes les caractéristiques du corps céleste. <br/><br/>Découvrez son type, mais aussi les ressources spatiales qui s'y trouvent dans son <h>profil minier</h>.
@@ -1158,8 +1158,8 @@ UI.Objectives.IntelScreenCanvas.SpacebodyDescriptions.Desc=Consultez dans ces co
 UI.Objectives.IntelScreenCanvas.SpacebodyOrbit.Name=Orbites
 UI.Objectives.IntelScreenCanvas.SpacebodyOrbit.Desc=Consultez ici la distance moyenne entre les corps célestes et le corps autour duquel ils orbitent. Les corps célestes qui n'orbitent pas autour du soleil sont immédiatement à la suite du corps autour duquel ils orbitent dans la liste.
 
-UI.Objectives.IntelScreenCanvas.SpacebodyProbe.Name=Statut de prospection
-UI.Objectives.IntelScreenCanvas.SpacebodyProbe.Desc=Consultez ici le statut de prospection du corps céleste. S'il est possible de le prospecter, alors un bouton pour lancer une sonde chercheuse apparaîtra ici. <br/><br/>Si le corps céleste a déjà été prospecté ou qu'une sonde s'y dirige, l'icône correspondante apparaîtra ici.
+UI.Objectives.IntelScreenCanvas.SpacebodyProbe.Name=Niveau de prospection
+UI.Objectives.IntelScreenCanvas.SpacebodyProbe.Desc=Consultez ici le niveau de prospection du corps céleste. S'il est possible de le prospecter, alors un bouton pour lancer une sonde chercheuse apparaîtra ici. <br/><br/>Si le corps céleste a déjà été prospecté ou qu'une sonde s'y dirige, l'icône correspondante apparaîtra ici.
 
 UI.Objectives.IntelScreenCanvas.SpacebodyProbeAll.Name=Tout prospecter
 UI.Objectives.IntelScreenCanvas.SpacebodyProbeAll.Desc=Cliquez sur ce bouton pour lancer des sondes vers tous les corps célestes accessibles qui n'ont pas encore été prospectés. Vous ne pourrez pas effectuer cette action si notre faction n'a pas les moyens de lancer toutes les sondes. 
@@ -1172,10 +1172,10 @@ UI.Objectives.IntelScreenCanvas.TransferPlannerOverview.Name=Planificateur de tr
 UI.Objectives.IntelScreenCanvas.TransferPlannerOverview.Desc=L'onglet <h>Planificateur de transferts</h> permet d'examiner différentes options de trajectoires pour les flottes et vaisseaux que notre faction prévoit de construire. Modifiez le <h>profil de poussée</h> pour voir combien de temps prendrait un transfert particulier avec les valeurs d'<h>accélération</h> et de <h>Delta-V</h> indiquées.
 
 UI.Objectives.IntelScreenCanvas.TransferPlannerDestination.Name=Cibles de transfert
-UI.Objectives.IntelScreenCanvas.TransferPlannerDestination.Desc=Choisissez le point d'origine ou la destination puis sélectionnez ici une icône de corps céleste. Chaque icône représente un groupe de corps célestes découverts dans le système solaire ; lorsque vous sélectionnez une icône, vous appliquez donc ce groupe à toute la liste. Les <color=#FFFFFFFF><sprite name=radius_of_orbit></color> <h>orbites</h> et autres <h>cibles de transfert</h> du corps céleste principal sont affichées en haut de la liste.
+UI.Objectives.IntelScreenCanvas.TransferPlannerDestination.Desc=Après avoir sélectionné Point de départ ou Destination, sélectionnez ici une icône de corps céleste. Chaque icône représente un groupe de corps célestes découverts dans le système solaire ; lorsque vous sélectionnez une icône, la liste en répertorie alors tous les corps célestes. Les <color=#FFFFFFFF><sprite name=radius_of_orbit></color> <h>orbites</h> et autres <h>cibles de transfert</h> du corps céleste principal sont affichées en haut de la liste.
 
 UI.Objectives.IntelScreenCanvas.TransferPlannerSelection.Name=Cibles de transfert
-UI.Objectives.IntelScreenCanvas.TransferPlannerSelection.Desc=Sélectionnez ici un corps céleste ou un <h>point de Lagrange</h> pour afficher en haut de la liste les orbites et autres cibles de transfert liées. <br/><br/>Cliquez sur une orbite ou une autre cible de transfert pour la définir comme point d'origine ou destination.
+UI.Objectives.IntelScreenCanvas.TransferPlannerSelection.Desc=Sélectionnez ici un corps céleste ou un <h>point de Lagrange</h> pour afficher en haut de la liste les orbites et autres cibles de transfert liées. <br/><br/>Cliquez sur une orbite ou une autre cible de transfert pour la définir comme point de départ ou destination.
 
 UI.Objectives.IntelScreenCanvas.TransferPlannerSlider.Name=Profils disponibles
 UI.Objectives.IntelScreenCanvas.TransferPlannerSlider.Desc=Si plusieurs profils de poussée sont disponibles pour les valeurs indiquées, ajustez le curseur qui apparaît ici afin de changer le profil que vous souhaitez examiner.
@@ -1296,8 +1296,8 @@ UI.Objectives.ResearchScreenCanvas.ModifiersList.Desc=Consultez ici la liste des
 UI.Objectives.ResearchScreenCanvas.ModifiersDetail.Name=Détails du modificateur
 UI.Objectives.ResearchScreenCanvas.ModifiersDetail.Desc=Consultez ici les informations détaillées du modificateur sélectionné. Si plusieurs effets sont visibles, cela signifie qu'ils sont tous actifs et que les valeurs se cumulent. Cependant, si dans une liste d'effets, du texte apparaît en <color=#85B260>vert</color> ou en <color=#B26A60>rouge</color>, les effets en vert l'emportent.
 
-UI.Objectives.ResearchScreenCanvas.TreeOverview.NameShort=Arbre des technologies
-UI.Objectives.ResearchScreenCanvas.TreeOverview.Name=Arbre des technologies
+UI.Objectives.ResearchScreenCanvas.TreeOverview.NameShort=Arbre des recherches
+UI.Objectives.ResearchScreenCanvas.TreeOverview.Name=Arbre des recherches
 UI.Objectives.ResearchScreenCanvas.TreeOverview.Desc=L'onglet <h>Arbre des recherches</h> présente toutes les recherches sur des technologies et projets que notre faction peut mener à mesure que nous progressons dans la campagne. <br/><br/>Vous devez mener certaines recherches (les <h>conditions</h>) pour en <h>débloquer</h> d'autres.
 
 UI.Objectives.ResearchScreenCanvas.TreeNavigation.Name=Vue d'arbre
@@ -1316,7 +1316,7 @@ UI.Objectives.ResearchScreenCanvas.TreeSelect2.Name=Branches d'une recherche
 UI.Objectives.ResearchScreenCanvas.TreeSelect2.Desc=Cliquez avec le bouton droit de la souris sur une technologie ou un projet pour afficher toutes les recherches qui y sont liées (les conditions et les recherches qu'elle débloque).
 
 UI.Objectives.ResearchScreenCanvas.TreeSearch.Name=Filtrer par nom
-UI.Objectives.ResearchScreenCanvas.TreeSearch.Desc=Filtrez ici l'arbre des recherches par nom de technologie ou de projet. Pour effectuer la recherche également dans les descriptions des projets et technologies, cochez l'option Recherche complète. Cliquez sur le résultat de la recherche dans le menu déroulant pour accéder à son emplacement dans l'arbre.
+UI.Objectives.ResearchScreenCanvas.TreeSearch.Desc=Filtrez ici l'arbre des recherches par nom de technologie ou de projet. Pour effectuer la recherche également dans les descriptions des projets et technologies, cochez l'option Recherche avancée. Cliquez sur le résultat de la recherche dans le menu déroulant pour accéder à son emplacement dans l'arbre.
 
 UI.Objectives.ResearchScreenCanvas.TreeFull.Name=Arbre des recherches complet
 UI.Objectives.ResearchScreenCanvas.TreeFull.Desc=Par défaut, l'arbre des recherches affiche seulement les recherches mondiales. Cliquez sur ce bouton pour afficher l'arbre complet. Cliquez à nouveau sur le bouton pour afficher à nouveau seulement les recherches mondiales.
@@ -1364,7 +1364,7 @@ UI.Objectives.SpaceCombatCanvas.BattleLog.Name=Journal de combat
 UI.Objectives.SpaceCombatCanvas.BattleLog.Desc=Cliquez sur ce bouton pour ouvrir le <h>journal de combat</h>, qui relate les événements liés au combat qui ont eu lieu. Vous pouvez les filtrez par catégorie : vaisseaux qui vont être détruits, vaisseaux qui arrivent en renfort, etc.
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Name=Lancer la salve de missiles
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=Cliquez sur le bouton d'ordre <h>Lancer la salve de missiles</h> pour désigner une cible principale et demander à tous les vaisseaux dotés d'une arme à missile de tirer dessus. Ces armes tireront jusqu'à 25 % de leur capacité en munitions maximale puis seront mises en mode Inactif. <br/><br/>Vous pouvez également <h>maintenir {0} et cliquer</h> sur une cible ennemie pour lancer une salve de missiles.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=Cliquez sur le bouton d'ordre <h>Lancer la salve de missiles</h> pour désigner une cible principale et demander à tous les vaisseaux dotés d'une arme à missile de tirer dessus. Ces armes tireront jusqu'à 25 % de leur capacité en munitions maximale puis seront mises en mode Inactif. <br/><br/>Vous pouvez également <h>maintenir ({0}) et cliquer</h> sur une cible ennemie pour lancer une salve de missiles.
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Name=Désactiver le contrôle de l'IA
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Desc=Cliquez sur le bouton d'ordre <h>Désactiver le contrôle de l'IA</h> pour reprendre le contrôle de vos vaisseaux à tout moment.
@@ -1387,7 +1387,7 @@ UI.Objectives.NationInfoCanvas.ExoBuild.Name=Construire des exocombattants
 UI.Objectives.NationInfoCanvas.ExoBuild.Desc=Les vaisseaux de combat surface-orbite, ou <h>exocombattants</h>, permettent aux nations contrôlées par notre faction de commencer ou prendre part à un combat spatial contre une faction ou une station ennemie. Maintenant que l'humanité a terminé la recherche sur la technologie requise, nous pouvons commencer à construire des exocombattants dans cette nation en investissant dans la priorité Construire un exocombattant.
 
 UI.Objectives.NationInfoCanvas.ExoPriority.Name=Priorité Construire un exocombattant
-UI.Objectives.NationInfoCanvas.ExoPriority.Desc=Achevez cette priorité pour ajouter un exocombattant à l'une des installations de propulsion de cette nation et permettre à la faction qui contrôle la nation d'utiliser de la <color=#FFFFFFFF><sprite name=boost></color> propulsion pour prendre part aux combats spatiaux dans les orbites d'interface de la Terre. <br><br>La <color=#FFFFFFFF><sprite name=boost></color> propulsion requise dépend du chargement de l'exocombattant. <br/><br/>Les combattants de cette nation requièrent un temps de repos entre les missions, encore plus s'ils ont été endommagés et doivent être réparés.
+UI.Objectives.NationInfoCanvas.ExoPriority.Desc=Achevez cette priorité pour ajouter un exocombattant à l'une des installations de propulsion de cette nation et permettre à la faction qui contrôle la nation d'utiliser de la <color=#FFFFFFFF><sprite name=boost></color> propulsion pour prendre part aux combats spatiaux dans les orbites d'interface de la Terre. <br/><br/>La <color=#FFFFFFFF><sprite name=boost></color> propulsion requise dépend du chargement de l'exocombattant. <br/><br/>Les combattants de cette nation requièrent un temps de repos entre les missions, encore plus s'ils ont été endommagés et doivent être réparés.
 
 UI.Objectives.NationInfoCanvas.ExoInfo.Name=Informations sur les exocombattants
 UI.Objectives.NationInfoCanvas.ExoInfo.Desc=Consultez ici des informations sur les exocombattants de la nation : combien sont disponibles pour mener des missions, leur nombre total en prenant en compte ceux en cours de réparation ou en repos, et leur nombre maximal autorisé. Passez le curseur sur une valeur pour afficher plus de détails.
@@ -1403,13 +1403,13 @@ UI.Objectives.ExoOps.ExoTarget.Desc=Sélectionnez une cible parmi les habitats e
 
 UI.Objectives.GeneralControlsCanvas.AccessBar.NameShort=Vendre des ressources
 UI.Objectives.GeneralControlsCanvas.AccessBar.Name=Vendre des ressources
-UI.Objectives.GeneralControlsCanvas.AccessBar.Desc=Si notre faction possède une station opérationnelle dans une orbite d'interface terrestre, nous pouvons vendre des ressources spatiales à la Terre. <br><br>Cliquez sur la partie <h>Ressources spatiales</h> de la barre supérieure pour ouvrir la fenêtre <h>Vendre des ressources à la Terre</h>.
+UI.Objectives.GeneralControlsCanvas.AccessBar.Desc=Si notre faction possède une station opérationnelle dans une orbite d'interface terrestre, nous pouvons vendre des ressources spatiales à la Terre. <br/><br/>Cliquez sur la partie <h>Ressources spatiales</h> de la barre supérieure pour ouvrir la fenêtre <h>Vendre des ressources à la Terre</h>.
 
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Name=Vendre des ressources
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Desc=Pour ouvrir cette même fenêtre, vous pouvez également cliquer sur ce bouton, qui apparaît pour chacune de nos stations situées dans une orbite d'interface terrestre.
 
 UI.Objectives.GeneralControlsCanvas.SellIntro.Name=Vendre des ressources à la Terre
-UI.Objectives.GeneralControlsCanvas.SellIntro.Desc=La vente de ressources nous permet de convertir les <color=#FFFFFFFF><sprite name=metal></color> <h>métaux de base</h>, <color=#FFFFFFFF><sprite name=metal_noble></color> <h>métaux nobles</h> et <color=#FFFFFFFF><sprite name=radioactive></color> <h>matériaux fissiles</h> que nous avons extraits dans l'espace en <color=#FFFFFFFF><sprite name=currency></color> argent. <br><br><h>Si nous n'avons pas d'habitat opérationnel dans une orbite d'interface terrestre, nous ne pourrons pas vendre nos ressources.</h>
+UI.Objectives.GeneralControlsCanvas.SellIntro.Desc=La vente de ressources nous permet de convertir les <color=#FFFFFFFF><sprite name=metal></color> <h>métaux de base</h>, <color=#FFFFFFFF><sprite name=metal_noble></color> <h>métaux nobles</h> et <color=#FFFFFFFF><sprite name=radioactive></color> <h>matériaux fissiles</h> que nous avons extraits dans l'espace en <color=#FFFFFFFF><sprite name=currency></color> argent. <br/><br/><h>Si nous n'avons pas d'habitat opérationnel dans une orbite d'interface terrestre, nous ne pourrons pas vendre nos ressources.</h>
 
 UI.Objectives.GeneralControlsCanvas.SellOverview.Name=Ressources disponibles
 UI.Objectives.GeneralControlsCanvas.SellOverview.Desc=Consultez ici les ressources que nous pouvons vendre et leur prix de vente actuel.

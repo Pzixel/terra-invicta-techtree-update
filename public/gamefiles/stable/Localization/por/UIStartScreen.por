@@ -43,7 +43,7 @@ UI.StartScreen.Mods.ModDownloadedLocalFolder=Pasta local:
 UI.StartScreen.Mods.ModDownloaded=Mod baixado com sucesso
 UI.StartScreen.Mods.ModDownloadedInfo=Reinicie Terra Invicta para completar a instalação do mod<br/>
 UI.StartScreen.Mods.UseMods=Usar mods
-UI.StartScreen.Mods.UseModsDescription=Ativar esta opção irá carregar os modelos de mods e os pacotes de recursos instalados. Alterar esta configuração, instalar ou apagar mods pode exigir que o jogo seja reiniciado para que as mudanças sejam aplicadas. As conquistas serão desativadas se esta opção estiver marcada.
+UI.StartScreen.Mods.UseModsDescription=Ativar esta opção irá carregar os mods com modelos e pacotes de recursos instalados. Alterar esta configuração e instalar ou apagar mods pode exigir que o jogo seja reiniciado para que as mudanças sejam aplicadas. As conquistas serão desativadas se esta opção estiver marcada.
 UI.StartScreen.Mods.ModWarningHeaderBadState=O mod está em más condições.
 UI.StartScreen.Mods.ModWarningDescriptionBadState=O mod "{0}" está tanto na pasta de mods desativados quanto na pasta de mods ativados. Verifique as pastas e remova os arquivos de uma delas.
 UI.StartScreen.Mods.ModWarningHeaderFailLoadJson=O gerenciador de mods não conseguiu carregar o arquivo .json.
@@ -95,7 +95,7 @@ UI.StartScreen.Skirmish.Header=Definição de escaramuça
 UI.StartScreen.Skirmish.Player1Header=SUA FROTA
 UI.StartScreen.Skirmish.Player2Header=FROTA IA OPONENTE
 UI.StartScreen.Skirmish.LocationTitle=LOCAL
-UI.StartScreen.Skirmish.HabTitle=HABITAT
+UI.StartScreen.Skirmish.HabTitle=HAB
 UI.StartScreen.Skirmish.NoHab=Sem habitats
 UI.StartScreen.Skirmish.Player1AddShips=ADICIONAR NAVES DO JOGADOR
 UI.StartScreen.Skirmish.Player2AddShips=ADICIONAR NAVES DA IA
@@ -132,9 +132,9 @@ UI.StartScreen.CustomizeCampaign.SelectFactionsHeader=Selecione as facções ati
 UI.StartScreen.CustomizeCampaign.YourFactionNamesHeader=Nomes da sua facção
 UI.StartScreen.CustomizeCampaign.RandomProfession=Aleatória
 UI.StartScreen.CustomizeCampaign.CouncilorProfession=Profissão inicial do conselheiro
-UI.StartScreen.CustomizeCampaign.CPFreebies=Limite base de PC
+UI.StartScreen.CustomizeCampaign.CPFreebies=Limitar base de PC
 UI.StartScreen.CustomizeCampaign.CPFreebiesTooltip=Limite base de pontos de controle para todas as facções.
-UI.StartScreen.CustomizeCampaign.CPFreebiesAI=Limite bônus de PC da IA
+UI.StartScreen.CustomizeCampaign.CPFreebiesAI=Limitar bônus de PC da IA
 UI.StartScreen.CustomizeCampaign.CPFreebiesAITooltip=Dá um bônus ao limite de pontos de controle apenas para as facções controladas pela IA.
 UI.StartScreen.CustomizeCampaign.MCFreebies=Controle de missão bônus
 UI.StartScreen.CustomizeCampaign.MCFreebiesTooltip=Dá um bônus de controle de missão para todas as facções.
@@ -152,7 +152,7 @@ UI.StartScreen.CustomizeCampaign.ShowTriggeredProjects=Exibir projetos em curso
 UI.StartScreen.CustomizeCampaign.ShowTriggeredProjectsTooltip=Exibe a situação de projetos que foram ativados e ainda não estão desbloqueados ou que foram perdidos pela sua facção durante a campanha.
 UI.StartScreen.CustomizeCampaign.HomeNationCouncilor=Conselheiro compatriota
 UI.StartScreen.CustomizeCampaign.CustomDifficultyTooltip=Modificar as configurações de campanha que afetam a dificuldade impedirá que conquistas relacionadas à dificuldade sejam obtidas naquela campanha.
-UI.StartScreen.CustomizeCampaign.CustomDifficultyOptionsText=<h>As configurações atuais desativarão o cumprimento de conquistas relacionadas à dificuldade</h>
+UI.StartScreen.CustomizeCampaign.CustomDifficultyOptionsText=<h>As configurações atuais desativarão conquistas relacionadas à dificuldade</h>
 UI.StartScreen.CustomizeCampaign.SkipCouncilor=Sem conselheiro, +{0}{1}																		//skip, +(number) Influence icon(resource)
 UI.StartScreen.CustomizeCampaign.HomeNationCouncilorTip=Se selecionado, a nação de origem do seu primeiro conselheiro será selecionada com base nas configurações regionais do seu computador. Se não, a seleção será aleatória.
 UI.StartScreen.CustomizeCampaign.NationalIPModifier=Taxa de investimento nacional
@@ -191,10 +191,10 @@ UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=Nomes de naves média
 UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=Nomes de naves grandes
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=Nome do habitat
 UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Adicionar frota de assalto alienígena
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Adiciona uma frota alienígena a mais com cargueiros de assalto no início da campanha.
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Adiciona mais uma frota alienígena com cargueiros de assalto no início da campanha.
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Padrão campanha acelerada
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=Padrão campanha longa
-UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Configurações anteriores da campanha
+UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Conf. da campanha anterior
 UI.StartScreen.Cancel=Cancelar
 UI.StartScreen.FactionDescription={0}<br/>Dificuldade da facção: {1}
 UI.StartScreen.Wiki=Wiki
@@ -276,16 +276,15 @@ UI.StartScreen.TICredits_72=AGRADECIMENTOS ESPECIAIS<br/>Aaron Nathan<br/>Martti
 UI.StartScreen.TICredits_73=BEBÊS DO DESENVOLVIMENTO!<br/>Théodore<br/>Carmen Rose<br/><br/>
 
 //<Contributing Backers> Credits
-
 UI.StartScreen.TICredits_74=CONTRIBUINTES CRITATIVOS DO KICKSTARTER<br/>
-//<Playtester> Credits
 
+//<Playtester> Credits
 UI.StartScreen.TICredits_105=KICKSTARTER
 UI.StartScreen.TICredits_106= PLAYTESTERS<br/>
 
 //<Backers> Credits
-
 UI.StartScreen.TICredits_393=<br/>KICKSTARTER BACKERS<br/>
+
 UI.StartScreen.TICredits_1337=SOFTWARE<br/><br/>Feito com Unity<br/><br/>Feito com FMOD Studio<br/>de Firelight Technologies Limited<br/><br/>
 UI.StartScreen.TICredits_1338=Muitos dos ícones usados no jogo para as empresas privadas são cortesia de LogoLogo.com.<br/>O uso de logos de agências do governo nesta obra de ficção não implica o apoio ou o suporte dessas agências.<br/><br/>
 UI.StartScreen.TICredits_1339=Algumas das fotos usadas como referência para as imagens de fundo dos conselheiros são cortesia da NASA.

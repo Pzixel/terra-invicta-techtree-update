@@ -17,8 +17,8 @@ UI.StartScreen.Mods.WorkshopUploadModName=MODの名前
 UI.StartScreen.Mods.WorkshopUploadModDesc=MODの説明
 UI.StartScreen.Mods.WorkshopUploadModFolder=Modフォルダーを開く
 UI.StartScreen.Mods.WorkshopUploadSubmit=MODをアップロードする
-UI.StartScreen.Mods.WorkshopUploadModHelp=上の「Modフォルダーを開く」ボタンを使い、MODのコンテンツフォルダに移動します。MODのファイルを、MODと同じ名前のpngファイルと一緒にこのフォルダに入れてください。次に「アップロード」をクリックすると、新しいMODがSteam Workshopにアップロードされます。
-UI.StartScreen.Mods.WorkshopUpdateExistingInfo= 今後MODを更新する必要がある場合は、「既存MODの更新」タブで同じ手順を踏めば、Steam上の既存の情報とファイルが更新されます。
+UI.StartScreen.Mods.WorkshopUploadModHelp=上部の「Modフォルダーを開く」ボタンを使って、MODのコンテンツフォルダを開いてください。MODに含めるファイルをこのフォルダに入れ、MODと同じ名前のpngファイルも一緒に入れてください。準備が整ったら「アップロード」をクリックしてください。新しいMODがSteam Workshopにアップロードされます。
+UI.StartScreen.Mods.WorkshopUpdateExistingInfo=今後MODを更新する必要がある場合は、「既存MODの更新」タブで同じ手順を踏めば、Steam上の既存の情報とファイルが更新されます。
 UI.StartScreen.Mods.WorkshopSearch=MODの検索中…
 UI.StartScreen.Mods.SortVotes=投票
 UI.StartScreen.Mods.SortNewest=最新
@@ -41,17 +41,21 @@ UI.StartScreen.Mods.ModDownloadedName=名前：
 UI.StartScreen.Mods.ModDownloadedID=公開ファイルID： 
 UI.StartScreen.Mods.ModDownloadedLocalFolder=ローカルフォルダ： 
 UI.StartScreen.Mods.ModDownloaded=MODを正常にダウンロードしました
-UI.StartScreen.Mods.ModDownloadedInfo=TIを再起動してMODのインストールを完了してください<br/>
+UI.StartScreen.Mods.ModDownloadedInfo=Terra Invictaを再起動してMODのインストールを完了してください<br/>
 UI.StartScreen.Mods.UseMods=MODを使用する
-UI.StartScreen.Mods.UseModsDescription=この設定を有効にすると、インストールされているMODテンプレートとアセットバンドルが読み込まれます。この設定の変更やMODのインストール/削除を反映させるには再起動する必要があります。この設定を有効にすると、実績は無効化されます。
+UI.StartScreen.Mods.UseModsDescription=この設定を有効にすると、インストールされているMODテンプレートとアセットバンドルが読み込まれます。この設定の変更やMODのインストール/削除を反映させるには再起動が必要になる場合があります。
 UI.StartScreen.Mods.ModWarningHeaderBadState=Modが不調
-UI.StartScreen.Mods.ModWarningDescriptionBadState=Mod{0}が無効と有効の両方のModフォルダに存在するので、再確認してこのModのフォルダを無効または有効のサブフォルダのどちらかから削除してください。
+UI.StartScreen.Mods.ModWarningDescriptionBadState=MOD{0}が「無効」と「有効」フォルダの両方に存在しています。再確認して、どちらか一方のサブフォルダーから、このMODのフォルダーを削除してください。
 UI.StartScreen.Mods.ModWarningHeaderFailLoadJson=Modマネージャーがjsonの読み込みに失敗しました。
-UI.StartScreen.Mods.ModWarningDescriptionFailLoadJson=Modファイル{0}がjsonの読み込みに失敗し、Modが正しくインストールされませんでした。エラーを修正するか、Modを無効にして『Terra Invicta』を再起動してください。<br/><br/>エラー-{1}
+UI.StartScreen.Mods.ModWarningDescriptionFailLoadJson=MODで変更されたファイル{0}がJSONの読み込みに失敗したため、MODが正しくインストールされませんでした。問題を修正するか、MODを無効にしてTerra Invictaを再起動してください。<br/><br/>エラー-{1}
 UI.StartScreen.Mods.ModWarningNoItemsFoundHeader=アイテムが見つかりません
-UI.StartScreen.Mods.ModWarningNoItemsFoundDescription=更新するアイテムが見つかりません。まだアイテムをアップロードしていないか、アイテムを取得できないようです。
+UI.StartScreen.Mods.ModWarningNoItemsFoundDescription=更新できるアイテムが見つかりません。まだアイテムをアップロードしていないか、取得できない状態のようです。
 UI.StartScreen.TemplateLoadingFailureHeader=無効なテンプレートファイルが見つかりました
 UI.StartScreen.TemplateLoadingFailureDesc=テンプレートファイルが無効だったため、前回ゲームを起動できませんでした。MODが無効になりました。互換性のないテンプレートデータが使用されており、最新でないMODが含まれている可能性があります。
+UI.StartScreen.Mods.ModWarningHeaderFailGeneral=MODの読み込み失敗
+UI.StartScreen.Mods.ModWarningDescriptionFailGeneral=一部のMODファイルの読み込みに失敗しました。以下のMODを無効化し、Terra Invictaを再起動してください：<br/><br/>{0}<br/><br/>{1}
+UI.StartScreen.Mods.ModWarningHeaderDeleteFail=ファイルの削除失敗
+UI.StartScreen.Mods.ModWarningDescriptionDeleteFail=ファイルが使用中である可能性があります。Terra Invictaを再起動し、もう一度お試しください。
 UI.StartScreen.Mods.Install=インストール
 UI.StartScreen.Mods.Enabled=有効
 UI.StartScreen.Mods.Disabled=無効
@@ -70,10 +74,17 @@ UI.StartScreen.Mods.UploadFailGeneric=MODのアップロードに失敗しまし
 UI.StartScreen.Mods.UpdateFailGeneric=MODの更新に失敗しました。
 UI.StartScreen.Mods.Update=更新
 UI.StartScreen.Mods.UpdateConfirmation=Steam Workshopで、このMODの既存の情報とファイルを更新します。よろしいですか？
-UI.StartScreen.Mods.ModToolsInfo1=MODはRootディレクトリ内のMods/Enabled/、またはMods/Disabledフォルダ内にあります。Mods/EnabledフォルダにあるMODは、起動時に有効になります。Mods/DisabledフォルダにあるMODは、起動時にアンインストールされ、有効にするまでフォルダ内に保存されます。MODには、MOD専用のフォルダが必要です。フォルダ内では、すべてのMODのコンテンツをルートに置く必要があります。MODのメタデータを読み込むために、modinfo.jsonファイルが必要です。
+UI.StartScreen.Mods.ModToolsInfo1=MODはゲームのルートディレクトリ内にあるMods/Enabled/またはMods/Disabledフォルダ内に配置します。Mods/EnabledフォルダにあるMODは、起動時に有効になります。Mods/DisabledフォルダにあるMODは、起動時にアンインストールされ、有効化するまでフォルダ内に保存されます。MODにはMOD専用のフォルダが必要です。その専用フォルダーの直下（ルート）にMODのすべてのコンテンツを配置する必要があります。また、MODのメタデータを読み込むために、「modinfo.json」ファイルが必要です。
 UI.StartScreen.Mods.ModToolsInfo2=MODフォルダ内のテンプレートファイルがパースされ、json内の既存のエントリはデフォルトのゲームデータを上書きし、json内の新しいエントリが追加されます。MODフォルダ内のAssetbundlesは起動時にロードされ、ゲームにグラフィックアセットを追加することができます。MODフォルダ内のローカライズされたテキストファイルは、ファイル名の言語に対応したテキストエントリーを追加＆置換します。例えば、.enファイルは、そのテンプレートの英語テキストエントリーを置換します。
 UI.StartScreen.Mods.ModsInSave=使用中のMOD
 UI.StartScreen.Mods.Checking=MODの更新を確認中…
+UI.StartScreen.Mods.Subscribe=サブスクライブ
+UI.StartScreen.Mods.Unsubscribe=サブスクライブ解除
+UI.StartScreen.Mods.Subscribed=サブスクライブ済
+UI.StartScreen.Mods.Unsubscribed=サブスクライブ解除済
+UI.StartScreen.Mods.Updated=更新済
+UI.StartScreen.Mods.InstallModsNotice=Steam WorkshopでサブスクライブしたMODがインストールまたは更新されました。変更の適用を完了するには、ゲームを再起動してください。
+UI.StartScreen.Mods.UninstallModsNotice=サブスクライブが解除されたため、インストール済みのSteam WorkshopのMODを無効化しました。アンインストールを完了するには、ゲームを再起動してください。
 UI.StartScreen.Mods.Tags.0=なし
 UI.StartScreen.Mods.Tags.1=バランス
 UI.StartScreen.Mods.Tags.2=ゲームプレイ
@@ -84,11 +95,11 @@ UI.StartScreen.Mods.Tags.6=評議員
 UI.StartScreen.Mods.Tags.7=宇宙船
 UI.StartScreen.Mods.Tags.8=ユーティリティ
 UI.StartScreen.FailedToLoadSave=セーブファイルのロード失敗
-UI.StartScreen.FailedToLoadSaveDescription=ゲームのバージョンが異なる、またはセーブデータが無効だったため、セーブデータをロードできませんでした。<br/><br/>0.3のセーブを継続してプレイしたい方で、古いビルドが利用可能なサービス（SteamやGOGなど）をご利用の場合は、そのサービスでゲームを以前のバージョンにロールバックしてください。
+UI.StartScreen.FailedToLoadSaveDescription=ゲームのバージョンが異なるかセーブデータが無効だったため、セーブデータを読み込めませんでした。<br/><br/>以前のセーブデータでプレイを続けたい場合は、SteamやGOGなどの旧バージョンを利用できるサービスで、ゲームを該当する過去バージョンへロールバックしてください。
 UI.StartScreen.StartupErrorHeader=ゲーム初期化エラー
 UI.StartScreen.StartupErrorSavePath=ゲームが必要なセーブフォルダのパスにアクセスできず、起動できません。次の場所でゲームがファイルの読み取りと書き込みを行えるよう、権限やクラウドストレージソフトウェア（OneDriveなど）を確認してください：<br/><br/>{0}<br/><br/>サポートが必要な場合は、「support@pavonisinteractive.com」までメールでお問い合わせください。<br/><br/>「OK」ボタンを押すと、ソフトウェアは終了します。
 UI.StartScreen.TutorialDesc=最初のゲームでは、チュートリアルを有効にし、レジスタンス派閥としてプレイすることをおすすめします。
-UI.StartScreen.Credits=開発チーム
+UI.StartScreen.Credits=クレジット
 UI.StartScreen.Exit=ゲームの終了
 UI.StartScreen.Skirmish.Begin=前哨戦を始める
 UI.StartScreen.Skirmish.Header=前哨戦の設定
@@ -112,7 +123,7 @@ UI.StartScreen.longCampaignSettingsTooltip=長期キャンペーンの基準設�
 UI.StartScreen.acceleratedCampaignSettingsTooltip=加速キャンペーンの基準設定を修正。
 UI.StartScreen.SelectFaction=派閥を選択
 UI.StartScreen.SelectDifficulty=難易度を選択
-UI.StartScreen.ToggleCombatTutorial=チュートリアルを有効にする
+UI.StartScreen.ToggleCombatTutorial=チュートリアル有効
 UI.StartScreen.ToggleTutorial=<h>チュートリアルを有効にする（レジスタンスのみ）</h>
 UI.StartScreen.Setup.Video=映像
 UI.StartScreen.Setup.Graphics=グラフィック
@@ -190,8 +201,8 @@ UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=小型船の名称
 UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=中型船の名称
 UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=大型船の名称
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=ハブの名前
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=エイリアン攻撃艦隊の追加
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=キャンペーン開始時に、攻撃空母に追加のエイリアン艦隊を追加する
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=エイリアン侵略艦隊の追加
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=キャンペーン開始時に、攻撃空母に追加のエイリアン艦隊を追加する。<h>これはキャンペーンの難易度を大きく高めるため、経験豊富なプレイヤーのみに推奨されます。</h>
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=加速キャンペーンのデフォルト
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=長期キャンペーンのデフォルト
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=過去のキャンペーン設定
@@ -208,8 +219,8 @@ UI.StartScreen.TICredits_1=制作：<br/>Pavonis Interactive<br/><br/>
 UI.StartScreen.TICredits_2=発売元：<br/>Hooded Horse<br/><br/>
 UI.StartScreen.TICredits_3=クリエイティブ長官<br/>John J. Lumpkin<br/><br/>
 UI.StartScreen.TICredits_4=アートディレクター<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=デベロッパー<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Benjamin Poland<br/>Ryan Dunagan<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=リードプロデューサー<br/>Tim Bender<br/><br/>プロデューサー<br/>Scott Davis<br/><br/>
+UI.StartScreen.TICredits_5=デベロッパー<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Ryan Dunagan<br/>Benjamin Poland<br/>Christina Stillman<br/><br/>
+UI.StartScreen.TICredits_6=プロデューサー<br/>Scott Davis<br/><br/>
 UI.StartScreen.TICredits_7=キャラクター＆2Dアーティスト<br/>Michael Moore<br/><br/>
 UI.StartScreen.TICredits_8=イラストレーター<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
 UI.StartScreen.TICredits_9=テクニカルアーティスト<br/>Zack Dawson<br/><br/>
@@ -270,37 +281,35 @@ UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne �
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57=品質保証のスペシャリスト<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah<br/><br/>
-UI.StartScreen.TICredits_58=スペシャルサンクス：<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/><br/>
+UI.StartScreen.TICredits_57=品質保証のスペシャリスト<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>RedwahおよびPavonis Discordの皆様<br/><br/>
+UI.StartScreen.TICredits_58=スペシャルサンクス：<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/>Alice, Charlotte, and Theo<br/>Emily, William and Théodore<br/><br/>
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>
-UI.StartScreen.TICredits_60=最高経営責任者<br/>Tim Bender<br/><br/>
-UI.StartScreen.TICredits_61=最高財務責任者AND GENERAL COUNSEL<br/>Snow Rui<br/><br/>
-UI.StartScreen.TICredits_62=最高製品責任者<br/>Ashkan Namousi<br/><br/>
-UI.StartScreen.TICredits_63=顧問<br/>Shams Jorjani<br/><br/>
-UI.StartScreen.TICredits_64=コミュニケーションディレクター<br/>Joe Robinson<br/><br/>コミュニケーションマネージャー<br/>Marcello Perricone<br/><br/>
-UI.StartScreen.TICredits_65=インフルエンサーマネージャー<br/>Antony "HForHavoc" Floyd<br/><br/>
-UI.StartScreen.TICredits_66=アソシエイトインフルエンサーマネージャー<br/>Shaun "BearlyTactical" Ginty<br/>Noris "komakrtv" Merk<br/><br/>
-UI.StartScreen.TICredits_67=マーケティングコンサルタント<br/>PartyElite<br/>Tsukiha Shirakusu<br/>Caketown Interactive<br/>Filip Sirc<br/><br/>
-UI.StartScreen.TICredits_68=予告編制作<br/>Slavic Magic<br/>Grzegorz Styczen<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_69=広報担当<br/>Vicarious PR<br/>Michael Brown<br/>Lewis Burnell<br/>Matt Brown<br/><br/>
-UI.StartScreen.TICredits_70=ローカライゼーションコーディネイター<br/>Miguel David Medina García<br/><br/>
-UI.StartScreen.TICredits_71=ローカライザー<br/>Roboto Global<br/>EC Innovations<br/>Brenda Triandafeledis<br/>Laura Nieves Díaz Suárez<br/>Carlota Marie Dávila Santana<br/>Marta Medina González<br/>Wenwei Jiang<br/>Yuki Fujita<br/>Terra Invicta Chinese Fan Localization Group<br/><br/>
-UI.StartScreen.TICredits_72=スペシャルサンクス<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D'Arcy<br/><br/>
+UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>最高経営責任者<br/>Tim Bender<br/><br/>社長および最高財務責任者<br/>Snow Rui<br/><br/>最高製品責任者および副CEO<br/>Ashkan Namousi<br/><br/>最高商務責任者<br/>James Gardiner<br/><br/>最高マーケティング責任者<br/>Abhishek Chaudhry<br/><br/>最高プレイヤー体験責任者<br/>Mandalore Herrington<br/><br/>取締役会議長<br/>Shams Jorjani<br/><br/>広報責任者<br/>Joe Robinson<br/><br/>クリエイター関係責任者<br/>Antony Floyd aka HForHavoc<br/><br/>マーケティング調整責任者<br/>Matthijs Hoving<br/><br/>コミュニティ責任者<br/>Matthew Palacio<br/><br/>ソーシャル戦略責任者<br/>Auverin Morrow<br/><br/>ITおよびシステム責任者<br/>Patrik Arvidsson<br/><br/>販売プロデューサー<br/>Dastan Namousi<br/>Tom King<br/><br/>リードリリースマネージャー（プライマリー）<br/>Natalia Montero<br/><br/>シニアリリースマネージャー<br/>Blossom Kremer<br/>Aneta Zagórska<br/><br/>ローカライズプロデューサー<br/>Michael Radnitz<br/><br/>ローカライズコーディネーター<br/>Miguel David Medina García<br/><br/>クリエイター関係マネージャー<br/>Renee April<br/><br/>シニア戦略パートナーマネージャー<br/>Ga-Yi Ng<br/><br/>マーケティングマネージャー（日本、韓国、東南アジア）<br/>LamNot<br/><br/>ローカライズおよびマーケティングアソシエイト（東アジア）<br/>Guo Yu Shun Wilson<br/><br/>コンセプトアーティスト<br/>Daniel Morawski<br/>Sarah Mills<br/><br/>リードビデオグラファー<br/>Kacper Bork<br/><br/>会計<br/>Meridith Malone<br/><br/>オフィス管理者<br/>Bailey Sullivan<br/><br/>マーケティングコンサルタント<br/>PartyElite<br/><br/>追加サポート<br/>Shaun Ginty aka BearlyTactical<br/>Noris Merk aka kormakrtv<br/><br/>スペシャルプロジェクトマネージャー<br/>Marcello Perricone<br/><br/>スペシャルサンクス<br/>Aaron Nathan<br/>Andrew Hume<br/>Grzegorz Styczeń<br/>Martti Aarnio-Wihuri<br/>Todd D’Arcy<br/><br/>
+UI.StartScreen.TICredits_60=予告編制作<br/><br/>SLAVIC MAGIC<br/>Grzegorz Styczeń<br/>Patrycja Gdula<br/><br/>
+UI.StartScreen.TICredits_61=PR<br/><br/>GAMEDASH<br/>Bing Li<br/>Tian Luo<br/><br/>
+UI.StartScreen.TICredits_62=ローカライズ<br/>HOODED HORSE<br/><br/>ローカライズ – 繁体中国語<br/>Guo Yu Shun Wilson<br/>Melody Lin<br/><br/>ローカライズ - イタリア語<br/>Emanuelle Ricobenne<br/>Ketty Federico<br/><br/>ローカライズ - 韓国語<br/>Seulki Lee<br/>Lim Yoon<br/><br/>ローカライズ – ブラジル・ポルトガル語<br/>Brenda Triandafeledis<br/><br/>ローカライズ – スペイン語<br/>Laura Nieves Díaz Suárez<br/>Marta Medina González<br/>Miguel David Medina García<br/>Carlota Marie Dávila Santana<br/><br/>ローカライズ - ウクライナ語<br/>Vladyslav Verstiuk<br/>Nikol Kryvoruchko<br/><br/>
+UI.StartScreen.TICredits_63=《地球不屈》汉化组<br/><br/>ローカライズ - 簡体中国語<br/><br/>ECI GAMES<br/><br/>プロジェクトマネージャー<br/>Ángel Hernández Santana<br/>Kasia Kępka<br/>Zhao Ting<br/><br/>ローカライズ - 簡体中国語<br/>Wu Fan<br/>Cobra Xu<br/>Sherry Wang<br/><br/>ローカライズ - 繁体中国語<br/>Weiyi Jiang<br/><br/>LQA - 繁体中国語<br/>Gail Pu<br/><br/>ローカライズ - フランス語<br/>Félix Braconnier<br/>Lueje Prigent<br/>Maxime Aduriz<br/>Victor Berry<br/>Caitlin Maurin<br/><br/>ローカライズ - ドイツ語<br/>Stefan Herzog<br/>Nino Kadletz<br/>Philipp Kolleritsch<br/>Martin Monsberger<br/>Raphael Oberhuber<br/><br/>ローカライズ - 日本語<br/>Mina Horiba-Maguire<br/>Naomi Ueda<br/>Keigo Yonemura<br/>Liu Peiduo<br/><br/>
+UI.StartScreen.TICredits_64=QLOC S.A.<br/><br/>ゼネラルマネージャー<br/>Adam Piesiak<br/><br/>事業開発責任者<br/>Paweł Książek<br/><br/>シニア事業開発マネージャー<br/>Marta Olejniczak<br/><br/>ベンダーマネージャー<br/>Paweł Pierzchanowski<br/><br/>品質保証責任者<br/>Sergiusz Ślosarczyk<br/><br/>ITディレクター<br/>Artur Szczurzyński<br/><br/>QAオペレーションマネージャー<br/>Paweł Strzelczyk<br/><br/>学習・開発コーディネーター<br/>Aleksandra Grigorian-Kopka<br/><br/>学習・開発スペシャリスト<br/>Michał Grabuś<br/>Damian Jasiński<br/><br/>LQA シニアチームリーダー<br/>Michał Mugerman<br/>Kamil Uszyński<br/><br/>リードローカライズプロデューサー<br/>Alan Orman<br/>Maciej Polak<br/><br/>ローカライズ - チェコ語<br/>Michal Farník<br/>Petr Šeba<br/>Tomáš Varbanov<br/><br/>LQA - イタリア語<br/>Michele Fanelli<br/>Andrea Iachetti<br/><br/>ローカライズ - ポーランド語<br/>Monika Buraczyńska<br/>Andrzej Jakubiec<br/>Janusj Mrzigod<br/>Andrzej Popowski<br/><br/>LQA - ポーランド語<br/>Katarzyna Startek<br/><br/>ローカライズ - ロシア語<br/>Mikhail Zakharov<br/>Vasily Firsov<br/>Maxim Levushkin<br/>Roman Nefedov<br/>Pavel Nikolenko<br/>Polina Zam<br/><br/>LQA - ロシア語<br/>Andrey Moshkov<br/><br/>ローカライズ - ウクライナ語<br/><br/>LQA - ウクライナ語<br/>Oleg Łoginow<br/><br/>
+UI.StartScreen.TICredits_65=QA<br/><br/>QLOC S.A.<br/><br/>リードQAプロジェクトマネージャー<br/>Jakub Dudkowski<br/><br/>QAプロジェクトマネージャー<br/>Karolina Jagnyziak<br/>Wojciech Tarasiuk<br/><br/>QAラボマネージャー<br/>Piotr Badurek<br/>Emil Lubowicki<br/>Tomasz Prusicki<br/><br/>FQAチームリーダー<br/>Marcin Oprządek<br/><br/>FQAテスター<br/>Tymoteusz Bigos<br/>Aleksandra Bobek<br/>Mikołaj Kozłowski<br/>Piotr Krakowiak<br/>Michał Owczarek<br/>Mateusz Wieczorek<br/><br/>TESTRONIC<br/><br/>コンプライアンス・コンパティビリティマネージャー<br/>Iwona Szarzyńska<br/><br/>シニアコンパティビリティプロジェクトリード<br/>Małgorzata Twarogal<br/><br/>アソシエイトコンパティビリティQAリード<br/>Michał Soral<br/><br/>コンパティビリティQAテクニシャン<br/>Lisa Bajdowska<br/>Dominik Krawczyk<br/>Brine Mukombachoto<br/>Haran Dev Murugan<br/><br/>
+UI.StartScreen.TICredits_66=<skip/>
+UI.StartScreen.TICredits_67=<skip/>
+UI.StartScreen.TICredits_68=<skip/>
+UI.StartScreen.TICredits_69=<skip/>
+UI.StartScreen.TICredits_70=<skip/>
+UI.StartScreen.TICredits_71=<skip/>
+UI.StartScreen.TICredits_72=<skip/>
 UI.StartScreen.TICredits_73=制作中に誕生した赤ちゃんたち！<br/>Théodore<br/>Carmen Rose<br/><br/>
 
 //<Contributing Backers> Credits
 
 UI.StartScreen.TICredits_74=キックスターターのクリエイティブ協力者<br/>
 
-
 //<Playtester> Credits
 
 UI.StartScreen.TICredits_105=キックスターター
 UI.StartScreen.TICredits_106= プレイテスター<br/>
-
 
 //<Backers> Credits
 

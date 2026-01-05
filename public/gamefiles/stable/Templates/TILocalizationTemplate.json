@@ -79,18 +79,18 @@
  {
    "dataName": "rus",
    "friendlyName": "Russian",
-   "active": false,
+   "active": true,
    "core": false,
    "requiresFontChange": true,
    "largeLineHeight": false,
    "headlineFontPath": "NotoSans-Bold SDF-HEADER",
-   "bodyTextFontPath": "NotoSans-Regular SDF",
+   "bodyTextFontPath": "NotoSans-Thin SDF",
    "nameListOffset": 7
  },
  {
    "dataName": "kor",
    "friendlyName": "Korean",
-   "active": false,
+   "active": true,
    "core": false,
    "requiresFontChange": true,
    "largeLineHeight": false,
@@ -101,7 +101,7 @@
  {
    "dataName": "ita",
    "friendlyName": "Italian",
-   "active": false,
+   "active": true,
    "core": false,
    "requiresFontChange": null,
    "largeLineHeight": false,
@@ -145,23 +145,23 @@
  {
    "dataName": "cze",
    "friendlyName": "Czech",
-   "active": false,
-   "core": false,
-   "requiresFontChange": true,
-   "largeLineHeight": false,
-   "headlineFontPath": "",
-   "bodyTextFontPath": "",
-   "nameListOffset": 13
- },
- {
-   "dataName": "ukr",
-   "friendlyName": "Ukrainian",
-   "active": false,
+   "active": true,
    "core": false,
    "requiresFontChange": true,
    "largeLineHeight": false,
    "headlineFontPath": "NotoSans-Bold SDF-HEADER",
    "bodyTextFontPath": "NotoSans-Regular SDF",
+   "nameListOffset": 13
+ },
+ {
+   "dataName": "ukr",
+   "friendlyName": "Ukrainian",
+   "active": true,
+   "core": false,
+   "requiresFontChange": true,
+   "largeLineHeight": false,
+   "headlineFontPath": "NotoSans-Bold SDF-HEADER",
+   "bodyTextFontPath": "NotoSans-Thin SDF",
    "nameListOffset": 14
  },
  {

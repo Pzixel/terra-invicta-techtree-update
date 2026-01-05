@@ -18,7 +18,7 @@ UI.StartScreen.Mods.WorkshopUploadModDesc=Mod-Beschreibung
 UI.StartScreen.Mods.WorkshopUploadModFolder=Mod-Ordner öffnen
 UI.StartScreen.Mods.WorkshopUploadSubmit=Mod hochladen
 UI.StartScreen.Mods.WorkshopUploadModHelp=Verwende die Schaltfläche „Mod-Ordner öffnen“ oben, um zum Inhaltsordner deiner Mod zu navigieren. Füge deine Mod-Dateien sowie eine PNG-Datei mit demselben Namen wie dem deiner Mod in den Ordner ein. Wenn du fertig bist, klicke auf die Schaltfläche zum Hochladen und deine neue Mod wird im Steam-Workshop erscheinen.
-UI.StartScreen.Mods.WorkshopUpdateExistingInfo= Um deine Mod zu einem späteren Zeitpunkt zu aktualisieren, gehe zum Tab „Bestehende Mod aktualisieren“ und befolge dieselben Schritte, dann werden die vorhandenen Informationen und Dateien auf Steam aktualisiert.
+UI.StartScreen.Mods.WorkshopUpdateExistingInfo=Um deine Mod zu einem späteren Zeitpunkt zu aktualisieren, gehe zum Tab „Bestehende Mod aktualisieren“ und befolge dieselben Schritte, dann werden die vorhandenen Informationen und Dateien auf Steam aktualisiert.
 UI.StartScreen.Mods.WorkshopSearch=Mods durchsuchen …
 UI.StartScreen.Mods.SortVotes=Bewertung
 UI.StartScreen.Mods.SortNewest=Neues
@@ -36,14 +36,14 @@ UI.StartScreen.Mods.InvalidDescTitle=Ungültige Mod-Beschreibung
 UI.StartScreen.Mods.InvalidDescDesc=Die Mod-Beschreibung darf nicht leer sein.
 UI.StartScreen.Mods.InvalidIconTitle=Ungültiges Mod-Symbol
 UI.StartScreen.Mods.InvalidIconDesc=Wähle für deine Mod ein PNG-Bild mit demselben Namen wie deine Mod.
-UI.StartScreen.Mods.ModDownloadError=Fehler beim Herunterladen: Mod ist vielleicht schon heruntergeladen
+UI.StartScreen.Mods.ModDownloadError=Fehler beim Herunterladen. Mod ist vielleicht schon heruntergeladen.
 UI.StartScreen.Mods.ModDownloadedName=Name: 
 UI.StartScreen.Mods.ModDownloadedID=ID der veröffentlichten Datei: 
 UI.StartScreen.Mods.ModDownloadedLocalFolder=Lokaler Ordner: 
 UI.StartScreen.Mods.ModDownloaded=Mod erfolgreich heruntergeladen
-UI.StartScreen.Mods.ModDownloadedInfo=Starte zum Abschluss der Mod-Installation TI neu<br/>
+UI.StartScreen.Mods.ModDownloadedInfo=Starte zum Abschluss der Mod-Installation Terra Invicta neu<br/>
 UI.StartScreen.Mods.UseMods=Mods verwenden
-UI.StartScreen.Mods.UseModsDescription=Das Aktivieren dieser Option lädt die installierten Mod-Vorlagen und Asset-Pakete. Änderungen dieser Einstellung oder das Installieren bzw. Entfernen von Mods werden erst nach einem Neustart sichtbar. Erfolge werden deaktiviert, wenn diese Einstellung aktiviert ist.
+UI.StartScreen.Mods.UseModsDescription=Das Aktivieren dieser Option lädt die installierten Mod-Vorlagen und Asset-Pakete. Änderungen dieser Einstellung oder das Installieren bzw. Entfernen von Mods werden möglicherweise erst nach einem Neustart sichtbar.
 UI.StartScreen.Mods.ModWarningHeaderBadState=Mod ist in einem schlechten Zustand.
 UI.StartScreen.Mods.ModWarningDescriptionBadState=Der Mod {0} ist sowohl im deaktivierten als auch im aktivierten Mod-Ordner vorhanden. Bitte überprüfe und entferne den Ordner dieses Mods entweder aus dem deaktivierten oder dem aktivierten Unterordner.
 UI.StartScreen.Mods.ModWarningHeaderFailLoadJson=Mod-Manager konnte json nicht laden.
@@ -52,6 +52,10 @@ UI.StartScreen.Mods.ModWarningNoItemsFoundHeader=Keine Gegenstände gefunden
 UI.StartScreen.Mods.ModWarningNoItemsFoundDescription=Es wurden keine zu aktualisierenden Gegenstände gefunden. Es scheint, als hättest du noch keine Gegenstände hochgeladen oder sie können nicht abgerufen werden.
 UI.StartScreen.TemplateLoadingFailureHeader=Fehlerhafte Vorlagendateien entdeckt
 UI.StartScreen.TemplateLoadingFailureDesc=Der vorherige Spielstart ist aufgrund fehlerhafter Vorlagendateien fehlgeschlagen. Mods wurden deaktiviert. Eine oder mehrere deiner Mods sind möglicherweise veraltet und haben inkompatible Vorlagendaten.
+UI.StartScreen.Mods.ModWarningHeaderFailGeneral=Fehler beim Laden des Mods
+UI.StartScreen.Mods.ModWarningDescriptionFailGeneral=Fehler beim Laden einer oder mehrerer Mod-Dateien. Bitte deaktiviere die unten stehenden Mods und starte Terra Invicta neu:<br/><br/>{0}<br/><br/>{1}
+UI.StartScreen.Mods.ModWarningHeaderDeleteFail=Dateien konnten nicht gelöscht werden
+UI.StartScreen.Mods.ModWarningDescriptionDeleteFail=Die Dateien werden möglicherweise verwendet. Starte Terra Invicta neu und versuche es noch einmal.
 UI.StartScreen.Mods.Install=Installieren
 UI.StartScreen.Mods.Enabled=Aktiviert
 UI.StartScreen.Mods.Disabled=Deaktiviert
@@ -74,6 +78,13 @@ UI.StartScreen.Mods.ModToolsInfo1=Mods werden im Stammverzeichnis des Ordners Mo
 UI.StartScreen.Mods.ModToolsInfo2=Vorlagendateien im Mod-Ordner werden geparst. Wenn die Einträge aus der .json-Datei schon im Spiel existieren, überschreiben sie die Standard-Spieldaten. Neue Einträge werden einfach hinzugefügt. Assetbundles im Mod-Ordner werden beim Start geladen, wodurch du grafische Assets zum Spiel hinzufügen kannst. Lokalisierte Textdateien im Mod-Ordner werden zu Texteinträgen hinzugefügt, die der Sprache des Dateinamens entsprechen, oder überschreiben diese. Das heißt, dass .en-Dateien englische Texteinträge dieser Vorlage ersetzen usw.
 UI.StartScreen.Mods.ModsInSave=Benutzte Mods
 UI.StartScreen.Mods.Checking=Suche nach Mod-Aktualisierungen ...
+UI.StartScreen.Mods.Subscribe=Abonnieren
+UI.StartScreen.Mods.Unsubscribe=Abmelden
+UI.StartScreen.Mods.Subscribed=Abonniert
+UI.StartScreen.Mods.Unsubscribed=Abgemeldet
+UI.StartScreen.Mods.Updated=Aktualisiert
+UI.StartScreen.Mods.InstallModsNotice=Die abonnierten Mods aus dem Steam Workshop wurden installiert oder aktualisiert. Bitte starte das Spiel neu, um die Installation der Änderungen abzuschließen.
+UI.StartScreen.Mods.UninstallModsNotice=Die Mods aus dem Steam Workshop, die du abgemeldet hast, wurden deaktiviert. Starte das Spiel neu, um die Deinstallation abzuschließen.
 UI.StartScreen.Mods.Tags.0=Keine
 UI.StartScreen.Mods.Tags.1=Balance
 UI.StartScreen.Mods.Tags.2=Spieleinstellungen
@@ -84,11 +95,11 @@ UI.StartScreen.Mods.Tags.6=Ratsmitglieder
 UI.StartScreen.Mods.Tags.7=Schiffe
 UI.StartScreen.Mods.Tags.8=Nützliches
 UI.StartScreen.FailedToLoadSave=Spielstand konnte nicht geladen werden
-UI.StartScreen.FailedToLoadSaveDescription=Spielstand konnte aufgrund inkompatibler Spielversion oder ungültiger Speicherdateien nicht geladen werden.<br/><br/>Spieler, die mit Spielständen der Version 0.3 oder älter spielen oder Dienste nutzen, auf denen das Spielen älterer Versionen ermöglicht wird (etwa Steam oder GOG), sollten ihre Spielversion im jeweiligen Dienst auf eine ältere Version zurücksetzen.
+UI.StartScreen.FailedToLoadSaveDescription=Spielstand konnte aufgrund inkompatibler Spielversion oder ungültiger Speicherdateien nicht geladen werden.<br/><br/>Spieler, die mit älteren Spielständen spielen oder Dienste nutzen, auf denen das Spielen älterer Versionen ermöglicht wird (etwa Steam oder GOG), sollten ihre Spielversion im jeweiligen Dienst auf eine ältere Version zurücksetzen.
 UI.StartScreen.StartupErrorHeader=Fehler beim Spielstart
 UI.StartScreen.StartupErrorSavePath=Das Spiel konnte nicht auf den erforderlichen Speicherpfad zugreifen und kann nicht gestartet werden. Bitte überprüfe die Berechtigungen und/oder vorhandene Cloud-Speicher-Software (z. B. OneDrive), um sicherzustellen, dass das Spiel Dateien am folgenden Ort lesen und schreiben kann:<br/><br/>{0}<br/><br/>Für Unterstützung wende dich bitte per E-Mail an: support@pavonisinteractive.com<br/><br/>Die Software wird geschlossen, wenn du auf „OK“ drückst.
 UI.StartScreen.TutorialDesc=Für das erste Mal ist es empfehlenswert, als der Widerstand zu spielen und das Tutorial zu aktivieren.
-UI.StartScreen.Credits=Entwicklungsteam
+UI.StartScreen.Credits=Mitwirkende
 UI.StartScreen.Exit=Spiel beenden
 UI.StartScreen.Skirmish.Begin=GEFECHT BEGINNEN
 UI.StartScreen.Skirmish.Header=Gefechtskonfiguration
@@ -191,7 +202,7 @@ UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=Namen mittelgroßer S
 UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=Namen großer Schiffe
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=Habitatnamen
 UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Alien-Angriffsflotte hinzufügen
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Fügt zu Beginn der Kampagne eine zusätzliche Alien-Flotte mit Angriffsträgern hinzu.
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Fügt zu Beginn der Kampagne eine zusätzliche Alien-Flotte mit einigen Angriffsträgern hinzu. <h>Dies wird den Schwierigkeitsgrad der Kampagne signifikant erhöhen und richtet sich nur an erfahrene Spieler.</h>
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Standards (beschleunigt)
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=Standards (lange Kampagne)
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Einstellungen der vorherigen Kampagne
@@ -208,8 +219,8 @@ UI.StartScreen.TICredits_1=– ENTWICKELT VON –<br/>Pavonis Interactive<br/><b
 UI.StartScreen.TICredits_2=– VERÖFFENTLICHT VON –<br/>Hooded Horse<br/><br/>
 UI.StartScreen.TICredits_3=– KREATIVDIREKTOR –<br/>John J. Lumpkin<br/><br/>
 UI.StartScreen.TICredits_4=– ART DIRECTOR –<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=– ENTWICKLER –<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Benjamin Poland<br/>Ryan Dunagan<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=– LEAD PRODUCER –<br/>Tim Bender<br/><br/>PRODUCER<br/>Scott Davis<br/><br/>
+UI.StartScreen.TICredits_5=ENTWICKLER<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Ryan Dunagan<br/>Benjamin Poland<br/>Christina Stillman<br/><br/>
+UI.StartScreen.TICredits_6=PRODUCER<br/>Scott Davis<br/><br/>
 UI.StartScreen.TICredits_7=– CHARAKTER- UND 2D-DESIGNER –<br/>Michael Moore<br/><br/>
 UI.StartScreen.TICredits_8=– ILLUSTRATOREN –<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
 UI.StartScreen.TICredits_9=– TECHNISCHER KÜNSTLER –<br/>Zack Dawson<br/><br/>
@@ -270,38 +281,39 @@ UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne �
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57=– QUALITÄTSSICHERUNG –<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah<br/><br/>
-UI.StartScreen.TICredits_58=DANKE AN<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/><br/>
+UI.StartScreen.TICredits_57=STARS DER QUALITÄTSSICHERUNG<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah und der Rest der Gang von Pavonis Discord<br/><br/>
+UI.StartScreen.TICredits_58=DANKE AN<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/>Alice, Charlotte, and Theo<br/>Emily, William and Théodore<br/><br/>
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>
-UI.StartScreen.TICredits_60=– CHIEF EXECUTIVE OFFICER –<br/>Tim Bender<br/><br/>
-UI.StartScreen.TICredits_61=– CHIEF FINANCIAL OFFICER UND JUSTITIAR –<br/>Snow Rui<br/><br/>
-UI.StartScreen.TICredits_62=– LEITENDER PRODUKTMANAGER –<br/>Ashkan Namousi<br/><br/>
-UI.StartScreen.TICredits_63=– BERATER –<br/>Shams Jorjani<br/><br/>
-UI.StartScreen.TICredits_64=– KOMMUNIKATIONSDIREKTOR –<br/>Joe Robinson<br/><br/>KOMMUNIKATIONSMANAGER<br/>Marcello Perricone<br/><br/>
-UI.StartScreen.TICredits_65=– INFLUENCER-MANAGER –<br/>Antony „HForHavoc“ Floyd<br/><br/>
-UI.StartScreen.TICredits_66=– WEITERE INFLUENCER-MANAGER –<br/>Shaun „BearlyTactical“ Ginty<br/>Noris „komakrtv“ Merk<br/><br/>
-UI.StartScreen.TICredits_67=– MARKETINGBERATER –<br/>PartyElite<br/>Tsukiha Shirakusu<br/>Caketown Interactive<br/>Filip Sirc<br/><br/>
-UI.StartScreen.TICredits_68=– TRAILERPRODUKTION –<br/>Slavic Magic<br/>Grzegorz Styczen<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_69=– PR-MANAGER –<br/>Vicarious PR<br/>Michael Brown<br/>Lewis Burnell<br/>Matt Brown<br/><br/>
-UI.StartScreen.TICredits_70=– LOKALISIERUNGS-KOORDINATOR –<br/>Miguel David Medina García<br/><br/>
-UI.StartScreen.TICredits_71=– LOKALISIERUNG –<br/>Roboto Global<br/>EC Innovations<br/>Brenda Triandafeledis<br/>Laura Nieves Díaz Suárez<br/>Carlota Marie Dávila Santana<br/>Marta Medina González<br/>Wenwei Jiang<br/>Yuki Fujita<br/>Terra Invicta Chinese Fan Localization Group<br/><br/>
-UI.StartScreen.TICredits_72=BESONDERER DANK AN<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D'Arcy<br/><br/>
-UI.StartScreen.TICredits_73=– ENTWICKLUNGSBABYS! –<br/>Théodore<br/>Carmen Rose<br/><br/>
+UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>CHIEF EXECUTIVE OFFICER<br/>Tim Bender<br/><br/>PRESIDENT AND CHIEF FINANCIAL OFFICER<br/>Snow Rui<br/><br/>CHIEF PRODUCT OFFICER & DEPUTY CEO<br/>Ashkan Namousi<br/><br/>CHIEF COMMERCIAL OFFICER<br/>James Gardiner<br/><br/>CHIEF MARKETING OFFICER<br/>Abhishek Chaudhry<br/><br/>CHIEF PLAYER EXPERIENCE OFFICER<br/>Mandalore Herrington<br/><br/>CHAIRMAN OF THE BOARD<br/>Shams Jorjani<br/><br/>DIRECTOR OF COMMUNICATIONS<br/>Joe Robinson<br/><br/>DIRECTOR OF CREATOR RELATIONS<br/>Antony Floyd aka HForHavoc<br/><br/>DIRECTOR OF MARKETING COORDINATION<br/>Matthijs Hoving<br/><br/>DIRECTOR OF COMMUNITY<br/>Matthew Palacio<br/><br/>DIRECTOR OF SOCIAL STRATEGY<br/>Auverin Morrow<br/><br/>DIRECTOR OF IT & SYSTEMS<br/>Patrik Arvidsson<br/><br/>PUBLISHING PRODUCERS<br/>Dastan Namousi<br/>Tom King<br/><br/>LEAD RELEASE MANAGER (PRIMARY)<br/>Natalia Montero<br/><br/>SENIOR RELEASE MANAGERS<br/>Blossom Kremer<br/>Aneta Zagórska<br/><br/>LOCALIZATION PRODUCER<br/>Michael Radnitz<br/><br/>LOCALIZATION COORDINATOR<br/>Miguel David Medina García<br/><br/>CREATOR RELATIONS MANAGER<br/>Renee April<br/><br/>SENIOR STRATEGIC PARTNER MANAGER<br/>Ga-Yi Ng<br/><br/>MARKETING MANAGER (JAPAN, KOREA & SÜDOSTASIEN)<br/>LamNot<br/><br/>LOCALIZATION & MARKETING ASSOCIATE (OSTASIEN)<br/>Guo Yu Shun Wilson<br/><br/>CONCEPT ARTISTS<br/>Daniel Morawski<br/>Sarah Mills<br/><br/>LEAD VIDEOGRAPHER<br/>Kacper Bork<br/><br/>BUCHHALTUNG<br/>Meridith Malone<br/><br/>OFFICE ADMINISTRATOR<br/>Bailey Sullivan<br/><br/>MARKETING CONSULTANT<br/>PartyElite<br/><br/>ZUSÄTZLICHE UNTERSTÜTZUNG<br/>Shaun Ginty aka BearlyTactical<br/>Noris Merk aka kormakrtv<br/><br/>SPECIAL PROJECTS MANAGER<br/>Marcello Perricone<br/><br/>BESONDERER DANK<br/>Aaron Nathan<br/>Andrew Hume<br/>Grzegorz Styczeń<br/>Martti Aarnio-Wihuri<br/>Todd D’Arcy<br/><br/>
+UI.StartScreen.TICredits_60=TRAILERPRODUKTION<br/><br/>SLAVIC MAGIC<br/>Grzegorz Styczeń<br/>Patrycja Gdula<br/><br/>
+UI.StartScreen.TICredits_61=PR<br/><br/>GAMEDASH<br/>Bing Li<br/>Tian Luo<br/><br/>
+UI.StartScreen.TICredits_62=LOKALISIERUNG<br/>HOODED HORSE<br/><br/>LOKALISIERUNG – TRADITIONALES CHINESISCH<br/>Guo Yu Shun Wilson<br/>Melody Lin<br/><br/>LOKALISIERUNG – ITALIENISCH<br/>Emanuelle Ricobenne<br/>Ketty Federico<br/><br/>LOKALISIERUNG – KOREANISCH<br/>Seulki Lee<br/>Lim Yoon<br/><br/>LOKALISIERUNG – BRASILIANISCHES PORTUGIESISCH<br/>Brenda Triandafeledis<br/><br/>LOKALISIERUNG – SPANISCH<br/>Laura Nieves Díaz Suárez<br/>Marta Medina González<br/>Miguel David Medina García<br/>Carlota Marie Dávila Santana<br/><br/>LOKALISIERUNG – UKRAINISCH<br/>Vladyslav Verstiuk<br/>Nikol Kryvoruchko<br/><br/>
+UI.StartScreen.TICredits_63=《地球不屈》汉化组<br/><br/>LOKALISIERUNG – EINFACHES CHINESISCH<br/><br/>ECI GAMES<br/><br/>PROJECT MANAGERS<br/>Ángel Hernández Santana<br/>Kasia Kępka<br/>Zhao Ting<br/><br/>LOKALISIERUNG – EINFACHES CHINESISCH<br/>Wu Fan<br/>Cobra Xu<br/>Sherry Wang<br/><br/>LOKALISIERUNG – TRADITIONELLES CHINESISCH<br/>Weiyi Jiang<br/><br/>LQA – TRADITIONELLES CHINESISCH<br/>Gail Pu<br/><br/>LOKALISIERUNG – FRANZÖSISCH<br/>Félix Braconnier<br/>Lueje Prigent<br/>Maxime Aduriz<br/>Victor Berry<br/>Caitlin Maurin<br/><br/>LOKALISIERUNG – DEUTSCH<br/>Stefan Herzog<br/>Nino Kadletz<br/>Philipp Kolleritsch<br/>Martin Monsberger<br/>Raphael Oberhuber<br/><br/>LOKALISIERUNG – JAPANISCH<br/>Mina Horiba-Maguire<br/>Naomi Ueda<br/>Keigo Yonemura<br/>Liu Peiduo<br/><br/>
+UI.StartScreen.TICredits_64=QLOC S.A.<br/><br/>GENERAL MANAGER<br/>Adam Piesiak<br/><br/>HEAD OF BUSINESS DEVELOPMENT<br/>Paweł Książek<br/><br/>SENIOR BUSINESS DEVELOPMENT MANAGER<br/>Marta Olejniczak<br/><br/>VENDOR MANAGER<br/>Paweł Pierzchanowski<br/><br/>DIRECTOR OF QUALITY ASSURANCE<br/>Sergiusz Ślosarczyk<br/><br/>IT DIRECTOR<br/>Artur Szczurzyński<br/><br/>QA OPERATIONS MANAGER<br/>Paweł Strzelczyk<br/><br/>LEARNING & DEVELOPMENT COORDINATOR<br/>Aleksandra Grigorian-Kopka<br/><br/>LEARNING & DEVELOPMENT SPECIALISTS<br/>Michał Grabuś<br/>Damian Jasiński<br/><br/>LQA SENIOR TEAM LEADERS<br/>Michał Mugerman<br/>Kamil Uszyński<br/><br/>LEAD LOCALIZATION PRODUCERS<br/>Alan Orman<br/>Maciej Polak<br/><br/>LOKALISIERUNG – TSCHECHISCH<br/>Michal Farník<br/>Petr Šeba<br/>Tomáš Varbanov<br/><br/>LQA – ITALIENISCH<br/>Michele Fanelli<br/>Andrea Iachetti<br/><br/>LOKALISIERUNG – POLNISCH<br/>Monika Buraczyńska<br/>Andrzej Jakubiec<br/>Janusj Mrzigod<br/>Andrzej Popowski<br/><br/>LQA – POLNISCH<br/>Katarzyna Startek<br/><br/>LOKALISIERUNG – RUSSISCH<br/>Mikhail Zakharov<br/>Vasily Firsov<br/>Maxim Levushkin<br/>Roman Nefedov<br/>Pavel Nikolenko<br/>Polina Zam<br/><br/>LQA – RUSSISCH<br/>Andrey Moshkov<br/><br/>LOKALISIERUNG – UKRAINISCH<br/><br/>LQA – UKRAINISCH<br/>Oleg Łoginow<br/><br/>
+UI.StartScreen.TICredits_65=QA<br/><br/>QLOC S.A.<br/><br/>LEAD QA PROJECT MANAGER<br/>Jakub Dudkowski<br/><br/>QA PROJECT MANAGER<br/>Karolina Jagnyziak<br/>Wojciech Tarasiuk<br/><br/>QA LAB MANAGERS<br/>Piotr Badurek<br/>Emil Lubowicki<br/>Tomasz Prusicki<br/><br/>FQA TEAM LEADER<br/>Marcin Oprządek<br/><br/>FQA TESTERS<br/>Tymoteusz Bigos<br/>Aleksandra Bobek<br/>Mikołaj Kozłowski<br/>Piotr Krakowiak<br/>Michał Owczarek<br/>Mateusz Wieczorek<br/><br/>TESTRONIC<br/><br/>COMPLIANCE AND COMPATIBILITY MANAGER<br/>Iwona Szarzyńska<br/><br/>SENIOR COMPATIBILITY PROJECT LEAD<br/>Małgorzata Twarogal<br/><br/>ASSOCIATE COMPATIBILITY QA LEAD<br/>Michał Soral<br/><br/>COMPATIBILITY QA TECHNICIANS<br/>Lisa Bajdowska<br/>Dominik Krawczyk<br/>Brine Mukombachoto<br/>Haran Dev Murugan<br/><br/>
+UI.StartScreen.TICredits_66=<skip/>
+UI.StartScreen.TICredits_67=<skip/>
+UI.StartScreen.TICredits_68=<skip/>
+UI.StartScreen.TICredits_69=<skip/>
+UI.StartScreen.TICredits_70=<skip/>
+UI.StartScreen.TICredits_71=<skip/>
+UI.StartScreen.TICredits_72=<skip/>
+UI.StartScreen.TICredits_73=ENTWICKLUNGSBABYS!<br/>Théodore<br/>Carmen Rose<br/><br/>
 
 //<Contributing Backers> Credits
-
-UI.StartScreen.TICredits_74=– KICKSTARTER-UNTERSTÜTZER MIT KREATIVBEITRAG –<br/>
-
+UI.StartScreen.TICredits_74=KICKSTARTER-UNTERSTÜTZER MIT KREATIVBEITRAG<br/>
 
 //<Playtester> Credits
+UI.StartScreen.TICredits_105=KICKSTARTER<sp>
+UI.StartScreen.TICredits_106=PLAYTESTERS<br/>
 
-UI.StartScreen.TICredits_105=– KICKSTARTER
-UI.StartScreen.TICredits_106= PLAYTESTER –<br/>
 
-UI.StartScreen.TICredits_1337=– SOFTWARE –<br/><br/>Entwickelt mit Unity<br/><br/>Entwickelt mit FMOD Studio<br/>von Firelight Technologies Limited<br/><br/>
+//<Backers> Credits
+UI.StartScreen.TICredits_393=KICKSTARTER BACKERS<br/>
+
+UI.StartScreen.TICredits_1337=SOFTWARE<br/><br/>Entwickelt mit Unity<br/><br/>Entwickelt mit FMOD Studio<br/>von Firelight Technologies Limited<br/><br/>
 UI.StartScreen.TICredits_1338=Die Mehrheit der Organisationslogos für die fiktiven Privatunternehmen im Spiel werden mit freundlicher Genehmigung von LogoLogo.com verwendet.<br/>Die Verwendung der Logos von staatlichen Behörden soll keine Unterstützung durch diese Behörden andeuten.<br/><br/>
 UI.StartScreen.TICredits_1339=Manche der Bilder, die als Grundlage für die Hintergründe der Ratsmitgliederporträts dienen, werden mit freundlicher Genehmigung der NASA verwendet.<br/><br/>
 UI.StartScreen.TICredits_1340=Autor von A Tale of Two Cities ... Charles Dickens

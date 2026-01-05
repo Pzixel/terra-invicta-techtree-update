@@ -84,12 +84,10 @@ TIParticleWeaponTemplate.displayName.AlienSpinalParticleCannon=외계 중앙 고
 TIParticleWeaponTemplate.description.AlienSpinalParticleCannon=외계의 초대형 입자 대포입니다.
 TIParticleWeaponTemplate.displayName.AlienRelativisticParticleCannon=외계 중량 중앙 고정형 입자 대포
 TIParticleWeaponTemplate.description.AlienRelativisticParticleCannon=외계 설계의 장거리 입자 무기입니다.
-
 TIParticleWeaponTemplate.DamageAtRange=피해: <rcol>{1}km에서 {0}MJ({2} 손상)</rcol>
 TIParticleWeaponTemplate.DamageExplainer=입자 무기는 열, X-선, 중입자 피해로 나뉩니다. 방사선의 한 형태인 X-선과 중입자는 다른 무기가 할 수 없는 방식으로 장갑을 관통합니다. 중입자 피해는 X-선보다 승무원과 내부 구성 요소에 몇 배 더 큰 피해를 줍니다. 광선이 표적 함선의 선체에 고에너지 반응을 일으킬 경우, 입력 에너지의 100%를 초과하는 총 피해가 발생할 수 있습니다.
 TIParticleWeaponTemplate.HeatDamage=열 피해: <rcol>{0}</rcol>
 TIParticleWeaponTemplate.XRayDamage=X선 피해(방사능): <rcol>{0}</rcol>
 TIParticleWeaponTemplate.BaryonicDamage=중입자 피해(방사능), {0}x 내부 구성: <rcol>{1}</rcol>
-
 TIParticleWeaponTemplate.Defense.MissilesOnly=<h>방어 사격은 미사일만 표적으로 삼습니다.</h>
 TIParticleWeaponTemplate.Defense.ReducedEffectiveness=<h>미사일이 아닌 발사체에 대한 방어 사격은 그 효과가 감소합니다</h>

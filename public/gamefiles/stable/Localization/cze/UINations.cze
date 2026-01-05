@@ -25,13 +25,13 @@ UI.Nations.CPMaintButton=Kontrolní body
 UI.Nations.CPMaintClose=Uzavřená
 UI.Nations.CPMaint1=Měsíční náklady {0} na údržbu kontrolního bodu: {1}	// influence symbol, value
 UI.Nations.CPMaint2=Kapacita hodnoty kontrolních bodů: {0}{1}	// CP Symbol												
-UI.Nations.CPMaint3=Toto je celková hodnota kontrolních bodů, které můžeme vlastnit, aniž bychom utrpěli postihy za mise nebo platili {0} za jejich podporu. Hodnota kontrolního bodu se odvíjí od velikosti ekonomiky daného národa. Kontrolní body, které trpí efektem potlačení vlivu, se do tohoto limitu nezapočítávají.	// influence symbol
+UI.Nations.CPMaint3=Toto je celková hodnota kontrolních bodů, které můžeme vlastnit, aniž bychom utrpěli postihy za mise nebo platili {0} za jejich podporu. Hodnota kontrolního bodu se odvíjí od velikosti ekonomiky daného národa. Kontrolní body, které trpí efektem zátahu, se do tohoto limitu nezapočítávají.	// influence symbol
 UI.Nations.CPMaint4=<sp>Základní limit: {0}{1}
 UI.Nations.CPMaint5=<sp>Bonus z výzkumu: {0}{1}
 UI.Nations.CPMaint6=Využitá kapacita: {0}{1}
 UI.Nations.CPMaint7=<sp>Každý náklad proti limitu: {0}{1}
 UI.Nations.CPMaint8={0} {1}x{2} = {3}<sp> 	// nation name, # control points owned in that nation, total cost
-UI.Nations.CPMaint9= (z potlačení vlivu a opuštění)
+UI.Nations.CPMaint9= (ze zátahů a opuštění)
 UI.Nations.CPMaint10= Bonus z administrativy radních: {0}{1}
 UI.Nations.CPMaint11= Bonus z velení radních: {0}{1}
 UI.Nations.CPMaint12= Bonus z přesvědčování radních: {0}{1}

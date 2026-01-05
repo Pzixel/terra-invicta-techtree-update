@@ -666,6 +666,7 @@ TIDriveTemplate.OpenCycle=This drive uses <h>open-cycle cooling</h>, meaning its
 TIDriveTemplate.ClosedCycle=This drive uses <h>closed-cycle cooling</h>, meaning it requires heavy radiators to expel waste heat. Drives with high exhaust velocity tend to require this to function.
 TIDriveTemplate.ISRU=This drive can be reloaded with propellant from unimproved hab sites with no special equipment.
 TIDriveTemplate.UsesHelium3=This drive uses Helium-3, which must be bred in reactors using fissiles unless we can mine it from the gas giants in the Solar System.
+TIDriveTemplate.NoEVPenalty=This drive does not lose exhaust velocity when using combat thrust.
 TIDriveTemplate.PowerGeneration=Backup Power to Ship Systems:<rcol>{0}</rcol>
 TIDriveTemplate.PowerGenerationType.Always=Always
 TIDriveTemplate.PowerGenerationType.DriveIdle=When Not Thrusting

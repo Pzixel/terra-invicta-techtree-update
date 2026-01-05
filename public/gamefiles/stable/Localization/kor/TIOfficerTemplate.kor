@@ -13,7 +13,6 @@ TIOfficerTemplate.displayName.Officer_Intel=정보 장교
 TIOfficerTemplate.displayName.Officer_Marine=해병 장교
 TIOfficerTemplate.displayName.Officer_Supply=병참 장교
 TIOfficerTemplate.displayName.Officer_Chief=승무원장
-
 TIOfficerTemplate.description.Officer_Admiral=함대 전체에 보너스를 지급하는 고위 장교입니다. 함대당 한 명의 제독만 <color=#FFFFFFFF><sprite name=mission_control></color> 보너스를 적용할 수 있습니다.
 TIOfficerTemplate.description.Officer_Captain=함선의 선장입니다.
 TIOfficerTemplate.description.Officer_First=함선의 부선장입니다.
@@ -29,7 +28,6 @@ TIOfficerTemplate.description.Officer_Intel=승무원의 적에 대한 지식을
 TIOfficerTemplate.description.Officer_Marine=함선의 해병대 파견을 담당하는 장교입니다.
 TIOfficerTemplate.description.Officer_Supply=함선의 저장품과 인양을 담당하는 장교.
 TIOfficerTemplate.description.Officer_Chief=승무원을 대표하는 우주선의 선임 우주 비행사입니다.
-
 TIOfficerTemplate.Officer_Admiral_1=준장
 TIOfficerTemplate.Officer_Captain_1=대령
 TIOfficerTemplate.Officer_First_1=대위
@@ -45,7 +43,6 @@ TIOfficerTemplate.Officer_Intel_1=소위
 TIOfficerTemplate.Officer_Marine_1=갑판사관
 TIOfficerTemplate.Officer_Supply_1=소위
 TIOfficerTemplate.Officer_Chief_1=고급 하사관
-
 TIOfficerTemplate.Officer_Admiral_2=중장
 TIOfficerTemplate.Officer_Captain_2=상급 대령
 TIOfficerTemplate.Officer_First_2=소령
@@ -61,7 +58,6 @@ TIOfficerTemplate.Officer_Intel_2=중위
 TIOfficerTemplate.Officer_Marine_2=대령
 TIOfficerTemplate.Officer_Supply_2=중위
 TIOfficerTemplate.Officer_Chief_2=상사
-
 TIOfficerTemplate.Officer_Admiral_3=함대 제독
 TIOfficerTemplate.Officer_Captain_3=함대 함장
 TIOfficerTemplate.Officer_First_3=사령관
@@ -77,19 +73,17 @@ TIOfficerTemplate.Officer_Intel_3=대위
 TIOfficerTemplate.Officer_Marine_3=육군 소령
 TIOfficerTemplate.Officer_Supply_3=대위
 TIOfficerTemplate.Officer_Chief_3=원사
-
 TIOfficerTemplate.MaxPerShip=-함선당 이 유형의 장교 최대 {0}명
-TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-사령관 및 함장을 제외한 모든 유형의 장교 총 수는 {0}대 선체에 최대 {1}명							
+TIOfficerTemplate.MaxTotalOfficersPerShip_Hull=-사령관 및 함장을 제외한 모든 유형의 장교 총 수는 {0}대 선체에 최대 {1}명 // / number, hull display name
 TIOfficerTemplate.MaxTotalOfficersPerShip=-선체 크기에 따라 선박에 탑승할 수 있는 사령관 및 함장을 제외한 모든 유형의 최대 총 장교 수
 TIOfficerTemplate.CrewMin=-최소 {0}명의 승무원 필요
-TIOfficerTemplate.FlagBridge=-{0} 모듈 필요																			
+TIOfficerTemplate.FlagBridge=-{0} 모듈 필요 // / name of flag bridge ship utility module
 TIOfficerTemplate.MissileWeapons=-함선에 미사일 무기가 필요
 TIOfficerTemplate.EnergyWeapons=-함선에 레이저 또는 입자 광선 무기 필요
 TIOfficerTemplate.GunWeapons=-함선에 자기, 플라즈마 또는 탄환 무기 필요
 TIOfficerTemplate.DefenseWeapons=-함선에 방어 사격 모드가 있는 무기 필요
 TIOfficerTemplate.Marines=-함선에 해병 필요
 TIOfficerTemplate.TunableDrive=-전투 추력 배율이 1보다 큰 추진기 필요
-
 TIOfficerTemplate.FleetMissionControl=-함대 임무 관제 비용 {2} 절감
 TIOfficerTemplate.ShipMissionControl=-함선 임무 관제 비용을 최소 1로 {0} 변경
 TIOfficerTemplate.OfficerPromotionChance=-장교가 발생한 이벤트에서 {1}까지 승진할 확률 증가
@@ -122,21 +116,19 @@ TIOfficerTemplate.MaxSurvivableCruiseAcceleration=-함선의 최대 허용 순�
 TIOfficerTemplate.RadiationDamageReduction=-입자 무기로 인한 방사선 피해가 {2} 감소
 TIOfficerTemplate.NoDemotionOnTransfer=-다른 함선으로 이동 시 계급을 잃지 않음
 TIOfficerTemplate.NoCostToTransfer=-장교는 다른 함선으로 이동하는 <color=#FFFFFFFF><sprite name="influence"></color> 비용이 들지 않습니다.
-
-TIOfficerTemplate.OfficerShipNameAndJob={0}: {1}, {2}			
-TIOfficerTemplate.OfficerNameAndJob={0}, {1}					
+TIOfficerTemplate.OfficerShipNameAndJob={0}: {1}, {2} // / ship name: rank + name, job
+TIOfficerTemplate.OfficerNameAndJob={0}, {1} // / rank + name, job
 TIOfficerTemplate.OfficerTypeAndRank={0}: {1}
 TIOfficerTemplate.RequirementsHeader=장교 유형 승진을 위한 함선 요구 사항:
 TIOfficerTemplate.PromotionHeader=승진 트리거:
 TIOfficerTemplate.Bonuses=보너스:
 TIOfficerTemplate.OfficersKilled=장교 사망:
 TIOfficerTemplate.KilledInAction=전투 중 사망
-
-TIOfficerTemplate.CompleteLongTrajectory=-함선이 행성 간 궤적을 완성           
-TIOfficerTemplate.SurviveCombat=-우주 전투에서 함선이 살아남음            
+TIOfficerTemplate.CompleteLongTrajectory=-함선이 행성 간 궤적을 완성
+TIOfficerTemplate.SurviveCombat=-우주 전투에서 함선이 살아남음
 TIOfficerTemplate.WinCombat=-함선이 참여한 우주 전투에서 승리
 TIOfficerTemplate.CombatKill=-함선이 전투에서 적 함선이나 전투 모듈 파괴
-TIOfficerTemplate.CombatKill_Guns=-함선이 자기, 플라즈마 또는 탄환 무기로 전투에서 적 함선이나 전투 모듈 파괴                  
+TIOfficerTemplate.CombatKill_Guns=-함선이 자기, 플라즈마 또는 탄환 무기로 전투에서 적 함선이나 전투 모듈 파괴
 TIOfficerTemplate.CombatKill_Missiles=-함선이 미사일로 전투에서 적함이나 전투 모듈 파괴
 TIOfficerTemplate.CombatKill_Beam=-함선이 레이저나 입자 대포로 전투 중 적 함선이나 전투 모듈 파괴
 TIOfficerTemplate.SuccessfulMarineAssault=-함선이 해병 공격에 성공

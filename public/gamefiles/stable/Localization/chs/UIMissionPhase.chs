@@ -16,5 +16,6 @@ UI.MissionPhase.NoTargets=这名理事无法执行此项任务，因为当前没
 UI.MissionPhase.NoTargetLocation=有些任务目标可能无效，因为理事受特质影响，无法移动到任务地点：
 UI.MissionPhase.BadTrait={0}：{1}
 UI.MissionPhase.NoTargetsHelp=这名理事无法执行此项任务，因为当前没有合适的目标。此项任务可能会由于许多原因而失效，包括：
-UI.MissionPhase.Unknown=未知舱体
+UI.MissionPhase.Unknown=未知
 UI.MissionPhase.AIWorking=敌人正在规划中
+UI.MissionPhase.CantAfford=这名理事无法执行此项任务，因为该阵营无法承担相关费用。

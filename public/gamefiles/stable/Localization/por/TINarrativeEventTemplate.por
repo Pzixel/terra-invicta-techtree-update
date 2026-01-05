@@ -3540,7 +3540,7 @@ TINarrativeEventTemplate.event_GlobalCO2Poisoning.optionResult0={summary}
 TINarrativeEventTemplate.displayName.event_PolandinSpace=Polônia no espaço
 TINarrativeEventTemplate.event_PolandinSpace.summary=A internet está a mil com as últimas notícias do primeiro lançamento de satélite {targetNationNameWithArticleAndPlacePrep}.
 TINarrativeEventTemplate.event_PolandinSpace.query=Haviam muitos que acreditavam que jamais seria possível. Muitos deram corda à ideia apenas como zombaria. Alguns sugeriram, , que as leis da física e da teologia funcionam de maneira diferente nesse país, o que o impediriam de chegar a realizar sonhos tão elevados. Poucos sabiam que há não tanto tempo atrás seu estandarte já tinha sido levado ao espaço por Mirosław Hermaszewski como parte do programa soviético Intercosmos; e agora será levado outra vez, mas em seus próprios foguetes.<br/><br/>Agora todos eles pagarão por suas línguas porque, pela primeira vez nesta era moderna de animação e possibilidades, a Polônia foi ao espaço!
-TINarrativeEventTemplate.event_PolandinSpace.option0=
+TINarrativeEventTemplate.event_PolandinSpace.option0=Poland has made it to space!
 TINarrativeEventTemplate.event_PolandinSpace.optionDetail0=<skip/>
 TINarrativeEventTemplate.event_PolandinSpace.optionResult0={summary}
 

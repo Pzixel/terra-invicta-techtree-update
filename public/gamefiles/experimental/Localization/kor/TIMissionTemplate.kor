@@ -4,32 +4,27 @@ TIMissionTemplate.CriticalSuccess.Abductions={targetRegionName}에서 지역 당
 TIMissionTemplate.Success.Abductions={targetRegionName}에서 연구를 위한 일부 실험 대상자를 모집했습니다.
 TIMissionTemplate.Failure.Abductions={targetRegionName}에서 연구를 위한 다수의 인간을 모으는 데 실패했습니다.
 TIMissionTemplate.CriticalFailure.Abductions={targetRegionName}에서 연구를 위한 인간을 수집하는 것에 실패했으며, 적들이 우리의 존재를 알아차린 것 같습니다.
-
 TIMissionTemplate.displayName.GainInfluence=국가 통제
 TIMissionTemplate.description.GainInfluence=국가의 개방된 통제 지점을 확보합니다.
 TIMissionTemplate.CriticalSuccess.GainInfluence={myFactionName}의 {targetNationNameWithPrep} 통제 지점을 확보했으며, 여론이 우리 쪽으로 {returnedValue} 기울었습니다. 이제 우리는 이곳에서 통제 지점 {totalTargetNationControlPoints}곳 중 {myTargetNationControlPoints}곳을 보유하고 있습니다.
 TIMissionTemplate.Success.GainInfluence={myFactionName}에서 {targetNationNameWithPrep} 통제 지점을 확보했습니다. 이제 우리는 이곳에서 통제 지점 {totalTargetNationControlPoints}곳 중 {myTargetNationControlPoints}곳을 보유하고 있습니다.
 TIMissionTemplate.Failure.GainInfluence={targetNationNameWithPrep} 국가 통제 임무에 실패했습니다.
 TIMissionTemplate.CriticalFailure.GainInfluence={targetNationNameWithPrep} 국가 통제 임무에 심각한 차질이 발생하여, {myFactionName}의 여론이 {returnedValue} 하락합니다.
-
 TIMissionTemplate.displayName.Propaganda=공공 캠페인
 TIMissionTemplate.description.Propaganda=우리의 대의를 위해 국가에서 대중적 지지를 높입니다.
 TIMissionTemplate.CriticalSuccess.Propaganda={targetNationNameWithPrep}에서 {myFactionName}에 대한 대중의 지지를 증가시켰습니다. {returnedValue}
 TIMissionTemplate.Success.Propaganda={targetNationNameWithPrep}에서 {myFactionName}에 대한 대중의 지지를 증가시켰습니다. {returnedValue}
-TIMissionTemplate.Failure.Propaganda={targetNationNameWithPrep}에서 {missionName} 임무가 대중의 지지를 이끌어내는 것에 실패했습니다.								
+TIMissionTemplate.Failure.Propaganda={targetNationNameWithPrep}에서 {missionName} 임무가 대중의 지지를 이끌어내는 것에 실패했습니다.
 TIMissionTemplate.CriticalFailure.Propaganda={targetNationNameWithPrep}에서 제 {missionName} 임무는 처참했습니다! {returnedValue}
-
 TIMissionTemplate.displayName.Purge=축출
 TIMissionTemplate.description.Purge=적 진영으로부터 통제 지점을 확보합니다.
 TIMissionTemplate.CriticalSuccess.Purge={returnedValue}에서 {targetNationNameWithPrep} 내 {myFactionName} 통제 지점을 확보했으며 대중의 지지를 약간 얻어냈습니다.
 TIMissionTemplate.Success.Purge={targetNationNameWithPrep} 내부 {myFactionName} 통제 지점을 확보했으며 {returnedValue} 지지자들을 축출해냈습니다.
 TIMissionTemplate.Failure.Purge={targetNationNameWithPrep}에서 {returnedValue}의 수하를 축출해내지 못했습니다.
 TIMissionTemplate.CriticalFailure.Purge={targetNationNameWithPrep}에서 {returnedValue} 축출 임무에 실패했습니다. 대중의 지지가 약간 감소했으며, 저의 노력이 적들에게 노출됐을 수도 있습니다.
-
 TIMissionTemplate.displayName.Advise=자문
 TIMissionTemplate.description.Advise=국가 또는 거주지에 전문성을 제공합니다. 의원의 과학, 지휘, 행정이 속성이 대상의 연구 성과, 전투 능력, 그리고 재정적 성과가 향상됩니다. 추가적인 자문 의원은 효과를 감소시킵니다.
 TIMissionTemplate.Success.Advise={targetNationNameWithArticle}에 제 전문 지식을 제공했습니다. {returnedValue}
-
 TIMissionTemplate.displayName.Assassinate=암살
 TIMissionTemplate.description.Assassinate=식별된 적 의원을 제거합니다.
 TIMissionTemplate.CriticalSuccess.Assassinate={targetFactionName}의 {targetCouncilorName} 의원을 제거했습니다. {returnedValue}
@@ -38,7 +33,6 @@ TIMissionTemplate.Failure.Assassinate={targetFactionName}의 {targetCouncilorNam
 TIMissionTemplate.CriticalFailure.Assassinate={targetFactionName}의 {targetCouncilorName} 의원을 제거하는 임무에 실패했습니다.
 TIMissionTemplate.Assassinate.Special={targetFactionAdjective} 요원이 제 위치로 접근하고 있습니다.
 TIMissionTemplate.AssassinateAlien=이 작전을 통해 외계인에 대해 많은 것을 알아낼 수 있었으며 앞으로 진행될 외계학 연구에 보너스를 받게 됩니다.
-
 TIMissionTemplate.displayName.AssaultAlienAsset=외계 자산 공격
 TIMissionTemplate.description.AssaultAlienAsset=고정된 외계 시설물에 맞서 전투 부대를 이끕니다.
 TIMissionTemplate.CriticalSuccess.AssaultAlienAsset={targetRegionName} 지역에서 {targetDisplayName} 대상 공격이 완벽하게 성공했습니다. {returnedValue}
@@ -46,49 +40,40 @@ TIMissionTemplate.Success.AssaultAlienAsset={targetRegionName} 지역에서 {tar
 TIMissionTemplate.Failure.AssaultAlienAsset=어떠한 피해도 입히지 못하고 표적의 방어 시설에 격퇴당했습니다.
 TIMissionTemplate.CriticalFailure.AssaultAlienAsset=표적을 향한 공격이 어떠한 피해도 입히지 못했습니다.
 TIMissionTemplate.CouncilorKilled.AssaultAlienAsset={0} 의원이 작전 중 사망했습니다!
-
 TIMissionTemplate.displayName.AssumeControl=외계인 통제권 부여
 TIMissionTemplate.description.AssumeControl=우리의 통제 아래에 있는 국가를 외계 행정부로 이양합니다. 해당 시역에 시설이 지어져 있어야 합니다. 이 임무는 해당 지역에 외계 국가가 존재하지 않는 경우 새로운 외계 국가를 만들어냅니다. 그들은 대가로 자원을 제공하여 우리를 도울 것입니다.
 TIMissionTemplate.Success.AssumeControl=우리의 후원자에게 {targetNationNameWithArticle} 이양을 완료했습니다.
-
 TIMissionTemplate.displayName.BuildFacility=시설 건설
 TIMissionTemplate.description.BuildFacility=외계인의 작전과 운송을 지원하고 지구 국가의 직접적인 통제권을 이양할 수 있도록 연구 기지를 건설합니다. 해당 지역에서 최소 15번의 납치가 필요합니다.
 TIMissionTemplate.Success.BuildFacility={targetNationNameWithPrep} {targetRegionName}에 외계인을 위한 안전한 시설을 건설했습니다. 이 국가의 모든 통제 지점을 소유하고 있다면 이곳에 외계인 통제권 부여 임무를 수행할 수 있습니다.
-
 TIMissionTemplate.displayName.SetNationalPolicy=국가 정책 설정
 TIMissionTemplate.description.SetNationalPolicy=목표 국가의 전쟁 개시와 같은 주요 정책을 설정합니다. 임무가 성공하면 정책을 선택할 수 있습니다. 행정 통제 지점이 필요합니다.
 TIMissionTemplate.Success.SetNationalPolicy=저는 {targetNationNameWithPrep} 국가 정책을 수립하는 임무를 완수했습니다.
-
 TIMissionTemplate.displayName.Contact=접촉
 TIMissionTemplate.description.Contact=신원이 확인된 다른 진영의 의원과 접촉하여 외교적인 교류를 시작합니다.
 TIMissionTemplate.Success.Contact=외교적인 교류를 위해 {targetFactionName}의 {targetDisplayName}에게 접촉했습니다.
-
 TIMissionTemplate.displayName.ControlSpaceAsset=우주 자산 통제
 TIMissionTemplate.description.ControlSpaceAsset=함선이나 거주지의 승무원을 설득하여 진영에 합류시킵니다. 자산을 확보하기 위해서는 충분한 임무 관제 역량이 필요합니다.
-TIMissionTemplate.CriticalSuccess.ControlSpaceAsset={targetDisplayName}에서 반란을 이끌었으며, 승무원이 {myFactionName}에 합류했습니다. 이들은 막대한 양의 데이터를 우리에게 넘겼으며 이 자산은 {returnedValue}까지 적의 임무로 인해 탈취되지 않는 회복력이 있습니다. 
+TIMissionTemplate.CriticalSuccess.ControlSpaceAsset={targetDisplayName}에서 반란을 이끌었으며, 승무원이 {myFactionName}에 합류했습니다. 이들은 막대한 양의 데이터를 우리에게 넘겼으며 이 자산은 {returnedValue}까지 적의 임무로 인해 탈취되지 않는 회복력이 있습니다.
 TIMissionTemplate.Success.ControlSpaceAsset={targetDisplayName}에서 반란을 일으켰으며, 승무원이 {myFactionName}에 합류했습니다.
 TIMissionTemplate.Failure.ControlSpaceAsset={targetDisplayName}에서 반란을 일으키지 못했습니다. 권력자들이 미래에 일어날 수 있는 반란에 대비하여 경계하고 있습니다. {returnedValue}
 TIMissionTemplate.FailurePlus.ControlSpaceAsset=곧 {0}에 의해 체포될 것입니다!
 TIMissionTemplate.CriticalFailure.ControlSpaceAsset={targetDisplayName}에서 반란을 일으키지 못했습니다. 권력자들이 미래에 일어날 수 있는 반란에 대비하여 경계하고 있습니다. {returnedValue}
-
 TIMissionTemplate.displayName.Coup=쿠데타
 TIMissionTemplate.description.Coup=정부를 전복하고 통제 지점을 재설정합니다.
-TIMissionTemplate.CriticalSuccess.Coup={targetNationNameWithPrep} 쿠데타 시도는 매우 성공적으로 이루어졌으며 새로운 정권에 상당한 권한을 확보하게 되었습니다. 
+TIMissionTemplate.CriticalSuccess.Coup={targetNationNameWithPrep} 쿠데타 시도는 매우 성공적으로 이루어졌으며 새로운 정권에 상당한 권한을 확보하게 되었습니다.
 TIMissionTemplate.Success.Coup={targetNationNameWithPrep}의 쿠데타 시도는 성공적이었으며, 권력의 구조를 재편할 수 있었습니다.
 TIMissionTemplate.Failure.Coup={targetNationNameWithPrep}에서 {missionName} 임무에 실패했습니다.
 TIMissionTemplate.CriticalFailure.Coup=재앙입니다! {targetNationNameWithPrep} 정부를 전복하려는 임무에 실패했습니다! {returnedValue}
-
 TIMissionTemplate.displayName.Crackdown=탄압
 TIMissionTemplate.description.Crackdown=통제 지점의 혜택을 일시적으로 무력화하여, 모든 방어 시설을 제거하고 통제 중인 진영을 축출하기 쉽게 합니다.
 TIMissionTemplate.CriticalSuccess.Crackdown={targetNationNameWithPrep}에서 {targetFactionName}에 대한 탄압이 성공적으로 수행되었습니다. 그들의 {controlPointTypeDisplayName} 통제 지점이 {returnedValue}까지 무력화됩니다.
 TIMissionTemplate.Success.Crackdown={targetNationNameWithPrep}에서 {targetFactionName}에 대한 탄압이 성공적으로 수행되었습니다. 그들의 {controlPointTypeDisplayName} 통제 지점이 {returnedValue}까지 무력화됩니다.
 TIMissionTemplate.Failure.Crackdown={targetNationNameWithPrep}의 {targetFactionName} 무력화 시도가 실패했습니다.
 TIMissionTemplate.CriticalFailure.Crackdown={targetNationNameWithPrep} 측의 {targetFactionName} 무력화 시도가 실패했으며, 그 결과로 약간의 부정적인 평판을 얻게 됐습니다.
-
 TIMissionTemplate.displayName.DefendInterests=이익 방어
 TIMissionTemplate.description.DefendInterests=적의 탄압, 축출, 쿠데타에 맞서 이 나라의 통제 지점을 방어합니다. 방어하는 통제 지점의 수에 따라 지속 시간이 감소합니다.
 TIMissionTemplate.Success.DefendInterests=적절한 지역에 적절한 인력을 배치했으며, 이제 우리가 통제 중인 {targetDisplayNameSent} 지역은 {returnedValue}까지 안전합니다. 적 진영이 이곳의 통제권을 탈취하려 시도한다면 상당한 불이익을 받을 것입니다.
-
 TIMissionTemplate.displayName.Detain=의원 구금
 TIMissionTemplate.description.Detain=심문을 위해 적의 의원을 구금합니다. 성공하면 해당 적 의원이 수행 중인 모든 임무도 중단됩니다.
 TIMissionTemplate.CriticalSuccess.Detain=심문을 위해 {targetDisplayNameSent} 요원을 구금했습니다. 심문 과정에서 {targetFactionName}에 대한 중요한 정보를 얻어낼 수 있을 것 같습니다. {returnedValue}
@@ -98,25 +83,21 @@ TIMissionTemplate.CriticalFailure.Detain={targetDisplayNameSent} 체포에 실�
 TIMissionTemplate.BonusEffect.Detain=또한 의원의 {0} 임무를 방해했습니다.
 TIMissionTemplate.DetentionEnd.Detain={0}까지 이 의원을 구금할 수 있습니다. 해당 의원을 반복적으로 구금하여 붙잡아둘 수도 있습니다.<sp>
 TIMissionTemplate.Detain.DetainAlien=우리의 심문을 통해 앞으로 진행될 외계학 연구에 상당한 보너스를 받게 됩니다.
-
 TIMissionTemplate.displayName.DetectCouncilActivity=위치 감시
 TIMissionTemplate.description.DetectCouncilActivity=적 의원 및 외계인이 의원 지역 및 인접 지역, 또는 거주지나 함대에서 탐지될 확률이 상당히 증가합니다. 지구 지역에 가까운 곳에 숨겨진 외계인의 자산이 탐지될 수도 있습니다.
 TIMissionTemplate.Success.DetectCouncilActivity={targetDisplayNameSent} 우리의 적을 찾고 있습니다.
-
 TIMissionTemplate.displayName.EnthrallElites=엘리트 정신 지배
 TIMissionTemplate.description.EnthrallElites=외계인이 대상 국가에서 인간 지지자들의 통제 지점을 획득합니다.
 TIMissionTemplate.CriticalSuccess.EnthrallElites=우리의 인간 동맹이 {targetNationNameWithPrep} 통제 지점을 확보했으며, 대중의 지지가 그들에게 호의적으로 움직였습니다.
 TIMissionTemplate.Success.EnthrallElites=우리의 인간 동맹이 {targetNationNameWithPrep} 통제 지점을 확보했습니다.
 TIMissionTemplate.Failure.EnthrallElites={targetNationNameWithPrep}에서 어떤 지도자도 굴복시키지 못했습니다.
 TIMissionTemplate.CriticalFailure.EnthrallElites={targetNationNameWithPrep}에서 어떤 지도자도 굴복시키지 못했으며, 해당 지역에서 우리의 활동이 감지되었을 가능성이 있습니다.
-
 TIMissionTemplate.displayName.EnthrallPublic=대중 정신 지배
 TIMissionTemplate.description.EnthrallPublic=이 국가에서 인간 인구의 일부를 가축화합니다.
 TIMissionTemplate.CriticalSuccess.EnthrallPublic={targetNationNameWithPrep} 인구의 {returnedValue} 이상을 지배할 수 있었습니다.
 TIMissionTemplate.Success.EnthrallPublic={targetNationNameWithPrep} 인구의 {returnedValue} 이상을 지배할 수 있었습니다.
 TIMissionTemplate.Failure.EnthrallPublic={targetNationNameWithPrep} 인간을 아무도 지배하지 못했습니다. 추가 납치와 연구가 필요할 수 있습니다.
 TIMissionTemplate.CriticalFailure.EnthrallPublic={targetNationNameWithPrep} 인간을 아무도 지배하지 못했습니다. 우리가 감지되었을 가능성이 있습니다.
-
 TIMissionTemplate.displayName.EnthrallOrg=조직 정신 지배
 TIMissionTemplate.description.EnthrallOrg=외계인이 이용하기 위해 의원으로부터 조직을 탈취합니다. 또는 의원에게 할당되지 않은 진영 풀 조직을 표적으로 삼을 수 있습니다. 특정 진영 전용 조직들은 면제됩니다.
 TIMissionTemplate.CriticalSuccess.EnthrallOrg={targetFactionName}의 {targetDisplayName}에 대한 우리의 정신 지배 시도는 매우 성공적이었습니다. 그들의 조직 하나를 확보하는 과정에서, 추가적으로 {returnedValue} 또한 확보할 수 있었습니다.
@@ -124,25 +105,21 @@ TIMissionTemplate.Success.EnthrallOrg={targetFactionName}의 {targetDisplayName}
 TIMissionTemplate.Failure.EnthrallOrg={targetFactionName}의 {targetDisplayName} 소속 조직을 인수하는 데 실패했습니다.
 TIMissionTemplate.CriticalFailure.EnthrallOrg={targetFactionName}의 {targetDisplayName} 소속 조직을 인수하는 데 실패했으며, 적들이 제가 작전을 주도했다고 판단했을 가능성이 있습니다.
 TIMissionTemplate.Prompt.EnthrallOrg={0}에서 탈취할 조직 선택 ...
-
 TIMissionTemplate.displayName.EnthrallUnalignedElites=무소속 엘리트 정신지배
 TIMissionTemplate.description.EnthrallUnalignedElites=외계인이 목표 국가에서 인간 지지자를 위해 무소속 통제 지점을 획득합니다.
 TIMissionTemplate.CriticalSuccess.EnthrallUnalignedElites=우리의 인간 동맹이 {targetNationNameWithPrep} 통제 지점을 확보했으며, 대중의 지지가 그들에게 호의적으로 움직였습니다.
 TIMissionTemplate.Success.EnthrallUnalignedElites=우리의 인간 동맹이 {targetNationNameWithPrep} 통제 지점을 확보했습니다.
 TIMissionTemplate.Failure.EnthrallUnalignedElites={targetNationNameWithPrep}에서 어떤 지도자도 굴복시키지 못했습니다.
 TIMissionTemplate.CriticalFailure.EnthrallUnalignedElites={targetNationNameWithPrep}에서 어떤 지도자도 굴복시키지 못했으며, 해당 지역에서 우리의 활동이 감지되었을 가능성이 있습니다.
-
 TIMissionTemplate.displayName.Extract=의원 구출
 TIMissionTemplate.description.Extract=적의 손으로부터 구금된 우리의 의원을 탈출시킵니다.
 TIMissionTemplate.CriticalSuccess.Extract=적의 구금으로부터 {targetDisplayName} 의원을 구출했습니다. 임무를 수행하는 동안 납치자에 대한 정보를 상당량 회수했습니다.
 TIMissionTemplate.Success.Extract=적의 구금으로부터 {targetDisplayName} 의원을 구출했습니다.
 TIMissionTemplate.Failure.Extract=적의 보안을 뚫지 못해 {targetDisplayName} 구출에 실패했습니다.
 TIMissionTemplate.CriticalFailure.Extract={targetDisplayName}의 구출 시도는 실패했으며, 그 과정에서 제가 감지된 것 같습니다. 적이 점점 조여오고 있습니다.
-
 TIMissionTemplate.displayName.GoToGround=잠적
 TIMissionTemplate.description.GoToGround=적의 공격과 탐지를 피하기 위해 지구의 지역에 숨어듭니다.
 TIMissionTemplate.Success.GoToGround={targetRegionName}에서 조용히 숨어 있습니다.
-
 TIMissionTemplate.displayName.HostileTakeover=적대적 인수합병
 TIMissionTemplate.description.HostileTakeover=적대적인 의회 의원으로부터 조직을 탈취하여 우리 측에 편입합니다. 또한 의원에게 할당되지 않은 진영 풀의 조직도 목표로 삼을 수 있습니다. 특정 진영 전용 조직들은 면제됩니다.
 TIMissionTemplate.CriticalSuccess.HostileTakeover={targetFactionName}의 {targetDisplayName} 대상 적대적 인수 합병 시도는 매우 성공적이었습니다. 그들의 조직 중 하나를 확보하는 과정 중에서, 추가적으로 {returnedValue} 또한 확보할 수 있었습니다.<br/><br/>{targetOrgDetails}
@@ -150,62 +127,51 @@ TIMissionTemplate.Success.HostileTakeover={targetFactionName}의 {targetDisplayN
 TIMissionTemplate.Failure.HostileTakeover={targetFactionName}의 {targetDisplayName} 조직을 인수하지 못했습니다.
 TIMissionTemplate.CriticalFailure.HostileTakeover={targetFactionName}의 {targetDisplayName} 조직을 인수하지 못했으며, 제가 작전을 주도하고 있음을 적들이 눈치챘을 가능성이 있습니다.
 TIMissionTemplate.Prompt.HostileTakeover={0}에서 탈취할 조직 선택 ...
-
 TIMissionTemplate.displayName.Inspire=격려
 TIMissionTemplate.description.Inspire=다른 의원의 충성심을 높여, 전향 및 심문 시도에 추가적인 저항력을 가지도록 해줍니다. 또는 전향한 의원을 우리 편으로 돌아오게 할 수 있습니다.
 TIMissionTemplate.CriticalSuccess.Inspire=대화를 나눈 뒤로, {targetDisplayNameSent} 의원이 우리의 노력에 훨씬 더 열의가 있는 것 같습니다. {returnedValue}
 TIMissionTemplate.Success.Inspire={targetDisplayNameSent} 의원이 대의에 더 열의가 있는 것 같습니다. {returnedValue}
 TIMissionTemplate.Failure.Inspire={targetDisplayNameSent}의 대의에 대한 충성심에 큰 영향을 준 것 같지 않습니다. {returnedValue}
 TIMissionTemplate.CriticalFailure.Inspire=죄송합니다. {targetDisplayNameSent} 측과 관계가 더 악화된 것 같습니다. {returnedValue}
-
 TIMissionTemplate.Inspire.PositiveEffect=의원의 {0} 특성이 {1} 증가했습니다.
 TIMissionTemplate.Inspire.NoVisibleEffect=다만, 의원의 충성심이 얼마나 바뀌었는지에 관해서는 정확하게 가늠할 수 없습니다.
 TIMissionTemplate.Inspire.NegativeEffect=의원의 {0} 특성이 {1} 감소했습니다.
-
 TIMissionTemplate.displayName.InvestigateAlienActivity=외계인 활동 조사
 TIMissionTemplate.description.InvestigateAlienActivity=외계인의 활동이 의심되는 지역을 표적으로 삼아 외계인의 동기와 행동 방식을 파악합니다.
 TIMissionTemplate.CriticalSuccess.InvestigateAlienActivity={targetNationNameWithPrep}에서 {targetDisplayName}에 대한 조사를 통해 많은 것을 알아냈습니다. 앞으로 진행될 외계학 연구에 보너스가 부여됩니다.
 TIMissionTemplate.Success.InvestigateAlienActivity={targetNationNameWithPrep}에서 {targetDisplayName}에 대한 조사를 통해 쓸만한 정보를 알아냈습니다. 앞으로 진행될 외계학 연구에 소량의 보너스가 부여됩니다.
 TIMissionTemplate.Failure.InvestigateAlienActivity={targetNationNameWithPrep}에서 {targetDisplayName}에 대한 조사를 통해 새로운 정보를 알아낼 수 없었습니다.
 TIMissionTemplate.CriticalFailure.InvestigateAlienActivity={targetNationNameWithPrep}에서 {targetDisplayName}에 대한 조사를 통해 새로운 것을 알아내지 못했으며, 적 요원에게 발각됐을 가능성이 있습니다.
-
 TIMissionTemplate.displayName.InvestigateCouncilor=의원 조사
 TIMissionTemplate.description.InvestigateCouncilor=의원에 대한 정보를 수집하여 해당 의원을 표적으로 한 임무를 수행하고, 해당 의원의 소속 진영에 대해 자세한 정보를 알아낼 수 있습니다. 또한 우리 의원의 충성심을 확인하는 용도로 이용할 수 있습니다.
 TIMissionTemplate.CriticalSuccess.InvestigateCouncilor={targetDisplayNameSent}에 대한 중요한 새로운 정보를 알아냈습니다. {returnedValue}
 TIMissionTemplate.Success.InvestigateCouncilor={targetDisplayNameSent}에 대한 우리의 정보를 갱신했습니다. {returnedValue}
 TIMissionTemplate.Failure.InvestigateCouncilor={targetDisplayNameSent}에 대해 새로운 정보를 알아내지 못했습니다. {returnedValue}
 TIMissionTemplate.CriticalFailure.InvestigateCouncilor={targetDisplayNameSent}에 대해 아무것도 알아낼 수 없었으며, 적에게 감지되었을 수 있습니다. {returnedValue}
-
 TIMissionTemplate.displayName.Orbit=궤도 이동
 TIMissionTemplate.description.Orbit=지구의 표면으로부터 지구-달 시스템의 어떤 궤도로 이동하거나, 특정 우주체의 표면으로부터 접점 궤도에 있는 스테이션 또는 함선으로 이동합니다. 잠입 특성은 적의 1 티어 거주지(전초기지 및 플랫폼), 함선으로 이동 시에만 필요합니다.
 TIMissionTemplate.Success.Orbit={targetLocationStrSentence}에 도착했습니다.
-
 TIMissionTemplate.displayName.Deorbit=궤도 이탈
 TIMissionTemplate.description.Deorbit=접점 궤도에 있는 거주지나 함선으로부터 우주체의 표면으로 이동하거나, 지구-달 시스템의 어떤 위치에서 지구의 표면으로 이동합니다.
 TIMissionTemplate.Success.Deorbit=저는 단단한 지면 위에 있습니다.
-
 TIMissionTemplate.displayName.PassTechnology=기술 이전
 TIMissionTemplate.description.PassTechnology=인간 동맹에게 우리의 기술을 일부 제공하여 지원합니다.
 TIMissionTemplate.Success.PassTechnology=동맹들에게 지원을 제공했습니다.
-
 TIMissionTemplate.displayName.Protect=대상 보호
 TIMissionTemplate.description.Protect=의원의 지휘 및 보안 속성을 적용하여 물리적인 공격이나 다른 작전으로부터 목표가 된 지역이나 거주지, 아군 의원을 보호합니다. 또는 지정된 의원이 실패한 공격 임무에서 사망하는 것을 방지할 수 있습니다.
 TIMissionTemplate.Success.Protect=적의 작전으로부터 {targetDisplayName} 보호 중입니다.
-
 TIMissionTemplate.displayName.SabotageFacilities=시설 방해 공작
 TIMissionTemplate.description.SabotageFacilities=지역에서 선택된 우주 시설을 파괴합니다.
 TIMissionTemplate.CriticalSuccess.SabotageFacilities=폭탄이 {targetDisplayName}에 상당한 피해를 입혔습니다. 우리가 개입한 것이 발견될 가능성은 낮습니다.
 TIMissionTemplate.Success.SabotageFacilities={targetDisplayName}의 방해 공작 임무가 성공적이었습니다.
 TIMissionTemplate.Failure.SabotageFacilities=방해 공작을 하기 위해 {targetDisplayName}에 충분히 가까이 다가갈 수 없었습니다.
 TIMissionTemplate.CriticalFailure.SabotageFacilities={targetDisplayName}의 방해 공작 임무는 참사가 되었습니다! {returnedValue}
-
 TIMissionTemplate.displayName.SabotageHabModule=거주지 모듈 방해 공작
 TIMissionTemplate.description.SabotageHabModule=현재 거주지에서 선택된 비핵심 거주지 모듈을 파괴합니다.
 TIMissionTemplate.CriticalSuccess.SabotageHabModule=폭탄이 {targetHabName}에서 {returnedValue} 파괴를 완료했습니다.
 TIMissionTemplate.Success.SabotageHabModule=폭탄이 {targetHabName}에서 {returnedValue} 파괴를 완료했습니다.
 TIMissionTemplate.Failure.SabotageHabModule={targetHabName}에서 {targetDisplayName}에 필요한 만큼 접근하지 못해 폭탄을 설치하지 못했습니다.
 TIMissionTemplate.CriticalFailure.SabotageHabModule={targetHabName}에서 {targetDisplayName} 근처에 있는 보안 구역에서 발견되어 심문을 위해 구금되어 있습니다.
-
 TIMissionTemplate.displayName.SabotageProject=방해 공작 프로젝트
 TIMissionTemplate.description.SabotageProject=공학 모듈을 갖춘 의원이나 거주지를 표적으로 삼아 프로젝트의 연구 진행도를 최대 5,000 제거합니다. 특정한 프로젝트는 한 번의 방해 공작만 가능합니다.
 TIMissionTemplate.CriticalSuccess.SabotageProject={targetFactionName}의 연구에 큰 차질이 일어나도록 타격을 주었으며, 우리 과학자들이 이용할 수 있는 {returnedValue} 또한 탈취할 수 있었습니다.
@@ -213,23 +179,19 @@ TIMissionTemplate.Success.SabotageProject={targetFactionName}의 연구에 큰 �
 TIMissionTemplate.Failure.SabotageProject=표적에 침투하여 연구에 방해 공작을 하는 데 실패했습니다.
 TIMissionTemplate.CriticalFailure.SabotageProject=표적에 침투하여 연구에 방해 공작을 하는 데 실패했습니다.
 TIMissionTemplate.Prompt.SabotageProject=방해 공작을 할 프로젝트를 선택합니다 ...
-
 TIMissionTemplate.SecondarySelection=선택: {0}
-
 TIMissionTemplate.displayName.SeizeSpaceAsset=적 우주 자산 공격
 TIMissionTemplate.description.SeizeSpaceAsset=우주 해병대를 이끌어 적의 거주지를 점령하려 시도합니다. 의원이 있는 곳에 함대 또는 거주지의 해병대가 필요합니다. 적의 스테이션을 공격하려면 위해 함대가 정박해야 합니다. 스테이션은 지표면으로 병력을 투하할 수 있으며, 기지는 근처의 거주지를 공격할 수 있습니다. 해병 모듈이 손상을 입거나 파괴될 수 있습니다.
 TIMissionTemplate.CriticalSuccess.SeizeSpaceAsset=승리! 우리는 {targetFactionName}의 {targetDisplayName} 확보를 완료했습니다. {returnedValue}
 TIMissionTemplate.Success.SeizeSpaceAsset=승리! 우리는 {targetFactionName}의 {targetDisplayName} 확보를 완료했습니다. {returnedValue}
 TIMissionTemplate.Failure.SeizeSpaceAsset=패배! 우리는 {targetFactionName}의 {targetDisplayName} 확보에 실패했습니다. {returnedValue}
 TIMissionTemplate.CriticalFailure.SeizeSpaceAsset=패배! 우리는 {targetFactionName}의 {targetDisplayName} 확보에 실패했습니다. {returnedValue}
-
 TIMissionTemplate.displayName.Stabilize=국가 안정화
 TIMissionTemplate.description.Stabilize=목표 국가의 불안도를 낮춰 정부가 전복될 가능성을 줄이고 경제를 개선합니다. 기존 불안도가 국가 불안도 안정 상태 값의 절반 미만인 경우 효과가 약화됩니다.
 TIMissionTemplate.CriticalSuccess.Stabilize={targetNationUnrestWithString} 수단을 사용하여 {targetNationNameWithPrep} 불안도를 {returnedValue}만큼 대폭 낮추었습니다.
 TIMissionTemplate.Success.Stabilize={targetNationUnrestWithString} 수단을 사용하여 {targetNationNameWithPrep} 불안도를 {returnedValue} 낮추었습니다.
 TIMissionTemplate.Failure.Stabilize={targetNationNameWithPrep}의 불안도를 낮추는 임무에 실패했습니다.
 TIMissionTemplate.CriticalFailure.Stabilize={targetNationNameWithPrep}의 불안도를 줄이려는 저의 노력은 참사로 끝났으며, 국가가 점점 더 분열되어, 불안도가 {returnedValue} 추가되었습니다.
-
 TIMissionTemplate.displayName.StealProject=프로젝트 탈취
 TIMissionTemplate.description.StealProject=공학 모듈이 있는 거주지나 의원을 표적으로 하여 적 진영으로부터 공학 프로젝트를 탈취하여, 연구를 해금할 수 있습니다. 만약 적 진영의 연구 산출량이 우리보다 앞서 있다면 추가적으로 <color=#FFFFFFFF><sprite name="research"></color>를 획득할 수도 있습니다.
 TIMissionTemplate.CriticalSuccess.StealProject={targetFactionName}의 연구 기록 보관소에 접근할 수 있었습니다. {returnedValue} 이제 프로젝트 하나를 선택하여 탈취할 수 있습니다.
@@ -237,81 +199,67 @@ TIMissionTemplate.Success.StealProject={targetFactionName}의 연구 기록 보�
 TIMissionTemplate.Failure.StealProject={targetFactionName}의 연구 기록 보관소에 접근하지 못했습니다.
 TIMissionTemplate.CriticalFailure.StealProject={targetFactionName}의 연구 기록 보관소에 접근하지 못했습니다.
 TIMissionTemplate.Prompt.StealProject={0}에서 탈취할 프로젝트 선택...
-
 TIMissionTemplate.displayName.TerrorizeRegion=지역 테러
 TIMissionTemplate.description.TerrorizeRegion=중앙 정부가 지역을 양보하도록 압력을 넣기 위해 이 지역의 민간인을 공격하며, 우리의 힘이 우월하다고 판단하는 인간 진영의 통제 지점을 확보합니다. 그러나 우리에 반대하는 세력을 강화할 가능성이 있습니다.
 TIMissionTemplate.CriticalSuccess.TerrorizeRegion=기습 부대가 {targetRegionName} 지역에서 테러 작전에 성공했으며, 추가적으로 {1} 측이 {targetNationNameWithPrep} 통제 지점을 확보했습니다. 우리의 침략에 일반 대중이 크게 두려워하는 것 같습니다.
 TIMissionTemplate.Success.TerrorizeRegion=기습 부대가 {targetRegionName} 지역에서 테러 작전에 성공했으며, 추가적으로 {1} 측이 {targetNationNameWithPrep} 통제 지점을 확보했습니다. 대중들이 공포와 저항 사이에서 점점 더 분열되고 있는 듯합니다.
 TIMissionTemplate.Failure.TerrorizeRegion=기습 부대가 {targetRegionName} 지역에서 테러 작전에 실패했습니다.
 TIMissionTemplate.CriticalFailure.TerrorizeRegion=기습 부대가 {targetRegionName} 지역에서 테러 작전에 실패했으며, 일반 대중들이 우리와 맞서 싸우는 데 점점 더 대담해지고 있습니다.
-
 TIMissionTemplate.displayName.Xenoform=외계 생명체
 TIMissionTemplate.description.Xenoform=이 지역의 주변에 원주민 외계 생물체를 흩뿌려 둡니다. 시간이 지나면, 토착 생물들을 정복하고, 인간을 취약하게 만들면서, 결국에는 인류의 경제를 방해할 거대한 동물군을 형성할 것입니다.
 TIMissionTemplate.CriticalSuccess.Xenoform=생물체가 이 지역에 매우 잘 적응했습니다.
 TIMissionTemplate.Success.Xenoform=생물체가 이 지역에 뿌리를 내렸습니다.
 TIMissionTemplate.Failure.Xenoform=생물체가 이 지역에 뿌리를 내리지 못했습니다.
 TIMissionTemplate.CriticalFailure.Xenoform=생물체가 이 지역에 뿌리를 내리지 못했으며, 제 활동이 감지되었을 가능성이 있습니다.
-
 TIMissionTemplate.displayName.Transfer=항행
 TIMissionTemplate.description.Transfer=함대나 거주지 하나를 지구-달 시스템의 우주에 다른 곳으로 재배치할 수 있습니다. 지구와 멀리 떨어진 경우, 같은 우주체나 동일한 궤도에 위치한 거주지와 함대로 이동할 수 있습니다. 잠입 특성은 적의 1 티어 거주지(전초기지 및 플랫폼)와 함선으로 이동 시에만 필요합니다.
 TIMissionTemplate.Success.Transfer={targetDisplayName}에 도착했습니다.
-
 TIMissionTemplate.displayName.Turn=의원 전향
 TIMissionTemplate.description.Turn=우리의 대의로 적 의원을 전향시켜, 우리에게 풍부한 양의 정보를 제공하면서도 의원의 임무가 성공 또는 실패하도록 통제할 수 있습니다. 이 임무를 시도하려면 표적의 실제 충성심을 정확하게 알고 있어야 합니다.
 TIMissionTemplate.CriticalSuccess.Turn={targetDisplayName} 의원이 우리의 대의로 전향했습니다. 이 의원은 {targetFactionName} 측을 위해 계속해서 일하겠지만, 진영에 대한 모든 정보에 접근할 수 있으면서도 의원의 임무에 대한 성공과 실패를 통제할 수 있게 되었습니다. 다만 {targetFactionName}에서 너무 많은 의심을 받지 않도록 주의해야 합니다! <br/><br/>추가적인 성과를 거두었습니다. 새로운 요원이 최근 한 달 분량의 연구 자료를 가져온 덕분에, 우리의 개발이 상당한 진전을 이뤘습니다.
 TIMissionTemplate.Success.Turn={targetDisplayName} 의원이 우리의 대의로 전향했습니다. 이 의원은 {targetFactionName} 측을 위해 계속해서 일하겠지만, 진영에 대한 모든 정보에 접근할 수 있으면서도 의원의 임무에 대한 성공과 실패를 통제할 수 있게 되었습니다. 다만 {targetFactionName}에서 너무 많은 의심을 받지 않도록 주의해야 합니다!
 TIMissionTemplate.Failure.Turn={targetDisplayName} 측을 우리의 대의로 전향시키지 못했습니다.
 TIMissionTemplate.CriticalFailure.Turn={targetDisplayName} 측을 우리의 대의로 전향시키는 데 실패했으며 {targetFactionName} 측이 저의 소재를 알고 있는 것 같습니다.
-
 TIMissionTemplate.displayName.Unrest=불안도 증가
 TIMissionTemplate.description.Unrest=목표가 되는 지역을 소유한 국가의 불안도를 증가시켜, 경제에 타격을 입히고 쿠데타와 혁명, 분리 독립이 일어날 확률을 높입니다. 독립 운동의 조짐이 있는 지역에서 성공할 경우 혁명 대신 분리 독립을 일으킬 수 있습니다. 기존 불안도가 이미 국가 불안도 안정 상태 값의 두 배 이상인 경우 효과가 감소합니다.
 TIMissionTemplate.CriticalSuccess.Unrest={targetNationNameWithPrep} 불안도가 {returnedValue} 증가하여{targetNationUnrestWithString}까지 올라갔습니다. 정부가 반란 운동에 의해 전복될 가능성에 대비하기 위해 약간의 지지를 확보했습니다.
 TIMissionTemplate.Success.Unrest={targetNationNameWithPrep} 불안도가 {returnedValue} 증가하여{targetNationUnrestWithString}까지 올라갔습니다. 정부가 반란 운동에 의해 전복될 가능성에 대비하기 위해 약간의 지지를 확보했습니다.
 TIMissionTemplate.Failure.Unrest={targetNationNameWithPrep} 불안도를 높이지 못했습니다.
 TIMissionTemplate.CriticalFailure.Unrest={targetNationNameWithPrep} 불안도를 높이는 데 실패했습니다. {returnedValue}
-
 TIMissionTemplate.displayName.DominateNation=국가 지배
 TIMissionTemplate.description.DominateNation=센티넬 플랫폼의 궤도 폭격으로 표적 국가에 위협을 가합니다. 성공할 경우, 통제 지점이 우리 진영으로 전환됩니다. 실패할 경우 통제 지점을 차지하기 위해 위협을 실행해야 합니다.
 TIMissionTemplate.CriticalSuccess.DominateNation={targetNationNameWithPrep} 지도자 중 일부가 우리의 우월함에 굴복하여, {myFactionName}에 통제 지점을 넘기기로 했습니다. 일부 대중은 우리가 국가의 질서를 바로 세워준 것에 감사를 표했습니다.
 TIMissionTemplate.Success.DominateNation={targetNationNameWithPrep} 지도자는 궤도 폭격을 이용한 우리의 위협에 굴복하여 항복했으며, {myFactionName}에 통제 지점을 넘기기로 했습니다.
 TIMissionTemplate.Failure.DominateNation={targetNationNameWithPrep} 지도자가 센티넬 무기 시스템을 이용하겠다는 우리의 위협을 무시하여, 이들이 항복할 때까지 선택된 목표물을 폭격하는 데 집중해야 했습니다. {myFactionName}의 통제 지점을 확보했습니다.
 TIMissionTemplate.CriticalFailure.DominateNation={targetNationNameWithPrep} 지도자가 센티넬을 겨누겠다는 우리의 경고를 비웃어서, 이들이 굴복할 때까지 광범위하게 폭격을 하는 데 집중해야 했습니다. {myFactionName}의 통제 지점을 확보했습니다.
-
 TIMissionTemplate.displayName.AppeaseWin=패권 주장
 TIMissionTemplate.description.AppeaseWin=센티넬 스테이션으로 이루어진 네트워크를 활성화하여 세계 정세의 지배권을 확고히 하고, 외계인을 진정시킵니다. 모든 인류 국가가 우리에게 항복할 것입니다. 승리 목표를 달성해야 합니다.
 TIMissionTemplate.Success.AppeaseWin=우리가 센티넬 네트워크를 활성화하여, 짧은 시연을 한 후로, 지구의 국가들은 우리에게 권력을 넘겼습니다.
-
 TIMissionTemplate.displayName.CooperateWin=동맹 구축
 TIMissionTemplate.description.CooperateWin=웜홀 너머로 페로사이트 저항 외교관을 파견하여 관계를 수립하고 이 갈등을 끝냅니다. 우선적으로 외계인 기지를 공격해야 착륙할 수 있습니다. 승리 목표를 달성해야 합니다.
 TIMissionTemplate.Success.CooperateWin=우리는 히드라와 협정을 체결하였습니다.
-
 TIMissionTemplate.displayName.DestroyWin=무기 작동
 TIMissionTemplate.description.DestroyWin=웜홀 너머로 생물학 무기를 보냅니다. 우선적으로 외계인 기지를 공격해야 착륙할 수 있습니다. 승리 목표를 달성해야 합니다.
 TIMissionTemplate.Success.DestroyWin=우리는 시바 바이러스를 배포했습니다.
-
 TIMissionTemplate.displayName.EscapeWin=비프로스트 발진
-TIMissionTemplate.description.EscapeWin=성간 여행을 시작하기 위해 발진 명령을 내립니다. 
+TIMissionTemplate.description.EscapeWin=성간 여행을 시작하기 위해 발진 명령을 내립니다.
 TIMissionTemplate.Success.EscapeWin=우리는 비프로스트를 발진했습니다.<br/><br/>우리는 사명을 완수했지만, 남겨진 이들의 삶은 계속됩니다. 만약 우리가 원한다면, 또 다른 성간 우주선을 제작하여 발사할 수도 있습니다.
-
 TIMissionTemplate.displayName.ExploitWin=적 제압
 TIMissionTemplate.description.ExploitWin=웜홀 너머로 포장된 네오페로사이트를 보냅니다. 우선적으로 외계인 기지를 공격해야 착륙할 수 있습니다. 승리 목표를 달성해야 합니다.
 TIMissionTemplate.Success.ExploitWin=우리는 히드라 제국을 정복했습니다.
-
 TIMissionTemplate.displayName.ResistWin=관문 폐쇄
 TIMissionTemplate.description.ResistWin=외계 웜홀을 폐쇄하기 위해 장치를 작동시킵니다. 우선적으로 외계인 기지를 공격해야 착륙할 수 있습니다. 승리 목표를 달성해야 합니다.
 TIMissionTemplate.Success.ResistWin=적의 관문은 이제 닫혔습니다.
-
 TIMissionTemplate.displayName.SubmitWin=지배자를 선포하라
 TIMissionTemplate.description.SubmitWin=지구에 대한 외계인의 지배를 확고히 합니다. 승리 목표를 달성해야 합니다.
 TIMissionTemplate.Success.SubmitWin=외계인의 통치 아래에 지구는 통합되었습니다.
-
-TIMissionEffect_IncreaseUnrest.Special1=제 활동이 감지되어, {1} 측이 잔혹 행위로 고발되며 대중의 지지가 {0} 떨어질 것 같습니다.										
-TIMissionEffect_IncreaseUnrest.Special2=제 행동이 감지되었습니다! {0} 요원이 저를 구금하고 {1} 측을 잔혹 행위로 고발할 것 같습니다! 제발 저를 구출해주시길 바랍니다!								
+TIMissionEffect_IncreaseUnrest.Special1=제 활동이 감지되어, {1} 측이 잔혹 행위로 고발되며 대중의 지지가 {0} 떨어질 것 같습니다. // / % change, councilor's faction name
+TIMissionEffect_IncreaseUnrest.Special2=제 행동이 감지되었습니다! {0} 요원이 저를 구금하고 {1} 측을 잔혹 행위로 고발할 것 같습니다! 제발 저를 구출해주시길 바랍니다! // / capturing faction name, councilor's faction name
 TIMissionEffect_Coup.Special1=이곳에서 대중의 지지가 {0} 감소했습니다.
-TIMissionEffect_Coup.Special2=저는 곧 {0}에 의해 체포될 것입니다. 가능한 한 그들의 심문에 저항하기 위해 최선을 다하겠습니다!			
+TIMissionEffect_Coup.Special2=저는 곧 {0}에 의해 체포될 것입니다. 가능한 한 그들의 심문에 저항하기 위해 최선을 다하겠습니다! // / faction name, capitalized
 TIMissionEffect_Coup.Special3=지방 당국이 전국 각지에서 우리 지지자들을 체포하고 있습니다. 통제 지점이 탄압을 받았습니다.
 TIMissionEffect_DamageSpaceFacilities.Special1=우리와 해당 시도 사이에 연결점이 발견됐습니다. 대중의 지지가 {0} 감소할 것 같습니다.
-TIMissionEffect_DamageSpaceFacilities.Special2=체포되었습니다. 곧 있으면 {0} 쪽으로 넘겨질 것 같습니다.					
+TIMissionEffect_DamageSpaceFacilities.Special2=체포되었습니다. 곧 있으면 {0} 쪽으로 넘겨질 것 같습니다. // / faction name
 TIMissionEffect_InvestigateCouncilor.EnemySpecial1=표적의 신원을 파악했습니다. {1} 소속 {0} 의원은 {2} 신분으로 활동하고 있습니다.
 TIMissionEffect_InvestigateCouncilor.EnemySpecial2=이제 정보 섹션에서 의원에 대한 상세한 정보를 확인할 수 있습니다. 의원의 충성심 점수는 {0}인 것으로 추정됩니다.
 TIMissionEffect_InvestigateCouncilor.EnemySpecial3=우리는 더 나아가 한동안 의원에게 할당된 임무를 확인할 수 있게 되었습니다.
@@ -323,18 +271,16 @@ TIMissionEffect_InvestigateCouncilor.MySpecial3=조사가 좋지 않은 방향�
 TIMissionEffect_Advise.Special1=새 임무가 할당될 때까지 국가의 연구 산출량을 {0}, 투자 포인트를 {1}, 군대와 방어 시설 성과의 군사 기술 값을 {2} 높이겠습니다.
 TIMissionEffect_Advise.Special2=새 임무가 할당될 때까지 거주지의 연구 산출량을 {0}, 금전과 자원의 생산량을 {1}, 해병의 전투 역량을 {2} 높이겠습니다.
 TIMissionEffect_Advise.Special3=새 임무가 할당될 때까지 함대의 전투 성과를 {0}, 연구 산출량을 {1} 높이겠습니다.
-TIMissionEffect_StealProject.Special=체포되었습니다. 곧 {0} 쪽으로 인도될 것 같습니다. 가능한 최대한 그들의 심문에 저항하겠습니다.					
+TIMissionEffect_StealProject.Special=체포되었습니다. 곧 {0} 쪽으로 인도될 것 같습니다. 가능한 최대한 그들의 심문에 저항하겠습니다. // / faction name
 TIMissionEffect_StealProject.Steal=추가적으로 그들의 기록 보관소에서 {0} 획득을 완료했습니다.
-TIMissionEffect_SabotageProject.Special=체포되었습니다. 곧 있으면 {0} 쪽으로 넘겨질 것 같습니다. 제발 구출해 주십시오!									
+TIMissionEffect_SabotageProject.Special=체포되었습니다. 곧 있으면 {0} 쪽으로 넘겨질 것 같습니다. 제발 구출해 주십시오! // / faction name
 TIMissionEffect_Propaganda.Special=우리를 향한 대중의 지지가 {0} 변화했습니다. 이제 {1}에서 유지됩니다.
 TIMissionEffect_Propaganda.Special2=이곳에서 우리의 대중의 지지는 {0}에서 변동 없이 유지되지만, 사람들은 반대 이념에서 우리의 이념으로 이동하고 있습니다.
-TIMissionEffect_Assassinate.Special1=우리의 암살 시도는 광범위한 관심을 끌었고, 저는 이제 전 세계 당국의 수배를 받고 있습니다.									
-TIMissionEffect_Assassinate.Special2=체포되었습니다. 곧 있으면 {0} 쪽으로 넘겨질 것 같습니다. 제발 구출해 주십시오!									
-
+TIMissionEffect_Assassinate.Special1=우리의 암살 시도는 광범위한 관심을 끌었고, 저는 이제 전 세계 당국의 수배를 받고 있습니다. // / faction name
+TIMissionEffect_Assassinate.Special2=체포되었습니다. 곧 있으면 {0} 쪽으로 넘겨질 것 같습니다. 제발 구출해 주십시오! // / faction name
 TIMissionResult_Responsibility=작전 배후에 {0}의 존재를 확인했습니다.
-
-TIMissionModifier.Spend={0} 사용														
-TIMissionModifier.Flat={0}({1})															
+TIMissionModifier.Spend={0} 사용 // / resource name, e.g. "Ops"
+TIMissionModifier.Flat={0}({1}) // / Flat Modifier (3)
 TIMissionModifier.CodexHeader=<h>공격 보정치<line-height=0.01%><br/><align="right">방어 보정치</align></line-height></h>
 TIMissionModifier_FlatModifier.displayName=임무 난이도
 TIMissionModifier_TargetNationGDP.displayName=국가 경제 규모
@@ -390,7 +336,7 @@ TIMissionModifier_TargetNegativeInfluence.displayName=대상이 마이너스 영
 TIMissionModifier_TargetBroke.displayName=대상이 마이너스 자금 보유
 TIMissionModifier_CampaignDifficulty.displayName=도전
 TIMissionModifier_AlienNation.displayName=외계 국가
-TIMissionModifier_ProtectionBonus.displayName=보호 임무: {0} 
+TIMissionModifier_ProtectionBonus.displayName=보호 임무: {0}
 TIMissionModifier_RegionXenoforming_AlienOnly.displayName=지역 제노포밍
 TIMissionModifier_RegionXenoforming_AlienAndProxyOnly.displayName=지역 제노포밍
 TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly.displayName=국가 내 제노포밍
@@ -424,9 +370,7 @@ TIMissionModifier_OrgDefenses.displayName=조직 규모
 TIMissionModifier_OrgDefenses_Admin.displayName=조직 관리 값
 TIMissionModifier_OrgDefense.displayName=조직 내재적 인수합병 방어
 TIMissionModifier_OrgPoolDefense.displayName=합동 진영 {0}
-
-TIMissionModifier_ScaledStat=확장된 {0}																
-
+TIMissionModifier_ScaledStat=확장된 {0} // / this means a stat is being used as a modifier but it's multiplied by some other number, like "Scaled Administration"
 TIMissionCondition_GenericFail=임무에 대한 표적이 잘못되었습니다
 TIMissionCondition_AvailableControlPoint=국가에 개방된 통제 지점이 없습니다
 TIMissionCondition_AvailableControlPoint2=행정 통제 지점을 탐색하려면 여러 개의 통제 지점이 있는 국가에 이미 하나 이상의 통제 지점을 보유하고 있어야 합니다
@@ -501,7 +445,6 @@ TIMissionCondition_FreeCouncilor=표적이 된 의원이 구금되거나 비활�
 TIMissionCondition_TargetableHabModule=적의 비핵심 모듈이어야 합니다
 TIMissionCondition_TargetableOrg=적 진영의 할당되지 않은 풀에 있는 조직이거나 우리가 상당한 정보를 확보한 의원에게 할당된 조직이어야 합니다.
 _Fail=임무에 유효한 대상 유형이어야 하며 의원이 접근할 수 있어야 합니다.
-
 TIMissionAbort_ControlPointRemoved=목표 통제 지점이 더 이상 존재하지 않기 때문에 이 임무는 중단되었습니다.
 TIMissionAbort_CouncilorRetired=할당된 의원이 더 이상 활동하지 않기 때문에 이 임무는 중단되었습니다.
 TIMissionAbort_CouncilorUnavailable=할당된 의원을 더 이상 이용할 수 없기 때문에 이 임무는 중단되었습니다.
@@ -518,18 +461,14 @@ TIMissionAbort_TargetHabDestroyed=표적 거주지가 파괴되었기 때문에 
 TIMissionAbort_TargetInvalid=할당된 대상이 제거되었기 때문에 이 임무는 중단되었습니다.
 TIMissionAbort_VoluntaryAbort=이 임무는 진영 지도부에 의해 자발적으로 중단되었습니다.
 TIMissionAbort_OrgAlreadyTaken=해당 임무 주기 동안 표적 조직이 이미 다른 의원에게 넘어갔기 때문에, 이 임무는 중단되었습니다.
-
 TIMissionTargeting_NoTarget=표적 없음
-TIMissionTargeting_InvalidTarget={0}<br/>잘못된 표적																
-
+TIMissionTargeting_InvalidTarget={0}<br/>잘못된 표적 // / ID of target
 TIMissionResult_ExecutiveControlChange=이 국가의 통제권은 이제 {0}에 있습니다.
-
 TIMission.Timing.0=이 임무는 할당된 후 거의 즉시 해결됩니다.
 TIMission.Timing.1=이 임무는 임무 단계의 초반에 해결됩니다.
 TIMission.Timing.2=이 임무는 임무 단계의 중반에 해결됩니다.
 TIMission.Timing.3=이 임무는 임무 단계의 후반에 해결됩니다.
 TIMission.Timing.4=이 임무는 임무 단계의 종료 시점에 해결됩니다.
 TIMission.Timing.5=이 임무는 다른 모든 임무가 끝나고 해결됩니다.
-
 TIMission_AttackerModifiers=<h>의원 보정치</h>
 TIMission_DefenderModifiers=<h>표적 보정치</h>

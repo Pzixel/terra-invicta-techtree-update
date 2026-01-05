@@ -8,14 +8,14 @@ TIMissionTemplate.CriticalFailure.Abductions=Wir haben in {targetRegionName} kei
 TIMissionTemplate.displayName.GainInfluence=Nationskontrolle
 TIMissionTemplate.description.GainInfluence=Einen offenen Kontrollpunkt in einer Nation erhalten.
 TIMissionTemplate.CriticalSuccess.GainInfluence=Ich habe einen Kontrollpunkt für {myFactionName} {targetNationNameWithPrep} erhalten und die öffentliche Meinung hat sich um {returnedValue} zu unseren Gunsten verändert. Wir besitzen hier jetzt {myTargetNationControlPoints} von {totalTargetNationControlPoints} Kontrollpunkten.
-TIMissionTemplate.Success.GainInfluence=Ich habe einen Kontrollpunkt für {myFactionName} {targetNationNameWithPrep} gewonnen. Wir haben jetzt {myTargetNationControlPoints} von {totalTargetNationControlPoints} Kontrollpunkten hier.
+TIMissionTemplate.Success.GainInfluence=Ich habe einen Kontrollpunkt für unsere Fraktion – {myFactionName} – {targetNationNameWithPrep} gewonnen. Wir haben jetzt {myTargetNationControlPoints} von {totalTargetNationControlPoints} Kontrollpunkten hier.
 TIMissionTemplate.Failure.GainInfluence=Meine Nationskontrollmission {targetNationNameWithPrep} ist gescheitert.
 TIMissionTemplate.CriticalFailure.GainInfluence=Ich habe einen großen Rückschlag bei meiner Nationskontrollmission {targetNationNameWithPrep} erlitten, wodurch {myFactionName} {returnedValue} an öffentlicher Meinung verloren hat.
 
 TIMissionTemplate.displayName.Propaganda=Öffentliche Kampagne
 TIMissionTemplate.description.Propaganda=Die Unterstützung der Öffentlichkeit für unser Anliegen in einer Nation erhöhen.
-TIMissionTemplate.CriticalSuccess.Propaganda=Ich habe die öffentliche Unterstützung für {myFactionName} {targetNationNameWithPrep} um {returnedValue} erhöht.
-TIMissionTemplate.Success.Propaganda=Ich habe die öffentliche Unterstützung für {myFactionName} {targetNationNameWithPrep} um {returnedValue} erhöht.
+TIMissionTemplate.CriticalSuccess.Propaganda=Ich habe die öffentliche Unterstützung {targetNationNameWithPrep} erhöht: {returnedValue}. Wir – {myFactionName} – werden triumphieren!
+TIMissionTemplate.Success.Propaganda=Ich habe die öffentliche Unterstützung {targetNationNameWithPrep} erhöht: {returnedValue}. Wir – {myFactionName} – werden triumphieren!
 TIMissionTemplate.Failure.Propaganda=Meine Mission, „{missionName}“, {targetNationNameWithPrep} hatte keine Auswirkungen auf die öffentliche Unterstützung.								
 TIMissionTemplate.CriticalFailure.Propaganda=Meine Mission, „{missionName}“, {targetNationNameWithPrep} war ein Desaster! {returnedValue}
 
@@ -40,7 +40,7 @@ TIMissionTemplate.Assassinate.Special={targetFactionAdjective}-Agenten kommen me
 TIMissionTemplate.AssassinateAlien=Wir habe durch diese Operation viel über die Aliens erfahren und werden in Zukunft einen Bonus für unsere Xenologieforschung erhalten.
 
 TIMissionTemplate.displayName.AssaultAlienAsset=Angriff auf Alienbestand
-TIMissionTemplate.description.AssaultAlienAsset=Eine Kampfeinheit gegen Anlagegut der Aliens anführen.
+TIMissionTemplate.description.AssaultAlienAsset=Eine Kampfeinheit gegen festen Alienbestand anführen.
 TIMissionTemplate.CriticalSuccess.AssaultAlienAsset=Unser Angriff auf {targetDisplayName} in der {targetRegionName}-Region war ein voller Erfolg. {returnedValue}
 TIMissionTemplate.Success.AssaultAlienAsset=Unser Angriff auf {targetDisplayName} in der {targetRegionName}-Region war erfolgreich. {returnedValue}
 TIMissionTemplate.Failure.AssaultAlienAsset=Wir wurden von den Verteidigungskräften des Ziels zurückgestoßen und konnten keinen Schaden verursachen.
@@ -87,7 +87,7 @@ TIMissionTemplate.CriticalFailure.Crackdown=Unser Versuch, {targetFactionName} i
 
 TIMissionTemplate.displayName.DefendInterests=Interessen verteidigen
 TIMissionTemplate.description.DefendInterests=Unsere Kontrollpunkte in dieser Nation stärken, um sie vor gegnerischen Bekämpfungen, Eliminierungs- und Putschversuchen zu schützen. Die Dauer sinkt mit der Anzahl der Kontrollpunkte, die wir schützen.
-TIMissionTemplate.Success.DefendInterests=Ich habe die richtigen Menschen am richtigen Ort eingesetzt und unser Kontroll-{targetDisplayNameSent} ist jetzt bis {returnedValue} geschützt. Gegnerische Fraktionen, die uns die Kontrolle dort entreißen wollen, werden erhebliche Strafen erleiden.
+TIMissionTemplate.Success.DefendInterests=Ich habe die richtigen Menschen am richtigen Ort eingesetzt und unsere Kontrolle {targetDisplayNameSent} ist jetzt bis {returnedValue} geschützt. Gegnerische Fraktionen, die uns die Kontrolle dort entreißen wollen, werden erhebliche Strafen erleiden.
 
 TIMissionTemplate.displayName.Detain=Ratsmitglied festnehmen
 TIMissionTemplate.description.Detain=Vorübergehend ein gegnerisches Ratsmitglied zum Verhör festnehmen. Durch eine erfolgreiche Festnahme werden auch alle Missionen unterbrochen, die das gegnerische Ratsmitglied durchführt.
@@ -152,7 +152,7 @@ TIMissionTemplate.CriticalFailure.HostileTakeover=Wir konnten die Organisation {
 TIMissionTemplate.Prompt.HostileTakeover=Wähle eine Organisation aus, die du {0} stehlen willst ...
 
 TIMissionTemplate.displayName.Inspire=Inspirieren
-TIMissionTemplate.description.Inspire=Die Loyalität eines anderen Ratsmitglieds stärken, wodurch es Verhören und Versuchen, zu zum Überlaufen zu bringen, besser standhalten kann. Kann auch ein sich abgewandtes Ratsmitglied auf unsere Seite bringen.
+TIMissionTemplate.description.Inspire=Die Loyalität eines anderen Ratsmitglieds stärken, wodurch es Verhören und Versuchen, es zum Überlaufen zu bringen, besser standhalten kann. Kann auch ein sich abgewandtes Ratsmitglied auf unsere Seite bringen.
 TIMissionTemplate.CriticalSuccess.Inspire=Seit unserem Gespräch scheint unser Ratsmitglied {targetDisplayNameSent} weitaus begeisterter von unserem Bestreben zu sein. {returnedValue}
 TIMissionTemplate.Success.Inspire=Unser Ratsmitglied {targetDisplayNameSent} scheint begeisterter von unserem Anliegen zu sein. {returnedValue}
 TIMissionTemplate.Failure.Inspire=Ich glaube, ich habe die Loyalität von {targetDisplayNameSent} in Bezug auf unser Anliegen nicht stark beeinflussen können. {returnedValue}
@@ -231,7 +231,7 @@ TIMissionTemplate.Failure.Stabilize=Ich bin bei meiner Mission, die Unruhen in {
 TIMissionTemplate.CriticalFailure.Stabilize=Meine Bemühungen, die Unruhen in {targetNationNameWithPrep} zu verringern, waren ein Desaster und die Nation ist zunehmend gespalten, was zu {returnedValue} Unruhen führt.
 
 TIMissionTemplate.displayName.StealProject=Projekt stehlen
-TIMissionTemplate.description.StealProject=Stehle ein Ingenieursprojekt von einer gegnerischen Fraktion, indem du einen ihrer Ratsmitglieder oder Habitate mit einem Ingenieursmodul angreifst und es für uns zur Forschung freischaltest. Wir können auch <color=#FFFFFFFF><sprite name="research"></color> erlangen, wenn die gegnerische Fraktion uns mit ihren Forschungseinnahmen voraus ist.
+TIMissionTemplate.description.StealProject=Stiehl ein Ingenieursprojekt von einer gegnerischen Fraktion, indem du eines ihrer Ratsmitglieder oder Habitate mit einem Ingenieursmodul angreifst und es für uns zur Forschung freischaltest. Wir können auch <color=#FFFFFFFF><sprite name="research"></color> erlangen, wenn die gegnerische Fraktion uns mit ihren Forschungseinnahmen voraus ist.
 TIMissionTemplate.CriticalSuccess.StealProject=Ich konnte mir Zugang zu den Forschungsarchiven von {targetFactionName} verschaffen. {returnedValue} Wir können jetzt eines ihrer Projekt auswählen, um es zu stehlen.
 TIMissionTemplate.Success.StealProject=Ich konnte mir Zugang zu den Forschungsarchiven von {targetFactionName} verschaffen. {returnedValue}
 TIMissionTemplate.Failure.StealProject=Ich konnte mir keinen Zugang zu den Forschungsarchiven von {targetFactionName} verschaffen.
@@ -333,9 +333,9 @@ TIMissionEffect_Assassinate.Special2=Ich wurde verhaftet und werde in Kürze an 
 
 TIMissionResult_Responsibility=Wir haben herausgefunden, dass {0} hinter der Operation steckt.
 
-TIMissionModifier.Spend={0} Ausgegeben														// resource name, e.g. "Ops"
+TIMissionModifier.Spend={0} ausgegeben														// resource name, e.g. "Ops"
 TIMissionModifier.Flat={0} ({1})															// Flat Modifier (3)
-TIMissionModifier.CodexHeader=<h>Angriffs-Modifikatoren<line-height=0.01%><br/><align="right">Verteidigungsmodifikatoren</align></line-height></h>
+TIMissionModifier.CodexHeader=<h>Angriffs-Modifikatoren<line-height=0.01%><br/><align="right">Verteidigungs-Modifikatoren</align></line-height></h>
 TIMissionModifier_FlatModifier.displayName=Schwierigkeitsgrad der Mission
 TIMissionModifier_TargetNationGDP.displayName=Größe der nationalen Wirtschaft
 TIMissionModifier_NationCohesion.displayName=Nationaler Zusammenhalt
@@ -353,14 +353,14 @@ TIMissionModifier_DefenderPopulationIdeology.displayName=Gesellschaftliche Unter
 TIMissionModifier_DisabledControlPoint.displayName=Bekämpfung
 TIMissionModifier_DefenderLocalControlPoints.displayName=Lokale Kontrollpunkte
 TIMissionModifier_AttackerLocalControlPoints.displayName=Lokale Kontrollpunkte
-TIMissionModifier_OwnedControlPoint.displayName=Rat {0}
+TIMissionModifier_OwnedControlPoint.displayName=Rat: {0}
 TIMissionModifier_AttackerAdjacentControlPoints.displayName=Kontrollpunkte in Nachbargebieten
 TIMissionModifier_AttackerAllyControlPoints.displayName=Kontrolle größerer Verbündeter/Föderation
 TIMissionModifier_AbductionsInRegion_AlienOnly.displayName=Lokale Entführungen
 TIMissionModifier_MeanAbductionsinNation_AlienOnly.displayName=Entführungen in Nation
 TIMissionModifier_IdeologicalDistance.displayName=Unterschied der Ideologie
-TIMissionModifier_JointControlPointStat.displayName=Gemeinsamer Rat {0}
-TIMissionModifier_JointCouncilStat.displayName=Gemeinsamer Rat {0}
+TIMissionModifier_JointControlPointStat.displayName=Gemeinsamer Rat: {0}
+TIMissionModifier_JointCouncilStat.displayName=Gemeinsamer Rat: {0}
 TIMissionModifier_DefendedAsset.displayName=Interessen verteidigen
 TIMissionModifier_AlienAssetDefense.displayName=Alien-Verteidigungskräfte
 TIMissionModifier_DetainedCouncilor.displayName=Festgenommenes Ziel
@@ -404,15 +404,15 @@ TIMissionModifier_RegionalInvadingForcesStrength_MyFaction.displayName=Stärke d
 TIMissionModifier_AttackerUnrestIdeology.displayName=Vorherige Unruhestiftungen
 TIMissionModifier_RegionPopulationDensity.displayName=Bevölkerungsdichte der Region
 TIMissionModifier_Censorship.displayName=Zensur
-TIMissionModifier_ExtractionDefense_Councilor.displayName={0} Naher Ratsmitglieder
+TIMissionModifier_ExtractionDefense_Councilor.displayName=Nahe Ratsmitglieder: {0}
 TIMissionModifier_ExtractionDefenseSecurityApparatus.displayName=Kontrollpunkt über Sicherheitsapparat
-TIMissionModifier_ExtractionDefense_JointCouncilStat.displayName=Festhaltender Fraktionsverband {0}
+TIMissionModifier_ExtractionDefense_JointCouncilStat.displayName=Festhaltender Fraktionsverband: {0}
 TIMissionModifier_MyFactionLoyaltyMonitor.displayName=Unser Loyalitätsmonitor-Implantat
 TIMissionModifier_AlienDetainDifficulty.displayName=Alien
 TIMissionModifier_NationalRivalries.displayName=Kontrollpunkte in feindlichen Gebieten
 TIMissionModifier_InsufficientCPMaintenance_Attacker.displayName=Angreifer über Kontrollpunktlimit
 TIMissionModifier_InsufficientCPMaintenance_Defender.displayName=Ziel über Kontrollpunktlimit
-TIMissionModifier_EnthrallScience.displayName={0}-Rat aus Xenologieforschung
+TIMissionModifier_EnthrallScience.displayName=Rat aus Xenologieforschung: {0}
 TIMissionModifier_DecommissioningHab.displayName=Habitat abreißen
 TIMissionModifier_AlienCoordination.displayName=Stellvertretende Unterstützung
 TIMissionModifier_NationSizeEnthrallDifficulty.displayName=Größe der Nation

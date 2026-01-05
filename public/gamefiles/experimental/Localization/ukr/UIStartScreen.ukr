@@ -5,20 +5,20 @@ UI.StartScreen.Loading=Завантаження...
 UI.StartScreen.Continue=Продовжити
 UI.StartScreen.NewGame=Нова гра
 UI.StartScreen.LoadGame=Завантажити
-UI.StartScreen.OpenSaveFolder=Відкрити папку з модифікаціями
+UI.StartScreen.OpenSaveFolder=Відкрити папку
 UI.StartScreen.Options=Налаштування
 UI.StartScreen.SkirmishMode=Сутичка
 UI.StartScreen.SetDefaults=Установити типові
 UI.StartScreen.Mods=Модифікації
 UI.StartScreen.Mods.WorkshopBrowse=Переглянути Майстерню Steam
 UI.StartScreen.Mods.UploadToSteamWorkshop=Завантажити нову модифікацію
-UI.StartScreen.Mods.ManualRefresh=Оновити модифікації
+UI.StartScreen.Mods.ManualRefresh=Оновити
 UI.StartScreen.Mods.WorkshopUploadModName=Назва модифікації
 UI.StartScreen.Mods.WorkshopUploadModDesc=Опис модифікації
-UI.StartScreen.Mods.WorkshopUploadModFolder=Відкрити папку з модифікаціями
-UI.StartScreen.Mods.WorkshopUploadSubmit=Завантажити модифікацію
-UI.StartScreen.Mods.WorkshopUploadModHelp=Використайте кнопку «Відкрити папку з модифікаціями» вище, щоби перейти до своєї папки із вмістом модифікації. Перенесіть свої файли модифікації до папки разом із файлом формату PNG із такою ж назвою, як і в модифікації. Коли завершите, клацніть «Завантажити», і ваша модифікація завантажиться до Майстерні Steam.
-UI.StartScreen.Mods.WorkshopUpdateExistingInfo=Якщо вам знадобиться оновити модифікацію в майбутньому, використайте вкладку «Оновити існуючу модифікацію», дотримуючись таких самих кроків, що оновить існуючу інформацію й файли в Steam.
+UI.StartScreen.Mods.WorkshopUploadModFolder=Відкрити папку
+UI.StartScreen.Mods.WorkshopUploadSubmit=Завантажити
+UI.StartScreen.Mods.WorkshopUploadModHelp=Використайте кнопку «Відкрити папку» вище, щоби перейти до своєї папки із вмістом модифікації. Перенесіть свої файли модифікації до папки разом із файлом формату PNG із такою ж назвою, як і в модифікації. Коли завершите, клацніть «Завантажити», і ваша модифікація завантажиться до Майстерні Steam.
+UI.StartScreen.Mods.WorkshopUpdateExistingInfo=Якщо вам знадобиться оновити модифікацію в майбутньому, використайте вкладку «Оновити існуючу», дотримуючись таких самих кроків, що оновить існуючу інформацію й файли в Steam.
 UI.StartScreen.Mods.WorkshopSearch=Шукати модифікації...
 UI.StartScreen.Mods.SortVotes=Голоси
 UI.StartScreen.Mods.SortNewest=Найновіші
@@ -57,14 +57,14 @@ UI.StartScreen.Mods.ModWarningDescriptionFailGeneral=Відбулася поми
 UI.StartScreen.Mods.ModWarningHeaderDeleteFail=Не вдалося видалити файли
 UI.StartScreen.Mods.ModWarningDescriptionDeleteFail=Можливо, файли використовуються. Перезавантажте Terra Invicta та спробуйте ще раз.
 UI.StartScreen.Mods.Install=Установити
-UI.StartScreen.Mods.Enabled=Підключені
-UI.StartScreen.Mods.Disabled=Відключені
+UI.StartScreen.Mods.Enabled=Підключено
+UI.StartScreen.Mods.Disabled=Відключено
 UI.StartScreen.Mods.Enable=Підключити
 UI.StartScreen.Mods.Disable=Відключити
 UI.StartScreen.Mods.No=Ні
 UI.StartScreen.Mods.Yes=Так
 UI.StartScreen.Mods.Ok=Гаразд
-UI.StartScreen.Mods.UpdateMod=Оновити існуючу модифікацію
+UI.StartScreen.Mods.UpdateMod=Оновити існуючу
 UI.StartScreen.Mods.UpdateModSuccess=Модифікація успішно оновлена
 UI.StartScreen.Mods.UpdateModFromFolder=Оновити модифікацію Майстерні з папки
 UI.StartScreen.Mods.UploadWorkshopTabTitle=Завантажити до Майстерні Steam
@@ -93,7 +93,7 @@ UI.StartScreen.Mods.Tags.4=Переклад
 UI.StartScreen.Mods.Tags.5=Інтерфейс
 UI.StartScreen.Mods.Tags.6=Радники
 UI.StartScreen.Mods.Tags.7=Кораблі
-UI.StartScreen.Mods.Tags.8=Здатності флоту
+UI.StartScreen.Mods.Tags.8=Корисності
 UI.StartScreen.FailedToLoadSave=Не вдалося завантажити файл збереження
 UI.StartScreen.FailedToLoadSaveDescription=Не вдалося завантажити файл збереження через несумісну версію гри або неправильні дані збереження.<br/><br/>Гравці, які бажають продовжити гру на старіших збереженнях і використовувати служби, які роблять старіші збірки доступними (як Steam і GOG), повинні повернути гру до попередньої версії в цій службі.
 UI.StartScreen.StartupErrorHeader=Помилка ініціалізації гри
@@ -203,7 +203,7 @@ UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=Назви велик�
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=Назви середовищ
 UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Додати інопланетний штурмовий флот
 UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Надає додатковий інопланетний флот із десантними авіаносцями на початку кампанії.
-UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Типові нал. пришвидшеної кампанії
+UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Типові нал. пришвидшеної
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=Типові нал. довгої кампанії
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Нал. попердньої кампанії
 UI.StartScreen.Cancel=Скасувати
@@ -277,6 +277,7 @@ UI.StartScreen.TICredits_53=Кіран Банерджі —<sp>
 UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
 
 UI.StartScreen.TICredits_55=— ГОЛОСИ РАДНИКІВ— <br/>
+UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton 
 
 //<QA> Credits
 
@@ -302,15 +303,14 @@ UI.StartScreen.TICredits_72=ОСОБЛИВА ПОДЯКА<br/>Aaron Nathan<br/>M
 UI.StartScreen.TICredits_73=— МАЛЮКИ РОЗРОБЛЕННЯ! —<br/>Théodore<br/>Carmen Rose<br/><br/>
 
 //<Contributing Backers> Credits
-
 UI.StartScreen.TICredits_74=— КРЕАТИВНІ УЧАСНИКИ KICKSTARTER<br/>
-//<Playtester> Credits
 
+//<Playtester> Credits
 UI.StartScreen.TICredits_105=— KICKSTARTER
 UI.StartScreen.TICredits_106= ТЕСТУВАЛЬНИКИ ГРИ —<br/>
 
-//<Backers> Credits
 
+//<Backers> Credits
 UI.StartScreen.TICredits_393=<br/>— СПОНСОРИ KICKSTARTER —<br/>
 
 UI.StartScreen.TICredits_1337=— ПРОГРАМНЕ ЗАБЕЗПЕЧЕННЯ —<br/><br/>Зроблено за допомогою Unity<br/><br/>Зроблено за допомогою FMOD Studio<br/>Firelight Technologies Limited<br/><br/>

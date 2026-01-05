@@ -15,17 +15,17 @@ TIUtilityModuleTemplate.description.RepairBay=Uma equipe de resposta a danos mai
 TIUtilityModuleTemplate.displayName.SalvageBay=Doca de recuperação
 TIUtilityModuleTemplate.description.SalvageBay=Um esquadrão de drones e técnicos reúnem material das naves destruídas após uma batalha. Aumenta a taxa de recuperação de materiais em {8}. Uma frota não pode aumentar seu bônus de recuperação de materiais acima de 50%.
 TIUtilityModuleTemplate.displayName.MarineAssaultUnit=Unidade de fuzileiros de assalto
-TIUtilityModuleTemplate.description.MarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color>{3}.
+TIUtilityModuleTemplate.description.MarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
 TIUtilityModuleTemplate.displayName.AdvancedMarineAssaultUnit=Unidade avançada de fuzileiros de assalto
-TIUtilityModuleTemplate.description.AdvancedMarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color>{3}.
+TIUtilityModuleTemplate.description.AdvancedMarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
 TIUtilityModuleTemplate.displayName.EliteMarineAssaultUnit=Unidade de elite de fuzileiros de assalto
-TIUtilityModuleTemplate.description.EliteMarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color>{3}.
+TIUtilityModuleTemplate.description.EliteMarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
 TIUtilityModuleTemplate.displayName.Spartans=Espartanos
-TIUtilityModuleTemplate.description.Spartans=Unidades fanáticas de fuzileiros de elite para nossas naves. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color>{3}.
+TIUtilityModuleTemplate.description.Spartans=Unidades fanáticas de fuzileiros de elite para nossas naves. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
 TIUtilityModuleTemplate.displayName.Rangers=Guardiões
-TIUtilityModuleTemplate.description.Rangers=Unidades experientes de fuzileiros de elite para nossas naves. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color>{3}.
+TIUtilityModuleTemplate.description.Rangers=Unidades experientes de fuzileiros de elite para nossas naves. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
 TIUtilityModuleTemplate.displayName.Immortals=Imortais
-TIUtilityModuleTemplate.description.Immortals=Nossos fuzileiros espaciais mais devotos e experientes. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color>{3}.
+TIUtilityModuleTemplate.description.Immortals=Nossos fuzileiros espaciais mais devotos e experientes. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
 TIUtilityModuleTemplate.displayName.LaserEngine=Motor laser
 TIUtilityModuleTemplate.description.LaserEngine=Aumenta a potência de todas as armas laser ofensivas em {0} MJ, para que as armas laser desta nave causem mais dano com maior alcance. Este bônus é reduzido em armas apenas de defesa de ponto. Este bônus é cumulativo com outros módulos de propulsor laser.
 TIUtilityModuleTemplate.displayName.AdvancedLaserEngine=Motor laser avançado

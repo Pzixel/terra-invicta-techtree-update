@@ -352,7 +352,7 @@ HabModuleSpecialRule.LEOBonusLaunchFacilities=-モジュールが地球周回軌
 HabModuleSpecialRule.LEOBonusKnowledge=-モジュールが地球周回軌道上にある場合、プライオリティ「知識」への我々の投資に+{1}のボーナスが与えられる（全ての派閥のハブから最大30%）
 HabModuleSpecialRule.LEOBonusMissionControl=-モジュールが地球周回軌道上にある場合、プライオリティ「ミッション・コントロール」への我々の投資に+{1}のボーナスが与えられる（全ての派閥のハブから最大30%）
 HabModuleSpecialRule.LEOBonusEconomy=-モジュールが地球周回軌道上にある場合、プライオリティ「経済」への我々の投資に+{1}のボーナスが与えられる（全ての派閥のハブから最大30%）
-HabModuleSpecialRule.LEOBonusUnity=-モジュールが地球周回軌道上にある場合、プライオリティ「結束力」への我々の投資に+{1}のボーナスが与えられる（全ての派閥のハブから最大30%）
+HabModuleSpecialRule.LEOBonusUnity=-モジュールが地球周回軌道上にある場合、プライオリティ「団結」への我々の投資に+{1}のボーナスが与えられる（全ての派閥のハブから最大30%）
 HabModuleSpecialRule.LEOBonusOppression=-モジュールが地球周回軌道上にある場合、プライオリティ「抑圧」への我々の投資に+{1}のボーナスが与えられる（全ての派閥のハブから最大30%）
 HabModuleSpecialRule.LEOBonusEnvironment=-モジュールが地球周回軌道上にある場合、プライオリティ「環境」への我々の投資に+{1}のボーナスが与えられる（全ての派閥のハブから最大30%）
 HabModuleSpecialRule.LEOBonusGovernment=-モジュールが地球周回軌道上にある場合、プライオリティ「政府」への我々の投資に+{1}のボーナスが与えられる（全ての派閥のハブから最大30%）
@@ -367,8 +367,8 @@ HabModuleSpecialRule.UsesHelium3=-この核融合モジュールはヘリウム3
 HabModuleSpecialRule.RepairsMarineShipModules=-このモジュールと船の建造モジュールを組み合わせることで、海兵隊が輸送モジュールの建設と修理が出来るようになる。
 HabModuleSpecialRule.RepairsHabKitShipModules=-このモジュールと船の建造モジュールを組み合わせることで、新しいハブを作る輸送モジュールの建設と修理が出来るようになる。
 HabModuleSpecialRule.StaticHab=<skip/>
-HabModuleSpecialRule.FleetTargeting=-防御側の船の、敵の電子対抗手段（ECM）を突破するためのターゲットロールを+{1}する。
-HabModuleSpecialRule.FleetECM=-防御側の船の電子対抗手段（ECM）値を+{1}する
+HabModuleSpecialRule.FleetTargeting=-電子対抗手段（ECM）を突破するためのターゲットロールが+{1}増える。ステーションモジュールの場合、これは防御側の全ての船に適用される。
+HabModuleSpecialRule.FleetECM=-電子対抗手段（ECM）値が+{1}増える。ステーションモジュールの場合、これは防御側の全ての船に適用される。
 HabModuleSpecialRule.SolarMirror=-惑星軌道上を周回する派閥基地のすべての太陽光発電モジュールの生産力を+{0}<color=#FFFFFFFF><sprite name=hab_power></color>する。これはソーラーモジュールのティアに応じて変動する。<br/>-モジュールが衛星と母惑星の間のL-1、L-4、L-5ポイントにある場合は、衛星にもボーナスが適用される。<br/>-惑星と太陽の間のL-1ポイントにある場合、ボーナスはその惑星系内の全ての基地に適用される。<br/>-質量は大量からの距離に応じて増加する<br/>-ソーラーパネルは、基準となる最大出力値の最大{4}倍まで生産できる可能性がある。
 
 TIHabModuleTemplate.OnePerHab=ハブはこのタイプのモジュールを1つだけ持つことができる。

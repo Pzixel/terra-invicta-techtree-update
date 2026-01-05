@@ -4,7 +4,6 @@ TIFormationTemplate.Spacing.Loose=산개
 TIFormationTemplate.Spacing.Close=근접
 TIFormationTemplate.Spacing.Tight=밀집
 TIFormationTemplate.Spacing.Packed=조밀
-
 TIFormationTemplate.displayName.Staggered=교차
 TIFormationTemplate.displayName.Convoy=호송
 TIFormationTemplate.displayName.EchelonRight=우측 사선
@@ -28,7 +27,6 @@ TIFormationTemplate.displayName.FourColumn=쿼드
 TIFormationTemplate.displayName.FiveColumn=퀸트
 TIFormationTemplate.displayName.Cloud=구름
 TIFormationTemplate.displayName.BoxThree=차단
-
 TIFormationTemplate.Focus.Heavy=무거움
 TIFormationTemplate.Focus.Ranged=원거리
 TIFormationTemplate.Focus.Armored=기사
@@ -36,7 +34,6 @@ TIFormationTemplate.Focus.Battle=공격
 TIFormationTemplate.Focus.Swift=신속
 TIFormationTemplate.Focus.PointDefense=수비
 TIFormationTemplate.Focus.NoseWeapons=단거리
-
 TIFormationTemplate.Concentration.Dispersed=분산
 TIFormationTemplate.Concentration.Center=중앙
 TIFormationTemplate.Concentration.Extremities=산개
@@ -48,10 +45,8 @@ TIFormationTemplate.Concentration.Front=전방
 TIFormationTemplate.Concentration.High=상단
 TIFormationTemplate.Concentration.Low=하단
 TIFormationTemplate.Concentration.Fins=지느러미
-
-TIFormationTemplate.displayName={0} {1} {2} {3}							
+TIFormationTemplate.displayName={0} {1} {2} {3} // / Spread + Formation + Focus + Concentration, e.g. "Spread Line Archers Right." This is intended to sound a bit like a football formation and it describes how ships are laid out in space.
 TIFormationTemplate.description={0}<br/>{1} {2}
-
 TIFormationTemplate.Desc.Staggered=교차
 TIFormationTemplate.Desc.Convoy=호송
 TIFormationTemplate.Desc.EchelonRight=우측 사선 정렬
@@ -74,8 +69,7 @@ TIFormationTemplate.Desc.ThreeColumn=3열
 TIFormationTemplate.Desc.FourColumn=4열
 TIFormationTemplate.Desc.FiveColumn=5열
 TIFormationTemplate.Desc.Cloud=구름
-TIFormationTemplate.Desc.BoxThree=3x3 상자 
-
+TIFormationTemplate.Desc.BoxThree=3x3 상자
 TIFormationTemplate.Focus.Desc.Heavy=가장 거대한 함선
 TIFormationTemplate.Focus.Desc.Ranged=사거리가 긴 함선
 TIFormationTemplate.Focus.Desc.Armored=장갑이 가장 무거운 함선
@@ -83,7 +77,6 @@ TIFormationTemplate.Focus.Desc.Battle=가장 강력한 함선
 TIFormationTemplate.Focus.Desc.Swift=가장 빠른 함선
 TIFormationTemplate.Focus.Desc.PointDefense=거점 방어 함선
 TIFormationTemplate.Focus.Desc.NoseWeapons=가장 강력한 함수 무기를 갖춘 함선
-
 TIFormationTemplate.Concentration.Desc.Dispersed=분산 위치
 TIFormationTemplate.Concentration.Desc.Center=중앙 위치
 TIFormationTemplate.Concentration.Desc.Extremities=가장자리 위치

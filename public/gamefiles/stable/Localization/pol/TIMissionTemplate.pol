@@ -87,7 +87,7 @@ TIMissionTemplate.CriticalFailure.Crackdown=Nasza próba neutralizacji filaru w�
 
 TIMissionTemplate.displayName.DefendInterests=Obrona interesów
 TIMissionTemplate.description.DefendInterests=Umocnij swoje filary władzy w tym państwie przeciwko próbom osłabienia, czystek i zamachów stanu. Im więcej filarów władzy w państwie, tym krótszy będzie okres ochrony.
-TIMissionTemplate.Success.DefendInterests=Moi ludzie otrzymali dyspozycje i zachowają czujność, a nasza kontrola w państwie {targetDisplayNameSent} została wzmocniona do {returnedValue}. Wrogie frakcje, chcące odebrać nam władzę, będą miały utrudnione zadanie.
+TIMissionTemplate.Success.DefendInterests=Moi ludzie otrzymali dyspozycje i zachowają czujność, a nasza kontrola {targetDisplayNameSent} została wzmocniona do {returnedValue}. Wrogie frakcje, chcące odebrać nam władzę, będą miały utrudnione zadanie.
 
 TIMissionTemplate.displayName.Detain=Zatrzymanie konsultanta
 TIMissionTemplate.description.Detain=Zatrzymaj konsultanta na przesłuchanie. Udana misja zakłóci także wszelkie zadania, jakie wykonuje dany konsultant.
@@ -101,7 +101,7 @@ TIMissionTemplate.Detain.DetainAlien=Dzięki przesłuchaniom uzyskaliśmy znaczn
 
 TIMissionTemplate.displayName.DetectCouncilActivity=Rekonesans
 TIMissionTemplate.description.DetectCouncilActivity=Znacząco zwiększ szanse wykrycia wrogich konsultantów i kosmitów w tym i przyległym regionie oraz w habitacie bądź flocie. Może także wykryć ukryte obiekty kosmitów w pobliskich regionach Ziemi.
-TIMissionTemplate.Success.DetectCouncilActivity=Szukam naszych wrogów w regionie {targetDisplayNameSent}.
+TIMissionTemplate.Success.DetectCouncilActivity=Szukam naszych wrogów {targetDisplayNameSent}.
 
 TIMissionTemplate.displayName.EnthrallElites=Zniewolenie elit
 TIMissionTemplate.description.EnthrallElites=Kosmici zyskają filar władzy dla swoich stronników w wybranym państwie.
@@ -333,7 +333,7 @@ TIMissionEffect_Assassinate.Special2=Aresztowano mnie i władze niedługo przeka
 
 TIMissionResult_Responsibility=Odkryliśmy, że za tą operacją stoi {0}.
 
-TIMissionModifier.Spend=Wydano {0}	// resource name, e.g. "Ops"
+TIMissionModifier.Spend=Wydano: {0}	// resource name, e.g. "Ops"
 TIMissionModifier.Flat={0} ({1})	// Flat Modifier (3)
 TIMissionModifier.CodexHeader=<h>Modyfikatory ofensywne<line-height=0.01%><br/><align="right">Modyfikatory defensywne</align></line-height></h>
 TIMissionModifier_FlatModifier.displayName=Trudność misji

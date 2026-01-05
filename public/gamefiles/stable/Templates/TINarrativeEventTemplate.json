@@ -3644,7 +3644,6 @@
    "illustrationResource": "illustrations/Event_SecurityCouncil",
    "requiresAliens": true,
    "year": 1950,
-   "earliestMonth": 4,
    "logPublicity": "target",
    "alertPublicity": "target",
    "repeatable": "OncePerFaction",
@@ -16393,6 +16392,7 @@
  {
    "dataName": "event_ReligiousDecree_Catholic",
    "friendlyName": "Religious Decree_Catholic",
+   "illustrationResource": "illustrations/Event_ReligiousDecree",
    "requiresAliens": true,
    "logPublicity": "factions",
    "alertPublicity": "factions",
@@ -16667,6 +16667,7 @@
  {
    "dataName": "event_ReligiousDecree_Sunni",
    "friendlyName": "Religious Decree_Sunni",
+   "illustrationResource": "illustrations/Event_ReligiousDecree",
    "requiresAliens": true,
    "logPublicity": "factions",
    "alertPublicity": "factions",
@@ -16946,6 +16947,7 @@
  {
    "dataName": "event_ReligiousDecree_Hindu",
    "friendlyName": "Religious Decree_Hindu",
+   "illustrationResource": "illustrations/Event_ReligiousDecree",
    "requiresAliens": true,
    "logPublicity": "factions",
    "alertPublicity": "factions",
@@ -17192,6 +17194,7 @@
  {
    "dataName": "event_ReligiousDecree_Shia",
    "friendlyName": "Religious Decree_Shia",
+   "illustrationResource": "illustrations/Event_ReligiousDecree",
    "requiresAliens": true,
    "logPublicity": "factions",
    "alertPublicity": "factions",
@@ -17435,6 +17438,7 @@
  {
    "dataName": "event_ReligiousDecree_Evangelical",
    "friendlyName": "Religious Decree_Evangelical",
+   "illustrationResource": "illustrations/Event_ReligiousDecree",
    "requiresAliens": true,
    "logPublicity": "factions",
    "alertPublicity": "factions",
@@ -32286,6 +32290,7 @@
  {
    "dataName": "event_AncientExplorers",
    "friendlyName": "Ancient Explorers",
+   "illustrationResource": "illustrations/Event_AncientExplorers",
    "requiresAliens": true,
    "logPublicity": "global",
    "alertPublicity": "global",
@@ -42967,6 +42972,7 @@
  {
    "dataName": "event_PersonalLegacy",
    "friendlyName": "Personal Legacy",
+   "illustrationResource": "illustrations/Event_PersonalLegacy",
    "requiresAliens": false,
    "logPublicity": "actor",
    "alertPublicity": "actor",
@@ -46772,6 +46778,7 @@
  {
    "dataName": "event_Flooding",
    "friendlyName": "Flooding",
+   "illustrationResource": "illustrations/Event_Flooding",
    "requiresAliens": false,
    "logPublicity": "global",
    "alertPublicity": "global",
@@ -47086,6 +47093,7 @@
  {
    "dataName": "event_MajorFlooding",
    "friendlyName": "Major Flooding",
+   "illustrationResource": "illustrations/Event_Flooding",
    "requiresAliens": false,
    "logPublicity": "global",
    "alertPublicity": "global",
@@ -47400,6 +47408,7 @@
  {
    "dataName": "event_IoEruption",
    "friendlyName": "Io Eruption",
+   "illustrationResource": "illustrations/Event_IoEruption",
    "requiresAliens": false,
    "logPublicity": "target",
    "alertPublicity": "target",
@@ -47655,6 +47664,7 @@
  {
    "dataName": "event_TritonGeysers",
    "friendlyName": "Triton Geysers",
+   "illustrationResource": "illustrations/Event_TritonGeysers",
    "requiresAliens": false,
    "logPublicity": "target",
    "alertPublicity": "target",
@@ -48161,6 +48171,7 @@
  {
    "dataName": "event_OlympusMons",
    "friendlyName": "Olympus Mons",
+   "illustrationResource": "illustrations/Event_OlympusMons",
    "requiresAliens": false,
    "logPublicity": "target",
    "alertPublicity": "target",
@@ -54746,6 +54757,9 @@
                ],
                "secWtMod": [
                   {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MinorExposure"
                ]
             },
             {
@@ -61490,6 +61504,11 @@
          "strIdx": "InfiltratedCount",
          "sign": "LessThan",
          "strValue": "21"
+      },
+      {
+         "$type": "TICouncilorCondition_iAssassinatedHumans",
+         "sign": "GreaterThan",
+         "strValue": "0"
       }
    ],
    "targetWeightModifiers": [
@@ -61505,7 +61524,7 @@
          "condition": {
             "$type": "TICouncilorCondition_iAssassinatedHumans",
             "sign": "GreaterThan",
-            "strValue": "0"
+            "strValue": "3"
          },
          "value": 10
       },
@@ -64913,6 +64932,7 @@
  {
    "dataName": "event_RichPocket",
    "friendlyName": "Rich Pocket",
+   "illustrationResource": "illustrations/Event_RichPocket",
    "requiresAliens": false,
    "logPublicity": "target",
    "alertPublicity": "target",

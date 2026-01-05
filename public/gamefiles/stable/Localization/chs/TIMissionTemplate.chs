@@ -27,7 +27,7 @@ TIMissionTemplate.Failure.Purge=我未能在{targetNationNameWithPrep}肃清{ret
 TIMissionTemplate.CriticalFailure.Purge=我在{targetNationNameWithPrep}对抗{returnedValue}的肃清任务失败了，敌人可能已知道我的计谋，我们在当地也失去了一部分公众支持。
 
 TIMissionTemplate.displayName.Advise=顾问
-TIMissionTemplate.description.Advise=为国家或太空殖民地提供专业知识。理事的“科学”、“指挥”和“管理”等属性可提升目标研究力产出、战斗能力和财政绩效。额外增加顾问的理事会让提供的利益递减。
+TIMissionTemplate.description.Advise=为国家或太空殖民地提供专业知识。理事的“科学”、“指挥”和“行政”等属性可提升目标研究力产出、战斗能力和财政绩效。额外增加顾问的理事会让提供的利益递减。
 TIMissionTemplate.Success.Advise=我向{targetNationNameWithArticle}提供我的专业知识。{returnedValue}
 
 TIMissionTemplate.displayName.Assassinate=暗杀
@@ -100,7 +100,7 @@ TIMissionTemplate.DetentionEnd.Detain=我们可以将这名理事拘留至 {0}�
 TIMissionTemplate.Detain.DetainAlien=我们的审讯将会使未来的外星生命学研究大大获益。
 
 TIMissionTemplate.displayName.DetectCouncilActivity=监控地点
-TIMissionTemplate.description.DetectCouncilActivity=大幅提高敌方理事和外星人在理事区域与邻近区域、太空殖民地或舰队被发现的机率。此任务也可能在附近的地球区域侦测到隐藏的外星资产。
+TIMissionTemplate.description.DetectCouncilActivity=大幅提高敌方理事和外星人在理事区域与邻近区域、太空殖民地或舰队被发现的几率。此任务也可能在附近的地球区域侦测到隐藏的外星资产。
 TIMissionTemplate.Success.DetectCouncilActivity=我正在寻找我们的敌人{targetDisplayNameSent}。
 
 TIMissionTemplate.displayName.EnthrallElites=操纵精英
@@ -217,14 +217,14 @@ TIMissionTemplate.Prompt.SabotageProject=选取要破坏的计划……
 TIMissionTemplate.SecondarySelection=选取项目：{0}
 
 TIMissionTemplate.displayName.SeizeSpaceAsset=突袭敌方太空资产
-TIMissionTemplate.description.SeizeSpaceAsset=率领太空太空陆战队占领敌方的太空殖民地。此任务需要舰队或太空陆战队位于理事的所在地点，且舰队必须与敌方的太空站对接以发动袭击。太空站可能会出动部队前往表面，而基地可能会袭击附近的太空殖民地据点。太空陆战队舱体可能会遭受损伤或者被摧毁。
+TIMissionTemplate.description.SeizeSpaceAsset=率领太空陆战队占领敌方的太空殖民地。此任务需要舰队或太空陆战队位于理事的所在地点，且舰队必须与敌方的太空站对接以发动袭击。太空站可能会出动部队前往表面，而基地可能会袭击附近的太空殖民地据点。太空陆战队舱体可能会遭受损伤或者被摧毁。
 TIMissionTemplate.CriticalSuccess.SeizeSpaceAsset=胜利！我们已占领{targetFactionName}的{targetDisplayName}。 {returnedValue}
 TIMissionTemplate.Success.SeizeSpaceAsset=胜利！我们已占领{targetFactionName}的{targetDisplayName}。 {returnedValue}
 TIMissionTemplate.Failure.SeizeSpaceAsset=失败！我们未能占领{targetFactionName}的{targetDisplayName}。 {returnedValue}
 TIMissionTemplate.CriticalFailure.SeizeSpaceAsset=失败！我们未能占领{targetFactionName}的{targetDisplayName}。 {returnedValue}
 
 TIMissionTemplate.displayName.Stabilize=稳定国家
-TIMissionTemplate.description.Stabilize=减少目标国家的动乱、提升经济、降低政府被推翻的机率。如果现有的动乱小于国家动乱平稳值的一半，则该效果减弱。
+TIMissionTemplate.description.Stabilize=减少目标国家的动乱、提升经济、降低政府被推翻的几率。如果现有的动乱小于国家动乱平稳值的一半，则该效果减弱。
 TIMissionTemplate.CriticalSuccess.Stabilize=我们已让{targetNationNameWithPrep}的动乱大幅减少 {returnedValue} 到 {targetNationUnrestWithString}。
 TIMissionTemplate.Success.Stabilize=我们已让{targetNationNameWithPrep}的动乱减少 {returnedValue} 到 {targetNationUnrestWithString}。
 TIMissionTemplate.Failure.Stabilize=我在{targetNationNameWithPrep}减少动乱的任务失败了。
@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=我们未能拉拢{targetDisplayName}来支持我
 TIMissionTemplate.CriticalFailure.Turn=我未能拉拢{targetDisplayName}来支持我们的事业，而且{targetFactionName}似乎已知道我的行踪。
 
 TIMissionTemplate.displayName.Unrest=增加动乱
-TIMissionTemplate.description.Unrest=增加目标地区国家的动乱、损害经济，并提高政变、革命和分裂的发生机率。在地区成功促成独立运动可触发当地分裂，而非革命。如果现有的动乱已经达到国家动乱平稳值的两倍以上，则该效果减弱。
+TIMissionTemplate.description.Unrest=增加目标地区国家的动乱、损害经济，并提高政变、革命和分裂的发生几率。在地区成功促成独立运动可触发当地分裂，而非革命。如果现有的动乱已经达到国家动乱平稳值的两倍以上，则该效果减弱。
 TIMissionTemplate.CriticalSuccess.Unrest=我的行动已经使得{targetNationNameWithPrep}的动乱增加了{returnedValue}，现为{targetNationUnrestWithString}。如果此地的反叛运动能够成功推翻政府，我们现在就能获取他们一部分的支持。
 TIMissionTemplate.Success.Unrest=我的行动已经使得{targetNationNameWithPrep}的动乱增加了{returnedValue}，现为{targetNationUnrestWithString}。如果此地的反叛运动能够成功推翻政府，我们现在就能获取他们一部分的支持。
 TIMissionTemplate.Failure.Unrest=我无法在{targetNationNameWithPrep}增加动乱。

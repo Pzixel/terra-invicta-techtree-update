@@ -101,7 +101,7 @@ UI.Precombat.AlwaysFlee=<br/>最大投入で<br/>必ず逃走可能
 UI.Precombat.EnemyAlwaysFlee=<br/>敵は最大投入で<br/>必ず逃走可能
 UI.Precombat.SubmitBid=入札する
 UI.Precombat.Autoresolve=自動解決
-UI.Precombat.AcceptAutoresolve=応戦
+UI.Precombat.AcceptAutoresolve=受け入れる
 UI.Precombat.RejectAutoresolve=拒否
 UI.Precombat.Watch=戦闘を観る
 UI.Precombat.Close=閉じる
@@ -132,8 +132,8 @@ UI.Precombat.OfficerKilled_Header=戦死した士官：
 UI.Precombat.Exofighter=エクゾファイター
 UI.Precombat.AlienExofighter=エイリアンエクゾファイター
 UI.Precombat.AddFightersButton=エクゾファイターの追加
-UI.Precombat.AddFightersDetail={0}を使用して、この戦闘に支配する地球の国家の地上-軌道間用戦闘機を発進します。 
-UI.Precombat.STOFightersHeader=スクランブルエグゾファイター
+UI.Precombat.AddFightersDetail={0}を消費し、支配下にある地球国家の地上-軌道戦闘機をこの戦闘に発進させます。 
+UI.Precombat.STOFightersHeader=スクランブルエクゾファイター
 UI.Precombat.STOFightersExplainer=国家のエクゾファイターをこの戦闘に割り当て、出撃させる。発進にかかる総<sprite name="boost">コストは次のとおり。
 UI.Precombat.STOFightersResetButtonText=すべて消去
 UI.Precombat.STOFightersLaunchEverybodyButtonText=すべて発射
@@ -143,13 +143,13 @@ UI.Precombat.CancelLaunchExplainer=地上-軌道間用戦闘機の発進を中�
 UI.Precombat.SlashValue={0}/{1}
 UI.Precombat.ParensValue=（{0}）
 UI.Precombat.SquadronName={0}スコードロン
-UI.Precombat.SquadronName2={0}スコードロンエグゾファイター
+UI.Precombat.SquadronName2={0}スコードロンエクゾファイター
 UI.Precombat.FighterCallsign={0}{1} 					// squadron name, number, like "Gold 1"
 UI.Precombat.Confirm=確定
 UI.Precombat.SkirmishExoSquadron1=アルファ
 UI.Precombat.SkirmishExoSquadron2=オメガ
 UI.Precombat.PossibleFighters=<sprite name=warning>敵はこの戦闘に参加するため、エクゾファイターを発進させる可能性がある。我々が方針を決めるまで、発進させたかどうかはわからない。
-UI.Precombat.EmptyFighters=<sprite name=warning>敵は我々の資産に対してエクゾファイターを発進させている可能性がある。我々が方針を決めるまで、発進させたかどうかはわからない。</h>
+UI.Precombat.EmptyFighters=<sprite name=warning><h>敵は我々の資産に対してエクゾファイターを発進させている可能性がある。我々が方針を決めるまで、発進させたかどうかはわからない。</h>
 
 UI.SpaceCombat.BattleName={0}で戦闘
 UI.SpaceCombat.BattleNameDeepSpace=深宇宙で戦闘
@@ -193,7 +193,7 @@ UI.SpaceCombat.Weapon.NoAmmo=この兵器には弾薬がない。
 UI.SpaceCombat.Weapon.NoPower=船からの利用可能な電力が不足しており、この兵器を発射できない。
 UI.SpaceCombat.Weapon.HeatProblem=この兵器は、発射すると船がオーバーヒートするため停止している。
 
-UI.SpaceCombat.Outcome.DockedAtHab=<br/>{0}は{1}とドッキングしている。ステーションの奪取または破壊を行うことができる。
+UI.SpaceCombat.Outcome.DockedAtHab=<br/>{0}は{1}とドッキングしている。ステーションを奪取または破壊できる。
 UI.SpaceCombat.CombatInProgress=戦闘進行中...
 UI.SpaceCombat.MajorCombatInProgress=大規模戦闘が進行中…
 UI.SpaceCombat.AutoresolveComplete=自動解決が完了した。結果を受け入れることも、拒否して手動で戦闘することもできる。 

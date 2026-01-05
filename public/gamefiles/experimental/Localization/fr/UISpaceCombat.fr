@@ -26,7 +26,7 @@ UI.SpaceCombat.MissileGuardian=Mode Gardien de missiles
 UI.SpaceCombat.MissileGuardian.description=L'arme tirera sur le missile le plus proche qui menace ce vaisseau ou un vaisseau allié. Si aucune menace de la sorte n'est détectée, l'arme tirera sur la cible principale du vaisseau. Si aucune cible n'est sélectionnée, l'arme tirera sur le vaisseau ennemi le plus proche.
  
 UI.SpaceCombat.Salvo=Salve de tirs
-UI.SpaceCombat.Salvo.description=L’arme tirera une salve de missiles sur la cible principale du vaisseau ; elle mettra ensuite l’arme en veille ; la salve sera égale à 25 % de la capacité en munitions maximale de l’arme.
+UI.SpaceCombat.Salvo.description=L'arme tirera une salve de missiles sur la cible principale du vaisseau ; elle mettra ensuite l'arme en veille ; la salve sera égale à 25 % de la capacité en munitions maximale de l'arme.
 UI.SpaceCombat.Bracket=Encadrement
 UI.SpaceCombat.Bracket.description=L'arme tirera sur la cible principale du vaisseau. Si aucune cible n'est sélectionnée, l'arme tirera sur le vaisseau le plus proche, mais visera parfois légèrement à côté, afin de toucher tout de même le vaisseau si ce dernier modifie ses vecteurs. 
 
@@ -44,7 +44,7 @@ UI.SpaceCombat.EndBattleButtonTooltipYes=Cliquez ici pour proposer au commandant
 UI.SpaceCombat.EndBattleButtonTooltipNo=Cliquez ici pour proposer au commandant ennemi de mettre fin au combat par consentement mutuel. Si les deux camps sélectionnent cette option, le combat spatial prendra fin. Notez qu'en cas de présence d'un habitat, la victoire ira à la faction défenseuse. <br/><br/>Actuellement, le commandant ennemi ne souhaite pas cesser le combat.
 UI.SpaceCombat.AutoResolve=Résoudre automatiquement la bataille
 UI.SpaceCombat.AutoResolve.Description=Le combat continuera en arrière-plan selon son état actuel et vous obtiendrez ensuite le résultat.
-UI.SpaceCombat.AutoResolve.Query=L’option Résoudre automatiquement prendra l’état actuel de la bataille, la terminera hors écran et rapportera le résultat. Voulez-vous continuer ?
+UI.SpaceCombat.AutoResolve.Query=L'option Résoudre automatiquement prendra l'état actuel de la bataille, la terminera hors écran et rapportera le résultat. Voulez-vous continuer ?
 
 UI.SpaceCombat.NoseStructure=Intégrité structurelle de la proue
 UI.SpaceCombat.CentralStructure=Intégrité structurelle du centre
@@ -68,7 +68,7 @@ UI.SpaceCombat.SystemsReactor=Centrale d'énergie des systèmes
 UI.SpaceCombat.Description.NoseStructure=Si l'intégrité structurelle de la proue, du centre et de la queue est réduite à néant, le vaisseau sera détruit.
 UI.SpaceCombat.Description.CentralStructure=Si l'intégrité structurelle de la proue, du centre et de la queue est réduite à néant, le vaisseau sera détruit.
 UI.SpaceCombat.Description.TailStructure=Si l'intégrité structurelle de la proue, du centre et de la queue est réduite à néant, le vaisseau sera détruit.
-UI.SpaceCombat.Description.Bridge=Une passerelle endommagée à 50 % ou plus empêchera le vaisseau d'exécuter des commandes ou de changer les paramètres d'armement. Une passerelle endommagée à 100 % empêchera le vaisseau de créer ou de déplacer des points de cheminements.
+UI.SpaceCombat.Description.Bridge=Une passerelle endommagée à 50 % ou plus empêchera le vaisseau d'exécuter des ordres ou de changer les paramètres d'armement. Une passerelle endommagée à 100 % empêchera le vaisseau de créer ou de déplacer des points de cheminements.
 UI.SpaceCombat.Description.FireControl=Les temps de refroidissement des armes augmenteront d'une valeur équivalente au pourcentage de dégâts subis par le système et les chances de déjouer les CME ennemies sont réduites. Des dégâts de 100 % empêcheront le vaisseau d'utiliser ses armes.
 UI.SpaceCombat.Description.PowerCoupling=Les dégâts subis par les coupleurs d'énergie réduiront le taux de rechargement des systèmes et des batteries depuis la centrale d'énergie. Les réparations seront faites rapidement.
 UI.SpaceCombat.Description.DriveCoupling=Les dégâts subis par les coupleurs de propulsion empêcheront les propulseurs de bénéficier de la puissance maximale, réduisant la poussée disponible pour le vaisseau. Si ces coupleurs sont détruits, le vaisseau ne pourra plus du tout changer sa vitesse. Les réparations seront faites rapidement.
@@ -91,14 +91,14 @@ UI.Precombat.AcceptDetail=Si l'ennemi attaque, nous nous battrons. Autrement, il
 UI.Precombat.Flee=Éviter
 UI.Precombat.FleeDetail=Nous tenterons d'éviter le combat. Si l'ennemi nous poursuit, nous pourrons utiliser notre Delta-V pour le semer.
 UI.Precombat.BiddingHeader=Poursuite !
-UI.Precombat.WereFleeing=Notre flotte manœuvre pour éviter le combat, mais l'ennemi nous poursuit. Nous pourrions miser une partie de notre Delta-V disponible pour tenter de les semer. Si nous misons plus qu'eux, nous éviterons le combat. Les mises maximum sont déterminées par les différences d’accélération des flottes. Si leur mise est supérieure à la nôtre, nous devrons les affronter. Les deux camps dépenseront la mise la plus basse, que le combat ait lieu ou non.
-UI.Precombat.WereChasing=La flotte ennemie manœuvre pour éviter le combat. Nous pourrions miser une partie de notre Delta-V disponible pour les poursuivre. Si nous misons plus qu’eux, nous engagerons le combat. Si leur mise est supérieure à la nôtre, ils prendront la fuite. Le nombre maximum de mises est déterminé par la différence entre les accélérations des deux flottes. Les deux camps dépenseront la mise la plus basse, que le combat ait lieu ou non.
+UI.Precombat.WereFleeing=Notre flotte manœuvre pour éviter le combat, mais l'ennemi nous poursuit. Nous pourrions miser une partie de notre Delta-V disponible pour tenter de les semer. Si nous misons plus qu'eux, nous éviterons le combat. Les mises maximum sont déterminées par les différences d'accélération des flottes. Si leur mise est supérieure à la nôtre, nous devrons les affronter. Les deux camps dépenseront la mise la plus basse, que le combat ait lieu ou non.
+UI.Precombat.WereChasing=La flotte ennemie manœuvre pour éviter le combat. Nous pourrions miser une partie de notre Delta-V disponible pour les poursuivre. Si nous misons plus qu'eux, nous engagerons le combat. Si leur mise est supérieure à la nôtre, ils prendront la fuite. Le nombre maximum de mises est déterminé par la différence entre les accélérations des deux flottes. Les deux camps dépenseront la mise la plus basse, que le combat ait lieu ou non.
 UI.Precombat.Ourbid={0} km/s<br/> Notre mise actuelle
 UI.Precombat.AvailableKps={0} km/s<br/> disponibles pour la poursuite
-UI.Precombat.AlwaysCombat=<br/>Mise max<br/>force l’engagement
-UI.Precombat.EnemyAlwaysCombat=<br/>Mise max ennemie<br/>force l’engagement
-UI.Precombat.AlwaysFlee=<br/>Mise max<br/> s’échappera
-UI.Precombat.EnemyAlwaysFlee=<br/>Mise max de l’ennemi<br/> s’échappera
+UI.Precombat.AlwaysCombat=<br/>Mise max<br/>force l'engagement
+UI.Precombat.EnemyAlwaysCombat=<br/>Mise max ennemie<br/>force l'engagement
+UI.Precombat.AlwaysFlee=<br/>Mise max<br/> s'échappera
+UI.Precombat.EnemyAlwaysFlee=<br/>Mise max de l'ennemi<br/> s'échappera
 UI.Precombat.SubmitBid=Faire une mise
 UI.Precombat.Autoresolve=Résoudre automatiquement
 UI.Precombat.AcceptAutoresolve=Accepter
@@ -121,12 +121,12 @@ UI.Precombat.EnemyUnarmedHab=<br/>{0} n'est pas armée. Si nous parvenons à dé
 UI.Precombat.EnemyUnarmedHab_2=<br/>{0} n'est pas armée. Nous nous y amarrerons et pourrons la raser de la carte ou la capturer si nous avons des unités d'assaut.
 UI.Precombat.EnemyUnarmedHab_3=<br/>{0} n'est pas armée. Si elle est protégée par une flotte et que nous parvenons à détruire cette dernière, nos exocombattants pourront raser cette station de la carte.
 UI.Precombat.Pincer=ATTAQUER
-UI.Precombat.PincerDetail=Divise notre flotte pour encercler l’ennemi et l’empêcher de s’échapper. L’ennemi engagera la plus faible de nos deux flottes.
-UI.Precombat.ChaseMechanics=En cas de poursuite, les accélérations relatives de chaque flotte déterminent l’issue de la chasse. Si une flotte se déplace bien plus vite que son adversaire, elle peut forcer l’engagement, ou l’esquiver en consommant peu de Delta-V. Si les deux flottes vont à la même vitesse, la poursuite sera plus lente et les flottes consommeront davantage de Delta-V, si les deux parties s’engagent à en utiliser.<br/><br/>La poursuite se termine lorsque la flotte en chasse est à une distance de {0} fois la portée maximale de ciblage de n’importe quel vaisseau de l’une ou l’autre flotte. ({1} km), ou si la flotte en fuite met entre elle et l’autre flotte une distance équivalente.<br/><br/>Dans certains cas, la flotte en chasse peut diviser sa formation pour forcer le combat. Cela se produit si certains vaisseaux peuvent rattraper la flotte, ou si elle est suffisamment grande pour encercler la flotte ennemie. 
+UI.Precombat.PincerDetail=Divise notre flotte pour encercler l'ennemi et l'empêcher de s'échapper. L'ennemi engagera la plus faible de nos deux flottes.
+UI.Precombat.ChaseMechanics=En cas de poursuite, les accélérations relatives de chaque flotte déterminent l'issue de la chasse. Si une flotte se déplace bien plus vite que son adversaire, elle peut forcer l'engagement, ou l'esquiver en consommant peu de Delta-V. Si les deux flottes vont à la même vitesse, la poursuite sera plus lente et les flottes consommeront davantage de Delta-V, si les deux parties s'engagent à en utiliser.<br/><br/>La poursuite se termine lorsque la flotte en chasse est à une distance de {0} fois la portée maximale de ciblage de n'importe quel vaisseau de l'une ou l'autre flotte. ({1} km), ou si la flotte en fuite met entre elle et l'autre flotte une distance équivalente.<br/><br/>Dans certains cas, la flotte en chasse peut diviser sa formation pour forcer le combat. Cela se produit si certains vaisseaux peuvent rattraper la flotte, ou si elle est suffisamment grande pour encercler la flotte ennemie. 
 UI.Precombat.ChaseMechanics_Fixed=En cas de poursuite, les accélérations relatives de chaque flotte déterminent l'issue de la chasse. Si une flotte se déplace bien plus vite que son adversaire, elle peut forcer l'engagement, ou l'esquiver en consommant peu de Delta-V. Si les deux flottes vont à la même vitesse, la poursuite sera plus lente et les flottes consommeront davantage de Delta-V, si les deux parties s'engagent à en utiliser.<br/><br/>La poursuite se termine lorsque la flotte en chasse est à une distance de {0} km de sa cible, ou que la flotte en fuite met entre elle et l'autre flotte une distance équivalente.
-UI.Precombat.AIExtendedPursuitNormal=<h>Avertissement de poursuite prolongée</h> : certains vaisseaux de la flotte ennemie sont suffisamment rapides pour forcer le combat avec un plus petit groupe de vaisseaux s’ils le souhaitent, même si nous proposons la mise maximale de Delta-V.
-UI.Precombat.AIExtendedPursuitEnvelop=<h>Avertissement de poursuite prolongée</h> : l’ennemi a suffisamment de vaisseaux dans sa flotte pour engager le combat avec notre flotte s’il le souhaite, même si nous proposons l’offre maximale de Delta-V. Dans ce cas, nous devrons affronter une petite portion de leur flotte.
-UI.Precombat.ExtendedPursuitNormal=<h>Poursuite prolongée</h> : certains de nos vaisseaux sont capables de rattraper la flotte ennemie et de forcer le combat même si l’ennemi propose l’offre maximale. Cochez la case pour voir lesquels de nos vaisseaux prendront part au combat, et confirmez cette option en cliquant ici : {0}. 
+UI.Precombat.AIExtendedPursuitNormal=<h>Avertissement de poursuite prolongée</h> : certains vaisseaux de la flotte ennemie sont suffisamment rapides pour forcer le combat avec un plus petit groupe de vaisseaux s'ils le souhaitent, même si nous proposons la mise maximale de Delta-V.
+UI.Precombat.AIExtendedPursuitEnvelop=<h>Avertissement de poursuite prolongée</h> : l'ennemi a suffisamment de vaisseaux dans sa flotte pour engager le combat avec notre flotte s'il le souhaite, même si nous proposons l'offre maximale de Delta-V. Dans ce cas, nous devrons affronter une petite portion de leur flotte.
+UI.Precombat.ExtendedPursuitNormal=<h>Poursuite prolongée</h> : certains de nos vaisseaux sont capables de rattraper la flotte ennemie et de forcer le combat même si l'ennemi propose l'offre maximale. Cochez la case pour voir lesquels de nos vaisseaux prendront part au combat, et confirmez cette option en cliquant ici : {0}. 
 UI.Precombat.ExtendedPursuitEnvelop=<h>Poursuite prolongée</h> : nous pouvons diviser notre flotte en petits groupes et encercler la flotte ennemie, les obligeant à affronter un de nos détachements, quelle que soit leur mise. Cochez la case pour voir lesquels de nos vaisseaux prendront part au combat, et confirmez cette option en cliquant ici : {0}.
 UI.Precombat.OfficerKilled_Header=Officier(s) tué(s) au combat :
 UI.Precombat.Exofighter=Exocombattant
@@ -162,16 +162,16 @@ UI.SpaceCombat.Status.Destroyed=Détruit
 
 UI.SpaceCombat.Warning.EmptyMagazine=Au moins une des armes de ce vaisseau a épuisé ses munitions et ne pourra plus tirer. <br/><br/>Munitions vides : {0}
 UI.SpaceCombat.Warning.WeaponNoTarget=Ce vaisseau a réglé une de ses armes sur le mode Tir dirigé, mais n'a pas encore choisi de cible. L'arme ne tirera pas tant que la cible n'est pas choisie.
-UI.SpaceCombat.Warning.ShipNoThrust=Le vaisseau ne peut plus manœuvrer en raison d’un niveau de combustible faible ou de dégâts critiques subis par la passerelle ou le système de poussée.
+UI.SpaceCombat.Warning.ShipNoThrust=Le vaisseau ne peut plus manœuvrer en raison d'un niveau de combustible faible ou de dégâts critiques subis par la passerelle ou le système de poussée.
 UI.SpaceCombat.Warning.ShipNoWeapons=Le vaisseau a subi des dégâts critiques au niveau de ses systèmes d'armement et ne peut plus utiliser aucune arme.
 UI.SpaceCombat.Warning.ShipTarget=Ce vaisseau vise {0}
-UI.SpaceCombat.Warning.ManeuverTarget={0} essaie d’aller à la même vitesse que ce vaisseau.
+UI.SpaceCombat.Warning.ManeuverTarget={0} essaie d'aller à la même vitesse que ce vaisseau.
 UI.SpaceCombat.Warning.RotationStatus.Critical=Les propulseurs vectoriels de ce vaisseau ont subi des dégâts critiques, avec un effet dévastateur sur sa vitesse de rotation.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=Les propulseurs vectoriels de ce vaisseau ont été endommagés, ce qui ralentit sa vitesse de rotation.
 UI.SpaceCombat.Warning.RotationStatus.Good=Les propulseurs vectoriels de ce vaisseau sont en état de fonctionnement. 
-UI.SpaceCombat.Warning.WeaponStatus.Critical=Les systèmes d’armement du vaisseau ont été détruits. <br/><br/>Armes hors ligne : {0}<br/>Mode de tir : {1}
-UI.SpaceCombat.Warning.WeaponStatus.Damaged=Les systèmes d’armement du vaisseau ont été endommagés. <br/><br/>Armes hors ligne : {0}<br/>Mode de tir : {1}
-UI.SpaceCombat.Warning.WeaponStatus.Good=Les armes et le mode de tir sont en état de fonctionnement.
+UI.SpaceCombat.Warning.WeaponStatus.Critical=Les systèmes d'armement du vaisseau ont été détruits. <br/><br/>Armes hors ligne : {0}<br/>Poste de tir : {1}
+UI.SpaceCombat.Warning.WeaponStatus.Damaged=Les systèmes d'armement du vaisseau ont été endommagés. <br/><br/>Armes hors ligne : {0}<br/>Poste de tir : {1}
+UI.SpaceCombat.Warning.WeaponStatus.Good=Les armes et le poste de tir sont en état de fonctionnement.
 UI.SpaceCombat.Warning.ShipSystemStatus.Critical=Systèmes critiques du vaisseau hors ligne.
 UI.SpaceCombat.Warning.ShipSystemStatus.Damaged=Systèmes du vaisseau endommagés.
 UI.SpaceCombat.Warning.ShipSystemStatus.Good=Les systèmes du vaisseau sont opérationnels
@@ -211,13 +211,13 @@ UI.SpaceCombat.ReinforceEntry= est arrivé en renfort pour la bataille.
 UI.SpaceCombat.ReinforcementsTimer=T-{0}
 UI.SpaceCombat.ReinforcementReady=<h>Prêts</h>
 
-UI.SpaceCombat.CommandTarget.Fleet=Commandes de flotte
-UI.SpaceCombat.CommandTarget.Group=Commandes de groupe
-UI.SpaceCombat.CommandTarget.Single=Commandes de vaisseau
+UI.SpaceCombat.CommandTarget.Fleet=Ordres de flotte
+UI.SpaceCombat.CommandTarget.Group=Ordres de groupe
+UI.SpaceCombat.CommandTarget.Single=Ordres de vaisseau
 
 UI.SpaceCombat.FormationTitle=Sélectionner la formation de la flotte
 UI.SpaceCombat.InitialVelocity=Vitesse initiale
-UI.SpaceCombat.FleetHabPlacement=Positionner la flotte devant l’habitat
+UI.SpaceCombat.FleetHabPlacement=Positionner la flotte devant l'habitat
 UI.SpaceCombat.ShipSwapping=Sélectionnez deux vaisseaux dans l'espace de combat pour qu'ils inversent leurs positions au sein de la formation choisie.
 UI.SpaceCombat.ReinforcementSwapping=<sp>Un des vaisseaux peut également faire partie de la liste des renforts. Pour cela, sélectionnez un vaisseau de l'espace de combat et un de la liste des renforts.
 UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Demander des renforts
@@ -240,29 +240,29 @@ UI.SpaceCombat.WeaponManagerControl=<sp>Appliquer sur toutes les armes de ce typ
 
 UI.SpaceCombat.BattleLog.Title=Journal de combat
 UI.SpaceCombat.BattleLog.Log=Événements de combat notés
-UI.SpaceCombat.BattleLog.ShipDestruction=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} a été détruit par l'arme {3} du vaisseau {6} à coque de type {5} appartenant à la faction {4}.
-UI.SpaceCombat.BattleLog.ShipDestructionNoKiller=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} a été détruit.
-UI.SpaceCombat.BattleLog.ShipDestructionHeat=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} a été détruit à cause de températures internes extrêmes.
-UI.SpaceCombat.BattleLog.ShipDestructionHabKiller=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} a été détruit par l'arme {3} du module {5} construit sur l'habitat {6} appartenant à la faction {4}.
-UI.SpaceCombat.BattleLog.HabDestruction=Un module {0} construit sur l'habitat {1} a été détruit par une arme {2} du vaisseau {5} à coque de type {4} appartenant à la faction {3}.
+UI.SpaceCombat.BattleLog.ShipDestruction=Le vaisseau {0} {2} à coque de type {1} a été détruit par l'arme {3} du vaisseau {4} {6} à coque de type {5}.
+UI.SpaceCombat.BattleLog.ShipDestructionNoKiller=Le vaisseau {0} {2} à coque de type {1} a été détruit.
+UI.SpaceCombat.BattleLog.ShipDestructionHeat=Le vaisseau {0} {2} à coque de type {1} a été détruit à cause de températures internes extrêmes.
+UI.SpaceCombat.BattleLog.ShipDestructionHabKiller=Le vaisseau {0} {2} à coque de type {1} a été détruit par l'arme {3} du module {5} construit sur l'habitat {4} {6}.
+UI.SpaceCombat.BattleLog.HabDestruction=Un module {0} construit sur l'habitat {1} a été détruit par une arme {2} du vaisseau {3} {5} à coque de type {4}.
 UI.SpaceCombat.BattleLog.BattleGroupReinforced={0} vaisseaux sont arrivés en renfort pour aider la faction {1}, menés par le vaisseau {3} à coque de type {2}.
-UI.SpaceCombat.BattleLog.ShipReinforced=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} est arrivé en renfort.
-UI.SpaceCombat.BattleLog.ShipDisengaged=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} s'est retiré du combat.
-UI.SpaceCombat.BattleLog.OutOfAmmo=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} a déclaré être à court de munitions pour son arme {3}.
-UI.SpaceCombat.BattleLog.MultipleWeaponsOutOfAmmo=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} est à court de munitions pour son arme {3} ainsi que pour {4} autres armes.
-UI.SpaceCombat.BattleLog.OutOfDV=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} est à court de combustible.
-UI.SpaceCombat.BattleLog.OfficerKilled={0} du vaisseau {3} à coque de type {2} appartenant à la faction {1} a perdu la vie au combat.
-UI.SpaceCombat.BattleLog.PartDestroyed=La pièce {3} du vaisseau {2} à coque de type {1} appartenant à la faction {0} a été détruite.
-UI.SpaceCombat.BattleLog.PartDestroyedEnemy=La pièce {3} du vaisseau {2} à coque de type {1} appartenant à la faction {0} a été détruite.
-UI.SpaceCombat.BattleLog.PartDestroyedEnemyUnknown=Une pièce du vaisseau {2} à coque de type {1} appartenant à la faction {0} a été détruite.
-UI.SpaceCombat.BattleLog.ShipInternalStructureDestroyed=L'{3} du vaisseau {2} à coque de type {1} appartenant à la faction {0} est gravement compromise.
-UI.SpaceCombat.BattleLog.AllWeaponsDestroyed=Toutes les plateformes d'armes du vaisseau {2} à coque de type {1} appartenant à la faction {0} ont été détruites.
-UI.SpaceCombat.BattleLog.ShipDamaged=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} a été touché par une arme {3} qui a infligé <color=#FFFFFFFF><sprite name="army_battle"></color>{4} de dégâts. <color=#FFFFFFFF><sprite name="armor"></color>{5} des dégâts ont été absorbés par le blindage ; le vaisseau a ainsi subi <color=#FFFFFFFF><sprite name="ship_damage"></color>{6} de dégâts.
-UI.SpaceCombat.BattleLog.ShipDamagedRadiation=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} a été touché par une arme {3} qui a infligé <color=#FFFFFFFF><sprite name="army_battle"></color>{4} de dégâts. <color=#FFFFFFFF><sprite name="armor"></color>{5} des dégâts ont été absorbés par le blindage ; le vaisseau a ainsi subi <color=#FFFFFFFF><sprite name="ship_damage"></color>{6} de dégâts. L'équipage a subi <color=#FFFFFFFF><sprite name="radioactive"></color>{7} de dégâts causés par le rayonnement.
-UI.SpaceCombat.BattleLog.ShipDamagedNoWeapon=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} a subi une attaque qui a infligé <color=#FFFFFFFF><sprite name="army_battle"></color>{4} de dégâts. <color=#FFFFFFFF><sprite name="armor"></color>{5} des dégâts ont été absorbés par le blindage ; le vaisseau a ainsi subi <color=#FFFFFFFF><sprite name="ship_damage"></color>{6} de dégâts.
-UI.SpaceCombat.BattleLog.ArmorHolding=Le vaisseau {2} à coque de type {1} appartenant à la faction {0} a été touché par l'arme {3} qui a infligé <color=#FFFFFFFF><sprite name="armor"></color>{5} de dégâts. Tous les dégâts ont été absorbés par le blindage. L'{6} est désormais à {7}.
+UI.SpaceCombat.BattleLog.ShipReinforced=Le vaisseau {0} {2} à coque de type {1} est arrivé en renfort.
+UI.SpaceCombat.BattleLog.ShipDisengaged=Le vaisseau {0} {2} à coque de type {1} s'est retiré du combat.
+UI.SpaceCombat.BattleLog.OutOfAmmo=Le vaisseau {0} {2} à coque de type {1} a déclaré être à court de munitions pour son arme {3}.
+UI.SpaceCombat.BattleLog.MultipleWeaponsOutOfAmmo=Le vaisseau {0} {2} à coque de type {1} est à court de munitions pour son arme {3} ainsi que pour {4} autres armes.
+UI.SpaceCombat.BattleLog.OutOfDV=Le vaisseau {0} {2} à coque de type {1} est à court de combustible.
+UI.SpaceCombat.BattleLog.OfficerKilled={0} du vaisseau {1} {3} à coque de type {2} a perdu la vie au combat.
+UI.SpaceCombat.BattleLog.PartDestroyed=La pièce {3} du vaisseau {0} {2} à coque de type {1} a été détruite.
+UI.SpaceCombat.BattleLog.PartDestroyedEnemy=La pièce {3} du vaisseau {0} {2} à coque de type {1} a été détruite.
+UI.SpaceCombat.BattleLog.PartDestroyedEnemyUnknown=Une pièce du vaisseau {0} {2} à coque de type {1} a été détruite.
+UI.SpaceCombat.BattleLog.ShipInternalStructureDestroyed=L'{3} du vaisseau {0} {2} à coque de type {1} est gravement compromise.
+UI.SpaceCombat.BattleLog.AllWeaponsDestroyed=Toutes les plateformes d'armes du vaisseau {0} {2} à coque de type {1} ont été détruites.
+UI.SpaceCombat.BattleLog.ShipDamaged=Le vaisseau {0} {2} à coque de type {1} a été touché par une arme {3} qui a infligé <color=#FFFFFFFF><sprite name="army_battle"></color>{4} de dégâts. <color=#FFFFFFFF><sprite name="armor"></color>{5} des dégâts ont été absorbés par le blindage ; le vaisseau a ainsi subi <color=#FFFFFFFF><sprite name="ship_damage"></color>{6} de dégâts.
+UI.SpaceCombat.BattleLog.ShipDamagedRadiation=Le vaisseau {0} {2} à coque de type {1} a été touché par une arme {3} qui a infligé <color=#FFFFFFFF><sprite name="army_battle"></color>{4} de dégâts. <color=#FFFFFFFF><sprite name="armor"></color>{5} des dégâts ont été absorbés par le blindage ; le vaisseau a ainsi subi <color=#FFFFFFFF><sprite name="ship_damage"></color>{6} de dégâts. L'équipage a subi <color=#FFFFFFFF><sprite name="radioactive"></color>{7} de dégâts causés par le rayonnement.
+UI.SpaceCombat.BattleLog.ShipDamagedNoWeapon=Le vaisseau {0} {2} à coque de type {1} a subi une attaque qui a infligé <color=#FFFFFFFF><sprite name="army_battle"></color>{4} de dégâts. <color=#FFFFFFFF><sprite name="armor"></color>{5} des dégâts ont été absorbés par le blindage ; le vaisseau a ainsi subi <color=#FFFFFFFF><sprite name="ship_damage"></color>{6} de dégâts.
+UI.SpaceCombat.BattleLog.ArmorHolding=Le vaisseau {0} {2} à coque de type {1} a été touché par l'arme {3} qui a infligé <color=#FFFFFFFF><sprite name="armor"></color>{5} de dégâts. Tous les dégâts ont été absorbés par le blindage. L'{6} est désormais à {7}.
 UI.SpaceCombat.BattleLog.HabDamaged=Un module {0} construit sur l'habitat {1} a été touché par une arme {2} qui a infligé <color=#FFFFFFFF><sprite name="army_battle"></color>{3} de dégâts.
-UI.SpaceCombat.BattleLog.PartRepaired=La pièce {3} du vaisseau {2} à coque de type {1} appartenant à la faction {0} a été réparée.
+UI.SpaceCombat.BattleLog.PartRepaired=La pièce {3} du vaisseau {0} {2} à coque de type {1} a été réparée.
 
 UI.SpaceCombat.BattleLog.AllLogs.Title=Tous les journaux
 UI.SpaceCombat.BattleLog.Destruction.Title=Destruction

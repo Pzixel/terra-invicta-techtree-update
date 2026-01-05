@@ -23,7 +23,7 @@ UI.Councilor.TurnedTooltip=Ten konsultant zdradził frakcję {0} i teraz {1} jes
 UI.Councilor.TurnedSlider=Umyślnie ponoś porażkę, gdy szanse powodzenia misji < {0}
 UI.Councilor.AddressTraitor=Zdrajców można przywrócić do pierwotnej lojalności za pomocą misji Inspiracja konsultanta. Zdrajcę możesz też zwolnić lub zamordować, żeby usunąć go ze swojej Rady.
 UI.Councilor.DetainedTooltip=Ten konsultant został zatrzymany i frakcja {0} obecnie go przesłuchuje. Konsultant zostanie wypuszczony {1}.
-UI.Councilor.AddressDetained=Wykonaj misję Odbicie konsultanta, żeby przeprowadzić operację ratunkową, albo poczekaj, aż konsultant zostanie wypuszczony.
+UI.Councilor.AddressDetained=Wykonaj misję „Odbicie konsultanta”, żeby przeprowadzić operację ratunkową, albo poczekaj, aż konsultant zostanie wypuszczony.
 UI.Councilor.SelfDetainedTooltip=Ten konsultant został zatrzymany i przetrzymują go siły lokalne niesprzymierzone z żadną frakcją. Konsultant zostanie wypuszczony {0}.
 UI.Councilor.AddressSelfDetained=Musimy zaczekać, aż konsultant zostanie wypuszczony.
 UI.Councilor.OrgGridTitle=Dopuszczalna liczba org. dzięki zarządzaniu ({0}/{1})<rcol>Łączna liczba przydzielonych organizacji ({2}/{3})</rcol>	// # tiers owned / councilor administration / # orgs owned / hard org cap
@@ -235,7 +235,7 @@ UI.OrgTargeting.OrgSelect=Wybierz
 UI.OrgTargeting.OrgListHeader=Wybierz organizację docelową
 UI.OrgTargeting.OrgToHitColumnHeader=%
 UI.OrgTargeting.OrgNameColumnHeader=Nazwa organizacji
-UI.OrgTargeting.OrgTechColumnHeader=Technologia	// NOTE TO TRANSLATORS: VERY LITTLE UI SPACE
+UI.OrgTargeting.OrgTechColumnHeader=Tech.	// NOTE TO TRANSLATORS: VERY LITTLE UI SPACE
 UI.OrgTargeting.Sort=<sprite name=mouse_left_click>, by porządkować według tej kolumny.
 UI.OrgTargeting.MonthlyIncome={0}/miesiąc
 UI.OrgTargeting.Priority=Premia od priorytetu: {0}
@@ -244,5 +244,5 @@ UI.OrgTargeting.CouncilorCantGain=Symbol ostrzegawczy wskazuje, że aktywny kons
 UI.OrgTargeting.CouncilorTip=Przydzielony konsultant. Jeśli organizacja znajduje się w puli nieprzydzielonych, zamiast portretu będzie tu widoczny symbol frakcji.
 UI.OrgTargeting.Tier=Poziom organizacji. Jest to przybliżony wskaźnik siły organizacji i stanowi sumę <color=#FFFFFFFF><sprite name="attribute_administration"></color>, którą trzeba wydać na utrzymanie tej organizacji (bez wliczania premii <color=#FFFFFFFF><sprite name="attribute_administration"></color>, którą zapewnia).
 UI.OrgTargeting.SpaceMiningBonus=Premia do wydobycia w kosmosie
-UI.OrgTargeting.TechBonus=Premia kategorii nauki
+UI.OrgTargeting.TechBonus=Premia do badań
 UI.OrgTargeting.Missions=Misja przyznana

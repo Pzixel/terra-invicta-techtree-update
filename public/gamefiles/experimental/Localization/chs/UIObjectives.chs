@@ -55,13 +55,13 @@ UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket.Name=组织卖场
 UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket.Desc=选择此页签，即可显示<h>组织卖场</h>。你可以在此查看当前可供购买的各种组织列表。点击某个组织的图标，即可查看其详细信息。
 UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs.Name=阵营组织
 UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs.Desc=选择此页签，即可查看我方阵营已经控制、但尚未指派给任何理事的组织（即<h>未指派组织</h>）。这些组织目前不会带来任何收益，但仍有可能被我们的敌人窃取。若理事遭到杀害或开除，其原有的已指派组织将被转移至此。<br/><br/>将此列表中的组织指派给理事时，需支付一小笔转移费用。
-UI.Objectives.SingleCouncilorDetailCanvas.Customize.Name=自订理事
+UI.Objectives.SingleCouncilorDetailCanvas.Customize.Name=自定义理事
 UI.Objectives.SingleCouncilorDetailCanvas.Customize.Desc=点击此处即可打开<h>自定义理事</h>页面。你可以在此更改理事的名称、外观和声音。
 UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Name=开除理事
 UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Desc=当理事的能力不再符合你的目标时，你便可将其开除，从而为理事会腾出空间，更换其他人选。
 
 UI.Objectives.GeneralControlsCanvas.Intro.Name=界面教学 - 欢迎
-UI.Objectives.GeneralControlsCanvas.Intro.Desc=欢迎来到《地球不屈》！这些教学页面将带你总览游戏中的各种系统。<br/><br/>首次浏览用户界面 (UI) 时，当前教学目标的右侧将显示界面教学按钮。点击按钮，即可获取当前打开的界面上的指导信息。
+UI.Objectives.GeneralControlsCanvas.Intro.Desc=欢迎来到《地球不屈》！这些教学页面将带你总览游戏中的各种系统。<br/><br/>首次浏览用户界面 (UI) 时，界面教学按钮将在当前教学目标的右侧显示。点击按钮，即可了解当前打开的界面信息。
 UI.Objectives.GeneralControlsCanvas.IntroPart2.Name=游戏入门
 UI.Objectives.GeneralControlsCanvas.IntroPart2.Desc=点击<color=#FFFFFFFF><sprite name=tutorial></color><h>介绍</h>按钮，开启《地球不屈》的通用 UI 导览。
 
@@ -84,8 +84,8 @@ UI.Objectives.GeneralControlsCanvas.MissionControlCap.Name=任务管控力
 UI.Objectives.GeneralControlsCanvas.MissionControlCap.Desc=<h>任务管控力</h>包括支撑太空行动所需的所有人员及技术设备。<br/><br/>任务管控力主要来自地球上的地面设施，但部分组织和太空殖民地舱体也可提供这一资源。<br/><br/>如若没有充足的任务管控力，其他阵营就能轻易夺取我们的太空资产，发生意外的几率也会大幅提高。而如果我们没有任何可用的任务管控力，就无法建造或取得新的太空殖民地。此外，多余的任务管控力将被转换为研究收益和金钱。
 UI.Objectives.GeneralControlsCanvas.ResearchIncome.Name=研究
 UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=<h>研究力</h>代表我们科学家和工程师的努力。和其他资源不同，它不会累积，而是会依据我们的研究优先计划立刻分配出去；研究优先计划又分为只对我方阵营有利的私人工程计划，以及研究新理论和新技术的全球研究。<br/><br/>研究力来自国家、理事、组织及太空殖民地舱体，且许多理事、组织和太空殖民地舱体都能为特定的研究类目提供加成。 
-UI.Objectives.GeneralControlsCanvas.CPCap.Name=控制点数量
-UI.Objectives.GeneralControlsCanvas.CPCap.Desc=所有<h>控制点</h>均显示于此，它们都将计入我方的<h>控制点数量</h>。<br/><br/>控制点数量超出上限时，即会招致日常影响力损耗，进而影响国家影响力收益。同时，针对我方控制点的敌方任务将获得成功率加成。因此，我们可以选择放弃部分控制点来降低此项成本，也可以通过研究计划来提高控制点数量上限。
+UI.Objectives.GeneralControlsCanvas.CPCap.Name=控制点容量
+UI.Objectives.GeneralControlsCanvas.CPCap.Desc=所有<h>控制点</h>均显示于此，它们都将计入我方的<h>控制点容量</h>。<br/><br/>控制点容量超出上限时，即会招致日常影响力损耗，进而影响国家影响力收益。同时，针对我方控制点的敌方任务将获得成功率加成。因此，我们可以选择放弃部分控制点来降低此项成本，也可以通过研究计划来提高控制点容量上限。
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Name=导航栏
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Desc=<h>导航栏</h>中收纳了前往《地球不屈》各地点与管理页面的快捷方式。
 UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Name=查看太阳系 
@@ -269,9 +269,9 @@ UI.Objectives.IntelScreenCanvas.SpacebodySorting.Desc=点击此处任意一栏�
 UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Name=支援的太空殖民地上限
 UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Desc=此栏中的数值代表天体所能承载的最大<h>基地</h>数量。
 UI.Objectives.IntelScreenCanvas.SpacebodyResources.Name=可用资源
-UI.Objectives.IntelScreenCanvas.SpacebodyResources.Desc=此区域会显示天体上可供开采的太空资源状况。在使用探测器或航天器对天体进行勘探之前，你只能对其资源产出状况进行估算。每个量表都代表资源丰度的一个量级，「？」表示资源的存在仅具有可能性，空白量表则表示资源不存在。此外，不适宜居住的天体上不存在可供开采的资源。
-UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Name=地球发射时间范围
-UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=此栏会显示当前的发射窗口状态，即近期从地球前往天体所需时间的增减状况。由于不同天体在各自的轨道上运行时，其间的距离会随相对位置发生变化，因此，发射窗口才会在时间范围上出现波动。<br/><br/>地球发射的最佳窗口期是在该百分比降至谷值之时。</h>将光标悬停于各项数值之上，即可查看详细信息。
+UI.Objectives.IntelScreenCanvas.SpacebodyResources.Desc=此区域会显示天体上可供开采的太空资源状况。在使用探测器或航天器对天体进行勘探之前，你只能对其资源产出状况进行估算。每个量表都代表资源丰度的一个量级，“？”表示资源的存在仅具有可能性，空白量表则表示资源不存在。此外，不适宜居住的天体上不存在可供开采的资源。
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Name=地球发射窗口
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=此栏会显示当前的发射窗口状态，即近期从地球前往天体所需时间的增减状况。由于不同天体在各自的轨道上运行时，其间的距离会随相对位置发生变化，因此，发射窗口才会出现时间范围上的波动。<br/><br/><h>地球发射的最佳窗口期是在该百分比降至谷值之时。</h>将光标悬停于各项数值之上，即可查看详细信息。
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Name=前往天体
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Desc=点击此处，即可将视角自动定位至该天体所在位置。
 
@@ -288,7 +288,7 @@ UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Desc=在<h>推力�
 
 UI.Objectives.HabScreenCanvas.HabInfo.Name=太空殖民地
 UI.Objectives.HabScreenCanvas.HabInfo.NameShort=太空殖民地
-UI.Objectives.HabScreenCanvas.HabInfo.Desc=<h>太空殖民地</h>页面是管理我方所有太空殖民地的指令中枢，也是查看太阳系内各太空殖民地信息的主要媒介。下方列表会显示太空殖民地的各种相关信息，如所属阵营、人口数量、收益与维护成本、运行状态，以及是否仍有开放的舱体栏位，等等。<br/><br/>点击列表中的任一太空殖民地条目，即可将其信息显示在页面右侧。<br/><br/>太空殖民地分为两种形式：一种是建造在天体上的<h>基地</h>，另一种是则围绕天体或其他太空环绕点运行的<h>空间站</h>。
+UI.Objectives.HabScreenCanvas.HabInfo.Desc=<h>太空殖民地</h>页面是管理我方所有太空殖民地的指令中枢，也是查看太阳系内各太空殖民地信息的主要媒介。下方列表会显示太空殖民地的各种相关信息，如其所属阵营、人口数量、收益与维护成本、运行状态，以及是否仍有开放的舱体栏位，等等。<br/><br/>点击列表中的任一太空殖民地条目，即可将其信息显示在页面右侧。<br/><br/>太空殖民地分为两种形式：一种是建造在天体上的<h>基地</h>，另一种是则围绕天体或其他太空环绕点运行的<h>空间站</h>。
 UI.Objectives.HabScreenCanvas.Bases.Name=基地
 UI.Objectives.HabScreenCanvas.Bases.Desc=勾选此框即可将基地纳入下方的太空殖民地列表。
 UI.Objectives.HabScreenCanvas.Stations.Name=空间站
@@ -439,7 +439,7 @@ UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Desc=
 UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Name=全球研究
 UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Desc=最上方的三个面板会显示<h>全球研究</h>的进展状况。所谓全球研究，是指全球范围内针对各项<h>科技</h>正在开展的研究工作。这些科技涉及广泛的科学原理，其成果将由全人类共享。所有阵营均可选择将部分或全部研究收益投入到各项科技研究当中。在某项特定科技研究完成后，对该科技贡献最多的阵营将有权选择下一项要研究的科技。
 UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Name=阵营工程计划
-UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=底部一排会显示我方阵营正在推进的<h>计划</h>。与全球研究不同的是，计划仅在我方阵营内部开展，但要想完成它们，也同样离不开研究收益的助推。<br/><br/>计划能带来实打实的收益，例如资源，新型舰船、新型太空殖民地舱体，甚至是新型武器。<br/><br/>计划的可用性主要取决于已完成的全球研究。具体来说，你对全球研究贡献越多，就越有可能迅速取得由它们所解锁的各项计划。<br/><br/><h>只有获得提供计划的组织和太空殖民地舱体，才能同时开展多个阵营计划。</h>
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=底部一排会显示我方阵营正在推进的<h>计划</h>。与全球研究不同的是，计划仅在我方阵营内部开展，但要想完成它们，也同样离不开研究收益的助推。<br/><br/>计划能带来实打实的收益，例如资源，新型舰船、新型太空殖民地舱体，甚至是新型武器。<br/><br/>计划的可用性主要取决于已完成的全球研究。具体来说，你对全球研究贡献越多，就越有可能迅速取得由它们所解锁的各项计划。<br/><br/><h>有些目标计划和其它计划对我们的发展至关重要，不过也存在可有可无的计划，除非它们确实能满足紧迫需求，或能显著提升能力，我们才应该推进它们。在游戏过程中，你无需完成每一个推进系统或反应堆的研究。</h><br/><br/>只有获得提供计划的组织和太空殖民地舱体，才能同时开展多个阵营计划。
 UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Name=研究优先计划循环工具
 UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Desc=这是一个<h>优先计划调节工具</h>。左键或右键点击各项正在进行的研究，即可提高或降低其优先级。而根据各项研究预设的优先级水平，我们的研究收益也将按相应比例进行分配。<br/><br/>若我方阵营同时为多项科技和计划做出贡献，将获得研究加成。
 UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Name=研究进度
@@ -458,10 +458,10 @@ UI.Objectives.NationsScreenCanvas.NationsControlPriority.Name=应用优先计划
 UI.Objectives.NationsScreenCanvas.NationsControlPriority.Desc=若你掌控了某个国家的任意控制点，便可通过此处的下拉菜单，为这些控制点选取并应用<h>优先计划范本</h>。<br/><br/>若我方阵营在某国家未拥有任何控制点，则无法更改该国的优先计划。
 
 UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Name=设计优先计划范本
-UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Desc=按一下这里即可设计你自订的优先计划范本。
+UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Desc=按一下这里即可设计你自定义的优先计划范本。
 
-UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Name=控制点数量
-UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Desc=“控制点数量”面板是我方阵营占有控制点能力的全面概览，当前控制点对控制点上限的影响也会在概览中得到详细展示。
+UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Name=控制点容量
+UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Desc=“控制点容量”面板是我方阵营占有控制点能力的全面概览，当前控制点对控制点上限的影响也会在概览中得到详细展示。
 
 UI.Objectives.NationsScreenCanvas.DesignCycler.Name=优先计划循环工具
 UI.Objectives.NationsScreenCanvas.DesignCycler.NameShort=优先计划范本
@@ -489,9 +489,9 @@ UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Name=舰队指挥栏
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Desc=<h>舰队指挥栏</h>中有多项<h>指令</h>，这些指令能够<h>即刻下达至我方所有舰船</h>。<br/><br/>收到指令后，舰船会尝试执行相应任务，直到任务完成或收到新指令为止。然而，舰船系统受损、Delta-V 不足等状况都可能导致舰船无法成功执行指令。<br/><br/>将光标悬停于各指令按钮之上，即可查看详细信息。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Name=设定主要目标
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=点击<h>设定主要目标</h>指令按钮，即可指定一个敌方目标，并让我方舰船的进攻性武器优先瞄准该目标。导弹武器必须设定主要目标才能发射。<br/><br/>你也可以<h>按住 {0} 并点击</h>敌方目标，将其设为我方舰队的主要目标。
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=点击<h>设定主要目标</h>指令按钮，即可指定一个敌方目标，并让我方舰船的进攻性武器优先瞄准该目标。导弹武器必须设定主要目标才能发射。<br/><br/>你也可以<h>按住（{0}）并点击</h>敌方目标，将其设为我方舰队的主要目标。
 
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Name=无主要目标
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Name=清除主要目标
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Desc=点击<h>清除主要目标</h>指令按钮，即可清除我方舰队所有舰船当前的主要目标，同时允许各舰自由开火。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandExtendRadiators.Name=展开散热器
@@ -548,8 +548,8 @@ UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Desc=点击<h>特殊�
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Name=飞船温度
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Desc=此量表会显示舰船储热槽储存的热能状况。散热器展开时，热能会被排出。如果热度达到上限，舰船将开始承受内部损伤，因此在条件允许时，散热器会自动展开散热。<br/><br/><h>热能管理失当的舰船将遭受灾难性故障。</h>
 
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=舰船电量
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=此量表会显示所选舰船剩余的电池电量。部分武器在射击时会消耗电池电量，但会通过动力装置进行充电。<br/><br/><h>建议时刻留意电能消耗状况和剩余电量，以确保我方舰船在关键时刻能以最佳状态投入战斗。</h>
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=舰船电力
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=此量表会显示所选舰船剩余的可用电量。所有舰船都配备有容量充足的反应堆，能够为舰船上的系统和武器提供支持。若反应堆受损，除非该舰船安装了至少一个电池设施舱体，否则系统将停止运转。<br/><br/><h>建议时刻留意电能消耗状况和剩余电量，以确保我方舰船在关键时刻能以最佳状态投入战斗。</h>
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Name=舰船 Delta-V
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Desc=此量表会显示舰船在当前战斗中可消耗的 Delta-V 额度。<br/><br/><h>舰队中的舰船应预留足够的 Delta-V，以确保在太空战斗结束后能够完成任何正在进程中的航行。</h>
@@ -567,13 +567,13 @@ UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Name=飞船毁坏
 UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Desc=当舰船的舰艏、舰身和舰艉<h>结构完整性</h>都受到重大损害时，该舰船将遭到摧毁。
 
 UI.Objectives.SpaceCombatCanvas.CameraPan.Name=移动视角
-UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=使用 <h>W</h>、<h>A</h>、<h>S</h>、<h>D</h> 键，即可令视角沿水平面移动。<br/><br/>你也可以在<h>按住 Ctr l键的同时，通过按下鼠标中键并拖动鼠标</h>来实现同样的操作。
+UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=使用<h>（{0}）</h>、<h>（{1}）</h>、<h>（{2}）</h>，和<h>{3}</h>即可令视角沿水平面移动。<br/><br/>你也可以在<h>按住 Ctrl键的同时，通过按下鼠标中键并拖动鼠标</h>来实现同样的操作。
 
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Name=旋转视角
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Desc=<h>按下鼠标右键并拖动鼠标</h>，即可对视角进行旋转。
 
 UI.Objectives.SpaceCombatCanvas.CameraFly.Name=空间视角
-UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=<h>按住鼠标右键，然后使用 W、A、S、D 键</h>，即可在战斗空间中操控视角移动。
+UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=<h>按住鼠标右键，然后使用（{0}）、（{1}）、（{2}）和（{3}）</h>，即可在战斗空间中操控视角移动。
 
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Name=调整视角高度
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Desc=<h>按下鼠标中键并拖动鼠标</h>，即可调整视角高度。在此过程中，你还可以同时让视角向两侧平移。
@@ -690,7 +690,7 @@ UI.Objectives.SpaceBodyDetail.1.NameShort=天体
 UI.Objectives.SpaceBodyDetail.1.Desc=此面板会显示所选天体的基础信息，包括该天体的物理参数、矿产开发潜力、当前居住于该天体的人口数量，以及其可承载的太空殖民地等级。<br/><br/>天体的重力越强、逃逸速度越大，在其表面建造矿场及发射舰船的成本就越为高昂。
 
 UI.Objectives.SpaceBodyDetail.2.Name=潜在开采量
-UI.Objectives.SpaceBodyDetail.2.Desc=此处会显示天体可获取的太阳能总量以及其表面可供开采的太空资源储量（均为估值）。每个量表都代表资源丰度的一个量级，「？」表示资源的存在仅具有可能性，无量表则表示资源不存在。此外，不适宜居住的天体上不存在可供开采的资源。
+UI.Objectives.SpaceBodyDetail.2.Desc=此处会显示天体可获取的太阳能总量以及其表面可供开采的太空资源储量（均为估值）。每个量表都代表资源丰度的一个量级，“？”表示资源的存在仅具有可能性，无量表则表示资源不存在。此外，不适宜居住的天体上不存在可供开采的资源。
 
 UI.Objectives.SpaceBodyDetail.3.Name=轨道
 UI.Objectives.SpaceBodyDetail.3.Desc=点击此页签，即可查看围绕该天体的轨道列表。轨道既是建造空间站的选址，也是舰队调动的目的地。<br/><br/>若要让舰队降落于天体表面的基地，需先将其调动至标有该天体图标的交互轨道；而若要让舰队与空间站完成对接，该舰队必须与该空间站相同的轨道上。
@@ -722,7 +722,7 @@ UI.Tutorial.VO.9=我们的研究人员需要你的指示。
 UI.Tutorial.VO.10=此处是研究界面。最上方的三个图表显示全球科学界目前的工作内容。下方的图表显示我们自己进行的理事会工程计划。我们能够指示研究人员将其中任何一项列为优先计划。
 UI.Tutorial.VO.10a=此处是科技树。我们的研究人员已经推断出不同的科学突破可以产生的成果。
 UI.Tutorial.VO.10b=此处是科技树。我们的研究人员已经推断出不同的科学突破可以产生的成果。坦白说，指挥官，我看久了都头疼，但是他们说这已经是简化过的了。
-UI.Tutorial.VO.10c=而这，才是「完整」的内容……
+UI.Tutorial.VO.10c=而这，才是“完整”的内容……
 UI.Tutorial.VO.10d=指挥官，你已经盯了好一会儿科技树了，要来杯咖啡吗？
 UI.Tutorial.VO.10e=这是我们目前所能进行的所有理事会工程项目。
 UI.Tutorial.VO.10f=在这些研究档案中，我们可以查看已完成的研究内容。
@@ -733,7 +733,7 @@ UI.Tutorial.VO.14=我们应该尽全力了解一个国家的社会和经济状�
 UI.Tutorial.VO.15=国家的优先计划将决定其发展方向。我们对某个国家取得的控制点越多，就能为其决定更多的优先计划。
 UI.Tutorial.VO.16=指挥官，请牢记，除了来自太空的敌人以外，我们也需要面对地球上的敌人。
 UI.Tutorial.VO.17=指挥官，容我为你介绍理事会。你可以花些时间熟悉各位理事。他们是我们组织的骨干。
-UI.Tutorial.VO.17a=这是理事的相关档案。你可以在这里检视理事的任务、属性、特质、每月收益和组织。不同类型的理事能够进行不同类型的任务。
+UI.Tutorial.VO.17a=这是理事的相关档案。你可以在这里查看理事的任务、属性、特质、每月收益和组织。不同类型的理事能够进行不同类型的任务。
 UI.Tutorial.VO.17b=我已经整理了理事候选人的档案供你审阅。指挥官，其他阵营在地球上的许多国家都有据点。如果有必要，我们的理事可以前去将其铲除。
 UI.Tutorial.VO.18=最坏的情况是，我们只能发起战争，颠覆另一个国家的政权。
 UI.Tutorial.VO.19=这是情报界面。其中包含我们搜集的所有情报资料，涉及广泛的主题。你可以在此查看我们目前有哪些关于地球上其他阵营的信息。
@@ -777,7 +777,7 @@ UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Name=地球视角
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Desc=点击此按钮，即可将视角聚焦于地球。同时，还将激活地景视图，以显示国界、军队和外星人相关现象。
 
 UI.Objectives.GeneralControlsCanvas.Finder2.Name=搜索 
-UI.Objectives.GeneralControlsCanvas.Finder2.Desc=点击此按钮，即可打开<h>搜索</h>页面。在此页面中，你可以按名称检索太阳系内及地球上的各类对象。此外，<h>按 {0} 键</h>也可随时打开搜索页面。
+UI.Objectives.GeneralControlsCanvas.Finder2.Desc=点击此按钮，即可打开<h>搜索</h>页面。在此页面中，你可以按名称检索太阳系内及地球上的各类对象。此外，<h>按（{0}）</h>键也可随时打开搜索页面。
 
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Name=设定通知
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Desc=点击游戏内的时钟，即可打开<h>设定通知</h>页面。在此页面中，你可以创建自定义通知，这些通知将在未来的指定时间弹出。同时，这些自定义通知也会被记入我方阵营的日历。打开理事会面板，即可查看日历。
@@ -1102,7 +1102,7 @@ UI.Objectives.NationInfoCanvas.PrioritiesTab.Name=制定国家优先计划
 UI.Objectives.NationInfoCanvas.PrioritiesTab.Desc=若我方在某国境内拥有任何控制点，你便可以使用<h>优先计划</h>页签来控制该国家的经济发展重心。
 
 UI.Objectives.NationInfoCanvas.Regions.Name=国家地区
-UI.Objectives.NationInfoCanvas.Regions.Desc=<h>地区</h>页签会显示国家境内各地区及本国宣称拥有主权的地区的相关信息。此列表中的每个条目都会列出地区名称、当前占领状态（如有）、人口数量、运载力产量、任务管控力的上限与使用情况，以及对该地区同样宣称主权的他国国旗。<br/><br/>一个国家可以通过战争、统一或分裂运动等方式，控制其宣称拥有主权的地区。此外，有些主权主张被视为具有“敌对性”；在这种情况下，即便两国关系良好，主张国也无法轻易获得这些地区。。
+UI.Objectives.NationInfoCanvas.Regions.Desc=<h>地区</h>页签会显示国家境内各地区及本国宣称拥有主权的地区的相关信息。此列表中的每个条目都会列出地区名称、当前占领状态（如有）、人口数量、运载力产量、任务管控力的上限与使用情况，以及对该地区同样宣称主权的他国国旗。<br/><br/>一个国家可以通过战争、统一或分裂运动等方式，控制其宣称拥有主权的地区。此外，有些主权主张被视为具有“敌对性”；在这种情况下，即便两国关系良好，主张国也无法轻易获得这些地区。
 
 UI.Objectives.NationInfoCanvas.Relations.Name=国际关系
 UI.Objectives.NationInfoCanvas.Relations.Desc=<h>关系</h>页签会显示所选国家在国际关系方面的信息，同时会显示该国战争对手、盟友和竞争对手的国旗。若我方阵营对该国拥有行政控制权，那么我们便能够调整该国基本的外交关系走向；而若要实现更为重大的国际关系转变，则需要借助国家政策来推动。<br/><br/>将光标悬停于下方的国旗之上，即可查看与该国改变关系所必须满足的条件。
@@ -1363,8 +1363,8 @@ UI.Objectives.SpaceCombatCanvas.InterfaceOverview.Desc=除单独控制舰船的�
 UI.Objectives.SpaceCombatCanvas.BattleLog.Name=战斗日志
 UI.Objectives.SpaceCombatCanvas.BattleLog.Desc=点击此按钮，即可打开<h>战斗日志</h>。该日志会按时间顺序记录战斗中发生的各类事件。你可以按事件类别对日志进行筛选，这些类别包括：舰船遭到摧毁、增援舰船抵达战场，等等。
 
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Name=发射导弹齐射
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=点击<h>发动导弹齐射</h>指令按钮，即可指定一个主要目标，并命令所有配备导弹武器的舰船准备进行导弹齐射。在一次导弹齐射中，各武器发射的导弹数量为其最大弹药量的 25%；发射完毕后，这些武器将进入闲置状态。<br/><br/>你也可以在<h>按住 {0} 键的同时，点击</h>敌方目标来发动导弹齐射。
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Name=发动导弹齐射
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=点击<h>发动导弹齐射</h>指令按钮，即可指定一个主要目标，并命令所有配备导弹武器的舰船准备进行导弹齐射。在一次导弹齐射中，各武器发射的导弹数量为其最大弹药量的 25%；发射完毕后，这些武器将进入闲置状态。<br/><br/>你也可以在<h>按住（{0}）键的同时，点击</h>敌方目标来发动导弹齐射。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Name=解除 AI 控制
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Desc=点击<h>解除 AI 控制</h>指令按钮，即可收回我方舰队中所有舰船的控制权。你可以随时解除 AI 对舰队的控制。
@@ -1387,7 +1387,7 @@ UI.Objectives.NationInfoCanvas.ExoBuild.Name=建造奇异战斗机
 UI.Objectives.NationInfoCanvas.ExoBuild.Desc=拥有地对轨战斗机（亦称<h>奇异战斗机</h>）后，我方阵营所控制的国家便有能力发起太空战斗，参与针对敌方舰队或空间站的作战行动。如今，人类已完成了对必要科技的研究，我们只需投资“建造奇异战斗机”优先计划，即可开始在该国建造奇异战斗机。
 
 UI.Objectives.NationInfoCanvas.ExoPriority.Name=建造奇异战斗机优先计划
-UI.Objectives.NationInfoCanvas.ExoPriority.Desc=完成这一优先计划将为该国的一座运载力设施增加一架地对轨道奇异战斗机。国家的执政阵营可以花费<color=#FFFFFFFF><sprite name=boost></color>运载力，参加地球交互轨道上的太空战斗。<br><br>所需<color=#FFFFFFFF><sprite name=boost></color>运载力的数量会因奇异战斗机搭载的不同装备配置而有所差异。<br/><br/>该国的战斗机在执行任务后需要休整一段时间，才能再次出动；若战机的受损情况达到了需要维修的程度，则需休整更长时间。
+UI.Objectives.NationInfoCanvas.ExoPriority.Desc=完成这一优先计划将为该国的一座运载力设施增加一架地对轨道奇异战斗机。国家的执政阵营可以花费<color=#FFFFFFFF><sprite name=boost></color>运载力，参加地球交互轨道上的太空战斗。<br/><br/>所需<color=#FFFFFFFF><sprite name=boost></color>运载力的数量会因奇异战斗机搭载的不同装备配置而有所差异。<br/><br/>该国的战斗机在执行任务后需要休整一段时间，才能再次出动；若战机的受损情况达到了需要维修的程度，则需休整更长时间。
 
 UI.Objectives.NationInfoCanvas.ExoInfo.Name=奇异战斗机信息
 UI.Objectives.NationInfoCanvas.ExoInfo.Desc=此处会显示该国奇异战斗机的当前可使用状况。所示的各数值分别代表该国可用于执行任务的地对轨道奇异战斗机数量，奇异战斗机总数（含正在维修和任务后维护的数量），以及该国可维持的最大奇异战斗机数量。将光标悬停于各数值之上，即可查看更多详细信息。
@@ -1403,13 +1403,13 @@ UI.Objectives.ExoOps.ExoTarget.Desc=从围绕地球的敌方太空殖民地和�
 
 UI.Objectives.GeneralControlsCanvas.AccessBar.NameShort=出售资源
 UI.Objectives.GeneralControlsCanvas.AccessBar.Name=出售资源
-UI.Objectives.GeneralControlsCanvas.AccessBar.Desc=若我方阵营在地球交互轨道上拥有一座能够正常运行的空间站，我们便有能力将部分选定的太空资源回售给地球。<br><br>点击顶部栏的<h>太空资源</h>位置，即可打开<h>向地球出售资源</h>窗口。
+UI.Objectives.GeneralControlsCanvas.AccessBar.Desc=若我方阵营在地球交互轨道上拥有一座能够正常运行的空间站，我们便有能力将部分选定的太空资源回售给地球。<br/><br/>点击顶部栏的<h>太空资源</h>位置，即可打开<h>向地球出售资源</h>窗口。
 
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Name=出售资源
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Desc=你也可以通过点击此按钮来打开相同的页面。此按钮会显示在每个位于地球交互轨道的我方空间站处。
 
 UI.Objectives.GeneralControlsCanvas.SellIntro.Name=向地球贩卖资源
-UI.Objectives.GeneralControlsCanvas.SellIntro.Desc=通过出售资源，我们可将我方阵营在地球之外开采到的过剩的<color=#FFFFFFFF><sprite name=metal></color><h>贱金属</h>、<color=#FFFFFFFF><sprite name=metal_noble></color><h>贵金属</h>和<color=#FFFFFFFF><sprite name=radioactive></color><h>裂变物质</h>转化为<color=#FFFFFFFF><sprite name=currency></color>金钱。<br><br><h>但若我们在地球交互轨道上没有任何能够正常运行的太空殖民地，出售太空资源的计划将化为泡影。</h>
+UI.Objectives.GeneralControlsCanvas.SellIntro.Desc=通过出售资源，我们可将我方阵营在地球之外开采到的过剩的<color=#FFFFFFFF><sprite name=metal></color><h>基础金属</h>、<color=#FFFFFFFF><sprite name=metal_noble></color><h>贵金属</h>和<color=#FFFFFFFF><sprite name=radioactive></color><h>裂变物质</h>转化为<color=#FFFFFFFF><sprite name=currency></color>金钱。<br/><br/><h>但若我们在地球交互轨道上没有任何能够正常运行的太空殖民地，出售太空资源的计划将化为泡影。</h>
 
 UI.Objectives.GeneralControlsCanvas.SellOverview.Name=可用资源
 UI.Objectives.GeneralControlsCanvas.SellOverview.Desc=此处会显示所有可供出售的资源。每种资源的当前售价显示在最右侧。

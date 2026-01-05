@@ -27,7 +27,7 @@ TIMissionTemplate.Failure.Purge=Nepodařilo se mi provést čistku přisluhovač
 TIMissionTemplate.CriticalFailure.Purge=Nepodařilo se mi dokončit čistku proti frakci {returnedValue} {targetNationNameWithPrep}. O mé činnosti se pravděpodobně dozvěděli nepřátelé, a tak jsme přišli o část veřejné podpory.
 
 TIMissionTemplate.displayName.Advise=Poradenství
-TIMissionTemplate.description.Advise=Poskytne odborné rady zemi nebo habitatu. Radního atributy Věda, Velení a Správa zlepší výzkumný výkon cíle, jeho bojové schopnosti a finanční výsledky. Další radní věnující se poradenství budou přinášet čím dál nižší benefity.
+TIMissionTemplate.description.Advise=Poskytne odborné rady zemi nebo habitatu. Radního atributy Věda, Velení a Administrativa zlepší výzkumný výkon cíle, jeho bojové schopnosti a finanční výsledky. Další radní věnující se poradenství budou přinášet čím dál nižší benefity.
 TIMissionTemplate.Success.Advise=Poskytuji své odborné poradenství {targetNationNameWithArticle}. {returnedValue}
 
 TIMissionTemplate.displayName.Assassinate=Zavraždit
@@ -55,7 +55,7 @@ TIMissionTemplate.displayName.BuildFacility=Postavit zařízení
 TIMissionTemplate.description.BuildFacility=Postaví výzkumnou základnu, která podpoří mimozemské operace a přepravu a umožní nám předávat mimozemšťanům přímou kontrolu nad pozemskými národy. Vyžaduje alespoň 15 únosů v daném regionu.
 TIMissionTemplate.Success.BuildFacility=Vybudovali jsme bezpečné zařízení pro mimozemšťany v regionu {targetRegionName} {targetNationNameWithPrep}. Pokud budeme vlastnit všechny kontrolní body v této zemi, můžeme použít misi Předat kontrolu mimozemšťanům.
 
-TIMissionTemplate.displayName.SetNationalPolicy=Nastavit národní politiku
+TIMissionTemplate.displayName.SetNationalPolicy=Ustavit státní politiku
 TIMissionTemplate.description.SetNationalPolicy=Určí v cílové zemi politické směřování, například v podobě vyhlášení války. Politiku vyberete ve chvíli, kdy se mise provede. Vyžaduje exekutivní kontrolu.
 TIMissionTemplate.Success.SetNationalPolicy=Podařilo se mi dokončit mou misi spočívající v nastavení národní politiky {targetNationNameWithPrep}.
 
@@ -85,7 +85,7 @@ TIMissionTemplate.Success.Crackdown=Provedli jsme úspěšný zátah na frakci {
 TIMissionTemplate.Failure.Crackdown=Náš pokus o neutralizaci frakce {targetFactionName} {targetNationNameWithPrep} selhal.
 TIMissionTemplate.CriticalFailure.Crackdown=Náš pokus o neutralizaci frakce {targetFactionName} {targetNationNameWithPrep} selhal. Musíme strpět také určitou negativní publicitu.
 
-TIMissionTemplate.displayName.DefendInterests=Bránit zájmy
+TIMissionTemplate.displayName.DefendInterests=Obrana zájmů
 TIMissionTemplate.description.DefendInterests=Opevní naše kontrolní body v této zemi před nepřátelskými zátahy, čistkami a převraty. Délka trvání se zkracuje spolu s tím, kolik kontrolních bodů chráníme.
 TIMissionTemplate.Success.DefendInterests=Podařilo se mi dosadit správné lidi na správná místa. Naše kontrola {targetDisplayNameSent} je nyní chráněna až do {returnedValue}. Nepřátelské frakce, které se pokusí naši kontrolu zlomit, budou čelit výrazným postihům.
 
@@ -177,11 +177,11 @@ TIMissionTemplate.Failure.InvestigateCouncilor=Nepodařilo se mi zjistit o radn�
 TIMissionTemplate.CriticalFailure.InvestigateCouncilor=Nepodařilo se mi zjistit o radním {targetDisplayNameSent} nic nového a možná mě odhalili naši nepřátelé. {returnedValue}
 
 TIMissionTemplate.displayName.Orbit=Na oběžnou dráhu
-TIMissionTemplate.description.Orbit=Přesun z povrchu Země na jakoukoli oběžnou dráhu v soustavě Země-Měsíc, nebo z povrchu jakéhokoli vesmírného tělesa na stanici nebo loď na styčné orbitě. Rys V utajení je vyžadován pouze k cestování na nepřátelské habitaty 1. stupně (stanice a platformy) a flotily.
+TIMissionTemplate.description.Orbit=Přesun z povrchu Země na jakoukoli oběžnou dráhu v soustavě Země-Měsíc, nebo z povrchu jakéhokoli vesmírného tělesa na stanici nebo loď na operační oběžné dráze. Rys V utajení je vyžadován pouze k cestování na nepřátelské habitaty 1. stupně (předsunuté základny a platformy) a flotily.
 TIMissionTemplate.Success.Orbit=Nyní jsem na palubě {targetLocationStrSentence}.
 
 TIMissionTemplate.displayName.Deorbit=Stáhnout z oběžné dráhy
-TIMissionTemplate.description.Deorbit=Přesune habitat nebo loď na styčné oběžné dráze na povrch vesmírného tělesa, nebo z jakéhokoli místa v systému Země-Měsíc na povrch Země.
+TIMissionTemplate.description.Deorbit=Přesune habitat nebo loď na operační oběžné dráze na povrch vesmírného tělesa, nebo z jakéhokoli místa v systému Země-Měsíc na povrch Země.
 TIMissionTemplate.Success.Deorbit=Jsem na pevné zemi.
 
 TIMissionTemplate.displayName.PassTechnology=Předat technologii
@@ -253,7 +253,7 @@ TIMissionTemplate.Failure.Xenoform=Našim bioformám se zde nepodařilo zakořen
 TIMissionTemplate.CriticalFailure.Xenoform=Našim bioformám se zde nepodařilo zakořenit a je pravděpodobné, že má činnost byla odhalena.
 
 TIMissionTemplate.displayName.Transfer=Převést
-TIMissionTemplate.description.Transfer=Přemístí se z jednoho habitatu nebo flotily na jiné místo v soustavě Země-Měsíc. Mimo Zemi dojde k přesunu na jakýkoli habitat nebo flotilu na stejné oběžné dráze nebo na stejném vesmírném tělesu. Rys V utajení je vyžadován pouze k cestování na nepřátelské habitaty 1. stupně (stanice a platformy) a flotily.
+TIMissionTemplate.description.Transfer=Přemístí se z jednoho habitatu nebo flotily na jiné místo v soustavě Země-Měsíc. Mimo Zemi dojde k přesunu na jakýkoli habitat nebo flotilu na stejné oběžné dráze nebo na stejném vesmírném tělesu. Rys V utajení je vyžadován pouze k cestování na nepřátelské habitaty 1. stupně (předsunuté základny a platformy) a flotily.
 TIMissionTemplate.Success.Transfer=Nyní jsem na místě: {targetDisplayName}.
 
 TIMissionTemplate.displayName.Turn=Obrátit radního
@@ -309,7 +309,7 @@ TIMissionEffect_IncreaseUnrest.Special1=Má práce byla odhalena. Naše zdejší
 TIMissionEffect_IncreaseUnrest.Special2=Moje práce byla odhalena! Agenti frakce {0} obviňují frakci {1} ze zvěrstva a jdou mě zadržet! Prosím, postarejte se o mé propuštění!	// capturing faction name, councilor's faction name
 TIMissionEffect_Coup.Special1=Naše zdejší veřejná podpora klesla o {0}.
 TIMissionEffect_Coup.Special2=Brzy mě zajme frakce {0}. Pokusím se jejich výslechu odolávat co nejdéle!	// faction name, capitalized
-TIMissionEffect_Coup.Special3=Místní úřady po celé zemi zatýkají naše příznivce. Na každém z našich kontrolních bodů došlo k potlačení vlivu.
+TIMissionEffect_Coup.Special3=Místní úřady po celé zemi zatýkají naše příznivce. Na každém z našich kontrolních bodů došlo k zátahu.
 TIMissionEffect_DamageSpaceFacilities.Special1=Byli jsme spojeni s tímto pokusem, a tak naše veřejná podpora klesla o {0}.
 TIMissionEffect_DamageSpaceFacilities.Special2=Došlo k mému zatčení. Brzy se dostanu do rukou frakce {0}.	// faction name
 TIMissionEffect_InvestigateCouncilor.EnemySpecial1=Známe identitu cíle, je jím {0} pracující pro frakci {1} v roli {2}.
@@ -361,7 +361,7 @@ TIMissionModifier_MeanAbductionsinNation_AlienOnly.displayName=Únosy v zemi
 TIMissionModifier_IdeologicalDistance.displayName=Rozdíl v ideologii
 TIMissionModifier_JointControlPointStat.displayName=Společná rada {0}
 TIMissionModifier_JointCouncilStat.displayName=Společná rada {0}
-TIMissionModifier_DefendedAsset.displayName=Bránit zájmy
+TIMissionModifier_DefendedAsset.displayName=Obrana zájmů
 TIMissionModifier_AlienAssetDefense.displayName=Obrana mimozemšťanů
 TIMissionModifier_DetainedCouncilor.displayName=Zadržený cíl
 TIMissionModifier_numDefendedControlPoints.displayName=Bráněné kontrolní body
@@ -416,7 +416,7 @@ TIMissionModifier_EnthrallScience.displayName={0} Rady z výzkumu xenologie
 TIMissionModifier_DecommissioningHab.displayName=Zastavení provozu habitatu
 TIMissionModifier_AlienCoordination.displayName=Proxy podpora
 TIMissionModifier_NationSizeEnthrallDifficulty.displayName=Velikost země
-TIMissionModifier_ConditionalEnthrallDefendedPoint.displayName=Bránit zájmy (částečná obrana)
+TIMissionModifier_ConditionalEnthrallDefendedPoint.displayName=Obrana zájmů (částečná obrana)
 TIMissionModifier_AttackerMissionControlShortage.displayName=Nedávný nedostatek řízení misí
 TIMissionModifier_DefenderMissionControlShortage.displayName=Nedávný nedostatek řízení misí
 TIMissionModifier_HabStability.displayName=Moduly zvyšující stabilitu
@@ -429,8 +429,8 @@ TIMissionModifier_ScaledStat=Škálované: {0}	// this means a stat is being use
 
 TIMissionCondition_GenericFail=Neplatný cíl pro tuto misi
 TIMissionCondition_AvailableControlPoint=Země nemá žádné otevřené kontrolní body
-TIMissionCondition_AvailableControlPoint2=Aby bylo možné v zemi s více kontrolními body vyhledat exekutivní kontrolní bod, musíte již ovládat jeden kontrolní bod.
-TIMissionCondition_VulnerableControlPoint=Aby bylo možné v zemi s více kontrolními body zaútočit na exekutivní kontrolní bod, musíte již ovládat jeden kontrolní bod.
+TIMissionCondition_AvailableControlPoint2=Aby bylo možné v zemi s více kontrolními body vyhledat výkonný kontrolní bod, musíte již ovládat jeden kontrolní bod.
+TIMissionCondition_VulnerableControlPoint=Aby bylo možné v zemi s více kontrolními body zaútočit na výkonný kontrolní bod, musíte již ovládat jeden kontrolní bod.
 TIMissionCondition_TargetInRange=Radní se nemůže dostat k cíli
 TIMissionCondition_EnemyCouncilor=Nepatří mezi nepřátelské radní
 TIMissionCondition_EnemyOrTurnedCouncilor=Neplatný cílový radní pro danou misi
@@ -459,7 +459,7 @@ TIMissionCondition_DefendableAsset=V cílovém uskupení je zapotřebí alespoň
 TIMissionCondition_ScannableObjectWithMyControlPoints1=Na cílovém místě nemáme žádné kontrolní body
 TIMissionCondition_ScannableObjectWithMyControlPoints2=Není naším habitatem
 TIMissionCondition_ScannableObjectWithMyControlPoints3=Není naší flotilou
-TIMissionCondition_ExecutiveControl=Bez exekutivního kontrolního bodu nemůžeme nastavovat politiku
+TIMissionCondition_ExecutiveControl=Bez výkonného kontrolního bodu nemůžeme nastavovat politiku
 TIMissionCondition_MinimumGlobalAbductions_HigherValue=Než budeme moct tuto misi provést, musíme unést více lidí
 TIMissionCondition_MinimumGlobalAbductions_LowerValue=Než budeme moct tuto misi provést, musíme unést více lidí
 TIMissionCondition_ProtectTarget=Musí patřit mezi naše
@@ -479,7 +479,7 @@ TIMissionCondition_CanLaunchToOrbit=Radní musí být na Zemi nebo na základně
 TIMissionCondition_AllowedOrbitTarget=Cílová oběžná dráha musí být v dosahu místa startu
 TIMissionCondition_CanTransfer=Radní musí být na oběžné dráze nebo v habitatu
 TIMissionCondition_AllowedTransferTarget=Cíl převodu musí být v dosahu
-TIMissionCondition_CanDeorbit=Radní musí být na styčné oběžné dráze nebo v systému Země-Měsíc
+TIMissionCondition_CanDeorbit=Radní musí být na operační oběžné dráze nebo v systému Země-Měsíc
 TIMissionCondition_AllowedDeorbitTarget=Cíl stažení z oběžné dráhy musí být v dosahu
 TIMissionCondition_ContactableTarget=Na tohoto radního nelze použít misi Kontaktovat
 TIMissionCondition_ContactableTarget2=Misi Kontaktovat nelze použít na vlastního radního
@@ -492,9 +492,9 @@ TIMissionCondition_HasIntelOnCouncilorSecrets=Nedostatečné vyšetření cílov
 TIMissionCondition_HumanControlPoint=Tato mise nemůže zaměřit mimozemskou kontrolu
 TIMissionCondition_HumanNation=Tato mise nemůže zaměřit mimozemský národ
 TIMissionCondition_Human=Radní není člověkem
-TIMissionCondition_EnthrallableControlPoint=Aby bylo možné v zemi s více kontrolními body zaútočit na exekutivní kontrolní bod, podporovatelé již musí ovládat jeden kontrolní bod.
+TIMissionCondition_EnthrallableControlPoint=Aby bylo možné v zemi s více kontrolními body zaútočit na výkonný kontrolní bod, podporovatelé již musí ovládat jeden kontrolní bod.
 TIMissionCondition_EnemyControlPointsInNation=Země musí mít alespoň jeden kontrolní bod, který není náš
-TIMissionCondition_SentinelModulesActive=Na styčné oběžné dráze země musíme mít alespoň jeden aktivní Strážný modul
+TIMissionCondition_SentinelModulesActive=Na operační oběžné dráze země musíme mít alespoň jeden aktivní Strážný modul
 TIMissionCondition_VictoryCondition=Frakce musí splnit všechny podmínky vítězství
 TIMissionCondition_SufficientMissionControl=Musí být k dispozici volné řízení misí
 TIMissionCondition_FreeCouncilor=Cílový radní nesmí být zadržený nebo jinak neaktivní

@@ -7,8 +7,8 @@ TIMissionTemplate.CriticalFailure.Abductions=Non siamo riusciti a radura umani n
 
 TIMissionTemplate.displayName.GainInfluence=Controlla nazione
 TIMissionTemplate.description.GainInfluence=Ottieni un punto di controllo disponibile in una nazione.
-TIMissionTemplate.CriticalSuccess.GainInfluence=Ho ottenuto un punto di controllo per {myFactionName} {targetNationNameWithPrep} e l'opinione pubblica in nostro favore è aumentata del {returnedValue}. Adesso deteniamo {myTargetNationControlPoints} punti di controllo su {totalTargetNationControlPoints} in questa nazione.
-TIMissionTemplate.Success.GainInfluence=Ho ottenuto un punto di controllo per {myFactionName} {targetNationNameWithPrep}. Adesso deteniamo {myTargetNationControlPoints} punti di controllo su {totalTargetNationControlPoints} in questo posto.
+TIMissionTemplate.CriticalSuccess.GainInfluence=Ho ottenuto un punto di controllo per {myFactionName} {targetNationNameWithPrep} e l'opinione pubblica in nostro favore è aumentata del {returnedValue}. Adesso deteniamo {myTargetNationControlPoints} punto/i di controllo su {totalTargetNationControlPoints} in questa nazione.
+TIMissionTemplate.Success.GainInfluence=Ho ottenuto un punto di controllo per {myFactionName} {targetNationNameWithPrep}. Adesso deteniamo {myTargetNationControlPoints} punto/i di controllo su {totalTargetNationControlPoints} in questo posto.
 TIMissionTemplate.Failure.GainInfluence=La mia missione Controlla nazione {targetNationNameWithPrep} è fallita.
 TIMissionTemplate.CriticalFailure.GainInfluence=Ho incontrato una grave battuta d'arresto nella mia missione Controlla nazione {targetNationNameWithPrep}, con un conseguente decremento di un {returnedValue} nel sostegno dell'opinione pubblica a {myFactionName}.
 

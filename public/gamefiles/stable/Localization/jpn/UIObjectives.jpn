@@ -76,7 +76,7 @@ UI.Objectives.GeneralControlsCanvas.MoneyIncome.Name=資金
 UI.Objectives.GeneralControlsCanvas.MoneyIncome.Desc=<h>資金</h>は、宇宙開発計画のために地上で部品を作り、多くの評議員組織を獲得し、経済に関わる特定のミッションを遂行し、宇宙資産を支援するために使用されます。<br/><br/>資金は、国家資金、プライオリティ「戦利品」、組織、評議員特性、ハブ・モジュール、地球上の宇宙資源売却から獲得します。
 UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Name=影響力
 UI.Objectives.GeneralControlsCanvas.InfluenceIncome.Desc=<h>影響力</h>は、政治資本を表し、機関や国民を目標達成の追求へとつき動かす能力です。<br/><br/>影響力は、組織、評議員の特性、ハブ・モジュール、派閥の思想に対する世界的な好意的世論から獲得できます。また、毎月のコントロール・ポイントの維持にも使用します。
-UI.Objectives.GeneralControlsCanvas.OpsIncome.Name=オペレーション
+UI.Objectives.GeneralControlsCanvas.OpsIncome.Name=軍事作戦
 UI.Objectives.GeneralControlsCanvas.OpsIncome.Desc=<h>軍事作戦</h>とは、小規模な戦闘や諜報作戦を行う能力を表しています。<br/><br/>主に組織から獲得できますが、評議員の特性や、地球の境界軌道上にある特定のハブ・モジュールからも獲得できます。
 UI.Objectives.GeneralControlsCanvas.BoostIncome.Name=ブースト
 UI.Objectives.GeneralControlsCanvas.BoostIncome.Desc=<h>ブースト</h>1ポイントにつき、ロケット打上げなどの輸送手段で、地表から地球低軌道まで10トンの物資を輸送できます。莫大なコストをかけると、ブーストによって、はるか遠くの目的地へアイテムを届けることもできます。<br/><br/>ブーストは主に宇宙開発事業に従事する国家から発生しますが、組織からも生じることがあります。
@@ -85,7 +85,7 @@ UI.Objectives.GeneralControlsCanvas.MissionControlCap.Desc=<h>ミッション・
 UI.Objectives.GeneralControlsCanvas.ResearchIncome.Name=研究
 UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=<h>研究</h>は、科学者や技術者の努力の結晶。他の資源とは異なり、蓄積されず、研究のプライオリティに応じて直ちに分配されます。この、プライオリティ「研究」は、新たな原理や技術に関する国際研究と、自派閥にのみ利益をもたらす民間エンジニアリング・プロジェクトに分類されます。<br/><br/>研究は、国家、評議員、組織、ハブ・モジュールによって生成されます。多くの評議員、組織、ハブ・モジュールは、特定の研究カテゴリーにボーナスを付与します。 
 UI.Objectives.GeneralControlsCanvas.CPCap.Name=コントロール・ポイント上限
-UI.Objectives.GeneralControlsCanvas.CPCap.Desc=ここには、<h>コントロール・ポイント上限</h>にカウントされる<h>コントロール・ポイント</h>が表示されます。<br/><br/>上限を超えると、1日の影響力のペナルティが発生し、これは国家の影響力収入に反映されます。コントロール・ポイントを狙う敵のミッションには、成功率にボーナスが付与されます。コントロール・ポイントを廃止してこのコストを削減したり、プロジェクトを研究して上限を上乗せすることができます。
+UI.Objectives.GeneralControlsCanvas.CPCap.Desc=<h>コントロール・ポイント上限</h>にカウントされる<h>コントロール・ポイント</h>が表示されます。<br/><br/>上限を超えると、1日の影響力のペナルティが発生し、これは国家の影響力収入に反映されます。コントロール・ポイントを狙う敵のミッションには、成功率にボーナスが付与されます。コントロール・ポイントを廃止してこのコストを削減したり、プロジェクトを研究して上限を上乗せすることができます。
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Name=ナビゲーション・バー
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Desc=<h>ナビゲーション・バー</h>には、『Terra Invicta』の位置や管理ウィンドウへのショートカットがあります。
 UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Name=太陽系を見る 
@@ -121,7 +121,7 @@ UI.Objectives.CouncilorMissionControlsCanvas.CouncilorMissions.Desc=ミッショ
 
 UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Name=ミッションの選択
 UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.NameShort=ミッション
-UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Desc=使用可能なミッションをクリックすると、その割り当ての詳細が表示された状態になり、複数のターゲットが使用可能な場合、その中からターゲットを選択できます。さまざまな種類のミッションに切り替えて、さまざまなターゲットリストを確認できます。<br/><br/>競争ミッションは、選択した評議員の特定の属性スコア（スタッツとも呼ばれる）に左右されます。<h>説得</h>（PER）と<h>司令</h>（CMD）が、ミッションの2つの共通属性スタッツです。
+UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Desc=使用可能なミッションをクリックすると、その割り当ての詳細が表示された状態になり、複数のターゲットが使用可能な場合、その中からターゲットを選択できます。さまざまな種類のミッションに切り替えて、さまざまなターゲットリストを確認できます。<br/><br/>競争ミッションは、選択した評議員の特定の属性スコア（スタッツとも呼ばれる）に左右されます。<h>説得</h>（PER）と<h>指揮</h>（CMD）が、ミッションの2つの共通属性スタッツです。
 UI.Objectives.CouncilorMissionControlsCanvas.Target.Name=ミッションのターゲット
 UI.Objectives.CouncilorMissionControlsCanvas.Target.Desc=選択したミッションの現在のターゲットがここに表示されます。ドロップダウンメニューをクリックすると、ミッションの他の有効なターゲットが並べ替えられたリストが開きます。
 UI.Objectives.CouncilorMissionControlsCanvas.Slider.Name=資源スライダー
@@ -167,7 +167,7 @@ UI.Objectives.NationInfoCanvas.MissionControl.Name=ミッション・コント�
 UI.Objectives.NationInfoCanvas.MissionControl.Desc=この数値は、国家が現在維持している<h>ミッション・コントロール</h>ポイントの数と、提供できる最大値を示します。
 
 UI.Objectives.NationInfoCanvas.People.Name=国民の概要
-UI.Objectives.NationInfoCanvas.People.Desc=このセクションでは、国家の国民や一般的な福祉に関する情報を表示します。これは、<h>人口</h>を反映した数値、国家の環境の<h>持続可能性</h>を反映したスコア、国家の<h>人口統計</h>を示す3つのスコアで表されます。その横には、それぞれの派閥に対する国民の<h>世論</h>を示す円グラフがあります。それぞれにカーソルを合わせると、詳細を確認できます。
+UI.Objectives.NationInfoCanvas.People.Desc=このセクションでは、国家の国民や一般的な福祉に関する情報を表示します。これは、<h>人口</h>を反映した数値、国家の環境の<h>持続可能性</h>を反映したスコア、国家の<h>人口統計</h>を示す3つのスコアで表されます。その横には、それぞれの派閥に対する国民の<h>世論</h>を示す円グラフがあります。カーソルを合わせると、詳細を確認できます。
 
 UI.Objectives.NationInfoCanvas.Education.Name=教育
 UI.Objectives.NationInfoCanvas.Education.Desc=国家の<color=#FFFFFFFF><sprite name=education></color><h>教育</h>値は、その国家の国民の平均的な学校教育年数に基づいて数値化されています。教育スコアが高い国家はより多くの研究を行い、極端なプロパガンダに強いものの、プライオリティ「団結」の結束力はあまり得ることができません。
@@ -271,7 +271,7 @@ UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Desc=この列の数値は、�
 UI.Objectives.IntelScreenCanvas.SpacebodyResources.Name=採掘可能な資源
 UI.Objectives.IntelScreenCanvas.SpacebodyResources.Desc=この列には、天体で採掘可能な宇宙資源が表示されます。探査機や宇宙船で天体を観測するまでは、生産量の推定値のみが表示されます。各メーターは資源の存在量を示し、「？」は資源が存在する可能性があることを、メーターが空の場合は資源が存在しないことを示します。居住不可能な天体には採掘可能な資源は存在しません。
 UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Name=地球の打上げウィンドウ
-UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=この列では、現在の打上げウィンドウの状態を示し、地球からその天体への移動に要する時間の最近の増減を表しています。この増減は、それぞれの軌道上にある物体間の距離が変動するため生じます。<br/><br/>地球からの打上げに最適とされるのは、パーセンテージ値が最も低いタイミングです。</h>任意の値にカーソルを合わせると、詳細を確認できます。
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=この値は、現在の打上げウィンドウの状態を示し、地球からの天体に移動するために必要な時間の最近の増減を示します。これは、軌道上のそれぞれの物体間の距離が変化するためです。<br/><br/><h>パーセンテージの値が最も低いタイミングが、地球からの打上げに最適な時間帯です。</h>いずれかの数値にカーソルを合わせると、詳細を確認できます。
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Name=オブジェクトの地点へ
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Desc=ここをクリックすると、天体の位置に移動します。
 
@@ -288,7 +288,7 @@ UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Desc=<h>推進力�
 
 UI.Objectives.HabScreenCanvas.HabInfo.Name=ハブ
 UI.Objectives.HabScreenCanvas.HabInfo.NameShort=ハブ
-UI.Objectives.HabScreenCanvas.HabInfo.Desc=<h>ハブ</h>（居住地）ウィンドウは、太陽系全体のすべてのハブの管理とハブ情報の閲覧を実行できる主要部分として機能します。以下のリストには、派閥の所有者、人口、収入と維持費、運用状況、ハブに空きモジュールスロットがあるかどうか、といった情報が表示されます。<br/><br/>リストのハブの項目をクリックすると、それがウィンドウの右側に表示されます。<br/><br/>ハブには、天体に建造される<h>基地</h>と、天体または宇宙空間内の他のポイントを周回する<h>ステーション</h>の2形態があります。
+UI.Objectives.HabScreenCanvas.HabInfo.Desc=<h>ハブ</h>（居住地）ウィンドウは、太陽系全体のすべてのハブの管理とハブ情報の閲覧を実行できる主要部分として機能します。以下のリストには、所有派閥、人口、収入と維持費、運用状況、ハブに空きモジュールスロットがあるかどうか、といった情報が表示されます。<br/><br/>リストのハブの項目をクリックすると、それがウィンドウの右側に表示されます。<br/><br/>ハブには、天体に建造される<h>基地</h>と、天体または宇宙空間内の他のポイントを周回する<h>ステーション</h>の2形態があります。
 UI.Objectives.HabScreenCanvas.Bases.Name=基地
 UI.Objectives.HabScreenCanvas.Bases.Desc=このチェックボックスを切り替えると、以下のハブリストに基地を含めます。
 UI.Objectives.HabScreenCanvas.Stations.Name=ステーション
@@ -393,7 +393,7 @@ UI.Objectives.FleetScreenCanvas.DesignRadiator.Desc=<h>ラジエーター</h>タ
 UI.Objectives.FleetScreenCanvas.DesignBattery.Name=電池 //defunct
 UI.Objectives.FleetScreenCanvas.DesignBattery.Desc=電池は、必要に応じて他のシステムで使用するエネルギーを蓄えるために必要な装置です。 //defunct
 UI.Objectives.FleetScreenCanvas.DesignPower.Name=発電装置
-UI.Objectives.FleetScreenCanvas.DesignPower.Desc=<h>発電装置</h>タブには、利用可能なすべての発電装置モジュールが含まれています。発電装置は必須であり、船体の駆動システムやその他の主要システムにエネルギーを供給します。搭載済みの駆動システムに互換性がある場合、特定の発電装置オプションはグレー表示されます。
+UI.Objectives.FleetScreenCanvas.DesignPower.Desc=<h>発電装置</h>タブには、利用可能なすべての発電装置モジュールが含まれています。発電装置は必須であり、船体の駆動システムやその他の主要システムにエネルギーを供給します。搭載済みの駆動システムに互換性がない場合、特定の発電装置オプションはグレー表示されます。
 UI.Objectives.FleetScreenCanvas.DesignDrive.Name=駆動装置
 UI.Objectives.FleetScreenCanvas.DesignDrive.Desc=<h>駆動装置</h>タブには、利用可能なすべての駆動装置モジュールが含まれます。宇宙空間で船を前進させるために必要な装置です。多くの場合、駆動装置には特定種類の発電装置を必要とし、搭載されている発電装置に互換性がない場合、グレー表示されます。ひとつの駆動装置モジュールに最大6つの推進装置を搭載でき、それぞれの推進装置が船の推進力を増加させます。また、推進剤タンクの数を増やすと、デルタV容量を増加させることができます。
 UI.Objectives.FleetScreenCanvas.DesignArmor.Name=装甲モジュール
@@ -439,7 +439,7 @@ UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Desc=
 UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Name=国際研究
 UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Desc=上段の3つのパネルは<h>国際研究</h>を示し、これは様々な<h>技術</h>に関する世界規模で現在実施されている調査活動を表しています。これらは広範な科学的原理であり、その恩恵は人類全体で共有されます。すべての派閥は研究収入の一部または全体をそれぞれの技術に費やすことができます。特定の技術に最も多く貢献した派閥が、技術が完成した場合に、次の技術を選択することができます。
 UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Name=派閥のエンジニアリング・プロジェクト
-UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=下段には、派閥の進行中の<h>プロジェクト</h>が表示されます。国際研究とは異なり、プロジェクトは派閥内部の活動ですが、完了するには、やはり研究収入が必要です。<br/><br/>プロジェクトから、資源、新たな船、ハブ・モジュール、新兵器への使用をはじめとする具体的な利益が生じます。<br/><br/>プロジェクトを利用できるかどうかは、主に完了した国際研究の種類によって決まります。国際研究に貢献するほど、プロジェクトに素早くアクセスできる可能性が高まります。<br/><br/><h>複数の派閥プロジェクトを同時進行するには、プロジェクトを発生させる組織とハブ・モジュールを取得する必要があります。</h>
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=下段には、派閥の進行中の<h>プロジェクト</h>が表示されます。国際研究とは異なり、プロジェクトは派閥内部の活動ですが、完了するには、やはり研究収入が必要です。<br/><br/>プロジェクトから、資源、新たな船、ハブ・モジュール、新兵器への使用をはじめとする具体的な利益が生じます。<br/><br/>プロジェクトを利用できるかどうかは、主に完了した国際研究の種類によって決まります。国際研究に貢献するほど、プロジェクトに素早くアクセスできる可能性が高まります。<br/><br/><h>一部の目標やプロジェクトは、我々の進歩にとって欠かせません。ですが、なかには任意のものもあります。任意のものは、必要に迫られたときや、能力の大幅な向上が見込める場合にのみ取り組むといいでしょう。ゲームに勝利するために、すべての推進システムや原子炉の研究を完了する必要はないのです。</h><br/><br/>複数の派閥プロジェクトを同時進行するには、プロジェクトを発生させる組織とハブ・モジュールを取得する必要があります。
 UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Name=プライオリティ「研究」サイクラー
 UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Desc=<h>プライオリティサイクラー</h>でクリックまたは右クリックすると、進行中の研究それぞれの優先度の設定を増減することができます。研究収入は、設定された優先度レベルに基づいて、すべての研究活動に比例配分されます。<br/><br/>派閥は複数の技術とプロジェクトに同時に貢献することで、研究へのボーナスを獲得します。
 UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Name=研究の進行度
@@ -489,7 +489,7 @@ UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Name=艦隊司令バー
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Desc=<h>艦隊司令バー</h>は、<h>一度にすべての船</h>に発することのできる、さまざまな<h>司令</h>が表示されます。<br/><br/>司令とは、完了するか新たな司令が与えられるまで、船が遂行を試みる命令のことです。船システムの損傷、デルタVの不足、その他の状況により、司令の遂行が妨げられる場合があります。<br/><br/>それぞれの司令ボタンにカーソルを合わせると、詳細情報を確認できます。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Name=主目標を設定
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=<h>主目標を設定</h>の司令ボタンをクリックすると、船の攻撃兵器が優先的にターゲットにする敵の船を指定できます。ミサイル兵器を発射するには、主要なターゲットを指定する必要があります。<br/><br/>他にも、敵のターゲットを<h>{0}長押ししてクリック</h>すると、自軍艦隊の主ターゲットを設定することができます。
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=<h>主目標を設定</h>の司令ボタンをクリックすると、船の攻撃兵器が優先的にターゲットにする敵の船を指定できます。ミサイル兵器を発射するには、主要なターゲットを指定する必要があります。<br/><br/>他にも、敵のターゲットを<h>（{0}）を長押ししてクリック</h>すると、自軍艦隊の主ターゲットを設定することができます。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Name=主目標を解除
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Desc=<h>主ターゲットを解除</h>の司令ボタンをクリックすると、自軍艦隊の全船の現在の主ターゲットが解除され、自由に攻撃できるようになります。
@@ -548,8 +548,8 @@ UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Desc=<h>特殊な操�
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Name=宇宙船内の温度
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Desc=このメーターは、船のヒートシンクに蓄えられた現在の熱量を示しています。ラジエーターを展開させると、自動的に熱が放出されます。熱量が最大になると、船内部が損傷を受け始めます。可能であれば、ラジエーターを自動的に展開して、放熱を開始してください。<br/><br/><h>適切に熱処理が行われない場合、船に壊滅的な故障が生じます。</h>
 
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=船の電池
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=このバーには、選択した船の電池残量が表示されます。一部の兵器は、発射時に電池を消費しますが、発電装置から充電されます。<br/><br/><h>電池の消費量や残量を把握し、大事な局面で最大限の力を発揮できるよう備えることができます。</h>
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=船の電力
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=このメーターには、選択した船で利用可能な電力残量が表示されます。全ての船には、艦内システムと兵器をまかなえるだけの出力を持つ原子炉を備えています。船に電池ユーティリティモジュールが1個以上取り付けられていなければ、原子炉が損傷するとシステムが停止する可能性があります。<br/><br/><h>電池の消費量や残量を把握し、大事な局面で最大限の力を発揮できるよう備えるようにしましょう。</h>
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Name=船のデルタV
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Desc=このメーターは、現在の戦闘で、船が消費可能な残りのデルタV予算を表示します。<br/><br/><h>艦隊の船は、宇宙戦闘の終了後も、現在の航行を継続するのに十分なデルタVを確保しています。</h>
@@ -567,13 +567,13 @@ UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Name=宇宙船の破壊
 UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Desc=船首部、中央部、船尾部の<h>構造的健全性</h>が大きな損傷を受けると、船は破壊されます。
 
 UI.Objectives.SpaceCombatCanvas.CameraPan.Name=カメラの移動
-UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=<h>W</h>、<h>A</h>、<h>S</h>、<h>D</h>を使用して、カメラを水平面上で移動させます。<br/><br/>また、<h>「Ctrl」を押した状態でミドルクリックし、ドラッグする</h>と同じ操作を実行できます。
+UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=<h>（{0}）</h>、<h>（{1}）</h>、<h>（{2}）</h>、<h>（{3}）</h>を使用して、カメラを水平面上で移動させます。<br/><br/>また、<h>「Ctrl」を押した状態でミドルクリックし、ドラッグする</h>と同じ操作を実行できます。
 
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Name=カメラの回転
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Desc=<h>右クリックしてドラッグ</h>すると、カメラの視野角を回転させることができます。
 
 UI.Objectives.SpaceCombatCanvas.CameraFly.Name=カメラの操作
-UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=<h>右クリックを押したまま、W、A、S、Dキーを使って</h>戦闘空間内でカメラを操作します。
+UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=<h>右クリックを押したまま、（{0}）、（{1}）、（{2}）、（{3}）キーを使って</h>戦闘空間内でカメラを操作します。
 
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Name=カメラの高さ調整
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Desc=<h>ミドルクリックしてドラッグ</h>するとカメラの高さを変更できます。この操作中にカメラを左右にパンすることも可能です。
@@ -621,7 +621,7 @@ UI.Objectives.SpaceCombatCanvas.WaypointsTip.Name=船の操縦
 UI.Objectives.SpaceCombatCanvas.WaypointsTip.Desc=船を効果的に制御するには、武器システム、装甲、操縦性のほか、飛来する発射物、敵の位置、戦闘空間全体の状況を考慮に入れる必要があります。
 
 UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Name=グループ選択
-UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Desc=複数の船を一括して選択できます。<h>「Shift」キーを押した状態で戦闘空間内の船をクリック</h>すると、船グループを選択できます。最後に選択した船が船の詳細パネルに表示され、戦闘空間内のその船には、2つのターゲットハイライトが表示されます。<br/><br/>船リストから直接のグループを選択することもできます。<br/><br/>選択した戦艦を<h>「Ctr」を押した状態でクリック</h>すると、現在の選択グループからその船を取り除くことができます。
+UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Desc=複数の船を一括して選択できます。<h>「Shift」キーを押した状態で戦闘空間内の船をクリック</h>すると、船グループを選択できます。最後に選択した船が船の詳細パネルに表示され、戦闘空間内のその船には、2つのターゲットハイライトが表示されます。<br/><br/>船リストから直接のグループを選択することもできます。<br/><br/><h>選択した戦艦を「Ctr」を押した状態でクリック</h>すると、現在の選択グループからその船を取り除くことができます。
 
 UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Name=ボックス選択
 UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Desc=<h>ボックス選択</h>を使用して、船グループを選択することができます。選択する船の周囲にボックスを<h>クリック&ドラッグ</h>します。
@@ -648,7 +648,7 @@ UI.Objectives.NaturalSpaceObjectOps.1.Name=宇宙開発事業
 UI.Objectives.NaturalSpaceObjectOps.1.NameShort=開発事業
 UI.Objectives.NaturalSpaceObjectOps.1.Desc=天体またはラグランジュ点を選択すると、利用可能な宇宙空間での開発事業がここに表示されます。これらの開発事業は通常、地球からの推進力を利用して打ち上げた資産を用いて、天体の探査や居住を可能にします。これらの資産はジオスケープには表示されません。<br/><br/>これらの開発事業を地球で有効にするには、地域マップが消えるまで惑星からズームアウトする必要が生じる場合があります。
 UI.Objectives.NaturalSpaceObjectOps.2.Name=探査機
-UI.Objectives.NaturalSpaceObjectOps.2.Desc=さまざまな「XXX向けミッション」の国際技術を通じて、太陽系の一部の探査が可能になります。天体表面に基地を建設するためには、まず探査機や適切な装備を備えた艦隊でその天体を探査し、基地の候補地を調査する必要があります。<br/><br/>探査機はここ、<h>プロスペクター探査機打上げ</h>開発事業から、もしくは<h>情報ウィンドウの太陽系タブ</h>内で打ち上げることができます。探査機は地球から輸送するか、建設した場合は、近くのハブの<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船所のいずれかから調達できます。
+UI.Objectives.NaturalSpaceObjectOps.2.Desc=さまざまな「○○向けミッション」の国際技術を通じて、太陽系の一部の探査が可能になります。天体表面に基地を建設するためには、まず探査機や適切な装備を備えた艦隊でその天体を探査し、基地の候補地を調査する必要があります。<br/><br/>探査機はここ、<h>プロスペクター探査機打上げ</h>開発事業から、もしくは<h>情報ウィンドウの太陽系タブ</h>内で打ち上げることができます。探査機は地球から輸送するか、建設した場合は、近くのハブの<color=#FFFFFFFF><sprite name=construction_shipyard></color>造船所のいずれかから調達できます。
 UI.Objectives.NaturalSpaceObjectOps.3.Name=ハブの建設
 UI.Objectives.NaturalSpaceObjectOps.3.Desc=建設と探査に適した研究がアンロックされると、地球からの打上げまたは建設モジュールを備えた近隣のハブからの打上げにより、この地点に<h>ハブ</h>（ステーションと基地）を設置することができるようになります。ブーストを使用する場合、地球からの移動時間が含まれるため、遠方の天体では建設完了までに時間がかかる場合があります。
 
@@ -758,7 +758,7 @@ UI.Tutorial.VO.30=採鉱場は宇宙資源を得るための主な手段です�
 UI.Tutorial.VO.31=戦艦隊の建造を開始するためには、宇宙ドックを建設する必要があります。
 UI.Tutorial.VO.32=最後に、我々は少しパンチのきいたものを作ることができます。
 UI.Tutorial.VO.33=エイリアンとの戦争は、地球だけでは勝てません。エイリアンから身を守り、やがて反撃する時のための戦艦を作り続けなければなりません。
-UI.Tutorial.VO.34=これが「ハブ」画面です。軌道上のステーションや、惑星、月、小惑星にある基地を管理することができます。また、発見した基地やステーションを確認することもできます。
+UI.Tutorial.VO.34=これが「ハブ」画面です。軌道上のステーションや、惑星、衛星、小惑星にある基地を管理することができます。また、発見した基地やステーションを確認することもできます。
 UI.Tutorial.VO.35=これは「艦隊」画面です。自軍の艦隊と、発見した艦隊を監視することができます。
 UI.Tutorial.VO.36=「宇宙船デザイナー」では、新しい船型を設計したり、既に建造した船型の改修を計画することができます。
 UI.Tutorial.VO.36a=自分が設計した宇宙船はここに表示されます。建造設備のあるハブでは、建造を依頼することもできます。
@@ -770,14 +770,14 @@ UI.Objectives.GeneralControlsCanvas.IntroInterface.NameShort=ようこそ
 UI.Objectives.GeneralControlsCanvas.IntroInterface.Name=一般UI
 UI.Objectives.GeneralControlsCanvas.IntroInterface.Desc=『Terra Invicta』の一般的なユーザーインターフェース（UI）は、ビューの上部と右側に表示される複数のバーとパネルで構成されています。
 
-UI.Objectives.GeneralControlsCanvas.EventsSummary.Name=敵の概要
+UI.Objectives.GeneralControlsCanvas.EventsSummary.Name=イベント概要
 UI.Objectives.GeneralControlsCanvas.EventsSummary.Desc=このボタンをクリックすると、<h>イベント概要</h>ウィンドウが開きます。ここでは、最近記録されたイベントを時系列で確認できます。イベントは、派閥に関連するイベントから、宇宙での最近の動向まで、さまざまなタブに分類されています。
 
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Name=地球ビュー
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Desc=このボタンをクリックすると、地球にフォーカスしたビューが表示され、国境、軍隊、エイリアン関連の現象を示すジオスケープが起動します。
 
 UI.Objectives.GeneralControlsCanvas.Finder2.Name=検索 
-UI.Objectives.GeneralControlsCanvas.Finder2.Desc=このボタンをクリックすると、太陽系や地球上のさまざまな物体を名前で検索できる<h>検索</h>ウィンドウが開きます。また、<h>{0}を押す</h>と、いつでも検索ウィンドウを開くことができます。
+UI.Objectives.GeneralControlsCanvas.Finder2.Desc=このボタンをクリックすると、太陽系や地球上のさまざまな物体を名前で検索できる<h>検索</h>ウィンドウが開きます。また、<h>（{0}）を押す</h>と、いつでも検索ウィンドウを開くことができます。
 
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Name=アラーム設定
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Desc=ゲーム内の時計をクリックすると<h>アラーム設定</h>ウィンドウが開き、今後、指定した時刻に表示されるカスタム通知を作成できます。これらのカスタムアラームは、評議会パネルからアクセス可能な、派閥のカレンダーにも記録されます。
@@ -855,7 +855,7 @@ UI.Objectives.FleetScreenCanvas.ClassDV.Desc=この列の数値は、それぞ�
 UI.Objectives.FleetScreenCanvas.ClassCurrent.Name=既存の船 
 UI.Objectives.FleetScreenCanvas.ClassCurrent.Desc=この列の数値は、現在全艦隊に存在するそれぞれの船級の数を示しています。<br/><br/>建造中の船については別途表示されます。
 
-UI.Objectives.FleetScreenCanvas.ClassCost.Name=建設コスト：
+UI.Objectives.FleetScreenCanvas.ClassCost.Name=建設コスト
 UI.Objectives.FleetScreenCanvas.ClassCost.Desc=この列の数値は、その船級の船を建造するのに必要な<h>宇宙資源</h>のコストを示しています。<br/><br/>赤色で強調表示されている資源は、その資源が不足していることを示します。資源不足のままでその船級の建造を試みると、すべての資源が供給されるまで建造が中断されます。
 
 UI.Objectives.FleetScreenCanvas.DetailPrimaryData.Name=船のデータ
@@ -909,7 +909,7 @@ UI.Objectives.NotificationScreenCanvas.NewsFeed2.Desc=ここにある「X」ボ�
 UI.Objectives.NotificationScreenCanvas.TimerFeed.Name=タイマーフィード
 UI.Objectives.NotificationScreenCanvas.TimerFeed.Desc=ハブ・モジュールが建設された時や、<h>利益防衛</h>ミッションが期限切れになった時などの特定の時間ベースの通知は、ナビゲーションバーの隣の短い<h>タイマーフィード</h>にも表示される場合があります。
 
-UI.Objectives.NotificationScreenCanvas.EventFeed.Name=敵の概要
+UI.Objectives.NotificationScreenCanvas.EventFeed.Name=イベント概要
 UI.Objectives.NotificationScreenCanvas.EventFeed.Desc=通知は、該当するタブの下にある「イベント概要」ウィンドウにも表示される場合があります。<br/><br/><h>設定メニューの「通知」タブを確認し、どの通知がどの通知フィードに表示されるかをカスタマイズしてください。</h>
 
 UI.Objectives.FleetScreenCanvas.ConstructOverview.NameShort=建設
@@ -941,7 +941,7 @@ UI.Objectives.SingleCouncilorDetailCanvas.CouncilorData2.Desc=ここにある矢
 UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket2.Name=オーグマーケットプレイス
 UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket2.Desc=このパネルで組織が利用可能な場合、右クリックするか組織を上のパネルにドラッグ&ドロップして購入し、現在の評議員に割り当てることができます。<br/><br/><h>表示部分が灰色になっている組織は、現在表示されている評議員が購入できない組織を示します。</h>
 
-UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs2.Name=組織の割り当て解除
+UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs2.Name=割り当て解除
 UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs2.Desc=評議員から組織の割り当てを解除し、派閥のプールに戻すには、組織を右クリックするかドラッグ&ドロップで下のパネルに移動させます。<br/><br/>ただし、注意が必要です！未割り当てプールに入った組織は、他の派閥に奪われる危険が高まります。また、プールに保持できる組織数には上限があります。<br/><br/>組織をマーケットプレイスから割り当て解除すると、その組織が売却されます。<br/><br/>派閥の組織はすべて、「組織管理」タブからも管理できます。
 
 UI.Objectives.CouncilRecruiting.RecruitList.Name=評議会候補者
@@ -1058,7 +1058,7 @@ UI.Objectives.HabScreenCanvas.LayoutTemplates2.Name=ハブテンプレートの�
 UI.Objectives.HabScreenCanvas.LayoutTemplates2.Desc=テンプレートをハブに適用するには、2つの方法があります。既存のすべてのモジュールを置き換えることです。または、空スロット、破壊済みスロット、アップグレード対象のスロットでのみモジュールを建設できます。テンプレートからハブに適用されるすべてのモジュールは、すぐに建設が開始されます。<br/><br/>ひとつのハブにテンプレートを適用するには、ハブマネージャーでハブテンプレートのリストを表示し、適用するテンプレートの「適用」ボタンをクリックします。<br/><br/>複数のハブにテンプレートを適用するには、ハブリストの「一括ハブテンプレートの適用」ドロップダウンメニューを使用して目的のテンプレートを選択し、そのテンプレートを適用するすべてのハブをリストから選択します。
 
 UI.Objectives.SpaceBodyDetail.5.Name=天体の物体についての情報
-UI.Objectives.SpaceBodyDetail.5.Desc=ここに表示されるその他のタブには、月、ステーション、艦隊、既知の派閥の人員など、天体を周回している、または天体に着陸した物体と資産に関する情報が表示されます。
+UI.Objectives.SpaceBodyDetail.5.Desc=ここに表示されるその他のタブには、衛星、ステーション、艦隊、既知の派閥の人員など、天体を周回している、または天体に着陸した物体と資産に関する情報が表示されます。
 
 UI.Objectives.Ledger.LedgerView.NameShort=台帳
 UI.Objectives.Ledger.LedgerView.Name=台帳
@@ -1105,7 +1105,7 @@ UI.Objectives.NationInfoCanvas.Regions.Name=国家の地域
 UI.Objectives.NationInfoCanvas.Regions.Desc=<h>地域</h>タブには、その国家のさまざまな地域に関する情報と、その国家が領有権を主張している地域に関する情報が表示されます。それぞれの項目には、地域名、進行中の占領状態（ある場合）、人口、ブースト生産、ミッション・コントロールの使用と能力、その地域に領有権を主張している他の国家の国旗が表示されます。<br/><br/>国家は、戦争、団結、分離運動などによって、自国が領有権を主張する地域を支配することがあります。一部の領有権の主張は「敵対的」とみなされ、両国家が良好な関係にあっても、主張する国家が容易に取得することはできません。
 
 UI.Objectives.NationInfoCanvas.Relations.Name=国際関係
-UI.Objectives.NationInfoCanvas.Relations.Desc=<h>関係性</h>タブでは、選択した国家の国際関係についての情報が表示されます。戦争での敵対国、同盟国、ライバル国の国旗が表示され、自派閥が国家の実効支配権を掌握している場合、その国家に対する基本的な外交関係を調整できます。さらに抜本的な関係性を変更する場合は、国家政策を通じて実施します。<br/><br/>以下の国旗にカーソルを合わせると、その国家との関係性を変更するために満たすべき条件が表示されます。
+UI.Objectives.NationInfoCanvas.Relations.Desc=<h>外交</h>タブでは、選択した国家の国際関係についての情報が表示されます。戦争での敵対国、同盟国、ライバル国の国旗が表示され、自派閥が国家の実効支配権を掌握している場合、その国家に対する基本的な外交関係を調整できます。さらに抜本的な関係性を変更する場合は、国家政策を通じて実施します。<br/><br/>以下の国旗にカーソルを合わせると、その国家との関係性を変更するために満たすべき条件が表示されます。
 
 UI.Objectives.NationInfoCanvas.Armies.Name=国家の軍隊
 UI.Objectives.NationInfoCanvas.Armies.Desc=ほとんどの国家が防衛軍を配備しています。一方、軍隊は他国の領土を占領することができる大規模な遠征軍です。選択した国家に軍隊がある場合は、<h>軍隊</h>タブが表示され、その国家の軍隊、現在の位置、拠点とする地域、戦闘能力に関するその他の情報が一覧表示されます。詳細を表示するには、いずれかの項目にカーソルを合わせます。<br/><br/>軍隊の派閥による統制は、その軍隊に対応するコントロール・ポイントの所有に基づいています。コントロール・ポイントは、国内の複数の軍隊を制御することができます。 
@@ -1114,7 +1114,7 @@ UI.Objectives.NationInfoCanvas.Councilors.Name=評議員
 UI.Objectives.NationInfoCanvas.Councilors.Desc=選択した国家の地域に、評議員が存在することを派閥が認識している場合は、<h>評議員</h>タブが表示され、その評議員に関する基本情報が表示されます。
 
 UI.Objectives.NationInfoCanvas.PrioritiesBonus.Name=プライオリティの追加情報
-UI.Objectives.NationInfoCanvas.PrioritiesBonus.Desc=この列には、それぞれのプライオリティの詳細が表示されます。この列の上部にあるボタンをクリックすると、さまざまな情報を切り替えることができます。<br/><br/><h>共有</h>には、割り当てられた投資ポイントの割合がパーセンテージで表示されます。<br/><br/><color=#FFFFFFFF><sprite name=investments></color><h>月次投資ポイント</h>では、今月そのプライオリティのバケツに割り当てられる投資ポイントの量を表示します。<br/><br/><h>ボーナス</h>ではそのプライオリティの投資に適用されるすべてのボーナスが表示されます。
+UI.Objectives.NationInfoCanvas.PrioritiesBonus.Desc=この列には、それぞれのプライオリティの詳細が表示されます。この列の上部にあるボタンをクリックすると、さまざまな情報を切り替えることができます。<br/><br/><h>割合</h>には、割り当てられた投資ポイントの割合がパーセンテージで表示されます。<br/><br/><color=#FFFFFFFF><sprite name=investments></color><h>月次投資ポイント</h>では、今月そのプライオリティのバケツに割り当てられる投資ポイントの量を表示します。<br/><br/><h>ボーナス</h>ではそのプライオリティの投資に適用されるすべてのボーナスが表示されます。
 
 UI.Objectives.NationInfoCanvas.PrioritiesTemplate.Name=プライオリティのテンプレートを設定
 UI.Objectives.NationInfoCanvas.PrioritiesTemplate.Desc=ここをクリックして<h>プライオリティのテンプレートの設定</h>ウィンドウを開きます。ここでは、独自のカスタムのプライオリティ・テンプレートを作成したり、新しく入手したコントロール・ポイントに適用する派閥のデフォルトテンプレートを設定したり、テンプレートを選択してすべてのコントロール・ポイント全体に適用したりできます。
@@ -1139,7 +1139,7 @@ UI.Objectives.IntelScreenCanvas.FactionNations.Desc=このボタンを切り替�
 
 UI.Objectives.IntelScreenCanvas.AlienOverview.Name=エイリアン
 UI.Objectives.IntelScreenCanvas.AlienOverview.NameShort=エイリアン
-UI.Objectives.IntelScreenCanvas.AlienOverview.Desc=<h>エイリアン情報</h>タブには、エイリアンの脅威と関連する動向に関して収集した情報が表示されます。
+UI.Objectives.IntelScreenCanvas.AlienOverview.Desc=<h>エイリアン</h>タブには、エイリアンの脅威と関連する動向に関して収集した情報が表示されます。
 
 UI.Objectives.IntelScreenCanvas.GlobalOverview.Name=全世界の情報
 UI.Objectives.IntelScreenCanvas.GlobalOverview.NameShort=全世界
@@ -1236,7 +1236,7 @@ UI.Objectives.ObjectivesScreenCanvas.Overview.Name=目的
 UI.Objectives.ObjectivesScreenCanvas.Overview.Desc=<h>目標</h>ウィンドウでは、派閥の現在の目標と、過去に達成した目標のリストが表示されます。<br/><br/>キャンペーン中、それぞれの派閥には、定められた時間内で達成すべき1つ以上の目標があります。目標を達成すると、エイリアンに関する情報や、太陽系でのエイリアンの真の目的を解明する手がかりを得ることができます。また、目標によって、派閥の特別な研究プロジェクトや組織をアンロックすることができます。<br/><br/>『Terra Invicta』では、派閥を完全に排除することはできません。派閥は地球の人間の信念から生まれたもの。人間は惑わされ、組織構造が崩壊することがあっても、思想は完全に消滅することはありません。この事実を鑑みれば、派閥にとっては、他者の進歩を阻むよりも、目標達成に注力する方が益があるのかもしれません。
 
 UI.Objectives.ObjectivesScreenCanvas.Navigation.Name=目標リスト
-UI.Objectives.ObjectivesScreenCanvas.Navigation.Desc=目標は、<h>チュートリアル</h>、<h>キャンペーン</h>、<h>一般</h>、<h>完了</h>した目標の4つのカテゴリーにグループ化されます。ここでそれぞれの目標項目をクリックすると、右側のパネルに詳細が表示されます。
+UI.Objectives.ObjectivesScreenCanvas.Navigation.Desc=目標は、<h>チュートリアル</h>、<h>キャンペーン</h>、<h>全体</h>、<h>クリア済み</h>の4つのカテゴリーにグループ化されます。ここでそれぞれの目標項目をクリックすると、右側のパネルに詳細が表示されます。
 
 UI.Objectives.ObjectivesScreenCanvas.Detail.Name=目標詳細
 UI.Objectives.ObjectivesScreenCanvas.Detail.Desc=選択した目標の詳細がここに表示されます。
@@ -1321,7 +1321,7 @@ UI.Objectives.ResearchScreenCanvas.TreeSearch.Desc=この検索フィールド�
 UI.Objectives.ResearchScreenCanvas.TreeFull.Name=完全な技術ツリー
 UI.Objectives.ResearchScreenCanvas.TreeFull.Desc=デフォルトでは技術ツリーには国際研究のノードのみが表示されます。このボタンをクリックすると、技術とプロジェクトの両方が表示される完全な技術ツリーを確認できます。もう一度ボタンをクリックすると、国際研究のみを表示する技術ツリーに戻ります。
 
-UI.Objectives.ResearchScreenCanvas.TreeSelect3.Name=プロジェクトを選択してください
+UI.Objectives.ResearchScreenCanvas.TreeSelect3.Name=プロジェクトを選択
 UI.Objectives.ResearchScreenCanvas.TreeSelect3.Desc=プロジェクトは、資源、新しい船やハブ・モジュール、新しい兵器へのアクセスなど、派閥に具体的なメリットをもたらします。<br/><br/>技術とは異なり、研究されていないプロジェクトは、アンロック確率に基づき<h>オレンジ色</h>または<color=#B29B60>黄色</color>で強調表示されます。
 
 UI.Objectives.ResearchScreenCanvas.TreeSelect4.Name=代替要件
@@ -1364,7 +1364,7 @@ UI.Objectives.SpaceCombatCanvas.BattleLog.Name=戦闘ログ
 UI.Objectives.SpaceCombatCanvas.BattleLog.Desc=このボタンをクリックすると、<h>戦闘ログ</h>が開きます。戦闘ログには、戦闘に関連するイベントが発生した順に、タイムスタンプ付きで記録されます。イベントはカテゴリー別（破壊された船、戦闘空間に到着した援軍船など）に絞り込むことができます。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Name=ミサイル一斉射撃
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=<h>ミサイル一斉射撃</h>の司令ボタンをクリックすると、主ターゲットを指定し、ミサイル兵器を装備するすべての船によるミサイル一斉射撃の準備に入ります。一斉射撃ではそれぞれの兵器の最大弾薬容量の25%に相当するミサイルを砲火後、兵器は待機状態になります。<br/><br/>ほかにも、<h>{0}を長押しして敵のターゲットをクリック</h>すると、ミサイルの一斉射撃ができます。
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=<h>ミサイル一斉射撃</h>の司令ボタンをクリックすると、主目標を指定し、ミサイル兵器を装備するすべての船によるミサイル一斉射撃の準備に入ります。一斉射撃ではそれぞれの兵器の最大弾薬容量の25%に相当するミサイルを砲火後、兵器は待機状態になります。<br/><br/>ほかにも、<h>（{0}）を長押しして敵のターゲットをクリック</h>すると、ミサイルの一斉射撃ができます。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Name=制御解除
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Desc=<h>AI制御解除</h>の司令ボタンをクリックすると、艦隊の全船の指揮権を回収できます。いつでも制御は解除可能です。
@@ -1387,14 +1387,14 @@ UI.Objectives.NationInfoCanvas.ExoBuild.Name=エクゾファイターの製造
 UI.Objectives.NationInfoCanvas.ExoBuild.Desc=地上-軌道間用戦闘機である<h>エクゾファイター</h>は、派閥が支配する国家が敵艦隊やステーションに対する宇宙戦闘を開始したり、戦闘に参加することができます。人類が必要な技術の研究を完了したので、この国家がプライオリティ「エクゾファイターの製造」に投資して、エクゾファイターの建造を開始することができます。
 
 UI.Objectives.NationInfoCanvas.ExoPriority.Name=プライオリティ「エクゾファイターの製造」
-UI.Objectives.NationInfoCanvas.ExoPriority.Desc=このプライオリティを完了させることで、国家のブースト施設のひとつに、地上-軌道間用戦闘機が1機追加されます。国家の幹部派閥は<color=#FFFFFFFF><sprite name=boost></color>ブーストを使用して、地球の境界軌道での宇宙戦闘に参加することができます。<br><br>必要な<color=#FFFFFFFF><sprite name=boost></color>ブースト量はエクゾファイターの装備構成によって異なります。<br/><br/>この国家の戦闘機はミッション間に一定の時間を空ける必要があり、修理を要するほど損傷が深刻な場合は、さらに多くの時間を要します。
+UI.Objectives.NationInfoCanvas.ExoPriority.Desc=このプライオリティを完了させることで、国家のブースト施設のひとつに、地上-軌道間用戦闘機が1機追加されます。国家の幹部派閥は<color=#FFFFFFFF><sprite name=boost></color>ブーストを使用して、地球の境界軌道での宇宙戦闘に参加することができます。<br/><br/>必要な<color=#FFFFFFFF><sprite name=boost></color>ブースト量はエクゾファイターの装備構成によって異なります。<br/><br/>この国家の戦闘機はミッション間に一定の時間を空ける必要があり、修理を要するほど損傷が深刻な場合は、さらに多くの時間を要します。
 
 UI.Objectives.NationInfoCanvas.ExoInfo.Name=エクゾファイターの情報
 UI.Objectives.NationInfoCanvas.ExoInfo.Desc=この国家の現在のエクゾファイターの利用状況に関する情報がここに表示されます。表示される数値は、ミッションに利用可能な地上-軌道間用エクゾファイターの数、修理中または任務後整備中のエクゾファイターを含む総数、この国家で許可されているエクゾファイターの最大数を表しています。数値にカーソルを合わせると、詳細を確認できます。
 
 
 UI.Objectives.ExoOps.ExoLaunch.NameShort=ファイター発進
-UI.Objectives.ExoOps.ExoLaunch.Name=エグゾファイター発進
+UI.Objectives.ExoOps.ExoLaunch.Name=エクゾファイター発進
 UI.Objectives.ExoOps.ExoLaunch.Desc=実効支配権を有する1国家以上の国家でエクゾファイターへのアクセス権を獲得したため、地球の境界軌道上のあらゆる敵ターゲットに対してエクゾファイター攻撃を開始できます。エクゾファイター発進作戦を開始するにはここをクリックします。<br/><br/>また、軌道上での宇宙戦闘にエクゾファイターを追加することもできます。これは「戦闘切迫」パネルから管理できます。
 
 UI.Objectives.ExoOps.ExoTarget.Name=ターゲット選択
@@ -1403,13 +1403,13 @@ UI.Objectives.ExoOps.ExoTarget.Desc=地球を周回する敵のハブや艦隊�
 
 UI.Objectives.GeneralControlsCanvas.AccessBar.NameShort=資源の売却
 UI.Objectives.GeneralControlsCanvas.AccessBar.Name=資源の売却
-UI.Objectives.GeneralControlsCanvas.AccessBar.Desc=派閥が地球の境界軌道に運用可能なステーションを保有している場合、特定の宇宙資源を地球に売却することができます。<br><br>上部バーの<h>宇宙資源</h>部分をクリックすると、<h>地球に資源を売る</h>ウィンドウが開きます。
+UI.Objectives.GeneralControlsCanvas.AccessBar.Desc=派閥が地球の境界軌道に運用可能なステーションを保有している場合、特定の宇宙資源を地球に売却することができます。<br/><br/>上部バーの<h>宇宙資源</h>部分をクリックすると、<h>地球に資源を売る</h>ウィンドウが開きます。
 
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Name=資源の売却
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Desc=地球の境界軌道上のステーションごとに表示されるこのボタンをクリックしても、同じウィンドウを開くことができます。
 
 UI.Objectives.GeneralControlsCanvas.SellIntro.Name=地球に資源を売る
-UI.Objectives.GeneralControlsCanvas.SellIntro.Desc=資源を売却することで、派閥が地球外で採掘した余分の<color=#FFFFFFFF><sprite name=metal></color><h>卑金属</h>、<color=#FFFFFFFF><sprite name=metal_noble></color><h>貴金属</h>、<color=#FFFFFFFF><sprite name=radioactive></color><h>核分裂性物質</h>を再び<color=#FFFFFFFF><sprite name=currency></color>資金に変換できます。<br><br><h>地球の境界軌道に稼働中のハブが存在しない場合、宇宙資源は売却できません。</h>
+UI.Objectives.GeneralControlsCanvas.SellIntro.Desc=資源を売却することで、派閥が地球外で採掘した余分の<color=#FFFFFFFF><sprite name=metal></color><h>卑金属</h>、<color=#FFFFFFFF><sprite name=metal_noble></color><h>貴金属</h>、<color=#FFFFFFFF><sprite name=radioactive></color><h>核分裂性物質</h>を再び<color=#FFFFFFFF><sprite name=currency></color>資金に変換できます。<br/><br/><h>地球の境界軌道に稼働中のハブが存在しない場合、宇宙資源は売却できません。</h>
 
 UI.Objectives.GeneralControlsCanvas.SellOverview.Name=採掘可能な資源
 UI.Objectives.GeneralControlsCanvas.SellOverview.Desc=売却可能な資源がここに表示されます。それぞれの資源の現在の売却価格は右端に表示されます。

@@ -1549,7 +1549,7 @@ TINationTemplate.unionDisplayNameWithArticlePrep.MLI=萨赫勒国家联盟境内
 TINationTemplate.unionDisplayName.CMR=中非合作组织
 TINationTemplate.unionDisplayNameWithArticle.CMR=中非合作组织
 TINationTemplate.unionAdjective.CMR=中非的
-TINationTemplate.unionDisplayNameWithArticlePrep.CMR=中非合作组织
+TINationTemplate.unionDisplayNameWithArticlePrep.CMR=中非合作组织境内
 
 TINationTemplate.unionDisplayName.DZA=马格里布联盟
 TINationTemplate.unionDisplayNameWithArticle.DZA=马格里布联盟

@@ -1,4 +1,3 @@
-UI.StartScreen.SolarSystem=태양계
 UI.StartScreen.FactionCouncils=진영
 UI.StartScreen.Scenario=시나리오
 UI.StartScreen.Loading=로딩 중...
@@ -28,18 +27,18 @@ UI.StartScreen.Mods.SortInstalled=설치됨
 UI.StartScreen.Mods.SortOwned=소유 중
 UI.StartScreen.Mods.SteamError=Steam 오류
 UI.StartScreen.Mods.ModUploadedTitle=모드 업로드됨
-UI.StartScreen.Mods.ModUploadedDesc=성공적으로 업로드되었습니다!
+UI.StartScreen.Mods.ModUploadedDesc= 성공적으로 업로드되었습니다!
 UI.StartScreen.Mods.Uploading=모드 업로드 중
 UI.StartScreen.Mods.InvalidNameTitle=잘못된 모드 이름
-UI.StartScreen.Mods.InvalidNameDesc=빈칸이 아닌 모드 이름을 입력하세요.
+UI.StartScreen.Mods.InvalidNameDesc=모드 이름이 비어 있지 않게 입력하세요.
 UI.StartScreen.Mods.InvalidDescTitle=잘못된 모드 설명
-UI.StartScreen.Mods.InvalidDescDesc=빈칸이 아닌 모드 설명을 입력하세요.
+UI.StartScreen.Mods.InvalidDescDesc=모드 설명이 비어 있지 않게 입력하세요.
 UI.StartScreen.Mods.InvalidIconTitle=잘못된 모드 아이콘
 UI.StartScreen.Mods.InvalidIconDesc=모드와 동일한 이름의 png 이미지를 제공하세요.
 UI.StartScreen.Mods.ModDownloadError=모드 다운로드 중 오류 발생. 모드가 이미 다운로드되었을 수 있습니다.
-UI.StartScreen.Mods.ModDownloadedName=이름:
-UI.StartScreen.Mods.ModDownloadedID=게시한 파일 ID:
-UI.StartScreen.Mods.ModDownloadedLocalFolder=로컬 폴더:
+UI.StartScreen.Mods.ModDownloadedName=이름: 
+UI.StartScreen.Mods.ModDownloadedID=게시한 파일 ID: 
+UI.StartScreen.Mods.ModDownloadedLocalFolder=로컬 폴더: 
 UI.StartScreen.Mods.ModDownloaded=모드 다운로드 완료
 UI.StartScreen.Mods.ModDownloadedInfo=모드 설치 완료를 위해 테라 인빅타 재시작<br/>
 UI.StartScreen.Mods.UseMods=모드 사용
@@ -99,7 +98,7 @@ UI.StartScreen.FailedToLoadSaveDescription=게임 버전 불일치 또는 유효
 UI.StartScreen.StartupErrorHeader=게임 초기화 오류
 UI.StartScreen.StartupErrorSavePath=게임이 필요한 저장 폴더 경로에 접근할 수 없어 게임을 실행되지 않습니다. <br/><br/>{0}<br/><br/> 위치에서 게임이 파일을 읽고 쓸 수 있도록 권한 및/또는 클라우드 저장소 소프트웨어(예: OneDrive)를 확인하세요. 지원이 필요하시면 support@pavonisinteractive.com으로 이메일을 보내주세요.<br/><br/>'확인' 버튼을 누르면 소프트웨어가 종료됩니다.
 UI.StartScreen.TutorialDesc=처음으로 게임을 플에이한다면 튜토리얼을 활성화한 레지스탕스 진영 플레이를 권장합니다.
-UI.StartScreen.Credits=개발팀
+UI.StartScreen.Credits=크레딧
 UI.StartScreen.Exit=게임 종료
 UI.StartScreen.Skirmish.Begin=소규모 접전 개시
 UI.StartScreen.Skirmish.Header=소규모 접전 설정
@@ -111,7 +110,7 @@ UI.StartScreen.Skirmish.NoHab=거주지 없음
 UI.StartScreen.Skirmish.Player1AddShips=플레이어 함선 추가
 UI.StartScreen.Skirmish.Player2AddShips=AI 함선 추가
 UI.StartScreen.Skirmish.CloseAddShips=닫기
-UI.StartScreen.SkirmishShipDropdownLineItem={0}<color=#00000000>:</color><rcol>{1} {2}</rcol> // COLON IS REQUIRED IN BY CODE
+UI.StartScreen.SkirmishShipDropdownLineItem={0}<color=#00000000>:</color><rcol>{1} {2}</rcol>			// COLON IS REQUIRED IN BY CODE
 UI.StartScreen.Skirmish.Import=저장에서 가져오기...
 UI.StartScreen.NewGameOptions=새 게임 설정
 UI.StartScreen.StartNewGame=장기 캠페인 시작
@@ -164,7 +163,7 @@ UI.StartScreen.CustomizeCampaign.ShowTriggeredProjectsTooltip=캠페인에서 �
 UI.StartScreen.CustomizeCampaign.HomeNationCouncilor=모국 시민 의원
 UI.StartScreen.CustomizeCampaign.CustomDifficultyTooltip=난이도에 영향을 미치는 캠페인 설정을 수정하면 해당 캠페인에서 난이도 관련 업적을 획득할 수 없습니다.
 UI.StartScreen.CustomizeCampaign.CustomDifficultyOptionsText=<h>현재 설정으로 인해 난이도 관련 업적이 비활성화됩니다.</h>
-UI.StartScreen.CustomizeCampaign.SkipCouncilor=의원 없음, +{0}{1} // skip, +(number) Influence icon(resource)
+UI.StartScreen.CustomizeCampaign.SkipCouncilor=의원 없음, +{0}{1}																		
 UI.StartScreen.CustomizeCampaign.HomeNationCouncilorTip=선택하면 컴퓨터의 지역 설정으로 첫 번째 의원의 모국이 선택됩니다. 그렇지 않으면 무작위가 됩니다.
 UI.StartScreen.CustomizeCampaign.NationalIPModifier=국가 투자 비율
 UI.StartScreen.CustomizeCampaign.AverageMonthlyEvents=평균 월간 이벤트
@@ -201,8 +200,8 @@ UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=소형 함선 이름
 UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=중형 함선 이름
 UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=대형 함선 이름
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=거주지 이름
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=외계인 돌격 함대 추가
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=캠페인 시작 시 강습상륙함을 보유한 외계 함대를 추가로 배치합니다
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=외계인 침략 함대 추가
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=캠페인 시작 시 여러 대의 강습상륙함을 보유한 외계 함대를 추가로 배치합니다. <h>이로 인해 캠페인 난이도가 대폭 상승하므로 숙련된 플레이어에게만 권장합니다.</h>
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=가속 캠페인 기본값
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=긴 캠페인 기본값
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=이전 캠페인 설정
@@ -213,14 +212,14 @@ UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=패치 노트
 UI.StartScreen.TranslationWarning=테라 인빅타의 앞서 해보기 버전에 오신 것을 환영합니다!<br/><br/>영어 외 언어 번역은 아직 추가 번역자들이 검수 중이며 게임 내 이슈 확인을 위한 테스트 중입니다. 이 앞서 해보기 버전은 문법적 오류, 부적절한 단어 선택, 임시 영문 텍스트, 기타 언어적 오류가 있을 수 있습니다. 가능한 한 신속하게 해결하기 위해 노력하고 있으나, 테라 인빅타는 여러 권 분량의 소설에 해당하는 텍스트를 포함하고 있기에 모든 것을 바로잡기 위해서는 시간이 필요할 것으로 예상됩니다.<br/><br/>앞서 해보기 단계의 테라 인빅타를 플레이해 주셔서 감사드리며, 게임을 개선하기 위해 최선의 노력을 다하겠습니다!
 UI.StartScreen.GamepassWarning=테라인빅타는 게임 프리뷰 단계에 있습니다. 따라서 일부 게임 또는 플랫폼 기능이 예상대로 작동하지 않을 수 있으며, 버그 및/또는 충돌이 발생할 수 있습니다. 지원이 필요하시면 support@pavonisinteractive.com으로 이메일을 보내주시기 바랍니다.<br/><br/>클라우드 저장 기능이 일관되게 작동하지 않을 수 있습니다. 문제가 발생하는 경우 저장 파일은 C:\Users\YOURNAME\Documents\My Games\TerraInvicta\Saves 또는 %homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\ 에서 찾을 수 있습니다.
-//<Developer> Credits=
+
 UI.StartScreen.TICredits_0=테라 인빅타<br/><br/>
 UI.StartScreen.TICredits_1=게임 개발사<br/>Pavonis Interactive<br/><br/>
 UI.StartScreen.TICredits_2=게임 배급사<br/>Hooded Horse<br/><br/>
 UI.StartScreen.TICredits_3=크리에이티브 디렉터<br/>John J. Lumpkin<br/><br/>
 UI.StartScreen.TICredits_4=아트 디렉터<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=개발자<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Benjamin Poland<br/>Ryan Dunagan<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=리드 프로듀서<br/>Tim Bender<br/><br/>프로듀서<br/>Scott Davis<br/><br/>
+UI.StartScreen.TICredits_5=개발자<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Ryan Dunagan<br/>Benjamin Poland<br/>Christina Stillman<br/><br/>
+UI.StartScreen.TICredits_6=프로듀서<br/>Scott Davis<br/><br/>
 UI.StartScreen.TICredits_7=캐릭터 및 2D 아티스트<br/>Michael Moore<br/><br/>
 UI.StartScreen.TICredits_8=일러스트레이터<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
 UI.StartScreen.TICredits_9=테크니컬 아티스트<br/>Zack Dawson<br/><br/>
@@ -233,7 +232,9 @@ UI.StartScreen.TICredits_15=콘텐츠 디자이너<br/>Tayta Malikai<br/>David B
 UI.StartScreen.TICredits_16=프로덕션 코디네이터<br/>Shannon Sindorf<br/><br/>
 UI.StartScreen.TICredits_17=추가 개발자<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Zach Parsons<br/>Amineri<br/><br/>
 UI.StartScreen.TICredits_18=총괄 프로듀서<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Pottenger<br/>Xavier Wynns<br/><br/>
-//<AP> Credits + Messages=
+
+
+
 UI.StartScreen.TICredits_19=협력 프로듀서<br/><br/>
 UI.StartScreen.TICredits_20=Rachel Dilger<br/><br/>
 UI.StartScreen.TICredits_21=<skip/>
@@ -255,8 +256,10 @@ UI.StartScreen.TICredits_36=Stardust<br/>"태양풍과 함께 나아가라."<br/
 UI.StartScreen.TICredits_37=Stefano de Stefano<br/>"문제를 일으킨 사고방식으로는 문제를 해결할 수 없는 법이다."<br/><br/>
 UI.StartScreen.TICredits_38=Sean Hassan<br/>"우리의 도전은 환상 없이, 환멸에 빠지지 않고 삶을 살아내는 것이다."<br/><br/>
 UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>"전쟁과 재난, 기후 변화 같이 시시각각 변화하는 위기 속에서 지금 우리가 하는 일은 파문이 되어 시간의 흐름을 넘어 인류의 운명을 정하게 될 것입니다. 우주와 기술을 통해, 우리는 이러한 실존적 도전에 대한 구세주를 찾아낼 수 있을지 모릅니다."<br/><br/><br/>
-//<VA> Credits=
-UI.StartScreen.TICredits_40=- 성우진 -<br/>
+
+
+
+UI.StartScreen.TICredits_40=성우진<br/>
 UI.StartScreen.TICredits_41=피오나 아요아데 -<sp>
 UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
 UI.StartScreen.TICredits_43=주디스 하웰 -<sp>
@@ -271,42 +274,43 @@ UI.StartScreen.TICredits_51=한세 카스티요 -<sp>
 UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
 UI.StartScreen.TICredits_53=키란 바네르지 -<sp>
 UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
-UI.StartScreen.TICredits_55=의원 담당 성우<br/>
 
+UI.StartScreen.TICredits_55=의원 담당 성우<br/>
 UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton T<br/>Jim Lenaway • Andy Mack<br/>Mike Apgar • Damon Alums<br/>Josephine Croft • Les Horovitz<br/>Heidi Kwiat • Ian Phillips<br/>Helen Clapp • Lizzie Crow<br/>Sophie Roberts • Steven Kelly<br/>Thom Welham • Conor James<br/>Mohita Namjoshi • Mamta Gurnani<br/>Vikram Rawat • Gagan Pathak<br/>Jenny Fennessy • Alan Kelly<br/>Diana Silva • Anita Lauren<br/>Carlos Cerrato • Fernando Macias Jimenez<br/>Marina Kalmykova • Sebastian Agner<br/>Gaelle Gosselin • Jesse Meiring<br/>Mhairi Morrison • Kieran Flitton<br/>Lina Sinuan • Val Cheah<br/>Hagen Valerio • Jati Andito<br/>Ore Apampa • Uzy Hamman<br/>Rachel Oladejo • Jonathan Mabote<br/>Jonathan Brandt • Nadia Cavelle<br/>Christian Michalak • Sonja Palmu<br/>Sarí AK • Mona Saadeh<br/>Loay Al-Hakimi • Silina Choueiry<br/><br/>
 
-//<QA> Credits=
 
-UI.StartScreen.TICredits_57=게임 QA 팀<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah<br/><br/>
-UI.StartScreen.TICredits_58=도움을 주신 분들<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/><br/>
-//<Publisher> Credits=
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>
-UI.StartScreen.TICredits_60=최고 경영자<br/>Tim Bender<br/><br/>
-UI.StartScreen.TICredits_61=최고 재무 관리자및 법률 고문<br/>Snow Rui<br/><br/>
-UI.StartScreen.TICredits_62=최고 제품 관리자<br/>Ashkan Namousi<br/><br/>
-UI.StartScreen.TICredits_63=고문<br/>Shams Jorjani<br/><br/>
-UI.StartScreen.TICredits_64=커뮤니케이션 디렉터<br/>Joe Robinson<br/><br/>커뮤니케이션 매니저<br/>Marcello Perricone<br/><br/>
-UI.StartScreen.TICredits_65=인플루언서 매니저<br/>Antony "HForHavoc" Floyd<br/><br/>
-UI.StartScreen.TICredits_66=협력 인플루언서 매니저<br/>Shaun "BearlyTactical" Ginty<br/>Noris "komakrtv" Merk<br/><br/>
-UI.StartScreen.TICredits_67=마케팅 컨설턴트<br/>PartyElite<br/>Tsukiha Shirakusu<br/>Caketown Interactive<br/>Filip Sirc<br/><br/>
-UI.StartScreen.TICredits_68=트레일러 프로듀서<br/>Slavic Magic<br/>Grzegorz Styczen<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_69=홍보 매니저<br/>Vicarious PR<br/>Michael Brown<br/>Lewis Burnell<br/>Matt Brown<br/><br/>
-UI.StartScreen.TICredits_70=현지화 코디네이터<br/>Miguel David Medina García<br/><br/>
-UI.StartScreen.TICredits_71=번역가<br/>Roboto Global<br/>EC Innovations<br/>Brenda Triandafeledis<br/>Laura Nieves Díaz Suárez<br/>Carlota Marie Dávila Santana<br/>Marta Medina González<br/>Wenwei Jiang<br/>Yuki Fujita<br/>Terra Invicta Chinese Fan Localization Group<br/><br/>
-UI.StartScreen.TICredits_72=SPECIAL THANKS TO<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D'Arcy<br/><br/>
+
+UI.StartScreen.TICredits_57=게임 QA 팀<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah 및 Pavonis Discord의 나머지 멤버들<br/><br/>
+UI.StartScreen.TICredits_58=도움을 주신 분들<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/>Alice, Charlotte, and Theo<br/>Emily, William and Théodore<br/><br/>
+
+
+
+UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>CHIEF EXECUTIVE OFFICER<br/>Tim Bender<br/><br/>PRESIDENT AND CHIEF FINANCIAL OFFICER<br/>Snow Rui<br/><br/>CHIEF PRODUCT OFFICER & DEPUTY CEO<br/>Ashkan Namousi<br/><br/>CHIEF COMMERCIAL OFFICER<br/>James Gardiner<br/><br/>CHIEF MARKETING OFFICER<br/>Abhishek Chaudhry<br/><br/>CHIEF PLAYER EXPERIENCE OFFICER<br/>Mandalore Herrington<br/><br/>CHAIRMAN OF THE BOARD<br/>Shams Jorjani<br/><br/>DIRECTOR OF COMMUNICATIONS<br/>Joe Robinson<br/><br/>DIRECTOR OF CREATOR RELATIONS<br/>Antony Floyd aka HForHavoc<br/><br/>DIRECTOR OF MARKETING COORDINATION<br/>Matthijs Hoving<br/><br/>DIRECTOR OF COMMUNITY<br/>Matthew Palacio<br/><br/>DIRECTOR OF SOCIAL STRATEGY<br/>Auverin Morrow<br/><br/>DIRECTOR OF IT & SYSTEMS<br/>Patrik Arvidsson<br/><br/>PUBLISHING PRODUCERS<br/>Dastan Namousi<br/>Tom King<br/><br/>LEAD RELEASE MANAGER (PRIMARY)<br/>Natalia Montero<br/><br/>SENIOR RELEASE MANAGERS<br/>Blossom Kremer<br/>Aneta Zagórska<br/><br/>LOCALIZATION PRODUCER<br/>Michael Radnitz<br/><br/>LOCALIZATION COORDINATOR<br/>Miguel David Medina García<br/><br/>CREATOR RELATIONS MANAGER<br/>Renee April<br/><br/>SENIOR STRATEGIC PARTNER MANAGER<br/>Ga-Yi Ng<br/><br/>MARKETING MANAGER (JAPAN, KOREA & SOUTHEAST ASIA)<br/>LamNot<br/><br/>LOCALIZATION & MARKETING ASSOCIATE (EAST ASIA)<br/>Guo Yu Shun Wilson<br/><br/>CONCEPT ARTISTS<br/>Daniel Morawski<br/>Sarah Mills<br/><br/>LEAD VIDEOGRAPHER<br/>Kacper Bork<br/><br/>ACCOUNTANT<br/>Meridith Malone<br/><br/>OFFICE ADMINISTRATOR<br/>Bailey Sullivan<br/><br/>MARKETING CONSULTANT<br/>PartyElite<br/><br/>ADDITIONAL SUPPORT<br/>Shaun Ginty aka BearlyTactical<br/>Noris Merk aka kormakrtv<br/><br/>SPECIAL PROJECTS MANAGER<br/>Marcello Perricone<br/><br/>SPECIAL THANKS<br/>Aaron Nathan<br/>Andrew Hume<br/>Grzegorz Styczeń<br/>Martti Aarnio-Wihuri<br/>Todd D’Arcy<br/><br/>
+UI.StartScreen.TICredits_60=트레일러 프로듀서<br/><br/>SLAVIC MAGIC<br/>Grzegorz Styczeń<br/>Patrycja Gdula<br/><br/>
+UI.StartScreen.TICredits_61=PR<br/><br/>GAMEDASH<br/>Bing Li<br/>Tian Luo<br/><br/>
+UI.StartScreen.TICredits_62=현지화<br/>HOODED HORSE<br/><br/>현지화 – 중국어 번체<br/>Guo Yu Shun Wilson<br/>Melody Lin<br/><br/>현지화 - 이탈리아어<br/>Emanuelle Ricobenne<br/>Ketty Federico<br/><br/>현지화 - 한국어<br/>Seulki Lee<br/>Lim Yoon<br/><br/>현지화 – 포르투갈어(브라질)<br/>Brenda Triandafeledis<br/><br/>현지화 – 스페인어<br/>Laura Nieves Díaz Suárez<br/>Marta Medina González<br/>Miguel David Medina García<br/>Carlota Marie Dávila Santana<br/><br/>현지화 - 우크라이나어<br/>Vladyslav Verstiuk<br/>Nikol Kryvoruchko<br/><br/>
+UI.StartScreen.TICredits_63=《地球不屈》汉化组<br/><br/>현지화 - 중국어 간체<br/><br/>ECI GAMES<br/><br/>프로젝트 매니저<br/>Ángel Hernández Santana<br/>Kasia Kępka<br/>Zhao Ting<br/><br/>현지화 - 중국어 간체<br/>Wu Fan<br/>Cobra Xu<br/>Sherry Wang<br/><br/>현지화 - 중국어 번체<br/>Weiyi Jiang<br/><br/>LQA - 중국어 번체<br/>Gail Pu<br/><br/>현지화 - 프랑스어<br/>Félix Braconnier<br/>Lueje Prigent<br/>Maxime Aduriz<br/>Victor Berry<br/>Caitlin Maurin<br/><br/>현지화 - 독일어<br/>Stefan Herzog<br/>Nino Kadletz<br/>Philipp Kolleritsch<br/>Martin Monsberger<br/>Raphael Oberhuber<br/><br/>현지화 - 일본어<br/>Mina Horiba-Maguire<br/>Naomi Ueda<br/>Keigo Yonemura<br/>Liu Peiduo<br/><br/>
+UI.StartScreen.TICredits_64=QLOC S.A.<br/><br/>GENERAL MANAGER<br/>Adam Piesiak<br/><br/>HEAD OF BUSINESS DEVELOPMENT<br/>Paweł Książek<br/><br/>SENIOR BUSINESS DEVELOPMENT MANAGER<br/>Marta Olejniczak<br/><br/>VENDOR MANAGER<br/>Paweł Pierzchanowski<br/><br/>DIRECTOR OF QUALITY ASSURANCE<br/>Sergiusz Ślosarczyk<br/><br/>IT DIRECTOR<br/>Artur Szczurzyński<br/><br/>QA OPERATIONS MANAGER<br/>Paweł Strzelczyk<br/><br/>LEARNING & DEVELOPMENT COORDINATOR<br/>Aleksandra Grigorian-Kopka<br/><br/>LEARNING & DEVELOPMENT SPECIALISTS<br/>Michał Grabuś<br/>Damian Jasiński<br/><br/>LQA SENIOR TEAM LEADERS<br/>Michał Mugerman<br/>Kamil Uszyński<br/><br/>LEAD LOCALIZATION PRODUCERS<br/>Alan Orman<br/>Maciej Polak<br/><br/>LOCALIZATION - CZECH<br/>Michal Farník<br/>Petr Šeba<br/>Tomáš Varbanov<br/><br/>LQA - ITALIAN<br/>Michele Fanelli<br/>Andrea Iachetti<br/><br/>LOCALIZATION - POLISH<br/>Monika Buraczyńska<br/>Andrzej Jakubiec<br/>Janusj Mrzigod<br/>Andrzej Popowski<br/><br/>LQA - POLISH<br/>Katarzyna Startek<br/><br/>LOCALIZATION - RUSSIAN<br/>Mikhail Zakharov<br/>Vasily Firsov<br/>Maxim Levushkin<br/>Roman Nefedov<br/>Pavel Nikolenko<br/>Polina Zam<br/><br/>LQA - RUSSIAN<br/>Andrey Moshkov<br/><br/>LOCALIZATION - UKRAINIAN<br/><br/>LQA - UKRAINIAN<br/>Oleg Łoginow<br/><br/>
+UI.StartScreen.TICredits_65=QA<br/><br/>QLOC S.A.<br/><br/>LEAD QA PROJECT MANAGER<br/>Jakub Dudkowski<br/><br/>QA PROJECT MANAGER<br/>Karolina Jagnyziak<br/>Wojciech Tarasiuk<br/><br/>QA LAB MANAGERS<br/>Piotr Badurek<br/>Emil Lubowicki<br/>Tomasz Prusicki<br/><br/>FQA TEAM LEADER<br/>Marcin Oprządek<br/><br/>FQA TESTERS<br/>Tymoteusz Bigos<br/>Aleksandra Bobek<br/>Mikołaj Kozłowski<br/>Piotr Krakowiak<br/>Michał Owczarek<br/>Mateusz Wieczorek<br/><br/>TESTRONIC<br/><br/>COMPLIANCE AND COMPATIBILITY MANAGER<br/>Iwona Szarzyńska<br/><br/>SENIOR COMPATIBILITY PROJECT LEAD<br/>Małgorzata Twarogal<br/><br/>ASSOCIATE COMPATIBILITY QA LEAD<br/>Michał Soral<br/><br/>COMPATIBILITY QA TECHNICIANS<br/>Lisa Bajdowska<br/>Dominik Krawczyk<br/>Brine Mukombachoto<br/>Haran Dev Murugan<br/><br/>
+UI.StartScreen.TICredits_66=<skip/>
+UI.StartScreen.TICredits_67=<skip/>
+UI.StartScreen.TICredits_68=<skip/>
+UI.StartScreen.TICredits_69=<skip/>
+UI.StartScreen.TICredits_70=<skip/>
+UI.StartScreen.TICredits_71=<skip/>
+UI.StartScreen.TICredits_72=<skip/>
 UI.StartScreen.TICredits_73=신입 개발자<br/>Théodore<br/>Carmen Rose<br/><br/>
 
-UI.StartScreen.TICredits_74=- KICKSTARTER 크리에이티브 기여자 -<br/>
 
 
-UI.StartScreen.TICredits_105=- 킥스타터
-UI.StartScreen.TICredits_106= 게임 플레이 테스터 -<br/>
+UI.StartScreen.TICredits_74=KICKSTARTER 크리에이티브 기여자<br/>
 
+UI.StartScreen.TICredits_105=KICKSTARTER<sp>
+UI.StartScreen.TICredits_106=게임 플레이 테스터<br/>
 
-
-UI.StartScreen.TICredits_393=<br/>- 킥스타터 후원자 -<br/>
+UI.StartScreen.TICredits_393=킥스타터 후원자<br/>
 
 UI.StartScreen.TICredits_1337=소프트웨어<br/><br/>Unity 및 <br/><br/>FMOD Studio<br/>by Firelight Technologies Limited<br/>를 사용하여 제작<br/>
 UI.StartScreen.TICredits_1338=게임 내 가상의 민간 기업을 나타내는 수많은 로고 아이콘은 LogoLogo.com에서 제공되었습니다.<br/>이 작품에서 정부 기관의 로고를 사용한 것은 해당 기관의 보증을 의미하는 것은 아닙니다.<br/><br/>
 UI.StartScreen.TICredits_1339=의원의 배경 이미지의 기본으로 사용되는 일부 사진은 NASA 제공입니다.
-UI.StartScreen.TICredits_1340=두 도시 이야기의 저자 ... 찰스 디킨스
+UI.StartScreen.TICredits_1340=두 도시 이야기의 저자<br/> 찰스 디킨스

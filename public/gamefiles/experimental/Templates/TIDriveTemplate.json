@@ -4810,12 +4810,12 @@
    "notes": "Fission Pulse Drive",
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_PulsarDrive",
-   "thrust_N": 100000,
+   "thrust_N": 180000,
    "EV_kps": 16,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "0.800",
-   "req power": "0.941",
+   "thrustRating_GW": "1.440",
+   "req power": "1.694",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -4836,12 +4836,12 @@
    "thrusters": 2,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_PulsarDrive",
-   "thrust_N": 200000,
+   "thrust_N": 360000,
    "EV_kps": 16,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "1.600",
-   "req power": "1.882",
+   "thrustRating_GW": "2.880",
+   "req power": "3.388",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -4862,12 +4862,12 @@
    "thrusters": 3,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_PulsarDrive",
-   "thrust_N": 300000,
+   "thrust_N": 540000,
    "EV_kps": 16,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "2.400",
-   "req power": "2.824",
+   "thrustRating_GW": "4.320",
+   "req power": "5.082",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -4888,12 +4888,12 @@
    "thrusters": 4,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_PulsarDrive",
-   "thrust_N": 400000,
+   "thrust_N": 720000,
    "EV_kps": 16,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "3.200",
-   "req power": "3.765",
+   "thrustRating_GW": "5.760",
+   "req power": "6.776",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -4914,12 +4914,12 @@
    "thrusters": 5,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_PulsarDrive",
-   "thrust_N": 500000,
+   "thrust_N": 900000,
    "EV_kps": 16,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "4.000",
-   "req power": "4.706",
+   "thrustRating_GW": "7.200",
+   "req power": "8.471",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -4940,12 +4940,12 @@
    "thrusters": 6,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_PulsarDrive",
-   "thrust_N": 600000,
+   "thrust_N": 1080000,
    "EV_kps": 16,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "4.800",
-   "req power": "5.647",
+   "thrustRating_GW": "8.640",
+   "req power": "10.165",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -4966,12 +4966,12 @@
    "thrusters": 1,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPulsarDrive",
-   "thrust_N": 180000,
+   "thrust_N": 240000,
    "EV_kps": 32,
    "specificPower_kgMW": 0,
    "efficiency": 0.9,
-   "thrustRating_GW": "2.880",
-   "req power": "3.200",
+   "thrustRating_GW": "3.840",
+   "req power": "4.267",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -4992,12 +4992,12 @@
    "thrusters": 2,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPulsarDrive",
-   "thrust_N": 360000,
+   "thrust_N": 480000,
    "EV_kps": 32,
    "specificPower_kgMW": 0,
    "efficiency": 0.9,
-   "thrustRating_GW": "5.760",
-   "req power": "6.400",
+   "thrustRating_GW": "7.680",
+   "req power": "8.533",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -5016,32 +5016,6 @@
    "dataName": "AdvancedPulsarDrivex3",
    "friendlyName": "Advanced Pulsar Drive x3",
    "thrusters": 3,
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_AdvancedPulsarDrive",
-   "thrust_N": 540000,
-   "EV_kps": 32,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.9,
-   "thrustRating_GW": "8.640",
-   "req power": "9.600",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Solid_Core_Fission",
-   "thrustCap": 5,
-   "cooling": "Closed",
-   "powerGen": "DriveActive",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 1
-   },
-   "iconResource": "shipbuildericons/ICO_AdvancedPulsarDrive"
-},
- {
-   "dataName": "AdvancedPulsarDrivex4",
-   "friendlyName": "Advanced Pulsar Drive x4",
-   "thrusters": 4,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPulsarDrive",
    "thrust_N": 720000,
@@ -5065,17 +5039,43 @@
    "iconResource": "shipbuildericons/ICO_AdvancedPulsarDrive"
 },
  {
+   "dataName": "AdvancedPulsarDrivex4",
+   "friendlyName": "Advanced Pulsar Drive x4",
+   "thrusters": 4,
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_AdvancedPulsarDrive",
+   "thrust_N": 960000,
+   "EV_kps": 32,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.9,
+   "thrustRating_GW": "15.360",
+   "req power": "17.067",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Solid_Core_Fission",
+   "thrustCap": 5,
+   "cooling": "Closed",
+   "powerGen": "DriveActive",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 1
+   },
+   "iconResource": "shipbuildericons/ICO_AdvancedPulsarDrive"
+},
+ {
    "dataName": "AdvancedPulsarDrivex5",
    "friendlyName": "Advanced Pulsar Drive x5",
    "thrusters": 5,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPulsarDrive",
-   "thrust_N": 900000,
+   "thrust_N": 1200000,
    "EV_kps": 32,
    "specificPower_kgMW": 0,
    "efficiency": 0.9,
-   "thrustRating_GW": "14.400",
-   "req power": "16.000",
+   "thrustRating_GW": "19.200",
+   "req power": "21.333",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -5096,12 +5096,12 @@
    "thrusters": 6,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPulsarDrive",
-   "thrust_N": 1080000,
+   "thrust_N": 1440000,
    "EV_kps": 32,
    "specificPower_kgMW": 0,
    "efficiency": 0.9,
-   "thrustRating_GW": "17.280",
-   "req power": "19.200",
+   "thrustRating_GW": "23.040",
+   "req power": "25.600",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 5,
@@ -5279,11 +5279,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPebbleDrive",
    "thrust_N": 333617,
-   "EV_kps": 9.53,
+   "EV_kps": 9.81,
    "specificPower_kgMW": 0,
-   "efficiency": 0.85,
-   "thrustRating_GW": "1.590",
-   "req power": "1.870",
+   "efficiency": 0.94,
+   "thrustRating_GW": "1.636",
+   "req power": "1.741",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 16,
@@ -5305,11 +5305,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPebbleDrive",
    "thrust_N": 667234,
-   "EV_kps": 9.53,
+   "EV_kps": 9.81,
    "specificPower_kgMW": 0,
-   "efficiency": 0.85,
-   "thrustRating_GW": "3.179",
-   "req power": "3.740",
+   "efficiency": 0.94,
+   "thrustRating_GW": "3.273",
+   "req power": "3.482",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 16,
@@ -5331,11 +5331,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPebbleDrive",
    "thrust_N": 1000851,
-   "EV_kps": 9.53,
+   "EV_kps": 9.81,
    "specificPower_kgMW": 0,
-   "efficiency": 0.85,
-   "thrustRating_GW": "4.769",
-   "req power": "5.611",
+   "efficiency": 0.94,
+   "thrustRating_GW": "4.909",
+   "req power": "5.223",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 16,
@@ -5357,11 +5357,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPebbleDrive",
    "thrust_N": 1334468,
-   "EV_kps": 9.53,
+   "EV_kps": 9.81,
    "specificPower_kgMW": 0,
-   "efficiency": 0.85,
-   "thrustRating_GW": "6.359",
-   "req power": "7.481",
+   "efficiency": 0.94,
+   "thrustRating_GW": "6.546",
+   "req power": "6.963",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 16,
@@ -5383,11 +5383,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPebbleDrive",
    "thrust_N": 1668085,
-   "EV_kps": 9.53,
+   "EV_kps": 9.81,
    "specificPower_kgMW": 0,
-   "efficiency": 0.85,
-   "thrustRating_GW": "7.948",
-   "req power": "9.351",
+   "efficiency": 0.94,
+   "thrustRating_GW": "8.182",
+   "req power": "8.704",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 16,
@@ -5409,11 +5409,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedPebbleDrive",
    "thrust_N": 2001702,
-   "EV_kps": 9.53,
+   "EV_kps": 9.81,
    "specificPower_kgMW": 0,
-   "efficiency": 0.85,
-   "thrustRating_GW": "9.538",
-   "req power": "11.221",
+   "efficiency": 0.94,
+   "thrustRating_GW": "9.818",
+   "req power": "10.445",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Solid_Core_Fission",
    "thrustCap": 16,
@@ -6086,168 +6086,6 @@
    "notes": "Vortex Confined 1",
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_VortexDrive",
-   "thrust_N": 330000,
-   "EV_kps": 19.62,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.7,
-   "thrustRating_GW": "3.237",
-   "req power": "4.625",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Gas_Core_Fission",
-   "thrustCap": 15,
-   "cooling": "Open",
-   "powerGen": "DriveIdle",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 1
-   },
-   "iconResource": "shipbuildericons/ICO_VortexDrive"
-},
- {
-   "dataName": "VortexDrivex2",
-   "friendlyName": "Vortex Drive x2",
-   "thrusters": 2,
-   "notes": "Vortex Confined 1",
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_VortexDrive",
-   "thrust_N": 660000,
-   "EV_kps": 19.62,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.7,
-   "thrustRating_GW": "6.475",
-   "req power": "9.249",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Gas_Core_Fission",
-   "thrustCap": 15,
-   "cooling": "Open",
-   "powerGen": "DriveIdle",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 1
-   },
-   "iconResource": "shipbuildericons/ICO_VortexDrive"
-},
- {
-   "dataName": "VortexDrivex3",
-   "friendlyName": "Vortex Drive x3",
-   "thrusters": 3,
-   "notes": "Vortex Confined 1",
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_VortexDrive",
-   "thrust_N": 990000,
-   "EV_kps": 19.62,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.7,
-   "thrustRating_GW": "9.712",
-   "req power": "13.874",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Gas_Core_Fission",
-   "thrustCap": 15,
-   "cooling": "Open",
-   "powerGen": "DriveIdle",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 1
-   },
-   "iconResource": "shipbuildericons/ICO_VortexDrive"
-},
- {
-   "dataName": "VortexDrivex4",
-   "friendlyName": "Vortex Drive x4",
-   "thrusters": 4,
-   "notes": "Vortex Confined 1",
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_VortexDrive",
-   "thrust_N": 1320000,
-   "EV_kps": 19.62,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.7,
-   "thrustRating_GW": "12.949",
-   "req power": "18.499",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Gas_Core_Fission",
-   "thrustCap": 15,
-   "cooling": "Open",
-   "powerGen": "DriveIdle",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 1
-   },
-   "iconResource": "shipbuildericons/ICO_VortexDrive"
-},
- {
-   "dataName": "VortexDrivex5",
-   "friendlyName": "Vortex Drive x5",
-   "thrusters": 5,
-   "notes": "Vortex Confined 1",
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_VortexDrive",
-   "thrust_N": 1650000,
-   "EV_kps": 19.62,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.7,
-   "thrustRating_GW": "16.187",
-   "req power": "23.124",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Gas_Core_Fission",
-   "thrustCap": 15,
-   "cooling": "Open",
-   "powerGen": "DriveIdle",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 1
-   },
-   "iconResource": "shipbuildericons/ICO_VortexDrive"
-},
- {
-   "dataName": "VortexDrivex6",
-   "friendlyName": "Vortex Drive x6",
-   "thrusters": 6,
-   "notes": "Vortex Confined 1",
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_VortexDrive",
-   "thrust_N": 1980000,
-   "EV_kps": 19.62,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.7,
-   "thrustRating_GW": "19.424",
-   "req power": "27.748",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Gas_Core_Fission",
-   "thrustCap": 15,
-   "cooling": "Open",
-   "powerGen": "DriveIdle",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 1
-   },
-   "iconResource": "shipbuildericons/ICO_VortexDrive"
-},
- {
-   "dataName": "AdvancedVortexDrivex1",
-   "friendlyName": "Advanced Vortex Drive x1",
-   "thrusters": 1,
-   "notes": "Vortex Confined 2",
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_AdvancedVortexDrive",
    "thrust_N": 504000,
    "EV_kps": 19.62,
    "specificPower_kgMW": 0,
@@ -6264,17 +6102,18 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 1
+      "water": 0.995,
+      "fissiles": 0.005
    },
-   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+   "iconResource": "shipbuildericons/ICO_VortexDrive"
 },
  {
-   "dataName": "AdvancedVortexDrivex2",
-   "friendlyName": "Advanced Vortex Drive x2",
+   "dataName": "VortexDrivex2",
+   "friendlyName": "Vortex Drive x2",
    "thrusters": 2,
-   "notes": "Vortex Confined 2",
+   "notes": "Vortex Confined 1",
    "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "requiredProjectName": "Project_VortexDrive",
    "thrust_N": 1008000,
    "EV_kps": 19.62,
    "specificPower_kgMW": 0,
@@ -6291,17 +6130,18 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 1
+      "water": 0.995,
+      "fissiles": 0.005
    },
-   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+   "iconResource": "shipbuildericons/ICO_VortexDrive"
 },
  {
-   "dataName": "AdvancedVortexDrivex3",
-   "friendlyName": "Advanced Vortex Drive x3",
+   "dataName": "VortexDrivex3",
+   "friendlyName": "Vortex Drive x3",
    "thrusters": 3,
-   "notes": "Vortex Confined 2",
+   "notes": "Vortex Confined 1",
    "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "requiredProjectName": "Project_VortexDrive",
    "thrust_N": 1512000,
    "EV_kps": 19.62,
    "specificPower_kgMW": 0,
@@ -6318,17 +6158,18 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 1
+      "water": 0.995,
+      "fissiles": 0.005
    },
-   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+   "iconResource": "shipbuildericons/ICO_VortexDrive"
 },
  {
-   "dataName": "AdvancedVortexDrivex4",
-   "friendlyName": "Advanced Vortex Drive x4",
+   "dataName": "VortexDrivex4",
+   "friendlyName": "Vortex Drive x4",
    "thrusters": 4,
-   "notes": "Vortex Confined 2",
+   "notes": "Vortex Confined 1",
    "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "requiredProjectName": "Project_VortexDrive",
    "thrust_N": 2016000,
    "EV_kps": 19.62,
    "specificPower_kgMW": 0,
@@ -6345,17 +6186,18 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 1
+      "water": 0.995,
+      "fissiles": 0.005
    },
-   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+   "iconResource": "shipbuildericons/ICO_VortexDrive"
 },
  {
-   "dataName": "AdvancedVortexDrivex5",
-   "friendlyName": "Advanced Vortex Drive x5",
+   "dataName": "VortexDrivex5",
+   "friendlyName": "Vortex Drive x5",
    "thrusters": 5,
-   "notes": "Vortex Confined 2",
+   "notes": "Vortex Confined 1",
    "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "requiredProjectName": "Project_VortexDrive",
    "thrust_N": 2520000,
    "EV_kps": 19.62,
    "specificPower_kgMW": 0,
@@ -6372,17 +6214,18 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 1
+      "water": 0.995,
+      "fissiles": 0.005
    },
-   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+   "iconResource": "shipbuildericons/ICO_VortexDrive"
 },
  {
-   "dataName": "AdvancedVortexDrivex6",
-   "friendlyName": "Advanced Vortex Drive x6",
+   "dataName": "VortexDrivex6",
+   "friendlyName": "Vortex Drive x6",
    "thrusters": 6,
-   "notes": "Vortex Confined 2",
+   "notes": "Vortex Confined 1",
    "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "requiredProjectName": "Project_VortexDrive",
    "thrust_N": 3024000,
    "EV_kps": 19.62,
    "specificPower_kgMW": 0,
@@ -6399,7 +6242,176 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 1
+      "water": 0.995,
+      "fissiles": 0.005
+   },
+   "iconResource": "shipbuildericons/ICO_VortexDrive"
+},
+ {
+   "dataName": "AdvancedVortexDrivex1",
+   "friendlyName": "Advanced Vortex Drive x1",
+   "thrusters": 1,
+   "notes": "Vortex Confined 2",
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "thrust_N": 504000,
+   "EV_kps": 24.48,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.7,
+   "thrustRating_GW": "6.169",
+   "req power": "8.813",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Gas_Core_Fission",
+   "thrustCap": 15,
+   "cooling": "Open",
+   "powerGen": "DriveIdle",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 0.995,
+      "fissiles": 0.005
+   },
+   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+},
+ {
+   "dataName": "AdvancedVortexDrivex2",
+   "friendlyName": "Advanced Vortex Drive x2",
+   "thrusters": 2,
+   "notes": "Vortex Confined 2",
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "thrust_N": 1008000,
+   "EV_kps": 24.48,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.7,
+   "thrustRating_GW": "12.338",
+   "req power": "17.626",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Gas_Core_Fission",
+   "thrustCap": 15,
+   "cooling": "Open",
+   "powerGen": "DriveIdle",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 0.995,
+      "fissiles": 0.005
+   },
+   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+},
+ {
+   "dataName": "AdvancedVortexDrivex3",
+   "friendlyName": "Advanced Vortex Drive x3",
+   "thrusters": 3,
+   "notes": "Vortex Confined 2",
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "thrust_N": 1512000,
+   "EV_kps": 24.48,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.7,
+   "thrustRating_GW": "18.507",
+   "req power": "26.438",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Gas_Core_Fission",
+   "thrustCap": 15,
+   "cooling": "Open",
+   "powerGen": "DriveIdle",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 0.995,
+      "fissiles": 0.005
+   },
+   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+},
+ {
+   "dataName": "AdvancedVortexDrivex4",
+   "friendlyName": "Advanced Vortex Drive x4",
+   "thrusters": 4,
+   "notes": "Vortex Confined 2",
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "thrust_N": 2016000,
+   "EV_kps": 24.48,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.7,
+   "thrustRating_GW": "24.676",
+   "req power": "35.251",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Gas_Core_Fission",
+   "thrustCap": 15,
+   "cooling": "Open",
+   "powerGen": "DriveIdle",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 0.995,
+      "fissiles": 0.005
+   },
+   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+},
+ {
+   "dataName": "AdvancedVortexDrivex5",
+   "friendlyName": "Advanced Vortex Drive x5",
+   "thrusters": 5,
+   "notes": "Vortex Confined 2",
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "thrust_N": 2520000,
+   "EV_kps": 24.48,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.7,
+   "thrustRating_GW": "30.845",
+   "req power": "44.064",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Gas_Core_Fission",
+   "thrustCap": 15,
+   "cooling": "Open",
+   "powerGen": "DriveIdle",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 0.995,
+      "fissiles": 0.005
+   },
+   "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
+},
+ {
+   "dataName": "AdvancedVortexDrivex6",
+   "friendlyName": "Advanced Vortex Drive x6",
+   "thrusters": 6,
+   "notes": "Vortex Confined 2",
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_AdvancedVortexDrive",
+   "thrust_N": 3024000,
+   "EV_kps": 24.48,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.7,
+   "thrustRating_GW": "37.014",
+   "req power": "52.877",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Gas_Core_Fission",
+   "thrustCap": 15,
+   "cooling": "Open",
+   "powerGen": "DriveIdle",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 0.995,
+      "fissiles": 0.005
    },
    "iconResource": "shipbuildericons/ICO_AdvancedVortexDrive"
 },
@@ -6411,11 +6423,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_CavityDrive",
    "thrust_N": 56400,
-   "EV_kps": 19.62,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "0.553",
-   "req power": "0.651",
+   "thrustRating_GW": "0.575",
+   "req power": "0.677",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -6426,7 +6438,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_CavityDrive"
@@ -6439,11 +6452,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_CavityDrive",
    "thrust_N": 112800,
-   "EV_kps": 19.62,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "1.107",
-   "req power": "1.302",
+   "thrustRating_GW": "1.151",
+   "req power": "1.354",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -6454,7 +6467,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_CavityDrive"
@@ -6467,11 +6481,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_CavityDrive",
    "thrust_N": 169200,
-   "EV_kps": 19.62,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "1.660",
-   "req power": "1.953",
+   "thrustRating_GW": "1.726",
+   "req power": "2.030",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -6482,7 +6496,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_CavityDrive"
@@ -6495,11 +6510,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_CavityDrive",
    "thrust_N": 225600,
-   "EV_kps": 19.62,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "2.213",
-   "req power": "2.604",
+   "thrustRating_GW": "2.301",
+   "req power": "2.707",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -6510,7 +6525,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_CavityDrive"
@@ -6523,11 +6539,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_CavityDrive",
    "thrust_N": 282000,
-   "EV_kps": 19.62,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "2.766",
-   "req power": "3.255",
+   "thrustRating_GW": "2.876",
+   "req power": "3.384",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -6538,7 +6554,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_CavityDrive"
@@ -6551,11 +6568,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_CavityDrive",
    "thrust_N": 338400,
-   "EV_kps": 19.62,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "3.320",
-   "req power": "3.906",
+   "thrustRating_GW": "3.452",
+   "req power": "4.061",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -6566,7 +6583,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_CavityDrive"
@@ -6579,11 +6597,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedCavityDrive",
    "thrust_N": 330000,
-   "EV_kps": 24.48,
+   "EV_kps": 30.88,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "4.039",
-   "req power": "4.752",
+   "thrustRating_GW": "5.095",
+   "req power": "5.994",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 16,
@@ -6594,7 +6612,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_AdvancedCavityDrive"
@@ -6607,11 +6626,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedCavityDrive",
    "thrust_N": 660000,
-   "EV_kps": 24.48,
+   "EV_kps": 30.88,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "8.078",
-   "req power": "9.504",
+   "thrustRating_GW": "10.190",
+   "req power": "11.989",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 16,
@@ -6622,7 +6641,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_AdvancedCavityDrive"
@@ -6635,11 +6655,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedCavityDrive",
    "thrust_N": 990000,
-   "EV_kps": 24.48,
+   "EV_kps": 30.88,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "12.118",
-   "req power": "14.256",
+   "thrustRating_GW": "15.286",
+   "req power": "17.983",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 16,
@@ -6650,7 +6670,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_AdvancedCavityDrive"
@@ -6663,11 +6684,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedCavityDrive",
    "thrust_N": 1320000,
-   "EV_kps": 24.48,
+   "EV_kps": 30.88,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "16.157",
-   "req power": "19.008",
+   "thrustRating_GW": "20.381",
+   "req power": "23.977",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 16,
@@ -6678,7 +6699,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_AdvancedCavityDrive"
@@ -6691,11 +6713,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedCavityDrive",
    "thrust_N": 1650000,
-   "EV_kps": 24.48,
+   "EV_kps": 30.88,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "20.196",
-   "req power": "23.760",
+   "thrustRating_GW": "25.476",
+   "req power": "29.972",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 16,
@@ -6706,7 +6728,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_AdvancedCavityDrive"
@@ -6719,11 +6742,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_AdvancedCavityDrive",
    "thrust_N": 1980000,
-   "EV_kps": 24.48,
+   "EV_kps": 30.88,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "24.235",
-   "req power": "28.512",
+   "thrustRating_GW": "30.571",
+   "req power": "35.966",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 16,
@@ -6734,7 +6757,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_AdvancedCavityDrive"
@@ -6746,11 +6770,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_QuartzDrive",
    "thrust_N": 117700,
-   "EV_kps": 10.8,
+   "EV_kps": 18.3,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "0.636",
-   "req power": "0.748",
+   "thrustRating_GW": "1.077",
+   "req power": "1.267",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 12,
@@ -6762,7 +6786,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_QuartzDrive"
 },
@@ -6773,11 +6797,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_QuartzDrive",
    "thrust_N": 235400,
-   "EV_kps": 10.8,
+   "EV_kps": 18.3,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "1.271",
-   "req power": "1.495",
+   "thrustRating_GW": "2.154",
+   "req power": "2.534",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 12,
@@ -6789,7 +6813,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_QuartzDrive"
 },
@@ -6800,11 +6824,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_QuartzDrive",
    "thrust_N": 353100,
-   "EV_kps": 10.8,
+   "EV_kps": 18.3,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "1.907",
-   "req power": "2.243",
+   "thrustRating_GW": "3.231",
+   "req power": "3.801",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 12,
@@ -6816,7 +6840,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_QuartzDrive"
 },
@@ -6827,11 +6851,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_QuartzDrive",
    "thrust_N": 470800,
-   "EV_kps": 10.8,
+   "EV_kps": 18.3,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "2.542",
-   "req power": "2.991",
+   "thrustRating_GW": "4.308",
+   "req power": "5.068",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 12,
@@ -6843,7 +6867,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_QuartzDrive"
 },
@@ -6854,11 +6878,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_QuartzDrive",
    "thrust_N": 588500,
-   "EV_kps": 10.8,
+   "EV_kps": 18.3,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "3.178",
-   "req power": "3.739",
+   "thrustRating_GW": "5.385",
+   "req power": "6.335",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 12,
@@ -6870,7 +6894,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_QuartzDrive"
 },
@@ -6881,11 +6905,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_QuartzDrive",
    "thrust_N": 706200,
-   "EV_kps": 10.8,
+   "EV_kps": 18.3,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "3.813",
-   "req power": "4.486",
+   "thrustRating_GW": "6.462",
+   "req power": "7.602",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 12,
@@ -6897,7 +6921,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_QuartzDrive"
 },
@@ -6909,11 +6933,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_LightbulbDrive",
    "thrust_N": 409000,
-   "EV_kps": 18.3,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "3.742",
-   "req power": "4.403",
+   "thrustRating_GW": "4.172",
+   "req power": "4.908",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -6925,7 +6949,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LightbulbDrive"
 },
@@ -6936,11 +6960,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_LightbulbDrive",
    "thrust_N": 818000,
-   "EV_kps": 18.3,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "7.485",
-   "req power": "8.806",
+   "thrustRating_GW": "8.344",
+   "req power": "9.816",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -6952,7 +6976,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LightbulbDrive"
 },
@@ -6963,11 +6987,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_LightbulbDrive",
    "thrust_N": 1227000,
-   "EV_kps": 18.3,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "11.227",
-   "req power": "13.208",
+   "thrustRating_GW": "12.515",
+   "req power": "14.724",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -6979,7 +7003,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LightbulbDrive"
 },
@@ -6990,11 +7014,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_LightbulbDrive",
    "thrust_N": 1636000,
-   "EV_kps": 18.3,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "14.969",
-   "req power": "17.611",
+   "thrustRating_GW": "16.687",
+   "req power": "19.632",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -7006,7 +7030,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LightbulbDrive"
 },
@@ -7017,11 +7041,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_LightbulbDrive",
    "thrust_N": 2045000,
-   "EV_kps": 18.3,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "18.712",
-   "req power": "22.014",
+   "thrustRating_GW": "20.859",
+   "req power": "24.540",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -7033,7 +7057,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LightbulbDrive"
 },
@@ -7044,11 +7068,11 @@
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_LightbulbDrive",
    "thrust_N": 2454000,
-   "EV_kps": 18.3,
+   "EV_kps": 20.4,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "22.454",
-   "req power": "26.417",
+   "thrustRating_GW": "25.031",
+   "req power": "29.448",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 15,
@@ -7060,7 +7084,7 @@
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
       "water": 0.99,
-      "nobleMetals": 0.01
+      "volatiles": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LightbulbDrive"
 },
@@ -7071,12 +7095,12 @@
    "notes": "Gaseous Core NTR closed 1",
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_PharosDrive",
-   "thrust_N": 445000,
-   "EV_kps": 20.4,
+   "thrust_N": 890000,
+   "EV_kps": 25.5,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "4.539",
-   "req power": "5.340",
+   "thrustRating_GW": "11.348",
+   "req power": "13.350",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 16,
@@ -7087,7 +7111,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_PharosDrive"
@@ -7098,89 +7123,8 @@
    "thrusters": 2,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_PharosDrive",
-   "thrust_N": 890000,
-   "EV_kps": 20.4,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.85,
-   "thrustRating_GW": "9.078",
-   "req power": "10.680",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Gas_Core_Fission",
-   "thrustCap": 16,
-   "cooling": "Closed",
-   "powerGen": "DriveIdle",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 0.99,
-      "nobleMetals": 0.01
-   },
-   "iconResource": "shipbuildericons/ICO_PharosDrive"
-},
- {
-   "dataName": "PharosDrivex3",
-   "friendlyName": "Pharos Drive x3",
-   "thrusters": 3,
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_PharosDrive",
-   "thrust_N": 1335000,
-   "EV_kps": 20.4,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.85,
-   "thrustRating_GW": "13.617",
-   "req power": "16.020",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Gas_Core_Fission",
-   "thrustCap": 16,
-   "cooling": "Closed",
-   "powerGen": "DriveIdle",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 0.99,
-      "nobleMetals": 0.01
-   },
-   "iconResource": "shipbuildericons/ICO_PharosDrive"
-},
- {
-   "dataName": "PharosDrivex4",
-   "friendlyName": "Pharos Drive x4",
-   "thrusters": 4,
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_PharosDrive",
    "thrust_N": 1780000,
-   "EV_kps": 20.4,
-   "specificPower_kgMW": 0,
-   "efficiency": 0.85,
-   "thrustRating_GW": "18.156",
-   "req power": "21.360",
-   "flatMass_tons": 0,
-   "requiredPowerPlant": "Gas_Core_Fission",
-   "thrustCap": 16,
-   "cooling": "Closed",
-   "powerGen": "DriveIdle",
-   "weightedBuildMaterials": {
-      "metals": 1
-   },
-   "propellant": "Hydrogen",
-   "perTankPropellantMaterials": {
-      "water": 0.99,
-      "nobleMetals": 0.01
-   },
-   "iconResource": "shipbuildericons/ICO_PharosDrive"
-},
- {
-   "dataName": "PharosDrivex5",
-   "friendlyName": "Pharos Drive x5",
-   "thrusters": 5,
-   "driveClassification": "Fission_Thermal",
-   "requiredProjectName": "Project_PharosDrive",
-   "thrust_N": 2225000,
-   "EV_kps": 20.4,
+   "EV_kps": 25.5,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
    "thrustRating_GW": "22.695",
@@ -7195,23 +7139,24 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_PharosDrive"
 },
  {
-   "dataName": "PharosDrivex6",
-   "friendlyName": "Pharos Drive x6",
-   "thrusters": 6,
+   "dataName": "PharosDrivex3",
+   "friendlyName": "Pharos Drive x3",
+   "thrusters": 3,
    "driveClassification": "Fission_Thermal",
    "requiredProjectName": "Project_PharosDrive",
    "thrust_N": 2670000,
-   "EV_kps": 20.4,
+   "EV_kps": 25.5,
    "specificPower_kgMW": 0,
    "efficiency": 0.85,
-   "thrustRating_GW": "27.234",
-   "req power": "32.040",
+   "thrustRating_GW": "34.043",
+   "req power": "40.050",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Gas_Core_Fission",
    "thrustCap": 16,
@@ -7222,7 +7167,92 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
+      "nobleMetals": 0.01
+   },
+   "iconResource": "shipbuildericons/ICO_PharosDrive"
+},
+ {
+   "dataName": "PharosDrivex4",
+   "friendlyName": "Pharos Drive x4",
+   "thrusters": 4,
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_PharosDrive",
+   "thrust_N": 3560000,
+   "EV_kps": 25.5,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.85,
+   "thrustRating_GW": "45.390",
+   "req power": "53.400",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Gas_Core_Fission",
+   "thrustCap": 16,
+   "cooling": "Closed",
+   "powerGen": "DriveIdle",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 0.98,
+      "volatiles": 0.01,
+      "nobleMetals": 0.01
+   },
+   "iconResource": "shipbuildericons/ICO_PharosDrive"
+},
+ {
+   "dataName": "PharosDrivex5",
+   "friendlyName": "Pharos Drive x5",
+   "thrusters": 5,
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_PharosDrive",
+   "thrust_N": 4450000,
+   "EV_kps": 25.5,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.85,
+   "thrustRating_GW": "56.738",
+   "req power": "66.750",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Gas_Core_Fission",
+   "thrustCap": 16,
+   "cooling": "Closed",
+   "powerGen": "DriveIdle",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 0.98,
+      "volatiles": 0.01,
+      "nobleMetals": 0.01
+   },
+   "iconResource": "shipbuildericons/ICO_PharosDrive"
+},
+ {
+   "dataName": "PharosDrivex6",
+   "friendlyName": "Pharos Drive x6",
+   "thrusters": 6,
+   "driveClassification": "Fission_Thermal",
+   "requiredProjectName": "Project_PharosDrive",
+   "thrust_N": 5340000,
+   "EV_kps": 25.5,
+   "specificPower_kgMW": 0,
+   "efficiency": 0.85,
+   "thrustRating_GW": "68.085",
+   "req power": "80.100",
+   "flatMass_tons": 0,
+   "requiredPowerPlant": "Gas_Core_Fission",
+   "thrustCap": 16,
+   "cooling": "Closed",
+   "powerGen": "DriveIdle",
+   "weightedBuildMaterials": {
+      "metals": 1
+   },
+   "propellant": "Hydrogen",
+   "perTankPropellantMaterials": {
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_PharosDrive"
@@ -7250,7 +7280,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LodestarFissionLantern"
@@ -7277,7 +7308,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LodestarFissionLantern"
@@ -7304,7 +7336,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LodestarFissionLantern"
@@ -7331,7 +7364,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LodestarFissionLantern"
@@ -7358,7 +7392,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LodestarFissionLantern"
@@ -7385,7 +7420,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99,
+      "water": 0.98,
+      "volatiles": 0.01,
       "nobleMetals": 0.01
    },
    "iconResource": "shipbuildericons/ICO_LodestarFissionLantern"
@@ -13703,12 +13739,12 @@
    "thrusters": 1,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPulsedPlasmaCoreLantern",
-   "thrust_N": 1600000,
-   "EV_kps": 240,
+   "thrust_N": 1100000,
+   "EV_kps": 360,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "192.000",
-   "req power": "192.385",
+   "thrustRating_GW": "198.000",
+   "req power": "198.397",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13719,8 +13755,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99997,
-      "antimatter": 0.00003
+      "water": 0.999982,
+      "antimatter": 0.000018
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13730,12 +13766,12 @@
    "thrusters": 2,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPulsedPlasmaCoreLantern",
-   "thrust_N": 3200000,
-   "EV_kps": 240,
+   "thrust_N": 2200000,
+   "EV_kps": 360,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "384.000",
-   "req power": "384.770",
+   "thrustRating_GW": "396.000",
+   "req power": "396.794",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13746,8 +13782,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99997,
-      "antimatter": 0.00003
+      "water": 0.999982,
+      "antimatter": 0.000018
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13757,12 +13793,12 @@
    "thrusters": 3,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPulsedPlasmaCoreLantern",
-   "thrust_N": 4800000,
-   "EV_kps": 240,
+   "thrust_N": 3300000,
+   "EV_kps": 360,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "576.000",
-   "req power": "577.154",
+   "thrustRating_GW": "594.000",
+   "req power": "595.190",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13773,8 +13809,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99997,
-      "antimatter": 0.00003
+      "water": 0.999982,
+      "antimatter": 0.000018
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13784,12 +13820,12 @@
    "thrusters": 4,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPulsedPlasmaCoreLantern",
-   "thrust_N": 6400000,
-   "EV_kps": 240,
+   "thrust_N": 4400000,
+   "EV_kps": 360,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "768.000",
-   "req power": "769.539",
+   "thrustRating_GW": "792.000",
+   "req power": "793.587",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13800,8 +13836,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99997,
-      "antimatter": 0.00003
+      "water": 0.999982,
+      "antimatter": 0.000018
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13811,12 +13847,12 @@
    "thrusters": 5,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPulsedPlasmaCoreLantern",
-   "thrust_N": 8000000,
-   "EV_kps": 240,
+   "thrust_N": 5500000,
+   "EV_kps": 360,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "960.000",
-   "req power": "961.924",
+   "thrustRating_GW": "990.000",
+   "req power": "991.984",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13827,8 +13863,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99997,
-      "antimatter": 0.00003
+      "water": 0.999982,
+      "antimatter": 0.000018
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13838,12 +13874,12 @@
    "thrusters": 6,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPulsedPlasmaCoreLantern",
-   "thrust_N": 9600000,
-   "EV_kps": 240,
+   "thrust_N": 6600000,
+   "EV_kps": 360,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "1,152.000",
-   "req power": "1,154.309",
+   "thrustRating_GW": "1,188.000",
+   "req power": "1,190.381",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13854,8 +13890,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99997,
-      "antimatter": 0.00003
+      "water": 0.999982,
+      "antimatter": 0.000018
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPulsedPlasmaCoreLantern"
 },
@@ -13865,12 +13901,12 @@
    "thrusters": 1,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPlasmaCoreTorch",
-   "thrust_N": 3500000,
-   "EV_kps": 595,
+   "thrust_N": 2540000,
+   "EV_kps": 820,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "1,041.250",
-   "req power": "1,043.337",
+   "thrustRating_GW": "1,041.400",
+   "req power": "1,043.487",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13881,8 +13917,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99994,
-      "antimatter": 0.00006
+      "water": 0.999959,
+      "antimatter": 0.000041
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -13892,12 +13928,12 @@
    "thrusters": 2,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPlasmaCoreTorch",
-   "thrust_N": 7000000,
-   "EV_kps": 595,
+   "thrust_N": 5080000,
+   "EV_kps": 820,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "2,082.500",
-   "req power": "2,086.673",
+   "thrustRating_GW": "2,082.800",
+   "req power": "2,086.974",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13908,8 +13944,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99994,
-      "antimatter": 0.00006
+      "water": 0.999959,
+      "antimatter": 0.000041
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -13919,12 +13955,12 @@
    "thrusters": 3,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPlasmaCoreTorch",
-   "thrust_N": 10500000,
-   "EV_kps": 595,
+   "thrust_N": 7620000,
+   "EV_kps": 820,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "3,123.750",
-   "req power": "3,130.010",
+   "thrustRating_GW": "3,124.200",
+   "req power": "3,130.461",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13935,8 +13971,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99994,
-      "antimatter": 0.00006
+      "water": 0.999959,
+      "antimatter": 0.000041
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -13946,12 +13982,12 @@
    "thrusters": 4,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPlasmaCoreTorch",
-   "thrust_N": 14000000,
-   "EV_kps": 595,
+   "thrust_N": 10160000,
+   "EV_kps": 820,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "4,165.000",
-   "req power": "4,173.347",
+   "thrustRating_GW": "4,165.600",
+   "req power": "4,173.948",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13962,8 +13998,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99994,
-      "antimatter": 0.00006
+      "water": 0.999959,
+      "antimatter": 0.000041
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -13973,12 +14009,12 @@
    "thrusters": 5,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPlasmaCoreTorch",
-   "thrust_N": 17500000,
-   "EV_kps": 595,
+   "thrust_N": 12700000,
+   "EV_kps": 820,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "5,206.250",
-   "req power": "5,216.683",
+   "thrustRating_GW": "5,207.000",
+   "req power": "5,217.435",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -13989,8 +14025,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99994,
-      "antimatter": 0.00006
+      "water": 0.999959,
+      "antimatter": 0.000041
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -14000,12 +14036,12 @@
    "thrusters": 6,
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AntimatterPlasmaCoreTorch",
-   "thrust_N": 21000000,
-   "EV_kps": 595,
+   "thrust_N": 15240000,
+   "EV_kps": 820,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "6,247.500",
-   "req power": "6,260.020",
+   "thrustRating_GW": "6,248.400",
+   "req power": "6,260.922",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -14016,8 +14052,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99994,
-      "antimatter": 0.00006
+      "water": 0.999959,
+      "antimatter": 0.000041
    },
    "iconResource": "shipbuildericons/ICO_AntimatterPlasmaCoreTorch"
 },
@@ -14028,11 +14064,11 @@
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AdvancedAntimatterPlasmaCoreTorch",
    "thrust_N": 4900000,
-   "EV_kps": 2800,
+   "EV_kps": 4400,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "6,860.000",
-   "req power": "6,873.747",
+   "thrustRating_GW": "10,780.000",
+   "req power": "10,801.603",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -14043,8 +14079,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99991,
-      "antimatter": 0.00009
+      "water": 0.99978,
+      "antimatter": 0.00022
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14055,11 +14091,11 @@
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AdvancedAntimatterPlasmaCoreTorch",
    "thrust_N": 9800000,
-   "EV_kps": 2800,
+   "EV_kps": 4400,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "13,720.000",
-   "req power": "13,747.495",
+   "thrustRating_GW": "21,560.000",
+   "req power": "21,603.206",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -14070,8 +14106,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99991,
-      "antimatter": 0.00009
+      "water": 0.99978,
+      "antimatter": 0.00022
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14082,11 +14118,11 @@
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AdvancedAntimatterPlasmaCoreTorch",
    "thrust_N": 14700000,
-   "EV_kps": 2800,
+   "EV_kps": 4400,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "20,580.000",
-   "req power": "20,621.242",
+   "thrustRating_GW": "32,340.000",
+   "req power": "32,404.810",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -14097,8 +14133,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99991,
-      "antimatter": 0.00009
+      "water": 0.99978,
+      "antimatter": 0.00022
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14109,11 +14145,11 @@
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AdvancedAntimatterPlasmaCoreTorch",
    "thrust_N": 19600000,
-   "EV_kps": 2800,
+   "EV_kps": 4400,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "27,440.000",
-   "req power": "27,494.990",
+   "thrustRating_GW": "43,120.000",
+   "req power": "43,206.413",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -14124,8 +14160,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99991,
-      "antimatter": 0.00009
+      "water": 0.99978,
+      "antimatter": 0.00022
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14136,11 +14172,11 @@
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AdvancedAntimatterPlasmaCoreTorch",
    "thrust_N": 24500000,
-   "EV_kps": 2800,
+   "EV_kps": 4400,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "34,300.000",
-   "req power": "34,368.737",
+   "thrustRating_GW": "53,900.000",
+   "req power": "54,008.016",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -14151,8 +14187,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99991,
-      "antimatter": 0.00009
+      "water": 0.99978,
+      "antimatter": 0.00022
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },
@@ -14163,11 +14199,11 @@
    "driveClassification": "Antimatter",
    "requiredProjectName": "Project_AdvancedAntimatterPlasmaCoreTorch",
    "thrust_N": 29400000,
-   "EV_kps": 2800,
+   "EV_kps": 4400,
    "specificPower_kgMW": 0,
    "efficiency": 0.998,
-   "thrustRating_GW": "41,160.000",
-   "req power": "41,242.485",
+   "thrustRating_GW": "64,680.000",
+   "req power": "64,809.619",
    "flatMass_tons": 0,
    "requiredPowerPlant": "Antimatter_Plasma_Core",
    "thrustCap": 60,
@@ -14178,8 +14214,8 @@
    },
    "propellant": "Hydrogen",
    "perTankPropellantMaterials": {
-      "water": 0.99991,
-      "antimatter": 0.00009
+      "water": 0.99978,
+      "antimatter": 0.00022
    },
    "iconResource": "shipbuildericons/ICO_AdvancedAntimatterPlasmaCoreTorch"
 },

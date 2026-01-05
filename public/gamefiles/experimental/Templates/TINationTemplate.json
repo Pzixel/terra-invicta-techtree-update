@@ -4431,6 +4431,7 @@
       "RUS",
       "CHN",
       "CHN",
+      "CHN",
       "CHN"
    ]
 },
@@ -17728,6 +17729,7 @@
       "RUS",
       "CHN",
       "CHN",
+      "CHN",
       "CHN"
    ]
 },
@@ -24425,7 +24427,7 @@
  {
    "friendlyName": "2070_Syria",
    "dataName": "2070_SYR",
-   "flagResource": "nationflags/Syria",
+   "flagResource": "nationflags/Syria2025",
    "color32": {
       "r": 190,
       "g": 190,
@@ -26119,7 +26121,7 @@
    "education": 6.64,
    "greenEconomy": 0.83,
    "spaceFunding_year": 4,
-   "miltech": 3.6,
+   "miltech": 3.8,
    "foundMilitaryIPs": 1,
    "nuclearWeapons": 0,
    "initSpaceIPs": 0.1,
@@ -26311,7 +26313,7 @@
    "initialPriorityPreset": [
       "Conservative",
       "Populist",
-      "Liberal",
+      "Libertarian",
       "Industrialization",
       "Industrialization",
       "Industrialization"
@@ -26525,9 +26527,9 @@
    "buildArmyIPs": 0.6,
    "buildNavyIPs": 0.4,
    "initialPriorityPreset": [
+      "Conservative",
       "Modernization",
       "Liberal",
-      "Conservative",
       "Conservative",
       "Libertarian",
       "Modernization"
@@ -26833,7 +26835,7 @@
    "popGrowthModifier": 0,
    "cohesion": 5.17,
    "unrest": 0.5,
-   "inequality": 0.47,
+   "inequality": 4.7,
    "democracy": 8.4,
    "education": 7.41,
    "greenEconomy": 0.496,
@@ -27514,9 +27516,9 @@
    "buildNavyIPs": 0,
    "initialPriorityPreset": [
       "Developing",
-      "Liberal",
-      "Conservative",
       "Populist",
+      "Conservative",
+      "Liberal",
       "Developing",
       "Kleptocratic"
    ],
@@ -30078,10 +30080,10 @@
    "buildArmyIPs": 0.5,
    "buildNavyIPs": 0,
    "initialPriorityPreset": [
-      "Liberal",
-      "Technocratic",
       "Green",
+      "Technocratic",
       "Centrist",
+      "Conservative",
       "Technocratic",
       "Socialist"
    ],
@@ -30307,6 +30309,7 @@
       "GBR",
       "GBR",
       "RUS",
+      "CHN",
       "CHN",
       "CHN",
       "CHN"
@@ -37365,9 +37368,9 @@
    "buildNavyIPs": 0.5,
    "initialPriorityPreset": [
       "Survival",
-      "Liberal",
       "Digitalization",
-      "Conservative",
+      "Centrist",
+      "Liberal",
       "Digitalization",
       "Modernization"
    ],
@@ -37668,7 +37671,7 @@
    "yearofHighestGDP": 2018,
    "highestPerCapitaGDP": 1.743,
    "initialPriorityPreset": [
-      "Developing",
+      "Stability",
       "Authoritarian",
       "Totalitarian",
       "Authoritarian",
@@ -37926,7 +37929,7 @@
  {
    "friendlyName": "2026_Syria",
    "dataName": "2026_SYR",
-   "flagResource": "nationflags/Syria",
+   "flagResource": "nationflags/Syria2025",
    "color32": {
       "r": 190,
       "g": 190,
@@ -37957,7 +37960,7 @@
    "buildNavyIPs": 0,
    "initialPriorityPreset": [
       "Stability",
-      "Totalitarian",
+      "Stability",
       "Authoritarian",
       "Stability",
       "Subsistence",
@@ -38894,9 +38897,9 @@
    "buildNavyIPs": 0,
    "initialPriorityPreset": [
       "Socialist",
-      "Liberal",
-      "Centrist",
       "Conservative",
+      "Centrist",
+      "Centrist",
       "Conservative",
       "Digitalization"
    ],
@@ -38992,7 +38995,7 @@
       "Digitalization",
       "Centrist",
       "Reactionary",
-      "Authoritarian"
+      "Reactionary"
    ],
    "tankSeries": [
       "USA",

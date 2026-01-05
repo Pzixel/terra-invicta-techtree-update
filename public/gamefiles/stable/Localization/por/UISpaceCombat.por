@@ -262,7 +262,7 @@ UI.SpaceCombat.BattleLog.ShipDamagedRadiation={2}, {1} {0}, foi atingida por {3}
 UI.SpaceCombat.BattleLog.ShipDamagedNoWeapon={2}, {1} {0}, recebeu <color=#FFFFFFFF><sprite name="army_battle"></color> {4} de dano total, <color=#FFFFFFFF><sprite name="armor"></color> {5} foi absorvido pelos escudos, <color=#FFFFFFFF><sprite name="ship_damage"></color> {6} de dano penetrou.
 UI.SpaceCombat.BattleLog.ArmorHolding={2}, {1} {0}, foi atingida por {3}. Todo o dano de <color=#FFFFFFFF><sprite name="armor"></color> {5} foi absorvido pelos escudos. {6} em {7}.
 UI.SpaceCombat.BattleLog.HabDamaged=Um habitat de {0} em {1} foi atingido por {2}, recebendo <color=#FFFFFFFF><sprite name="army_battle"></color> {3} de dano total.
-UI.SpaceCombat.BattleLog.PartRepaired={0} {1} {2} relatou que {3} já recebeu reparos.
+UI.SpaceCombat.BattleLog.PartRepaired={2}, {1} {0}, relatou que {3} já recebeu reparos.
 
 UI.SpaceCombat.BattleLog.AllLogs.Title=Todos os registros
 UI.SpaceCombat.BattleLog.Destruction.Title=Destruição

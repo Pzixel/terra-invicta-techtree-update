@@ -27,7 +27,7 @@ TIMissionTemplate.Failure.Purge={targetNationNameWithPrep}の{returnedValue}の�
 TIMissionTemplate.CriticalFailure.Purge={targetNationNameWithPrep}での{returnedValue}に対する粛清ミッションに失敗しました。私の活動が敵に気づかれた可能性が高く、また、民衆の支持を失ってしまいました。
 
 TIMissionTemplate.displayName.Advise=政策提言
-TIMissionTemplate.description.Advise=国家やハブに専門的なアドバイスを与える。評議員の科学、司令、行政といった属性が、ターゲットの研究成果、戦闘能力、財務実績を改善する。助言する評議員を加えても、その効果は減少する。
+TIMissionTemplate.description.Advise=国家やハブに専門的なアドバイスを与える。評議員の科学、指揮、行政といった属性が、ターゲットの研究成果、戦闘能力、財務実績を改善する。助言する評議員を加えても、その効果は減少する。
 TIMissionTemplate.Success.Advise={targetNationNameWithArticle}に専門的なアドバイスを行う。{returnedValue}
 
 TIMissionTemplate.displayName.Assassinate=暗殺
@@ -189,7 +189,7 @@ TIMissionTemplate.description.PassTechnology=人間の同盟を助けるため�
 TIMissionTemplate.Success.PassTechnology=人間の同盟を支援した。
 
 TIMissionTemplate.displayName.Protect=ターゲットの保護
-TIMissionTemplate.description.Protect=評議員の「保安」と「司令」の属性を適用し、ターゲットの地域、ハブ、または味方の評議員を物理攻撃やその他の作戦から守る。また、ミッションの失敗によるターゲットの評議員の死亡を防ぐ。
+TIMissionTemplate.description.Protect=評議員の「保安」と「指揮」の属性を適用し、ターゲットの地域、ハブ、または味方の評議員を物理攻撃やその他の作戦から守る。また、ミッションの失敗によるターゲットの評議員の死亡を防ぐ。
 TIMissionTemplate.Success.Protect=私は現在、敵の作戦から{targetDisplayName}を保護している。
 
 TIMissionTemplate.displayName.SabotageFacilities=施設の破壊
@@ -224,7 +224,7 @@ TIMissionTemplate.Failure.SeizeSpaceAsset=敗北！{targetFactionName}の{target
 TIMissionTemplate.CriticalFailure.SeizeSpaceAsset=敗北！{targetFactionName}の{targetDisplayName}を占領できなかった。{returnedValue}
 
 TIMissionTemplate.displayName.Stabilize=国家の安定化
-TIMissionTemplate.description.Stabilize=ターゲット国家の社会不安を縮小させ、経済を改善し、政府が転覆される可能性を低下させる。既存の社会不安が国家の社会不安停止状態の値の半分以下である場合、効果が弱まる。
+TIMissionTemplate.description.Stabilize=ターゲット国家の社会不安を縮小させ、経済を改善し、政府が転覆される可能性を低下させる。既存の社会不安が国家の社会不安基準値の半分以下である場合、効果が弱まる。
 TIMissionTemplate.CriticalSuccess.Stabilize={targetNationNameWithPrep}の社会不安を{returnedValue}減の{targetNationUnrestWithString}まで大幅に減少させた。
 TIMissionTemplate.Success.Stabilize={targetNationNameWithPrep}の社会不安を{returnedValue}減の{targetNationUnrestWithString}に減少させた。
 TIMissionTemplate.Failure.Stabilize={targetNationNameWithPrep}の社会不安を軽減させるミッションに失敗した。
@@ -499,7 +499,7 @@ TIMissionCondition_VictoryCondition=派閥はすべての勝利条件を満た�
 TIMissionCondition_SufficientMissionControl=利用可能なミッション・コントロールを保有している必要がある
 TIMissionCondition_FreeCouncilor=ターゲット評議員は拘束されていないこと、また、活動できる状態であること
 TIMissionCondition_TargetableHabModule=敵の非中核モジュールであること
-TIMissionCondition_TargetableOrg=未配属組織プールにある敵組織か、我々が重要な情報を得た評議員に割り当てられた組織でなければならない
+TIMissionCondition_TargetableOrg=未割り当て組織プールにある敵組織か、我々が重要な情報を得た評議員に割り当てられた組織でなければならない
 _Fail=ミッションにおいて有効なターゲットタイプであり、評議員へのアクセスがなければならない。
 
 TIMissionAbort_ControlPointRemoved=ターゲットのコントロール・ポイントが存在しないため、このミッションは中止となった。

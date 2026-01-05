@@ -33,7 +33,6 @@ TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_PlanetarySystem={1}
 TIVictoryCondition.FreePlanets_DefeatNonVeryProAlienFactions_Region={1} 천체에서 외계인과 동맹을 맺지 않은 진영({2})에 속하는 {0} 티어 이상의 모든 거주지를 파괴합니다.
 TIVictoryCondition.FreePlanets_DefeatExtremists_PlanetarySystem={1} 행성계에서 외계인 및 인간 극단주의 진영({2})에 속하는 {0} 티어 이상의 모든 거주지를 파괴합니다.
 TIVictoryCondition.FreePlanets_DefeatExtremists_Region={1} 천체에서 외계인 및 인간 극단주의 진영({2})에 속하는 {0} 티어 이상의 모든 거주지를 파괴합니다.
-
 TIVictoryCondition.FreeBases_DefeatAliens_PlanetarySystem={1} 행성계에서 {0} 티어 이상의 모든 외계인 기지를 파괴합니다.
 TIVictoryCondition.FreeBases_DefeatAliens_Region={1} 천체에서 {0} 티어 이상의 모든 외계인 기지를 파괴합니다.
 TIVictoryCondition.FreeBases_DefeatAliensAndAllies_PlanetarySystem={1} 행성계에서 외계인 및 인간 지지자 진영({2})에 속하는 {0} 티어 이상의 모든 기지를 파괴합니다.
@@ -46,14 +45,12 @@ TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_PlanetarySystem={1} �
 TIVictoryCondition.FreeBases_DefeatNonVeryProAlienFactions_Region={1} 천체에서 외계인과 동맹을 맺지 않은 진영({2})에 속하는 {0} 티어 이상의 모든 기지를 파괴합니다.
 TIVictoryCondition.FreeBases_DefeatExtremists_PlanetarySystem={1} 행성계에서 외계인 및 인간 극단주의 진영({2})에 속하는 {0} 티어 이상의 모든 기지를 파괴합니다.
 TIVictoryCondition.FreeBases_DefeatExtremists_Region={1} 천체에서 외계인 및 인간 극단주의 진영({2})에 속하는 {0} 티어 이상의 모든 기지를 파괴합니다.
-
 TIVictoryCondition.FreeFleets_DefeatAliens_All=전투력이 {0} 이상인 모든 외계 함대를 파괴합니다.
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_All=외계인과 그 인간 지지자 진영({2})에 속하며 전투력이 {0} 이상인 모든 함대를 파괴합니다.
-TIVictoryCondition.FreeFleets_DefeatEveryone_All=우리 진영에 속하지 않은 전투력이 {0} 이상인 모든 함대를 파괴합니다. 
+TIVictoryCondition.FreeFleets_DefeatEveryone_All=우리 진영에 속하지 않은 전투력이 {0} 이상인 모든 함대를 파괴합니다.
 TIVictoryCondition.FreeFleets_DefeatAntiAlienFactions_All=반외계 진영({2})에 속하는 전투력이 {0} 이상인 모든 함대를 파괴합니다.
 TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_All=외계인과 동맹을 맺지 않은 진영({2})에 속하며 전투력이 {0} 이상인 모든 함대를 파괴합니다.
 TIVictoryCondition.FreeFleets_DefeatExtremists_All=외계인 및 인간 극단주의 진영({2})에 속하며 전투력이 {0} 이상인 모든 함대를 파괴합니다.
-
 TIVictoryCondition.FreeFleets_DefeatAliens_PlanetarySystem={1} 행성계에서 전투력이 {0} 이상인 모든 외계 함대를 파괴합니다.
 TIVictoryCondition.FreeFleets_DefeatAliens_Region={1} 천체에서 전투력이 {0} 이상인 모든 외계 함대를 파괴합니다.
 TIVictoryCondition.FreeFleets_DefeatAliensAndAllies_PlanetarySystem={1} 행성계에서 외계인과 그 인간 지지자 진영({2})에 속하며 전투력이 {0} 이상인 모든 함대를 파괴합니다.
@@ -66,5 +63,4 @@ TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_PlanetarySystem={1} 
 TIVictoryCondition.FreeFleets_DefeatNonVeryProAlienFactions_Region={1} 천체에서 외계인과 동맹을 맺지 않은 진영({2})에 속하며 전투력이 {0} 이상인 모든 함대를 파괴합니다.
 TIVictoryCondition.FreeFleets_DefeatExtremists_PlanetarySystem={1} 행성계에서 외계인과 인간 극단주의 진영({2})에 속하며 전투력이 {0} 이상인 모든 함대를 파괴합니다.
 TIVictoryCondition.FreeFleets_DefeatExtremists_Region={1} 천체에서 외계인과 인간 극단주의 진영({2})에 속하며 전투력이 {0} 이상인 모든 함대를 파괴합니다.
-
 TIVictoryCondition.BasePresence_MajorPlanets=다음 행성계(주요 행성 또는 그 위성 중 하나)에서 모든 모듈이 {0} 티어 이상으로 완전이 건설되고 전력이 공급되며 활성 상태인 지상 기지를 보유해야 합니다.

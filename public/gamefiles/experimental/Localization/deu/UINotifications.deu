@@ -72,7 +72,7 @@ UI.Notifications.MissionControl=Bericht der Missionskontrolle
 UI.Notifications.Tutorial=Tutorial
 UI.Notifications.TutorialHed=Tutorial gestartet
 UI.Notifications.TutorialSummary=Das Tutorial ist für diese Kampagne aktiviert.
-UI.Notifications.TutorialDetail=Willkommen zum Tutorial für Terra Invicta! Das hier ist der Anfang einer Standard-Kampagne in dem von dir ausgewählten Schwierigkeitsgrad.<br/><br/>Das Tutorial besteht aus zwei unabhängigen Hauptkomponenten. Beide Komponenten sind mit dem {0}<h>Tutorial-Symbol</h> markiert:<br/><br/>1. Tutorialziele – Einige Ziele, um dich durch die Hauptaspekte des Spiels zu führen. Ein paar dieser Ziele können Jahre dauern. Am oberen Rand der Ansicht stehen die Schritte, durch die du das Ziel erreichst. Sie erscheinen neben den regulären Fraktionszielen, die die Geschichte vorantreiben.<br/><br/>2. Interface-Tutorials – Beschreibungen verschiedener Elemente der Benutzeroberfläche, wenn du sie zum ersten Mal öffnest. Sie werden dir dabei helfen, die verschiedene Werkzeuge zu verstehen, die dir zum Erreichen deiner Ziele zur Verfügung stehen.<br/><br/>Viele der Spielmechaniken sind außerdem im <h>Kodex</h> beschrieben, der über die Schaltfläche „?“ in den meisten Menüs im Spiel geöffnet werden kann.<br/><br/>Bedenke, dass der Codex und diese Tutorials dir zwar alles beibringen, was du zum Spielen von Terra Invicta brauchst, aber nicht, wie du gewinnst: Die Menschheit tappt bei diesem beispiellosen Ereignis im Dunkeln und manchmal musst du Entscheidungen auf der Grundlage unvollständiger Informationen und deiner Intuition treffen.<br/><br/><h>Die Kampagne beginnt kurz vor der ersten Missionszuweisungsphase, während der du deiner Fraktion die ersten Befehle gibst. Um mit dem Spiel zu beginnen, klicke auf FORTFAHREN, nachdem du die angezeigten Benachrichtigungen gelesen hast.</h> Dadurch läuft die Uhr im Spiel weiter.
+UI.Notifications.TutorialDetail=Willkommen zum Tutorial für Terra Invicta! Das hier ist der Anfang einer Standard-Kampagne in dem von dir ausgewählten Schwierigkeitsgrad.<br/><br/>Das Tutorial besteht aus zwei unabhängigen Hauptkomponenten. Beide Komponenten sind mit dem {0}<h>Tutorial-Symbol</h> markiert:<br/><br/>1. Tutorialziele – Einige Ziele, um dich durch die Hauptaspekte des Spiels zu führen. Ein paar dieser Ziele können Jahre dauern. Am oberen Rand der Ansicht stehen die Schritte, durch die du das Ziel erreichst. Sie erscheinen neben den regulären Fraktionszielen, die die Geschichte vorantreiben.<br/><br/>2. Interface-Tutorials – Beschreibungen verschiedener Elemente der Benutzeroberfläche, wenn du sie zum ersten Mal öffnest. Sie werden dir dabei helfen, die verschiedenen Werkzeuge zu verstehen, die dir zum Erreichen deiner Ziele zur Verfügung stehen.<br/><br/>Viele der Spielmechaniken sind außerdem im <h>Kodex</h> beschrieben, der über die Schaltfläche „?“ in den meisten Menüs im Spiel geöffnet werden kann.<br/><br/>Bedenke, dass der Kodex und diese Tutorials dir zwar alles beibringen, was du zum Spielen von Terra Invicta brauchst, aber nicht, wie du gewinnst: Die Menschheit tappt bei diesem beispiellosen Ereignis im Dunkeln und manchmal musst du Entscheidungen auf der Grundlage unvollständiger Informationen und deiner Intuition treffen.<br/><br/><h>Die Kampagne beginnt kurz vor der ersten Missionszuweisungsphase, während der du deiner Fraktion die ersten Befehle gibst. Um mit dem Spiel zu beginnen, klicke auf FORTFAHREN, nachdem du die angezeigten Benachrichtigungen gelesen hast.</h> Dadurch läuft die Uhr im Spiel weiter.
 UI.Notifications.HedFirstFactionEncounter=Angetroffen: {0}												// faction name
 UI.Notifications.NewCouncilorTurn=Ratsmitglieder den Missionen zuweisen
 UI.Notifications.FirstExecutiveControlPointHed=Exekutivkontrolle erlangt in: {0}
@@ -529,7 +529,7 @@ UI.Notifications.FactionOrgStolenDetail.Councilor_Alien={0} reagiert nicht mehr 
 UI.Notifications.MyOrgsForcedToPool=Aufgrund von Ereignissen sind wir dazu gezwungen, folgende Organisationen in unseren Fraktionspool zu übertragen: {0}		
 UI.Notifications.MyProjectSabotagedHed=Forschung zu {0} sabotiert
 UI.Notifications.MyProjectSabotagedSummary=Unsere Forschungsbemühungen hinsichtlich {1} wurden von {0} sabotiert.
-UI.Notifications.MyProjectSabotagedDetail=Unsere Forschungsbemühungen hinsichtlich {0} wurden von {1} sabotiert, und unseren Anstrengungen einen herben Rückschlag verpasst.
+UI.Notifications.MyProjectSabotagedDetail=Unsere Forschungsbemühungen – hinsichtlich {0} – wurden von jemandem sabotiert: {1}. Unseren Anstrengungen wurde also ein herber Rückschlag verpasst.
 UI.Notifications.MyProjectStolenHed=Forschung zu {0} gestohlen
 UI.Notifications.MyProjectStolenSummary=Unsere Forschungsbemühungen hinsichtlich {1} wurden von {0} gestohlen.
 UI.Notifications.MyProjectStolenDetail=Wichtige Kernelemente unserer Forschung zu {0} wurden von {1} gestohlen, unsere Erkenntnisse im Anschluss daran kopiert.
@@ -664,7 +664,7 @@ UI.Notifications.OfficerRetires.Detail={0}, {1} von {2}, hat sich nach langen Di
 UI.Notifications.NationGainsCoreEcoRegion.Hed={0} Ist jetzt ein wirtschaftliches Kerngebiet.
 UI.Notifications.NationGainsCoreEcoRegion.Summary={0}, {1}, ist gewachsen und nun ein wirtschaftliches Kerngebiet					// region name, nation name
 UI.Notifications.NationGainsCoreEcoRegion.Detail={0}, {1}, ist gewachsen, nun ein wirtschaftliches Kerngebiet und damit ein zentraler Knotenpunkt der globalen Wirtschaft. Über die Wirtschaftspriorität sorgt sie für Boni auf die BIP-Zugewinne.
-UI.Notifications.NationGainsCoreMineralRegion.Hed={0} ist jetzt eine Mineralienregion
+UI.Notifications.NationGainsCoreMineralRegion.Hed={0} Ist jetzt eine Mineralienregion
 UI.Notifications.NationGainsCoreMineralRegion.Summary={0}, {1}, ist jetzt eine Mineralienregion.
 UI.Notifications.NationGainsCoreMineralRegion.Detail=Nach bedeutenden Investitionen und Schürfmaßnamen produziert {0}, {1}, schließlich große Mengen strategisch wichtiger Mineralien. Mineralienregionen verleihen Den Prioritäten Wirtschaft, Beute, Armeeaufbau und Marineaufbau einer Nation einen Bonus, sorgen aber auch für ein höheres Maß an Ungleichheit und Umweltschaden.
 UI.Notifications.NationGainsCoreOilRegion.Hed={0} Ist jetzt eine Ölregion.
@@ -692,11 +692,11 @@ UI.Notifications.TechWinnerWarning.Detail={0} wird {1} in der {2}-Forschung mit 
 
 UI.Notifications.NationsCPPrioritiesReset.Summary=Der {0}-Kontrollpunkt {1} hat keine gültigen Prioritäten, weshalb er auf die {2}-Priorität gesetzt wurde.
 
-UI.Notifications.NationCompletesNuke.Hed={0} stellt Nuklearangriff fertig
+UI.Notifications.NationCompletesNuke.Hed={0} Stellt Nuklearangriff fertig
 UI.Notifications.NationCompletesNuke.Summary={0} hat die Vorbereitungen auf einen Nuklearangriff fertiggestellt.
 UI.Notifications.NationCompletesNuke.Detail={0} hat die Vorbereitungen auf einen Nuklearangriff fertiggestellt und erhält dadurch in Kriegszeiten einen Vorrat an {1}{2}.
 
-UI.Notifications.MyArmyBadlyDamaged.Hed={0} erleidet schwere Verluste					// location with "in" preposition
+UI.Notifications.MyArmyBadlyDamaged.Hed={0} Erleidet schwere Verluste					// location with "in" preposition
 UI.Notifications.MyArmyBadlyDamaged.Summary={0} {1} hat schwere Verluste erlitten.				// Army name with article, location with "in" preposition
 UI.Notifications.MyArmyBadlyDamaged.Detail=Eine unserer Armeen, {0} {1}, hat schwere Verluste erlitten. Wir sollten in Erwägung ziehen, sie in ein verbündetes Territorium zurückzuziehen, um sie zu reparieren. 	// Army name with article, location with "in" preposition
 
@@ -707,7 +707,7 @@ UI.Notifications.EnemyArmyJoinsBattle.Detail={0} ist dem Kampf mit unseren Armee
 UI.Notifications.HabModuleForcedOffDueToPopulationChanges.Summary=Bevölkerungsverlust bei {0} hat dort zur Schließung von einem oder mehreren Habitatmodulen geführt.
 UI.Notifications.HabModuleForcedOffDueToPopulationChanges.Detail=Bevölkerungsverlust bei {0} hat dort zur Schließung von einem oder mehreren Modulen in den folgenden Habitaten geführt: {1}<br/>
 
-UI.Notifications.BombardingFleetEntersDangerZone.Hed={0} betritt die Gefahrenzone
+UI.Notifications.BombardingFleetEntersDangerZone.Hed={0} Betritt die Gefahrenzone
 UI.Notifications.BombardingFleetEntersDangerZone.Summary={0} ist der Gefahr von Gegenfeuer von der Oberfläche ausgesetzt
 UI.Notifications.BombardingFleetEntersDangerZone.Detail={0} hat die Armee, die sie bombardieren, in eine Region verfolgt, in der die Armee durch Weltraumverteidigungsanlagen geschützt ist. Unsere Flotte läuft Gefahr, Schaden zu nehmen, wenn sie ihre Bombardements fortsetzt.
 
@@ -887,6 +887,9 @@ UI.Notifications.Diplomacy.NoNAP_WontPropose=Sie sehen derzeit keinen ausreichen
 
 UI.Notifications.Diplomacy.NoTruce_Jealousy=Sie sehen uns als eine zu stark wachsende Bedrohung, um einer Waffenruhe zuzustimmen.
 UI.Notifications.Diplomacy.NoTruce_WontPropose=Eine Waffenruhe ist momentan nicht in ihrem Interesse.
+
+UI.Notifications.Diplomacy.NoIntel_ForNow=Aus Gründen, die sie nicht offenlegen möchten, wünschen sie zum gegenwärtigen Zeitpunkt keine Vereinbarung zum Austausch von Informationen.
+UI.Notifications.Diplomacy.NoIntel_Never=Aufgrund ideologischer Differenzen werden sie niemals einer Vereinbarung zum Austausch von Informationen mit uns zustimmen.
 
 UI.Notifications.AlarmHed={0} Alarm
 UI.Alarm.FleetApproachingSummary=Alarm eingestellt für {0} {1}

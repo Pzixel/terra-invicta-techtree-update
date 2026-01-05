@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=This ship has a weapon on focus fire mode 
 UI.SpaceCombat.Warning.ShipNoThrust=This ship can no longer maneuver due to low fuel, critical damage to its bridge, or drive system.
 UI.SpaceCombat.Warning.ShipNoWeapons=This ship has sustained critical damage to its weapon systems and cannot fire any weapons.
 UI.SpaceCombat.Warning.ShipTarget=This ship is targeting {0}.
-UI.SpaceCombat.Warning.ManeuverTarget={0} is attempting to match this ship's velocity.
+UI.SpaceCombat.Warning.ManeuverTarget={0} is attempting to match this target's velocity.
 UI.SpaceCombat.Warning.RotationStatus.Critical=This ship's Vector Thrusters have been critically damaged, severely crippling its turn rate.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=This ship's Vector Thrusters have been damaged, slowing its turn rate.
 UI.SpaceCombat.Warning.RotationStatus.Good=This ship's Vector Thrusters are fully operational. 
@@ -224,9 +224,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Order Reinforcements
 
 UI.SpaceCombat.Critical=CRIT!
 UI.SpaceCombat.RawDamage=Raw Damage
-UI.SpaceCombat.AbsorbedDamage=Damage absorbed by ship's armor
-UI.SpaceCombat.PenetratedDamage=Penetrating damage to ship's systems
-UI.SpaceCombat.RadiationDamage=Radiation damage that bypasses armor to directly damage ship's systems
+UI.SpaceCombat.AbsorbedDamage=Damage absorbed by armor
+UI.SpaceCombat.PenetratedDamage=Penetrating damage to systems
+UI.SpaceCombat.RadiationDamage=Radiation damage that bypasses armor to directly damage systems
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Currently Venting Heat
 UI.SpaceCombat.RadiatorStatus.Heating=Currently Building Heat

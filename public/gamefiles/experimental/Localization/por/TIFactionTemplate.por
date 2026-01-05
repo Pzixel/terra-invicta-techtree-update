@@ -103,10 +103,10 @@ TIFactionTemplate.Quote.SubmitCouncil=<align="right">"Eles estão aqui para limp
 TIFactionTemplate.Goal.ResistCouncil=Proteger a humanidade e resistir à invasão alienígena
 TIFactionTemplate.Goal.DestroyCouncil=Erradicar os alienígenas e todos que os apoiam
 TIFactionTemplate.Goal.ExploitCouncil=Explorar a chegada dos alienígena para obter poder
-TIFactionTemplate.Goal.SubmitCouncil=Apoiar os alienígenas por quaisquer meios necessários
+TIFactionTemplate.Goal.SubmitCouncil=Apoiar os alienígenas por todos os meios
 TIFactionTemplate.Goal.AppeaseCouncil=Proteger a humanidade ao aplacar os alienígenas
 TIFactionTemplate.Goal.CooperateCouncil=Convencer os alienígenas de que somos iguais
-TIFactionTemplate.Goal.EscapeCouncil=Escapar dos alienígenas enviando humanos a outras estrelas
+TIFactionTemplate.Goal.EscapeCouncil=Escapar dos alienígenas ao ir a outras estrelas
 TIFactionTemplate.Victory.ResistCouncil=Fechar o buraco de minhoca hidra
 TIFactionTemplate.Victory.DestroyCouncil=Enviar uma arma biológica através do buraco de minhoca hidra
 TIFactionTemplate.Victory.ExploitCouncil=Controlar a Terra e os alienígenas com tecnologia alienígena
@@ -258,7 +258,7 @@ TIFactionTemplate.Diplomacy.Submit.Appease.Conflict=Vocês os temem, quando na v
 TIFactionTemplate.Diplomacy.Submit.Appease.Tolerance=Embora vocês rejeitem o amor Deles, vocês aceitam Sua superioridade. Isso é o suficiente. Por enquanto.
 TIFactionTemplate.Diplomacy.Alien.Submit.Tolerance=Saudações, servo fiel (<color=#9964FF>Ajoelhe-se, animal doméstico</color>). Você é amado (<color=#9964FF>Você não é nada</color>).
 TIFactionTemplate.Diplomacy.Alien.Appease.War=Renda-se (<color=#9964FF>Morra</color>).
-TIFactionTemplate.Diplomacy.Alien.Appease.Conflict=Submissão=sobrevivência (<color=#9964FF>Resistência=obliteração</color>.
+TIFactionTemplate.Diplomacy.Alien.Appease.Conflict=Submissão=sobrevivência (<color=#9964FF>Resistência=obliteração</color>.obliteration</color>).
 TIFactionTemplate.Diplomacy.Alien.Appease.Tolerance=Você é tolerado (<color=#9964FF>Você não é uma ameaça</color>).
 TIFactionTemplate.Diplomacy.Alien.Cooperate.War=Obstáculo indesejado (<color=#9964FF>Extermine a ameaça</color>).
 TIFactionTemplate.Diplomacy.Alien.Cooperate.Conflict=Pare. Pare. Pare (<color=#9964FF>Ameaça. Ameaça. Ameaça.</color>).

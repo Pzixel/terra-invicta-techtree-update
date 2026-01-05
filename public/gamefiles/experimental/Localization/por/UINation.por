@@ -58,7 +58,7 @@ UI.Nation.Weight1=●
 UI.Nation.Weight2=●●
 UI.Nation.Weight3=●●●
 
-UI.Nation.PriorityReadout1=Compartilhar																				// Context: "Proportion of 100%", no more than 5 characters
+UI.Nation.PriorityReadout1=%																				// Context: "Proportion of 100%", no more than 5 characters
 UI.Nation.PriorityReadout2=Mon.								// Mo short for "month" to fit
 UI.Nation.PriorityReadout3=Bônus
 

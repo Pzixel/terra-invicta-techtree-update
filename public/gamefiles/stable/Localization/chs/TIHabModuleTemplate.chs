@@ -367,8 +367,8 @@ HabModuleSpecialRule.UsesHelium3=- 该聚变舱体的燃料是氦-3。如果该�
 HabModuleSpecialRule.RepairsMarineShipModules=- 该舱体与舰船建造舱体相结合，使陆战队能够建造和修理舰船舱体
 HabModuleSpecialRule.RepairsHabKitShipModules=- 该舱体与舰船建造舱体相结合，能够建造和修理太空殖民地舱体。
 HabModuleSpecialRule.StaticHab=<skip/>
-HabModuleSpecialRule.FleetTargeting=- 对所有防御舰船的索敌判定赋予 +{1}，使其能够克服敌方电子反制措施的影响。
-HabModuleSpecialRule.FleetECM=- 对所有防御舰船的电子反制措施数值赋予 +{1}。
+HabModuleSpecialRule.FleetTargeting=- 对索敌判定赋予 +{1}，使其能够克服电子反制措施的影响；对于空间站舱体，适用于所有防御舰船。
+HabModuleSpecialRule.FleetECM=- 赋予 +{1} 电子反制措施数值；对于空间站舱体，适用于所有防御舰船。
 HabModuleSpecialRule.SolarMirror=- 为其轨道所环绕的天体上的所有太阳能舱体增加 +{0}<color=#FFFFFFFF><sprite name=hab_power></color> 产量，该值乘以太阳能舱体的等级，适用于天体轨道上的派系基地。<br/>- 如果舱体位于卫星与其母行星之间的 L-1、L-4 或 L-5 位置，则该加成也适用于该卫星。<br/>- 如果位于行星与太阳之间的 L-1 位置，则该加成适用于该行星系统的所有基地。<br/>- 质量根据与太阳的距离而增加<br/>- 太阳能电池板的最大发电量可达其基础最大功率值的 {4} 倍
 
 TIHabModuleTemplate.OnePerHab=一个太空殖民地只能装载一个此类型的舱体。

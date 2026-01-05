@@ -39591,12 +39591,6 @@
    "nation2": "2026_SGP"
  },
  {
-   "dataName": "Alliance2026_PAK2026_AFG",
-   "relationType": "Alliance",
-   "nation1": "2026_PAK",
-   "nation2": "2026_AFG"
- },
- {
    "dataName": "Alliance2026_RUS2026_TJK",
    "relationType": "Alliance",
    "nation1": "2026_RUS",
@@ -40731,6 +40725,12 @@
    "nation2": "2026_DZA"
  },
  {
+   "dataName": "Rivalry2026_PAK2026_AFG",
+   "relationType": "Rivalry",
+   "nation1": "2026_PAK",
+   "nation2": "2026_AFG"
+ },
+ {
    "dataName": "Rivalry2026_PER2026_ECU",
    "relationType": "Rivalry",
    "nation1": "2026_PER",
@@ -40945,12 +40945,6 @@
    "relationType": "Rivalry",
    "nation1": "2026_USA",
    "nation2": "2026_SDN"
- },
- {
-   "dataName": "Rivalry2026_USA2026_SYR",
-   "relationType": "Rivalry",
-   "nation1": "2026_USA",
-   "nation2": "2026_SYR"
  },
  {
    "dataName": "Rivalry2026_USA2026_VEN",

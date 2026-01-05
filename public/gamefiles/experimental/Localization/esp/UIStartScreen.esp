@@ -142,7 +142,7 @@ UI.StartScreen.CustomizeCampaign.DifficultyHeader=Opciones de dificultad
 UI.StartScreen.CustomizeCampaign.SelectFactionsHeader=Facciones activas
 UI.StartScreen.CustomizeCampaign.YourFactionNamesHeader=Nombres de tu facción
 UI.StartScreen.CustomizeCampaign.RandomProfession=Al azar
-UI.StartScreen.CustomizeCampaign.CouncilorProfession=Profesión del consejero inicial
+UI.StartScreen.CustomizeCampaign.CouncilorProfession=Profesión inicial de consejeros
 UI.StartScreen.CustomizeCampaign.CPFreebies=Capacidad base de puntos de control
 UI.StartScreen.CustomizeCampaign.CPFreebiesTooltip=Capacidad base de puntos de control para todas las facciones.
 UI.StartScreen.CustomizeCampaign.CPFreebiesAI=Lím. de puntos de control extra (IA)
@@ -170,9 +170,9 @@ UI.StartScreen.CustomizeCampaign.NationalIPModifier=Tasa de inversión nacional
 UI.StartScreen.CustomizeCampaign.AverageMonthlyEvents=Promedio de eventos mensuales
 UI.StartScreen.CustomizeCampaign.NationalIPModifierTooltip=Controla el número de puntos de inversión necesarios para terminar las prioridades de la nación.
 UI.StartScreen.CustomizeCampaign.AverageMonthlyEventsTooltip=Número de eventos aleatorios por mes.
-UI.StartScreen.CustomizeCampaign.CinematicCombatScaling=Escalado de combate de la cinemática
+UI.StartScreen.CustomizeCampaign.CinematicCombatScaling=Escalado del combate cinemático
 UI.StartScreen.CustomizeCampaign.CinematicCombatScalingTooltip=Activa esta opción para utilizar una escala de modelo más grande en combate, en lugar de modelos realistas.
-UI.StartScreen.CustomizeCampaign.CinematicCombatMovement=Movimiento de combate de la cinemática
+UI.StartScreen.CustomizeCampaign.CinematicCombatMovement=Movimiento del combate cinemático
 UI.StartScreen.CustomizeCampaign.CinematicCombatMovementTooltip=Activa esta opción para reducir el consumo de Delta-V de las naves en combate.
 UI.StartScreen.CustomizeCampaign.MiningRatePlayer=Tasa de minería del jugador
 UI.StartScreen.CustomizeCampaign.MiningRatePlayerTooltip=Controla la producción minera del jugador a nivel del módulo.
@@ -194,8 +194,8 @@ UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedAlien=Velocidad de constru
 UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedAlienTooltip=Controla la velocidad a la que los alienígenas construyen las naves.
 UI.StartScreen.CustomizeCampaign.CustomStartingNationGroupText=Grupo de naciones inicial
 UI.StartScreen.CustomizeCampaign.CustomStartingNationGroupTooltip=Selecciona una nación o un grupo de naciones de las que tu nación tendrá el control completo desde el principio. En muchos casos pueden representar agrupaciones de naciones. También se asignarán naciones iniciales a otras facciones desde este menú.
-UI.StartScreen.CustomizeCampaign.OtherFactionsReceivesGroup=Recepción de conjuntos por parte de otras facciones
-UI.StartScreen.CustomizeCampaign.OtherFactionsReceivesGroupTooltip=Cuando se selecciona un conjunto de naciones iniciales y esta opción está desactivada, las facciones de IA comenzarán sin naciones asignadas. Así, la campaña será mucho más fácil.
+UI.StartScreen.CustomizeCampaign.OtherFactionsReceivesGroup=Grupos para otras facciones
+UI.StartScreen.CustomizeCampaign.OtherFactionsReceivesGroupTooltip=Si no marcas esta casilla, las naciones de la IA no recibirán ninguna nación en la asignación de grupos de naciones iniciales, por lo que la campaña será mucho más fácil.
 UI.StartScreen.CustomizeCampaign.NationGroupNone=Ninguno
 UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=Nombres de naves pequeñas
 UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=Nombres de naves medianas
@@ -261,7 +261,20 @@ UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industrie
 //<VA> Credits
 
 UI.StartScreen.TICredits_40=REPARTO VOCAL<br/>
-
+UI.StartScreen.TICredits_41=Fiona Ayoade -<sp>
+UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
+UI.StartScreen.TICredits_43=Judith Howell -<sp>
+UI.StartScreen.TICredits_44=Zura Johnson<br/><br/>
+UI.StartScreen.TICredits_45=Soren Van Wyk -<sp>
+UI.StartScreen.TICredits_46=Etienne Durandt<br/><br/>
+UI.StartScreen.TICredits_47=Khalid Al-Ashgar -<sp>
+UI.StartScreen.TICredits_48=Erik Ransom<br/><br/>
+UI.StartScreen.TICredits_49=Li Qingzhao -<sp>
+UI.StartScreen.TICredits_50=Christina Ho<br/><br/>
+UI.StartScreen.TICredits_51=Hanse Castillo -<sp>
+UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
+UI.StartScreen.TICredits_53=Kiran Banerjee -<sp>
+UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
 
 UI.StartScreen.TICredits_55=VOCES DE LOS CONSEJEROS<br/>
 
@@ -290,17 +303,16 @@ UI.StartScreen.TICredits_72=AGRADECIMIENTOS ESPECIALES A<br/>Aaron Nathan<br/>Ma
 UI.StartScreen.TICredits_73=¡RETOÑOS DEL DESARROLLO!<br/>Théodore<br/>Carmen Rose<br/><br/>
 
 //<Contributing Backers> Credits
-
 UI.StartScreen.TICredits_74=CONTRIBUIDORES CREATIVOS DE KICKSTARTER<br/>
 
-//<Playtester> Credits
 
-UI.StartScreen.TICredits_105=- PLAYTESTERS DE
-UI.StartScreen.TICredits_106= KICKSTARTER -<br/>
+//<Playtester> Credits
+UI.StartScreen.TICredits_105=PLAYTESTERS DE
+UI.StartScreen.TICredits_106= KICKSTARTER<br/>
+
 
 //<Backers> Credits
-
-UI.StartScreen.TICredits_393=<br/>- MECENAS DE KICKSTARTER -<br/>
+UI.StartScreen.TICredits_393=<br/>MECENAS DE KICKSTARTER<br/>
 
 UI.StartScreen.TICredits_1337=SOFTWARE<br/><br/>Hecho en Unity<br/><br/>Hecho en FMOD Studio<br/>de Firelight Technologies Limited<br/><br/>
 UI.StartScreen.TICredits_1338=Muchos de los logos de los iconos de las organizaciones que aparecen en el juego en las empresas privadas ficticias son cortesía de LogoLogo.com.<br/>El uso de los logos de las agencias del gobierno en esta obra ficticia no pretende insinuar apoyo por nuestra parte a tales agencias.<br/><br/>

@@ -60,7 +60,6 @@ TIMissileTemplate.displayName.StyxNuclearTorpedoBay=스틱스 성형작약 핵�
 TIMissileTemplate.description.StyxNuclearTorpedoBay=폭발 지점에서 뻗어나오는 광선 모양으로 에너지가 집중되는 1메가톤 성형작약 핵무기를 배치한 핵열 로켓 어뢰입니다.
 TIMissileTemplate.displayName.AntimatterTorpedoLauncher=반물질 어뢰 런처
 TIMissileTemplate.description.AntimatterTorpedoLauncher=미량의 반물질이 든 탄두를 탑재한 핵열로켓입니다.
-
 TIMissileTemplate.displayName.KraitMissilePod=크레이트 미사일 포드
 TIMissileTemplate.description.KraitMissilePod=우주에서 사용하기 위해 해군의 대함 고체 연료 순항 미사일을 개조했습니다.
 TIMissileTemplate.displayName.AnacondaMissilePod=아나콘다 미사일 포드
@@ -101,7 +100,6 @@ TIMissileTemplate.displayName.CerebrusNuclearTorpedoPod=케르베로스 핵어�
 TIMissileTemplate.description.CerebrusNuclearTorpedoPod=300킬로톤의 열핵탄두가 탑재된 접촉 점화성 연료 사용 어뢰입니다.
 TIMissileTemplate.displayName.HadesNuclearTorpedoPod=하데스 핵어뢰 포드
 TIMissileTemplate.description.HadesNuclearTorpedoPod=650킬로톤의 열핵탄두가 탑재되어 있으며, 하이드로록스를 연료로 사용하는 어뢰입니다.
-
 TIMissileTemplate.displayName.GlitteringJewelMissileBay=글리터링 쥬얼 미사일 발사실
 TIMissileTemplate.description.GlitteringJewelMissileBay=외계의 미사일 시스템입니다.
 TIMissileTemplate.displayName.GlitteringJewelMissilePod=글리터링 쥬얼 미사일 포드
@@ -114,7 +112,6 @@ TIMissileTemplate.displayName.BrilliantSkyMissileBay=브릴리언트 스카이 �
 TIMissileTemplate.description.BrilliantSkyMissileBay=고성능 외계인 미사일 시스템입니다.
 TIMissileTemplate.displayName.PredatoryStarTorpedoBay=프레데터리 스타 어뢰 발사실
 TIMissileTemplate.description.PredatoryStarTorpedoBay=고성능 외계인 중량 어뢰 시스템입니다.
-
 TIMissileTemplate.Warhead=탄두: <rcol>{0}</rcol>
 TIMissileTemplate.Warhead.Explosive=폭발형(장갑에 {0} 피해)
 TIMissileTemplate.Warhead.Penetrator=관통형(장갑에 {0} 피해)

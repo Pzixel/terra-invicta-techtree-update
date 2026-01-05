@@ -1,7 +1,7 @@
 UI.Science.ResearchPanelHeader=Badania i rozwój
 UI.Science.GlobalPanelHeader=Globalne badania
 UI.Science.Research=Nauka
-UI.Science.EngineeringPanelHeader=Projekty inżynieryjne – {0}
+UI.Science.EngineeringPanelHeader=Projekty inżynieryjne {0}
 UI.Science.OrgProjectRequiredExplainer=Pozyskaj dla jednego z naszych konsultantów organizację, która udostępni projekt inżynieryjny, umożliwiający odblokowanie dodatkowego miejsca na badania.<br/><br/>Kolejne takie organizacje zapewnią premie do wszystkich naszych projektów.
 UI.Science.HabProjectRequiredExplainer=Zbuduj w jednym z naszych habitatów moduł, który udostępni projekt inżynieryjny, umożliwiający odblokowanie dodatkowego miejsca na badania.<br/><br/>Kolejne takie moduły zapewnią premie do wszystkich naszych projektów.
 UI.Science.Category.Energy=Elektrodynamika
@@ -117,7 +117,7 @@ UI.Science.StationWeapon=Broń {0} zostanie umieszczona na {1} modułach obronny
 UI.Science.UnlocksOrgs=Ta technologia odblokowuje nowe organizacje na rynku.
 UI.Science.EffectsTabText=Modyfikatory frakcji
 UI.Science.EffectsPanelHeader=Modyfikatory z nauki i wydarzeń
-UI.Science.EffectsPanelExplainer=To okno przedstawia listę wszystkich trwałych efektów, jakie nasza frakcja otrzymała dzięki nauce i w rezultacie różnych wydarzeń w grze. Wybierz kategorię modyfikatora z menu po lewej, by zobaczyć sumę modyfikatorów i efektów z tej kategorii. Jeśli wymienionych jest wiele efektów, działają wszystkie, a ich wpływy sumują się, chyba że dana lista przedstawia efekty w kolorze czerwonym i zielonym – w tedy ważniejsze są efekty zaznaczone na zielono.
+UI.Science.EffectsPanelExplainer=To okno przedstawia wszystkie trwałe efekty, jakie nasza frakcja otrzymała w wyniku badań oraz różnych wydarzeń w grze. Wybierz kategorię modyfikatora z menu po lewej, by zobaczyć sumę modyfikatorów i efektów z tej kategorii. Jeśli wymienionych jest wiele efektów, działają wszystkie, a ich wpływy sumują się, chyba że dana lista przedstawia efekty w kolorze czerwonym i zielonym – wtedy ważniejsze są efekty zaznaczone na zielono.
 UI.Science.EffectTemporary=<sp> (tymczasowy)
 UI.Science.Requires=Wymagania
 UI.Science.Unlocks=Odblokowuje

@@ -1,5 +1,5 @@
 UI.Council.RecruitButton=Rekrutieren
-UI.Council.CouncilNameCouncil={0}-Rat							// Council Name
+UI.Council.CouncilNameCouncil=Rat: {0}							// Council Name
 UI.Council.ReservedForTurned=Auf diesem Slot wird ein feindliches Ratsmitglied angezeigt, das wir für unsere Sache gewinnen konnten.
 UI.Council.CouncilSize5=Wir müssen das Projekt „Schläferzellen“ entwickeln, um ein fünftes Ratsmitglied rekrutieren zu können.
 UI.Council.CouncilSize6=Wir müssen das Projekt „Geheimoperationen“ entwickeln, um ein sechstes Ratsmitglied rekrutieren zu können.
@@ -18,7 +18,7 @@ UI.Council.PurchaseOrg=Organisation kaufen
 UI.Council.EquipOrg=Organisation zuweisen
 UI.Council.UnequipOrg=Organisation abweisen
 UI.Council.Ledger.FactionTotals=Gesamt
-UI.Council.Ledger.FactionHQ={0} HQ
+UI.Council.Ledger.FactionHQ=HQ: {0}
 UI.Council.Ledger.UnassignedOrgPool=Pool nicht zugewiesener Orgs
 UI.Council.Ledger.CollapseAll=Alle minimieren
 UI.Council.Ledger.ExpandAll=Alle maximieren

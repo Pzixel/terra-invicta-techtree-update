@@ -542,7 +542,7 @@ TINationTemplate.displayName.TUR=Turquia
 TINationTemplate.displayNameWithArticle.TUR=Turquia
 TINationTemplate.nationAdjective.TUR=da Turquia
 TINationTemplate.displayNameWithArticlePrep.TUR=na Turquia
-TINationTemplate.displayName.TWN=de Taiwan
+TINationTemplate.displayName.TWN=Taiwan
 TINationTemplate.displayNameWithArticle.TWN=Taiwan
 TINationTemplate.nationAdjective.TWN=de Taiwan
 TINationTemplate.displayNameWithArticlePrep.TWN=em Taiwan
@@ -1437,7 +1437,7 @@ TINationTemplate.nationAdjective.GAX=de Guangxi
 TINationTemplate.displayNameWithArticlePrep.GAX=em Guangxi
 
 TINationTemplate.displayName.HNN=Hunan
-TINationTemplate.displayNameWithArticle.HNN=de Hunan
+TINationTemplate.displayNameWithArticle.HNN=Hunan
 TINationTemplate.nationAdjective.HNN=de Hunan
 TINationTemplate.displayNameWithArticlePrep.HNN=em Hunan
 

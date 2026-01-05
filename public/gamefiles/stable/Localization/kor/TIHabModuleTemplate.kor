@@ -340,10 +340,10 @@ HabModuleSpecialRule.MoneyIfNotBuilding=-거주지에 건설 중인 모듈이 �
 HabModuleSpecialRule.NotInIrradiated=-방사능에 노출된 위치에는 건설할 수 없습니다.
 HabModuleSpecialRule.ConsumesMCWhenUnpowered=-전력이 공급되지 않을 때에도 임무 관제 역량이 필요합니다
 HabModuleSpecialRule.TechBonusDiminishingReturns=-거주 모듈이 제공하는 모든 연구 범주 보너스 누적이 50%를 초과하면 보너스가 감소될 수 있습니다.
-HabModuleSpecialRule.LEOBonusArmyCombatValue=-모듈이 지구의 접점 궤도에 있을 경우 전투 중인 우리 군대에 군사 기술 값에 +{2} 추가되며, 모든 진영의 거주지에 걸쳐 최대 +0.3 증가합니다 // Military Science Labs; bonus to armies in combat
-HabModuleSpecialRule.LEOBonusPropagandaStrength=-모듈이 지구의 접점 궤도에 있을 경우, 성공적인 공공 캠페인 임무에 전투력을 +{0} 추가하며, 모든 진영의 거주지에 걸쳐 최대 9까지 적용됩니다 // Social Science
-HabModuleSpecialRule.LEOBonusAlienDetection=-모듈이 지구의 접점 궤도에 있을 경우 지구에서의 외계인 탐지에 보너스를 +{3} 받으며, 모든 진영의 거주지에 걸쳐 최대 9까지 적용됩니다 // Xenology; bonus to alien detection
-HabModuleSpecialRule.LEOBonusHumanDetection=-모듈이 지구의 접점 궤도에 있을 경우 지구에서의 적 의원 탐지에 보너스를 +{3} 받으며, 모든 진영의 거주지에 걸쳐 최대 9까지 적용됩니다 // Xenology; bonus to alien detection
+HabModuleSpecialRule.LEOBonusArmyCombatValue=-모듈이 지구의 접점 궤도에 있을 경우 전투 중인 우리 군대에 군사 기술 값에 +{2} 추가되며, 모든 진영의 거주지에 걸쳐 최대 +0.3 증가합니다
+HabModuleSpecialRule.LEOBonusPropagandaStrength=-모듈이 지구의 접점 궤도에 있을 경우, 성공적인 공공 캠페인 임무에 전투력을 +{0} 추가하며, 모든 진영의 거주지에 걸쳐 최대 9까지 적용됩니다
+HabModuleSpecialRule.LEOBonusAlienDetection=-모듈이 지구의 접점 궤도에 있을 경우 지구에서의 외계인 탐지에 보너스를 +{3} 받으며, 모든 진영의 거주지에 걸쳐 최대 9까지 적용됩니다
+HabModuleSpecialRule.LEOBonusHumanDetection=-모듈이 지구의 접점 궤도에 있을 경우 지구에서의 적 의원 탐지에 보너스를 +{3} 받으며, 모든 진영의 거주지에 걸쳐 최대 9까지 적용됩니다
 HabModuleSpecialRule.LEOBonusMiltech=-모듈이 지구의 접점 궤도에 있을 경우 군사 우선순위 투자에 보너스를 +{1} 부여하며, 진영의 모든 거주지에 최대 30%까지 적용됩니다.
 HabModuleSpecialRule.LEOBonusWelfare=-모듈이 지구의 접점 궤도에 있을 경우 복지 우선순위 투자에 보너스를 +{1} 부여하며, 진영의 모든 거주지에 최대 30%까지 적용됩니다.
 HabModuleSpecialRule.LEOBonusLaunchFacilities=-모듈이 지구의 접점 궤도에 있을 경우 부스트 우선순위 투자에 보너스를 +{1} 부여하며, 진영의 모든 거주지에 최대 30%까지 적용됩니다.
@@ -367,7 +367,7 @@ HabModuleSpecialRule.RepairsHabKitShipModules=- 함선 건조 모듈과 함께 �
 HabModuleSpecialRule.StaticHab=<skip/>
 HabModuleSpecialRule.FleetTargeting=-ECM 극복을 위한 목표 판정에 +{1}를 부여합니다. 스테이션 모듈의 경우 이는 모든 방어 함선에 적용됩니다.
 HabModuleSpecialRule.FleetECM=-ECM 값을 +{1} 부여합니다. 스테이션 모듈의 경우 이는 모든 방어 함선에 적용됩니다.
-HabModuleSpecialRule.SolarMirror=-궤도를 회전하는 우주체에 있는 진영 기지의 모든 태양광 모듈의 생산에 +{0}<color=#FFFFFFFF><sprite name=hab_power></color> 보너스를 부여하며, 이 값에 태양열 모듈의 티어가 곱해집니다.<br/>-해당 모듈이 위성과 모행성 사이의 L-1, L-4 또는 L-5 지점에 있는 경우, 위성에도 보너스가 적용됩니다.<br/>- 행성과 태양 사이의 L-1 지점에 배치할 경우, 행성계 내 모든 기지에 보너스가 적용됩니다.<br/>- 질량은 태양으로부터의 거리에 따라 증가합니다.<br/>- 태양광 패널은 기본 최대 전력량의 최대 {4}배까지 생산할 수 있습니다.
+HabModuleSpecialRule.SolarMirror=-궤도를 회전하는 우주체에 있는 진영 기지의 모든 태양광 모듈의 생산에 +{0}<color=#FFFFFFFF><sprite name=hab_power></color> 보너스를 부여하며, 이 값에 태양광 모듈의 티어가 곱해집니다.<br/>-해당 모듈이 위성과 모행성 사이의 L-1, L-4 또는 L-5 지점에 있는 경우, 위성에도 보너스가 적용됩니다.<br/>- 행성과 태양 사이의 L-1 지점에 배치할 경우, 행성계 내 모든 기지에 보너스가 적용됩니다.<br/>- 질량은 태양으로부터의 거리에 따라 증가합니다.<br/>- 태양광 패널은 기본 최대 전력량의 최대 {4}배까지 생산할 수 있습니다.
 TIHabModuleTemplate.OnePerHab=거주지는 이러한 유형의 모듈 중 하나만 가질 수 있습니다.
 TIHabModuleTemplate.BaseOnly=이 모듈은 스테이션이 아닌 표면 기지에만 건설할 수 있습니다.
 TIHabModuleTemplate.StationOnly=이 모듈은 표면 기지가 아닌 스테이션에만 건설할 수 있습니다.

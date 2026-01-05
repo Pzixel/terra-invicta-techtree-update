@@ -78,7 +78,7 @@ UI.SpaceCombat.Description.LifeSupportBackup=辅助生命维持系统
 UI.SpaceCombat.Description.DamageControl=损伤控制的丧失会使损管团队无法在战斗中修复舰船的其他系统和舱体。
 UI.SpaceCombat.Description.Sensors=舰船外部传感器阵列受损将降低舰船抵抗敌方电子反制措施的能力，导致发射武器需要更长的时间。容易受到敌方光束武器的攻击。可快速修复。
 UI.SpaceCombat.Description.Propellant=推进剂箱受损会减少舰船的可用 Delta-V。
-UI.SpaceCombat.Description.ArmorIntegrity=如果装甲完整性降低，舰船的装甲吸收攻击的机率就会降低。
+UI.SpaceCombat.Description.ArmorIntegrity=如果装甲完整性降低，舰船的装甲吸收攻击的几率就会降低。
 UI.SpaceCombat.SpecialManeuverPanel=特殊机动面板<br/>特殊机动包括旋转、防御动作和锁定目标。
 UI.SpaceCombat.Description.SystemsReactor=此动力装置受损将导致武器系统和设施舱体的可用能源变少。
 

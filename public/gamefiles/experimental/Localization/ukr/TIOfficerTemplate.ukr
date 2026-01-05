@@ -17,7 +17,7 @@ TIOfficerTemplate.displayName.Officer_Chief=Старший екіпажу
 TIOfficerTemplate.description.Officer_Admiral=Старший офіцер, який надає бонуси, пов'язані з флотом. Тільки один адмірал на флот застосовуватиме бонуси <color=#FFFFFFFF><sprite name=mission_control></color>.
 TIOfficerTemplate.description.Officer_Captain=Майстер корабля.
 TIOfficerTemplate.description.Officer_First=Помічник командира корабля.
-TIOfficerTemplate.description.Officer_FireControl=Офіцер, відповідальний за ракетні комплекси корабля. 
+TIOfficerTemplate.description.Officer_FireControl=Офіцер, відповідальний за ракетні комплекси корабля.
 TIOfficerTemplate.description.Officer_Gunnery=Офіцер, відповідальний за системи зброї.
 TIOfficerTemplate.description.Officer_DirectedEnergy=Офіцер, відповідальний за системи лазерної та пучкової зброї.
 TIOfficerTemplate.description.Officer_DamageControl=Офіцер, відповідальний за системи лагодження корабля в бою.
@@ -119,17 +119,17 @@ TIOfficerTemplate.ShipDefectionChance=— Корабель ніколи не п�
 TIOfficerTemplate.DriveCombatThrustMultiplier=— Додає {0} до множника бойової тяги двигуна корабля
 TIOfficerTemplate.MaxSurvivableCombatAcceleration=— Збільшує максимальне дозволене бойове пришвидшення корабля на {0} g
 TIOfficerTemplate.MaxSurvivableCruiseAcceleration=— Збільшує максимальне дозволене круїзне пришвидшення корабля на {0} g
-TIOfficerTemplate.RadiationDamageReduction=— Зменшує радіаційну шкоду від пучкової зброї на {2} 
+TIOfficerTemplate.RadiationDamageReduction=— Зменшує радіаційну шкоду від пучкової зброї на {2}
 TIOfficerTemplate.NoDemotionOnTransfer=— Не втратить рівень під час переходу на інший корабель
 TIOfficerTemplate.NoCostToTransfer=— На офіцера не потрібно витрачати <color=#FFFFFFFF><sprite name="influence"></color>, щоби перевести на інший корабель.
 
 TIOfficerTemplate.OfficerShipNameAndJob={0}: {1}, {2}			// ship name: rank + name, job
 TIOfficerTemplate.OfficerNameAndJob={0}, {1}					// rank + name, job
 TIOfficerTemplate.OfficerTypeAndRank={0}: {1}
-TIOfficerTemplate.RequirementsHeader=Вимоги корабля для підвищення звання типу офіцера: 
+TIOfficerTemplate.RequirementsHeader=Вимоги корабля для підвищення звання типу офіцера:
 TIOfficerTemplate.PromotionHeader=Причина підвищення звання:
 TIOfficerTemplate.Bonuses=Бонуси:
-TIOfficerTemplate.OfficersKilled=Убиті офіцери: 
+TIOfficerTemplate.OfficersKilled=Убиті офіцери:
 TIOfficerTemplate.KilledInAction=Убитий у бою
 
 TIOfficerTemplate.CompleteLongTrajectory=— Корабель завершує міжпланетну траєкторію           

@@ -98,7 +98,7 @@ MergeAllFleetOperation.description=将附近的舰队合并到这个舰队中。
 SplitFleetOperation.displayName=分割舰队
 SplitFleetOperation.description=将一艘或多艘舰船分离出来，形成一个独立的舰队。
 TransferOfficersOperation.displayName=转移军官
-TransferOfficersOperation.description=将有资质的军官调配至舰队内其他舰船、友方太空殖民地，或停靠于同一太空殖民地的其他舰船。对于多数军官而言，调任至舰船时需按其级别每级花费 {0} <color=#FFFFFFFF><sprite name="influence"></color>。
+TransferOfficersOperation.description=将有资质的军官调配至舰队内其他舰船、友方太空殖民地，或停靠于同一太空殖民地的其他舰船。对于多数军官而言，调任至舰船时需按其级别每级花费 {0}<color=#FFFFFFFF><sprite name="influence"></color> 。
 FoundSolarPlatformOperation.displayName=建造空间平台（太阳能）
 FoundSolarPlatformOperation.description=在舰队的当前轨道中，利用建造舱体建造太阳能空间平台。只适用于环绕太阳运行的天体，而且该天体与太阳的距离不能超过地日距离。至少需 {0} 个可用{1}。
 FoundFissionPlatformOperation.displayName=建造空间平台（核裂变）

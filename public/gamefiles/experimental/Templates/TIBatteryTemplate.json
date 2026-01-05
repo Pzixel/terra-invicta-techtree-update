@@ -2,6 +2,7 @@
  {
    "dataName": "Lithium-IonBattery",
    "friendlyName": "Lithium-Ion Battery",
+   "grouping": 99,
    "energyCapacity_GJ": 12,
    "rechargeRate_GJs": 0.005,
    "weightedBuildMaterials": {
@@ -19,6 +20,7 @@
  {
    "dataName": "GrapheneBattery",
    "friendlyName": "Graphene Battery",
+   "grouping": 99,
    "energyCapacity_GJ": 48,
    "rechargeRate_GJs": 0.025,
    "weightedBuildMaterials": {
@@ -37,6 +39,7 @@
  {
    "dataName": "QuantumBattery",
    "friendlyName": "Quantum Battery",
+   "grouping": 99,
    "energyCapacity_GJ": 80,
    "rechargeRate_GJs": 0.05,
    "weightedBuildMaterials": {
@@ -55,6 +58,7 @@
  {
    "dataName": "SuperconductingCoilBattery",
    "friendlyName": "Superconducting Coil Battery",
+   "grouping": 99,
    "energyCapacity_GJ": 160,
    "rechargeRate_GJs": 0.075,
    "weightedBuildMaterials": {
@@ -73,6 +77,7 @@
  {
    "dataName": "AlienSuperconductingCoilBattery",
    "friendlyName": "Alien Superconducting Coil Battery",
+   "grouping": 99,
    "energyCapacity_GJ": 128,
    "rechargeRate_GJs": 0.075,
    "weightedBuildMaterials": {
@@ -91,6 +96,7 @@
  {
    "dataName": "AlienExoticNanowireBattery",
    "friendlyName": "Alien Exotic Nanowire Battery",
+   "grouping": 99,
    "energyCapacity_GJ": 256,
    "rechargeRate_GJs": 0.1,
    "weightedBuildMaterials": {
@@ -110,6 +116,7 @@
    "dataName": "Lithium-SulfurBattery",
    "friendlyName": "Lithium-Sulfur Battery",
    "disable": true,
+   "grouping": 99,
    "energyCapacity_GJ": 21,
    "rechargeRate_GJs": 0.00625,
    "weightedBuildMaterials": {
@@ -129,6 +136,7 @@
    "dataName": "MoltenSaltBattery",
    "friendlyName": "Molten Salt Battery",
    "disable": true,
+   "grouping": 99,
    "energyCapacity_GJ": 40,
    "rechargeRate_GJs": 0.0075,
    "weightedBuildMaterials": {
@@ -148,6 +156,7 @@
    "dataName": "SaltWaterBattery",
    "friendlyName": "Salt Water Battery",
    "disable": true,
+   "grouping": 99,
    "energyCapacity_GJ": 20,
    "rechargeRate_GJs": 0.01,
    "weightedBuildMaterials": {
@@ -168,6 +177,7 @@
    "dataName": "ExoticNanowireBattery",
    "friendlyName": "Exotic Nanowire Battery",
    "disable": true,
+   "grouping": 99,
    "energyCapacity_GJ": 60,
    "rechargeRate_GJs": 0.1,
    "weightedBuildMaterials": {

@@ -530,7 +530,7 @@ const ukrUi: LocalizedUi = {
 };
 
 const stableAndExperimental: GameVersionCode[] = ['stable', 'experimental'];
-const experimentalOnly: GameVersionCode[] = ['experimental'];
+// const experimentalOnly: GameVersionCode[] = ['experimental'];
 
 export const Languages: Record<string, Language> = {
     en: { code: 'en', icon: '🇬🇧', name: 'English', uiTexts: englishUi, locale: 'en', availableVersions: stableAndExperimental },
@@ -542,9 +542,9 @@ export const Languages: Record<string, Language> = {
     jpn: { code: 'jpn', icon: '🇯🇵', name: '日本語', uiTexts: jpnUi, locale: 'ja', availableVersions: stableAndExperimental },
     pol: { code: 'pol', icon: '🇵🇱', name: 'Polski', uiTexts: polUi, locale: 'pl', availableVersions: stableAndExperimental },
     por: { code: 'por', icon: '🇧🇷', name: 'Português', uiTexts: porUi, locale: 'pt', availableVersions: stableAndExperimental },
-    kor: { code: 'kor', icon: '🇰🇷', name: '한국어', uiTexts: korUi, locale: 'ko', availableVersions: experimentalOnly },
-    // rus: { code: 'rus', icon: '🇷🇺', name: 'Русский', uiTexts: rusUi, locale: 'ru', availableVersions: experimentalOnly },
-    ukr: { code: 'ukr', icon: '🇺🇦', name: 'Українська', uiTexts: ukrUi, locale: 'uk', availableVersions: experimentalOnly },
+    kor: { code: 'kor', icon: '🇰🇷', name: '한국어', uiTexts: korUi, locale: 'ko', availableVersions: stableAndExperimental },
+    rus: { code: 'rus', icon: '🇷🇺', name: 'Русский', uiTexts: rusUi, locale: 'ru', availableVersions: stableAndExperimental },
+    ukr: { code: 'ukr', icon: '🇺🇦', name: 'Українська', uiTexts: ukrUi, locale: 'uk', availableVersions: stableAndExperimental },
 };
 
 export const DefaultLanguage = Languages.en;

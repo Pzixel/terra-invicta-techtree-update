@@ -92,7 +92,7 @@ UI.Codex.codex_attributes14=<LOC,UI.Councilor.SecurityTip>
 UI.Codex.codex_attributes15=<color=#FFFFFFFF><sprite name="attribute_loyalty"></color> Lealdade
 UI.Codex.codex_attributes16=<LOC,UI.Councilor.LoyaltyTip>
 UI.Codex.codex_traits.Title=Característica
-UI.Codex.codex_traits0=As características são os traços natos de um conselheiro. Elas podem conceder bonificações ou penalidades de caráter permanente ou condicional, conceder receitas ou acesso a certas organizações. Algumas características podem ser eliminadas ou promovidas com EXP.
+UI.Codex.codex_traits0=As características são os traços natos de um conselheiro. Elas podem conceder bonificações ou penalidades de caráter permanente ou condicional, conceder receitas ou acesso a certas organizações. Algumas características podem ser eliminadas ou promovidas com XP.
 UI.Codex.codex_augmentations.Title=Implantes
 UI.Codex.codex_augmentations0=Os implantes cibernéticos são melhoras que um conselheiro pode obter. Eles funcionam de forma similar às características.
 UI.Codex.codex_XP.Title=Experiência
@@ -126,7 +126,7 @@ UI.Codex.codex_regions1=As instalações espaciais também serão divididas de a
 UI.Codex.codex_regions2=Os exércitos lutarão e ocuparão as regiões durante as guerras.
 UI.Codex.codex_regions3=Quando os conselheiros se movem pela Terra, eles estarão localizados em regiões e podem ser detectados nesses locais, mas grande parte do trabalho de um conselheiro é realizada em nível nacional.
 UI.Codex.codex_regions4=As regiões podem ser <h>montanhosas</h>, o que significa que os exércitos levarão mais tempo para atravessá-las e os exércitos de defesa terão uma vantagem considerável durante as batalhas. As regiões costeiras servem como pontos de partida e chegada para os exércitos que tenham a melhora de marinha. As regiões que estejam sobre ou perto da linha do equador ganharão mais propulsão por uma certa quantia de investimento, pois os foguetes lançados podem aproveitar melhor a velocidade de rotação da Terra nessa área.
-UI.Codex.codex_claims.Title=Reivin.
+UI.Codex.codex_claims.Title=Reivindicações
 UI.Codex.codex_claims0=Algumas nações reivindicam regiões que não lhes pertencem. São regiões que elas podem adquirir através de guerras ou movimentos de secessão.
 UI.Codex.codex_claims1=Alguns projetos de ciência social podem desbloquear novas reivindicações durante a campanha.
 UI.Codex.codex_claims2=Algumas reivindicações são consideradas "hostis". Isso significa que o povo dessa região, no geral, não deseja fazer parte da nação.
@@ -144,9 +144,9 @@ UI.Codex.codex_nationStats.Title=Atributos das nações
 UI.Codex.codex_nationStats0=A prosperidade e a estabilidade das nações da Terra, já delicadas em vários locais, ficaram ainda mais sobrecarregadas em vista da chegada alienígena. Essas circunstâncias são registradas e mostradas aos jogadores, que podem tomar diversas providências para modificá-las. Os valores essenciais a nível nacional e suas respectivas funções são:
 UI.Codex.codex_nationStats1=<color=#FFFFFFFF><sprite name="gov_type"></color> Governo<br/><LOC,UI.Nation.DemocracyHelp1>
 UI.Codex.codex_nationStats2=<color=#FFFFFFFF><sprite name="nation_unrest"></color> Agitação<br/><LOC,UI.Nation.UnrestHelp1>
-UI.Codex.codex_nationStats3=<color=#FFFFFFFF><sprite name="per_capita_GDP"></color> PIB e PIB per capita<br/><LOC,UI.Nation.GDPHelp1>
+UI.Codex.codex_nationStats3=<color=#FFFFFFFF><sprite name="per_capita_GDP"></color> PIB e PIB per Capita<br/><LOC,UI.Nation.GDPHelp1>
 UI.Codex.codex_nationStats4=<LOC,UI.Nation.PerCapitaGDPHelp1>
-UI.Codex.codex_nationStats5=<color=#FFFFFFFF><sprite name="army_level"></color> Tecnologia militar<br/><LOC,UI.Nation.MiltechHelp1>
+UI.Codex.codex_nationStats5=<color=#FFFFFFFF><sprite name="army_level"></color> Tecnologia Militar<br/><LOC,UI.Nation.MiltechHelp1>
 UI.Codex.codex_nationStats6=<color=#FFFFFFFF><sprite name="education"></color> Educação<br/><LOC,UI.Nation.EducationHelp1>
 UI.Codex.codex_nationStats7=<color=#FFFFFFFF><sprite name="culture"></color> Coesão<br/><LOC,UI.Nation.CohesionHelp1>
 UI.Codex.codex_nationStats8=<color=#FFFFFFFF><sprite name="inequality"></color> Desigualdade<br/><LOC,UI.Nation.InequalityHelp1>
@@ -257,7 +257,7 @@ UI.Codex.codex_orbits0=Todos os corpos celestes e pontos de Lagrange têm uma ou
 UI.Codex.codex_orbits1=As órbitas próximas à superfície de um corpo celeste são chamadas de órbitas <h>adjacentes</h>. Essas são as órbitas para as quais as frotas podem se deslocar para aterrissar ou para bombardear alvos na superfície. Em volta da Terra, alguns dos módulos de habitat conferem bonificações se estiverem em uma órbita adjacente, pois podem conceder benefícios melhores para a superfície.
 UI.Codex.codex_orbits2=Normalmente, é necessário usar menos Delta-V nas órbitas de maior altitude para realizar os lançamentos necessários para chegar a outras luas e sistemas planetários.
 UI.Codex.codex_orbits3=Algumas órbitas têm a marca de um símbolo de perigo <color=#FFFFFFFF><sprite name=irradiated_site></color>. Essas órbitas recebem altos níveis de radiação e as estações espaciais construídas nesses locais precisarão de escudos, além de serem muito mais pesadas e caras do que as estações construídas em outros locais.
-UI.Codex.codex_orbits4=Algumas órbitas também produzem naturalmente pequenas quantidades de <color=#FFFFFFFF><sprite name="antimatter"></color> antimatéria durante interações entre raios cósmicos, atmosferas planetárias e o campo magnético de um planeta. A antimatéria pode ser coletada com certos módulos de habitat.
+UI.Codex.codex_orbits4=Algumas órbitas também produzem naturalmente pequenas quantidades de <color=#FFFFFFFF><sprite name="antimatter"></color> Antimatéria durante interações entre raios cósmicos, atmosferas planetárias e o campo magnético de um planeta. A antimatéria pode ser coletada com certos módulos de habitat.
 UI.Codex.codex_habSites.Title=Áreas de habitat e mineração
 UI.Codex.codex_habSites0=Com exceção do planeta infernal que é Vênus e os gigantes gasosos (Júpiter, Saturno Urano e Netuno), todos os corpos celestes têm pelo menos uma área de habitat na qual as facções podem construir uma base com uma mina e outros módulos. Corpos maiores terão múltiplos locais, cuja quantidade dependerá do tamanho geral do corpo.
 UI.Codex.codex_habSites1=Após a construção de uma mina, uma área de habitat proverá certos recursos espaciais à facção no controle das instalações. Os tipos de recursos disponíveis geralmente dependerão da composição do corpo celeste.

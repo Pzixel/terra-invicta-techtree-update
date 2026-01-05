@@ -7,15 +7,15 @@ TIMissionTemplate.CriticalFailure.Abductions=Nous ne sommes pas parvenus à rass
 
 TIMissionTemplate.displayName.GainInfluence=Contrôle de nation
 TIMissionTemplate.description.GainInfluence=Obtenez un point de contrôle ouvert dans une nation.
-TIMissionTemplate.CriticalSuccess.GainInfluence=J'ai obtenu un point de contrôle pour {myFactionName} {targetNationNameWithPrep} et l'opinion publique s'est renforcée de {returnedValue} en notre faveur. Nous avons maintenant {myTargetNationControlPoints} points de contrôle sur {totalTargetNationControlPoints} à cet endroit.
-TIMissionTemplate.Success.GainInfluence=J'ai obtenu un point de contrôle pour {myFactionName} {targetNationNameWithPrep}. Nous avons maintenant {myTargetNationControlPoints} points de contrôle sur {totalTargetNationControlPoints} à cet endroit.
+TIMissionTemplate.CriticalSuccess.GainInfluence=J'ai obtenu un point de contrôle pour {myFactionName} {targetNationNameWithPrep} et l'opinion publique s'est renforcée de {returnedValue} en notre faveur. Nous avons maintenant {myTargetNationControlPoints} point(s) de contrôle sur {totalTargetNationControlPoints} à cet endroit.
+TIMissionTemplate.Success.GainInfluence=J'ai obtenu un point de contrôle pour {myFactionName} {targetNationNameWithPrep}. Nous avons maintenant {myTargetNationControlPoints} point(s) de contrôle sur {totalTargetNationControlPoints} à cet endroit.
 TIMissionTemplate.Failure.GainInfluence=Ma mission Contrôle de nation {targetNationNameWithPrep} a échoué.
 TIMissionTemplate.CriticalFailure.GainInfluence=J'ai rencontré un obstacle de taille lors de ma mission Contrôle de nation {targetNationNameWithPrep}, affaiblissant par conséquent l'opinion publique de la faction {myFactionName} de {returnedValue}.
 
 TIMissionTemplate.displayName.Propaganda=Campagne publique
 TIMissionTemplate.description.Propaganda=Augmentez le soutien public dans une nation pour notre cause.
-TIMissionTemplate.CriticalSuccess.Propaganda=J'ai augmenté le soutien populaire en faveur de la faction {myFactionName} de {targetNationNameWithPrep} {returnedValue}.
-TIMissionTemplate.Success.Propaganda=J'ai augmenté le soutien populaire en faveur de la faction {myFactionName} de {targetNationNameWithPrep} {returnedValue}.
+TIMissionTemplate.CriticalSuccess.Propaganda=J'ai augmenté le soutien populaire en faveur de la faction {myFactionName} {targetNationNameWithPrep}. {returnedValue}
+TIMissionTemplate.Success.Propaganda=J'ai augmenté le soutien populaire en faveur de la faction {myFactionName} {targetNationNameWithPrep}. {returnedValue}
 TIMissionTemplate.Failure.Propaganda=Ma mission {missionName} {targetNationNameWithPrep} a échoué et le soutien populaire reste inchangé.								
 TIMissionTemplate.CriticalFailure.Propaganda=Ma mission {missionName} {targetNationNameWithPrep} s'est soldée par un désastre ! {returnedValue}
 
@@ -23,7 +23,7 @@ TIMissionTemplate.displayName.Purge=Purge
 TIMissionTemplate.description.Purge=Prenez un point de contrôle à une faction ennemie.
 TIMissionTemplate.CriticalSuccess.Purge=Nous avons pris à {myFactionName} un point de contrôle pour {targetNationNameWithPrep} {returnedValue} et renforcé le soutien public à notre égard.
 TIMissionTemplate.Success.Purge=Nous avons purgé les sympathisants de {returnedValue} et pris un point de contrôle pour {myFactionName} {targetNationNameWithPrep}.
-TIMissionTemplate.Failure.Purge=J'ai échoué à purger les sbires de {returnedValue} {targetNationNameWithPrep}.
+TIMissionTemplate.Failure.Purge=J'ai échoué à purger les sbires de la faction {returnedValue} {targetNationNameWithPrep}.
 TIMissionTemplate.CriticalFailure.Purge=Je n'ai pas réussi à accomplir ma mission Purge contre {returnedValue} {targetNationNameWithPrep}. Mes tentatives ont certainement été remarquées par nos ennemis et notre opinion publique là-bas s'est quelque peu affaiblie.
 
 TIMissionTemplate.displayName.Advise=Conseil
@@ -86,7 +86,7 @@ TIMissionTemplate.Failure.Crackdown=Notre tentative pour neutraliser {targetFact
 TIMissionTemplate.CriticalFailure.Crackdown=Notre tentative pour neutraliser {targetFactionName} {targetNationNameWithPrep} a échoué et notre réputation en a fait les frais.
 
 TIMissionTemplate.displayName.DefendInterests=Défense des intérêts
-TIMissionTemplate.description.DefendInterests=Fortifiez nos points de contrôle dans cette nation contre les répressions, les purges et les coups d’État de l’ennemi. La durée du renforcement diminue en fonction du nombre de points de contrôle protégés.
+TIMissionTemplate.description.DefendInterests=Fortifiez nos points de contrôle dans cette nation contre les répressions, les purges et les coups d'État de l'ennemi. La durée du renforcement diminue en fonction du nombre de points de contrôle protégés.
 TIMissionTemplate.Success.DefendInterests=J'ai placé les bonnes personnes aux bons endroits et notre contrôle sur {targetDisplayNameSent} est à présent assuré jusqu'à {returnedValue}. Les factions ennemies qui tentent de nous prendre le contrôle subiront de fortes pénalités.
 
 TIMissionTemplate.displayName.Detain=Détention de conseiller
@@ -177,11 +177,11 @@ TIMissionTemplate.Failure.InvestigateCouncilor=Je n'ai rien appris de nouveau co
 TIMissionTemplate.CriticalFailure.InvestigateCouncilor=Je n'ai rien appris concernant {targetDisplayNameSent} et il est possible que nos ennemis soient au courant de ma présence. {returnedValue}
 
 TIMissionTemplate.displayName.Orbit=Mise en orbite
-TIMissionTemplate.description.Orbit=Passez de la surface de la Terre à n'importe quelle orbite du système Terre-Lune, ou de la surface de n'importe quel corps spatial à une station ou à un vaisseau en orbite d'interface. Le trait Identité secrète est nécessaire uniquement pour voyager vers des habitats ennemis de niveau 1 (plateformes ou vaisseaux) et des flottes ennemies.
+TIMissionTemplate.description.Orbit=Passez de la surface de la Terre à n'importe quelle orbite du système Terre-Lune, ou de la surface de n'importe quel corps céleste à une station ou à un vaisseau en orbite d'interface. Le trait Identité secrète est nécessaire uniquement pour voyager vers des habitats ennemis de niveau 1 (plateformes ou vaisseaux) et des flottes ennemies.
 TIMissionTemplate.Success.Orbit=Je suis à présent à bord de la {targetLocationStrSentence}.
 
 TIMissionTemplate.displayName.Deorbit=Désorbitage
-TIMissionTemplate.description.Deorbit=Passez d'un habitat ou d'un vaisseau en orbite d'interface à la surface d'un corps spatial, ou de n'importe quel lieu dans le système Terre-Lune à la surface de la Terre.
+TIMissionTemplate.description.Deorbit=Passez d'un habitat ou d'un vaisseau en orbite d'interface à la surface d'un corps céleste, ou de n'importe quel lieu dans le système Terre-Lune à la surface de la Terre.
 TIMissionTemplate.Success.Deorbit=Je suis sur la terre ferme.
 
 TIMissionTemplate.displayName.PassTechnology=Don de technologie
@@ -207,7 +207,7 @@ TIMissionTemplate.Failure.SabotageHabModule=Je n'ai pas pu m'approcher suffisamm
 TIMissionTemplate.CriticalFailure.SabotageHabModule=Je me suis fait repérer dans une zone sécurisée près de {targetDisplayName} à {targetHabName} et je vais bientôt subir un interrogatoire.
 
 TIMissionTemplate.displayName.SabotageProject=Sabotage de projet
-TIMissionTemplate.description.SabotageProject=Ciblez un conseiller ou un habitat avec un module d'ingénierie pour quitter jusqu’à 5 000 points de recherche à un projet. Un projet spécifique ne peut être saboté qu’une seule fois.
+TIMissionTemplate.description.SabotageProject=Ciblez un conseiller ou un habitat avec un module d'ingénierie pour quitter jusqu'à 5 000 points de recherche à un projet. Un projet spécifique ne peut être saboté qu'une seule fois.
 TIMissionTemplate.CriticalSuccess.SabotageProject=J'ai infligé à la faction {targetFactionName} un important revers dans leurs recherches et j'ai réussi à dérober {returnedValue} pour nos scientifiques.
 TIMissionTemplate.Success.SabotageProject=J'ai infligé à la faction {targetFactionName} un important revers dans leurs recherches.
 TIMissionTemplate.Failure.SabotageProject=Je n'ai pas réussi à infiltrer la cible pour saboter leurs recherches.
@@ -217,21 +217,21 @@ TIMissionTemplate.Prompt.SabotageProject=Sélectionnez un projet à saboter...
 TIMissionTemplate.SecondarySelection=Sélection : {0}
 
 TIMissionTemplate.displayName.SeizeSpaceAsset=Assaut d'un bien spatial ennemi
-TIMissionTemplate.description.SeizeSpaceAsset=Envoie des marines de l’espace pour tenter de capturer un habitat ennemi. Nécessite la présence d’habitats ou de flottes de marines à l’emplacement du conseiller. Les flottes doivent s’amarrer aux stations ennemies pour lancer un assaut. Les stations peuvent déposer des troupes à la surface, et les bases peuvent attaquer les habitats à proximité. Les modules de marines peuvent être détruits ou endommagés.
+TIMissionTemplate.description.SeizeSpaceAsset=Envoie des marines de l'espace pour tenter de capturer un habitat ennemi. Nécessite la présence d'habitats ou de flottes de marines à l'emplacement du conseiller. Les flottes doivent s'amarrer aux stations ennemies pour lancer un assaut. Les stations peuvent déposer des troupes à la surface, et les bases peuvent attaquer les habitats à proximité. Les modules de marines peuvent être détruits ou endommagés.
 TIMissionTemplate.CriticalSuccess.SeizeSpaceAsset=Victoire ! Nous avons capturé {targetDisplayName} de la faction {targetFactionName}. {returnedValue}
 TIMissionTemplate.Success.SeizeSpaceAsset=Victoire ! Nous avons capturé {targetDisplayName} de la faction {targetFactionName}. {returnedValue}
 TIMissionTemplate.Failure.SeizeSpaceAsset=Défaite ! Nous n'avons pas réussi à capturer {targetDisplayName} de la faction {targetFactionName}. {returnedValue}
 TIMissionTemplate.CriticalFailure.SeizeSpaceAsset=Défaite ! Nous n'avons pas réussi à capturer {targetDisplayName} de la faction {targetFactionName}. {returnedValue}
 
 TIMissionTemplate.displayName.Stabilize=Stabilisation de nation
-TIMissionTemplate.description.Stabilize=Réduisez l'agitation dans la nation ciblée, améliorant l'économie et réduisant les risques que le gouvernement soit renversé. Effet affaibli si l’agitation existante est inférieure à la moitié de l’agitation de la nation à sa valeur de repos.
+TIMissionTemplate.description.Stabilize=Réduisez l'agitation dans la nation ciblée, améliorant l'économie et réduisant les risques que le gouvernement soit renversé. Effet affaibli si l'agitation existante est inférieure à la moitié de l'agitation de la nation à sa valeur de repos.
 TIMissionTemplate.CriticalSuccess.Stabilize=Nous avons réduit de manière significative l'agitation {targetNationNameWithPrep} de {returnedValue} à {targetNationUnrestWithString}.
 TIMissionTemplate.Success.Stabilize=Nous avons réduit l'agitation {targetNationNameWithPrep} de {returnedValue} à {targetNationUnrestWithString}.
 TIMissionTemplate.Failure.Stabilize=Je n'ai pas réussi à réduire l'agitation {targetNationNameWithPrep}.
-TIMissionTemplate.CriticalFailure.Stabilize=Mes efforts pour réduire l'agitation {targetNationNameWithPrep} ont été vains et la nation est encore plus divisée. L’agitation augmentant de {returnedValue}.
+TIMissionTemplate.CriticalFailure.Stabilize=Mes efforts pour réduire l'agitation {targetNationNameWithPrep} ont été vains et la nation est encore plus divisée. L'agitation augmentant de {returnedValue}.
 
 TIMissionTemplate.displayName.StealProject=Vol de projet
-TIMissionTemplate.description.StealProject=Volez un projet d'ingénierie à une faction ennemie en ciblant un de leurs conseillers ou un de leurs habitats avec un module d’ingénierie, débloquant ainsi le projet pour que nous puissions faire des recherches. Nous pourrions également acquérir <color=#FFFFFFFF><sprite name="research"></color> si la faction ennemie gagne plus de revenus de recherches que nous.
+TIMissionTemplate.description.StealProject=Volez un projet d'ingénierie à une faction ennemie en ciblant un de leurs conseillers ou un de leurs habitats avec un module d'ingénierie, débloquant ainsi le projet pour que nous puissions faire des recherches. Nous pourrions également acquérir <color=#FFFFFFFF><sprite name="research"></color> si la faction ennemie gagne plus de revenus de recherches que nous.
 TIMissionTemplate.CriticalSuccess.StealProject=J'ai obtenu l'accès aux archives scientifiques de la faction {targetFactionName}. {returnedValue} Nous pouvons maintenant sélectionner un de leurs projets pour le voler.
 TIMissionTemplate.Success.StealProject=J'ai obtenu l'accès aux archives scientifiques de la faction {targetFactionName}. {returnedValue}
 TIMissionTemplate.Failure.StealProject=Je n'ai pas réussi à obtenir l'accès aux archives scientifiques de la faction {targetFactionName}.
@@ -264,9 +264,9 @@ TIMissionTemplate.Failure.Turn=Nous n'avons pas réussi à rallier {targetDispla
 TIMissionTemplate.CriticalFailure.Turn=Je n'ai pas réussi à rallier {targetDisplayName} à notre cause et il est probable que la faction {targetFactionName} connaisse ma position.
 
 TIMissionTemplate.displayName.Unrest=Augmentation de l'agitation
-TIMissionTemplate.description.Unrest=Augmentez l'agitation dans la nation de la région ciblée, nuisant à l'économie et augmentant les risques de coups d'État, de révolutions et de sécessions. Réussir dans une région agitée par un mouvement d'indépendance pourrait déclencher une sécession plutôt qu’une révolution. Effet affaibli si l’agitation est déjà supérieure au double de l’agitation de la nation à sa valeur de repos.
+TIMissionTemplate.description.Unrest=Augmentez l'agitation dans la nation de la région ciblée, nuisant à l'économie et augmentant les risques de coups d'État, de révolutions et de sécessions. Réussir dans une région agitée par un mouvement d'indépendance pourrait déclencher une sécession plutôt qu'une révolution. Effet affaibli si l'agitation est déjà supérieure au double de l'agitation de la nation à sa valeur de repos.
 TIMissionTemplate.CriticalSuccess.Unrest=Mes efforts ont permis d'accroître l'agitation {targetNationNameWithPrep} de {returnedValue} vers {targetNationUnrestWithString}. Nous bénéficions à présent d'un soutien parmi les mouvements insurgés de cette zone, au cas où ils parviendraient à renverser le gouvernement.
-TIMissionTemplate.Success.Unrest=Mes efforts ont permis d'accroître l'agitation {targetNationNameWithPrep} de {returnedValue}, vers {targetNationUnrestWithString}. Nous bénéficions à présent d’un soutien parmi les mouvements insurgés de cette zone, au cas où ils parviendraient à renverser le gouvernement.
+TIMissionTemplate.Success.Unrest=Mes efforts ont permis d'accroître l'agitation {targetNationNameWithPrep} de {returnedValue}, vers {targetNationUnrestWithString}. Nous bénéficions à présent d'un soutien parmi les mouvements insurgés de cette zone, au cas où ils parviendraient à renverser le gouvernement.
 TIMissionTemplate.Failure.Unrest=Je n'ai pas réussi à augmenter l'agitation {targetNationNameWithPrep}.
 TIMissionTemplate.CriticalFailure.Unrest=J'ai échoué dans ma tentative d'augmenter l'agitation {targetNationNameWithPrep}. {returnedValue}
 
@@ -316,20 +316,20 @@ TIMissionEffect_InvestigateCouncilor.EnemySpecial1=Nous connaissons l'identité 
 TIMissionEffect_InvestigateCouncilor.EnemySpecial2=Nous disposons également d'un profil détaillé du conseiller dans la section des renseignements. Nous estimons à {0} la valeur de loyauté du conseiller.
 TIMissionEffect_InvestigateCouncilor.EnemySpecial3=Nous serons bientôt en mesure de connaître temporairement la mission assignée au conseiller.
 TIMissionEffect_InvestigateCouncilor.EnemySpecial4=Il est possible que nous ayons plus de renseignements que {0}. Actuellement, la valeur de loyauté du conseiller est de {1}.
-TIMissionEffect_InvestigateCouncilor.EnemySpecial5=Nous avons également appris qu'ils espionnaient pour : {0}.
-TIMissionEffect_InvestigateCouncilor.MySpecial1=Nous avons analysé leur véritable valeur de loyauté comme étant de {0}.
+TIMissionEffect_InvestigateCouncilor.EnemySpecial5=Nous avons également appris que le conseiller espionnait pour : {0}.
+TIMissionEffect_InvestigateCouncilor.MySpecial1=Sa loyauté est en réalité de {0}.
 TIMissionEffect_InvestigateCouncilor.MySpecial2=Nous avons appris ceci : {1} a retourné {0} contre nous, qui nous espionne désormais. Il s'agit d'une fuite sans précédent et nous devons y mettre un terme au plus vite.
 TIMissionEffect_InvestigateCouncilor.MySpecial3=Notre enquête a été tellement chaotique qu'elle est parvenue aux oreilles de {0}, entraînant sa colère et une perte d'un point de loyauté.
 TIMissionEffect_Advise.Special1=Jusqu'à ce qu'une nouvelle mission me soit attribuée, j'augmenterai les capacités de recherche de cette nation de {0}, les points d'investissement de {1}, et la valeur de technologie militaire de {2}, améliorant ainsi les performances des armées et des forces de défense.
-TIMissionEffect_Advise.Special2=Jusqu’à ce qu’une nouvelle mission me soit attribuée, j’augmenterai les capacités de recherche de cet habitat de {0}, sa production de ressources et d’argent de {1}, et les capacités de combat de ses marines de {2}.
+TIMissionEffect_Advise.Special2=Jusqu'à ce qu'une nouvelle mission me soit attribuée, j'augmenterai les capacités de recherche de cet habitat de {0}, sa production de ressources et d'argent de {1}, et les capacités de combat de ses marines de {2}.
 TIMissionEffect_Advise.Special3=Jusqu'à ce qu'une nouvelle mission me soit attribuée, j'améliorerai les performances de combat de cette flotte de {0} et ses capacités de recherche de {1}.
 TIMissionEffect_StealProject.Special=Je me suis fait arrêter et ils me livreront sous peu à {0}. Je résisterai à leurs interrogatoires aussi longtemps que possible.					// faction name
 TIMissionEffect_StealProject.Steal=J'ai également acquis {0} à partir de leurs archives.
 TIMissionEffect_SabotageProject.Special=Je me suis fait arrêter et ils me livreront sous peu à {0}. Veuillez vous assurer qu'on me libérera.									// faction name
-TIMissionEffect_Propaganda.Special=Le soutien en notre faveur dans l'opinion publique de cette zone a évolué de {0}. Il est maintenant à {1}.
-TIMissionEffect_Propaganda.Special2=Notre soutien public ici est toujours de {0}, mais le peuple s’éloigne des idéologies opposées et se rapprochent de la nôtre.
-TIMissionEffect_Assassinate.Special1=Notre tentative d’assassinat a été remarquée. Les autorités du monde entier sont désormais à ma recherche.									// faction name
-TIMissionEffect_Assassinate.Special2=Je me suis fait arrêter et ils me livreront sous peu à {0}. S’il vous plaît, obtenez ma libération !									// faction name
+TIMissionEffect_Propaganda.Special=Le soutien en notre faveur dans l'opinion publique y a évolué de {0}. Il est maintenant à {1}.
+TIMissionEffect_Propaganda.Special2=Notre soutien public ici est toujours de {0}, mais le peuple s'éloigne des idéologies opposées et se rapprochent de la nôtre.
+TIMissionEffect_Assassinate.Special1=Notre tentative d'assassinat a été remarquée. Les autorités du monde entier sont désormais à ma recherche.									// faction name
+TIMissionEffect_Assassinate.Special2=Je me suis fait arrêter et ils me livreront sous peu à {0}. S'il vous plaît, obtenez ma libération !									// faction name
 
 TIMissionResult_Responsibility=Nous avons pu identifier{0} comme étant à l'origine de cette opération.
 
@@ -477,7 +477,7 @@ TIMissionCondition_HasSpySlot=Pas de place pour des espions supplémentaires
 TIMissionCondition_FactionHasVulnerableProjects=La cible n'a pas de projets à saboter
 TIMissionCondition_CanLaunchToOrbit=Le conseiller doit être sur Terre ou dans une base
 TIMissionCondition_AllowedOrbitTarget=L'orbite ciblée doit être à portée du site de lancement
-TIMissionCondition_CanTransfer=Le conseiller doit être en orbite ou sur un emplacement d’habitat
+TIMissionCondition_CanTransfer=Le conseiller doit être en orbite ou sur un emplacement d'habitat
 TIMissionCondition_AllowedTransferTarget=La cible du transfert doit se trouver dans le périmètre d'action
 TIMissionCondition_CanDeorbit=Le conseiller doit être en orbite d'interface ou dans le système Terre-Lune
 TIMissionCondition_AllowedDeorbitTarget=La cible de désorbitage doit se trouver dans le périmètre d'action
