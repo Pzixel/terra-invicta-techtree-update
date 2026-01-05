@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip, IconButton } from "@mui/material";
+import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip, IconButton, useTheme } from "@mui/material";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
@@ -73,6 +73,7 @@ export function TechSidebar({
   handleIsolatedChanged,
   isMobile,
 }: TechSidebarProps) {
+    const theme = useTheme();
     const locale = language.locale;
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
     const [isolated, setIsolated] = useState(false);
@@ -81,6 +82,7 @@ export function TechSidebar({
     const [copyButtonHovered, setCopyButtonHovered] = useState(false);
     const [accordionTooltipOpen, setAccordionTooltipOpen] = useState(false);
     const [copyTooltipOpen, setCopyTooltipOpen] = useState(false);
+    const projectIconSrc = theme.palette.mode === 'dark' ? "icons/ICO_projects.png" : "icons/ICO_projects_Invert.png";
 
     // Load research state from localStorage when techDb changes
     useEffect(() => {
@@ -998,7 +1000,7 @@ export function TechSidebar({
                 )}
 
                 {/* Heading */}
-                <h2>{node.displayName} {node.isProject ? <img src="icons/ICO_projects_Invert.png" alt="faction project" style={{ width: "24px", height: "24px" }} /> : null}</h2>
+                <h2>{node.displayName} {node.isProject ? <img src={projectIconSrc} alt="faction project" style={{ width: "24px", height: "24px" }} /> : null}</h2>
 
                 {/* Cost information */}
                 <Accordion disableGutters>
@@ -1071,7 +1073,7 @@ export function TechSidebar({
                                         project > 0 && 
                                         (
                                             <span>
-                                                {"\t\t\t"}(<img src="icons/ICO_projects_Invert.png" alt={key} style={{ width: "16px", height: "16px" }} />
+                                                {"\t\t\t"}(<img src={projectIconSrc} alt={key} style={{ width: "16px", height: "16px" }} />
                                                 {"\t\t"}{project.toLocaleString()})
                                             </span>
                                         )
