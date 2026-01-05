@@ -200,17 +200,17 @@ export function TechSidebar({
             return null;
         }
 
-        return `${nationName} gains a claim on ${regionName}`;
+        return formatTemplate(language.uiTexts.claimGained, {
+            nation: nationName,
+            region: regionName,
+        });
     }
 
     function getReadableAdjacency(adjacency: Adjacency) {
         const region1Name = localizationDb.getReadable("region", adjacency.region1, "displayName");
         const region2Name = localizationDb.getReadable("region", adjacency.region2, "displayName");
-        if (adjacency.friendlyOnly) {
-            return `${region1Name} and ${region2Name} are now considered to be adjacent for friendly traffic`;
-        } else {
-            return `${region1Name} and ${region2Name} are now considered to be adjacent`;
-        }
+        const template = adjacency.friendlyOnly ? language.uiTexts.adjacencyFriendly : language.uiTexts.adjacencyGeneral;
+        return formatTemplate(template, { region1: region1Name, region2: region2Name });
     }
 
     // not used
@@ -282,6 +282,10 @@ export function TechSidebar({
     function getFactionIcon(faction: string) {
         const iconPath = getFactionIconPath(faction);
         return <img className="faction-icon" src={iconPath} alt={`${name} icon`} />;
+    }
+
+    function formatTemplate(template: string, values: Record<string, string>) {
+        return Object.entries(values).reduce((acc, [key, value]) => acc.replace(new RegExp(`\\{${key}\\}`, "g"), value), template);
     }
 
     function renderFactionWithIcon(faction: string | undefined) {
@@ -426,7 +430,7 @@ export function TechSidebar({
         return (
             <div className="module-display">
                 {icon && <img className="module-icon" src={`./icons/${icon}.png`} alt={`${dataModule.data.dataName} icon`} />}
-                {renderCostItems(fuelCost, "Fuel per tank")}
+                {renderCostItems(fuelCost, language.uiTexts.fuelPerTank)}
                 <p className="module-description">{localizationDb.getLocalizationString(dataModule.type, dataModule.data.dataName, "description")}</p>
                 {renderCostItems(buildCost)}
                 <pre>{JSON.stringify(dataModule.data, null, 2)}</pre>
@@ -498,11 +502,11 @@ export function TechSidebar({
             .map(([key, value]) => [key, value] as const);
 
         const varyFields: { key: keyof ModuleTemplate; label: string }[] = [
-            { key: "friendlyName", label: "Drive" },
-            { key: "thrusters", label: "Thrusters" },
-            { key: "thrust_N", label: "Thrust (N)" },
-            { key: "thrustRating_GW", label: "Thrust Rating (GW)" },
-            { key: "req power", label: "Req power" },
+            { key: "friendlyName", label: language.uiTexts.driveColumnLabel },
+            { key: "thrusters", label: language.uiTexts.thrustersLabel },
+            { key: "thrust_N", label: language.uiTexts.thrustNLabel },
+            { key: "thrustRating_GW", label: language.uiTexts.thrustRatingGWLabel },
+            { key: "req power", label: language.uiTexts.requiredPowerLabel },
         ];
 
         const getDriveLabel = (drive: ModuleTemplate) => localizationDb.getLocalizationString("drive", drive.dataName, "displayName") ?? drive.friendlyName ?? drive.dataName;
@@ -517,16 +521,16 @@ export function TechSidebar({
                 <table className="module-drive-table">
                     <thead>
                         <tr>
-                            <th colSpan={2}>Drive specs (shared)</th>
+                            <th colSpan={2}>{language.uiTexts.driveSpecsShared}</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th>Fuel per tank</th>
+                            <th>{language.uiTexts.fuelPerTank}</th>
                             <td>{renderCostItems(fuelCost)}</td>
                         </tr>
                         <tr>
-                            <th>weightedBuildMaterials</th>
+                            <th>{language.uiTexts.weightedBuildMaterialsLabel}</th>
                             <td>{renderCostItems(weightedBuildMaterialsCost)}</td>
                         </tr>
                         {commonEntries.map(([key, value]) => (
@@ -692,6 +696,7 @@ export function TechSidebar({
     const renderProjectButton = (tech: TechTemplate) => {
         const canFailToRoll = tech.factionAvailableChance !== undefined && tech.factionAvailableChance < 100;
         const factions = tech.factionPrereq?.map(faction => getFactionIcon(faction)!) ?? [];
+        const projectTitle = tech.isProject ? language.uiTexts.factionProjectTitle : language.uiTexts.globalResearchTitle;
         return (
             <Button
                 key={`${tech.displayName}`}
@@ -699,8 +704,8 @@ export function TechSidebar({
                 variant="contained"
                 className={`prereqButton${tech.researchDone ? " researchDone" : ""}`}
                 size="small"
-                title={tech.isProject ? "Faction Project" : "Global Research"}
-                aria-label={tech ? `${tech.displayName} ${tech.isProject ? "Faction Project" : "Global Research"}` : ""}
+                title={projectTitle}
+                aria-label={tech ? `${tech.displayName} ${projectTitle}` : ""}
                 color={tech.isProject ? canFailToRoll ? "warning" : "success" : "primary"}
             >
                 {factions} {tech.displayName} {canFailToRoll ? `${tech.factionAvailableChance}%` : ""}
@@ -734,9 +739,9 @@ export function TechSidebar({
             }
             const altButton = renderProjectButton(tech);
 
-            const orText = <b key={"or"} className="prereqButton">or</b>;
+            const orText = <b key={"or"} className="prereqButton">{language.uiTexts.orLabel}</b>;
             const breakElement = <br key={"br"} />;
-            const andText = <b key={"and"} className="prereqButton">and</b>;
+            const andText = <b key={"and"} className="prereqButton">{language.uiTexts.andLabel}</b>;
 
             if (prereqElements.length > 1) {
                 prereqElements.splice(1, 0, orText, altButton, breakElement, andText);
@@ -902,7 +907,7 @@ export function TechSidebar({
         if (driveModules.length > 0) {
             moduleElements.push(
                 <div key="drive-group" className="module-wrapper">
-                    <div className="module-name">Drives</div>
+                    <div className="module-name">{language.uiTexts.drivesHeading}</div>
                     {renderDriveGroup(driveModules)}
                 </div>
             );
@@ -1005,7 +1010,7 @@ export function TechSidebar({
                 {/* Cost information */}
                 <Accordion disableGutters>
                     <Tooltip 
-                        title="Click to see technology cost breakdown" 
+                        title={language.uiTexts.costBreakdownTooltip} 
                         arrow 
                         placement="top" 
                         enterDelay={300}
@@ -1022,7 +1027,7 @@ export function TechSidebar({
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                                     <span>{language.uiTexts.totalTreeCost}: {treeCostString}</span>
                                     <Tooltip 
-                                        title={copied ? "Copied!" : "Copy to clipboard"} 
+                                        title={copied ? language.uiTexts.copiedLabel : language.uiTexts.copyToClipboard} 
                                         arrow 
                                         placement="right" 
                                         enterDelay={100}

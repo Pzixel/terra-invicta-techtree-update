@@ -39,6 +39,25 @@ export interface LocalizedUi {
     unblocksOneOrMoreModules: string;
     unblocksResearch: string;
     randomFaction: string;
+    costBreakdownTooltip: string;
+    copyToClipboard: string;
+    copiedLabel: string;
+    fuelPerTank: string;
+    weightedBuildMaterialsLabel: string;
+    driveSpecsShared: string;
+    driveColumnLabel: string;
+    thrustersLabel: string;
+    thrustNLabel: string;
+    thrustRatingGWLabel: string;
+    requiredPowerLabel: string;
+    drivesHeading: string;
+    orLabel: string;
+    andLabel: string;
+    factionProjectTitle: string;
+    globalResearchTitle: string;
+    claimGained: string;
+    adjacencyFriendly: string;
+    adjacencyGeneral: string;
 }
 
 const englishUi: LocalizedUi = {
@@ -80,6 +99,25 @@ const englishUi: LocalizedUi = {
     unblocksOneOrMoreModules: "Unlocks one or more modules.",
     unblocksResearch: "Unblocks Research",
     randomFaction: "Random",
+    costBreakdownTooltip: "Click to see technology cost breakdown",
+    copyToClipboard: "Copy to clipboard",
+    copiedLabel: "Copied!",
+    fuelPerTank: "Fuel per tank",
+    weightedBuildMaterialsLabel: "Build materials",
+    driveSpecsShared: "Drive specs (shared)",
+    driveColumnLabel: "Drive",
+    thrustersLabel: "Thrusters",
+    thrustNLabel: "Thrust (N)",
+    thrustRatingGWLabel: "Thrust Rating (GW)",
+    requiredPowerLabel: "Req power",
+    drivesHeading: "Drives",
+    orLabel: "or",
+    andLabel: "and",
+    factionProjectTitle: "Faction Project",
+    globalResearchTitle: "Global Research",
+    claimGained: "{nation} gains a claim on {region}",
+    adjacencyFriendly: "{region1} and {region2} are now considered to be adjacent for friendly traffic",
+    adjacencyGeneral: "{region1} and {region2} are now considered to be adjacent",
 };
 
 export type Language = {
@@ -130,6 +168,25 @@ const chsUi: LocalizedUi = {
     unblocksOneOrMoreModules: "解锁一个或多个模块。",
     unblocksResearch: "解锁研究",
     randomFaction: "随机",
+    costBreakdownTooltip: "点击查看技术成本明细",
+    copyToClipboard: "复制到剪贴板",
+    copiedLabel: "已复制！",
+    fuelPerTank: "每罐燃料",
+    weightedBuildMaterialsLabel: "建造材料",
+    driveSpecsShared: "引擎规格（共享）",
+    driveColumnLabel: "引擎",
+    thrustersLabel: "推进器",
+    thrustNLabel: "推力 (N)",
+    thrustRatingGWLabel: "推力等级 (GW)",
+    requiredPowerLabel: "需求功率",
+    drivesHeading: "引擎",
+    orLabel: "或",
+    andLabel: "和",
+    factionProjectTitle: "派系项目",
+    globalResearchTitle: "全球研究",
+    claimGained: "{nation}获得了对{region}的宣称",
+    adjacencyFriendly: "{region1}和{region2}现在被视为友军交通的邻接区域",
+    adjacencyGeneral: "{region1}和{region2}现在被视为邻接区域",
 };
 
 const chtUi: LocalizedUi = {
@@ -171,6 +228,25 @@ const chtUi: LocalizedUi = {
     unblocksOneOrMoreModules: "解鎖一個或多個模組。",
     unblocksResearch: "解鎖研究",
     randomFaction: "隨機",
+    costBreakdownTooltip: "點擊查看技術成本明細",
+    copyToClipboard: "複製到剪貼簿",
+    copiedLabel: "已複製！",
+    fuelPerTank: "每罐燃料",
+    weightedBuildMaterialsLabel: "建造材料",
+    driveSpecsShared: "引擎規格（共享）",
+    driveColumnLabel: "引擎",
+    thrustersLabel: "推進器",
+    thrustNLabel: "推力 (N)",
+    thrustRatingGWLabel: "推力等級 (GW)",
+    requiredPowerLabel: "需求功率",
+    drivesHeading: "引擎",
+    orLabel: "或",
+    andLabel: "和",
+    factionProjectTitle: "派系項目",
+    globalResearchTitle: "全球研究",
+    claimGained: "{nation}獲得了對{region}的宣稱",
+    adjacencyFriendly: "{region1}和{region2}現在被視為友軍交通的鄰接區域",
+    adjacencyGeneral: "{region1}和{region2}現在被視為鄰接區域",
 };
 
 const deuUi: LocalizedUi = {
@@ -212,6 +288,25 @@ const deuUi: LocalizedUi = {
     unblocksOneOrMoreModules: "Schaltet ein oder mehrere Module frei.",
     unblocksResearch: "Schaltet Forschung frei",
     randomFaction: "Zufällig",
+    costBreakdownTooltip: "Klicken, um Technologiekostenübersicht anzuzeigen",
+    copyToClipboard: "In Zwischenablage kopieren",
+    copiedLabel: "Kopiert!",
+    fuelPerTank: "Treibstoff pro Tank",
+    weightedBuildMaterialsLabel: "Baumaterialien",
+    driveSpecsShared: "Antriebsspezifikationen (gemeinsam)",
+    driveColumnLabel: "Antrieb",
+    thrustersLabel: "Triebwerke",
+    thrustNLabel: "Schub (N)",
+    thrustRatingGWLabel: "Schubleistung (GW)",
+    requiredPowerLabel: "Benötigte Leistung",
+    drivesHeading: "Antriebe",
+    orLabel: "oder",
+    andLabel: "und",
+    factionProjectTitle: "Fraktionsprojekt",
+    globalResearchTitle: "Globale Forschung",
+    claimGained: "{nation} erhebt Anspruch auf {region}",
+    adjacencyFriendly: "{region1} und {region2} gelten nun als angrenzend für freundlichen Verkehr",
+    adjacencyGeneral: "{region1} und {region2} gelten nun als angrenzend",
 };
 
 const espUi: LocalizedUi = {
@@ -253,6 +348,25 @@ const espUi: LocalizedUi = {
     unblocksOneOrMoreModules: "Desbloquea uno o más módulos.",
     unblocksResearch: "Desbloquea Investigación",
     randomFaction: "Aleatorio",
+    costBreakdownTooltip: "Clic para ver el desglose de costos tecnológicos",
+    copyToClipboard: "Copiar al portapapeles",
+    copiedLabel: "¡Copiado!",
+    fuelPerTank: "Combustible por tanque",
+    weightedBuildMaterialsLabel: "Materiales de construcción",
+    driveSpecsShared: "Especificaciones del motor (compartido)",
+    driveColumnLabel: "Motor",
+    thrustersLabel: "Propulsores",
+    thrustNLabel: "Empuje (N)",
+    thrustRatingGWLabel: "Potencia de empuje (GW)",
+    requiredPowerLabel: "Potencia requerida",
+    drivesHeading: "Motores",
+    orLabel: "o",
+    andLabel: "y",
+    factionProjectTitle: "Proyecto de Facción",
+    globalResearchTitle: "Investigación Global",
+    claimGained: "{nation} obtiene una reclamación sobre {region}",
+    adjacencyFriendly: "{region1} y {region2} ahora se consideran adyacentes para tráfico amistoso",
+    adjacencyGeneral: "{region1} y {region2} ahora se consideran adyacentes",
 };
 
 const frUi: LocalizedUi = {
@@ -294,6 +408,25 @@ const frUi: LocalizedUi = {
     unblocksOneOrMoreModules: "Débloque un ou plusieurs modules.",
     unblocksResearch: "Débloque la recherche",
     randomFaction: "Aléatoire",
+    costBreakdownTooltip: "Cliquez pour voir la répartition des coûts technologiques",
+    copyToClipboard: "Copier dans le presse-papiers",
+    copiedLabel: "Copié !",
+    fuelPerTank: "Carburant par réservoir",
+    weightedBuildMaterialsLabel: "Matériaux de construction",
+    driveSpecsShared: "Spécifications du moteur (partagées)",
+    driveColumnLabel: "Moteur",
+    thrustersLabel: "Propulseurs",
+    thrustNLabel: "Poussée (N)",
+    thrustRatingGWLabel: "Puissance de poussée (GW)",
+    requiredPowerLabel: "Puissance requise",
+    drivesHeading: "Moteurs",
+    orLabel: "ou",
+    andLabel: "et",
+    factionProjectTitle: "Projet de Faction",
+    globalResearchTitle: "Recherche Globale",
+    claimGained: "{nation} revendique {region}",
+    adjacencyFriendly: "{region1} et {region2} sont maintenant considérés comme adjacents pour le trafic allié",
+    adjacencyGeneral: "{region1} et {region2} sont maintenant considérés comme adjacents",
 };
 
 const jpnUi: LocalizedUi = {
@@ -335,6 +468,25 @@ const jpnUi: LocalizedUi = {
     unblocksOneOrMoreModules: "1つ以上のモジュールをアンロックします。",
     unblocksResearch: "研究をアンロック",
     randomFaction: "ランダム",
+    costBreakdownTooltip: "クリックして技術コストの内訳を表示",
+    copyToClipboard: "クリップボードにコピー",
+    copiedLabel: "コピーしました！",
+    fuelPerTank: "タンクあたりの燃料",
+    weightedBuildMaterialsLabel: "建造素材",
+    driveSpecsShared: "エンジン仕様（共通）",
+    driveColumnLabel: "エンジン",
+    thrustersLabel: "スラスター",
+    thrustNLabel: "推力 (N)",
+    thrustRatingGWLabel: "推力定格 (GW)",
+    requiredPowerLabel: "必要電力",
+    drivesHeading: "エンジン",
+    orLabel: "または",
+    andLabel: "かつ",
+    factionProjectTitle: "勢力プロジェクト",
+    globalResearchTitle: "グローバル研究",
+    claimGained: "{nation}が{region}の領有権を主張",
+    adjacencyFriendly: "{region1}と{region2}は友好的な交通において隣接とみなされます",
+    adjacencyGeneral: "{region1}と{region2}は隣接とみなされます",
 };
 
 const polUi: LocalizedUi = {
@@ -376,6 +528,25 @@ const polUi: LocalizedUi = {
     unblocksOneOrMoreModules: "Odblokowuje jeden lub więcej modułów.",
     unblocksResearch: "Odblokowuje badania",
     randomFaction: "Losowo",
+    costBreakdownTooltip: "Kliknij, aby zobaczyć podział kosztów technologii",
+    copyToClipboard: "Kopiuj do schowka",
+    copiedLabel: "Skopiowano!",
+    fuelPerTank: "Paliwo na zbiornik",
+    weightedBuildMaterialsLabel: "Materiały budowlane",
+    driveSpecsShared: "Specyfikacja napędu (wspólna)",
+    driveColumnLabel: "Napęd",
+    thrustersLabel: "Silniki",
+    thrustNLabel: "Ciąg (N)",
+    thrustRatingGWLabel: "Moc ciągu (GW)",
+    requiredPowerLabel: "Wymagana moc",
+    drivesHeading: "Napędy",
+    orLabel: "lub",
+    andLabel: "i",
+    factionProjectTitle: "Projekt Frakcji",
+    globalResearchTitle: "Globalne Badania",
+    claimGained: "{nation} uzyskuje roszczenie do {region}",
+    adjacencyFriendly: "{region1} i {region2} są teraz uznawane za sąsiadujące dla ruchu sojuszniczego",
+    adjacencyGeneral: "{region1} i {region2} są teraz uznawane za sąsiadujące",
 };
 
 const porUi: LocalizedUi = {
@@ -417,6 +588,25 @@ const porUi: LocalizedUi = {
     unblocksOneOrMoreModules: "Desbloqueia um ou mais módulos.",
     unblocksResearch: "Desbloqueia Pesquisa",
     randomFaction: "Aleatório",
+    costBreakdownTooltip: "Clique para ver o detalhamento dos custos de tecnologia",
+    copyToClipboard: "Copiar para a área de transferência",
+    copiedLabel: "Copiado!",
+    fuelPerTank: "Combustível por tanque",
+    weightedBuildMaterialsLabel: "Materiais de construção",
+    driveSpecsShared: "Especificações do motor (compartilhado)",
+    driveColumnLabel: "Motor",
+    thrustersLabel: "Propulsores",
+    thrustNLabel: "Empuxo (N)",
+    thrustRatingGWLabel: "Potência de empuxo (GW)",
+    requiredPowerLabel: "Potência necessária",
+    drivesHeading: "Motores",
+    orLabel: "ou",
+    andLabel: "e",
+    factionProjectTitle: "Projeto de Facção",
+    globalResearchTitle: "Pesquisa Global",
+    claimGained: "{nation} obtém uma reivindicação sobre {region}",
+    adjacencyFriendly: "{region1} e {region2} agora são considerados adjacentes para tráfego amigável",
+    adjacencyGeneral: "{region1} e {region2} agora são considerados adjacentes",
 };
 
 const korUi: LocalizedUi = {
@@ -458,6 +648,25 @@ const korUi: LocalizedUi = {
     unblocksOneOrMoreModules: "하나 이상의 모듈을 해제합니다.",
     unblocksResearch: "연구를 해제",
     randomFaction: "무작위",
+    costBreakdownTooltip: "기술 비용 내역을 보려면 클릭하세요",
+    copyToClipboard: "클립보드에 복사",
+    copiedLabel: "복사됨!",
+    fuelPerTank: "탱크당 연료",
+    weightedBuildMaterialsLabel: "건조 자재",
+    driveSpecsShared: "엔진 사양 (공유)",
+    driveColumnLabel: "엔진",
+    thrustersLabel: "추진기",
+    thrustNLabel: "추력 (N)",
+    thrustRatingGWLabel: "추력 등급 (GW)",
+    requiredPowerLabel: "필요 전력",
+    drivesHeading: "엔진",
+    orLabel: "또는",
+    andLabel: "그리고",
+    factionProjectTitle: "세력 프로젝트",
+    globalResearchTitle: "글로벌 연구",
+    claimGained: "{nation}이(가) {region}에 대한 영유권을 획득",
+    adjacencyFriendly: "{region1}과(와) {region2}은(는) 이제 우호적 교통을 위해 인접한 것으로 간주됩니다",
+    adjacencyGeneral: "{region1}과(와) {region2}은(는) 이제 인접한 것으로 간주됩니다",
 };
 
 const rusUi: LocalizedUi = {
@@ -499,6 +708,25 @@ const rusUi: LocalizedUi = {
     unblocksOneOrMoreModules: "Разблокирует один или несколько модулей.",
     unblocksResearch: "Разблокирует исследования",
     randomFaction: "Случайно",
+    costBreakdownTooltip: "Нажмите, чтобы увидеть разбивку стоимости технологий",
+    copyToClipboard: "Копировать в буфер обмена",
+    copiedLabel: "Скопировано!",
+    fuelPerTank: "Топливо на бак",
+    weightedBuildMaterialsLabel: "Строительные материалы",
+    driveSpecsShared: "Характеристики двигателя (общие)",
+    driveColumnLabel: "Двигатель",
+    thrustersLabel: "Двигатели",
+    thrustNLabel: "Тяга (Н)",
+    thrustRatingGWLabel: "Мощность тяги (ГВт)",
+    requiredPowerLabel: "Требуемая мощность",
+    drivesHeading: "Двигатели",
+    orLabel: "или",
+    andLabel: "и",
+    factionProjectTitle: "Проект фракции",
+    globalResearchTitle: "Глобальное исследование",
+    claimGained: "{nation} получает претензию на {region}",
+    adjacencyFriendly: "{region1} и {region2} теперь считаются смежными для дружественного трафика",
+    adjacencyGeneral: "{region1} и {region2} теперь считаются смежными",
 };
 
 const ukrUi: LocalizedUi = {
@@ -540,6 +768,25 @@ const ukrUi: LocalizedUi = {
     unblocksOneOrMoreModules: "Розблоковує один або більше модулів.",
     unblocksResearch: "Розблоковує дослідження",
     randomFaction: "Випадково",
+    costBreakdownTooltip: "Натисніть, щоб побачити розбивку вартості технологій",
+    copyToClipboard: "Копіювати до буфера обміну",
+    copiedLabel: "Скопійовано!",
+    fuelPerTank: "Паливо на бак",
+    weightedBuildMaterialsLabel: "Будівельні матеріали",
+    driveSpecsShared: "Характеристики двигуна (спільні)",
+    driveColumnLabel: "Двигун",
+    thrustersLabel: "Двигуни",
+    thrustNLabel: "Тяга (Н)",
+    thrustRatingGWLabel: "Потужність тяги (ГВт)",
+    requiredPowerLabel: "Потрібна потужність",
+    drivesHeading: "Двигуни",
+    orLabel: "або",
+    andLabel: "і",
+    factionProjectTitle: "Проєкт фракції",
+    globalResearchTitle: "Глобальне дослідження",
+    claimGained: "{nation} отримує претензію на {region}",
+    adjacencyFriendly: "{region1} і {region2} тепер вважаються суміжними для дружнього трафіку",
+    adjacencyGeneral: "{region1} і {region2} тепер вважаються суміжними",
 };
 
 const stableAndExperimental: GameVersionCode[] = ['stable', 'experimental'];
