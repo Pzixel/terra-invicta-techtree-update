@@ -4,7 +4,7 @@ import { TechGraph } from './TechGraph'
 import { TechSidebar } from './TechSidebar'
 import React, { useEffect, useState, useCallback } from 'react';
 import { getAncestorTechs, getDescendentTechs } from './utils'
-import { Link, useNavigate, useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { TechDb } from './utils/TechDb';
 import { AppStaticData } from './types/props';
 import { getTemplateData, LocalizationDb, TemplateTypes, TechTemplate } from './types';
@@ -181,11 +181,6 @@ function App() {
                                     />
                                 </div>
                             </div>
-
-                            <div className="utility-links" style={{ display: 'none' }}>
-                                <Link className="utility-link" to="/browse">{language.uiTexts.browseGamefiles}</Link>
-                            </div>
-
                         </>
                     </div>
 

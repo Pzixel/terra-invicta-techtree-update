@@ -11,6 +11,7 @@ import { alpha, useTheme } from '@mui/material/styles';
 import { ColorModeContext } from './theme.tsx';
 import LanguageSelector from './LanguageSelector';
 import { LanguageSelectorProps } from './types/props';
+import { Link } from "react-router";
 
 export type SettingsMenuProps = LanguageSelectorProps;
 
@@ -68,6 +69,22 @@ export function SettingsMenu(props: SettingsMenuProps) {
             control={<Switch checked={mode === 'dark'} onChange={handleThemeToggle} size="small" />}
             label="Dark mode"
           />
+          <Divider />
+          <Link
+              className="utility-link"
+              to="/browse"
+              style={{ color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87' }}
+          >
+              {props.language.uiTexts.browseGamefiles}
+          </Link>
+          <Divider />
+          <Link
+              className="utility-link"
+              to="https://github.com/Pzixel/terra-invicta-techtree-update"
+              style={{ color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87' }}
+          >
+              {props.language.uiTexts.projectSourceCode}
+          </Link>
         </Box>
       </Menu>
     </>
