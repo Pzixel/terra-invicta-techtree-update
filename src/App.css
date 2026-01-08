@@ -420,25 +420,63 @@ img {
 .module-drive-matrix-container {
     width: 100%;
     margin-top: 8px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .module-drive-matrix-grid {
     display: grid;
-    grid-template-columns: minmax(220px, 2fr) repeat(4, 1fr);
-    gap: 8px;
+    gap: 0;
     align-items: center;
 }
 
 .module-drive-matrix-header {
-    border: 1px solid #222;
-    padding: 4px 6px;
+    background-color: #1a1a2e;
+    border-bottom: 1px solid #333;
     font-weight: 600;
+}
+
+.module-drive-matrix-header .module-drive-matrix-cell {
+    padding: 8px 12px;
+    border-right: 1px solid #333;
+    white-space: normal;
+    text-align: center;
+    justify-content: center;
+}
+
+.module-drive-matrix-header .module-drive-matrix-cell:first-child {
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.module-drive-matrix-header .module-drive-matrix-cell:last-child {
+    border-right: none;
 }
 
 .module-drive-matrix-cell {
     display: inline-flex;
     align-items: center;
     min-height: 24px;
+    white-space: nowrap;
+    padding: 6px 12px;
+    border-right: 1px solid #222;
+}
+
+.module-drive-matrix-cell:last-child {
+    border-right: none;
+}
+
+.module-drive-matrix-container .MuiAccordion-root {
+    border-bottom: 1px solid #222;
+}
+
+.module-drive-matrix-container .MuiAccordion-root:last-child {
+    border-bottom: none;
+}
+
+.module-drive-matrix-container .MuiAccordion-root:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.02);
 }
 
 .module-drive-name {

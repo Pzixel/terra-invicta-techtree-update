@@ -523,6 +523,10 @@ export function TechSidebar({
         const getDriveIcon = (drive: ModuleTemplate) => getIcon(drive);
         const driveDescription = localizationDb.getLocalizationString("drive", referenceDrive.dataName, "description");
 
+        // Generate grid template: first column (Drive name) gets more space, others share remaining space equally
+        const numOtherCols = varyFields.length - 1;
+        const gridTemplateColumns = `minmax(180px, 2fr) repeat(${numOtherCols}, 1fr)`;
+
         return (
             <div className="module-display">
                 {sharedDriveIcon && <img className="module-icon" src={`./icons/${sharedDriveIcon}.png`} alt={`${referenceDrive.dataName} icon`} />}
@@ -553,7 +557,7 @@ export function TechSidebar({
                 </table>
 
                 <div className="module-drive-matrix-container">
-                    <div className="module-drive-matrix-header module-drive-matrix-grid">
+                    <div className="module-drive-matrix-header module-drive-matrix-grid" style={{ gridTemplateColumns }}>
                         {varyFields.map(field => (
                             <div key={`head-${field.key}`} className="module-drive-matrix-cell">
                                 {field.label}
@@ -569,7 +573,7 @@ export function TechSidebar({
                                     '& .MuiAccordionSummary-content': { margin: 0 },
                                 }}
                             >
-                                <div className="module-drive-matrix-grid">
+                                <div className="module-drive-matrix-grid" style={{ gridTemplateColumns }}>
                                     {varyFields.map(field => {
                                         if (field.key === "friendlyName") {
                                             const icon = getDriveIcon(drive);
