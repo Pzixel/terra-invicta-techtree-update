@@ -219,6 +219,7 @@ export interface ModuleTemplate {
   baseIconResource?: string;
   stationIconResource?: string;
     baseMass_tons?: number;
+    flatMass_tons?: number;
     weightedBuildMaterials?: WeightedBuildMaterials;
     perTankPropellantMaterials?: WeightedBuildMaterials;
     thrusters?: number;

@@ -50,6 +50,7 @@ export interface LocalizedUi {
     thrustNLabel: string;
     thrustRatingGWLabel: string;
     requiredPowerLabel: string;
+    flatMassLabel: string;
     drivesHeading: string;
     orLabel: string;
     andLabel: string;
@@ -110,6 +111,7 @@ const englishUi: LocalizedUi = {
     thrustNLabel: "Thrust (N)",
     thrustRatingGWLabel: "Thrust Rating (GW)",
     requiredPowerLabel: "Req power",
+    flatMassLabel: "Mass (tons)",
     drivesHeading: "Drives",
     orLabel: "or",
     andLabel: "and",
@@ -179,6 +181,7 @@ const chsUi: LocalizedUi = {
     thrustNLabel: "推力 (N)",
     thrustRatingGWLabel: "推力等级 (GW)",
     requiredPowerLabel: "需求功率",
+    flatMassLabel: "质量 (吨)",
     drivesHeading: "引擎",
     orLabel: "或",
     andLabel: "和",
@@ -239,6 +242,7 @@ const chtUi: LocalizedUi = {
     thrustNLabel: "推力 (N)",
     thrustRatingGWLabel: "推力等級 (GW)",
     requiredPowerLabel: "需求功率",
+    flatMassLabel: "質量 (噸)",
     drivesHeading: "引擎",
     orLabel: "或",
     andLabel: "和",
@@ -299,6 +303,7 @@ const deuUi: LocalizedUi = {
     thrustNLabel: "Schub (N)",
     thrustRatingGWLabel: "Schubleistung (GW)",
     requiredPowerLabel: "Benötigte Leistung",
+    flatMassLabel: "Masse (Tonnen)",
     drivesHeading: "Antriebe",
     orLabel: "oder",
     andLabel: "und",
@@ -359,6 +364,7 @@ const espUi: LocalizedUi = {
     thrustNLabel: "Empuje (N)",
     thrustRatingGWLabel: "Potencia de empuje (GW)",
     requiredPowerLabel: "Potencia requerida",
+    flatMassLabel: "Masa (toneladas)",
     drivesHeading: "Motores",
     orLabel: "o",
     andLabel: "y",
@@ -419,6 +425,7 @@ const frUi: LocalizedUi = {
     thrustNLabel: "Poussée (N)",
     thrustRatingGWLabel: "Puissance de poussée (GW)",
     requiredPowerLabel: "Puissance requise",
+    flatMassLabel: "Masse (tonnes)",
     drivesHeading: "Moteurs",
     orLabel: "ou",
     andLabel: "et",
@@ -479,6 +486,7 @@ const jpnUi: LocalizedUi = {
     thrustNLabel: "推力 (N)",
     thrustRatingGWLabel: "推力定格 (GW)",
     requiredPowerLabel: "必要電力",
+    flatMassLabel: "質量 (トン)",
     drivesHeading: "エンジン",
     orLabel: "または",
     andLabel: "かつ",
@@ -539,6 +547,7 @@ const polUi: LocalizedUi = {
     thrustNLabel: "Ciąg (N)",
     thrustRatingGWLabel: "Moc ciągu (GW)",
     requiredPowerLabel: "Wymagana moc",
+    flatMassLabel: "Masa (ton)",
     drivesHeading: "Napędy",
     orLabel: "lub",
     andLabel: "i",
@@ -599,6 +608,7 @@ const porUi: LocalizedUi = {
     thrustNLabel: "Empuxo (N)",
     thrustRatingGWLabel: "Potência de empuxo (GW)",
     requiredPowerLabel: "Potência necessária",
+    flatMassLabel: "Massa (toneladas)",
     drivesHeading: "Motores",
     orLabel: "ou",
     andLabel: "e",
@@ -659,6 +669,7 @@ const korUi: LocalizedUi = {
     thrustNLabel: "추력 (N)",
     thrustRatingGWLabel: "추력 등급 (GW)",
     requiredPowerLabel: "필요 전력",
+    flatMassLabel: "질량 (톤)",
     drivesHeading: "엔진",
     orLabel: "또는",
     andLabel: "그리고",
@@ -719,6 +730,7 @@ const rusUi: LocalizedUi = {
     thrustNLabel: "Тяга (Н)",
     thrustRatingGWLabel: "Мощность тяги (ГВт)",
     requiredPowerLabel: "Требуемая мощность",
+    flatMassLabel: "Масса (тонн)",
     drivesHeading: "Двигатели",
     orLabel: "или",
     andLabel: "и",
@@ -779,6 +791,7 @@ const ukrUi: LocalizedUi = {
     thrustNLabel: "Тяга (Н)",
     thrustRatingGWLabel: "Потужність тяги (ГВт)",
     requiredPowerLabel: "Потрібна потужність",
+    flatMassLabel: "Маса (тонн)",
     drivesHeading: "Двигуни",
     orLabel: "або",
     andLabel: "і",

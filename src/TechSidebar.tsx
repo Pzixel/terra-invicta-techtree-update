@@ -469,6 +469,7 @@ export function TechSidebar({
             "iconResource",
             "baseIconResource",
             "stationIconResource",
+            "flatMass_tons",
         ]);
 
         const drives = driveModules.map(mod => mod.data);
@@ -501,13 +502,22 @@ export function TechSidebar({
             .filter(([key]) => !allowedDiffKeys.has(key) && key !== "perTankPropellantMaterials" && key !== "weightedBuildMaterials")
             .map(([key, value]) => [key, value] as const);
 
-        const varyFields: { key: keyof ModuleTemplate; label: string }[] = [
+        const allVaryFields: { key: keyof ModuleTemplate; label: string }[] = [
             { key: "friendlyName", label: language.uiTexts.driveColumnLabel },
             { key: "thrusters", label: language.uiTexts.thrustersLabel },
             { key: "thrust_N", label: language.uiTexts.thrustNLabel },
             { key: "thrustRating_GW", label: language.uiTexts.thrustRatingGWLabel },
             { key: "req power", label: language.uiTexts.requiredPowerLabel },
+            { key: "flatMass_tons", label: language.uiTexts.flatMassLabel },
         ];
+
+        // Filter out flatMass_tons if all drives have zero or undefined values
+        const varyFields = allVaryFields.filter(field => {
+            if (field.key === "flatMass_tons") {
+                return drives.some(d => d.flatMass_tons && d.flatMass_tons !== 0);
+            }
+            return true;
+        });
 
         const getDriveLabel = (drive: ModuleTemplate) => localizationDb.getLocalizationString("drive", drive.dataName, "displayName") ?? drive.friendlyName ?? drive.dataName;
         const getDriveIcon = (drive: ModuleTemplate) => getIcon(drive);
