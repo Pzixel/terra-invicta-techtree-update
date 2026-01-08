@@ -73,18 +73,21 @@ export function SettingsMenu(props: SettingsMenuProps) {
           <Link
               className="utility-link"
               to="/browse"
+              target="_blank"
               style={{ color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87' }}
           >
               {props.language.uiTexts.browseGamefiles}
           </Link>
           <Divider />
-          <Link
+          <a
               className="utility-link"
-              to="https://github.com/Pzixel/terra-invicta-techtree-update"
+              href="https://github.com/Pzixel/terra-invicta-techtree-update"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87' }}
           >
               {props.language.uiTexts.projectSourceCode}
-          </Link>
+          </a>
         </Box>
       </Menu>
     </>
