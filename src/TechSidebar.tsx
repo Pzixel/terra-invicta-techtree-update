@@ -588,8 +588,9 @@ export function TechSidebar({
                                         }
 
                                         const value = (drive as unknown as Record<string, unknown>)[field.key as string];
+                                        const alignRight = field.key === "thrusters";
                                         return (
-                                            <div key={`cell-${drive.dataName}-${field.key}`} className="module-drive-matrix-cell">
+                                            <div key={`cell-${drive.dataName}-${field.key}`} className={`module-drive-matrix-cell${alignRight ? " align-right" : ""}`}>
                                                 {typeof value === "object" ? JSON.stringify(value) : String(value ?? "")}
                                             </div>
                                         );

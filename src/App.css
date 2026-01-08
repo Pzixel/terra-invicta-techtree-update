@@ -435,10 +435,11 @@ img {
     background-color: #1a1a2e;
     border-bottom: 1px solid #333;
     font-weight: 600;
+    font-size: 0.85em;
 }
 
 .module-drive-matrix-header .module-drive-matrix-cell {
-    padding: 8px 12px;
+    padding: 6px 8px;
     border-right: 1px solid #333;
     white-space: normal;
     text-align: center;
@@ -461,6 +462,10 @@ img {
     white-space: nowrap;
     padding: 6px 12px;
     border-right: 1px solid #222;
+}
+
+.module-drive-matrix-cell.align-right {
+    justify-content: flex-end;
 }
 
 .module-drive-matrix-cell:last-child {
