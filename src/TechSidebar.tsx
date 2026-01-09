@@ -523,9 +523,12 @@ export function TechSidebar({
         const getDriveIcon = (drive: ModuleTemplate) => getIcon(drive);
         const driveDescription = localizationDb.getLocalizationString("drive", referenceDrive.dataName, "description");
 
-        // Generate grid template: first column (Drive name) gets more space, others share remaining space equally
-        const numOtherCols = varyFields.length - 1;
-        const gridTemplateColumns = `minmax(180px, 2fr) repeat(${numOtherCols}, 1fr)`;
+        // Generate grid template: first column (Drive name) gets most space, Thrusters is narrow, others share remaining space
+        const thrustersIndex = varyFields.findIndex(f => f.key === "thrusters");
+        const numOtherCols = varyFields.length - 1 - (thrustersIndex >= 0 ? 1 : 0);
+        const gridTemplateColumns = thrustersIndex >= 0
+            ? `minmax(180px, 3fr) min-content repeat(${numOtherCols}, 1fr)`
+            : `minmax(180px, 3fr) repeat(${numOtherCols}, 1fr)`;
 
         return (
             <div className="module-display">
@@ -570,7 +573,8 @@ export function TechSidebar({
                             <AccordionSummary
                                 sx={{
                                     minHeight: 'auto',
-                                    '& .MuiAccordionSummary-content': { margin: 0 },
+                                    padding: 0,
+                                    '& .MuiAccordionSummary-content': { margin: 0, width: '100%' },
                                 }}
                             >
                                 <div className="module-drive-matrix-grid" style={{ gridTemplateColumns }}>

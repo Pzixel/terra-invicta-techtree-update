@@ -429,6 +429,7 @@ img {
     display: grid;
     gap: 0;
     align-items: center;
+    width: 100%;
 }
 
 .module-drive-matrix-header {
@@ -438,7 +439,7 @@ img {
 }
 
 .module-drive-matrix-header .module-drive-matrix-cell {
-    padding: 6px 8px;
+    padding: 6px 12px;
     border-right: 1px solid #333;
     white-space: normal;
     text-align: center;
