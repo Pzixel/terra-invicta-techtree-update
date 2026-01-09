@@ -557,7 +557,7 @@ export function TechSidebar({
                 </table>
 
                 <div className="module-drive-matrix-container">
-                    <div className="module-drive-matrix-header module-drive-matrix-grid" style={{ gridTemplateColumns }}>
+                    <div className="module-drive-matrix-header module-drive-matrix-grid" style={{ gridTemplateColumns, backgroundColor: theme.palette.mode === 'dark' ? '#1a1a2e' : '#c5d8e8' }}>
                         {varyFields.map(field => (
                             <div key={`head-${field.key}`} className="module-drive-matrix-cell">
                                 {field.label}
