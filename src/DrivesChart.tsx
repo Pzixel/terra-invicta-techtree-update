@@ -121,6 +121,7 @@ const buildTraces = (
   groups: Record<string, DrivePoint[]>,
   showLabels: boolean,
   thrustLabel: string,
+  driveLabel: string,
   markerLineColor: string,
   exhaustVelocityLabel: string,
   treeCostLabel: string,
@@ -134,6 +135,7 @@ const buildTraces = (
         if (d.treeCost === undefined || d.treeCost < 0) return notAvailableLabel;
         return d.treeCost.toLocaleString();
       });
+      const customdata = drives.map((d, i) => [d.name, treeCostStrings[i]]);
       return {
         type: 'scatter',
         mode: showLabels ? 'markers+text' : 'markers',
@@ -142,7 +144,7 @@ const buildTraces = (
         text,
         textposition: 'top center',
         textfont: { size: 9 },
-        customdata: treeCostStrings,
+        customdata,
         marker: {
           color: colorMap[category] || '#4b5563',
           size: 11,
@@ -152,9 +154,10 @@ const buildTraces = (
         },
         name: category.replace(/_/g, ' '),
         hovertemplate:
-          `${exhaustVelocityLabel}: %{x:.0f}` +
+          `%{customdata[0]}<br>` +
+          `<br>${exhaustVelocityLabel}: %{x:.0f}` +
           `<br>${thrustLabel}: %{y:,.0f}` +
-          `<br>${treeCostLabel}: %{customdata}` +
+          `<br>${treeCostLabel}: %{customdata[1]}` +
           '<extra></extra>',
       } as Partial<Data>;
     });
@@ -310,6 +313,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
               grouped,
               showLabels,
               thrustLabel,
+              language.uiTexts.driveColumnLabel,
               markerLineColor,
               language.uiTexts.exhaustVelocityLabel,
               language.uiTexts.totalTreeCost,
