@@ -399,6 +399,113 @@ img {
     height: 20px;
 }
 
+.drives-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 2rem;
+    color: inherit;
+    line-height: 1.5;
+}
+
+.drives-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.drives-controls {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.drives-chip {
+    border: 1px solid #cbd5e1;
+    background: #f8fafc;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.drives-chip--active {
+    background: #0b4b87;
+    border-color: #0b4b87;
+    color: white;
+}
+
+.drives-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-weight: 600;
+}
+
+.drives-subtitle {
+    margin: 0.2rem 0 0;
+    color: inherit;
+    opacity: 0.8;
+}
+
+.drives-chart {
+    height: calc(100vh - 210px);
+    min-height: 520px;
+}
+
+.drives-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    padding: 1rem;
+}
+
+.drives-modal {
+    width: min(1200px, 100%);
+    max-height: 90vh;
+    background: var(--drives-surface, #ffffff);
+    border-radius: 14px;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    border: 1px solid var(--drives-border, #cbd5e1);
+    padding-bottom: 20px;
+}
+
+.drives-modal .drives-page {
+    padding: 1rem 1rem 1.25rem;
+    margin: 0;
+    max-width: none;
+    color: var(--drives-text, inherit);
+}
+
+.drives-modal .drives-chart {
+    height: 70vh;
+    min-height: 420px;
+}
+
+.drives-modal .drives-actions-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.drives-close-btn {
+    border: 1px solid var(--drives-border, #cbd5e1);
+    background: var(--drives-surface-alt, #f8fafc);
+    color: var(--drives-text, #0f172a);
+    border-radius: 8px;
+    padding: 0.35rem 0.75rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
 .module-cost-value {
     font-weight: 700;
     color: #fff;

@@ -13,12 +13,15 @@ import LanguageSelector from './LanguageSelector';
 import { LanguageSelectorProps } from './types/props';
 import { Link } from "react-router";
 
-export type SettingsMenuProps = LanguageSelectorProps;
+export type SettingsMenuProps = LanguageSelectorProps & {
+  onOpenDrives?: () => void;
+};
 
 export function SettingsMenu(props: SettingsMenuProps) {
   const { mode, setMode } = useContext(ColorModeContext);
   const theme = useTheme();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const driveChartLabel = `${props.language.uiTexts.drivesHeading || 'Drives'} chart`;
 
   const open = Boolean(anchorEl);
 
@@ -70,6 +73,22 @@ export function SettingsMenu(props: SettingsMenuProps) {
             label="Dark mode"
           />
           <Divider />
+              <button
+                type="button"
+                className="utility-link"
+                style={{
+                color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87',
+                textAlign: 'left',
+                background: 'transparent',
+                border: 'none',
+                padding: 0,
+                cursor: 'pointer',
+                }}
+                onClick={() => props.onOpenDrives?.()}
+              >
+                {driveChartLabel}
+              </button>
+            <Divider />
           <Link
               className="utility-link"
               to="/browse"

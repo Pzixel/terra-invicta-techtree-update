@@ -12,6 +12,8 @@ import { DefaultLanguage, Language, Languages } from './language';
 import { DefaultVersion, GameVersion, GameVersionCode, GameVersions, isGameVersionCode } from './version';
 import { useWindowSize } from './utils/useWindowSize';
 import { SettingsMenu } from './SettingsMenu';
+import { useTheme } from '@mui/material/styles';
+import DrivesChart from './DrivesChart';
 
 function App() {
     const [appStaticData, setAppStaticData] = useState<AppStaticData>({
@@ -25,6 +27,14 @@ function App() {
     const [techDb, setTechDb] = useState<TechDb | null>(null);
     const [navigatedToNode, setNavigatedToNode] = useState<TechTemplate | null>(null);
     const [isReady, setIsReady] = useState(false);
+    const getInitialDrivesOpened = () => {
+        const params = new URLSearchParams(window.location.search);
+        const drives = params.get('drivesOpened');
+        return drives === 'true' || drives === '1';
+    };
+
+    const [showDrivesOverlay, setShowDrivesOverlay] = useState<boolean>(() => getInitialDrivesOpened());
+    const theme = useTheme();
 
     // Get window dimensions for responsive layout
     const { width } = useWindowSize();
@@ -75,15 +85,24 @@ function App() {
         initialize();
     }, [language, version, setTechDb, setAppStaticData]);
 
-    useEffect(() => {
+    const syncQueryParams = useCallback((drivesOpen: boolean) => {
         const url = new URL(window.location.href);
         const params = url.searchParams;
         params.set('lang', language.code);
         params.set('ver', version.code);
+        if (drivesOpen) {
+            params.set('drivesOpened', '1');
+        } else {
+            params.delete('drivesOpened');
+        }
         const newQuery = params.toString();
         const newUrl = `${url.pathname}${newQuery ? `?${newQuery}` : ''}${url.hash}`;
         window.history.replaceState({}, '', newUrl);
-    }, [language, version]);
+    }, [language.code, version.code]);
+
+    useEffect(() => {
+        syncQueryParams(showDrivesOverlay);
+    }, [language, version, showDrivesOverlay, syncQueryParams]);
 
     useEffect(() => {
         if (!language.availableVersions.includes(version.code)) {
@@ -102,6 +121,7 @@ function App() {
             const poppedVersion = getInitialVersion();
             setVersion(poppedVersion);
             setLanguage(getInitialLanguage(poppedVersion.code));
+            setShowDrivesOverlay(getInitialDrivesOpened());
         };
 
         window.addEventListener('popstate', handlePopState);
@@ -178,6 +198,7 @@ function App() {
                                         onLanguageChange={setLanguage}
                                         version={version}
                                         onVersionChange={setVersion}
+                                        onOpenDrives={() => setShowDrivesOverlay(true)}
                                     />
                                 </div>
                             </div>
@@ -198,6 +219,33 @@ function App() {
                             isMobile={isMobileLayout}
                         />
                     )}
+                </div>
+            )}
+
+            {showDrivesOverlay && (
+                <div
+                    className="drives-modal-backdrop"
+                    onClick={() => setShowDrivesOverlay(false)}
+                    style={{ color: theme.palette.text.primary }}
+                >
+                    <div
+                        className="drives-modal"
+                        onClick={(e) => e.stopPropagation()}
+                        style={{
+                            background: theme.palette.background.paper,
+                            color: theme.palette.text.primary,
+                            border: `1px solid ${theme.palette.divider}`,
+                            '--drives-surface': theme.palette.background.paper,
+                            '--drives-surface-alt': theme.palette.background.default,
+                            '--drives-text': theme.palette.text.primary,
+                            '--drives-border': theme.palette.divider,
+                        } as React.CSSProperties}
+                    >
+                        <DrivesChart
+                            variant="overlay"
+                            onClose={() => setShowDrivesOverlay(false)}
+                        />
+                    </div>
                 </div>
             )}
         </>
