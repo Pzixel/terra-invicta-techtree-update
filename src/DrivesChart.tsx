@@ -342,7 +342,6 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
       xaxis: {
         type: 'log',
         title: language.uiTexts.exhaustVelocityLabel,
-        tickformat: '.0f',
         color: textColor,
         gridcolor: gridColor,
         zerolinecolor: gridColor,
