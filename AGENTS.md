@@ -40,6 +40,7 @@
 - `npm run build` depends on `npm run generate:gamefiles-manifest`; do not skip.
 - Use `npm ci` in CI/clean environments for reproducibility.
 - If regenerating icons, follow README: place bundles in `resources/` and run `python scripts/export_unity_textures.py ./resources ./public/icons` after cleaning `public/icons` subfolders.
+- Localization text (techs, effects, modules) can include inline formatting tags (such as `<sprite>`, `<color>`, `<h>`, `<br>`). Rendering may require mapping sprites to icons and handling highlights/line breaks; scan for tags when introducing new strings or formatting logic.
 
 ## How to work efficiently
 - Follow the command order: `nvm use 20` → `npm install` → `npm run tsc` → (optional) targeted lint as described → `npm run build` (regenerates manifest) → `npm run dev`/`preview` as needed.
