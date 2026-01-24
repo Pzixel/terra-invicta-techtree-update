@@ -19,6 +19,7 @@ type DrivePoint = {
   cooling: string;
   category: string;
   treeCost?: number;
+  thrusters: number;
 };
 
 const colorMap: Record<string, string> = {
@@ -80,23 +81,23 @@ const processDrives = (
   items: any[],
   localization: Record<string, string>,
   useCombatThrust: boolean,
+  useMaxThrusters: boolean,
   treeCostLookup: (projectName?: string) => number | undefined,
   unknownDriveLabel: string,
 ) => {
-  const groups: Record<string, DrivePoint[]> = {};
+  const byBaseName: Record<string, DrivePoint> = {};
 
   items.forEach((item) => {
     if (!item || item.disable) return;
     if (!item.thrust_N || !item.EV_kps || !item.driveClassification) return;
 
-    const isX1 = (item.dataName && item.dataName.endsWith('x1')) || item.thrusters === 1;
-    if (!isX1) return;
-
+    const thrusters = Number(item.thrusters || 1);
     const lookupKey = `TIDriveTemplate.displayName.${item.dataName}`;
     let driveName = localization[lookupKey] || item.dataName || unknownDriveLabel;
     if (driveName.endsWith(' x1')) {
       driveName = driveName.slice(0, -3);
     }
+    const baseKey = driveName.replace(/\sx\d+$/, '') || (item.dataName || '').replace(/x\d+$/, '') || driveName || item.dataName || '';
 
     const category = getDriveCategory(item.driveClassification, driveName, item.requiredPowerPlant);
     const baseThrust = Number(item.thrust_N);
@@ -111,8 +112,23 @@ const processDrives = (
       cooling = isPulsed || massFlow >= 3 ? 'Open' : 'Closed';
     }
 
-    if (!groups[category]) groups[category] = [];
-    groups[category].push({ ev, thrust, name: driveName, cooling, category, treeCost });
+    const candidate: DrivePoint = { ev, thrust, name: driveName, cooling, category, treeCost, thrusters };
+    const current = byBaseName[baseKey];
+    if (!current) {
+      byBaseName[baseKey] = candidate;
+      return;
+    }
+
+    const shouldReplace = useMaxThrusters ? thrusters > current.thrusters : thrusters < current.thrusters;
+    if (shouldReplace) {
+      byBaseName[baseKey] = candidate;
+    }
+  });
+
+  const groups: Record<string, DrivePoint[]> = {};
+  Object.values(byBaseName).forEach((drive) => {
+    if (!groups[drive.category]) groups[drive.category] = [];
+    groups[drive.category].push(drive);
   });
   return groups;
 };
@@ -121,6 +137,7 @@ const buildTraces = (
   groups: Record<string, DrivePoint[]>,
   showLabels: boolean,
   thrustLabel: string,
+  thrustersLabel: string,
   driveLabel: string,
   markerLineColor: string,
   exhaustVelocityLabel: string,
@@ -135,7 +152,7 @@ const buildTraces = (
         if (d.treeCost === undefined || d.treeCost < 0) return notAvailableLabel;
         return d.treeCost.toLocaleString();
       });
-      const customdata = drives.map((d, i) => [d.name, treeCostStrings[i]]);
+      const customdata = drives.map((d, i) => [d.name, treeCostStrings[i], d.thrusters]);
       return {
         type: 'scatter',
         mode: showLabels ? 'markers+text' : 'markers',
@@ -154,9 +171,10 @@ const buildTraces = (
         },
         name: category.replace(/_/g, ' '),
         hovertemplate:
-          `%{customdata[0]}<br>` +
+          `${driveLabel}: %{customdata[0]}` +
           `<br>${exhaustVelocityLabel}: %{x:.0f}` +
           `<br>${thrustLabel}: %{y:,.0f}` +
+          `<br>${thrustersLabel}: %{customdata[2]}` +
           `<br>${treeCostLabel}: %{customdata[1]}` +
           '<extra></extra>',
       } as Partial<Data>;
@@ -218,6 +236,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
   const [version] = useState<GameVersion>(() => getInitialVersion());
   const [language] = useState<Language>(() => getInitialLanguage(getInitialVersion().code));
   const [thrustMode, setThrustMode] = useState<'combat' | 'cruise'>('cruise');
+  const [useMaxThrusters, setUseMaxThrusters] = useState(false);
   const [showLabels, setShowLabels] = useState(true);
   const [traces, setTraces] = useState<Partial<Data>[]>([]);
   const [loading, setLoading] = useState(false);
@@ -304,6 +323,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
           driveTemplate,
           driveLocalization,
           thrustMode === 'combat',
+          useMaxThrusters,
           treeCostLookup,
           language.uiTexts.unknownDrive,
         );
@@ -313,6 +333,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
               grouped,
               showLabels,
               thrustLabel,
+              language.uiTexts.thrustersLabel,
               language.uiTexts.driveColumnLabel,
               markerLineColor,
               language.uiTexts.exhaustVelocityLabel,
@@ -335,7 +356,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
     return () => {
       cancelled = true;
     };
-  }, [language.code, markerLineColor, showLabels, thrustLabel, thrustMode, version.code]);
+  }, [language.code, markerLineColor, showLabels, thrustLabel, thrustMode, useMaxThrusters, version.code]);
 
   const layout = useMemo<Partial<Layout>>(
     () => ({
@@ -422,6 +443,14 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
           >
             {language.uiTexts.combatThrust}
           </button>
+          <label className="drives-toggle">
+            <input
+              type="checkbox"
+              checked={useMaxThrusters}
+              onChange={(e) => setUseMaxThrusters(e.target.checked)}
+            />
+            Max thrusters
+          </label>
           <label className="drives-toggle">
             <input
               type="checkbox"
