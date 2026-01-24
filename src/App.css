@@ -418,9 +418,16 @@ img {
 
 .drives-controls {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.4rem;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.drives-toggles {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .drives-chip {
@@ -443,6 +450,24 @@ img {
     align-items: center;
     gap: 0.35rem;
     font-weight: 600;
+    flex-wrap: nowrap;
+}
+
+.drives-toggle-label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    line-height: 1.15;
+}
+
+.drives-toggle-label-main {
+    font-size: 0.95rem;
+}
+
+.drives-toggle-hint {
+    font-weight: 500;
+    font-size: 0.78rem;
+    opacity: 0.7;
 }
 
 .drives-subtitle {

@@ -246,6 +246,12 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
   const { mode } = useContext(ColorModeContext);
 
   const thrustLabel = thrustMode === 'combat' ? language.uiTexts.combatThrust : language.uiTexts.cruiseThrust;
+  const thrustModeLabel = (
+    <span className="drives-toggle-label">
+      <span className="drives-toggle-label-main">{language.uiTexts.cruiseThrust} / {language.uiTexts.combatThrust}</span>
+      <span className="drives-toggle-hint">{thrustMode === 'combat' ? language.uiTexts.combatThrust : language.uiTexts.cruiseThrust}</span>
+    </span>
+  );
   const markerLineColor = useMemo(
     () => (mode === 'dark' ? theme.palette.grey[300] ?? '#e5e7eb' : theme.palette.text.primary),
     [mode, theme.palette.grey, theme.palette.text.primary]
@@ -432,40 +438,44 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
           <p className="drives-subtitle">{language.uiTexts.driveChartSubtitle}</p>
         </div>
         <div className="drives-controls">
-          <button
-            className={thrustMode === 'cruise' ? 'drives-chip drives-chip--active' : 'drives-chip'}
-            onClick={() => setThrustMode('cruise')}
-          >
-            {language.uiTexts.cruiseThrust}
-          </button>
-          <button
-            className={thrustMode === 'combat' ? 'drives-chip drives-chip--active' : 'drives-chip'}
-            onClick={() => setThrustMode('combat')}
-          >
-            {language.uiTexts.combatThrust}
-          </button>
-          <FormControlLabel
-            className="drives-toggle"
-            control={(
-              <Switch
-                size="small"
-                checked={useMaxThrusters}
-                onChange={(e) => setUseMaxThrusters(e.target.checked)}
-              />
-            )}
-            label="Max thrusters"
-          />
-          <FormControlLabel
-            className="drives-toggle"
-            control={(
-              <Switch
-                size="small"
-                checked={showLabels}
-                onChange={(e) => setShowLabels(e.target.checked)}
-              />
-            )}
-            label={language.uiTexts.showLabels}
-          />
+          <div className="drives-toggles">
+            <FormControlLabel
+              className="drives-toggle"
+              control={(
+                <Switch
+                  size="small"
+                  checked={thrustMode === 'combat'}
+                  onChange={(e) => setThrustMode(e.target.checked ? 'combat' : 'cruise')}
+                />
+              )}
+              label={thrustModeLabel}
+                labelPlacement="end"
+            />
+            <FormControlLabel
+              className="drives-toggle"
+              control={(
+                <Switch
+                  size="small"
+                  checked={useMaxThrusters}
+                  onChange={(e) => setUseMaxThrusters(e.target.checked)}
+                />
+              )}
+              label="Max thrusters"
+                labelPlacement="end"
+            />
+            <FormControlLabel
+              className="drives-toggle"
+              control={(
+                <Switch
+                  size="small"
+                  checked={showLabels}
+                  onChange={(e) => setShowLabels(e.target.checked)}
+                />
+              )}
+              label={language.uiTexts.showLabels}
+                labelPlacement="end"
+            />
+          </div>
         </div>
       </div>
 
