@@ -170,12 +170,8 @@ export function TechSidebar({
         return effectTemplateString;
     }
 
-    function formatModuleDescription(description: string | undefined, templateValue?: number) {
+    function formatModuleDescription(description: string | undefined, templateValue?: number): React.ReactNode | undefined {
         if (!description) {
-            return description;
-        }
-
-        if (templateValue == null || Number.isNaN(templateValue)) {
             return description;
         }
 
@@ -185,7 +181,11 @@ export function TechSidebar({
             return percentBase.toLocaleString(locale, { style: "percent" });
         };
 
-        return description.replace(/\{(\d+)\}/g, (match, tag) => {
+        const resolvedNumbers = description.replace(/\{(\d+)\}/g, (match, tag) => {
+            if (templateValue == null || Number.isNaN(templateValue)) {
+                return match;
+            }
+
             switch (tag) {
                 case "0":
                 case "3":
@@ -204,6 +204,58 @@ export function TechSidebar({
                     return match;
             }
         });
+
+        const spriteRegex = /<color=[^>]*><sprite name="([^"]+)"><\/color>/g;
+        const parts: React.ReactNode[] = [];
+        let lastIndex = 0;
+        let match: RegExpExecArray | null;
+
+        while ((match = spriteRegex.exec(resolvedNumbers)) !== null) {
+            const before = resolvedNumbers.slice(lastIndex, match.index);
+            if (before) {
+                parts.push(before);
+            }
+
+            const spriteName = match[1];
+            if (spriteName === "army_level") {
+                parts.push(
+                    <img
+                        key={`sprite-${parts.length}`}
+                        className="inline-sprite"
+                        src="./icons/ICO_space_assault_score.png"
+                        alt="Assault value icon"
+                    />
+                );
+            } else if (spriteName === "water") {
+                parts.push(
+                    <img
+                        key={`sprite-${parts.length}`}
+                        className="inline-sprite"
+                        src="./icons/ICO_water.png"
+                        alt="Water icon"
+                    />
+                );
+            } else {
+                parts.push(match[0]);
+            }
+
+            lastIndex = match.index + match[0].length;
+        }
+
+        const trailingText = resolvedNumbers.slice(lastIndex);
+        if (trailingText) {
+            parts.push(trailingText);
+        }
+
+        if (parts.length === 0) {
+            return resolvedNumbers;
+        }
+
+        if (parts.length === 1) {
+            return parts[0];
+        }
+
+        return <>{parts}</>;
     }
 
     function getReadableSummary(node: TechTemplate) {

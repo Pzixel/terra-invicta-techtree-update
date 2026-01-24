@@ -363,6 +363,13 @@ img {
     margin: 0;
 }
 
+.inline-sprite {
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+}
+
 .module-cost {
     display: flex;
     flex-wrap: wrap;
