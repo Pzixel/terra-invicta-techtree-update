@@ -4,7 +4,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
 import { TechSidebarProps } from './types/props';
-import { TechTemplate, Claim, Adjacency, DataModule, TemplateType, ModuleTemplate, EffectTemplate } from './types';
+import { TechTemplate, Claim, Adjacency, DataModule, TemplateType, ModuleTemplate, EffectTemplate, TemplateTypes } from './types';
 import { TechDb } from './utils/TechDb';
 
 // localStorage utility functions for research state persistence
@@ -62,6 +62,8 @@ function clearResearchState() {
         console.warn('Failed to clear research state from localStorage:', error);
     }
 }
+
+const templates = Object.keys(TemplateTypes) as (keyof typeof TemplateTypes)[];
 
 export function TechSidebar({
   templateData,
@@ -133,9 +135,14 @@ export function TechSidebar({
                     return Math.abs((effectVal - 1.0)).toLocaleString(locale, { style: "percent" });
 
                 case "{13}":
-                    return localizationDb.tryGetReadable("region", effectStr, "displayName")
-                        ?? localizationDb.tryGetReadable("trait", effectStr, "displayName")
-                        ?? effectStr; // fallback to raw string, actually should look in all files but usually it's just those two
+                    console.log(effectStr, match);
+                    for (let type of templates) {
+                        const readable = localizationDb.getReadable(type, effectStr, "displayName");
+                        if (readable) {
+                            return readable;
+                        }
+                    }
+                    return effectStr;
                 case "{14}":
                     return "our faction";
 
@@ -161,6 +168,42 @@ export function TechSidebar({
             .replace(/\{[0-9]*\}/g, replaceEffectTag);
 
         return effectTemplateString;
+    }
+
+    function formatModuleDescription(description: string | undefined, templateValue?: number) {
+        if (!description) {
+            return description;
+        }
+
+        if (templateValue == null || Number.isNaN(templateValue)) {
+            return description;
+        }
+
+        const formatNumber = (value: number) => value.toLocaleString(locale);
+        const formatPercent = (value: number) => {
+            const percentBase = value > 1 ? value - 1 : value;
+            return percentBase.toLocaleString(locale, { style: "percent" });
+        };
+
+        return description.replace(/\{(\d+)\}/g, (match, tag) => {
+            switch (tag) {
+                case "0":
+                case "3":
+                case "12":
+                case "13":
+                    return formatNumber(templateValue);
+                case "1":
+                case "2":
+                case "5":
+                case "6":
+                case "8":
+                case "10":
+                case "14":
+                    return formatPercent(templateValue);
+                default:
+                    return match;
+            }
+        });
     }
 
     function getReadableSummary(node: TechTemplate) {
@@ -427,11 +470,13 @@ export function TechSidebar({
         const icon = getIcon(dataModule.data);
         const buildCost = dataModule.type === "habmodule" ? calculateHabModuleCost(dataModule.data) : [];
         const fuelCost = options?.showDriveFuelCost && dataModule.type === "drive" ? calculateDriveFuelCost(dataModule.data) : [];
+        const rawDescription = localizationDb.getLocalizationString(dataModule.type, dataModule.data.dataName, "description");
+        const moduleDescription = formatModuleDescription(rawDescription, dataModule.data.specialModuleValue);
         return (
             <div className="module-display">
                 {icon && <img className="module-icon" src={`./icons/${icon}.png`} alt={`${dataModule.data.dataName} icon`} />}
                 {renderCostItems(fuelCost, language.uiTexts.fuelPerTank)}
-                <p className="module-description">{localizationDb.getLocalizationString(dataModule.type, dataModule.data.dataName, "description")}</p>
+                {moduleDescription && <p className="module-description">{moduleDescription}</p>}
                 {renderCostItems(buildCost)}
                 <pre>{JSON.stringify(dataModule.data, null, 2)}</pre>
             </div>

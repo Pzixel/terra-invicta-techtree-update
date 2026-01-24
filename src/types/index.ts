@@ -218,6 +218,7 @@ export interface ModuleTemplate {
   iconResource?: string;
   baseIconResource?: string;
   stationIconResource?: string;
+    specialModuleValue?: number;
     baseMass_tons?: number;
     flatMass_tons?: number;
     weightedBuildMaterials?: WeightedBuildMaterials;
