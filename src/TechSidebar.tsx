@@ -205,38 +205,48 @@ export function TechSidebar({
             }
         });
 
-        const spriteRegex = /<color=[^>]*><sprite name="([^"]+)"><\/color>/g;
+        const tokenRegex = /<color=[^>]*><sprite name="([^"]+)"><\/color>|<h>(.*?)<\/h>|<br\s*\/?>/g;
         const parts: React.ReactNode[] = [];
         let lastIndex = 0;
         let match: RegExpExecArray | null;
 
-        while ((match = spriteRegex.exec(resolvedNumbers)) !== null) {
+        while ((match = tokenRegex.exec(resolvedNumbers)) !== null) {
             const before = resolvedNumbers.slice(lastIndex, match.index);
             if (before) {
                 parts.push(before);
             }
 
             const spriteName = match[1];
-            if (spriteName === "army_level") {
+            const highlightText = match[2];
+
+            if (spriteName) {
+                if (spriteName === "army_level") {
+                    parts.push(
+                        <img
+                            key={`sprite-${parts.length}`}
+                            className="inline-sprite"
+                            src="./icons/ICO_space_assault_score.png"
+                            alt="Assault value icon"
+                        />
+                    );
+                } else if (spriteName === "water") {
+                    parts.push(
+                        <img
+                            key={`sprite-${parts.length}`}
+                            className="inline-sprite"
+                            src="./icons/ICO_water.png"
+                            alt="Water icon"
+                        />
+                    );
+                } else {
+                    parts.push(match[0]);
+                }
+            } else if (typeof highlightText === "string") {
                 parts.push(
-                    <img
-                        key={`sprite-${parts.length}`}
-                        className="inline-sprite"
-                        src="./icons/ICO_space_assault_score.png"
-                        alt="Assault value icon"
-                    />
-                );
-            } else if (spriteName === "water") {
-                parts.push(
-                    <img
-                        key={`sprite-${parts.length}`}
-                        className="inline-sprite"
-                        src="./icons/ICO_water.png"
-                        alt="Water icon"
-                    />
+                    <span key={`highlight-${parts.length}`} className="inline-highlight">{highlightText}</span>
                 );
             } else {
-                parts.push(match[0]);
+                parts.push(<br key={`br-${parts.length}`} />);
             }
 
             lastIndex = match.index + match[0].length;

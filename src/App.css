@@ -370,6 +370,11 @@ img {
     vertical-align: middle;
 }
 
+.inline-highlight {
+    color: #d9822b;
+    font-weight: 600;
+}
+
 .module-cost {
     display: flex;
     flex-wrap: wrap;
