@@ -3,6 +3,7 @@ import createPlotlyComponent from 'react-plotly.js/factory';
 import Plotly from 'plotly.js-dist-min';
 import { Config, Data, Layout } from 'plotly.js';
 import { Link } from 'react-router';
+import { FormControlLabel, Switch } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import { DefaultLanguage, Language, Languages } from './language';
 import { DefaultVersion, GameVersion, GameVersionCode, GameVersions, isGameVersionCode } from './version';
@@ -443,22 +444,28 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
           >
             {language.uiTexts.combatThrust}
           </button>
-          <label className="drives-toggle">
-            <input
-              type="checkbox"
-              checked={useMaxThrusters}
-              onChange={(e) => setUseMaxThrusters(e.target.checked)}
-            />
-            Max thrusters
-          </label>
-          <label className="drives-toggle">
-            <input
-              type="checkbox"
-              checked={showLabels}
-              onChange={(e) => setShowLabels(e.target.checked)}
-            />
-            {language.uiTexts.showLabels}
-          </label>
+          <FormControlLabel
+            className="drives-toggle"
+            control={(
+              <Switch
+                size="small"
+                checked={useMaxThrusters}
+                onChange={(e) => setUseMaxThrusters(e.target.checked)}
+              />
+            )}
+            label="Max thrusters"
+          />
+          <FormControlLabel
+            className="drives-toggle"
+            control={(
+              <Switch
+                size="small"
+                checked={showLabels}
+                onChange={(e) => setShowLabels(e.target.checked)}
+              />
+            )}
+            label={language.uiTexts.showLabels}
+          />
         </div>
       </div>
 
