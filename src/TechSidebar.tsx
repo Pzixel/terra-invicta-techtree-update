@@ -349,6 +349,31 @@ export function TechSidebar({
         return results;
     }
 
+    const getDriveFamilyKey = (drive: ModuleTemplate) => {
+        const baseName = drive.dataName.replace(/x\d+$/, "");
+        const projectKey = drive.requiredProjectName ?? "unknown";
+        return `${projectKey}:${baseName}`;
+    };
+
+    const groupDrivesByFamily = (modules: DataModule[]) => {
+        const groups = new Map<string, DataModule[]>();
+
+        modules.forEach(module => {
+            const familyKey = getDriveFamilyKey(module.data);
+            const existing = groups.get(familyKey);
+            if (existing) {
+                existing.push(module);
+            } else {
+                groups.set(familyKey, [module]);
+            }
+        });
+
+        return Array.from(groups.entries()).map(([key, groupModules]) => ({
+            key,
+            modules: [...groupModules].sort((a, b) => (a.data.thrusters ?? 0) - (b.data.thrusters ?? 0)),
+        }));
+    };
+
     function getIcon(dataModule: { iconResource?: string, baseIconResource?: string, stationIconResource?: string }) {
         if (dataModule.iconResource) {
             return dataModule.iconResource;
@@ -582,31 +607,20 @@ export function TechSidebar({
         const drives = driveModules.map(mod => mod.data);
         const referenceDrive = drives[0];
 
-        // Validate all shared fields are identical across drives (except allowed differences)
-        drives.slice(1).forEach(other => {
-            const keys = new Set<string>([
-                ...Object.keys(referenceDrive),
-                ...Object.keys(other),
-            ]);
-            keys.forEach(key => {
-                if (allowedDiffKeys.has(key)) {
-                    return;
-                }
-                const a = normalizeValue((referenceDrive as unknown as Record<string, unknown>)[key]);
-                const b = normalizeValue((other as unknown as Record<string, unknown>)[key]);
-                if (JSON.stringify(a) !== JSON.stringify(b)) {
-                    throw new Error(`Drive field mismatch for ${key}: ${referenceDrive.dataName} vs ${other.dataName}`);
-                }
-            });
-        });
-
         const fuelDrive = drives.find(d => d.thrusters === 1) ?? referenceDrive;
         const fuelCost = calculateDriveFuelCost(fuelDrive);
         const weightedBuildMaterialsCost = calculateWeightedBuildMaterialsRaw(referenceDrive);
         const sharedDriveIcon = getIcon(referenceDrive);
 
         const commonEntries = Object.entries(referenceDrive)
-            .filter(([key]) => !allowedDiffKeys.has(key) && key !== "perTankPropellantMaterials" && key !== "weightedBuildMaterials")
+            .filter(([key, value]) => {
+                if (allowedDiffKeys.has(key) || key === "perTankPropellantMaterials" || key === "weightedBuildMaterials") {
+                    return false;
+                }
+
+                const normalizedReference = normalizeValue(value);
+                return drives.every(drive => JSON.stringify(normalizeValue((drive as unknown as Record<string, unknown>)[key])) === JSON.stringify(normalizedReference));
+            })
             .map(([key, value]) => [key, value] as const);
 
         const allVaryFields: { key: keyof ModuleTemplate; label: string }[] = [
@@ -1026,10 +1040,15 @@ export function TechSidebar({
         const moduleElements: React.ReactElement[] = [];
 
         if (driveModules.length > 0) {
+            const groupedDrives = groupDrivesByFamily(driveModules);
             moduleElements.push(
                 <div key="drive-group" className="module-wrapper">
                     <div className="module-name">{language.uiTexts.drivesHeading}</div>
-                    {renderDriveGroup(driveModules)}
+                    {groupedDrives.map(group => (
+                        <React.Fragment key={group.key}>
+                            {renderDriveGroup(group.modules)}
+                        </React.Fragment>
+                    ))}
                 </div>
             );
         }

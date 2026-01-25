@@ -225,6 +225,7 @@ export interface ModuleTemplate {
     perTankPropellantMaterials?: WeightedBuildMaterials;
     thrusters?: number;
     thrust_N?: number;
+    EV_kps?: number;
     thrustRating_GW?: string | number;
     "req power"?: string | number;
     driveClassification?: string;
