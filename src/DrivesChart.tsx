@@ -53,13 +53,126 @@ const parseLocalization = (raw: string): Record<string, string> => {
   return raw
     .split('\n')
     .map((line) => line.trim())
-    .filter((line) => line.includes('displayName'))
+    .filter((line) => line.length > 0 && !line.startsWith('//') && line.includes('='))
     .reduce<Record<string, string>>((acc, line) => {
       const [key, ...rest] = line.split('=');
       if (!key || !rest.length) return acc;
       acc[key] = rest.join('=').trim();
       return acc;
     }, {});
+};
+
+const fissionCategoryKeys: Record<string, string> = {
+  Fission_Any: 'Any_General',
+  Fission_Solid: 'Solid_Core_Fission',
+  Fission_Liquid: 'Liquid_Core_Fission',
+  Fission_Gas: 'Gas_Core_Fission',
+  Fission_SaltWater: 'Molten_Salt_Core_Fission',
+  Fission_Molten: 'Molten_Salt_Core_Fission',
+};
+
+const fusionCategoryKeys: Record<string, string> = {
+  Fusion_Any: 'Any_Magnetic_Confinement_Fusion',
+  Fusion_Electrostatic: 'Electrostatic_Confinement_Fusion',
+  Fusion_Hybrid: 'Hybrid_Confinement_Fusion',
+  Fusion_Toroid: 'Toroid_Magnetic_Confinement_Fusion',
+  Fusion_Mirrored: 'Mirrored_Magnetic_Confinement_Fusion',
+  Fusion_Inertial: 'Inertial_Confinement_Fusion',
+  Fusion_ZPinch: 'Z_Pinch_Fusion',
+};
+
+const longestCommonSubstring = (a: string, b: string) => {
+  if (!a || !b) return '';
+  const dp = Array.from({ length: a.length + 1 }, () => new Array<number>(b.length + 1).fill(0));
+  let maxLen = 0;
+  let endIdx = 0;
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      if (a[i - 1] === b[j - 1]) {
+        dp[i][j] = dp[i - 1][j - 1] + 1;
+        if (dp[i][j] > maxLen) {
+          maxLen = dp[i][j];
+          endIdx = i;
+        }
+      }
+    }
+  }
+  return maxLen > 0 ? a.slice(endIdx - maxLen, endIdx) : '';
+};
+
+const longestCommonSubstringAll = (items: string[]) => {
+  if (!items.length) return '';
+  return items.reduce((acc, item) => longestCommonSubstring(acc, item));
+};
+
+const findLongestSubstringInTargets = (source: string, targets: string[]) => {
+  const trimmed = source.trim();
+  if (!trimmed) return '';
+  for (let len = trimmed.length; len >= 1; len--) {
+    for (let i = 0; i + len <= trimmed.length; i++) {
+      const candidate = trimmed.slice(i, i + len);
+      if (targets.some((t) => t.includes(candidate))) {
+        return candidate;
+      }
+    }
+  }
+  return '';
+};
+
+const getLocalizedFissionAnyLabel = (localization: Record<string, string>) => {
+  const anyReactor = localization['TIPowerPlantTemplate.PowerPlantRequirement.Any_General'] || '';
+  const reactorNames = Object.entries(localization)
+    .filter(([key, value]) => key.startsWith('TIPowerPlantTemplate.displayName.') && value)
+    .map(([, value]) => value as string)
+    .slice(0, 25);
+  const reactorToken = anyReactor && reactorNames.length
+    ? findLongestSubstringInTargets(anyReactor, reactorNames)
+    : '';
+  const anyLabel = anyReactor
+    ? anyReactor.replace(reactorToken, '').replace(/\s+/g, ' ').trim()
+    : '';
+
+  const fissionParts = [
+    localization['TIPowerPlantTemplate.PowerPlantRequirement.Solid_Core_Fission'],
+    localization['TIPowerPlantTemplate.PowerPlantRequirement.Liquid_Core_Fission'],
+    localization['TIPowerPlantTemplate.PowerPlantRequirement.Gas_Core_Fission'],
+    localization['TIPowerPlantTemplate.PowerPlantRequirement.Molten_Salt_Core_Fission'],
+  ].filter(Boolean) as string[];
+  const fissionLabel = longestCommonSubstringAll(fissionParts).replace(/\s+/g, ' ').trim();
+
+  if (fissionLabel && anyLabel) return `${fissionLabel} ${anyLabel}`.trim();
+  if (fissionLabel) return fissionLabel;
+  if (anyLabel) return anyLabel;
+  return '';
+};
+
+const getDriveCategoryLabel = (category: string, localization: Record<string, string>) => {
+  if (category === 'Fission_Any') {
+    const localized = getLocalizedFissionAnyLabel(localization);
+    if (localized) return localized;
+    return category.replace(/_/g, ' ');
+  }
+
+  const classKey = `TIDriveTemplate.Class.${category}`;
+  if (localization[classKey]) return localization[classKey];
+
+  if (category.startsWith('Fission_')) {
+    const powerKey = fissionCategoryKeys[category];
+    if (powerKey) {
+      const localized = localization[`TIPowerPlantTemplate.PowerPlantRequirement.${powerKey}`];
+      if (localized) return localized;
+    }
+  }
+
+  if (category.startsWith('Fusion_')) {
+    const powerKey = fusionCategoryKeys[category];
+    if (powerKey) {
+      const localized = localization[`TIPowerPlantTemplate.PowerPlantRequirement.${powerKey}`];
+      if (localized) return localized;
+    }
+  }
+
+  return category.replace(/_/g, ' ');
 };
 
 const getDriveCategory = (classification: string, name: string, requiredPowerPlant: string | undefined): string => {
@@ -144,6 +257,7 @@ const buildTraces = (
   exhaustVelocityLabel: string,
   treeCostLabel: string,
   notAvailableLabel: string,
+  localization: Record<string, string>,
 ): Partial<Data>[] =>
   Object.entries(groups)
     .sort(([a], [b]) => a.localeCompare(b))
@@ -170,7 +284,7 @@ const buildTraces = (
           symbol: drives.map((d) => markerSymbolForCooling(d.cooling)),
           opacity: 0.92,
         },
-        name: category.replace(/_/g, ' '),
+        name: getDriveCategoryLabel(category, localization),
         hovertemplate:
           `${driveLabel}: %{customdata[0]}` +
           `<br>${exhaustVelocityLabel}: %{x:.0f}` +
@@ -273,6 +387,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
           techTemplate,
           projectTemplate,
           driveLocRaw,
+          powerPlantLocRaw,
           techLocRaw,
           projectLocRaw,
         ] = await Promise.all([
@@ -283,6 +398,11 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
             `${base}/Localization/${language.code}/TIDriveTemplate.${language.code}`,
             `${base}/Localization/en/TIDriveTemplate.en`,
             'drive localization',
+          ),
+          fetchTextWithFallback(
+            `${base}/Localization/${language.code}/TIPowerPlantTemplate.${language.code}`,
+            `${base}/Localization/en/TIPowerPlantTemplate.en`,
+            'power plant localization',
           ),
           fetchTextWithFallback(
             `${base}/Localization/${language.code}/TITechTemplate.${language.code}`,
@@ -297,6 +417,8 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
         ]);
 
         const driveLocalization = parseLocalization(driveLocRaw);
+        const powerPlantLocalization = parseLocalization(powerPlantLocRaw);
+        const localization = { ...driveLocalization, ...powerPlantLocalization };
         const techLocalization = parseLocalization(techLocRaw);
         const projectLocalization = parseLocalization(projectLocRaw);
 
@@ -346,6 +468,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
               language.uiTexts.exhaustVelocityLabel,
               language.uiTexts.totalTreeCost,
               language.uiTexts.notAvailable,
+              localization,
             ),
           );
         }
