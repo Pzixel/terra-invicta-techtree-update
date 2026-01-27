@@ -208,10 +208,12 @@ const processDrives = (
     const thrusters = Number(item.thrusters || 1);
     const lookupKey = `TIDriveTemplate.displayName.${item.dataName}`;
     let driveName = localization[lookupKey] || item.dataName || unknownDriveLabel;
-    if (driveName.endsWith(' x1')) {
+    driveName = driveName.replace(/\s*x\d+$/i, '');
+    
+    if (driveName.endsWith(' x1') || driveName.endsWith(' х1')) {
       driveName = driveName.slice(0, -3);
     }
-    const baseKey = driveName.replace(/\sx\d+$/, '') || (item.dataName || '').replace(/x\d+$/, '') || driveName || item.dataName || '';
+    const baseKey = (item.dataName || '').replace(/x\d+$/i, '') || driveName || '';
 
     const category = getDriveCategory(item.driveClassification, driveName, item.requiredPowerPlant);
     const baseThrust = Number(item.thrust_N);
