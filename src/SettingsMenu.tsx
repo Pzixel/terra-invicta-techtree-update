@@ -21,7 +21,7 @@ export function SettingsMenu(props: SettingsMenuProps) {
   const { mode, setMode } = useContext(ColorModeContext);
   const theme = useTheme();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-  const driveChartLabel = `${props.language.uiTexts.drivesHeading || 'Drives'} chart`;
+  const driveChartLabel = props.language.uiTexts.driveChartTitle;
 
   const open = Boolean(anchorEl);
 
