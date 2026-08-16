@@ -20,7 +20,7 @@ export interface TechGraphProps {
   techDb?: TechDb | null;
   templateData?: TemplateData;
   onNavigateToNode: (dataName: string | null) => void;
-  navigatedToNode: TechTemplate | null;
+  selectedDataName: string | null;
   precomputedPositions?: Record<string, { x: number; y: number }> | null;
   bundle?: GraphBundle | null;
 }

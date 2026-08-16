@@ -138,7 +138,7 @@ function exportLayoutIfRequested(network: vis.Network, precomputed: boolean) {
     console.log(`layout-dump: ${Object.keys(rounded).length} nodes (precomputed: ${precomputed})`);
 }
 
-function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: string | null) => void) {
+function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: string | null) => void, initialFocus?: string | null) {
     network.on('selectNode', (e: SelectNodeEvent) => {
         if (e.nodes.length === 1) {
             onNavigateToNode(e.nodes[0]);
@@ -179,9 +179,23 @@ function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: stri
             lastZoomPosition = network.getViewPosition()
         }
     });
-    network.moveTo({
-        scale: 0.35,
-    });
+    // Start the viewport on the selected node (deep links) so the first paint
+    // is already focused; otherwise show the whole-tree default view
+    let focused = false;
+    if (initialFocus) {
+        try {
+            network.selectNodes([initialFocus]);
+            network.focus(initialFocus, { scale: 0.35 });
+            focused = true;
+        } catch {
+            // Unknown node id (bad URL) — fall through to the default view
+        }
+    }
+    if (!focused) {
+        network.moveTo({
+            scale: 0.35,
+        });
+    }
 
     network.on("dragEnd", function () {
         lastZoomPosition = network.getViewPosition()
@@ -192,7 +206,8 @@ function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: stri
 // build time), skipping data loading and layout entirely
 export function drawBundle(
   bundle: GraphBundle,
-  onNavigateToNode: (dataName: string | null) => void
+  onNavigateToNode: (dataName: string | null) => void,
+  initialFocus?: string | null
 ): vis.Network {
     const container = document.getElementById("mynetwork");
     if (!container) throw new Error("Network container not found");
@@ -203,7 +218,7 @@ export function drawBundle(
     };
     const network = new vis.Network(container, data, buildOptions(false));
     exportLayoutIfRequested(network, true);
-    attachBehaviors(network, onNavigateToNode);
+    attachBehaviors(network, onNavigateToNode, initialFocus);
     return network;
 }
 
@@ -212,7 +227,8 @@ export function draw(
   lateNodes: VisNode[],
   lateEdges: VisEdge[],
   onNavigateToNode: (dataName: string | null) => void,
-  precomputedPositions?: NodePositions | null
+  precomputedPositions?: NodePositions | null,
+  initialFocus?: string | null
 ): vis.Network {
     const container = document.getElementById("mynetwork");
 
@@ -255,7 +271,7 @@ export function draw(
     }
 
     exportLayoutIfRequested(network, usePrecomputed);
-    attachBehaviors(network, onNavigateToNode);
+    attachBehaviors(network, onNavigateToNode, initialFocus);
     return network;
 }
 

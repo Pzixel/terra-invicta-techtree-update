@@ -7,26 +7,29 @@ export function TechGraph({
     techDb,
     templateData,
     onNavigateToNode,
-    navigatedToNode,
+    selectedDataName,
     precomputedPositions,
     bundle,
 }: TechGraphProps) {
     const [network, setNetwork] = useState<vis.Network | null>(null);
 
-    // Use ref to store the latest callback without causing re-renders
+    // Refs let the draw callback see current values without re-drawing
     const onNavigateToNodeRef = useRef(onNavigateToNode);
     useEffect(() => {
         onNavigateToNodeRef.current = onNavigateToNode;
     }, [onNavigateToNode]);
+    const selectedDataNameRef = useRef(selectedDataName);
+    selectedDataNameRef.current = selectedDataName;
 
     const drawTree = useCallback(() => {
         const navigate = (dataName: string | null) => onNavigateToNodeRef.current(dataName);
+        const initialFocus = selectedDataNameRef.current;
 
         // Precompiled bundle renders without game data or a layout pass.
         // It stays authoritative until the app clears it (user toggles that
         // change the node set), so the graph doesn't redraw when data arrives.
         if (bundle) {
-            setNetwork(drawBundle(bundle, navigate));
+            setNetwork(drawBundle(bundle, navigate, initialFocus));
             return;
         }
         if (!techDb || !templateData) {
@@ -38,7 +41,7 @@ export function TechGraph({
             edges: new vis.DataSet(edges)
         };
 
-        setNetwork(draw(data, lateNodes, lateEdges, navigate, precomputedPositions));
+        setNetwork(draw(data, lateNodes, lateEdges, navigate, precomputedPositions, initialFocus));
     }, [bundle, techDb, templateData, precomputedPositions]);
 
     useEffect(() => {
@@ -46,11 +49,15 @@ export function TechGraph({
     }, [drawTree]);
 
     useEffect(() => {
-        if (navigatedToNode && network) {
-            network.selectNodes([navigatedToNode.dataName]);
-            network.focus(navigatedToNode.dataName);
+        if (selectedDataName && network) {
+            try {
+                network.selectNodes([selectedDataName]);
+                network.focus(selectedDataName);
+            } catch {
+                // Unknown node id (bad URL) — nothing to focus
+            }
         }
-    }, [navigatedToNode, network]);
+    }, [selectedDataName, network]);
 
     return (
         <div id="mynetwork" className="graph-container"></div>

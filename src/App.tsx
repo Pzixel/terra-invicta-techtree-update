@@ -247,7 +247,7 @@ function App() {
                             techDb={activeBundle ? null : techDb}
                             templateData={activeBundle ? undefined : appStaticData.templateData}
                             onNavigateToNode={onGraphNavigate}
-                            navigatedToNode={navigatedToNode}
+                            selectedDataName={navigatedToNode?.dataName ?? id ?? null}
                             precomputedPositions={layoutCache?.positions}
                             bundle={activeBundle}
                         />
