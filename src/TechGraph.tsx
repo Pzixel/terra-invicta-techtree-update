@@ -4,10 +4,11 @@ import * as vis from "vis-network/standalone";
 import { TechGraphProps } from './types/props';
 
 export function TechGraph({
-    techDb, 
+    techDb,
     templateData,
-    onNavigateToNode, 
+    onNavigateToNode,
     navigatedToNode,
+    precomputedPositions,
 }: TechGraphProps) {
     const [network, setNetwork] = useState<vis.Network | null>(null);
     
@@ -25,8 +26,8 @@ export function TechGraph({
         };
 
         // Use the ref callback that won't change between renders
-        setNetwork(draw(techDb, data, lateNodes, lateEdges, (...args) => onNavigateToNodeRef.current(...args)));
-    }, [techDb, templateData]);
+        setNetwork(draw(techDb, data, lateNodes, lateEdges, (...args) => onNavigateToNodeRef.current(...args), precomputedPositions));
+    }, [techDb, templateData, precomputedPositions]);
 
     useEffect(() => {
         drawTree();

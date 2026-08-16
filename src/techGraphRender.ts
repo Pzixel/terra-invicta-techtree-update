@@ -9,6 +9,8 @@ export interface VisNode {
   shape: string;
   image: string;
   level: number;
+  x?: number;
+  y?: number;
   color: {
     border: string;
   };
@@ -54,19 +56,28 @@ interface ClickEvent {
     edges: string[];
 }
 
+export type NodePositions = Record<string, { x: number; y: number }>;
+
 export function draw(
   techDb: TechDb,
   data: VisData,
   lateNodes: VisNode[],
   lateEdges: VisEdge[],
-  onNavigateToNode: (node: TechTemplate | null) => void
-): vis.Network {    
+  onNavigateToNode: (node: TechTemplate | null) => void,
+  precomputedPositions?: NodePositions | null
+): vis.Network {
     const container = document.getElementById("mynetwork");
 
     if (!container) throw new Error("Network container not found");
 
+    // Positions computed at build time let us skip the expensive hierarchical
+    // layout pass entirely; only usable when they cover the whole node set
+    const allNodes = (data.nodes.get() as VisNode[]).concat(lateNodes);
+    const usePrecomputed = !!precomputedPositions &&
+        allNodes.every((node) => precomputedPositions[node.id]);
+
     const options = {
-        layout: {
+        layout: usePrecomputed ? { improvedLayout: false } : {
             hierarchical: {
                 direction: "LR",
                 parentCentralization: false,
@@ -115,22 +126,53 @@ export function draw(
             }
         }
     };
-    const network = new vis.Network(container, data, options) as VisNetworkInternal; // Cast to access internal body properties
+    let network: VisNetworkInternal;
+    if (usePrecomputed && precomputedPositions) {
+        // All nodes get fixed coordinates up front; no layout pass, no
+        // add-late-nodes/restore-positions dance needed
+        data.nodes.update(
+            (data.nodes.get() as VisNode[]).map(({ id }) => ({ id, ...precomputedPositions[id] }))
+        );
+        data.nodes.add(lateNodes.map((node) => ({ ...node, ...precomputedPositions[node.id] })));
+        data.edges.add(lateEdges);
+        network = new vis.Network(container, data, options) as VisNetworkInternal;
+    } else {
+        network = new vis.Network(container, data, options) as VisNetworkInternal; // Cast to access internal body properties
 
-    data.nodes.add(lateNodes);
+        data.nodes.add(lateNodes);
 
-    const oldPositions: Record<string, [number, number]> = {};
+        const oldPositions: Record<string, [number, number]> = {};
 
-    Object.values(network.body.nodes).forEach((node: VisNetworkNode) => {
-        oldPositions[node.id] = [node.x, node.y];
-    });
+        Object.values(network.body.nodes).forEach((node: VisNetworkNode) => {
+            oldPositions[node.id] = [node.x, node.y];
+        });
 
-    data.edges.add(lateEdges);
+        data.edges.add(lateEdges);
 
-    Object.keys(network.body.nodes).forEach((nodeId: string) => {
-        network.nodesHandler.body.nodes[nodeId].x = oldPositions[nodeId][0];
-        network.nodesHandler.body.nodes[nodeId].y = oldPositions[nodeId][1];
-    });
+        Object.keys(network.body.nodes).forEach((nodeId: string) => {
+            network.nodesHandler.body.nodes[nodeId].x = oldPositions[nodeId][0];
+            network.nodesHandler.body.nodes[nodeId].y = oldPositions[nodeId][1];
+        });
+    }
+
+    // Build-time layout export: /?dumpLayout=1 embeds final positions in the DOM
+    if (new URLSearchParams(window.location.search).has('dumpLayout')) {
+        const positions = network.getPositions();
+        const rounded: NodePositions = {};
+        for (const [id, pos] of Object.entries(positions)) {
+            rounded[id] = { x: Math.round(pos.x), y: Math.round(pos.y) };
+        }
+        (window as unknown as Record<string, unknown>).__techTreeLayout = rounded;
+        let el = document.getElementById('layout-dump');
+        if (!el) {
+            el = document.createElement('script');
+            el.setAttribute('type', 'application/json');
+            el.id = 'layout-dump';
+            document.body.appendChild(el);
+        }
+        el.textContent = JSON.stringify(rounded);
+        console.log(`layout-dump: ${Object.keys(rounded).length} nodes (precomputed: ${usePrecomputed})`);
+    }
 
     network.on('selectNode', (e: SelectNodeEvent) => {
         if (e.nodes.length === 1) {

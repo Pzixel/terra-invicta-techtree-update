@@ -17,9 +17,10 @@ export interface TechSidebarProps {
 
 export interface TechGraphProps {
   techDb: TechDb;
-  templateData: TemplateData, 
+  templateData: TemplateData,
   onNavigateToNode: (node: TechTemplate | null) => void;
   navigatedToNode: TechTemplate | null;
+  precomputedPositions?: Record<string, { x: number; y: number }> | null;
 }
 
 export interface SearchboxProps {

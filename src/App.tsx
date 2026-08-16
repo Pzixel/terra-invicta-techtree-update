@@ -13,6 +13,7 @@ import { DefaultVersion, GameVersion, GameVersionCode, GameVersions, isGameVersi
 import { useWindowSize } from './utils/useWindowSize';
 import { SettingsMenu } from './SettingsMenu';
 import { useTheme } from '@mui/material/styles';
+import { NodePositions } from './techGraphRender';
 const DrivesChart = lazy(() => import('./DrivesChart'));
 
 function App() {
@@ -108,6 +109,22 @@ function App() {
         document.documentElement.lang = language.locale;
     }, [language.locale]);
 
+    // Build-time precomputed graph layout; null (e.g. 404) falls back to live layout
+    const [layoutCache, setLayoutCache] = useState<{ code: GameVersionCode; positions: NodePositions | null } | null>(null);
+    useEffect(() => {
+        let cancelled = false;
+        setLayoutCache(null);
+        fetch(assetUrl(`layout/${version.code}.json`))
+            .then((res) => (res.ok ? res.json() : null))
+            .catch(() => null)
+            .then((positions) => {
+                if (!cancelled) {
+                    setLayoutCache({ code: version.code, positions });
+                }
+            });
+        return () => { cancelled = true; };
+    }, [version.code]);
+
     useEffect(() => {
         if (!language.availableVersions.includes(version.code)) {
             const fallbackLanguage = Object.values(Languages).find((lang) =>
@@ -175,12 +192,13 @@ function App() {
             {isReady && techDb && (
                 <div id="responsive-container" className={isMobileLayout ? "mobile-layout" : "desktop-layout"}>
                     {/* Only load TechGraph on desktop layouts */}
-                    {isReady && techDb && !isMobileLayout && (
+                    {isReady && techDb && !isMobileLayout && layoutCache?.code === version.code && (
                         <TechGraph
                             techDb={techDb}
                             templateData={appStaticData.templateData}
                             onNavigateToNode={onNavigatedToNode}
                             navigatedToNode={navigatedToNode}
+                            precomputedPositions={layoutCache.positions}
                         />
                     )}
 

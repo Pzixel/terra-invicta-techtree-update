@@ -1,8 +1,9 @@
 import { TechTemplate } from './types';
 import { TechDb } from './utils/TechDb';
 
-// Same-origin path of the deploy base (vite `base` may be a full URL); ends with '/'
-export const BASE_PATH = new URL(import.meta.env.BASE_URL, window.location.origin).pathname;
+// Same-origin path of the deploy base (vite `base` may be a full URL); ends with '/'.
+// The env fallback covers non-Vite contexts (build scripts importing this module).
+export const BASE_PATH = new URL(import.meta.env?.BASE_URL ?? '/', window.location.origin).pathname;
 
 // Resolve a public asset path against the deploy base so it works from nested
 // routes like /SomeTech/ where relative URLs would break

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate:gamefiles-manifest && vite build && node scripts/generate_seo_pages.js",
+    "build": "npm run generate:gamefiles-manifest && vite build && node scripts/generate_seo_pages.js && node scripts/generate_graph_layout.js",
     "generate:gamefiles-manifest": "node scripts/generate_gamefiles_manifest.js",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -38,6 +38,7 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
     "jiti": "^2.4.2",
+    "jsdom": "^27.0.1",
     "typescript": "^5.8.3",
     "vite": "^6.2.0"
   }
