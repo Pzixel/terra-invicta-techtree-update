@@ -298,10 +298,8 @@ export function TechSidebar({
     }
 
     function getReadableClaim(claim: Claim) {
-        // tryGetReadable: entries with genuinely missing localization are
-        // skipped instead of rendering raw localization keys
-        const nationName = localizationDb.tryGetReadable("nation", claim.nation1, "displayName");
-        const regionName = localizationDb.tryGetReadable("region", claim.region1, "displayName");
+        const nationName = localizationDb.getReadable("nation", claim.nation1, "displayName");
+        const regionName = localizationDb.getReadable("region", claim.region1, "displayName");
 
         if (!nationName || !regionName) {
             return null;
@@ -314,11 +312,8 @@ export function TechSidebar({
     }
 
     function getReadableAdjacency(adjacency: Adjacency) {
-        const region1Name = localizationDb.tryGetReadable("region", adjacency.region1, "displayName");
-        const region2Name = localizationDb.tryGetReadable("region", adjacency.region2, "displayName");
-        if (!region1Name || !region2Name) {
-            return null;
-        }
+        const region1Name = localizationDb.getReadable("region", adjacency.region1, "displayName");
+        const region2Name = localizationDb.getReadable("region", adjacency.region2, "displayName");
         const template = adjacency.friendlyOnly ? language.uiTexts.adjacencyFriendly : language.uiTexts.adjacencyGeneral;
         return formatTemplate(template, { region1: region1Name, region2: region2Name });
     }
