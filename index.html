@@ -3,14 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/logo.jpg" type="image/jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Terra Invicta Tech Tree — Interactive Technology &amp; Project Tree Viewer (Updated)</title>
+    <meta name="description" content="Updated interactive tech tree for Terra Invicta. Browse every technology and project, prerequisites, research costs, effects and unlocks. Supports the latest game version, search, and 12 languages. Actively maintained fork." />
+    <meta name="keywords" content="Terra Invicta, tech tree, technology tree, techtree, projects, research, technologies, viewer, interactive, updated" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Pzixel" />
+    <link rel="canonical" href="https://pzixel.github.io/terra-invicta-techtree-update/" />
+
+    <!-- hreflang alternates (site UI + game data available in these languages via ?lang=) -->
+    <link rel="alternate" hreflang="x-default" href="https://pzixel.github.io/terra-invicta-techtree-update/" />
+    <link rel="alternate" hreflang="en" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=en" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=chs" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=cht" />
+    <link rel="alternate" hreflang="de" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=deu" />
+    <link rel="alternate" hreflang="es" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=esp" />
+    <link rel="alternate" hreflang="fr" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=fr" />
+    <link rel="alternate" hreflang="ja" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=jpn" />
+    <link rel="alternate" hreflang="pl" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=pol" />
+    <link rel="alternate" hreflang="pt-BR" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=por" />
+    <link rel="alternate" hreflang="ko" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=kor" />
+    <link rel="alternate" hreflang="ru" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=rus" />
+    <link rel="alternate" hreflang="uk" href="https://pzixel.github.io/terra-invicta-techtree-update/?lang=ukr" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Terra Invicta Tech Tree" />
+    <meta property="og:title" content="Terra Invicta Tech Tree — Interactive Technology &amp; Project Viewer" />
+    <meta property="og:description" content="Updated interactive tech tree for Terra Invicta: every technology and project with prerequisites, research costs, effects and unlocks. Latest game version, 12 languages." />
+    <meta property="og:url" content="https://pzixel.github.io/terra-invicta-techtree-update/" />
+    <meta property="og:image" content="https://pzixel.github.io/terra-invicta-techtree-update/logo.jpg" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Terra Invicta Tech Tree — Interactive Technology &amp; Project Viewer" />
+    <meta name="twitter:description" content="Updated interactive tech tree for Terra Invicta: technologies, projects, prerequisites, costs, effects. Latest game version, 12 languages." />
+    <meta name="twitter:image" content="https://pzixel.github.io/terra-invicta-techtree-update/logo.jpg" />
+
+    <meta name="theme-color" content="#0d1117" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Terra Invicta Tech Tree",
+      "alternateName": "Terra Invicta Technology Tree Viewer",
+      "url": "https://pzixel.github.io/terra-invicta-techtree-update/",
+      "description": "Interactive, up-to-date tech tree viewer for the grand strategy game Terra Invicta. Explore all technologies and projects, their prerequisites, research costs, effects and unlocks.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript",
+      "isAccessibleForFree": true,
+      "inLanguage": ["en", "zh-Hans", "zh-Hant", "de", "es", "fr", "ja", "pl", "pt-BR", "ko", "ru", "uk"],
+      "about": {
+        "@type": "VideoGame",
+        "name": "Terra Invicta",
+        "gamePlatform": "PC",
+        "publisher": { "@type": "Organization", "name": "Hooded Horse" },
+        "author": { "@type": "Organization", "name": "Pavonis Interactive" }
+      }
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Terra Invicta Tech tree</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Static content for crawlers and no-JS visitors; replaced when the app mounts -->
+      <main>
+        <h1>Terra Invicta Tech Tree</h1>
+        <p>
+          An interactive, regularly updated technology tree viewer for
+          <strong>Terra Invicta</strong>, the grand strategy game by Pavonis Interactive.
+          Browse every <strong>technology</strong> and <strong>project</strong> in the game:
+          prerequisites, research costs, effects, unlocked modules, habs and ship parts.
+        </p>
+        <ul>
+          <li>Full tech tree graph with search and filtering</li>
+          <li>Up to date with the latest stable and experimental game versions</li>
+          <li>Research cost and prerequisite chains for every tech and project</li>
+          <li>Ship drives comparison chart</li>
+          <li>Available in 12 languages: English, 简体中文, 繁體中文, Deutsch, Español, Français, 日本語, Polski, Português, 한국어, Русский, Українська</li>
+        </ul>
+        <p>
+          This is an actively maintained fork of the original Terra Invicta tech tree website.
+          Source code on <a href="https://github.com/Pzixel/terra-invicta-techtree-update">GitHub</a>.
+        </p>
+        <noscript>
+          <p>This application requires JavaScript to display the interactive tech tree.</p>
+        </noscript>
+      </main>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

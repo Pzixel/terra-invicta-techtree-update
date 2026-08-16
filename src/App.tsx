@@ -105,6 +105,10 @@ function App() {
     }, [language, version, showDrivesOverlay, syncQueryParams]);
 
     useEffect(() => {
+        document.documentElement.lang = language.locale;
+    }, [language.locale]);
+
+    useEffect(() => {
         if (!language.availableVersions.includes(version.code)) {
             const fallbackLanguage = Object.values(Languages).find((lang) =>
                 lang.availableVersions.includes(version.code)
