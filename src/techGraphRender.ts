@@ -138,6 +138,28 @@ function exportLayoutIfRequested(network: vis.Network, precomputed: boolean) {
     console.log(`layout-dump: ${Object.keys(rounded).length} nodes (precomputed: ${precomputed})`);
 }
 
+const MIN_ZOOM = 0.1;
+const MAX_ZOOM = 2.0;
+const DEFAULT_ZOOM = 0.35;
+const ZOOM_STORAGE_KEY = 'terraInvictaGraphZoom';
+
+function getStoredZoom(): number | null {
+    try {
+        const value = parseFloat(localStorage.getItem(ZOOM_STORAGE_KEY) ?? '');
+        return Number.isFinite(value) && value >= MIN_ZOOM && value <= MAX_ZOOM ? value : null;
+    } catch {
+        return null;
+    }
+}
+
+function storeZoom(scale: number) {
+    try {
+        localStorage.setItem(ZOOM_STORAGE_KEY, String(scale));
+    } catch {
+        // Storage unavailable (private mode etc.) — zoom just won't persist
+    }
+}
+
 function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: string | null) => void, initialFocus?: string | null) {
     network.on('selectNode', (e: SelectNodeEvent) => {
         if (e.nodes.length === 1) {
@@ -158,8 +180,6 @@ function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: stri
         }
     });
 
-    const MIN_ZOOM = 0.1
-    const MAX_ZOOM = 2.0
     let lastZoomPosition = { x: 0, y: 0 }
     network.on("zoom", function () {
         const scale = network.getScale()
@@ -177,15 +197,18 @@ function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: stri
         }
         else {
             lastZoomPosition = network.getViewPosition()
+            storeZoom(scale)
         }
     });
     // Start the viewport on the selected node (deep links) so the first paint
-    // is already focused; otherwise show the whole-tree default view
+    // is already focused; otherwise show the whole-tree default view.
+    // Reuse the zoom level from the previous visit when available.
+    const initialScale = getStoredZoom() ?? DEFAULT_ZOOM;
     let focused = false;
     if (initialFocus) {
         try {
             network.selectNodes([initialFocus]);
-            network.focus(initialFocus, { scale: 0.35 });
+            network.focus(initialFocus, { scale: initialScale });
             focused = true;
         } catch {
             // Unknown node id (bad URL) — fall through to the default view
@@ -193,7 +216,7 @@ function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: stri
     }
     if (!focused) {
         network.moveTo({
-            scale: 0.35,
+            scale: initialScale,
         });
     }
 
