@@ -70,32 +70,104 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      /* Splash shown while the app bundle loads; the whole #root subtree is
+         replaced on React mount. Colors mirror src/theme.tsx palettes. */
+      body { margin: 0; }
+      #splash {
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        font-family: Roboto, system-ui, sans-serif;
+        background: #d3e7f5;
+        color: #0f172a;
+        text-align: center;
+        padding: 24px;
+        box-sizing: border-box;
+      }
+      html.splash-dark #splash {
+        background: #0f172a;
+        color: #e2e8f0;
+      }
+      #splash h1 {
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin: 0;
+      }
+      #splash .tagline {
+        max-width: 34rem;
+        font-size: 0.95rem;
+        opacity: 0.8;
+        margin: 0;
+      }
+      #splash .spinner {
+        width: 36px;
+        height: 36px;
+        border: 3px solid currentColor;
+        border-top-color: transparent;
+        border-radius: 50%;
+        opacity: 0.6;
+        animation: splash-spin 0.9s linear infinite;
+      }
+      @keyframes splash-spin {
+        to { transform: rotate(360deg); }
+      }
+      /* Crawler/no-JS detail: rendered below the fold, not in the splash viewport */
+      #splash-details {
+        font-family: Roboto, system-ui, sans-serif;
+        background: #d3e7f5;
+        color: #0f172a;
+        padding: 24px;
+        margin: 0;
+      }
+      html.splash-dark #splash-details {
+        background: #0f172a;
+        color: #e2e8f0;
+      }
+    </style>
+    <script>
+      // Match the app's theme choice before first paint to avoid a color flash
+      try {
+        var storedTheme = localStorage.getItem('terraInvictaThemeMode');
+        var dark = storedTheme === 'dark' ||
+          (storedTheme !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) document.documentElement.classList.add('splash-dark');
+      } catch (e) { /* no-op */ }
+    </script>
   </head>
   <body>
     <div id="root">
       <!-- Static content for crawlers and no-JS visitors; replaced when the app mounts -->
       <main>
-        <h1>Terra Invicta Tech Tree</h1>
-        <p>
-          An interactive, regularly updated technology tree viewer for
-          <strong>Terra Invicta</strong>, the grand strategy game by Pavonis Interactive.
-          Browse every <strong>technology</strong> and <strong>project</strong> in the game:
-          prerequisites, research costs, effects, unlocked modules, habs and ship parts.
-        </p>
-        <ul>
-          <li>Full tech tree graph with search and filtering</li>
-          <li>Up to date with the latest stable and experimental game versions</li>
-          <li>Research cost and prerequisite chains for every tech and project</li>
-          <li>Ship drives comparison chart</li>
-          <li>Available in 12 languages: English, 简体中文, 繁體中文, Deutsch, Español, Français, 日本語, Polski, Português, 한국어, Русский, Українська</li>
-        </ul>
-        <p>
-          This is an actively maintained fork of the original Terra Invicta tech tree website.
-          Source code on <a href="https://github.com/Pzixel/terra-invicta-techtree-update">GitHub</a>.
-        </p>
-        <noscript>
-          <p>This application requires JavaScript to display the interactive tech tree.</p>
-        </noscript>
+        <div id="splash">
+          <h1>Terra Invicta Tech Tree</h1>
+          <p class="tagline">Interactive, up-to-date technology and project tree viewer for Terra Invicta — prerequisites, research costs, effects and unlocks.</p>
+          <div class="spinner" aria-label="Loading"></div>
+          <noscript>This application requires JavaScript to display the interactive tech tree.</noscript>
+        </div>
+        <section id="splash-details">
+          <p>
+            An interactive, regularly updated technology tree viewer for
+            <strong>Terra Invicta</strong>, the grand strategy game by Pavonis Interactive.
+            Browse every <strong>technology</strong> and <strong>project</strong> in the game:
+            prerequisites, research costs, effects, unlocked modules, habs and ship parts.
+          </p>
+          <ul>
+            <li>Full tech tree graph with search and filtering</li>
+            <li>Up to date with the latest stable and experimental game versions</li>
+            <li>Research cost and prerequisite chains for every tech and project</li>
+            <li>Ship drives comparison chart</li>
+            <li>Available in 12 languages: English, 简体中文, 繁體中文, Deutsch, Español, Français, 日本語, Polski, Português, 한국어, Русский, Українська</li>
+          </ul>
+          <p>
+            This is an actively maintained fork of the original Terra Invicta tech tree website.
+            Source code on <a href="https://github.com/Pzixel/terra-invicta-techtree-update">GitHub</a>.
+          </p>
+        </section>
       </main>
     </div>
     <script type="module" src="/src/main.jsx"></script>
