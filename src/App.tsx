@@ -136,6 +136,23 @@ function App() {
     const [useLiveGraph, setUseLiveGraph] = useState(false);
     useEffect(() => {
         let cancelled = false;
+        const boot = window.__graphBoot;
+        if (boot && boot.key === bundleKey) {
+            // The pre-React boot chunk is already fetching (or has fetched)
+            // this exact bundle — reuse it so TechGraph can adopt the network
+            boot.bundlePromise.then((bundle) => {
+                if (!cancelled) {
+                    setGraphBundle({ key: bundleKey, bundle });
+                }
+            });
+            return () => { cancelled = true; };
+        }
+        if (boot && !boot.adopted) {
+            // Boot drew for a different version/language — discard it
+            boot.network?.destroy();
+            boot.container.remove();
+            window.__graphBoot = undefined;
+        }
         performance.mark('graph:bundle-fetch-start');
         fetch(assetUrl(`graph/${bundleKey}.json`))
             .then((res) => (res.ok ? res.json() : null))

@@ -207,9 +207,10 @@ function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: stri
 export function drawBundle(
   bundle: GraphBundle,
   onNavigateToNode: (dataName: string | null) => void,
-  initialFocus?: string | null
+  initialFocus?: string | null,
+  containerOverride?: HTMLElement | null
 ): vis.Network {
-    const container = document.getElementById("mynetwork");
+    const container = containerOverride ?? document.getElementById("mynetwork");
     if (!container) throw new Error("Network container not found");
 
     const data = {

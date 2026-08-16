@@ -1,12 +1,5 @@
-import { StrictMode, Suspense, lazy } from 'react'
-import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router";
-import App from './App'
-import { AppThemeProvider } from './theme.tsx';
-
-const GamefilesBrowser = lazy(() => import('./GamefilesBrowser'));
-const DrivesChart = lazy(() => import('./DrivesChart'));
 import { BASE_PATH } from './utils';
+import { bootGraph } from './bootGraph';
 
 performance.mark('app:entry');
 
@@ -21,17 +14,8 @@ if (window.location.hash.startsWith('#/')) {
   window.history.replaceState(null, '', BASE_PATH + hashPath + (query ? `?${query}` : ''));
 }
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <AppThemeProvider>
-      <BrowserRouter basename={BASE_PATH.replace(/\/$/, '') || '/'}>
-        <Routes>
-          <Route path="/" element={<App />} />
-          <Route path=":id" element={<App />} />
-          <Route path="/browse" element={<Suspense fallback={<div id="loading">Loading</div>}><GamefilesBrowser /></Suspense>} />
-          <Route path="/drives" element={<Suspense fallback={<div id="loading">Loading</div>}><DrivesChart /></Suspense>} />
-        </Routes>
-      </BrowserRouter>
-    </AppThemeProvider>
-  </StrictMode>,
-)
+// Paint the graph with just this chunk (vis-network, no React) …
+bootGraph();
+
+// … while the React app chunk loads and mounts around it
+import('./appMain');
