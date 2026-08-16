@@ -58,33 +58,23 @@ interface ClickEvent {
 
 export type NodePositions = Record<string, { x: number; y: number }>;
 
-export function draw(
-  techDb: TechDb,
-  data: VisData,
-  lateNodes: VisNode[],
-  lateEdges: VisEdge[],
-  onNavigateToNode: (node: TechTemplate | null) => void,
-  precomputedPositions?: NodePositions | null
-): vis.Network {
-    const container = document.getElementById("mynetwork");
+// A fully precompiled graph: nodes carry labels, styling and coordinates, so
+// rendering needs neither the game data nor a layout pass
+export interface GraphBundle {
+  nodes: VisNode[];
+  edges: VisEdge[];
+}
 
-    if (!container) throw new Error("Network container not found");
-
-    // Positions computed at build time let us skip the expensive hierarchical
-    // layout pass entirely; only usable when they cover the whole node set
-    const allNodes = (data.nodes.get() as VisNode[]).concat(lateNodes);
-    const usePrecomputed = !!precomputedPositions &&
-        allNodes.every((node) => precomputedPositions[node.id]);
-
-    const options = {
-        layout: usePrecomputed ? { improvedLayout: false } : {
+function buildOptions(useHierarchicalLayout: boolean) {
+    return {
+        layout: useHierarchicalLayout ? {
             hierarchical: {
                 direction: "LR",
                 parentCentralization: false,
                 levelSeparation: 500
             },
             improvedLayout: false
-        },
+        } : { improvedLayout: false },
         interaction: { dragNodes: false },
         physics: {
             enabled: false
@@ -126,59 +116,32 @@ export function draw(
             }
         }
     };
-    let network: VisNetworkInternal;
-    if (usePrecomputed && precomputedPositions) {
-        // All nodes get fixed coordinates up front; no layout pass, no
-        // add-late-nodes/restore-positions dance needed
-        data.nodes.update(
-            (data.nodes.get() as VisNode[]).map(({ id }) => ({ id, ...precomputedPositions[id] }))
-        );
-        data.nodes.add(lateNodes.map((node) => ({ ...node, ...precomputedPositions[node.id] })));
-        data.edges.add(lateEdges);
-        network = new vis.Network(container, data, options) as VisNetworkInternal;
-    } else {
-        network = new vis.Network(container, data, options) as VisNetworkInternal; // Cast to access internal body properties
+}
 
-        data.nodes.add(lateNodes);
-
-        const oldPositions: Record<string, [number, number]> = {};
-
-        Object.values(network.body.nodes).forEach((node: VisNetworkNode) => {
-            oldPositions[node.id] = [node.x, node.y];
-        });
-
-        data.edges.add(lateEdges);
-
-        Object.keys(network.body.nodes).forEach((nodeId: string) => {
-            network.nodesHandler.body.nodes[nodeId].x = oldPositions[nodeId][0];
-            network.nodesHandler.body.nodes[nodeId].y = oldPositions[nodeId][1];
-        });
-    }
-
+function exportLayoutIfRequested(network: vis.Network, precomputed: boolean) {
     // Build-time layout export: /?dumpLayout=1 embeds final positions in the DOM
-    if (new URLSearchParams(window.location.search).has('dumpLayout')) {
-        const positions = network.getPositions();
-        const rounded: NodePositions = {};
-        for (const [id, pos] of Object.entries(positions)) {
-            rounded[id] = { x: Math.round(pos.x), y: Math.round(pos.y) };
-        }
-        (window as unknown as Record<string, unknown>).__techTreeLayout = rounded;
-        let el = document.getElementById('layout-dump');
-        if (!el) {
-            el = document.createElement('script');
-            el.setAttribute('type', 'application/json');
-            el.id = 'layout-dump';
-            document.body.appendChild(el);
-        }
-        el.textContent = JSON.stringify(rounded);
-        console.log(`layout-dump: ${Object.keys(rounded).length} nodes (precomputed: ${usePrecomputed})`);
+    if (!new URLSearchParams(window.location.search).has('dumpLayout')) return;
+    const positions = network.getPositions();
+    const rounded: NodePositions = {};
+    for (const [id, pos] of Object.entries(positions)) {
+        rounded[id] = { x: Math.round(pos.x), y: Math.round(pos.y) };
     }
+    (window as unknown as Record<string, unknown>).__techTreeLayout = rounded;
+    let el = document.getElementById('layout-dump');
+    if (!el) {
+        el = document.createElement('script');
+        el.setAttribute('type', 'application/json');
+        el.id = 'layout-dump';
+        document.body.appendChild(el);
+    }
+    el.textContent = JSON.stringify(rounded);
+    console.log(`layout-dump: ${Object.keys(rounded).length} nodes (precomputed: ${precomputed})`);
+}
 
+function attachBehaviors(network: vis.Network, onNavigateToNode: (dataName: string | null) => void) {
     network.on('selectNode', (e: SelectNodeEvent) => {
         if (e.nodes.length === 1) {
-            const selectedNodeId = e.nodes[0];
-            const selectedNode = techDb.getTechByDataName(selectedNodeId);
-            onNavigateToNode(selectedNode);
+            onNavigateToNode(e.nodes[0]);
         }
     });
     network.on('deselectNode', () => {
@@ -223,7 +186,76 @@ export function draw(
     network.on("dragEnd", function () {
         lastZoomPosition = network.getViewPosition()
     });
+}
 
+// Fast path: render a precompiled graph bundle (labels + coordinates baked at
+// build time), skipping data loading and layout entirely
+export function drawBundle(
+  bundle: GraphBundle,
+  onNavigateToNode: (dataName: string | null) => void
+): vis.Network {
+    const container = document.getElementById("mynetwork");
+    if (!container) throw new Error("Network container not found");
+
+    const data = {
+        nodes: new vis.DataSet(bundle.nodes),
+        edges: new vis.DataSet(bundle.edges as vis.Edge[])
+    };
+    const network = new vis.Network(container, data, buildOptions(false));
+    exportLayoutIfRequested(network, true);
+    attachBehaviors(network, onNavigateToNode);
+    return network;
+}
+
+export function draw(
+  data: VisData,
+  lateNodes: VisNode[],
+  lateEdges: VisEdge[],
+  onNavigateToNode: (dataName: string | null) => void,
+  precomputedPositions?: NodePositions | null
+): vis.Network {
+    const container = document.getElementById("mynetwork");
+
+    if (!container) throw new Error("Network container not found");
+
+    // Positions computed at build time let us skip the expensive hierarchical
+    // layout pass entirely; only usable when they cover the whole node set
+    const allNodes = (data.nodes.get() as VisNode[]).concat(lateNodes);
+    const usePrecomputed = !!precomputedPositions &&
+        allNodes.every((node) => precomputedPositions[node.id]);
+
+    const options = buildOptions(!usePrecomputed);
+    let network: VisNetworkInternal;
+    if (usePrecomputed && precomputedPositions) {
+        // All nodes get fixed coordinates up front; no layout pass, no
+        // add-late-nodes/restore-positions dance needed
+        data.nodes.update(
+            (data.nodes.get() as VisNode[]).map(({ id }) => ({ id, ...precomputedPositions[id] }))
+        );
+        data.nodes.add(lateNodes.map((node) => ({ ...node, ...precomputedPositions[node.id] })));
+        data.edges.add(lateEdges);
+        network = new vis.Network(container, data, options) as VisNetworkInternal;
+    } else {
+        network = new vis.Network(container, data, options) as VisNetworkInternal; // Cast to access internal body properties
+
+        data.nodes.add(lateNodes);
+
+        const oldPositions: Record<string, [number, number]> = {};
+
+        Object.values(network.body.nodes).forEach((node: VisNetworkNode) => {
+            oldPositions[node.id] = [node.x, node.y];
+        });
+
+        data.edges.add(lateEdges);
+
+        Object.keys(network.body.nodes).forEach((nodeId: string) => {
+            network.nodesHandler.body.nodes[nodeId].x = oldPositions[nodeId][0];
+            network.nodesHandler.body.nodes[nodeId].y = oldPositions[nodeId][1];
+        });
+    }
+
+    exportLayoutIfRequested(network, usePrecomputed);
+    attachBehaviors(network, onNavigateToNode);
     return network;
 }
 

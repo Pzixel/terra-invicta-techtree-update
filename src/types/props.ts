@@ -1,5 +1,6 @@
 import { TechTemplate, LocalizationDb, TemplateData, EffectTemplate } from './index';
 import { TechDb } from '../utils/TechDb';
+import { GraphBundle } from '../techGraphRender';
 import { Language } from 'src/language';
 import { GameVersion } from '../version';
 
@@ -16,15 +17,16 @@ export interface TechSidebarProps {
 }
 
 export interface TechGraphProps {
-  techDb: TechDb;
-  templateData: TemplateData,
-  onNavigateToNode: (node: TechTemplate | null) => void;
+  techDb?: TechDb | null;
+  templateData?: TemplateData;
+  onNavigateToNode: (dataName: string | null) => void;
   navigatedToNode: TechTemplate | null;
   precomputedPositions?: Record<string, { x: number; y: number }> | null;
+  bundle?: GraphBundle | null;
 }
 
 export interface SearchboxProps {
-  techDb: TechDb;
+  techDb: TechDb | null;
   setShowProjects: (show: boolean) => void;
   onNavigateToNode: (node: TechTemplate | null) => void;
   localizationDb: LocalizationDb;

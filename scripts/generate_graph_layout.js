@@ -61,8 +61,7 @@ const readGamefile = (version, relative) =>
 
 // Mirrors loadTemplateData + init from src/App.tsx (which can't be imported
 // in Node because it pulls in React and CSS)
-const buildTechDb = (version) => {
-  const language = Languages.en;
+const buildTechDb = (version, language) => {
   const localizationResults = Object.values(TemplateTypes).map((filename) =>
     readGamefile(version, `Localization/${language.code}/${filename}.${language.code}`)
   );
@@ -100,11 +99,12 @@ const buildTechDb = (version) => {
 };
 
 fs.mkdirSync(path.join(OUT_DIR, 'layout'), { recursive: true });
+fs.mkdirSync(path.join(OUT_DIR, 'graph'), { recursive: true });
 for (const version of VERSIONS) {
-  const { techDb, templateData } = buildTechDb(version);
+  const { techDb, templateData } = buildTechDb(version, Languages.en);
   const { nodes, edges, lateNodes, lateEdges } = parseNode(techDb, templateData, false);
   const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
-  const network = draw(techDb, data, lateNodes, lateEdges, () => {});
+  const network = draw(data, lateNodes, lateEdges, () => {});
   const positions = network.getPositions();
   network.destroy();
   const rounded = {};
@@ -113,5 +113,33 @@ for (const version of VERSIONS) {
   }
   fs.writeFileSync(path.join(OUT_DIR, 'layout', `${version}.json`), JSON.stringify(rounded));
   console.log(`layout/${version}.json: ${Object.keys(rounded).length} node positions`);
+
+  // Precompiled graph bundles: parseNode output (labels are localized) plus
+  // the coordinates above, one file per language. Positions are language-
+  // independent (validated: 0px delta), only labels differ.
+  for (const language of Object.values(Languages)) {
+    if (!language.availableVersions.includes(version)) continue;
+    try {
+      const built = language.code === 'en'
+        ? { techDb, templateData }
+        : buildTechDb(version, language);
+      const parsed = parseNode(built.techDb, built.templateData, false);
+      const bundleNodes = parsed.nodes.concat(parsed.lateNodes).map((node) => ({
+        ...node,
+        ...rounded[node.id],
+      }));
+      const bundleEdges = parsed.edges.concat(parsed.lateEdges);
+      if (!bundleNodes.every((node) => Number.isFinite(node.x) && Number.isFinite(node.y))) {
+        throw new Error('node set does not match computed positions');
+      }
+      fs.writeFileSync(
+        path.join(OUT_DIR, 'graph', `${version}.${language.code}.json`),
+        JSON.stringify({ nodes: bundleNodes, edges: bundleEdges })
+      );
+    } catch (error) {
+      console.warn(`graph/${version}.${language.code}.json skipped: ${error.message}`);
+    }
+  }
+  console.log(`graph/${version}.*.json bundles written`);
 }
 process.exit(0);

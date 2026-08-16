@@ -13,7 +13,8 @@ import { DefaultVersion, GameVersion, GameVersionCode, GameVersions, isGameVersi
 import { useWindowSize } from './utils/useWindowSize';
 import { SettingsMenu } from './SettingsMenu';
 import { useTheme } from '@mui/material/styles';
-import { NodePositions } from './techGraphRender';
+import { CircularProgress, Paper } from '@mui/material';
+import { GraphBundle, NodePositions } from './techGraphRender';
 const DrivesChart = lazy(() => import('./DrivesChart'));
 
 function App() {
@@ -125,6 +126,46 @@ function App() {
         return () => { cancelled = true; };
     }, [version.code]);
 
+    // Build-time precompiled graph (labels + coordinates): lets the graph render
+    // before the game data finishes loading. Cleared for good once the user
+    // changes the node set (project/isolation toggles), which needs live data.
+    const bundleKey = `${version.code}.${language.code}`;
+    const [graphBundle, setGraphBundle] = useState<{ key: string; bundle: GraphBundle | null } | null>(null);
+    const [useLiveGraph, setUseLiveGraph] = useState(false);
+    useEffect(() => {
+        let cancelled = false;
+        fetch(assetUrl(`graph/${bundleKey}.json`))
+            .then((res) => (res.ok ? res.json() : null))
+            .catch(() => null)
+            .then((bundle) => {
+                if (!cancelled) {
+                    setGraphBundle({ key: bundleKey, bundle });
+                }
+            });
+        return () => { cancelled = true; };
+    }, [bundleKey]);
+
+    const activeBundle = !useLiveGraph && graphBundle?.key === bundleKey ? graphBundle.bundle : null;
+
+    // If full data finished loading while the bundle was still fetching, stick
+    // with the live graph to avoid a second draw when the bundle arrives
+    useEffect(() => {
+        if (isReady && techDb && graphBundle === null) {
+            setUseLiveGraph(true);
+        }
+    }, [isReady, techDb, graphBundle]);
+
+    // Graph select/deselect: may fire before the game data is ready, so it
+    // works on data names; the [id, techDb] effect fills in the sidebar node
+    const onGraphNavigate = useCallback((dataName: string | null) => {
+        if (dataName) {
+            setNavigatedToNode(techDb?.getTechByDataName(dataName) ?? null);
+            navigate(`/${dataName}`);
+        } else {
+            setNavigatedToNode(null);
+        }
+    }, [techDb, navigate]);
+
     useEffect(() => {
         if (!language.availableVersions.includes(version.code)) {
             const fallbackLanguage = Object.values(Languages).find((lang) =>
@@ -169,10 +210,15 @@ function App() {
     }, [setNavigatedToNode, navigate])
 
     const onShowProjects = useCallback((showToggle: boolean) => {
+        if (!appStaticData.techs.length) {
+            return;
+        }
+        setUseLiveGraph(true);
         setTechDb(new TechDb(showToggle ? appStaticData.techs.concat(appStaticData.projects) : appStaticData.techs));
     }, [appStaticData.techs, appStaticData.projects]);
 
     const handleIsolatedChanged = useCallback((isolated: boolean) => {
+        setUseLiveGraph(true);
         if (isolated) {
             if (techDb && navigatedToNode) {
                 const node = navigatedToNode;
@@ -185,20 +231,25 @@ function App() {
         }
     }, [appStaticData.techs, appStaticData.projects, techDb, navigatedToNode]);
 
+    const dataReady = isReady && !!techDb;
+    const graphDrawable = !isMobileLayout &&
+        (!!activeBundle || (dataReady && layoutCache?.code === version.code));
+
     return (
         <>
             <h1 className="visually-hidden">Terra Invicta Tech Tree</h1>
-            {!isReady && <div id="loading">Loading</div>}
-            {isReady && techDb && (
+            {!dataReady && !graphDrawable && <div id="loading">Loading</div>}
+            {(dataReady || graphDrawable) && (
                 <div id="responsive-container" className={isMobileLayout ? "mobile-layout" : "desktop-layout"}>
                     {/* Only load TechGraph on desktop layouts */}
-                    {isReady && techDb && !isMobileLayout && layoutCache?.code === version.code && (
+                    {graphDrawable && (
                         <TechGraph
-                            techDb={techDb}
-                            templateData={appStaticData.templateData}
-                            onNavigateToNode={onNavigatedToNode}
+                            techDb={activeBundle ? null : techDb}
+                            templateData={activeBundle ? undefined : appStaticData.templateData}
+                            onNavigateToNode={onGraphNavigate}
                             navigatedToNode={navigatedToNode}
-                            precomputedPositions={layoutCache.positions}
+                            precomputedPositions={layoutCache?.positions}
+                            bundle={activeBundle}
                         />
                     )}
 
@@ -228,8 +279,16 @@ function App() {
                         </>
                     </div>
 
+                    {/* Sidebar shell while data is still loading and a tech is selected */}
+                    {!dataReady && id && (
+                        <div id="sidebar" className={isMobileLayout ? "mobile" : ""}>
+                            <Paper elevation={3} id="sidebar-react" className={isMobileLayout ? "mobile" : ""}>
+                                <div className="sidebar-loading"><CircularProgress /></div>
+                            </Paper>
+                        </div>
+                    )}
                     {/* Show TechSidebar in mobile view below search, or in desktop view on the right */}
-                    {isReady && techDb && (
+                    {dataReady && techDb && (
                         <TechSidebar
                             templateData={appStaticData.templateData}
                             localizationDb={appStaticData.localizationDb}

@@ -74,7 +74,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Load fonts without blocking first paint -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></noscript>
+    <!-- Start fetching the precompiled graph while the JS bundle downloads -->
+    <link rel="preload" href="/terra-invicta-techtree-update/graph/stable.en.json" as="fetch">
     <style>
       /* Splash shown while the app bundle loads; the whole #root subtree is
          replaced on React mount. Colors mirror src/theme.tsx palettes. */

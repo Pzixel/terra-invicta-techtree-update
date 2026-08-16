@@ -421,6 +421,12 @@ img {
     line-height: 1.5;
 }
 
+.sidebar-loading {
+    display: flex;
+    justify-content: center;
+    padding-top: 40vh;
+}
+
 /* Semantic h1 for crawlers/screen readers without changing the visual layout */
 .visually-hidden {
     position: absolute;

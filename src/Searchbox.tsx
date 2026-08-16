@@ -97,6 +97,10 @@ export function Searchbox({
     }, [localizationDb, templateData]);
 
     useEffect(() => {
+        if (!techDb) {
+            setDocumentSearchIndex(null);
+            return;
+        }
         updateDocumentSearchIndex(techDb);
     }, [techDb, updateDocumentSearchIndex]);
 
@@ -137,7 +141,7 @@ export function Searchbox({
     };
 
     const navigateToTech = (value: string) => {
-        const navigateToNode = techDb.getTechByDisplayName(value);
+        const navigateToNode = techDb?.getTechByDisplayName(value);
 
         if (navigateToNode) {
             onNavigateToNode(navigateToNode);
