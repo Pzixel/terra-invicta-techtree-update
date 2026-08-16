@@ -170,6 +170,7 @@ function App() {
 
     return (
         <>
+            <h1 className="visually-hidden">Terra Invicta Tech Tree</h1>
             {!isReady && <div id="loading">Loading</div>}
             {isReady && techDb && (
                 <div id="responsive-container" className={isMobileLayout ? "mobile-layout" : "desktop-layout"}>

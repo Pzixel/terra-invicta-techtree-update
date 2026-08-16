@@ -421,6 +421,25 @@ img {
     line-height: 1.5;
 }
 
+/* Semantic h1 for crawlers/screen readers without changing the visual layout */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Keep former h2 sizing after upgrading page headings to h1 */
+.drives-header h1,
+.gamefiles-page h1 {
+    font-size: 1.5em;
+}
+
 .drives-header {
     display: flex;
     align-items: center;

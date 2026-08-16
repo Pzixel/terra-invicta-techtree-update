@@ -559,7 +559,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
 
       <div className="drives-header">
         <div>
-          <h2>{language.uiTexts.driveChartTitle}</h2>
+          <h1>{language.uiTexts.driveChartTitle}</h1>
           <p className="drives-subtitle">{language.uiTexts.driveChartSubtitle}</p>
         </div>
         <div className="drives-controls">

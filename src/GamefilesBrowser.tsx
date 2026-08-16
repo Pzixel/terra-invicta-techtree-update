@@ -93,7 +93,7 @@ const GamefilesBrowser: React.FC = () => {
                 <a className="utility-link" href={manifestUrl} target="_blank" rel="noreferrer">Download manifest</a>
             </div>
 
-            <h2>Gamefiles browser</h2>
+            <h1>Gamefiles browser</h1>
             <p className="gamefiles-hint">
                 Browse the static game files just like a simple FTP directory. Click any file to open or download it.
                 {manifest?.generatedAt && <><br />Last indexed at {new Date(manifest.generatedAt).toLocaleString()}</>}
