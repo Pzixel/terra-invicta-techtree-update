@@ -82,10 +82,21 @@ for (const entry of entries.values()) {
 const DETAILS_RE = /<!-- seo-details-start -->[\s\S]*<!-- seo-details-end -->/;
 const HREFLANG_RE = /^\s*(<link rel="alternate" hreflang=|<!-- hreflang alternates).*\n/gm;
 
-const renderPage = ({ url, title, description, detailsHtml }) => {
+const breadcrumbJsonLd = (name, url) =>
+  `<script type="application/ld+json">${JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Terra Invicta Tech Tree', item: SITE },
+      { '@type': 'ListItem', position: 2, name, item: url },
+    ],
+  })}</script>\n  `;
+
+const renderPage = ({ url, title, description, detailsHtml, breadcrumbName }) => {
   const t = escapeHtml(title);
   const d = escapeHtml(description);
   return template
+    .replace('</head>', `${breadcrumbName ? breadcrumbJsonLd(breadcrumbName, url) : ''}</head>`)
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${t}</title>`)
     .replace(/<meta name="description" content="[^"]*"/, `<meta name="description" content="${d}"`)
     .replace(/<link rel="canonical" href="[^"]*"/, `<link rel="canonical" href="${url}"`)
@@ -138,6 +149,7 @@ for (const entry of entries.values()) {
     title: `${entry.name} — Terra Invicta Tech Tree`,
     description,
     detailsHtml,
+    breadcrumbName: entry.name,
   }));
 }
 

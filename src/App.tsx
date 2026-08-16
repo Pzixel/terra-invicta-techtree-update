@@ -2,7 +2,7 @@ import './App.css'
 import { Searchbox } from './Searchbox'
 import { TechGraph } from './TechGraph'
 import { TechSidebar } from './TechSidebar'
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, lazy, Suspense } from 'react';
 import { assetUrl, getAncestorTechs, getDescendentTechs } from './utils'
 import { useNavigate, useParams } from "react-router";
 import { TechDb } from './utils/TechDb';
@@ -13,7 +13,7 @@ import { DefaultVersion, GameVersion, GameVersionCode, GameVersions, isGameVersi
 import { useWindowSize } from './utils/useWindowSize';
 import { SettingsMenu } from './SettingsMenu';
 import { useTheme } from '@mui/material/styles';
-import DrivesChart from './DrivesChart';
+const DrivesChart = lazy(() => import('./DrivesChart'));
 
 function App() {
     const [appStaticData, setAppStaticData] = useState<AppStaticData>({
@@ -246,10 +246,12 @@ function App() {
                             '--drives-border': theme.palette.divider,
                         } as React.CSSProperties}
                     >
-                        <DrivesChart
-                            variant="overlay"
-                            onClose={() => setShowDrivesOverlay(false)}
-                        />
+                        <Suspense fallback={null}>
+                            <DrivesChart
+                                variant="overlay"
+                                onClose={() => setShowDrivesOverlay(false)}
+                            />
+                        </Suspense>
                     </div>
                 </div>
             )}
