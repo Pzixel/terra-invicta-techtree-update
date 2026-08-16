@@ -29,7 +29,9 @@ export function TechGraph({
         // It stays authoritative until the app clears it (user toggles that
         // change the node set), so the graph doesn't redraw when data arrives.
         if (bundle) {
+            performance.mark('graph:draw-start');
             setNetwork(drawBundle(bundle, navigate, initialFocus));
+            performance.measure('graph:draw', 'graph:draw-start');
             return;
         }
         if (!techDb || !templateData) {

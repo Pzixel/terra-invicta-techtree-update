@@ -77,7 +77,9 @@ function App() {
         setIsReady(false);
         async function initialize() {
             try {
+                performance.mark('data:init-start');
                 await init(language, version, setTechDb, setAppStaticData);
+                performance.measure('data:init', 'data:init-start');
             } catch (error) {
                 console.error('Failed to initialize application data', error);
             } finally {
@@ -134,11 +136,13 @@ function App() {
     const [useLiveGraph, setUseLiveGraph] = useState(false);
     useEffect(() => {
         let cancelled = false;
+        performance.mark('graph:bundle-fetch-start');
         fetch(assetUrl(`graph/${bundleKey}.json`))
             .then((res) => (res.ok ? res.json() : null))
             .catch(() => null)
             .then((bundle) => {
                 if (!cancelled) {
+                    performance.measure('graph:bundle-fetch', 'graph:bundle-fetch-start');
                     setGraphBundle({ key: bundleKey, bundle });
                 }
             });
@@ -248,7 +252,7 @@ function App() {
                             templateData={activeBundle ? undefined : appStaticData.templateData}
                             onNavigateToNode={onGraphNavigate}
                             selectedDataName={navigatedToNode?.dataName ?? id ?? null}
-                            precomputedPositions={layoutCache?.positions}
+                            precomputedPositions={activeBundle ? null : layoutCache?.positions}
                             bundle={activeBundle}
                         />
                     )}

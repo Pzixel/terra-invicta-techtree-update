@@ -79,6 +79,15 @@
     <noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></noscript>
     <!-- Start fetching the precompiled graph while the JS bundle downloads -->
     <link rel="preload" href="/terra-invicta-techtree-update/graph/stable.en.json" as="fetch">
+    <!-- Category icons drawn on the graph canvas; preloading avoids a late canvas repaint -->
+    <link rel="preload" href="/terra-invicta-techtree-update/icons/tech_energy_icon.png" as="image">
+    <link rel="preload" href="/terra-invicta-techtree-update/icons/tech_info_icon.png" as="image">
+    <link rel="preload" href="/terra-invicta-techtree-update/icons/tech_life_icon.png" as="image">
+    <link rel="preload" href="/terra-invicta-techtree-update/icons/tech_material_icon.png" as="image">
+    <link rel="preload" href="/terra-invicta-techtree-update/icons/tech_military_icon.png" as="image">
+    <link rel="preload" href="/terra-invicta-techtree-update/icons/tech_society_icon.png" as="image">
+    <link rel="preload" href="/terra-invicta-techtree-update/icons/tech_space_icon.png" as="image">
+    <link rel="preload" href="/terra-invicta-techtree-update/icons/tech_xeno_icon.png" as="image">
     <style>
       /* Splash shown while the app bundle loads; the whole #root subtree is
          replaced on React mount. Colors mirror src/theme.tsx palettes. */

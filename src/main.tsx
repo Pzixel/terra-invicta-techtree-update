@@ -8,6 +8,8 @@ const GamefilesBrowser = lazy(() => import('./GamefilesBrowser'));
 const DrivesChart = lazy(() => import('./DrivesChart'));
 import { BASE_PATH } from './utils';
 
+performance.mark('app:entry');
+
 // Legacy HashRouter links (/#/SomeTech?x=y) — rewrite to real paths before the router reads the URL
 if (window.location.hash.startsWith('#/')) {
   const [hashPath, hashQuery] = window.location.hash.slice(2).split('?');
