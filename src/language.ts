@@ -4,6 +4,7 @@ export interface LocalizedUi {
     adjacencies: string;
     baseAvailabilityChance: string;
     claims: string;
+    claimsScenario: string;
     completableOnceGlobally: string;
     completionQuote: string;
     completionText: string;
@@ -77,6 +78,7 @@ const englishUi: LocalizedUi = {
     adjacencies: "Adjacencies",
     baseAvailabilityChance: "Base Availability Chance",
     claims: "Claims",
+    claimsScenario: "{year} start",
     completableOnceGlobally: "Completable once globally",
     completionQuote: "Completion Quote",
     completionText: "Completion Text",
@@ -159,6 +161,7 @@ const chsUi: LocalizedUi = {
     adjacencies: "邻接关系",
     baseAvailabilityChance: "基础可用几率",
     claims: "声明",
+    claimsScenario: "{year}年开局",
     completableOnceGlobally: "全球只能完成一次",
     completionQuote: "完成引述",
     completionText: "完成文本",
@@ -232,6 +235,7 @@ const chtUi: LocalizedUi = {
     adjacencies: "鄰接關係",
     baseAvailabilityChance: "基礎可用機率",
     claims: "聲明",
+    claimsScenario: "{year}年開局",
     completableOnceGlobally: "全球只能完成一次",
     completionQuote: "完成引述",
     completionText: "完成文本",
@@ -305,6 +309,7 @@ const deuUi: LocalizedUi = {
     adjacencies: "Angrenzende",
     baseAvailabilityChance: "Grundchance der Verfügbarkeit",
     claims: "Ansprüche",
+    claimsScenario: "Start {year}",
     completableOnceGlobally: "Weltweit nur einmal abschließbar",
     completionQuote: "Abschlusszitat",
     completionText: "Abschlusstext",
@@ -378,6 +383,7 @@ const espUi: LocalizedUi = {
     adjacencies: "Adyacencias",
     baseAvailabilityChance: "Probabilidad Base de Disponibilidad",
     claims: "Afirmaciones",
+    claimsScenario: "Inicio en {year}",
     completableOnceGlobally: "Completable una vez globalmente",
     completionQuote: "Cita de Finalización",
     completionText: "Texto de Finalización",
@@ -451,6 +457,7 @@ const frUi: LocalizedUi = {
     adjacencies: "Adjacences",
     baseAvailabilityChance: "Chance de disponibilité de base",
     claims: "Revendications",
+    claimsScenario: "Départ {year}",
     completableOnceGlobally: "Complétable une fois globalement",
     completionQuote: "Citation de fin",
     completionText: "Texte de fin",
@@ -524,6 +531,7 @@ const jpnUi: LocalizedUi = {
     adjacencies: "隣接関係",
     baseAvailabilityChance: "基本利用可能性",
     claims: "主張",
+    claimsScenario: "{year}年開始",
     completableOnceGlobally: "全体で一度だけ完了可能",
     completionQuote: "完了時の引用",
     completionText: "完了テキスト",
@@ -597,6 +605,7 @@ const polUi: LocalizedUi = {
     adjacencies: "Sąsiedztwa",
     baseAvailabilityChance: "Podstawowa szansa dostępności",
     claims: "Roszczenia",
+    claimsScenario: "Start {year}",
     completableOnceGlobally: "Ukończalne tylko raz globalnie",
     completionQuote: "Cytat przy ukończeniu",
     completionText: "Tekst ukończenia",
@@ -670,6 +679,7 @@ const porUi: LocalizedUi = {
     adjacencies: "Adjacências",
     baseAvailabilityChance: "Chance Base de Disponibilidade",
     claims: "Reivindicações",
+    claimsScenario: "Início em {year}",
     completableOnceGlobally: "Completável uma vez globalmente",
     completionQuote: "Citação de Conclusão",
     completionText: "Texto de Conclusão",
@@ -743,6 +753,7 @@ const korUi: LocalizedUi = {
     adjacencies: "인접 관계",
     baseAvailabilityChance: "기본 가용 확률",
     claims: "영유권",
+    claimsScenario: "{year}년 시작",
     completableOnceGlobally: "전 세계에서 한 번만 완료 가능",
     completionQuote: "완료 인용구",
     completionText: "완료 텍스트",
@@ -816,6 +827,7 @@ const rusUi: LocalizedUi = {
     adjacencies: "Смежности",
     baseAvailabilityChance: "Базовый шанс доступности",
     claims: "Претензии",
+    claimsScenario: "Старт {year}",
     completableOnceGlobally: "Завершается только один раз во всём мире",
     completionQuote: "Цитата при завершении",
     completionText: "Текст завершения",
@@ -889,6 +901,7 @@ const ukrUi: LocalizedUi = {
     adjacencies: "Суміжності",
     baseAvailabilityChance: "Базовий шанс доступності",
     claims: "Претензії",
+    claimsScenario: "Старт {year}",
     completableOnceGlobally: "Можна завершити лише один раз у світі",
     completionQuote: "Цитата завершення",
     completionText: "Текст завершення",

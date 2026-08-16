@@ -298,8 +298,10 @@ export function TechSidebar({
     }
 
     function getReadableClaim(claim: Claim) {
-        const nationName = localizationDb.getReadable("nation", claim.nation1, "displayName");
-        const regionName = localizationDb.getReadable("region", claim.region1, "displayName");
+        // tryGetReadable: entries with genuinely missing localization are
+        // skipped instead of rendering raw localization keys
+        const nationName = localizationDb.tryGetReadable("nation", claim.nation1, "displayName");
+        const regionName = localizationDb.tryGetReadable("region", claim.region1, "displayName");
 
         if (!nationName || !regionName) {
             return null;
@@ -312,8 +314,11 @@ export function TechSidebar({
     }
 
     function getReadableAdjacency(adjacency: Adjacency) {
-        const region1Name = localizationDb.getReadable("region", adjacency.region1, "displayName");
-        const region2Name = localizationDb.getReadable("region", adjacency.region2, "displayName");
+        const region1Name = localizationDb.tryGetReadable("region", adjacency.region1, "displayName");
+        const region2Name = localizationDb.tryGetReadable("region", adjacency.region2, "displayName");
+        if (!region1Name || !region2Name) {
+            return null;
+        }
         const template = adjacency.friendlyOnly ? language.uiTexts.adjacencyFriendly : language.uiTexts.adjacencyGeneral;
         return formatTemplate(template, { region1: region1Name, region2: region2Name });
     }
@@ -918,9 +923,16 @@ export function TechSidebar({
         if (adjacencies.length === 0) {
             return null;
         }
-        const adjacencyElements = adjacencies.map(adjacency => (
-            <li key={`adj-${adjacency.dataName}`}>{getReadableAdjacency(adjacency)}</li>
-        ));
+        const seenTexts = new Set<string>();
+        const adjacencyElements = adjacencies.flatMap(adjacency => {
+            const text = getReadableAdjacency(adjacency);
+            if (!text || seenTexts.has(text)) return [];
+            seenTexts.add(text);
+            return [<li key={`adj-${adjacency.dataName}`}>{text}</li>];
+        });
+        if (adjacencyElements.length === 0) {
+            return null;
+        }
         return (
             <>
                 <h4>{language.uiTexts.adjacencies}</h4>
@@ -1070,7 +1082,7 @@ export function TechSidebar({
         );
     };
 
-    // Render claims section
+    // Render claims section, grouped by starting scenario (2026, 2070, ...)
     const renderClaims = () => {
         if (!node.isProject) return null;
 
@@ -1084,20 +1096,47 @@ export function TechSidebar({
         const uniqueClaims = Array.from(new Set(claims.map(claim => claim.dataName)))
             .map(dataName => claims.find(claim => claim.dataName === dataName)!);
 
-        const claimsElements = uniqueClaims.flatMap(claim => {
+        // Group by the scenario prefix of the claim's nation; entries without
+        // a prefix belong to the original 2022 start
+        const scenarioOf = (claim: Claim) => claim.nation1?.match(/^(\d{4})_/)?.[1] ?? '2022';
+        const groups = new Map<string, { claim: Claim; text: string }[]>();
+        for (const claim of uniqueClaims) {
             const text = getReadableClaim(claim);
-            if (!text) {
-                return [];
+            if (!text) continue;
+            const scenario = scenarioOf(claim);
+            if (!groups.has(scenario)) groups.set(scenario, []);
+            const group = groups.get(scenario)!;
+            if (!group.some((entry) => entry.text === text)) {
+                group.push({ claim, text });
             }
-            return [
-                <li key={`claim-${claim.dataName}`}>{text}</li>
-            ];
-        });
+        }
+
+        if (groups.size === 0) return null;
+
+        // Scenarios with exactly the same claims collapse into one section
+        // labeled with all their years
+        const merged = new Map<string, { years: string[]; entries: { claim: Claim; text: string }[] }>();
+        for (const [year, entries] of [...groups.entries()].sort(([a], [b]) => a.localeCompare(b))) {
+            const signature = entries.map((entry) => entry.text).sort().join('\n');
+            if (!merged.has(signature)) {
+                merged.set(signature, { years: [], entries });
+            }
+            merged.get(signature)!.years.push(year);
+        }
 
         return (
             <>
                 <h4>{language.uiTexts.claims}</h4>
-                <ul>{claimsElements}</ul>
+                {[...merged.values()].map(({ years, entries }) => (
+                    <details key={`claims-${years.join('-')}`} className="claims-scenario" open={years.includes('2026')}>
+                        <summary>{formatTemplate(language.uiTexts.claimsScenario, { year: years.join(', ') })} ({entries.length})</summary>
+                        <ul>
+                            {entries.map(({ claim, text }) => (
+                                <li key={`claim-${claim.dataName}`}>{text}</li>
+                            ))}
+                        </ul>
+                    </details>
+                ))}
             </>
         );
     };

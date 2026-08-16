@@ -421,6 +421,15 @@ img {
     line-height: 1.5;
 }
 
+.claims-scenario {
+    margin: 0.4em 0;
+}
+
+.claims-scenario > summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
 .sidebar-loading {
     display: flex;
     justify-content: center;

@@ -113,12 +113,14 @@ export class LocalizationDb {
             return text;
         }
 
-        if (dataName.startsWith("2070")) {
-            return "";
-        }
-
-        if (dataName.startsWith("2026")) {
-            return "";
+        // Scenario-specific entries (2026_MYS, 2070_Aceh, ...) reuse the base
+        // entry's localization
+        const scenarioMatch = dataName.match(/^\d{4}_(.+)$/);
+        if (scenarioMatch) {
+            text = this.getLocalizationString(type, scenarioMatch[1], field);
+            if (text) {
+                return text;
+            }
         }
 
         if (dataName.startsWith("map_")) {
