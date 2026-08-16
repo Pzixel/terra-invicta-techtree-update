@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip, IconButton, useTheme } from "@mui/material";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import { findBlockingTechs, getAncestorTechs } from './utils';
+import { assetUrl, findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
 import { TechSidebarProps } from './types/props';
 import { TechTemplate, Claim, Adjacency, DataModule, TemplateType, ModuleTemplate, EffectTemplate, TemplateTypes } from './types';
@@ -84,7 +84,7 @@ export function TechSidebar({
     const [copyButtonHovered, setCopyButtonHovered] = useState(false);
     const [accordionTooltipOpen, setAccordionTooltipOpen] = useState(false);
     const [copyTooltipOpen, setCopyTooltipOpen] = useState(false);
-    const projectIconSrc = theme.palette.mode === 'dark' ? "icons/ICO_projects.png" : "icons/ICO_projects_Invert.png";
+    const projectIconSrc = theme.palette.mode === 'dark' ? assetUrl("icons/ICO_projects.png") : assetUrl("icons/ICO_projects_Invert.png");
 
     // Load research state from localStorage when techDb changes
     useEffect(() => {
@@ -225,7 +225,7 @@ export function TechSidebar({
                         <img
                             key={`sprite-${parts.length}`}
                             className="inline-sprite"
-                            src="./icons/ICO_space_assault_score.png"
+                            src={assetUrl("icons/ICO_space_assault_score.png")}
                             alt="Assault value icon"
                         />
                     );
@@ -234,7 +234,7 @@ export function TechSidebar({
                         <img
                             key={`sprite-${parts.length}`}
                             className="inline-sprite"
-                            src="./icons/ICO_water.png"
+                            src={assetUrl("icons/ICO_water.png")}
                             alt="Water icon"
                         />
                     );
@@ -405,7 +405,7 @@ export function TechSidebar({
     }
 
     function getFactionIconPath(faction: string): string {
-        const iconPath = `./icons/FAC_${faction}_128.png`;
+        const iconPath = assetUrl(`icons/FAC_${faction}_128.png`);
         return iconPath;
     }
 
@@ -544,7 +544,7 @@ export function TechSidebar({
                             key={`${label ?? "cost"}-${costItem.key}-${costItem.amount}`}
                             title={costItem.label}
                         >
-                            <img className="module-cost-icon" src={`./icons/${costItem.icon}.png`} alt={`${costItem.label} icon`} />
+                            <img className="module-cost-icon" src={assetUrl(`icons/${costItem.icon}.png`)} alt={`${costItem.label} icon`} />
                             <span className="module-cost-value">{costItem.amount.toLocaleString(locale, { maximumFractionDigits: 10, minimumFractionDigits: 0 })}</span>
                         </div>
                     ))}
@@ -561,7 +561,7 @@ export function TechSidebar({
         const moduleDescription = formatModuleDescription(rawDescription, dataModule.data.specialModuleValue);
         return (
             <div className="module-display">
-                {icon && <img className="module-icon" src={`./icons/${icon}.png`} alt={`${dataModule.data.dataName} icon`} />}
+                {icon && <img className="module-icon" src={assetUrl(`icons/${icon}.png`)} alt={`${dataModule.data.dataName} icon`} />}
                 {renderCostItems(fuelCost, language.uiTexts.fuelPerTank)}
                 {moduleDescription && <p className="module-description">{moduleDescription}</p>}
                 {renderCostItems(buildCost)}
@@ -649,7 +649,7 @@ export function TechSidebar({
 
         return (
             <div className="module-display">
-                {sharedDriveIcon && <img className="module-icon" src={`./icons/${sharedDriveIcon}.png`} alt={`${referenceDrive.dataName} icon`} />}
+                {sharedDriveIcon && <img className="module-icon" src={assetUrl(`icons/${sharedDriveIcon}.png`)} alt={`${referenceDrive.dataName} icon`} />}
                 {driveDescription && <p className="module-description">{driveDescription}</p>}
 
                 <table className="module-drive-table">
@@ -701,7 +701,7 @@ export function TechSidebar({
                                             return (
                                                 <div key={`cell-${drive.dataName}-${field.key}`} className="module-drive-matrix-cell">
                                                     <span className="module-drive-name">
-                                                        {icon && <img className="module-drive-icon" src={`./icons/${icon}.png`} alt={`${drive.dataName} icon`} />}
+                                                        {icon && <img className="module-drive-icon" src={assetUrl(`icons/${icon}.png`)} alt={`${drive.dataName} icon`} />}
                                                         {getDriveLabel(drive)}
                                                     </span>
                                                 </div>

@@ -8,7 +8,7 @@ import { useTheme } from '@mui/material/styles';
 import { DefaultLanguage, Language, Languages } from './language';
 import { DefaultVersion, GameVersion, GameVersionCode, GameVersions, isGameVersionCode } from './version';
 import { TechDb } from './utils/TechDb';
-import { getAncestorTechs } from './utils';
+import { assetUrl, getAncestorTechs } from './utils';
 import { ColorModeContext } from './theme';
 
 const Plot = createPlotlyComponent(Plotly);
@@ -382,7 +382,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
       setLoading(true);
       setError(null);
       try {
-        const base = `gamefiles/${version.code}`;
+        const base = assetUrl(`gamefiles/${version.code}`);
 
         const [
           driveTemplate,

@@ -1,4 +1,5 @@
 import * as vis from "vis-network/standalone";
+import { assetUrl } from './utils';
 import { TechTemplate, TemplateData } from './types';
 import { TechDb } from './utils/TechDb';
 
@@ -221,7 +222,7 @@ const techCategories = {
 
 export function getTechIconFile(techCategory: string) {
     if (techCategories[techCategory])
-        return "icons/" + techCategories[techCategory].icon;
+        return assetUrl("icons/" + techCategories[techCategory].icon);
     return "";
 }
 

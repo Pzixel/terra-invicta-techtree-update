@@ -3,7 +3,7 @@ import { Searchbox } from './Searchbox'
 import { TechGraph } from './TechGraph'
 import { TechSidebar } from './TechSidebar'
 import React, { useEffect, useState, useCallback } from 'react';
-import { getAncestorTechs, getDescendentTechs } from './utils'
+import { assetUrl, getAncestorTechs, getDescendentTechs } from './utils'
 import { useNavigate, useParams } from "react-router";
 import { TechDb } from './utils/TechDb';
 import { AppStaticData } from './types/props';
@@ -296,7 +296,7 @@ async function init(language: Language, version: GameVersion, setTechDb: React.D
 };
 
 async function loadTemplateData(language: Language, version: GameVersion) {
-    const basePath = `gamefiles/${version.code}`;
+    const basePath = assetUrl(`gamefiles/${version.code}`);
     const languageCode = language.code;
 
     const fetchText = async (url: string) => {

@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { assetUrl } from './utils';
 import { Link } from 'react-router';
 
 interface ManifestEntry {
@@ -59,8 +60,8 @@ const GamefilesBrowser: React.FC = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
 
-    const manifestUrl = useMemo(() => new URL('gamefiles/index.json', window.location.href).toString(), []);
-    const gamefilesBase = useMemo(() => new URL('gamefiles/', window.location.href).toString(), []);
+    const manifestUrl = useMemo(() => assetUrl('gamefiles/index.json'), []);
+    const gamefilesBase = useMemo(() => assetUrl('gamefiles/'), []);
 
     useEffect(() => {
         const controller = new AbortController();
