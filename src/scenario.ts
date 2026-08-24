@@ -141,6 +141,61 @@ export function interpolateScenarioText(
   );
 }
 
+function recordsByDataName(entries: readonly unknown[] | undefined): Map<string, Record<string, unknown>> {
+  const records = new Map<string, Record<string, unknown>>();
+  for (const entry of entries ?? []) {
+    if (!entry || typeof entry !== 'object') continue;
+    const record = entry as Record<string, unknown>;
+    if (typeof record.dataName === 'string' && record.dataName) {
+      records.set(record.dataName, record);
+    }
+  }
+  return records;
+}
+
+export function claimScenarioStartYears(
+  metaEntries: readonly unknown[] | undefined,
+  startTimeEntries: readonly unknown[] | undefined,
+): Record<string, string> {
+  const metaByName = recordsByDataName(metaEntries);
+  const startTimeByName = recordsByDataName(startTimeEntries);
+  const years: Record<string, string> = {};
+
+  for (const scenario of metaByName.values()) {
+    if (scenario.newCampaignOptionCategory !== 'Scenario' || scenario.isNewCampaignOption !== true) continue;
+
+    let namespace: string | null = null;
+    if (scenario.dataName === Scenarios.standard.dataName) {
+      namespace = '';
+    } else if (typeof scenario.scenarioPrefix === 'string') {
+      namespace = /^(\d{4})_$/.exec(scenario.scenarioPrefix)?.[1] ?? null;
+    }
+    if (namespace === null || !Array.isArray(scenario.templateNames)) continue;
+
+    const startGroup = scenario.templateNames
+      .filter((name): name is string => typeof name === 'string')
+      .map((name) => metaByName.get(name))
+      .find((record) => record?.templateType === 'TIStartTimeTemplate');
+    if (!startGroup || !Array.isArray(startGroup.templateNames)) continue;
+
+    const startTimeName = startGroup.templateNames.find((name): name is string => typeof name === 'string');
+    const year = startTimeName ? startTimeByName.get(startTimeName)?.year : undefined;
+    if (typeof year === 'number' && Number.isInteger(year)) {
+      years[namespace] = String(year);
+    }
+  }
+
+  return years;
+}
+
+export function claimScenarioStartYear(
+  nationDataName: string | undefined,
+  startYears: Readonly<Record<string, string>>,
+): string {
+  const namespace = nationDataName?.match(/^(\d{4})_/)?.[1] ?? '';
+  return startYears[namespace] ?? (namespace || '2022');
+}
+
 export function scenarioStatusText({
   activeScenario,
   targetScenario,

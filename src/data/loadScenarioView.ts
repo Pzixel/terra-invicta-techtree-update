@@ -56,15 +56,16 @@ export type ReadScenarioText = (relativePath: string) => Promise<string>;
 export const AppTemplateFiles = Object.freeze({
     ...TemplateTypes,
     bilateral: 'TIBilateralTemplate',
+    starttime: 'TIStartTimeTemplate',
 });
 
 export const ScenarioOverlayCollections: Record<Exclude<ScenarioCode, 'standard'>, readonly string[]> = Object.freeze({
     '2003': Object.freeze([
         'bilateral', 'effect', 'habmodule', 'meta', 'nation', 'objective', 'org',
-        'project', 'region', 'tech', 'trait',
+        'project', 'region', 'starttime', 'tech', 'trait',
     ]),
     'broken-earth': Object.freeze([
-        'bilateral', 'effect', 'meta', 'nation', 'org', 'project', 'region', 'tech',
+        'bilateral', 'effect', 'meta', 'nation', 'org', 'project', 'region', 'starttime', 'tech',
     ]),
 });
 

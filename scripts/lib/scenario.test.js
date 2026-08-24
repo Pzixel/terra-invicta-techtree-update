@@ -12,6 +12,8 @@ const {
   applyScenarioQuery,
   canonicalPathForScenario,
   canonicalUrlForScenario,
+  claimScenarioStartYear,
+  claimScenarioStartYears,
   entityDataNameFromPath,
   graphArtifactPath,
   layoutArtifactPath,
@@ -102,6 +104,39 @@ test('scenario selector keeps the required Standard and Dark Skies labels', () =
     scenarioDisplayName(Scenarios['broken-earth'], {}, 'Dark Skies DLC'),
     'Broken Earth Scenario — Dark Skies DLC',
   );
+});
+
+test('claim headings use scenario start-time years instead of data namespace years', () => {
+  const meta = [{
+    dataName: 'ModernScenario',
+    newCampaignOptionCategory: 'Scenario',
+    isNewCampaignOption: true,
+    templateNames: ['ModernStartTime'],
+  }, {
+    dataName: 'ModernStartTime',
+    templateType: 'TIStartTimeTemplate',
+    templateNames: ['ModernDayStart'],
+  }, {
+    dataName: 'BrokenEarthScenario',
+    newCampaignOptionCategory: 'Scenario',
+    isNewCampaignOption: true,
+    scenarioPrefix: '1962_',
+    templateNames: ['BrokenEarthStartTime'],
+  }, {
+    dataName: 'BrokenEarthStartTime',
+    templateType: 'TIStartTimeTemplate',
+    templateNames: ['1962_Start'],
+  }];
+  const startTimes = [
+    { dataName: 'ModernDayStart', year: 2022 },
+    { dataName: '1962_Start', year: 2112 },
+  ];
+  const startYears = claimScenarioStartYears(meta, startTimes);
+
+  assert.deepEqual(startYears, { '': '2022', 1962: '2112' });
+  assert.equal(claimScenarioStartYear('USA', startYears), '2022');
+  assert.equal(claimScenarioStartYear('1962_USA', startYears), '2112');
+  assert.equal(claimScenarioStartYear('2070_USA', startYears), '2070');
 });
 
 test('every UI language has localized scenario fallbacks for initial loads and failures', () => {

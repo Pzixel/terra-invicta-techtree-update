@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip, IconButton, useTheme } from "@mui/material";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { assetUrl, findBlockingTechs, getAncestorTechs } from './utils';
@@ -10,6 +10,8 @@ import { prerequisiteSlots } from './data/scenarioCompiler';
 import { clearResearchProgress, loadResearchProgress, saveResearchProgress } from './utils/researchProgress';
 import type { GameVersionCode } from './version';
 import {
+    claimScenarioStartYear,
+    claimScenarioStartYears,
     interpolateScenarioText,
     scenarioMarkerPresentation,
     type ScenarioCode,
@@ -43,6 +45,10 @@ export function TechSidebar({
     const theme = useTheme();
     const locale = language.locale;
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
+    const claimStartYears = useMemo(
+        () => claimScenarioStartYears(templateData.meta, templateData.starttime),
+        [templateData.meta, templateData.starttime],
+    );
     const [isolated, setIsolated] = useState(false);
     const [_researchStateLoaded, setResearchStateLoaded] = useState(false);
     const [copied, setCopied] = useState(false);
@@ -1063,9 +1069,9 @@ export function TechSidebar({
         const uniqueClaims = Array.from(new Set(claims.map(claim => claim.dataName)))
             .map(dataName => claims.find(claim => claim.dataName === dataName)!);
 
-        // Group by the scenario prefix of the claim's nation; entries without
-        // a prefix belong to the original 2022 start
-        const scenarioOf = (claim: Claim) => claim.nation1?.match(/^(\d{4})_/)?.[1] ?? '2022';
+        // Nation prefixes identify the scenario data namespace, while the
+        // corresponding TIStartTimeTemplate supplies the displayed year.
+        const scenarioOf = (claim: Claim) => claimScenarioStartYear(claim.nation1, claimStartYears);
         const groups = new Map<string, { claim: Claim; text: string }[]>();
         for (const claim of uniqueClaims) {
             const text = getReadableClaim(claim);
