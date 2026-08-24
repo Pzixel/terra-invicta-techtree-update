@@ -1,5 +1,4 @@
 import { useContext, useState, type MouseEvent } from 'react';
-import Badge from '@mui/material/Badge';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Popover from '@mui/material/Popover';
@@ -88,19 +87,34 @@ export function SettingsMenu(props: SettingsMenuProps) {
 
   return (
     <>
-      <Tooltip title={showScenarioDiscovery
-        ? props.language.uiTexts.scenarioSettingsDiscovery
-        : currentScenarioLabel}
+      <Tooltip
+        title={showScenarioDiscovery ? props.language.uiTexts.scenarioSettingsDiscovery : ''}
+        open={showScenarioDiscovery}
+        disableHoverListener
+        disableFocusListener
+        disableTouchListener
+        placement="bottom-start"
+        arrow={showScenarioDiscovery}
+        slotProps={{
+          tooltip: {
+            sx: {
+              backgroundColor: theme.palette.secondary.main,
+              color: theme.palette.secondary.contrastText,
+              boxShadow: 2,
+              fontSize: '0.72rem',
+              fontWeight: 700,
+              whiteSpace: 'nowrap',
+            },
+          },
+          arrow: {
+            sx: { color: theme.palette.secondary.main },
+          },
+          transition: {
+            timeout: 0,
+          },
+        }}
       >
-        <Badge
-          color="secondary"
-          variant="dot"
-          overlap="circular"
-          invisible={!showScenarioDiscovery}
-          anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
-          slotProps={{ badge: { sx: { transition: 'none' } } }}
-          sx={{ alignSelf: 'flex-start' }}
-        >
+        <Box sx={{ alignSelf: 'flex-start', display: 'inline-flex' }}>
           <IconButton
             onClick={handleOpen}
             size="small"
@@ -119,7 +133,7 @@ export function SettingsMenu(props: SettingsMenuProps) {
           >
             <MenuIcon />
           </IconButton>
-        </Badge>
+        </Box>
       </Tooltip>
       <Popover
         anchorEl={anchorEl}

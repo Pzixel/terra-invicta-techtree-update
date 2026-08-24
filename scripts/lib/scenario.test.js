@@ -140,6 +140,7 @@ test('claim headings use scenario start-time years instead of data namespace yea
 });
 
 test('every UI language has localized scenario fallbacks for initial loads and failures', () => {
+  assert.equal(Languages.en.uiTexts.scenarioSettingsDiscovery, 'New DLC content available');
   for (const language of Object.values(Languages)) {
     const { uiTexts } = language;
     assert.ok(uiTexts.scenario2003Fallback);
