@@ -7,6 +7,7 @@ import process from 'node:process';
 import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
 import { createJiti } from 'jiti';
+import { resetGeneratedArtifactDirectories } from './lib/generated_artifacts.js';
 import { assertReleaseReady } from './lib/release_metadata.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -14,6 +15,9 @@ const PUBLIC = path.join(ROOT, 'public');
 const OUT_DIR = process.argv[2] ? path.resolve(process.argv[2]) : path.join(ROOT, 'dist');
 const release = JSON.parse(fs.readFileSync(path.join(PUBLIC, 'gamefiles', 'release.json'), 'utf8'));
 assertReleaseReady(release);
+
+// The rest of OUT_DIR may contain Vite output and must remain intact.
+resetGeneratedArtifactDirectories(OUT_DIR);
 
 // Browser environment shim (must exist before vis-network loads).
 const dom = new JSDOM('<!doctype html><html><body><div id="mynetwork"></div></body></html>', {

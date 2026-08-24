@@ -5,7 +5,6 @@ import { Language } from 'src/language';
 import { GameVersion } from '../version';
 import type { GameVersionCode } from '../version';
 import type { ScenarioCode } from '../scenario';
-import type { ReactNode } from 'react';
 
 export interface TechSidebarProps {
   templateData: TemplateData;
@@ -19,6 +18,7 @@ export interface TechSidebarProps {
   isMobile?: boolean;
   versionCode: GameVersionCode;
   scenarioCode: ScenarioCode;
+  activeScenarioLabel: string;
 }
 
 export interface TechGraphProps {
@@ -29,6 +29,7 @@ export interface TechGraphProps {
   precomputedPositions?: Record<string, { x: number; y: number }> | null;
   bundle?: GraphBundle | null;
   dlcOnlyDataNames?: readonly string[];
+  accessibleLabel: string;
 }
 
 export interface SearchboxProps {
@@ -38,7 +39,10 @@ export interface SearchboxProps {
   localizationDb: LocalizationDb;
   templateData: TemplateData;
   language: Language;
-  scenarioControl?: ReactNode;
+  activeScenarioLabel: string;
+  scenarioStatus: string;
+  scenarioLoadError: string | null;
+  showDlcLegend: boolean;
 }
 
 export interface LanguageSelectorProps {

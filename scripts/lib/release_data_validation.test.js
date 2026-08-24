@@ -66,8 +66,19 @@ test('release validation uses the runtime JSON5 compile and hydration boundary',
         ])
         .join('\n');
     }
+    if (filename === 'TIMetaTemplate') {
+      localization = 'TIMetaTemplate.displayName.ModernScenario=2022 Scenario';
+    }
     writeFile(localizationRoot, `${filename}.en`, `${localization}\n`);
   }
+  writeFile(
+    gamefilesRoot,
+    'dark-skies/localization/en/2003 Scenario/TIMetaTemplate.en',
+    `// Dark Skies DLC
+TIMetaTemplate.displayName.2003Scenario=2003 Scenario
+TIMetaTemplate.displayName.BrokenEarthScenario=Broken Earth Scenario
+`,
+  );
 
   const metadata = { versions: { stable: { snapshotId: 'verified-fixture' } } };
   assert.deepEqual(await validateCompiledScenarioData(gamefilesRoot, metadata, {

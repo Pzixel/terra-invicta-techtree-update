@@ -12,7 +12,6 @@ import { CircularProgress, Paper } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import { useLocation, useNavigate, useParams } from 'react-router';
 import { Searchbox } from './Searchbox';
-import { ScenarioSelector } from './ScenarioSelector';
 import { TechGraph } from './TechGraph';
 import { TechSidebar } from './TechSidebar';
 import { SettingsMenu } from './SettingsMenu';
@@ -35,9 +34,16 @@ import {
     canonicalUrlForScenario,
     entityDataNameFromPath,
     graphArtifactPath,
+    interpolateScenarioText,
     layoutArtifactPath,
+    compactScenarioLabel,
+    OrderedScenarios,
+    scenarioDisplayName,
+    scenarioMarkerPresentation,
     scenarioBundlePath,
     scenarioFromLocation,
+    scenarioStatusText,
+    selectScenarioLoadErrorTemplate,
     Scenarios,
     type ScenarioCode,
 } from './scenario';
@@ -48,6 +54,7 @@ import {
     type ScenarioViewKey,
 } from './data/loadScenarioView';
 import { LatestRequestCoordinator } from './data/latestRequestCoordinator';
+import { graphRenderSource } from './graphArtifactState';
 
 const DrivesChart = lazy(() => import('./DrivesChart'));
 
@@ -100,6 +107,17 @@ function visibleTechDb(view: LoadedScenarioView, showProjects: boolean): TechDb 
         showProjects ? techs.concat(projects) : techs,
         combinedReferenceAliases(view),
     );
+}
+
+function scenarioLabelsForUi(
+    view: LoadedScenarioView | null,
+    language: Language,
+): Record<ScenarioCode, string> {
+    return {
+        standard: language.uiTexts.scenarioStandard,
+        '2003': view?.scenarioLabels['2003'] ?? language.uiTexts.scenario2003Fallback,
+        'broken-earth': view?.scenarioLabels['broken-earth'] ?? language.uiTexts.scenarioBrokenEarthFallback,
+    };
 }
 
 function appPathFromBrowserPath(pathname: string): string {
@@ -161,6 +179,7 @@ function App() {
     const [techDb, setTechDb] = useState<TechDb | null>(null);
     const [navigatedToNode, setNavigatedToNode] = useState<TechTemplate | null>(null);
     const [showProjects, setShowProjects] = useState(true);
+    const [isGraphIsolated, setIsGraphIsolated] = useState(false);
     const [isLoadingView, setIsLoadingView] = useState(true);
     const [loadError, setLoadError] = useState<string | null>(null);
     const [showDrivesOverlay, setShowDrivesOverlay] = useState(drivesOpenedFromSearch);
@@ -233,6 +252,7 @@ function App() {
             setActiveView(nextView);
             setTechDb(nextTechDb);
             setNavigatedToNode(nextNode ?? null);
+            setIsGraphIsolated(false);
             setIsLoadingView(false);
 
             let appPath = appPathFromBrowserPath(window.location.pathname);
@@ -264,7 +284,21 @@ function App() {
             console.error('Failed to load scenario view', error);
             requestedBySelectorRef.current = null;
             setIsLoadingView(false);
-            setLoadError(`Unable to load ${Scenarios[requestedKey.scenario].fallbackName}. The previous view remains active.`);
+            const errorLanguage = activeView
+                ? Languages[activeView.key.language] ?? language
+                : language;
+            const requestedScenarioName = scenarioDisplayName(
+                Scenarios[requestedKey.scenario],
+                scenarioLabelsForUi(activeView, errorLanguage),
+                errorLanguage.uiTexts.darkSkiesDlc,
+            );
+            const errorTemplate = selectScenarioLoadErrorTemplate(!!rollback.previousView, {
+                scenarioLoadError: errorLanguage.uiTexts.scenarioLoadError,
+                scenarioInitialLoadError: errorLanguage.uiTexts.scenarioInitialLoadError,
+            });
+            setLoadError(interpolateScenarioText(errorTemplate, {
+                scenario: requestedScenarioName,
+            }));
             if (rollback.previousView) {
                 setVersion(GameVersions[rollback.previousView.key.version]);
                 setLanguage(Languages[rollback.previousView.key.language]);
@@ -359,7 +393,6 @@ function App() {
 
     const bundleKey = `${displayedKey.version}.${displayedKey.scenario}.${displayedKey.language}`;
     const [graphBundle, setGraphBundle] = useState<{ key: string; bundle: GraphBundle | null } | null>(null);
-    const [useLiveGraph, setUseLiveGraph] = useState(false);
     useEffect(() => {
         let cancelled = false;
         const boot = window.__graphBoot;
@@ -387,10 +420,15 @@ function App() {
         return () => { cancelled = true; };
     }, [bundleKey, displayedKey.language, displayedKey.scenario, displayedKey.version]);
 
-    const activeBundle = !useLiveGraph && graphBundle?.key === bundleKey ? graphBundle.bundle : null;
-    useEffect(() => {
-        if (activeView && techDb && graphBundle === null) setUseLiveGraph(true);
-    }, [activeView, graphBundle, techDb]);
+    const dataReady = !!activeView && !!techDb;
+    const renderSource = graphRenderSource({
+        key: bundleKey,
+        artifact: graphBundle,
+        forceLive: !showProjects || isGraphIsolated,
+        dataReady,
+        layoutReady: layoutCache?.key === layoutKey,
+    });
+    const activeBundle = renderSource.bundle;
 
     const navigateToNodePath = useCallback((node: TechTemplate) => {
         if (!activeView) return;
@@ -419,7 +457,6 @@ function App() {
 
     const onShowProjects = useCallback((nextShowProjects: boolean) => {
         setShowProjects(nextShowProjects);
-        setUseLiveGraph(true);
         if (!activeView) return;
         const nextDb = visibleTechDb(activeView, nextShowProjects);
         setTechDb(nextDb);
@@ -429,7 +466,7 @@ function App() {
     }, [activeView]);
 
     const handleIsolatedChanged = useCallback((isolated: boolean) => {
-        setUseLiveGraph(true);
+        setIsGraphIsolated(isolated);
         if (!activeView) return;
         if (isolated && techDb && navigatedToNode) {
             const isolatedTree = getAncestorTechs(techDb, navigatedToNode)
@@ -457,43 +494,57 @@ function App() {
 
     const dlcOnlyDataNames = useMemo(() => activeView
         ? activeView.appStaticData.techs.concat(activeView.appStaticData.projects)
-            .filter((node) => node.dlcOnly)
+            .filter((node) => scenarioMarkerPresentation(node)?.graphDiamond)
             .map((node) => node.dataName)
         : [], [activeView]);
     const selectorValue = activeView?.key.scenario ?? targetScenario;
-    const scenarioLabels = activeView
-        ? { [activeView.key.scenario]: activeView.scenarioName }
-        : undefined;
-    const dataReady = !!activeView && !!techDb;
-    const graphDrawable = !isMobileLayout && (
-        !!activeBundle || (dataReady && layoutCache?.key === layoutKey)
+    const scenarioLabels = scenarioLabelsForUi(activeView, activeLanguage);
+    const compactScenarioLabels = Object.fromEntries(
+        OrderedScenarios.map((scenario) => [
+            scenario.code,
+            compactScenarioLabel(
+                scenario,
+                scenarioLabels[scenario.code],
+                activeLanguage.uiTexts.scenarioLabel,
+            ),
+        ]),
+    ) as Record<ScenarioCode, string>;
+    const activeScenarioCode = activeView?.key.scenario ?? null;
+    const activeScenarioName = activeScenarioCode ? compactScenarioLabels[activeScenarioCode] : null;
+    const activeScenarioDisplayName = activeScenarioCode
+        ? scenarioDisplayName(
+            Scenarios[activeScenarioCode],
+            compactScenarioLabels,
+            activeLanguage.uiTexts.darkSkiesName,
+        )
+        : null;
+    const targetScenarioDisplayName = scenarioDisplayName(
+        Scenarios[targetScenario],
+        compactScenarioLabels,
+        activeLanguage.uiTexts.darkSkiesName,
     );
-
-    const scenarioControl = (
-        <div className="scenario-control">
-            <div className="scenario-select-row">
-                <ScenarioSelector
-                    value={selectorValue}
-                    onScenarioChange={handleScenarioChange}
-                    label="Scenario"
-                    scenarioLabels={scenarioLabels}
-                    dlcLabel="Dark Skies DLC"
-                    disabled={isLoadingView}
-                    fullWidth
-                />
-                {isLoadingView && <CircularProgress size={18} aria-label="Loading scenario" />}
-            </div>
-            <div className="dlc-node-legend">
-                <span aria-hidden="true" className="dlc-node-symbol">◆</span> Dark Skies DLC node
-            </div>
-            {loadError && <div className="scenario-load-error" role="alert">{loadError}</div>}
-        </div>
+    const scenarioStatus = scenarioStatusText({
+        activeScenario: activeScenarioCode,
+        targetScenario,
+        activeLabel: activeScenarioDisplayName,
+        targetLabel: targetScenarioDisplayName,
+        loading: isLoadingView,
+        templates: {
+            tree: activeLanguage.uiTexts.scenarioTreeStatus,
+            viewingLoading: activeLanguage.uiTexts.scenarioViewingStatus,
+            loading: activeLanguage.uiTexts.scenarioLoadingStatus,
+        },
+    });
+    const graphAccessibleLabel = interpolateScenarioText(
+        activeLanguage.uiTexts.technologyGraphAccessible,
+        { scenario: activeScenarioDisplayName ?? targetScenarioDisplayName },
     );
+    const graphDrawable = !isMobileLayout && (!!activeBundle || renderSource.drawLive);
 
     return (
         <>
             <h1 className="visually-hidden">Terra Invicta Tech Tree — 1.0 + Dark Skies DLC</h1>
-            {!dataReady && !graphDrawable && <div id="loading">Loading</div>}
+            {!dataReady && !graphDrawable && <div id="loading">{loadError ?? scenarioStatus}</div>}
             <div id="responsive-container" className={isMobileLayout ? 'mobile-layout' : 'desktop-layout'}>
                 {graphDrawable && (
                     <TechGraph
@@ -504,6 +555,7 @@ function App() {
                         precomputedPositions={activeBundle ? null : layoutCache?.positions}
                         bundle={activeBundle}
                         dlcOnlyDataNames={dlcOnlyDataNames}
+                        accessibleLabel={graphAccessibleLabel}
                     />
                 )}
 
@@ -517,7 +569,10 @@ function App() {
                                 localizationDb={activeStaticData.localizationDb}
                                 templateData={activeStaticData.templateData}
                                 language={activeLanguage}
-                                scenarioControl={scenarioControl}
+                                activeScenarioLabel={activeScenarioName ?? targetScenarioDisplayName}
+                                scenarioStatus={scenarioStatus}
+                                scenarioLoadError={loadError}
+                                showDlcLegend={!!activeView && activeView.key.scenario !== 'standard'}
                             />
                         </div>
                         <div className="settings-button-container">
@@ -526,6 +581,12 @@ function App() {
                                 onLanguageChange={setLanguage}
                                 version={version}
                                 onVersionChange={handleVersionChange}
+                                scenario={selectorValue}
+                                onScenarioChange={handleScenarioChange}
+                                scenarioLabels={scenarioLabels}
+                                scenarioLabel={activeLanguage.uiTexts.scenarioLabel}
+                                dlcLabel={activeLanguage.uiTexts.darkSkiesDlc}
+                                isScenarioLoading={isLoadingView}
                                 onOpenDrives={() => setShowDrivesOverlay(true)}
                             />
                         </div>
@@ -553,6 +614,7 @@ function App() {
                         isMobile={isMobileLayout}
                         versionCode={activeView.key.version}
                         scenarioCode={activeView.key.scenario}
+                        activeScenarioLabel={compactScenarioLabels[activeView.key.scenario]}
                     />
                 )}
             </div>

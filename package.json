@@ -4,13 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "npm run prepare:generated-artifacts",
     "dev": "vite",
-    "build": "npm run validate:release && npm run generate:gamefiles-manifest && npm run generate:scenario-bundles && vite build && node scripts/generate_graph_layout.js && node scripts/generate_seo_pages.js && node scripts/validate_seo_pages.js",
+    "build": "npm run validate:release && npm run generate:gamefiles-manifest && npm run prepare:generated-artifacts -- --release-validated && vite build && node scripts/generate_seo_pages.js && node scripts/validate_seo_pages.js",
     "generate:gamefiles-manifest": "node scripts/generate_gamefiles_manifest.js",
+    "generate:graph-artifacts": "node scripts/generate_graph_layout.js public",
     "generate:scenario-bundles": "node scripts/generate_scenario_bundles.js",
     "import:steam-release": "node scripts/import_steam_release.js",
     "lint": "eslint .",
     "preview": "vite preview",
+    "prepare:generated-artifacts": "node scripts/prepare_generated_artifacts.js",
     "test": "node --test scripts/**/*.test.js",
     "tsc": "tsc --noEmit",
     "validate:release": "node scripts/validate_release_data.js"

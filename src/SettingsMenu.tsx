@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext, useState, type MouseEvent } from 'react';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
@@ -12,9 +12,17 @@ import { ColorModeContext } from './theme.tsx';
 import LanguageSelector from './LanguageSelector';
 import { LanguageSelectorProps } from './types/props';
 import { Link } from "react-router";
+import ScenarioSelector from './ScenarioSelector';
+import type { Scenario, ScenarioCode } from './scenario';
 
 export type SettingsMenuProps = LanguageSelectorProps & {
   onOpenDrives?: () => void;
+  scenario: ScenarioCode;
+  onScenarioChange: (scenario: Scenario) => void;
+  scenarioLabels: Partial<Record<ScenarioCode, string>>;
+  scenarioLabel: string;
+  dlcLabel: string;
+  isScenarioLoading: boolean;
 };
 
 export function SettingsMenu(props: SettingsMenuProps) {
@@ -25,7 +33,7 @@ export function SettingsMenu(props: SettingsMenuProps) {
 
   const open = Boolean(anchorEl);
 
-  const handleOpen = (event: React.MouseEvent<HTMLElement>) => {
+  const handleOpen = (event: MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
   };
 
@@ -35,6 +43,11 @@ export function SettingsMenu(props: SettingsMenuProps) {
 
   const handleThemeToggle = () => {
     setMode(mode === 'light' ? 'dark' : 'light');
+  };
+
+  const handleScenarioChange = (scenario: Scenario) => {
+    handleClose();
+    props.onScenarioChange(scenario);
   };
 
   return (
@@ -67,6 +80,16 @@ export function SettingsMenu(props: SettingsMenuProps) {
       >
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, p: 1.5, minWidth: 260 }}>
           <LanguageSelector {...props} variant="inline" />
+          <Divider />
+          <ScenarioSelector
+            value={props.scenario}
+            onScenarioChange={handleScenarioChange}
+            label={props.scenarioLabel}
+            scenarioLabels={props.scenarioLabels}
+            dlcLabel={props.dlcLabel}
+            disabled={props.isScenarioLoading}
+            fullWidth
+          />
           <Divider />
           <FormControlLabel
             control={<Switch checked={mode === 'dark'} onChange={handleThemeToggle} size="small" />}

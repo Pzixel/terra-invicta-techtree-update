@@ -72,6 +72,23 @@ export interface LocalizedUi {
     claimGained: string;
     adjacencyFriendly: string;
     adjacencyGeneral: string;
+    scenarioLabel: string;
+    settingsMenuLabel: string;
+    scenarioSettingsDiscovery: string;
+    settingsCurrentScenario: string;
+    scenarioStandard: string;
+    scenario2003Fallback: string;
+    scenarioBrokenEarthFallback: string;
+    scenarioTreeStatus: string;
+    scenarioViewingStatus: string;
+    scenarioLoadingStatus: string;
+    scenarioLoadError: string;
+    scenarioInitialLoadError: string;
+    darkSkiesDlc: string;
+    darkSkiesName: string;
+    darkSkiesAddition: string;
+    scenarioVersion: string;
+    technologyGraphAccessible: string;
 }
 
 const englishUi: LocalizedUi = {
@@ -146,6 +163,23 @@ const englishUi: LocalizedUi = {
     claimGained: "{nation} gains a claim on {region}",
     adjacencyFriendly: "{region1} and {region2} are now considered to be adjacent for friendly traffic",
     adjacencyGeneral: "{region1} and {region2} are now considered to be adjacent",
+    scenarioLabel: "Scenario",
+    settingsMenuLabel: "Settings",
+    scenarioSettingsDiscovery: "Scenarios available in Settings",
+    settingsCurrentScenario: "Settings — current scenario: {scenario}",
+    scenarioStandard: "Standard",
+    scenario2003Fallback: "2003 Scenario",
+    scenarioBrokenEarthFallback: "Broken Earth Scenario",
+    scenarioTreeStatus: "Scenario: {scenario}",
+    scenarioViewingStatus: "Viewing {active} · Loading {target}…",
+    scenarioLoadingStatus: "Loading {target}…",
+    scenarioLoadError: "Unable to load {scenario}. The previous view remains active.",
+    scenarioInitialLoadError: "Unable to load {scenario}. Please try again.",
+    darkSkiesDlc: "Dark Skies DLC",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Dark Skies addition",
+    scenarioVersion: "{scenario} version",
+    technologyGraphAccessible: "Technology graph for {scenario}. A diamond marks nodes added by the Dark Skies DLC.",
 };
 
 export type Language = {
@@ -229,6 +263,23 @@ const chsUi: LocalizedUi = {
     claimGained: "{nation}获得了对{region}的宣称",
     adjacencyFriendly: "{region1}和{region2}现在被视为友军交通的邻接区域",
     adjacencyGeneral: "{region1}和{region2}现在被视为邻接区域",
+    scenarioLabel: "情境",
+    settingsMenuLabel: "设置",
+    scenarioSettingsDiscovery: "可在设置中选择情境",
+    settingsCurrentScenario: "设置 — 当前情境：{scenario}",
+    scenarioStandard: "标准",
+    scenario2003Fallback: "2003 情境",
+    scenarioBrokenEarthFallback: "疮痍大地情境",
+    scenarioTreeStatus: "情境：{scenario}",
+    scenarioViewingStatus: "正在查看 {active} · 正在加载 {target}…",
+    scenarioLoadingStatus: "正在加载 {target}…",
+    scenarioLoadError: "无法加载 {scenario}。仍显示先前的科技树。",
+    scenarioInitialLoadError: "无法加载 {scenario}。请重试。",
+    darkSkiesDlc: "黑暗天空 DLC",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "黑暗天空新增内容",
+    scenarioVersion: "{scenario}版本",
+    technologyGraphAccessible: "{scenario}的科技图谱。菱形标记由黑暗天空 DLC 新增的节点。",
 };
 
 const chtUi: LocalizedUi = {
@@ -303,6 +354,23 @@ const chtUi: LocalizedUi = {
     claimGained: "{nation}獲得了對{region}的宣稱",
     adjacencyFriendly: "{region1}和{region2}現在被視為友軍交通的鄰接區域",
     adjacencyGeneral: "{region1}和{region2}現在被視為鄰接區域",
+    scenarioLabel: "情境",
+    settingsMenuLabel: "設定",
+    scenarioSettingsDiscovery: "可在設定中選擇情境",
+    settingsCurrentScenario: "設定 — 目前情境：{scenario}",
+    scenarioStandard: "標準",
+    scenario2003Fallback: "2003 情境",
+    scenarioBrokenEarthFallback: "瘡痍大地情境",
+    scenarioTreeStatus: "情境：{scenario}",
+    scenarioViewingStatus: "正在檢視 {active} · 正在載入 {target}…",
+    scenarioLoadingStatus: "正在載入 {target}…",
+    scenarioLoadError: "無法載入 {scenario}。仍顯示先前的科技樹。",
+    scenarioInitialLoadError: "無法載入 {scenario}。請重試。",
+    darkSkiesDlc: "黑暗天空 DLC",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "黑暗天空新增內容",
+    scenarioVersion: "{scenario}版本",
+    technologyGraphAccessible: "{scenario}的科技圖譜。菱形標記由黑暗天空 DLC 新增的節點。",
 };
 
 const deuUi: LocalizedUi = {
@@ -377,6 +445,23 @@ const deuUi: LocalizedUi = {
     claimGained: "{nation} erhebt Anspruch auf {region}",
     adjacencyFriendly: "{region1} und {region2} gelten nun als angrenzend für freundlichen Verkehr",
     adjacencyGeneral: "{region1} und {region2} gelten nun als angrenzend",
+    scenarioLabel: "Szenario",
+    settingsMenuLabel: "Einstellungen",
+    scenarioSettingsDiscovery: "Szenarien sind in den Einstellungen verfügbar",
+    settingsCurrentScenario: "Einstellungen — aktuelles Szenario: {scenario}",
+    scenarioStandard: "Standard",
+    scenario2003Fallback: "2003-Szenario",
+    scenarioBrokenEarthFallback: "„Kaputte Erde“-Szenario",
+    scenarioTreeStatus: "Szenario: {scenario}",
+    scenarioViewingStatus: "Angezeigt wird {active} · {target} wird geladen…",
+    scenarioLoadingStatus: "{target} wird geladen…",
+    scenarioLoadError: "{scenario} konnte nicht geladen werden. Der vorherige Forschungsbaum bleibt aktiv.",
+    scenarioInitialLoadError: "{scenario} konnte nicht geladen werden. Bitte erneut versuchen.",
+    darkSkiesDlc: "Dark Skies-DLC",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Dark-Skies-Erweiterung",
+    scenarioVersion: "Version für {scenario}",
+    technologyGraphAccessible: "Technologiegraph für {scenario}. Eine Raute kennzeichnet Knoten, die durch das Dark Skies-DLC hinzugefügt wurden.",
 };
 
 const espUi: LocalizedUi = {
@@ -451,6 +536,23 @@ const espUi: LocalizedUi = {
     claimGained: "{nation} obtiene una reclamación sobre {region}",
     adjacencyFriendly: "{region1} y {region2} ahora se consideran adyacentes para tráfico amistoso",
     adjacencyGeneral: "{region1} y {region2} ahora se consideran adyacentes",
+    scenarioLabel: "Escenario",
+    settingsMenuLabel: "Ajustes",
+    scenarioSettingsDiscovery: "Hay escenarios disponibles en Ajustes",
+    settingsCurrentScenario: "Ajustes — escenario actual: {scenario}",
+    scenarioStandard: "Estándar",
+    scenario2003Fallback: "Escenario 2003",
+    scenarioBrokenEarthFallback: "Escenario Tierra fracturada",
+    scenarioTreeStatus: "Escenario: {scenario}",
+    scenarioViewingStatus: "Mostrando {active} · Cargando {target}…",
+    scenarioLoadingStatus: "Cargando {target}…",
+    scenarioLoadError: "No se pudo cargar {scenario}. El árbol anterior sigue activo.",
+    scenarioInitialLoadError: "No se pudo cargar {scenario}. Inténtalo de nuevo.",
+    darkSkiesDlc: "DLC Dark Skies",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Contenido añadido de Dark Skies",
+    scenarioVersion: "Versión de {scenario}",
+    technologyGraphAccessible: "Grafo tecnológico de {scenario}. Un rombo marca los nodos añadidos por el DLC Dark Skies.",
 };
 
 const frUi: LocalizedUi = {
@@ -525,6 +627,23 @@ const frUi: LocalizedUi = {
     claimGained: "{nation} revendique {region}",
     adjacencyFriendly: "{region1} et {region2} sont maintenant considérés comme adjacents pour le trafic allié",
     adjacencyGeneral: "{region1} et {region2} sont maintenant considérés comme adjacents",
+    scenarioLabel: "Scénario",
+    settingsMenuLabel: "Paramètres",
+    scenarioSettingsDiscovery: "Des scénarios sont disponibles dans les paramètres",
+    settingsCurrentScenario: "Paramètres — scénario actuel : {scenario}",
+    scenarioStandard: "Standard",
+    scenario2003Fallback: "Scénario 2003",
+    scenarioBrokenEarthFallback: "Scénario Terre brisée",
+    scenarioTreeStatus: "Scénario : {scenario}",
+    scenarioViewingStatus: "Affichage de {active} · Chargement de {target}…",
+    scenarioLoadingStatus: "Chargement de {target}…",
+    scenarioLoadError: "Impossible de charger {scenario}. L’arbre précédent reste actif.",
+    scenarioInitialLoadError: "Impossible de charger {scenario}. Réessayez.",
+    darkSkiesDlc: "DLC Dark Skies",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Ajout Dark Skies",
+    scenarioVersion: "Version {scenario}",
+    technologyGraphAccessible: "Graphe technologique pour {scenario}. Un losange signale les nœuds ajoutés par le DLC Dark Skies.",
 };
 
 const jpnUi: LocalizedUi = {
@@ -599,6 +718,23 @@ const jpnUi: LocalizedUi = {
     claimGained: "{nation}が{region}の領有権を主張",
     adjacencyFriendly: "{region1}と{region2}は友好的な交通において隣接とみなされます",
     adjacencyGeneral: "{region1}と{region2}は隣接とみなされます",
+    scenarioLabel: "シナリオ",
+    settingsMenuLabel: "設定",
+    scenarioSettingsDiscovery: "設定でシナリオを選択できます",
+    settingsCurrentScenario: "設定 — 現在のシナリオ: {scenario}",
+    scenarioStandard: "標準",
+    scenario2003Fallback: "シナリオ2003",
+    scenarioBrokenEarthFallback: "シナリオ：崩壊した地球",
+    scenarioTreeStatus: "シナリオ: {scenario}",
+    scenarioViewingStatus: "{active}を表示中 · {target}を読み込み中…",
+    scenarioLoadingStatus: "{target}を読み込み中…",
+    scenarioLoadError: "{scenario}を読み込めません。前の技術ツリーを引き続き表示します。",
+    scenarioInitialLoadError: "{scenario}を読み込めません。もう一度お試しください。",
+    darkSkiesDlc: "Dark Skies DLC",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Dark Skies追加要素",
+    scenarioVersion: "{scenario}版",
+    technologyGraphAccessible: "{scenario}の技術グラフ。ひし形はDark Skies DLCで追加されたノードを示します。",
 };
 
 const polUi: LocalizedUi = {
@@ -673,6 +809,23 @@ const polUi: LocalizedUi = {
     claimGained: "{nation} uzyskuje roszczenie do {region}",
     adjacencyFriendly: "{region1} i {region2} są teraz uznawane za sąsiadujące dla ruchu sojuszniczego",
     adjacencyGeneral: "{region1} i {region2} są teraz uznawane za sąsiadujące",
+    scenarioLabel: "Scenariusz",
+    settingsMenuLabel: "Ustawienia",
+    scenarioSettingsDiscovery: "Scenariusze są dostępne w ustawieniach",
+    settingsCurrentScenario: "Ustawienia — bieżący scenariusz: {scenario}",
+    scenarioStandard: "Standardowy",
+    scenario2003Fallback: "Scenariusz 2003",
+    scenarioBrokenEarthFallback: "Scenariusz Zniszczonej Ziemi",
+    scenarioTreeStatus: "Scenariusz: {scenario}",
+    scenarioViewingStatus: "Wyświetlanie {active} · Wczytywanie {target}…",
+    scenarioLoadingStatus: "Wczytywanie {target}…",
+    scenarioLoadError: "Nie udało się wczytać {scenario}. Poprzednie drzewo pozostaje aktywne.",
+    scenarioInitialLoadError: "Nie udało się wczytać {scenario}. Spróbuj ponownie.",
+    darkSkiesDlc: "DLC Dark Skies",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Element dodany w Dark Skies",
+    scenarioVersion: "Wersja: {scenario}",
+    technologyGraphAccessible: "Graf technologii dla {scenario}. Romb oznacza węzły dodane przez DLC Dark Skies.",
 };
 
 const porUi: LocalizedUi = {
@@ -747,6 +900,23 @@ const porUi: LocalizedUi = {
     claimGained: "{nation} obtém uma reivindicação sobre {region}",
     adjacencyFriendly: "{region1} e {region2} agora são considerados adjacentes para tráfego amigável",
     adjacencyGeneral: "{region1} e {region2} agora são considerados adjacentes",
+    scenarioLabel: "Cenário",
+    settingsMenuLabel: "Configurações",
+    scenarioSettingsDiscovery: "Há cenários disponíveis nas configurações",
+    settingsCurrentScenario: "Configurações — cenário atual: {scenario}",
+    scenarioStandard: "Padrão",
+    scenario2003Fallback: "Cenário 2003",
+    scenarioBrokenEarthFallback: "Cenário Terra Fragmentada",
+    scenarioTreeStatus: "Cenário: {scenario}",
+    scenarioViewingStatus: "Exibindo {active} · Carregando {target}…",
+    scenarioLoadingStatus: "Carregando {target}…",
+    scenarioLoadError: "Não foi possível carregar {scenario}. A árvore anterior permanece ativa.",
+    scenarioInitialLoadError: "Não foi possível carregar {scenario}. Tente novamente.",
+    darkSkiesDlc: "DLC Dark Skies",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Adição de Dark Skies",
+    scenarioVersion: "Versão {scenario}",
+    technologyGraphAccessible: "Grafo de tecnologias de {scenario}. Um losango marca os nós adicionados pelo DLC Dark Skies.",
 };
 
 const korUi: LocalizedUi = {
@@ -821,6 +991,23 @@ const korUi: LocalizedUi = {
     claimGained: "{nation}이(가) {region}에 대한 영유권을 획득",
     adjacencyFriendly: "{region1}과(와) {region2}은(는) 이제 우호적 교통을 위해 인접한 것으로 간주됩니다",
     adjacencyGeneral: "{region1}과(와) {region2}은(는) 이제 인접한 것으로 간주됩니다",
+    scenarioLabel: "시나리오",
+    settingsMenuLabel: "설정",
+    scenarioSettingsDiscovery: "설정에서 시나리오를 선택할 수 있습니다",
+    settingsCurrentScenario: "설정 — 현재 시나리오: {scenario}",
+    scenarioStandard: "표준",
+    scenario2003Fallback: "2003 시나리오",
+    scenarioBrokenEarthFallback: "붕괴된 지구 시나리오",
+    scenarioTreeStatus: "시나리오: {scenario}",
+    scenarioViewingStatus: "{active} 보는 중 · {target} 불러오는 중…",
+    scenarioLoadingStatus: "{target} 불러오는 중…",
+    scenarioLoadError: "{scenario}을(를) 불러올 수 없습니다. 이전 트리를 계속 표시합니다.",
+    scenarioInitialLoadError: "{scenario}을(를) 불러올 수 없습니다. 다시 시도하세요.",
+    darkSkiesDlc: "Dark Skies DLC",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Dark Skies 추가 콘텐츠",
+    scenarioVersion: "{scenario} 버전",
+    technologyGraphAccessible: "{scenario} 기술 그래프. 마름모는 Dark Skies DLC에서 추가된 노드를 나타냅니다.",
 };
 
 const rusUi: LocalizedUi = {
@@ -895,6 +1082,23 @@ const rusUi: LocalizedUi = {
     claimGained: "{nation} получает претензию на {region}",
     adjacencyFriendly: "{region1} и {region2} теперь считаются смежными для дружественного трафика",
     adjacencyGeneral: "{region1} и {region2} теперь считаются смежными",
+    scenarioLabel: "Сценарий",
+    settingsMenuLabel: "Настройки",
+    scenarioSettingsDiscovery: "Сценарии доступны в настройках",
+    settingsCurrentScenario: "Настройки — текущий сценарий: {scenario}",
+    scenarioStandard: "Стандартный",
+    scenario2003Fallback: "Сценарий-2003",
+    scenarioBrokenEarthFallback: "Сценарий \"Расколотая Земля\"",
+    scenarioTreeStatus: "Сценарий: {scenario}",
+    scenarioViewingStatus: "Открыт {active} · Загрузка {target}…",
+    scenarioLoadingStatus: "Загрузка {target}…",
+    scenarioLoadError: "Не удалось загрузить {scenario}. Предыдущее дерево остаётся активным.",
+    scenarioInitialLoadError: "Не удалось загрузить {scenario}. Повторите попытку.",
+    darkSkiesDlc: "Дополнение Dark Skies",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Добавлено в Dark Skies",
+    scenarioVersion: "Версия {scenario}",
+    technologyGraphAccessible: "Граф технологий для {scenario}. Ромб отмечает узлы, добавленные дополнением Dark Skies.",
 };
 
 const ukrUi: LocalizedUi = {
@@ -969,6 +1173,23 @@ const ukrUi: LocalizedUi = {
     claimGained: "{nation} отримує претензію на {region}",
     adjacencyFriendly: "{region1} і {region2} тепер вважаються суміжними для дружнього трафіку",
     adjacencyGeneral: "{region1} і {region2} тепер вважаються суміжними",
+    scenarioLabel: "Сценарій",
+    settingsMenuLabel: "Налаштування",
+    scenarioSettingsDiscovery: "Сценарії доступні в налаштуваннях",
+    settingsCurrentScenario: "Налаштування — поточний сценарій: {scenario}",
+    scenarioStandard: "Стандартний",
+    scenario2003Fallback: "Сценарій 2003",
+    scenarioBrokenEarthFallback: "Сценарій розбитої Землі",
+    scenarioTreeStatus: "Сценарій: {scenario}",
+    scenarioViewingStatus: "Перегляд {active} · Завантаження {target}…",
+    scenarioLoadingStatus: "Завантаження {target}…",
+    scenarioLoadError: "Не вдалося завантажити {scenario}. Попереднє дерево залишається активним.",
+    scenarioInitialLoadError: "Не вдалося завантажити {scenario}. Спробуйте ще раз.",
+    darkSkiesDlc: "Доповнення Dark Skies",
+    darkSkiesName: "Dark Skies",
+    darkSkiesAddition: "Додано в Dark Skies",
+    scenarioVersion: "Версія {scenario}",
+    technologyGraphAccessible: "Граф технологій для {scenario}. Ромб позначає вузли, додані доповненням Dark Skies.",
 };
 
 const stableAndExperimental: GameVersionCode[] = ['stable', 'experimental'];

@@ -11,6 +11,7 @@ export function TechGraph({
     precomputedPositions,
     bundle,
     dlcOnlyDataNames = [],
+    accessibleLabel,
 }: TechGraphProps) {
     const [network, setNetwork] = useState<vis.Network | null>(null);
     const networkRef = useRef<vis.Network | null>(null);
@@ -122,7 +123,7 @@ export function TechGraph({
             className="graph-container"
             ref={containerRef}
             role="application"
-            aria-label="Technology graph. A diamond marks nodes added by the Dark Skies DLC."
+            aria-label={accessibleLabel}
         ></div>
     );
 }

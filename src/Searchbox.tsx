@@ -1,9 +1,10 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { Paper, Autocomplete, TextField, FormControlLabel, Switch } from '@mui/material';
+import { Paper, Autocomplete, TextField, FormControlLabel, Switch, Chip } from '@mui/material';
 import FlexSearch from 'flexsearch';
 import { SearchboxProps } from './types/props';
 import { TechDb } from './utils/TechDb';
 import { Claim } from './types';
+import { interpolateScenarioText, scenarioMarkerPresentation } from './scenario';
 
 type SearchEntry = {
     id: string;
@@ -11,15 +12,16 @@ type SearchEntry = {
     displayName: string;
     fullText: string;
     dlcOnly: boolean;
+    scenarioVariant: boolean;
 };
 
-type SearchOption = Pick<SearchEntry, 'dataName' | 'displayName' | 'dlcOnly'>;
+type SearchOption = Pick<SearchEntry, 'dataName' | 'displayName' | 'dlcOnly' | 'scenarioVariant'>;
 
 type FlexSearchResult = {
     doc: SearchEntry;
 };
 
-type CachedProperties = ["dataName", "displayName", "fullText", "dlcOnly"];
+type CachedProperties = ["dataName", "displayName", "fullText", "dlcOnly", "scenarioVariant"];
 
 export function Searchbox({
     techDb,
@@ -28,7 +30,10 @@ export function Searchbox({
     localizationDb,
     templateData,
     language,
-    scenarioControl,
+    activeScenarioLabel,
+    scenarioStatus,
+    scenarioLoadError,
+    showDlcLegend,
 }: SearchboxProps) {
     const [results, setResults] = useState<SearchOption[]>([]);
     const [documentSearchIndex, setDocumentSearchIndex] = useState<FlexSearch.Document<SearchEntry, CachedProperties> | null>(null);
@@ -38,7 +43,7 @@ export function Searchbox({
         const documentSearchIndex = new FlexSearch.Document<SearchEntry, CachedProperties>({
             document: {
                 index: ["displayName", "fullText"],
-                store: ["dataName", "displayName", "fullText", "dlcOnly"],
+                store: ["dataName", "displayName", "fullText", "dlcOnly", "scenarioVariant"],
                 "id": "id",
             },
             tokenize: "full"
@@ -51,6 +56,7 @@ export function Searchbox({
                 "displayName": node.displayName,
                 "fullText": "",
                 "dlcOnly": node.dlcOnly === true,
+                "scenarioVariant": node.scenarioVariant === true,
             };
 
             let summaryText;
@@ -140,6 +146,7 @@ export function Searchbox({
                     dataName: doc.dataName,
                     displayName: doc.displayName,
                     dlcOnly: doc.dlcOnly,
+                    scenarioVariant: doc.scenarioVariant,
                 }])).values()
             );
         } else {
@@ -149,6 +156,7 @@ export function Searchbox({
                     dataName: doc.dataName,
                     displayName: doc.displayName,
                     dlcOnly: doc.dlcOnly,
+                    scenarioVariant: doc.scenarioVariant,
                 }])).values()
             );
         }
@@ -194,37 +202,68 @@ export function Searchbox({
     return (
         <div>
             <Paper elevation={3} id="searchBox">
-                <div className="search-and-scenario">
-                    <Autocomplete<SearchOption, false, false, true>
-                        className="tech-search"
-                        options={results}
-                        freeSolo
-                        onInputChange={handleInputChange}
-                        onChange={handleChange}
-                        onKeyDown={handleKeyDown}
-                        filterOptions={x => x}
-                        getOptionLabel={(option) => typeof option === 'string'
-                            ? option
-                            : `${option.dlcOnly ? '◆ ' : ''}${option.displayName}`}
-                        renderOption={(props, option) => (
+                <Autocomplete<SearchOption, false, false, true>
+                    options={results}
+                    freeSolo
+                    onInputChange={handleInputChange}
+                    onChange={handleChange}
+                    onKeyDown={handleKeyDown}
+                    filterOptions={x => x}
+                    getOptionLabel={(option) => typeof option === 'string'
+                        ? option
+                        : `${scenarioMarkerPresentation(option)?.graphDiamond ? '◆ ' : ''}${option.displayName}`}
+                    renderOption={(props, option) => {
+                        const marker = scenarioMarkerPresentation(option);
+                        const markerLabel = marker?.kind === 'addition'
+                            ? language.uiTexts.darkSkiesAddition
+                            : marker?.kind === 'variant'
+                                ? interpolateScenarioText(language.uiTexts.scenarioVersion, {
+                                    scenario: activeScenarioLabel,
+                                })
+                                : null;
+                        return (
                             <li
                                 {...props}
                                 key={option.dataName}
-                                aria-label={`${option.displayName}${option.dlcOnly ? ', Dark Skies DLC' : ''}`}
+                                aria-label={`${option.displayName}${markerLabel ? `, ${markerLabel}` : ''}`}
                             >
-                                {option.dlcOnly && <span aria-hidden="true" className="dlc-node-symbol">◆ </span>}
-                                {option.displayName}
+                                {marker?.graphDiamond && <span aria-hidden="true" className="dlc-node-symbol">◆ </span>}
+                                <span className="search-option-name">{option.displayName}</span>
+                                {marker && markerLabel && (
+                                    <Chip
+                                        className="scenario-marker-chip"
+                                        size="small"
+                                        color="secondary"
+                                        variant={marker.chipVariant}
+                                        label={markerLabel}
+                                    />
+                                )}
                             </li>
-                        )}
-                        renderInput={(params) => (
-                            <TextField
-                                {...params}
-                                label={language.uiTexts.search}
-                                inputRef={searchInputRef}
-                                autoFocus
-                                onClick={handleClick} />
-                        )} />
-                    {scenarioControl}
+                        );
+                    }}
+                    renderInput={(params) => (
+                        <TextField
+                            {...params}
+                            label={language.uiTexts.search}
+                            inputRef={searchInputRef}
+                            autoFocus
+                            onClick={handleClick} />
+                    )} />
+                <div className="scenario-status-region" aria-live="polite">
+                    {(scenarioStatus || showDlcLegend) && (
+                        <div className="scenario-status-line">
+                            {scenarioStatus && <span>{scenarioStatus}</span>}
+                            {showDlcLegend && (
+                                <span className="scenario-status-legend">
+                                    <span aria-hidden="true" className="dlc-node-symbol">◆</span>{' '}
+                                    {language.uiTexts.darkSkiesAddition}
+                                </span>
+                            )}
+                        </div>
+                    )}
+                    {scenarioLoadError && (
+                        <div className="scenario-load-error" role="alert">{scenarioLoadError}</div>
+                    )}
                 </div>
                 <div className='checkboxContainer'>
                     <FormControlLabel

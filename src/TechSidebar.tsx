@@ -9,7 +9,7 @@ import { TechDb } from './utils/TechDb';
 import { prerequisiteSlots } from './data/scenarioCompiler';
 import { clearResearchProgress, loadResearchProgress, saveResearchProgress } from './utils/researchProgress';
 import type { GameVersionCode } from './version';
-import type { ScenarioCode } from './scenario';
+import { interpolateScenarioText, scenarioMarkerPresentation, type ScenarioCode } from './scenario';
 
 function saveResearchState(techDb: TechDb, version: GameVersionCode, scenario: ScenarioCode) {
     const progress = loadResearchProgress(localStorage, version, scenario);
@@ -33,6 +33,7 @@ export function TechSidebar({
   isMobile,
   versionCode,
   scenarioCode,
+  activeScenarioLabel,
 }: TechSidebarProps) {
     const theme = useTheme();
     const locale = language.locale;
@@ -696,6 +697,7 @@ export function TechSidebar({
     if (!node) {
         return <div></div>
     }
+    const scenarioMarker = scenarioMarkerPresentation(node);
 
     // Calculate costs and research status
     const researchCost = node.researchCost || 0;
@@ -1145,16 +1147,22 @@ export function TechSidebar({
 
                 {/* Heading */}
                 <h2>{node.displayName} {node.isProject ? <img src={projectIconSrc} alt="faction project" style={{ width: "24px", height: "24px" }} /> : null}</h2>
-                {(node.dlcOnly || node.scenarioVariant) && (
+                {scenarioMarker && (
                     <div className="dlc-node-chips">
                         <Chip
                             size="small"
                             color="secondary"
-                            variant={node.dlcOnly ? "filled" : "outlined"}
-                            label={node.dlcOnly ? "◆ Dark Skies DLC — New" : "Dark Skies DLC — Scenario variant"}
-                            aria-label={node.dlcOnly
-                                ? "Dark Skies DLC, newly added node"
-                                : "Dark Skies DLC, scenario variant of a Standard node"}
+                            variant={scenarioMarker.chipVariant}
+                            label={scenarioMarker.kind === 'addition'
+                                ? `◆ ${language.uiTexts.darkSkiesAddition}`
+                                : interpolateScenarioText(language.uiTexts.scenarioVersion, {
+                                    scenario: activeScenarioLabel,
+                                })}
+                            aria-label={scenarioMarker.kind === 'addition'
+                                ? language.uiTexts.darkSkiesAddition
+                                : interpolateScenarioText(language.uiTexts.scenarioVersion, {
+                                    scenario: activeScenarioLabel,
+                                })}
                         />
                     </div>
                 )}

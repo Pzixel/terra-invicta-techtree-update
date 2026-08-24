@@ -66,9 +66,8 @@ body {
     display: flex;
     gap: 10px;
   
-    width: min(720px, calc(100vw - 40px));
+    width: 420px;
     padding: 10px;
-    z-index: 1001;
 }
 
 
@@ -238,24 +237,16 @@ img {
     width: 100%;
 }
 
-.search-and-scenario {
-    display: grid;
-    grid-template-columns: minmax(220px, 1fr) minmax(250px, 0.85fr);
-    gap: 0.75rem;
-    align-items: start;
+.scenario-status-region {
+    margin-top: 0.45rem;
+    font-size: 0.8rem;
+    line-height: 1.25;
 }
 
-.tech-search {
-    min-width: 0;
-}
-
-.scenario-control {
-    min-width: 0;
-}
-
-.scenario-select-row {
+.scenario-status-line {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 0.5rem;
 }
 
@@ -263,10 +254,9 @@ img {
     min-width: 0;
 }
 
-.dlc-node-legend {
-    margin-top: 0.35rem;
-    font-size: 0.8rem;
-    line-height: 1.2;
+.scenario-status-legend::before {
+    content: "·";
+    margin-right: 0.5rem;
 }
 
 .dlc-node-symbol {
@@ -287,14 +277,16 @@ img {
     margin-bottom: 0.5rem;
 }
 
-.checkboxContainer {
-    margin-top: 1em;
+.search-option-name {
+    min-width: 0;
 }
 
-@media (max-width: 1100px) {
-    .search-and-scenario {
-        grid-template-columns: 1fr;
-    }
+.scenario-marker-chip {
+    margin-left: auto;
+}
+
+.checkboxContainer {
+    margin-top: 1em;
 }
 
 .utility-links {

@@ -3,8 +3,49 @@ import test from 'node:test';
 import { createJiti } from 'jiti';
 
 const jiti = createJiti(import.meta.url);
-const { prepareScenarioView } = await jiti.import('../../src/data/loadScenarioView.ts');
+const {
+  hydrateScenarioBundle,
+  loadScenarioBundle,
+  prepareScenarioView,
+} = await jiti.import('../../src/data/loadScenarioView.ts');
 const { Languages } = await jiti.import('../../src/language.ts');
+
+const sharedScenarioMetaPath =
+  'gamefiles/dark-skies/localization/en/2003 Scenario/TIMetaTemplate.en';
+const sharedScenarioMetaLocalization = `
+TIMetaTemplate.displayName.2003Scenario=Localized 2003
+TIMetaTemplate.displayName.BrokenEarthScenario=Localized Broken Earth
+`;
+
+function scenarioBundleFixtureReader(reads) {
+  return async (relativePath) => {
+    reads.push(relativePath);
+    if (relativePath === 'gamefiles/stable/Templates/TIMetaTemplate.json') {
+      return JSON.stringify([{ dataName: 'ModernScenario', scenarioTags: ['NotPostApoc'] }]);
+    }
+    if (relativePath === 'gamefiles/dark-skies/2003/Templates/TIMetaTemplate.json') {
+      return JSON.stringify([{
+        dataName: '2003Scenario',
+        scenarioTags: ['2003'],
+        scenarioLocalizationPostfix: '.2003',
+      }]);
+    }
+    if (relativePath === 'gamefiles/dark-skies/broken-earth/Templates/TIMetaTemplate.json') {
+      return JSON.stringify([{
+        dataName: 'BrokenEarthScenario',
+        scenarioTags: ['PostApoc'],
+        scenarioLocalizationPostfix: '.BrokenEarth',
+      }]);
+    }
+    if (relativePath.endsWith('.json')) return '[]';
+    if (relativePath === sharedScenarioMetaPath) return sharedScenarioMetaLocalization;
+    if (relativePath === 'gamefiles/stable/Localization/en/TIMetaTemplate.en') {
+      return 'TIMetaTemplate.displayName.ModernScenario=Localized Standard';
+    }
+    if (relativePath.includes('/Localization/') || relativePath.includes('/localization/')) return '';
+    throw new Error(`Unexpected fixture path: ${relativePath}`);
+  };
+}
 
 test('prepared scenario view shares overlay, alias, localization, and collection semantics', () => {
   const baseCollections = {
@@ -85,6 +126,11 @@ TINationTemplate.displayName.KRU=Kru
     { baseCollections, overlayCollections, localizationLayers },
   );
 
+  assert.deepEqual(view.scenarioLabels, {
+    standard: 'Standard',
+    '2003': '2003 Scenario',
+    'broken-earth': 'Broken Earth Localized',
+  });
   assert.equal(view.scenarioName, 'Broken Earth Localized');
   assert.equal(view.techDb.getTechByDataName('CanonicalTech')?.dataName, 'ScenarioTech');
   assert.equal(view.techDb.getTechByDataName('ScenarioProject')?.dlcOnly, true);
@@ -106,4 +152,34 @@ TINationTemplate.displayName.KRU=Kru
     view.appStaticData.localizationDb.getLocalizationString('effect', 'ScenarioEffect', 'description'),
     'Scenario effect description',
   );
+});
+
+test('every generated scenario bundle resolves and includes all scenario labels exactly once', async () => {
+  const expectedLabels = {
+    standard: 'Localized Standard',
+    '2003': 'Localized 2003',
+    'broken-earth': 'Localized Broken Earth',
+  };
+
+  for (const scenario of ['standard', '2003', 'broken-earth']) {
+    const reads = [];
+    const bundle = await loadScenarioBundle(
+      { version: 'stable', scenario, language: 'en' },
+      scenarioBundleFixtureReader(reads),
+      'fixture-snapshot',
+    );
+    const view = hydrateScenarioBundle(bundle, Languages.en);
+
+    assert.equal(bundle.schemaVersion, 1);
+    assert.deepEqual(view.scenarioLabels, expectedLabels);
+    assert.equal(view.scenarioName, expectedLabels[scenario]);
+    assert.equal(reads.filter((path) => path === sharedScenarioMetaPath).length, 1);
+    assert.equal(
+      bundle.localizationLayers
+        .flatMap((layer) => layer.files)
+        .filter((content) => content === sharedScenarioMetaLocalization)
+        .length,
+      1,
+    );
+  }
 });

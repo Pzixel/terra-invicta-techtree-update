@@ -1,12 +1,11 @@
 import { useId } from 'react';
+import Box from '@mui/material/Box';
+import Chip from '@mui/material/Chip';
 import FormControl from '@mui/material/FormControl';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import Select, { type SelectChangeEvent } from '@mui/material/Select';
+import FormLabel from '@mui/material/FormLabel';
 import {
   OrderedScenarios,
-  Scenarios,
-  isScenarioCode,
+  scenarioBadgeColor,
   scenarioDisplayName,
   type Scenario,
   type ScenarioCode,
@@ -36,29 +35,32 @@ export function ScenarioSelector({
 
   const displayName = (scenario: Scenario) => scenarioDisplayName(scenario, scenarioLabels, dlcLabel);
 
-  const handleChange = (event: SelectChangeEvent<ScenarioCode>) => {
-    const nextCode = event.target.value;
-    if (isScenarioCode(nextCode) && nextCode !== value) {
-      onScenarioChange(Scenarios[nextCode]);
-    }
-  };
-
   return (
-    <FormControl className="scenario-selector" size="small" fullWidth={fullWidth} disabled={disabled}>
-      <InputLabel id={labelId}>{label}</InputLabel>
-      <Select<ScenarioCode>
-        labelId={labelId}
-        value={value}
-        label={label}
-        onChange={handleChange}
-        renderValue={(selected) => displayName(Scenarios[selected])}
-      >
+    <FormControl
+      className="scenario-selector"
+      component="fieldset"
+      size="small"
+      fullWidth={fullWidth}
+      disabled={disabled}
+    >
+      <FormLabel component="legend" id={labelId}>{label}</FormLabel>
+      <Box className="scenario-chip-group" role="group" aria-labelledby={labelId}>
         {OrderedScenarios.map((scenario) => (
-          <MenuItem key={scenario.code} value={scenario.code}>
-            {displayName(scenario)}
-          </MenuItem>
+          <Chip
+            key={scenario.code}
+            size="small"
+            color={scenarioBadgeColor(scenario.code)}
+            variant={scenario.code === value ? 'filled' : 'outlined'}
+            label={displayName(scenario)}
+            disabled={disabled}
+            clickable={!disabled}
+            aria-pressed={scenario.code === value}
+            onClick={() => {
+              if (scenario.code !== value) onScenarioChange(scenario);
+            }}
+          />
         ))}
-      </Select>
+      </Box>
     </FormControl>
   );
 }

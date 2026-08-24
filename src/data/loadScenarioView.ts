@@ -1,6 +1,6 @@
 import type { Language } from '../language';
 import JSON5 from 'json5';
-import { Scenarios, type ScenarioCode } from '../scenario';
+import { OrderedScenarios, Scenarios, type ScenarioCode } from '../scenario';
 import {
     getTemplateData,
     LocalizationDb,
@@ -36,6 +36,7 @@ export type LoadedScenarioView = {
     appStaticData: AppStaticData;
     techDb: TechDb;
     aliases: CompiledAliases;
+    scenarioLabels: Record<ScenarioCode, string>;
     scenarioName: string;
 };
 
@@ -72,7 +73,7 @@ export const ScenarioLocalizationLayers: Record<Exclude<ScenarioCode, 'standard'
     '2003': Object.freeze([{
         directory: '2003 Scenario',
         postfix: '.2003',
-        collections: Object.freeze(['effect', 'habmodule', 'meta', 'nation', 'objective', 'project', 'tech', 'trait']),
+        collections: Object.freeze(['effect', 'habmodule', 'nation', 'objective', 'project', 'tech', 'trait']),
     }]),
     'broken-earth': Object.freeze([
         { directory: '2003 Scenario', postfix: '.2003', collections: Object.freeze(['effect']) },
@@ -231,14 +232,17 @@ export function hydrateScenarioBundle(bundle: ScenarioBundle, language: Language
 
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
     const appStaticData: AppStaticData = { templateData, effects, techs, projects, localizationDb };
-    const scenarioName = localizationDb.tryGetReadable('meta', Scenarios[key.scenario].dataName, 'displayName') ??
-        Scenarios[key.scenario].fallbackName;
+    const scenarioLabels = Object.fromEntries(OrderedScenarios.map((scenario) => [
+        scenario.code,
+        localizationDb.tryGetReadable('meta', scenario.dataName, 'displayName') ?? scenario.fallbackName,
+    ])) as Record<ScenarioCode, string>;
     return {
         key,
         appStaticData,
         techDb: new TechDb(techTree as TechTemplate[], combineReferenceAliases(bundle.aliases)),
         aliases: bundle.aliases,
-        scenarioName,
+        scenarioLabels,
+        scenarioName: scenarioLabels[key.scenario],
     };
 }
 
@@ -271,9 +275,15 @@ export async function loadScenarioBundle(
         }));
     }
 
-    const baseLocalization = await Promise.all(Object.values(TemplateTypes).map((filename) =>
-        readText(`${baseRoot}/Localization/${key.language}/${filename}.${key.language}`)
-    ));
+    const [baseLocalization, sharedScenarioLocalization] = await Promise.all([
+        Promise.all(Object.values(TemplateTypes).map((filename) =>
+            readText(`${baseRoot}/Localization/${key.language}/${filename}.${key.language}`)
+        )),
+        readText(
+            `gamefiles/dark-skies/localization/${key.language}/2003 Scenario/` +
+            `${AppTemplateFiles.meta}.${key.language}`
+        ),
+    ]);
     const overlayLocalization = key.scenario === 'standard'
         ? []
         : await Promise.all(ScenarioLocalizationLayers[key.scenario].map(async (layer) => ({
@@ -289,7 +299,11 @@ export async function loadScenarioBundle(
     return compileScenarioBundle(key, {
         baseCollections,
         overlayCollections,
-        localizationLayers: [{ files: baseLocalization, postfix: '' }, ...overlayLocalization],
+        localizationLayers: [
+            { files: baseLocalization, postfix: '' },
+            { files: [sharedScenarioLocalization], postfix: '' },
+            ...overlayLocalization,
+        ],
     }, snapshotId);
 }
 

@@ -2,6 +2,15 @@ import type { GameVersionCode } from './version';
 
 export type ScenarioCode = 'standard' | '2003' | 'broken-earth';
 export type ScenarioQueryCode = Exclude<ScenarioCode, 'standard'>;
+export type ScenarioBadgeColor = 'info' | 'secondary' | 'warning';
+export type ScenarioMarkerKind = 'addition' | 'variant';
+
+export const SCENARIO_MENU_DISCOVERY_KEY = 'terra-invicta.scenario-menu-seen.v1';
+
+export interface ScenarioDiscoveryStorage {
+  getItem?: (key: string) => string | null;
+  setItem?: (key: string, value: string) => unknown;
+}
 
 const ENTITY_DATA_NAME = /^[A-Za-z0-9_-]+$/;
 const NON_ENTITY_PATHS = new Set(['browse', 'dark-skies', 'drives']);
@@ -39,16 +48,134 @@ export const Scenarios: Record<ScenarioCode, Scenario> = {
 export const DefaultScenario = Scenarios.standard;
 export const OrderedScenarios = [Scenarios.standard, Scenarios['2003'], Scenarios['broken-earth']];
 
+export function scenarioBadgeColor(scenario: ScenarioCode): ScenarioBadgeColor {
+  if (scenario === '2003') return 'secondary';
+  if (scenario === 'broken-earth') return 'warning';
+  return 'info';
+}
+
+export function scenarioMarkerColor(
+  kind: ScenarioMarkerKind,
+  scenario: ScenarioCode,
+): ScenarioBadgeColor {
+  return kind === 'addition' ? 'secondary' : scenarioBadgeColor(scenario);
+}
+
+export function scenarioMenuNeedsDiscovery(
+  storage: ScenarioDiscoveryStorage | null | undefined,
+): boolean {
+  try {
+    return storage?.getItem?.(SCENARIO_MENU_DISCOVERY_KEY) !== '1';
+  } catch {
+    return true;
+  }
+}
+
+export function markScenarioMenuDiscovered(
+  storage: ScenarioDiscoveryStorage | null | undefined,
+): void {
+  try {
+    storage?.setItem?.(SCENARIO_MENU_DISCOVERY_KEY, '1');
+  } catch {
+    // Storage can be unavailable in privacy modes. The in-memory UI state still dismisses the badge.
+  }
+}
+
 export function scenarioDisplayName(
   scenario: Scenario,
   scenarioLabels: Partial<Record<ScenarioCode, string>> = {},
   dlcLabel?: string,
 ): string {
-  const scenarioName = scenario.code === 'standard'
-    ? scenario.fallbackName
-    : scenarioLabels[scenario.code] ?? scenario.fallbackName;
+  const scenarioName = scenarioLabels[scenario.code] ?? scenario.fallbackName;
   const scenarioDlcName = scenario.dlcName ? (dlcLabel ?? scenario.dlcName) : null;
   return scenarioDlcName ? `${scenarioName} — ${scenarioDlcName}` : scenarioName;
+}
+
+export function compactScenarioLabel(
+  scenario: Scenario,
+  localizedLabel: string,
+  localizedScenarioWord: string,
+): string {
+  if (scenario.code === 'standard') return localizedLabel;
+
+  const escapedScenarioWord = localizedScenarioWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const withoutScenarioWord = localizedLabel.replace(new RegExp(escapedScenarioWord, 'iu'), '');
+  const compactLabel = withoutScenarioWord
+    .replace(/\u00a0/g, ' ')
+    .replace(/^[\s\-–—:："'«»„“”]+|[\s\-–—:："'«»„“”]+$/gu, '')
+    .replace(/\s+/g, ' ');
+
+  return compactLabel || localizedLabel;
+}
+
+export type ScenarioStatusTemplates = {
+  tree: string;
+  viewingLoading: string;
+  loading: string;
+};
+
+export type ScenarioMarkerPresentation =
+  | { kind: Extract<ScenarioMarkerKind, 'addition'>; chipVariant: 'filled'; graphDiamond: true }
+  | { kind: Extract<ScenarioMarkerKind, 'variant'>; chipVariant: 'outlined'; graphDiamond: false };
+
+export function scenarioMarkerPresentation({
+  dlcOnly,
+  scenarioVariant,
+}: {
+  dlcOnly?: boolean;
+  scenarioVariant?: boolean;
+}): ScenarioMarkerPresentation | null {
+  if (dlcOnly) return { kind: 'addition', chipVariant: 'filled', graphDiamond: true };
+  if (scenarioVariant) return { kind: 'variant', chipVariant: 'outlined', graphDiamond: false };
+  return null;
+}
+
+export function selectScenarioLoadErrorTemplate(
+  hasPreviousView: boolean,
+  templates: {
+    scenarioLoadError: string;
+    scenarioInitialLoadError: string;
+  },
+): string {
+  return hasPreviousView ? templates.scenarioLoadError : templates.scenarioInitialLoadError;
+}
+
+export function interpolateScenarioText(
+  template: string,
+  values: Record<string, string>,
+): string {
+  return Object.entries(values).reduce(
+    (text, [key, value]) => text.replaceAll(`{${key}}`, value),
+    template,
+  );
+}
+
+export function scenarioStatusText({
+  activeScenario,
+  targetScenario,
+  activeLabel,
+  targetLabel,
+  loading,
+  templates,
+}: {
+  activeScenario: ScenarioCode | null;
+  targetScenario: ScenarioCode;
+  activeLabel: string | null;
+  targetLabel: string;
+  loading: boolean;
+  templates: ScenarioStatusTemplates;
+}): string {
+  if ((!activeScenario || !activeLabel) && loading) {
+    return interpolateScenarioText(templates.loading, { target: targetLabel });
+  }
+  if (!activeScenario || !activeLabel) return '';
+  if (loading && activeScenario !== targetScenario) {
+    return interpolateScenarioText(templates.viewingLoading, {
+      active: activeLabel,
+      target: targetLabel,
+    });
+  }
+  return interpolateScenarioText(templates.tree, { scenario: activeLabel });
 }
 
 export function isScenarioCode(value: string | null | undefined): value is ScenarioCode {
