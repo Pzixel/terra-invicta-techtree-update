@@ -302,6 +302,7 @@ export interface ModuleTemplate {
     thrusters?: number;
     thrust_N?: number;
     EV_kps?: number;
+    specificPower_kgMW?: number;
     thrustRating_GW?: string | number;
     "req power"?: string | number;
     driveClassification?: string;

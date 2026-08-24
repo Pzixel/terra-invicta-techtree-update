@@ -8,6 +8,7 @@ import { TechTemplate, Claim, Adjacency, DataModule, TemplateType, ModuleTemplat
 import { TechDb } from './utils/TechDb';
 import { prerequisiteSlots } from './data/scenarioCompiler';
 import { clearResearchProgress, loadResearchProgress, saveResearchProgress } from './utils/researchProgress';
+import { calculateDriveMassTons, hasDriveMass } from './utils/driveMass';
 import type { GameVersionCode } from './version';
 import {
     claimScenarioStartYear,
@@ -606,14 +607,10 @@ export function TechSidebar({
             { key: "req power", label: language.uiTexts.requiredPowerLabel },
             { key: "flatMass_tons", label: language.uiTexts.flatMassLabel },
         ];
-
-        // Filter out flatMass_tons if all drives have zero or undefined values
-        const varyFields = allVaryFields.filter(field => {
-            if (field.key === "flatMass_tons") {
-                return drives.some(d => d.flatMass_tons && d.flatMass_tons !== 0);
-            }
-            return true;
-        });
+        const driveGroupHasMass = hasDriveMass(drives);
+        const varyFields = driveGroupHasMass
+            ? allVaryFields
+            : allVaryFields.filter(field => field.key !== "flatMass_tons");
 
         const getDriveLabel = (drive: ModuleTemplate) => localizationDb.getLocalizationString("drive", drive.dataName, "displayName") ?? drive.friendlyName ?? drive.dataName;
         const getDriveIcon = (drive: ModuleTemplate) => getIcon(drive);
@@ -643,6 +640,12 @@ export function TechSidebar({
                             <th>{language.uiTexts.weightedBuildMaterialsLabel}</th>
                             <td>{renderCostItems(weightedBuildMaterialsCost)}</td>
                         </tr>
+                        {!driveGroupHasMass && (
+                            <tr>
+                                <th>{language.uiTexts.flatMassLabel}</th>
+                                <td>0</td>
+                            </tr>
+                        )}
                         {commonEntries.map(([key, value]) => (
                             <tr key={`common-${key}`}>
                                 <th>{key}</th>
@@ -684,7 +687,9 @@ export function TechSidebar({
                                             );
                                         }
 
-                                        const value = (drive as unknown as Record<string, unknown>)[field.key as string];
+                                        const value = field.key === "flatMass_tons"
+                                            ? calculateDriveMassTons(drive).toLocaleString(locale, { maximumFractionDigits: 6 })
+                                            : (drive as unknown as Record<string, unknown>)[field.key as string];
                                         return (
                                             <div key={`cell-${drive.dataName}-${field.key}`} className="module-drive-matrix-cell">
                                                 {typeof value === "object" ? JSON.stringify(value) : String(value ?? "")}
