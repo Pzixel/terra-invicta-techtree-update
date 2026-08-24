@@ -99,7 +99,7 @@ UI.StartScreen.FailedToLoadSaveDescription=Non è stato possibile caricare il fi
 UI.StartScreen.StartupErrorHeader=Errore di inizializzazione del gioco
 UI.StartScreen.StartupErrorSavePath=Il gioco non ha potuto accedere al percorso della cartella di salvataggio richiesto e non potrà essere avviato. Controlla le autorizzazioni e/o eventuali software di archiviazione cloud (come OneDrive) per assicurarti che il gioco possa leggere e scrivere file nella seguente posizione: <br/><br/>{0}<br/><br/> Per assistenza, invia un'email all'indirizzo support@pavonisinteractive.com<br/><br/>Il software si chiuderà quando premerai il pulsante "OK".
 UI.StartScreen.TutorialDesc=La prima volta consigliamo di giocare vestendo i panni della Resistenza con il tutorial abilitato.
-UI.StartScreen.Credits=Team di sviluppo
+UI.StartScreen.Credits=Riconoscimenti
 UI.StartScreen.Exit=Abbandona la partita
 UI.StartScreen.Skirmish.Begin=AVVIA SCONTRO
 UI.StartScreen.Skirmish.Header=Impostazioni scontro
@@ -187,9 +187,9 @@ UI.StartScreen.CustomizeCampaign.HabConstructionSpeedHumanAITooltip=Controlla la
 UI.StartScreen.CustomizeCampaign.HabConstructionSpeedAlien=Velocità di costruzione di habitat degli alieni
 UI.StartScreen.CustomizeCampaign.HabConstructionSpeedAlienTooltip=Controlla la velocità di costruzione degli alieni per tutti i moduli di habitat.
 UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedPlayer=Velocità di costruzione delle navi del giocatore
-UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedPlayerTooltip=Controlla la velocità di costruzione navale base del giocatore. Non influisce sui tempi di viaggio dalla Terra quando usi il potenziamento.
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedPlayerTooltip=Controlla la velocità di costruzione navale base del giocatore. Non influisce sui tempi di viaggio dalla Terra quando usi la capacità di lancio.
 UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedHumanAI=Velocità di costruzione delle navi dell'IA umana
-UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedHumanAITooltip=Controlla la velocità di costruzione navale base per tutte le fazioni IA umane. Non influisce sui tempi di viaggio dalla Terra quando usi il potenziamento.
+UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedHumanAITooltip=Controlla la velocità di costruzione navale base per tutte le fazioni IA umane. Non influisce sui tempi di viaggio dalla Terra quando usi la capacità di lancio.
 UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedAlien=Velocità di costruzione delle navi degli alieni
 UI.StartScreen.CustomizeCampaign.ShipConstructionSpeedAlienTooltip=Controlla la velocità di costruzione delle navi aliene.
 UI.StartScreen.CustomizeCampaign.CustomStartingNationGroupText=Gruppo di nazioni di partenza
@@ -201,120 +201,84 @@ UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=Nomi di navi piccole
 UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=Nomi di navi medie
 UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=Nomi di navi grandi
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=Nome habitat
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Aggiungi flotta d'assalto aliena
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Aggiunge una flotta aliena aggiuntiva con portaerei d'assalto all'inizio della campagna
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Aggiungi flotta da invasione aliena
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Aggiunge una flotta aliena aggiuntiva con diverse navi da sbarco d'assalto all'inizio della campagna. <h>Questo aumenterà significativamente la difficoltà della campagna e consigliamo la scelta solo a giocatori esperti.</h>
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Predefinite campagna rapida
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=Predefinite campagna lunga
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Impostazioni campagna precedente
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactions=Permetti la disattivazione delle fazioni dell'IA
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactionsTooltip=Consente di rendere inattive alcune fazioni umane controllate dall'IA, se subiscono perdite sufficienti. Ciò può iniziare ad accadere quando i turni dei consiglieri si verificano meno di due volte al mese, e solo se all'inizio della giornata non dispongono di flotte, habitat, consiglieri o punti di controllo. A questo punto la fazione cesserà ogni attività, ma la sua ideologia continuerà a esistere e a contare su dei seguaci.<br/><br/>Alcune fazioni non possono essere disabilitate a causa del loro ruolo fondamentale nella trama: in una partita con tutte le fazioni, i Servitori e il Protettorato sono esclusi da questa eventualità. Inoltre, se il giocatore non sta utilizzando né la Resistenza né Prima gli umani, anche la fazione Prima gli umani risulterà esclusa.
+UI.StartScreen.CustomizeCampaign.Namelist.Heroes=Eroi
+UI.StartScreen.CustomizeCampaign.Namelist.Qualities=Qualità
+UI.StartScreen.CustomizeCampaign.Namelist.Battles=Battaglie
+UI.StartScreen.CustomizeCampaign.Namelist.Commanders=Comandanti
+UI.StartScreen.CustomizeCampaign.Namelist.Weapons=Armi
+UI.StartScreen.CustomizeCampaign.Namelist.Fighters=Combattenti
+UI.StartScreen.CustomizeCampaign.Namelist.Scary=Spaventosi
+UI.StartScreen.CustomizeCampaign.Namelist.Mountains=Montagne
+UI.StartScreen.CustomizeCampaign.Namelist.WaterAnimals=Animali acquatici
+UI.StartScreen.CustomizeCampaign.Namelist.Rivers=Fiumi
+UI.StartScreen.CustomizeCampaign.Namelist.WaterBodies=Corpi idrici
+UI.StartScreen.CustomizeCampaign.Namelist.Explorers=Esploratori
+UI.StartScreen.CustomizeCampaign.Namelist.MythicalBeasts=Bestie mitologiche
+UI.StartScreen.CustomizeCampaign.Namelist.Phenomena=Fenomeni
+UI.StartScreen.CustomizeCampaign.Namelist.Mythology=Mitologia
+UI.StartScreen.CustomizeCampaign.Namelist.Monuments=Monumenti
+UI.StartScreen.CustomizeCampaign.Namelist.Cities=Città
+UI.StartScreen.CustomizeCampaign.Namelist.Regions=Regioni
+UI.StartScreen.CustomizeCampaign.Namelist.Landmasses=Masse continentali
+UI.StartScreen.CustomizeCampaign.Namelist.Leaders=Leader
+UI.StartScreen.CustomizeCampaign.Namelist.LandAnimals=Animali di terra
+UI.StartScreen.CustomizeCampaign.Namelist.Scientists=Scienziati
+UI.StartScreen.CustomizeCampaign.Namelist.Exploration=Esplorazione
+UI.StartScreen.CustomizeCampaign.Namelist.Exemplars=Esemplari
+UI.StartScreen.CustomizeCampaign.Namelist.AirAnimals=Animali volanti
+UI.StartScreen.CustomizeCampaign.Namelist.Astronomy=Astronomia
+UI.StartScreen.CustomizeCampaign.Namelist.FamousShips=Navi famose
+UI.StartScreen.CustomizeCampaign.Namelist.Astronauts=Astronauti
+UI.StartScreen.CustomizeCampaign.Namelist.AlienNature=Natura aliena
+UI.StartScreen.CustomizeCampaign.Namelist.AlienCelestial=Celestiale alieno
+UI.StartScreen.CustomizeCampaign.Namelist.AlienConcepts=Concetti alieni
+UI.StartScreen.CustomizeCampaign.Namelist.AlienMilitant=Militante alieno
 UI.StartScreen.Cancel=Annulla
 UI.StartScreen.FactionDescription={0}<br/>Difficoltà fazione: {1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=Patch notes
+UI.StartScreen.CallToAction00=Disponibile ora!
 UI.StartScreen.TranslationWarning=Ti diamo il benvenuto alla versione di Terra Invicta in accesso anticipato!<br/><br/>Siamo in fase di revisione delle versioni linguistiche diverse dall'inglese e di verifica dei testi nel gioco. Pertanto nella versione in accesso anticipato potresti ancora imbatterti in qualche errore, incoerenza terminologica, testo in inglese o altre piccole sviste linguistiche. Ci stiamo lavorando con dedizione, ma tieni presente che Terra Invicta contiene un volume di parole assimilabile a quello di un paio di romanzi almeno, quindi ci vorrà un po' di tempo per rivedere tutto.<br/><br/>Siamo felici di sapere che hai voglia di provare il nostro gioco in accesso anticipato: sappi che ci impegneremo a renderlo ogni giorno migliore!
 UI.StartScreen.GamepassWarning=Terra Invicta è disponibile in accesso anticipato. Per questo motivo, alcune caratteristiche del gioco o della piattaforma potrebbero non funzionare come previsto e si potrebbero verificare bug e/o crash. Per ottenere assistenza, invia un'e-mail a support@pavonisinteractive.com<br/><br/>Anche i salvataggi nel cloud potrebbero non funzionare correttamente. Se hai bisogno di accedervi, li troverai in C:\Utenti\ILTUONOME\Documenti\Giochi\TerraInvicta\Salvataggi o %homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\
 //<Developer> Credits
-UI.StartScreen.TICredits_0=TERRA INVICTA<br/><br/>
-UI.StartScreen.TICredits_1=UNA CREAZIONE DI<br/>Pavonis Interactive<br/><br/>
-UI.StartScreen.TICredits_2=PUBBLICATO DA<br/>Hooded Horse<br/><br/>
-UI.StartScreen.TICredits_3=DIRETTORE CREATIVO<br/>John J. Lumpkin<br/><br/>
-UI.StartScreen.TICredits_4=DIRETTORE ARTISTICO<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=SVILUPPATORI<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Benjamin Poland<br/>Ryan Dunagan<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=CAPO PRODUTTORE<br/>Tim Bender<br/><br/>PRODUTTORE<br/>Scott Davis<br/><br/>
-UI.StartScreen.TICredits_7=ARTISTA DI PERSONAGGI E 2D<br/>Michael Moore<br/><br/>
-UI.StartScreen.TICredits_8=ILLUSTRATORI<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
-UI.StartScreen.TICredits_9=ARTISTA TECNICO<br/>Zack Dawson<br/><br/>
-UI.StartScreen.TICredits_10=GURU DELLA IU<br/>Josh Atkinson<br/><br/>
-UI.StartScreen.TICredits_11=ARTISTA 2D/3D<br/>Anthony Dillo<br/><br/>
-UI.StartScreen.TICredits_12=COMPOSITORI MUSICALI<br/>Patrick Delaney<br/>Dennis Meyer<br/>Breakdown Epiphanies<br/><br/>
-UI.StartScreen.TICredits_13=AUDIO DESIGNER<br/>Zabi Khan<br/><br/>
-UI.StartScreen.TICredits_14=SCENEGGIATORI<br/>Alec Meer<br/>Benedict Jacka<br/>Arturo Ferreira<br/>Cara Laasch<br/><br/>
-UI.StartScreen.TICredits_15=CREATORI DEL CONTENT<br/>Tayta Malikai<br/>David Ballantyne<br/><br/>
-UI.StartScreen.TICredits_16=COORDINATORE PRODUZIONE<br/>Shannon Sindorf<br/><br/>
-UI.StartScreen.TICredits_17=ALTRI SVILUPPATORI<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Zach Parsons<br/>Amineri<br/><br/>
-UI.StartScreen.TICredits_18=PRODUTTORI ESECUTIVI<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Pottenger<br/>Xavier Wynns<br/><br/>
+
 
 //<AP> Credits + Messages
 
-UI.StartScreen.TICredits_19=PRODUTTORI ASSOCIATI<br/><br/>
-UI.StartScreen.TICredits_20=Rachel Dilger<br/><br/>
-UI.StartScreen.TICredits_21=<skip/>
-UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
-UI.StartScreen.TICredits_23="Sii umile, perché sei fatto di terra. Sii nobile, perché sei fatto di stelle."<br/><br/>
-UI.StartScreen.TICredits_24=Martti Aarnio-Wihuri<br/><br/>
-UI.StartScreen.TICredits_25=<skip/>
-UI.StartScreen.TICredits_26=John O. e Eileen Lumpkin<br/>
-UI.StartScreen.TICredits_27="Da una cabina di pilotaggio sul Pacifico della seconda guerra mondiale ai mondi futuri nelle stelle: un viaggio in famiglia."<br/><br/>
-UI.StartScreen.TICredits_28=Jack Peterson<br/>
-UI.StartScreen.TICredits_29="Cura l'invecchiamento o muori provandoci."<br/><br/>
-UI.StartScreen.TICredits_30=Schinhofen Books<br/>
-UI.StartScreen.TICredits_31="Leggere è un altro modo di fuggire."<br/><br/>
-UI.StartScreen.TICredits_32=Florian Ossiander<br/><br/>
-UI.StartScreen.TICredits_33=<skip/>
-UI.StartScreen.TICredits_34=Jeffrey Lee Henninger<br/>
-UI.StartScreen.TICredits_35="L'universo premia chi osa."<br/><br/>
-UI.StartScreen.TICredits_36=Stardust<br/>"Scegli l'energia solare."<br/><br/>
-UI.StartScreen.TICredits_37=Stefano de Stefano<br/>"Non possiamo risolvere i nostri problemi pensando alla stessa maniera in cui li abbiamo creati."<br/><br/>
-UI.StartScreen.TICredits_38=Sean Hassan<br/>"La vera sfida è vivere la vita senza farsi illusioni, ma senza diventare persone disilluse."<br/><br/>
-UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>"Ciò che facciamo ora davanti a crisi continue, siano esse guerre, disastri o cambiamenti climatici, avrà un effetto e determinerà il destino dell'umanità. Grazie allo spazio e alla tecnologia, potremmo ancora trovare la risposta queste sfide esistenziali."<br/><br/><br/>
+
 
 //<VA> Credits
 
-UI.StartScreen.TICredits_40=- VOCI -<br/>
-UI.StartScreen.TICredits_41=Fiona Ayoade -<sp>
-UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
-UI.StartScreen.TICredits_43=Judith Howell -<sp>
-UI.StartScreen.TICredits_44=Zura Johnson<br/><br/>
-UI.StartScreen.TICredits_45=Soren Van Wyk -<sp>
-UI.StartScreen.TICredits_46=Etienne Durandt<br/><br/>
-UI.StartScreen.TICredits_47=Khalid Al-Ashgar -<sp>
-UI.StartScreen.TICredits_48=Erik Ransom<br/><br/>
-UI.StartScreen.TICredits_49=Li Qingzhao -<sp>
-UI.StartScreen.TICredits_50=Christina Ho<br/><br/>
-UI.StartScreen.TICredits_51=Hanse Castillo -<sp>
-UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
-UI.StartScreen.TICredits_53=Kiran Banerjee -<sp>
-UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
 
-UI.StartScreen.TICredits_55=- VOCI CONSIGLIERI -<br/>
-UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton T<br/>Jim Lenaway • Andy Mack<br/>Mike Apgar • Damon Alums<br/>Josephine Croft • Les Horovitz<br/>Heidi Kwiat • Ian Phillips<br/>Helen Clapp • Lizzie Crow<br/>Sophie Roberts • Steven Kelly<br/>Thom Welham • Conor James<br/>Mohita Namjoshi • Mamta Gurnani<br/>Vikram Rawat • Gagan Pathak<br/>Jenny Fennessy • Alan Kelly<br/>Diana Silva • Anita Lauren<br/>Carlos Cerrato • Fernando Macias Jimenez<br/>Marina Kalmykova • Sebastian Agner<br/>Gaelle Gosselin • Jesse Meiring<br/>Mhairi Morrison • Kieran Flitton<br/>Lina Sinuan • Val Cheah<br/>Hagen Valerio • Jati Andito<br/>Ore Apampa • Uzy Hamman<br/>Rachel Oladejo • Jonathan Mabote<br/>Jonathan Brandt • Nadia Cavelle<br/>Christian Michalak • Sonja Palmu<br/>Sarí AK • Mona Saadeh<br/>Loay Al-Hakimi • Silina Choueiry<br/><br/>
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57=CONTROLLO QUALITÀ<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah<br/><br/>
-UI.StartScreen.TICredits_58=RINGRAZIAMENTI<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/><br/>
+
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>
-UI.StartScreen.TICredits_60=DIRETTORE ESECUTIVO<br/>Tim Bender<br/><br/>
-UI.StartScreen.TICredits_61=DIRETTORE FINANZIARIOE CONSULENTE GENERALE<br/>Snow Rui<br/><br/>
-UI.StartScreen.TICredits_62=RESPONSABILE DI PRODOTTO<br/>Ashkan Namousi<br/><br/>
-UI.StartScreen.TICredits_63=CONSULENTE<br/>Shams Jorjani<br/><br/>
-UI.StartScreen.TICredits_64=DIRETTORE DELLA COMUNICAZIONE<br/>Joe Robinson<br/><br/>RESPONSABILE DELLA COMUNICAZIONE<br/>Marcello Perricone<br/><br/>
-UI.StartScreen.TICredits_65=RESPONSABILE INFLUENCER<br/>Antony "HForHavoc" Floyd<br/><br/>
-UI.StartScreen.TICredits_66=MANAGER INFLUENCER ASSOCIATI<br/>Shaun "BearlyTactical" Ginty<br/>Noris "komakrtv" Merk<br/><br/>
-UI.StartScreen.TICredits_67=CONSULENTI DI MARKETING<br/>PartyElite<br/>Tsukiha Shirakusu<br/>Caketown Interactive<br/>Filip Sirc<br/><br/>
-UI.StartScreen.TICredits_68=PRODUTTORI TRAILER<br/>Slavic Magic<br/>Grzegorz Styczen<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_69=RESPONSABILI DELLE RELAZIONI PUBBLICHE<br/>Vicarious PR<br/>Michael Brown<br/>Lewis Burnell<br/>Matt Brown<br/><br/>
-UI.StartScreen.TICredits_70=COORDINATORE DELLA LOCALIZZAZIONE<br/>Miguel David Medina García<br/><br/>
-UI.StartScreen.TICredits_71=PROFESSIONISTI DELLA LOCALIZZAZIONE<br/>Roboto Global<br/>EC Innovations<br/>Brenda Triandafeledis<br/>Laura Nieves Díaz Suárez<br/>Carlota Marie Dávila Santana<br/>Marta Medina González<br/>Wenwei Jiang<br/>Yuki Fujita<br/>Terra Invicta Chinese Fan Localization Group<br/><br/>
-UI.StartScreen.TICredits_72=RINGRAZIAMENTI SPECIALI<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D'Arcy<br/><br/>
-UI.StartScreen.TICredits_73=PICCOLI DEGLI SVILUPPATORI<br/>Théodore<br/>Carmen Rose<br/><br/>
+
 
 //<Contributing Backers> Credits
-UI.StartScreen.TICredits_74=CONTRIBUTORI CREATIVI SU KICKSTARTER<br/>
+
 
 
 //<Playtester> Credits
-UI.StartScreen.TICredits_105=KICKSTARTER
-UI.StartScreen.TICredits_106= TESTER DEL GIOCO<br/>
+
 
 
 //<Backers> Credits
-UI.StartScreen.TICredits_393=<br/>SOSTENITORI SU KICKSTARTER<br/>
 
-UI.StartScreen.TICredits_1337=SOFTWARE<br/><br/>Creato con Unity<br/><br/>Creato con FMOD Studio<br/>di Firelight Technologies Limited<br/><br/>
-UI.StartScreen.TICredits_1338=Molti loghi di aziende private fittizie presenti nel gioco sono stati realizzati per gentile concessione di LogoLogo.com.<br/>L'uso di loghi di agenzie governative in quest'opera non implica l'endorsement di tali agenzie.<br/><br/>
-UI.StartScreen.TICredits_1339=Alcune foto utilizzate come base per le immagini di sfondo dei consiglieri sono una gentile concessione della NASA.
-UI.StartScreen.TICredits_1340=Autore di Una storia tra due città... Charles Dickens
+
+UI.StartScreen.TICredits_1347=SOFTWARE<br/><br/>Creato con Unity<br/><br/>Creato con FMOD Studio<br/>di Firelight Technologies Limited<br/><br/>
+UI.StartScreen.TICredits_1348=Molti loghi di aziende private fittizie presenti nel gioco sono stati realizzati per gentile concessione di LogoLogo.com.<br/>L'uso di loghi di agenzie governative in quest'opera non implica l'endorsement di tali agenzie.<br/><br/>
+UI.StartScreen.TICredits_1349=Alcune foto utilizzate come base per le immagini di sfondo dei consiglieri sono una gentile concessione della NASA.
+UI.StartScreen.TICredits_1350=AUTORE DI UNA STORIA TRA DUE CITTÀ<br/>Charles Dickens

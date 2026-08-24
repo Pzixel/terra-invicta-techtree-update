@@ -99,7 +99,7 @@ UI.StartScreen.FailedToLoadSaveDescription=Не удалось загрузит�
 UI.StartScreen.StartupErrorHeader=Ошибка инициализации игры
 UI.StartScreen.StartupErrorSavePath=Запуск невозможен: нет доступа к папке с сохраненными играми. Убедитесь, что системные разрешения и/или программы облачного хранения (например, OneDrive) позволяют игре читать и записывать файлы в следующей папке: <br/><br/>{0}<br/><br/>В службу поддержки обращайтесь по электронной почте support@pavonisinteractive.com<br/><br/>Щелкните кнопку ОК, и программа завершит работу.
 UI.StartScreen.TutorialDesc=Для первого прохождения игры рекомендуется выбрать фракцию "Сопротивление" и включить режим обучения.
-UI.StartScreen.Credits=Разработчики
+UI.StartScreen.Credits=В создании игры участвовали
 UI.StartScreen.Exit=Выход из игры
 UI.StartScreen.Skirmish.Begin=НАЧАТЬ СХВАТКУ
 UI.StartScreen.Skirmish.Header=Параметры схватки
@@ -201,118 +201,84 @@ UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=Названия ма�
 UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=Названия средних кораблей
 UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=Названия больших кораблей
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=Названия блоков
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Штурмовой флот пришельцев
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Добавление инопланетного флота со штурмовыми авианосцами в начале кампании.
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Флот вторжения пришельцев
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Добавление инопланетного флота со штурмовыми авианосцами в начале кампании. <h>Этот параметр существенно повышает сложность кампании. Включать его рекомендуется только опытным игрокам.</h>
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=По умолчанию: ускоренная кампания
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=По умолчанию: долгая кампания
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Настройки прошлой кампании
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactions=Отключение фракций ИИ
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactionsTooltip=Получив значительный ущерб, некоторые человеческие фракции, управляемые ИИ, могут перейти в "спящее" состояние. Это может случится только тогда, когда фазы заданий происходят реже двух раз в месяц, и только если у фракции нет флотов, блоков, советников и точек контроля в начале дня. При этом фракция прекращает любые активные действия, но ее идеология продолжает существовать и иметь последователей.<br/><br/>Некоторые фракции не могут быть отключены из-за их ключевой роли в сюжете. В играх с полным составом фракций это "Слуги" и "Протекторат", а также "Сила человечества" в случае, если игрок не управляет ей или "Сопротивлением".
+UI.StartScreen.CustomizeCampaign.Namelist.Heroes=Герои
+UI.StartScreen.CustomizeCampaign.Namelist.Qualities=Качества
+UI.StartScreen.CustomizeCampaign.Namelist.Battles=Битвы
+UI.StartScreen.CustomizeCampaign.Namelist.Commanders=Командиры
+UI.StartScreen.CustomizeCampaign.Namelist.Weapons=Орудия
+UI.StartScreen.CustomizeCampaign.Namelist.Fighters=Истребители
+UI.StartScreen.CustomizeCampaign.Namelist.Scary=Страхи
+UI.StartScreen.CustomizeCampaign.Namelist.Mountains=Горы
+UI.StartScreen.CustomizeCampaign.Namelist.WaterAnimals=Водная фауна
+UI.StartScreen.CustomizeCampaign.Namelist.Rivers=Реки
+UI.StartScreen.CustomizeCampaign.Namelist.WaterBodies=Водоемы
+UI.StartScreen.CustomizeCampaign.Namelist.Explorers=Путешественники
+UI.StartScreen.CustomizeCampaign.Namelist.MythicalBeasts=Мифические животные
+UI.StartScreen.CustomizeCampaign.Namelist.Phenomena=Явления природы
+UI.StartScreen.CustomizeCampaign.Namelist.Mythology=Мифология
+UI.StartScreen.CustomizeCampaign.Namelist.Monuments=Памятники
+UI.StartScreen.CustomizeCampaign.Namelist.Cities=Города
+UI.StartScreen.CustomizeCampaign.Namelist.Regions=Регионы
+UI.StartScreen.CustomizeCampaign.Namelist.Landmasses=Материки
+UI.StartScreen.CustomizeCampaign.Namelist.Leaders=Правители
+UI.StartScreen.CustomizeCampaign.Namelist.LandAnimals=Сухопутная фауна
+UI.StartScreen.CustomizeCampaign.Namelist.Scientists=Ученые
+UI.StartScreen.CustomizeCampaign.Namelist.Exploration=Исследования
+UI.StartScreen.CustomizeCampaign.Namelist.Exemplars=Образцы
+UI.StartScreen.CustomizeCampaign.Namelist.AirAnimals=Воздушная фауна
+UI.StartScreen.CustomizeCampaign.Namelist.Astronomy=Астрономия
+UI.StartScreen.CustomizeCampaign.Namelist.FamousShips=Знаменитые корабли
+UI.StartScreen.CustomizeCampaign.Namelist.Astronauts=Космонавты
+UI.StartScreen.CustomizeCampaign.Namelist.AlienNature=Инопланетная природа
+UI.StartScreen.CustomizeCampaign.Namelist.AlienCelestial=Инопланетная астрономия
+UI.StartScreen.CustomizeCampaign.Namelist.AlienConcepts=Инопланетные концепции
+UI.StartScreen.CustomizeCampaign.Namelist.AlienMilitant=Инопланетная агрессия
 UI.StartScreen.Cancel=Отмена
 UI.StartScreen.FactionDescription={0}<br/>Сложность для фракции: {1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=Описание обновления
+UI.StartScreen.CallToAction00=Уже в доступе!
 UI.StartScreen.TranslationWarning=Добро пожаловать в версию Terra Invicta для раннего доступа!<br/><br/>Игровые тексты на всех языках, кроме английского, сейчас вычитываются дополнительными переводчиками и тестируются в игре. В этой версии они могут содержать грамматические ошибки, нарушения терминологии, непереведенные фрагменты и другие проблемы лингвистического характера. Мы постараемся исправить их как можно скорее, но эта работа потребует времени, так как по объему текстов Terra Invicta сравнима с несколькими романами.<br/><br/>Спасибо, что решили опробовать нашу игру в период раннего доступа. Мы продолжим работу над ее улучшением!
 UI.StartScreen.GamepassWarning=Это предварительная версия Terra Invicta. Некоторые функции могут работать не так, как задумано, а в процессе игры вы, вероятно, столкнетесь с ошибками и сбоями. За поддержкой обращайтесь по адресу support@pavonisinteractive.com.<br/><br/>Сохранение в "облаке" может функционировать нестабильно. При неполадках ищите файлы сохраненных игр в папке C:\Users\YOURNAME\Documents\My Games\TerraInvicta\Saves или %homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\
 //<Developer> Credits
-UI.StartScreen.TICredits_0=TERRA INVICTA<br/><br/>
-UI.StartScreen.TICredits_1=- РАЗРАБОТЧИК -<br/>Pavonis Interactive<br/><br/>
-UI.StartScreen.TICredits_2=- ИЗДАТЕЛЬ -<br/>Hooded Horse<br/><br/>
-UI.StartScreen.TICredits_3=- ТВОРЧЕСКИЙ ДИРЕКТОР -<br/>Джон Дж. Лампкин<br/><br/>
-UI.StartScreen.TICredits_4=- АРТ-ДИРЕКТОР -<br/>Франсуа-Оливье Беллотто<br/><br/>
-UI.StartScreen.TICredits_5=- РАЗРАБОТЧИКИ -<br/>Джон Карузо<br/>Кевин Уолл<br/>"Тау Кита" Дайхманн<br/>Бенджамин Поланд<br/>Райан Данаган<br/>Кристина Стиллмэн<br/><br/>
-UI.StartScreen.TICredits_6=- ВЕДУЩИЙ ПРОДЮСЕР -<br/>Тим Бендер<br/><br/>ПРОДЮСЕР<br/>Скотт Дэвис<br/><br/>
-UI.StartScreen.TICredits_7=- ХУДОЖНИК ПО ПЕРСОНАЖАМ И 2D-ГРАФИКЕ -<br/>Майкл Мур<br/><br/>
-UI.StartScreen.TICredits_8=- ИЛЛЮСТРАТОРЫ -<br/>Дана Хендерсон<br/>Эрик Эрнандес Анда<br/><br/>
-UI.StartScreen.TICredits_9=- ТЕХНИЧЕСКИЙ ХУДОЖНИК -<br/>Зак Доусон<br/><br/>
-UI.StartScreen.TICredits_10=- ГУРУ ИНТЕРФЕЙСА -<br/>Джош Аткинсон<br/><br/>
-UI.StartScreen.TICredits_11=- ХУДОЖНИК ПО 3D/2D-ГРАФИКЕ -<br/>Энтони Дилло<br/><br/>
-UI.StartScreen.TICredits_12=- КОМПОЗИТОРЫ -<br/>Патрик Делэйни<br/>Деннис Мейер<br/>Breakdown Epiphanies<br/><br/>
-UI.StartScreen.TICredits_13=- АУДИОДИЗАЙНЕР -<br/>Заби Хан<br/><br/>
-UI.StartScreen.TICredits_14=- СЦЕНАРИСТЫ -<br/>Алек Миир<br/>Бенедикт Джакка<br/>Артуро Феррейра<br/>Кара Лааш<br/><br/>
-UI.StartScreen.TICredits_15=- КОНТЕНТ-ДИЗАЙНЕРЫ -<br/>Тайта Маликаи<br/>Дэвид Бэллэнтайн<br/><br/>
-UI.StartScreen.TICredits_16=- КООРДИНАТОР ПРОИЗВОДСТВА -<br/>Шэннон Синдорф<br/><br/>
-UI.StartScreen.TICredits_17=- ДОПОЛНИТЕЛЬНЫЕ РАЗРАБОТЧИКИ -<br/>Томас Прайд<br/>Кристиан Потвин<br/>Джон Хиллмэн<br/>Кинг Робертсон<br/>Крис Бертиен<br/>Зак Парсонс<br/>Аминери<br/><br/>
-UI.StartScreen.TICredits_18=- ИСПОЛНИТЕЛЬНЫЕ ПРОДЮСЕРЫ -<br/>Тим Бендер<br/>Чэнхун Хуан<br/>Аарон Нэйтан<br/>Стив Поттенгер<br/>Хавьер Уиннз<br/><br/>
+
 
 //<AP> Credits + Messages
 
-UI.StartScreen.TICredits_19=- ПОМОЩНИКИ ПРОДЮСЕРОВ -<br/><br/>
-UI.StartScreen.TICredits_20=Рэйчел Дилджер<br/>--<br/>
-UI.StartScreen.TICredits_21=<skip/>
-UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
-UI.StartScreen.TICredits_23="Будь скромен, ибо ты сделан из земли. Будь благороден, ибо ты сделан из звезд".<br/>--<br/>
-UI.StartScreen.TICredits_24=Мартти Арнио-Вихури<br/>--<br/>
-UI.StartScreen.TICredits_25=<skip/>
-UI.StartScreen.TICredits_26=Джон О. и Эйлин Лампкин<br/>
-UI.StartScreen.TICredits_27="Из кабины истребителя над Тихим океаном в звездные миры будущего – семейное путешествие".<br/>--<br/>
-UI.StartScreen.TICredits_28=Джек Питерсон<br/>
-UI.StartScreen.TICredits_29="Вылечись от старости или умри, пытаясь".<br/>--<br/>
-UI.StartScreen.TICredits_30=Schinhofen Books<br/>
-UI.StartScreen.TICredits_31="Чтение – еще один способ бегства".<br/>--<br/>
-UI.StartScreen.TICredits_32=Флориан Оссиандер<br/>--<br/>
-UI.StartScreen.TICredits_33=<skip/>
-UI.StartScreen.TICredits_34=Джеффри Ли Хеннингер<br/>
-UI.StartScreen.TICredits_35="Вселенная ждет смелых".<br/>--<br/>
-UI.StartScreen.TICredits_36=Stardust<br/>"Go with the Solar Wind".<br/>--<br/>
-UI.StartScreen.TICredits_37=Стефано де Стефано<br/>"Проблемы нельзя решить на том же уровне мышления, который создал их".<br/>--<br/>
-UI.StartScreen.TICredits_38=Шон Хассан<br/>"Самое сложное – жить без иллюзий, не впадая в разочарование".<br/>--<br/>
-UI.StartScreen.TICredits_39=Артур Дж. Сайментал, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>"Наши реакции на постоянно сменяющиеся кризисы – например, войны, стихийные бедствия или изменения климата, – поднимают волны во времени и определяют судьбу человечества. Благодаря космосу и технологиям мы, возможно, еще найдем спасителя от этих экзистенциальных угроз".<br/><br/><br/>
+
 
 //<VA> Credits
 
-UI.StartScreen.TICredits_40= - РОЛИ ОЗВУЧИВАЛИ -<br/>
-UI.StartScreen.TICredits_41=Фиона Айоаде -<sp>
-UI.StartScreen.TICredits_42=Фара Ахмет<br/><br/>
-UI.StartScreen.TICredits_43=Джудит Хауэлл -<sp>
-UI.StartScreen.TICredits_44=Зура Джонсон<br/><br/>
-UI.StartScreen.TICredits_45=Сорен ван Вейк -<sp>
-UI.StartScreen.TICredits_46=Этьенн Дюран<br/><br/>
-UI.StartScreen.TICredits_47=Халид аль-Ашгар -<sp>
-UI.StartScreen.TICredits_48=Эрик Рэнсом<br/><br/>
-UI.StartScreen.TICredits_49=Ли Цинчжао -<sp>
-UI.StartScreen.TICredits_50=Кристина Хоу<br/><br/>
-UI.StartScreen.TICredits_51=Хансе Кастильо -<sp>
-UI.StartScreen.TICredits_52=Мэттью Поллино<br/><br/>
-UI.StartScreen.TICredits_53=Киран Банерджи -<sp>
-UI.StartScreen.TICredits_54=Хариш Бхимани<br/><br/>
 
-UI.StartScreen.TICredits_55= - ГОЛОСА СОВЕТНИКОВ -<br/>
-UI.StartScreen.TICredits_56=Тамара Райан • Рошель Чиан<br/>Сандра Озборн • Китон Ти<br/>Джим Ленэвей • Энди Мэк<br/>Майк Эпгар • Дэймон Эламз<br/>Жозефина Крофт • Лес Горовиц<br/>Хейди Квят • Иэн Филлипс<br/>Хелен Клэпп • Лиззи Кроу<br/>Софи Робертс • Стивен Келли<br/>Том Уелхем • Конор Джеймс<br/>Мохита Намдзоси • Мамта Гурнани<br/>Викрам Рават • Гаган Патак<br/>Дженни Феннеси • Алан Келли<br/>Диана Силва • Анита Лорен<br/>Карлос Серрато • Фернандо Масиас Хименес<br/>Марина Калмыкова • Себастьян Агнер<br/>Гаэль Госселан • Джесс Мейринг<br/>Мхаири Моррисон • Киран Флиттон<br/>Лина Синуан • Вэл Чи<br/>Хаген Валерио • Джати Андито<br/>Оре Апампа • Узи Хамман<br/>Рэйчел Оладехо • Джонатан Маботе<br/>Джонатан Брандт • Надия Кавелль<br/>Кристиан Михалак • Соня Палму<br/>Сари АК • Мона Сааде<br/>Лоай аль-Хакими • Силина Шуэйри<br/><br/>
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57= - ЗВЕЗДЫ ТЕСТИРОВАНИЯ -<br/>Тим Эванс<br/>Мэтт Прайс<br/>Nodnerb<br/>Redwah<br/><br/>
-UI.StartScreen.TICredits_58=БЛАГОДАРНОСТИ<br/>Кенни Андерсон<br/>Аллан Флойд<br/>Кен Бернсайд<br/>Жоао Паоло Си<br/>Уинчелл Чун<br/>Тимоти Холт<br/>Крис Мэнселл<br/>Майкл Ричардсон<br/>Сара Уотт<br/>Грациано Верницци<br/>The ToughSF Discord<br/><br/><br/>
+
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>
-UI.StartScreen.TICredits_60= - ГЕНЕРАЛЬНЫЙ ДИРЕКТОР -<br/>Тим Бендер<br/><br/>
-UI.StartScreen.TICredits_61= - ФИНАНСОВЫЙ ДИРЕКТОРИ ГЛАВНЫЙ ЮРИСТ -<br/>Сноу Руи<br/><br/>
-UI.StartScreen.TICredits_62= - ПРОИЗВОДСТВЕННЫЙ ДИРЕКТОР -<br/>Ашкан Намоуси<br/><br/>
-UI.StartScreen.TICredits_63= - КОНСУЛЬТАНТ -<br/>Шемс Джорджани<br/><br/>
-UI.StartScreen.TICredits_64= - ДИРЕКТОР ПО СВЯЗЯМ -<br/>Джо Робинсон<br/><br/>МЕНЕДЖЕР ПО СВЯЗЯМ<br/>Марчелло Перриконе<br/><br/>
-UI.StartScreen.TICredits_65= - МЕНЕДЖЕР ПО СОЦСЕТЯМ -<br/>Энтони Флойд, "HForHavoc"<br/><br/>
-UI.StartScreen.TICredits_66= - АССИСТЕНТЫ МЕНЕДЖЕРА ПО СОЦСЕТЯМ -<br/>Шон Джинти, "BearlyTactical"<br/>Норис Мерк, "komakrtv"<br/><br/>
-UI.StartScreen.TICredits_67= - КОНСУЛЬТАНТЫ ПО МАРКЕТИНГУ -<br/>PartyElite<br/>Цукиха Сиракусу<br/>Caketown Interactive<br/>Филип Сирк<br/><br/>
-UI.StartScreen.TICredits_68= - ПРОДЮСЕРЫ ТРЕЙЛЕРА -<br/>Slavic Magic<br/>Гжегож Стичен<br/>Патриция Гдула<br/><br/>
-UI.StartScreen.TICredits_69= - МЕНЕДЖЕРЫ ПО СВЯЗЯМ С ОБЩЕСТВЕННОСТЬЮ -<br/>Vicarious PR<br/>Майкл Браун<br/>Льюис Бернелл<br/>Мэтт Браун<br/><br/>
-UI.StartScreen.TICredits_70= - КООРДИНАТОР ЛОКАЛИЗАЦИИ -<br/>Мигель Давид Медина Гарсия<br/><br/>
-UI.StartScreen.TICredits_71= - ЛОКАЛИЗАТОРЫ -<br/>Roboto Global<br/>EC Innovations<br/>Бренда Триандафеледис<br/>Лаура Ниевес Диас Суарес<br/>Карлота Мария Давила Сантана<br/>Марта Медина Гонзалес<br/>Вэньвэй Цзян<br/>Юки Фудзита<br/>Локализационная группа китайских поклонников Terra Invicta<br/><br/>
-UI.StartScreen.TICredits_72=БЛАГОДАРНОСТИ<br/>Аарон Нэйтан<br/>Мартти Арнио-Вихури<br/>Тодд Д'Арси<br/><br/>
-UI.StartScreen.TICredits_73= - ДЕТИ, РОЖДЕННЫЕ В ХОДЕ РАЗРАБОТКИ! -<br/>Теодор<br/>Кармен Роуз<br/><br/>
+
 
 //<Contributing Backers> Credits
-UI.StartScreen.TICredits_74= - ТВОРЧЕСКИЙ ВКЛАД НА KICKSTARTER -<br/>
+
+
 
 //<Playtester> Credits
-UI.StartScreen.TICredits_105=- KICKSTARTER
-UI.StartScreen.TICredits_106= PLAYTESTERS -<br/>
+
+
 
 //<Backers> Credits
-UI.StartScreen.TICredits_393=<br/>- KICKSTARTER BACKERS -<br/>
 
-UI.StartScreen.TICredits_1337=- ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ -<br/><br/>Создано с помощью Unity<br/><br/>Создано с помощью FMOD Studio<br/>от Firelight Technologies Limited<br/><br/>
-UI.StartScreen.TICredits_1338=Многие эмблемы вымышленных организаций, включенных в игру, предоставлены LogoLogo.com.<br/>Использование эмблем реально существующих правительственных агентств в этом вымышленном произведении не означает одобрения действий таковых агентств.<br/><br/>
-UI.StartScreen.TICredits_1339=Некоторые снимки, используемые в качестве фонов для советников, предоставлены НАСА.<br/><br/>
-UI.StartScreen.TICredits_1340=Автор "Повести о двух городах"... Чарльз Диккенс
+
+UI.StartScreen.TICredits_1347=ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ<br/><br/>Создано с помощью Unity<br/><br/>Создано с помощью FMOD Studio<br/>от Firelight Technologies Limited<br/><br/>
+UI.StartScreen.TICredits_1348=Многие эмблемы вымышленных организаций, включенных в игру, предоставлены LogoLogo.com.<br/>Использование эмблем реально существующих правительственных агентств в этом вымышленном произведении не означает одобрения действий таковых агентств.<br/><br/>
+UI.StartScreen.TICredits_1349=Некоторые снимки, используемые в качестве фонов для советников, предоставлены НАСА.<br/><br/>
+UI.StartScreen.TICredits_1350=АВТОР "ПОВЕСТИ О ДВУХ ГОРОДАХ"<br/>Чарльз Диккенс

@@ -3,6 +3,9 @@ import { TechDb } from '../utils/TechDb';
 import { GraphBundle } from '../techGraphRender';
 import { Language } from 'src/language';
 import { GameVersion } from '../version';
+import type { GameVersionCode } from '../version';
+import type { ScenarioCode } from '../scenario';
+import type { ReactNode } from 'react';
 
 export interface TechSidebarProps {
   templateData: TemplateData;
@@ -14,6 +17,8 @@ export interface TechSidebarProps {
   handleIsolatedChanged: (isolated: boolean) => void;
   effects?: EffectTemplate[];
   isMobile?: boolean;
+  versionCode: GameVersionCode;
+  scenarioCode: ScenarioCode;
 }
 
 export interface TechGraphProps {
@@ -23,6 +28,7 @@ export interface TechGraphProps {
   selectedDataName: string | null;
   precomputedPositions?: Record<string, { x: number; y: number }> | null;
   bundle?: GraphBundle | null;
+  dlcOnlyDataNames?: readonly string[];
 }
 
 export interface SearchboxProps {
@@ -32,6 +38,7 @@ export interface SearchboxProps {
   localizationDb: LocalizationDb;
   templateData: TemplateData;
   language: Language;
+  scenarioControl?: ReactNode;
 }
 
 export interface LanguageSelectorProps {

@@ -86,8 +86,8 @@ UI.Notifications.MyControlPointTakenSummary=我们在失去了{0}的控制点，
 UI.Notifications.MyControlPointTaken=我们失去了{0}内的{3}控制点，被{1}夺去了。许多我们的人民不再回应我们的通讯，我们也在该地的事件中失去了大量的权力。{2}													 // nation, faction, CP description, conditional armieslost
 UI.Notifications.MyControlPointDominatedHed=控制点已投降
 UI.Notifications.MyControlPointDominatedSummary={0}特工迫使{1}控制点{2}投降。													// faction adjective, faction adjective, nation with prep
-UI.Notifications.MyControlPointDominatedDetail={0}的特工威胁要对军事和民用目标进行轨道攻击{1}，使当地的领袖投降，并交出我们的一个控制点。{2}
-UI.Notifications.MyControlPointDominatedDetail2=试图使我们的支持者屈服后，{0}的支持者又开始对军事和民用目标进行毁灭性的轨道攻击{1}。生还者已经投降，并将我们的一个控制点交给了他们。{2}
+UI.Notifications.MyControlPointDominatedDetail={0}的特工威胁要对军事和民用目标进行轨道攻击{1}，使当地的领袖投降，并交出我们的一个控制点。为了预防这种情况，我们需要摧毁他们在地球轨道上的所有岗哨舱体。{2}
+UI.Notifications.MyControlPointDominatedDetail2=试图使我们的支持者屈服后，{0}的支持者又开始对军事和民用目标进行毁灭性的轨道攻击{1}。生还者已经投降，并将我们的一个控制点交给了他们。为了预防这种情况，我们需要摧毁他们在地球轨道上的所有岗哨舱体。{2}
 UI.Notifications.Neutral=中立
 UI.Notifications.NoFaction=无阵营
 UI.Notifications.MyControlPointCrackedDownHed=镇压
@@ -221,10 +221,12 @@ UI.Notifications.SpecialProjectTriggered.Summary=我们现在可以执行{0}计�
 UI.Notifications.SpecialProjectTriggered.Detail=我们的研发团队报告带来了捷报，他们已经克服了重大不确定性，现在可以执行<h>{0}</h>计划了。
 UI.Notifications.ProjectComplete.Hed=计划已完成<br/>{0}
 UI.Notifications.ProjectComplete.Summary=我们已经完成{0}计划。
-UI.Notifications.ProjectComplete.Detail=我们已经完成{0}计划。<br/>{1}
-UI.Notifications.ProjectComplete.Detail2=我们已经完成{0}计划。{1}<br/><br/>{2}
+UI.Notifications.ProjectComplete.Detail=我们已经完成{0}计划。<br/><br/>{1}									// 0- project name, 1- project description
+UI.Notifications.ProjectComplete.Detail2=我们已经完成{0}计划。<br/><br/>{1}<br/><br/>{2}					// 0- project name, 1- Appending diff line (ResearchCompleteAutoPick, ln 243), 2- project description
+UI.Notifications.ProjectComplete.Summary.OtherFaction={0}的支持者已完成{1}计划。					// 0- faction displayname, 1-project name,
+UI.Notifications.ProjectComplete.Detail.OtherFaction={0}的支持者已完成{1}计划。<br/><br/>{2}		// 0- faction displayname, 1-project name, 2-project description
 
-UI.Notifications.ProjectComplete.OrgGained=我们的工作衍生出了一个新组织：{0}，该组织会出现在我们的阵营名单中，可以被指派给一名理事。<br/>	//org name with article
+UI.Notifications.ProjectComplete.OrgGained=我们的工作衍生出了一个新组织：{0}，该组织会出现在我方阵营名单中，可以指派给一名理事。<br/>	//org name with article
 UI.Notifications.ProjectComplete.ResourcesGained=我们获取了下列资源：{0}<br/>
 UI.Notifications.ProjectComplete.ProjectsUnlocked=我们以后或许可以研究这些额外的计划：{0}{1}<br/>
 UI.Notifications.ProjectComplete.HabModuleUnlocked=已解锁太空殖民地舱体：<br/>
@@ -273,10 +275,10 @@ UI.Notifications.WarOption.Hed=战争！
 UI.Notifications.WarOption.Summary={0}和{1}现在处于战争状态。
 UI.Notifications.WarOption.Detail={0}向{1}发起了战争。{2}<br/><br/>唯有在两方领导国家（军事力量最强的国家）均同意和平相处，或是一方已占领敌方所有首都并建立新政府时，战争才会结束。				//Nation, nation 2, 
 UI.Notifications.AlienNationWarRules={0}也是涉入冲突的一方。他们的军队将强占领地，他们的敌人则会立刻解放{0}的所有地区。占领{0}的首都不会促使政权更迭，但可能会导致其主体地区自发宣布独立。 				//Alien nation name
-UI.Notifications.WarOptionJoin.Summary={0}已加入{1}对抗{2}。
-UI.Notifications.WarOptionJoin.Detail={0}已加入{1}对抗{2}。
+UI.Notifications.WarOptionJoin.Summary={0}已加入{1}对抗{2}。		//0-display name with article capitalized, 1- war's display name with article, 2- war opposition's leading nation
+UI.Notifications.WarOptionJoin.Detail={0}已加入{1}对抗{2}。 		//0-display name with article capitalized, 1- war's display name with article, 2- war opposition's leading nation
 UI.Notifications.JoiningAllies=，由{0}加入，
-UI.Notifications.NationJoinsWar.Summary={0}已加入{1}对抗{2}。
+UI.Notifications.NationJoinsWar.Summary={0}已加入{1}对抗{2}。		//0-display name with article capitalized, 1- war's display name with article, 2- war opposition's leading nation
 UI.Notifications.AllianceLeaderAttack={0}会领导攻击联盟。 
 UI.Notifications.AllianceLeaderDefend=防御联盟会由{0}领导。
 UI.Notifications.EndWarOption.Hed=和平
@@ -301,7 +303,7 @@ UI.Notifications.EndRivalryOption.Decline.Hed=敌对关系继续
 UI.Notifications.EndRivalryOption.Decline={0}拒绝了和{1}终止敌对关系的提议。
 UI.Notifications.EndRivalryOption.Hed=敌对关系终止
 UI.Notifications.EndRivalryOption.Summary={0}和{1}终止了他们的敌对关系。
-UI.Notifications.EndRivalryOption.Detail={0}和{1}终止了他们的敌对关系，并恢复成一般的关系。
+UI.Notifications.EndRivalryOption.Detail=<h>{0}</h>和<h>{1}</h>终止了他们的敌对关系，并恢复成一般的关系。
 UI.Notifications.JoinFederationOption.Hed=联盟
 UI.Notifications.JoinFederationOption.Summary={0}决定加入{1}的联盟。				// nation, nation 2
 UI.Notifications.JoinFederationOption.Detail={0}决定加入{1}的联盟。他们会成为永久的盟友，并共享太空计划的资金和运载力。
@@ -358,6 +360,7 @@ UI.Notifications.HabFoundedHed={0}已创立
 UI.Notifications.HabModuleComplete=太空殖民地舱体已完成
 UI.Notifications.AlienCrashdownSummary=一艘外星舰船已经坠落在{1}的{0}地区。
 UI.Notifications.AlienCrashdownHeadline=UFO 坠毁于地球
+UI.Notifications.AlienCrashdownDetail.First=一艘外星舰船已经坠落在{1}的{0}地区。虽然残骸无法修复，我们怀疑一名外星生命体成功逃离到附近的乡下地区了。
 UI.Notifications.AlienCrashdownDetail=一艘外星舰船已经坠落在{1}的{0}地区。虽然残骸无法修复，我们怀疑一名外星生命体成功逃离到附近的乡下地区了。
 UI.Notifications.UFOLandingSummary=一艘外星舰船已经降落在{1}的{0}地区。
 UI.Notifications.UFOLandingHeadline=UFO 在地球降落
@@ -450,7 +453,7 @@ UI.Notifications.FleetTrajectoryAbortedDetail_ReturnToOrbit=它仍位于{1}。		
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbit=它目前沿着围绕{0}的临时轨道运行。											// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbitWithBurn=它执行了紧急燃烧以留在太阳系内，目前沿着围绕{0}的轨道运行。
 UI.Notifications.FleetTrajectoryAbortedDetail_LeavingSolarSystem=它目前的速度能将其带离太阳系，而且它没有足够的 Delta-V 来减速成绕行状态来避免这个情况。如果我们能派出一支舰队将其拦截，并为其补充更多推进剂，或许就能实施救援行动，将舰队安全带回。<br/><br/>舰队如果按照这条轨道运行，不会耗费<color=#FFFFFFFF><sprite name="mission_control"></color>。
-UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=它其中的一些舰船已经分开并执行紧急燃烧，以确保自己不会离开太阳系。它们组成了舰队{0}，目前正在围绕{1}的轨道运行。剩下的舰船的速度会使它们飞离太阳系，而它们也没有减速的方法。如果我们能派出一支舰队将其拦截，并为其补充更多推进剂，或许就能实施救援行动，将舰队安全带回。<br/><br/>离开的舰队如果按照这条轨道运行，不会耗费<color=#FFFFFFFF><sprite name="mission_control"></color>。
+UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=它其中的一些舰船已经分开并执行紧急燃烧，以确保自己不会离开太阳系。剩余舰船（已组成舰队{0}）的速度会使它们飞离太阳系，而它们也没有减速的方法。如果我们能派出一支舰队将其拦截，并为其补充更多推进剂，或许就能实施救援行动，将舰队安全带回。<br/><br/>离开的舰队如果按照这条轨道运行，不会耗费<color=#FFFFFFFF><sprite name="mission_control"></color>。
 UI.Notifications.FleetTrajectoryAbortedDetail_WillCrash=舰队目前的路线会与{0}相撞，而且没有办法躲开。				// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_SomeWillCrash=舰队的部分舰船目前的路线会让它们与{0}相撞，而且没有办法躲开。剩下的舰船已经与它们分开。
 UI.Notifications.TargetManeuveredAndWeCannotGiveChaseDetail_InsufficientDV={0}由于目标舰队起飞而被迫中止转移计划。{0}缺乏足够的 Delta-V 在新轨道抓捕{1}。
@@ -492,7 +495,7 @@ UI.Notifications.ShipCompleteSummary=我们已经从{2}发射{0}{1}。				// Shi
 UI.Notifications.ShipCompleteDetail={2}的{0}{1}建设已经完成。{3}舰队的舰船现在停泊在{4}，正在等待指令。
 UI.Notifications.RefitAbortedHeadline=改装中止
 UI.Notifications.RefitAbortedDetail={2}的{0}{1}改装已经中止。{3}舰队的舰船现在停泊在{4}，正在等待指令。
-UI.Notifications.ScanningPlanetHeadline={0}探测{1}。
+UI.Notifications.ScanningPlanetHeadline={0}探测{1}
 UI.Notifications.ScanningPlanetSummary={0}正在{1}上勘探可能的基地据点。
 UI.Notifications.ScanningPlanetDetail={0}正在{1}上勘探可能的基地据点。此举将在{2}天内完成。
 UI.Notifications.ScannedPlanetHeadline={0}探测已完成
@@ -575,15 +578,25 @@ UI.Notifications.OurHabDestroyedDetail.Base={0}的部队已经把{2}上的{1}夷
 UI.Notifications.OurHabDestroyedDetail.Station={0}的部队已经摧毁了{2}的{1}。我们认为没有人生还。
 UI.Notifications.HabDestroyedHed={1}被{0}摧毁
 UI.Notifications.HabDestroyedSummary={2}太空殖民地{1}已经被{0}摧毁。 
-UI.Notifications.HabDestroyedDetail.Base=我们在{3}的{2}摧毁了{0}基地{1}。他们一定会想办法还击的。
-UI.Notifications.HabDestroyedDetail.Station=我们已经摧毁了{2}的{0}空间站{1}。他们一定会寻求报复。
+UI.Notifications.HabDestroyedDetail.Base=我们在{3}的{2}摧毁了{0}太空殖民地{1}。他们一定会想办法还击的。
+UI.Notifications.HabDestroyedDetail.Station=我们已经摧毁了{2}的{0}太空殖民地{1}。他们一定会寻求报复。
 UI.Notifications.HabDestroyedSalvage=我们从残骸中回收了{0}。
+
+UI.Notifications.HabDestroyedHed_AlienHome={1}已遭到{0}袭击								// 1- Hab's display name, 0- Faction display name (Capitalized)
+UI.Notifications.HabDestroyedSummary_AlienHome={2}太空殖民地{1}已遭到{0}袭击。 			// 2- Faction Adjective, 1- Hab display name, 0- Faction display name 
+UI.Notifications.HabDestroyedDetail_AlienHome=我们已于{2}在{1}袭击了{0}太空殖民地。我们的陆战队无法进入外星核心舱体或虫洞舱室。我们需要聘请理事，与{3}组织进行进一步的工作。 								// 0- Hab displayname, 1-Hab Site displayname, 2-Spacebody display name, 3, Org display name with leading article (the)
+
 UI.Notifications.ShipStolenHeadline=我们的舰船加入{0}
 UI.Notifications.ShipStolenSummary={0}舰船{1}现在受{2}指挥。
 UI.Notifications.ShipStolenDetail=我们的{0}{1}已经停止回应我们的命令。我们相信这些反叛的军官已经转而效忠{2}。 // Ship's class name, Ship name, faction name
 UI.Notifications.ShipDefectedHeadline=我们的舰船加入{0}
 UI.Notifications.ShipDefectedSummary={0}舰船{1}现在受{2}指挥。
 UI.Notifications.ShipDefectedDetail={0}{1}已经与它的旧主断绝了联系，转而选择加入{2}。
+
+UI.Notifications.MyHabAssaultedHeadline={0}遭受攻击																	// hab name	
+UI.Notifications.MyHabAssaultedSummary={0}军队正在试图夺取{1}！												// faction adjective, hab Name
+UI.Notifications.MyHabAssaultedDetail={0}军队正在试图夺取{1}。  												// faction adject, hab name with full location string
+
 UI.Notifications.FleetAvailableHed={0}重返行动																// fleet name
 UI.Notifications.FleetAvailableSummary=舰队{0}现在可以在{1}展开行动。											// fleet name, location with prep
 UI.Notifications.FleetAvailableDetail=舰队{0}已经离开{1}，现在可以在{2}展开行动。						// fleet name, location with prep
@@ -618,10 +631,10 @@ UI.Notifications.CouncilorMissionUpdateHed=新的日常
 UI.Notifications.CouncilorMissionUpdateSummary=现在，每两个星期会有一次任务指派阶段。
 UI.Notifications.CouncilorMissionUpdateDetail=当初外星人抵达时掀起的全球动荡已经平静下来了，许多政治和经济体都意识到，无论外星人的目标是什么，世界末日并非迫在眉睫。在这股危机感消退后，既有的权力结构正在重新稳固他们的权威，而人类也不再那么担心外星人，反而开始更担心其他人类。<br/><br/>简而言之，我们能够快速出击的时期已经过去了。我们的理事报告说，他们的任务现在需要更久的时间来计划和实行，因为现在必须遵守既往的旅行、保安和国际联络规范。我们还是可以继续我们的计划，也因为有更长的计划时间，部分的任务会带来更大的影响，但现在的一切都会花更多时间才能完成。<br/><br/><h>任务指派阶段从现在起一个月会有两次。</h>
 UI.Notifications.CouncilorMissionUpdateHed2=极化
-UI.Notifications.CouncilorMissionUpdateSummary2=现在，将每三周指派一次任务。
+UI.Notifications.CouncilorMissionUpdateSummary2=现在，每三个星期会有一次任务指派阶段。
 UI.Notifications.CouncilorMissionUpdateDetail2=世界基本上已经接受了外星人的存在。他们就在此时此地；他们就在我们中间；他们正在太阳系中扩散。但是，极端的恐惧和冲破头的喜悦不会长久持续，当日常生存的更直接、更平凡的担忧出现时，有人因恐惧而痛苦不已，有人对未来有着模糊的希望。全球的动荡、国家和人民的秩序重建，一切都在放缓。<br/><br/>我们的理事将需要更长的时间执行任务。对部分任务而言，我们花费时间的时间越多，其影响越大。<br/><br/><h>今后将每三周指派一次任务。</h>
 UI.Notifications.CouncilorMissionUpdateHed3=钙化
-UI.Notifications.CouncilorMissionUpdateSummary3=现在，仅每月指派一次任务。
+UI.Notifications.CouncilorMissionUpdateSummary3=现在，每个月会有一次任务指派阶段。
 UI.Notifications.CouncilorMissionUpdateDetail3=知道有外星人存在于我们中间的那一代人也已步入成熟。他们从未体验过凝视宁静的天空所带来的惊奇；他们的世界充满了政治、冲突和威胁。在地球上，这个新时代的掌权者已经学会了如何维持权力，他们始终知道怎么做，这让我们的理事将更难迫使他们采取行动。<br/><br/>我们的理事将需要更长的时间执行任务。对部分任务而言，我们花费时间的时间越多，其影响越大。<br/><br/><h>今后仅每月指派一次任务。</h>
 UI.Notifications.FleetUndockedHed={0}已起飞
 UI.Notifications.FleetUndockedSummary=舰队{0}已经离开{1}。					// fleet name, hab name, orbit name
@@ -679,7 +692,7 @@ UI.Notifications.DecontaminateComplete.Detail=组员们已经在{1}的{0}完成�
 
 UI.Notifications.LegitimizeComplete.Hed={1}地区与{0}的掌控权不再敌对
 UI.Notifications.LegitimizeComplete.Summary=在{1}地区民众眼中，{0}对这里的控制已经得到了认可。
-UI.Notifications.LegitimizeComplete.Detail=经过大量的投资，      在{1}地区民众眼中，{0}对这里的控制已经得到了认可。此状况不再会导致动荡和凝聚力降低。
+UI.Notifications.LegitimizeComplete.Detail=经过大量的投资，在{1}地区民众眼中，{0}对这里的控制已经得到了认可。此状况不再会导致动荡和凝聚力降低。
 UI.Notifications.MilitaryFounded.Hed=已建立军队{0}														// Nation name with prep 
 UI.Notifications.MilitaryFounded.Summary={0}士兵们组成了第一支战斗部队。							//	""
 UI.Notifications.MilitaryFounded.Detail={0}的领袖已经建立了该国家的第一支现代化军事力量。该国家现在可以投资军事、镇压和发展核武器优先计划，如果符合对应的条件，还可以进行建立军队和建立海军优先计划。
@@ -718,7 +731,11 @@ UI.Notifications.LogNationsGainClaims.Detail={0}
 
 UI.Notifications.LogFleetEjectedFromStation.Hed=舰队离开敌方空间站
 UI.Notifications.LogFleetEjectedFromStation.Summary={0}已与{1}脱离对接，避免另一阵营的攻击。
-UI.Notifications.LogFleetEjectedFromStation.Detail={0}已与{1}脱离对接，避免另一阵营的攻击。<br/><br/>位于敌对空间站的舰队将被迫撤离，以免遭受第三方阵营发动的攻击，除非它们正在进行攻击行动或摧毁定居点的行动，否则在这种情况下，它们会无法重新停靠。
+UI.Notifications.LogFleetEjectedFromStation.Detail={0}已与{1}脱离对接，避免另一阵营的攻击。<br/><br/>位于敌对空间站的舰队将被迫撤离，以免遭受第三方阵营发动的攻击，除非它们正在进行攻击行动或摧毁太空殖民地的行动，否则在这种情况下，它们会无法重新停靠。
+
+UI.Notifications.FactionDisabled.Hed={0}现已休眠			// faction name with article
+UI.Notifications.FactionDisabled.Summary=名为{0}的组织停止了所有行动。
+UI.Notifications.FactionDisabled.Detail=名为{0}的组织似乎停止了所有行动，其领导人已经躲藏起来。虽然他们在全球各处仍有支持者，但他们似乎不再能对我们的计划构成严重威胁。
 
 UI.Notifications.TagRed=标记<color=#EC2100>红色</color>
 UI.Notifications.TagGreen=标记<color=#B4FF3E>绿色</color> 
@@ -738,8 +755,6 @@ UI.Notifications.PactEnds.Detail_NAPIntel={0}和{1}终止了他们的互不侵�
 UI.Notifications.PactEnds.Hed_Truce=休战终止
 UI.Notifications.PactEnds.Summary_Truce={0}和{1}终止了休战。
 UI.Notifications.PactEnds.Detail_Truce={0}和{1}终止了休战。
-
-
 
 UI.Notifications.LeaveDarkFederation_Violent_Query=新的领导层{0}已指示国家离开{1}。如果我们不想冒险让他们脱离{2}影响力范围，那么可以立即对他们宣战，无需花费凝聚力或附加惩罚措施。这样做可以吗？
 

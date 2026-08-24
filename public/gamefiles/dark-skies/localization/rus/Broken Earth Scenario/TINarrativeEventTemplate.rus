@@ -1,0 +1,295 @@
+
+// Dark Skies DLC
+
+
+//// RECOVERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldBooks=Книги старого мира
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.summary=Разбирая руины заброшенных кварталов, так и не заселенных после Войны, рабочие обнаружили тайник со старыми книгами.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.query=В нем оказались шедевры древней классической литературы, университетские учебники по разным предметам и даже пара выпусков когда-то популярного комикса. Эта находка существенно ускорит восстановление образовательной системы {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.option0=Прошлое может научить нас очень многому.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionResult0=Рабочие нашли {targetNationNameWithArticleAndPlacePrep} тайник со старыми книгами.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldDoctrines=Доктрины старого мира
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.summary=Разбирая руины разбомбленного города, рабочие нашли секретный комплекс подземных бункеров.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.query=За долгие годы, прошедшие после окончания Войны, обитатели покинули его, а все запасы оружия и техники заржавели или сгнили. Но на одном из нижних ярусов мы нашли целую библиотеку уставов и наставлений, позволяющих в деталях восстановить военные доктрины той эпохи. Теперь командиры {targetNationNameWithArticle} будут намного лучше разбираться в военном искусстве.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.option0=Этому точно стоит учиться у наших предшественников?
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionResult0=Рабочие нашли {targetNationNameWithArticleAndPlacePrep} секретный подземный комплекс.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldMedia=Записи старого мира
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.summary=Разбирая руины заброшенных кварталов, так и не заселенных после Войны, рабочие обнаружили тайник с фильмами и аудиозаписями.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.query=Технику для их воспроизведения наши инженеры изготовят сравнительно легко, а вот сами записи, уже пострадавшие за долгие годы, требуют крайне бережного обращения при извлечении и очистке. Впрочем, когда мы скопируем их на современные носители, многим людям будет весьма интересно узнать, что смотрели и слушали их предки до Войны.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option0=Сделать их доступными всему миру.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult0=Рабочие нашли {targetNationNameWithArticleAndPlacePrep} тайник со старыми фильмами и аудиозаписями.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option1=Оставить их {targetNationNameWithArticleAndPlacePrep} и брать плату за эксклюзивный доступ.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult1=Рабочие нашли {targetNationNameWithArticleAndPlacePrep} тайник со старыми фильмами и аудиозаписями.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MemorialtotheFallen=День памяти жертв Войны
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.summary=Люди со всех концов {targetNationNameWithArticle} собрались на день памяти жертв Войны, проходящий раз в пять лет.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.query=Чиновники, священнослужители и представители общественности по очереди выступали и зачитывали имена погибших в ядерном катаклизме 1962 года. Несмотря на свою рутинность, эта торжественная церемония очень важна: она напоминает жителям постапокалипсического мира об опасности ядерного оружия. Человечество больше никогда не повторит этой чудовищной ошибки.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.option0=Если, конечно, не забудет о ней.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionResult0={summary}
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_UnauthorizedSalvage=Несанкционированные раскопки
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.summary=В регионе {targetRegionName} производятся несанкционированные раскопки руин.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.query=К сожалению, поскольку законные {targetNationAdjective}ие власти почти не контролируют этот регион, ничто не мешат предприимчивым людям искать довоенные артефакты по собственной инициативе. Они не только подпитывают черный рынок, наносящий ущерб экономике {targetNationNameWithArticle}, но и конфликтуют с немногочисленными жителями, оставшимися здесь после Войны, которые считают это наследие своей собственностью.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0=Это не в нашей компетенции.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0=Раскопки продолжаются.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1=Копатели нашли старые книги.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2=Копатели нашли старые бункеры.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3=Копатели нашли старые произведения искусства.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option1=Прекратить это беззаконие.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionResult1=Власти {targetNationNameWithArticleCap} пресекли несанкционированные раскопки {targetRegionNameSentIn}.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2=Предложить награды за санкционированные раскопки.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0=Раскопки продолжаются.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Summary=В регионе {targetRegionName} производятся санкционированные раскопки руин.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1=Копатели нашли старые книги.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Summary=В регионе {targetRegionName} производятся санкционированные раскопки руин.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2=Копатели нашли старые бункеры.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Summary=В регионе {targetRegionName} производятся санкционированные раскопки руин.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3=Копатели нашли старые произведения искусства.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Summary=В регионе {targetRegionName} производятся санкционированные раскопки руин.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ArmedProcession=Вооруженная процессия
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.summary=Длинная колонна мужчин и женщин с винтовками марширует по региону {targetRegionName}, выкрикивая лозунги.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.query=Это не протест против {targetNationAdjective}ого правительства, а выражение презрения к смерти, принесенной Войной в земли {targetNationNameWithArticle}, и воли {targetNationAdjective}ого народа к жизни. Считается, что эта традиция была основана местным ополчением в хаосе первых послевоенных лет; с тех пор она стала важным элементом {targetNationAdjective}ой культуры.<br/><br/>Впрочем, кое-кто в правительстве считает, что подобные скопления вооруженных людей могут быть удобным прикрытием для контрабанды и другой незаконной деятельности.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0=Граждане {targetNationNameWithArticleCap} маршируют во имя жизни!
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0=Все хорошо.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Detail=К счастью, опасения оказались напрасными.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1=Есть признаки подрывной деятельности.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Detail=Похоже, эти опасения не столь беспочвенны.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option1=Приказать им разойтись по соображениям безопасности.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option2=Отправить агентов под прикрытием, чтобы проследить за ними.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldSatellite=Спутник из старого мира
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.summary=Наши первые космонавты обнаружили довоенный спутник, все еще кружащийся по орбите Земли.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.query=Первый рывок человека за пределы Земли был трагически коротким – всего лишь несколько лет перед Зимней войной, перечеркнувшей все планы. Это породило иррациональный страх перед космосом: дескать, осмеливаясь подниматься к небесам, мы рискуем снова навлечь их гнев.<br/><br/>Этот страх, наряду с материальными затруднениями, привел к почти полному прекращению освоения космоса.<br/><br/>Но времена изменились. Появление пришельцев показало, что пустота не так пуста, как может показаться, и вполне преодолима для разумных существ. Страх перед ней никуда не делся, но перестал быть абстрактным и получил материальное воплощение, с которым можно бороться.<br/><br/>Удивительно, как эта крошечная реликвия довоенной Земли продержалась более века. Конечно, этот спутник давно неисправен, но он остается памятником храбрости и стойкости человечества.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option0=Его конструкция может нас многому научить.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult0=Фракция "{targetFactionNameCap}" сняла с орбиты Земли довоенный спутник.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option1=Это музейный экспонат!
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult1=Фракция "{targetFactionNameCap}" сняла с орбиты Земли довоенный спутник.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option2=Наши космонавты идут по пути, проторенному предшественниками.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult2=Фракция "{targetFactionNameCap}" сняла с орбиты Земли довоенный спутник.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MuseumtotheOldWorld=Музей старого мира
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.summary=Наши советники предложили создать музей довоенных артефактов.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.query=На данный момент мы нашли достаточно артефактов, чтобы без проблем выделить часть из них для хранения и публичной демонстрации. Само по себе строительство музея и руководство им не требуют нашего прямого участия. Нам требуется только выбрать общую тему его экспозиции. Мы получили уникальный шанс изменить коллективную память о Зимней войне, показав ее с выгодной для нас точки зрения.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option0=Довоенная цивилизация была основана на науке.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult0=Фракция "{targetFactionNameCap}" построила музей, посвященный довоенной науке.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option1=Довоенный стиль жизни выглядел весьма привлекательно.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult1=Фракция "{targetFactionNameCap}" построила музей, посвященный довоенному стилю жизни.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option2=Военная мощь предков не знала равных.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult2=Фракция "{targetFactionNameCap}" построила музей, посвященный довоенным вооруженным силам.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option3=Довоенные стандарты жизни были намного выше наших.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult3=Фракция "{targetFactionNameCap}" построила музей, посвященный довоенным стандартам жизни.
+
+//// NUKE EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearPublicity=Антиядерные протесты
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.summary=Представители {targetNationAdjective}ой общественности открыто выступают против наличия ядерного оружия {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.query=После Зимней войны сама идея ядерного оружия стала строжайшим табу. За прошедшее столетие все человечество признало, что безответственная разработка и распространение такого оружия привели к Зимней войне, и отказалось от его дальнейшего производство, чтобы не ставить под угрозу выживание человечества как технической цивилизации. Даже сейчас, когда появление пришельцев перевернуло все представления о мире и безопасности, люди не утратили обоснованного страха перед ядерной войной.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option0=Это можно понять.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1=Раз такое оружие есть у наших врагов, оно должно быть и у нас!
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0=Смягчение.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1=Усиление.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearActivism=Антиядерный активизм
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.summary=Протестующие громят ядерные заводы и лаборатории {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.query=Ярость этих активистов застала {targetNationAdjective}ие спецслужбы врасплох. Собственно ядерному арсеналу пока ничего не угрожает, но некоторые особенно важные приборы и научные сотрудники оказались в опасности. Их утрата может стать тяжелым ударом для всей ядерной программы {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option0=В первую очередь эвакуировать сотрудников.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option1=В первую очередь эвакуировать оборудование.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option2=Поручить разгон протестов армии.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearSabotage=Антиядерные диверсии
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.summary=Внеплановая инспекция ядерного арсенала {targetNationNameWithPrep} выявила неисправность значительной части боеголовок.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.query=Оцепив склад, сотрудники спецслужб начали допрашивать инженеров, которые могли иметь доступ к боеголовкам, а также инспекторов, предоставивших фальшивые отчеты об их исправности. Пока что им не удалось узнать ничего нового, хотя общий настрой персонала оставляет желать лучшего.<br/><br/>Радует только то, что с объекта не пропало ни грамма делящихся материалов. Очевидно, что те, кто устроил все это, не хотят распространения ядерного оружия.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option0=На ядерной войне нет места этическим мотивам.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option1=Мы этого ожидали. Настоящие боеголовки на другом складе.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail1=Ничего не произошло.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option2=Диверсанты действовали неумело. Наши специалисты легко все исправят.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail2=Ничего не произошло.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ScientistsProtestNuclearProgram=Ученые протестуют против ядерной программы
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.summary=Ведущие ученые объявили забастовку, протестуя против появления {targetNationNameWithPrep} ядерного оружия.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.query=В открытом письме правительству они заявили, что гражданский долг обязывает их следить, чтобы подобные технологии использовались исключительно для мирного развития человечества, а не для войны и разрушения, пусть даже и в чрезвычайных обстоятельствах. Они процитировали Роберта Оппенгеймера – физика, которого до сих пор помнят как отца атомной бомбы и который безуспешно пытался помешать своим открытиям уничтожить мир.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option0=Возможно, нам стоит прислушаться к ним.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option1=Эти паникеры нас не интересуют.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option2=Вопросы национальной безопасности не входят в компетенцию ученых.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult2={summary}
+
+
+
+
+//// FACTION EVENTS (TRANSLATION BATCH 2)
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderResist=Оказать сопротивление на Расколотой Земле
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.summary=Как поступят пришельцы, прибывшие на планету, которая только начинает восстанавливаться после Зимней войны?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.query=Конечно, эта война стала величайшей катастрофой в истории человечества, но подобную рану люди нанесли себе сами. Более ста лет мы жили в тени от ядерного света, в страхе и отчаянии жались друг к другу, пытаясь согреться во время долгих холодов. Только теперь, после всех этих черных лет, начали пробиваться лучи надежды. Впервые более чем за сто лет наш вид вновь готов поверить в будущее.<br/><br/>Именно в этот момент прибыли пришельцы. Они могли бы стать нам друзьями. Они могли бы использовать свои ультрасовременные технологии и помочь с восстановлением того, что было разрушено. Да, за подобную поддержку пришлось бы заплатить: мы не наивны, так что понимаем, как обычно проходят контакты между цивилизациями на разных уровнях развития. И все же этот жест утешил бы нас... доказал, что мы не одни во вселенной и кто-то заметил наши страдания. Однако гости решили вторгнуться и захватить планету. Они увидели разрозненный вид, переживающий упадок, и решили воспользоваться его слабостью.<br/><br/>Что ж, да будет так. Не стоит обманываться относительно их намерений: действия говорят сами за себя. Если мы хотим выжить и восстановить нашу планету, придется сражаться.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.option0=Мы будем драться.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderDestroy=Уничтожить врага на Расколотой Земле
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.summary=Как поступят пришельцы, прибывшие на планету, которая только начинает восстанавливаться после Зимней войны?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.query=Раньше войны велись за ресурсы или по каким-то банальным причинам: из-за обиды короля на двоюродного брата; из-за древней грамоты, дающей права на клочок земли; из зависти к богатству соседа. В основном сражались профессионалы, и чем бы ни закончился очередной конфликт, на жизни большинства людей он никак не сказывался.<br/><br/>С появлением новых технологий горизонты раздвинулись, а вместе с тем увеличились и масштабы человеческих войн: их стали вести не только за ресурсы, но и за само будущее вида. В ходе боевых действий страны проводили тотальную мобилизацию, стремясь уничтожить вражескую цивилизацию и диктовать ход истории. В Зимней войне участвовало все человечество – и оно чуть не уничтожило само себя.<br/><br/>Теперь горизонт снова раздвинулся: после появления пришельцев поля сражений находятся и за пределами нашей планете. В этой великой битве за жизнь может быть лишь один победитель.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.option0=И этим победителем станем мы.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderExploit=Зарабатывать на Расколотой Земле
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.summary=Как поступят пришельцы, прибывшие на планету, которая только начинает восстанавливаться после Зимней войны?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.query=Что бы ни утверждали ученые, живущие в своих башнях из слоновой кости... как бы политики ни пытались задурить голову простому народу... история человечества никогда не развивалась прямолинейно. Она циклична, в ней есть взлеты и падения, а на каждом этапе – свои опасности и возможности. Истинными повелителями мира становятся те, кто научится распознавать эту последовательность и с одинаковым успехом извлекать пользу как из прогресса, так и регресса.<br/><br/>Именно поэтому для нас Зимняя война не стала чем-то особенным. Неудачники гибли, победители получали прибыль... Так устроен мир.<br/><br/>Мы бы еще лет сто процветали, пожиная плоды послевоенной весны, если бы на нашу планету не прибыли пришельцы.<br/><br/>Да, упадок начался гораздо раньше, чем предполагалось. Кто-то разорился, кто-то даже лишился жизни – но это лишь пошло на пользу выжившим. Конкуренты, принадлежащие к другому виду и прибывшие с далеких звезд, привнесли не только новые угрозы, но и новые возможности.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.option0=Кому из нас хватит смелости воспользоваться ими?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderSubmit=Подчиниться на Расколотой Земле
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.summary=Как поступят пришельцы, прибывшие на планету, которая только начинает восстанавливаться после Зимней войны?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.query=Когда мир сгорал в огне, большинство из нас могло лишь молиться. Когда небеса чернели от пепла, а земля белела от снега, мы старались забыть о ноющей пустоте в желудках, мечтая о том дне, когда на планету вновь прольется свет.<br/><br/>Долгие холода закончились, и нам удалось медленно выбраться из убежищ и восстановить разрушенное, цивилизацию. За последние сто лет мы заново отстроили города и переселили семьи. Впрочем, во многом мир все еще остается расколотым и незавершенным, ведь в тот день, когда упали бомбы, сгорела и частица нашей души. Только непоколебимая вера в светлое будущее не дала нам погибнуть.<br/><br/>И молитвы наконец были услышаны. Мы не одни во вселенной. Больше не нужно страдать в одиночестве и обращаться с мольбами к жестокому миру. Посланники увидели нас, и их свет поможет не сбиться с пути.<br/><br/>Мы – хранители веры, а потому наш долг – пожать протянутую руку посланников и оказать им теплый прием.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.option0=Мы сможем снова полюбить себя, только если полюбим их.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderAppease=Умиротворить врага на Расколотой Земле
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.summary=Как поступят пришельцы, прибывшие на планету, которая только начинает восстанавливаться после Зимней войны?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.query=Историки постоянно задаются вопросом, кто развязал Зимнюю войну. На эту тему, ставшую непреложной для нашей цивилизации, написана уйма книг. Теория игр, политика конфронтации, мгновенное возмездие, взаимное гарантированное уничтожение... Изобретено столько красивых и клинически точных терминов, описывающих процесс подготовки к массовым убийствам и глобальному кровопролитию. В <i>наши</i> планы все это, конечно, не входило. <i>Мы</i> не собирались убивать миллионы ни в чем не повинных людей, а лишь хотели помешать <i>врагам</i>, намеревавшимся так поступить. <i>Они</i> во всем виноваты. <i>Они</i> заставили нас это сделать.<br/><br/>На деле же вина лежит на всех нас, на людях как виде. В течение нескольких веков, предшествовавших Зимней войне, мы разгоняли цикл насилия, находили все новые уровни разрушения, надевали бархатные перчатки и поднимали белые флаги, чтобы никто не видел потоки крови, текущей с наших рук. Мы называем себя просвещенными, но проявляем свою истинную природу снова и снова. Человечество убедительно доказало, что не способно управлять собой.<br/><br/>Что же подумают о нас инопланетные существа? Увидят ли только наши недостатки? Поймут ли, что мы наконец усвоили урок и твердо решили стать хорошими, ответственными гражданами галактики? Сочтут ли нас опасными бешеными псами, которых стоит загнать в клетки и уничтожить?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.option0=Все надежды на второе предположение.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderCooperate=Сотрудничать на Расколотой Земле
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.summary=Как поступят пришельцы, прибывшие на планету, которая только начинает восстанавливаться после Зимней войны?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.query=Несомненно, изобретение атомной бомбы было величайшим триумфом наших ученых. Впервые в истории вида мы покорили одну из фундаментальных реакций вселенной – силу, подпитывающую энергией сами звезды. Нам удалось показать, на что способны мудрецы, если их не ограничивать.<br/><br/>Это событие также стало нашей величайшей неудачей. Стремясь раскрыть тайны вселенной, никто не думал о том, что сделают современники, в чьих руках они окажутся. По квантовой механике, мы меняем мир, даже если просто наблюдаем за ним. У нас не получилось осознать ответственность, налагаемую изобретением... за что всему миру пришлось дорого заплатить.<br/><br/>Впрочем, отчасти наука строится и на усвоении ошибок. Зимняя война началась потому, что мы не поняли наших современников и позволили страху перед неизвестностью одолеть нас. После столкновения с инопланетными существами появилась возможность исправиться... установить контакт с гостями и взаимодействовать с ними как с равными.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.option0=Человечество не должно упустить свой второй шанс.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderEscape=Вырваться с Расколотой Земли
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.summary=Как поступят пришельцы, прибывшие на планету, которая только начинает восстанавливаться после Зимней войны?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.query=Человек всегда хотел летать. На протяжении всей истории тому полно доказательств – от мифа о Дедале и Икаре до полета братьев Райт.<br/><br/>Запустив первый спутник, мы позволили себе мечтать о чем-то большем. Последовавшие за этим несколько лет стали золотым временем: величайшие умы человечества стремились разорвать узы гравитации и сделать первые смелые шаги по галактике, наполненной возможностями.<br/><br/>К сожалению, этим планам не было суждено сбыться. Зимняя война положила начало новой темной эпохе, и все надежды на будущее оказались растоптаны. По жестокой иронии, у нас появилась самая веская причина покинуть этот обледеневший, радиоактивный камешек – но не возможность сделать это.<br/><br/>А теперь все снова изменилось. Прибытие пришельцев послужило доказательством того, что жить и путешествовать в космосе можно. Всего одна яркая вспышка в небе подтвердила многовековые фантазии наших мечтателей. Гости с небес показали: будущее, о котором мы посмели грезить, по-прежнему достижимо.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.option0=Нам нужно лишь протянуть руку и завладеть им.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionResult0=<skip/>
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-WarlordCampaign=Кампании против воевод
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.summary=Власти {targetNationNameWithArticleCap} начали кампанию против воевод
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.query=После войны правительство {targetNationNameWithArticle} не могло контролировать всю территорию страны. Коммуникации были нарушены, большое число солдат и полицейских погибло или дезертировало, а ключевые должностные лица либо отчаянно пытались справиться с потоком беженцев, либо сгинули в водовороте всеобщего хаоса. Возникший вакуум власти существовал недолго: его заполнили воеводы, обещавшие защиту в обмен на подчинение.<br/><br/>Теперь {targetNationAdjective}ое правительство восстановилось, а оно у страны может быть лишь одно. Чиновники обещали до конца года побороть преступность и восстановить порядок на пограничных территориях. Но как они добьются этого?
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0=Мы атакуем врагов в лоб.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0=Успех.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Detail=Атака прошла успешно. Теперь воеводы подчиняются нам. Порядок на территории {targetNationNameWithArticle} восстановлен.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1=Провал.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Detail=Атаку плохо спланировали, что привело к значительным потерям. Многим врагам удалось спастись. Они будут вести партизанскую войну, подрывая безопасность на территории {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1=Пообещаем амнистировать врагов и впустить их в новое правительство.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0=Успех.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Detail=По мнению воевод, они просто поддерживали порядок на своих территориях в неспокойное время. Мы польстили им и убедили в том, что долг жителям {targetNationNameWithArticle} уже отдан.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1=Провал.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Detail=Воеводы отказались признать {targetNationAdjective}ое правительство. Власти страны осознали, что выбора нет, и провели военную операцию, приведшую к значительным потерям. Многим врагам удалось бежать.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2=Подкупить их людей.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0=Успех.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Detail=Мы гарантировали солдатам трехразовое питание и горячий душ – вот те, недолго думая, и перешли на нашу сторону. У воевод не осталось людей, готовых выполнять приказы, так что пришлось капитулировать.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1=Провал.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Detail=К сожалению, из-за мании величия воеводы умудрились убедить и себя, и солдат в том, что все происходит во имя высшей цели. Выбора у {targetNationAdjective}ого правительства не оказалось: пришлось провести военную операцию, приведшую к значительным потерям. Многим врагам удалось бежать.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3=Организовать покушение на лидеров.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0=Успех.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Detail=Операция прошла успешно! Воевод нашли мертвыми в постелях. Никто не поверил, что лидеры умерли по естественным причинам, но это и не важно: без руководства солдаты попросту разбежались.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1=Провал.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Detail=Операция закончилась провалом. Наших агентов повесили, чтобы преподать урок остальным. Выбора у {targetNationAdjective}ого правительства не оказалось: пришлось провести военную операцию, приведшую к значительным потерям. Многим врагам удалось бежать.
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_NuclearFacilitiesAttacked=Атакован ядерный объект
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.summary=Вооруженные люди неожиданно захватили объект, на котором находится ядерное оружие {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.query=К счастью, система управления ядерным оружием {targetNationNameWithArticle} не допускает несанкционированный запуск или подрывы зарядов: этот горький урок человечество выучило еще в годы Зимней войны. Впрочем, это слабое утешение для чиновников, что понесут ответственность за чудовищную брешь в системе безопасности, а также стратегов, которым предстоит подсчитать ущерб ядерному арсеналу {targetNationNameWithArticle}.<br/><br/>Пока что вооруженные террористы передали лишь одно требование: правительство {targetNationNameWithArticle} должно ликвидировать ядерную программу. Если оно этого не сделает, то на него обрушится гнев миролюбивых граждан.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option0=Полетят чьи-то головы.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1=Быстро отправить спецназ на место происшествия.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0=Успех.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Detail=Под покровом ночи отряд спецназа провел высадку с вертолета. Бойцы успешно взяли штурмом центр управления и ракетные шахты. Террористы были ликвидированы и не успели нанести серьезный ущерб. Оставшиеся в живых пойдут под суд за государственную измену.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1=Провал.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Detail=Под покровом ночи отряд спецназа провел высадку с вертолета, но было поздно: ядерные боеголовки и системы обеспечения уже уничтожили. Оставшиеся боевики незамедлительно сдались в плен, ведь свою задачу они выполнили...
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2=Окружить объект и захватить его с помощью наземных войск.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0=Успех.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Detail=Быстро собранная боевая группа обстреляла объект, а затем успешно взяла штурмом центр управления и ракетные шахты. Террористы были ликвидированы и не успели нанести серьезный ущерб. Оставшиеся в живых пойдут под суд за государственную измену.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1=Провал.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Detail=Быстро собранная боевая группа обстреляла объект и пошла на штурм, но было поздно: ядерные боеголовки и системы обеспечения уже уничтожили. Оставшиеся боевики незамедлительно сдались в плен, ведь свою задачу они выполнили...

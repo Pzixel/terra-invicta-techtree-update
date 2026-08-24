@@ -1,0 +1,11 @@
+
+// Dark Skies DLC
+
+
+// This is a line in a user interface that details research bonuses from various different sources
+// Example : 
+// +5% from Headquarters
+// +26% from Space Habitats
+// +12% from Faction Effects
+
+UI.Science.Panel.Effects=<sp><sp><sp>{0} de efeitos de facção

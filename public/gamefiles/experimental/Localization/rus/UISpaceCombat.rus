@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=Для вооружения этого к�
 UI.SpaceCombat.Warning.ShipNoThrust=Этот корабль не способен маневрировать. Причина – исчерпанный запас топлива, либо критическое повреждение мостика/двигателя.
 UI.SpaceCombat.Warning.ShipNoWeapons=Этот корабль не может вести обстрел, поскольку его системы вооружения получили критические повреждения.
 UI.SpaceCombat.Warning.ShipTarget=Для этого корабля выбрана цель: {0}.
-UI.SpaceCombat.Warning.ManeuverTarget=Корабль "{0}" пытается уравнять скорость с этим судном.
+UI.SpaceCombat.Warning.ManeuverTarget=Корабль "{0}" пытается уравнять скорость с целью.
 UI.SpaceCombat.Warning.RotationStatus.Critical=Скорость поворота этого корабля существенно снижена из-за критического повреждения маневровых ускорителей.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=Скорость поворота этого корабля снижена из-за повреждения маневровых ускорителей.
 UI.SpaceCombat.Warning.RotationStatus.Good=Маневровые ускорители этого корабля полностью исправны. 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=Корабль маневрирует, чтоб
 UI.SpaceCombat.Offline=Не работает
 UI.SpaceCombat.Damaged=Повреждения
 UI.SpaceCombat.Online=Работает
+UI.SpaceCombat.Jammed=Помехи
 
 UI.SpaceCombat.Weapon.Damaged=Оружие повреждено и не сможет вести обстрел, пока не будет отремонтировано.
 UI.SpaceCombat.Weapon.Cooldown=Оружие охлаждается и будет готово начать обстрел позже.
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Приказы подкреп
 
 UI.SpaceCombat.Critical=КРИТИЧЕСКИЙ УРОН!
 UI.SpaceCombat.RawDamage=Чистый урон
-UI.SpaceCombat.AbsorbedDamage=Урон, блокированный броней корабля
-UI.SpaceCombat.PenetratedDamage=Урон системам корабля в обход брони
-UI.SpaceCombat.RadiationDamage=Урон от радиации, нанесенный системам корабля в обход брони
+UI.SpaceCombat.AbsorbedDamage=Урон, блокированный броней
+UI.SpaceCombat.PenetratedDamage=Урон системам в обход брони
+UI.SpaceCombat.RadiationDamage=Урон от радиации, нанесенный системам в обход брони
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Тепло отводится
 UI.SpaceCombat.RadiatorStatus.Heating=Тепло накапливается
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Корабль обезор�
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= Урон
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= Запас брони
 UI.SpaceCombat.BattleLog.PartRepaired.Title= Ремонт
+
+UI.SpaceCombat.WaypointAvoidance=Угроза столкновения

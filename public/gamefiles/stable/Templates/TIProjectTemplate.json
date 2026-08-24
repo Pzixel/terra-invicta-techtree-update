@@ -25,6 +25,9 @@
    "prereqs": [
       "Project_AlienMasterProject"
    ],
+   "effects": [
+      "Effect_ShipConstructionTimeReduction"
+   ],
    "oneTimeGlobally": false,
    "repeatable": false,
    "factionPrereq": [
@@ -1693,7 +1696,10 @@
    "initialUnlockChance": 10,
    "deltaUnlockChance": 10,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "Regional African Unions",
@@ -1731,7 +1737,10 @@
    "initialUnlockChance": 10,
    "deltaUnlockChance": 10,
    "maxUnlockChance": 100,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "Gulf Cooperation Council",
@@ -1806,7 +1815,10 @@
    "initialUnlockChance": 10,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "Southern Cross",
@@ -2080,7 +2092,10 @@
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "Pacific League",
@@ -2137,7 +2152,10 @@
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "African Union",
@@ -2195,7 +2213,10 @@
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "Greater Intermarium",
@@ -2234,7 +2255,10 @@
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "Greater Austronesia",
@@ -2329,7 +2353,10 @@
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "Liberating Mainland China",
@@ -2348,7 +2375,10 @@
    "initialUnlockChance": 10,
    "deltaUnlockChance": 10,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "United Indosphere",
@@ -2366,7 +2396,10 @@
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "The House of Islam",
@@ -2426,7 +2459,10 @@
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
-   "resourcesGranted": []
+   "resourcesGranted": [],
+   "scenarioTags": [
+      "NotPostApoc"
+   ]
 },
  {
    "friendlyName": "European Decolonization",
@@ -2449,6 +2485,9 @@
          "resource": "Influence",
          "value": 200
       }
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -2472,6 +2511,9 @@
          "resource": "Influence",
          "value": 200
       }
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -2495,6 +2537,9 @@
          "resource": "Influence",
          "value": 200
       }
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -2518,6 +2563,9 @@
          "resource": "Influence",
          "value": 200
       }
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -2541,6 +2589,9 @@
          "resource": "Influence",
          "value": 200
       }
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -2564,6 +2615,9 @@
          "resource": "Influence",
          "value": 500
       }
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -2587,6 +2641,9 @@
          "resource": "Influence",
          "value": 500
       }
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -2610,6 +2667,9 @@
          "resource": "Influence",
          "value": 500
       }
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -2633,6 +2693,9 @@
          "resource": "Influence",
          "value": 500
       }
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -6814,10 +6877,9 @@
    "AI_projectRole": "Propulsion",
    "researchCost": 5000,
    "prereqs": [
-      "Project_GasCoreFissionReactorI",
       "MagneticNozzles",
-      "Project_FissionFragDrive",
-      "HighTemperatureSuperconductors"
+      "Project_GasCoreFissionReactorI",
+      "Project_FissionFragDrive"
    ],
    "oneTimeGlobally": false,
    "repeatable": false,
@@ -10491,8 +10553,10 @@
    ],
    "oneTimeGlobally": false,
    "repeatable": false,
-   "factionAvailableChance": 20,
-   "factionAlways": "ExploitCouncil",
+   "factionPrereq": [
+      "ExploitCouncil"
+   ],
+   "factionAvailableChance": 100,
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
    "maxUnlockChance": 100,

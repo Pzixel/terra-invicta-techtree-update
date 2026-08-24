@@ -16,6 +16,7 @@ UI.Habs.MainHeader=Habitaty
 UI.Habs.NoHabSelected=Není vybrán žádný habitat
 UI.Habs.TierCrew={0} (stupeň {1}/max. {2})
 UI.Habs.SelectAModule=Vyber modul
+UI.Habs.CantBuild=<size=60%>Habitaty, které jsou cílem útoku či bombardování nebo probíhá jejich vyřazení z provozu, nemohou stavět nebo upgradovat moduly.</size>
 UI.Habs.SectorID=Sektor {0}
 UI.Habs.Tier=Modul {0}. stupně
 UI.Habs.Crew={0} členů posádky
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath={0} na {1}	// old module displayName, upgraded version displ
 UI.Habs.UpgradeAllofTypeQuery=Potvrzením se provede upgrade modulů ({0}): {1} na {2}.
 UI.Habs.CantAffordUpgradeAllofType=To si nyní nemůžeme dovolit.
 UI.Habs.BaseSiteName=Základna {0}	// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks={0} Tento habitat nemůže stavět ani upgradovat moduly, dokud čelí útoku.

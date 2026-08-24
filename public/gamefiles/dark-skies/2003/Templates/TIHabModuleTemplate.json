@@ -1,0 +1,61 @@
+[
+ {
+   "dataName": "AlienWormholeFacility",
+   "scenarioTags": [
+		"Millennium"
+	],
+   "friendlyName": "Alien Wormhole Facility",
+   "coreModule": false,
+   "habType": "Base",
+   "onePerHab": true,
+   "automated": false,
+   "allowsShipConstruction": false,
+   "allowsResupply": false,
+   "mine": false,
+   "noBuild": true,
+   "destroyed": false,
+   "tier": 3,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "crew": 0,
+   "power": 0,
+   "baseMass_tons": 10000,
+   "buildTime_Days": 360,
+   "missionControl": 100,
+   "incomeWater_month": 200,
+   "incomeVolatiles_month": 200,
+   "incomeMetals_month": 200,
+   "incomeNobles_month": 50,
+   "incomeFissiles_month": 10,
+   "incomeAntimatter_month": 0.01,
+   "incomeExotics_month": 10,
+   "constructionTimeModifier": 1,
+   "miningModifier": 0,
+   "controlPointCapacity": 0,
+   "techBonuses": [],
+   "specialRules": [
+      "Salamanders",
+      "AlienWormhole",
+      "PowerFirst"
+   ],
+   "specialRulesValue": 20,
+   "supportMaterials_month": {
+      "money": 0
+   },
+   "weightedBuildMaterials": {
+      "water": 0,
+      "volatiles": 0.25,
+      "metals": 0.25,
+      "nobleMetals": 0.2,
+      "fissiles": 0.1,
+      "exotics": 0.15
+   },
+   "weightBuildMaterials": {
+      "antimatter": 0.05
+   },
+   "baseIconResource": "habmodules/base_T3_AlienWormholeFacility",
+   "alertWorthy": true,
+   "alienModule": true,
+   "objectiveModule": false,
+   "disable": false
+}
+]

@@ -1,8 +1,14 @@
 // Basic data types
 import type { LocalizedUi } from '../language';
+import type { ScenarioCode } from '../scenario';
 
 export interface LocalizationEntry {
     [field: string]: string | { [faction: string]: string };
+}
+
+export interface LocalizationContentLayer {
+    files: string[];
+    postfix: string;
 }
 
 export const TemplateTypes = {
@@ -16,6 +22,7 @@ export const TemplateTypes = {
     "laserweapon": "TILaserWeaponTemplate",
     "magneticgun": "TIMagneticGunTemplate",
     "missile": "TIMissileTemplate",
+    "meta": "TIMetaTemplate",
     "nation": "TINationTemplate",
     "objective": "TIObjectiveTemplate",
     "org": "TIOrgTemplate",
@@ -36,33 +43,71 @@ export type TemplateType = keyof typeof TemplateTypes;
 
 export class LocalizationDb {
     localizationStrings: Map<string, string>;
+    private localizationLayers: Map<string, string>[];
+    private localizationStems: Set<string>[];
+    private localizationPostfixes: string[];
     private uiTexts: LocalizedUi;
+    private localizationAliases: Record<string, Record<string, string>>;
+    private scenarioAliases: Record<string, Record<string, string>>;
+    private scenarioLocalizationPostfix: string;
     
-    constructor(localizationFileContent: string[], uiTexts: LocalizedUi) {
+    constructor(
+        localizationFileContent: string[] | LocalizationContentLayer[],
+        uiTexts: LocalizedUi,
+        aliases: {
+            localization?: Record<string, Record<string, string>>;
+            scenario?: Record<string, Record<string, string>>;
+            scenarioLocalizationPostfix?: string;
+        } = {},
+    ) {
         this.localizationStrings = new Map<string, string>();
+        this.localizationLayers = [];
+        this.localizationStems = [];
+        this.localizationPostfixes = [];
         this.uiTexts = uiTexts;
+        this.localizationAliases = aliases.localization ?? {};
+        this.scenarioAliases = aliases.scenario ?? {};
+        this.scenarioLocalizationPostfix = aliases.scenarioLocalizationPostfix ?? '';
 
-        for (const file of localizationFileContent) {
-            const lines = file.split("\n");
-            for (const line of lines) {
-                const equalIndex = line.indexOf('=');
-                if (equalIndex > 0) {
+        const layers: LocalizationContentLayer[] = localizationFileContent.length > 0 &&
+            typeof localizationFileContent[0] === 'object'
+            ? localizationFileContent as LocalizationContentLayer[]
+            : [{
+                files: localizationFileContent as string[],
+                postfix: this.scenarioLocalizationPostfix,
+            }];
+        for (const layer of layers) {
+            const strings = new Map<string, string>();
+            const stems = new Set<string>();
+            for (const file of layer.files) {
+                const lines = file.split("\n");
+                for (const line of lines) {
+                    const equalIndex = line.indexOf('=');
+                    if (equalIndex <= 0) continue;
                     const commentIndex = line.indexOf('//');
-                    
-                    // Extract the key (left side of =)
                     const key = line.substring(0, equalIndex).trim();
-                    
-                    // Extract the value (right side of =, but before any comment)
-                    let value;
-                    if (commentIndex > equalIndex) {
-                        value = line.substring(equalIndex + 1, commentIndex).trim();
-                    } else {
-                        value = line.substring(equalIndex + 1).trim();
-                    }
-                    
+                    const value = commentIndex > equalIndex
+                        ? line.substring(equalIndex + 1, commentIndex).trim()
+                        : line.substring(equalIndex + 1).trim();
+                    strings.set(key, value);
                     this.localizationStrings.set(key, value);
+                    const firstDot = key.indexOf('.');
+                    const secondDot = key.indexOf('.', firstDot + 1);
+                    if (firstDot > 0 && secondDot > firstDot) {
+                        const template = key.slice(0, firstDot);
+                        let dataStem = key.slice(secondDot + 1);
+                        while (dataStem) {
+                            stems.add(`${template}|${dataStem}`);
+                            const lastDot = dataStem.lastIndexOf('.');
+                            if (lastDot < 0) break;
+                            dataStem = dataStem.slice(0, lastDot);
+                        }
+                    }
                 }
             }
+            this.localizationLayers.push(strings);
+            this.localizationStems.push(stems);
+            this.localizationPostfixes.push(layer.postfix);
         }
     }
 
@@ -72,6 +117,17 @@ export class LocalizationDb {
         field: string
     ): string {
         return `${TemplateTypes[type]}.${field}.${dataName}`;
+    }
+
+    private localizationDataNames(type: TemplateType, dataName: string, postfix: string): string[] {
+        const aliases = [
+            this.localizationAliases[type]?.[dataName],
+            this.scenarioAliases[type]?.[dataName],
+        ].filter((value): value is string => !!value);
+        const direct = postfix ? [`${dataName}${postfix}`, dataName] : [dataName];
+        const aliasCandidates = aliases.flatMap((alias) => postfix ? [`${alias}${postfix}`, alias] : [alias]);
+        const candidates = direct.concat(aliasCandidates);
+        return candidates.filter((name, index) => candidates.indexOf(name) === index);
     }
     
 
@@ -83,7 +139,21 @@ export class LocalizationDb {
         if (type === 'faction' && dataName === 'Random') {
             return this.uiTexts.randomFaction;
         }
-        return this.localizationStrings.get(this.toKey(type, dataName, field));
+        for (let index = this.localizationLayers.length - 1; index >= 0; index -= 1) {
+            for (const candidate of this.localizationDataNames(type, dataName, this.localizationPostfixes[index])) {
+                const value = this.localizationLayers[index].get(this.toKey(type, candidate, field));
+                if (value) return value;
+            }
+        }
+        return undefined;
+    }
+
+    hasAnyLocalization(type: TemplateType, dataName: string): boolean {
+        return this.localizationLayers.some((_layer, index) =>
+            this.localizationDataNames(type, dataName, this.localizationPostfixes[index]).some((candidate) =>
+                this.localizationStems[index].has(`${TemplateTypes[type]}|${candidate}`)
+            )
+        );
     }
 
     getReadable(
@@ -177,7 +247,7 @@ export interface TechTemplate {
   displayName: string;
   friendlyName?: string;
   prereqs: string[];
-  altPrereq0?: string;
+  [key: `altPrereq${number}`]: string | undefined;
   researchCost: number;
   techCategory: string;
   id?: number;
@@ -196,6 +266,10 @@ export interface TechTemplate {
   endGameTech?: boolean;
   oneTimeGlobally?: boolean;
   repeatable?: boolean;
+  scenarioCode?: ScenarioCode;
+  dlcOnly?: boolean;
+  scenarioVariant?: boolean;
+  prerequisiteSlots?: string[][];
 }
 
 export interface ResourceGranted {

@@ -1,66 +1,23 @@
 import React, { useState, useEffect } from "react";
-import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip, IconButton, useTheme } from "@mui/material";
+import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip, IconButton, Chip, useTheme } from "@mui/material";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { assetUrl, findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
 import { TechSidebarProps } from './types/props';
 import { TechTemplate, Claim, Adjacency, DataModule, TemplateType, ModuleTemplate, EffectTemplate, TemplateTypes } from './types';
 import { TechDb } from './utils/TechDb';
+import { prerequisiteSlots } from './data/scenarioCompiler';
+import { clearResearchProgress, loadResearchProgress, saveResearchProgress } from './utils/researchProgress';
+import type { GameVersionCode } from './version';
+import type { ScenarioCode } from './scenario';
 
-// localStorage utility functions for research state persistence
-// This feature allows the research progress to persist between page refreshes and app launches
-const RESEARCH_STATE_KEY = 'terraInvictaResearchState';
-
-/**
- * Saves the current research state to localStorage
- * Only stores technologies that have researchDone = true to minimize storage space
- */
-function saveResearchState(techDb: TechDb) {
-    try {
-        const researchState: Record<string, boolean> = {};
-        techDb.getAllTechs().forEach((tech: TechTemplate) => {
-            if (tech.researchDone) {
-                researchState[tech.dataName] = true;
-            }
-        });
-        if (Object.keys(researchState).length > 0) {
-            localStorage.setItem(RESEARCH_STATE_KEY, JSON.stringify(researchState));
-        } else {
-            localStorage.removeItem(RESEARCH_STATE_KEY);
-        }
-    } catch (error) {
-        console.warn('Failed to save research state to localStorage:', error);
-    }
-}
-
-/**
- * Loads research state from localStorage and applies it to the current techDb
- * Automatically handles cases where techs might not exist in the current view
- */
-function loadResearchState(techDb: TechDb) {
-    try {
-        const savedState = localStorage.getItem(RESEARCH_STATE_KEY);
-        if (savedState) {
-            const researchState: Record<string, boolean> = JSON.parse(savedState);
-            techDb.getAllTechs().forEach((tech: TechTemplate) => {
-                tech.researchDone = !!researchState[tech.dataName];
-            });
-        }
-    } catch (error) {
-        console.warn('Failed to load research state from localStorage:', error);
-    }
-}
-
-/**
- * Clears all research progress from localStorage
- * Useful for resetting research state completely
- */
-function clearResearchState() {
-    try {
-        localStorage.removeItem(RESEARCH_STATE_KEY);
-    } catch (error) {
-        console.warn('Failed to clear research state from localStorage:', error);
-    }
+function saveResearchState(techDb: TechDb, version: GameVersionCode, scenario: ScenarioCode) {
+    const progress = loadResearchProgress(localStorage, version, scenario);
+    techDb.getAllTechs().forEach((tech) => {
+        if (tech.researchDone) progress[tech.dataName] = true;
+        else delete progress[tech.dataName];
+    });
+    saveResearchProgress(localStorage, version, scenario, progress);
 }
 
 const templates = Object.keys(TemplateTypes) as (keyof typeof TemplateTypes)[];
@@ -74,6 +31,8 @@ export function TechSidebar({
   navigatedToNode,
   handleIsolatedChanged,
   isMobile,
+  versionCode,
+  scenarioCode,
 }: TechSidebarProps) {
     const theme = useTheme();
     const locale = language.locale;
@@ -88,11 +47,16 @@ export function TechSidebar({
 
     // Load research state from localStorage when techDb changes
     useEffect(() => {
-        if (techDb) {
-            loadResearchState(techDb);
+        try {
+            const progress = loadResearchProgress(localStorage, versionCode, scenarioCode);
+            techDb.getAllTechs().forEach((tech) => {
+                tech.researchDone = !!progress[tech.dataName];
+            });
             setResearchStateLoaded(true);
+        } catch (error) {
+            console.warn('Failed to load research state from localStorage:', error);
         }
-    }, [techDb]);
+    }, [techDb, versionCode, scenarioCode]);
 
     // Copy to clipboard handler
     const handleCopyTreeCost = async (treeCostString: string) => {
@@ -808,7 +772,11 @@ export function TechSidebar({
         }
         
         // Save the updated research state to localStorage
-        saveResearchState(techDb);
+        try {
+            saveResearchState(techDb, versionCode, scenarioCode);
+        } catch (error) {
+            console.warn('Failed to save research state to localStorage:', error);
+        }
         
         onNavigateToNode({
             ...node
@@ -817,7 +785,11 @@ export function TechSidebar({
 
     const handleClearAllProgress = () => {
         // Clear all research progress from localStorage
-        clearResearchState();
+        try {
+            clearResearchProgress(localStorage, versionCode, scenarioCode);
+        } catch (error) {
+            console.warn('Failed to clear research state from localStorage:', error);
+        }
         
         // Reload the page to reset all research states
         window.location.reload();
@@ -828,13 +800,13 @@ export function TechSidebar({
         return techDb.getAllTechs().some((tech: TechTemplate) => tech.researchDone);
     };
 
-    const renderProjectButton = (tech: TechTemplate) => {
+    const renderProjectButton = (tech: TechTemplate, elementKey = tech.dataName) => {
         const canFailToRoll = tech.factionAvailableChance !== undefined && tech.factionAvailableChance < 100;
         const factions = tech.factionPrereq?.map(faction => getFactionIcon(faction)!) ?? [];
         const projectTitle = tech.isProject ? language.uiTexts.factionProjectTitle : language.uiTexts.globalResearchTitle;
         return (
             <Button
-                key={`${tech.displayName}`}
+                key={elementKey}
                 onClick={() => onNavigateToNode(tech)}
                 variant="contained"
                 className={`prereqButton${tech.researchDone ? " researchDone" : ""}`}
@@ -850,40 +822,33 @@ export function TechSidebar({
 
     // Render prerequisites section
     const renderPrerequisites = () => {
-        const prereqNames = node.prereqs?.filter(prereq => prereq !== "") || [];
-
-        if (prereqNames.length === 0) {
+        const slots = prerequisiteSlots(node);
+        if (slots.length === 0) {
             return null;
         }
-
-        const prereqElements = prereqNames
-            .map(prereq => {
+        let renderedSlotCount = 0;
+        const prereqElements = slots.flatMap((slot, slotIndex) => {
+            const optionTechs = slot.flatMap((prereq) => {
                 const tech = findTechByName(prereq);
-                if (!tech) {
-                    return null;
-                }
-                return renderProjectButton(tech);
+                return tech ? [tech] : [];
             });
-
-        // Handle alternate prerequisites
-        if (node.altPrereq0 && node.altPrereq0 !== "") {
-            const prereq = node.altPrereq0;
-            const tech = findTechByName(prereq);
-            if (!tech) {
-                return null;
-            }
-            const altButton = renderProjectButton(tech);
-
-            const orText = <b key={"or"} className="prereqButton">{language.uiTexts.orLabel}</b>;
-            const breakElement = <br key={"br"} />;
-            const andText = <b key={"and"} className="prereqButton">{language.uiTexts.andLabel}</b>;
-
-            if (prereqElements.length > 1) {
-                prereqElements.splice(1, 0, orText, altButton, breakElement, andText);
-            } else {
-                prereqElements.splice(1, 0, orText, altButton);
-            }
-        }
+            const options = optionTechs.flatMap((tech, optionIndex) => [
+                    ...(optionIndex > 0
+                        ? [<b key={`${slotIndex}-${optionIndex}-or`} className="prereqButton">{language.uiTexts.orLabel}</b>]
+                        : []),
+                    renderProjectButton(tech, `${slotIndex}-${optionIndex}-${tech.dataName}`),
+                ]);
+            if (options.length === 0) return [];
+            const elements = [
+                ...(renderedSlotCount > 0
+                    ? [<br key={`${slotIndex}-break`} />, <b key={`${slotIndex}-and`} className="prereqButton">{language.uiTexts.andLabel}</b>]
+                    : []),
+                ...options,
+            ];
+            renderedSlotCount += 1;
+            return elements;
+        });
+        if (prereqElements.length === 0) return null;
 
         return (
             <>
@@ -1180,6 +1145,19 @@ export function TechSidebar({
 
                 {/* Heading */}
                 <h2>{node.displayName} {node.isProject ? <img src={projectIconSrc} alt="faction project" style={{ width: "24px", height: "24px" }} /> : null}</h2>
+                {(node.dlcOnly || node.scenarioVariant) && (
+                    <div className="dlc-node-chips">
+                        <Chip
+                            size="small"
+                            color="secondary"
+                            variant={node.dlcOnly ? "filled" : "outlined"}
+                            label={node.dlcOnly ? "◆ Dark Skies DLC — New" : "Dark Skies DLC — Scenario variant"}
+                            aria-label={node.dlcOnly
+                                ? "Dark Skies DLC, newly added node"
+                                : "Dark Skies DLC, scenario variant of a Standard node"}
+                        />
+                    </div>
+                )}
 
                 {/* Cost information */}
                 <Accordion disableGutters>

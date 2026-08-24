@@ -1,0 +1,295 @@
+
+// Dark Skies DLC
+
+
+//// RECOVERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldBooks=Livres d'antan
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.summary=En rénovant les quartiers qui furent précipitamment évacués et laissés à l'abandon après la guerre, les ouvriers de la reconstruction ont découvert une pile de vieux livres.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.query=Au milieu de ces livres, il y avait des classiques de la littérature écrits bien avant la guerre, des manuels de sciences du vivant et de sciences sociales, et même quelques volumes d'une série de bandes dessinées qui fut très populaire. Ces œuvres seront très utiles pour restaurer le système éducatif {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.option0=Nous avons encore beaucoup à réapprendre du passé.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionResult0=Les ouvriers de la reconstruction {targetNationNameWithArticleAndPlacePrep} ont découvert une pile de vieux livres.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldDoctrines=Doctrines d'antan
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.summary=En débarrassant les décombres des villes et des fortifications qui furent bombardées puis laissées à l'abandon après la guerre, les ouvriers de la reconstruction ont découvert un réseau de bunkers caché.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.query=La guerre s'est terminée il y a bien longtemps, les survivants ont abandonné les lieux, les armes ont rouillé et les provisions ont périmé. Dans un des niveaux inférieurs, nous avons trouvé plusieurs manuels de terrain et plans de guerre, qui expliquent exhaustivement comme implanter la doctrine des armées de la période de guerre. Ces documents seront très utiles pour {targetNationNameWithArticle}, afin de mieux comprendre la guerre.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.option0=Doit-on vraiment s'inspirer de nos prédécesseurs ?
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionResult0=Les ouvriers de la reconstruction {targetNationNameWithArticleAndPlacePrep} ont découvert un réseau de bunkers secret.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldMedia=Médias d'antan
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.summary=Lorsqu'ils rénovaient les quartiers qui furent précipitamment évacués et laissés à l'abandon après la guerre, les ouvriers de la reconstruction ont découvert une cachette remplie d'anciens films et d'œuvres musicales.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.query=De nos jours, les technologies utilisées pour enregistrer et lire ces médias sont assez simples à comprendre pour les ingénieurs. Mais ils n'en restent pas moins très méticuleux lorsqu'ils les manipulent, pour ne pas endommager leur contenu. Une fois ces médias nettoyés et formatés pour des appareils contemporains, nous espérons attiser la curiosité d'un public qui souhaite savoir ce que nos prédécesseurs aimaient voir et écouter avant la guerre.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option0=Rendre tous ces médias publics.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult0=Les ouvriers de la reconstruction {targetNationNameWithArticleAndPlacePrep} ont découvert plusieurs films et des œuvres musicales.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option1=Les garder {targetNationNameWithArticleAndPlacePrep} et faire payer quiconque souhaite y avoir accès.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult1=Les ouvriers de la reconstruction {targetNationNameWithArticleAndPlacePrep} ont découvert plusieurs films et des œuvres musicales.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MemorialtotheFallen=Mémorial pour les disparus
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.summary=La majorité de la population {targetNationNameWithArticleAndPlacePrep} s'est rassemblée pour le Mémorial quinquennal pour les disparus.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.query=Des agents gouvernementaux, des aumôniers et des citoyens et citoyennes lambda ont tour à tour lu les noms des personnes qui ont péri lors du cataclysme nucléaire de 1962. Ces cérémonies sont habituelles et solennelles, mais elles n'en sont pas moins importantes. Elles permettent de maîtriser la population. En effet, même si une nouvelle page de l'histoire se tourne, la population ne doit jamais oublier la destruction causée par les armes nucléaires et doit jurer de ne plus y avoir recours.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.option0=N'oublions pas.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionResult0={summary}
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_UnauthorizedSalvage=Récupérations non autorisées	
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.summary=Les missions de récupération n'ont pas été autorisées pour {targetRegionName}, mais sont tout de même en cours.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.query=Malheureusement, ces régions ne sont pas encore complètement contrôlées par les dirigeants de l'état {targetNationAdjective}, ces derniers ne peuvent donc pas empêcher les plus téméraires de chercher et trouver du matériel datant de la guerre. Non seulement ces recherches contribuent au développement du marché noir, qui entrave le développement économique l'état {targetNationAdjective}, elles créent également des tensions avec les populations qui tentent encore d'habiter dans ces zones ravagées et qui les revendiquent comme les leurs, bien qu'elles soient peu nombreuses.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0=Nous n'y pouvons rien.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0=Les opérations de récupération continuent.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1=Les récupérateurs découvrent des livres d'antan.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2=Les récupérateurs découvrent d'anciens bunkers.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3=Les récupérateurs découvrent des médias d'antan.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option1=Réprimons ces hors-la-loi.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionResult1={targetNationNameWithArticleCap} a sévi contre les opérations de récupération non autorisées {targetRegionNameSentIn}.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2=Proposons des récompenses pour les opérations de récupération autorisées.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0=Les opérations de récupération continuent.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Summary=Des missions de récupération ont été autorisées pour {targetRegionName} et sont en cours.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1=Les récupérateurs découvrent des livres d'antan.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Summary=Des missions de récupération ont été autorisées pour {targetRegionName} et sont en cours.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2=Les récupérateurs découvrent d'anciens bunkers.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Summary=Des missions de récupération ont été autorisées pour {targetRegionName} et sont en cours.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3=Les récupérateurs découvrent des médias d'antan.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Summary=Des missions de récupération ont été autorisées pour {targetRegionName} et sont en cours.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ArmedProcession=Procession armée
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.summary=Une longue file d'hommes et de femmes, portant des armes et criant des slogans, traverse {targetRegionName}.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.query=Ce n'est ni une manifestation ni une insurrection contre le gouvernement {targetNationAdjective}. C'est plutôt une avalanche d'émotions, une manière de défier la mort subie par {targetNationNameWithArticle} en raison de la guerre et une démonstration de la volonté de survivre du peuple {targetNationAdjective}. Ce type d'événement semble trouver sa source dans les rassemblements impromptus organisés par les milices durant le chaos d'après guerre. Depuis, ces événements se sont multipliés et font partie du folklore {targetNationAdjective}.<br/><br/>Cependant, certains gouvernements estiment encore qu'avoir autant d'hommes et de femmes armées à un seul endroit favorise la contrebande et d'autres activités criminelles.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0={targetNationNameWithArticleCap} manifeste pour sa vie !
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0=Tout va bien.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Detail=Les inquiétudes n'avaient, heureusement, pas lieu d'être.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1=Une subversion prend place.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Detail=Les inquiétudes étaient peut-être plus justifiées qu'il n'y paraissait.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option1=Ordonnons leur dispersion pour des raisons de sécurité.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option2=Envoyons des agents infiltrés pour surveiller la situation.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldSatellite=Satellite d'antan
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.summary=Les premiers astronautes ont détecté un vieux satellite d'avant-guerre qui orbite encore autour de la Terre.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.query=La première tentative d'exploration spatiale de l'humanité a été cruellement courte, elle n'a duré que quelques années avant que la Guerre d'hiver ne vienne freiner toutes les ambitions. Peut-être inconsciemment, mais cela a créé une peur de l'espace chez certaines personnes : une crainte qu'en essayant de s'élever vers les cieux, l'humanité s'attirerait à nouveau leurs foudres.<br/><br/>C'est pour ce motif, et pour d'autres raisons matérielles, que les programmes spatiaux ont été relégués au second plan.<br/><br/>Mais ce n'est plus le cas. L'arrivée des extraterrestres a prouvé que le néant n'était pas vide, mais qu'il pouvait être atteint et traversé par des formes de vie intelligentes. Pour beaucoup, ce postulat est toujours source de peur, mais ce n'est plus une peur abstraite, c'est une menace tangible qui peut être affrontée et anéantie.<br/><br/>Aussi incroyable que cela puisse paraître, cette petite relique de la Terre d'avant-guerre a survécu pendant plus d'un siècle, comme notre espèce. Bien que ce satellite ne soit plus fonctionnel, il reste un symbole du courage et de la résilience de l'humanité.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option0=Nous pouvons tout de même nous inspirer de cet appareil.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult0={targetFactionNameCap} a récupéré un vieux satellite d'avant-guerre qui orbitait autour de la Terre.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option1=Sa place est dans un musée !
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult1={targetFactionNameCap} a récupéré un vieux satellite d'avant-guerre qui orbitait autour de la Terre.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option2=Nos astronautes marchent sur les pas de leurs prédécesseurs.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult2={targetFactionNameCap} a récupéré un vieux satellite d'avant-guerre qui orbitait autour de la Terre.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MuseumtotheOldWorld=Musée du vieux monde
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.summary=Nos conseillers proposent de construire un musée dédié aux objets d'avant-guerre.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.query=À ce stade, nous avons récupéré suffisamment d'objets pour pouvoir en donner quelques-uns aux archives ou pour qu'ils soient exposés au public. La construction et la gestion du lieu ne devraient pas poser problème et ne nécessiteront pas notre implication directe. Il ne reste plus qu'à déterminer quel sera le thème global du musée : c'est une chance unique d'altérer le souvenir que le public a de la Guerre d'hiver, et d'en implanter un qui correspond mieux à nos ambitions.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option0=Leur civilisation était fondée sur la science.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult0={targetFactionNameCap} a fait construire un musée pour y exposer du matériel scientifique d'avant-guerre.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option1=Leur philosophie de vie force l'admiration.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult1={targetFactionNameCap} a fait construire un musée pour mettre en valeur les modes de vie d'avant-guerre.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option2=Leur puissance militaire demeure inégalée.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult2={targetFactionNameCap} a fait construire un musée pour mettre en valeur les prouesses militaires d'avant-guerre.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option3=Leur niveau de vie était admirable.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult3={targetFactionNameCap} a fait construire un musée pour mettre en avant le niveau de vie d'avant-guerre.
+
+//// NUKE EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearPublicity=Publicité antinucléaire
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.summary=Le peuple {targetNationAdjective} s'est exprimé haut et fort contre la possession de l'arme nucléaire {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.query=L'idée même d'une arme nucléaire est totalement taboue de nos jours. Au cours du dernier siècle, un consensus a été établi : la fabrication et la prolifération des armes nucléaires ont été les déclencheurs de la Guerre d'hiver. Plus aucune arme de ce type ne doit être construite, sous peine de mettre davantage en péril la survie de l'humanité et son statut de civilisation technologique. Bien que l'arrivée des extraterrestres ait bouleversé toutes les croyances sur l'univers et créé un besoin de sécurité renforcée, la peur bien ancrée et justifiée du nucléaire demeure.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option0=Leur détresse est compréhensible.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1=Si nos ennemis le font, nous n'avons pas le choix !
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0=Apaisement.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1=Controverse.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearActivism=Activisme antinucléaire
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.summary=Des manifestants ont envahi toutes les usines impliquées dans le développement de l'arme nucléaire {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.query=La véhémence des activistes a pris de court le gouvernement {targetNationAdjective}. Même si l'arme de dissuasion nucléaire {targetNationNameWithPrep} est encore en sécurité, beaucoup de matériel très sensible et de personnel qualifié sont en danger. Cela met en péril l'avenir du programme nucléaire.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option0=Priorisons l'évacuation du personnel.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option1=Priorisons l'évacuation du matériel.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option2=Envoyons l'armée pour disperser les manifestants.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearSabotage=Sabotage antinucléaire
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.summary=Une inspection surprise de l'arsenal nucléaire possédé par {targetNationNameWithArticle} a révélé que plusieurs ogives étaient inutilisables.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.query=Les forces de sécurité ont convoqué et interrogé tous les ingénieurs qui ont pu entrer en contact avec les ogives au cours de l'année passée, ainsi que tous les inspecteurs responsables des précédents rapports d'inspection qui ont été réfutés. Pour l'instant, personne ne parle, même si c'est un fait connu que le moral au sein du personnel est globalement très bas.<br/><br/>Seul rayon de soleil dans cette histoire, il semblerait qu'aucun matériel nucléaire n'ait été déplacé hors site. Il est évident que les responsables ne voulaient pas répandre la menace du nucléaire.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option0=Lorsqu'on parle de nucléaire, les objecteurs de conscience n'ont pas leur mot à dire.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option1=Nous l'avions anticipé. Les vraies ogives sont stockées ailleurs.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail1=Rien ne se passe.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option2=Ce sabotage était maladroit. Nos experts pourront tout réparer très facilement.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail2=Rien ne se passe.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ScientistsProtestNuclearProgram=Les scientifiques manifestent contre un programme nucléaire
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.summary=D'éminents scientifiques ont abandonné leur poste pour manifester contre le programme nucléaire {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.query=Dans une tribune cosignée destinée à l'administration, les scientifiques ont déclaré que leur rôle était d'utiliser la technologie pour assurer l'évolution pacifique de l'humanité et non pas pour inciter à la guerre et à la destruction. Même dans les circonstances les plus extrêmes. Dans cette tribune, ils citent J. Robert Oppenheimer, qui reste à ce jour le père de la bombe atomique et celui qui a essayé, en vain, d'empêcher sa découverte de détruire le monde.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option0=Nous devrions peut-être écouter leurs avertissements.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option1=Nous n'avons pas besoin de ces pleurnicheurs.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option2=Les scientifiques n'ont pas à donner leur avis sur la sécurité nationale.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult2={summary}
+
+
+
+
+//// FACTION EVENTS (TRANSLATION BATCH 2)
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderResist=Résister sur une Terre brisée
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.summary=Que vont faire les extraterrestres qui débarquent dans un monde qui vient à peine de sortir des ténèbres de la Guerre d'hiver ?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.query=Cette guerre constitue sans aucun doute la pire catastrophe de l'histoire de l'humanité. Le fait qu'elle se l'est elle-même infligée est encore plus triste. Pendant plus d'un siècle, nous avons vécu dans les ténèbres provoquées par la radiation nucléaire. Nous nous sommes cachés du froid qui persistait et avons sombré dans la peur et le désespoir. Ce n'est qu'aujourd'hui, après toutes ces sombres années, que la première lueur d'espoir nous parvient. Pour la première fois en cent ans, notre espèce peut à nouveau croire en l'avenir.<br/><br/>C'est dans ce monde qu'ont débarqué les extraterrestres. Ils auraient pu venir en paix. Avec la technologie avancée dont ils disposent, ils auraient pu nous aider à reconstruire. Pour être clairs, cette assistance n'aurait pas été gratuite : nous ne sommes pas naïfs et nous savons très bien comment se déroulent généralement les rencontres entre deux civilisations si différentes. Toutefois, un tel geste de leur part nous aurait rassurés et prouvé que nous n'étions pas seuls dans l'univers, que notre souffrance n'était pas invisible. Au lieu de cela, ils ont choisi de nous envahir et de conquérir notre planète. Ils ont vu une espèce anéantie et au bord de l'extinction, et ont décidé de profiter de notre faiblesse.<br/><br/>Soit. Leurs actes parlent d'eux-mêmes. Cessons de nous leurrer quant à leurs véritables intentions envers l'humanité. Si nous survivons et si nous réussissons à reconstruire ce monde brisé, alors nous devrons nous battre pour le conserver.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.option0=Et nous nous battrons.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderDestroy=Détruire sur une Terre brisée
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.summary=Que vont faire les extraterrestres qui débarquent dans un monde qui vient à peine de sortir des ténèbres de la Guerre d'hiver ?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.query=Autrefois, les guerres se déclaraient pour des raisons matérielles, voire prosaïques : une rancune insignifiante d'un roi envers son cousin, une dispute de quinze ans quant à la propriété d'un petit bout de terre, la jalousie concernant les ressources et la prospérité de son voisin. Elles étaient menées principalement par des professionnels et, que leur camp gagne ou perde, la vie suivait son cours pour la grande majorité des humains.<br/><br/>Cependant, au fur et à mesure que la technologie s'est développée, l'horizon de l'humanité s'est amplement élargi, et la dimension des guerres a suivi cette dynamique. Il ne s'agissait plus d'obtenir des ressources ou de satisfaire son ego, mais de décider du sort de notre espèce. Les guerres mondiales ont uniquement servi à mobiliser massivement des troupes pour exterminer des civilisations opposées et déterminer le sort de l'histoire humaine. Lorsque la Guerre d'hiver éclata, les technologies de guerre étaient déjà en mesure d'encercler toute l'humanité, et presque de l'anéantir.<br/><br/>À présent, l'horizon s'est à nouveau élargi. Avec l'arrivée des extraterrestres, le champ de bataille ne se limite plus à notre planète, mais va bien au-delà. Dans l'immense bataille en faveur de la vie, il ne peut y avoir qu'un vainqueur.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.option0=Il y a intérêt à ce que ce soit nous.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderExploit=Exploiter sur une Terre brisée
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.summary=Que vont faire les extraterrestres qui débarquent dans un monde qui vient à peine de sortir des ténèbres de la Guerre d'hiver ?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.query=L'histoire de l'humanité n'a jamais suivi une trajectoire linéaire, contrairement à ce que pensent certains universitaires du haut de leur tour d'ivoire, ou à ce que prêchent les politiciens à la populace. Au contraire, il s'agit d'un cycle fait de hauts et de bas, chacun ponctué de dangers et d'opportunités. Les véritables maîtres du monde sont ceux qui savent reconnaître ces aléas et exploiter les victoires, tout comme les défaites, avec la même ambition.<br/><br/>Ainsi, en ce qui nous concerne, la Guerre d'hiver n'a rien eu d'exceptionnel. Les perdants ont péri ; les vainqueurs ont profité de la situation. Le monde a toujours fonctionné de cette manière.<br/><br/>Nous aurions pu continuer à tirer profit de cette situation pendant encore quelques centaines d'années et à récolter les fruits de ce printemps d'après guerre, si les extraterrestres n'avaient pas débarqué sur notre sol.<br/><br/>En réalité, la phase descendante a eu lieu bien plus tôt que ce que nous pensions. Certains ont perdu leur fortune, d'autres leur vie. Mais pour ceux d'entre nous qui sont encore là, ces pertes jouent en notre faveur. La concurrence avec une nouvelle espèce venue des étoiles apporte de nouveaux dangers, mais aussi de nouvelles opportunités.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.option0=La question étant, qui d'entre nous osera les saisir ?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderSubmit=Soumettre sur une Terre brisée
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.summary=Que vont faire les extraterrestres qui débarquent dans un monde qui vient à peine de sortir des ténèbres de la Guerre d'hiver ?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.query=Quand le monde prit fin dans une avalanche de feu et de soufre, la prière fut notre seul salut. Lorsque les cieux se recouvrirent de cendres et que la terre se congela, nous tentâmes d'oublier nos estomacs vides en rêvant au jour où la lumière réapparaîtrait sur notre monde obscur.<br/><br/>Au bout d'un moment, l'hiver interminable se termina et nous sortîmes peu à peu de nos refuges, afin de reconstruire et de faire renaître notre civilisation. Au cours du siècle dernier, nous avons réparé des villes et déplacé des familles. Malgré cela, notre monde demeure brisé et inachevé, car le jour où les bombes s'abattirent sur notre monde, une partie de nous vola en fumée à jamais. Ce n'est que grâce à notre foi sans faille et à notre volonté à croire en de meilleurs lendemains que nous avons survécu.<br/><br/>Aujourd'hui, notre foi a enfin porté ses fruits. Nous ne sommes pas seuls dans l'univers. Fini de souffrir en silence et de pleurer pour que ce monde injuste nous donne des réponses. Les émissaires nous ont vus et nous ont éclairés de leur lumière.<br/><br/>Par respect pour notre foi, il est de notre devoir de tendre la main à ces émissaires et de les accueillir parmi nous.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.option0=Ce n'est qu'en les aimant que nous parviendrons à nous aimer à nouveau.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderAppease=Apaiser sur une Terre brisée
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.summary=Que vont faire les extraterrestres qui débarquent dans un monde qui vient à peine de sortir des ténèbres de la Guerre d'hiver ?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.query=Dans les livres d'histoire, nous nous interrogeons toujours : qui a provoqué la Guerre d'hiver ? Tant d'encre a coulé concernant cette question, aussi importante aux yeux de notre civilisation. La théorie des jeux, la politique de la corde raide, la riposte directe, la destruction mutuellement assurée... De nombreux termes froids et pompeux ont été mis en avant pour décrire la préméditation des horreurs et carnages commis partout dans le monde. Ce n'était pas ce que <i>nous</i> souhaitions, évidemment, <i>nous</i> n'avons jamais voulu massacrer des millions d'innocents : nous voulions simplement empêcher l'<i>autre</i> camp de le faire. C'était <i>leur</i> faute ; <i>ils</i> nous ont forcés à faire ça.<br/><br/>En vérité, nous sommes responsables : nous tous, collectivement, l'espèce humaine. Au cours des siècles qui ont précédé la Guerre d'hiver, nous avons aggravé le cycle de destruction et l'avons porté à de nouveaux sommets. Nous avons arboré nos gants de velours et nos drapeaux blancs pour dissimuler nos mains qui baignaient dans une mer de sang. Nous avions beau nous décrire comme une espèce éclairée, notre véritable nature n'a cessé de ressurgir. Nous avons largement prouvé que nous ne sommes pas aptes à nous gouverner.<br/><br/>Mais alors, que pensera une espèce extraterrestre de tout cela ? Percevra-t-elle que l'espèce humaine a bien plus à offrir que ses défauts, que nous avons enfin retenu la leçon et que nous sommes résolus à devenir de bons et loyaux citoyens au sein d'une galaxie élargie ? Ou conclura-t-elle que nous ne sommes que des chiens enragés, qu'il faut enfermer et piquer pour le bien des autres ?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.option0=Pour notre bien à tous, espérons que ce sera la seconde option.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderCooperate=Coopérer sur une Terre brisée
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.summary=Que vont faire les extraterrestres qui débarquent dans un monde qui vient à peine de sortir des ténèbres de la Guerre d'hiver ?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.query=L'invention de la bombe atomique est sans nul doute l'exploit le plus impressionnant des scientifiques. Pour la première fois dans l'histoire de notre espèce, nous avons su canaliser l'une des interactions fondamentales de l'univers, la force qui a généré les étoiles. Cela témoignait de ce que la science était en mesure d'accomplir lorsqu'on la laissait se développer librement et sans frontières.<br/><br/>Mais c'est également notre échec le plus cuisant. Dans notre désire de comprendre les secrets de l'univers, nous avons négligé l'impact que cette découverte pourrait avoir si elle tombait entre les mains de quelqu'un d'autre. Tout comme nous l'explique la mécanique quantique, par le simple fait d'observer le monde, nous le changeons également. Nous n'avons pas su voir l'immense responsabilité qu'était la nôtre en tant que scientifiques et le monde entier en a payé le prix.<br/><br/>Cependant, la science consiste à apprendre de ses erreurs. La Guerre d'hiver a éclaté, car nous ne comprenions pas nos homologues humains et notre peur de l'inconnu a pris le dessus sur notre nature. Maintenant que nous faisons face à une espèce extraterrestre venue de l'espace, l'occasion nous est donnée de faire mieux. Nous avons le devoir de contacter en toute solennité et sincérité ces nouveaux arrivants et d'échanger avec eux en les considérant comme des habitants égaux de cet univers.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.option0=Nous ne pouvons pas gâcher la deuxième chance de l'humanité.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderEscape=S'échapper d'une Terre brisée
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.summary=Que vont faire les extraterrestres qui débarquent dans un monde qui vient à peine de sortir des ténèbres de la Guerre d'hiver ?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.query=L'humain a toujours rêvé de voler. Depuis le récit édifiant de Dédale et d'Icare, jusqu'au vol des frères Wright, nous avons toujours cherché un moyen de quitter la surface.<br/><br/>Lorsque le premier satellite a été lancé, nous nous sommes permis de rêver encore plus grand. Les quelques années qui ont suivi ont été un véritable Âge d'or. Les plus grands esprits de la Terre se sont battus pour surmonter les restrictions de la gravité terrestre pour de bon et s'aventurer audacieusement dans une galaxie remplie de possibilités.<br/><br/>Hélas, telle n'était point notre destinée. La Guerre d'hiver proclama un nouvel Âge sombre, éteignant toutes ces lueurs d'espoir que nous avions de connaître un futur meilleur. Cruelle ironie du sort, nous nous retrouvions avec encore plus de raisons de devoir quitter cette terre gelée et irradiée, sans aucun moyen de le faire.<br/><br/>Mais aujourd'hui, il y a un nouveau retournement de situation. L'arrivée des extraterrestres venus des étoiles prouve clairement qu'il est possible de vivre et de voyager dans l'espace. En l'espace d'un instant, une lumière vive a éclaté dans le ciel et a donné raison aux rêveurs des siècles passés. Les extraterrestres nous ont montré que le futur auquel nous aspirions il y a bien longtemps est encore atteignable.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.option0=Il nous suffit de tendre la main et de saisir cette opportunité.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionResult0=<skip/>
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-WarlordCampaign=Campagnes contre les chefs de guerre
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.summary={targetNationNameWithArticleCap} a entamé une campagne pour reprendre du territoire aux chefs de guerre.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.query=Après la guerre, {targetNationNameWithArticle}, par l'intermédiaire de son gouvernement, a été incapable de contrôler l'ensemble de son territoire. Les moyens de transport et de communications étaient inutilisables, une grande partie de ses forces armées avait péri ou déserté et les principaux responsables étaient soient submergés par les mouvements de population soudains, soient portés disparus. Tout ce chaos a entraîné l'apparition de nombreux chefs de guerre, ainsi que de leurs partisans, qui ont promis d'offrir la sécurité à quiconque se déclare loyal à leur cause.<br/><br/>À présent, le gouvernement {targetNationAdjective} a été reconstitué et {targetNationNameWithArticle} ne peut avoir qu'un seul gouvernement officiel. Les autorités ont promis de sévir contre l'anarchie et de rétablir l'ordre aux frontières avant la fin de l'année. Mais comment vont-ils faire ?
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0=Un assaut frontal direct.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0=Succès.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Detail=L'assaut s'est déroulé sans accroc ! Les chefs de guerre ont été mis au pas. {targetNationNameWithArticle} a rétabli l'ordre au sein de son territoire.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1=Échec.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Detail=L'assaut a été misérablement dirigé et s'est soldé par de lourdes pertes. De nombreux combattants ennemis se sont échappés et continuent à ébranler {targetNationNameWithArticle} et sa sécurité avec des attaques de guérilléros.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1=Promettons l'amnistie et la légitimité du nouveau gouvernement.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0=Succès.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Detail=Les chefs de guerre se voyaient comme des personnes faisant ce qu'il fallait pour maintenir l'ordre en ces temps difficiles. Nous sommes parvenus à utiliser leur ego à bon escient et leur avons dit qu'ils avaient accompli leur devoir envers {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1=Échec.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Detail=Les chefs de guerre ont refusé de reconnaître la légitimité du gouvernement {targetNationAdjective}. Ce dernier n'a donc eu d'autre choix que d'ordonner un assaut frontal direct, qui s'est soldé par de lourdes pertes et par la fuite de combattants ennemis.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2=Soudoyons leurs hommes pour qu'ils les abandonnent
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0=Succès.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Detail=Les hommes des chefs de guerre, après s'être vu offert trois repas par jour et des douches chaudes, se sont empressés de quitter le navire. N'ayant plus personne pour leur obéir, les chefs de guerre ont perdu leur pouvoir et ont été obligés de se rendre.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1=Échec.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Detail=Malheureusement, les chefs de guerre avaient la folie des grandeurs et pensaient agir pour une cause plus grande qu'eux. C'est la raison pour laquelle leurs partisans les suivaient aveuglément. Le gouvernement {targetNationAdjective} n'a donc eu d'autre choix que d'ordonner un assaut frontal direct, qui s'est soldé par de lourdes pertes et par la fuite de combattants ennemis.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3=Envoyons des agents pour assassiner leurs dirigeants.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0=Succès.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Detail=L'opération a été un succès ! Les partisans ont retrouvé les chefs de guerre morts dans leur lit. Personne n'a cru à une mort de cause naturelle, mais n'ayant plus de dirigeant à qui se rallier, personne n'a souhaité rester dans les parages.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1=Échec.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Detail=Cette opération a été un échec. Nos agents ont été retrouvés pendus en guise d'avertissement. Le gouvernement {targetNationAdjective} n'a donc eu d'autre choix que d'ordonner un assaut frontal direct, qui s'est soldé par de lourdes pertes et par la fuite de combattants ennemis.
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_NuclearFacilitiesAttacked=Installations nucléaires attaquées
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.summary=Sans que personne ne s'y attende, des militants armés se sont emparés d'une des installations de l'état {targetNationAdjective} qui contenait des armes nucléaires.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.query=Heureusement, {targetNationNameWithArticle} avait mis en place une sécurité sur les systèmes de contrôle de son arsenal nucléaire, afin d'éviter tout lancement ou toute détonation non autorisée, une leçon apprise de la Guerre d'hiver. Cependant, cela n'est qu'une amère victoire pour ces responsables qui portent désormais la responsabilité de cette brèche du système de sécurité, ou pour les personnes ayant conçu ce système, qui ne peuvent que reconnaître que les dégâts subis à la force de dissuasion nucléaire de l'état {targetNationAdjective}.<br/><br/>Jusqu'à présent, les militants n'ont fait parvenir qu'une exigence : le gouvernement {targetNationAdjective} doit s'engager à démanteler son programme nucléaire. Autrement, il subira le courroux du bas peuple pacifique.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option0=Quelqu'un va payer le prix de cette négligence.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1=Envoyons immédiatement des forces sur place.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0=Succès.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Detail=Profitant de l'obscurité ambiante, une équipe de forces spéciales a été déposée au sein de l'installation par hélicoptère. Elle est parvenue à prendre d'assaut le centre de contrôle et les silos et à éliminer les militants avant qu'ils n'aient pu causer des dégâts significatifs. Les survivants seront jugés et condamnés pour trahison.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1=Échec.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Detail=Profitant de l'obscurité ambiante, une équipe de forces spéciales a été déposée au sein de l'installation par hélicoptère. Malheureusement, elle est arrivée trop tard pour empêcher la destruction des ogives nucléaires et d'autres équipements. Les militants encore présents sur place ont déclaré avoir accompli leur mission et se sont rendus immédiatement.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2=Encerclons l'installation et reprenons-la avec des troupes au sol.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0=Succès.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Detail=Une équipe au sol a rapidement été assemblée afin de s'infiltrer et de prendre d'assaut l'installation. Elle est parvenue à prendre d'assaut le contre de contrôle et les silos et à éliminer les militants avant qu'ils n'aient pu causer des dégâts significatifs. Les survivants seront jugés et condamnés pour trahison.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1=Échec.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Detail=Une équipe au sol a rapidement été assemblée afin de s'infiltrer et de prendre d'assaut l'installation. Malheureusement, elle est arrivée trop tard pour empêcher la destruction des ogives nucléaires et d'autres équipements. Les militants encore présents sur place ont déclaré avoir accompli leur mission et se sont rendus immédiatement.

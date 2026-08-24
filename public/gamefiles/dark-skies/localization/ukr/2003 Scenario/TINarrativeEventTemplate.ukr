@@ -1,0 +1,259 @@
+
+// Dark Skies DLC
+
+TINarrativeEventTemplate.displayName.event_AlienAwareness=Громадська обізнаність про прибульців
+TINarrativeEventTemplate.event_AlienAwareness.summary=Ми більше не можемо заперечувати, що прибульці присутні й активні в нашому світі.
+TINarrativeEventTemplate.event_AlienAwareness.query=Незаперечні докази позаземної присутності в нашій Сонячній системі в формі численних незалежних свідчень очевидців, верифікованих відеозаписів і навіть засвідчених фізичних артефактів пробилися до громадськості світу.<br/><br/>Зайве казати, що для громадськості загалом це виявилося надзвичайним шоком. Реакції широко відрізняються: одні жителі налякані, а інші — сповнені надії. А деякі навіть злі, і не на прибульців, а на свій уряд, який точно про це все вже знав і намагався приховати інформацію від громадськості.<br/><br/>Посеред цього всього, мабуть, є безпосередній позитивний ефект. Доведене існування прибульців, схоже, зосередило розуми покоління сьогодення. Офіси заяв і рекрутери повідомляють про сплеск зацікавленості в науках і воєнних мистецтвах; до деяких наших агентів навіть особисто звернулися талановиті та впливові особі, що бажають змінити ситуацію.
+TINarrativeEventTemplate.event_AlienAwareness.option0=На ліпше чи на гірше, людство прокинулося.
+TINarrativeEventTemplate.event_AlienAwareness.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_AlienAwareness.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_AlienCyberattack=Інопланетна кібератака
+TINarrativeEventTemplate.event_2003_AlienCyberattack.summary=Усі просунуті світові армії повідомляють про поширені несправності обладнання.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.query=Прибульці, схоже, просочили високотехнологічний пакет шкідливих програмних засобів у програмне забезпечення комунікацій і логістики, що використовується збройними силами й оборонними контракторами світу. Хоча наші експерти й досі намагаються розшифрувати кілька фрагментів коду, який їм удалося відновити, ми віримо, що це сталося за деякий час після заснування нації {secondaryTargetNationNameWithArticle} на Землі, без сумнівів із допомогою колабораціоністів там.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.option0=Чи не забагато ми почали покладатися на технології для нашого захисту?
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionResult0={summary}
+
+//// ALT-HISTORY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_MissionAccomplished=Місія виконана
+TINarrativeEventTemplate.event_2003_MissionAccomplished.summary=Сьогодні президент Сполучених Штатів Америки оголосив про завершення великих бойових операцій в Іраку.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.query=Після ефектної появи реактивного літака військово-морських сил США із посадкою з аерофінішером на борт авіаносця президент США сказав, що хоча попереду ще залишається виконання важкої праці, Сполучені Штати Америки та її союзники досягли успіху в подоланні колишньої диктатури Іраку.<br/><br/>Цей тріумфальний показ військової сили є поворотним моментом у війні проти тероризму, що слугує для того, щоби ще раз наголосити на домінуванні Америки над світом. З іншого боку, критики швидко зазначали, що війна в Іраку була недостатньо виправдана й, імовірно, дестабілізує більший регіон, а звернення президента США взагалі було зайвим театральним і дорогим трюком.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.option0=Хіба це справді настільки важливо, коли прибульці вже тут?
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_ColumbiaDisaster=Катастрофа з космічним шатлом «Колумбія»
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.summary=Першого лютого 2023 року космічний шатл <i>«Колумбія»</i> розпався, коли повторно входив до атмосфери над Техасом і Луїзіаною, призводячи до втрати всіх семи членів екіпажа на борту.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.query=Те, що початково вважалося буденною, хоч і трагічною, аварією, ставало все більш суперечливим, з огляду на подальшу появу загадкового об'єкта з космосу всього за місяць. Хоча офіційне розслідування й досі триває, уже вигадуються все більш вишукані теорії змови, що пов'язують дві події. Дехто стверджує, що потрібно скоротити кількість програм космічних польотів з екіпажем заради безпеки; інші вірять, що зараз саме час просувати реформи й подвоїти зусилля.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option0=У нас важливіші проблеми ближче до дому.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult0=Фракція «{targetFactionNameCap}» погодилася скоротити підтримку програм космічних польотів з екіпажем.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option1=Зараз не час боятися!
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult1=Фракція «{targetFactionNameCap}» виділяє більше підтримки програмам космічних польотів з екіпажем.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option2=Саме так, як вони спланували.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult2=Фракція «{targetFactionNameCap}» погодилася скоротити підтримку програм космічних польотів з екіпажем.
+
+TINarrativeEventTemplate.displayName.event_2003_AlienTacSim=Вихід тактичного симулятора вторгнення прибульців
+TINarrativeEventTemplate.event_2003_AlienTacSim.summary=Шанована студія щойно випустила нову відеогру про вторгнення прибульців.
+TINarrativeEventTemplate.event_2003_AlienTacSim.query=Гравець контролює елітну багатонаціональну напіввійськову організацію, перемикаючись між шаром глобальної стратегії й покрокової тактики, щоби протистояти прибульцям. Хоча сама гра — це нова версія куди старішої гри зі схожими назвою і жанром, яка розроблюється вже багато років, важко не вважати такий час виходу підозріло випадковим, зважаючи на останні заголовки у всьому світі.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0=Імовірно, це ознака часу.
+TINarrativeEventTemplate.event_2003_AlienTacSim.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0=Хіт.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Summary=Нова відеогра про вторгнення прибульців стала надзвичайним хітом.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Detail=Можливо, гра стала надзвичайним хітом на світовому ринку через такий сприятливий час виходу. Гравці вихваляють напружене розв'язування головоломок, створене системою бою, а критики відзначили її за відродження жанру, що останні роки перебував у стагнації. Уже навіть говорять за амбітну модифікацію часткового перетворення, щоби зробити гру ще довшою і важчою.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1=Провал.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Summary=Нова відеогра про вторгнення прибульців стала надзвичайним провалом.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Detail=Можливо, грі не вдалося досягнути великої кількості купівель на світовому ринку через такий несприятливий час виходу. Як гравці, так і критики критикують її за безжальну складність, незграбний користувацький інтерфейс і сирість, уже не говорячи про нечутливу сюжетну лінію.
+
+TINarrativeEventTemplate.displayName.event_2003_DemocraticBacksliding=Демократичний регрес
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.summary=У націй {targetNationNameWithArticleAndPlacePrep} демократія підпадає під ризик регресу.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.query=Популістські політики зацікавили велику аудиторію, виступаючи проти елітарних установ і звинуваючи сторонніх осіб і маргіналізовані групи за погіршення економічних умов і руйнування цінностей {targetNationAdjective}. Соціальні мережі, що раніше сприймалися як інструмент зв'язків і навчання, тепер потопають у повені дезінформації, користуючись алгоритмами, створеними стимулювати залученість користувачів за допомогою максимізації обурення. Останні реформи зосередили силу у виконавчому органі уряду й підірвали принцип судової незалежності.<br/><br/>Це все, звісно, занепокоює, проте деякі особи з нашої фракції припустили, що це може спрацювати нам на користь, дозволяючи й надалі зміцнити нашу владу над нацією {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option0=Ми любимо демократію, хіба ні?
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option1=Розпалити риторику проти зовнішніх сил, що погрожують нації {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult1=Політики {targetNationAdjective} розпалили риторику проти зовнішніх сил.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option2=Жорстко придушити поширення неправдивих новин.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult2=Нація {targetNationNameWithArticleCap} придушила неправдиві новини.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option3=Надати підтримку, щоби посилити громадянське суспільство.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult3=Нація {targetNationNameWithArticleCap} надала підтримку громадянському суспільству.
+
+TINarrativeEventTemplate.displayName.event_2003_RisingAuthoritarianism=Висхідний авторитаризм
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.summary=Серед демократій світу проглядається тривожна тенденція.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.query=На межі тисячоліть навколо планети пронеслася хвиля демократії. Через розпад стількох колишніх автократій була надія, що для людства прибула нова епоха свободи.<br/><br/>На жаль, з'ясувалося, що велика кількість цих новостворених демократій мали слабкі інституційні основи, що зробило їх вразливими до обрання персоналістських лідерів і партій, які розвернулися й розпустити ті установи, які дозволи їм здобути владу. Як імовірні причини були запропоновані висхідні рівні нерівності й безробіття, негативна реакція на соціальні й економічні зміни й виборчі перегони до дна. Навіть давніші й більш усталені демократії не виявилися невразливими.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.option0=Свободу не можна сприймати як належне.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionResult0={summary}
+
+//// ALIEN MYSTERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_PublicSpeculation=Громадські спекуляції
+TINarrativeEventTemplate.event_2003_PublicSpeculation.summary=Відсутність підтвердженої інформації про таємниче прибуття з космосу уже стільки місяців після того, як воно відбулося, живить хвилю бурхливих спекуляцій серед громадськості {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.query=Велика кількість цих спекуляцій абсолютно безпідставна, у них по черзі звинувачують уряд {targetNationAdjective} і міжнародних еліт за приховування своїх проступків, за те, що взагалі сфабрикували цей інцидент, щоби відволікти від інших проблем, і за те, що змовляються із позаземними загарбниками, щоби підкорити націю {targetNationNameWithArticle}. Утім, це досягає такого рівня, що урядовці {targetNationAdjective} відчувають тиск через необхідність відповісти.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option0=Нехай спекулюють.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult0=Відсутність інформації про прибуття з космосу живить бурхливі спекуляції серед громадськості {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option1=Цензурувати всі обговорення на цю тему.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult1=Відсутність інформації про прибуття з космосу живить бурхливі спекуляції серед громадськості {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option2=Оприлюднити ту малу кількість інформацію, що маємо, щоби заспокоїти громадськість.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult2=Відсутність інформації про прибуття з космосу живить бурхливі спекуляції серед громадськості {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option3=Каламутити воду власними теоріями.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult3=Відсутність інформації про прибуття з космосу живить бурхливі спекуляції серед громадськості {targetNationAdjective}.
+
+TINarrativeEventTemplate.displayName.event_2003_ExecutiveDysfunction=Виконавча дисфункція
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.summary=Виконавчий орган {targetNationAdjective} не здатний прийти до твердого консенсусу щодо прибульців.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.query=Незважаючи на вплив нашої фракції на ключових члені уряду {targetNationAdjective}, необхідна операційна таємність навколо нашої діяльності й імовірна поява прибульців ускладнюють переконливе пояснення нашої позиції. Унаслідок цього велика частина уряду вважає існування прибульців на Землі брехнею і що їхньої уваги потребують куди більше земних проблем, як-от якість шкільних обідів.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option0=Нехай сперечаються між собою.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option1=Нехай скептики насолоджуються своїм моментом.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail1=Зрештою, кожен усвідомлює важливість гарного обіду.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult1=Виконавчий орган {targetNationAdjective} вирішив віддати перевагу якості шкільних обідів.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option2=Наполягати на більш рішучій відповіді.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult2=Виконавчий орган {targetNationAdjective} наполягає на більш рішучій відповіді прибульцям.
+
+TINarrativeEventTemplate.displayName.event_2003_StrangeLights=Дивні світла
+TINarrativeEventTemplate.event_2003_StrangeLights.summary=Соціальні мережі гудуть зображеннями, що нібито показують яскраві світла в небі на нацією {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_StrangeLights.query=Користувачі природно розділилися щодо думок, відображають ці світла природне явище, штучне чи викликане прибульцями; і чи ці зображення взагалі справжні.
+TINarrativeEventTemplate.event_2003_StrangeLights.option0=Це лише болотяний газ.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult0=Нація {targetNationNameWithArticleCap} заявила, що яскраві світла в небі, — це лише болотяний газ.
+TINarrativeEventTemplate.event_2003_StrangeLights.option1=Відправити спеціальну наукову групу, щоби офіційно дослідити це явище.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult1=Нація {targetNationNameWithArticleCap} відправила спеціальну наукову групу, щоби дослідити яскраві світла в небі.
+TINarrativeEventTemplate.event_2003_StrangeLights.option2=Відправити винищувачі для патрулювання неба, демонструючи силу.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult2=Нація {targetNationNameWithArticleCap} відправила винищувачі для перехоплення яскравих світел у небі.
+TINarrativeEventTemplate.event_2003_StrangeLights.option3=Заохотити прихильників проводити більше часу назовні, дивлячись на гарні світла.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult3=Нація {targetFactionNameCap} заохотила прихильників проводити більше часу назовні.
+
+TINarrativeEventTemplate.displayName.event_2003_LethargicTroops=Летаргійні війська
+TINarrativeEventTemplate.event_2003_LethargicTroops.summary=Моральний дух збройних сил {targetNationAdjective} на рекордно низькому рівні.
+TINarrativeEventTemplate.event_2003_LethargicTroops.query=Офіцери всіх відділень повідомляють про тривожний сплеск прогулів, праці за правилами й загальної нестачі ентузіазму у виконанні обов'язків. Рівень проблеми настільки серйозний, що навіть погрози застосування жорстоких дисциплінарних заходів мають незначний вплив. Коли солдатів запитують, вони стримані щодо висловлювання конкретних причин. Мають лише загальну думку, що сенсу битися немає.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option0=Що сталося зі службою своїй країні?
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_LethargicTroops.option1=Збільшити бюджет на військові зручності.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult1=Нація {targetNationNameWithArticleCap} збільшила свій бюджет на військові зручності.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option2=Усунути найбільших порушників як приклад для решти.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult2=Нація {targetNationNameWithArticleCap} усунула порушників зі збройних сил.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3=Провести розслідування на ознаки інопланетної диверсії.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0=Успіх.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Summary=Нація {targetNationNameWithArticleCap} виявила ознаки інопланетного впливу у своїх збройних силах.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Detail=Нам вдалося виявити ознаки інопланетного впливу у рядах! Завдяки цьому не лише моральний дух повернувся до колишнього рівня, а й збройні сили {targetNationAdjective} тепер ліпше підготовлені до протистояння інопланетній загрозі в майбутньому.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1=Невдача.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Summary=Нація {targetNationNameWithArticleCap} звинуватила прибульців за низький рівень морального духу своїх збройних сил.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Detail=Звинувачення в інопланетному впливі лише мали зворотний ефект і посилили обурення солдатів.
+
+
+
+
+//// SERVANTS EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_CultofEquality=Культ рівності
+TINarrativeEventTemplate.event_2003_CultofEquality.summary=У нації {targetNationNameWithArticleAndPlacePrep} набирає популярності новий релігійний рух.
+TINarrativeEventTemplate.event_2003_CultofEquality.query=Рекрутери й євангелісти систематично агітують робочі місця, школи й громадські центри, а їхнє повідомлення глибоко резонує з їхніми аудиторіями. У кожній групі друзів є щонайменше 1 член, хто знає когось, що належить до руху. Пов'язані з рухом демонстранти й активісти вже з'являються на вулицях міста {targetRegionName} та інших, показуючи незвичайний рівень координації й згуртованості у своїх діях.<br/><br/>Їхнє повідомлення: усі люди народжені рівними, тож вони мають жити так само, як і їхні сусіди. Незгода виникає, коли деякі особи мають куди більше матеріальних володінь, аніж інші. Настав час тим, хто накопичує багатство, повернути його громаді людей.
+TINarrativeEventTemplate.event_2003_CultofEquality.option0=Нехай метушаться й протестують.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofEquality.option1=Наказати піти на поступки заради рівності.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult1={actorNameWithArticleCap} йде на поступки новому релігійному русі.
+TINarrativeEventTemplate.event_2003_CultofEquality.option2=Придушити їхню диверсію.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult2={actorNameWithArticleCap} придушує новий релігійний рух.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3=Дослідити їх на ознаки залучення прибульців.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0=Успіх.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Summary={actorNameWithArticleCap} виявляє ознаки інопланетного впливу в новому релігійному русі.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Detail=Нам вдалося виявити ознаки інопланетного впливу в русі! Це сильно його дискредитувало, а більшість його колишніх учасників розійшлися без подальшого галасу.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1=Невдача.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Summary={actorNameWithArticleCap} не виявляє ознак інопланетного впливу в новому релігійному русі.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Detail=Звинувачення в інопланетному впливі лише мали зворотний ефект і посилили обурення суспільства. Якщо хотіти рівності вважається чимось інопланетним, то ми будемо інопланетними.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofUnity=Культ єдності
+TINarrativeEventTemplate.event_2003_CultofUnity.summary=У нації {targetNationNameWithArticleAndPlacePrep} набирає популярності новий релігійний рух.
+TINarrativeEventTemplate.event_2003_CultofUnity.query=Рекрутери й євангелісти систематично агітують робочі місця, школи й громадські центри, а їхнє повідомлення глибоко резонує з їхніми аудиторіями. У кожній групі друзів є щонайменше 1 член, хто знає когось, що належить до руху. Пов'язані з рухом демонстранти й активісти вже з'являються на вулицях міста {targetRegionName} та інших, показуючи незвичайний рівень координації й згуртованості у своїх діях.<br/><br/>Їхнє повідомлення: навіть серед нестабільності цього світу й проблем буденного життя потрібно завжди пам'ятати про любов до свого сусіда. Тільки тоді можна полюбити себе.
+TINarrativeEventTemplate.event_2003_CultofUnity.option0=Це те, що наші спасителі хочуть для нас.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofUnity.option1=Наші спасителі мають для нас більші плани.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofPeace=Культ миру
+TINarrativeEventTemplate.event_2003_CultofPeace.summary=У нації {targetNationNameWithArticleAndPlacePrep} набирає популярності новий релігійний рух.
+TINarrativeEventTemplate.event_2003_CultofPeace.query=Рекрутери й євангелісти систематично агітують робочі місця, школи й громадські центри, а їхнє повідомлення глибоко резонує з їхніми аудиторіями. У кожній групі друзів є щонайменше 1 член, хто знає когось, що належить до руху. Пов'язані з рухом демонстранти й активісти вже з'являються на вулицях міста {targetRegionName} та інших, показуючи незвичайний рівень координації й згуртованості у своїх діях.<br/><br/>Їхнє повідомлення: висхідний рівень мілітаризму у світі призведе тільки до болю й страждань. Нація {targetNationNameWithArticleCap}, зі своїми провідним у світі військово-промисловим комплексом і експедиційними можливостями, відповідальна за це більше, ніж інші. Вона повинна негайно зупинитися й змінити курс, інакше її не оминуть смерть і руйнування, що наближаються.
+TINarrativeEventTemplate.event_2003_CultofPeace.option0=Нехай метушаться й протестують.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofPeace.option1=Наказати піти на поступки заради демобілізації.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult1={actorNameWithArticleCap} йде на поступки новому релігійному русі.
+TINarrativeEventTemplate.event_2003_CultofPeace.option2=Придушити їхню диверсію.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult2={actorNameWithArticleCap} придушує новий релігійний рух.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3=Дослідити їх на ознаки залучення прибульців.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0=Успіх.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Summary={actorNameWithArticleCap} виявляє ознаки інопланетного впливу в новому релігійному русі.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Detail=Нам вдалося виявити ознаки інопланетного впливу в русі! Це сильно його дискредитувало, а більшість його колишніх учасників розійшлися без подальшого галасу.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1=Невдача.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Summary={actorNameWithArticleCap} не виявляє ознак інопланетного впливу в новому релігійному русі.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Detail=Звинувачення в інопланетному впливі лише мали зворотний ефект і посилили обурення суспільства. Якщо хотіти миру вважається чимось інопланетним, то ми будемо інопланетними.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofAction=Культ дії
+TINarrativeEventTemplate.event_2003_CultofAction.summary=У нації {targetNationNameWithArticleAndPlacePrep} набирає популярності новий релігійний рух.
+TINarrativeEventTemplate.event_2003_CultofAction.query=Рекрутери й євангелісти систематично агітують робочі місця, школи й громадські центри, а їхнє повідомлення глибоко резонує з їхніми аудиторіями. У кожній групі друзів є щонайменше 1 член, хто знає когось, що належить до руху. Пов'язані з рухом демонстранти й активісти вже з'являються на вулицях міста {targetRegionName} та інших, показуючи незвичайний рівень координації й згуртованості у своїх діях.<br/><br/>Їхнє повідомлення: усі знають, що цей світ спотворений і гнилий, проте знати про це недостатньо. Одні слова не можуть змінити світі; можуть лише дії. Хтось повинен зробити перші кроки до створення ліпшого світу, і цей хтось — ви.
+TINarrativeEventTemplate.event_2003_CultofAction.option0=Це те, що наші спасителі хочуть для нас.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofAction.option1=Наші спасителі мають для нас більші плани.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofArmageddon=Культ армагеддону
+TINarrativeEventTemplate.event_2003_CultofArmageddon.summary=У нації {targetNationNameWithArticleAndPlacePrep} набирає популярності новий релігійний рух.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.query=Рекрутери й євангелісти систематично агітують робочі місця, школи й громадські центри, а їхнє повідомлення глибоко резонує з їхніми аудиторіями. У кожній групі друзів є щонайменше 1 член, хто знає когось, що належить до руху. Пов'язані з рухом демонстранти й активісти вже з'являються на вулицях міста {targetRegionName} та інших, показуючи незвичайний рівень координації й згуртованості у своїх діях.<br/><br/>Їхнє повідомлення: ядерна зброя — це прокляття людства на світ. Доки існує хоча б одна бойова частина, годинник цокає все ближче до кінця світу. Взаємно гарантоване знищення — це гарантія знищення: якщо одна нація не показує приклад, то чому інші повинні брати його?
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option0=Нехай метушаться й протестують.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option1=Наказати піти на поступки заради роззброєння.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult1={actorNameWithArticleCap} йде на поступки новому релігійному русі.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option2=Придушити їхню диверсію.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult2={actorNameWithArticleCap} придушує новий релігійний рух.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3=Дослідити їх на ознаки залучення прибульців.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0=Успіх.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Summary={actorNameWithArticleCap} виявляє ознаки інопланетного впливу в новому релігійному русі.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Detail=Нам вдалося виявити ознаки інопланетного впливу в русі! Це сильно його дискредитувало, а більшість його колишніх учасників розійшлися без подальшого галасу.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1=Невдача.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Summary={actorNameWithArticleCap} не виявляє ознак інопланетного впливу в новому релігійному русі.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Detail=Звинувачення в інопланетному впливі лише мали зворотний ефект і посилили обурення суспільства. Якщо хотіти миру вважається чимось інопланетним, то ми будемо інопланетними.
+
+
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_2003_InsightfulBlogger=Проникливий блогер
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.summary=Хтось із наших працівників відділу комунікацій заявляє, що виявив у соцмережах ключові розвіддані.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.query=Член персоналу, про якого йде мова, ретельно спостерігаючи за світовими мережами комунікацій у межах своїх офіційних обов'язків, натрапив на блог, у якому зазначалося про отримання доказів діяльності прибульців на Землі. Зазвичай такі заяви відкинули би без зайвих роздумів, проте ми не живемо в нормальні часи, а прикріплені докази навдивовижу переконливі. Імовірно, вони можуть знати щось, що ми ні, і якщо ми знайшли цей доказ у мережі, інші напевне теж знайдуть.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0=У нас немає часу на ці вигадки.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0=Нічого не відбувається.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Summary=У соціальних мережах поширюються докази діяльності прибульців.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Detail=Нічого не відбувається.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1=???
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Summary=У соціальних мережах поширюються докази діяльності прибульців.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1=Навідати цю людину.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0=Успіх.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Summary=У соціальних мережах поширюються докази діяльності прибульців.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Detail=Коли наші агенти прибули до будинку блогера, їх запросили сердечно поспілкуватися. За горнятком кави блогер вільно передав фотографії, що показують чіткі ознаки присутності прибульців неподалік, як і кілька предметів із цікавим хімічним складом.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1=Невдача.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Summary=У соціальних мережах поширюються докази діяльності прибульців.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Detail=Коли наші агенти прибули до будинку блогера, вони побачили, що він повністю порожній. Були ознаки недавнього проживання, проте не було жителів і комп'ютерного обладнання. Коли вони запитали сусідів, ті заявили, що вони вже давно не бачили, як там хтось проживав.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2=Шахрайство.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Summary=У соціальних мережах поширюються докази діяльності прибульців.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Detail=Коли наші агенти прибули до будинку блогера, вони незабаром виявили, що те, що мало разючий вигляд на мережевих фотографіях, було суцільним підробленням. Нібито частини інопланетного космічного апарату були просто пофарбованими реквізитами з піни. Згодом блогер використав наш візит як доказ того, що він підібрався «надто близько до правди».
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option2=Посилити публікації, щоби поширити інформацію.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionResult2=У соціальних мережах поширюються докази діяльності прибульців.

@@ -1,0 +1,83 @@
+
+// Dark Skies DLC
+
+Context.displayName.MaterialScience=Scienze della materia
+Context.displayName.SpaceScience=Scienze spaziali
+Context.displayName.EnergyScience=Scienze dell'energia
+Context.displayName.LifeScience=Scienze della vita
+Context.displayName.MilitaryScience=Scienze militari
+Context.displayName.InformationScience=Scienze dell'informazione
+Context.displayName.SocialScience=Scienze sociali
+Context.displayName.Xenology=Xenologia
+Context.displayName.PublicOpinionInfluence=Condizionamento dell'opinione pubblica
+Context.displayName.SemiMajorAxisExplorationRange_AU=Raggio di esplorazione dall'orbita
+Context.displayName.PublicizedAlienThreat=Diffusione della notizia della minaccia aliena
+Context.displayName.AugmentationMoneyCost=Costo monetario degli aumenti
+Context.displayName.HabConstructionSpeed=Velocità di costruzione dell'habitat
+Context.displayName.MineSizeModifier=Dimensioni miniera spaziale
+
+Context.displayName.DemocracyBackslides=Fallimento della democrazia
+TIEffectTemplate.description.Effect_BS_DemocracyBackslides1=-Compromissione delle istituzioni democratiche
+
+TIEffectTemplate.description.Effect_BS_CPMaintenanceBonus_MakingHistoryA=-Aumenta la nostra capacità di gestione dei punti di controllo ({19}). Non si accumula con altri progetti "Fare la storia". 
+TIEffectTemplate.description.Effect_BS_InfluenceRepair=-Aumenta l'influenza dell'opinione pubblica ({3})
+TIEffectTemplate.description.Effect_BS_MaterialScienceBonusA=-Aumenta la nostra ricerca in materiali ({3})
+TIEffectTemplate.description.Effect_BS_SpaceScienceBonusA=-Aumenta la nostra ricerca in scienze spaziali ({3})
+TIEffectTemplate.description.Effect_BS_SpaceScience5=-Aumenta la nostra ricerca in scienze spaziali di {3}
+TIEffectTemplate.description.Effect_BS_EnergyScienceBonusA=-Aumenta la nostra ricerca in energia ({3})
+TIEffectTemplate.description.Effect_BS_LifeScienceBonusA=-Aumenta la nostra ricerca in scienze della vita ({3})
+TIEffectTemplate.description.Effect_BS_MilitaryScienceBonusA=-Aumenta la nostra ricerca in scienze militari ({3})
+TIEffectTemplate.description.Effect_BS_InformationScienceBonusA=-Aumenta la nostra ricerca in scienze dell'informazione ({3})
+TIEffectTemplate.description.Effect_BS_SocialScienceBonusA=-Aumenta la nostra ricerca in scienze sociali ({3})
+TIEffectTemplate.description.Effect_BS_XenologyBonusA=-Aumenta la nostra ricerca in xenologia ({3})
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimeRepair=Aumenta la nostra velocità di costruzione navale ({3})
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationI=-Aumenta il raggio di esplorazione dall'orbita di {0} UA
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationII=-Aumenta il raggio di esplorazione dall'orbita di {0} UA
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationIII=-Rimuove i limiti del raggio di esplorazione dall'orbita
+TIEffectTemplate.description.Effect_BS_GraySky=-Permette a tutte le fazioni di tracciare le navi e le strutture aliene fino a Marte.
+TIEffectTemplate.description.Effect_BS_AugmentationMoneyCostReduction=- La valorizzazione dei nostri consiglieri costa {4} in meno (di denaro)
+TIEffectTemplate.description.Effect_BS_PublicizeAlienThreat=-Può accelerare l'aggressione aliena
+TIEffectTemplate.description.Effect_BS_AlienAwareness=-La presenza aliena è ora un fatto noto all'opinione pubblica
+TIEffectTemplate.description.Effect_BS_DiscoverAlienInvasion=-Ci rivela i piani degli alieni in merito alla Terra
+
+TIEffectTemplate.description.Effect_BS_CPResearchPenalty=-La ricerca da parte dei nostri punti di controllo è ridotta ({4})
+TIEffectTemplate.description.Effect_BS_CPMaintenancePenalty=-Diminuisce la nostra capacità di gestione dei punti di controllo ({0})
+TIEffectTemplate.description.Effect_BS_SustainabilityPenalty=-I punti di investimento della nazione che indirizziamo alla priorità Ambiente diminuiscono ({25})
+TIEffectTemplate.description.Effect_BS_MCPenalty=-I punti di investimento della nazione che indirizziamo alla priorità Controllo missioni diminuiscono ({25})
+TIEffectTemplate.description.Effect_BS_BoostPenalty=-I punti di investimento della nazione che indirizziamo alla priorità Capacità di lancio diminuiscono ({25})
+TIEffectTemplate.description.Effect_BS_InfluencePenalty=-Diminuisce l'influenza dell'opinione pubblica ({25})
+TIEffectTemplate.description.Effect_BS_MaterialSciencePenalty=-Diminuisce la nostra ricerca in materiali ({25})
+TIEffectTemplate.description.Effect_BS_SpaceSciencePenalty=-Diminuisce la nostra ricerca in scienze spaziali ({25})
+TIEffectTemplate.description.Effect_BS_EnergySciencePenalty=-Diminuisce la nostra ricerca in energia ({25})
+TIEffectTemplate.description.Effect_BS_LifeSciencePenalty=-Diminuisce la nostra ricerca in scienze della vita ({25})
+TIEffectTemplate.description.Effect_BS_MilitarySciencePenalty=-Diminuisce la nostra ricerca in scienze militari ({25})
+TIEffectTemplate.description.Effect_BS_InformationSciencePenalty=-Diminuisce la nostra ricerca in scienze dell'informazione ({25})
+TIEffectTemplate.description.Effect_BS_SocialSciencePenalty=-Diminuisce la nostra ricerca in scienze sociali ({25})
+TIEffectTemplate.description.Effect_BS_XenologyPenalty=-Diminuisce la nostra ricerca in xenologia ({25})
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimePenalty=-Diminuisce la nostra velocità di costruzione navale ({27})
+TIEffectTemplate.description.Effect_BS_SpaceMiningPenalty=-La produzione mineraria terrestre è diminuita ({25})
+TIEffectTemplate.description.Effect_BS_BlackSky=- Le fazioni possono localizzare le navi e le strutture aliene vicine alla Terra
+
+TIEffectTemplate.description.Effect_BS_InvestigationPenalty=-Tutti i candidati consiglieri nel nostro pool di reclutamento iniziano con {0} di Indagine in meno
+
+TIEffectTemplate.description.Effect_BS_BoostPenaltyEventTemp=-I punti di investimento della nazione che indirizziamo alla priorità Capacità di lancio diminuiscono ({25}) per {7} mesi
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEvent=-I punti di investimento della nazione che indirizziamo alla priorità Programma di volo spaziale diminuiscono di un {25}
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEventTemp=-I punti di investimento della nazione che indirizziamo alla priorità Programma di volo spaziale diminuiscono di un {25} per {7} mesi
+TIEffectTemplate.description.Effect_BS_GovernmentPenaltyEventTemp=-I punti di investimento di tutte le nazioni nella priorità Governo diminuiscono ({25}) per {7} mesi
+TIEffectTemplate.description.Effect_BS_MilitaryBonusEventSmallGlobal=-I punti di investimento di tutte le nazioni nella priorità Esercito aumentano ({3})
+TIEffectTemplate.description.Effect_BS_DefendAllOwnedControlPoints=-Tutti i punti di controllo posseduti {5} saranno difesi per {7} mesi
+
+TIEffectTemplate.description.Effect_BS_NationRemoveAbductions1=-{0} rapimenti rimossi {5}
+
+TIEffectTemplate.description.Effect_BS_GlobalExcessMiltechReduction=-Tutte le nazioni con tecnica militare superiore a {13} perderanno un {3} dell'eccesso
+
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedPenalty=-Diminuisce la nostra velocità di costruzione dell'habitat ({4})
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedRepair=-Aumenta la nostra velocità di costruzione dell'habitat ({3})
+TIEffectTemplate.description.Effect_BS_MineSizeReduction=-Diminuisce le dimensioni delle nostre miniere spaziali ({4})
+TIEffectTemplate.description.Effect_BS_MineSizeNormalization=-Aumenta le dimensioni delle miniere spaziali ({3})
+
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeReduction=-Diminuisce le dimensioni delle nostre miniere spaziali automatizzate ({4})
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeNormalization=-Aumenta le dimensioni delle miniere spaziali automatizzate ({3})
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeReduction=-Diminuisce le dimensioni dei nostri avamposti automatizzati ({4})
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeNormalization=-Aumenta le dimensioni degli avamposti automatizzati ({3})
+

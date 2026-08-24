@@ -65,7 +65,7 @@ TIMissionTemplate.Success.Contact=我已聯絡{targetFactionName}的{targetDispl
 
 TIMissionTemplate.displayName.ControlSpaceAsset=控制太空資產
 TIMissionTemplate.description.ControlSpaceAsset=說服船艦或太空殖民地的組員加入你的陣營，我們需要有足夠的任務管制中心才能接管資產。
-TIMissionTemplate.CriticalSuccess.ControlSpaceAsset=我們在{targetDisplayName}發起叛亂，該地的組員已加入{myFactionName}。他們已將大量的監控資料交給我們，在{returnedValue}之前，這份資產將特別有助於我們對抗敵方任務。 
+TIMissionTemplate.CriticalSuccess.ControlSpaceAsset=我們在{targetDisplayName}發起叛亂，該地的組員已加入{myFactionName}。他們已將大量的監控資料交給我們，在{returnedValue}之前，這份資產將特別有助於我們對抗敵方任務。  
 TIMissionTemplate.Success.ControlSpaceAsset=我們在{targetDisplayName}引發叛亂，該地的組員已加入{myFactionName}。
 TIMissionTemplate.Failure.ControlSpaceAsset=我未能在{targetDisplayName}引發暴動，此處的勢力正提防未來可能發生的叛亂。{returnedValue}
 TIMissionTemplate.FailurePlus.ControlSpaceAsset=我很快就會被{0} 逮捕！
@@ -73,7 +73,7 @@ TIMissionTemplate.CriticalFailure.ControlSpaceAsset=我未能在{targetDisplayNa
 
 TIMissionTemplate.displayName.Coup=政變
 TIMissionTemplate.description.Coup=推翻政府並重建控制點。
-TIMissionTemplate.CriticalSuccess.Coup=我在{targetNationNameWithPrep}推動的政變大獲成功，且我們已在新政權中掌握重要權力。 
+TIMissionTemplate.CriticalSuccess.Coup=我在{targetNationNameWithPrep}推動的政變大獲成功，且我們已在新政權中掌握重要權力。  
 TIMissionTemplate.Success.Coup=我在{targetNationNameWithPrep}推動的政變成功了，我們已重新調整當地的權力結構。
 TIMissionTemplate.Failure.Coup=我在{targetNationNameWithPrep}執行的{missionName}任務失敗了。
 TIMissionTemplate.CriticalFailure.Coup=糟糕！我在{targetNationNameWithPrep}推翻政府的任務失敗了！{returnedValue}
@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=我們未能拉攏{targetDisplayName}支持我們
 TIMissionTemplate.CriticalFailure.Turn=我未能拉攏{targetDisplayName}支持我們的目標，而且{targetFactionName}似乎已知道我的行蹤。
 
 TIMissionTemplate.displayName.Unrest=增加動亂
-TIMissionTemplate.description.Unrest=增加目標地區國家的動亂、損害經濟，並提高政變、革命和分裂的發生機率。在一地區成功促成獨立運動可能會觸發當地分裂，而非革命。若動亂已經超過該國家動亂平穩值的兩倍，則效果會減弱。
+TIMissionTemplate.description.Unrest=增加目標地區國家的動亂，損害經濟，並提高政變和革命的發生機率。在地區成功促成獨立運動可觸發當地分裂。如果現有的動亂已經達到國家動亂平穩值的兩倍以上，則該效果減弱。
 TIMissionTemplate.CriticalSuccess.Unrest=我的行動已讓{targetNationNameWithPrep}的動亂增加 {returnedValue}，現為 {targetNationUnrestWithString}。若此地的叛亂運動能夠推翻政府，我現在就能獲得他們一部分的支持。
 TIMissionTemplate.Success.Unrest=我的行動已讓{targetNationNameWithPrep}的動亂增加 {returnedValue}，現為 {targetNationUnrestWithString}。若此地的叛亂運動能夠推翻政府，我現在就能獲得他們一部分的支持。
 TIMissionTemplate.Failure.Unrest=我無法在{targetNationNameWithPrep}增加動亂。
@@ -282,23 +282,23 @@ TIMissionTemplate.description.AppeaseWin=啟動崗哨太空站網絡，在世界
 TIMissionTemplate.Success.AppeaseWin=我們已啟動崗哨網絡，經過短暫的示威後，地球諸國家皆已將主權交給我們。
 
 TIMissionTemplate.displayName.CooperateWin=建立同盟
-TIMissionTemplate.description.CooperateWin=派遣我們抗費洛細胞的外交官通過蟲洞，建立關係並終結衝突。我們必須襲擊外星人基地，並率先降落。我們須已達成勝利目標。
+TIMissionTemplate.description.CooperateWin=派遣能抵抗費洛細胞的外交官通過蟲洞，以建立外交關係並終結衝突。我們必須在主要的外星人基地摧毀所有的防禦設施和要塞、駐軍和兵營艙體，才能讓理事降落，嘗試執行這個任務。需要先達成勝利目標。
 TIMissionTemplate.Success.CooperateWin=我們已與九頭蛇達成協議。
 
 TIMissionTemplate.displayName.DestroyWin=觸發武器
-TIMissionTemplate.description.DestroyWin=派送我們的生物武器通過蟲洞。我們必須襲擊外星人基地，並率先降落。我們須已達成勝利目標。
+TIMissionTemplate.description.DestroyWin=將我們的生物武器傳送入蟲洞。我們必須在主要的外星人基地摧毀所有的防禦設施和要塞、駐軍和兵營艙體，才能讓理事降落，嘗試執行這個任務。需要先達成勝利目標。
 TIMissionTemplate.Success.DestroyWin=我們已部署濕婆病毒。
 
 TIMissionTemplate.displayName.EscapeWin=啟動彩虹橋
-TIMissionTemplate.description.EscapeWin=發佈啟動命令以開始星際之旅。 
+TIMissionTemplate.description.EscapeWin=發佈啟動命令以開始星際之旅。  
 TIMissionTemplate.Success.EscapeWin=我們已成功啟動彩虹橋。<br/><br/>我們的使命雖已達成，但對於那些留下的人來說，生活還要繼續。只要願意，我們可以再次建造並發射一艘太空船。
 
 TIMissionTemplate.displayName.ExploitWin=制服敵人
-TIMissionTemplate.description.ExploitWin=派送新費洛細胞包裹通過蟲洞。我們必須襲擊外星人基地，並率先降落。我們須已達成勝利目標。
+TIMissionTemplate.description.ExploitWin=將我們的新費洛細胞包裹傳送入蟲洞。我們必須在主要的外星人基地摧毀所有的防禦設施和要塞、駐軍和兵營艙體，才能讓理事降落，嘗試執行這個任務。需要先達成勝利目標。
 TIMissionTemplate.Success.ExploitWin=我們已征服九頭蛇帝國。
 
 TIMissionTemplate.displayName.ResistWin=封閉閘門
-TIMissionTemplate.description.ResistWin=啟動裝置，關閉外星蟲洞。我們必須襲擊外星人基地，並率先降落。我們須已達成勝利目標。
+TIMissionTemplate.description.ResistWin=啟動裝置來關閉外星蟲洞。我們必須在主要的外星人基地摧毀所有的防禦設施和要塞、駐軍和兵營艙體，才能讓理事降落，嘗試執行這個任務。需要先達成勝利目標。
 TIMissionTemplate.Success.ResistWin=敵方閘門已關閉。
 
 TIMissionTemplate.displayName.SubmitWin=宣佈主人的來臨
@@ -390,7 +390,7 @@ TIMissionModifier_TargetNegativeInfluence.displayName=目標具有負面影響�
 TIMissionModifier_TargetBroke.displayName=目標具有負資金
 TIMissionModifier_CampaignDifficulty.displayName=挑戰
 TIMissionModifier_AlienNation.displayName=異星國家
-TIMissionModifier_ProtectionBonus.displayName=保護任務：{0} 
+TIMissionModifier_ProtectionBonus.displayName=保護任務：{0}  
 TIMissionModifier_RegionXenoforming_AlienOnly.displayName=當地異變
 TIMissionModifier_RegionXenoforming_AlienAndProxyOnly.displayName=當地異變
 TIMissionModifier_MeanNationXenoforming_AlienAndProxyOnly.displayName=國家異變
@@ -499,8 +499,9 @@ TIMissionCondition_VictoryCondition=陣營必須滿足所有勝利條件
 TIMissionCondition_SufficientMissionControl=必須擁有有效的任務管制中心
 TIMissionCondition_FreeCouncilor=目標特使不能被拘押或以其他形式無法行動
 TIMissionCondition_TargetableHabModule=必須為敵方非核心艙體
-TIMissionCondition_TargetableOrg=組織必須位於敵方陣營的未指派名單中，或已指派至我們已經獲得大量情報的特使
+TIMissionCondition_TargetableOrg=必須是敵方陣營未指派的組織，或是理事的重要情報已經被我們掌握的組織
 _Fail=必須是任務的有效目標類型，且特使必須能夠接觸。
+TIMissionCondition_AlienPrimaryBaseInRange=我們的理事必須在基地內、附近的太空殖民地據點中，或是在基地上方的交互軌道上，而且基地不能有正在運作的要塞、駐軍、軍營，也不能有配備反轟炸武器的艙體。
 
 TIMissionAbort_ControlPointRemoved=由於目標控制點已不存在，此任務中止。
 TIMissionAbort_CouncilorRetired=由於指派的特使已不活動，此任務中止。

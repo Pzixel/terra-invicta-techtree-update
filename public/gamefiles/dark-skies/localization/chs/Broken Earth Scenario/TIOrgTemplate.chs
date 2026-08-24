@@ -1,0 +1,21 @@
+
+TIOrgTemplate.displayName.Al-Qaida.BrokenEarth=白沙瓦指挥部
+TIOrgTemplate.displayNameWithArticle.Al-Qaida.BrokenEarth=白沙瓦指挥部
+TIOrgTemplate.displayName.JemaahIslamiyah.BrokenEarth=梭罗部队
+TIOrgTemplate.displayNameWithArticle.JemaahIslamiyah.BrokenEarth=梭罗部队
+TIOrgTemplate.displayName.Hezbollah.BrokenEarth=贝卡战士
+TIOrgTemplate.displayNameWithArticle.Hezbollah.BrokenEarth=贝卡战士
+TIOrgTemplate.displayName.IslamicStateofIraqandtheLevant.BrokenEarth=拉卡士兵
+TIOrgTemplate.displayNameWithArticle.IslamicStateofIraqandtheLevant.BrokenEarth=拉卡士兵
+TIOrgTemplate.displayName.QudsForce.BrokenEarth=马什哈德部队
+TIOrgTemplate.displayNameWithArticle.QudsForce.BrokenEarth=马什哈德部队
+TIOrgTemplate.displayName.LosZetas.BrokenEarth=拉雷多犯罪集团
+TIOrgTemplate.displayName.UNESCO.BrokenEarth=联合国教科文组织
+TIOrgTemplate.displayName.U.N.OfficeforOuterSpaceAffairs.BrokenEarth=外太空事务办公室
+TIOrgTemplate.displayNameWithArticle.U.N.OfficeforOuterSpaceAffairs.BrokenEarth=外太空事务办公室
+
+TIOrgTemplate.displayName.Majestic12.BrokenEarth=MJ-12 小组
+TIOrgTemplate.displayName.Illuminati.BrokenEarth=光照会
+TIOrgTemplate.displayNameWithArticle.Illuminati.BrokenEarth=光照会
+TIOrgTemplate.displayName.KnightsTemplar.BrokenEarth=圣殿骑士团
+TIOrgTemplate.displayNameWithArticle.KnightsTemplar.BrokenEarth=圣殿骑士团

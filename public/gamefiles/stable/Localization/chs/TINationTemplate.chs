@@ -1032,7 +1032,7 @@ TINationTemplate.nationAdjective.BAV=巴伐利亚的
 TINationTemplate.displayNameWithArticlePrep.BAV=巴伐利亚境内
 
 TINationTemplate.displayName.BEN=贝宁
-TINationTemplate.displayNameWithArticle.BEN=贝宁
+TINationTemplate.displayNameWithArticle.BEN=贝宁的
 TINationTemplate.nationAdjective.BEN=贝宁的
 TINationTemplate.displayNameWithArticlePrep.BEN=贝宁境内
 

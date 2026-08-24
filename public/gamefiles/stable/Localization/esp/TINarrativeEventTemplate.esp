@@ -1126,18 +1126,18 @@ TINarrativeEventTemplate.event_CollateralDamage.option2=Financiar traslados y pr
 TINarrativeEventTemplate.event_CollateralDamage.optionDetail2=<skip/>
 TINarrativeEventTemplate.event_CollateralDamage.optionResult2={actorNameWithArticleCap} financió programas de asistencia para civiles desplazados {targetRegionNameSentIn}.
 
-TINarrativeEventTemplate.displayName.event_SnapElection=Elecciones anticipadas
-TINarrativeEventTemplate.event_SnapElection.summary=El gobierno en activo de {targetNationNameWithArticle} ha convocado elecciones anticipadas.
-TINarrativeEventTemplate.event_SnapElection.query=Todos los escaños de la legislatura de {targetNationNameWithArticle} están disponibles para su disputa en esta votación.<br/><br/>Debido al inesperado momento del anuncio de la votación, la popularidad será el principal factor determinante para quien salga ganando. Actualmente, los candidatos que apoyan a {secondaryFactionName} están liderando los sondeos.
-TINarrativeEventTemplate.event_SnapElection.option0=¡Que ganen los mejores candidatos!
-TINarrativeEventTemplate.event_SnapElection.optionDetail0=<skip/>
-TINarrativeEventTemplate.event_SnapElection.optionResult0=Hubo elecciones anticipadas {targetNationNameWithArticleAndPlacePrep}.
-TINarrativeEventTemplate.event_SnapElection.option1=Inclinar la balanza a nuestro favor.
-TINarrativeEventTemplate.event_SnapElection.optionDetail1=<skip/>
-TINarrativeEventTemplate.event_SnapElection.optionResult1={actorNameWithArticleCap} amañó las elecciones {targetNationNameWithArticleAndPlacePrep}.
-TINarrativeEventTemplate.event_SnapElection.option2=Retrasar las elecciones por razones de seguridad pública.
-TINarrativeEventTemplate.event_SnapElection.optionDetail2=<skip/>
-TINarrativeEventTemplate.event_SnapElection.optionResult2={actorNameWithArticleCap} pospuso unas elecciones anticipadas {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.displayName.event_SnapElections=Elecciones anticipadas
+TINarrativeEventTemplate.event_SnapElections.summary=El gobierno en activo de {targetNationNameWithArticle} ha convocado elecciones anticipadas.
+TINarrativeEventTemplate.event_SnapElections.query=Todos los escaños de la legislatura de {targetNationNameWithArticle} están disponibles para su disputa en esta votación.<br/><br/>Debido al inesperado momento del anuncio de la votación, la popularidad será el principal factor determinante para quien salga ganando. Actualmente, los candidatos que apoyan a {secondaryFactionName} están liderando los sondeos.
+TINarrativeEventTemplate.event_SnapElections.option0=¡Que ganen los mejores candidatos!
+TINarrativeEventTemplate.event_SnapElections.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_SnapElections.optionResult0=Hubo elecciones anticipadas {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_SnapElections.option1=Inclinar la balanza a nuestro favor.
+TINarrativeEventTemplate.event_SnapElections.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_SnapElections.optionResult1={actorNameWithArticleCap} amañó las elecciones {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_SnapElections.option2=Retrasar las elecciones por razones de seguridad pública.
+TINarrativeEventTemplate.event_SnapElections.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_SnapElections.optionResult2={actorNameWithArticleCap} pospuso unas elecciones anticipadas {targetNationNameWithArticleAndPlacePrep}.
 
 TINarrativeEventTemplate.displayName.event_ParamilitaryViolence_Defender=Violencia paramilitar
 TINarrativeEventTemplate.event_ParamilitaryViolence_Defender.summary=Tenemos pruebas sustanciosas de que los paramilitares {secondaryTargetNationAdjective} están cometiendo atrocidades {targetRegionNameSentIn}.
@@ -1668,10 +1668,10 @@ TINarrativeEventTemplate.event_NuclearTerrorism.optionResult2={actorNameWithArti
 
 TINarrativeEventTemplate.displayName.event_AncientExplorers=Exploradores antiguos
 TINarrativeEventTemplate.event_AncientExplorers.summary=Nuestros exobiólogos en {targetHabName} han hecho un descubrimiento de lo más curioso.
-TINarrativeEventTemplate.event_AncientExplorers.query=Al principio pensaron que se trataba de un mero error, un fallo tonto en el protocolo de descontaminación que los estaba entusiasmando en falso. Pero al investigar las muestras confirmaron que, en efecto, eran una colección de fósiles de microbios de hace tres mil millones de años.Aunque ya se había teorizado sobre la posible existencia de vida microbiana en {secondaryTargetNaturalSpaceObjectName}, esta es la primera prueba que ha encontrado la humanidad que apoye la teoría.<br/><br/>Tras un estudio minucioso posterior en {targetHabSiteName}, se ha determinado que los microbios proceden en realidad de la Tierra y son contemporáneos con los registros fósiles microbianos de 3500 millones de años de antigüedad encontrados hace poco en Australia. Durante esa época, un asteroide o un cometa impactó con la Tierra y lanzó estos microbios al espacio. De algún modo sobrevivieron todo el trayecto hasta acabar en {secondaryTargetNaturalSpaceObjectName}, donde la presencia de atmósfera y agua permitió no solo que sobrevivieran, sino que incluso se reprodujeran y evolucionaran durante unos cuantos millones de años antes de extinguirse. ¡Menudo periplo!<br/><br/>Y pensar que si lo hubiéramos descubierto antes de que llegaran los aliens, habría sido el descubrimiento científico de la década: ¡La primera prueba real de vida extraterrestre! ¡Pruebas tangibles de que la supervivencia a largo plazo en el espacio exterior es viable! ¡Incluso podría haber sentado las bases de un esfuerzo multigeneracional para terraformar otros mundos! Ahora tan solo es una nota al pie de página a la sombra de las poderosas naves alienígenas que orbitan la Tierra.
+TINarrativeEventTemplate.event_AncientExplorers.query=Al principio pensaron que se trataba de un mero error, un fallo tonto en el protocolo de descontaminación que los estaba entusiasmando en falso. Pero al investigar las muestras confirmaron que, en efecto, eran una colección de fósiles de microbios de hace tres mil millones de años. Aunque ya se había teorizado sobre la posible existencia de vida microbiana en {secondaryTargetNaturalSpaceObjectName}, esta es la primera prueba que ha encontrado la humanidad que apoye la teoría.<br/><br/>Tras un estudio minucioso posterior en {targetHabSiteName}, se ha determinado que los microbios proceden en realidad de la Tierra y son contemporáneos con los registros fósiles microbianos de tres mil quinientos millones de años de antigüedad encontrados hace poco en Australia. Durante esa época, un asteroide o un cometa impactó con la Tierra y lanzó estos microbios al espacio. De algún modo sobrevivieron todo el trayecto hasta acabar en {secondaryTargetNaturalSpaceObjectName}, donde la presencia de atmósfera y agua permitió no solo que sobrevivieran, sino que incluso se reprodujeran y evolucionaran durante unos cuantos millones de años antes de extinguirse. ¡Menudo periplo!<br/><br/>Y pensar que si lo hubiéramos descubierto antes de que llegaran los aliens, habría sido el descubrimiento científico de la década: ¡La primera prueba real de vida extraterrestre! ¡Pruebas tangibles de que la supervivencia a largo plazo en el espacio exterior es viable! ¡Incluso podría haber sentado las bases de un esfuerzo multigeneracional para terraformar otros mundos! Ahora tan solo es una nota al pie de página a la sombra de las poderosas naves de guerra alienígenas que orbitan la Tierra.
 TINarrativeEventTemplate.event_AncientExplorers.option0=Está bien saber que tuvimos parientes en el universo.
 TINarrativeEventTemplate.event_AncientExplorers.optionDetail0=Aunque fueran muy, muy lejanos.
-TINarrativeEventTemplate.event_AncientExplorers.optionResult0={actorNameWithArticleCap} ha descubierto pruebas de vida microbiana de tres mil millones de años de antigüedad en {targetHabSiteName}, en {secondaryTargetNaturalSpaceObjectName}.
+TINarrativeEventTemplate.event_AncientExplorers.optionResult0={actorNameWithArticleCap} ha descubierto pruebas de vida microbiana de tres mil quinientos millones de años de antigüedad en {targetHabSiteName}, en {secondaryTargetNaturalSpaceObjectName}.
 
 TINarrativeEventTemplate.displayName.event_ContainmentBreach1=Fallo de contención
 TINarrativeEventTemplate.event_ContainmentBreach1.summary=Un espécimen alienígena ha escapado de su cautiverio en {targetHabName}.
@@ -1875,7 +1875,7 @@ TINarrativeEventTemplate.event_PlutoPapers.option2.outcome1=Fracaso.
 TINarrativeEventTemplate.event_PlutoPapers.option2.outcome1.Summary={targetCouncilorFullName} apareció en unos documentos financieros confidenciales filtrados.
 TINarrativeEventTemplate.event_PlutoPapers.option2.outcome1.Detail=Como se suele decir: no se trata del delito, sino de su encubrimiento. Al intentar ocultar la implicación de {targetCouncilorFullName}, lo único que logramos fue que los medios de comunicación de todo el mundo se interesaran más todavía sobre el tema y criticaran todas nuestras actividades.
 TINarrativeEventTemplate.event_PlutoPapers.option3=Sugerir con educación que {targetCouncilorFullName} podría contribuir más a la causa.
-TINarrativeEventTemplate.event_PlutoPapers.optionDetail3=Está claro que {targetCouncilorSubjectivePronoun} se lo puede permitir.
+TINarrativeEventTemplate.event_PlutoPapers.optionDetail3=Está claro que se lo puede permitir.
 TINarrativeEventTemplate.event_PlutoPapers.optionResult3={targetCouncilorFullName} apareció en unos documentos financieros confidenciales filtrados. 
 
 TINarrativeEventTemplate.displayName.event_BackerTour=Visita guiada de los patrocinadores
@@ -2149,7 +2149,7 @@ TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.option2.outcome0.Summar
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.option2.outcome0.Detail=Las calles son el terreno de juego de {secondaryTargetCouncilorFullName}. Un chantaje por aquí, un poco de intimidación por allá y en menos de lo que canta un gallo ya había alguien dispuesto a abrir el pico. Hemos dado con el objetivo.
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.option2.outcome1=Fracaso.
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.option2.outcome1.Summary={targetCouncilorFullName} y {secondaryTargetCouncilorFullName} no lograron dar con el infame cerebro con ayuda de los criminales.
-TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.option2.outcome1.Detail=Durante el tiempo que {secondaryTargetCouncilorFullName} estuvo fuera, las calles cambiaron mucho. La gente que antes era importante había desaparecido o se habían vendido, y ahora había nuevos líderes del crimen que no parecían dispuestos a ayudar a quienes fueran amigos de los predecesores que habían derrocado. Esto ha empeorado la imagen de {secondaryTargetCouncilorFullName} a ojos de sus compinches.
+TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.option2.outcome1.Detail=Durante el tiempo que {secondaryTargetCouncilorFullName} estuvo fuera, las calles cambiaron mucho. La gente que antes era importante había desaparecido o se habían vendido, y ahora había nuevos líderes del crimen que no parecían dispuestos a ayudar a quienes fueran amigos de los predecesores que habían derrocado. Este resultado ha empeorado la imagen de {secondaryTargetCouncilorFullName} a ojos de sus compinches.
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.option3=Dedicar todos los recursos de nuestra facción a ayudar en esta tarea.
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.optionDetail3=<skip/>
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.optionResult3={targetCouncilorFullName} y {secondaryTargetCouncilorFullName} encontraron al infame cerebro con la ayuda de {actorNameWithArticle}.
@@ -2158,7 +2158,7 @@ TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie1.option3.outcome0.Detail
 
 TINarrativeEventTemplate.displayName.event_CopsandRobbersBuddyMovie2=Policía y delincuente luchando contra el crimen II
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie2.summary=Por fin se había encontrado al infame cerebro criminal.
-TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie2.query=Dirige su organización desde un complejo oculto en un área remota {targetRegionNameSentOf} y solo sale para atender los asuntos de suprema importancia. El complejo cuenta con una buena dotación de personal y está muy fortificado. Se cree que cuenta con la protección no oficial de los cuarteles militares cercanos. Sea como sea, el objetivo está ahí adentro, por lo que {targetCouncilorFullName} y {secondaryTargetCouncilorFullName} tendrán que arreglárselas para salir adelante.
+TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie2.query=Dirige su organización desde un complejo oculto en un área remota {targetRegionNameSentOf} y solo sale para atender los asuntos de suprema importancia. El complejo cuenta con una buena dotación de personal y está muy fortificado. Se cree que cuenta con la protección no oficial de los cantones militares cercanos. Sea como sea, el objetivo está ahí adentro, por lo que {targetCouncilorFullName} y {secondaryTargetCouncilorFullName} tendrán que arreglárselas para salir adelante.
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie2.option0=Concebir un plan elaborado para crear una apertura que permita asesinar al objetivo desde lejos.
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie2.optionDetail0=<skip/>
 TINarrativeEventTemplate.event_CopsandRobbersBuddyMovie2.option0.outcome0=Éxito.
@@ -2227,10 +2227,10 @@ TINarrativeEventTemplate.event_CriminalFavors.option1.outcome1.Detail=Pese a su 
 TINarrativeEventTemplate.event_CriminalFavors.option2=Acceder a deshacerse de un político local molesto.
 TINarrativeEventTemplate.event_CriminalFavors.optionDetail2=<skip/>
 TINarrativeEventTemplate.event_CriminalFavors.option2.outcome0=Éxito.
-TINarrativeEventTemplate.event_CriminalFavors.option2.outcome0.Summary={targetCouncilorFullName} eliminó a un político local en {secondaryTargetRegionName}.
-TINarrativeEventTemplate.event_CriminalFavors.option2.outcome0.Detail=Comparado con algunos de los trabajos que {actorNameWithArticle} suele hacer, eliminar a un político problemático es pan comido. Más tarde descubrimos que el político en cuestión estaba haciendo una labor encomiable erradicando el crimen de {secondaryTargetNationNameWithArticle}. Bueno, todo sea por el bien mayor, ¿no?
+TINarrativeEventTemplate.event_CriminalFavors.option2.outcome0.Summary={targetCouncilorFullName} eliminó a un político local en {targetRegionName}.
+TINarrativeEventTemplate.event_CriminalFavors.option2.outcome0.Detail=Comparado con algunos de los trabajos que {actorNameWithArticle} suele hacer, eliminar a un político problemático es pan comido. Más tarde descubrimos que el político en cuestión estaba haciendo una labor encomiable erradicando el crimen {targetNationNameWithArticleAndPlacePrep}. Bueno, todo sea por el bien mayor, ¿no?
 TINarrativeEventTemplate.event_CriminalFavors.option2.outcome1=Fracaso.
-TINarrativeEventTemplate.event_CriminalFavors.option2.outcome1.Summary=Atraparon a {targetCouncilorFullName} cuando intentaba derribar a un político local en {secondaryTargetRegionName}.
+TINarrativeEventTemplate.event_CriminalFavors.option2.outcome1.Summary=Atraparon a {targetCouncilorFullName} cuando intentaba derribar a un político local en {targetRegionName}.
 TINarrativeEventTemplate.event_CriminalFavors.option2.outcome1.Detail=Pese a su plan a prueba de fallos, las habilidades de {targetCouncilorFullName} ya no son lo que eran y las autoridades locales atraparon a todos los involucrados con las manos en la masa. Aunque los contactos de {targetCouncilorFullName} en el mundo criminal no le guardan rencor alguno por el fracaso, todavía tendrá que quedarse en la cárcel durante un tiempo.
 TINarrativeEventTemplate.event_CriminalFavors.option3=Acceder a organizar un atraco arriesgado para robar algo de mucho valor.
 TINarrativeEventTemplate.event_CriminalFavors.optionDetail3=<skip/>
@@ -2314,7 +2314,7 @@ TINarrativeEventTemplate.event_Govt_StealDocuments.option2.outcome0.Summary={tar
 TINarrativeEventTemplate.event_Govt_StealDocuments.option2.outcome0.Detail=No hizo falta rebuscar mucho hasta dar con alguien que estuviera dispuesto a traspapelar un par de documentos. Los documentos se depositaron en un armario corriente y todo lo que tuvo que hacer {targetCouncilorFullName} fue darse un paseo y recogerlos. Misión cumplida.
 TINarrativeEventTemplate.event_Govt_StealDocuments.option2.outcome1=Fracaso.
 TINarrativeEventTemplate.event_Govt_StealDocuments.option2.outcome1.Summary={targetCouncilorFullName} no pudo robar los documentos confidenciales de un edificio del gobierno {secondaryTargetNationAdjective}.
-TINarrativeEventTemplate.event_Govt_StealDocuments.option2.outcome1.Detail=Pese a sus mejores intentos, la lealtad de los empleados del edificio es inquebrantable y se negaron a hacer tratos con {targetCouncilorObjectivePronoun}.
+TINarrativeEventTemplate.event_Govt_StealDocuments.option2.outcome1.Detail=Pese a sus mejores intentos, la lealtad de los empleados del edificio es inquebrantable y se negaron a hacer tratos con {targetCouncilorFullName}.
 TINarrativeEventTemplate.event_Govt_StealDocuments.option3=Limitarse a hackear la red del edificio y descargar los archivos.
 TINarrativeEventTemplate.event_Govt_StealDocuments.optionDetail3=<skip/>
 TINarrativeEventTemplate.event_Govt_StealDocuments.option3.outcome0=Éxito.
@@ -2450,7 +2450,7 @@ TINarrativeEventTemplate.event_PersonalLegacy.optionDetail1=<skip/>
 TINarrativeEventTemplate.event_PersonalLegacy.optionResult1=Un amigo muy adinerado de {targetCouncilorFullName} cedió su legado a la fundación de becas.
 TINarrativeEventTemplate.event_PersonalLegacy.option2=Lo mejor que puede hacer es confiar la gestión del dinero directamente a {targetCouncilorFullName}.
 TINarrativeEventTemplate.event_PersonalLegacy.optionDetail2=<skip/>
-TINarrativeEventTemplate.event_PersonalLegacy.optionResult2=Un amigo muy adinerado de {targetCouncilorFullName} cedió su legado a {targetCouncilorObjectivePronoun}.
+TINarrativeEventTemplate.event_PersonalLegacy.optionResult2=Un amigo muy adinerado de {targetCouncilorFullName} le cedió su legado.
 
 TINarrativeEventTemplate.displayName.event_DriftingDevice=Dispositivo a la deriva
 TINarrativeEventTemplate.event_DriftingDevice.summary=La {targetSpaceShipName}, nuestra nave, ha detectado un objeto misterioso en el cinturón de asteroides.
@@ -2866,7 +2866,7 @@ TINarrativeEventTemplate.event_TraitSneakyVsPopular.optionResult2={targetFaction
 
 TINarrativeEventTemplate.displayName.event_TraitGoodVsBad=¿El fin justifica los medios?
 TINarrativeEventTemplate.event_TraitGoodVsBad.summary={targetCouncilorFullName} y {secondaryTargetCouncilorFullName} están en desacuerdo con respecto a nuestros métodos.
-TINarrativeEventTemplate.event_TraitGoodVsBad.query=—¡No podemos ir matando gente solo porque pertenezca a otra facción! —exclama {targetCouncilorPersonalName}—. ¡No está bien!<br/><br/> —¿Que no está bien? —responde {secondaryTargetCouncilorPersonalName},en shock—. ¿En qué clase de mundo de fantasía vives, {targetCouncilorPersonalName}? ¡Nuestro deber es garantizar el destino de la humanidad, una responsabilidad que justifica cualquier método que decidamos usar!<br/><br/>{targetCouncilorPersonalName} niega con la cabeza. —Sí, el destino de la humanidad está en nuestras manos, y no tenemos por qué manchárnoslas de sangre.<br/><br/>Tu decisión es fundamental para resolver esta diferencia de opiniones.
+TINarrativeEventTemplate.event_TraitGoodVsBad.query=—¡No podemos ir matando gente solo porque pertenezca a otra facción! —exclama {targetCouncilorPersonalName}—. ¡No está bien!<br/><br/> —¿Que no está bien? —responde {secondaryTargetCouncilorPersonalName}, en shock—. ¿En qué clase de mundo de fantasía vives, {targetCouncilorPersonalName}? ¡Nuestro deber es garantizar el destino de la humanidad, una responsabilidad que justifica cualquier método que decidamos usar!<br/><br/>{targetCouncilorPersonalName} niega con la cabeza. —Sí, el destino de la humanidad está en nuestras manos, y no tenemos por qué manchárnoslas de sangre.<br/><br/>Tu decisión es fundamental para resolver esta diferencia de opiniones.
 TINarrativeEventTemplate.event_TraitGoodVsBad.option0=Las necesidades de la mayoría superan las de la minoría.
 TINarrativeEventTemplate.event_TraitGoodVsBad.optionDetail0=<skip/>
 TINarrativeEventTemplate.event_TraitGoodVsBad.optionResult0={targetFactionName} adopta un enfoque pragmático de la moral. 
@@ -2885,7 +2885,7 @@ TINarrativeEventTemplate.event_TraitGoodVsNerd.optionDetail1=<skip/>
 TINarrativeEventTemplate.event_TraitGoodVsNerd.optionResult1={targetFactionName} antepone el progreso sobre la estabilidad.
 
 TINarrativeEventTemplate.displayName.event_TraitAugmentedVsNonAugmented=Perdiendo nuestra esencia
-TINarrativeEventTemplate.event_TraitAugmentedVsNonAugmented.summary={targetCouncilorFullName} desconfía de {secondaryTargetCouncilorFullName} y sus implantes cibernéticos.
+TINarrativeEventTemplate.event_TraitAugmentedVsNonAugmented.summary={targetCouncilorFullName} desconfía de {secondaryTargetCouncilorFullName} por sus implantes cibernéticos.
 TINarrativeEventTemplate.event_TraitAugmentedVsNonAugmented.query=—Es extraño —dice {targetCouncilorPersonalName}. Tener un ordenador dentro de la cabeza ¿Modifica tu forma de pensar? ¿Aún sigues siendo humano?<br/><br/>—¿Llevar zapatos te parece natural, {targetCouncilorPersonalName}? —responde {secondaryTargetCouncilorPersonalName}—. Conduces un vehículo. Tienes aire acondicionado en tu casa. ¿Cuánto tiempo pasas lejos de tu teléfono móvil? Los implantes no son más que otra herramienta que mejoran nuestra eficacia en ciertas tareas. Las herramientas no son naturales, ni su uso forma parte de nuestra naturaleza.<br/><br/>A {targetCouncilorPersonalName} no le convence esa respuesta y recurre a ti. ¿{targetFactionName} debería usar implantes?
 TINarrativeEventTemplate.event_TraitAugmentedVsNonAugmented.option0=Se recurrirá a los implantes solo en casos estrictamente necesarios.
 TINarrativeEventTemplate.event_TraitAugmentedVsNonAugmented.optionDetail0=<skip/>
@@ -2929,7 +2929,7 @@ TINarrativeEventTemplate.event_DestroyFirstKill.optionResult1={targetFactionName
 
 TINarrativeEventTemplate.displayName.event_DestroyFirstAce=Criminal letal
 TINarrativeEventTemplate.event_DestroyFirstAce.summary={targetCouncilorFullName} se convierte en nuestro primer consejero en asesinar cinco alienígenas, un acontecimiento que se ha celebrado de forma clandestina.
-TINarrativeEventTemplate.event_DestroyFirstAce.query=Se ha organizado una reunión sorpresiva de consejeros para celebrar los logros de {targetCouncilorPersonalName}.<br/><br/>—Solo queríamos decirte que lo has hecho genial, {targetCouncilorPersonalName} —expresan algunos, dando voz al pensamiento de todo el grupo—. Has hecho lo que había que hacer. ¡Cuanto antes desaparezca esa calaña de la faz de la Tierra, mejor!<br/><br/>La sala estalla en júbilo mientras {targetCouncilorPersonalName} recibe golpes en la espalda y apretones de mano. Cuando el jaleo disminuye, {targetCouncilorPersonalName} anuncia que {targetCouncilorSubjectivePronoun} quiere...
+TINarrativeEventTemplate.event_DestroyFirstAce.query=Se ha organizado una reunión sorpresiva de consejeros para celebrar los logros de {targetCouncilorPersonalName}. —Solo queríamos decirte que lo has hecho genial, {targetCouncilorPersonalName} —expresan algunos, dando voz al pensamiento de todo el grupo—. Has hecho lo que había que hacer. ¡Cuanto antes desaparezca esa calaña de la faz de la Tierra, mejor!<br/><br/>La sala estalla en júbilo mientras {targetCouncilorPersonalName} recibe golpes en la espalda y apretones de mano. Cuando el jaleo disminuye, anuncia que quiere...
 TINarrativeEventTemplate.event_DestroyFirstAce.option0=Entrenar más que nunca.
 TINarrativeEventTemplate.event_DestroyFirstAce.optionDetail0=¡Y ahora a beber!
 TINarrativeEventTemplate.event_DestroyFirstAce.optionResult0={actorNameWithArticleCap} se centrará en su entrenamiento personal.
@@ -3006,7 +3006,7 @@ TINarrativeEventTemplate.event_LiesUncovered.optionResult1={targetFactionName} d
 
 TINarrativeEventTemplate.displayName.event_EthicalBillionaire=¿Un multimillonario honrado?
 TINarrativeEventTemplate.event_EthicalBillionaire.summary=A {targetCouncilorFullName} nunca le ha gustado mucho su riqueza, pero eso no le ha impedido darse sus caprichos.
-TINarrativeEventTemplate.event_EthicalBillionaire.query=Ahora que los alienígenas amenazan el planeta y la vida humana parece adquirir más valor que nunca, {targetCouncilorFullName} ha tomado una decisión que rondaba su mente desde hacía tiempo a partir de una dura premisa: el dinero da la felicidad hasta cierto punto y la pobreza genera miseria.<br/><br/>Tras una serie de trámites, {targetCouncilorFullName} ha creado una fundación que aboga por la igualdad y está lista para actuar en las zonas más desfavorecidas de {secondaryTargetNationName}.
+TINarrativeEventTemplate.event_EthicalBillionaire.query=Ahora que los alienígenas amenazan el planeta y la vida humana parece adquirir más valor que nunca, {targetCouncilorFullName} ha tomado una decisión que rondaba su mente desde hacía tiempo a partir de una dura premisa: el dinero da la felicidad hasta cierto punto y la pobreza genera miseria.<br/><br/>Tras una serie de trámites, ha creado una fundación que aboga por la igualdad y está lista para actuar en las zonas más desfavorecidas de {secondaryTargetNationName}.
 TINarrativeEventTemplate.event_EthicalBillionaire.option0=Adelante.
 TINarrativeEventTemplate.event_EthicalBillionaire.optionDetail0=<skip/>
 TINarrativeEventTemplate.event_EthicalBillionaire.optionResult0={targetCouncilorFullName} ha donado gran parte de su riqueza.
@@ -3016,7 +3016,7 @@ TINarrativeEventTemplate.event_EthicalBillionaire.optionResult1={targetCouncilor
 
 TINarrativeEventTemplate.displayName.event_Marked=En el punto de mira
 TINarrativeEventTemplate.event_Marked.summary={targetCouncilorFullName} ha asesinado a la persona equivocada, alguien que se rodeaba de amistades influyentes y, para más inri, dejó pistas en su víctima.
-TINarrativeEventTemplate.event_Marked.query=Los camaradas de la víctima tienen sed de venganza; ahora {targetCouncilorPersonalName} está en el punto de mira. Su búsqueda alcanza todos los niveles, desde agencias gubernamentales que reciben nuevas órdenes en sus prioridades hasta criminales de poca monta a los que solo les importa cobrar la recompensa. Este panorama impide que {targetCouncilorPersonalName} pueda trabajar para {targetFactionName}. Hay que tomar medidas al respecto.
+TINarrativeEventTemplate.event_Marked.query=Los camaradas de la víctima tienen sed de venganza; ahora {targetCouncilorPersonalName} está en el punto de mira. Su búsqueda alcanza todos los niveles, desde agencias gubernamentales que reciben nuevas órdenes en sus prioridades hasta criminales de poca monta a los que solo les importa cobrar la recompensa. Este panorama impide que pueda trabajar para {targetFactionName}. Hay que tomar medidas al respecto.
 TINarrativeEventTemplate.event_Marked.option0=Clamar piedad.
 TINarrativeEventTemplate.event_Marked.optionDetail0=Son cosas que pasan y lo sabes.
 TINarrativeEventTemplate.event_Marked.option0.outcome0=No hay perdón.
@@ -3076,7 +3076,7 @@ TINarrativeEventTemplate.event_Marked_Combat.option0.outcome1.Detail={targetCoun
 
 TINarrativeEventTemplate.displayName.event_Marked_Combat_II=En el punto de mira: segundo asalto
 TINarrativeEventTemplate.event_Marked_Combat_II.summary={targetCouncilorFullName} sigue en busca y captura y, además, hay otro consejero en el punto de mira. 
-TINarrativeEventTemplate.event_Marked_Combat_II.query=¿Quién colocó a {targetCouncilorPersonalName} bajo el punto de mira? Sigue siendo una incógnita. Gracias a nuestras investigaciones hemos averiguado que muchos de los activos que persiguen a {targetCouncilorPersonalName} mantienen comunicaciones con un almacén altamente vigilado, que parece ser su sede de operaciones. Podemos detenerlos si eliminamos al coordinador.
+TINarrativeEventTemplate.event_Marked_Combat_II.query=¿Quién colocó a {targetCouncilorPersonalName} bajo el punto de mira? Sigue siendo una incógnita. Gracias a nuestras investigaciones hemos averiguado que muchos de los activos que quieren darle caza mantienen comunicaciones con un almacén altamente vigilado, que parece ser su sede de operaciones. Podemos detenerlos si eliminamos al coordinador.
 TINarrativeEventTemplate.event_Marked_Combat_II.option0=Ejecutar el ataque.
 TINarrativeEventTemplate.event_Marked_Combat_II.optionDetail0=<skip/>
 TINarrativeEventTemplate.event_Marked_Combat_II.option0.outcome0=¡Éxito!
@@ -3088,7 +3088,7 @@ TINarrativeEventTemplate.event_Marked_Combat_II.option0.outcome1.Detail=Después
 
 TINarrativeEventTemplate.displayName.event_Marked_Combat_III=En el punto de mira: última oportunidad
 TINarrativeEventTemplate.event_Marked_Combat_III.summary=El cerco se estrecha alrededor de {targetCouncilorFullName}.
-TINarrativeEventTemplate.event_Marked_Combat_III.query=El tiempo se agota. Cada vez es más difícil para {targetCouncilorPersonalName} mantener a raya a aquellos que van tras su pista. Aun así, no pierde la esperanza de salir con vida de esta situación. Uno de sus cazadores, satisfecho con su propio trabajo, bajó la guardia y visitó a un conocido líder criminal sin tomar la más mínima precaución. Cabe la posibilidad de que este mercenario haya puesto a {targetCouncilorPersonalName} bajo el punto de mira o que sea un eslabón valioso de su organización. Eliminarlo dará punto final a la cacería. Es probable que esta sea la última oportunidad para {targetCouncilorPersonalName}.
+TINarrativeEventTemplate.event_Marked_Combat_III.query=El tiempo se agota. Cada vez es más difícil para {targetCouncilorPersonalName} mantener a raya a aquellos que van tras su pista. Aun así, no pierde la esperanza de salir con vida de esta situación. Uno de sus cazadores, satisfecho con su propio trabajo, bajó la guardia y visitó a un conocido líder criminal sin tomar la más mínima precaución. Cabe la posibilidad de que este mercenario haya puesto a {targetCouncilorPersonalName} bajo el punto de mira o que sea un eslabón valioso de su organización. Eliminarlo dará punto final a la cacería. Es probable que esta sea su última oportunidad.
 TINarrativeEventTemplate.event_Marked_Combat_III.option0=A la tercera va la vencida.
 TINarrativeEventTemplate.event_Marked_Combat_III.optionDetail0=<skip/>
 TINarrativeEventTemplate.event_Marked_Combat_III.option0.outcome0=¡Éxito!
@@ -3499,6 +3499,8 @@ TINarrativeEventTemplate.event_RichPocket.option0.outcome1.Detail=Hemos obtenido
 TINarrativeEventTemplate.event_RichPocket.option0.outcome2=Influjo considerable.
 TINarrativeEventTemplate.event_RichPocket.option0.outcome2.Summary=Hemos obtenido un influjo de recursos considerable en {targetHabName}.
 TINarrativeEventTemplate.event_RichPocket.option0.outcome2.Detail=Hemos obtenido un influjo de recursos considerable en {targetHabName}.
+TINarrativeEventTemplate.event_RichPocket.optionResult0={summary}
+
 
 TINarrativeEventTemplate.displayName.event_RisingTalent=Talento en ciernes
 TINarrativeEventTemplate.event_RisingTalent.summary=Hemos reconocido a un tripulante a bordo de la nave {targetSpaceShipName} como buen candidato a oficial.

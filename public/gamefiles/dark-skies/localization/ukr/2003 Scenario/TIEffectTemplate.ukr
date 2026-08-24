@@ -1,0 +1,83 @@
+
+// Dark Skies DLC
+
+Context.displayName.MaterialScience=Наука про матеріали
+Context.displayName.SpaceScience=Космічні науки
+Context.displayName.EnergyScience=Наука про енергію
+Context.displayName.LifeScience=Науки про життя
+Context.displayName.MilitaryScience=Військова наука
+Context.displayName.InformationScience=Наукова інформатика
+Context.displayName.SocialScience=Суспільні науки
+Context.displayName.Xenology=Астробіологія
+Context.displayName.PublicOpinionInfluence=Вплив від громадської думки
+Context.displayName.SemiMajorAxisExplorationRange_AU=Діапазон дослідження на основі орбіти
+Context.displayName.PublicizedAlienThreat=Оприлюднення інопланетної загрози
+Context.displayName.AugmentationMoneyCost=Витрати грошей на поліпшення
+Context.displayName.HabConstructionSpeed=Швидкість побудови середовища
+Context.displayName.MineSizeModifier=Розмір космічної шахти
+
+Context.displayName.DemocracyBackslides=Демократичний регрес
+TIEffectTemplate.description.Effect_BS_DemocracyBackslides1=— Демократичні установи пошкоджені
+
+TIEffectTemplate.description.Effect_BS_CPMaintenanceBonus_MakingHistoryA=— Збільшує керувальну місткість наших точок контролю на {19}. Не накладається на інші проєкти «Творіння історії». 
+TIEffectTemplate.description.Effect_BS_InfluenceRepair=— Збільшує вплив від громадської думки на {3}
+TIEffectTemplate.description.Effect_BS_MaterialScienceBonusA=— Збільшує наш показник дослідження матеріалів на {3}
+TIEffectTemplate.description.Effect_BS_SpaceScienceBonusA=— Збільшує наш показник дослідження космічних наук на {3}
+TIEffectTemplate.description.Effect_BS_SpaceScience5=— Збільшує наш показник дослідження космічних наук на {3}
+TIEffectTemplate.description.Effect_BS_EnergyScienceBonusA=— Збільшує наш показник дослідження енергії на {3}
+TIEffectTemplate.description.Effect_BS_LifeScienceBonusA=— Збільшує наш показник дослідження наук про життя на {3}
+TIEffectTemplate.description.Effect_BS_MilitaryScienceBonusA=— Збільшує наш показник дослідження військової науки на {3}
+TIEffectTemplate.description.Effect_BS_InformationScienceBonusA=— Збільшує наш показник дослідження наукової інформатики на {3}
+TIEffectTemplate.description.Effect_BS_SocialScienceBonusA=— Збільшує наш показник дослідження суспільних наук на {3} 
+TIEffectTemplate.description.Effect_BS_XenologyBonusA=— Збільшує наш показник дослідження астробіології на {3}
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimeRepair=— Збільшує швидкість будівництва наших кораблів на {3}
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationI=— Збільшує діапазон дослідження на основі орбіти до {0} а. о.
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationII=— Збільшує діапазон дослідження на основі орбіти до {0} а. о.
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationIII=— Прибирає обмеження діапазону дослідження на основі орбіти
+TIEffectTemplate.description.Effect_BS_GraySky=— Дозволяє всім фракціям відстежувати інопланетні кораблі та структури аж до Марса.
+TIEffectTemplate.description.Effect_BS_AugmentationMoneyCostReduction=— Поліпшення наших радників коштують на {4} од. грошей менше
+TIEffectTemplate.description.Effect_BS_PublicizeAlienThreat=— Може поквапити агресію прибульців
+TIEffectTemplate.description.Effect_BS_AlienAwareness=— Знання про прибульців поширюються серед загальної громадськості
+TIEffectTemplate.description.Effect_BS_DiscoverAlienInvasion=— Розкриває нам плани прибульців на Землю
+
+TIEffectTemplate.description.Effect_BS_CPResearchPenalty=— Кількість одиниць дослідження від наших точок контролю зменшується на {4}
+TIEffectTemplate.description.Effect_BS_CPMaintenancePenalty=— Зменшує керувальну місткість наших точок контролю на {0}
+TIEffectTemplate.description.Effect_BS_SustainabilityPenalty=— Кількість національних одиниць інвестицій, які ми спрямовуємо на пріоритет «Середовище», зменшується на {25}
+TIEffectTemplate.description.Effect_BS_MCPenalty=— Кількість національних одиниць інвестицій, які ми спрямовуємо на пріоритет «Керування польотами», зменшується на {25}
+TIEffectTemplate.description.Effect_BS_BoostPenalty=— Кількість національних одиниць інвестицій, які ми спрямовуємо на пріоритет «Імпульс», зменшується на {25}
+TIEffectTemplate.description.Effect_BS_InfluencePenalty=— Зменшує вплив від громадської думки на {25}
+TIEffectTemplate.description.Effect_BS_MaterialSciencePenalty=— Зменшує наш показник дослідження матеріалів на {25}
+TIEffectTemplate.description.Effect_BS_SpaceSciencePenalty=— Зменшує наш показник дослідження космічних наук на {25}
+TIEffectTemplate.description.Effect_BS_EnergySciencePenalty=— Зменшує наш показник дослідження енергії на {25}
+TIEffectTemplate.description.Effect_BS_LifeSciencePenalty=— Зменшує наш показник дослідження наук про життя на {25}
+TIEffectTemplate.description.Effect_BS_MilitarySciencePenalty=— Зменшує наш показник дослідження військової науки на {25}
+TIEffectTemplate.description.Effect_BS_InformationSciencePenalty=— Зменшує наш показник дослідження наукової інформатики на {25}
+TIEffectTemplate.description.Effect_BS_SocialSciencePenalty=— Зменшує наш показник дослідження суспільних наук на {25} 
+TIEffectTemplate.description.Effect_BS_XenologyPenalty=— Зменшує наш показник дослідження астробіології на {25}
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimePenalty=— Зменшує швидкість будівництва наших кораблів на {27}
+TIEffectTemplate.description.Effect_BS_SpaceMiningPenalty=— Земні видобувні результати зменшуються на {25}
+TIEffectTemplate.description.Effect_BS_BlackSky=— Фракції можуть відстежувати інопланетні кораблі та структури біля Землі
+
+TIEffectTemplate.description.Effect_BS_InvestigationPenalty=— Усі радники-кандидати в нашому резерві наймання починають працювати з -{0} од. розслідування
+
+TIEffectTemplate.description.Effect_BS_BoostPenaltyEventTemp=— Кількість національних одиниць інвестицій, які ми спрямовуємо на пріоритет «Імпульс», зменшується на {25} міс.
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEvent=— Кількість національних одиниць інвестицій, які ми спрямовуємо на пріоритет «Програма космічних польотів», зменшується на {25}
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEventTemp=— Кількість національних одиниць інвестицій, які ми спрямовуємо на пріоритет «Програма космічних польотів», зменшується на {25} на {7} міс.
+TIEffectTemplate.description.Effect_BS_GovernmentPenaltyEventTemp=— Кількість одиниць інвестицій усіх націй у пріоритет «Уряд» зменшується на {25} на {7} міс.
+TIEffectTemplate.description.Effect_BS_MilitaryBonusEventSmallGlobal=— Кількість одиниць інвестицій усіх націй у пріоритет «Армія» збільшується на {3}
+TIEffectTemplate.description.Effect_BS_DefendAllOwnedControlPoints=— Усі точки контролю у нашій власності у нації {5} будуть захищені протягом {7} міс.
+
+TIEffectTemplate.description.Effect_BS_NationRemoveAbductions1=— У нації {5} прибрані викрадення ({0})
+
+TIEffectTemplate.description.Effect_BS_GlobalExcessMiltechReduction=— Усі нації з показником військових технологій більшим за {13} втратять {3} надлишку
+
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedPenalty=— Зменшує швидкість будівництва наших середовищ на {4}
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedRepair=— Збільшує швидкість будівництва наших середовищ на {3}
+TIEffectTemplate.description.Effect_BS_MineSizeReduction=— Зменшує розмір наших космічних шахт на {4}
+TIEffectTemplate.description.Effect_BS_MineSizeNormalization=— Збільшує розмір наших космічних шахт на {3}
+
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeReduction=— Зменшує розмір наших автоматизованих космічних шахт на {4}
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeNormalization=— Збільшує розмір автоматизованих космічних шахт на {3}
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeReduction=— Зменшує розмір наших автоматизованих форпостів на {4}
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeNormalization=— Збільшує розмір автоматизованих форпостів на {3}
+

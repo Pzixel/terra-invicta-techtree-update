@@ -1,0 +1,85 @@
+
+// Dark Skies DLC
+
+Context.displayName.MaterialScience=材料科学
+Context.displayName.SpaceScience=宇宙科学
+Context.displayName.EnergyScience=エネルギー科学
+Context.displayName.LifeScience=生命科学
+Context.displayName.MilitaryScience=軍事科学
+Context.displayName.InformationScience=情報科学
+Context.displayName.SocialScience=社会科学
+Context.displayName.Xenology=地球外生命体学
+Context.displayName.PublicOpinionInfluence=世論による影響
+Context.displayName.SemiMajorAxisExplorationRange_AU=軌道に基づく探査範囲
+Context.displayName.PublicizedAlienThreat=エイリアンの脅威の公表
+Context.displayName.AugmentationMoneyCost=拡張強化の費用
+Context.displayName.HabConstructionSpeed=ハブの建設速度
+Context.displayName.MineSizeModifier=宇宙機雷のサイズ
+
+Context.displayName.DemocracyBackslides=民主主義の後退
+TIEffectTemplate.description.Effect_BS_DemocracyBackslides1=- 民主的制度が損なわれる
+
+TIEffectTemplate.description.Effect_BS_CPMaintenanceBonus_MakingHistoryA=- コントロール・ポイントの管理能力が{19}上昇する。他の「歴史創造」計画とは累積しない。 
+TIEffectTemplate.description.Effect_BS_InfluenceRepair=- 世論による影響力が{3}上昇する。
+TIEffectTemplate.description.Effect_BS_MaterialScienceBonusA=- 材料研究が{3}増加する。
+TIEffectTemplate.description.Effect_BS_SpaceScienceBonusA=- 宇宙科学研究が{3}増加する。
+TIEffectTemplate.description.Effect_BS_SpaceScience5=- 宇宙科学研究が{3}増加する。
+TIEffectTemplate.description.Effect_BS_EnergyScienceBonusA=- エネルギー研究が{3}増加する。
+TIEffectTemplate.description.Effect_BS_LifeScienceBonusA=- 生命科学研究が{3}増加する。
+TIEffectTemplate.description.Effect_BS_MilitaryScienceBonusA=- 軍事科学研究が{3}増加する。
+TIEffectTemplate.description.Effect_BS_InformationScienceBonusA=- 情報科学研究が{3}増加する。
+TIEffectTemplate.description.Effect_BS_SocialScienceBonusA=- 社会科学研究が{3}増加する。
+TIEffectTemplate.description.Effect_BS_XenologyBonusA=- 地球外生命体学研究が{3}増加する。
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimeRepair=- 船の建設速度が{3}増加する。
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationI=- 軌道に基づく探査範囲が{0}AU拡大する。
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationII=- 軌道に基づく探査範囲が{0}AU拡大する。
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationIII=- 軌道に基づく探査範囲の上限がなくなる。
+TIEffectTemplate.description.Effect_BS_GraySky=- 火星までの範囲内にあるエイリアン船と構造物を全ての派閥が追跡できる。
+TIEffectTemplate.description.Effect_BS_AugmentationMoneyCostReduction=- 評議員の拡張強化の費用が{4}少なくなる。
+TIEffectTemplate.description.Effect_BS_PublicizeAlienThreat=- エイリアンの攻撃が早くなる可能性がある。
+TIEffectTemplate.description.Effect_BS_AlienAwareness=- エイリアンの知識が一般大衆へと広がる。
+TIEffectTemplate.description.Effect_BS_DiscoverAlienInvasion=- 地球に対するエイリアンの計画が明らかになる。
+
+TIEffectTemplate.description.Effect_BS_CPResearchPenalty=- コントロール・ポイントからの研究が{4}減少する。
+TIEffectTemplate.description.Effect_BS_CPMaintenancePenalty=- コントロール・ポイントの管理能力が{0}低下する。
+TIEffectTemplate.description.Effect_BS_SustainabilityPenalty=- プライオリティ「環境」に充てる国家投資ポイントが{25}減少する。
+TIEffectTemplate.description.Effect_BS_MCPenalty=- プライオリティ「ミッション・コントロール」に充てる国家投資ポイントが{25}減少する。
+TIEffectTemplate.description.Effect_BS_BoostPenalty=- プライオリティ「ブースト」に充てる国家投資ポイントが{25}減少する。
+TIEffectTemplate.description.Effect_BS_InfluencePenalty=- 世論による影響力が{25}低下する。
+TIEffectTemplate.description.Effect_BS_MaterialSciencePenalty=- 材料研究が{25}減少する。
+TIEffectTemplate.description.Effect_BS_SpaceSciencePenalty=- 宇宙科学研究が{25}減少する。
+TIEffectTemplate.description.Effect_BS_EnergySciencePenalty=- エネルギー研究が{25}減少する。
+TIEffectTemplate.description.Effect_BS_LifeSciencePenalty=- 生命科学研究が{25}減少する。
+TIEffectTemplate.description.Effect_BS_MilitarySciencePenalty=- 軍事科学研究が{25}減少する。
+TIEffectTemplate.description.Effect_BS_InformationSciencePenalty=- 情報科学研究が{25}減少する。
+TIEffectTemplate.description.Effect_BS_SocialSciencePenalty=- 社会科学研究が{25}減少する。
+TIEffectTemplate.description.Effect_BS_XenologyPenalty=- 地球外生命体学研究が{25}減少する。
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimePenalty=- 船の建設速度が{27}減少する。
+TIEffectTemplate.description.Effect_BS_SpaceMiningPenalty=- 地球の採掘量が{25}減少する。
+TIEffectTemplate.description.Effect_BS_BlackSky=- 地球付近にあるエイリアン船と構造物を派閥が追跡できる。
+
+TIEffectTemplate.description.Effect_BS_InvestigationPenalty=- 募集プールのすべての評議員候補者の調査初期値が-{0}される。
+
+// These have had their wording adjusted:
+TIEffectTemplate.description.Effect_BS_BoostPenaltyEventTemp=- {7}か月間、プライオリティ「ブースト」に充てる国家投資ポイントが{25}減少する。
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEvent=- プライオリティ「宇宙飛行プログラム」に充てる国家投資ポイントが{25}減少する。
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEventTemp=- {7}か月間、プライオリティ「宇宙飛行プログラム」に充てる国家投資ポイントが{25}減少する。
+
+TIEffectTemplate.description.Effect_BS_GovernmentPenaltyEventTemp=- {7}か月間、プライオリティ「政府」に充てる全国家の投資ポイントが{25}減少する。
+TIEffectTemplate.description.Effect_BS_MilitaryBonusEventSmallGlobal=- プライオリティ「軍事」に充てる全国家の投資ポイントが{3}増加する。
+TIEffectTemplate.description.Effect_BS_DefendAllOwnedControlPoints=- 所有するすべてのコントロール・ポイント{5}が{7}か月間防衛される。
+
+TIEffectTemplate.description.Effect_BS_NationRemoveAbductions1=- {5}における拉致を{0}件削除する。
+
+TIEffectTemplate.description.Effect_BS_GlobalExcessMiltechReduction=- 軍事技術が{13}を超える全国家は余剰分の{3}を失う。
+
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedPenalty=- ハブの建設速度が{4}減少する。
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedRepair=- ハブの建設速度が{3}増加する。
+TIEffectTemplate.description.Effect_BS_MineSizeReduction=- 宇宙機雷のサイズが{4}減少する。
+TIEffectTemplate.description.Effect_BS_MineSizeNormalization=- 宇宙採掘場のサイズが{3}増加する。
+
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeReduction=- 自動宇宙採掘場のサイズが{4}減少する。
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeNormalization=- 自動宇宙採掘場のサイズが{3}増加する。
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeReduction=- 自動化前哨基地のサイズが{4}減少する。
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeNormalization=- 自動化前哨基地のサイズが{3}増加する。
+

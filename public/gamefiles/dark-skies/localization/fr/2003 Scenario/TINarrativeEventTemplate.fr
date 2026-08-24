@@ -1,0 +1,259 @@
+
+// Dark Skies DLC
+
+TINarrativeEventTemplate.displayName.event_AlienAwareness=Conscience publique des extraterrestres
+TINarrativeEventTemplate.event_AlienAwareness.summary=Nous ne pouvons plus nier la présence et l'activité des extraterrestres dans notre monde.
+TINarrativeEventTemplate.event_AlienAwareness.query=Des preuves irréfutables de la présence extraterrestre au sein de notre système solaire sont apparues aux yeux du grand public. Parmi elles, d'innombrables témoignages, des vidéos attestées et même de véritables objets physiques.<br/><br/>Inutile de dire que tout cela a généré un choc général pour la population mondiale. Les réactions ont été variées : certains citoyens ont exprimé leur peur tandis que d'autres voient cette nouvelle comme un espoir. Quelques-uns sont même en colère, non pas contre les extraterrestres, mais contre leur propre gouvernement, qui était forcément au courant des faits et a choisi de les cacher à son peuple.<br/><br/>Au milieu de toute cette confusion, un effet positif se fait tout de même sentir. L'existence prouvée des extraterrestres semble avoir piqué la curiosité de la génération actuelle. Les agences et bureaux de recrutement font état d'un intérêt sans précédent pour les postes scientifiques et militaires. Certains de nos agents ont été approchés en secret par des individus talentueux et influents qui cherchent à faire la différence.
+TINarrativeEventTemplate.event_AlienAwareness.option0=Pour le meilleur ou pour le pire, l'humanité s'est réveillée.
+TINarrativeEventTemplate.event_AlienAwareness.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_AlienAwareness.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_AlienCyberattack=Cyberattaque extraterrestre
+TINarrativeEventTemplate.event_2003_AlienCyberattack.summary=Les plus grandes organisations militaires du monde ont signalé des pannes d'équipement généralisées.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.query=De toute évidence, les extraterrestres ont inséré un programme malveillant dans le logiciel de communications et de logistique utilisé par l'ensemble des forces armées et des industriels de l'armement mondiaux. Nos experts tentent toujours de déchiffrer les quelques fragments de code qu'ils sont parvenus à récupérer, mais nous pensons que cette attaque a fait suite à l'établissement d'une colonie par {secondaryTargetNationNameWithArticle} sur Terre. Nous n'avons aucun doute quant au fait que certaines personnes présentes sur place ont collaboré.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.option0=Sommes-nous devenus trop dépendants de la technologie pour assurer notre défense ?
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionResult0={summary}
+
+//// ALT-HISTORY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_MissionAccomplished=Mission accomplie
+TINarrativeEventTemplate.event_2003_MissionAccomplished.summary=Le président des États-Unis a annoncé aujourd'hui la fin des principales opérations de combat en Irak.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.query=Suite à une entrée spectaculaire et à un appontage maîtrisé d'un jet de la marine américaine sur un porte-avions, le président a déclaré que, même si des tâches compliquées sont à venir, les États-Unis et leurs alliés ont triomphé et sont venus à bout de la dictature irakienne.<br/><br/>Cette démonstration de force militaire marque un tournant dans la guerre contre le terrorisme et renforce la dominance américaine sur le globe. D'un autre côté, les critiques ne se sont pas faites attendre : la guerre en Irak n'était pas justifiée et déstabilisera très certainement l'ensemble de la région. Quant au discours du président américain, il ne s'agissait que d'un coup de théâtre inutile et onéreux.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.option0=Maintenant que les extraterrestres sont là, est-ce vraiment important ?
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_ColumbiaDisaster=Catastrophe de la navette spatiale Columbia
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.summary=Le 1er février 2003, la navette spatiale <i>Columbia</i> s'est désintégrée au-dessus du Texas et de la Louisiane lors de son entrée dans l'atmosphère. Les sept membres de l'équipage ont perdu la vie.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.query=L'arrivée d'un mystérieux objet venu de l'espace un mois après le drame a jeté le doute sur ce qui semblait n'être qu'un banal et tragique accident. Tandis que l'enquête officielle se poursuit, des théories du complot de plus en plus élaborées tentent de relier ces deux événements. Certains souhaitent réduire le développement de programmes spatiaux habités tandis que d'autres pensent que l'heure est venue d'accélérer les réformes et de redoubler nos efforts.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option0=Nous avons des problèmes plus importants à régler chez nous.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult0={targetFactionNameCap} a accepté de supprimer l'aide allouée aux programmes spatiaux habités.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option1=La peur ne doit pas nous envahir !
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult1={targetFactionNameCap} a augmenté l'aide allouée aux programmes spatiaux habités.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option2=Exactement comme ils l'avaient prévu.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult2={targetFactionNameCap} a accepté de supprimer l'aide allouée aux programmes spatiaux habités.
+
+TINarrativeEventTemplate.displayName.event_2003_AlienTacSim=Sortie du simulateur tactique d'invasion extraterrestre
+TINarrativeEventTemplate.event_2003_AlienTacSim.summary=Un studio respecté vient de lancer un nouveau jeu vidéo qui tourne autour d'une invasion extraterrestre.
+TINarrativeEventTemplate.event_2003_AlienTacSim.query=On y contrôle une organisation paramilitaire multinationale d'élite et oscille entre stratégie globale et combat tactique au tour à tour contre les extraterrestres. Même s'il s'agit d'un remake en développement depuis des années d'un jeu bien plus ancien du même genre et au nom similaire, on ne peut s'empêcher de trouver le timing de sa sortie étrange, au vu des récentes actualités autour du monde.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0=C'est sûrement un sujet à la mode.
+TINarrativeEventTemplate.event_2003_AlienTacSim.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0=Succès.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Summary=Un nouveau jeu vidéo qui simule une invasion extraterrestre a été un immense succès.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Detail=Le succès retentissant de ce jeu au niveau mondial est peut-être dû au timing propice de sa sortie. Les joueurs et joueuses ont mis en avant l'ingéniosité des énigmes à résoudre au sein du système de combat et les critiques reconnaissent que le jeu a su ressusciter un genre qui stagnait depuis des années. On parlerait même déjà d'une extension ambitieuse prévue pour étendre l'univers du jeu et le rendre plus complexe.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1=Échec.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Summary=Un nouveau jeu vidéo traitant d'une invasion extraterrestre a fait un énorme flop.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Detail=Cela est peut-être dû à un timing peu propice, mais le jeu n'a pas su séduire le marché mondial. Les joueurs et joueuses ainsi que les critiques l'ont jugé trop compliqué, n'ont pas apprécié son interface peu pratique ni l'histoire banale et classique qu'il raconte.
+
+TINarrativeEventTemplate.displayName.event_2003_DemocraticBacksliding=Rétrogradage démocratique
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.summary=La démocratie est en péril {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.query=Des politiciens populistes attirent de plus en plus de monde car ils s'opposent aux institutions élitistes et accusent les étrangers et les groupes marginalisés d'être responsables de la détérioration des conditions économiques et de l'érosion du mode de vie {targetNationAdjective}. Les réseaux sociaux, autrefois reconnus comme véritables outils de connexion et d'apprentissage, sont désormais envahis par la désinformation et les fake news. Ils profitent d'algorithmes conçus pour créer une addiction chez les utilisateurs et utilisatrices grâce à des contenus toujours plus scandaleux. De récentes réformes ont permis de concentrer le pouvoir dans la branche exécutive du gouvernement et d'ébranler le principe d'indépendance judiciaire.<br/><br/>Tout cela est extrêmement préoccupant, mais au sein de notre faction, certaines voix pensent que ces événements pourraient jouer en notre faveur et nous permettre de renforcer davantage notre emprise sur {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option0=Nous adorons la démocratie, n'est-ce pas ?
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option1=Attisons la rhétorique contre les forces extérieures qui menacent {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult1=Le paysage politique {targetNationAdjective} a attisé la rhétorique contre les forces extérieures.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option2=Mettons un frein à la diffusion des fake news.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult2={targetNationNameWithArticleCap} a mis un frein aux fake news.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option3=Offrons notre aide pour renforcer la société civile.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult3={targetNationNameWithArticleCap} a offert son aide à la société civile.
+
+TINarrativeEventTemplate.displayName.event_2003_RisingAuthoritarianism=Montée de l'autoritarisme
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.summary=Une tendance inquiétante se propage à travers les démocraties du monde.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.query=À l'aube du nouveau millénaire, une vague de démocraties a déferlé sur toute la planète. La chute de nombreuses anciennes autocraties a généré l'espoir d'une nouvelle ère de liberté pour l'humanité.<br/><br/>Malheureusement, il s'est depuis avéré que nombre de ces démocraties nouvellement établies reposaient sur de piètres fondations institutionnelles, ce qui a permis à des dirigeants et des partis personnalistes de se faire élire pour ensuite se retourner contre le système et démanteler les institutions qui leur avaient permis d'accéder au pouvoir. Le chômage et les inégalités grandissantes ont eu de graves conséquences sociétales et économiques et les processus électoraux ridicules ont souvent été montrés du doigt comme principale cause. Même les démocraties plus anciennes et bien ancrées n'ont pas su résister à ces revers.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.option0=La liberté n'est jamais définitivement acquise.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionResult0={summary}
+
+//// ALIEN MYSTERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_PublicSpeculation=Spéculation publique
+TINarrativeEventTemplate.event_2003_PublicSpeculation.summary=Le manque d'informations vérifiables concernant cette mystérieuse arrivée de l'espace, et ce, des mois après les événements, alimente une vague effrénée de spéculations parmi le peuple {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.query=La plupart de ces spéculations ne reposent sur aucun fait et accusent soit le gouvernement {targetNationAdjective} et les élites transnationales de vouloir couvrir leurs méfaits, soit d'avoir fabriqué cet incident de toutes pièces afin de détourner l'attention de la population d'autres problèmes, soit de collaborer avec les envahisseurs extraterrestres pour assujettir {targetNationNameWithArticle}. Cependant, ces théories ont pris tellement d'importance que les membres officiels du gouvernement {targetNationAdjective} se sentent obligés de faire des annonces officielles pour répondre aux rumeurs.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option0=Laissons-les spéculer.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult0=Le manque d'informations concernant l'arrivée d'une entité venue de l'espace alimente des spéculations effrénées parmi le peuple {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option1=Censurons toutes les discussions à ce sujet.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult1=Le manque d'informations concernant l'arrivée d'une entité venue de l'espace alimente des spéculations effrénées parmi le peuple {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option2=Rendons public le peu que nous savons pour apaiser la population.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult2=Le manque d'informations concernant l'arrivée d'une entité venue de l'espace alimente des spéculations effrénées parmi le peuple {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option3=Semons la pagaille avec nos propres théories.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult3=Le manque d'informations concernant l'arrivée d'une entité venue de l'espace alimente des spéculations effrénées parmi le peuple {targetNationAdjective}.
+
+TINarrativeEventTemplate.displayName.event_2003_ExecutiveDysfunction=Dysfonctionnement exécutif
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.summary=L'exécutif {targetNationAdjective} est incapable de se mettre d'accord concernant les extraterrestres.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.query=Malgré l'influence de notre faction sur des membres clés du gouvernement {targetNationAdjective}, la confidentialité opérationnelle requise pour nos activités et la présumée arrivée extraterrestre nous compliquent la tâche. Par conséquent, nombreux sont ceux au sein du gouvernement à penser que la présence d'extraterrestres sur Terre est un mensonge et qu'il existe bien des problèmes sur Terre qui nécessitent notre attention, tels que la qualité des repas scolaires.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option0=Laissons-les se disputer entre eux.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option1=Laissons les sceptiques avoir leur heure de gloire.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail1=Après tout, personne ne peut douter de l'importance d'un bon repas ?
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult1=L'exécutif {targetNationAdjective} a décidé de se concentrer sur la qualité des repas scolaires.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option2=Battons-nous pour une réponse plus ferme.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult2=L'exécutif {targetNationAdjective} s'est montré en faveur d'une réponse plus ferme à l'invasion extraterrestre.
+
+TINarrativeEventTemplate.displayName.event_2003_StrangeLights=D'étranges lumières
+TINarrativeEventTemplate.event_2003_StrangeLights.summary=Les réseaux sociaux débordent d'images montrant de vives lumières survolant {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_StrangeLights.query=Naturellement, le public est divisé. S'agit-il d'un phénomène naturel, d'une intervention humaine ou d'un acte extraterrestre. Ou encore, ces images sont-elles réelles ?
+TINarrativeEventTemplate.event_2003_StrangeLights.option0=C'est un simple feu follet.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult0=Selon {targetNationNameWithArticle}, ces lumières vives n'étaient qu'un simple feu follet.
+TINarrativeEventTemplate.event_2003_StrangeLights.option1=Envoyons une équipe scientifique pour enquêter officiellement sur ces événements.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult1=Une équipe a été envoyée par {targetNationNameWithArticle} pour enquêter sur ces lumières vives dans le ciel.
+TINarrativeEventTemplate.event_2003_StrangeLights.option2=Envoyons des avions de chasse patrouiller dans les cieux pour faire une démonstration de force.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult2=Des avions ont été envoyés par {targetNationNameWithArticle} pour intercepter les lumières dans le ciel 
+TINarrativeEventTemplate.event_2003_StrangeLights.option3=Encourageons les fidèles à passer plus de temps à l'extérieur et à contempler ces belles lumières.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult3={targetFactionNameCap} a encouragé les fidèles à passer plus de temps à l'extérieur.
+
+TINarrativeEventTemplate.displayName.event_2003_LethargicTroops=Troupes léthargiques
+TINarrativeEventTemplate.event_2003_LethargicTroops.summary=Le moral des forces armées du camp {targetNationAdjective} est au plus bas.
+TINarrativeEventTemplate.event_2003_LethargicTroops.query=Des officiers issus de toutes les branches font état d'un taux d'absentéisme sans précédent, d'une grève du zèle et d'un manque d'enthousiasme général dans l'exécution des missions. L'envergure du problème est telle que même des menaces de lourdes conséquences disciplinaires n'ont que peu d'effet. Lorsqu'on les interroge, les soldats ne donnent pas de véritable raison, mis à part la croyance générale qu'il ne sert à rien de se battre.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option0=Vous n'avez plus envie de servir votre pays ?
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_LethargicTroops.option1=Augmentons le budget pour financer l'équipement des troupes.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult1=Le budget alloué à l'équipement des troupes par {targetNationNameWithArticle} a augmenté.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option2=Faisons une purge des éléments les plus perturbateurs afin de montrer l'exemple aux autres.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult2=Une purge a été menée par {targetNationNameWithArticle} pour éradiquer les éléments les plus perturbateurs au sein de ses forces armées.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3=Enquêtons afin de trouver d'éventuels signes de subversion extraterrestre.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0=Succès.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Summary=Des signes d'influence extraterrestre ont été découvert par {targetNationNameWithArticle} au sein des forces armées.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Detail=Nous avons été en mesure de trouver des signes d'influence extraterrestre parmi nos rangs ! Depuis, non seulement le moral des troupes est revenu à la normale, mais les forces armées du camp {targetNationAdjective} sont désormais mieux préparées pour affronter la menace extraterrestre.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1=Échec.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Summary=Selon {targetNationNameWithArticle}, les extraterrestres sont responsables de la baisse de morale des forces armées.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Detail=Les accusations d'influence extraterrestre ont eu l'effet inverse et n'ont fait que renforcer l'amertume des soldats.
+
+
+
+
+//// SERVANTS EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_CultofEquality=Culte de l'égalité
+TINarrativeEventTemplate.event_2003_CultofEquality.summary=Un nouveau mouvement religieux gagne du terrain {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofEquality.query=Les recruteurs et les évangélistes prospectent systématiquement près des lieux de travail, des écoles et des centres communautaires et leur message résonne fortement auprès de leur public. Dans tous les groupes d'amis, il y a au moins une personne qui connaît quelqu'un appartenant au mouvement. Les manifestants et les activistes associés au mouvement apparaissent déjà à {targetRegionName} et dans d'autres villes. Ils font même preuve d'un niveau de coordination et de cohésion peu commun pour mener à bien leurs actions.<br/><br/>Leur message : Tous les hommes naissent égaux et doivent par conséquent être égaux avec leurs voisins. La discorde apparaît lorsque quelques individus ont bien plus de possessions matérielles que d'autres. Il est temps pour ceux qui accumulent la richesse de la rendre à la communauté.
+TINarrativeEventTemplate.event_2003_CultofEquality.option0=Laissons-les détaler et protester.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofEquality.option1=Prenons des mesures pour plus d'égalité.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult1={actorNameWithArticleCap} a accordé quelques concessions à un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofEquality.option2=Sévissons face à leur subversion.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult2={actorNameWithArticleCap} a sévi face à un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3=Enquêtons sur eux pour chercher des signes d'une implication extraterrestre.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0=Succès.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Summary={actorNameWithArticleCap} a trouvé des signes d'une influence extraterrestre au sein d'un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Detail=Nous avons réussi à trouver des signes d'influence extraterrestre au sein du mouvement ! Cela l'a grandement décrédibilisé et la plupart de ses anciens membres se sont dispersés sans faire d'histoires.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1=Échec.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Summary={actorNameWithArticleCap} n'a pas réussi à trouver des signes d'une influence extraterrestre au sein d'un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Detail=Les accusations d'influence extraterrestre ont eu l'effet inverse et n'ont fait que renforcer la rancœur de la société. Si se battre pour l'égalité est une caractéristique extraterrestre, alors ce sont sûrement des extraterrestres.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofUnity=Culte de l'unité
+TINarrativeEventTemplate.event_2003_CultofUnity.summary=Un nouveau mouvement religieux gagne du terrain {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofUnity.query=Les recruteurs et les évangélistes prospectent systématiquement près des lieux de travail, des écoles et des centres communautaires et leur message résonne fortement auprès de leur public. Dans tous les groupes d'amis, il y a au moins une personne qui connaît quelqu'un appartenant au mouvement. Les manifestants et les activistes associés au mouvement apparaissent déjà à {targetRegionName} et dans d'autres villes. Ils font même preuve d'un niveau de coordination et de cohésion peu commun pour mener à bien leurs actions.<br/><br/>Leur message : Malgré l'agitation du monde et les problèmes du quotidien, il faut toujours se rappeler d'aimer son voisin. Ce n'est qu'en faisant cela qu'on parvient à s'aimer soi-même.
+TINarrativeEventTemplate.event_2003_CultofUnity.option0=Voici ce que nos sauveurs souhaitent pour nous.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofUnity.option1=Nos sauveurs ont des plans plus ambitieux pour nous.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofPeace=Culte de la paix
+TINarrativeEventTemplate.event_2003_CultofPeace.summary=Un nouveau mouvement religieux gagne du terrain {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofPeace.query=Les recruteurs et les évangélistes prospectent systématiquement près des lieux de travail, des écoles et des centres communautaires et leur message résonne fortement auprès de leur public. Dans tous les groupes d'amis, il y a au moins une personne qui connaît quelqu'un appartenant au mouvement. Les manifestants et les activistes associés au mouvement apparaissent déjà à {targetRegionName} et dans d'autres villes. Ils font même preuve d'un niveau de coordination et de cohésion peu commun pour mener à bien leurs actions.<br/><br/>Leur message : La montée du militarisme partout dans le monde n'aura pour conséquences que la douleur et la souffrance. Cette augmentation a été causée par {targetNationNameWithArticleCap}, notamment grâce à un complexe militaro-industriel de dernier cri et des capacités expéditionnaires. Il faut immédiatement y mettre un terme et inverser la tendance, ou la mort et la destruction n'épargneront personne.
+TINarrativeEventTemplate.event_2003_CultofPeace.option0=Laissons-les détaler et protester.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofPeace.option1=Prenons des mesures pour la démobilisation.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult1={actorNameWithArticleCap} a accordé quelques concessions à un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofPeace.option2=Sévissons face à leur subversion.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult2={actorNameWithArticleCap} a sévi face à un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3=Enquêtons sur eux pour chercher des signes d'une implication extraterrestre.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0=Succès.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Summary={actorNameWithArticleCap} a trouvé des signes d'une influence extraterrestre au sein d'un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Detail=Nous avons réussi à trouver des signes d'influence extraterrestre au sein du mouvement ! Cela l'a grandement décrédibilisé et la plupart de ses anciens membres se sont dispersés sans faire d'histoires.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1=Échec.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Summary={actorNameWithArticleCap} n'a pas réussi à trouver des signes d'une influence extraterrestre au sein d'un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Detail=Les accusations d'influence extraterrestre ont eu l'effet inverse et n'ont fait que renforcer la rancœur de la société. Si se battre pour la paix est une caractéristique extraterrestre, alors ce sont sûrement des extraterrestres.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofAction=Culte de l'action
+TINarrativeEventTemplate.event_2003_CultofAction.summary=Un nouveau mouvement religieux gagne du terrain {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofAction.query=Les recruteurs et les évangélistes prospectent systématiquement près des lieux de travail, des écoles et des centres communautaires et leur message résonne fortement auprès de leur public. Dans tous les groupes d'amis, il y a au moins une personne qui connaît quelqu'un appartenant au mouvement. Les manifestants et les activistes associés au mouvement apparaissent déjà à {targetRegionName} et dans d'autres villes. Ils font même preuve d'un niveau de coordination et de cohésion peu commun pour mener à bien leurs actions.<br/><br/>Leur message : Tout le monde sait que ce monde est tordu et pourri, mais en avoir conscience ne suffit pas. De simples mots ne peuvent pas changer le monde. Des actions, en revanche, si. Quelqu'un doit faire le premier pas afin de rendre ce monde meilleur, et ce quelqu'un, c'est vous.
+TINarrativeEventTemplate.event_2003_CultofAction.option0=Voici ce que nos sauveurs souhaitent pour nous.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofAction.option1=Nos sauveurs ont des plans plus ambitieux pour nous.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofArmageddon=Culte de l'Armageddon
+TINarrativeEventTemplate.event_2003_CultofArmageddon.summary=Un nouveau mouvement religieux gagne du terrain {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.query=Les recruteurs et les évangélistes prospectent systématiquement près des lieux de travail, des écoles et des centres communautaires et leur message résonne fortement auprès de leur public. Dans tous les groupes d'amis, il y a au moins une personne qui connaît quelqu'un appartenant au mouvement. Les manifestants et les activistes associés au mouvement apparaissent déjà à {targetRegionName} et dans d'autres villes. Ils font même preuve d'un niveau de coordination et de cohésion peu commun pour mener à bien leurs actions.<br/><br/>Leur message : Les armes nucléaires représentent la malédiction de l'humanité en ce monde. Tant qu'une seule tête nucléaire existera, l'apocalypse se rapprochera. La destruction mutuellement assurée ne peut avoir comme conséquence que la destruction : si une nation ne donne pas l'exemple, pourquoi les autres le feraient-elles ?
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option0=Laissons-les détaler et protester.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option1=Prenons des mesures pour entamer un désarmement.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult1={actorNameWithArticleCap} a accordé quelques concessions à un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option2=Sévissons face à leur subversion.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult2={actorNameWithArticleCap} a sévi face à un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3=Enquêtons sur eux pour chercher des signes d'une implication extraterrestre.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0=Succès.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Summary={actorNameWithArticleCap} a trouvé des signes d'une influence extraterrestre au sein d'un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Detail=Nous avons réussi à trouver des signes d'influence extraterrestre au sein du mouvement ! Cela l'a grandement décrédibilisé et la plupart de ses anciens membres se sont dispersés sans faire d'histoires.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1=Échec.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Summary={actorNameWithArticleCap} n'a pas réussi à trouver des signes d'une influence extraterrestre au sein d'un nouveau mouvement religieux.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Detail=Les accusations d'influence extraterrestre ont eu l'effet inverse et n'ont fait que renforcer la rancœur de la société. Si se battre pour la paix est une caractéristique extraterrestre, alors ce sont sûrement des extraterrestres.
+
+
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_2003_InsightfulBlogger=Blogueur pertinent
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.summary=Un membre de notre équipe de communication prétend avoir trouvé des signes de vie intelligente sur les réseaux sociaux.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.query=Alors qu'il contrôlait assidûment les réseaux mondiaux de communication dans le cadre de ses fonctions officielles, le membre de l'équipe en question prétend avoir découvert des preuves d'activités extraterrestres sur Terre. En principe, de tels propos seraient ignorés d'emblée, mais nous traversons une période anormale et les preuves jointes sont étonnamment irréfutables. Il est possible que cet individu sache quelque chose que nous ignorons, et si ces informations sont disponibles en ligne, elles ne resteront pas longtemps secrètes.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0=Nous n'avons pas de temps à perdre avec ces fabulations.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0=Rien ne se passe.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Summary=Les preuves d'activités extraterrestres se multiplient sur les réseaux sociaux.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Detail=Rien ne se passe.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1=???
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Summary=Les preuves d'activités extraterrestres se multiplient sur les réseaux sociaux.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1=Rendons-lui visite.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0=Succès.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Summary=Les preuves d'activités extraterrestres se multiplient sur les réseaux sociaux.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Detail=Lorsque nos agents sont arrivés au domicile du blogueur, ils ont été cordialement reçus. Après leur avoir offert un café, le blogueur a directement partagé les photos prouvant la présence d'extraterrestres dans la région, ainsi que quelques objets dont la composition chimique interroge.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1=Échec.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Summary=Les preuves d'activités extraterrestres se multiplient sur les réseaux sociaux.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Detail=Lorsque nos agents sont arrivés au domicile du blogueur, les lieux étaient déserts. L'endroit semble avoir été habité récemment, mais aucune personne ni aucun équipement informatique ne s'y trouvaient. Le voisinage a été interrogé et personne n'a été aperçu ici depuis longtemps.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2=Escroquerie.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Summary=Les preuves d'activités extraterrestres se multiplient sur les réseaux sociaux.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Detail=Lorsque nos agents sont arrivés au domicile du blogueur, ils ont vite compris que les photos qui étaient impressionnantes en ligne étaient en fait fabriquées de toutes pièces. Les prétendus composants d'un vaisseau spatial extraterrestre n'étaient rien d'autre que des accessoires en mousse peints. Le blogueur a par la suite allégué que notre visite était la preuve qu'il s'était « rapproché un peu trop de la vérité ».
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option2=Donnons de la visibilité aux publications pour répandre la nouvelle.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionResult2=Les preuves d'activités extraterrestres se multiplient sur les réseaux sociaux.

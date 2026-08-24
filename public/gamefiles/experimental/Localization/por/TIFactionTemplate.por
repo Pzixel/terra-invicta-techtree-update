@@ -258,7 +258,7 @@ TIFactionTemplate.Diplomacy.Submit.Appease.Conflict=Vocês os temem, quando na v
 TIFactionTemplate.Diplomacy.Submit.Appease.Tolerance=Embora vocês rejeitem o amor Deles, vocês aceitam Sua superioridade. Isso é o suficiente. Por enquanto.
 TIFactionTemplate.Diplomacy.Alien.Submit.Tolerance=Saudações, servo fiel (<color=#9964FF>Ajoelhe-se, animal doméstico</color>). Você é amado (<color=#9964FF>Você não é nada</color>).
 TIFactionTemplate.Diplomacy.Alien.Appease.War=Renda-se (<color=#9964FF>Morra</color>).
-TIFactionTemplate.Diplomacy.Alien.Appease.Conflict=Submissão=sobrevivência (<color=#9964FF>Resistência=obliteração</color>.obliteration</color>).
+TIFactionTemplate.Diplomacy.Alien.Appease.Conflict=Submissão=sobrevivência (<color=#9964FF>Resistência=obliteração</color>.
 TIFactionTemplate.Diplomacy.Alien.Appease.Tolerance=Você é tolerado (<color=#9964FF>Você não é uma ameaça</color>).
 TIFactionTemplate.Diplomacy.Alien.Cooperate.War=Obstáculo indesejado (<color=#9964FF>Extermine a ameaça</color>).
 TIFactionTemplate.Diplomacy.Alien.Cooperate.Conflict=Pare. Pare. Pare (<color=#9964FF>Ameaça. Ameaça. Ameaça.</color>).

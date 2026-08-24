@@ -83,7 +83,7 @@ TIHabModuleTemplate.description.EnergyResearchCenter=研究推進力、導能武
 TIHabModuleTemplate.displayName.Farm=農場
 TIHabModuleTemplate.description.Farm=將物質回收成新鮮食物和可呼吸空氣的水耕栽培農場。
 TIHabModuleTemplate.displayName.FissionReactorArray=核分裂反應爐陣列
-TIHabModuleTemplate.description.FissionReactorArray=大型核反應爐，可在離太陽任何距離的地方為太空殖民地提供電力。
+TIHabModuleTemplate.description.FissionReactorArray=大型核反應爐，可在離太陽任何距離的地方為太空殖民地提供電力。 
 TIHabModuleTemplate.displayName.FusionReactorArray=核融合反應爐陣列
 TIHabModuleTemplate.description.FusionReactorArray=大型核融合反應爐，可提供太空殖民地大量的能量。
 TIHabModuleTemplate.displayName.HeavyFissionReactorArray=重型核分裂反應爐陣列
@@ -159,7 +159,7 @@ TIHabModuleTemplate.description.FusionReactorFarm=為太空殖民地生產清潔
 TIHabModuleTemplate.displayName.GeriatricsFacility=太空醫院
 TIHabModuleTemplate.description.GeriatricsFacility=大型醫療設施，專門用來進行僅有在低重力環境中才可能達成的專門治療，還為付錢的患者提供急症與長期照護廂房。
 TIHabModuleTemplate.displayName.HeavyFissionReactorFarm=重型核分裂反應爐場
-TIHabModuleTemplate.description.HeavyFissionReactorFarm=可為太空殖民地供能的一整區先進核分裂分應爐。
+TIHabModuleTemplate.description.HeavyFissionReactorFarm=可為太空殖民地供能的一整區先進核分裂分應爐。 
 TIHabModuleTemplate.displayName.HeavyFusionReactorFarm=重型核融合反應爐場
 TIHabModuleTemplate.description.HeavyFusionReactorFarm=一組次世代高功率聚變反應堆，足以支援我們最大的太空殖民地。
 TIHabModuleTemplate.displayName.Helium-3Mine=氦-3 礦場
@@ -218,7 +218,7 @@ TIHabModuleTemplate.description.SolarMirrorArray=許多大型反射鏡，可以�
 TIHabModuleTemplate.displayName.Soletta=炎陽
 TIHabModuleTemplate.description.Soletta=配備聚焦鏡的大型空間站艙體，可以顯著增加地面太陽能艙體的產出。
 TIHabModuleTemplate.displayName.AutomatedSolarMirror=自動化太陽能鏡子
-TIHabModuleTemplate.description.AutomatedSolarMirror=無人值守的鏡子艙體，可以將陽光引導到地面上。
+TIHabModuleTemplate.description.AutomatedSolarMirror=無人值守的鏡子艙體，可以將陽光引導到地面上。 
 
 TIHabModuleTemplate.displayName.AlienOutpostCore=異星前哨站核心
 TIHabModuleTemplate.description.AlienOutpostCore=似乎是基地的指揮與控制中心。
@@ -367,9 +367,9 @@ HabModuleSpecialRule.UsesHelium3=-此核融合艙體使用氦-3 為燃料。如�
 HabModuleSpecialRule.RepairsMarineShipModules=- 該艙體與艦船建造艙體相結合，使陸戰隊能夠建造和修理艦船艙體
 HabModuleSpecialRule.RepairsHabKitShipModules=- 該艙體與艦船建造艙體相結合，能夠建造和修理太空殖民地艙體。
 HabModuleSpecialRule.StaticHab=<skip/>
-HabModuleSpecialRule.FleetTargeting=- 對所有防禦艦船的索敵判定賦予 +{1}，使其能夠克服敵方電子反制措施的影響。
-HabModuleSpecialRule.FleetECM=- 對所有防禦艦船的電子反制措施數值賦予 +{1}。
-HabModuleSpecialRule.SolarMirror=- 為其軌道所環繞的天體上的所有太陽能艙體增加 +{0}<color=#FFFFFFFF><sprite name=hab_power></color> 產量，該值乘以太陽能艙體的等級，適用於天體軌道上的派系基地。<br/>- 如果艙體位於衛星與其母行星之間的 L-1、L-4 或 L-5 位置，則該加成也適用于該衛星。<br/>- 如果位於行星與太陽之間的 L-1 位置，則該加成適用於該行星系統的所有基地。<br/>- 品質根據與太陽的距離而增加<br/>- 太陽能電池板的最大發電量可達其基礎最大功率值的 {4} 倍
+HabModuleSpecialRule.FleetTargeting=- 賦予索敵判定 +{1}，使其能夠克服電子反制措施的影響；對於太空站艙體，適用於所有防禦艦船。
+HabModuleSpecialRule.FleetECM=- 賦予 +{1} 電子反制措施數值；對於太空站艙體，適用於所有防禦艦艇。
+HabModuleSpecialRule.SolarMirror=- 為其軌道所環繞的天體上的所有太陽能艙體增加 +{0}<color=#FFFFFFFF><sprite name=hab_power></color> 產量，該值乘以太陽能艙體的等級，適用於天體軌道上的派系基地。 <br/>- 如果船艙位於衛星與其母行星之間的 L-1、L-4 或 L-5 位置，則該加成也適用於此衛星。 <br/>- 如果位於行星與太陽之間的 L-1 位置，則該加成適用於該行星系統的所有基地。 <br/>- 質量根據與太陽的距離而增加<br/>- 太陽能板的最大發電量可達其基礎最大功率值的 {4} 倍
 
 TIHabModuleTemplate.OnePerHab=每座太空殖民地只能有一個此類艙體。
 TIHabModuleTemplate.BaseOnly=這個艙體只能建造在地表基地，不能建在太空站。

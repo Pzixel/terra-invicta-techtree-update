@@ -1,0 +1,64 @@
+[
+ {
+   "dataName": "1962_Start",
+   "year": 2112,
+   "month": 10,
+   "day": 31,
+   "hour": 23,
+   "minute": 59,
+   "second": 59,
+   "bonusMoney": 0,
+   "bonusInfluence": 0,
+   "bonusOps": 0,
+   "bonusBoost": 0,
+   "bonusMissionControl": 0,
+   "bonusWater": 0,
+   "bonusVolatiles": 0,
+   "bonusMetals": 0,
+   "bonusNobles": 0,
+   "bonusFissiles": 0,
+   "bonusAntimatter": 0,
+   "bonusExotics": 0,
+   "initialCrashdownRegionTemplateName": "random",
+   "initialAtmosphericCO2_ppm": 405,
+   "initialAtmosphericCH4_ppm": 1.92,
+   "initialAtmosphericN2O_ppm": 0.335,
+   "initialStratosphericAerosols_ppm": 0,
+   "initialGlobalSeaLevelAnomaly_cm": 20,
+   "initialLooseNukes": 0,
+   "globalStartingGDPScaling": 9.67,
+   "distributeFactionlessHabsAndFleets": true,
+   "startingTechs": [
+      "BSBE_ANewSpaceRace",
+      "WeAreNotAlone",
+      "Biotechnology"
+   ],
+   "techTreeUIStarters": [
+      "BSBE_ANewSpaceRace",
+      "WeAreNotAlone",
+      "Biotechnology"
+   ],
+   "projectsCompleted": [
+      "Project_Solid-FuelSpaceRockets"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12020",
+      "alienFleet22020",
+      "alienFleet32020",
+      "alienFleet42020",
+      "alienFleet52020"
+   ],
+   "orgGlobalResearchSensitivity": 1,
+   "orgGlobalGDPSensitivity": 0.8,
+   "populationRegressionPeriod_years": 60,
+   "alienSurveillanceDelay_years": 5,
+   "alienQuietDuration_years": 0,
+   "alienSetupDuration_years": 10,
+   "alienSetupStartIncome": 0.2,
+   "alienSetupEndIncome": 1,
+   "alienProgressionModifier": 0.75,
+   "alienStartingProgression_years": 0,
+   "GDPDefenseModifier": 1.5,
+   "CPMaintenanceModifier": 0.7
+}
+]

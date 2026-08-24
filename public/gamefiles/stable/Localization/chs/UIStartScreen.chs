@@ -206,113 +206,79 @@ UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=在战役开始时�
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=加速战役预设选项
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=长期战役预设选项
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=先前的战役设定
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactions=可以关闭 AI 阵营
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactionsTooltip=某些人类 AI 阵营如果遭受过于沉重的打击，就会进入休眠状态。这种情况只会在理事每月轮替次数少于两次的情况下出现，并且只有在该阵营在一天开始时没有舰队、基地、理事或控制点的情况下才会发生。此时，该阵营会停止活动，但其意识形态将继续存在，还会有追随者。<br/><br/>某些阵营不能根据在故事中的关键作用而被关闭：在包含所有阵营的游戏里，服从派和求安派例外情况，如果玩家没有用抵抗派或人类至上派的角色进行游戏，那么人类至上派阵营也会是例外情况。
+UI.StartScreen.CustomizeCampaign.Namelist.Heroes=英雄
+UI.StartScreen.CustomizeCampaign.Namelist.Qualities=品质
+UI.StartScreen.CustomizeCampaign.Namelist.Battles=战斗
+UI.StartScreen.CustomizeCampaign.Namelist.Commanders=指挥官
+UI.StartScreen.CustomizeCampaign.Namelist.Weapons=武器
+UI.StartScreen.CustomizeCampaign.Namelist.Fighters=战士
+UI.StartScreen.CustomizeCampaign.Namelist.Scary=恐惧
+UI.StartScreen.CustomizeCampaign.Namelist.Mountains=山脉
+UI.StartScreen.CustomizeCampaign.Namelist.WaterAnimals=水生动物
+UI.StartScreen.CustomizeCampaign.Namelist.Rivers=河流
+UI.StartScreen.CustomizeCampaign.Namelist.WaterBodies=水体
+UI.StartScreen.CustomizeCampaign.Namelist.Explorers=探险者
+UI.StartScreen.CustomizeCampaign.Namelist.MythicalBeasts=神话生物
+UI.StartScreen.CustomizeCampaign.Namelist.Phenomena=现象
+UI.StartScreen.CustomizeCampaign.Namelist.Mythology=神话学
+UI.StartScreen.CustomizeCampaign.Namelist.Monuments=纪念碑
+UI.StartScreen.CustomizeCampaign.Namelist.Cities=城市
+UI.StartScreen.CustomizeCampaign.Namelist.Regions=地区
+UI.StartScreen.CustomizeCampaign.Namelist.Landmasses=大陆板块
+UI.StartScreen.CustomizeCampaign.Namelist.Leaders=领导者
+UI.StartScreen.CustomizeCampaign.Namelist.LandAnimals=陆生动物
+UI.StartScreen.CustomizeCampaign.Namelist.Scientists=科学家
+UI.StartScreen.CustomizeCampaign.Namelist.Exploration=探索
+UI.StartScreen.CustomizeCampaign.Namelist.Exemplars=典范
+UI.StartScreen.CustomizeCampaign.Namelist.AirAnimals=空中动物
+UI.StartScreen.CustomizeCampaign.Namelist.Astronomy=天文学
+UI.StartScreen.CustomizeCampaign.Namelist.FamousShips=著名舰船
+UI.StartScreen.CustomizeCampaign.Namelist.Astronauts=宇航员
+UI.StartScreen.CustomizeCampaign.Namelist.AlienNature=外星特性
+UI.StartScreen.CustomizeCampaign.Namelist.AlienCelestial=外星天体
+UI.StartScreen.CustomizeCampaign.Namelist.AlienConcepts=外星概念
+UI.StartScreen.CustomizeCampaign.Namelist.AlienMilitant=外星武装分子
 UI.StartScreen.Cancel=取消
 UI.StartScreen.FactionDescription={0}<br/>阵营难度：{1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=更新说明
+UI.StartScreen.CallToAction00=现已上市！
 UI.StartScreen.TranslationWarning=欢迎游玩《地球不屈》抢先体验版！<br/><br/>感谢《地球不屈》汉化组提供翻译和基于 CC BY 4.0 的使用许可，当前的官方简体中文版以汉化组翻译为基础进行了润色。<br/><br/>翻译仍由译者审校修正中，且正在进行测试。抢先体验版的翻译在语法、术语一致性等方面尚不完善，翻译团队正在全力工作中，将尽快校正所有内容。感谢您参与《地球不屈》抢先体验，我们将持续努力，不断优化您的游戏体验！
 UI.StartScreen.GamepassWarning=《地球不屈》目前为预览版。因此，某些游戏或平台功能可能无法按预期运行，你可能会遇到漏洞和/或崩溃。如需支持，请发送电子邮件至 support@pavonisinteractive.com。<br/><br/>云存档有时会失效，若遇到问题，可在以下位置找到存档文件：C:\Users\YOURNAME\Documents\My Games\TerraInvicta\Saves or %homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\
 //<Developer> Credits
-UI.StartScreen.TICredits_0=《地球不屈》<br/><br/>
-UI.StartScreen.TICredits_1=- 开发团队 -<br/>Pavonis Interactive<br/><br/>
-UI.StartScreen.TICredits_2=- 发行商 -<br/>Hooded Horse<br/><br/>
-UI.StartScreen.TICredits_3=- 创意总监 -<br/>John J. Lumpkin<br/><br/>
-UI.StartScreen.TICredits_4=- 艺术总监 -<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=开发者<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Ryan Dunagan<br/>Benjamin Poland<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=制作人<br/>Scott Davis<br/><br/>
-UI.StartScreen.TICredits_7=- 人物和 2D 美术 -<br/>Michael Moore<br/><br/>
-UI.StartScreen.TICredits_8=- 插画 -<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
-UI.StartScreen.TICredits_9=- 技术美术 -<br/>Zack Dawson<br/><br/>
-UI.StartScreen.TICredits_10=- UI 专家 -<br/>Josh Atkinson<br/><br/>
-UI.StartScreen.TICredits_11=- 3D/2D 美术 -<br/>Anthony Dillo<br/><br/>
-UI.StartScreen.TICredits_12=- 作曲 -<br/>Patrick Delaney<br/>Dennis Meyer<br/>Breakdown Epiphanies<br/><br/>
-UI.StartScreen.TICredits_13=- 音效设计 -<br/>Zabi Khan<br/><br/>
-UI.StartScreen.TICredits_14=- 编剧 -<br/>Alec Meer<br/>Benedict Jacka<br/>Arturo Ferreira<br/>Cara Laasch<br/><br/>
-UI.StartScreen.TICredits_15=- 内容设计 -<br/>Tayta Malikai<br/>David Ballantyne<br/><br/>
-UI.StartScreen.TICredits_16=- 制作协调 -<br/>Shannon Sindorf<br/><br/>
-UI.StartScreen.TICredits_17=- 其他开发人员 -<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Zach Parsons<br/>Amineri<br/><br/>
-UI.StartScreen.TICredits_18= -执行制作人 -<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Potenger<br/>Xavier Wynns<br/><br/>
+
 
 //<AP> Credits + Messages
 
-UI.StartScreen.TICredits_19=- 协同制作人 -<br/><br/>
-UI.StartScreen.TICredits_20=Rachel Dilger<br/><br/>
-UI.StartScreen.TICredits_21=<skip/>
-UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
-UI.StartScreen.TICredits_23=“要谦卑，因你生于尘土；要高贵，因你源自星辰。”<br/>--<br/>
-UI.StartScreen.TICredits_24=Martti Aarnio-Wihuri<br/>--<br/>
-UI.StartScreen.TICredits_25=<skip/>
-UI.StartScreen.TICredits_26=John O. and Eileen Lumpkin<br/>
-UI.StartScreen.TICredits_27=“从第二次世界大战的太平洋战区来到群星中的未来世界，这是一趟家族旅程。”<br/>--<br/>
-UI.StartScreen.TICredits_28=Jack Peterson<br/>
-UI.StartScreen.TICredits_29=“要么治愈衰老，要么拼了命尝试。”<br/>--<br/>
-UI.StartScreen.TICredits_30=Schinhofen 系列丛书<br/>
-UI.StartScreen.TICredits_31=“阅读也是一种逃避的方式。”<br/>--<br/>
-UI.StartScreen.TICredits_32=Florian Ossiander<br/>-<br/>
-UI.StartScreen.TICredits_33=<skip/>
-UI.StartScreen.TICredits_34=Jeffrey Lee Henninger<br/>
-UI.StartScreen.TICredits_35=“宇宙正在等待那些勇敢的人们。”<br/>--<br/>
-UI.StartScreen.TICredits_36=《星尘传奇》<br/>“与太阳风同行。”<br/>--<br/>
-UI.StartScreen.TICredits_37=Stefano de Stefano<br/>“我们不能用创造问题时的同一思维，来解决我们的问题。”<br/>--<br/>
-UI.StartScreen.TICredits_38=Sean Hassan<br/>“我们的挑战在于不抱幻想地活着，而不至于幻灭。”<br/>--<br/>
-UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>“人类正深陷危机变局，不论面临的是战争、灾难或是气候变化，我们的所作所为都将影响深远，甚至决定整个人类的命运。而太空与科技可能是应对这些生存挑战的救星。”<br/><br/><br/>
+
 
 //<VA> Credits
 
-UI.StartScreen.TICredits_40=- 配音演员 -<br/>
-UI.StartScreen.TICredits_41=费欧娜·艾尤德 -<sp>
-UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
-UI.StartScreen.TICredits_43=茱帝丝·豪尔 -<sp>
-UI.StartScreen.TICredits_44=Zura Johnson<br/><br/>
-UI.StartScreen.TICredits_45=索伦·冯·威克 -<sp>
-UI.StartScreen.TICredits_46=Etienne Durandt<br/><br/>
-UI.StartScreen.TICredits_47=凯利德·阿许加尔 -<sp>
-UI.StartScreen.TICredits_48=Erik Ransom<br/><br/>
-UI.StartScreen.TICredits_49=李清照 -<sp>
-UI.StartScreen.TICredits_50=Christina Ho<br/><br/>
-UI.StartScreen.TICredits_51=汉泽·卡斯提欧 -<sp>
-UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
-UI.StartScreen.TICredits_53=基兰·巴纳吉 -<sp>
-UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
 
-UI.StartScreen.TICredits_55= -理事配音 -<br/>
-UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton T<br/>Jim Lenaway • Andy Mack<br/>Mike Apgar • Damon Alums<br/>Josephine Croft • Les Horovitz<br/>Heidi Kwiat • Ian Phillips<br/>Helen Clapp • Lizzie Crow<br/>Sophie Roberts • Steven Kelly<br/>Thom Welham • Conor James<br/>Mohita Namjoshi • Mamta Gurnani<br/>Vikram Rawat • Gagan Pathak<br/>Jenny Fennessy • Alan Kelly<br/>Diana Silva • Anita Lauren<br/>Carlos Cerrato • Fernando Macias Jimenez<br/>Marina Kalmykova • Sebastian Agner<br/>Gaelle Gosselin • Jesse Meiring<br/>Mhairi Morrison • Kieran Flitton<br/>Lina Sinuan • Val Cheah<br/>Hagen Valerio • Jati Andito<br/>Ore Apampa • Uzy Hamman<br/>Rachel Oladejo • Jonathan Mabote<br/>Jonathan Brandt • Nadia Cavelle<br/>Christian Michalak • Sonja Palmu<br/>Sarí AK • Mona Saadeh<br/>Loay Al-Hakimi • Silina Choueiry<br/><br/>
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57=品质保证<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah 等 Pavonis Discord 上的各位<br/><br/>
-UI.StartScreen.TICredits_58=鸣谢<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/>Alice、Charlotte 和 Theo<br/>Emily、William 和 Théodore<br/><br/>
+
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>首席执行官<br/>Tim Bender<br/><br/>总裁兼首席财务官<br/>Snow Rui<br/><br/>首席产品官兼副首席执行官<br/>Ashkan Namousi<br/><br/>首席商务官<br/>James Gardiner<br/><br/>首席营销官<br/>Abhishek Chaudhry<br/><br/>首席玩家体验官<br/>Mandalore Herrington<br/><br/>董事会主席<br/>Shams Jorjani<br/><br/>通讯总监<br/>Joe Robinson<br/><br/>创作者关系总监<br/>Antony Floyd aka HForHavoc<br/><br/>市场协调总监<br/>Matthijs Hoving<br/><br/>社区总监<br/>Matthew Palacio<br/><br/>社会战略总监<br/>Auverin Morrow<br/><br/>IT 及系统总监<br/>Patrik Arvidsson<br/><br/>出版制作人<br/>Dastan Namousi<br/>Tom King<br/><br/>首席发布经理<br/>Natalia Montero<br/><br/>高级发布经理<br/>Blossom Kremer<br/>Aneta Zagórska<br/><br/>本地化制作人<br/>Michael Radnitz<br/><br/>本地化协调员<br/>Miguel David Medina García<br/><br/>创作者关系经理<br/>Renee April<br/><br/>高级战略合作伙伴经理<br/>Ga-Yi Ng<br/><br/>市场经理（日本、韩国和东南亚）<br/>LamNot<br/><br/>本地化及市场营销专员（东亚）<br/>Guo Yu Shun Wilson<br/><br/>原画师<br/>Daniel Morawski<br/>Sarah Mills<br/><br/>首席影像设计师<br/>Kacper Bork<br/><br/>会计<br/>Meridith Malone<br/><br/>办公室行政人员<br/>Bailey Sullivan<br/><br/>营销顾问<br/>PartyElite<br/><br/>额外支持<br/>Shaun Ginty 别名 BearlyTactical<br/>Noris Merk 别名 kormakrtv<br/><br/>特别项目经理<br/>Marcello Perricone<br/><br/>特别鸣谢<br/>Aaron Nathan<br/>Andrew Hume<br/>Grzegorz Styczeń<br/>Martti Aarnio-Wihuri<br/>Todd D’Arcy<br/><br/>
-UI.StartScreen.TICredits_60=预告片制作人<br/><br/>SLAVIC MAGIC<br/>Grzegorz Styczeń<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_61=公关团队<br/><br/>GAMEDASH<br/>Bing Li<br/>Tian Luo<br/><br/>
-UI.StartScreen.TICredits_62=本地化<br/>HOODED HORSE<br/><br/>本地化 – 繁体中文<br/>Guo Yu Shun Wilson<br/>Melody Lin<br/><br/>本地化 - 意大利语<br/>Emanuelle Ricobenne<br/>Ketty Federico<br/><br/>本地化 - 韩语<br/>Seulki Lee<br/>Lim Yoon<br/><br/>本地化 – 巴西葡萄牙语<br/>Brenda Triandafeledis<br/><br/>本地化 – 西班牙语<br/>Laura Nieves Díaz Suárez<br/>Marta Medina González<br/>Miguel David Medina García<br/>Carlota Marie Dávila Santana<br/><br/>本地化 - 乌克兰语<br/>Vladyslav Verstiuk<br/>Nikol Kryvoruchko<br/><br/>
-UI.StartScreen.TICredits_63=《地球不屈》汉化组<br/><br/>本地化 - 简体中文<br/><br/>ECI GAMES<br/><br/>项目经理<br/>Ángel Hernández Santana<br/>Kasia Kępka<br/>Zhao Ting<br/><br/>本地化 - 简体中文<br/>Wu Fan<br/>Cobra Xu<br/>Sherry Wang<br/><br/>本地化 - 繁体中文<br/>Weiyi Jiang<br/><br/>本地化质量保证 - 繁体中文<br/>Gail Pu<br/><br/>本地化 - 法语<br/>Félix Braconnier<br/>Lueje Prigent<br/>Maxime Aduriz<br/>Victor Berry<br/>Caitlin Maurin<br/><br/>本地化 - 德语<br/>Stefan Herzog<br/>Nino Kadletz<br/>Philipp Kolleritsch<br/>Martin Monsberger<br/>Raphael Oberhuber<br/><br/>本地化 - 日语<br/>Mina Horiba-Maguire<br/>Naomi Ueda<br/>Keigo Yonemura<br/>Liu Peiduo<br/><br/>
-UI.StartScreen.TICredits_64=QLOC S.A.<br/><br/>总经理<br/>Adam Piesiak<br/><br/>业务拓展主管<br/>Paweł Książek<br/><br/>高级业务拓展经理<br/>Marta Olejniczak<br/><br/>供应商经理<br/>Paweł Pierzchanowski<br/><br/>质量保证总监<br/>Sergiusz Ślosarczyk<br/><br/>IT 总监<br/>Artur Szczurzyński<br/><br/>质量保证运营经理<br/>Paweł Strzelczyk<br/><br/>学习与发展协调员<br/>Aleksandra Grigorian-Kopka<br/><br/>学习与发展专家<br/>Michał Grabuś<br/>Damian Jasiński<br/><br/>本地化质量保证高级团队负责人<br/>Michał Mugerman<br/>Kamil Uszyński<br/><br/>首席本地化制作人<br/>Alan Orman<br/>Maciej Polak<br/><br/>本地化 - 捷克语<br/>Michal Farník<br/>Petr Šeba<br/>Tomáš Varbanov<br/><br/>本地化质量保证 - 意大利语<br/>Michele Fanelli<br/>Andrea Iachetti<br/><br/>本地化 - 波兰语<br/>Monika Buraczyńska<br/>Andrzej Jakubiec<br/>Janusj Mrzigod<br/>Andrzej Popowski<br/><br/>本地化质量保证 - 波兰语<br/>Katarzyna Startek<br/><br/>本地化 - 俄语<br/>Mikhail Zakharov<br/>Vasily Firsov<br/>Maxim Levushkin<br/>Roman Nefedov<br/>Pavel Nikolenko<br/>Polina Zam<br/><br/>本地化质量保证 - 俄语<br/>Andrey Moshkov<br/><br/>本地化 - 乌克兰语<br/><br/>本地化质量保证 - 乌克兰语<br/>Oleg Łoginow<br/><br/>
-UI.StartScreen.TICredits_65=质量保证<br/><br/>QLOC S.A.<br/><br/>首席质量保证项目经理<br/>Jakub Dudkowski<br/><br/>质量保证项目经理<br/>Karolina Jagnyziak<br/>Wojciech Tarasiuk<br/><br/>质量保证实验室经理<br/>Piotr Badurek<br/>Emil Lubowicki<br/>Tomasz Prusicki<br/><br/>功能质量保证团队负责人<br/>Marcin Oprządek<br/><br/>功能质量保证测试员<br/>Tymoteusz Bigos<br/>Aleksandra Bobek<br/>Mikołaj Kozłowski<br/>Piotr Krakowiak<br/>Michał Owczarek<br/>Mateusz Wieczorek<br/><br/>TESTRONIC<br/><br/>合规与兼容性经理<br/>Iwona Szarzyńska<br/><br/>高级兼容性项目负责人<br/>Małgorzata Twarogal<br/><br/>兼容性质量保证助理负责人<br/>Michał Soral<br/><br/>兼容性质量保证技术员<br/>Lisa Bajdowska<br/>Dominik Krawczyk<br/>Brine Mukombachoto<br/>Haran Dev Murugan<br/><br/>
-UI.StartScreen.TICredits_66=<skip/>
-UI.StartScreen.TICredits_67=<skip/>
-UI.StartScreen.TICredits_68=<skip/>
-UI.StartScreen.TICredits_69=<skip/>
-UI.StartScreen.TICredits_70=<skip/>
-UI.StartScreen.TICredits_71=<skip/>
-UI.StartScreen.TICredits_72=<skip/>
-UI.StartScreen.TICredits_73=开发阶段出世的小宝宝！<br/>Théodore<br/>Carmen Rose<br/><br/>
+
 
 //<Contributing Backers> Credits
-UI.StartScreen.TICredits_74=KICKSTARTER 创意贡献者<br/>
+
+
 
 //<Playtester> Credits
-UI.StartScreen.TICredits_105=KICKSTARTER<sp>
-UI.StartScreen.TICredits_106=游戏测试人员<br/>
+
+
 
 //<Backers> Credits
-UI.StartScreen.TICredits_393=KICKSTARTER 赞助者<br/>
 
-UI.StartScreen.TICredits_1337=- 软件 -<br/><br/>采用 Unity 引擎<br/><br/>以及 FMOD Studio 音频引擎制作<br/>由 Firelight Technologies Limited 开发<br/><br/>
-UI.StartScreen.TICredits_1338=游戏中许多虚构私人公司的组织标志图示均由 LogoLogo.com 提供。<br/>本虚构作品中使用的政府机构标志并不表示这些机构提供背书。<br/><br/>
-UI.StartScreen.TICredits_1339=作为理事背景影像基础的部分照片由 NASA 提供。<br/><br/>
-UI.StartScreen.TICredits_1340=《双城记》作者……查尔斯·狄更斯
+
+UI.StartScreen.TICredits_1347=软件<br/><br/>采用 Unity 引擎<br/><br/>以及 FMOD Studio 音频引擎制作<br/>由 Firelight Technologies Limited 开发<br/><br/>
+UI.StartScreen.TICredits_1348=游戏中许多虚构私人公司的组织标志图示均由 LogoLogo.com 提供。<br/>本虚构作品中使用的政府机构标志并不表示这些机构提供背书。<br/><br/>
+UI.StartScreen.TICredits_1349=作为理事背景影像基础的部分照片由 NASA 提供。<br/><br/>
+UI.StartScreen.TICredits_1350=《双城记》作者：<br/>查尔斯·狄更斯

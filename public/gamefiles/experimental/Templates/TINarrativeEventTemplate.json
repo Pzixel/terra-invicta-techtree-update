@@ -6028,8 +6028,8 @@
    "illustrationResource": "illustrations/Event_SurpriseBenefactor",
    "requiresAliens": false,
    "reqTechDataName": "ArrivalDomesticPolitics",
-   "logPublicity": "target",
-   "alertPublicity": "target",
+   "logPublicity": "factions",
+   "alertPublicity": "factions",
    "repeatable": "OncePerFaction",
    "numOptions": 2,
    "forceEvent": false,
@@ -6067,7 +6067,7 @@
       {},
       {}
    ],
-   "secondaryStateType": "Nation_OpenControlPoint",
+   "secondaryStateType": "Nation_OpenControlPoint_NonExec",
    "sameSecondaryForAllTargets": false,
    "secondaryStateConditions": [
       {
@@ -8629,8 +8629,8 @@
    "targetType": "nation",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "global_cooldown_months": 12,
-   "target_cooldown_months": 3,
+   "global_cooldown_months": 3,
+   "target_cooldown_months": 12,
    "targetConditions": [
       {
          "$type": "TINationCondition_bFactionControlled",
@@ -18198,7 +18198,7 @@
    "target_cooldown_months": 12,
    "targetConditions": [
       {
-         "$type": "TIRegionCondition_bBorderRegionWithEnemy ",
+         "$type": "TIRegionCondition_bBorderRegionWithEnemy",
          "sign": "EqualTo",
          "strValue": "TRUE"
       },
@@ -19101,7 +19101,7 @@
    "target_cooldown_months": 36,
    "targetConditions": [
       {
-         "$type": "TIRegionCondition_bBorderRegionWithEnemy ",
+         "$type": "TIRegionCondition_bBorderRegionWithEnemy",
          "sign": "EqualTo",
          "strValue": "TRUE"
       },
@@ -29161,6 +29161,12 @@
          "$type": "TICouncilorCondition_bDetained",
          "sign": "EqualTo",
          "strValue": "FALSE"
+      },
+      {
+         "$type": "TIFactionCondition_efResourceIncomeMonthly",
+         "strIdx": "NobleMetals",
+         "sign": "GreaterThan",
+         "strValue": "10"
       }
    ],
    "targetWeightModifiers": [
@@ -31460,7 +31466,12 @@
                "effectTemplateNames": [
                   "Effect_MiltechLoss01",
                   "Effect_DemocracyLoss05"
-               ]
+               ],
+               "costBuilder": {
+                  "money": 500,
+                  "influence": 60
+               },
+               "costMultiplier": "nation_numControlPoints"
             },
             {
                "weight": 0.55,
@@ -31478,7 +31489,12 @@
                   "Effect_DemocracyLoss05",
                   "Effect_ModerateInequalityGain",
                   "Effect_LocalRecession"
-               ]
+               ],
+               "costBuilder": {
+                  "money": 500,
+                  "influence": 60
+               },
+               "costMultiplier": "nation_numControlPoints"
             },
             {
                "facWtMod": [
@@ -40496,6 +40512,11 @@
          "$type": "TICouncilorCondition_bInFactionOwnedNation",
          "sign": "EqualTo",
          "strValue": "TRUE"
+      },
+      {
+         "$type": "TICouncilorCondition_bOnEarth",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
       }
    ],
    "targetWeightModifiers": [
@@ -41170,6 +41191,11 @@
          "$type": "TICouncilorCondition_tbHasTrait",
          "strIdx": "Government",
          "sign": "Has"
+      },
+      {
+         "$type": "TICouncilorCondition_bOnEarth",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
       }
    ],
    "targetWeightModifiers": [
@@ -41428,7 +41454,13 @@
    "targetType": "priorTarget",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "targetConditions": [],
+   "targetConditions": [
+      {
+         "$type": "TICouncilorCondition_bOnEarth",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      }
+   ],
    "targetWeightModifiers": [
       {},
       {},
@@ -41728,7 +41760,13 @@
    "targetType": "priorTarget",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "targetConditions": [],
+   "targetConditions": [
+      {
+         "$type": "TICouncilorCondition_bOnEarth",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      }
+   ],
    "targetWeightModifiers": [
       {},
       {},
@@ -42065,7 +42103,13 @@
    "targetType": "priorTarget",
    "hitAllQualifyingTargets": false,
    "firstTargetNotificationOnly": false,
-   "targetConditions": [],
+   "targetConditions": [
+      {
+         "$type": "TICouncilorCondition_bOnEarth",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      }
+   ],
    "targetWeightModifiers": [
       {},
       {},
@@ -56018,6 +56062,11 @@
          "$type": "TICouncilorCondition_tbHasTrait",
          "strIdx": "Marked",
          "sign": "Has"
+      },
+      {
+         "$type": "TICouncilorCondition_iAssassinatedHumans",
+         "sign": "GreaterThan",
+         "strValue": "0"
       }
    ],
    "targetWeightModifiers": [
@@ -64684,8 +64733,8 @@
    "endYear": 2029,
    "earliestMonth": 4,
    "latestMonth": 4,
-   "logPublicity": "global",
-   "alertPublicity": "global",
+   "logPublicity": "target",
+   "alertPublicity": "target",
    "repeatable": "OncePerFaction",
    "numOptions": 4,
    "forceEvent": true,
@@ -66579,9 +66628,16 @@
          "baseAIPreference": 1,
          "outcomes": [
             {
-               "weight": 1,
+               "weight": 10,
                "facWtMod": [
-                  {}
+                  {
+                     "value": -9,
+                     "condition": {
+                        "$type": "TIFactionCondition_fMissionControlBalance",
+                        "sign": "LessThan",
+                        "strValue": "-200"
+                     }
+                  }
                ],
                "tarWtMod": [
                   {}
@@ -66594,10 +66650,10 @@
                ]
             },
             {
-               "weight": 0,
+               "weight": 1,
                "facWtMod": [
                   {
-                     "value": 2,
+                     "value": 20,
                      "condition": {
                         "$type": "TIFactionCondition_fMissionControlBalance",
                         "sign": "LessThan",
@@ -66617,10 +66673,10 @@
                ]
             },
             {
-               "weight": 0,
+               "weight": 1,
                "facWtMod": [
                   {
-                     "value": 3,
+                     "value": 30,
                      "condition": {
                         "$type": "TIFactionCondition_fMissionControlBalance",
                         "sign": "LessThan",

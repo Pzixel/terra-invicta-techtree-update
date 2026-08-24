@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=No hemos conseguido captar a {targetDisplayName} 
 TIMissionTemplate.CriticalFailure.Turn=No he conseguido captar a {targetDisplayName} para que se una a nuestra causa y me parece que hay bastantes probabilidades de que {targetFactionName} sepa acerca de mi paradero.
 
 TIMissionTemplate.displayName.Unrest=Incrementar el malestar
-TIMissionTemplate.description.Unrest=Haz que aumente el malestar en la nación de la región objetivo; así, la economía resultará dañada y habrá más probabilidades de que se produzca un golpe de estado, una revolución o una secesión. De tener éxito en una región en la que haya un movimiento por la independencia, podría provocarse una secesión en lugar de una revolución. El efecto se debilita si el valor del malestar actual se encuentra por encima del doble del malestar en estado de reposo de la nación.
+TIMissionTemplate.description.Unrest=Haz que aumente el malestar en la nación de la región objetivo; así, la economía resultará dañada y habrá más probabilidades de que se produzca un golpe de estado o una revolución. De tener éxito en una región en la que haya un movimiento por la independencia, podría provocarse una secesión. El efecto se debilita si el valor del malestar actual se encuentra por encima del doble del malestar en estado de reposo de la nación.
 TIMissionTemplate.CriticalSuccess.Unrest=La tentativa que he llevado a cabo ha hecho que el malestar aumente {targetNationNameWithPrep} en {returnedValue}, hasta quedar en {targetNationUnrestWithString}. Ahora contamos con algo de apoyo entre los movimientos insurgentes de la zona, por si llegaran a derrocar al gobierno.
 TIMissionTemplate.Success.Unrest=La tentativa que he llevado a cabo ha hecho que el malestar aumente {targetNationNameWithPrep} en {returnedValue}, hasta quedar en {targetNationUnrestWithString}. Ahora contamos con algo de apoyo entre los movimientos insurgentes de la zona, por si llegaran a derrocar al gobierno.
 TIMissionTemplate.Failure.Unrest=No logré que el malestar aumentara {targetNationNameWithPrep}.
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=Activa nuestra red de estaciones centin
 TIMissionTemplate.Success.AppeaseWin=Hemos activado nuestra red de centinelas y, tras una pequeña demostración, las naciones de la Tierra nos han cedido su total autoridad.
 
 TIMissionTemplate.displayName.CooperateWin=Forjar una alianza
-TIMissionTemplate.description.CooperateWin=Mandemos a nuestros diplomáticos, aquellos resistentes al ferocito, a través de un agujero de gusano para que entablen relaciones y pongan fin al conflicto. Antes debemos asaltar la base alienígena y desembarcar. Requiere que hayamos alcanzado nuestras condiciones de victoria.
+TIMissionTemplate.description.CooperateWin=Manda a nuestros diplomáticos, aquellos resistentes al ferocito, a través de un agujero de gusano para que entablen relaciones y pongan fin al conflicto. Tenemos que destruir todos los módulos antibombardeo, fortaleza, cantón y cuarteles de la base principal de los alienígenas para poder enviar a nuestro primer consejero con el objeto de desempeñar esta misión. Requiere que hayamos alcanzado nuestras condiciones de victoria.
 TIMissionTemplate.Success.CooperateWin=Hemos aceptado las condiciones de las hidras.
 
 TIMissionTemplate.displayName.DestroyWin=Usar arma
-TIMissionTemplate.description.DestroyWin=Enviemos nuestra arma biológica a través del agujero de gusano. Antes debemos asaltar la base alienígena y desembarcar. Requiere que hayamos alcanzado nuestras condiciones de victoria.
+TIMissionTemplate.description.DestroyWin=Envía nuestra arma biológica a través de un agujero de gusano. Tenemos que destruir todos los módulos antibombardeo, fortaleza, cantón y cuarteles de la base principal de los alienígenas para poder enviar a nuestro primer consejero con el objeto de desempeñar esta misión. Requiere que hayamos alcanzado nuestras condiciones de victoria.
 TIMissionTemplate.Success.DestroyWin=Hemos liberado el virus Shiva.
 
 TIMissionTemplate.displayName.EscapeWin=Lanzar la Bifrost
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=Da la orden de lanzamiento para dar inic
 TIMissionTemplate.Success.EscapeWin=Hemos lanzado la Bifrost.<br/><br/>Hemos concluido nuestro viaje, pero la vida sigue igual para quienes hemos tenido que dejar atrás. Si así los decidimos, podemos construir otra nave interestelar y prepararla para su lanzamiento.
 
 TIMissionTemplate.displayName.ExploitWin=Someter al enemigo
-TIMissionTemplate.description.ExploitWin=Manda el paquete de neoferocitos por el agujero de gusano. Antes debemos asaltar la base alienígena y desembarcar. Requiere que hayamos alcanzado nuestras condiciones de victoria.
+TIMissionTemplate.description.ExploitWin=Envía nuestro paquete de neoferocitos a través de un agujero de gusano. Tenemos que destruir todos los módulos antibombardeo, fortaleza, cantón y cuarteles de la base principal de los alienígenas para poder enviar a nuestro primer consejero con el objeto de desempeñar esta misión. Requiere que hayamos alcanzado nuestras condiciones de victoria.
 TIMissionTemplate.Success.ExploitWin=Hemos subyugado al imperio Hidra.
 
 TIMissionTemplate.displayName.ResistWin=Cerrar el portal
-TIMissionTemplate.description.ResistWin=Activa el dispositivo para cerrar el agujero de gusano alienígena. Antes debemos asaltar la base alienígena y desembarcar. Requiere que hayamos alcanzado nuestras condiciones de victoria.
+TIMissionTemplate.description.ResistWin=Activa el dispositivo para cerrar el agujero de gusano alienígena. Tenemos que destruir todos los módulos antibombardeo, fortaleza, cantón y cuarteles de la base principal de los alienígenas para poder enviar a nuestro primer consejero con el objeto de desempeñar esta misión. Requiere que hayamos alcanzado nuestras condiciones de victoria.
 TIMissionTemplate.Success.ResistWin=Se ha cerrado el portal enemigo.
 
 TIMissionTemplate.displayName.SubmitWin=Anunciar potestad de nuestros amos
@@ -501,6 +501,7 @@ TIMissionCondition_FreeCouncilor=El consejero objetivo no debe estar detenido o 
 TIMissionCondition_TargetableHabModule=Debe ser un módulo enemigo que no sea parte del núcleo
 TIMissionCondition_TargetableOrg=Debe ser una organización de la reserva sin asignar de una facción enemiga o una asignada a un consejero del que poseamos una cantidad de inteligencia significativa
 _Fail=Debe ser un tipo de objetivo válido para la misión y ser accesible para el consejero.
+TIMissionCondition_AlienPrimaryBaseInRange=Nuestro consejero debe encontrarse en la base, en una área habitable cercana o en una órbita de conexión sobre la base, además de no tener fortalezas, cantones, cuarteles o módulos con armas antibombardeo.
 
 TIMissionAbort_ControlPointRemoved=Esta misión ha sido abortada porque ya no existe el punto de control objetivo.
 TIMissionAbort_CouncilorRetired=Esta misión ha sido abortada porque el consejero asignado ya no está activo.

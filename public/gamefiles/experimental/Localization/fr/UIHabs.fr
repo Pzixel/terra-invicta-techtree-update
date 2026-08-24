@@ -16,6 +16,7 @@ UI.Habs.MainHeader=Habitats
 UI.Habs.NoHabSelected=Aucun habitat sélectionné
 UI.Habs.TierCrew={0} (Niveau {1}/{2} max)
 UI.Habs.SelectAModule=Sélectionner un module
+UI.Habs.CantBuild=<size=60%>Les habitats qui subissent un assaut ou un bombardement, ou qui ont été mis hors service ne peuvent pas construire ni améliorer de modules.</size>
 UI.Habs.SectorID=Secteur {0}
 UI.Habs.Tier=Module de niveau {0}
 UI.Habs.Crew=Équipage de {0}
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath={0} vers : {1}																// old module displayName, up
 UI.Habs.UpgradeAllofTypeQuery=Confirmer pour améliorer {0} modules du niveau {1} au niveau {2}.
 UI.Habs.CantAffordUpgradeAllofType=Nous n'avons pas les ressources nécessaires pour l'instant.
 UI.Habs.BaseSiteName=Base {0}																// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks={0} Cet habitat ne peut pas construire ni améliorer de modules lorsqu'il subit une attaque.

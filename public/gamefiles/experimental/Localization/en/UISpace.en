@@ -39,6 +39,7 @@ UI.Space.OrbitalVelocityTooltip=The speed a rocket must attain to reach a low st
 UI.Space.IrradiatedTooltip=Irradiated<br/>Extra shielding is required for habs built in areas that receive high amounts of radiation. This will raise the materials cost to build hab modules here.
 UI.Space.Fleet.MoreShips=+{0}
 UI.Space.Fleet.ShipDetailTab=Ships
+UI.Space.Fleet.RefitButton=Refit
 UI.Space.Fleet.Header=Fleet
 UI.Space.Fleet.Header.Name=Fleet Name
 UI.Space.Fleet.Arrival={0}<br/>Arrival: {1} ({2}) 						// 0-Transfer Destination, 1-Final arrival time and date, 2-Arrival duration (can display as days, hours, or minutes)

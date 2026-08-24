@@ -65,7 +65,7 @@
       "None"
    ],
    "defenderContexts": [
-      "None"
+      "Mission_Abductions_Def"
    ],
    "conditions": [
       {
@@ -4334,7 +4334,7 @@
    ],
    "conditions": [
       {
-         "$type": "TIMissionCondition_TargetInRange"
+         "$type": "TIMissionCondition_AlienPrimaryBaseInRange"
       },
       {
          "$type": "TIMissionCondition_Human"
@@ -4403,7 +4403,7 @@
    ],
    "conditions": [
       {
-         "$type": "TIMissionCondition_TargetInRange"
+         "$type": "TIMissionCondition_AlienPrimaryBaseInRange"
       },
       {
          "$type": "TIMissionCondition_Human"
@@ -4682,7 +4682,7 @@
    ],
    "conditions": [
       {
-         "$type": "TIMissionCondition_TargetInRange"
+         "$type": "TIMissionCondition_AlienPrimaryBaseInRange"
       },
       {
          "$type": "TIMissionCondition_Human"
@@ -4751,7 +4751,7 @@
    ],
    "conditions": [
       {
-         "$type": "TIMissionCondition_TargetInRange"
+         "$type": "TIMissionCondition_AlienPrimaryBaseInRange"
       },
       {
          "$type": "TIMissionCondition_Human"

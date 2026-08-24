@@ -14,8 +14,10 @@ UI.Objectives.Detail.Completed=이미 완료한 캠페인 목표입니다.
 UI.Objectives.Summary={0} 목표를 완료했습니다.
 UI.Objectives.VictoryConditions1=게임에서 승리하기 위한 의원 임무를 개시하기 위해서는 먼저 다음과 같은 목표를 달성하여 승리를 확보해야 합니다:
 UI.Objectives.VictoryConditionsMult=게임에서 승리하기 위한 의원 임무를 개시하기 위해서는 먼저 다음과 같은 목표를 달성하여 승리를 확보해야 합니다:
+
 UI.Objectives.TechProjectPrereqs=이 목표 달성에 필요한 연구를 시작하려면 다음 선행 기술 및 프로젝트를 완료해야 합니다.
 UI.Objectives.TechProjectPrereq_or=<sp> 또는 {0}
+
 UI.Objectives.HelpPanel=도움말 패널
 UI.Objectives.TipConfirm=다음 팁
 UI.Objectives.TipBack=이전 팁
@@ -23,8 +25,10 @@ UI.Objectives.TutorialSkip=숨기기
 UI.Objectives.DontShowAgain=다시 표시하지 않음
 UI.Objectives.TutorialReset=튜토리얼 초기화
 UI.Objectives.TutorialResetAll=모든 튜토리얼 팁 초기화
+
 UI.Objectives.ExampleTipTitle=예시 튜토리얼 팁
 UI.Objectives.ExampleTipText=이는 튜토리얼 팁 창의 예시입니다.
+
 UI.Objectives.CouncilGridCanvas.CouncilorCard.Name=협의회 그리드
 UI.Objectives.CouncilGridCanvas.CouncilorCard.NameShort=협의회
 UI.Objectives.CouncilGridCanvas.CouncilorCard.Desc=<h>협의회</h> 창은 우리 진영을 관리하는 중추적인 역할을 합니다. <h>협의회</h> 탭에서는 각 의원이 속성, 수입, 위치, 할당된 임무와 함께 패널에 표시됩니다.<br/><br/>우리 진영을 위해 첩보 활동을 하도록 설득한 적대 진영의 의원 최대 두 명이 오른쪽 하단의 두 장의 카드에 표시됩니다.
@@ -34,6 +38,7 @@ UI.Objectives.CouncilGridCanvas.GotoBtn.Name=의원으로 이동
 UI.Objectives.CouncilGridCanvas.GotoBtn.Desc=여기서 이동 버튼을 클릭하면 협의회 창이 닫히고 해당 의원의 위치가 화면 중앙에 표시됩니다.
 UI.Objectives.CouncilGridCanvas.RecruitBtn.Name=새 의원 모집
 UI.Objectives.CouncilGridCanvas.RecruitBtn.Desc=의원은 우리 진영의 목표를 추진하는 데 핵심적입니다. 이 탭에서 신규 의원을 모집하여 협의회 정원이 꽉 차도록 확보하세요. 협의회를 확장하는 방법에 대한 안내는 협의회 하단 카드를 참조하세요.
+
 UI.Objectives.SingleCouncilorDetailCanvas.Missions.Name=수행 가능한 임무
 UI.Objectives.SingleCouncilorDetailCanvas.Missions.Desc=이 패널에는 해당 의원이 수행할 수 있는 <h>임무</h> 목록이 표시됩니다. 각 임무 오른쪽의 기호는 해당 임무 수행에 소모되는 자원을 나타냅니다.<br/><br/>임무 이름 오른쪽의 숫자 열은 해당 임무를 수행할 수 있는 협의회의 구성원 수를 표시합니다. 목표 달성에 필요한 임무를 수행할 수 있도록 균형 잡힌 구성의 협의회를 유지하세요.
 UI.Objectives.SingleCouncilorDetailCanvas.Attributes.Name=속성
@@ -54,12 +59,15 @@ UI.Objectives.SingleCouncilorDetailCanvas.Customize.Name=의원 맞춤 설정
 UI.Objectives.SingleCouncilorDetailCanvas.Customize.Desc=여기를 클릭하여 의원 이름, 외모, 목소리를 변경할 수 있는 <h>의원 맞춤 설정</h> 창을 열 수 있습니다.
 UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Name=의원 해임
 UI.Objectives.SingleCouncilorDetailCanvas.Dismiss.Desc=여기를 클릭하여 우리 진영의 목표에 맞지 않는 의원을 해임하면, 협의회의 공간을 확보하여 다른 후보자로 대체할 수 있습니다.
+
 UI.Objectives.GeneralControlsCanvas.Intro.Name=튜토리얼 인터페이스 - 환영
 UI.Objectives.GeneralControlsCanvas.Intro.Desc=테라 인빅타에 오신 것을 환영합니다! 이 튜토리얼 창은 게임 내 여러 가지 시스템의 개요를 보여드립니다.<br/><br/>UI(사용자 인터페이스)를 처음 사용할 때, 현재 튜토리얼 목표 오른쪽에 인터페이스 튜토리얼을 위한 버튼이 표시됩니다. 클릭하면 현재 열려 있는 인터페이스에 대한 안내를 받을 수 있습니다.
 UI.Objectives.GeneralControlsCanvas.IntroPart2.Name=시작하기
 UI.Objectives.GeneralControlsCanvas.IntroPart2.Desc=튜토리얼 <h>소개</h> <color=#FFFFFFFF><sprite name=tutorial></color> 아이콘을 클릭하여 테라 인빅타의 사용자 일반 UI를 둘러보세요.
+
 UI.Objectives.GeneralControlsCanvas.Objectives.Name=목표 보기
 UI.Objectives.GeneralControlsCanvas.Objectives.Desc=여기서 내 진영 표식을 클릭하여 <h>목표</h> 창을 열 수 있으며, 현재 진행 중인 목표와 완료한 모든 목표를 추적할 수 있습니다. 이는 스토리 진행 및 태양계에 도착한 외계인의 진실을 밝혀내는 데 필수적이며, 일부는 진영에 중요한 능력과 보너스를 해금합니다. 테라 인빅타에서 기본적인 작업을 진행하도록 안내하는 튜토리얼 목표도 여기서 추적할 수 있습니다.
+
 UI.Objectives.GeneralControlsCanvas.PauseMenu.Name=설정
 UI.Objectives.GeneralControlsCanvas.PauseMenu.Desc=여기에서 <h>설정 메뉴</h>에 접근할 수 있으며, 게임 진행을 저장하고, 게임을 종료하며, 매우 유용한 <h>코덱스</h>를 확인하거나, 그래픽, 게임 플레이, 알림 설정을 조정할 수 있습니다.
 UI.Objectives.GeneralControlsCanvas.Resources.Name=자원
@@ -75,12 +83,12 @@ UI.Objectives.GeneralControlsCanvas.BoostIncome.Desc=각 <h>부스트</h> 포인
 UI.Objectives.GeneralControlsCanvas.MissionControlCap.Name=임무 관제
 UI.Objectives.GeneralControlsCanvas.MissionControlCap.Desc=<h>임무 관제</h>는 우주에서 임무를 지원하는 데 필요한 모든 직원과 기술 장비를 포함합니다.<br/><br/>임무 관제는 주로 지구의 지상 시설에서 부여되지만, 일부 조직 및 거주 모듈에서도 이 자원을 부여할 수 있습니다.<br/><br/>임무 관제 역량이 충분치 않으면 우리의 우주 자산을 타 진영이 탈취하기 쉬워지며, 사고가 발생할 확률 또한 높아집니다. 임무 관제 역량이 전혀 없는 경우, 새 거주지를 건설하거나 획득할 수 없습니다. 초과 임무 관제 역량은 연구 수입과 와 자금으로 전환됩니다.
 UI.Objectives.GeneralControlsCanvas.ResearchIncome.Name=연구
-UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=<h>연구</h>는 우리 과학자와 엔지니어의 노력을 대표합니다. 다른 자원과는 달리 이 자원은 축적되지 않고 우리의 연구 우선순위에 따라 즉시 분배됩니다. 이는 우리 진영에만 이익이 되는 비공개 공학 프로젝트와, 새 원리와 기술을 연구하는 전 세계 연구로 나뉩니다.<br/><br/>연구는 국가, 의원, 조직, 거주지 모듈에 의해 생성됩니다. 많은 의원, 조직, 거주지 모듈은 특정 연구 범주에 보너스를 제공합니다.
+UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=<h>연구</h>는 우리 과학자와 엔지니어의 노력을 대표합니다. 다른 자원과는 달리 이 자원은 축적되지 않고 우리의 연구 우선순위에 따라 즉시 분배됩니다. 이는 우리 진영에만 이익이 되는 비공개 공학 프로젝트와, 새 원리와 기술을 연구하는 전 세계 연구로 나뉩니다.<br/><br/>연구는 국가, 의원, 조직, 거주지 모듈에 의해 생성됩니다. 많은 의원, 조직, 거주지 모듈은 특정 연구 범주에 보너스를 제공합니다. 
 UI.Objectives.GeneralControlsCanvas.CPCap.Name=통제 지점 수용량
 UI.Objectives.GeneralControlsCanvas.CPCap.Desc=여기에는 <h>통제 지점 수용력</h> 대비 현재 <h>통제 지점</h>의 수가 표시됩니다. 한도를 초과하는 통제 지점을 소유하면 일일 영향력에 불이익이 발생하며 이는 국가 영향력 수입에 반영됩니다. 반면에, 우리의 통제 지점을 표적으로 삼는 적 임무는 성공 확률에 보너스를 받게 됩니다. 이 비용을 줄이기 위해 통제 지점을 포기하거나, 연구를 통해 상한선을 늘릴 수 있습니다.
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Name=탐색 표시줄
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Desc=<h>탐색 표시줄</h>에는 테라 인빅타의 위치 및 관리 창의 바로가기를 제공합니다.
-UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Name=태양계 보기
+UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Name=태양계 보기 
 UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Desc=이 버튼을 클릭하면 더 넓은 태양계에 초점을 맞출 수 있습니다.
 UI.Objectives.GeneralControlsCanvas.CouncilBtn.Name=진영 협의회
 UI.Objectives.GeneralControlsCanvas.CouncilBtn.Desc=여기를 클릭하면 의원과 조직을 모집하고 관리할 뿐만 아니라, 진영의 장부와 캘린더를 검토할 수 있는 <h>협의회</h> 창이 열립니다.<br/><br/>의원은 지구에서, 나중에는 태양계 전역에서 활동하는 주요 요원입니다. 임무를 수행함으로써 우리 진영의 대의를 위해 국가를 결집시키거나, 외계인을 추적하거나, 다른 진영의 작전을 방해할 수 있습니다.
@@ -100,14 +108,17 @@ UI.Objectives.GeneralControlsCanvas.Finder.Name=파인더 패널
 UI.Objectives.GeneralControlsCanvas.Finder.Desc=<h>파인더 패널</h>은 우리 진영이 통제하는 모든 의원, 거주지, 군대, 함대의 참조 목록입니다.<br/><br/>목록에서 원하는 항목을 더블 클릭하면 보기 중앙에 해당 항목이 표시됩니다. 패널 상단의 전환 버튼을 사용하여 목록을 필터링할 수도 있습니다.
 UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Name=게임 시간 설정
 UI.Objectives.GeneralControlsCanvas.TimePlayBtn.Desc=여기서 시간 제어 기능을 사용하여 게임 시간을 일시 중지하거나 재개할 수 있으며, 게임 속도를 조정합니다.<br/><br/>때로는 긴급한 사안을 해결할 때까지 게임이 일시 중지된 채로 유지되기도 합니다. <h>제어 기능 위에 마우스를 올려 시간이 흐르기 전에 완료해야 할 작업이 어떤 것인지 확인하세요.</h>
+
 UI.Objectives.NotificationScreenCanvas.NewsFeed.Name=뉴스 피드
 UI.Objectives.NotificationScreenCanvas.NewsFeed.NameShort=뉴스
 UI.Objectives.NotificationScreenCanvas.NewsFeed.Desc=최근 이벤트에 대한 알림이 이곳 <h>뉴스 피드</h>.에 표시됩니다. 각 항목 위에 마우스 커서를 올리면 설명을 확인할 수 있습니다. 클릭하면 해당하는 위치를 중심으로 화면을 이동하거나 관련 창이 열립니다. 오른쪽 클릭으로 뉴스 항목을 숨깁니다.
+
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.Name=선택된 의원
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.NameShort=의원
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorWindow.Desc=이 패널은 현재 선택한 의원을 보여줍니다. 의원의 이미지 아래에 의원의 속성과 현재 임무 상태에 대한 개요가 표시됩니다.
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorMissions.Name=의원 임무
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorMissions.Desc=선택한 의원이 수행 가능한 <h>임무</h>가 임무 할당 단계 중에 인터페이스 하단에 나타납니다. 임무를 선택하면 할당 세부 정보를 확인할 수 있습니다. 선택한 의원에게 유효한 목표가 없을 경우, 임무는 투명하게 표시됩니다.<br/><br/>임무 위에 마우스를 올리거나 클릭하면 할당 세부 정보를 확인할 수 있습니다.
+
 UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Name=임무 선택
 UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.NameShort=임무
 UI.Objectives.CouncilorMissionControlsCanvas.MissionSelect.Desc=사용 가능한 임무를 클릭하면 해당 임무의 세부 정보가 표시되어, 여러 개의 임무가 있는 경우 하나의 대상을 선택할 수 있습니다. 다양한 유형의 임무 사이를 전환하여 다양한 대상 목록을 검토할 수 있습니다.<br/><br/>경쟁 임무는 선택한 의원의 특정 속성(능력치라고도 함)에 따라 다릅니다. 임무에 흔히 사용되는 두 가지 속성 능력치는 <h>설득</h>(PER)과 <h>지휘</h>(CMD)입니다.
@@ -125,6 +136,7 @@ UI.Objectives.CouncilorMissionControlsCanvas.Confirm.Name=임무 할당
 UI.Objectives.CouncilorMissionControlsCanvas.Confirm.Desc=세부 정보가 만족스럽다면, 여기를 눌러 선택한 의원에게 임무를 할당합니다. 할당은 앞으로 며칠 또는 몇 주간 진행될 것입니다. 임무 할당 단계 도중에는 불이익 없이 의원을 다른 임무로 재할당할 수 있습니다.
 UI.Objectives.CouncilorMissionControlsCanvas.ConfirmAssignments.Name=임무 할당 확인
 UI.Objectives.CouncilorMissionControlsCanvas.ConfirmAssignments.Desc=가용한 모든 의원을 임무에 할당했다면 <h>할당 확인</h> 버튼을 클릭하여 임무 할당 단계를 종료합니다. 이제 시간을 다시 흐르게 할 수 있으며, 임무가 완료되면 알림을 받게 됩니다.
+
 UI.Objectives.NationInfoCanvas.Intro.Name=국가 상세 정보
 UI.Objectives.NationInfoCanvas.Intro.NameShort=국가 패널
 UI.Objectives.NationInfoCanvas.Intro.Desc=선택한 국가에 대한 세부 정보가 여기에 표시됩니다. 지구상의 개별 국가에 대한 중요 정보들을 확인하고, 해당 국가의 경제 부문에서 우리 진영이 통제 중인 부분을 관리할 수 있습니다.
@@ -137,61 +149,79 @@ UI.Objectives.NationInfoCanvas.Overview.Desc=이 섹션은 국가의 <color=#FFF
 UI.Objectives.NationInfoCanvas.Military.Name=군사 개요
 UI.Objectives.NationInfoCanvas.Military.Desc=이 섹션에는 선택한 국가의 <h>군사 기술</h> 수준, 현재 육군 및 해군 전력, 사용 가능한 전략적 핵 공격 능력이 표시됩니다. 각 항목 위에 마우스를 올리면 자세한 내용을 확인할 수 있습니다.<br/><br/>오른쪽 상단에는 선택한 국가가 <color=#FFFFFFFF><sprite name=nation_at_war></color> 전쟁 중인지 아니면 <color=#FFFFFFFF><sprite name=nation_at_peace></color> 평화 시인지를 나타내는 아이콘이 표시됩니다.
 UI.Objectives.NationInfoCanvas.Development.Name=개발 개요
-UI.Objectives.NationInfoCanvas.Development.Desc=이 섹션에서는 선택한 국가의 경제 세부 정보와 해당 국가에 통제 지점을 소유하고 있을 경우 우리 진영에 할당되는 수입의 비율이 표시됩니다. 국가의 생산량은 해당 국가의 통제 지점 소유 진영에 비례하여 분배됩니다.<br/><br/>국가의 생산량은 <color=#FFFFFFFF><sprite name=investments></color> <h>투자 포인트</h>, <color=#FFFFFFFF><sprite name=currency></color> <h>자금</h>, <color=#FFFFFFFF><sprite name=research></color> <h>월간 연구</h>, <color=#FFFFFFFF><sprite name=boost></color> <h>월간 부스트</h>, <color=#FFFFFFFF><sprite name=mission_control></color> <h>임무 관제 역량</h>으로 구성됩니다. 왼쪽의 각 아이콘 위에 마우스를 올리면 자세한 내용을 확인할 수 있습니다.<br/><br/>선택한 국가가 연방 소속인 경우, 이 섹션에는 해당 연방의 공동 기금 및 부스트 중 회원국에 할당된 비율이 별도의 열에 표시됩니다. 우리 진영이 해당 국가에서 얻는 수입 중의 몫을 계산할 때는 국내 값 대신 연방 값이 사용됩니다.
+UI.Objectives.NationInfoCanvas.Development.Desc=이 섹션에서는 선택한 국가의 경제 세부 정보와 해당 국가에 통제 지점을 소유하고 있을 경우 우리 진영에 할당되는 수입의 비율이 표시됩니다. 국가의 생산량은 해당 국가의 통제 지점 소유 진영에 비례하여 분배됩니다.<br/><br/>국가의 생산량은 <color=#FFFFFFFF><sprite name=investments></color> <h>투자 포인트</h>, <color=#FFFFFFFF><sprite name=currency></color> <h>자금</h>, <color=#FFFFFFFF><sprite name=research></color> <h>월간 연구</h>, <color=#FFFFFFFF><sprite name=boost></color> <h>월간 부스트</h>, <color=#FFFFFFFF><sprite name=mission_control></color> <h>임무 관제 역량</h>으로 구성됩니다. 왼쪽의 각 아이콘 위에 마우스를 올리면 자세한 내용을 확인할 수 있습니다.<br/><br/>선택한 국가가 연방 소속인 경우, 이 섹션에는 해당 연방의 공동 기금 및 부스트 중 회원국에 할당된 비율이 별도의 열에 표시됩니다. 우리 진영이 해당 국가에서 얻는 수입 중의 몫을 계산할 때는 국내 값 대신 연방 값이 사용됩니다. 
+
 UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Name=투자 포인트
-UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Desc=<h>투자 포인트</h>는 국가의 월별 경제적 흑자를 나타냅니다. 여기에 표시되는 값은 해당 국가의 GDP에 의해 설정되며, 해당 국가의 보유 군대 수, 높은 불안도 및 기타 요인에 의해 감소합니다.<br/><br/>이 포인트는 해당 국가 내 통제 지점을 소유한 진영이 <h>우선순위</h> 탭을 사용하여 할당할 수 있습니다.
+UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Desc=<h>투자 포인트</h>는 국가의 월별 경제적 흑자를 나타냅니다. 여기에 표시되는 값은 해당 국가의 GDP에 의해 설정되며, 해당 국가의 보유 군대 수, 높은 불안도 및 기타 요인에 의해 감소합니다.<br/><br/>이 포인트는 해당 국가 내 통제 지점을 소유한 진영이 <h>우선순위</h> 탭을 사용하여 할당할 수 있습니다. 
+
 UI.Objectives.NationInfoCanvas.Funding.Name=기금
 UI.Objectives.NationInfoCanvas.Funding.Desc=<h>기금</h> 값은 국가가 매달 제공하는 직접 현금 흐름입니다.
+
 UI.Objectives.NationInfoCanvas.Research.Name=연구
 UI.Objectives.NationInfoCanvas.Research.Desc=이 값은 국가의 <h>연구</h> 생산량을 나타내며, 경제, <h>교육</h> 수준 뿐만 아니라, <h>결속력</h>, <h>민주주의</h>, <h>불안도</h> 점수의 산물입니다.
+
 UI.Objectives.NationInfoCanvas.Boost.Name=월간 부스트
 UI.Objectives.NationInfoCanvas.Boost.Desc=이 값은 국가의 매월 <h>부스트</h> 생산량(10미터톤 단위)입니다.<br/><br/>우주 프로그램을 구축한 국가의 통제 지점은 기존 부스트 생산량 덕분에 일반적으로 더 가치 있다고 간주됩니다.
+
 UI.Objectives.NationInfoCanvas.MissionControl.Name=임무 관제
 UI.Objectives.NationInfoCanvas.MissionControl.Desc=이 값은 현재 국가가 유지하는 <h>임무 관제</h> 포인트의 양과 제공할 수 있는 최대량을 나타냅니다.
+
 UI.Objectives.NationInfoCanvas.People.Name=인구 개요
 UI.Objectives.NationInfoCanvas.People.Desc=이 섹션은 국가 내 주민과 전반적인 복지에 대한 정보가 표시합니다. 이는 <h>인구</h>를 반영하는 수치, 국가의 환경적 <h>지속 가능성</h>을 반영하는 점수, 국가의 <h>인구 통계</h>를 나타내는 세 가지 점수로 구성됩니다. 이와 함께, 각 진영에 대한 국민의 <h>여론</h>을 보여주는 원형 차트가 있습니다. 각 항목 위에 마우스를 올리면 자세한 내용을 확인할 수 있습니다.
+
 UI.Objectives.NationInfoCanvas.Education.Name=교육
 UI.Objectives.NationInfoCanvas.Education.Desc=국가의<color=#FFFFFFFF><sprite name=education> </color><h>교육</h> 값은 해당 국가 시민의 평균 교육 기간을 바탕으로 평가됩니다. 교육 점수가 높은 국가는 더 많은 연구를 수행하고 극단적인 선전에 대한 저항이 강하지만, 통합 우선순위로부터 얻는 결속력이 낮습니다.
+
 UI.Objectives.NationInfoCanvas.Cohesion.Name=결속력
 UI.Objectives.NationInfoCanvas.Cohesion.Desc=국가의 <color=#FFFFFFFF><sprite name=culture></color> <h>결속력</h>은 국가 내 국민 간의 단결 또는 갈등 수준을 나타냅니다. 높은 값은 작은 편차나 반대가 거의 없는 통합된 사회를 나타냅니다. 중간 값은 내부 갈등과 건강하고 창의적인 반문화가 공존하는 다양한 사회를 나타냅니다. 중간-낮은 값은 정치적 양극화가 높은 상태를 나타내며, 가장 낮은 값은 국민이 분열되어 있거나 심지어 부족사회화 되어버렸다는 것을 의미합니다. <br/><br/>높은 값은 불안도를 억제하고 점령에 저항하는 국가의 능력을 높입니다. 중간 값은 국가 연구 생산에 보너스를 제공하여 강력한 아이디어 시장을 나타냅니다. 낮은 값은 불안도를 급속하게 증가시킵니다<br/><br/>. 높은 불평등, 반민주주의, 많은 지역이나 대규모 인구, 군대의 파괴 및 여론과 통제 지점 소유자의 이데올로기 차이가 큰 경우 등 수많은 요소로 인해 결속력이 저하됩니다.<br/><br/>결속력은 전쟁, 독재, 통합 우선순위 등으로 인해 증가합니다. 국가 내 민주주의도 영향을 미쳐 결속력을 중간값으로 향하게 합니다.
+
 UI.Objectives.NationInfoCanvas.PublicOpinion.Name=여론
 UI.Objectives.NationInfoCanvas.PublicOpinion.Desc=이 차트는 외계인에 대한 이 나라의 <h>여론</h>을 표시합니다. 특정 이념에 대한 지지는 해당 진영에 영향력 수입을 주며, 진영이 해당 국가의 통제 지점을 통해 국가를 장악하고 유지하려고 시도할 때도 보너스를 부여합니다.<br/><br/><h>공공 캠페인</h> 임무는 국가 내 여론을 우리 진영 쪽으로 기울게 합니다. <h>잔혹 행위</h>를 저지르면 여론은 우리 진영에서 멀어지게 됩니다.
+
 UI.Objectives.NationInfoCanvas.PerCapitaGDP.Name=1인당 GDP
 UI.Objectives.NationInfoCanvas.PerCapitaGDP.Desc=국가의 <color=#FFFFFFFF><sprite name=per_capita_GDP></color> <h>1인당 GDP</h>는 국내총생산(구매력 평가)을 인구로 나눈 값입니다. 해당 국가의 평균적인 시민의 경제적 여건을 나타냅니다. 1인당 GDP가 낮은 국가는 사람들의 요구가 충족되지 않을 경우 더 높은 불안도에 직면할 것입니다.<br/><br/>경제 우선순위에 투자하면 국가의 GDP를 높일 수 있습니다. 갈등, 인구 감소, 기후 변화는 국가의 1인당 GDP 감소를 유발할 수 있는 요인 중 하나입니다.
+
 UI.Objectives.NationInfoCanvas.Inequality.Name=불평등
 UI.Objectives.NationInfoCanvas.Inequality.Desc=한 국가의 <color=#FFFFFFFF><sprite name=inequality></color> <h>불평등</h> 점수는 국가에서 부와 소득이 어떻게 분배되는지를 측정한 것입니다. 높은 점수는 국가에 중산층이 별로 없다는 것을 의미합니다. 불평등은 정상적인 경제 활동의 결과(경제 우선순위)로 인해 조금 증가하거나 부패(이권 우선순위)로 인해 급격하게 증가합니다. 한 국가의 자원 지역도 불평등에 기여할 수 있습니다.<br/><br/>높은 불평등은 국가가 가진 자와 못 가진 자로 나뉘면서 결속력을 감소시킵니다. 이는 복지 우선순위에 투자하면 상쇄됩니다.
+
 UI.Objectives.NationInfoCanvas.Tabs.Name=국가 탭
 UI.Objectives.NationInfoCanvas.Tabs.Desc=여기의 탭을 클릭하면 선택한 국가에 대한 추가적인 중요 정보를 확인할 수 있습니다.
+
 UI.Objectives.NationInfoCanvas.Priorities.Name=국가 우선순위
 UI.Objectives.NationInfoCanvas.Priorities.NameShort=우선순위
 UI.Objectives.NationInfoCanvas.Priorities.Desc=이 탭을 사용하면 국가 내 우리 진영이 소유한 각 통제 지점에 대한 <h>우선순위</h>를 설정할 수 있습니다. 국가의 우선순위는 시간이 지남에 따라 국가가 어떻게 변할지 결정합니다. 예를 들어,  <h>복지</h>에 투자하면 국가의 불평등을 줄일 수 있습니다.
 UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Name=투자 포인트 및 우선순위
-UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Desc=국가의 투자 포인트는 통제 지점 간에 균등하게 분배된 다음, 각 우선순위에 대한 개별 설정에 의해 추가로 할당됩니다.
+UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Desc=국가의 투자 포인트는 통제 지점 간에 균등하게 분배된 다음, 각 우선순위에 대한 개별 설정에 의해 추가로 할당됩니다. 
 UI.Objectives.NationInfoCanvas.PrioritesGDP.Name=GDP 및 투자 포인트
 UI.Objectives.NationInfoCanvas.PrioritesGDP.Desc=국가의 GDP는 사용할 수 있는 투자 포인트의 양을 결정합니다. 국가의 GDP가 증가하면 우선순위에 할당할 수 있는 투자 포인트도 증가합니다.
 UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Name=우선순위 완료하기
-UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Desc=투자 포인트는 시간이 지남에 따라 국가의 우선순위 버킷을 채우며, 완전히 채워지면 1인당 GDP 증가(<h>경제</h>) 또는 새로운 군대 배치(<h>군대 창설</h>)와 같은 효과를 발휘합니다<br/><br/>우선순위 버킷이 채워지면 남은 투자 포인트는 이월됩니다.
-UI.Objectives.NationInfoCanvas.PrioritesCycler.Name=우선순위 순환바
+UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Desc=투자 포인트는 시간이 지남에 따라 국가의 우선순위 버킷을 채우며, 완전히 채워지면 1인당 GDP 증가(<h>경제</h>) 또는 새로운 군대 배치(<h>육군 창설</h>)와 같은 효과를 발휘합니다<br/><br/>우선순위 버킷이 채워지면 남은 투자 포인트는 이월됩니다.
+UI.Objectives.NationInfoCanvas.PrioritesCycler.Name=우선순위 순환바 
 UI.Objectives.NationInfoCanvas.PrioritesCycler.Desc=우리 진영이 소유한 각 통제 지점에 대해서는 이 점을 클릭 또는 오른쪽 클릭하면 특정 우선순위에 할당된 가중치를 조정할 수 있습니다. 이는 국가의 투자 포인트를 해당 우선순위에 할당하는 방식을 변경합니다.
 UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Name=모든 통제 지점에 적용
 UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Desc=우리 진영이 한 국가 내에서 여러 개의 통제 지점을 소유하고 있는 경우, 우선순위 열의 상단에 있는 진영 기호를 클릭하면 해당 열의 점 분포를 다른 모든 소유 통제 지점으로 복사할 수 있습니다.
 UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Name=우선순위 명확히 정하기
-UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Desc=우선순위 관리는 복잡한 작업입니다. 국가가 어느 분야의 전문성을 갖추기를 원하는지 고려한 후, 목표 달성에 도움이 될 우선순위에 집중하세요.<br/><br/>예를 들어, 어떤 국가는 우주 자산을 위한 <color=#FFFFFFFF><sprite name=mission_control> <h>임무 관제 역량</h> 생산에 특화되어 있을 수 있고, 다른 국가는 국내 여건 개선을 위해 <color=#FFFFFFFF><sprite name=unity></color> <h>통합</h> 및 <color=#FFFFFFFF><sprite name=gov_type></color> <h>정부</h>에 집중할 수 있습니다. 그러나 많은 수의 우선순위는 다른 우선순위를 더 빨리 완료할 수 있도록 다양성 보너스를 제공하기도 합니다.
+UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Desc=우선순위 관리는 복잡한 작업입니다. 국가가 어느 분야의 전문성을 갖추기를 원하는지 고려한 후, 목표 달성에 도움이 될 우선순위에 집중하세요.<br/><br/>예를 들어, 어떤 국가는 우주 자산을 위한 <color=#FFFFFFFF><sprite name=mission_control> <h>임무 관제 역량</h> 생산에 특화되어 있을 수 있고, 다른 국가는 국내 여건 개선을 위해 <color=#FFFFFFFF><sprite name=unity></color> <h>통합</h> 및 <color=#FFFFFFFF><sprite name=gov_type></color> <h>정부</h>에 집중할 수 있습니다. 그러나 많은 수의 우선순위는 다른 우선순위를 더 빨리 완료할 수 있도록 다양성 보너스를 제공하기도 합니다. 
 UI.Objectives.NationInfoCanvas.PrioritesNegatives.Name=투자 위험
 UI.Objectives.NationInfoCanvas.PrioritesNegatives.Desc=불안도, 낮은 결속력, 많은 수의 군대 및 해군, 높은 불평등은 항상 국가 역량 및 투자 역량을 소모시킨다는 점을 기억하세요.
+
 UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Name=우선순위 템플릿
-UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Desc=이 드롭다운 메뉴에서는 우리 진영이 국가 내에서 소유한 통제 지점에 대한 모든 우선순위 투자를 자동으로 구성하는 <h>우선순위 템플릿</h>을 확인할 수 있습니다.<br/><br/>우선순위 템플릿을 적용한 후에도 원하는 대로 국가의 우선순위 투자를 계속해서 조정할 수 있습니다.
-UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Name=직접 투자
+UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Desc=이 드롭다운 메뉴에서는 우리 진영이 국가 내에서 소유한 통제 지점에 대한 모든 우선순위 투자를 자동으로 구성하는 <h>우선순위 템플릿</h>을 확인할 수 있습니다.<br/><br/>우선순위 템플릿을 적용한 후에도 원하는 대로 국가의 우선순위 투자를 계속해서 조정할 수 있습니다. 
+
+UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Name=직접 투자 
 UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Desc=여기를 클릭하면 <h>직접 투자</h> 창이 열립니다. 여기서는 자원을 소모하여 선택한 국가의 우선순위 버킷에 투자 포인트로 즉시 기여할 수 있습니다. 우리 진영이 통제 포인트를 전혀 보유하지 않은 국가에도 직접 투자할 수 있습니다.<br/><br/>특정 국가에 연간 가능한 직접 투자 횟수는 주로 해당 국가의 GDP와 인구에 의해 결정됩니다.
+
 UI.Objectives.NationInfoCanvas.AbandonNation.Name=국가 포기
 UI.Objectives.NationInfoCanvas.AbandonNation.Desc=어떤 이유로든 더 이상 국가를 통제하고 싶지 않으며 해당 국가 내 우리 진영의 모든 통제 지점을 포기하고 싶다면 여기를 클릭하세요. 통제 지점은 탄압 임무와 동일한 효과를 받게 됩니다. 직접적인 혜택은 없으며, 다른 진영이 축출하기는 더 쉬워지지만, 우리의 통제 지점 상한에 아무런 영향을 주지 않습니다. 이 옵션은 통제 지점 상한을 초과하여 발생하는 불이익을 피하고자 할 때 유용합니다. "자동 갱신 포기" 체크박스를 선택하면 선택이 해제되거나 포기 기간이 만료될 때까지 통제 지점을 이 상태로 유지할 수 있습니다.
+
 UI.Objectives.NationInfoCanvas.DirectInvest.Name=국가에 직접투자
 UI.Objectives.NationInfoCanvas.DirectInvest.NameShort=투자
 UI.Objectives.NationInfoCanvas.DirectInvest.Desc=여기서 자금과 영향력을 사용하여 빠른 효과를 위해 국가의 투자 포인트 수입을 반영할 수 있습니다.
 UI.Objectives.NationInfoCanvas.NuclearWeapons.Name=핵 버튼
 UI.Objectives.NationInfoCanvas.NuclearWeapons.Desc=우리 진영이 국가의 행정 통제 지점을 확보했다면, 여기에 나타나는 버튼을 통해 적국에 핵 공격을 실행할 수 있습니다.핵 공격은 해당 지역과 기반 시설에 심각한 피해를 가하므로 <h>잔혹 행위</h>로 간주됩니다.<br/><br/>우리 영토에 침략한 군대에 대해서도 핵 공격을 사용할 수 있으며, 이러한 경우 부수적인 피해를 어느 정도 제한할 수 있습니다.
 UI.Objectives.NationInfoCanvas.Policy.Name=국가 정책
-UI.Objectives.NationInfoCanvas.Policy.Desc=우리 진영이 국가의 행정 통제 지점을 확보한 경우, 해당 국가를 대상으로 <h>국가 정책 설정</h> 임무를 수행할 의원을 할당할 수 있습니다. 국가 정책 설정을 통해 해당 국가로 하여금 전쟁 참여, 연방 참여 및 탈퇴, 영토 이양 등을 하도록 지시할 수 있습니다. <h>정책</h> 탭을 눌러 해당 국가에서 현재 사용할 수 있는 국가 정책을 확인하세요.
+UI.Objectives.NationInfoCanvas.Policy.Desc=우리 진영이 국가의 행정 통제 지점을 확보한 경우, 해당 국가를 대상으로 <h>국가 정책 설정</h> 임무를 수행할 의원을 할당할 수 있습니다. 국가 정책 설정을 통해 해당 국가로 하여금 전쟁 참여, 연방 참여 및 탈퇴, 영토 이양 등을 하도록 지시할 수 있습니다. <h>정책</h> 탭을 눌러 해당 국가에서 현재 사용할 수 있는 국가 정책을 확인하세요. 
+
 UI.Objectives.IntelScreenCanvas.AlienCouncilors.Name=외계인
 UI.Objectives.IntelScreenCanvas.AlienCouncilors.Desc=이 섹션에서는 우리 진영이 추적 중인 개별 외계인을 표시합니다. 추적 중인 외계인을 클릭하면 정보 창이 닫히고 해당 외계인의 위치가 화면 중앙에 표시됩니다.
 UI.Objectives.IntelScreenCanvas.AlienEvents.Name=외계 이벤트
@@ -202,14 +232,16 @@ UI.Objectives.IntelScreenCanvas.AlienFleets.Name=외계 함대
 UI.Objectives.IntelScreenCanvas.AlienFleets.Desc=이 섹션에는 태양계 내 알려진 모든 외계 함대가 나열되어 있습니다. 항목을 클릭하면 정보 창이 닫히고 해당 함대가 화면 중앙에 표시됩니다.<br/><br/>함대 및 함선 건조 창의 함대 목록 탭에서 외계인(및 다른 진영)의 함대 목록을 확인할 수도 있습니다.
 UI.Objectives.IntelScreenCanvas.AlienHabs.Name=외계인 거주지
 UI.Objectives.IntelScreenCanvas.AlienHabs.Desc=이 섹션은 태양계 내 알려진 모든 외계인 거주지가 나열합니다. 목록에서 항목을 클릭하면 정보 창이 닫히고 해당 거주지가 화면 중앙에 표시됩니다.
+
 UI.Objectives.IntelScreenCanvas.AlienThreat.NameShort=위협
 UI.Objectives.IntelScreenCanvas.AlienThreat.Name=외계인 위협 모니터링
-UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=이 측정기는 외계인이 우리 진영을 위협으로 간주하는 정도에 대한 정보부의 추정치를 표시합니다. 이 추정치는 태양계 내 외계 우호 단체 및 가시적인 외계인의 활동을 감시한 바탕으로 산출된 것입니다. <br/><br/>임무 관제 역량으로 측정되는 가시적인 대규모 우주 활동과 지구상의 외계인 또는 그 대리인에 대한 적대적 행위가 우리에 대한 외계인의 경계심을 더욱 증폭시킨다고 생각합니다. 위협 모니터링이가 최대 수준에 도달하면 외계인이 지구와 우주에서 우리 이익에 반하는 보복을 할 것으로 예상됩니다. 또한, 우리 요원들이 외계인을 상대로 직접적인 행동을 취할 경우, 그들이 일회성 보복을 감행할 가능성도 있지만, 지구에서 일정 기간 동안 그들 또는 그들의 대리인에게 직접 대적하지 않는다면 그들의 관심이 줄어들 수도 있습니다. <br/><br/>분석가들은 이 추정치가 불완전하다고 강조합니다. 외계인이 우리에 대한 직접적인 행동을 취하거나 우리가 그들과 접촉할 경우, 이 추정치는 수정될 것입니다. <br/><br/>외계인이 우리의 이익에 완전히 반하는 총력전을 개시한다고 판단되는 경우, 이 추정치는 완전히 빨간색으로 변할 것입니다.
+UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=이 측정기는 외계인이 우리 진영을 위협으로 간주하는 정도에 대한 정보부의 추정치를 표시합니다. 이 추정치는 태양계 내 외계 우호 단체 및 가시적인 외계인의 활동을 감시한 바탕으로 산출된 것입니다. <br/><br/>임무 관제 역량으로 측정되는 가시적인 대규모 우주 활동과 지구상의 외계인 또는 그 대리인에 대한 적대적 행위가 우리에 대한 외계인의 경계심을 더욱 증폭시킨다고 생각합니다. 위협 모니터링이 최대 수준에 도달하면 외계인이 지구와 우주에서 우리 이익에 반하는 보복을 할 것으로 예상됩니다. 또한, 우리 요원들이 외계인을 상대로 직접적인 행동을 취할 경우, 그들이 보복 원정을 감행할 가능성도 있지만, 지구에서 일정 기간 동안 그들 또는 그들의 대리인에게 직접 대적하지 않는다면 그들의 관심이 줄어들 수도 있습니다. <br/><br/>분석가들은 이 추정치가 불완전하다고 강조합니다. 외계인이 우리에 대한 직접적인 행동을 취하거나 우리가 그들과 접촉할 경우, 이 추정치는 수정될 것입니다. <br/><br/>외계인이 우리의 이익에 완전히 반하는 총력전을 개시한다고 판단되는 경우, 이 추정치는 완전히 빨간색으로 변할 것입니다.
+
 UI.Objectives.IntelScreenCanvas.FactionOverview.Name=진영 개요
 UI.Objectives.IntelScreenCanvas.FactionOverview.NameShort=진영
 UI.Objectives.IntelScreenCanvas.FactionOverview.Desc=진영 정보 탭은 지구에 있는 모든 적대 진영에 대해 발견한 모든 세부 정보를 표시합니다.<br/><br/><h>Shift 키를 누른 상태에서 아무 탭이나 클릭하면 모든 진영의 정보 표시가 해당 탭으로 동시에 전환됩니다.</h>
 UI.Objectives.IntelScreenCanvas.FactionCouncilors.Name=진영 의원
-UI.Objectives.IntelScreenCanvas.FactionCouncilors.Desc=<h>의원</h> 탭에는 해당 세력에서 발견된 의원에 대한 정보가 표시됩니다.<br/><br/>의원에게는 다른 세력으로부터 발각되는 것을 피할 수 있도록 <h>잠적</h> 임무를 할당할 수 있습니다.
+UI.Objectives.IntelScreenCanvas.FactionCouncilors.Desc=<h>의원</h> 탭에는 해당 세력에서 발견된 의원에 대한 정보가 표시됩니다.<br/><br/>의원에게는 다른 세력으로부터 발각되는 것을 피할 수 있도록 <h>잠적</h> 임무를 할당할 수 있습니다. 
 UI.Objectives.IntelScreenCanvas.FactionResources.Name=진영 자원
 UI.Objectives.IntelScreenCanvas.FactionResources.Desc=<h>자원</h> 탭은 진영의 자원과 수입에 대해 가장 최근에 알려진 정보를 표시합니다.
 UI.Objectives.IntelScreenCanvas.FactionObjectives.Name=진영 목표
@@ -218,6 +250,7 @@ UI.Objectives.IntelScreenCanvas.FactionRelations.Name=진영 관계
 UI.Objectives.IntelScreenCanvas.FactionRelations.Desc=<h>관계</h> 탭은 각 진영의 다른 진영에 대한 현재 태도를 표시합니다. 또한 해당 진영의 <h>상호 불가침 조약</h> 여부, 다른 진영과의 <h>정보 공유</h>도 표시합니다.<br/><br/>진영과의 관계는 개선될 수 있으며 이러한 조약은 의원이 <h>연락</h> 임무를 완료하면 접근 가능한 <h>거래 협상</h> 창에서 체결할 수 있습니다.<br/><br/>다른 진영과의 상호 불가침 조약이나 정보 공유를 취소하려면 우리 진영의 관계 항목 옆에 나타나는 버튼을 클릭하세요.
 UI.Objectives.IntelScreenCanvas.FactionTech.Name=진영 기술
 UI.Objectives.IntelScreenCanvas.FactionTech.Desc=<h>기술</h> 탭은 진영의 연구 활동과 관련하여 확보한 모든 정보가 표시되며, 여기에는 완료한 프로젝트도 포함됩니다.
+
 UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.Name=여론
 UI.Objectives.IntelScreenCanvas.GlobalPublicOpinion.Desc=여기에서는 다양한 진영과 그 목표에 대한 <h>글로벌 대중여론</h>을 확인할 수 있습니다. 전 세계 대중여론은 각 진영의 <color=#FFFFFFFF><sprite name=influence></color> 영향력 수입에 기여합니다.
 UI.Objectives.IntelScreenCanvas.GlobalWorldData.Name=세계 데이터
@@ -229,7 +262,8 @@ UI.Objectives.IntelScreenCanvas.GlobalEnvironment.Desc=이 섹션에서는 지�
 UI.Objectives.IntelScreenCanvas.GlobalWars.Name=전쟁
 UI.Objectives.IntelScreenCanvas.GlobalWars.Desc=이 섹션에는 지구상의 국가들 사이에 진행 중인 <h>전쟁</h> 목록이 있습니다. 각 진영의 주도 국가와 참여하는 동맹국의 국기가 표시됩니다. 또한 각 진영은 가용 군대 수, 해상에서의 자유 여부, 핵 공격 능력 보유 여부를 표시합니다.
 UI.Objectives.IntelScreenCanvas.Atrocities.Name=잔혹 행위
-UI.Objectives.IntelScreenCanvas.Atrocities.Desc=이 섹션에는 각 진영이 저지른 <h>잔혹 행위</h>의 수를 기록합니다. 잔혹 행위는 대량 살상이나 고통을 초래하는 행위로, 책임감 있는 진영은 지지자들을 잃게 됩니다. 잔혹 행위는 여론에 영향을 미치며 누적됩니다. 진영이 잔혹 행위를 더 많이 저지를수록 여론 불이익이 급격하게 증가합니다.
+UI.Objectives.IntelScreenCanvas.Atrocities.Desc=이 섹션에는 각 진영이 저지른 <h>잔혹 행위</h>의 수를 기록합니다. 잔혹 행위는 대량 살상이나 고통을 초래하는 행위로, 잔혹 행위에 책임이 있는 진영은 지지자들을 잃게 됩니다. 잔혹 행위는 여론에 영향을 미치며 누적됩니다. 진영이 잔혹 행위를 더 많이 저지를수록 여론 불이익이 급격하게 증가합니다.
+
 UI.Objectives.IntelScreenCanvas.SpacebodySorting.Name=정렬하기
 UI.Objectives.IntelScreenCanvas.SpacebodySorting.Desc=여기에서 열 머리글을 클릭하면 해당 열을 기준으로 목록이 정렬됩니다. 다시 클릭하면 정렬 순서가 역전됩니다.
 UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Name=거주지 유지 한도
@@ -237,20 +271,24 @@ UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Desc=이 열의 값은 천체�
 UI.Objectives.IntelScreenCanvas.SpacebodyResources.Name=사용 가능한 자원
 UI.Objectives.IntelScreenCanvas.SpacebodyResources.Desc=이 열에는 우주체에서 채굴할 수 있는 우주 자원이 표시됩니다. 탐사선이나 우주선을 통해 천체를 탐사할 때까지는 해당 우주체의 자원 생산량은 추정치로만 표시됩니다. 각 측정기는 자원의 풍부함을 나타냅니다. "?"는 자원의 존재 가능성을 의미하며, 비어 있는 측정기는 자원이 존재하지 않음을 나타냅니다. 거주할 수 없는 우주체에서는 채굴 가능한 자원이 없습니다.
 UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Name=지구 발사 가능 시간대
-UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=이 열은 현재 발사 가능 시간대의 상태를 표시하며, 지구에서 우주체로 이동하는 데 필요한 시간이 최근 증가 또는 감소했음을 의미합니다. 이는 각각의 궤도에 있는 천체 사이의 거리에 따라 달라집니다.<br/><br/>지구에서 발사하기에 가장 적합한 시기는 백분율 값이 가장 낮을 때입니다.</h> 자세한 내용을 보려면 값 위에 마우스를 올리세요.
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=이 열은 현재 발사 가능 시간대의 상태를 표시하며, 지구에서 우주체로 이동하는 데 필요한 시간이 최근 증가 또는 감소했음을 의미합니다. 이는 각각의 궤도에 있는 천체 사이의 거리에 따라 달라집니다.<br/><br/><h>지구에서 발사하기에 가장 적합한 시기는 백분율 값이 가장 낮을 때입니다.</h> 자세한 내용을 보려면 값 위에 마우스를 올리세요.
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Name=천체로 이동
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Desc=여기를 클릭하면 해당 천체의 위치로 이동합니다.
+
 UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Name=항행 계획기 제어
 UI.Objectives.IntelScreenCanvas.TransferPlannerIntro.Desc=이러한 필드를 사용하여 가상의 항행에 대한 매개변수를 구성할 수 있습니다.
+
 UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Name=출발지 및 도착지
 UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Desc=여기에서 항행 <h>출발지</h>와 <h>도착지</h>를 설정하세요. 우리 함대의 기존 위치를 사용하거나, 두 지점을 선택하여 이후의 항행을 계획할 수 있습니다.
+
 UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Name=가속도 및 델타-V
 UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Desc=여기에서 항행을 위한 가속도 및 델타-V 값을 설정합니다. 이 값은 선택한 함대 내에서 함선의 추진기에 의해 결정됩니다. 또는, 가능한 궤적의 변화를 관찰하기 위해 건조하려는 함선을 나타내도록 값을 조정할 수 있습니다.
 UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Name=추력 프로필 조정하기
-UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Desc=<h>추력 프로필</h> 패널에서 설정을 조정하여 특정 추력 프로필에 대한 궤적의 도착 시간 및 델타-V 사용량 변화를 미리보기할 수 있습니다.
+UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Desc=<h>추력 프로필</h> 패널에서 설정을 조정하여 특정 추력 프로필에 대한 궤적의 도착 시간 및 델타-V 사용량 변화를 미리보기할 수 있습니다. 
+
 UI.Objectives.HabScreenCanvas.HabInfo.Name=거주지
 UI.Objectives.HabScreenCanvas.HabInfo.NameShort=거주지
-UI.Objectives.HabScreenCanvas.HabInfo.Desc=<h>거주지</h> 창은 태양계 전역의 모든 거주지를 관리하고 관련 정보를 확인하는 중추적인 역할을 니다. 진영 소유자, 인구, 수입 및 유지비, 작전 상태, 거주지에 사용 가능한 모듈 슬롯이 있는지 여부와 같은 정보가 아래 목록에 표시됩니다.<br/><br/>목록의 거주지 항목을 클릭하면 창의 오른쪽에 해당 항목이 표시됩니다.<br/><br/>거주지에는 우주체 위에 건설되는 <h>기지</h>와 우주체 또는 우주의 다른 지점을 공전하는 <h>스테이션</h>의 두 가지 형태가 있습니다.
+UI.Objectives.HabScreenCanvas.HabInfo.Desc=<h>거주지</h> 창은 태양계 전역의 모든 거주지를 관리하고 관련 정보를 확인하는 중추적인 역할을 니다. 소유 진영, 인구, 수입 및 유지비, 작전 상태, 거주지에 사용 가능한 모듈 슬롯이 있는지 여부와 같은 정보가 아래 목록에 표시됩니다.<br/><br/>목록의 거주지 항목을 클릭하면 창의 오른쪽에 해당 항목이 표시됩니다.<br/><br/>거주지에는 우주체 위에 건설되는 <h>기지</h>와 우주체 또는 우주의 다른 지점을 공전하는 <h>스테이션</h>의 두 가지 형태가 있습니다.
 UI.Objectives.HabScreenCanvas.Bases.Name=기지
 UI.Objectives.HabScreenCanvas.Bases.Desc=이 체크박스를 선택하여 아래 거주지 목록에 기지를 포함합니다.
 UI.Objectives.HabScreenCanvas.Stations.Name=스테이션
@@ -262,15 +300,20 @@ UI.Objectives.HabScreenCanvas.LocationFilter.Name=위치 필터
 UI.Objectives.HabScreenCanvas.LocationFilter.Desc=이곳의 드롭다운 메뉴를 사용하여 거주지 목록을 태양계 내 위치로 필터링합니다.
 UI.Objectives.HabScreenCanvas.ManageHabBtn.Name=거주지 관리
 UI.Objectives.HabScreenCanvas.ManageHabBtn.Desc=우리 진영이 통제하는 거주지를 선택한 후 여기에 표시되는 버튼을 눌러 거주지 관리자 창으로 들어갑니다. 그곳에서 선택한 거주지에 대해 추가나 교체와 같은 변경 작업을 수행할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.HabManagementInfo.Name=거주지 관리자
 UI.Objectives.HabScreenCanvas.HabManagementInfo.NameShort=거주지 관리
 UI.Objectives.HabScreenCanvas.HabManagementInfo.Desc=<h>거주지 관리자</h> 는 우리 진영의 거주지와 관련된 모든 정보를 표시하며, 거주지의 용도와 구성을 직접 관리할 수 있게 해줍니다.
+
 UI.Objectives.HabScreenCanvas.HabManagementModuleInfo.Name=선택한 모듈 데이터
 UI.Objectives.HabScreenCanvas.HabManagementModuleInfo.Desc=선택한 모듈에 대한 정보, 즉 이름, 티어, 수입 및 유지비, 전력 요구량, 건설 비용 등이 여기에 표시됩니다.
+
 UI.Objectives.HabScreenCanvas.HabManagementModuleList.Name=건설 가능 모듈
 UI.Objectives.HabScreenCanvas.HabManagementModuleList.Desc=이 탭을 선택하면 거주지에 설치하기에 적합한 모듈 목록을 확인할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.HabManagementModuleClick.Name=모듈 목록
 UI.Objectives.HabScreenCanvas.HabManagementModuleClick.Desc=모듈 목록에는 현재 거주지에 설치된 모듈 또는 설치하기에 적합한 모듈이 표시됩니다.<br/><br/>모듈을 클릭하면 상단에 해당 모듈에 대한 정보가 표시됩니다. 사용 가능한 모듈 목록에서 모듈을 드래그 앤 드롭하여 원하는 모듈 슬롯으로 배치하면 해당 슬롯에서 모듈 제작이 시작됩니다. 사용 가능한 모듈 목록에서 모듈을 오른쪽 클릭하면 적합한 슬롯에서 해당 모듈의 제작을 시작할 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.FleetOverview.Name=함대
 UI.Objectives.FleetScreenCanvas.FleetOverview.NameShort=함대
 UI.Objectives.FleetScreenCanvas.FleetOverview.Desc=<h>함대</h> 창은 모든 함대 및 함선 데이터, 함선 설계 및 건조를 관리하는 중추적인 역할을 합니다.<br/><br/><h>함대 목록</h> 탭에는 태양계 내 함대에 관해 이용할 수 있는 정보가 나열됩니다.
@@ -282,12 +325,14 @@ UI.Objectives.FleetScreenCanvas.FleetCapabilities.Name=함대 역량
 UI.Objectives.FleetScreenCanvas.FleetCapabilities.Desc=이 열의 값은 각 함대의 <h>가속도</h>와 <h>델타-V</h> 예산을 표시합니다. 델타-V는 우주 비행의 연료를 나타내며, 속도를 변경할 수 있는 능력을 의미합니다. 함대의 델타-V 예산은 해당 함대에 속한 모든 함선 중에서 최저 델타-V 예산으로 제한됩니다.
 UI.Objectives.FleetScreenCanvas.FleetAbilities.Name=작전 및 장교
 UI.Objectives.FleetScreenCanvas.FleetAbilities.Desc=이 열의 아이콘은 각 함대에서 사용 가능한 함대 <h>작전</h>과 해당 함대 함선에 탑승한 장교 및 의원(있는 경우)을 표시합니다.<br/><br/>각 아이콘 위에 마우스를 올리면 작전 또는 의원의 이름을 확인할 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.FleetGoto.Name=함대로 이동
-UI.Objectives.FleetScreenCanvas.FleetGoto.Desc=이 버튼을 클릭하면 함대 및 함선 건조 창을 닫고 해당 함대의 위치가 화면 중앙에 표시됩니다.
+UI.Objectives.FleetScreenCanvas.FleetGoto.Desc=이 버튼을 누르면 함대 및 함선 건조 창을 닫고 해당 함대의 위치가 화면 중앙에 표시됩니다.
 UI.Objectives.FleetScreenCanvas.FleetToggleAll.Name=필터
-UI.Objectives.FleetScreenCanvas.FleetToggleAll.Desc=이곳의 드롭다운 메뉴를 클릭하면 선택한 <h>진영</h> 또는 <h>위치</h>에 따라 나열되는 함대를 변경할 수 있습니다.<br/><br/>목록을 필터링할 위치를 하나 이상 선택한 경우, 특정 <h>우주체</h> 또는 <h>라그랑주 점</h>으로 필터링하기 위한 추가 드롭다운 메뉴가 표시됩니다.<br/><br/>특정 진영의 함대는 항상 함께 표시됩니다.
+UI.Objectives.FleetScreenCanvas.FleetToggleAll.Desc=이곳의 드롭다운 메뉴를 클릭하면 선택한 <h>진영</h> 또는 <h>위치</h>에 따라 나열되는 함대를 변경할 수 있습니다.<br/><br/>목록을 필터링할 위치를 하나 이상 선택한 경우, 특정 <h>우주체</h> 또는 <h>라그랑주 점</h>으로 필터링하기 위한 추가 드롭다운 메뉴가 표시됩니다.<br/><br/>특정 진영의 함대는 항상 함께 표시됩니다. 
 UI.Objectives.FleetScreenCanvas.FleetExpand.Name=함선 보기
 UI.Objectives.FleetScreenCanvas.FleetExpand.Desc=함대 항목을 클릭하면 해당 항목이 확장되어 함대에 속한 모든 함선을 확인할 수 있습니다<br/><br/>해당 함대에 나열된 함선을 클릭하면 <h>함선 상세</h> 탭에서 해당 함선의 세부 정보를 확인할 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.ClassOverview.Name=함선 등급
 UI.Objectives.FleetScreenCanvas.ClassOverview.NameShort=등급
 UI.Objectives.FleetScreenCanvas.ClassOverview.Desc=<h>등급</h> 탭은 우리 진영에서 이용할 수 있는 모든 함선의 설계를 나열하며, <h>함선 설계자</h>에서 제작할 수 있습니다.
@@ -299,6 +344,7 @@ UI.Objectives.FleetScreenCanvas.ClassDesign.Name=등급 삭제
 UI.Objectives.FleetScreenCanvas.ClassDesign.Desc=이 버튼을 클릭하면 함선 등급이 삭제됩니다.<br/><br/><h>해당 등급의 함선이 현재 존재하지 않거나 건조 중이지 않은 경우에만 함선 등급을 완전히 삭제할 수 있습니다.</h>
 UI.Objectives.FleetScreenCanvas.Obsolete.Name=폐기 전환
 UI.Objectives.FleetScreenCanvas.Obsolete.Desc=이 <color=#FFFFFFFF><sprite name=show></color> 아이콘을 선택하여 함선을 <h>폐기</h>로 표시하고 함선 건조 탭의 함선 등급 목록에서 표시되지 않도록 차단할 수 있습니다.<br/><br/>위의 체크박스 전환을 사용하면 이 목록에서 폐기 등급을 숨기고 최신의 훌륭한 설계에 집중할 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.DetailSelectShip.Name=함선 선택
 UI.Objectives.FleetScreenCanvas.DetailSelectShip.Desc=이 섹션에는 우리 진영의 함선, 함급, 소속 함대가 나열되어 있습니다. 목록에서 함선을 클릭하면 세부 정보를 볼 수 있습니다.
 UI.Objectives.FleetScreenCanvas.DetailPrimarySystems.Name=주요 시스템
@@ -308,7 +354,8 @@ UI.Objectives.FleetScreenCanvas.DetailMissionSystems.Desc=이 섹션은 함선�
 UI.Objectives.FleetScreenCanvas.DetailDamage.Name=피해 보고
 UI.Objectives.FleetScreenCanvas.DetailDamage.Desc=이 섹션에는 함선의 <h>무기 장착점</h>에 대한 <h>손상</h> 상태가 표시됩니다. 무기 장착점 위에 마우스를 올리면 세부 정보를 확인할 수 있습니다.
 UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Name=모든 함선 표시
-UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Desc=이 체크박스를 선택하면 함선 목록에 다른 모든 진영의 함선이 포함됩니다.
+UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Desc=이 체크박스를 선택하면 함선 목록에 다른 모든 진영의 함선이 포함됩니다. 
+
 UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Name=함급 선택
 UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Desc=새로운 함선을 건조하는 경우, 이 목록에는 이용 가능한 모든 함급 설계와 이를 건조하기 위한 비용이 포함되어 있습니다. 함급을 클릭하여 선택하면 아래 섹션에서 더 자세한 내용을 확인할 수 있습니다.
 UI.Objectives.FleetScreenCanvas.ConstructAddToQueue.Name=대기열에 추가
@@ -320,9 +367,11 @@ UI.Objectives.FleetScreenCanvas.ConstructBuildData.Desc=각 대기열은 해당 
 UI.Objectives.FleetScreenCanvas.ConstructQueueUp.Name=대기열 조정
 UI.Objectives.FleetScreenCanvas.ConstructQueueUp.Desc=조선소 건조 대기열에 여러 척의 함선이 있는 경우, 이 화살표를 사용하여 함선 건조 순서를 조정합니다. 대기열 상단에서 이미 건조 중인 함선은 순서를 변경할 수 없지만, 취소하고 대기열에서 완전히 제거할 수 있습니다.
 UI.Objectives.FleetScreenCanvas.ConstructQueueRemove.Name=대기열에서 제거
-UI.Objectives.FleetScreenCanvas.ConstructQueueRemove.Desc=여기를 클릭하여 선택한 함선을 대기열에서 제거합니다. 개조를 위해 대기열에 있던 함선은 개조 작업이 중단되며, 정박한 거주지에서 새로운 명령을 받을 수 있는 준비 상태가 됩니다.
+UI.Objectives.FleetScreenCanvas.ConstructQueueRemove.Desc=여기를 클릭하여 선택한 함선을 대기열에서 제거합니다. 개조를 위해 대기열에 있던 함선은 개조 작업이 중단되며, 도킹한 거주지에서 새로운 명령을 받을 수 있는 준비 상태가 됩니다.
+
 UI.Objectives.FleetScreenCanvas.ConstructQueueRemoveAll.Name=대기 취소
 UI.Objectives.FleetScreenCanvas.ConstructQueueRemoveAll.Desc=여기를 클릭하면 조선소 건조 대기열의 모든 건조 및 개조 작업을 한 번에 취소할 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.DesignOverview.Name=함선 설계자
 UI.Objectives.FleetScreenCanvas.DesignOverview.NameShort=설계
 UI.Objectives.FleetScreenCanvas.DesignOverview.Desc=<h>함선 설계자</h> 탭에서는 우리 진영의 함선 <h>등급</h>을 생성합니다. 등급은 함선 건조를 위해 선택하는 템플릿 역할을 합니다. 현재 설계도는 중앙 패널에 표시되며, 다양한 유형의 <h>함선 모듈</h>을 장착할 수 있는 여러 슬롯이 함께 제공됩니다.
@@ -330,16 +379,19 @@ UI.Objectives.FleetScreenCanvas.DesignSelectClass.Name=함체 선택
 UI.Objectives.FleetScreenCanvas.DesignSelectClass.Desc=일반적으로, 함선 설계의 첫 번째 단계는 이곳의 드롭다운 메뉴에서 <h>함체</h>를 선택하는 것입니다. 이는 함선의 레이아웃과 설치할 수 있는 무기 및 모듈의 수를 정합니다.
 UI.Objectives.FleetScreenCanvas.DesignNoseWep.Name=함수 무기
 UI.Objectives.FleetScreenCanvas.DesignNoseWep.Desc=이 탭을 클릭하면 사용 가능한 모든 <h>함수 무기</h>를 확인할 수 있습니다. 표시되는 하위 탭을 클릭하면 해당 유형의 함수 무기를 볼 수 있습니다.<br/><br/>함수 무기는 함선 "상단"에서 제한된 각도로 발사됩니다. 이는 선체 장착형 무기보다 더 강력한 경우가 많습니다.
+
 UI.Objectives.FleetScreenCanvas.DesignModuleData.Name=선택한 모듈 데이터
 UI.Objectives.FleetScreenCanvas.DesignModuleData.Desc=위 탭 중 하나 또는 현재 설계에서 모듈 아이콘을 클릭하면 해당 모듈에 대한 상세 내용을 여기에서 확인할 수 있습니다. 또한, "비교" 체크박스를 선택하면 선택한 모듈을 설계에 이미 포함된 모듈과 비교할 수 있습니다.
 UI.Objectives.FleetScreenCanvas.DesignHullWep.Name=선체 무기
 UI.Objectives.FleetScreenCanvas.DesignHullWep.Desc=이 탭을 클릭하면 사용 가능한 모든 <h>선체 무기</h>가 표시됩니다. 표시된 하위 탭을 클릭하면 해당 유형의 선체 무기를 확인할 수 있습니다.<br/><br/>선체 무기는 함선 주변 모든 방향의 완전한 발사 범위를 갖추었으나, 함수 무기만큼 강력하지는 않습니다.
+
 UI.Objectives.FleetScreenCanvas.DesignUtility.Name=유틸리티 모듈
 UI.Objectives.FleetScreenCanvas.DesignUtility.Desc=유틸리티 모듈 탭에는 사용 가능한 모든 유틸리티 모듈이 있습니다. 히트 싱크나 배터리와 같은 유틸리티 모듈은 함선에 추가 기능이나 기능을 제공합니다. 일부 모듈은 장착 가능 시기에 제한이 있습니다. 예를 들어, 레이저 무기 강화기는 함선에 레이저 무기가 장착되어 있어야 합니다.
+
 UI.Objectives.FleetScreenCanvas.DesignRadiator.Name=라디에이터
 UI.Objectives.FleetScreenCanvas.DesignRadiator.Desc=<h>라디에이터</h> 탭에는 이용할 수 있는 모든 라디에이터 모듈이 있습니다. 라디에이터는 함선 내에서 작동 온도를 유지하기 위해 필요합니다. 함선에 히트 싱크 유틸리티 모듈이 대체 장비로 장착된 경우에만 전투 중에 일시적으로 라디에이터를 접을 수 있습니다. <h>열이 제대로 관리되지 않으면 함선은 내부 손상을 입고 결국 치명적인 고장을 일으키게 됩니다.</h>
 UI.Objectives.FleetScreenCanvas.DesignBattery.Name=배터리
-UI.Objectives.FleetScreenCanvas.DesignBattery.Desc=배터리는 필수적이며, 다른 시스템에서 필요할 때 사용할 수 있도록 에너지를 저장합니다.
+UI.Objectives.FleetScreenCanvas.DesignBattery.Desc=배터리는 필수적이며, 다른 시스템에서 필요할 때 사용할 수 있도록 에너지를 저장합니다. 
 UI.Objectives.FleetScreenCanvas.DesignPower.Name=발전기
 UI.Objectives.FleetScreenCanvas.DesignPower.Desc=<h>발전기</h> 탭에는 사용 가능한 모든 발전기 모듈이 포함되어 있습니다. 발전기는 필수적이며, 함선의 추진기와 다른 주요 시스템을 위한 에너지를 생성하여 공급합니다. 설치된 추진기가 호환되지 않으면 특정 발전기 옵션이 회색으로 표시됩니다.
 UI.Objectives.FleetScreenCanvas.DesignDrive.Name=추진기
@@ -348,6 +400,7 @@ UI.Objectives.FleetScreenCanvas.DesignArmor.Name=장갑 모듈
 UI.Objectives.FleetScreenCanvas.DesignArmor.Desc=<h>장갑</h> 탭에는 사용 가능한 모든 <h>장갑</h> 모듈이 있습니다. 장갑은 전투 중에 함선을 보호합니다. 다양한 장갑 슬롯에 서로 다른 유형의 유형의 장갑을 장착할 수 있습니다.<br/><br/>가장 중요한 값은 장갑 포인트당 질량으로, 수치가 낮을수록 좋습니다. 일부 장갑은 특정 무기 유형에 추가 저항력을 제공하기도 합니다.
 UI.Objectives.FleetScreenCanvas.DesignShipData.Name=성능 정보
 UI.Objectives.FleetScreenCanvas.DesignShipData.Desc=<h>함선 성능 정보</h> 섹션은 설계한 선박의 전반적인 특성을 표시합니다. 함선 추진 시스템 설계 시 이러한 수치가 어떻게 상호작용하는지에 대한 안내는 코덱스의 "추진 설계 가이드" 항목을 참조하십시오.
+
 UI.Objectives.FleetScreenCanvas.DesignDataShipMass.Name=함선 질량
 UI.Objectives.FleetScreenCanvas.DesignDataShipMass.Desc=<h>질량</h>은 함선의 기동성에 영향을 미칩니다. 질량이 높을수록 가속도, 델타-V, 함선의 회전 속도가 감소합니다. 설계의현재 질량 위에 마우스를 올려 더 자세한 내용을 확인하세요.
 UI.Objectives.FleetScreenCanvas.DesignDataShipCruiseAccel.Name=순항 가속도
@@ -366,8 +419,10 @@ UI.Objectives.FleetScreenCanvas.DesignDataShipCost.Name=건조 비용
 UI.Objectives.FleetScreenCanvas.DesignDataShipCost.Desc=<h>건조 비용</h>은 현재 등급 설계의 함선을 건조하는 데 소요되는 우주 자우너 비용을 표시합니다.
 UI.Objectives.FleetScreenCanvas.DesignDataShipBuildTime.Name=건조 시간
 UI.Objectives.FleetScreenCanvas.DesignDataShipBuildTime.Desc=<h>건조 시간</h>은 필요한 모든 자원이 조선소에 도착한 후 함선을 건조하는 데 걸리는 시간이 어느 정도인지 나타냅니다. 조선소의 규모가 클수록 건조 시간이 줄어듭니다. 함선의 선체 유형은 함선의 기본 건조 시간을 결정합니다.
+
 UI.Objectives.FleetScreenCanvas.DesignSave.Name=설계 저장
 UI.Objectives.FleetScreenCanvas.DesignSave.Desc=등급 설계를 완료하고 나면 이 버튼을 클릭하여 설계를 저장하고 <h>함선 등급</h> 탭의 목록에 추가하세요. 미완성 설계는 저장할 수 없습니다.
+
 UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Name=무기 튜토리얼
 UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Desc=
 UI.Objectives.FleetScreenCanvas.DesignModuleDrive.Name=추진기 튜토리얼
@@ -380,8 +435,9 @@ UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Name=히트 싱크 튜토�
 UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Desc=
 UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Name=배터리 튜토리얼
 UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Desc=
+
 UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Name=전 세계 연구
-UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Desc=상단의 세 개 패널은 <h>전 세계 연구</h>를 표시하며, 이는 다양한 기술(<h>기술</h>)에 대한 전 세계적으로 진행 중인 연구를 나타냅니다. 인류 전체가 혜택을 누릴 광범위한 과학적 원리입니다. 모든 진영은 각 기술에 연구 수입의 일부 또는 전부를 기여할 수 있습니다. 특정 기술에 가장 많이 기여한 진영이 완료되면 다음 기술을 선택합니다.
+UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Desc=상단의 세 개 패널은 <h>전 세계 연구</h>를 표시하며, 이는 다양한 기술(<h>기술</h>)에 대한 전 세계적으로 진행 중인 연구를 나타냅니다. 인류 전체가 혜택을 누릴 광범위한 과학적 원리입니다. 모든 진영은 각 기술에 연구 수입의 일부 또는 전부를 기여할 수 있습니다. 기술 연구가 완료되면, 해당 기술에 가장 많이 기여한 진영이 다음 기술을 선택합니다.
 UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Name=진영 공학 프로젝트
 UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=맨 아래 행에는 우리 진영의 활성 <h>프로젝트</h>가 표시됩니다. 전 세계 연구와 달리 프로젝트는 우리 진영 내부에서 진행되지만 완료하려면 연구 수입도 필요합니다.<br/><br/>프로젝트는 자원, 새로운 함선, 거주지 모듈, 새로운 무기 접근 등의 실질적인 혜택을 제공합니다.<br/><br/>프로젝트의 가용성은 주로 전 세계 연구 완료 여부로 결정됩니다. 전 세계 연구에 더 많이 기여할수록 잠금 해제된 프로젝트에 빠르게 액세스할 가능성이 높아집니다.<br/><br/><h>일부 목표와 프로젝트는 발전에 필수적인 반면, 다른 목표와 프로젝트는 선택 사항으로 간주되어야 하며 긴급한 필요를 충족하거나 역량을 크게 향상시킬 수 있는 경우에만 추진해야 합니다. 게임에서 승리하기 위해 모든 추진 시스템이나 반응로 연구를 완료할 필요는 없습니다.</h><br/><br/>여러 진영 프로젝트를 동시에 실행하려면 프로젝트를 제공하는 조직 및 거주지 모듈을 획득해야 합니다.
 UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Name=연구 우선순위 순환바
@@ -392,16 +448,21 @@ UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Name=상세 보기
 UI.Objectives.ResearchScreenCanvas.PrimaryDetails.Desc=이 버튼을 클릭하면 기술 또는 프로젝트 연구의 효과를 표시합니다.
 UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Name=기술 계통도
 UI.Objectives.ResearchScreenCanvas.PrimaryTechTree.Desc=이 버튼을 클릭하면 <h>기술 계통도</h> 탭을 열리며 현재 연구 중인 기술로 이동합니다. 기술 계통도에서 앞으로 진행할 연구를 미리 살펴보고 계획할 수 있습니다.<br/><br/>창 상단의 탭을 통해서도 기술 계통도로 들어갈 수 있습니다.
+
 UI.Objectives.NationsScreenCanvas.NationsSort.Name=정렬하기
 UI.Objectives.NationsScreenCanvas.NationsSort.Desc=여기에서 열 머리글을 클릭하면 해당 열을 기준으로 목록이 정렬됩니다. 다시 클릭하면 정렬 순서가 역전됩니다.<br/><br/>오른쪽의 체크박스를 선택하면 우리 진영이 통제하는 국가를 필터링합니다.
+
 UI.Objectives.NationsScreenCanvas.NationsExpand.Name=국가 상세 정보
 UI.Objectives.NationsScreenCanvas.NationsExpand.Desc=국가의 통제 지점 또는 해당 행의 다른 항목 위에 마우스를 올리면 해당 국가의 그 값에 대해 자세히 알아볼 수 있습니다.
 UI.Objectives.NationsScreenCanvas.NationsControlPriority.Name=우선순위 템플릿 적용
 UI.Objectives.NationsScreenCanvas.NationsControlPriority.Desc=어떤 국가의 통제 지점을 지배하고 있다면, 이곳의 드롭다운 메뉴를 통해 해당 통제 지점에 <h>우선순위 템플릿</h>을 적용하도록 선택할 수 있습니다.<br/><br/>통제 지점을 소유하지 않은 국가의 우선순위는 수정할 수 없습니다.
+
 UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Name=우선순위 템플릿 설계
 UI.Objectives.NationsScreenCanvas.NationsDesignTemplate.Desc=여기를 클릭하여 나만의 맞춤형 우선순위 템플릿을 설계할 수 있습니다.
+
 UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Name=통제 지점 수용력
 UI.Objectives.NationsScreenCanvas.NationsControlPointCosts.Desc=통제 지점 수용량 패널은 우리 진영이 통제 지점을 보유할 수 있는 용량을 요약하며, 현재 보유 중인 통제 지점이 통제 지점 상한에 어떻게 기여하고 있는지에 대한 자세한 내용을 보여줍니다.
+
 UI.Objectives.NationsScreenCanvas.DesignCycler.Name=우선순위 순환바
 UI.Objectives.NationsScreenCanvas.DesignCycler.NameShort=우선순위 템플릿
 UI.Objectives.NationsScreenCanvas.DesignCycler.Desc=이 열에는 <h>우선순위 순환버</h>가 있습니다. 점을 클릭 또는 오른쪽 클릭하면 특정 우선순위에 할당된 가중치를 조정할 수 있습니다. 이렇게 하면 설계 중인 우선순위 템플릿에 대한 우선순위별 투자 포인트 할당이 변경됩니다. 오른쪽의 백분율은 이 템플릿을 사용할 때 각 우선순위가 받게 될 투자 비율을 나타냅니다.
@@ -411,169 +472,244 @@ UI.Objectives.NationsScreenCanvas.DesignSave.Name=템플릿 저장
 UI.Objectives.NationsScreenCanvas.DesignSave.Desc=완료되고 나면 여기를 클릭하여 템플릿을 저장하세요. 저장된 템플릿은 국가의 우선순위 탭에 있는 사전 설정 드롭다운 메뉴에서 사용할 수 있습니다. 템플릿은 국가 창에서도 적용할 수 있습니다.
 UI.Objectives.NationsScreenCanvas.DesignLoad.Name=설계 불러오기
 UI.Objectives.NationsScreenCanvas.DesignLoad.Desc=이 드롭다운 메뉴를 사용하면 저장된 템플릿이나 사전 설정된 템플릿을 템플릿 설계자에서 불러와 확인할 수 있습니다. 그런 다음, 원하는 대로 템플릿 값을 맞춤 설정하고, 새 이름을 지정하여 새 템플릿으로 저장할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.Intro.Name=우주 전투
 UI.Objectives.SpaceCombatCanvas.Intro.Desc=<h>우주 전투</h>에 오신 것을 환영합니다! 모든 전투의 목표는 전략적 상황에 따라 달라집니다. 우리 함대가 우위를 점했다고 판단되면, 목표는 적 함대를 파괴하거나 강제로 후퇴시키는 것입니다. 상황이 불리하다고 판단되면, 가능한 한 많은 함선을 전투에서 철수시키는 것이 목표일 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.Formations.Name=대형
 UI.Objectives.SpaceCombatCanvas.Formations.Desc=모든 우주 전투가 시작될 때마다, 함대의 초기 <h>대형</h>을 정하게 됩니다. 함대 대형을 수정하여 함선의 배치를 제어할 수 있습니다. 적절한 대형을 선택하는 것은 승리할 확률에 큰 영향을 미칠 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFriendlyShipList.Name=전투 중인 함선
 UI.Objectives.SpaceCombatCanvas.MainFriendlyShipList.Desc=이 패널은 전장에서 활동 중인 함선 목록과 각 함선에 대한 정보를 표시합니다.<br/><br/>함선의 명판 위에 마우스를 올리면 해당 함선의 세부 정보와 주요 시스템 개요를 확인할 수 있습니다.<br/><br/>함선을 클릭하면 <h>선택한 함선 세부 정보</h> 패널이 열리고, 함선별 명령 및 사격 제어 기능이 표시됩니다.<br/><br/>함선을 더블 클릭하면 전장에서 해당 함선에 보기를 집중합니다.
+
 UI.Objectives.SpaceCombatCanvas.MainEnemyShipList.Name=적 함선
 UI.Objectives.SpaceCombatCanvas.MainEnemyShipList.Desc=이 패널은 전장에 있는 모든 적 함선 목록과 각 함선의 전체적인 피해를 표시합니다.<br/><br/>함선 명판 위에 마우스를 올리면 해당 함선의 세부 정보와 주요 시스템 개요를 확인할 수 있습니다.<br/><br/>함선을 더블 클릭하면 전장에서 해당 함선에 보기를 집중합니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Name=함대 명령 표시줄
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Desc=<h>함대 명령 표시줄</h>은 <h>모든 함선에 동시에</h> 내릴 수 있는 다양한 <h>명령</h>을 제공합니다.<br/><br/>명령은 완료되거나 새로운 명령이 내려질 때까지 함선이 수행을 시도하는 지시 사항입니다. 함선 시스템 손상, 델타-V 부족 또는 기타 상황으로 인해 함선이 명령을 성공적으로 따르지 못할 수 있습니다.<br/><br/>각 명령 버튼 위에 마우스를 올리면 자세한 내용을 확인할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Name=주요 표적 설정
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=<h>주요 표적 설정</h> 명령 버튼을 눌러 우리 함선의 공격 무기가 우선적으로 조준할 적을 지정합니다. 미사일 무기를 발사하려면 주요 표적이 지정되어야 합니다.<br/><br/><h>{0}를 길게 누른 상태에서 적 표적을 클릭</h>하여 함대의 주요 목표를 설정할 수도 있습니다.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=<h>주요 표적 설정</h> 명령 버튼을 눌러 우리 함선의 공격 무기가 우선적으로 조준할 적을 지정합니다. 미사일 무기를 발사하려면 주요 표적이 지정되어야 합니다.<br/><br/><h>({0}) 키를 누른 상태에서 적 표적을 클릭</h>하여 함대의 주요 목표를 설정할 수도 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Name=주요 표적 해제
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Desc=<h>주요 표적 해제</h> 명령 버튼을 눌러 우리 함대의 모든 함선에서 현재의 주요 표적을 해제하고 자율 사격을 허가합니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandExtendRadiators.Name=라디에이터 펼치기
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandExtendRadiators.Desc=<h>라디에이터 펼치기</h> 명령 버튼을 누르면 우리 함대의 모든 함선이 라디에이터를 펼칩니다. 라디에이터는 펼친 상태에서 함선의 히트싱크에 저장된 열을 발산합니다. 그러나 펼친 상태에서는 공격에 극도로 취약해집니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandRetractRadiators.Name=라디에이터 접기
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandRetractRadiators.Desc=<h>라디에이터 접기</h> 명령 버튼을 누르면 우리 함대의 모든 함선이 라디에이터를 접습니다. 라디에이터는 접힌 상태에서 공격으로부터 보호됩니다. 그러나 접힌 상태에서 열을 발산하지는 않습니다.<br/><br/>함선의 열 수준이 최대로 가득 차면 라디에이터가 강제로 펼쳐집니다. 라디에이터가 파괴되면 함선은 지나친 열로 인해 피해를 입습니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandAIControl.Name=AI 제어
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandAIControl.Desc=<h>AI 제어 설정</h> 명령 버튼을 눌러 우리 AI가 우리 함대를 제어하도록 설정합니다. 함대 내 각 함선의 등급의 역할에 따라 함선 행동이 달라집니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFocusFire.Name=집중 사격 태세
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFocusFire.Desc=<h>집중 사격 태세</h> 명령 버튼을 눌러 가능한 우리 함선 무기 전체를 <h>집중 사격</h>으로 설정합니다.<br/><br/>무기가 함선의 주요 표적을 향해 발사되나, 표적이 설정되지 않았거나 사거리를 벗어난 경우에는 무기가 발사되지 않습니다. 호위 가능한 무기도 방어 목적으로 발사하지 않습니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureAttack.Name=공격 태세
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureAttack.Desc=<h>공격 태세</h> 명령 버튼을 눌러 가능한 우리 함선 무기 전체를 <h>공격 모드</h>로 설정합니다.<br/><br/>무기가 함선의 주요 표적을 향해 발사되나, 표적이 설정되지 않았거나 사거리를 벗어난 경우에는 무기가 사거리 내 가장 가까운 적을 향해 발사됩니다. 호위 가능한 무기는 방어 목적으로 발사하지 않습니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureBalanced.Name=균형 태세
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureBalanced.Desc=<h>균형 태세</h> 명령 버튼을 눌러 가능한 우리 함선 무기 전체를 <h>호위 모드</h>, 가능하지 않은 경우 <h>공격 모드</h>로 설정합니다.<br/><br/>호위 가능한 무기가 함선을 표적으로 삼기 전에 위협적인 적의 발사체를 먼저 사격합니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureDefensive.Name=방어 태세
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureDefensive.Desc=<h>방어 태세</h> 명령 버튼을 눌러 가능한 우리 함선 무기 전체를 <h>방어 모드</h>, 가능하지 않은 경우 <h>공격 모드</h>로 설정합니다.<br/><br/>방어 가능한 무기가 위협적인 적의 발사체를 향해 사격하지만, 함선을 목표로 삼지 않습니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFortified.Name=요새화 태세
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandPostureFortified.Desc=<h>요새화 태세</h> 명령 버튼을 눌러 가능한 우리 함선 무기 전체를 <h>방어 모드</h>, 가능하지 않은 경우 <h>유휴 상태</h>로 설정합니다.<br/><br/>방어 가능한 무기가 없는 함선은 모든 무기를 유휴 상태로 설정하게 됩니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandManeuver.Name=특수 기동
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandManeuver.Desc=<h>특수 기동 패널 전환</h> 버튼을 클릭하여 함대의 고급 기동 옵션을 위한 추가 패널을 엽니다. 이를 사용하여 함대의 추력, 궤적, 또는 회전 및 방향 각도를 제어하여 전투 중에 각 함선을 더 나은 위치에 배치할 수 있습니다. 예를 들어, 함대 전체에 모두 정지 명령을 내리면 함대 내 모든 함선이 정지합니다.<br/><br/>각 기동 위에 마우스를 올리면 더 자세한 내용을 확인할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.OfferToEndBattle.Name=전투 종료 제안
 UI.Objectives.SpaceCombatCanvas.OfferToEndBattle.Desc=적 지휘관과의 상호 합의에 따라 <h>전투 종료를 제안</h>하려면 이 항목을 선택하세요. 양측 모두 이 옵션을 활성화하면 전투가 종료됩니다. 거주지가 있는 경우 승리는 방어 진영에 돌아갑니다.
+
 UI.Objectives.SpaceCombatCanvas.EndBattle.Name=전투 종료하기
 UI.Objectives.SpaceCombatCanvas.EndBattle.Desc=함대가 파괴되거나, 후퇴하거나, 양측이 전투를 끝내기로 합의하거나, 전투가 자동으로 해결되면 전투가 종료됩니다.
+
 UI.Objectives.SpaceCombatCanvas.TimeControls.Name=전투 시간 설정
 UI.Objectives.SpaceCombatCanvas.TimeControls.Desc=이곳의 시간 제어 기능을 사용하면 우주 전투 중에 게임을 일시 정지하거나 속도를 조정할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Name=선택 함선 세부 정보
 UI.Objectives.SpaceCombatCanvas.ShipDetailOverview.Desc=이 패널에는 현재 선택한 아군 함선에 대한 모든 정보가 표시됩니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Name=함선 명령 표시줄
 UI.Objectives.SpaceCombatCanvas.ShipDetailCommandBar.Desc=<h>함선 명령 표시줄</h>에는 <h>현재 선택한 함선 또는 함선 그룹</h>에 내릴 수 있는 <h>명령</h>이 있습니다.<br/><br/>여기에 표시되는 많은 명령은 위쪽의 <h>함대 명령 표시줄</h>에 있는 것과 동일합니다.<br/><br/>각 명령 버튼 위에 마우스를 올리면 더 자세한 내용을 확인할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Name=충각 속도
 UI.Objectives.SpaceCombatCanvas.ShipDetailRamming.Desc=<h>충각 속도</h> 명령 버튼을 클릭하면 이 함선이 적 함선과 충돌하게 합니다. 주요 표적이 설정된 경우, 해당 함선은 적극적으로 충돌을 시도하여 양측 모두에 큰 피해를 줍니다. 이는 일반적으로 <color=#FFFFFFFF><sprite name=influence></color> 영향력 비용을 발생시키며, 승무원들이 목숨을 포기하도록 설득할 수 있는 능력을 나타냅니다.<br/><br/><h>충각 속도 명령 취소</h> 버튼을 클릭하면 함선이 표적에 대한 충돌을 중단하고 적 함선과의 충돌을 불허합니다. 명령을 내리는 데 드는 <color=#FFFFFFFF><sprite name=influence></color>영향력 비용은 환불되지 않습니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailDisengage.Name=철수
 UI.Objectives.SpaceCombatCanvas.ShipDetailDisengage.Desc=<h>철수</h> 명령 버튼을 클릭하여 함선이 전투에서 철수하도록 명령합니다. 30분이 지나고 해당 함선이 모든 적 함선으로부터 2000km 이상 떨어져 있으면 무사히 퇴각합니다. 함선의 모든 무기는 <h>방어 모드</h>로 설정됩니다.<br/><br/>철수한 함선은 돌아오지 않으며, 증원군이 그 자리에 도착할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Name=특수 기동
 UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Desc=<h>특수 기동 패널 전환</h> 버튼을 클릭하여 선택한 함선의 고급 기동 옵션을 위한 추가 패널을 엽니다. 이를 사용하여 해당 함선의 추력, 궤적, 또는 회전 및 방향 각도를 제어하여 전투 중에 더 나은 위치에 배치할 수 있습니다.<br/><br/>예를 들어, 함선에 주요 표적에 고정하도록 명령하여 함선의 함수를 표적 쪽으로 향하게 하거나, 적의 사격에 대한 노출을 최소화하기 위해 방어 기동을 실시하도록 합니다.<br/><br/>각 기동 위에 마우스를 올리면 더 자세한 내용을 확인할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Name=함선 온도
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Desc=이 측정기는 함선의 히트 싱크에 저장된 열을 표시합니다. 라디에이터가 펼쳐질 때마다 열이 방출됩니다. 열 수준이 최대에 도달하면 함선이 내부 손상을 입기 시작합니다. 가능한 경우 라디에이터가 자동으로 펼쳐져 열 방출을 시작할 것입니다.<br/><br/><h>적절히 열 관리를 하지 않으면 함선에 치명적인 고장이 발생합니다.</h>
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=함선 전력
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=이 측정기는 선택된 함선에 남은 사용 가능 전력을 표시합니다. 모든 함선에는 함선 시스템과 무기를 지원할 수 있는 충분한 용량의 반응로가 있지만, 시스템이 손상되면 함선에 배터리 유틸리티 모듈이 하나 이상 설치되지 않으면 작동을 멈출 수 있습니다.<br/><br/><h>함선이 중요한 순간에 최적의 강도로 싸울 수 있도록 에너지 소비량과 남은 충전량을 모니터링합니다.</h>
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=이 측정기는 선택된 함선에 남은 사용 가능 전력을 표시합니다. 모든 함선에는 함선 시스템과 무기를 지원할 수 있는 충분한 용량의 반응로가 있지만, 함선에 배터리 유틸리티 모듈이 설치되지 않으면, 반응로 손상 시 시스템이 작동을 멈출 수 있습니다.<br/><br/><h>함선이 중요한 순간에 최적의 강도로 싸울 수 있도록 에너지 소비량과 남은 충전량을 모니터링합니다.</h>
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Name=함선 델타-V
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Desc=이 측정기는 해당 함선이 현재 전투에서 사용할 수 있는 델타-V의 남은 예산을 표시합니다.<br/><br/><h>함대의 함선은 우주 전투가 종료된 후 진행 중인 항행을 완료하기에 충분한 델타-V를 남겨둡니다.</h>
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Name=함체 무기
 UI.Objectives.SpaceCombatCanvas.ShipDetailHullWeapons.Desc=선택한 함선의 <h>선체 무기</h>가 여기에 표시됩니다. 선체 무기는 함선의 측면 선체에 쌍으로 장착되어 있으며, 어느 방향으로든 발사할 수 있도록 회전합니다. 무기 위에 마우스를 올리면 자세한 내용을 확인할 수 있습니다.<br/><br/>각 무기의 사격 모드 아이콘을 <h>클릭하거나 오른쪽 클릭</h>하면 사용 가능한 다양한 사격 모드가 순환됩니다. 다음 방법을 사용하여 여러 함선의 사격 모드를 설정할 수도 있습니다.<br/><br/><h>Ctrl 키를 누른 채 클릭</h>하면 함대 내 모든 활성 함선의 해당 유형의 모든 무기가 순환됩니다.<br/><br/><h>Shift 키를 누른 채 클릭</h>하면 선택한 함선에서 해당 유형의 모든 무기가 순환됩니다.<br/><br/><h>Alt 키를 누른 채 클릭</h>하면 선택한 함선과 같은 등급의 모든 활성 함선에서 해당 유형의 특정 무기가 순환됩니다.<br/><br/><h>Ctrl 키와 Alt 키를 누른 채 클릭</h>하면 선택한 함선과 같은 등급의 모든 활성 함선에서 해당 유형의 모든 무기가 순환됩니다.<br/><br/><h>Ctrl 키와 Shift 키를 누른 채 클릭</h>하면 그룹 내 모든 함선에서 해당 유형의 모든 무기가 순환됩니다. 이는 함선 그룹을 선택한 경우에만 사용할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Name=함수 무기
 UI.Objectives.SpaceCombatCanvas.ShipDetailNoseWeapons.Desc=선택한 함선의 <h>함수 무기</h>는 여기에 표시됩니다. 함수 무기는 함선의 "상단"에 장착되며, 함선이 향한 전방 각도에 따라 원호 내에서만 발사할 수 있습니다.<br/><br/>선체 무기 발사 모드의 설정에 사용되는 같은 제어 장치를 함선의 함수 무기에도 사용할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Name=함선 피해 보고
 UI.Objectives.SpaceCombatCanvas.ShipDetailDamage.Desc=이 섹션에는 함선의 시스템 및 모듈에 대한 <h>손상</h> 상태가 표시됩니다. 무기 장착점 위에 마우스를 올리면 세부 정보를 확인할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Name=함선 파괴
 UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Desc=함수, 함체, 함미 부분의 <h>구조적 완결성</h>이 과도한 피해를 입으면 함선이 파괴됩니다.
+
 UI.Objectives.SpaceCombatCanvas.CameraPan.Name=카메라 이동
-UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=<h>{0}</h>, <h>{1}</h>, <h>{2}</h>, <h>{3}</h>를 사용하여 카메라를 수평면을 따라 이동시킵니다.<br/><br/><h>Ctrl 키를 길게 누르고 마우스 가운데 버튼을 클릭한 채 드래그</h>하여 같은 동작을 수행할 수도 있습니다.
+UI.Objectives.SpaceCombatCanvas.CameraPan.Desc={0}</h>, <h>{1}</h>, <h>{2}</h>, <h>{3}</h> 키를 사용하여 카메라를 수평면을 따라 이동시킵니다.<br/><br/><h>Ctrl 키를 누른 채 마우스 가운데 버튼을 클릭하고 드래그</h>하여 같은 동작을 수행할 수도 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Name=카메라 회전
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Desc=<h>오른쪽 클릭 후 드래그</h>하여 카메라의 시야각을 회전할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.CameraFly.Name=카메라 조종
 UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=<h>마우스 오른쪽 버튼을 클릭한 채 {0}, {1}, {2}, {3} 키를 사용</h>하여 전장 주변으로 카메라를 조종합니다.
+
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Name=카메라 높이 조정
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Desc=<h>마우스 가운데 버튼을 클릭한 채 드래그</h>하여 카메라의 높이를 변경합니다. 이를 수행하는 동안 카메라를 좌우로 이동할 수도 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.Momentum.Name=운동량
 UI.Objectives.SpaceCombatCanvas.Momentum.Desc=아이작 뉴턴 경에 따르면, "움직이는 물체는 외부의 힘이 작용하지 않는 한 계속 움직입니다."<br/><br/>이 원리는 우주 전투 중인 함선에도 적용됩니다. 함선은 운동량을 유지하며, 지구에서처럼 공기 저항이나 표면 마찰로 자연스럽게 속도가 줄어들지 않으므로, 엔진을 가동하여 추력을 가하지 않는 한 궤적을 계속 유지합니다. 이를 이용하여 노련한 지휘관은 교묘한 기동을 펼칠 수 있지만, 경험이 부족한 지휘관은 함선이 흩어지고 전장을 표류하는 '퍼볼' 상황을 초래할 수 있습니다.<br/><br/>적에게 와해되지 않도록 운동량을 염두에 두시기 바랍니다.
+
 UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Name=함선 경유지
 UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Desc=우주 전투 중에는 <h>경유지</h>를 조작하여 함선의 움직임을 제어할 수 있습니다. 경유지는 일정 시간 후의 함선 위치, 회전, 속도를 나타냅니다. 경유지의 위치와 회전을 3차원으로 조정할 수 있습니다.<br/><br/>함선은 가장 빠르게 도달하는 경유지를 나타내는 <color=#B26A60>빨간색 경유지(1)</color> 에서 가장 먼 경유지를 나타내는 <color=#9964FF>보라색 경유지(6)</color>까지 순차적으로 이동합니다. 모든 함선은 동일한 색상의(순서대로 정렬된) 경유지에 동시에 도달합니다. 이를 이용하여 미래의 다른 함선에 대한 상대적 위치를 계획할 수 있습니다.<br/><br/><h>적의 경유지는 해당 함선의 현재 위치와 속도를 기반으로 하여 미래 위치를 예측한 것일 뿐입니다.</h>
-UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Name=경유지 요 조절
+
+UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Name=경유지 요 조절 
 UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Desc=<h>{0} 키를 길게 누른 채 경유지를 클릭하여 드래그</h>하면 경유지 요 회전을 조정합니다.함선의 회전을 변경하면 함선의 궤적은 유지하면서 함선의 방향 각도가 변경됩니다.
+
 UI.Objectives.SpaceCombatCanvas.WaypointsPitch.Name=경유지 피치 조절
 UI.Objectives.SpaceCombatCanvas.WaypointsPitch.Desc=<h>{0} 키를 길게 누른 채 경유지를 클릭하여 드래그</h>하면 경유지 피치 회전을 조정합니다. 이로써 함선의 궤적은 유지하면서 함선의 방향 각도만 변경할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.WaypointsRoll.Name=경유지 롤 조절
 UI.Objectives.SpaceCombatCanvas.WaypointsRoll.Desc=<h>{0} 키를 길게 누른 채 경유지를 클릭하여 드래그</h>하면 경유지 롤 회전을 조정합니다. 이로써 함선의 궤적은 유지하면서 함선의 방향 각도만 변경할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.WaypointsRotation.Name=회전 한계
 UI.Objectives.SpaceCombatCanvas.WaypointsRotation.Desc=만약 현재 경유지에 충분한 추력이 적용된 경우 (<color=#B26A60>빨간색 선</color>으로 표시됨), 적용된 속도로 인해 함선이 해당 각도에 도달할 시간이 부족하여 경유지의 회전을 조정할 수 없습니다. 이러한 일이 발생한 경우, 다음 경유지에서 회전을 적용해야 합니다.
+
 UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Name=경유지 추진 조절
 UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Desc=<h>{0} 키를 길게 누른 채 경유지를 클릭하여 드래그</h>하면 경유지 추진을 조정합니다. 함선은 먼저 경유지의 방향각에 정렬한 후, 주요 추진기로 추진하게 됩니다.
+
 UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Name=경유지 높이 조절
-UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Desc=<h>{0} 키를 길게 누른 채 경유지를 클릭하여 드래그</h>하면 경유지 <h>높이</h>를 조정합니다. 우주 전투는 3차원 공간에서 이루어집니다. 경유지 높이를 조정하여 수직 평면에서 함선의 궤적을 조작하세요.
+UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Desc=<h>{0} 키를 길게 누른 채 경유지를 클릭하여 드래그</h>하면 경유지 <h>높이</h>를 조정합니다. 우주 전투는 3차원 공간에서 이루어집니다. 경유지 높이를 조정하여 수직 평면에서 함선의 궤적을 조작하세요. 
+
 UI.Objectives.SpaceCombatCanvas.WaypointsReset.Name=경유지 초기화
 UI.Objectives.SpaceCombatCanvas.WaypointsReset.Desc=경유지를 <h>오른쪽 클릭</h> 하면 원래 궤적으로 초기화됩니다. 이후의 모든 경유지도 초기화됩니다.
+
 UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Name=경유지 측면 조정
-UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Desc=<h>{0} 키를 길게 누른 채 경유지를 클릭하여 드래그</h>하면 경유지의 측면 위치를 조정합니다. 경유지를 측면으로 조정하여 함선의 궤적을 수직 및 수평 복합 평면에서 조작하세요.
+UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Desc=<h>{0} 키를 길게 누른 채 경유지를 클릭하여 드래그</h>하면 경유지의 측면 위치를 조정합니다. 경유지를 측면으로 조정하여 함선의 궤적을 수직 및 수평 복합 평면에서 조작하세요. 
+
 UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Name=경유지 위치 조정
 UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Desc=함선이 이동할 방향으로 경유지를 <h>클릭하고 드래그</h>하여 수평면에서 이동하세요. <h>경유지의 위치는 함선의 기동력에 따라 이후 경유지의 가능한 이동 범위에 영향을 미칩니다.</h><br/><br/><color=#B26A60>빨간색 경유지(1)</color>는 모든 함선이 이미 해당 지점에 도달하기 위해 기동 중이므로 조정할 수 없습니다.
+
 UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Name=초록색 및 빨간색 선
-UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Desc=경유지를 드래그한 후, 경유지 사이를 연결하는 <color=#85B260>초록색 선</color> 이 <color=#B26A60>빨간색 선</color>이 되는지 확인하세요. <color=#85B260>초록색 구간</color>은 유휴 상태인 궤적를 나타내며, 이 기간에는 함선이 어떠한 기동도 하지 않음을 의미합니다. <color=#B26A60>빨간색 구간</color>은 추력 사용을 나타내며, 이 기간에 속도를 바꾸기 위해 주요 추진기를 사용합니다.
+UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Desc=경유지를 드래그한 후, 경유지 사이를 연결하는 <color=#85B260>초록색 선</color> 이 <color=#B26A60>빨간색 선</color>이 되는지 확인하세요. <color=#85B260>초록색 구간</color>은 유휴 상태인 궤적를 나타내며, 이 기간에는 함선이 어떠한 기동도 하지 않음을 의미합니다. <color=#B26A60>빨간색 구간</color>은 추력 사용을 나타내며, 이 기간에 속도를 바꾸기 위해 주요 추진기를 사용합니다. 
+
 UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Name=노란색 선
 UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Desc=경유지를 회전시킨 후, 경유지 사이를 연결하는 선이 <color=#B29B60>부분적으로 노란색</color>이 되는지 확인하세요. 노란색 구간은 함선이 추력기를 사용하여 회전하는 데 걸리는 시간을 나타냅니다.
+
 UI.Objectives.SpaceCombatCanvas.WaypointsTip.Name=함선 기동하기
 UI.Objectives.SpaceCombatCanvas.WaypointsTip.Desc=함선을 효과적으로제어하려면 무기 체계, 장갑, 기동성뿐만 아니라 날아드는 발사체, 적의 위치, 전장의 전반적인 상황을 고려해야 합니다.
+
 UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Name=그룹 선택
 UI.Objectives.SpaceCombatCanvas.MultiShipSelection.Desc=여러 함선을 한 번에 선택할 수 있습니다. 전장에서 <h>Shift 키를 누른 채 함선을 클릭</h>하면 함선 그룹을 선택할 수 있습니다. 마지막으로 선택한 함선이 함선 세부 정보 패널에 표시되며, 전장에서 해당 함선에는 두 개의 표적 강조 표시가 나타납니다<br/><br/>함선 목록에서 직접 함선 그룹을 선택할 수도 있습니다.<br/><br/><h>Ctrl 키를 누른 채 선택한 함선을 클릭</h>하면 현재 선택에서 제외됩니다.
+
 UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Name=범위 선택
 UI.Objectives.SpaceCombatCanvas.MultiShipBoxSelect.Desc=<h>범위 선택</h>을 사용하면 함선 그룹을 선택할 수도 있습니다. 원하는 함선 주변에 <h>클릭하고 드래그</h>하여 네모난 영역을 만드세요.
+
 UI.Objectives.SpaceCombatCanvas.ControlGroups.Name=그룹 제어
 UI.Objectives.SpaceCombatCanvas.ControlGroups.Desc=함선 그룹을 선택한 상태에서 <h>Ctrl 키를 누른 채 숫자 키(0~9)를 눌러</h> 선택한 함선들을 <h>제어 그룹</h>에 할당합니다. 해당 제어 그룹은 이제 눌렀던 숫자 키에 할당됩니다.<br/><br/><h>제어 그룹의 숫자 키 또는 화면 상단에 표시되는 해당 버튼을 눌러</h>  제어 그룹의 모든 활성 함선을 다시 선택합니다. 함선은 여러 제어 그룹에 할당될 수 있습니다.
 
 UI.Objectives.SpaceCombatCanvas.GroupCommands.Name=그룹 지휘
 UI.Objectives.SpaceCombatCanvas.GroupCommands.Desc=함선 그룹이 선택된 경우, <h>함선 명령 표시줄</h> 대신 <h>그룹 명령 표시줄</h>로 변경되어 선택한 그룹에 명령을 내릴 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.MultiShipMovemement.Name=그룹 이동
 UI.Objectives.SpaceCombatCanvas.MultiShipMovemement.Desc=함선 그룹을 선택하면 이동 및 회전 명령이 그룹의 모든 함선으로 전달됩니다. 함대가 쉽게 대형을 유지할 수 있도록 그룹에서 가장 기동성이 낮은 함선을 기준으로 기동성이 제한됩니다.
+
 UI.Objectives.SpaceCombatCanvas.MultiShipMovemementFree.Name=그룹 이동 해제
 UI.Objectives.SpaceCombatCanvas.MultiShipMovemementFree.Desc=<h>Shift 키를 누른 채</h> 그룹 이동 명령을 내리면 그룹 이동 기동 제한을 무시하고 각 함선이 독립적으로 이동합니다.
+
 UI.Objectives.SpaceCombatCanvas.MultiShipAttraction.Name=유인 이동
 UI.Objectives.SpaceCombatCanvas.MultiShipAttraction.Desc=<h>Ctrl 키를 누른 채</h> 그룹 이동 명령을 내리면 모든 함선이 커서 <h>방향으로</h> 이동하도록 명령할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.MultiShipRepulsion.Name=반발 이동
 UI.Objectives.SpaceCombatCanvas.MultiShipRepulsion.Desc=<h>Alt 키를 누른 채</h> 그룹 이동 명령을 내리면 모든 함선이 커서 <h>반대 방향으로</h> 이동하도록 명령할 수 있습니다.
+
 UI.Objectives.NaturalSpaceObjectOps.1.Name=우주 작전
 UI.Objectives.NaturalSpaceObjectOps.1.NameShort=작전
 UI.Objectives.NaturalSpaceObjectOps.1.Desc=우주체 또는 라그랑주 점을 선택하면, 이용 가능한 우주 작전이 있는 경우 여기에 표시됩니다. 이러한 작전은 일반적으로 지구에서 발사된 부스트와 함께 발사된 자산을 사용하여 우주체를 탐사하고 정착할 수 있도록 합니다. 이러한 자산은 지오스케이프에는 나타나지 않습니다.<br/><br/>지구에서 이러한 작전을 활성화하려면, 지역 지도가 사라질 때까지 행성 화면을 축소해야 할 수 있습니다.
 UI.Objectives.NaturalSpaceObjectOps.2.Name=탐사선
-UI.Objectives.NaturalSpaceObjectOps.2.Desc=다양한 "...로의 임무" 글로벌 기술은 태양계의 일부 지역을 탐사할 수 있도록 해금해줍니다. 우주체의 표면에 기지를 건설하려면, 먼저 탐사선이나 적절한 장비를 갖춘 함대을 사용해 해당 우주체를 탐사하고 잠재적 기지 부지를 파악해야 합니다.<br/><br/>탐사선을 발사하려면 여기에서 <h>탐사선 발사</h> 작전을 실행하거나, <h>정보 창의 태양계 탭</h> 내에서 진행할 수 있습니다. 탐사선은 지구 또는 근처 거주지의 <color=#FFFFFFFF><sprite name=construction_shipyard></color> 조선소(건설한 경우)에서 보낼 수 있습니다.
+UI.Objectives.NaturalSpaceObjectOps.2.Desc=다양한 "...로의 임무" 글로벌 기술은 태양계의 일부 지역을 탐사할 수 있도록 해금해줍니다. 우주체의 표면에 기지를 건설하려면, 먼저 탐사선이나 적절한 장비를 갖춘 함대을 사용해 해당 우주체를 탐사하고 잠재적 기지 거점을 파악해야 합니다.<br/><br/>탐사선을 발사하려면 여기에서 <h>탐사선 발사</h> 작전을 실행하거나, <h>정보 창의 태양계 탭</h> 내에서 진행할 수 있습니다. 탐사선은 지구 또는 근처 거주지의 <color=#FFFFFFFF><sprite name=construction_shipyard></color> 조선소(건설한 경우)에서 보낼 수 있습니다.
 UI.Objectives.NaturalSpaceObjectOps.3.Name=거주지 건립
 UI.Objectives.NaturalSpaceObjectOps.3.Desc=건설 및 탐사를 위한 적절한 연구가 해금되면, 지구 또는 건설 모듈을 장착한 인근 거주지로부터 발사하여 이 위치에 <h>거주지</h>(스테이션 및 기지)를 건설할 수도 있습니다. 부스트를 사용할 경우, 지구에서의 이동 시간이 포함되므로, 원거리에 있는 시설의 경우, 건설을 완료하는 데 시간이 다소 소요될 수 있습니다.
+
 UI.Objectives.ArmyOps.1.Name=군대 작전
 UI.Objectives.ArmyOps.1.NameShort=군대
 UI.Objectives.ArmyOps.1.Desc=군대는 적의 영토를 점령할 수 있는 대규모 원정군을 나타냅니다. 이 패널에서 군대를 제어할 수 있습니다.<br/><br/>우리가 제어하는 군대를 선택한 상태에서 군대가 수행할 수 있는 작전입니다. 군대 제어는 해당 군대가 소속된 통제 지점을 소유함으로써 이루어집니다.<br/><br/>군대의 주요 행동은 "군대 배치" 작전으로, 이를 통해 지구상의 합법적인 지역 어디로든 군대를 이동할 수 있습니다. 유효한 지역은 본국, 동맹국, 또는 본국과 전쟁 중인 국가 중 도달 가능한 다른 지역입니다. 군대가 도착하면 적군 및 지역 방어군과 전투를 벌이고 적의 영토를 자동으로 점령합니다.<br/><br/>또한, 해군이 배속되어 있고 본국이 적의 해상 봉쇄를 받지 않은 경우, 수역을 건널 수도 있습니다.<br/><br/>군대와 해군은 유지에 투자 포인트가 소모되지만, 본국에 주둔하면 비용이 할인됩니다.
+
 UI.Objectives.ArmyOps.2.Name=군대 작전
 UI.Objectives.ArmyOps.2.Desc=특정 군사 작전에서는 선택한 군대가 지역 내 특정 위치를 표적으로 삼을 수 있습니다. 작전 위에 마우스를 올리거나 클릭하면 해당 작전의 세부 정보를 확인할 수 있습니다.
+
 UI.Objectives.FleetOps.1.Name=함대 작전
 UI.Objectives.FleetOps.1.NameShort=함대
 UI.Objectives.FleetOps.1.Desc=함대를 선택하면 우리가 제어하는 함대에서 사용 가능한 <h>작전</h>이 여기에 표시됩니다. 사용 가능한 작전은 함대 내 함선에 장착된 모듈에 따라 폭넓게 달라질 수 있습니다. 여기에는 거주지 건설, 궤도 폭격, 함선 간 장교 및 추진제 이동, 행성 표면 착륙, 거주지에서의 재보급 등이 포함됩니다.<br/><br/>일부 함대 작전에는 소요 시간이 있어 작전이 완료되거나 중단될 때까지 해당 함대를 사용할 수 없습니다.<br/><br/>
+
 UI.Objectives.FleetOps.2.Name=이동 작전
 UI.Objectives.FleetOps.2.Desc=<h>이동</h> 작전을 통해 함대를 다른 궤도, 스테이션 또는 함대로 이동할 수 있습니다. 이 작전을 선택하면 궤적 계획기가 열립니다.<br/><br/>적 함대나 함대나 방어 모듈로 방어되고 있는 스테이션으로 이동하면 아군 함대가 표적 지점에 도달하는 즉시 <h>우주 전투</h>가 시작됩니다. 만약 적 스테이션이 무방비 상태일 경우, 아군 함대는 도착 즉시 자동으로 도킹하게 되며 추가 작전을 수행할 수 있습니다.
+
 UI.Objectives.TransferOp.1.Name=궤적 계획하기
 UI.Objectives.TransferOp.1.NameShort=항행
 UI.Objectives.TransferOp.1.Desc=이 패널들은 <h>궤적 계획기</h>로 구성되며, 함대 중 하나를 다른 궤도, 스테이션 또는 함대로 보낼 수 있습니다.<br/><br/>상단의 목록 메뉴를 사용하거나 태양계 보기에서 이동 표적을 선택하여 함대의 목적지를 변경할 수 있습니다.
+
 UI.Objectives.TransferOp.6.Name=추력 프로필
 UI.Objectives.TransferOp.6.Desc=함선의 추진 시스템이 충분히 감당할 수 있는 경우, 항행 목표를 선택하면 함대에 하나 이상의 후보 항행 경로가 생성됩니다. <h>궤적 계획기</h>는 이러한 옵션을 표시합니다.<br/><br/>이 옵션들은 함대 내 모든 함선 중 가속도와 델타-V가 가장 낮은 함선을 기준으로 생성되며, 함대에 함선을 추가하거나 분리하면 성능이 변경될 수 있습니다.<br/><br/>행성 간 이동의 경우, 출발지와 목적지의 현재 및 미래 위치에 따라 옵션이 상당히 달라질 수 있으며, 경우에 따라 델타-V를 절약하기 위해 "발사 가능 시간대"라고 하는 더 유리한 행성 간 정렬을 기다리는 것이 더 이상적일 수 있습니다. 계획기에는 이를 반영하여 출발지에서 "대기" 시간을 포함하는 옵션이 포함되어 있습니다.
+
 UI.Objectives.TransferOp.2.Name=델타-V
 UI.Objectives.TransferOp.2.Desc=이동은 함대의 델타-V를 소모합니다. 델타-V는 추진제 공급이 고갈되기 전에 속도를 얼마나 변경할 수 있는지를 나타내는 척도입니다. 이는 함선의 항속 거리를 측정하는 척도입니다. 델타-V가 부족하면 함대가 지역의 중력을 벗어나지 못하거나, 이동 속도가 너무 느려져서 지속할 수 없을 수 있습니다.<br/><br/>함대의 현재 위치와 선택한 목적지 사이에 여러 개의 이동 후보지가 있는 경우, 여기에 슬라이더가 표시됩니다. 이를 통해 델타-V와 이동 시간 사이의 균형을 조정할 수 있습니다.<br/><br/>추력 프로필을 선택하는 동안, 비행 경로가 태양계 보기에 표시됩니다.
+
 UI.Objectives.TransferOp.3.Name=델타-V 관리
 UI.Objectives.TransferOp.3.Desc=<color=#FFFFFFFF><sprite name=construction_shipyard></color> 조선소가 있는 거주지 또는 <color=#FFFFFFFF><sprite name=supply></color> 보급창 모듈에서 함대에 재보급할 수 있습니다. 함대에 목적지에 도착하기 위한 델타-V가 충분한지 확인하십시오. 함대가 전투를 시작할 것으로 예상되는 경우 더 많은 델타-V를 보존해야 할 수도 있습니다.
+
 UI.Objectives.TransferOp.4.Name=특수 기동
 UI.Objectives.TransferOp.4.Desc=궤적에 대한 두 가지 특수 기동 중 하나를 설정할 수도 있습니다.<br/><br/><h>공력제동</h>은 대기권이 있는 우주체에서만 가능하며, 감속하기 위해 대기를 활용하여 제동하므로 델타-V를 절약할 수 있습니다. 이러한 종류의 기동에 적합하지 않은 경우 함선이 손상될 위험이 있습니다.<br/><br/><h>접근 비행</h> 기동은 함대가 표적으로 삼은 목적지에서 정지하기 위해 속도를 늦추지 않고 대신 중력 보조를 사용하도록 명령합니다. 이 기동을 활용하여 목적지에 도착 시 새로운 목적지를 선택하라는 메시지가 표시됩니다.
+
 UI.Objectives.TransferOp.5.Name=우주 전투
 UI.Objectives.TransferOp.5.Desc=우리 함대를 다른 진영 함대로 향하는 궤도로 보내는 것은 우주 전투에 참여하는 방법 중 하나입니다. 우리 함대가 적 함대에 도달하거나 그 반대인 경우, 적 함대와 <h>교전</h>하거나, 적이 교전을 선택할 경우 전투를 <h>수락</h>하거나, 전투 <h>회피</h>를 시도하라는 메시지가 표시됩니다.
+
 UI.Objectives.SpaceBodyDetail.1.Name=우주체 세부 사항
 UI.Objectives.SpaceBodyDetail.1.NameShort=우주체
 UI.Objectives.SpaceBodyDetail.1.Desc=이 패널은 선택된 우주체에 대한 기본 정보를 표시합니다. 여기에는 우주체의 물리적 데이터, 채굴 잠재력, 현재 우주체에 주둔 중인 인구, 우주체가 지원할 수 있는 거주 등급이 포함됩니다.<br/><br/>중력과 탈출 속도 값이 높은 우주체일수록 지표면에서 광산을 건설하고 함선을 발사하는 데 드는 비용이 더 높아집니다.
+
 UI.Objectives.SpaceBodyDetail.2.Name=채굴 잠재력
 UI.Objectives.SpaceBodyDetail.2.Desc=여기에는 우주체에서 이용할 수 있는 태양 에너지의 양과 지표면에서 채굴 가능한 우주 자에 대한 추정치 표시됩니다. 각 측정기는 자원의 풍부함을 나타내며, "?"는 자원의 존재 가능성을 의미하며, 측정기가 없는 경우 자원이 존재하지 않음을 나타냅니다. 거주할 수 없는 우주체에서는 채굴 가능한 자원이 없습니다.
+
 UI.Objectives.SpaceBodyDetail.3.Name=궤도
 UI.Objectives.SpaceBodyDetail.3.Desc=이 탭을 선택하면 우주체 주위의 궤도 목록을 볼 수 있습니다. 궤도는 스테이션의 건설 위치이자 함대의 항행 목적지 역할을 합니다.<br/><br/>함대가 우주체의 기지에 착륙하려면, 먼저 함대가 해당 우주체 아이콘으로 표시된 접점 궤도로 항행해야 합니다. 스테이션에 도킹하려면 함대가 스테이션과 같은 궤도에 위치해야 합니다.
-UI.Objectives.SpaceBodyDetail.4.Name=거주지 부지
-UI.Objectives.SpaceBodyDetail.4.Desc=우주체가 거주 가능한 경우, "부지" 탭을 클릭하면 거주 부지의 목록을 확인할 수 있습니다. 거주지 부지는 진영이 우주체에 기지를 세울 수 있는 위치입니다. 우주체를 조사하고나면, 해당 거주지 부지의 정확한 수입이 여기에 표시됩니다. 부시에 기지가 건설되면, 어느 진영이 통제하는지 나타내기 위해 해당 진영의 아이콘으로 표시됩니다.
+
+UI.Objectives.SpaceBodyDetail.4.Name=거주지 거점
+UI.Objectives.SpaceBodyDetail.4.Desc=우주체가 거주 가능한 경우, "거점" 탭을 클릭하면 거주지 거점의 목록을 확인할 수 있습니다. 거주지 거점은 진영이 우주체에 기지를 세울 수 있는 위치입니다. 우주체를 조사하고나면, 해당 거주지 거점의 정확한 수입이 여기에 표시됩니다. 거점에 기지가 건설되면, 어느 진영이 통제하는지 나타내기 위해 해당 진영의 아이콘으로 표시됩니다.
+
 UI.Objectives.LagrangePoint.1.Name=라그랑주 점 세부 사항
 UI.Objectives.LagrangePoint.1.NameShort=L-점
 UI.Objectives.LagrangePoint.1.Desc=라그랑주 점은 가까운 우주체의 중력 상호 작용에 의해 생성된 공간상의 점입니다. 함대와 스테이션의 안정적인 정박지 역할을 할 수 있습니다.
+
 UI.Objectives.Hab.1.Name=거주지 세부 정보
 UI.Objectives.Hab.1.NameShort=거주지
 UI.Objectives.Hab.1.Desc=이 패널에는 선택한 거주지에 대한 기본 정보가 표시됩니다. 거주지의 이미지를 클릭하면 더 자세한 내용을 볼 수 있습니다. 해당 거주지를 관리하는 경우 거주지 관리자가 열리고, 관리하지 않는 경우 거주지 목록이 열립니다.
+
 UI.Objectives.EnemyFleet.1.Name=함대 상세
 UI.Objectives.EnemyFleet.1.NameShort=적 함대
 UI.Objectives.EnemyFleet.1.Desc=선택한 적 함대에 대한 세부 정보가 여기에 표시됩니다. 여기에는 함대의 현재 위치, 작전, 델타-V 예산, 함대 전체 가속도가 포함됩니다.<br/><br/>함대 이미지를 클릭하면 더 자세한 내용을 볼 수 있습니다. 그러면 함대 목록이 열리고 같은 진영에 속한 모든 함대가 표시됩니다.
+
 UI.Tutorial.VO.1=안녕하십니까 지휘관님, 참모총장 피오나 아요아데입니다. 현재 상황에 대해 보고하겠습니다.
 UI.Tutorial.VO.2=우리 협의회는 지구에서 가장 우수하고 뛰어난 인재들로 구성되어 있습니다. 그들은 유능하고, 인맥이 넓으며, 지휘관님의 명령을 따를 것입니다.
 UI.Tutorial.VO.3=우리가 정말로 침략의 위협에 직면했다면, 지금 바로 조직 정비를 시작해야 합니다. 전례 없는 규모의 국제적 협력이 필요할 것입니다. 의원들에게 전 세계의 전략적 요충지에서 지원을 확보하는 임무를 맡길 것을 권장합니다.
@@ -611,15 +747,15 @@ UI.Tutorial.VO.20a=우선순위 템플릿 설계자를 사용하면 쉽게 재�
 UI.Tutorial.VO.20b=이 화면은 통제 지점의 수용력을 보고합니다. 감당할 수 있는 것보다 더 많은 통제 지점을 관리하면 운영에 부담이 되고 유지관리를 위한 영향력 비용이 발생합니다.
 UI.Tutorial.VO.21=기술 기업, 카르텔, 정보 기관 등 어디라도 우리에게 강력한 지원을 제공하도록 활용될 수 있습니다.
 UI.Tutorial.VO.22=우리는 혼자가 아닌 것 같습니다. 다른 진영의 의원이 전 세계에서 임무를 시작하고 있습니다.
-UI.Tutorial.VO.23=인터페이스의 왼쪽에는 뉴스 피드가 있습니다. 이 피드는 중요한 이벤트를 알려줍니다. 작전과 관련한 일부 시간에 민감한 업데이트는 화면 왼쪽 상단에도 표시됩니다.
+UI.Tutorial.VO.23=인터페이스의 왼쪽에는 뉴스 피드가 있습니다. 이 피드는 중요한 이벤트를 알려줍니다. 작전과 관련한 일부 시간에 민감한 업데이트는 화면 왼쪽 상단에도 표시됩니다. 
 UI.Tutorial.VO.24=지휘관님, 외계 우주선이 지구로 향한다는 보고가 들어오고 있습니다.
 UI.Tutorial.VO.25=사령관님, 글로벌 연구에 대한 우리의 기여 덕분에 과학계의 연구 방향을 주도할 기회를 잡았습니다. 명령을 내려주십시오.
-UI.Tutorial.VO.26=연구 기지, 우주 정거장, 보급 허브, 이 모든 것이 필요합니다. 준비가 되었다고 생각되면 궤도로 도약하십시오.
+UI.Tutorial.VO.26=연구 기지, 우주 도크, 보급 허브, 이 모든 것이 필요합니다. 준비가 되었다고 생각되면 궤도로 도약하십시오.
 UI.Tutorial.VO.27=전력 공급 솔루션이 없다면 스테이션은 무용지물이 될 것입니다.
 UI.Tutorial.VO.28=이제 스테이션을 가동할 때입니다.
 UI.Tutorial.VO.29=함대를 지원하기 위해서는 광범위한 채굴 작업이 필요합니다. 탐사선을 발사하면 중요한 탐사 데이터를 수집하는 데 도움이 됩니다.
 UI.Tutorial.VO.30=채굴 단지는 우주 자원을 확보하는 주요 수단입니다. 지구에서 발사하는 값비싼 로켓을 사용할 필요 없이 거주지와 우주선을 건설할 수 있음을 의미합니다.
-UI.Tutorial.VO.31=전쟁 함대 건조를 시작하려면 우주 정거장을 건설해야 합니다.
+UI.Tutorial.VO.31=전쟁 함대 건조를 시작하려면 우주 도크를 건설해야 합니다.
 UI.Tutorial.VO.32=드디어 공격할 수 있는 것을 만들게 되었습니다.
 UI.Tutorial.VO.33=외계인과의 전쟁은 지구에서만 이길 수는 없습니다. 외계인을 방어하고 결국에는 공격하기 위해 전함을 계속 건조해야 합니다.
 UI.Tutorial.VO.34=이것은 거주지 화면입니다. 여기에서 궤도 스테이션과 행성, 달 또는 소행성에 있는 모든 기지를 관리할 수 있습니다. 또한 발견한 다른 스테이션이나 기지를 확인할 수 있습니다.
@@ -629,445 +765,657 @@ UI.Tutorial.VO.36a=설계한 함선이 여기에 표시됩니다. 건조 시설�
 UI.Tutorial.VO.37=우주체를 선택하면 물리적 특성, 채굴 지역, 궤도에 대한 데이터를 확인하고 스테이션 및 기지 건설을 주문할 수 있습니다.
 UI.Tutorial.VO.38=소프트 파워만으로는 해결할 수 없다면, 하드웨어를 투입하세요.
 UI.Tutorial.VO.39=코덱스에는 우리 진영의 작전을 관리하는 방법에 대한 중요한 정보가 포함되어 있습니다. 질문이 있다면 코덱스를 확인하는 것이 좋습니다. 상황의 변화에 따라 지속적으로 업데이트됩니다.
+
 UI.Objectives.GeneralControlsCanvas.IntroInterface.NameShort=소개
 UI.Objectives.GeneralControlsCanvas.IntroInterface.Name=일반 UI
 UI.Objectives.GeneralControlsCanvas.IntroInterface.Desc=테라 인빅타의 일반 사용자 인터페이스(UI)는 화면 상단과 오른쪽에 표시되는 여러 개의 표시줄 및 패널로 구성됩니다.
+
 UI.Objectives.GeneralControlsCanvas.EventsSummary.Name=이벤트 요약
 UI.Objectives.GeneralControlsCanvas.EventsSummary.Desc=이 버튼을 누르면 <h>이벤트 요약</h> 창이 열리며, 시간 순으로 최근 기록된 이벤트를 검토할 수 있습니다. 이벤트는 우리 진영 관련 이벤트부터 우주에서의 최근 동향에 이르기까지 다양한 탭으로 구성됩니다.
+
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Name=지구 보기
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Desc=이 버튼을 누르면 지구에 초점을 맞추며, 국경, 군대, 외계 관련 현상을 표시하는 지오스케이프를 활성화합니다.
-UI.Objectives.GeneralControlsCanvas.Finder2.Name=찾기
-UI.Objectives.GeneralControlsCanvas.Finder2.Desc=이 버튼을 누르면 <h>찾기</h> 창이 열리며, 태양계와 지구의 여러 목표물을 이름으로 찾아볼 수 있습니다. <h>{0}를 눌러</h> 언제든지 찾기 창을 열 수도 있습니다.
+
+UI.Objectives.GeneralControlsCanvas.Finder2.Name=찾기 
+UI.Objectives.GeneralControlsCanvas.Finder2.Desc=이 버튼을 누르면 <h>찾기</h> 창이 열리며, 태양계와 지구의 여러 목표물을 이름으로 찾아볼 수 있습니다. <h>({0}) 키를 눌러</h> 언제든지 찾기 창을 열 수도 있습니다.
+
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Name=알림 설정
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Desc=게임 내 시계를 클릭하여 <h>알람 설정</h> 창을 열어 미래의 특정 시간에 표시될 사용자 정의 알림을 만들 수 있습니다. 이 사용자 지정 알람은 협의회 패널에서 접근할 수 있는 우리 진영 달력에서도 추적할 수 있습니다.
+
 UI.Objectives.GeneralControlsCanvas.Codex.Name=코덱스
 UI.Objectives.GeneralControlsCanvas.Codex.Desc=이 버튼을 누르면 다양한 게임 메커니즘에 관한 정보를 모아둔 <h>코덱스</h>가 열립니다. 이 버튼은 다른 창과 패널에서도 찾을 수 있으며, 누르면 해당 코덱스 항목이 열립니다.
+
 UI.Objectives.GeneralControlsCanvas.CloseTutorial.Name=튜토리얼 숨기기
 UI.Objectives.GeneralControlsCanvas.CloseTutorial.Desc=일시적으로 인터페이스 튜토리얼을 숨기려면, 숨기기 버튼을 누르세요. <color=#FFFFFFFF><sprite name=tutorial></color> 튜토리얼 아이콘은 화면 상단에 현재 튜토리얼 목표 옆에 다시 표시됩니다.
+
 UI.Objectives.GeneralControlsCanvas.CloseTutorial2.Name=튜토리얼 없애기
 UI.Objectives.GeneralControlsCanvas.CloseTutorial2.Desc=인터페이스 튜토리얼을 영구적으로 없애려면 "X" 버튼을 누르세요. 모든 인터페이스 튜토리얼은 다시 보고 싶은 경우 코덱스를 통해 재설정할 수 있습니다.
+
 UI.Objectives.GeneralControlsCanvas.SpaceResource.Name=우주 자원
 UI.Objectives.GeneralControlsCanvas.SpaceResource.Desc=상단 표시줄의 이 부분은 현재 <h>우주 자원</h> 및 수입을 표시합니다. 이는 <color=#FFFFFFFF><sprite name=boost></color> 부스트를 사용하여 지구에서 동등한 자원을 구매하고 발사하는 비용 없이 우주 자산을 개발하고 유지하는 데 사용됩니다. 각 자원에 마우스를 올리면 자세한 내용을 확인할 수 있습니다.<br/><br/><color=#FFFFFFFF><sprite name=water></color> <h>물</h>, <color=#FFFFFFFF><sprite name=volatiles></color> <h>휘발성 물질</h>, <color=#FFFFFFFF><sprite name=metal></color> <h>비금속</h>, <color=#FFFFFFFF><sprite name=metal_noble></color> <h>귀금속</h>, <color=#FFFFFFFF><sprite name=radioactive></color> <h>핵분열성 물질</h>은 모두 주로 지구 이외의 우주체에 채굴 시설을 개발하여 확보합니다. 지구 표면 너머로 진출을 확립하게 되면, 이러한 자원의 안정적인 수입이 태양계로의 확장에 핵심적인 역할을 할 것입니다.
+
 UI.Objectives.NationInfoCanvas.Sustain.Name=지속 가능성
 UI.Objectives.NationInfoCanvas.Sustain.Desc=국가의  <color=#FFFFFFFF><sprite name=greeneconomy_yellow></color> 지속 가능성 점수는 국가의 영토 내 경제 활동으로 인해 대기 중으로 온실 가스가 배출되는 것을 방지하는 능력을 나타냅니다. 이는 국가의 GDP, 인구, <color=#FFFFFFFF><sprite name=oil></color> 석유 자원 지역의 존재 여부에 따라 예상되는 이산화탄소, 메탄 및 아산화질소 배출량과의 상쇄를 나타냅니다.<br/><br/><color=#FFFFFFFF><sprite name=greeneconomy_blue></color> 지속 가능성 점수가 높을수록 해당 국가 경제에서 발생하는 온실가스가 감소합니다. 지속 가능성 점수가 <color=#FFFFFFFF><sprite name=greeneconomy_green></color> 10에 도달하면, 해당 국가는 온실가스 배출을 완전히 막으며, 추가 투자를 통해 대기 중 온실가스를 제거하기 시작합니다.
+
 UI.Objectives.ResearchScreenCanvas.PrimaryChange.Name=프로젝트 변경
 UI.Objectives.ResearchScreenCanvas.PrimaryChange.Desc=이 버튼을 클릭하면 "공학 프로젝트 선택" 하위 창이 열리며, 우리 진영에서 사용 가능한 프로젝트 목록이 표시됩니다. 새로 선택한 프로젝트는 현재 진행 중인 프로젝트를 대체합니다. 이미 대체된 프로젝트의 연구 진행도는 그대로 유지되므로, 필요에 따라 자유롭게 프로젝트를 전환하고 우선순위를 다시 조정하세요.
+
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorGoTo.Name=의원으로 이동
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorGoTo.Desc=여기서 이동 버튼을 클릭하면 해당 의원의 위치가 화면 중앙에 표시됩니다.
+
 UI.Objectives.NationsScreenCanvas.NationsOverview.NameShort=국가
 UI.Objectives.NationsScreenCanvas.NationsOverview.Name=국가
 UI.Objectives.NationsScreenCanvas.NationsOverview.Desc=<h>국가</h>창은 지구상의 모든 국가에 대한 정보를 표시합니다.
+
 UI.Objectives.NationsScreenCanvas.NationsGoTo.Name=국가로 이동
 UI.Objectives.NationsScreenCanvas.NationsGoTo.Desc=여기서 이동 버튼을 클릭하면 국가 창이 닫히고 선택한 국가가 화면 중앙에 표시됩니다.
+
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorDetect.Name=의원 감지
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorDetect.Desc=우리 의원이 다른 진영의 군대에 감지되었다는 사실을 인지하는 경우, 해당 진영의 아이콘이 의원 이미지 오른쪽에 표시됩니다.
+
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorPortrait.Name=의원 세부 정보
 UI.Objectives.CouncilorMissionControlsCanvas.CouncilorPortrait.Desc=의원의 강점과 약점을 이해하는 것이 성공의 핵심입니다. 의원 이미지를 누르면 언제든지 <h>의원 상세 정보</h> 창을 열어 더 자세한 정보를 확인할 수 있습니다.
+
 UI.Objectives.CouncilorMissionControlsCanvas.Target2.Name=대상에 사용 가능한 임무
 UI.Objectives.CouncilorMissionControlsCanvas.Target2.Desc=Ctrl 키를 누른 채 지오스케이프에서 다양한 대상을 누르면, 해당 대상에 대해 의원이 수행할 수 있는 모든 임무를 확인할 수 있습니다. 해당 대상의 화면 우측에 수행 가능한 임무 목록과 기본 성공 확률이 표시됩니다.<br/><br/>지역이나 국가를 대상으로 하는 경우, Ctrl 키를 누른 채 대상을 다시 클릭하면 해당 지역과 국가의 임무 목록을 순환하며 확인할 수 있습니다.
+
 UI.Objectives.CouncilorMissionControlsCanvas.Automate.Name=임무 자동화
 UI.Objectives.CouncilorMissionControlsCanvas.Automate.Desc=여기를 누르면 선택한 의원에게 임무 할당 권한을 넘깁니다. 해당 의원은 각 임무 할당 단계마다 제한된 일련의 임무 중 하나를 자동으로 할당받습니다. 버튼 위에 마우스를 올리면 더 자세한 내용을 확인할 수 있습니다.
+
 UI.Objectives.CouncilorMissionControlsCanvas.Abort.Name=임무 중단
 UI.Objectives.CouncilorMissionControlsCanvas.Abort.Desc=필요 시, 의원 이미지에 표시되는 버튼을 사용하여 현재 할당된 임무를 <h>중단</h>할 수 있습니다. 해당 진영은 임무에 소모된 모든 자원을 회수합니다.
+
 UI.Objectives.CouncilGridCanvas.Advice.Name=조언
 UI.Objectives.CouncilGridCanvas.Advice.Desc=여기를 눌러 우리 협의회 구성원에게 진영의 목표를 달성하기 위한 조언을 제공하도록 요청하세요.
+
 UI.Objectives.CouncilGridCanvas.OrgManagement.Name=조직 관리
 UI.Objectives.CouncilGridCanvas.OrgManagement.Desc=이 탭을 선택하면 우리 진영이 소유하고 협의회 의원에게 할당된 모든 조직을 검토할 수 있습니다. 또한, 필요한 자원 지출을 즉시 하지 않고도 의원들 간, 진영 풀에서, 조직 시장에서 대규모 조직 교환을 계획할 수 있습니다.
+
 UI.Objectives.CouncilGridCanvas.CouncilLedger.Name=장부
 UI.Objectives.CouncilGridCanvas.CouncilLedger.Desc=이 탭을 선택하면 우리 진영의 수입, 지출, 연구 혜택을 검토할 수 있습니다. 월별 장부는 특정 자산이 우리 진영의 자원을 소모하는지 판단하는 데 유용합니다.
+
 UI.Objectives.CouncilGridCanvas.CouncilCalendar.Name=캘린더
 UI.Objectives.CouncilGridCanvas.CouncilCalendar.Desc=이 탭을 선택하면 다가오는 이벤트를 검토하고 맞춤형 알림을 설정할 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.ClassSort.Name=정렬하기
 UI.Objectives.FleetScreenCanvas.ClassSort.Desc=열 머리글을 누르면 해당 값을 기준으로 등급이 정렬됩니다. 머리글을 다시 누르면 정렬 순서가 역전됩니다.
+
 UI.Objectives.FleetScreenCanvas.AssaultValue.Name=전투력 및 공격력
 UI.Objectives.FleetScreenCanvas.AssaultValue.Desc=이 열의 값은 함선 등급의 <color=#FFFFFFFF><sprite name=combat_score></color> <h>전투력</h>과 <color=#FFFFFFFF><sprite name=space_assault_score></color> <h>공격력</h>을 나타냅니다.<br/><br/>함선의 전투력은 적 함대나 거주지와 교전 시 함선의 위력을 추정한 값입니다.<br/><br/>함선의 공격력은 함선이 거주지를 침공하여 점령할 수 있는 역량을 나타냅니다. 함선 등급에 장착된 해병 모듈은 함선의 공격력을 높입니다.
+
 UI.Objectives.FleetScreenCanvas.ClassSort2.Name=가속도
 UI.Objectives.FleetScreenCanvas.ClassSort2.Desc=이 열의 값은 함선 등급에 대한 <h>순항 가속도</h>와 <h>전투 가속도</h>를 모두 나타냅니다.<br/><br/>순항 가속도는 우주선이 태양계를 이동하는 동안 속도를 얼마나 빨리 변경할 수 있는지를 나타냅니다. 높은 값과 충분한 델타-V와 조합되면 목적지에 더 빠르게 도착할 수 있습니다.<br/><br/>전투 가속도는 전투 시 함선이 얼마나 빠르게 속도를 변경할 수 있는지 나타냅니다. 높은 전투 가속도는 전투 중 위치를 잡는 데 중요합니다. 또한, <h>기지</h>에서 함선을 발사할 때에도 활용됩니다.
+
 UI.Objectives.FleetScreenCanvas.ClassGeneral.Name=일반 정보
 UI.Objectives.FleetScreenCanvas.ClassGeneral.Desc=이 열의 값은 함선 <h>이름</h>, <h>선체</h> 유형, 등급 <h>역할</h>, <h>질량</h>을 비롯한 각 함선 등급에 대한 일반 정보를 표시합니다. 선체 유형은 함선의 레이아웃과 장착 가능한 무기 및 모듈의 수를 결정합니다.<br/><br/>역할 설정은 함선 자동 설계자가 함선을 건조하는 방식, AI에 함선 제어권을 넘기거나 전투를 자동으로 해결할 때 함선이 행동하는 방식을 규정합니다. 특정 비전투 역할의 함선은 전투 중 최대한 교전을 피하기 위해 대형에 배치됩니다.
+
 UI.Objectives.FleetScreenCanvas.ClassDV.Name=델타-V
 UI.Objectives.FleetScreenCanvas.ClassDV.Desc=이 열의 값은 각 함선 등의 최대 <h>델타-V</h> 용량을 표시합니다. 이는 함선이 추진제를 더 많이 적재해야 하기 전에 속도를 얼마나 변경할 수 있는지를 측정하는 척도로, 다른 위치로 얼마나 신속하게 이동할 수 있는지를 결정합니다.
-UI.Objectives.FleetScreenCanvas.ClassCurrent.Name=기존 함선
+
+UI.Objectives.FleetScreenCanvas.ClassCurrent.Name=기존 함선 
 UI.Objectives.FleetScreenCanvas.ClassCurrent.Desc=이 열의 값은 현재 모든 함대에 있는 각 함선 등급의 수를 표시합니다.<br/><br/>현재 건조 중인 함선은 별도로 표시됩니다.
+
 UI.Objectives.FleetScreenCanvas.ClassCost.Name=건설 비용
 UI.Objectives.FleetScreenCanvas.ClassCost.Desc=이 열의 값은 해당 등급의 함선의 건조에 필요한 <h>우주 자원</h>의 비용을 표시합니다.<br/><br/>빨간색으로 강조 표시된 자원은 해당 자원이 부족함을 나타냅니다. 자원이 부족한 상태에서 해당 등급의 함선을 건조하려고 하면 모든 자원이 전달될 때까지 건조가 중단됩니다.
+
 UI.Objectives.FleetScreenCanvas.DetailPrimaryData.Name=함선 정보
 UI.Objectives.FleetScreenCanvas.DetailPrimaryData.Desc=이 섹션에는 함선에 연료를 보급하는 데 필요한 우주 자원 등 함선의 전반적인 특성이 표시됩니다.
+
 UI.Objectives.FleetScreenCanvas.DetailOfficers.Name=장교 승선
 UI.Objectives.FleetScreenCanvas.DetailOfficers.Desc=함선에 탑승한 모든 <h>장교</h>의 아이콘과 이름이 여기에 표시됩니다.<br/><br/>함선이 장기간 우주 비행을 하거나 전투에 참여하면 승무원은 중요한 경험을 쌓습니다. 때로는 한 명 이상의 장교가 해당 전문 분야의 숙련된 전문가로 인정받아 베테랑 우주비행사 팀이 그 밑에서 복무할 수 있습니다. 이 장교들은 지명을 받고 소속된 함선에 보너스를 제공합니다.<br/><br/><h>각 장교 위에 마우스를 올리면 함선에 미치는 영향을 확인할 수 있습니다.</h>
+
 UI.Objectives.FleetScreenCanvas.DesignSelectRole.Name=역할 선택
 UI.Objectives.FleetScreenCanvas.DesignSelectRole.Desc=다음으로 이 드롭다운 메뉴에서 함선 <h>역할</h>을 선택하세요. 역할은 모든 함선 종류에 필요하며, 자동 설계자가 함선을 건조하는 방식, AI에게 제어권을 넘기거나 전투를 자동으로 해결할 때 함선이 전투에서 행동하는 방식을 결정합니다.<br/><br/><h>메뉴에 나열된 처음 다섯 가지 역할은 비전투 역할로 간주됩니다. 이 역할을 하는 함선은 전투 시작 시 설정된 주요 함대 편성에서 훨씬 뒤쪽으로 배치됩니다.</h>
+
 UI.Objectives.FleetScreenCanvas.DesignSelectRole2.Name=역할 자동 할당
 UI.Objectives.FleetScreenCanvas.DesignSelectRole2.Desc=이미 함선의 설계를 제작했지만, 아직 역할이 지정되지 않은 경우, 이 버튼을 누르면 설계에 가장 적합한 역할이 자동으로 할당됩니다.
+
 UI.Objectives.FleetScreenCanvas.DesignAuto.Name=등급 자동설계
 UI.Objectives.FleetScreenCanvas.DesignAuto.Desc=이 버튼을 누르면 자동으로 선택한 선체 및 역할을 기반으로 함선 등급을 설계합니다.
+
 UI.Objectives.FleetScreenCanvas.DesignName.Name=이름 할당
 UI.Objectives.FleetScreenCanvas.DesignName.Desc=여기서 설계되는 함선 등급의 <h>이름</h>을 설정할 수 있습니다. 저장하기 전에 설계에 이름을 지정했는지 확인하세요.
+
 UI.Objectives.FleetScreenCanvas.DesignHeader.Name=함선 모듈
 UI.Objectives.FleetScreenCanvas.DesignHeader.Desc=이 패널은 우리 진영이 연구하여 사용 가능한 <h>함선 모듈</h>을 표시합니다. 각 모듈 유형의 아이콘은 함선 설계의 슬롯에 대응하는 특정 형태를 띠고 있습니다.<br/><br/>설계를 저장하려면 함선에 하나 이상의 <h>추진기</h>, <h>발전기</h>, <h>라디에이터</h>, <h>장갑 재료</h>(두께가 0이어도 가능), <h>추진제 탱크</h>, 및 지정된 역할이 있어야 합니다. <h>이주선</h>과 같은 특수한 역할에는 해당 역할을 수행할 수 있도록 일치하는 <h>유틸리티 모듈</h>이 있어야 합니다.
+
 UI.Objectives.FleetScreenCanvas.DesignHeader2.Name=함선 모듈
 UI.Objectives.FleetScreenCanvas.DesignHeader2.Desc=패널 상단의 탭을 눌러 해당 유형의 모듈을 확인하세요. <h>탭을 오른쪽 클릭하여 사용 가능한 모듈 목록 또는 아이콘 표시를 전환할 수 있습니다.</h><br/><br/>모듈 위에 마우스를 올리면 더 자세한 내용을 확인할 수 있습니다. 모듈 아이콘을 오른쪽 클릭하면 해당 모듈을 설계의 일치하는 슬롯에 배치할 수 있습니다. 아이콘을 원하는 슬롯으로 드래그 앤 드롭할 수도 있습니다.
+
 UI.Objectives.FleetScreenCanvas.DesignDataShipCrew.Name=사병
 UI.Objectives.FleetScreenCanvas.DesignDataShipCrew.Desc=<h>승무원</h>은 함선에 승선하여 근무하는 인원 수를 나타냅니다. 설계도의 현재 승무원 배정 인원 위에 마우스를 올리면 전투 중에수리를 지원할 승무원 수를 확인할 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.DesignDataSupport.Name=지지
 UI.Objectives.FleetScreenCanvas.DesignDataSupport.Desc=<h>유지비</h>는 함선과 그 승무원을 운영하고 유지하는 데 매월 드는 비용입니다. 유지비를 지불하지 않으면 함선이 다른 진영의 탈취 시도에 더 취약해질 수 있습니다
+
 UI.Objectives.FleetScreenCanvas.DesignTransferPlanner.Name=항행 계획하기
 UI.Objectives.FleetScreenCanvas.DesignTransferPlanner.Desc=이 버튼을 누르면 <h>정보</h> 창에서 현재 설계의 순항 가속도 및 델타-V 값이 있는 <h>항행 계획기</h> 탭으로 이동하여 가상의 추력 프로필을 테스트할 수 있습니다. 이러한 값을 사용하여 다양한 항행 출발지 및 도착지를 테스트하면 태양계 내 여러 위치에서 발사될 때 설계의 효과적인 작전 범위에 대한 통찰력을 얻을 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.DesignTransferPlanner2.Name=항행 계획하기
 UI.Objectives.FleetScreenCanvas.DesignTransferPlanner2.Desc=추력 프로필을 선택한 상태로 선박 설계자로 돌아가면, 항행 및 그 소요 시간에 대한 정보가 표시됩니다. 순항 가속도 및 델타-V 값에 영향을 주는 설계에 대한 변경 사항이 있는 경우, 항행 예상치가 업데이트됩니다.
-UI.Objectives.FleetScreenCanvas.DesignModel.Name=선체 스타일
+
+UI.Objectives.FleetScreenCanvas.DesignModel.Name=선체 스타일 
 UI.Objectives.FleetScreenCanvas.DesignModel.Desc=이 패널의 양쪽에 있는 화살표를 클릭하면 설계에 사용된 선체의 시각적 스타일을 변경할 수 있습니다. 설계를 수정하면 함선에 추가적인 시각적 변경 사항이 표시됩니다.
+
 UI.Objectives.FleetScreenCanvas.DesignClear.Name=설계자 초기화
 UI.Objectives.FleetScreenCanvas.DesignClear.Desc=이 버튼을 누르면 설치된 모든 함선 모듈을 제거하고 같은 선체 유형과 역할을 사용하여 설계를 다시 시작할 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.DesignArmor2.Name=장갑 슬롯
 UI.Objectives.FleetScreenCanvas.DesignArmor2.Desc=각 설계의 하단에 3개의 장갑 슬롯이 있으며, 왼쪽부터 오른쪽으로 <h>함미</h>, <h>측면</h>, <h>함수</h>입니다. 각 슬롯에는 추가 장갑 포인트를 더하여 장갑 두께를 최대까지 증가시킬 수 있습니다. 장갑 포인트가 추가될 때마다 함선 설계 전체의 질량도 증가합니다. 측면 장갑은 보호해야 표면적이 더 넓으므로 함수 또는 함미 장갑보다 훨씬 무겁습니다.
+
 UI.Objectives.NotificationScreenCanvas.NewsFeed2.Name=뉴스 피드 없애기
 UI.Objectives.NotificationScreenCanvas.NewsFeed2.Desc="X" 버튼을 눌러 뉴스 피드의 이전 로그를 전부 없앱니다.
+
 UI.Objectives.NotificationScreenCanvas.TimerFeed.Name=타이머 피드
 UI.Objectives.NotificationScreenCanvas.TimerFeed.Desc=거주지 모듈 건설 시점 또는 <h>이익 방어</h> 임무 만료 시점과 같은 특정 시간 기반 알림은 탐색 표시줄 옆의 더 짧은 <h>타이머 피드</h>에도 표시될 수 있습니다.
+
 UI.Objectives.NotificationScreenCanvas.EventFeed.Name=이벤트 요약
 UI.Objectives.NotificationScreenCanvas.EventFeed.Desc=알림은 해당하는 탭 아래의 이벤트 요약 창에도 나타날 수 있습니다.<br/><br/><h>설정 메뉴의 알림 탭을 검토하여 어떤 알림이 어떤 알림 피드에 표시될지 맞춤 설정하세요.</h>
+
 UI.Objectives.FleetScreenCanvas.ConstructOverview.NameShort=건조
 UI.Objectives.FleetScreenCanvas.ConstructOverview.Name=건조 관리자
 UI.Objectives.FleetScreenCanvas.ConstructOverview.Desc=<h>함선 건조</h> 탭에서는 진영의 함대를 구성하는 함선의 건조를 관리할 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.ConstructShipyards.Name=건조 대기열
 UI.Objectives.FleetScreenCanvas.ConstructShipyards.Desc=조선소는 거주지에서 함선 건설을 할 수 있게 해 주며, 사용 가능한 <color=#FFFFFFFF><sprite name=construction_shipyard></color> <h>조선소의 건조 대기열이 여기에 표시됩니다.<br/><br/>하나의 거주지는 설치 및 가동 중인 조선소의 수에 따라 대기열이 여러 개 있을 수 있습니다.
+
 UI.Objectives.FleetScreenCanvas.ConstructFilter.Name=위치 필터
 UI.Objectives.FleetScreenCanvas.ConstructFilter.Desc=이곳의 드롭다운 메뉴를 사용하여표시된 조선소를 위치별로 필터링합니다.
+
 UI.Objectives.FleetScreenCanvas.ConstructTabs.Name=건조 및 개조
 UI.Objectives.FleetScreenCanvas.ConstructTabs.Desc=이 버튼을 사용하여 <h>새 함선 건조</h> 또는 <h>기존 함선 개조</h> 사이를 전환하세요. 각 건조 대기열은 개조 및 신규 건조가 뒤섞여 있을 수 있습니다.<br/><br/><h>함선은 같은 선체 유형을 사용하는 등급 설계로만 개조할 수 있습니다.</h>
+
 UI.Objectives.FleetScreenCanvas.ConstructSelectShip2.Name=함급 선택
 UI.Objectives.FleetScreenCanvas.ConstructSelectShip2.Desc=기존 함선을 개조하는 경우, 이 목록에 표시되기 위해서는 함선의 함대가 조선소가 있는 거주지에 도킹되어 있어야 합니다. 도킹된 함선을 눌러 선택하면, 바로 아래에 해당 함선의 개조를 위해 유효한 등급 설계를 확인할 수 있습니다.
+
 UI.Objectives.SingleCouncilorDetailCanvas.Missions2.Name=자동화된 임무 전환
 UI.Objectives.SingleCouncilorDetailCanvas.Missions2.Desc="임무 자동화" 옵션이 활성화된 경우, 이 체크박스를 선택하여 해당 의원이 수행할 일련의 임무를 관리하세요. 아래 목록에서 의원이 스스로 할당할 수 있는 제한된 일련의 임무 옆에 체크박스가 표시됩니다.
+
 UI.Objectives.SingleCouncilorDetailCanvas.CouncilorData.NameShort=의원 세부 정보
 UI.Objectives.SingleCouncilorDetailCanvas.CouncilorData.Name=의원 정보
 UI.Objectives.SingleCouncilorDetailCanvas.CouncilorData.Desc=<h>의원 세부 정보</h> 창은 의원 중 한 명의 완전한 자료를 보여줍니다. 이 패널에는 외관, 직업, 고향, 보유한 <h>XP</h>(경험치) 등 의원에 관한 기본 정보가 있습니다.<br/><br/>임무를 진행하면 XP를 획득하며, 경쟁 임무에서 성공하면 더 많은 XP를 획득합니다.<br/><br/>이 화면에서는 조직을 관리하거나, 의원을 강화 또는 해임하고, 의원의 이름, 외모, 음성을 변경할 수도 있습니다.
+
 UI.Objectives.SingleCouncilorDetailCanvas.CouncilorData2.Name=의원 전환
 UI.Objectives.SingleCouncilorDetailCanvas.CouncilorData2.Desc=이곳의 화살표를 누르면 협의회 구성원의 자료를 순환하며 표시합니다.<br/><br/>가운데의 이동 버튼을 클릭하면 협의회 창이 닫히고 해당 의원의 위치가 화면 중앙에 표시됩니다.
+
 UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket2.Name=조직 시장
 UI.Objectives.SingleCouncilorDetailCanvas.OrgsMarket2.Desc=이 패널에서 조직을 이용할 수 있는 경우, 조직을 오른쪽 클릭하거나 패널 위쪽으로 드래그 앤 드롭하여 구매하고 현재 의원에게 할당하세요.<br/><br/><h>흐릿하게 표시된 조직은 현재 표시된 의원이 구매할 수 없습니다.</h>
+
 UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs2.Name=미할당 조직
 UI.Objectives.SingleCouncilorDetailCanvas.FactionOrgs2.Desc=조직을 의원으로부터 해제하여 우리 진영 풀로 되돌리려면, 해당 조직을 오른쪽 클릭하거나 아래 패널로 드래그앤 드롭하세요.<br/><br/>주의! 다른 진영은 우리의 미할당 풀에서 조직을 빼내는 것이 더 쉬워집니다. 또한, 풀에 보관할 수 있는 조직 수에는 제한이 있습니다<br/><br/>조직을 조직 시장으로 할당 해제하면 해당 조직은 판매됩니다.<br/><br/>우리 진영의 모든 조직은 조직 관리 탭에서도 관리할 수 있습니다.
+
 UI.Objectives.CouncilRecruiting.RecruitList.Name=협의회 후보
 UI.Objectives.CouncilRecruiting.RecruitList.NameShort=모집
 UI.Objectives.CouncilRecruiting.RecruitList.Desc=우리 협의회에 모집할 수 있는 후보자 목록이 여기에 표시됩니다. 목록에서 협의회 후보자를 클릭하면 해당 인물의 자료가 열립니다.
+
 UI.Objectives.CouncilRecruiting.RecruitDossier.Name=후보자 자료
 UI.Objectives.CouncilRecruiting.RecruitDossier.Desc=후보자 자료에서는 해당 인물의 초기 특성, 속성, 월 수입, 우리 진영에서 모집할 경우 수행할 수 있는 임무 목록을 확인할 수 있습니다.
+
 UI.Objectives.CouncilRecruiting.RecruitAttributes.Name=속성
 UI.Objectives.CouncilRecruiting.RecruitAttributes.Desc=이 패널은 후보자의 <h>속성</h>을 표시합니다. 각 속성 위에 마우스 커서를 올려놓으면 자세한 정보를 확인할 수 있습니다. 속성 점수는 0에서 25 사이의 범위입니다.
+
 UI.Objectives.CouncilRecruiting.RecruitIncomes.Name=후보자 수입
 UI.Objectives.CouncilRecruiting.RecruitIncomes.Desc=이 패널은 해당 후보자를 우리 진영에 모집할 경우 생성될 자원을 표시합니다. 음수 값은 해당 자원에 대한 월간 유지비를 나타냅니다.
+
 UI.Objectives.CouncilRecruiting.RecruitTraits.Name=특성
 UI.Objectives.CouncilRecruiting.RecruitTraits.Desc=<h>특성</h>은 후보의 속성, 수입 및 기타 요소에 영향을 미치는 특수한 개성 및 보정치입니다. 여러 가지 특성이 임무에 조건부 보너스를 제공하는 반면, 일부 특성은 후보의 능력을 특정한 방식으로 제한할 수 있는 단점이 있을 수 있습니다.<br/><br/>특성 위에 마우스 커서를 올려놓으면 자세한 내용을 확인할 수 있습니다.
+
 UI.Objectives.CouncilRecruiting.RecruitMissions.Name=후보자 임무
 UI.Objectives.CouncilRecruiting.RecruitMissions.Desc=이 패널에는 해당 후보자가 수행할 수 있는 <h>임무</h> 목록이 표시됩니다. 각 임무 오른쪽의 기호는 해당 임무 수행에 소모되는 자원을 나타냅니다.<br/><br/>임무 이름 오른쪽의 숫자 열은 해당 임무를 수행할 수 있는 현재 의원 수를 표시합니다. 현재 의원들이 수행하지 못하는 임무를 수행할 수 있는 후보자를 찾아 더 균형 잡힌 협의회를 구성하세요.
+
 UI.Objectives.CouncilRecruiting.RecruitData.Name=후보자 정보
 UI.Objectives.CouncilRecruiting.RecruitData.Desc=이 패널에는 외관, 직업, 고향, 모집에 드는 <color=#FFFFFFFF><sprite name=influence></color> <h>영향력</h> 비용 등, 후보자에 관한 기본 정보가 있습니다.
+
 UI.Objectives.CouncilRecruiting.RecruitBtn.Name=후보자 모집
 UI.Objectives.CouncilRecruiting.RecruitBtn.Desc=우리 진영에 자산이 될 만한 후보를 찾았다는 생각이 들고, 목표를 달성하는 데 도움이 될 것 같다면, 여기를 눌러 모집하세요.
+
 UI.Objectives.Orgman.Management.NameShort=조직 관리
 UI.Objectives.Orgman.Management.Name=조직 관리
 UI.Objectives.Orgman.Management.Desc=<h>조직 관리</h> 창을 사용하면 여러 지역에 걸친 우리 진영의 조직 교환을 관리할 수 있습니다. 이 도구는 협의회가 다수의 조직을 소유하고 있고, 최대한의 이익을 위해 각 의원에게 할당된 조직을 최적화하고자 할 때 유용합니다.<br/><br/>모든 조직은 드래그 앤 드롭으로 이동시킬 수 있습니다. 조직 위에 마우스를 올리면 자세한 내용을 볼 수 있습니다.
-UI.Objectives.Orgman.CouncilorList.Name=협의회
+
+UI.Objectives.Orgman.CouncilorList.Name=협의회 
 UI.Objectives.Orgman.CouncilorList.Desc=의원 목록은 이 패널에 표시됩니다. 각 의원은 관리 능력치(최대 25), 보유한 총 조직 개수, 속성, 임무, 특성에 대한 개요를 표시합니다.<br/><br/>속성이나 가능한 임무 또는 특성 위에 마우스를 올리면 자세한 정보를 확인할 수 있습니다.
+
 UI.Objectives.Orgman.CouncilorList2.Name=조직 전환
 UI.Objectives.Orgman.CouncilorList2.Desc=여기를 클릭하여 의원에게 할당된 조직 목록을 펼치거나 접으세요. 해당 의원에게 조직을 할당하거나 할당 취소하려면 할당된 조직 목록을 확장해야 합니다.
+
 UI.Objectives.Orgman.CouncilorList3.Name=상단으로 보내기
 UI.Objectives.Orgman.CouncilorList3.Desc=여기를 눌러 해당 의원을 의원 목록의 상단으로 가져옵니다.
+
 UI.Objectives.Orgman.OrgMarket.Name=조직 시장
 UI.Objectives.Orgman.OrgMarket.Desc=시장에서 이용 가능한 모든 조직이 여기에 표시됩니다. 의원 또는 미할당 조직 풀에서 조직을 이 패널로 드래그 앤 드롭하여 시장으로 다시 판매할 수 있습니다.<br/><br/><h>관리에 적합하지 않은 의원에게 조직을 할당하려고 하면, 해당 의원의 패널이 빨간색 테두리로 표시되며 해당 조직은 구매 대상으로 지정되지 않습니다.</h>
+
 UI.Objectives.Orgman.FactionOrg.Name=진영 조직
 UI.Objectives.Orgman.FactionOrg.Desc=우리 진영이 소유했으나 현재 의원에게 할당되어 있지 않은 모든 조직이 여기에 표시됩니다. 조직을 의원으로부터 이 패널로 드래그 앤 드롭하여 할당 취소할 수 있습니다.<br/><br/><h>관리에 적합하지 않은 의원에게 조직을 할당하려고 하면, 해당 의원의 패널이 빨간색 테두리로 표시되며 해당 조직은 할당 대상으로 지정되지 않습니다.</h>
+
 UI.Objectives.Orgman.Review.Name=변경 사항 검토
 UI.Objectives.Orgman.Review.Desc=모든 조직에 지정한 변경 사항의 총 비용이 여기에 요약되어 있습니다.<br/><br/><h>조직 변경 사항을 확정할 수 없는 경우, 그 이유가 이 패널에 표시됩니다.
+
 UI.Objectives.Orgman.Revert.Name=변경 사항 되돌리기
 UI.Objectives.Orgman.Revert.Desc=여기를 클릭하면 조직 할당 및 구매에 지정된 모든 변경 사항을 되돌릴 수 있습니다.
+
 UI.Objectives.Orgman.Confirm.Name=변경 확인
 UI.Objectives.Orgman.Confirm.Desc=여기를 클릭하면 조직에 지정된 모든 변경 사항을 확인하고 해당 변경 사항을 실행하는 데 필요한 자원 비용을 지출합니다. 시장에 판매된 조직은 대신 자원의 형태로 환불됩니다. 음수 값은 지출하는 자원보다 더 많은 자원을 받게 되는 것을 의미합니다.
+
 UI.Objectives.Hab.2.Name=거주지 방어
 UI.Objectives.Hab.2.Desc=각 거주지에는 방어와 관련된 두 가지 값인 <color=#FFFFFFFF><sprite name=combat_score></color> <h>전투력</h>과 <color=#FFFFFFFF><sprite name=space_assault_score></color> <h>공격력</h>이 있습니다. 거주지의 전투력은 거주지에 설치된 방어 모듈에 의해 증가하며, 적 함대가 공격 시 거주지가 스스로 방어할 수 있는 역량을 반영합니다.<br/><br/>거주지의 공격력은 거주지를 침공하여 점령하려는 적군으로부터 스스로 방어할 수 있는 역량을 반영합니다. 거주지에 설치된 해병 모듈은 거주지의 공격력을 증가시킵니다.<br/><br/>여기에 표시되는 방어력은 거주지를 소유한 진영의 영향으로 추가적으로 변동될 수 있습니다. 진영의 함대와 인원이 거주지에 주둔할 경우, 거주지의 방어력을 강화할 수 있습니다. 반대로, 거주지를 유지할 <color=#FFFFFFFF><sprite name=currency></color> 자금, <color=#FFFFFFFF><sprite name=mission_control></color> 임무 관제, 또는 <color=#FFFFFFFF><sprite name=boost></color> 부스트가 부족할 경우 취약해질 수 있습니다.
+
 UI.Objectives.Hab.3.Name=거주지 목표 정보
 UI.Objectives.Hab.3.Desc=여기에 표시되는 탭을 선택하면 이 거주지의 다양한 개체와 자산을 확인할 수 있습니다. 탭에는 거주지의 모듈, 현재 거주지에 도킹한 함대, 거주지에 탑승한 것으로 알려진 진영의 모든 인원이 나와 있습니다.
+
 UI.Objectives.HabScreenCanvas.SearchFilter.Name=검색 필터
 UI.Objectives.HabScreenCanvas.SearchFilter.Desc=이곳의 검색창을 사용하여 이름을 기준으로 거주지 목록을 필터링할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.HabSort.Name=거주지 목록 정렬
 UI.Objectives.HabScreenCanvas.HabSort.Desc=열 머리글의 버튼을 누르면 나열된 거주지를 여러 가지 속성을 기준으로 정렬할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.MassTemplate.Name=질량 템플릿 적용
 UI.Objectives.HabScreenCanvas.MassTemplate.Desc=이 드롭다운 메뉴를 사용하면 목록에 있는 여러 개의 거주지에 거주지 레이아웃 템플릿을 한 번에 적용할 수 있습니다.<br/><br/>거주지 레이아웃 템플릿을 생성하는 방법을 비롯한 거주지 레이아웃 템플릿에 대한 정보는 거주지 관리자 및 해당 튜토리얼에서 확인할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.HabManagementInfo2.Name=거주지 미리보기
 UI.Objectives.HabScreenCanvas.HabManagementInfo2.Desc=이 섹션에서는 거주지, 거주지의 모듈 슬롯, 그리고 일반 정보를 시각적 개요로 보여줍니다. 각 거주지에는 거주지 등급에 따라 결정되는 수많은 모듈 슬롯이 있습니다. 모듈 슬롯을 클릭하면 해당 슬롯에 설치된 모듈 또는 설치 가능한 모듈에 대한 자세한 정보를 볼 수 있습니다.<br/><br/>거주지 보기를 이동하려면 클릭하고 드래그하세요. 오른쪽 하단의 확대/축소 슬라이더나 마우스 스크롤을 사용하여 보기를 확대/축소할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.HabManagementInfo3.Name=거주지 일반 정보
 UI.Objectives.HabScreenCanvas.HabManagementInfo3.Desc=이 영역에는 거주지의 현재 일반 정보(인구, 전력 요약, 위치, 등급, 맞춤 설정 아이콘 등)가 표시됩니다. 거주지 이름도 표시되며, 클릭하여 맞춤 설정할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.HabManagementInfo4.Name=거주지 목록으로 돌아가기
 UI.Objectives.HabScreenCanvas.HabManagementInfo4.Desc=이 버튼을 클릭하여 거주지 목록으로 돌아갈 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.Decommission.Name=거주지 해체
 UI.Objectives.HabScreenCanvas.Decommission.Desc=이 버튼을 클릭하면 거주지를 폐쇄하고 파괴하는 과정이 시작됩니다. <h>이 과정은 되돌릴 수 없으며, 거주지는 완전히 파괴될 때까지 적의 ​​침입에 취약해집니다.</h>
+
 UI.Objectives.HabScreenCanvas.Productivity.Name=채굴 생산성
 UI.Objectives.HabScreenCanvas.Productivity.Desc=현재 보고 있는 거주지가 기지인 경우, 채굴 생산성 요약이 여기에 표시됩니다. 여기에는 기지에 설치된 채굴 모듈로 채굴 가능한 자원이 표시됩니다. 또한, 기지의 태양광 발전에 대한 잠재력을 표시합니다.
+
 UI.Objectives.HabScreenCanvas.Navigation.Name=거주지 탐색
 UI.Objectives.HabScreenCanvas.Navigation.Desc=이 상단 버튼을 클릭하면 관리하는 각 거주지의 관리 보기가 차례로 순환됩니다.<br/><br/>하단 버튼을 클릭하면 주의가 필요한 다음 거주지로 순환합니다. 빈 모듈 슬롯이 있거나, 업그레이드할 수 있는 모듈이 있거나, 전원이 공급되지 않는 모듈이 있는 거주지가 포함됩니다.
+
 UI.Objectives.HabScreenCanvas.Navigation2.Name=거주지 탐색
 UI.Objectives.HabScreenCanvas.Navigation2.Desc=이 버튼을 클릭하면 동일한 일련의 거주지가 반대 방향으로 순환됩니다.
+
 UI.Objectives.HabScreenCanvas.Modules.Name=거주지 모듈
 UI.Objectives.HabScreenCanvas.Modules.Desc=거주지 <h>모듈</h>은 전력을 생성하거나 거주지를 위한 방어 시설을 구축하고, 우리 진영에 자원을 제공하며, 함대 건조 및 재보급을 가능하게 하는 등 다양한 이점을 제공합니다. 일부 모듈은 스테이션이나 지상 기지, 또는 기타 특정 상황에서만 건설할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.HabManagementInstallList.Name=설치된 모듈
 UI.Objectives.HabScreenCanvas.HabManagementInstallList.Desc=이 탭을 선택하면 거주지에 이미 설치된 모듈의 목록을 확인할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.HabManagementModuleFilter.Name=모듈 필터링
 UI.Objectives.HabScreenCanvas.HabManagementModuleFilter.Desc=여기서는 이름, 등급, 또는 제공되는 혜택을 기준으로 모듈의 목록을 필터링할 수 있습니다.
+
 UI.Objectives.HabScreenCanvas.QuickBuild.Name=빠른 건설
 UI.Objectives.HabScreenCanvas.QuickBuild.Desc=이 체크박스를 선택하여 모듈의 빠른 건설을 활성화하면 거주지 모듈 건설에 대한 비용 옵션 검토 및 확인을 건너뜁니다. 이 옵션이 활성화되어 있으면 사용 가능한 모듈을 오른쪽 클릭 또는 드래그 앤 드롭하는 경우 사용 가능한 우주 자원으로부터 지불됩니다. 전력 또는 비용 문제에 대한 경고가 표시되지 않습니다.<br/><br/>'<color=#FFFFFFFF><sprite name=boost></color> 부스트 사용'을 선택하여 이 옵션에 대해 <color=#FFFFFFFF><sprite name=boost></color> 부스트 사용을 활성화할 수 있습니다. 이 옵션이 활성화되지 않고 우주 자원만으로 건설 비용을 감당할 수 없는 경우, 건설이 시작되지 않습니다.
+
 UI.Objectives.HabScreenCanvas.MassModule.Name=질량 모듈 제어
 UI.Objectives.HabScreenCanvas.MassModule.Desc=여기에서는 설치된 적합한 모듈을 전부 한 번에 재건, 업그레이드 또는 가동할 수 있는 버튼을 찾을 수 있습니다. 이러한 작업이 필요한 모듈이 없다면 해당 버튼은 나타나지 않습니다.
+
 UI.Objectives.HabScreenCanvas.ResourceSummary.Name=자원 요약
 UI.Objectives.HabScreenCanvas.ResourceSummary.Desc=여기에서는 전체 거주지의 월별 자원 수입 및 지출에 대한 요약과 특정 혜택의 유무를 확인할 수 있습니다. 양수인 값은 해당 자원의 수입을, 음수인 값은 해당 자원의 지출을 나타냅니다.
+
 UI.Objectives.HabScreenCanvas.LayoutTemplates.Name=거주지 레이아웃 템플릿
 UI.Objectives.HabScreenCanvas.LayoutTemplates.Desc=거주지 레이아웃은 동일한 유형의 다른 거주지에 적용할 수 있는 템플릿으로 저장할 수 있습니다. 레이아웃 템플릿에는 거주지 모듈의 수, 위치 및 구성이 포함됩니다.<br/><br/>'저장' 버튼을 누르면 현재 거주지의 레이아웃이 템플릿으로 저장됩니다. '보기' 버튼을 누르면 저장된 모든 템플릿, 해당 모듈 및 제공되는 혜택 목록이 표시됩니다.
+
 UI.Objectives.HabScreenCanvas.LayoutTemplates2.Name=템플릿 적용하기
 UI.Objectives.HabScreenCanvas.LayoutTemplates2.Desc=거주지에 템플릿을 적용하는 방법은 두 가지가 있습니다. 기존 모듈을 모두 교체하는 방법, 또는 비었거나, 파괴되었거나, 업그레이드에 적합한 슬롯에만 모듈을 건설하는 것입니다. 템플릿에서 거주지에 적용된 모든 모듈은 즉시 건설이 시작됩니다.<br/><br/>하나의 거주지에 템플릿을 적용하려면 거주지 관리자에서 거주지 템플릿 목록을 확인하고 원하는 템플릿에서 '적용' 버튼을 누르세요.<br/><br/>여러 개의 거주지에 템플릿을 적용하려면, 거주지 목록의 대량 거주지 템플릿 적용 드롭다운 메뉴를 사용하여 원하는 템플릿을 선택한 후, 목록에서 해당 템플릿을 적용할 거주지를 모두 선택하세요.
+
 UI.Objectives.SpaceBodyDetail.5.Name=우주체 목표 정보
 UI.Objectives.SpaceBodyDetail.5.Desc=여기에 표시될 수 있는 다른 탭에는 위성, 스테이션, 함대, 알려진 진영 인원 등 우주체를 공전하거나 우주체에 착륙한 개체와 자산에 대한 정보가 표시됩니다.
+
 UI.Objectives.Ledger.LedgerView.NameShort=장부
 UI.Objectives.Ledger.LedgerView.Name=장부
 UI.Objectives.Ledger.LedgerView.Desc=<h>월간 장부</h>는 각 진영 자산과 연계된 우리 진영의 다양한 수입, 유지 비용, 연구 혜택에 관한 분석을 제공합니다.
+
 UI.Objectives.Ledger.Header.Name=정렬하기
 UI.Objectives.Ledger.Header.Desc=열 머리글의 아이콘을 누르면 해당하는 혜택을 기준으로 장부 항목을 정렬할 수 있습니다. 강조 표시가 없는 아이콘은 수입을 의미하지만, 빨간색 강조 표시가 된 아이콘은 유지비를 나타냅니다.
+
 UI.Objectives.Ledger.Assets.Name=장부 자산
 UI.Objectives.Ledger.Assets.Desc=우리 진영의 자산은 이 열에 나열되어 있습니다. 명시된 자산을 누르면 자산 보기가 확장되어 해당 자산의 수입과 지출 내역을 확인할 수 있습니다.<br/><br/>'합계' 항목에는 우리 진영의 모든 자산에 대한 총 수입과 지출을 요약하여 표시합니다. 진영 본부에서도 일부 자원을 기본 수입으로 제공합니다. 진영이 발전함에 따라 일부 수입은 증가할 수 있습니다.
+
 UI.Objectives.Ledger.Controls.Name=조작
 UI.Objectives.Ledger.Controls.Desc=이 버튼을 사용하여 자산 항목 전체를 펼치거나 접습니다.
+
 UI.Objectives.Calendar.CalendarView.NameShort=캘린더
 UI.Objectives.Calendar.CalendarView.Name=캘린더
 UI.Objectives.Calendar.CalendarView.Desc=캘린더에는 우리 진영의 예정된 이벤트 정보가 표시됩니다. 가능한 이벤트에는 국가 간 관계 개선 가능 날짜, 외계 함대 지구 도착일, 거주지 모듈 건설 완료일 등이 있습니다.<br/><br/>모든 진영에 영향을 미치는 정기적인 이벤트도 여기에서 추적됩니다. 여기에는 예정된 임무 할당 단계, 조직 시장 업데이트, 신규 의원 후보 모집 가능 일정 등이 포함됩니다.
+
 UI.Objectives.Calendar.Controls.Name=조작
 UI.Objectives.Calendar.Controls.Desc=이곳의 화살표나 드롭다운 메뉴를 사용하면 캘린더의 다양한 월 또는 연도를 볼 수 있습니다. 최대 4년 이후까지 미리 볼 수 있어 장기 계획을 세우기에 좋습니다.
+
 UI.Objectives.Calendar.Return.Name=현재 월로 돌아가기
 UI.Objectives.Calendar.Return.Desc=여기를 클릭하여 현재 게임 플레이 속 월의 캘린더 보기로 돌아갑니다.
+
 UI.Objectives.Calendar.Alarm.Name=알림 설정
 UI.Objectives.Calendar.Alarm.Desc=<color=#FFFFFFFF><sprite name=alarmClock></color> 버튼을 클릭하면 <h>알림 설정</h> 창이 열리며, 여기서 미래의 특정 시간에 표시될 맞춤형 알림을 생성할 수 있습니다. 이 맞춤형 알람은 우리 진영의 캘린더 화면에 추가됩니다.
+
 UI.Objectives.EnemyFleet.2.Name=함대 전투력
 UI.Objectives.EnemyFleet.2.Desc=각 함대에 전투 잠재력과 관련된 세 가지 수치는 함대 내 함선 수, <h>전투력</h>, <h>공격력</h>입니다. 함선의 전투력은 적 함대나 거주지와 교전 시 함대의 위력을 추정한 값입니다.<br/><br/>함대의 공격력은 함대가 거주지를 침공하여 점령할 수 있는 역량을 나타냅니다.
+
 UI.Objectives.EnemyFleet.3.Name=함선 미리보기
 UI.Objectives.EnemyFleet.3.Desc=함선 미리보기 위에 마우스를 올리면 각 함선의 성능 및 일반 정보에 대한 분석을 확인할 수 있습니다. 적 함선에 가해진 피해는 함선 미리보기의 해당 섹션에 반영됩니다.
+
 UI.Objectives.EnemyFleet.4.Name=함대 목록
 UI.Objectives.EnemyFleet.4.Desc=패널 하단의 탭을 선택하면 함대를 구성하는 함선 목록이 표시됩니다. 각 함선 항목 위에 마우스를 올리면 성능 및 일반 정보에 대한 분석을 확인할 수 있습니다. 또한 각 함선 항목을 누르면 해당 함선의 함선 상세 창이 열립니다.
+
 UI.Objectives.LagrangePoint.2.Name=라그랑주 점 탭
 UI.Objectives.LagrangePoint.2.Desc=여기에 표시될 수 있는 탭에는 궤도, 스테이션, 함대, 알려진 진영 인원 등 라그랑주 점과 관련된 개체와 자산에 대한 정보가 표시됩니다.
+
 UI.Objectives.NationInfoCanvas.PrioritiesTab.Name=국가 우선순위 설정
 UI.Objectives.NationInfoCanvas.PrioritiesTab.Desc=국가 내 통제 지점을 소유하는 경우, <h>우선순위</h> 탭을 이용하여 국가의 경제적 중점을 조정할 수 있습니다.
+
 UI.Objectives.NationInfoCanvas.Regions.Name=국가 지역
 UI.Objectives.NationInfoCanvas.Regions.Desc=<h>지역</h> 탭은 국가 내 다양한 ​​지역과 해당 국가가 영유권을 주장하는 지역에 대한 정보를 표시합니다. 각 항목에는 지역명, 진행 중인 점령 상태(해당하는 경우), 인구, 부스트 생산량, 임무 관제 사용 및 용량, 해당 지역에 영유권을 주장하는 다른 국가의 국기가 표시됩니다.<br/><br/>국가는 전쟁, 통일 또는 분리 운동을 통해 영유권을 주장하는 지역을 장악할 수 있습니다. 일부 영유권 주장은 '적대적'으로 간주되어, 양국이 우호적인 관계이더라도 영유권을 주장하는 국가가 쉽게 인수할 수 없습니다.
+
 UI.Objectives.NationInfoCanvas.Relations.Name=국제 관계
 UI.Objectives.NationInfoCanvas.Relations.Desc=<h>관계</h> 탭은 선택한 국가의 국제 관계 정보가 표시합니다. 여기에는 전쟁 상대국, 동맹국, 경쟁국의 국기가 표시됩니다. 우리 진녕이 해당 국가에 대한 행정 통제권을 보유한 경우, 해당 국가의 기본적인 외교 관계를 조정할 수 있습니다. 국가 정책을 통해 관계에 더욱 큰 변화를 적용할 수 있습니다.<br/><br/>아래 국가의 국기 위에 마우스를 올리면 해당 국가와의 관계를 변화시키기 위해 충족해야 하는 조건을 확인할 수 있습니다.
+
 UI.Objectives.NationInfoCanvas.Armies.Name=국가 군대
-UI.Objectives.NationInfoCanvas.Armies.Desc=대부분의 국가가 방위군을 주둔시키는 반면, 군대는 타국 영토를 점령할 수 있는 대규모 원정군입니다. 선택한 국가에 군대가 있는 경우, 해당 국가의 군대 현황, 현재 위치, 본국, 전투 능력에 대한 기타 정보가 나열된 <h>군대</h> 탭이 표시됩니다. 해당 항목 위에 마우스를 올리면 상세 정보를 확인할 수 있니다.<br/><br/>군대의 진영 통제는 해당 군대에 해당하는 통제 지점을 소유하는 것을 기반으로 합니다. 통제 지점은 한 국가 내 여러 군대를 통제할 수 있게 할 수 있습니다.
+UI.Objectives.NationInfoCanvas.Armies.Desc=대부분의 국가가 방위군을 주둔시키는 반면, 군대는 타국 영토를 점령할 수 있는 대규모 원정군입니다. 선택한 국가에 군대가 있는 경우, 해당 국가의 군대 현황, 현재 위치, 본국, 전투 능력에 대한 기타 정보가 나열된 <h>군대</h> 탭이 표시됩니다. 해당 항목 위에 마우스를 올리면 상세 정보를 확인할 수 있니다.<br/><br/>군대의 진영 통제는 해당 군대에 해당하는 통제 지점을 소유하는 것을 기반으로 합니다. 통제 지점은 한 국가 내 여러 군대를 통제할 수 있게 할 수 있습니다. 
+
 UI.Objectives.NationInfoCanvas.Councilors.Name=의원
 UI.Objectives.NationInfoCanvas.Councilors.Desc=선택한 국가에 우리가 알고 있는 지역 내에 의원이 있는 경우, <h>의원</h> 탭이 여기에 나타나며, 해당 의원에 대한 기본 정보가 표시됩니다.
+
 UI.Objectives.NationInfoCanvas.PrioritiesBonus.Name=우선순위 추가 정보
 UI.Objectives.NationInfoCanvas.PrioritiesBonus.Desc=이 열에는 각 우선순위에 대한 자세한 정보를 표시합니다. 해당 열 상단의 버튼을 클릭하면 여러 개 정보 집합 사이를 순환하며 확인할 수 있습니다.<br/><br/><h>공유</h>는 할당된 투자 포인트 비율을 백분율로 표시합니다.<br/><br/><color=#FFFFFFFF><sprite name=investments></color> <h>월별 투자 포인트</h>는 해당 우선순위 버킷에 이번 달에 할당될 투자 포인트 양을 표시합니다.<br/><br/><h>보너스</h>는 해당 우선순위에 대한 투자에 적용되는 모든 보너스를 표시합니다.
+
 UI.Objectives.NationInfoCanvas.PrioritiesTemplate.Name=우선순위 템플릿 설계
 UI.Objectives.NationInfoCanvas.PrioritiesTemplate.Desc=여기를 누르면 <h>국가 우선 순위 템플릿 설계</h> 창이 열립니다. 여기서는 맞춤형 우선 순위 템플릿을 제작하거나, 새로 획득한 통제 지점에 적용할 우리 진영의 기본 템플릿을 설정하거나, 또는 템플릿을 선택하여 모든 통제 지점에 전반적으로 적용할 수 있습니다.
+
 UI.Objectives.NationsScreenCanvas.DesignGlobal.Name=전체에 적용
 UI.Objectives.NationsScreenCanvas.DesignGlobal.Desc=이 버튼을 누르면 로드한 템플릿이 전 세계 모든 국가에 있는 우리 진영의 통제 지점에 적용됩니다.
+
 UI.Objectives.NationsScreenCanvas.DesignDefault.Name=기본 템플릿 설정
 UI.Objectives.NationsScreenCanvas.DesignDefault.Desc=이 버튼을 누르면 로드한 템플릿을 우리 진영의 기본 템플릿으로 설정합니다. 기본 템플릿은 새로 획득한 모든 통제 지점에 자동으로 적용됩니다.
+
 UI.Objectives.IntelScreenCanvas.FactionDisplay.Name=진영 정보
 UI.Objectives.IntelScreenCanvas.FactionDisplay.Desc=각 진영의 정보 표시창에는 해당 진영에 대해 우리가 수집한 정보가 있습니다.<br/><br/>우리 협의회는 <h>의원 조사</h> 임무 성공 등 다양한 방법을 통해 다른 진영에 대한 정보를 수집할 수 있습니다.
+
 UI.Objectives.IntelScreenCanvas.FactionIcon.Name=진영 아이콘
 UI.Objectives.IntelScreenCanvas.FactionIcon.Desc=다른 진영의 의원을 우리 편으로 포섭하여 첩보 활동을 하게 하면, 해당 진영에 대한 상당한 정보를 얻을 수 있습니다. 이는 우리 의원 한 명이 <h>의원 전향</h> 임무에 성공함으로써 가능합니다. 특정 진영의 의원을 전향하게 했다면, 우리는 해당 진영의 작전에 <h>침투한</h> 것으로 간주되며, 이 상태는 진영 아이콘에 표시됩니다.<br/><br/>진영과 <h>정보 공유 협정</h> 을 체결한 경우에는 대신 그 상태가 표시됩니다.
+
 UI.Objectives.IntelScreenCanvas.FactionIgnore.Name=접촉 임무 무시
 UI.Objectives.IntelScreenCanvas.FactionIgnore.Desc=이 버튼을 전환하여 해당 진영의 의원들로부터 <h>접촉</h> 임무를 무시하거나 수락합니다.
+
 UI.Objectives.IntelScreenCanvas.FactionNations.Name=국가 관계 무시
 UI.Objectives.IntelScreenCanvas.FactionNations.Desc=이 버튼을 전환하여 이 진영의 행정 통제 하에 있는 국가들 간의 관계 개선 제안을 무시하거나 허용할 수 있습니다. 해당 진영이 보낸 전쟁 종식 요청은 항상 허용됩니다.
+
 UI.Objectives.IntelScreenCanvas.AlienOverview.Name=외계인
 UI.Objectives.IntelScreenCanvas.AlienOverview.NameShort=외계인
 UI.Objectives.IntelScreenCanvas.AlienOverview.Desc=<h>외계인 정보</h> 탭은 외계 위협 및 관련 활동에 대해 우리가 수집한 정보를 표시합니다.
+
 UI.Objectives.IntelScreenCanvas.GlobalOverview.Name=전 세계 정보
 UI.Objectives.IntelScreenCanvas.GlobalOverview.NameShort=전 세계
 UI.Objectives.IntelScreenCanvas.GlobalOverview.Desc=<h>전 세계 정보</h> 탭은 <h>지구</h>와 관련된 요인에 관한 정보를 표시합니다.
+
 UI.Objectives.IntelScreenCanvas.SpacebodyOverview.NameShort=태양계
 UI.Objectives.IntelScreenCanvas.SpacebodyOverview.Name=태양계 정보
 UI.Objectives.IntelScreenCanvas.SpacebodyOverview.Desc=<h>태양계정보</h> 탭에는 태양계 내 모든 우주체의 목록과 각 우주체에 관한 정보가 있습니다.
+
 UI.Objectives.IntelScreenCanvas.SpacebodyFilters.Name=필터
 UI.Objectives.IntelScreenCanvas.SpacebodyFilters.Desc=여기에서는 태양계 목록 내 우주체를 필터링하기 위한 여러 옵션을 활용할 수 있습니다. 여기에는 <h>탐사 상태</h>, <h>위치</h>, <h>진영 존재 여부</h>, <h>이름별 검색</h>을 위한 필터가 포함됩니다.
+
 UI.Objectives.IntelScreenCanvas.SpacebodyDescriptions.Name=설명
 UI.Objectives.IntelScreenCanvas.SpacebodyDescriptions.Desc=이 열의 값은 우주체의 특성을 설명합니다.<br/><br/>우주체에 대한 설명은 우주체의 유형을 광범위하게 분류한 것이며, <h>채굴 프로필</h>은 우주체의 우주 자원 구성 성분을 설명합니다.
+
 UI.Objectives.IntelScreenCanvas.SpacebodyOrbit.Name=궤도
 UI.Objectives.IntelScreenCanvas.SpacebodyOrbit.Desc=이 열의 값은 우주체와 그 우주체 공전하는 모천체 사이의 평균 거리를 표시합니다. 태양을 공전하지 않는 우주체는 목록에서 모천체 바로 다음에 있습니다.
+
 UI.Objectives.IntelScreenCanvas.SpacebodyProbe.Name=탐사 상태
 UI.Objectives.IntelScreenCanvas.SpacebodyProbe.Desc=이 열의 값은 우주체의 현재 탐사 상태를 나타냅니다. 우주체를 탐사할 수 있는 경우, 조사를 위한 탐사선 발사 버튼이 여기에 표시됩니다.<br/><br/>이미 해당 우주체를 탐사했거나 탐사선이 이동 중인 경우, 해당 아이콘이 대신 여기에 나타납니다.
+
 UI.Objectives.IntelScreenCanvas.SpacebodyProbeAll.Name=전체 탐사
-UI.Objectives.IntelScreenCanvas.SpacebodyProbeAll.Desc=이 버튼을 누르면 아직 탐사되지 않은 접근 가능한 모든 우주체에 탐사선을 발사합니다. 우리 진영이 모든 탐사선을 발사 비용을 감당할 여력이 없다면 이 작업은 사용할 수 없습니다.
+UI.Objectives.IntelScreenCanvas.SpacebodyProbeAll.Desc=이 버튼을 누르면 아직 탐사되지 않은 접근 가능한 모든 우주체에 탐사선을 발사합니다. 우리 진영이 모든 탐사선을 발사 비용을 감당할 여력이 없다면 이 작업은 사용할 수 없습니다. 
+
 UI.Objectives.IntelScreenCanvas.SpacebodyHabs.Name=거주지
 UI.Objectives.IntelScreenCanvas.SpacebodyHabs.Desc=이 열의 값은 해당 우주체에서 각 진영이 통제하는 <h>기지</h>와 <h>스테이션</h>의 수를 표시합니다.
+
 UI.Objectives.IntelScreenCanvas.TransferPlannerOverview.NameShort=항행
 UI.Objectives.IntelScreenCanvas.TransferPlannerOverview.Name=항행 계획기
 UI.Objectives.IntelScreenCanvas.TransferPlannerOverview.Desc=<h>항행 계획기</h> 탭은 우리 진영의 현재 함대나 향후 건조할 함선에 대한 다양한 궤적 옵션을 탐색하기 위해 사용됩니다. 여러 가지 <h>추력 프로필</h>을 미리보기하여 지정된 <h>가속도</h> 및 <h>델타-V</h> 값으로 특정 항행에 소요되는 시간을 확인할 수 있습니다.
+
 UI.Objectives.IntelScreenCanvas.TransferPlannerDestination.Name=항행 대상
 UI.Objectives.IntelScreenCanvas.TransferPlannerDestination.Desc=출발지 또는 도착지 중 하나를 선택한 후, 여기에서 우주체 아이콘을 선택합니다. 각 아이콘은 태양계 전역에 분포하는 우주체 그룹을 나타냅니다. 아이콘을 선택하면 해당 그룹의 우주체가 있는 목록이 표시됩니다. 주 우주체의 <color=#FFFFFFFF><sprite name=radius_of_orbit></color> <h>궤도</h> 및 다른 <h>항행 대상</h>이 목록 상단에 표시됩니다.
+
 UI.Objectives.IntelScreenCanvas.TransferPlannerSelection.Name=항행 대상
 UI.Objectives.IntelScreenCanvas.TransferPlannerSelection.Desc=여기서 우주체 또는 <h>라그랑주 점</h>을 선택하면 해당 위치와 관련된 궤도 및 다른 항행 대상이 목록 상단에 표시됩니다.<br/><br/>어떤 궤도나 기타 항행 대상을 누르면 이를 항행 출발지 또는 목적지로 설정할 수 있습니다.
+
 UI.Objectives.IntelScreenCanvas.TransferPlannerSlider.Name=사용 가능한 프로필
 UI.Objectives.IntelScreenCanvas.TransferPlannerSlider.Desc=주어진 항행 값에 대해 사용 가능한 추력 프로필이 여러 개 있는 경우, 여기에 표시되는 슬라이더를 조정하여 미리보기 하는 프로필을 변경할 수 있습니다.
+
 UI.Objectives.IntelScreenCanvas.ProspectingOverview.NameShort=거점 탐사
 UI.Objectives.IntelScreenCanvas.ProspectingOverview.Name=탐사 정보
 UI.Objectives.IntelScreenCanvas.ProspectingOverview.Desc=<h>탐사</h> 정보 탭은 태양계 내 우리 진영이 탐사한 우주체의 거점에 관한 정보를 표시합니다.
+
 UI.Objectives.IntelScreenCanvas.ProspectingFilters.Name=필터
 UI.Objectives.IntelScreenCanvas.ProspectingFilters.Desc=여기에서 거점 목록을 필터링하기 위한 여러 옵션을 활용할 수 있습니다. 여기에는 <h>위치</h>, <h>진영 존재 여부</h>, <h>이름 또는 설명으로 검색</h>하기 위한 필터가 포함됩니다.
+
 UI.Objectives.IntelScreenCanvas.ProspectingSorting.Name=정렬하기
 UI.Objectives.IntelScreenCanvas.ProspectingSorting.Desc=여기에서 열 머리글을 클릭하면 해당 열을 기준으로 목록이 정렬됩니다. 다시 클릭하면 정렬 순서가 역전됩니다.
+
 UI.Objectives.IntelScreenCanvas.ProspectingPresence.Name=광산
 UI.Objectives.IntelScreenCanvas.ProspectingPresence.Desc=거점에 채굴 단지가 있거나 건설 중인 거주지가 있는 거점이 있는 경우, 이 열에 <color=#FFFFFFFF><sprite name=core_res></color> 아이콘이 표시됩니다.
+
 UI.Objectives.IntelScreenCanvas.ProspectingDescriptions.Name=채굴 프로필
 UI.Objectives.IntelScreenCanvas.ProspectingDescriptions.Desc=이 열의 값은 거점의 일반적인 우주 자원 구성을 나타냅니다.
+
 UI.Objectives.IntelScreenCanvas.ProspectingResources.Name=사용 가능한 자원
 UI.Objectives.IntelScreenCanvas.ProspectingResources.Desc=이 열은 해당 거점에서 이용할 수 있는 우주 자원의 정확한 채굴 생산량을 표시합니다.
+
 UI.Objectives.IntelScreenCanvas.ProspectingHabs.Name=거주지
 UI.Objectives.IntelScreenCanvas.ProspectingHabs.Desc=이 열의 값은 거점에 설립된 <h>기지</h>의 이름 및 이를 소유한 진영의 아이콘을 표시합니다.
+
 UI.Objectives.IntelScreenCanvas.ProspectingWindow.Name=지구 발사 가능 시간대
 UI.Objectives.IntelScreenCanvas.ProspectingWindow.Desc=이 열은 현재 발사 가능 시간대의 상태를 표시하며, 지구에서 해당 거점의 우주체로 이동하는 데 필요한 시간이 최근 증가 또는 감소했음을 의미합니다. 이는 각각의 궤도에 있는 천체 사이의 거리에 따라 달라집니다.<br/><br/><h>지구에서 발사하기에 가장 적합한 시기는 백분율 값이 가장 낮을 때입니다.</h> 자세한 내용을 보려면 값 위에 마우스를 올리세요.
+
 UI.Objectives.FleetScreenCanvas.FleetHeaders.Name=머리말 및 정렬하기
 UI.Objectives.FleetScreenCanvas.FleetHeaders.Desc=열 머리글을 누르면 해당 값을 기준으로 함대 항목이 정렬됩니다. 머리글을 다시 누르면 정렬 순서가 역전됩니다.
+
 UI.Objectives.FleetScreenCanvas.FleetDamage.Name=피해
 UI.Objectives.FleetScreenCanvas.FleetDamage.Desc=이 열의 아이콘은 함대의 규모를 의미합니다. 함대의 함선이 손상되는 경우, <color=#FFFFFFFF><sprite name=ship_damage></color> 함선 피해 아이콘이 함선 옆에 표시됩니다.
+
 UI.Objectives.FleetScreenCanvas.FleetAlert.Name=경보 레벨
 UI.Objectives.FleetScreenCanvas.FleetAlert.Desc=이 열의 값은 각 함대의 이름과 경보 레벨을 표시합니다. <h>경보 레벨</h>은 현재 근접한 거리 또는 항행 목적지를 기준으로 지구 또는 우주 자산에 잠재적 위협이 되는 함대를 나타냅니다. 각 함대의 경보 레벨은 함대 이름의 색상 변화로 표시됩니다.
+
 UI.Objectives.FleetScreenCanvas.DetailOverview.NameShort=함선
 UI.Objectives.FleetScreenCanvas.DetailOverview.Name=함선 상세
 UI.Objectives.FleetScreenCanvas.DetailOverview.Desc=<h>함선 상세</h> 탭은 함선의 역량, 시스템, 현재 상태에 관한 일반적인 정보를 표시합니다.
+
 UI.Objectives.CodexCanvas.Overview.NameShort=코덱스
 UI.Objectives.CodexCanvas.Overview.Name=코덱스
 UI.Objectives.CodexCanvas.Overview.Desc=<h>코덱스</h> 는 테라 인빅타를 플레이하는 데 필요한 수많은 주제에 대한 깊이 있는 정보를 제공합니다.
+
 UI.Objectives.CodexCanvas.Navigation.Name=코덱스 항목
 UI.Objectives.CodexCanvas.Navigation.Desc=여기에서 코덱스 항목을 선택하면 오른쪽 패널에 해당 주제에 대한 세부 내용이 표시됩니다. 주제 머리글과 하위 항목에는 모두 게임 진행 중에 참고하면 유용한 정보가 담겨 있습니다. <br/><br/><h>기술이 추가되어 새로운 메커니즘이 해금되면 코덱스에 새로운 항목이 추가됩니다.
+
 UI.Objectives.CodexCanvas.Detail.Name=코덱스 상세
 UI.Objectives.CodexCanvas.Detail.Desc=선택한 코덱스 항목의 상세 내용이 여기에 표시됩니다.
+
 UI.Objectives.CodexCanvas.Reset.Name=튜토리얼 초기화
 UI.Objectives.CodexCanvas.Reset.Desc=이 버튼을 누르면 이전에 완료했거나 없앴던 모든 인터페이스 튜토리얼이 초기화됩니다.
+
 UI.Objectives.ObjectivesScreenCanvas.Overview.NameShort=목표
 UI.Objectives.ObjectivesScreenCanvas.Overview.Name=목표
 UI.Objectives.ObjectivesScreenCanvas.Overview.Desc=<h>목표</h> 창에는 우리 진영의 현재 및 이전 달성 목표의 목록이 있습니다.<br/><br/>캠페인 도중, 각 진영들은 주어진 시간 내에 하나 이상의 목표를 달성해야 합니다. 목표를 완료하면, 외계인에 대한 정보와 태양계에 온 진정한 목적을 밝힐 수 있습니다. 또한 목표를 달성하면 진영이 특별 연구 프로젝트 및 조직을 해금할 수 있습니다.<br/><br/>테라 인빅타에서 한 진영을 완전히 제거하는 것은 불가능합니다. 진영은 지구인들의 신념에서 비롯된 존재입니다. 사람들은 흔들리고, 조직적인 구조는 해체할 수 있지만, 사상은 완전히 사라질 수 없습니다. 다른 진영의 발전을 막는 것보다 우리 진영의 목표를 달성하는 데 집중하는 것이 더 유익할 수 있습니다.
+
 UI.Objectives.ObjectivesScreenCanvas.Navigation.Name=목표 리스트
 UI.Objectives.ObjectivesScreenCanvas.Navigation.Desc=목표는 네 범주인 <h>튜토리얼</h>, <h>캠페인</h>, <h>일반</h>, <h>완료</h> 목표로 분류됩니다. 여기에서 각 목표 항목을 클릭하면 오른쪽 패널에서 자세한 내용을 볼 수 있습니다.
+
 UI.Objectives.ObjectivesScreenCanvas.Detail.Name=목표 상세
 UI.Objectives.ObjectivesScreenCanvas.Detail.Desc=선택한 목표에 대한 상세 내용이 여기에 표시됩니다.
+
 UI.Objectives.TradeScreen.Overview.NameShort=거래
 UI.Objectives.TradeScreen.Overview.Name=거래 협상
 UI.Objectives.TradeScreen.Overview.Desc=<h>거래 협상</h> 창을 사용하면 다른 진영과 자산을 거래하고 관계를 계선할 수 있습니다.<br/><br/><h>다른 진영과 거래를 완료하면 우리를 향한 공격성이 낮아지고 관계가 개선됩니다.</h>
+
 UI.Objectives.TradeScreen.PlayerList.Name=우리 진영 자산
 UI.Objectives.TradeScreen.PlayerList.Desc=이 목록은 우리 진영이 거래하기 위해 제안할 수 있는 모든 범주의 자산을 표시합니다. <h>자원</h>, <h>조직</h>, <h>거주지</h>, <h>프로젝트</h>, <h>조약</h>을 가능한 경우 이곳의 거래 제안에 추가할 수 있습니다.<br/><br/>범주를 클릭하면 이용 가능한 자산을 펼치거나 접을 수 있습니다. 흐릿하게 표시된 범주의 경우, 해당 유형의 자산은 우리 진영이 제안할 수 없습니다.<br/><br/>자산을 누르면 우리의 거래 제안에 추가됩니다.
+
 UI.Objectives.TradeScreen.OppList.Name=상대 진영 자산
 UI.Objectives.TradeScreen.OppList.Desc=이 목록은 상대 진영이 우리 진영과 거래할 의사가 있는 자산을 표시합니다. 그들이 보유한 모든 자산을 항상 거래할 수 있는 것은 아닙니다.<br/><br/>자산을 누르면 우리의 거래 제안에 추가됩니다.
+
 UI.Objectives.TradeScreen.CurrentTrade.Name=현재 제안
 UI.Objectives.TradeScreen.CurrentTrade.Desc=여기에는 현재 거래 가능한 자산의 목록이 표시됩니다.<br/><br/>거래 제안에 포함된 <h>자원</h>의 경우, 왼쪽 숫자는 해당 자원 중 거래 가능한 양을 나타냅니다. 오른쪽 숫자는 해당 자원 중 현재 거래 제안에 포함된 양을 나타냅니다. 제안된 양을 변경하려면 자원의 입력란에 숫자를 입력하세요.<br/><br/>현재 제안에 있는 자산을 오른쪽 클릭하면 거래에서 제거됩니다.
+
 UI.Objectives.TradeScreen.Feedback.Name=거래 피드백
 UI.Objectives.TradeScreen.Feedback.Desc=거래 제안을 조정하면 상대 진영이 피드백을 제공할 것입니다. 상대 진영이 제안에 만족하지 않는 한 거래를 완료할 수 없습니다.
+
 UI.Objectives.TradeScreen.Trade.Name=거래 완료
 UI.Objectives.TradeScreen.Trade.Desc=상대 진영이 현재의 거래 제안에 만족한다면, 이 버튼을 클릭하여 거래를 완료합니다. 그러면 거래 협상 창이 닫히며, 이후의 추가 거래 제안은 <h>접촉</h> 임무를 통해 시작해야 합니다.<br/><br/>상대 진영이 제안에 만족할 때까지 이 버튼은 흐릿하게 표시된 채 유지됩니다.
+
 UI.Objectives.TradeScreen.Clear.Name=제안 취소
 UI.Objectives.TradeScreen.Clear.Desc=이 버튼을 누르면 거래 제안에서 양측 진영 모두의 전체 자산을 제거합니다.
+
 UI.Objectives.TradeScreen.Cancel.Name=협상 떠나기
 UI.Objectives.TradeScreen.Cancel.Desc=이 버튼을 누르면 협상을 중단하고 거래를 완료하지 않은 채 <h>거래 협상</h> 창을 닫습니다.
+
 UI.Objectives.ResearchScreenCanvas.PrimaryOverview.NameShort=연구
 UI.Objectives.ResearchScreenCanvas.PrimaryOverview.Name=연구
 UI.Objectives.ResearchScreenCanvas.PrimaryOverview.Desc=외계인의 도착으로 인해 과학계에서는 수많은 새로운 아이디어가 쏟아져 나왔습니다. <h>연구</h> 탭에는 진영이 추구하는 개별 프로젝트뿐만 아니라 집단적으로 진행되는 글로벌 연구 활동도 표시됩니다.
+
 UI.Objectives.ResearchScreenCanvas.ArchivesOverview.NameShort=보관소
 UI.Objectives.ResearchScreenCanvas.ArchivesOverview.Name=연구 기록 보관소
 UI.Objectives.ResearchScreenCanvas.ArchivesOverview.Desc=<h>보관소</h> 탭은 이전에 우리 진영이 완료한 모든 기술과 프로젝트 연구에 관한 정보를 표시합니다.
+
 UI.Objectives.ResearchScreenCanvas.ArchivesFilter.Name=필터
 UI.Objectives.ResearchScreenCanvas.ArchivesFilter.Desc=여기에서는 연구 목록을 <h>연구 범주</h> 또는 <h>이름으로 검색</h>하여 필터링할 수 있습니다.
+
 UI.Objectives.ResearchScreenCanvas.ArchivesList.Name=연구 목록
 UI.Objectives.ResearchScreenCanvas.ArchivesList.Desc=우리 진영이 연구한 기술 및 프로젝트 목록이 여기에 표시됩니다. 각 연구 항목을 누르면 오른쪽 패널에서 더 자세한 내용을 확인할 수 있습니다.
+
 UI.Objectives.ResearchScreenCanvas.ArchivesDetail.Name=연구 상세 정보
 UI.Objectives.ResearchScreenCanvas.ArchivesDetail.Desc=선택한 연구에 대한 상세 내용이 여기에 표시됩니다.
+
 UI.Objectives.ResearchScreenCanvas.ModifiersOverview.NameShort=보정치
 UI.Objectives.ResearchScreenCanvas.ModifiersOverview.Name=진영 보정치
-UI.Objectives.ResearchScreenCanvas.ModifiersOverview.Desc=<h>진영 보정치</h> 탭은 지구 및 태양계 내 연구와 이벤트를 통해 우리 진영이 받은 지속 효과 목록을 표시합니다.
+UI.Objectives.ResearchScreenCanvas.ModifiersOverview.Desc=<h>진영 보정치</h> 탭은 지구 및 태양계 내 연구와 이벤트를 통해 우리 진영이 받은 지속 효과 목록을 표시합니다. 
+
 UI.Objectives.ResearchScreenCanvas.ModifiersFilter.Name=필터
 UI.Objectives.ResearchScreenCanvas.ModifiersFilter.Desc=여기서는 보정치 범주 목록을 <h>이름으로 검색</h>하여 필터링할 수 있습니다.
+
 UI.Objectives.ResearchScreenCanvas.ModifiersList.Name=효과 범주
 UI.Objectives.ResearchScreenCanvas.ModifiersList.Desc=보정치 범주 목록이 여기에 표시됩니다. 여기서 보정치 범주를 누르면 오른쪽 패널에 해당 범주의 모든 누적된 보정치와 효과가 표시됩니다.
+
 UI.Objectives.ResearchScreenCanvas.ModifiersDetail.Name=보정치 상세 정보
 UI.Objectives.ResearchScreenCanvas.ModifiersDetail.Desc=선택한 보정치에 대한 상세 내용이 여기에 표시됩니다. 여러 효과가 표시될 경우, 해당 효과가 모두 적용되고 값이 중첩됩니다. 단, 효과 목록이 <color=#85B260>녹색</color> 및 <color=#B26A60>빨간색</color>텍스트로 표시된 경우, 녹색 효과가 우선 적용됩니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeOverview.NameShort=기술 계통도
 UI.Objectives.ResearchScreenCanvas.TreeOverview.Name=기술 계통도
 UI.Objectives.ResearchScreenCanvas.TreeOverview.Desc=<h>기술 계통도</h> 탭은 캠페인 진행에 따라 우리 진영이 연구할 수 있는 모든 기술과 프로젝트를 나뭇가지 형태로 표시합니다. 각 기술이나 프로젝트는 나무의 노드로 표시되며, 관련 <h>조건</h>이나 <h>해금</h> 항목과 연결되어 있습니다.<br/><br/>조건은 특정 기술이나 프로젝트를 해금하기 전에 완료해야 하는 연구입니다.<br/><br/>해금 항목은 모든 조건을 완료 시 이용할 수 있는 연구입니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeNavigation.Name=계통도 보기
 UI.Objectives.ResearchScreenCanvas.TreeNavigation.Desc=이 패널에서 다양한 기술의 연구 노드를 확인할 수 있습니다.<br/><br/>기술 계통도 보기를 클릭하고 드래그하여 이동할 수 있습니다. 패널 상단의 확대/축소 슬라이더를 사용하거나 마우스 스크롤을 사용하여 보기를 확대/축소하세요.
+
 UI.Objectives.ResearchScreenCanvas.TreeSelect.Name=기술 선택
 UI.Objectives.ResearchScreenCanvas.TreeSelect.Desc=기술은 우리 진영의 목표를 달성하는 다른 기술과 프로젝트에 접근 권한을 부여하거나 이를 위한 필수 조건입니다. 자세한 내용을 보려면 기술이나 프로젝트 위에 마우스를 올려놓거나 클릭하여 세부 정보 패널을 엽니다.<br/><br/>기술이나 프로젝트를 선택하면 해당 연구의 요구 사항이나 잠금 해제에 대한 모든 노드 연결이 강조 표시됩니다.<br/><br/>각 기술 노드는 상태에 따라 다음과 같이 색상이 지정됩니다. <color=#85B260>녹색</color> 노드는 우리 진영이 연구한 기술입니다. <color=#1589FF>파란색</color>은 우리 진영이 새로운 전 세계 연구 노력을 선택하면 연구 가능한 기술입니다. <color=#B26A60>빨간색</color>은 요구 사항이 아직 연구되지 않은 기술입니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeDetail.Name=기술 세부 정보
 UI.Objectives.ResearchScreenCanvas.TreeDetail.Desc=기술이나 프로젝트를 선택하면 해당 연구의 세부 정보, 즉 이름, 연구 범주, 현재 연구 진행도 또는 해금 확률, 연구 비용, 설명, 조건, 해금 항목 등이 여기에 표시됩니다.<br/><br/>이 패널의 조건 섹션이나 해금 항목 섹션에서 기술이나 프로젝트를 누르면 기술 계통도의 해당 노드로 이동하여 해당 연구의 세부 정보를 표시합니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeTarget.Name=연구 대상
 UI.Objectives.ResearchScreenCanvas.TreeTarget.Desc=이 버튼을 누르면 선택한 기술이나 프로젝트를 <h>연구 대상</h>으로 설정합니다. 연구 대상을 설정한 경우, 우리 진영이 <h>연구</h> 탭에서 새로운 기술이나 프로젝트를 선택할 수 있을 때마다 연구 대상이나 해당 조건 중 하나가 자동으로 연구하도록 선택됩니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeSelect2.Name=하위 계통도
 UI.Objectives.ResearchScreenCanvas.TreeSelect2.Desc=기술 계통도에서 기술이나 프로젝트를 오른쪽 클릭하면 해당 하위 계통도를 볼 수 있습니다. 하위 계통도에는 해당 기술이나 프로젝트에서 파생된 연구 조건 및 해금 항목의 노드만 포함됩니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeSearch.Name=검색 필터
 UI.Objectives.ResearchScreenCanvas.TreeSearch.Desc=이곳의 검색창을 사용하여 기술 및 프로젝트 이름으로 기술 계통도를 필터링할 수 있습니다. '전체 검색' 체크박스를 선택하면 기술 및 프로젝트 설명의 텍스트로도 필터링됩니다. 일치하는 연구의 드롭다운 목록에서 검색 결과를 클릭하면 트리 내 해당 노드로 이동합니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeFull.Name=전체 기술 계통도
 UI.Objectives.ResearchScreenCanvas.TreeFull.Desc=기본적으로 기술 계통도는 글로벌 연구 노드만 표시합니다. 이 버튼을 누르면 기술과 프로젝트를 모두 표시하는 전체 기술 계통도를 볼 수 있습니다. 버튼을 다시 누르면 글로벌 연구만 표시하는 기술 계통도로 돌아갑니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeSelect3.Name=프로젝트 선택
 UI.Objectives.ResearchScreenCanvas.TreeSelect3.Desc=프로젝트는 우리 진영에 자원, 새로운 함선 또는 거주 모듈, 새로운 무기 이용 등, 우리 진영에 실질적인 혜택을 줍니다.<br/><br/>기술과는 달리, 아직 연구되지 않은 프로젝트는 해금 확률에 따라 <h>주황색</h> 또는 <color=#B29B60>노란색</color>으로 강조 표시됩니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeSelect4.Name=대체 조건
-UI.Objectives.ResearchScreenCanvas.TreeSelect4.Desc=일부 프로젝트에는 <h>대체 조건</h>으로 간주되는 한 쌍의 조건이 있을 수 있으며, 이는 프로젝트 노드가 선택되었을 때 <color=#B29B60>노란색</color> 노드 연결로 표시됩니다. 일련의 대체 조건마다 해당하는 프로젝트의 조건을 충족하기 위해서는 반드시 하나의 조건만 연구해야 합니다. 다른 대체 항목이 없는 프로젝트의 다른 조건은 전부 연구해야 합니다.
+UI.Objectives.ResearchScreenCanvas.TreeSelect4.Desc=일부 프로젝트에는 <h>대체 조건</h>으로 간주되는 한 쌍의 조건이 있을 수 있으며, 이는 프로젝트 노드가 선택되었을 때 <color=#B29B60>노란색</color> 노드 연결로 표시됩니다. 이러한 일련의 대체 조건 중에서는 해당 프로젝트의 조건을 충족하기 위해 그중 하나만 연구하면 됩니다. 다만, 대체 조건이 없는 프로젝트의 다른 조건은 여전히 전부 연구해야 합니다.
+
 UI.Objectives.ResearchScreenCanvas.TreeSelect5.Name=해금 확률
 UI.Objectives.ResearchScreenCanvas.TreeSelect5.Desc=기술과는 달리, 우리 진영의 과학자들은 가능한 모든 프로젝트를 획득할 수 있는 것은 아닙니다. 각 프로젝트의 백분율은 우리 과학자들이 해당 프로젝트에 대한 연구를 수행할 수 있는 확률을 나타냅니다. 해금 확률이 100%인 프로젝트는 반드시 우리 진영에서 사용할 수 있게 되며, 연구를 할 수 있게 되는 것은 시간 문제일 뿐입니다.
+
 UI.Objectives.SpaceCombatCanvas.Formations2.Name=대형 구성
 UI.Objectives.SpaceCombatCanvas.Formations2.Desc=이 드롭다운 메뉴를 사용하여 함대의 대형을 구성합니다. 전체 대형에 대한 설명은 아래에 표시됩니다.
+
 UI.Objectives.SpaceCombatCanvas.Formations3.Name=대형 간격
 UI.Objectives.SpaceCombatCanvas.Formations3.Desc=이 드롭다운 메뉴를 사용하여 대형 내 함선 간의 거리를 변경합니다. 함대 대형 내 모든 함선에 동일한 거리가 적용됩니다. 대형이 밀집되어 있으면 함선 간 상호 방어를 할 수 있지만, 기동이 더 어려워질 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.Formations4.Name=대형 형태
 UI.Objectives.SpaceCombatCanvas.Formations4.Desc=이 드롭다운 메뉴를 사용하여 함대 함선의 배치 형태를 변경합니다. 일부 형태는 함선 수가 많거나 적은 함대에 더 적합합니다.
+
 UI.Objectives.SpaceCombatCanvas.Formations5.Name=함선 집중
 UI.Objectives.SpaceCombatCanvas.Formations5.Desc=이 드롭다운 메뉴를 사용하여 특정 유형의 함선을 대형의 특정 부분에 집중 배치합니다. 예를 들어, 가장 중무장한 함선을 전방에 배치하거나, 장거리 전투함을 한쪽 측면에 집중시킬 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.FormationVelocity.Name=초기 속도
 UI.Objectives.SpaceCombatCanvas.FormationVelocity.Desc=이 슬라이더를 조정하여 전투 시작 시 함대의 <h>속도</h>를 변경합니다. 함대는 최대 650 mps(초당 미터)의 속도로 이동 중이거나 정지 상태에서 전투를 시작할 수 있습니다. 초기 속도가 높을수록 함선의 초기 궤적에서 벗어나는 데 필요한 델타-V가 증가합니다.
+
 UI.Objectives.SpaceCombatCanvas.FormationSwap.Name=위치 교체
 UI.Objectives.SpaceCombatCanvas.FormationSwap.Desc=함대의 대형이 설정되면, 두 함선을 선택하여 대형 내에서 위치를 바꿀 수 있습니다. 이후 함대 대형을 추가로 조정하면 조정된 위치가 대형 구성에 따라 재설정됩니다.
+
 UI.Objectives.SpaceCombatCanvas.FormationReinforce.Name=증원
 UI.Objectives.SpaceCombatCanvas.FormationReinforce.Desc=게임 성능 설정에서 허용된 최대 함선 수를 초과하는 우주 전투가 발생하는 경우, 한쪽 또는 양측 모두 <h>증원군</h>을 사용할 수 있습니다. 증원 함선은 나중에 우주 전투에 합류하여 파괴된 활성 함선을 대체하게 됩니다. 함대 대형을 구성할 때, 여기 함대 목록에서 증원 함선을 선택할 수 있습니다. 증원 함선과 이미 대형에 포함된 함선을 눌러 함선을 교체하면 증원 함선이 초기 함대 대형에 포함됩니다.<br/><br/>게임 플레이 설정에서 우주 전투 시작 시 활성화되는 함선의 최대 수는 조정할 수 있습니다. 최대값 30은 언제든지 활성화된 함선의 수를 총 30척으로 제한합니다.
+
 UI.Objectives.SpaceCombatCanvas.FormationConfirm.Name=대형 확인
 UI.Objectives.SpaceCombatCanvas.FormationConfirm.Desc=함대의 대형 구성을 마치고 나면 이 버튼을 눌러 우주 전투를 시작합니다.
+
 UI.Objectives.SpaceCombatCanvas.CameraIntro.Name=카메라 제어
 UI.Objectives.SpaceCombatCanvas.CameraIntro.Desc=우주 전투에서는 항상 전투 상황을 제대로 파악하는 것이 중요하며, 이를 위한 첫걸음은 전투 카메라 조작법에 숙달하는 것입니다.
+
 UI.Objectives.SpaceCombatCanvas.InterfaceOverview.Name=전투 인터페이스
 UI.Objectives.SpaceCombatCanvas.InterfaceOverview.Desc=함선의 개별적인 궤적을 제어하는 것 외에도 전투 공간 화면 상단과 측면에 위치한 인터페이스를 통해 정보를 확인하고, 함대 전체에 명령을 내리며, 전투 속도를 조절할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.BattleLog.Name=전투 기록
 UI.Objectives.SpaceCombatCanvas.BattleLog.Desc=이 버튼을 클릭하면 <h>전투 기록</h>이 열립니다. 전투 관련 이벤트가 발생하는 순서대로 시간별로 기록됩니다. 이벤트는 함선 파괴, 전장에 증원 함선 도착 등 범주별로 필터링할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Name=미사일 일제 사격
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=<h>미사일 일제 사격</h> 명령 버튼을 눌러 주요 표적을 지정하고, 미사일 무기를 보유한 모든 함선에서 미사일 일제 사격을 준비합니다. 미사일 일제 사격은 각 무기의 최대 탄약 용량의 25%에 해당하는 미사일을 발사한 후, 무기를 대기 상태로 둡니다.<br/><br/><h>{0} 키를 길게 누른 채 적 표적을 클릭</h>해도 미사일 일제 사격을 발사할 수 있습니다.
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=<h>미사일 일제 사격</h> 명령 버튼을 눌러 주요 표적을 지정하고, 미사일 무기를 보유한 모든 함선에서 미사일 일제 사격을 준비합니다. 미사일 일제 사격은 각 무기의 최대 탄약 용량의 25%에 해당하는 미사일을 발사한 후, 무기를 대기 상태로 둡니다.<br/><br/><h>({0}) 키를 누른 채 적 표적을 클릭</h>해도 미사일 일제 사격을 발사할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Name=제어 취소
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Desc=<h>AI 제어 취소</h> 명령 버튼을 눌러 우리 함대의 모든 함선에 대한 통제권을 되찾습니다. 언제든지 취소할 수 있습니다.
+
 UI.Objectives.SpaceCombatCanvas.Autoresolve.Name=자동 해결
 UI.Objectives.SpaceCombatCanvas.Autoresolve.Desc=우주 전투가 진행 중인 이 캠페인(소규모 접전이 아님) 일부인 경우, 여기에 나타나는 버튼을 클릭하여 전투를 <h>자동 해결</h>할 수 있습니다. 이는 현재의 전투 상태를 가져와 화면 밖에서 완료한 다음, 결과를 보고하여 전투를 종료합니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailTarget.Name=함선 표적
 UI.Objectives.SpaceCombatCanvas.ShipDetailTarget.Desc=선택한 함선의 주요 표적 이름이 여기에 표시됩니다. 주요 표적이 설정되지 않은 경우 함선은 자유롭게 발사합니다.
+
 UI.Objectives.SpaceCombatCanvas.ShipDetailVelocity.Name=속도 및 가속도
 UI.Objectives.SpaceCombatCanvas.ShipDetailVelocity.Desc=선택한 함선의 현재 속도 및 최대 가능한 가속도가 여기에 표시됩니다.
+
 UI.Objectives.SpaceCombatCanvas.MultiShipClassSelect.Name=등급 선택
 UI.Objectives.SpaceCombatCanvas.MultiShipClassSelect.Desc=<h>Alt 키를 누른 채 함선을 클릭</h>하면 해당 등급 유형의 모든 함선을 선택합니다. 범위 선택과 함께 사용하거나 함선 목록에서 함선을 선택할 때에도 이 방법을 사용할 수 있습니다.
+
+
 UI.Objectives.NationInfoCanvas.ExoBuild.NameShort=전투기 건조
 UI.Objectives.NationInfoCanvas.ExoBuild.Name=우주전투기 건조
 UI.Objectives.NationInfoCanvas.ExoBuild.Desc=지대궤도 전투기, 즉 <h>우주전투기</h>는 우리 진영이 통제하는 국가들이 적 함대나 스테이션을 상대로 우주 전투를 개시하거나 참여할 수 있게 해줍니다. 이제 인류에게 필요한 기술 연구를 완료했으므로, '우주전투기 건조' 우선순위에 투자하여 이 국가에서 우주 전투기 건조를 시작할 수 있습니다.
+
 UI.Objectives.NationInfoCanvas.ExoPriority.Name=우주전투기 건조 우선순위
 UI.Objectives.NationInfoCanvas.ExoPriority.Desc=이 우선순위를 완료하면 국가의 추진력 시설 중 하나에 지대궤도 우주전투기 한 대가 추가됩니다. 국가 통치 진영은 지구의 접점 궤도에서 우주 전투에 참여하기 위해 <color=#FFFFFFFF><sprite name=boost></color> 부스트를 사용할 수 있습니다.<br/><br/>필요한 <color=#FFFFFFFF><sprite name=boost></color> 부스트의 양은 우주전투기의 장비 구성에 따라 달라집니다.<br/><br/>이 국가의 전투기는 임무를 끝내고 다음 임무를 시작할 때까지일정 시간이 필요하며, 수리가 필요할 만큼 손상된 경우에는 더 많은 시간이 필요합니다.
+
 UI.Objectives.NationInfoCanvas.ExoInfo.Name=우주전투기 정보
 UI.Objectives.NationInfoCanvas.ExoInfo.Desc=이 국가의 현재 우주전투기 이용 가능 여부에 대한 정보가 여기에 표시됩니다. 표시된 값은 임무에 투입 가능한 이 국가의 지대궤도 우주전투기 수, 수리 및 임무 후 수리 중인 우주전투기를 포함한 전체 수, 이 국가에서 허용되는 최대 우주전투기 수를 나타냅니다. 값 위에 마우스를 올리면 자세한 내용을 확인할 수 있습니다.
+
+
 UI.Objectives.ExoOps.ExoLaunch.NameShort=전투기 발진
 UI.Objectives.ExoOps.ExoLaunch.Name=우주전투기 발진
 UI.Objectives.ExoOps.ExoLaunch.Desc=이제 우리에게 행정 통제 권한이 있는 하나 이상의 국가에서 우주전투기를 운용할 수 있게 되었으므로, 지구 접점 궤도 상의 모든 적 표적에 우주전투기 공격을 개시할 수 있습니다. 우주전투기 발진 작전을 시작하려면 여기를 누르세요.<br/><br/>또한 해당 궤도에서 일어나는 우주 전투에 우주전투기를 추가 투입할 수 있습니다. 이는 '전투 임박' 패널에서 관리할 수 있습니다.
+
 UI.Objectives.ExoOps.ExoTarget.Name=표적 선택
 UI.Objectives.ExoOps.ExoTarget.Desc=지구 궤도를 도는 적 거주지와 함대 중에서 표적을 선택하거나 작전 대상 드롭다운 메뉴를 사용하세요. 표적을 선택한 후 '우주전투기 발진'을 눌러 우주 전투 준비를 시작합니다. 이후 나타나는 패널에서 '우주전투기 추가' 버튼을 사용하여 공격에 참여하는 우주전투기 수를 늘리고 장비 구성을 변경할 수 있습니다.
+
+
 UI.Objectives.GeneralControlsCanvas.AccessBar.NameShort=자원 판매
 UI.Objectives.GeneralControlsCanvas.AccessBar.Name=자원 판매
 UI.Objectives.GeneralControlsCanvas.AccessBar.Desc=우리 진영이 지구 접점 궤도에 운영되는 스테이션을 보유한 경우, 특정 우주 자원을 지구에 되팔 수 있는 능력이 있습니다.<br/><br/>상단 표시줄의 <h>우주 자원</h> 부분을 눌러 <h>지구에 자원 판매</h> 창을 엽니다.
+
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Name=자원 판매
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Desc=지구 접점 궤도에 위치한 각 스테이션에 대해 표시되는 이 버튼을 클릭하여 같은 창을 열 수도 있습니다.
+
 UI.Objectives.GeneralControlsCanvas.SellIntro.Name=지구에 자원 판매
 UI.Objectives.GeneralControlsCanvas.SellIntro.Desc=자원 판매를 통해 우리 진영이 지구를 넘어 채굴한 여분의 <color=#FFFFFFFF><sprite name=metal></color> <h>비금속</h>, <color=#FFFFFFFF><sprite name=metal_noble></color> <h>귀금속</h>, <color=#FFFFFFFF><sprite name=radioactive></color> <h>핵분열성 물질</h>을 다시 <color=#FFFFFFFF><sprite name=currency></color> 자금으로 바꿀 수 있습니다.<br/><br/><h>지구 접점궤도에 가동되고 있는 거주지가 없으면, 우주 자원을 판매하는 능력이 비활성화됩니다.</h>
+
 UI.Objectives.GeneralControlsCanvas.SellOverview.Name=사용 가능한 자원
 UI.Objectives.GeneralControlsCanvas.SellOverview.Desc=판매 가능한 각 자원은 여기에 표시됩니다. 각 자원의 현재 판매 가격은 맨 오른쪽에 표시됩니다.
+
 UI.Objectives.GeneralControlsCanvas.SetResources.Name=자원의 양 설정
 UI.Objectives.GeneralControlsCanvas.SetResources.Desc=자원의 입력란을 클릭하고 값을 입력하여 판매할 자원의 수량을 설정합니다. 입력란 양쪽의 버튼을 클릭하여 판매할 해당 자원의 수량을 100씩 늘리거나 줄일 수도 있습니다. 판매 중인 각 자원의 소계는 오른쪽에 표시됩니다.
+
 UI.Objectives.GeneralControlsCanvas.SellControls.Name=판매 제어
 UI.Objectives.GeneralControlsCanvas.SellControls.Desc=거래의 총 판매 금액이 여기에 표시됩니다. '확인' 버튼을 클릭하면 판매가 확정됩니다. '초기화' 버튼을 클릭하면 모든 자원 수량을 0으로 되돌립니다.

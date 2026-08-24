@@ -1,0 +1,65 @@
+[
+ {
+   "dataName": "AlienHQ",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "friendlyName": "Alien HQ",
+   "habType": "Base",
+   "tier": 3,
+   "alien": true,
+   "sectors": [
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienColonyCore",
+            "AlienFusionReactorFarm",
+            "AlienWormholeFacility"
+         ]
+      },
+      {
+         "faction": "AlienCouncil"
+      },
+      {
+         "faction": "AlienCouncil"
+      },
+      {
+         "faction": "AlienCouncil"
+      },
+      {
+         "faction": "AlienCouncil"
+      }
+   ]
+},
+ {
+   "dataName": "AlienHQStation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "friendlyName": "Alien Station Alpha",
+   "habType": "Station",
+   "tier": 3,
+   "alien": true,
+   "sectors": [
+      {
+         "faction": "AlienCouncil",
+         "habModuleNames": [
+            "AlienRingCore",
+            "AlienFusionReactorFarm"
+         ]
+      },
+      {
+         "faction": "AlienCouncil"
+      },
+      {
+         "faction": "AlienCouncil"
+      },
+      {
+         "faction": "AlienCouncil"
+      },
+      {
+         "faction": "AlienCouncil"
+      }
+   ]
+}
+]

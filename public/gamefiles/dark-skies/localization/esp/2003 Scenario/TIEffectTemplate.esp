@@ -1,0 +1,83 @@
+
+// Dark Skies DLC
+
+Context.displayName.MaterialScience=Ciencias de los materiales
+Context.displayName.SpaceScience=Ciencias espaciales
+Context.displayName.EnergyScience=Ciencias de la energía
+Context.displayName.LifeScience=Ciencias de la vida
+Context.displayName.MilitaryScience=Ciencias militares
+Context.displayName.InformationScience=Ciencias de la información
+Context.displayName.SocialScience=Ciencias sociales
+Context.displayName.Xenology=Xenología
+Context.displayName.PublicOpinionInfluence=Influencia de la opinión pública
+Context.displayName.SemiMajorAxisExplorationRange_AU=Alcance de la exploración orbital
+Context.displayName.PublicizedAlienThreat=Amenaza alienígena publicitada
+Context.displayName.AugmentationMoneyCost=Coste monetario de mejoras
+Context.displayName.HabConstructionSpeed=Velocidad de construcción de hábitats
+Context.displayName.MineSizeModifier=Tamaño de mina espacial
+
+Context.displayName.DemocracyBackslides=Retroceso democrático
+TIEffectTemplate.description.Effect_BS_DemocracyBackslides1=-Daña las instituciones democráticas
+
+TIEffectTemplate.description.Effect_BS_CPMaintenanceBonus_MakingHistoryA=-Aumenta nuestra capacidad para gestionar puntos de control en {19}. No se acumula con otros proyectos de hacer historia. 
+TIEffectTemplate.description.Effect_BS_InfluenceRepair=-Aumenta en {3} la Influencia de la opinión pública
+TIEffectTemplate.description.Effect_BS_MaterialScienceBonusA=-Aumenta en {3} nuestra investigación en ciencias de los materiales
+TIEffectTemplate.description.Effect_BS_SpaceScienceBonusA=-Aumenta en {3} nuestra investigación en ciencias espaciales
+TIEffectTemplate.description.Effect_BS_SpaceScience5=-Aumenta en {3} nuestra investigación en ciencias espaciales
+TIEffectTemplate.description.Effect_BS_EnergyScienceBonusA=-Aumenta en {3} nuestra investigación en ciencias de la energía
+TIEffectTemplate.description.Effect_BS_LifeScienceBonusA=-Aumenta en {3} nuestra investigación en ciencias de la vida
+TIEffectTemplate.description.Effect_BS_MilitaryScienceBonusA=-Aumenta en {3} nuestra investigación en ciencias militares
+TIEffectTemplate.description.Effect_BS_InformationScienceBonusA=-Aumenta en {3} nuestra investigación en ciencias de la información
+TIEffectTemplate.description.Effect_BS_SocialScienceBonusA=-Aumenta en {3} nuestra investigación en ciencias sociales
+TIEffectTemplate.description.Effect_BS_XenologyBonusA=-Aumenta en {3} nuestra investigación en xenología
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimeRepair=-Aumenta en {3} nuestra velocidad de construcción de naves
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationI=-Aumenta en {0} UA el alcance de la exploración orbital
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationII=-Aumenta en {0} UA el alcance de la exploración orbital
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationIII=-Elimina los límites de alcance de la exploración orbital
+TIEffectTemplate.description.Effect_BS_GraySky=-Permite que todas las facciones puedan rastrear naves y estructuras alienígenas que se dirijan a Marte
+TIEffectTemplate.description.Effect_BS_AugmentationMoneyCostReduction=-Reduce en {4} el coste de las mejoras de nuestros consejeros
+TIEffectTemplate.description.Effect_BS_PublicizeAlienThreat=-Puede promover la hostilidad alienígena
+TIEffectTemplate.description.Effect_BS_AlienAwareness=-Difunde información acerca de los alienígenas entre el público general
+TIEffectTemplate.description.Effect_BS_DiscoverAlienInvasion=-Revela los planes de los alienígenas en la Tierra
+
+TIEffectTemplate.description.Effect_BS_CPResearchPenalty=-Reduce en {4} la investigación a partir de nuestros puntos de control
+TIEffectTemplate.description.Effect_BS_CPMaintenancePenalty=-Reduce en {4} nuestra capacidad para gestionar puntos de control
+TIEffectTemplate.description.Effect_BS_SustainabilityPenalty=-Reduce en {25} los puntos de inversión nacional que destinamos a la prioridad de medioambiente.
+TIEffectTemplate.description.Effect_BS_MCPenalty=-Reduce en {25} los puntos de inversión nacional que destinamos a la prioridad de control de misiones
+TIEffectTemplate.description.Effect_BS_BoostPenalty=-Reduce en {25} los puntos de inversión nacional que destinamos a la prioridad de impulso
+TIEffectTemplate.description.Effect_BS_InfluencePenalty=-Reduce en {25} la Influencia de la opinión pública
+TIEffectTemplate.description.Effect_BS_MaterialSciencePenalty=-Reduce en {25} nuestra investigación en ciencias de los materiales
+TIEffectTemplate.description.Effect_BS_SpaceSciencePenalty=-Reduce en {25} nuestra investigación en ciencias espaciales
+TIEffectTemplate.description.Effect_BS_EnergySciencePenalty=-Reduce en {25} nuestra investigación en ciencias de la energía
+TIEffectTemplate.description.Effect_BS_LifeSciencePenalty=-Reduce en {25} nuestra investigación en ciencias de la vida
+TIEffectTemplate.description.Effect_BS_MilitarySciencePenalty=-Reduce en {25} nuestra investigación en ciencias militares
+TIEffectTemplate.description.Effect_BS_InformationSciencePenalty=-Reduce en {25} nuestra investigación en ciencias de la información
+TIEffectTemplate.description.Effect_BS_SocialSciencePenalty=-Reduce en {25} nuestra investigación en ciencias sociales
+TIEffectTemplate.description.Effect_BS_XenologyPenalty=-Reduce en {25} nuestra investigación en xenología
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimePenalty=-Reduce en {27} nuestra velocidad de construcción de naves
+TIEffectTemplate.description.Effect_BS_SpaceMiningPenalty=-Reduce en {25} nuestra producción de minería terrestre
+TIEffectTemplate.description.Effect_BS_BlackSky=-Las facciones pueden rastrear naves y estructuras alienígenas que se encuentren cerca de la Tierra
+
+TIEffectTemplate.description.Effect_BS_InvestigationPenalty=-Todos los candidatos a consejero en nuestra reserva comienzan con {0} menos de rastreo
+
+TIEffectTemplate.description.Effect_BS_BoostPenaltyEventTemp=-Los puntos de inversión nacional que destinamos a la prioridad de impulso disminuyen en {25} durante {7} meses
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEvent=-Los puntos de inversión nacional que destinamos a la prioridad del programa de vuelo espacial aumentan en un {25}
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEventTemp=-Los puntos de inversión nacional que destinamos a la prioridad del programa de vuelo espacial aumentan en {25} durante {7} meses
+TIEffectTemplate.description.Effect_BS_GovernmentPenaltyEventTemp=-Los puntos de inversión de todas las naciones destinados a la prioridad de gobierno disminuyen en {25} durante {7} meses
+TIEffectTemplate.description.Effect_BS_MilitaryBonusEventSmallGlobal=-Los puntos de inversión de todas las naciones destinados a la prioridad de milicia aumentan en {3}
+TIEffectTemplate.description.Effect_BS_DefendAllOwnedControlPoints=-Todos los puntos de control propios {5} se defenderán durante {7} meses
+
+TIEffectTemplate.description.Effect_BS_NationRemoveAbductions1=-{0} abducciones eliminadas {5}
+
+TIEffectTemplate.description.Effect_BS_GlobalExcessMiltechReduction=-Todas las naciones con una tecnología militar superior a {13} perderá un {3} del exceso
+
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedPenalty=-Reduce en {4} nuestra velocidad de construcción de hábitats
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedRepair=-Aumenta en {3} nuestra velocidad de construcción de hábitats
+TIEffectTemplate.description.Effect_BS_MineSizeReduction=-Reduce en {4} el tamaño de nuestras minas espaciales
+TIEffectTemplate.description.Effect_BS_MineSizeNormalization=-Aumenta en {3} el tamaño de las minas espaciales
+
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeReduction=-Reduce en {4} el tamaño de nuestras minas espaciales automatizadas
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeNormalization=-Aumenta en {3} el tamaño de las minas espaciales automatizadas
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeReduction=-Reduce en {4} el tamaño de nuestros puestos remotos automatizados
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeNormalization=-Aumenta en {3} el tamaño de nuestros puestos remotos automatizados
+

@@ -235,7 +235,7 @@ UI.Objectives.IntelScreenCanvas.AlienHabs.Desc=此区域会列出太阳系中所
 
 UI.Objectives.IntelScreenCanvas.AlienThreat.NameShort=威胁
 UI.Objectives.IntelScreenCanvas.AlienThreat.Name=外星人威胁指数
-UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=在推定外星势力将我方阵营视作何等程度的威胁时，此量表给出了我方情报部门基于现有信息所作出的最佳预估。预估依据包括对亲外星团体的监控数据，以及太阳系内可观测到的外星人活动迹象。<br/><br/>我们认为，基于任务管控力的使用情况来判断，若我方在太空中保持大规模的可见存在，或对外星势力及其地球代理人采取敌对行动，都会使其对我方的猜忌不断加深。当威胁指数升至最高水平时，外星势力很可能发起报复，危害我们在地球上与太空中的利益。此外，若我方特工对其采取直接行动，很可能引发对方孤注一掷的报复；但若我方能在一段时间内避免与其或其地球代理人发生正面冲突，对方对我们的关注度将有所下降。<br/><br/>分析人员强调，此评估尚存在一定局限性。只有当外星势力对我方采取直接行动、或我方与其直接接触时，我们才有机会对评估结果做出进一步修正。<br/><br/>如果我们断定，外星人为损害我们的利益，甚至不惜全面开战，那么此评估将完全显示为红色。
+UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=在推定外星势力将我方阵营视作何等程度的威胁时，此量表给出了我方情报部门基于现有信息所作出的最佳预估。预估依据包括对亲外星团体的监控数据，以及太阳系内可观测到的外星人活动迹象。<br/><br/>我们认为，基于任务管控力的使用情况来判断，若我方在太空中保持大规模的可见存在，或对外星势力及其地球代理人采取敌对行动，都会使其对我方的猜忌不断加深。当威胁指数升至最高水平时，外星势力很可能发起报复，危害我们在地球上与太空中的利益。此外，若我方特工对其采取直接行动，很可能导致对方发动报复远征；但若我方能在相当长的一段时间内避免与其或其地球代理人发生正面冲突，对方对我们的关注度将有所下降。<br/><br/>分析人员强调，此评估尚存在一定局限性。只有当外星势力对我方采取直接行动、或我方与其直接接触时，我们才有机会对评估结果做出进一步修正。<br/><br/>如果我们断定，外星人为损害我们的利益，甚至不惜全面开战，那么此评估将完全显示为红色。
 
 UI.Objectives.IntelScreenCanvas.FactionOverview.Name=阵营总览
 UI.Objectives.IntelScreenCanvas.FactionOverview.NameShort=阵营
@@ -549,7 +549,7 @@ UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Name=飞船温度
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Desc=此量表会显示舰船储热槽储存的热能状况。散热器展开时，热能会被排出。如果热度达到上限，舰船将开始承受内部损伤，因此在条件允许时，散热器会自动展开散热。<br/><br/><h>热能管理失当的舰船将遭受灾难性故障。</h>
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=舰船电力
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=此量表会显示所选舰船剩余的可用电量。所有舰船都配备有容量充足的反应堆，能够为舰船上的系统和武器提供支持。若反应堆受损，除非该舰船安装了至少一个电池设施舱体，否则系统将停止运转。<br/><br/><h>建议时刻留意电能消耗状况和剩余电量，以确保我方舰船在关键时刻能以最佳状态投入战斗。</h>
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=此量表会显示所选舰船剩余的可用电量。所有舰船都配备有容量充足的反应堆，能够为舰船上的系统和武器提供支持。若反应堆受损，除非该舰船安装了一个电池设施舱体，否则系统将停止运转。<br/><br/><h>建议时刻留意电能消耗状况和剩余电量，以确保我方舰船在关键时刻能以最佳状态投入战斗。</h>
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Name=舰船 Delta-V
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Desc=此量表会显示舰船在当前战斗中可消耗的 Delta-V 额度。<br/><br/><h>舰队中的舰船应预留足够的 Delta-V，以确保在太空战斗结束后能够完成任何正在进程中的航行。</h>

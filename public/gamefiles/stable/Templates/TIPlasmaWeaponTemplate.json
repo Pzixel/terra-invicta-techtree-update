@@ -94,8 +94,8 @@
    "weightedBuildMaterials": {
       "volatiles": 0.1,
       "metals": 0.5,
-      "nobleMetals": 0.35,
-      "exotics": 0.05
+      "nobleMetals": 0.38,
+      "exotics": 0.02
    },
    "iconResource": "shipbuildericons/ICO_PlasmaBatteryMk3",
    "modelResource": "shipweapons/medium_plasma_battery",
@@ -200,8 +200,8 @@
    "weightedBuildMaterials": {
       "volatiles": 0.1,
       "metals": 0.5,
-      "nobleMetals": 0.35,
-      "exotics": 0.05
+      "nobleMetals": 0.38,
+      "exotics": 0.02
    },
    "iconResource": "shipbuildericons/ICO_HeavyPlasmaBatteryMk3",
    "modelResource": "shipweapons/large_plasma_battery",
@@ -306,8 +306,8 @@
    "weightedBuildMaterials": {
       "volatiles": 0.1,
       "metals": 0.5,
-      "nobleMetals": 0.35,
-      "exotics": 0.05
+      "nobleMetals": 0.38,
+      "exotics": 0.02
    },
    "iconResource": "shipbuildericons/ICO_PlasmaCannonMk3",
    "modelResource": "shipweapons/large_plasma_cannon",
@@ -413,7 +413,7 @@
       "volatiles": 0.1,
       "metals": 0.5,
       "nobleMetals": 0.38,
-      "exotics": 0.05
+      "exotics": 0.02
    },
    "iconResource": "shipbuildericons/ICO_HeavyPlasmaCannonMk3",
    "modelResource": "shipweapons/huge_plasma_cannon",

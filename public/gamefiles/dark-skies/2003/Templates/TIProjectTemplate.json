@@ -1,0 +1,4387 @@
+[
+ {
+   "friendlyName": "Research Repair Project A",
+   "dataName": "Project_BS_ResearchRepairProjectA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 100,
+   "prereqs": [
+      "AppliedArtificialIntelligence"
+   ],
+   "effects": [
+      "Effect_BS_CPResearchRepairA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Research Repair Project B",
+   "dataName": "Project_BS_ResearchRepairProjectB",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 100,
+   "prereqs": [
+      "BS_ExascaleComputing",
+      "ArrivalMassCommunications"
+   ],
+   "effects": [
+      "Effect_BS_CPResearchRepairA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Research Repair Project C",
+   "dataName": "Project_BS_ResearchRepairProjectC",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 100,
+   "prereqs": [
+      "DirectedSpaceResearch"
+   ],
+   "effects": [
+      "Effect_BS_CPResearchRepairA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Research Repair Project D",
+   "dataName": "Project_BS_ResearchRepairProjectD",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 100,
+   "prereqs": [
+      "ArrivalGovernance"
+   ],
+   "effects": [
+      "Effect_BS_CPResearchRepairA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Signatures",
+   "dataName": "Project_TheirSignatures",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 200,
+   "requiredObjectiveName": "InvestigateAlienCrashdown",
+   "effects": [
+      "Effect_DetectAbductions"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Methods",
+   "dataName": "Project_TheirMethods",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 2000,
+   "requiredObjectiveName": "InvestigateAlienAbductions",
+   "effects": [
+      "Effect_DetectEnthralls"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Operations",
+   "dataName": "Project_TheirOperations",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 4000,
+   "requiredObjectiveName": "InvestigateEnthrallMission",
+   "effects": [
+      "Effect_DetectAllOperations",
+      "Effect_UpdateAlienThreatMeter"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Movements",
+   "dataName": "Project_TheirMovements",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 8000,
+   "prereqs": [
+      "Project_TheirOperations",
+      "BS_DigitalSociety"
+   ],
+   "effects": [
+      "Effect_DetectAlienMovements",
+      "Effect_BS_XenologyBonusA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Signatures",
+   "dataName": "Project_BS_TheirSignatures_Submit",
+   "localizationAlias": "Project_TheirSignatures",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 25,
+   "requiredObjectiveName": "InvestigateAlienCrashdown",
+   "effects": [
+      "Effect_DetectAbductions",
+      "Effect_BS_AlienDetectionBonusB"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Methods",
+   "dataName": "Project_BS_TheirMethods_Submit",
+   "localizationAlias": "Project_TheirMethods",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 60,
+   "requiredObjectiveName": "InvestigateAlienAbductions",
+   "effects": [
+      "Effect_DetectEnthralls"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Operations",
+   "dataName": "Project_BS_TheirOperations_Submit",
+   "localizationAlias": "Project_TheirOperations",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 100,
+   "requiredObjectiveName": "InvestigateEnthrallMission",
+   "effects": [
+      "Effect_DetectAllOperations",
+      "Effect_UpdateAlienThreatMeter"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Movements",
+   "dataName": "Project_BS_TheirMovements_Submit",
+   "localizationAlias": "Project_TheirMovements",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 200,
+   "prereqs": [
+      "Project_BS_TheirOperations_Submit"
+   ],
+   "effects": [
+      "Effect_DetectAlienMovements",
+      "Effect_BS_XenologyBonusA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hydra Language",
+   "dataName": "Project_HydraLanguage",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 10000,
+   "requiredObjectiveName": "CaptureAHydra",
+   "altRequiredObjectiveName": "ContactTheAliens",
+   "effects": [
+      "Effect_BS_XenologyBonusA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hydra Diplomacy",
+   "dataName": "Project_HydraDiplomacy",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 10000,
+   "prereqs": [
+      "Project_HydraLanguage"
+   ],
+   "effects": [
+      "Effect_AlienRelationsEstablished",
+      "Effect_FixAlienThreatMeter"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "AppeaseCouncil",
+      "CooperateCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Demands",
+   "dataName": "Project_TheirDemands",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 5000,
+   "prereqs": [
+      "Project_HydraDiplomacy"
+   ],
+   "altPrereq0": "Project_BS_HydraDiplomacy_Submit",
+   "effects": [
+      "Effect_FixAlienThreatMeter",
+      "Effect_BS_DiscoverAlienInvasion"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "AppeaseCouncil",
+      "CooperateCouncil",
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Exotics",
+   "dataName": "Project_Exotics",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 20000,
+   "prereqs": [
+      "Project_TheirTechnology"
+   ],
+   "altPrereq0": "Project_HydraDiplomacy",
+   "requiredObjectiveName": "SalvageAlienWarship",
+   "altRequiredObjectiveName": "ContactTheAliens",
+   "effects": [
+      "Effect_CanAmassExotics"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hydra Language",
+   "dataName": "Project_BS_HydraLanguage_Submit",
+   "localizationAlias": "Project_HydraLanguage",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 1000,
+   "requiredObjectiveName": "CaptureAHydra",
+   "altRequiredObjectiveName": "ContactTheAliens",
+   "effects": [
+      "Effect_BS_XenologyBonusA",
+      "Effect_BS_DiscoverAlienInvasion"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hydra Diplomacy",
+   "dataName": "Project_BS_HydraDiplomacy_Submit",
+   "localizationAlias": "Project_HydraDiplomacy",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 1250,
+   "prereqs": [
+      "Project_BS_HydraLanguage_Submit"
+   ],
+   "effects": [
+      "Effect_AlienRelationsEstablished",
+      "Effect_FixAlienThreatMeter",
+      "Effect_BS_RecruitsGainChosen",
+      "Effect_AllCouncilorsEspionage2",
+      "Effect_BS_CPResearchBonus_SubmitA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Exotics",
+   "dataName": "Project_BS_Exotics_Submit",
+   "localizationAlias": "Project_Exotics",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 15000,
+   "prereqs": [
+      "Project_TheirTechnology"
+   ],
+   "altPrereq0": "Project_BS_HydraDiplomacy_Submit",
+   "requiredObjectiveName": "SalvageAlienWarship",
+   "altRequiredObjectiveName": "ContactTheAliens",
+   "effects": [
+      "Effect_CanAmassExotics"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Exotic Hybrid Systems",
+   "dataName": "Project_ExoticHybridSystems",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 25000,
+   "prereqs": [
+      "QuantumComputing",
+      "Project_Exotics"
+   ],
+   "altPrereq1": "Project_BS_Exotics_Submit",
+   "effects": [
+      "Effect_BuildArmyPriorityBonus05",
+      "Effect_UpgradeArmyPriorityBonus05",
+      "Effect_MilitaryPriorityBonus05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Exotic Armor",
+   "dataName": "Project_ExoticArmor",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "Armor",
+   "researchCost": 10000,
+   "prereqs": [
+      "ImprovedShipbuildingTechniques",
+      "Project_Exotics"
+   ],
+   "altPrereq1": "Project_BS_Exotics_Submit",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 35,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Exotic Heat Sinks",
+   "dataName": "Project_ExoticHeatSink",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "HeatSinks",
+   "researchCost": 5000,
+   "prereqs": [
+      "AdvancedHeatManagementConcepts",
+      "Project_Exotics"
+   ],
+   "altPrereq1": "Project_BS_Exotics_Submit",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 40,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Exotic Nanowire Batteries",
+   "dataName": "Project_ExoticNanowireBattery",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "disable": true,
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "Batteries",
+   "researchCost": 10000,
+   "prereqs": [
+      "ImprovedShipbuildingTechniques",
+      "Project_Exotics"
+   ],
+   "altPrereq1": "Project_BS_Exotics_Submit",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 35,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Their Technology",
+   "dataName": "Project_TheirTechnology",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 10000,
+   "prereqs": [
+      "Project_TheirSignatures"
+   ],
+   "altPrereq0": "Project_BS_TheirSignatures_Submit",
+   "requiredMilestone": "AccessAlienTech",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "The Alien Nation",
+   "dataName": "Project_TheAlienNation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 1500,
+   "prereqs": [
+      "Project_BS_HydraDiplomacy_Submit"
+   ],
+   "effects": [
+      "Effect_SubmitTransferTerritoryToAliens",
+      "Effect_BS_CPMaintenanceBonus80",
+      "Effect_BS_AllRecruitsSecurity5",
+      "Effect_BS_AllCouncilorsSecurity5",
+      "Effect_BS_AugmentationMoneyCostReduction"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "orgGranted": "SubmitAdministration",
+   "resourcesGranted": [
+      {
+         "resource": "Influence",
+         "value": 100
+      }
+   ]
+},
+ {
+   "friendlyName": "Proxy Support Channel",
+   "dataName": "Project_ProxySupportChannel",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "SpaceResources",
+   "researchCost": 7000,
+   "prereqs": [
+      "Project_HydraDiplomacy",
+      "MissionToSpace"
+   ],
+   "altPrereq0": "Project_BS_HydraDiplomacy_Submit",
+   "effects": [
+      "Effect_AlienSpaceResourceShareMajor"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": [
+      {
+         "resource": "Exotics",
+         "value": 40
+      }
+   ]
+},
+ {
+   "friendlyName": "Alien Bandwidth",
+   "dataName": "Project_AlienBandwidth",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "MissionControl",
+   "researchCost": 2500,
+   "prereqs": [
+      "Project_HydraDiplomacy",
+      "Project_SubmitVictory"
+   ],
+   "altPrereq0": "Project_BS_HydraDiplomacy_Submit",
+   "effects": [
+      "Effect_MissionControlPriorityBonus25"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 34,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "MissionControl",
+         "value": 100
+      }
+   ]
+},
+ {
+   "friendlyName": "SubmitVictory",
+   "dataName": "Project_SubmitVictory",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 2000,
+   "prereqs": [
+      "Project_BS_TheirMethods_Submit"
+   ],
+   "effects": [
+      "Effect_ControlPointMaintenanceBonus40"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "orgGranted": "SubmitSpecial",
+   "resourcesGranted": [
+      {
+         "resource": "Influence",
+         "value": 100
+      }
+   ]
+},
+ {
+   "friendlyName": "Cybernetic Implants",
+   "dataName": "Project_CyberneticImplants",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Councilors",
+   "researchCost": 1500,
+   "prereqs": [
+      "Cybernetics"
+   ],
+   "altPrereq0": "Project_BS_HydraDiplomacy_Submit",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Neural Engineering",
+   "dataName": "Project_NeuralEngineering",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Councilors",
+   "researchCost": 4000,
+   "prereqs": [
+      "AppliedArtificialIntelligence",
+      "Project_CyberneticImplants"
+   ],
+   "altPrereq0": "Project_TheAlienNation",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hydra Interrogation",
+   "dataName": "Project_HydraInterrogation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_projectRole": "Objective",
+   "researchCost": 20000,
+   "prereqs": [
+      "Project_HydraLanguage",
+      "Project_AlienContainment"
+   ],
+   "requiredObjectiveName": "CaptureAHydra",
+   "effects": [
+      "Effect_BS_DiscoverAlienInvasion"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "CooperateCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "ExploitCouncil",
+      "ResistCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 50,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Publicize Alien Threat",
+   "dataName": "Project_PublicizeAlienThreat",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "Influence",
+   "researchCost": 6000,
+   "prereqs": [
+      "WeAreNotAlone",
+      "Project_TheirOperations"
+   ],
+   "effects": [
+      "Effect_GlobalPropaganda",
+      "Effect_BS_PublicizeAlienThreat",
+      "Effect_ControlPointMaintenanceBonus40"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Influence",
+         "value": 100
+      }
+   ]
+},
+ {
+   "friendlyName": "Commercial Research",
+   "dataName": "Project_CommercialResearch",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_projectRole": "Money",
+   "researchCost": 300,
+   "oneTimeGlobally": false,
+   "repeatable": true,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Money",
+         "value": 300
+      }
+   ]
+},
+ {
+   "friendlyName": "Audience Research",
+   "dataName": "Project_AudienceResearch",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_projectRole": "Influence",
+   "researchCost": 300,
+   "oneTimeGlobally": false,
+   "repeatable": true,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Influence",
+         "value": 75
+      }
+   ]
+},
+ {
+   "friendlyName": "Operations Research",
+   "dataName": "Project_OperationsResearch",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_projectRole": "Ops",
+   "researchCost": 300,
+   "oneTimeGlobally": false,
+   "repeatable": true,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Operations",
+         "value": 60
+      }
+   ]
+},
+ {
+   "friendlyName": "Management Research",
+   "dataName": "Project_ManagementResearch",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_projectRole": "ControlPointCap",
+   "researchCost": 300,
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus5"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": true,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Commercial Rocket Companies",
+   "dataName": "Project_CommercialRocketCompanies",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Energy",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_projectRole": "Boost",
+   "researchCost": 1000,
+   "prereqs": [
+      "Project_ReusableRockets"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": true,
+   "factionAvailableChance": 75,
+   "factionAlways": "EscapeCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 75,
+   "orgGranted": "RandomAerospace11",
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Exploring Our Options",
+   "dataName": "Project_BS_ExploringOurOptions",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 100,
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus5"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 100,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Influence",
+         "value": 20
+      }
+   ]
+},
+ {
+   "friendlyName": "Safeguard the Land I",
+   "dataName": "Project_BS_SafeguardtheLandI",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "requiredMilestone": "AlienInvasionPlanDiscovered",
+   "effects": [
+      "Effect_BS_BuildArmyPriorityBonus20",
+      "Effect_BS_CPMaintenanceBonus5"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Operations",
+         "value": 5
+      }
+   ]
+},
+ {
+   "friendlyName": "Augmented Combat Training",
+   "dataName": "Project_AugmentedCombatTraining",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 2500,
+   "prereqs": [
+      "AugmentedReality"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandI",
+   "effects": [
+      "Effect_MilitaryPriorityBonus05",
+      "Effect_BuildArmyPriorityBonus05",
+      "Effect_UpgradeArmyPriorityBonus05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "ResistCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Spaceport Security Framework",
+   "dataName": "Project_SpaceportSecurityFramework",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "Boost",
+   "researchCost": 1000,
+   "prereqs": [
+      "ArrivalSecurity"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandI",
+   "effects": [
+      "Effect_SabotageFacilitiesDefense2"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 80,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Mountain Warfare Doctrine",
+   "dataName": "Project_MountainWarfareDoctrine",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 2500,
+   "prereqs": [
+      "TerrestrialMilitaryScience"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandI",
+   "effects": [
+      "Effect_ArmyRuggedWarfare125"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "ResistCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Civil Defense Programs",
+   "dataName": "Project_CivilDefensePrograms",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 5000,
+   "prereqs": [
+      "ArrivalSecurity"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandI",
+   "effects": [
+      "Effect_NuclearStrikeDamageReduction80"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "ResistCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Safeguard the Land II",
+   "dataName": "Project_BS_SafeguardtheLandII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "Research",
+   "researchCost": 1000,
+   "prereqs": [
+      "Project_BS_SafeguardtheLandI"
+   ],
+   "effects": [
+      "Effect_BS_UpgradeArmyPriorityBonus20",
+      "Effect_BS_CPMaintenanceBonus5"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Operations",
+         "value": 10
+      }
+   ]
+},
+ {
+   "friendlyName": "Listening Post",
+   "dataName": "Project_ListeningPost",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_projectRole": "Ops",
+   "researchCost": 500,
+   "prereqs": [
+      "ArrivalSecurity"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Rapid Response Teams",
+   "dataName": "Project_RapidResponseTeams",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Xenology",
+   "researchCost": 3500,
+   "prereqs": [
+      "TerrestrialMilitaryScience"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandII",
+   "requiredMilestone": "TargetedByTerrorMission",
+   "effects": [
+      "Effect_RapidResponseTeams"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "orgGranted": "RandomSecurity42",
+   "resourcesGranted": [
+      {
+         "resource": "Operations",
+         "value": 20
+      }
+   ]
+},
+ {
+   "friendlyName": "Cadre Development Programs",
+   "dataName": "Project_CadreDevelopmentPrograms",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 2500,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "Project_AugmentedCombatTraining"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandII",
+   "effects": [
+      "Effect_BuildArmyPriorityBonus05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Safeguard the Land III",
+   "dataName": "Project_BS_SafeguardtheLandIII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "Research",
+   "researchCost": 2000,
+   "prereqs": [
+      "Project_BS_SafeguardtheLandII"
+   ],
+   "effects": [
+      "Effect_BS_MilitaryPriorityBonus20",
+      "Effect_BS_CPMaintenanceBonus10"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Operations",
+         "value": 20
+      }
+   ]
+},
+ {
+   "friendlyName": "Transnational Coordination",
+   "dataName": "Project_TransnationalCoordination",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Income",
+   "AI_criticalTech": true,
+   "AI_projectRole": "ControlPointCap",
+   "researchCost": 7000,
+   "prereqs": [
+      "AdvancedNeuralNetworks"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandIII",
+   "effects": [
+      "Effect_ControlPointMaintenanceBonus40"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Security Measures",
+   "dataName": "Project_SecurityMeasures",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "AlienMissionDefense",
+   "researchCost": 8000,
+   "prereqs": [
+      "ArrivalSecurity",
+      "Project_TheirOperations"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandIII",
+   "effects": [
+      "Effect_EnthrallElitesDefense",
+      "Effect_OppressionPriority05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 75,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 25,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hypersonic Sea-Launched Cruise Missiles",
+   "dataName": "Project_HypersonicSea-LaunchedCruiseMissiles",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 2500,
+   "prereqs": [
+      "NextGenerationAerospace"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandIII",
+   "effects": [
+      "Effect_UpgradeArmyPriorityBonus05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Executive Protection",
+   "dataName": "Project_ExecutiveProtection",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "AlienMissionDefense",
+   "researchCost": 8000,
+   "prereqs": [
+      "ArrivalSecurity",
+      "Project_Pherocytes"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheLandIII",
+   "effects": [
+      "Effect_EnthrallElitesDefense"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 25,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Guerrilla Warfare",
+   "dataName": "Project_GuerrillaWarfare",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "NeutralizeNation",
+   "researchCost": 4000,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "ArrivalDomesticPolitics"
+   ],
+   "effects": [
+      "Effect_IncreaseUnrestAttack",
+      "Effect_PostRegimeLossUnrestIncrease"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 80,
+   "factionAlways": "ResistCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": [
+      {
+         "resource": "Operations",
+         "value": 20
+      }
+   ]
+},
+ {
+   "friendlyName": "Counterinsurgency Operations",
+   "dataName": "Project_CounterinsurgencyOperations",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 4000,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "ArrivalInternationalDevelopment"
+   ],
+   "effects": [
+      "Effect_StabilizeAttack",
+      "Effect_OppressionPriority10"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 80,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Rapid Repairing Materials",
+   "dataName": "Project_RapidRepairingMaterials",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 8000,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "MolecularAssemblers"
+   ],
+   "altPrereq0": "ImprovedShipbuildingTechniques",
+   "effects": [
+      "Effect_ArmyHealingRate005",
+      "Effect_ImprovedSpaceCombatDamageControl"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Urban Warfare Doctrine",
+   "dataName": "Project_UrbanWarfareDoctrine",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 4000,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "AdvancedNeuralNetworks"
+   ],
+   "effects": [
+      "Effect_ArmyUrbanWarfare125"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Rapid Military Prototyping",
+   "dataName": "Project_RapidMilitaryPrototyping",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 8000,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "MolecularAssemblers",
+      "Project_TheirTechnology"
+   ],
+   "effects": [
+      "Effect_MilitaryPriorityBonus05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Predictive Logistics Systems",
+   "dataName": "Project_PredictiveLogisticsSystems",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 16000,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "WhiteCollarAutomation"
+   ],
+   "effects": [
+      "Effect_ArmyHealingRate005",
+      "Effect_ControlPointMaintenanceBonus10"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Tactical Drones",
+   "dataName": "Project_TacticalDrones",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 4000,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "SelfRepairingSoftware",
+      "Project_TheirRobotics"
+   ],
+   "effects": [
+      "Effect_BuildArmyPriorityBonus05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Wet Navy Modernization",
+   "dataName": "Project_WetNavyModernization",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 4000,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "MolecularAssemblers",
+      "AdvancedMissileWarfareDoctrine"
+   ],
+   "effects": [
+      "Effect_UpgradeArmyPriorityBonus05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Proscription",
+   "dataName": "Project_Proscription",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "PoliticalMissions",
+   "researchCost": 2500,
+   "prereqs": [
+      "ArrivalSecurity",
+      "Project_DestroyVictory"
+   ],
+   "effects": [
+      "Effect_IncreasePurgeAttack_4"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "DestroyCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 34,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Influence",
+         "value": 200
+      }
+   ]
+},
+ {
+   "friendlyName": "Rapid Stabilization Operations",
+   "dataName": "Project_RapidStabilizationOperations",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 10000,
+   "prereqs": [
+      "NetworkedGlobalDefense",
+      "Project_CounterinsurgencyOperations",
+      "Project_Psyops"
+   ],
+   "effects": [
+      "Effect_StabilizeAttack"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 50,
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Full Spectrum Combined Arms",
+   "dataName": "Project_FullSpectrumCombinedArms",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 5000,
+   "prereqs": [
+      "TransInterfaceWarfare",
+      "Project_Warships"
+   ],
+   "effects": [
+      "Effect_MilitaryPriorityBonus05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Nuclear Hardening",
+   "dataName": "Project_NuclearHardening",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 5000,
+   "prereqs": [
+      "NetworkedGlobalDefense",
+      "Project_ExoticArmor"
+   ],
+   "effects": [
+      "Effect_ArmyNuclearHardening25"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 50,
+   "initialUnlockChance": 15,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Alien Army Analysis",
+   "dataName": "Project_AlienArmyAnalysis",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 5000,
+   "prereqs": [
+      "NetworkedGlobalDefense",
+      "Project_TheirTechnology"
+   ],
+   "requiredMilestone": "AlienArmyDestroyed",
+   "effects": [
+      "Effect_ArmyDamageBonustoInvaderArmy"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Urban Armoring",
+   "dataName": "Project_UrbanArmoring",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 5000,
+   "prereqs": [
+      "NetworkedGlobalDefense",
+      "Project_MegafaunaNecropsy"
+   ],
+   "requiredMilestone": "AccessAlienMegafauna",
+   "effects": [
+      "Effect_MegafaunaDamageMitigation",
+      "Effect_NuclearStrikeDamageReduction80"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 40,
+   "factionAlways": "ResistCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Territorial Defense Battalions",
+   "dataName": "Project_TerritorialDefenseBattalions",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 5000,
+   "prereqs": [
+      "NetworkedGlobalDefense"
+   ],
+   "effects": [
+      "Effect_MilitaryPriorityBonus05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 60,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Regional Security Sweeps",
+   "dataName": "Project_RegionalSecuritySweeps",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "AlienMissionDefense",
+   "researchCost": 20000,
+   "prereqs": [
+      "NetworkedGlobalDefense",
+      "Project_PherocyteDeconOperations",
+      "Project_RapidResponseTeams"
+   ],
+   "effects": [
+      "Effect_EnthrallElitesDefense",
+      "Effect_RapidResponseTeams",
+      "Effect_EnthrallPublicDefense"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "DestroyCouncil",
+      "ResistCouncil",
+      "ExploitCouncil",
+      "CooperateCouncil",
+      "EscapeCouncil"
+   ],
+   "factionAvailableChance": 90,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hunter-Killer Tactical Units",
+   "dataName": "Project_Hunter-KillerTacticalUnits",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "AlienMissionDefense",
+   "researchCost": 20000,
+   "prereqs": [
+      "NetworkedGlobalDefense",
+      "Project_SalamanderInterrogation",
+      "Project_Reverse-EngineeredAlienSmallArms",
+      "Project_CounteralienOperationsTeams"
+   ],
+   "effects": [
+      "Effect_RapidResponseTeams",
+      "Effect_AbductionsDefense",
+      "Effect_OppressionPriority05"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "DestroyCouncil",
+      "ResistCouncil",
+      "ExploitCouncil",
+      "CooperateCouncil",
+      "EscapeCouncil"
+   ],
+   "factionAvailableChance": 90,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Pherocyte Decon Operations",
+   "dataName": "Project_PherocyteDeconOperations",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "AlienMissionDefense",
+   "researchCost": 25000,
+   "prereqs": [
+      "DesignerLifeforms",
+      "ArrivalSecurity",
+      "Project_PherocyteScanners"
+   ],
+   "effects": [
+      "Effect_EnthrallElitesDefense",
+      "Effect_EnthrallPublicDefense"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "DestroyCouncil",
+      "ResistCouncil",
+      "ExploitCouncil",
+      "CooperateCouncil",
+      "EscapeCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 80,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Community Policing Drones",
+   "dataName": "Project_CommunityPolicingDrones",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "AlienMissionDefense",
+   "researchCost": 20000,
+   "prereqs": [
+      "NextGenerationAerospace",
+      "NetworkedGlobalDefense",
+      "Project_Pherocytes"
+   ],
+   "effects": [
+      "Effect_EnthrallPublicDefense",
+      "Effect_RapidResponseTeams",
+      "Effect_AbductionsDefense"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "DestroyCouncil",
+      "ResistCouncil",
+      "ExploitCouncil",
+      "CooperateCouncil",
+      "EscapeCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 90,
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Counteralien Operations Teams",
+   "dataName": "Project_CounteralienOperationsTeams",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "Xenology",
+   "researchCost": 5000,
+   "prereqs": [
+      "Project_RapidResponseTeams",
+      "Project_CadreDevelopmentPrograms"
+   ],
+   "effects": [
+      "Effect_RapidResponseTeams"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "DestroyCouncil",
+      "ResistCouncil",
+      "ExploitCouncil",
+      "CooperateCouncil",
+      "EscapeCouncil"
+   ],
+   "factionAvailableChance": 70,
+   "factionAlways": "ResistCouncil",
+   "initialUnlockChance": 10,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": [
+      {
+         "resource": "Operations",
+         "value": 20
+      }
+   ]
+},
+ {
+   "friendlyName": "Safeguard the Sky I",
+   "dataName": "Project_BS_SafeguardtheSkyI",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Fleet",
+   "researchCost": 750,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "requiredMilestone": "AlienWarshipSighted",
+   "effects": [
+      "Effect_BS_ImprovedSpaceCombatDamageControl10",
+      "Effect_BS_OfficerSpawnChance50",
+      "Effect_BS_ShipMagDamage10"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Molybdenum Pipe Radiator",
+   "dataName": "Project_MolybdenumPipeRadiator",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "Radiators",
+   "researchCost": 500,
+   "prereqs": [
+      "OrbitalShipbuilding"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheSkyI",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 35,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Interplanetary Warships",
+   "dataName": "Project_Warships",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Core",
+   "researchCost": 250,
+   "prereqs": [
+      "OrbitalShipbuilding"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheSkyI",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 60,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Lithium-Sulfur Batteries",
+   "dataName": "Project_Lithium-SulfurBattery",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "disable": true,
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "Batteries",
+   "researchCost": 500,
+   "prereqs": [
+      "OrbitalShipbuilding"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheSkyI",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 35,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Salt Water Battery",
+   "dataName": "Project_SaltWaterBattery",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "disable": true,
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "Batteries",
+   "researchCost": 1000,
+   "prereqs": [
+      "OrbitalShipbuilding"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheSkyI",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 35,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Space Dock",
+   "dataName": "Project_SpaceDock",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Core",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_PlatformCore",
+      "OrbitalShipbuilding"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "altPrereq1": "Project_BS_SafeguardtheSkyI",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Safeguard the Sky II",
+   "dataName": "Project_BS_SafeguardtheSkyII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Fleet",
+   "researchCost": 1500,
+   "prereqs": [
+      "Project_BS_SafeguardtheSkyI"
+   ],
+   "effects": [
+      "Effect_BS_ImprovedSpaceCombatDamageControl10",
+      "Effect_BS_ShipConvMissileDamage10",
+      "Effect_BS_SpaceshipSurvivability95"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Patrol Vessels",
+   "dataName": "Project_PatrolVessels",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Fleet",
+   "researchCost": 2000,
+   "prereqs": [
+      "PrinciplesofSpaceWarfare",
+      "Project_Warships"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheSkyII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Armor Struts",
+   "dataName": "Project_ArmorStruts",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "Armor",
+   "researchCost": 1000,
+   "prereqs": [
+      "OrbitalShipbuilding",
+      "Superalloys"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheSkyII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 90,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "40mmAutocannon",
+   "dataName": "Project_40mmAutocannon",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 500,
+   "prereqs": [
+      "KineticsWarfareDoctrine",
+      "Project_Warships"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheSkyII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Targeting Computer I",
+   "dataName": "Project_TargetingComputer1",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Fleet",
+   "researchCost": 500,
+   "prereqs": [
+      "PhotonicComputing",
+      "Project_Warships"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheSkyII",
+   "effects": [
+      "Effect_TargetingComputer1"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Composite Armor",
+   "dataName": "Project_CompositeArmor",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "Armor",
+   "researchCost": 1000,
+   "prereqs": [
+      "OrbitalShipbuilding",
+      "AdvancedCarbonManipulation"
+   ],
+   "altPrereq0": "Project_BS_SafeguardtheSkyII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 35,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Making History I",
+   "dataName": "Project_BS_MakingHistoryI",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus_MakingHistoryA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 20,
+   "factionAlways": "DestroyCouncil",
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "South American Confederations",
+   "dataName": "Project_GranColombia",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 2500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryI",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Central American Confederation",
+   "dataName": "Project_CentralAmericanConfederation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryI",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "GTM",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Unidad Colombia",
+   "dataName": "Project_UnidadColombia",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 8000,
+   "prereqs": [
+      "GreatNations",
+      "Project_GranColombia"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryI",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "COL",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Making History II",
+   "dataName": "Project_BS_MakingHistoryII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus_MakingHistoryA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 20,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Southern Cross",
+   "dataName": "Project_SouthernCross",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 2500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "AUS",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Greater Indonesia",
+   "dataName": "Project_GreaterIndonesia",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 5000,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "IDN",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Greater Austronesia",
+   "dataName": "Project_GreaterAustronesia",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 15000,
+   "prereqs": [
+      "GreatNations",
+      "Project_GreaterIndonesia"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "IDN",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Making History III",
+   "dataName": "Project_BS_MakingHistoryIII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus_MakingHistoryA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 20,
+   "factionAlways": "ExploitCouncil",
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "United Turkestan",
+   "dataName": "Project_UnitedTurkestan",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 7500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryIII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "TUR",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Slavic Commonwealth",
+   "dataName": "Project_SlavicCommonwealth",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 5000,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryIII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "POL",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hungarian Irredentism",
+   "dataName": "Project_HungarianIrredentism",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryIII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "HUN",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Central Asian Union",
+   "dataName": "Project_CentralAsianUnion",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryIII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "KAZ",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 10,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 90,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Making History IV",
+   "dataName": "Project_BS_MakingHistoryIV",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus_MakingHistoryA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 20,
+   "factionAlways": "EscapeCouncil",
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "United Arab League",
+   "dataName": "Project_UnitedArabLeague",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 10000,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryIV",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "EGY",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "The Shia Nation",
+   "dataName": "Project_TheShiaNation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 5000,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryIV",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "IRN",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Gulf Cooperation Council",
+   "dataName": "Project_GulfCooperationCouncil",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 2500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryIV",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "SAU",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Making History V",
+   "dataName": "Project_BS_MakingHistoryV",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus_MakingHistoryA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 20,
+   "factionAlways": "SubmitCouncil",
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Europe Ascendant",
+   "dataName": "Project_EuropeAscendant",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 20000,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryV",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "EUA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Freistaat Confederation",
+   "dataName": "Project_FreistaatConfederation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 2500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryV",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "DEU",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 10,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Nordic Federation",
+   "dataName": "Project_NordicFederation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryV",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "SCA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 10,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Celtic League",
+   "dataName": "Project_CelticLeague",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryV",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "IRL",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Making History VI",
+   "dataName": "Project_BS_MakingHistoryVI",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus_MakingHistoryA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 20,
+   "factionAlways": "ResistCouncil",
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "African Confederations",
+   "dataName": "Project_EastAfricanFederation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 800,
+   "prereqs": [
+      "ArrivalInternationalRelations"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryVI",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "TZA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Regional African Unions",
+   "dataName": "Project_RegionalAfricanUnions",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 1000,
+   "prereqs": [
+      "UnityMovements",
+      "Project_EastAfricanFederation"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryVI",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Nigerian Confederation",
+   "dataName": "Project_NigerianConfederation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 2000,
+   "prereqs": [
+      "UnityMovements",
+      "Project_RegionalAfricanUnions"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryVI",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "NGA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Making History VII",
+   "dataName": "Project_BS_MakingHistoryVII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus_MakingHistoryA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 20,
+   "factionAlways": "AppeaseCouncil",
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "A Period of Unity",
+   "dataName": "Project_APeriodofUnity",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryVII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "VNM",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 10,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "United Malay Nation",
+   "dataName": "Project_UnitedMalayNation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 2500,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryVII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "MYS",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Greater Malaysia",
+   "dataName": "Project_GreaterMalaysia",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 5000,
+   "prereqs": [
+      "GreatNations",
+      "Project_UnitedMalayNation"
+   ],
+   "altPrereq0": "Project_BS_MakingHistoryVII",
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "MYS",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Unity Through Strength",
+   "dataName": "Project_BS_UnityThroughStrength",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 2500,
+   "prereqs": [
+      "Project_UnitedTurkestan",
+      "Project_NigerianConfederation",
+      "Project_BS_ExploringOurOptions"
+   ],
+   "altPrereq0": "Project_GreaterAustronesia",
+   "altPrereq1": "Project_EuropeAscendant",
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus15",
+      "Effect_BS_BilateralCooldownA",
+      "Effect_BS_BuildArmyPriorityBonus10",
+      "Effect_OppressionPriority10"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Rooting Out Corruption",
+   "dataName": "Project_BS_RootingOutCorruption",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 2500,
+   "prereqs": [
+      "Project_EuropeAscendant",
+      "Project_GreaterMalaysia",
+      "Project_BS_ExploringOurOptions"
+   ],
+   "altPrereq0": "Project_UnidadColombia",
+   "altPrereq1": "Project_UnitedArabLeague",
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus15",
+      "Effect_BS_BilateralCooldownA",
+      "Effect_BS_CorruptionReductionA",
+      "Effect_GovernmentPriority10"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Securing Our Interests",
+   "dataName": "Project_BS_SecuringOurInterests",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 4000,
+   "prereqs": [
+      "Project_BS_UnityThroughStrength"
+   ],
+   "altPrereq0": "Project_BS_RootingOutCorruption",
+   "effects": [
+      "Effect_BS_CPMaintenanceBonus15",
+      "Effect_BS_DefendInterestsA",
+      "Effect_StabilizeAttack",
+      "Effect_CPResearch10",
+      "Effect_EconomyPriorityGlobalBonus10",
+      "Effect_IncreaseMaxAvailableOrgs5"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Global Command Structure",
+   "dataName": "Project_GlobalCommandStructure",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_criticalTech": true,
+   "AI_projectRole": "ControlPointCap",
+   "researchCost": 5000,
+   "prereqs": [
+      "IndependenceMovements"
+   ],
+   "altPrereq0": "Project_BS_SecuringOurInterests",
+   "effects": [
+      "Effect_ControlPointMaintenanceBonus40"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Southeast Asian Alliance",
+   "dataName": "Project_SoutheastAsianAlliance",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 3000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "THA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Steward of the South",
+   "dataName": "Project_StewardoftheSouth",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 6600,
+   "prereqs": [
+      "GreatNations",
+      "Project_GranColombia"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "BRA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Greater Dominion",
+   "dataName": "Project_GreaterDominion",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 6600,
+   "prereqs": [
+      "GreatNations",
+      "Project_EndofAmerica"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "CSA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "South American Union",
+   "dataName": "Project_SouthAmericanUnion",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 6600,
+   "prereqs": [
+      "GreatNations",
+      "Project_GranColombia"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "BOL",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Greater India",
+   "dataName": "Project_GreaterIndia",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 10000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "IND",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "United North America",
+   "dataName": "Project_UnitedNorthAmerica",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 13000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "USA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "African Union",
+   "dataName": "Project_AfricanUnion",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 10000,
+   "prereqs": [
+      "GreatNations",
+      "Project_RegionalAfricanUnions"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "ETH",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Greater Intermarium",
+   "dataName": "Project_GreaterIntermarium",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 20000,
+   "prereqs": [
+      "GreatNations",
+      "Project_SlavicCommonwealth",
+      "Project_DissolutionofRussia"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Pan-Asian Cooperative",
+   "dataName": "Project_Pan-AsianCooperative",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 26000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "CHN",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Forward Russia",
+   "dataName": "Project_ForwardRussia",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 26000,
+   "prereqs": [
+      "GreatNations",
+      "Project_RestoredWarsawPact"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "RUS",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "The House of Islam",
+   "dataName": "Project_TheHouseofIslam",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 30000,
+   "prereqs": [
+      "GreatNations",
+      "Project_TheGreaterCaliphate"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "CPH",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "The Greater Caliphate",
+   "dataName": "Project_TheGreaterCaliphate",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 30000,
+   "prereqs": [
+      "GreatNations",
+      "Project_TheCaliphate"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "CPH",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Great Europa",
+   "dataName": "Project_GreatEuropa",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 30000,
+   "prereqs": [
+      "GreatNations",
+      "Project_EuropeAscendant"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "EUA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "The Caliphate",
+   "dataName": "Project_TheCaliphate",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 25000,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Proprietary Space Research I",
+   "dataName": "Project_BS_ProprietarySpaceResearchI",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "effects": [
+      "Effect_ExploreAsteroids",
+      "Effect_BS_SemiMajorAxisExplorationII",
+      "Effect_BS_EVBoostA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 10,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Automated Outpost Core",
+   "dataName": "Project_AutomatedOutpostCore",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_OutpostCore",
+      "AppliedArtificialIntelligence"
+   ],
+   "altPrereq0": "Project_BS_ProprietarySpaceResearchI",
+   "altPrereq1": "Project_BS_ProprietarySpaceResearchI",
+   "effects": [
+      "Effect_CanFoundAutomatedT1Base"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Automated Fission Pile",
+   "dataName": "Project_AutomatedFissionPile",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_AutomatedPlatformCore",
+      "Project_FissionPile"
+   ],
+   "altPrereq0": "Project_AutomatedOutpostCore",
+   "altPrereq1": "Project_BS_ProprietarySpaceResearchI",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Automated Solar Collector",
+   "dataName": "Project_AutomatedSolarCollector",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_AutomatedPlatformCore",
+      "Project_SolarCollector"
+   ],
+   "altPrereq0": "Project_AutomatedOutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Automated Mining Complex",
+   "dataName": "Project_AutomatedMiningComplex",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_AutomatedOutpostCore",
+      "Project_OutpostMiningComplex"
+   ],
+   "altPrereq1": "Project_BS_ProprietarySpaceResearchI",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "High Thrust Probes",
+   "dataName": "Project_HighThrustProbes",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Energy",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Exploration",
+   "researchCost": 1500,
+   "prereqs": [
+      "AdvancedChemicalRocketry"
+   ],
+   "altPrereq0": "Project_BS_ProprietarySpaceResearchI",
+   "effects": [
+      "Effect_FastProbes"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 60,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Proprietary Space Research II",
+   "dataName": "Project_BS_ProprietarySpaceResearchII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 250,
+   "prereqs": [
+      "Project_BS_ExploringOurOptions"
+   ],
+   "effects": [
+      "Effect_SabotageFacilitiesOrHabModulesDefense1",
+      "Effect_BS_SpaceScience5"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Orbital Core",
+   "dataName": "Project_OrbitalCore",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "LifeScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 1000,
+   "prereqs": [
+      "OrbitalRingHabs",
+      "Project_PlatformCore"
+   ],
+   "altPrereq0": "Project_BS_ProprietarySpaceResearchII",
+   "effects": [
+      "Effect_CanFoundTier2Station"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Marine Platoon Barracks",
+   "dataName": "Project_MarinePlatoonBarracks",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabDefense",
+   "researchCost": 150,
+   "prereqs": [
+      "Project_PlatformCore",
+      "MilitarizationofSpace"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "altPrereq1": "Project_BS_ProprietarySpaceResearchII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Tourist Berth",
+   "dataName": "Project_TouristBerth",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_projectRole": "Money",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_PlatformCore",
+      "SpaceTourism"
+   ],
+   "altPrereq1": "Project_BS_ProprietarySpaceResearchII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hydroponics Bay",
+   "dataName": "Project_HydroponicsBay",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "LifeScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 150,
+   "prereqs": [
+      "Project_PlatformCore",
+      "SpaceAgriculture"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Solar Array",
+   "dataName": "Project_SolarArray",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Energy",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 400,
+   "prereqs": [
+      "Project_OrbitalCore",
+      "Project_SolarCollector"
+   ],
+   "altPrereq0": "Project_SettlementCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Proprietary Space Research III",
+   "dataName": "Project_BS_ProprietarySpaceResearchIII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 750,
+   "prereqs": [
+      "Project_BS_ProprietarySpaceResearchI",
+      "Project_BS_ProprietarySpaceResearchII"
+   ],
+   "effects": [
+      "Effect_BS_SpaceScience5",
+      "Effect_SpaceMiningBonus10"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Projects",
+         "value": 2
+      }
+   ]
+},
+ {
+   "friendlyName": "Military Science Research Center",
+   "dataName": "Project_MilitaryScienceResearchCenter",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_projectRole": "Research",
+   "researchCost": 1500,
+   "prereqs": [
+      "Project_OrbitalCore",
+      "DirectedSpaceResearch",
+      "Project_MilitaryScienceLab"
+   ],
+   "altPrereq0": "Project_SettlementCore",
+   "altPrereq1": "Project_BS_ProprietarySpaceResearchIII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Social Science Research Center",
+   "dataName": "Project_SocialScienceResearchCenter",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_projectRole": "Research",
+   "researchCost": 1500,
+   "prereqs": [
+      "Project_OrbitalCore",
+      "DirectedSpaceResearch",
+      "Project_SocialScienceLab"
+   ],
+   "altPrereq0": "Project_SettlementCore",
+   "altPrereq1": "Project_BS_ProprietarySpaceResearchIII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Skunk Works",
+   "dataName": "Project_SkunkWorks",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 750,
+   "prereqs": [
+      "Project_OrbitalCore",
+      "AdvancedNeuralNetworks"
+   ],
+   "altPrereq0": "Project_SettlementCore",
+   "altPrereq1": "Project_BS_ProprietarySpaceResearchIII",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Reusable Rockets",
+   "dataName": "Project_ReusableRockets",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Energy",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_projectRole": "Boost",
+   "researchCost": 2000,
+   "prereqs": [
+      "AdvancedChemicalRocketry"
+   ],
+   "altPrereq0": "Project_BS_ProprietarySpaceResearchIII",
+   "effects": [
+      "Effect_LaunchFacilitiesPriorityBonus2"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 75,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Information Science Lab",
+   "dataName": "Project_InformationScienceLab",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_projectRole": "Research",
+   "researchCost": 200,
+   "prereqs": [
+      "Project_PlatformCore"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Military Science Lab",
+   "dataName": "Project_MilitaryScienceLab",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 200,
+   "prereqs": [
+      "Project_PlatformCore"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Social Science Lab",
+   "dataName": "Project_SocialScienceLab",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_projectRole": "Research",
+   "researchCost": 200,
+   "prereqs": [
+      "Project_PlatformCore"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Space Science Lab",
+   "dataName": "Project_SpaceScienceLab",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_projectRole": "Research",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_PlatformCore"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Xenology Lab",
+   "dataName": "Project_XenologyLab",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 300,
+   "prereqs": [
+      "Project_PlatformCore",
+      "WeAreNotAlone",
+      "Project_TheirSignatures"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Life Science Lab",
+   "dataName": "Project_LifeScienceLab",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "LifeScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 200,
+   "prereqs": [
+      "Project_PlatformCore"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Materials Lab",
+   "dataName": "Project_MaterialsLab",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 200,
+   "prereqs": [
+      "Project_PlatformCore"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Energy Lab",
+   "dataName": "Project_EnergyLab",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Energy",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 200,
+   "prereqs": [
+      "Project_PlatformCore"
+   ],
+   "altPrereq0": "Project_OutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 6,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Railgun Batteries",
+   "dataName": "Project_RailgunBatteryMk1",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 1500,
+   "prereqs": [
+      "Railguns"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Rail Cannon",
+   "dataName": "Project_RailCannonMk1",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 1500,
+   "prereqs": [
+      "Railguns"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 15,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Improved Railgun Batteries",
+   "dataName": "Project_RailgunBatteryMk2",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 2000,
+   "prereqs": [
+      "Project_RailgunBatteryMk1",
+      "MagneticForceManipulation"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Improved Rail Cannon",
+   "dataName": "Project_RailCannonMk2",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 2000,
+   "prereqs": [
+      "Project_RailCannonMk1",
+      "MagneticForceManipulation"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 15,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Advanced Railgun Batteries",
+   "dataName": "Project_RailgunBatteryMk3",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 2500,
+   "prereqs": [
+      "Project_RailgunBatteryMk2"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Advanced Rail Cannon",
+   "dataName": "Project_RailCannonMk3",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 2500,
+   "prereqs": [
+      "Project_RailCannonMk2"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 15,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Coilgun Batteries",
+   "dataName": "Project_CoilgunBatteryMk1",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 2500,
+   "prereqs": [
+      "Coilguns"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Coil Cannon",
+   "dataName": "Project_CoilCannonMk1",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 2500,
+   "prereqs": [
+      "Coilguns"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 15,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Improved Coilgun Batteries",
+   "dataName": "Project_CoilgunBatteryMk2",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 5000,
+   "prereqs": [
+      "Project_CoilgunBatteryMk1",
+      "HighTemperatureSuperconductors",
+      "Superalloys"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Improved Coil Cannon",
+   "dataName": "Project_CoilCannonMk2",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 5000,
+   "prereqs": [
+      "Project_CoilCannonMk1",
+      "HighTemperatureSuperconductors",
+      "Superalloys"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 15,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Advanced Coil Cannon",
+   "dataName": "Project_CoilCannonMk3",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Kinetics",
+   "researchCost": 7500,
+   "prereqs": [
+      "Project_CoilCannonMk2",
+      "Ultracapacitors",
+      "Project_Exotics"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 15,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+}
+]

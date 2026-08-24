@@ -1,0 +1,83 @@
+
+// Dark Skies DLC
+
+Context.displayName.MaterialScience=Материаловедение
+Context.displayName.SpaceScience=Космические науки
+Context.displayName.EnergyScience=Энергетика
+Context.displayName.LifeScience=Биология
+Context.displayName.MilitaryScience=Военные науки
+Context.displayName.InformationScience=Информатика
+Context.displayName.SocialScience=Общественные науки
+Context.displayName.Xenology=Ксенология
+Context.displayName.PublicOpinionInfluence=Влияние от общественного мнения
+Context.displayName.SemiMajorAxisExplorationRange_AU=Дальность орбитальных исследований
+Context.displayName.PublicizedAlienThreat=Выпущена публикация об инопланетной угрозе
+Context.displayName.AugmentationMoneyCost=Денежная стоимость имплантатов
+Context.displayName.HabConstructionSpeed=Скорость строительства жилых объектов
+Context.displayName.MineSizeModifier=Размер внеземной шахты
+
+Context.displayName.DemocracyBackslides=Откат от демократии
+TIEffectTemplate.description.Effect_BS_DemocracyBackslides1=- Демократическим институтам нанесен ущерб
+
+TIEffectTemplate.description.Effect_BS_CPMaintenanceBonus_MakingHistoryA=- Повышает наш предел точек контроля на {19}. Не суммируется с другими проектами "Творения истории". 
+TIEffectTemplate.description.Effect_BS_InfluenceRepair=- Повышает влияние от общественного мнения на {3}
+TIEffectTemplate.description.Effect_BS_MaterialScienceBonusA=- Повышает наш научный потенциал в области материаловедения на {3}
+TIEffectTemplate.description.Effect_BS_SpaceScienceBonusA=- Повышает наш научный потенциал в области космических наук на {3}
+TIEffectTemplate.description.Effect_BS_SpaceScience5=- Повышает наш научный потенциал в области космических наук на {3}
+TIEffectTemplate.description.Effect_BS_EnergyScienceBonusA=- Повышает наш научный потенциал в области энергетики на {3}
+TIEffectTemplate.description.Effect_BS_LifeScienceBonusA=- Повышает наш научный потенциал в области биологии на {3}
+TIEffectTemplate.description.Effect_BS_MilitaryScienceBonusA=- Повышает наш научный потенциал в области военных наук на {3}
+TIEffectTemplate.description.Effect_BS_InformationScienceBonusA=- Повышает наш научный потенциал в области информатики на {3}
+TIEffectTemplate.description.Effect_BS_SocialScienceBonusA=- Повышает наш научный потенциал в области общественных наук на {3}
+TIEffectTemplate.description.Effect_BS_XenologyBonusA=- Повышает наш научный потенциал в области ксенологии на {3}
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimeRepair=- Ускоряет строительство наших кораблей на {3}
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationI=- Увеличивает дальность орбитальных исследований на {3} АЕ
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationII=- Увеличивает дальность орбитальных исследований на {3} АЕ
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationIII=- Снимает ограничения на дальность орбитальных исследований
+TIEffectTemplate.description.Effect_BS_GraySky=- Позволяет всем фракциям следить за кораблями и постройками пришельцев вплоть до Марса
+TIEffectTemplate.description.Effect_BS_AugmentationMoneyCostReduction=- Денежная стоимость оснащения наших советников имплантатами снижается на {4}
+TIEffectTemplate.description.Effect_BS_PublicizeAlienThreat=- Может ускорить агрессию пришельцев
+TIEffectTemplate.description.Effect_BS_AlienAwareness=- Знания о пришельцах распространяются среди широкой публики
+TIEffectTemplate.description.Effect_BS_DiscoverAlienInvasion=- Нам открываются планы пришельцев относительно Земли
+
+TIEffectTemplate.description.Effect_BS_CPResearchPenalty=- Научный потенциал наших точек контроля уменьшается на {4}
+TIEffectTemplate.description.Effect_BS_CPMaintenancePenalty=- Понижает наш предел точек контроля на {0}
+TIEffectTemplate.description.Effect_BS_SustainabilityPenalty=- Объем очков инвестиций, вкладываемых нами в приоритет "Среда", уменьшается на {25}
+TIEffectTemplate.description.Effect_BS_MCPenalty=- Объем очков инвестиций, вкладываемых нами в приоритет "Космическая связь", уменьшается на {25}
+TIEffectTemplate.description.Effect_BS_BoostPenalty=- Объем очков инвестиций, вкладываемых нами в приоритет "Выводные мощности", уменьшается на {25}
+TIEffectTemplate.description.Effect_BS_InfluencePenalty=- Понижает влияние от общественного мнения на {25}
+TIEffectTemplate.description.Effect_BS_MaterialSciencePenalty=- Понижает наш научный потенциал в области материаловедения на {25}
+TIEffectTemplate.description.Effect_BS_SpaceSciencePenalty=- Понижает наш научный потенциал в области космических наук на {25}
+TIEffectTemplate.description.Effect_BS_EnergySciencePenalty=- Понижает наш научный потенциал в области энергетики на {25}
+TIEffectTemplate.description.Effect_BS_LifeSciencePenalty=- Понижает наш научный потенциал в области биологии на {25}
+TIEffectTemplate.description.Effect_BS_MilitarySciencePenalty=- Понижает наш научный потенциал в области военных наук на {25}
+TIEffectTemplate.description.Effect_BS_InformationSciencePenalty=- Понижает наш научный потенциал в области информатики на {25}
+TIEffectTemplate.description.Effect_BS_SocialSciencePenalty=- Понижает наш научный потенциал в области общественных наук на {25}
+TIEffectTemplate.description.Effect_BS_XenologyPenalty=- Понижает наш научный потенциал в области ксенологии на {25}
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimePenalty=- Замедляет строительство наших кораблей на {27}
+TIEffectTemplate.description.Effect_BS_SpaceMiningPenalty=- Эффективность добычи ресурсов на Земле понижается на {25}
+TIEffectTemplate.description.Effect_BS_BlackSky=- Фракции могут следить за кораблями и постройками пришельцев в околоземном пространстве
+
+TIEffectTemplate.description.Effect_BS_InvestigationPenalty=- Все доступные нам кандидаты в советники получают -{0} к характеристике "Расследование"
+
+TIEffectTemplate.description.Effect_BS_BoostPenaltyEventTemp=- Объем очков инвестиций, вкладываемых нами в приоритет "Выводные мощности", уменьшается на {25} сроком на {7} мес.
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEvent=- Объем очков инвестиций, вкладываемых нами в приоритет "Космическая программа", уменьшается на {25}
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEventTemp=- Объем очков инвестиций, вкладываемых нами в приоритет "Космическая программа", уменьшается на {25} сроком на {7} мес.
+TIEffectTemplate.description.Effect_BS_GovernmentPenaltyEventTemp=- Объем очков инвестиций, вкладываемых всеми государствами в приоритет "Правительство", уменьшается на {25} сроком на {7} мес.
+TIEffectTemplate.description.Effect_BS_MilitaryBonusEventSmallGlobal=- Объем очков инвестиций, вкладываемых всеми государствами в приоритет "Военная сила", увеличивается на {3}
+TIEffectTemplate.description.Effect_BS_DefendAllOwnedControlPoints=- Все наши точки контроля {5} получат защиту сроком на {7} мес.
+
+TIEffectTemplate.description.Effect_BS_NationRemoveAbductions1=- Похищения ({0}) прекращены {5}
+
+TIEffectTemplate.description.Effect_BS_GlobalExcessMiltechReduction=- Все государства с уровнем военных технологий выше {13} потеряют {3} излишка этого уровня
+
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedPenalty=- Замедляет строительство наших жилых блоков на {4}
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedRepair=- Ускоряет строительство наших жилых блоков на {3}
+TIEffectTemplate.description.Effect_BS_MineSizeReduction=- Уменьшает размер наших внеземных шахт на {4}
+TIEffectTemplate.description.Effect_BS_MineSizeNormalization=- Увеличивает размер наших внеземных шахт на {3}
+
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeReduction=- Уменьшает размер автоматизированных внеземных шахт на {4}
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeNormalization=- Увеличивает размер автоматизированных внеземных шахт на {3}
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeReduction=- Уменьшает размер наших автоаванпостов на {4}
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeNormalization=- Увеличивает размер наших автоаванпостов на {3}
+

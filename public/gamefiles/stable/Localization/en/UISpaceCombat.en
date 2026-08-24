@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=Ship is maneuvering to avoid predicted collisio
 UI.SpaceCombat.Offline=Offline
 UI.SpaceCombat.Damaged=Damaged
 UI.SpaceCombat.Online=Online
+UI.SpaceCombat.Jammed=Jammed
 
 UI.SpaceCombat.Weapon.Damaged=This weapon is damaged and cannot fire until it is repaired.
 UI.SpaceCombat.Weapon.Cooldown=This weapon is cooling down and will be ready to fire when it is complete.
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Ship Disarmed
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= Damage
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= Armor Holding
 UI.SpaceCombat.BattleLog.PartRepaired.Title= Repair
+
+UI.SpaceCombat.WaypointAvoidance=Trajectory will collide

@@ -1,0 +1,42 @@
+[
+	{
+		"dataName": "CouncilorMissionUpdate",
+		"displayName": "Councilor Mission Update",
+		"eventType": "WeekToMonth",
+		"eventName": "CouncilorMissionUpdate",
+		"pauseTime": true,
+		"stopClock": true,
+		"scenarioTags": [
+			"Millennium"
+		],
+		"repeatChanges": [
+			{
+				"triggerCondition": {
+					"$type": "TIGlobalCondition_fCampaignDuration_years",
+					"strIdx": "",
+					"sign": "GreaterThan",
+					"strValue": "0.325"
+				},		
+				"updateEventType": "Semimonthly"
+			},
+			{
+				"triggerCondition": {
+					"$type": "TIGlobalCondition_fCampaignDuration_years",
+					"strIdx": "",
+					"sign": "GreaterThan",
+					"strValue": "7.166"
+				},
+				"updateEventType": "EveryThreeWeeksToMonth"
+			},		
+			{
+				"triggerCondition": {
+					"$type": "TIGlobalCondition_fCampaignDuration_years",
+					"strIdx": "",
+					"sign": "GreaterThan",
+					"strValue": "17.166"
+				},
+				"updateEventType": "Month"
+			}
+		]
+	}
+]

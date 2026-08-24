@@ -17,9 +17,9 @@ TIUtilityModuleTemplate.description.SalvageBay=Um esquadrão de drones e técnic
 TIUtilityModuleTemplate.displayName.MarineAssaultUnit=Unidade de fuzileiros de assalto
 TIUtilityModuleTemplate.description.MarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
 TIUtilityModuleTemplate.displayName.AdvancedMarineAssaultUnit=Unidade avançada de fuzileiros de assalto
-TIUtilityModuleTemplate.description.AdvancedMarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
+TIUtilityModuleTemplate.description.AdvancedMarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color>{3}.
 TIUtilityModuleTemplate.displayName.EliteMarineAssaultUnit=Unidade de elite de fuzileiros de assalto
-TIUtilityModuleTemplate.description.EliteMarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
+TIUtilityModuleTemplate.description.EliteMarineAssaultUnit=Permite que a nave lance ataques a habitats. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color>{3}.
 TIUtilityModuleTemplate.displayName.Spartans=Espartanos
 TIUtilityModuleTemplate.description.Spartans=Unidades fanáticas de fuzileiros de elite para nossas naves. Valor de ataque: <color=#FFFFFFFF><sprite name="army_level"></color> {3}.
 TIUtilityModuleTemplate.displayName.Rangers=Guardiões
@@ -100,8 +100,8 @@ TIUtilityModuleTemplate.displayName.AlienHydronTrap=Desconhecido
 TIUtilityModuleTemplate.description.AlienHydronTrap=A função deste módulo é desconhecida.
 TIUtilityModuleTemplate.displayName.AlienRepairBay=Desconhecido
 TIUtilityModuleTemplate.description.AlienRepairBay=A função deste módulo é desconhecida.
-TIUtilityModuleTemplate.displayName.AlienECM=Desconhecido
-TIUtilityModuleTemplate.description.AlienECM=A função deste módulo é desconhecida.
+TIUtilityModuleTemplate.displayName.AlienECM=CME alienígena
+TIUtilityModuleTemplate.description.AlienECM=Este módulo parece conter algum tipo de aparelhagem de contramedidas eletrônicas.
 TIUtilityModuleTemplate.displayName.AlienTargetingComputer=Desconhecido
 TIUtilityModuleTemplate.description.AlienTargetingComputer=A função deste módulo é desconhecida.
 TIUtilityModuleTemplate.displayName.AlienSurveillanceModule=Desconhecido

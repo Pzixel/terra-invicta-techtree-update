@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=W tym statku broń jest w trybie skupioneg
 UI.SpaceCombat.Warning.ShipNoThrust=Ten statek nie może już manewrować z powodu braku paliwa albo krytycznego uszkodzenia mostka lub systemu napędowego.
 UI.SpaceCombat.Warning.ShipNoWeapons=Ten statek ma krytycznie uszkodzone uzbrojenie i nie może strzelać z żadnej broni.
 UI.SpaceCombat.Warning.ShipTarget=Cel tego statku: {0}.
-UI.SpaceCombat.Warning.ManeuverTarget={0} próbuje wyrównać prędkość tego statku.
+UI.SpaceCombat.Warning.ManeuverTarget={0} próbuje wyrównać prędkość tego celu.
 UI.SpaceCombat.Warning.RotationStatus.Critical=Silniki manewrowe tego statku uległy krytycznemu uszkodzeniu, co znacznie osłabia możliwość manewrowania.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=Silniki manewrowe tego statku uległy uszkodzeniu, co osłabia możliwość manewrowania.
 UI.SpaceCombat.Warning.RotationStatus.Good=Silniki manewrowe tego statku są w pełni sprawne. 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=Statek manewruje, by uniknąć przewidywanej ko
 UI.SpaceCombat.Offline=Niesprawne
 UI.SpaceCombat.Damaged=Uszkodzone
 UI.SpaceCombat.Online=Sprawne
+UI.SpaceCombat.Jammed=Blokada
 
 UI.SpaceCombat.Weapon.Damaged=Ta broń jest uszkodzona i nie będzie strzelać, dopóki się jej nie naprawi.
 UI.SpaceCombat.Weapon.Cooldown=Ta broń stygnie i będzie gotowa do działania, gdy ten proces się zakończy.
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Wezwij posiłki
 
 UI.SpaceCombat.Critical=Trafienie krytyczne!
 UI.SpaceCombat.RawDamage=Uszkodzenia
-UI.SpaceCombat.AbsorbedDamage=Uszkodzenia wchłonięte przez pancerz statku
-UI.SpaceCombat.PenetratedDamage=Uszkodzenia układów statku, które przebiły pancerz
-UI.SpaceCombat.RadiationDamage=Uszkodzenia od promieniowania, które przebija pancerz i bezpośrednio niszczy układy statku.
+UI.SpaceCombat.AbsorbedDamage=Uszkodzenia wchłonięte przez pancerz
+UI.SpaceCombat.PenetratedDamage=Uszkodzenia przebijające zadane układom
+UI.SpaceCombat.RadiationDamage=Uszkodzenia od promieniowania, które przebija pancerz i bezpośrednio niszczy układy.
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Odprowadza ciepło
 UI.SpaceCombat.RadiatorStatus.Heating=Gromadzi ciepło
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Statek rozbrojony
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= Uszkodzenia
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= Pancerz trzyma
 UI.SpaceCombat.BattleLog.PartRepaired.Title= Napraw
+
+UI.SpaceCombat.WaypointAvoidance=Trajektorie kolizyjne

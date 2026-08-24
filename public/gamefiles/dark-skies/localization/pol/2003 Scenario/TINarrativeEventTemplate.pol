@@ -1,0 +1,259 @@
+
+// Dark Skies DLC
+
+TINarrativeEventTemplate.displayName.event_AlienAwareness=Publiczna wiedza o obcych
+TINarrativeEventTemplate.event_AlienAwareness.summary=Nie możemy już dłużej ukrywać obecności i aktywności obcych na naszym świecie.
+TINarrativeEventTemplate.event_AlienAwareness.query=Do opinii publicznej na całym świecie trafiły niezbite dowody w postaci licznych niezależnych relacji świadków, zweryfikowanych nagrań wideo, a nawet uwierzytelnionych fizycznych artefaktów, które potwierdziły obecność istot pozaziemskich w naszym Układzie Słonecznym.<br/><br/>Rzecz jasna dla ogółu społeczeństwa był to ogromny szok. Reakcje były skrajnie różne: obywatele odczuwali w równej mierze strach i nadzieję. Niektórzy są wręcz wściekli, ale nie na samych obcych, lecz na własne rządy, które z pewnością wiedziały o tym wszystkim już wcześniej i próbowały ukryć to przed światem.<br/><br/>Wynikł z tego jeden pozytywny skutek. Niezaprzeczalny fakt istnienia obcych zdaje się otwierać umysły dzisiejszego pokolenia. Biura rekrutacyjne i kadrowe zgłaszają gwałtowny wzrost zainteresowania naukami ścisłymi oraz wojskowością. Do niektórych naszych agentów prywatnie zgłosiły się nawet utalentowane i wpływowe osoby, które chcą realnie wpłynąć na bieg wydarzeń.
+TINarrativeEventTemplate.event_AlienAwareness.option0=Na dobre czy na złe, ludzkość się wreszcie obudziła.
+TINarrativeEventTemplate.event_AlienAwareness.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_AlienAwareness.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_AlienCyberattack=Cyberatak kosmitów
+TINarrativeEventTemplate.event_2003_AlienCyberattack.summary=Wszystkie zaawansowane armie na świecie donoszą o powszechnych awariach sprzętu.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.query=Wygląda na to, że obcy wprowadzili bardzo złożonego wirusa do zakłócenia oprogramowania do komunikacji i logistyki, z którego korzystają wojska z całego świata oraz firmy z sektora obronnego. Choć nasi eksperci wciąż próbują odszyfrować te nieliczne fragmenty kodu, które udało się odzyskać, uważamy, że doszło do tego już po tym, jak założono {secondaryTargetNationNameWithArticle} na Ziemi. Bez wątpienia wydarzyło się to przy pomocy tamtejszych kolaborantów.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.option0=Czyżbyśmy zbytnio polegali na technologii obronnej?
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionResult0={summary}
+
+//// ALT-HISTORY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_MissionAccomplished=Misja ukończona
+TINarrativeEventTemplate.event_2003_MissionAccomplished.summary=Prezydent Stanów Zjednoczonych ogłosił dzisiaj zakończenie dużej operacji wojskowej w Iraku.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.query=Po spektakularnym wejściu, które obejmowało lądowanie z użyciem liny hamującej amerykańskiego odrzutowca marynarki wojennej na pokładzie lotniskowca, prezydent USA oświadczył, że choć przed nimi wciąż wiele pracy, Stany Zjednoczone wraz z sojusznikami odniosły zwycięstwo i obaliły iracką dyktaturę.<br/><br/>Ten triumfalny pokaz potęgi wojskowej wyznacza punkt zwrotny w wojnie z terroryzmem i służy podkreśleniu dominacji Ameryki na arenie międzynarodowej. Z drugiej strony, krytycy szybko wytknęli, że wojna w Iraku była słabo uzasadniona i prawdopodobnie zdestabilizuje cały region, a samo przemówienie prezydenta USA przypominało niepotrzebnie teatralny i kosztowny chwyt marketingowy.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.option0=Czy to naprawdę takie ważne, skoro już są tu obcy?
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_ColumbiaDisaster=Katastrofa wahadłowca Columbia
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.summary=1 lutego 2003 roku wahadłowiec <i>Columbia</i> rozpadł się podczas wchodzenia w atmosferę nad Teksasem i Luizjaną. Życie straciło wszystkich siedmioro członków załogi.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.query=To, co początkowo uważano za zwyczajny, choć tragiczny wypadek, staje się coraz bardziej podejrzane w świetle przybycia tajemniczego obiektu z kosmosu zaledwie miesiąc później. Choć oficjalne śledztwo wciąż trwa, już teraz rodzą się coraz bardziej wymyślne teorie spiskowe łączące oba te wydarzenia. Jedni domagają się ograniczenia programów załogowych lotów kosmicznych ze względów bezpieczeństwa, inni zaś uważają, że nadszedł czas, by naciskać na reformy i podwojenie wysiłków.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option0=Mamy ważniejsze problemy bliżej domu.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult0={targetFactionNameCap} zgadza się obciąć wsparcie dla załogowych programów kosmicznych.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option1=To nie czas na strach!
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult1={targetFactionNameCap} postanawia okazać większe wsparcie dla załogowych programów kosmicznych.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option2=Wszystko zgodnie z planem.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult2={targetFactionNameCap} zgadza się obciąć wsparcie dla załogowych programów kosmicznych.
+
+TINarrativeEventTemplate.displayName.event_2003_AlienTacSim=Stworzono taktyczny symulator inwazji obcych
+TINarrativeEventTemplate.event_2003_AlienTacSim.summary=Szanowane studio właśnie wypuściło nową grę wideo o inwazji obcych.
+TINarrativeEventTemplate.event_2003_AlienTacSim.query=Gracz kontroluje elitarną, międzynarodową organizację paramilitarną i balansuje między globalną warstwą strategiczną a turową warstwą taktyczną, by walczyć z obcymi. Choć sama gra jest nową wersją znacznie starszego tytułu o podobnej nazwie, a jej produkcja trwa już od wielu lat, trudno pozbyć się wrażenia, że moment premiery jest zaskakująco zbieżny z ostatnimi nagłówkami z całego świata.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0=To musi być znak czasów.
+TINarrativeEventTemplate.event_2003_AlienTacSim.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0=Hit.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Summary=Nowa gra wideo o inwazji obcych to ogromny hit.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Detail=Być może to właśnie przez odpowiednie wyczucie czasu gra stała się wielkim hitem na światowym rynku. Gracze chwalili emocjonującą mechanikę systemu walki, natomiast recenzenci przypisywali jej odrodzenie gatunku, który w ostatnich latach znajdował się w stagnacji. Pojawiły się już nawet głosy o ambitnym modzie, który częściowo przebudował rozgrywkę i sprawiał, że rozgrywka była dłuższa i jeszcze bardziej skomplikowana.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1=Porażka.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Summary=Nowa gra wideo o inwazji obcych to straszliwa porażka.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Detail=Być może to właśnie przez nieodpowiednie wyczucie czasu gra nie zdołała podbić serc zbyt wielu graczy na światowym rynku. Gracze i recenzenci ganili ją za zbyt wysoki poziom trudności, mało przejrzysty interfejs i szczątkową – a nawet wręcz nietaktowną – fabułę.
+
+TINarrativeEventTemplate.displayName.event_2003_DemocraticBacksliding=Regres demokracji
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.summary=Państwo {targetNationNameWithArticleAndPlacePrep} zmaga się z regresem demokracji.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.query=Populistyczni politycy przyciągają coraz większe grono zwolenników. Głośno sprzeciwiają się elitarnym instytucjom i obwiniają imigrantów oraz grupy zmarginalizowane za pogarszającą się sytuację gospodarczą oraz erozję tradycyjnych, {targetNationAdjective}ch wartości. Media społecznościowe, niegdyś uznawane za narzędzie służące budowaniu relacji i nauce, zalewają fale dezinformacji, żerujące na algorytmach wykorzystujących zaangażowanie użytkowników do maksymalizacji oburzenia. Niedawne reformy skoncentrowały władzę w rękach egzekutywy i podważyły zasadę niezawisłości sądów.<br/><br/>Wszystko to jest oczywiście niepokojące, jednak w naszej frakcji pojawiają się głosy sugerujące, że sytuacja ta mogłaby obrócić się na naszą korzyść, pozwalając nam na dalszą konsolidację wpływów w państwie {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option0=Kochamy demokrację, czyż nie?
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option1=Rozpętajmy dyskusję o zewnętrznych siłach zagrażających państwu {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult1=Politycy z państwa {targetNationNameWithArticle} postanowili wszcząć dyskusję o wpływach zewnętrznych sił.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option2=Ukróć rozpowszechnianie fałszywych informacji.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult2=Państwo {targetNationNameWithArticleCap} podejmuje walkę z fałszywymi informacjami.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option3=Zapewnij wsparcie, by wzmocnić społeczeństwo obywatelskie.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult3=Państwo {targetNationNameWithArticleCap} wspiera społeczeństwo obywatelskie.
+
+TINarrativeEventTemplate.displayName.event_2003_RisingAuthoritarianism=Narastający autorytaryzm
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.summary=Niepokojący trend zdaje się rozlewać po całym demokratycznym świecie.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.query=Na przełomie tysiącleci przez cały glob przetoczyła się fala demokratyzacji. Wraz z upadkiem wielu dawnych autokracji pojawiła się nadzieja, że dla ludzkości nastała nowa era wolności.<br/><br/>Niestety, z biegiem czasu okazało się, że wiele z tych nowo powstałych demokracji miało słabe fundamenty instytucjonalne, przez co stały się podatne na autorytarne rządy liderów partii, którzy po wygranych wyborach demontowali te same instytucje, które wyniosły ich do władzy. Jako prawdopodobne przyczyny wskazuje się rosnące nierówności i bezrobocie, sprzeciw wobec zmian społeczno-gospodarczych oraz obniżenie standardów walki politycznej. Jak się okazało, nawet starsze i silniej ugruntowane demokracje nie były na to odporne.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.option0=Wolność nie jest dana na zawsze.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionResult0={summary}
+
+//// ALIEN MYSTERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_PublicSpeculation=Publiczne spekulacje
+TINarrativeEventTemplate.event_2003_PublicSpeculation.summary=Brak wiarygodnych informacji o tajemniczych gościach z kosmosu, szczególnie po tak długim czasie od ich przybycia, podsyca spekulacje wśród {targetNationAdjective}ej opinii publicznej.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.query=Większość tych spekulacji jest zupełnie bezpodstawna, na zmianę oskarżają {targetNationAdjective} rząd i międzynarodowe elity o ukrywanie swoich występków, o sfabrykowanie całego incydentu celem przykrycia innych problemów albo o kolaborację z pozaziemskimi najeźdźcami w celu zniewolenia państwa {targetNationNameWithArticle}. Niemniej naciski ze strony opinii publicznej są na tyle silne, że zmuszają przedstawicieli {targetNationAdjective}ego rządu do reakcji.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option0=Niech sobie spekulują.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult0=Brak informacji o przybyszach z kosmosu podsyca spekulacje wśród {targetNationAdjective}ej opinii publicznej.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option1=Cenzurujmy wszystkie rozmowy na ten temat.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult1=Brak informacji o przybyszach z kosmosu podsyca spekulacje wśród {targetNationAdjective}ej opinii publicznej.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option2=Ujawnijcie, co wiemy, żeby udobruchać opinię publiczną.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult2=Brak informacji o przybyszach z kosmosu podsyca spekulacje wśród {targetNationAdjective}ej opinii publicznej.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option3=Naróbmy zamieszania, prezentując nasze własne teorie.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult3=Brak informacji o przybyszach z kosmosu podsyca spekulacje wśród {targetNationAdjective}ej opinii publicznej.
+
+TINarrativeEventTemplate.displayName.event_2003_ExecutiveDysfunction=Dysfunkcja egzekutywy
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.summary=Organ wykonawczy z państwa {targetNationAdjective} nie jest w stanie dojść do konsensusu w sprawie obcych.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.query=Mimo naszych wpływów wśród kluczowych członków {targetNationAdjective}ego rządu konieczność zachowania tajemnicy w kwestii naszych działań i domniemanego przybycia obcych sprawia, że przedstawianie naszych racji jest utrudnione. W rezultacie wielu członków rządu uznaje obecność obcych na Ziemi za mistyfikację niewartą zachodu, podczas gdy mamy znacznie bardziej przyziemne problemy, jak chociażby jakość szkolnych obiadów.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option0=Niech się ze sobą kłócą.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option1=Pozwólmy, żeby sceptycy się wyszumieli.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail1=W końcu wszyscy rozumieją, jak ważny jest porządny obiad.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult1={targetNationAdjective} rząd uznaje, że priorytetem jest jakość szkolnych obiadów.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option2=Naciskaj na bardziej zdecydowaną reakcję.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult2={targetNationAdjective} rząd naciska na bardziej zdecydowaną reakcję w sprawie obcych.
+
+TINarrativeEventTemplate.displayName.event_2003_StrangeLights=Dziwne światła
+TINarrativeEventTemplate.event_2003_StrangeLights.summary=Media społecznościowe są pełne obrazów przedstawiających jasne światła na {targetNationAdjective}m niebie.
+TINarrativeEventTemplate.event_2003_StrangeLights.query=Rzecz jasna ludzie są podzieleni w kwestii tego, czy światła te stanowią naturalny fenomen, są wynikiem działalności człowieka czy też ich źródłem są obcy – a nawet czy w ogóle są prawdziwe.
+TINarrativeEventTemplate.event_2003_StrangeLights.option0=To tylko bagienne ogniki.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult0=Przedstawiciele państwa {targetNationNameWithArticleCap} uważają, że to tylko bagienne ogniki na niebie.
+TINarrativeEventTemplate.event_2003_StrangeLights.option1=Wyślij ekipę badawczą, by oficjalnie zbadała te zdarzenia.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult1=Państwo {targetNationNameWithArticleCap} wysyła grupę badawczą do zbadania jasnych świateł.
+TINarrativeEventTemplate.event_2003_StrangeLights.option2=Wyślij myśliwce odrzutowe, by przepatrywały niebo i pokazały siłę.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult2=Państwo {targetNationNameWithArticleCap} wysyła myśliwce odrzutowe do przechwycenia jasnych świateł na niebie.
+TINarrativeEventTemplate.event_2003_StrangeLights.option3=Zachęć stronników, by spędzali więcej czasu na zewnątrz na obserwacji urokliwych świateł.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult3=Frakcja {targetFactionNameCap} namawia swoich stronników do spędzania większej ilości czasu na zewnątrz.
+
+TINarrativeEventTemplate.displayName.event_2003_LethargicTroops=Ospali żołnierze
+TINarrativeEventTemplate.event_2003_LethargicTroops.summary=Morale {targetNationAdjective}ch sił zbrojnych szoruje po dnie.
+TINarrativeEventTemplate.event_2003_LethargicTroops.query=Oficerowie wszystkich rodzajów wojsk zgłaszają niepokojący wzrost absencji, stosowanie strajku włoskiego oraz ogólny brak entuzjazmu w wykonywaniu obowiązków służbowych. Skala tego problemu jest tak duża, że nawet groźby użycia surowych środków dyscyplinarnych odnoszą niewielki skutek. Podczas przesłuchań żołnierze niechętnie podają konkretne powody, ograniczając się do ogólnego przekonania, że walka nie ma żadnego sensu.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option0=Co się stało ze służbą w twoim kraju?
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_LethargicTroops.option1=Zwiększmy budżet na udogodnienia dla żołnierzy.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult1=Państwo {targetNationNameWithArticleCap} postanawia zwiększyć budżet na udogodnienia dla żołnierzy.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option2=Pozbądźmy się najgorszych wichrzycieli w ramach przestrogi dla pozostałych.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult2=Państwo {targetNationNameWithArticleCap} pozbywa się wichrzycieli z sił zbrojnych.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3=Zbadajmy tę sprawę pod kątem wpływu obcych.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0=Sukces.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Summary=Państwo {targetNationNameWithArticleCap} odkrywa ślady wpływu obcych w swoich siłach specjalnych.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Detail=Odkryliśmy ślady wpływu obcych na naszych żołnierzy! Dzięki temu moralne wróciło do pierwotnego poziomu, a {targetNationAdjective}e siły zbrojne są lepiej przygotowane na walkę z zagrożeniem ze strony obcych w przyszłości.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1=Porażka.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Summary=Państwo {targetNationNameWithArticleCap} obwinia obcych za niskie morale w siłach zbrojnych.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Detail=Oskarżenia o wpływy obcych jedynie wzmocniły frustrację w szeregach żołnierzy.
+
+
+
+
+//// SERVANTS EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_CultofEquality=Kult równości
+TINarrativeEventTemplate.event_2003_CultofEquality.summary=Nowy ruch religijny zyskuje nowych zwolenników {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofEquality.query=Werbownicy i kaznodzieje systematycznie agitują w miejscach pracy, szkołach oraz centrach spotkań społeczności, głosząc wieści, które silnie rezonują wśród słuchaczy. Każda grupa przyjaciół ma przynajmniej jedną osobę, która zna kogoś z tego ruchu. Demonstranci i aktywiści powiązani z tym ruchem już teraz pokazują się na ulicach w regionie {targetRegionName} oraz w innych miastach, zaś ich działania są niezwykle dobrze skoordynowane.<br/><br/>Ich przesłanie: wszyscy rodzą się równi, zatem muszą żyć na równi ze swoimi sąsiadami. Dysharmonia powstaje w sytuacji, kiedy niektóre jednostki mają więcej dóbr materialnych niż pozostali. Najwyższy czas, by ci, którzy gromadzą bogactwa, wrócili na łono społeczności ludzkiej.
+TINarrativeEventTemplate.event_2003_CultofEquality.option0=Niech sobie protestują.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofEquality.option1=Dokonajmy ustępstw na rzecz równości.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult1={actorNameWithArticleCap} czyni ustępstwa na rzecz nowego ruchu religijnego.
+TINarrativeEventTemplate.event_2003_CultofEquality.option2=Trzeba ukrócić ich działania.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult2={actorNameWithArticleCap} postanawia ukrócić działania nowego ruchu religijnego.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3=Zbadajmy tę sprawę pod kątem wpływu obcych.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0=Sukces.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Summary={actorNameWithArticleCap} odkrywa wpływy obcych w nowym ruchu religijnym.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Detail=Odkryliśmy ślady wpływów obcych w tym ruchu! To znacznie podkopało zaufanie do tej organizacji, a większość jej byłych członków odwróciła się od niej bez robienia afery.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1=Porażka.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Summary={actorNameWithArticleCap} nie jest w stanie wykryć wpływów obcych w nowym ruchu religijnym.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Detail=Oskarżenia o wpływy obcych jedynie wzmocniły frustrację opinii publicznej. Skoro obcy pragną równości, wielu chciałoby do nich dołączyć.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofUnity=Kult jedności
+TINarrativeEventTemplate.event_2003_CultofUnity.summary=Nowy ruch religijny zyskuje nowych zwolenników w państwie {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofUnity.query=Werbownicy i kaznodzieje systematycznie agitują w miejscach pracy, szkołach oraz centrach spotkań społeczności, głosząc wieści, które silnie rezonują wśród słuchaczy. Każda grupa przyjaciół ma przynajmniej jedną osobę, która zna kogoś z tego ruchu. Demonstranci i aktywiści powiązani z tym ruchem już teraz pokazują się na ulicach w regionie {targetRegionName} oraz w innych miastach, zaś ich działania są niezwykle dobrze skoordynowane.<br/><br/>Ich przesłanie: nawet mimo światowych turbulencji i trudów życia codziennego należy pamiętać, by zawsze kochać swoich bliźnich. Tylko tym sposobem można pokochać samego siebie.
+TINarrativeEventTemplate.event_2003_CultofUnity.option0=Właśnie tego chcą dla nas nasi wybawcy.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofUnity.option1=Nasi wybawcy mają dla nas większe plany.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofPeace=Kult pokoju
+TINarrativeEventTemplate.event_2003_CultofPeace.summary=Nowy ruch religijny zyskuje nowych zwolenników w państwie {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofPeace.query=Werbownicy i kaznodzieje systematycznie agitują w miejscach pracy, szkołach oraz centrach spotkań społeczności, głosząc wieści, które silnie rezonują wśród słuchaczy. Każda grupa przyjaciół ma przynajmniej jedną osobę, która zna kogoś z tego ruchu. Demonstranci i aktywiści powiązani z tym ruchem już teraz pokazują się na ulicach w regionie {targetRegionName} oraz w innych miastach, zaś ich działania są niezwykle dobrze skoordynowane.<br/><br/>Ich przesłanie: wzrost nastrojów militarnych na całym świecie doprowadzi jedynie do bólu i cierpienia. W dużej mierze odpowiada za to państwo {targetNationNameWithArticleCap} wraz z jego ogromnym przemysłem wojskowym i zdolnościami ekspedycyjnymi. Powinno natychmiast zmienić swój kierunek działań albo samo nie uniknie śmierci i zniszczeń.
+TINarrativeEventTemplate.event_2003_CultofPeace.option0=Niech sobie protestują.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofPeace.option1=Dokonajmy ustępstw na rzecz demobilizacji.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult1={actorNameWithArticleCap} czyni ustępstwa na rzecz nowego ruchu religijnego.
+TINarrativeEventTemplate.event_2003_CultofPeace.option2=Trzeba ukrócić ich działania.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult2={actorNameWithArticleCap} postanawia ukrócić działania nowego ruchu religijnego.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3=Zbadajmy tę sprawę pod kątem wpływu obcych.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0=Sukces.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Summary={actorNameWithArticleCap} odkrywa wpływy obcych w nowym ruchu religijnym.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Detail=Odkryliśmy ślady wpływów obcych w tym ruchu! To znacznie podkopało zaufanie do tej organizacji, a większość byłych już członków odwróciła się od niej bez robienia afery.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1=Porażka.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Summary={actorNameWithArticleCap} nie jest w stanie wykryć wpływów obcych w nowym ruchu religijnym.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Detail=Oskarżenia o wpływy obcych jedynie wzmocniły frustrację opinii publicznej. Skoro obcy pragną pokoju, wielu chciałoby do nich dołączyć.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofAction=Kult działania
+TINarrativeEventTemplate.event_2003_CultofAction.summary=Nowy ruch religijny zyskuje nowych zwolenników w państwie {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofAction.query=Werbownicy i kaznodzieje systematycznie agitują w miejscach pracy, szkołach oraz centrach spotkań społeczności, głosząc wieści, które silnie rezonują wśród słuchaczy. Każda grupa przyjaciół ma przynajmniej jedną osobę, która zna kogoś z tego ruchu. Demonstranci i aktywiści powiązani z tym ruchem już teraz pokazują się na ulicach w regionie {targetRegionName} oraz w innych miastach, zaś ich działania są niezwykle dobrze skoordynowane.<br/><br/>Ich przesłanie: wszyscy wiedzą, że świat jest niesprawiedliwy i zepsuty, ale sama ta wiedza nie wystarczy. Słowa nie zmienią świata. Trzeba czynów. Ktoś musi podjąć pierwsze kroki w celu stworzenia lepszego świata, a tym kimś jesteś ty.
+TINarrativeEventTemplate.event_2003_CultofAction.option0=Właśnie tego chcą dla nas nasi wybawcy.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofAction.option1=Nasi wybawcy mają dla nas większe plany.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofArmageddon=Kult armagedonu
+TINarrativeEventTemplate.event_2003_CultofArmageddon.summary=Nowy ruch religijny zyskuje nowych zwolenników w państwie {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.query=Werbownicy i kaznodzieje systematycznie agitują w miejscach pracy, szkołach oraz centrach spotkań społeczności, głosząc wieści, które silnie rezonują wśród słuchaczy. Każda grupa przyjaciół ma przynajmniej jedną osobę, która zna kogoś z tego ruchu. Demonstranci i aktywiści powiązani z tym ruchem już teraz pokazują się na ulicach w regionie {targetRegionName} oraz w innych miastach, zaś ich działania są niezwykle dobrze skoordynowane.<br/><br/>Ich przesłanie: broń jądrowa to przekleństwo ludzkości. Dopóki istnieje choćby jedna głowica jądrowa, nieubłaganie zbliżamy się do dnia zagłady. Wzajemna gwarancja zniszczenia jest faktem: skoro żadne państwo nie zamierza dać przykładu, czemu inni mieliby cokolwiek robić?
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option0=Niech sobie protestują.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option1=Dokonajmy ustępstw na rzecz rozbrojenia.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult1={actorNameWithArticleCap} czyni ustępstwa na rzecz nowego ruchu religijnego.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option2=Trzeba ukrócić ich działania.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult2={actorNameWithArticleCap} postanawia ukrócić działania nowego ruchu religijnego.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3=Zbadajmy tę sprawę pod kątem wpływu obcych.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0=Sukces.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Summary={actorNameWithArticleCap} odkrywa wpływy obcych w nowym ruchu religijnym.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Detail=Odkryliśmy ślady wpływów obcych w tym ruchu! To znacznie podkopało zaufanie do tej organizacji, a większość byłych już członków odwróciła się od niej bez robienia afery.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1=Porażka.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Summary={actorNameWithArticleCap} nie jest w stanie wykryć wpływów obcych w nowym ruchu religijnym.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Detail=Oskarżenia o wpływy obcych jedynie wzmocniły frustrację opinii publicznej. Skoro obcy pragną pokoju, wielu chciałoby do nich dołączyć.
+
+
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_2003_InsightfulBlogger=Wnikliwy blogger
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.summary=Osoba z naszego zespołu komunikacji twierdzi, że znalazła ważne informacje w mediach społecznościowych.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.query=Prowadząc stały monitoring globalnych sieci komunikacyjnych w ramach swoich obowiązków służbowych, rzeczona osoba natknęła się na bloga, którego autor twierdzi, że wszedł w posiadanie dowodów na działalność obcych na Ziemi. W normalnych okolicznościach tego rodzaju rewelacje zostałyby z miejsca odrzucone. Nie żyjemy jednak w normalnych czasach, a załączone dowody są zaskakująco przekonujące. Możliwe, że ten blogger wie coś, o czym my nie wiemy, a skoro znaleźliśmy te dowody w sieci, inni z pewnością też je znajdą.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0=Nie mamy czasu na tego rodzaju wymysły.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0=Nic się nie dzieje.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Summary=Dowody na działania obcych rozprzestrzeniają się po mediach społecznościowych.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Detail=Nic się nie dzieje.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1=???
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Summary=Dowody na działania obcych rozprzestrzeniają się po mediach społecznościowych.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1=Złóżmy mu wizytę.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0=Sukces.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Summary=Dowody na działania obcych rozprzestrzeniają się po mediach społecznościowych.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Detail=Po dotarciu na miejsce nasi agenci zostali zaproszeni do domu bloggera, gdzie odbyli miłą rozmowę. Przy kawie blogger dobrowolnie oddał zdjęcia będące jasnym świadectwem na działalność obcych w tej okolicy, a także kilka przedmiotów o interesującym składzie chemicznym.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1=Pudło.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Summary=Dowody na działania obcych rozprzestrzeniają się po mediach społecznościowych.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Detail=Po dotarciu na miejsce nasi agenci nikogo nie zastali. Dom bloggera nosił ślady czyjejś niedawnej bytności, jednak wewnątrz nie było lokatorów ani żadnego sprzętu komputerowego. Zapytani o sprawę sąsiedzi twierdzili, że od dłuższego czasu nikogo tam nie widzieli.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2=Oszustwo.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Summary=Dowody na działania obcych rozprzestrzeniają się po mediach społecznościowych.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Detail=Po dotarciu na miejsce nasi agenci szybko odkryli, że to, co na pierwszy rzut oka wyglądało na imponującą kolekcję cyfrowych zdjęć, było zwykłym oszustwem. Rzekome fragmentu statku obcych były jedynie piankowymi rekwizytami. Co gorsza, blogger wykorzystał naszą wizytę jako dowód na to, że „za bardzo zbliżył się do prawdy”.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option2=Zwiększ widoczność tych postów, by szerzyć wieści.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionResult2=Dowody na działania obcych rozprzestrzeniają się po mediach społecznościowych.

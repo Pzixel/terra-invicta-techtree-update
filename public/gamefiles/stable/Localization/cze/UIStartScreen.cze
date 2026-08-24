@@ -99,7 +99,7 @@ UI.StartScreen.FailedToLoadSaveDescription=Soubor s uloženými daty se nepodař
 UI.StartScreen.StartupErrorHeader=Chyba inicializace hry
 UI.StartScreen.StartupErrorSavePath=Hra nezískala oprávnění pro přístup k požadované cestě ke složce pro ukládání a nebude možné ji spustit. Zkontroluj oprávnění či případný software pro ukládání dat do cloudu (např. OneDrive), aby hra mohla číst a zapisovat soubory v následujícím umístění: <br/><br/>{0}<br/><br/> Žádost o podporu pošli e-mailem na adresu support@pavonisinteractive.com<br/><br/>Program bude po stisknutí tlačítka „OK“ ukončen.
 UI.StartScreen.TutorialDesc=Při prvním hraní doporučujeme hrát za frakci Odboje se zapnutou výukou.
-UI.StartScreen.Credits=Tým vývojářů
+UI.StartScreen.Credits=Autoři
 UI.StartScreen.Exit=Odejít ze hry
 UI.StartScreen.Skirmish.Begin=ZAHÁJIT BITVU
 UI.StartScreen.Skirmish.Header=Nastavení bity
@@ -140,7 +140,7 @@ UI.StartScreen.CustomizeCampaign.Customize=Přizpůsobit kampaň
 UI.StartScreen.CustomizeCampaign.Options=Možnosti kampaně
 UI.StartScreen.CustomizeCampaign.DifficultyHeader=Možnosti obtížnosti
 UI.StartScreen.CustomizeCampaign.SelectFactionsHeader=Vybrat aktivní frakce
-UI.StartScreen.CustomizeCampaign.YourFactionNamesHeader=Terminologie frakce
+UI.StartScreen.CustomizeCampaign.YourFactionNamesHeader=Názvy tvé frakce
 UI.StartScreen.CustomizeCampaign.RandomProfession=Náhodně z výchozích
 UI.StartScreen.CustomizeCampaign.CouncilorProfession=Startovní profese radního
 UI.StartScreen.CustomizeCampaign.CPFreebies=Základní kapacita kontrolních bodů
@@ -201,123 +201,84 @@ UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=Názvy malých lodí
 UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=Názvy středních lodí
 UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=Názvy velkých lodí
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=Názvy habitatů
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Přidat útočnou flotilu mimozemšťanů
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Na začátku kampaně přidá další flotilu mimozemšťanů s útočnými transportéry.
-UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Výchozí zrychlená kampaň
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Přidat mimozemskou invazní flotilu
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Na začátku kampaně přidá další flotilu mimozemšťanů s několika útočnými transportéry. <h>To výrazně zvýší obtížnost kampaně; doporučujeme pouze pro zkušené hráče.</h>
+UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Výchozí zrychlené
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=Výchozí dlouhá kampaň
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Nastavení předchozí kampaně
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactions=Umožnit deaktivaci AI frakcí
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactionsTooltip=Umožňuje, aby některé lidské AI frakce při dostatečném potlačení přešly do nečinnosti. K tomu může dojít, jakmile radní dané frakce provádějí méně než dvě akce za měsíc, a to pouze v případě, že na začátku dne nemají žádné flotily, osady, členy rady ani kontrolní body. V tomto okamžiku frakce ukončí činnost, ale její ideologie bude i nadále existovat a mít stoupence.<br/><br/>Některé frakce nelze deaktivovat kvůli jejich klíčové roli v příběhu: Ve hře se všemi frakcemi jsou z tohoto pravidla vyňati Služebnictvo a Protektorát, a pokud hráč nehraje za Odboj nebo Alianci pro lidstvo, bude z tohoto pravidla vyňata také frakce Aliance pro lidstvo.
+UI.StartScreen.CustomizeCampaign.Namelist.Heroes=Hrdinové
+UI.StartScreen.CustomizeCampaign.Namelist.Qualities=Dobré vlastnosti
+UI.StartScreen.CustomizeCampaign.Namelist.Battles=Bitvy
+UI.StartScreen.CustomizeCampaign.Namelist.Commanders=Velitelé
+UI.StartScreen.CustomizeCampaign.Namelist.Weapons=Zbraně
+UI.StartScreen.CustomizeCampaign.Namelist.Fighters=Bojovníci
+UI.StartScreen.CustomizeCampaign.Namelist.Scary=Děsivé
+UI.StartScreen.CustomizeCampaign.Namelist.Mountains=Hory
+UI.StartScreen.CustomizeCampaign.Namelist.WaterAnimals=Vodní živočichové
+UI.StartScreen.CustomizeCampaign.Namelist.Rivers=Řeky
+UI.StartScreen.CustomizeCampaign.Namelist.WaterBodies=Vodní útvary
+UI.StartScreen.CustomizeCampaign.Namelist.Explorers=Průzkumníci
+UI.StartScreen.CustomizeCampaign.Namelist.MythicalBeasts=Mytické bytosti
+UI.StartScreen.CustomizeCampaign.Namelist.Phenomena=Úkazy
+UI.StartScreen.CustomizeCampaign.Namelist.Mythology=Mytologie
+UI.StartScreen.CustomizeCampaign.Namelist.Monuments=Monumenty
+UI.StartScreen.CustomizeCampaign.Namelist.Cities=Města
+UI.StartScreen.CustomizeCampaign.Namelist.Regions=Regiony 
+UI.StartScreen.CustomizeCampaign.Namelist.Landmasses=Pevninská plocha
+UI.StartScreen.CustomizeCampaign.Namelist.Leaders=Vůdci
+UI.StartScreen.CustomizeCampaign.Namelist.LandAnimals=Suchozemští živočichové
+UI.StartScreen.CustomizeCampaign.Namelist.Scientists=Vědci
+UI.StartScreen.CustomizeCampaign.Namelist.Exploration=Průzkum
+UI.StartScreen.CustomizeCampaign.Namelist.Exemplars=Příklady
+UI.StartScreen.CustomizeCampaign.Namelist.AirAnimals=Létaví živočichové
+UI.StartScreen.CustomizeCampaign.Namelist.Astronomy=Astronomie
+UI.StartScreen.CustomizeCampaign.Namelist.FamousShips=Slavné lodě
+UI.StartScreen.CustomizeCampaign.Namelist.Astronauts=Astronauti
+UI.StartScreen.CustomizeCampaign.Namelist.AlienNature=Mimozemská podstata
+UI.StartScreen.CustomizeCampaign.Namelist.AlienCelestial=Mimozemské božstvo
+UI.StartScreen.CustomizeCampaign.Namelist.AlienConcepts=Mimozemské koncepty
+UI.StartScreen.CustomizeCampaign.Namelist.AlienMilitant=Mimozemský bojovník
 UI.StartScreen.Cancel=Zrušit
 UI.StartScreen.FactionDescription={0}<br/>Obtížnost frakce: {1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=Poznámky k opravě
+UI.StartScreen.CallToAction00=Právě k dispozici!
 UI.StartScreen.TranslationWarning=Vítej v předběžném přístupu ke hře Terra Invicta!<br/><br/>Překlady, které nejsou v angličtině, stále procházejí korekturami dalších překladatelů a testují se ve hře. Tyto počáteční verze v předběžném přístupu bude obsahovat gramatické chyby, nekonzistentní termíny, anglické zástupné texty a další jazykové nedostatky. Snažíme se je co nejrychleji opravit, ale Terra Invicta obsahuje množství textu rovnající se několika románům a bude nám nějakou dobu trvat, než vše zcela projdeme.<br/><br/>Děkujeme ti za ochotu vyzkoušet hru Terra Invicta v předběžném přístupu a věř, že budeme tvrdě pracovat na jejím vylepšení!
 UI.StartScreen.GamepassWarning=Terra Invicta se nachází ve stavu předběžné ukázky hry. Některé funkce hry nebo příslušné platformy proto nemusí fungovat podle očekávání a může docházet k chybám či pádům. Žádost o podporu zašli na e-mail support@pavonisinteractive.com<br/><br/>Ukládání do cloudu nemusí fungovat konzistentně, pokud se vyskytnou problémy, uložená data najdeš ve složce C:\Users\TVÉJMÉNO\Documents\My Games\TerraInvicta\Saves nebo %homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\
 //<Developer> Credits
-UI.StartScreen.TICredits_0=TERRA INVICTA<br/><br/>
-UI.StartScreen.TICredits_1=- VYTVOŘILA SPOLEČNOST -<br/>Pavonis Interactive<br/><br/>
-UI.StartScreen.TICredits_2=- VYDALA SPOLEČNOST -<br/>Hooded Horse<br/><br/>
-UI.StartScreen.TICredits_3=- KREATIVNÍ ŘEDITEL -<br/>John J. Lumpkin<br/><br/>
-UI.StartScreen.TICredits_4=- UMĚLECKÝ ŘEDITEL -<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=- VÝVOJÁŘI -<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Benjamin Poland<br/>Ryan Dunagan<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=- VEDOUCÍ PRODUCENT -<br/>Tim Bender<br/><br/>PRODUCENT<br/>Scott Davis<br/><br/>
-UI.StartScreen.TICredits_7=- GRAFIKA POSTAV A 2D -<br/>Michael Moore<br/><br/>
-UI.StartScreen.TICredits_8=- ILUSTRÁTOŘI -<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
-UI.StartScreen.TICredits_9=- TECHNICKÝ GRAFIK -<br/>Zack Dawson<br/><br/>
-UI.StartScreen.TICredits_10=- GURU UŽIVATELSKÉHO ROZHRANÍ -<br/>Josh Atkinson<br/><br/>
-UI.StartScreen.TICredits_11=- 3D/2D GRAFIK -<br/>Anthony Dillo<br/><br/>
-UI.StartScreen.TICredits_12=- HUDEBNÍ KOMPOZICE -<br/>Patrick Delaney<br/>Dennis Meyer<br/>Breakdown Epiphanies<br/><br/>
-UI.StartScreen.TICredits_13=- AUDIO DESIGNÉR -<br/>Zabi Khan<br/><br/>
-UI.StartScreen.TICredits_14=- SCÉNÁRISTÉ -<br/>Alec Meer<br/>Benedict Jacka<br/>Arturo Ferreira<br/>Cara Laasch<br/><br/>
-UI.StartScreen.TICredits_15=- DESIGNÉŘI OBSAHU -<br/>Tayta Malikai<br/>David Ballantyne<br/><br/>
-UI.StartScreen.TICredits_16=- KOORDINACE VÝROBY<br/>Shannon Sindorf<br/><br/>
-UI.StartScreen.TICredits_17=- POMOCNÍ VÝVOJÁŘI -<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Zach Parsons<br/>Amineri<br/><br/>
-UI.StartScreen.TICredits_18=- VÝKONNÍ PRODUCENTI -<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Pottenger<br/>Xavier Wynns<br/><br/>
+
 
 //<AP> Credits + Messages
 
-UI.StartScreen.TICredits_19=- POMOCNÍ PRODUCENTI -<br/><br/>
-UI.StartScreen.TICredits_20=Rachel Dilger<br/>--<br/>
-UI.StartScreen.TICredits_21=<skip/>
-UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
-UI.StartScreen.TICredits_23=„Buď pokorný, neboť jsi stvořen z hlíny. Buď ušlechtilý, neboť jsi stvořen z hvězd.“<br/>--<br/>
-UI.StartScreen.TICredits_24=Martti Aarnio-Wihuri<br/>--<br/>
-UI.StartScreen.TICredits_25=<skip/>
-UI.StartScreen.TICredits_26=John O. a Eileen Lumpkinovi<br/>
-UI.StartScreen.TICredits_27=„Z kokpitu letadla z 2. světové války nad Pacifikem do budoucích světů ve hvězdách – rodinná cesta.“<br/>--<br/>
-UI.StartScreen.TICredits_28=Jack Peterson<br/>
-UI.StartScreen.TICredits_29=„Vyléčit stárnutí nebo zemřít.“<br/>--<br/>
-UI.StartScreen.TICredits_30=Schinhofen Books<br/>
-UI.StartScreen.TICredits_31=„Čtení je jen dalším únikem.“<br/>--<br/>
-UI.StartScreen.TICredits_32=Florian Ossiander<br/>--<br/>
-UI.StartScreen.TICredits_33=<skip/>
-UI.StartScreen.TICredits_34=Jeffrey Lee Henninger<br/>
-UI.StartScreen.TICredits_35=„Vesmír čeká na ty, kdo se odváží.“<br/>--<br/>
-UI.StartScreen.TICredits_36=Stardust<br/>„Jdi se slunečním větrem.“<br/>--<br/>
-UI.StartScreen.TICredits_37=Stefano de Stefano<br/>„Naše problémy nemůžeme řešit stejným způsobem, jakým jsme je vytvořili.“<br/>--<br/>
-UI.StartScreen.TICredits_38=Sean Hassan<br/>„Naší výzvou je žít život bez iluzí a vyhnout se rozčarování.“<br/>--<br/>
-UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. – Shield Initiative<br/>„To, co nyní uděláme tváří v tvář neustále se měnícím krizím, ať už jde o války, katastrofy nebo klimatické změny, se bude promítat v čase a rozhodovat o osudu lidstva. Díky vesmíru a technologiím možná ještě najdeme svého zachránce před těmito existenčními výzvami.“<br/><br/><br/>
+
 
 //<VA> Credits
 
-UI.StartScreen.TICredits_40=- DABING -<br/>
-UI.StartScreen.TICredits_41=Fiona Ayoade -<sp>
-UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
-UI.StartScreen.TICredits_43=Judith Howell -<sp>
-UI.StartScreen.TICredits_44=Zura Johnson<br/><br/>
-UI.StartScreen.TICredits_45=Soren Van Wyk -<sp>
-UI.StartScreen.TICredits_46=Etienne Durandt<br/><br/>
-UI.StartScreen.TICredits_47=Khalid Al-Ashgar -<sp>
-UI.StartScreen.TICredits_48=Erik Ransom<br/><br/>
-UI.StartScreen.TICredits_49=Li Qingzhao -<sp>
-UI.StartScreen.TICredits_50=Christina Ho<br/><br/>
-UI.StartScreen.TICredits_51=Hanse Castillo -<sp>
-UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
-UI.StartScreen.TICredits_53=Kiran Banerjee -<sp>
-UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
 
-UI.StartScreen.TICredits_55=- HLASY RADNÍCH -<br/>
-UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton T<br/>Jim Lenaway • Andy Mack<br/>Mike Apgar • Damon Alums<br/>Josephine Croft • Les Horovitz<br/>Heidi Kwiat • Ian Phillips<br/>Helen Clapp • Lizzie Crow<br/>Sophie Roberts • Steven Kelly<br/>Thom Welham • Conor James<br/>Mohita Namjoshi • Mamta Gurnani<br/>Vikram Rawat • Gagan Pathak<br/>Jenny Fennessy • Alan Kelly<br/>Diana Silva • Anita Lauren<br/>Carlos Cerrato • Fernando Macias Jimenez<br/>Marina Kalmykova • Sebastian Agner<br/>Gaelle Gosselin • Jesse Meiring<br/>Mhairi Morrison • Kieran Flitton<br/>Lina Sinuan • Val Cheah<br/>Hagen Valerio • Jati Andito<br/>Ore Apampa • Uzy Hamman<br/>Rachel Oladejo • Jonathan Mabote<br/>Jonathan Brandt • Nadia Cavelle<br/>Christian Michalak • Sonja Palmu<br/>Sarí AK • Mona Saadeh<br/>Loay Al-Hakimi • Silina Choueiry<br/><br/>
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57=- HVĚZDY KONTROLY KVALITY -<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah<br/><br/>
-UI.StartScreen.TICredits_58=PODĚKOVÁNÍ<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/><br/>
+
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>
-UI.StartScreen.TICredits_60=- VÝKONNÝ ŘEDITEL -<br/>Tim Bender<br/><br/>
-UI.StartScreen.TICredits_61=- FINANČNÍ ŘEDITELA GENERÁLNÍ PORADCE -<br/>Snow Rui<br/><br/>
-UI.StartScreen.TICredits_62=- PRODUKTOVÝ ŘEDITEL -<br/>Ashkan Namousi<br/><br/>
-UI.StartScreen.TICredits_63=- PORADCE -<br/>Shams Jorjani<br/><br/>
-UI.StartScreen.TICredits_64=- ŘEDITEL KOMUNIKACE -<br/>Joe Robinson<br/><br/>MANAŽER KOMUNIKACE<br/>Marcello Perricone<br/><br/>
-UI.StartScreen.TICredits_65=- MANAŽER INFLUENCERŮ -<br/>Antony „HForHavoc“ Floyd<br/><br/>
-UI.StartScreen.TICredits_66=- POMOCNÍ MANAŽEŘI INFLUENCERŮ -<br/>Shaun „BearlyTactical“ Ginty<br/>Noris „komakrtv“ Merk<br/><br/>
-UI.StartScreen.TICredits_67=- MARKETINGOVÍ KONZULTANTI -<br/>PartyElite<br/>Tsukiha Shirakusu<br/>Caketown Interactive<br/>Filip Sirc<br/><br/>
-UI.StartScreen.TICredits_68=- PRODUKCE TRAILERU -<br/>Slavic Magic<br/>Grzegorz Styczen<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_69=- MANAŽEŘI PRO STYK S VEŘEJNOSTÍ -<br/>Vicarious PR<br/>Michael Brown<br/>Lewis Burnell<br/>Matt Brown<br/><br/>
-UI.StartScreen.TICredits_70=- KOORDINÁTOR LOKALIZACE<br/>Miguel David Medina García<br/><br/>
-UI.StartScreen.TICredits_71=- LOKALIZACE -<br/>Roboto Global<br/>EC Innovations<br/>Brenda Triandafeledis<br/>Laura Nieves Díaz Suárez<br/>Carlota Marie Dávila Santana<br/>Marta Medina González<br/>Wenwei Jiang<br/>Yuki Fujita<br/>Terra Invicta Chinese Fan Localization Group<br/><br/>
-UI.StartScreen.TICredits_72=SPECIÁLNÍ PODĚKOVÁNÍ:<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D'Arcy<br/><br/>
-UI.StartScreen.TICredits_73=- VÝVOJÁŘSKÉ DĚTI! -<br/>Théodore<br/>Carmen Rose<br/><br/>
 
 
 //<Contributing Backers> Credits
 
-UI.StartScreen.TICredits_74=KREATIVNÍ PŘISPĚVATELÉ KICKSTARTERU<br/>
+
 
 //<Playtester> Credits
 
-UI.StartScreen.TICredits_105=- KICKSTARTER
-UI.StartScreen.TICredits_106= PLAYTESTERS -<br/>
+
 
 //<Backers> Credits
 
-UI.StartScreen.TICredits_393=<br/>- KICKSTARTER BACKERS -<br/>
 
-
-UI.StartScreen.TICredits_1337=- SOFTWARE -<br/><br/>Vyrobeno s pomocí Unity<br/><br/>Vyrobeno s pomocí FMOD Studio<br/>od Firelight Technologies Limited<br/><br/>
-UI.StartScreen.TICredits_1338=Ikony log mnohých organizací ve hře používané fiktivními soukromými společnostmi poskytla služba LogoLogo.com.<br/>Použití log vládních agentur v tomto fiktivním díle nevyjadřuje podporu těchto agentur.<br/><br/>
-UI.StartScreen.TICredits_1339=Některé fotografie použité jako podklad pro obrázky na pozadí radních poskytla NASA.<br/><br/>
-UI.StartScreen.TICredits_1340=Autor Příběhu dvou měst ... Charles Dickens
+UI.StartScreen.TICredits_1347=SOFTWARE<br/><br/>Vyrobeno s pomocí Unity<br/><br/>Vyrobeno s pomocí FMOD Studio<br/>od Firelight Technologies Limited<br/><br/>
+UI.StartScreen.TICredits_1348=Ikony log mnohých organizací ve hře používané fiktivními soukromými společnostmi poskytla služba LogoLogo.com.<br/>Použití log vládních agentur v tomto fiktivním díle nevyjadřuje podporu těchto agentur.<br/><br/>
+UI.StartScreen.TICredits_1349=Některé fotografie použité jako podklad pro obrázky na pozadí radních poskytla NASA.<br/><br/>
+UI.StartScreen.TICredits_1350=AUTOR PŘÍBĚHU DVOU MĚST<br/>Charles Dickens

@@ -1,0 +1,14 @@
+
+// Dark Skies DLC
+
+TIObjectiveTemplate.MilestoneFulfilled.AlienInvasionPlanDiscovered=已发现外星人入侵计划
+TIObjectiveTemplate.MilestoneFulfilled.Summary.AlienInvasionPlanDiscovered=我们发现了外星人入侵地球的计划。
+TIObjectiveTemplate.MilestoneFulfilled.Detail.AlienInvasionPlanDiscovered=最近的情报显示，外星人正在计划入侵地球。
+
+TIObjectiveTemplate.MilestoneFulfilled.AlienOvertAggression=外星人越来越大胆
+TIObjectiveTemplate.MilestoneFulfilled.Summary.AlienOvertAggression=外星人已经放弃了遮掩。
+TIObjectiveTemplate.MilestoneFulfilled.Detail.AlienOvertAggression=最近的观察表明，外星人不再隐秘行事。从现在起，他们会在地球上变得更加咄咄逼人，在太空中也是这样。 
+
+TIObjectiveTemplate.MilestoneFulfilled.AlienAwareness_Public=外星人认知度
+TIObjectiveTemplate.MilestoneFulfilled.Summary.AlienAwareness_Public=公众知道外星人的存在。
+TIObjectiveTemplate.MilestoneFulfilled.Detail.AlienAwareness_Public=现在，普通人已完全知道，外星人已经来到了地球。

@@ -1,5 +1,6 @@
 import { TechTemplate } from './types';
 import { TechDb } from './utils/TechDb';
+import { selectedPrerequisiteTechs } from './utils/prerequisites';
 
 // Same-origin path of the deploy base (vite `base` may be a full URL); ends with '/'.
 // The env fallback covers non-Vite contexts (build scripts importing this module).
@@ -19,15 +20,7 @@ export function findBlockingTechs(techDb: TechDb, techToSearch: TechTemplate | n
 }
 
 export function findPrereqTechs(techDb: TechDb, techToSearch: TechTemplate): TechTemplate[] {
-  if (!techToSearch.prereqs) {
-    return [];
-  }
-  return techToSearch.prereqs
-    .filter(prereq => prereq !== "")
-    .flatMap(prereq => {
-      const tech = techDb.getTechByDataName(prereq);
-      return tech ? [tech] : [];
-    });
+  return selectedPrerequisiteTechs(techToSearch, (dataName) => techDb.getTechByDataName(dataName));
 }
 
 export function getAncestorTechs(techDb: TechDb, techToSearch: TechTemplate | null): TechTemplate[] {

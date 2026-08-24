@@ -50,13 +50,16 @@ UI.Operations.Torch=Cinemática de tocha
 UI.Operations.ChangeTrajectoryPrompt=Alterar trajetória da frota
 UI.Operations.ChangeTrajectoryInfo=A sua frota {0} já não possui uma trajetória válida até a frota {1}. Selecione um novo traslado para interceptar a frota ou cancele a interceptação e permaneça na trajetória original.
 UI.Operations.ChangeTrajectoryInfoPostCombat=A frota {0} estava em uma trajetória de interceptação. Selecione um novo destino para a transferência ou cancele para tentar permanecer na trajetória do alvo.
+UI.Operations.ChangeTrajectoryInfoPostCombatCanSplit=Algumas naves em {0} já não podem completar a trajetória da frota.<br/><br/>Selecione um novo destino de transferência, cancele para tentar realizar a transferência a uma órbita temporária ou siga na trajetória separando essas naves em uma frota própria ou abandonando-as. Abandonar as naves terá um custo de {1} <color=#FFFFFFFF><sprite name="boost"></color> para realizar a recuperação da tripulação que não possa ser absorvida com o resto da frota.
+UI.Operations.ChangeTrajectorySplit=Separar	//split off any ships that can't complete the trajectory and drop them into an ad-hoc orbit
+UI.Operations.ChangeTrajectoryDisband=Dissolver	//disband any ships that can't complete the trajectory
 UI.Operations.ChangeTrajectoryInfoPostCombatAdHoc=A frota {0} estava em uma trajetória de interceptação. Selecione um novo destino para a transferência ou cancele para tentar se transferir a uma órbita temporária.
 UI.Operations.OperationTabbed={0}<rcol>{1}</rcol>
 UI.Operations.CostEarth=<sp>É necessário ter {0} para realizar um lançamento da Terra.
 UI.Operations.CostBoth=<sp>É necessário ter {0} para realizar um lançamento da Terra e {1} para construir em um habitat.
 UI.Operations.EnemyFleetCanEscape=A frota alvo provavelmente conseguirá escapar.
 UI.Operations.EnemyFleetCantEscape=A frota alvo provavelmente não conseguirá escapar.
-UI.Operations.CantFollowTargetFleet=Sua frota não consegue concluir a trajetória de voo da frota.
+UI.Operations.CantFollowTargetFleet=Perigo! Sua frota não consegue concluir a trajetória de voo da frota!
 UI.Operations.PropellantSharingHeader=Compartilhar propelente
 UI.Operations.PropellantTypeHeader=Selecionar combinação de propelente
 UI.Operations.PropellantGroupName={0}<br/>{1} naves

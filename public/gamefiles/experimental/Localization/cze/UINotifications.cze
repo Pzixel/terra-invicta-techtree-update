@@ -86,8 +86,8 @@ UI.Notifications.MyControlPointTakenSummary=Ve státě {0} jsme ztratili kontrol
 UI.Notifications.MyControlPointTaken=Ve státě {0} jsme ztratili kontrolní bod {3} ve prospěch frakce {1}. Mnoho našich lidí již nereaguje na naši komunikaci a ztratili jsme značnou část kontroly nad tamními událostmi. {2}													 	// nation, faction, CP description, conditional armieslost
 UI.Notifications.MyControlPointDominatedHed=Kontrolní bod odevzdán
 UI.Notifications.MyControlPointDominatedSummary=Agenti frakce {0} si vynutili předání kontrolního bodu frakce {1} ve státě {2}.	// faction adjective, faction adjective, nation with prep
-UI.Notifications.MyControlPointDominatedDetail=Agenti frakce {0} pod hrozbou použití orbitálních úderů na vojenské i civilní cíle {1} přinutili tamní představitele, aby jim předali jeden z našich kontrolních bodů. {2}
-UI.Notifications.MyControlPointDominatedDetail2=Stoupenci frakce {0} zahájili ničivé orbitální údery proti vojenským a civilním cílům {1}, a to poté, co se neúspěšně pokusili přimět naše vzdorující stoupence k podřízení. Ti, kteří přežili, odevzdali útočníkovi jeden z našich kontrolních bodů. {2}
+UI.Notifications.MyControlPointDominatedDetail=Agenti frakce {0} pod hrozbou použití orbitálních úderů na vojenské i civilní cíle {1} přinutili tamní představitele, aby jim předali jeden z našich kontrolních bodů. Abychom tomu zabránili, musíme zničit všechny jejich Strážné moduly na oběžné dráze Země. {2}
+UI.Notifications.MyControlPointDominatedDetail2=Stoupenci frakce {0} zahájili ničivé orbitální údery proti vojenským a civilním cílům {1}, a to poté, co se neúspěšně pokusili přimět naše vzdorující stoupence k podřízení. Ti, kteří přežili, odevzdali útočníkovi jeden z našich kontrolních bodů. Abychom tomu zabránili, musíme zničit všechny jejich Strážné moduly na oběžné dráze Země. {2}
 UI.Notifications.Neutral=neutrální
 UI.Notifications.NoFaction=žádná frakce
 UI.Notifications.MyControlPointCrackedDownHed=Zátah
@@ -221,8 +221,10 @@ UI.Notifications.SpecialProjectTriggered.Summary=Nyní jsme schopní realizovat 
 UI.Notifications.SpecialProjectTriggered.Detail=Naše výzkumné a vývojové týmy s potěšením oznamují, že se jim podařilo překonat určité nejasnosti a nyní jsou schopné realizovat projekt <h>{0}</h>.
 UI.Notifications.ProjectComplete.Hed=Projekt dokončen<br/>{0}
 UI.Notifications.ProjectComplete.Summary=Dokončili jsme projekt {0}.
-UI.Notifications.ProjectComplete.Detail=Dokončili jsme projekt {0}.<br/>{1}
-UI.Notifications.ProjectComplete.Detail2=Dokončili jsme projekt {0}.{1}<br/><br/>{2}
+UI.Notifications.ProjectComplete.Detail=Dokončili jsme projekt {0}.<br/><br/>{1}	// 0- project name, 1- project description
+UI.Notifications.ProjectComplete.Detail2=Dokončili jsme projekt {0}.<br/><br/>{1}<br/><br/>{2}	// 0- project name, 1- Appending diff line (ResearchCompleteAutoPick, ln 243), 2- project description
+UI.Notifications.ProjectComplete.Summary.OtherFaction=Stoupenci frakce {0} dokončili projekt {1}.	// 0- faction displayname, 1-project name,
+UI.Notifications.ProjectComplete.Detail.OtherFaction=Stoupenci frakce {0} dokončili projekt {1}.<br/><br/>{2}	// 0- faction displayname, 1-project name, 2-project description
 
 UI.Notifications.ProjectComplete.OrgGained=Z naší práce vznikla nová organizace {0}, která je ve fondu naší frakce a může být přidělena radnímu.<br/>	// org name with article
 UI.Notifications.ProjectComplete.ResourcesGained=Získali jsme následující zdroje: {0}<br/>
@@ -301,7 +303,7 @@ UI.Notifications.EndRivalryOption.Decline.Hed=Soupeření pokračuje
 UI.Notifications.EndRivalryOption.Decline=Stát {0} odmítl nabídku na ukončení soupeření se státem {1}.
 UI.Notifications.EndRivalryOption.Hed=Konec soupeření
 UI.Notifications.EndRivalryOption.Summary={0} a {1} ukončily vzájemné soupeření.
-UI.Notifications.EndRivalryOption.Detail={0} a {1} ukončily vzájemné soupeření a jejich vztahy se vrátily na standardní úroveň.
+UI.Notifications.EndRivalryOption.Detail=<h>{0}</h> a <h>{1}</h> ukončily vzájemné soupeření a jejich vztahy se vrátily na standardní úroveň.
 UI.Notifications.JoinFederationOption.Hed=Federace
 UI.Notifications.JoinFederationOption.Summary=Stát {0} se rozhodl vstoupit do federace se státem {1}.	// nation, nation 2
 UI.Notifications.JoinFederationOption.Detail=Stát {0} se rozhodl vstoupit do federace se státem {1}. Budou ve stálé alianci a budou sdílet financování vesmírného programu a vznos.
@@ -339,7 +341,7 @@ UI.Notifications.DisarmNuclearWeaponsOption.Detail2=Stát {0} zcela zlikvidoval 
 UI.Notifications.EmployNuclearWeaponsOption.Hed=Jaderný útok
 UI.Notifications.EmployNuclearWeaponsOption.Summary=Stát {0} zahájil jaderný útok na stát {1}.
 UI.Notifications.EmployNuclearWeaponsOption.Detail=Probíhá jaderný útok!<br/><br/>Stát {0} zahajuje jaderný útok na stát {1}, který bezpochyby způsobí rozsáhlou devastaci a obrovské ztráty na životech.
-UI.Notifications.EmployNuclearWeaponsOption.Detail2=Probíhá jaderný útok!<br/><br/>Stát {0} zahájil jaderný útok na své nepřátele v regionu {1}. Útok byl sice zaměřen pouze na nepřátelské cíle v regionu, ale i tak způsobil značné škody na místní ekonomice a civilním obyvatelstvu.
+UI.Notifications.EmployNuclearWeaponsOption.Detail2=Probíhá jaderný útok!<br/><br/>Stát {0} zahájil jaderný útok na své nepřátele v regionu {1}. Útok je sice zaměřen pouze na nepřátelské cíle v regionu, ale i tak způsobí značné škody na místní ekonomice a civilním obyvatelstvu.
 UI.Notifications.ControlNote=</h>, pod kontrolou frakce {0},
 UI.Notifications.SelectPolicy=Vyber politiku pro: {0}
 UI.Notifications.PolicySuccessChance= ({0})
@@ -358,6 +360,7 @@ UI.Notifications.HabFoundedHed=Založen habitat {0}
 UI.Notifications.HabModuleComplete=Habitatový modul dokončen
 UI.Notifications.AlienCrashdownSummary=V regionu {0} ve státě {1} ztroskotalo mimozemské plavidlo.
 UI.Notifications.AlienCrashdownHeadline=Havárie UFO na Zemi
+UI.Notifications.AlienCrashdownDetail.First=V regionu {0} v zemi {1} ztroskotalo mimozemské plavidlo. Přestože samotný vrak lodi je nenávratně poškozený, máme podezření, že do okolní krajiny unikla mimozemská forma života.
 UI.Notifications.AlienCrashdownDetail=V regionu {0} v zemi {1} ztroskotalo mimozemské plavidlo. Přestože samotný vrak lodi je nenávratně poškozený, máme podezření, že do okolní krajiny unikla mimozemská forma života.
 UI.Notifications.UFOLandingSummary=V regionu {0} ve státě {1} přistál mimozemský transport.
 UI.Notifications.UFOLandingHeadline=Přistání UFO na Zemi
@@ -431,7 +434,7 @@ UI.Notifications.AlienNationConqueredDetail=Armády, jež vede {0}, vstoupily do
 UI.Notifications.FleetSightedHeadline_1=Loď frakce {0} odhalena
 UI.Notifications.FleetSightedHeadline=Flotila frakce {0} odhalena
 UI.Notifications.FleetSightedSummary=Odhalili jsme novou flotilu {1} frakce {0}.	// faction adjective, fleet location description
-UI.Notifications.FleetSightedDetail=Pozorovací teleskopy odhalily novou flotilu {1} frakce {0}.	// faction adjective, fleet location description				
+UI.Notifications.FleetSightedDetail=Pozorovací teleskopy odhalily novou flotilu frakce {0} – {1}.	// faction adjective, fleet location description				
 UI.Notifications.FleetLaunchesAtMeHed=Flotila frakce {0} se přesouvá k: {1}	// faction adjective, destination name (fleet or station)
 UI.Notifications.FleetLaunchesAtMeSummary=Flotila {1} frakce {0} je na trajektorii s cílem {2}.
 UI.Notifications.FleetLaunchesAtMeDetail=Flotila {1} frakce {0} odstartovala po trajektorii s cílem {2}. Očekávaný přílet: {3}.	// {faction adjective, fleet name, destination name, time or date}
@@ -450,7 +453,7 @@ UI.Notifications.FleetTrajectoryAbortedDetail_ReturnToOrbit=Zůstává na: {1}.	
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbit=Obsadila dočasnou oběžnou dráhu kolem vesmírného tělesa {0}.	// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbitWithBurn=Provedla nouzový zážeh, aby neopustila Sluneční soustavu, a obsadila dočasnou oběžnou dráhu kolem vesmírného tělesa {0}.
 UI.Notifications.FleetTrajectoryAbortedDetail_LeavingSolarSystem=Její současná rychlost ji vynese mimo Sluneční soustavu a nemá dostatek delta-v, aby zpomalila na oběžnou dráhu, aby tomu zabránila. Pokud se nám ji s jednou z našich flotil podaří dostihnout a poskytnout jí více pohonných látek, budeme ji možná schopni zachránit a dopravit domů.<br/><br/>Na této trajektorii nebude flotila stát žádné <color=#FFFFFFFF><sprite name="mission_control"></color>.
-UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Některé z jejích lodí se odpojily a provedly nouzový zážeh, aby neopustily Sluneční soustavu. Vytvořily flotilu {0}, která se nyní nachází na dočasné oběžné dráze kolem vesmírného tělesa {1}. Rychlost zbývajících lodí, které nemají prostředky na zpomalení, je vynese mimo Sluneční soustavu. Pokud se nám s jednou z našich flotil tyto lodě podaří dostihnout a poskytnout jim více pohonných látek, budeme je možná schopni zachránit a dopravit domů.<br/><br/>Odlétající flotila nebude na své trajektorii stát žádné <color=#FFFFFFFF><sprite name="mission_control"></color>.
+UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Některé z jejích lodí se odpojily a provedly nouzový zážeh, aby neopustily Sluneční soustavu. Rychlost zbývajících lodí, které nyní tvoří flotilu {0} a které nemají prostředky na zpomalení, je vynese mimo Sluneční soustavu. Pokud se nám s jednou z našich flotil tyto lodě podaří dostihnout a poskytnout jim více pohonných látek, budeme je možná schopni zachránit a dopravit domů.<br/><br/>Odlétající flotila nebude na své trajektorii stát žádné <color=#FFFFFFFF><sprite name="mission_control"></color>.
 UI.Notifications.FleetTrajectoryAbortedDetail_WillCrash=Flotila je na dráze ke kolizi s vesmírným tělesem {0}, které nemůže uniknout.	// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_SomeWillCrash=Některé lodě ve flotile jsou na dráze ke kolizi s vesmírným tělesem {0}, které nemohou uniknout. Zbývající lodě se oddělily.
 UI.Notifications.TargetManeuveredAndWeCannotGiveChaseDetail_InsufficientDV={0} musí přerušit svůj plán přesunu kvůli startu cílové flotily. {0} nemá dostatek delta-v k dostižení flotily {1} na její nové trajektorii.
@@ -575,15 +578,25 @@ UI.Notifications.OurHabDestroyedDetail.Base=Síly frakce {0} zničily habitat {1
 UI.Notifications.OurHabDestroyedDetail.Station=Síly frakce {0} zničily habitat {1} na oběžné dráze {2}. Domníváme se, že nikdo nepřežil.
 UI.Notifications.HabDestroyedHed=Habitat {1} zničen frakcí {0}
 UI.Notifications.HabDestroyedSummary=Habitat {1} frakce {2} byl zničen frakcí {0}. 
-UI.Notifications.HabDestroyedDetail.Base=Zničili jsme základnu {1} na stanovišti {2} na vesmírném tělese {3} patřící frakci {0}. Ta bude jistě hledat způsoby, jak se pomstít.
-UI.Notifications.HabDestroyedDetail.Station=Zničili jsme stanici {1} na oběžné dráze {2} patřící frakci {0}. Ta se jistě bude chtít pomstít.
+UI.Notifications.HabDestroyedDetail.Base=Zničili jsme habitat {0} na stanovišti {1} na vesmírném tělese {2} patřící frakci {3}. Ta bude jistě hledat způsoby, jak se pomstít.
+UI.Notifications.HabDestroyedDetail.Station=Zničili jsme habitat {0} na oběžné dráze {1} patřící frakci {2}. Ta se jistě bude chtít pomstít.
 UI.Notifications.HabDestroyedSalvage=Z trosek jsme zachránili: {0}.
+
+UI.Notifications.HabDestroyedHed_AlienHome=Frakce {0} přepadla habitat {1}	// 1- Hab's display name, 0- Faction display name (Capitalized)
+UI.Notifications.HabDestroyedSummary_AlienHome=Habitat {2} frakce {1} byl přepaden frakcí {0}. 	// 2- Faction Adjective, 1- Hab display name, 0- Faction display name 
+UI.Notifications.HabDestroyedDetail_AlienHome=Přepadli jsme habitat {0} na stanovišti {1} na vesmírném tělese {2}. Naši mariňáci se nedokázali dostat do základního modulu mimozemšťanů ani do komory kolem červí díry. Pro další postup musíme zapojit našeho radního s organizací {3}. 	// 0- Hab displayname, 1-Hab Site displayname, 2-Spacebody display name, 3, Org display name with leading article (the)
+
 UI.Notifications.ShipStolenHeadline=Naše loď se připojuje k frakci {0}
 UI.Notifications.ShipStolenSummary=Loď {1} frakce {0} nyní podléhá velení frakce {2}.
 UI.Notifications.ShipStolenDetail=Naše loď {1} třídy {0} přestala reagovat na naše rozkazy. Dle dostupných informací se domníváme, že zrádní důstojníci přešli k frakci {2}. 	// Ship's class name, Ship name, faction name
 UI.Notifications.ShipDefectedHeadline=Nepřátelská loď se připojuje k frakci {0}
 UI.Notifications.ShipDefectedSummary=Loď {1} frakce {0} nyní podléhá velení frakce {2}.
 UI.Notifications.ShipDefectedDetail=Loď {1} třídy {0} přerušila komunikaci se svým starým velením a rozhodla se připojit k frakci {2}.
+
+UI.Notifications.MyHabAssaultedHeadline={0} pod útokem	// hab name	
+UI.Notifications.MyHabAssaultedSummary=Síly frakce {0} se snaží obsadit {1}!	// faction adjective, hab Name
+UI.Notifications.MyHabAssaultedDetail=Síly frakce {0} se snaží obsadit {1}.  	// faction adject, hab name with full location string
+
 UI.Notifications.FleetAvailableHed=Flotila {0} se vrací do provozu	// fleet name
 UI.Notifications.FleetAvailableSummary=Flotila {0} je k dispozici pro operace {1}.	// fleet name, location with prep
 UI.Notifications.FleetAvailableDetail=Flotila {0} opustila výchozí bod {1} a je k dispozici pro operace {2}.	// fleet name, location with prep
@@ -720,6 +733,10 @@ UI.Notifications.LogFleetEjectedFromStation.Hed=Flotila opouští nepřátelskou
 UI.Notifications.LogFleetEjectedFromStation.Summary=Flotila {0} opustila stanici {1}, aby se vyhnula útoku jiné frakce.
 UI.Notifications.LogFleetEjectedFromStation.Detail=Flotila {0} opustila stanici {1}, aby se vyhnula útoku jiné frakce.<br/><br/>Flotily, které se nacházejí u nepřátelských stanic, budou donuceny odletět, pokud na ně zaútočí třetí frakce. Pokud zrovna provádějí útočnou operaci či operaci s cílem zničení habitatu, nebudou moci zakotvit.
 
+UI.Notifications.FactionDisabled.Hed={0} je nyní neaktivní	// faction name with article
+UI.Notifications.FactionDisabled.Summary=Skupina známá pod názvem {0} ukončuje veškerou činnost.
+UI.Notifications.FactionDisabled.Detail=Skupina známá pod názvem {0} zřejmě ukončuje veškerou činnost a po jejím vedení jako by se slehla zem. Ačkoli má po celém světě stále své příznivce, nezdá se, že by nadále představovala vážnou hrozbu pro naše plány.
+
 UI.Notifications.TagRed=Označit <color=#EC2100>červeně</color>
 UI.Notifications.TagGreen=Označit <color=#B4FF3E>zeleně</color> 
 
@@ -738,8 +755,6 @@ UI.Notifications.PactEnds.Detail_NAPIntel={0} a {1} ukončily vzájemný pakt o 
 UI.Notifications.PactEnds.Hed_Truce=Ukončení příměří
 UI.Notifications.PactEnds.Summary_Truce={0} a {1} ukončily příměří.
 UI.Notifications.PactEnds.Detail_Truce={0} a {1} ukončily příměří.
-
-
 
 UI.Notifications.LeaveDarkFederation_Violent_Query=Nové vedení země {0} nařídilo opustit federaci {1}. Pokud nechceme riskovat, že vystoupí ze sféry vlivu země {2}, měli bychom okamžitě vyhlásit válku, a to bez postihu k soudržnosti či jiných postihů. Učiníme tak?
 

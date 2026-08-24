@@ -16,6 +16,7 @@ UI.Habs.MainHeader=太空殖民地
 UI.Habs.NoHabSelected=未选取太空殖民地
 UI.Habs.TierCrew={0}（阶层 {1}/最高 {2}）
 UI.Habs.SelectAModule=选取舱体
+UI.Habs.CantBuild=<size=60%>太空殖民地遭受袭击或轰炸，或已退役，无法建造与升级舱体。</size>
 UI.Habs.SectorID=殖民区 {0}
 UI.Habs.Tier={0} 级舱体
 UI.Habs.Crew={0} 组员
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath={0}到{1}																// old module displayName, upgraded
 UI.Habs.UpgradeAllofTypeQuery=确认即可升级 {0} 个舱体：{1}到{2}。
 UI.Habs.CantAffordUpgradeAllofType=我们目前无法负担相关的成本。
 UI.Habs.BaseSiteName={0}基地																// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks={0}这个太空殖民地在遭受攻击的时候无法建造与升级舱体。

@@ -7,8 +7,8 @@ TIMissionTemplate.CriticalFailure.Abductions=Мы не смогли добыть
 
 TIMissionTemplate.displayName.GainInfluence=Контроль государства
 TIMissionTemplate.description.GainInfluence=Захват открытой точки контроля в государстве.
-TIMissionTemplate.CriticalSuccess.GainInfluence={targetNationNameWithPrepCap} мне удалось захватить точку контроля для фракции "{myFactionName}" и изменить общественное мнение в нашу пользу на {returnedValue}. Сейчас мы удерживаем {myTargetNationControlPoints} из {totalTargetNationControlPoints} местных точек контроля.
-TIMissionTemplate.Success.GainInfluence={targetNationNameWithPrepCap} мне удалось захватить точку контроля для фракции "{myFactionName}" {targetNationNameWithPrep}. Сейчас мы удерживаем {myTargetNationControlPoints} из {totalTargetNationControlPoints} местных точек контроля.
+TIMissionTemplate.CriticalSuccess.GainInfluence=Мне удалось захватить точку контроля для фракции "{myFactionName}" {targetNationNameWithPrep} и изменить общественное мнение в нашу пользу на {returnedValue}. Сейчас мы удерживаем {myTargetNationControlPoints} из {totalTargetNationControlPoints} местных точек контроля.
+TIMissionTemplate.Success.GainInfluence=Мне удалось захватить точку контроля для фракции "{myFactionName}" {targetNationNameWithPrep}. Сейчас мы удерживаем {myTargetNationControlPoints} из {totalTargetNationControlPoints} местных точек контроля.
 TIMissionTemplate.Failure.GainInfluence=Мне не удалось выполнить задание "Контроль государства" {targetNationNameWithPrep}.
 TIMissionTemplate.CriticalFailure.GainInfluence=Попытка выполнить задание "Контроль государства" {targetNationNameWithPrep} завершилась крайне неудачно. Общественное мнение о фракции "{myFactionName}" ухудшилось на {returnedValue}.
 
@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=Попытка вербовки не дала р�
 TIMissionTemplate.CriticalFailure.Turn={targetDisplayName} отказывается работать на нас, а мое местонахождение стало известно фракции "{targetFactionName}".
 
 TIMissionTemplate.displayName.Unrest=Провокация недовольства
-TIMissionTemplate.description.Unrest=Провокация недовольства в государстве, которому принадлежит указанный регион. Экономике страны будет нанесен вред. Вероятность переворотов и революций повысится. Если в регионе есть движение за независимость, то в случае успеха заданий он отделится. Если уровень недовольства в регионе более чем вдвое превышает таковой в остальном государстве, эффект ослабляется.
+TIMissionTemplate.description.Unrest=Провокация недовольства в государстве, которому принадлежит указанный регион. Экономике страны будет нанесен вред. Вероятны перевороты и революции. Если в регионе есть движение за независимость, то в случае успеха заданий он отделится. Если уровень недовольства в регионе более чем вдвое превышает таковой в остальном государстве, эффект ослабляется.
 TIMissionTemplate.CriticalSuccess.Unrest=Благодаря моим усилиям недовольство {targetNationNameWithPrep} повысилось на {returnedValue} (текущий уровень – {targetNationUnrestWithString}). У нас появились сторонники среди местных повстанцев. Если они свергнут действующую власть, мы получим преференции.
 TIMissionTemplate.Success.Unrest=Благодаря моим усилиям недовольство {targetNationNameWithPrep} повысилось на {returnedValue} (текущий уровень – {targetNationUnrestWithString}). У нас появились сторонники среди местных повстанцев. Если они свергнут действующую власть, мы получим преференции.
 TIMissionTemplate.Failure.Unrest=Мне не удалось спровоцировать недовольство {targetNationNameWithPrep}.
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=Запуск сети станций "�
 TIMissionTemplate.Success.AppeaseWin=Мы запустили сеть "Стражей". После короткой демонстрации ее возможностей все правительства Земли передали свои полномочия нам.
 
 TIMissionTemplate.displayName.CooperateWin=Принуждение к союзу
-TIMissionTemplate.description.CooperateWin=Отправка в кротовую нору посланников, устойчивых к фероцитам, с целью остановить конфликт и установить дипломатические отношения. Перед этим потребуется взять штурмом базу пришельцев и высадиться на ней. Наши условия победы должны быть выполнены.
+TIMissionTemplate.description.CooperateWin=Отправка в кротовую нору посланников, устойчивых к фероцитам, с целью остановить конфликт и установить дипломатические отношения. Чтобы наш советник получил возможность высадиться на базе пришельцев, нам потребуется предварительно уничтожить все ее противобомбардировочные модули, цитадели, гарнизоны и казармы. Наши условия победы должны быть выполнены.
 TIMissionTemplate.Success.CooperateWin=Мы нашли общий язык с гидрами.
 
 TIMissionTemplate.displayName.DestroyWin=Применение секретного оружия
-TIMissionTemplate.description.DestroyWin=Отправка в кротовую нору нашего биологического оружия. Перед этим потребуется взять штурмом базу пришельцев и высадиться на ней. Наши условия победы должны быть выполнены.
+TIMissionTemplate.description.DestroyWin=Отправка в кротовую нору биологического оружия. Чтобы наш советник получил возможность высадиться на базе пришельцев, нам потребуется предварительно уничтожить все ее противобомбардировочные модули, цитадели, гарнизоны и казармы. Наши условия победы должны быть выполнены.
 TIMissionTemplate.Success.DestroyWin=Мы выпустили вирус "Шива".
 
 TIMissionTemplate.displayName.EscapeWin=Запуск "Бивреста"
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=Приказ кораблю старто
 TIMissionTemplate.Success.EscapeWin=Мы запустили "Биврест".<br/><br/>Наша цель достигнута, но жизнь на Земле продолжается. Если мы захотим, мы можем построить и запустить еще один межзвездный корабль.
 
 TIMissionTemplate.displayName.ExploitWin=Приручение врага
-TIMissionTemplate.description.ExploitWin=Отправка пакета неофероцитов в кротовую нору. Перед этим потребуется взять штурмом базу пришельцев и высадиться на ней. Наши условия победы должны быть выполнены.
+TIMissionTemplate.description.ExploitWin=Отправка в кротовую нору пакета неофероцитов. Чтобы наш советник получил возможность высадиться на базе пришельцев, нам потребуется предварительно уничтожить все ее противобомбардировочные модули, цитадели, гарнизоны и казармы. Наши условия победы должны быть выполнены.
 TIMissionTemplate.Success.ExploitWin=Мы подчинили империю гидр.
 
 TIMissionTemplate.displayName.ResistWin=Закрытие врат
-TIMissionTemplate.description.ResistWin=Применение устройства для закрытия кротовой норы. Перед этим потребуется взять штурмом базу пришельцев и высадиться на ней. Наши условия победы должны быть выполнены.
+TIMissionTemplate.description.ResistWin=Активация устройства, закрывающего инопланетную кротовую нору. Чтобы наш советник получил возможность высадиться на базе пришельцев, нам потребуется предварительно уничтожить все ее противобомбардировочные модули, цитадели, гарнизоны и казармы. Наши условия победы должны быть выполнены.
 TIMissionTemplate.Success.ResistWin=Вражеские врата закрыты.
 
 TIMissionTemplate.displayName.SubmitWin=Пришествие наших господ
@@ -501,6 +501,7 @@ TIMissionCondition_FreeCouncilor=Указанный советник не дол
 TIMissionCondition_TargetableHabModule=Нужно указать вражеский модуль, не являющийся центральным
 TIMissionCondition_TargetableOrg=Нужно указать вражескую организацию, находящуюся в резерве / переданную советнику, о котором собрано достаточно данных
 _Fail=Цель должна соответствовать типу задания и быть доступной для советника.
+TIMissionCondition_AlienPrimaryBaseInRange=Наш советник должен находиться на базе, в соседней с ней жилой области или на сопряженной орбите над ней. На базе не должно быть действующих цитаделей, гарнизонов, казарм и модулей с противобомбардировочным вооружением.
 
 TIMissionAbort_ControlPointRemoved=Это задание было отменено: указанная точка контроля перестала существовать.
 TIMissionAbort_CouncilorRetired=Это задание было отменено: выполнявший его советник прекратил работу.

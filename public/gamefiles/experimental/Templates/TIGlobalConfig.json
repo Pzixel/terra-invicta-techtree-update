@@ -77,13 +77,15 @@
 			"ResearchScreenCanvas",
 			"ObjectivesScreenCanvas",
 			"IntelScreenCanvas",
-			"CodexCanvas"
+			"CodexCanvas",
+			"MagnifierCanvas"
 		],
 		"skirmishCanvasesToLoad":[
 			"OptionsScreen",
 			"PreCombatCanvas",
 			"SpaceCombatCanvas",
-			"CodexCanvas"
+			"CodexCanvas",
+			"MagnifierCanvas"
 		],
 		"terminalKeyCode": -1,							// change to a Unity keycode to activate that key as a way to open the terminal, also requires debug_ConsoleActive to be true. -1 disables. May interfere with gameplay keys if you're not careful. See https://docs.unity3d.com/Packages/com.unity.tiny@0.13/rt/tiny_runtime/enums/_runtimefull_.ut.core2d.keycode.html
 		"debug_ConsoleActive": false,

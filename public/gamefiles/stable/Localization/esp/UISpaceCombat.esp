@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=Esta nave tiene un arma en modo fuego conc
 UI.SpaceCombat.Warning.ShipNoThrust=Esta nave ya no puede maniobrar debido a un nivel bajo de combustible o a haber sufrido daño crítico en el puente o el sistema de propulsión.
 UI.SpaceCombat.Warning.ShipNoWeapons=Esta nave ha recibido daño crítico en sus sistemas de armas, por lo que no las puede utilizar.
 UI.SpaceCombat.Warning.ShipTarget=Esta nave ha tomado {0} como objetivo.
-UI.SpaceCombat.Warning.ManeuverTarget={0} está intentando igualar la velocidad de esta nave.
+UI.SpaceCombat.Warning.ManeuverTarget={0} está intentando igualar la velocidad de este objetivo.
 UI.SpaceCombat.Warning.RotationStatus.Critical=Los propulsores del vector de esta nave han sufrido daños graves, lo que ha afectado gravemente a su velocidad de giro.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=Los propulsores del vector de esta nave han sufrido daños, lo que ha afectado a su velocidad de giro.
 UI.SpaceCombat.Warning.RotationStatus.Good=Los propulsores del vector de esta nave están totalmente operativos. 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=La nave está maniobrando para evitar la colisi
 UI.SpaceCombat.Offline=Inoperativa
 UI.SpaceCombat.Damaged=Dañada
 UI.SpaceCombat.Online=Operativa
+UI.SpaceCombat.Jammed=Interferida
 
 UI.SpaceCombat.Weapon.Damaged=El arma está dañada y no podrá disparar hasta que sea reparada.
 UI.SpaceCombat.Weapon.Cooldown=El arma se está recargando y estará lista para disparar cuando haya terminado.
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Solicitar refuerzos
 
 UI.SpaceCombat.Critical=¡CRÍTICO!
 UI.SpaceCombat.RawDamage=Daño en bruto
-UI.SpaceCombat.AbsorbedDamage=Daño absorbido por el blindaje de la nave
-UI.SpaceCombat.PenetratedDamage=Daño que penetró en los sistemas de la nave
-UI.SpaceCombat.RadiationDamage=Daño por radiación que atraviesa la armadura y daña los sistemas de la nave
+UI.SpaceCombat.AbsorbedDamage=Daño absorbido por el blindaje
+UI.SpaceCombat.PenetratedDamage=Daño que penetró en los sistemas
+UI.SpaceCombat.RadiationDamage=Daño por radiación que atraviesa el blindaje y daña los sistemas
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Disipando calor
 UI.SpaceCombat.RadiatorStatus.Heating=Acumulando calor
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Nave desarmada
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= Daño
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= El blindaje resiste
 UI.SpaceCombat.BattleLog.PartRepaired.Title= Reparar
+
+UI.SpaceCombat.WaypointAvoidance=Trayectoria de colisión

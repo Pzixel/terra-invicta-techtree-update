@@ -1,5 +1,5 @@
 TIMissionTemplate.displayName.Abductions=拉致
-TIMissionTemplate.description.Abductions=エイリアンの人間をコントロールする能力を改善する研究をするために、ある地域で人間を集めよ。
+TIMissionTemplate.description.Abductions=地域で人間を集め、人間をコントロールするエイリアンの能力を向上させる研究をしよう。
 TIMissionTemplate.CriticalSuccess.Abductions={targetRegionName}で、現地政府に気づかれることなく、多くの人間の試験体を集めることができた。
 TIMissionTemplate.Success.Abductions={targetRegionName}で、研究のために何人かの人間の試験体を集めることができた。
 TIMissionTemplate.Failure.Abductions={targetRegionName}で、研究のための人間の試験体をたくさん集められなかった。
@@ -10,7 +10,7 @@ TIMissionTemplate.description.GainInfluence=オープン・コントロール・
 TIMissionTemplate.CriticalSuccess.GainInfluence={myFactionName}で{targetNationNameWithPrep}のコントロール・ポイントを獲得し、世論が{returnedValue}ほど我々にとって好意的なものとなりました。この地で現在我々は{myTargetNationControlPoints}/{totalTargetNationControlPoints}のコントロール・ポイントを保有しています。
 TIMissionTemplate.Success.GainInfluence={myFactionName}で{targetNationNameWithPrep}のコントロール・ポイントを獲得しました。この地で現在我々が保有しているコントロール・ポイントは{myTargetNationControlPoints}/{totalTargetNationControlPoints}です。
 TIMissionTemplate.Failure.GainInfluence={targetNationNameWithPrep}での国家コントロール・ミッションに失敗しました。
-TIMissionTemplate.CriticalFailure.GainInfluence={targetNationNameWithPrep}での国家コントロール・ミッションで大敗しました。その結果、{myFactionName}に対する世論が{returnedValue}減少しました。
+TIMissionTemplate.CriticalFailure.GainInfluence={targetNationNameWithPrep}での国家コントロール・ミッションで大きな痛手を負い、、{myFactionName}に対する世論が{returnedValue}減少しました。
 
 TIMissionTemplate.displayName.Propaganda=社会広報
 TIMissionTemplate.description.Propaganda=ある国家で、我々の活動に対する民衆の支持を獲得する。
@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn={targetDisplayName}を我々の側に寝返らせ
 TIMissionTemplate.CriticalFailure.Turn={targetDisplayName}を我々の側に寝返らせられなかった。また、{targetFactionName}に私の居場所を覚られた可能性がある。
 
 TIMissionTemplate.displayName.Unrest=社会不安の拡大
-TIMissionTemplate.description.Unrest=ターゲットとなる地域の国家の不安を増大させ、経済に打撃を与え、クーデター、革命、分離独立の可能性を高くする。独立運動のある地域で社会不安を拡大できれば、革命の代わりに分離独立の引き金になるかもしれない。社会不安がすでに国家の社会不安の値の2倍以上である場合、効果は弱まる。
+TIMissionTemplate.description.Unrest=ターゲットとなる地域の国家の不安を増大させ、経済に打撃を与え、クーデター、革命の可能性を高くする。独立運動のある地域で社会不安を拡大できれば、分離独立の引き金になるかもしれない。社会不安がすでに国家の社会不安の値の2倍以上である場合、効果は弱まる。
 TIMissionTemplate.CriticalSuccess.Unrest=努力の結果、{targetNationNameWithPrep}の社会不安が{returnedValue}増加し、{targetNationUnrestWithString}になった。反政府勢力が政府を転覆させた場合に備えて、反政府運動支持者たちの間である程度の支持を得ている。
 TIMissionTemplate.Success.Unrest=努力の結果、{targetNationNameWithPrep}の社会不安が{returnedValue}増加し、{targetNationUnrestWithString}になった。反政府勢力が政府を転覆させた場合に備えて、反政府運動支持者たちの間である程度の支持を得ている。
 TIMissionTemplate.Failure.Unrest={targetNationNameWithPrep}の社会不安を増大させることができなかった。
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=センチネル・ステーションの
 TIMissionTemplate.Success.AppeaseWin=センチネル・ネットワークを起動し、その威力を少しだけ披露してやった後、地球上の国々は我々にその権威を譲渡すると言ってきた。
 
 TIMissionTemplate.displayName.CooperateWin=同盟を結ぶ
-TIMissionTemplate.description.CooperateWin=ワームホールを通ってフェロサイトに対して耐性のある外交官を送り、外交関係を築いてこの紛争を終わらせる。まずはエイリアンの基地を襲撃し、上陸しなければならない。勝利目的を達成している必要がある。
+TIMissionTemplate.description.CooperateWin=ワームホールを通ってフェロサイトに対して耐性のある外交官を送り、外交関係を築いてこの紛争を終わらせる。このミッションを遂行する評議員を着陸させるためには、主要なエイリアン基地の全対爆撃兵器、要塞、駐屯所、兵舎を破壊する必要がある。また、勝利目的を達成している必要がある。
 TIMissionTemplate.Success.CooperateWin=ヒュドラと合意に達した。
 
 TIMissionTemplate.displayName.DestroyWin=武器の稼働
-TIMissionTemplate.description.DestroyWin=ワームホール経由で我々の生物兵器を送る。まずはエイリアンの基地を襲撃し、上陸しなければならない。勝利目的を達成している必要がある。
+TIMissionTemplate.description.DestroyWin=ワームホール経由で我々の生物兵器を送る。このミッションを遂行する評議員を着陸させるためには、主要なエイリアン基地の全対爆撃兵器、要塞、駐屯所、兵舎を破壊する必要がある。また、勝利目的を達成している必要がある。
 TIMissionTemplate.Success.DestroyWin=シヴァ・ウイルスを使用した。
 
 TIMissionTemplate.displayName.EscapeWin=ビフロストの発射
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=発射命令を出し、恒星間航行�
 TIMissionTemplate.Success.EscapeWin=ビフロストを発射した。<br/><br/>我々の使命は果たされた。だが、残された者たちの生活はこれからも続く。望むならば、次なる星間航行宇宙船を建造し、打ち上げることもできる。
 
 TIMissionTemplate.displayName.ExploitWin=敵を飼いならす
-TIMissionTemplate.description.ExploitWin=ワームホール経由でネオフェロサイト・パッケージを送る。まずはエイリアンの基地を襲撃し、上陸しなければならない。勝利目的を達成している必要がある。
+TIMissionTemplate.description.ExploitWin=ワームホール経由でネオフェロサイト・パッケージを送る。このミッションを遂行する評議員を着陸させるためには、主要なエイリアン基地の全対爆撃兵器、要塞、駐屯所、兵舎を破壊する必要がある。また、勝利目的を達成している必要がある。
 TIMissionTemplate.Success.ExploitWin=ヒュドラ帝国を屈服させた。
 
 TIMissionTemplate.displayName.ResistWin=ゲートの遮断
-TIMissionTemplate.description.ResistWin=装置を起動させてエイリアンのワームホールを閉じる。まずはエイリアンの基地を襲撃し、上陸しなければならない。勝利目的を達成している必要がある。
+TIMissionTemplate.description.ResistWin=装置を起動させてエイリアンのワームホールを閉じる。このミッションを遂行する評議員を着陸させるためには、主要なエイリアン基地の全対爆撃兵器、要塞、駐屯所、兵舎を破壊する必要がある。また、勝利目的を達成している必要がある。
 TIMissionTemplate.Success.ResistWin=敵のゲートが閉ざされた。
 
 TIMissionTemplate.displayName.SubmitWin=我らの主を讃えよ
@@ -326,7 +326,7 @@ TIMissionEffect_Advise.Special3=新しいミッションが与えられるまで
 TIMissionEffect_StealProject.Special=私は逮捕され、間もなく{0}に引き渡されるだろう。できるだけ長く尋問に耐えるつもりだ。					// faction name
 TIMissionEffect_StealProject.Steal=また、彼らのアーカイブから{0}を入手した。
 TIMissionEffect_SabotageProject.Special=私は逮捕され、間もなく{0}に引き渡されるだろう。頼む、私の釈放を手配してくれ！									// faction name
-TIMissionEffect_Propaganda.Special=ここでの我々に対する民衆の支持が{1}ほど変化した。現状は{0}だ。
+TIMissionEffect_Propaganda.Special=ここでの我々に対する民衆の支持が{0}ほど変化した。現状は{1}だ。
 TIMissionEffect_Propaganda.Special2=ここでの我々の支持率は{0}から動かなかったが、人々は反対イデオロギーから我々のイデオロギーへと向かっている。
 TIMissionEffect_Assassinate.Special1=我々の暗殺未遂は広く注目され、私は今や世界中の当局から指名手配されている。									// faction name
 TIMissionEffect_Assassinate.Special2=私は逮捕され、間もなく{0}に引き渡されるだろう。頼む、私の釈放を手配してくれ！									// faction name
@@ -501,6 +501,7 @@ TIMissionCondition_FreeCouncilor=ターゲット評議員は拘束されてい�
 TIMissionCondition_TargetableHabModule=敵の非中核モジュールであること
 TIMissionCondition_TargetableOrg=未割り当て組織プールにある敵組織か、我々が重要な情報を得た評議員に割り当てられた組織でなければならない
 _Fail=ミッションにおいて有効なターゲットタイプであり、評議員へのアクセスがなければならない。
+TIMissionCondition_AlienPrimaryBaseInRange=我々の評議員が基地、付近のハブ、またはこの基地上空の周回軌道におり、この基地に稼働している要塞、駐屯所、兵舎または対爆撃兵器付きのモジュールがあってはならない
 
 TIMissionAbort_ControlPointRemoved=ターゲットのコントロール・ポイントが存在しないため、このミッションは中止となった。
 TIMissionAbort_CouncilorRetired=割り当てた評議員がアクティブでなくなったため、このミッションは中止となった。

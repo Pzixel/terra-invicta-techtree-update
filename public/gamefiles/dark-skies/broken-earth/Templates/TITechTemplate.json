@@ -1,0 +1,161 @@
+[
+ {
+   "friendlyName": "A New Space Race",
+   "dataName": "BSBE_ANewSpaceRace",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "Competition",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 15000,
+   "effects": [
+      "Effect_BSBE_1stPlaceInTheSpaceRace",
+      "Effect_BSBE_2ndPlaceInTheSpaceRace",
+      "Effect_BSBE_3rdPlaceInTheSpaceRace",
+      "Effect_BSBE_BoostRepair",
+      "Effect_BSBE_SpaceProgramBonusA",
+      "Effect_BSBE_MCRepair",
+      "Effect_BSBE_SpaceScienceBonusA"
+   ]
+},
+ {
+   "friendlyName": "Mission To Space",
+   "dataName": "MissionToSpace",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 2000,
+   "prereqs": [
+      "BSBE_ANewSpaceRace"
+   ]
+},
+ {
+   "friendlyName": "Skywatch",
+   "dataName": "Skywatch",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 1000,
+   "prereqs": [
+      "BSBE_ANewSpaceRace"
+   ],
+   "effects": [
+      "Effect_Skywatch",
+      "Effect_SpaceScan"
+   ]
+},
+ {
+   "friendlyName": "Biotechnology",
+   "dataName": "Biotechnology",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "LifeScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 500
+},
+ {
+   "friendlyName": "Unity Movements",
+   "dataName": "UnityMovements",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 5000,
+   "prereqs": [
+      "ArrivalInternationalRelations"
+   ]
+},
+ {
+   "friendlyName": "Great Nations",
+   "dataName": "GreatNations",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 15000,
+   "prereqs": [
+      "UnityMovements",
+      "ArrivalDomesticPolitics"
+   ]
+},
+ {
+   "friendlyName": "Mission to Mars",
+   "dataName": "MissiontoMars",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceExpansion",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 2500,
+   "prereqs": [
+      "OutpostHabs",
+      "Skywatch"
+   ],
+   "effects": [
+      "Effect_ExploreMars",
+      "Effect_ExploreEarthLagrangePoints",
+      "Effect_SpaceMineFreebies6",
+      "Effect_TechProbeSpeed",
+      "Effect_BS_SemiMajorAxisExplorationI"
+   ]
+},
+ {
+   "friendlyName": "Mission to the Asteroids",
+   "dataName": "MissiontotheAsteroids",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceExpansion",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 3500,
+   "prereqs": [
+      "MissiontoMars",
+      "SpaceMiningandRefining",
+      "DeepSpacePropulsionConcepts"
+   ],
+   "effects": [
+      "Effect_ExploreAsteroids",
+      "Effect_SpaceMineFreebies6",
+      "Effect_TechProbeSpeed",
+      "Effect_BS_SemiMajorAxisExplorationIII"
+   ]
+},
+ {
+   "friendlyName": "Advanced Chemical Rocketry",
+   "dataName": "AdvancedChemicalRocketry",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 1000,
+   "prereqs": [
+      "BSBE_ANewSpaceRace"
+   ]
+}
+]

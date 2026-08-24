@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=A nave tem uma arma no modo de ataque conc
 UI.SpaceCombat.Warning.ShipNoThrust=A nave já não é capaz de manobrar devido à falta de combustível, a danos críticos à ponte ou ao sistema de propulsores.
 UI.SpaceCombat.Warning.ShipNoWeapons=A nave sofreu danos críticos em seu sistema de armas e não pode disparar quaisquer de suas armas.
 UI.SpaceCombat.Warning.ShipTarget=O alvo da nave é {0}.
-UI.SpaceCombat.Warning.ManeuverTarget={0} está tentando igualar a velocidade desta nave.
+UI.SpaceCombat.Warning.ManeuverTarget={0} está tentando igualar a velocidade deste alvo.
 UI.SpaceCombat.Warning.RotationStatus.Critical=Os propulsores de vetor da nave sofreram danos críticos e a velocidade de giro está gravemente prejudicada.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=Os propulsores de vetor da nave sofreram danos e a velocidade de giro está prejudicada.
 UI.SpaceCombat.Warning.RotationStatus.Good=Os propulsores de vetor da nave estão funcionando normalmente. 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=A nave está em manobra para evitar uma colisã
 UI.SpaceCombat.Offline=Desativado
 UI.SpaceCombat.Damaged=Danificada
 UI.SpaceCombat.Online=Ativado
+UI.SpaceCombat.Jammed=Interferência
 
 UI.SpaceCombat.Weapon.Damaged=A arma está danificada e não pode disparar até que seja reparada.
 UI.SpaceCombat.Weapon.Cooldown=A arma está em recarga e estará pronta para disparar quando o processo estiver concluído.
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Pedir reforços
 
 UI.SpaceCombat.Critical=CRÍTICO!
 UI.SpaceCombat.RawDamage=Dano puro
-UI.SpaceCombat.AbsorbedDamage=Dano absorvido pelos escudos da nave
-UI.SpaceCombat.PenetratedDamage=Dano penetrante aos sistemas da nave
-UI.SpaceCombat.RadiationDamage=Dano radioativo que atravessa os escudos para danificar os sistemas da nave diretamente
+UI.SpaceCombat.AbsorbedDamage=Dano absorvido pelos escudos
+UI.SpaceCombat.PenetratedDamage=Dano penetrante aos sistemas
+UI.SpaceCombat.RadiationDamage=Dano radioativo que atravessa os escudos para danificar os sistemas diretamente
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Ventilando calor
 UI.SpaceCombat.RadiatorStatus.Heating=Acumulando calor
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Nave desarmada
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= Dano
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= Escudos resistindo
 UI.SpaceCombat.BattleLog.PartRepaired.Title= Reparar
+
+UI.SpaceCombat.WaypointAvoidance=Trajetória irá colidir

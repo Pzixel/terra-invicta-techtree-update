@@ -1538,6 +1538,22 @@
    "stacking": "None"
 },
  {
+   "dataName": "LogFactionDefeated",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": false,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
    "dataName": "LogAlienCrashdown",
    "alertHammerLoc": "UI.Notifications.Intel",
    "disable": false,
@@ -2495,6 +2511,22 @@
    "stacking": "None"
 },
  {
+   "dataName": "LogMyHabAssaultInitiated",
+   "alertHammerLoc": "UI.Notifications.MissionControl",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "RelevantFactions",
+      "category": "SpaceEvents"
+   },
+   "stacking": "None"
+},
+ {
    "dataName": "LogHabDestroyed",
    "alertHammerLoc": "UI.Notifications.MissionControl",
    "disable": false,
@@ -2767,7 +2799,7 @@
    "stacking": "None"
 },
  {
-   "dataName": "LogUniqueProjectCompleteByAnotherFaction",
+   "dataName": "LogUniqueProjectSnipedByAnotherFaction",
    "alertHammerLoc": "UI.Notifications.Engineering",
    "disable": false,
    "allowAnyChanges": true,
@@ -2788,6 +2820,38 @@
    "disable": false,
    "allowAnyChanges": true,
    "allowAlertChanges": true,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "EarthEvents"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogPrecrashCampaignStart",
+   "alertHammerLoc": "UI.Notifications.Executive",
+   "disable": false,
+   "allowAnyChanges": false,
+   "allowAlertChanges": false,
+   "alertAudience": "PrimaryFactions",
+   "firstAlertOverride": false,
+   "newsFeedAudience": "RelevantFactions",
+   "timerAudience": "None",
+   "summaryAudience": {
+      "audience": "None",
+      "category": "None"
+   },
+   "stacking": "None"
+},
+ {
+   "dataName": "LogUniqueProjectCompleteByAnotherFaction",
+   "alertHammerLoc": "UI.Notifications.Intel",
+   "disable": false,
+   "allowAnyChanges": true,
+   "allowAlertChanges": false,
    "alertAudience": "PrimaryFactions",
    "firstAlertOverride": false,
    "newsFeedAudience": "RelevantFactions",

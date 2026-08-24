@@ -264,8 +264,8 @@ TIMissionTemplate.Failure.Turn=Nous n'avons pas réussi à rallier {targetDispla
 TIMissionTemplate.CriticalFailure.Turn=Je n'ai pas réussi à rallier {targetDisplayName} à notre cause et il est probable que la faction {targetFactionName} connaisse ma position.
 
 TIMissionTemplate.displayName.Unrest=Augmentation de l'agitation
-TIMissionTemplate.description.Unrest=Augmentez l'agitation dans la nation de la région ciblée, nuisant à l'économie et augmentant les risques de coups d'État, de révolutions et de sécessions. Réussir dans une région agitée par un mouvement d'indépendance pourrait déclencher une sécession plutôt qu'une révolution. Effet affaibli si l'agitation est déjà supérieure au double de l'agitation de la nation à sa valeur de repos.
-TIMissionTemplate.CriticalSuccess.Unrest=Mes efforts ont permis d'accroître l'agitation {targetNationNameWithPrep} de {returnedValue} vers {targetNationUnrestWithString}. Nous bénéficions à présent d'un soutien parmi les mouvements insurgés de cette zone, au cas où ils parviendraient à renverser le gouvernement.
+TIMissionTemplate.description.Unrest=Augmentez l'agitation dans la nation de la région ciblée, nuisant à l'économie et augmentant les risques de coups d'État et de révolutions. Réussir dans une région agitée par un mouvement d'indépendance pourrait déclencher une sécession. Effet affaibli si l'agitation est déjà supérieure au double de l'agitation de la nation à sa valeur de repos.
+TIMissionTemplate.CriticalSuccess.Unrest=Mes efforts ont permis d'accroître l'agitation {targetNationNameWithPrep} de {returnedValue}, vers {targetNationUnrestWithString}. Nous bénéficions à présent d'un soutien parmi les mouvements insurgés de cette zone, au cas où ils parviendraient à renverser le gouvernement.
 TIMissionTemplate.Success.Unrest=Mes efforts ont permis d'accroître l'agitation {targetNationNameWithPrep} de {returnedValue}, vers {targetNationUnrestWithString}. Nous bénéficions à présent d'un soutien parmi les mouvements insurgés de cette zone, au cas où ils parviendraient à renverser le gouvernement.
 TIMissionTemplate.Failure.Unrest=Je n'ai pas réussi à augmenter l'agitation {targetNationNameWithPrep}.
 TIMissionTemplate.CriticalFailure.Unrest=J'ai échoué dans ma tentative d'augmenter l'agitation {targetNationNameWithPrep}. {returnedValue}
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=Activez notre réseau de stations senti
 TIMissionTemplate.Success.AppeaseWin=Nous avons activé notre réseau de sentinelles, et suite à une brève démonstration, les nations de la Terre nous ont cédé leur autorité.
 
 TIMissionTemplate.displayName.CooperateWin=Création d'une alliance
-TIMissionTemplate.description.CooperateWin=Envoyez nos diplomates immunisés au phérocyte à travers le trou de ver pour établir des relations et mettre fin à ce conflit. Nous devons d'abord attaquer la base et les territoires extraterrestres. Nécessite que nous ayons atteint nos objectifs de victoire.
+TIMissionTemplate.description.CooperateWin=Envoyez nos diplomates immunisés au phérocyte à travers le trou de ver pour établir des relations et mettre fin à ce conflit. Nous devons détruire tous les systèmes anti-bombardement et la citadelle, la garnison et les casernes de la principale base extraterrestre afin que notre conseiller puisse atterrir sur place et tenter cette mission. Nécessite que nous ayons atteint nos objectifs de victoire.
 TIMissionTemplate.Success.CooperateWin=Nous avons accepté les conditions de l'Hydre.
 
 TIMissionTemplate.displayName.DestroyWin=Activation de l'arme
-TIMissionTemplate.description.DestroyWin=Envoyez notre arme biologique à travers le trou de ver. Nous devons d'abord attaquer la base et les territoires extraterrestres. Nécessite que nous ayons atteint nos objectifs de victoire.
+TIMissionTemplate.description.DestroyWin=Envoyez notre arme biologique à travers le trou de ver. Nous devons détruire tous les systèmes anti-bombardement et la citadelle, la garnison et les casernes de la principale base extraterrestre afin que notre conseiller puisse atterrir sur place et tenter cette mission. Nécessite que nous ayons atteint nos objectifs de victoire.
 TIMissionTemplate.Success.DestroyWin=Nous avons déployé le virus Shiva.
 
 TIMissionTemplate.displayName.EscapeWin=Lancement du Bifröst
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=Donnez l'ordre de lancement pour débute
 TIMissionTemplate.Success.EscapeWin=Nous avons lancé le Bifröst.<br/><br/>Nous avons rempli notre contrat, mais pour celles et ceux qui sont restés derrière, la vie continue. Nous pouvons choisir de construire et de lancer un nouveau vaisseau interstellaire.
 
 TIMissionTemplate.displayName.ExploitWin=Domestication de l'ennemi
-TIMissionTemplate.description.ExploitWin=Envoyez le paquet de néophérocyte à travers le trou de ver. Nous devons d'abord attaquer la base et les territoires extraterrestres. Nécessite que nous ayons atteint nos objectifs de victoire.
+TIMissionTemplate.description.ExploitWin=Envoyez notre paquet de néophérocyte à travers le trou de ver. Nous devons détruire tous les systèmes anti-bombardement et la citadelle, la garnison et les casernes de la principale base extraterrestre afin que notre conseiller puisse atterrir sur place et tenter cette mission. Nécessite que nous ayons atteint nos objectifs de victoire.
 TIMissionTemplate.Success.ExploitWin=Nous avons assujetti l'empire de l'Hydre.
 
 TIMissionTemplate.displayName.ResistWin=Fermeture du portail
-TIMissionTemplate.description.ResistWin=Activez le dispositif pour refermer le trou de ver extraterrestre. Nous devons d'abord attaquer la base et les territoires extraterrestres. Nécessite que nous ayons atteint nos objectifs de victoire.
+TIMissionTemplate.description.ResistWin=Activez le dispositif pour refermer le trou de ver extraterrestre. Nous devons détruire tous les systèmes anti-bombardement et la citadelle, la garnison et les casernes de la principale base extraterrestre afin que notre conseiller puisse atterrir sur place et tenter cette mission. Nécessite que nous ayons atteint nos objectifs de victoire.
 TIMissionTemplate.Success.ResistWin=Le portail de l'ennemi est refermé.
 
 TIMissionTemplate.displayName.SubmitWin=Proclamation de nos maîtres
@@ -501,6 +501,7 @@ TIMissionCondition_FreeCouncilor=Le conseiller ciblé ne doit pas être détenu 
 TIMissionCondition_TargetableHabModule=Doit être un module ennemi qui n'est pas un cœur de station
 TIMissionCondition_TargetableOrg=L'organisation doit faire partie du groupe d'organisations non attribuées d'une faction ennemie ou être attribuée à un conseiller au sujet duquel nous avons suffisamment d'informations
 _Fail=Le type de cible doit être valide et accessible au conseiller.
+TIMissionCondition_AlienPrimaryBaseInRange=Notre conseiller doit être à la base, sur un emplacement d'habitat à proximité ou dans une orbite d'interface au-dessus de la base et celle-ci ne doit avoir aucune citadelle, garnison, caserne ou arme anti-bombardement actives, ni aucun module actif
 
 TIMissionAbort_ControlPointRemoved=Cette mission a été annulée car le point de contrôle de la cible n'existe plus.
 TIMissionAbort_CouncilorRetired=Cette mission a été annulée car le conseiller assigné n'est plus actif.

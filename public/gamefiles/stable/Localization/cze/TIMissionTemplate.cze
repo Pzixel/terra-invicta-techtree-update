@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=Radního {targetDisplayName} se nám pro naši v�
 TIMissionTemplate.CriticalFailure.Turn=Radního {targetDisplayName} se mi nepodařilo obrátit a navíc se zdá, že o mně frakce {targetFactionName} už ví.
 
 TIMissionTemplate.displayName.Unrest=Zvýšit nepokoje
-TIMissionTemplate.description.Unrest=Zvýší nepokoje v zemi cílového regionu, což ublíží ekonomice a zvýší šanci na úspěch převratů, revolucí a odtržení. Úspěch v regionu s nezávislým hnutím může namísto revoluce spustit odtržení. Účinek je slabší v případě, že jsou nepokoje již nyní více než dvakrát vyšší, než je klidová hodnota nepokojů v zemi.
+TIMissionTemplate.description.Unrest=Zvýší nepokoje v zemi cílového regionu, což ublíží ekonomice a zvýší šanci na úspěch převratů a revolucí. Úspěch v regionu s nezávislým hnutím tam může spustit odtržení. Účinek je slabší v případě, že jsou nepokoje již nyní více než dvakrát vyšší, než je klidová hodnota nepokojů v zemi.
 TIMissionTemplate.CriticalSuccess.Unrest=Díky mému úsilí se zvýšily nepokoje {targetNationNameWithPrep} o {returnedValue} na {targetNationUnrestWithString}. Pokud nyní povstalecká hnutí někdy svrhnou vládu, měli bychom mezi nimi mít určitou podporu.
 TIMissionTemplate.Success.Unrest=Díky mému úsilí se zvýšily nepokoje {targetNationNameWithPrep} o {returnedValue} na {targetNationUnrestWithString}. Pokud nyní povstalecká hnutí někdy svrhnou vládu, měli bychom mezi nimi mít určitou podporu.
 TIMissionTemplate.Failure.Unrest=Nepodařilo se mi zvýšit nepokoje {targetNationNameWithPrep}.
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=Aktivuje Strážné komplexy, ovládne 
 TIMissionTemplate.Success.AppeaseWin=Aktivovali jsme naši síť Strážných komplexů a po jejich krátké demonstraci nám pozemské země předaly správu svých věcí.
 
 TIMissionTemplate.displayName.CooperateWin=Uzavřít spojenectví
-TIMissionTemplate.description.CooperateWin=Vyšle přes červí díru naše diplomaty odolné vůči ferocytům, naváže vztahy a ukončí tento konflikt. Nejprve musíme zaútočit na základnu mimozemšťanů a přistát zde. Je zapotřebí, abychom splnili podmínky vítězství.
+TIMissionTemplate.description.CooperateWin=Vyšle přes červí díru naše diplomaty odolné vůči ferocytům, naváže vztahy a ukončí tento konflikt. Abychom mohli na místě vysadit našeho radního a pokusit se o splnění této mise, musíme zničit všechny moduly ochrany proti bombardování, citadel, posádek a kasáren na hlavní mimozemské základně. Je zapotřebí, abychom splnili podmínky vítězství.
 TIMissionTemplate.Success.CooperateWin=Dohodli jsme se s hydrami na podmínkách.
 
 TIMissionTemplate.displayName.DestroyWin=Odpálit zbraň
-TIMissionTemplate.description.DestroyWin=Vyšle do červí díry naši biologickou zbraň. Nejprve musíme zaútočit na základnu mimozemšťanů a přistát zde. Je zapotřebí, abychom splnili podmínky vítězství.
+TIMissionTemplate.description.DestroyWin=Vyšle do červí díry naši biologickou zbraň. Abychom mohli na místě vysadit našeho radního a pokusit se o splnění této mise, musíme zničit všechny moduly ochrany proti bombardování, citadel, posádek a kasáren na hlavní mimozemské základně. Je zapotřebí, abychom splnili podmínky vítězství.
 TIMissionTemplate.Success.DestroyWin=Nasadili jsme virus Šíva.
 
 TIMissionTemplate.displayName.EscapeWin=Vyslat Bifrost
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=Vydá rozkaz ke startu naší mezihvězd
 TIMissionTemplate.Success.EscapeWin=Náš Bifrost odstartoval.<br/><br/>Splnili jsme naši úlohu, ale život těch, kteří zůstali, pokračuje. Pokud se tak rozhodneme, můžeme postavit další mezihvězdnou vesmírnou loď a vypustit ji.
 
 TIMissionTemplate.displayName.ExploitWin=Zkrotit nepřítele
-TIMissionTemplate.description.ExploitWin=Vyšle do červí díry neoferocytový balíček. Nejprve musíme zaútočit na základnu mimozemšťanů a přistát zde. Je zapotřebí, abychom splnili podmínky vítězství.
+TIMissionTemplate.description.ExploitWin=Vyšle do červí díry neoferocytový balíček.. Abychom mohli na místě vysadit našeho radního a pokusit se o splnění této mise, musíme zničit všechny moduly ochrany proti bombardování, citadel, posádek a kasáren na hlavní mimozemské základně. Je zapotřebí, abychom splnili podmínky vítězství.
 TIMissionTemplate.Success.ExploitWin=Podrobili jsme si hydří říši.
 
 TIMissionTemplate.displayName.ResistWin=Uzavřít bránu
-TIMissionTemplate.description.ResistWin=Aktivuje zařízení k uzavření mimozemské červí díry. Nejprve musíme zaútočit na základnu mimozemšťanů a přistát zde. Je zapotřebí, abychom splnili podmínky vítězství.
+TIMissionTemplate.description.ResistWin=Aktivuje zařízení k uzavření mimozemské červí díry. Abychom mohli na místě vysadit našeho radního a pokusit se o splnění této mise, musíme zničit všechny moduly ochrany proti bombardování, citadel, posádek a kasáren na hlavní mimozemské základně. Je zapotřebí, abychom splnili podmínky vítězství.
 TIMissionTemplate.Success.ResistWin=Nepřátelská brána je uzavřena.
 
 TIMissionTemplate.displayName.SubmitWin=Zvěstovat příchod vládců
@@ -499,8 +499,9 @@ TIMissionCondition_VictoryCondition=Frakce musí splnit všechny podmínky vít�
 TIMissionCondition_SufficientMissionControl=Musí být k dispozici volné řízení misí
 TIMissionCondition_FreeCouncilor=Cílový radní nesmí být zadržený nebo jinak neaktivní
 TIMissionCondition_TargetableHabModule=Musí se jednat o nepřátelský nezákladní modul
-TIMissionCondition_TargetableOrg=Musí se jednat o organizaci v nepřiřazeném fondu nepřátelské frakce, případně musí být přiřazena k radnímu, o kterém toho hodně víme
+TIMissionCondition_TargetableOrg=Musí se jednat o organizaci v nepřiřazeném fondu nepřátelské frakce, případně musí být přiřazena k radnímu, o kterém toho hodně víme.
 _Fail=Musí být platným typem cíle pro danou misi a přístupný pro radního.
+TIMissionCondition_AlienPrimaryBaseInRange=Náš radní musí být přítomen na základně, v nedalekém habitatu nebo na operační oběžné dráze nad základnou a na základně nesmí být žádné aktivní moduly citadel, posádek, kasáren či ochrany proti bombardování.
 
 TIMissionAbort_ControlPointRemoved=Tato mise byla zrušena, protože cílový kontrolní bod již neexistuje.
 TIMissionAbort_CouncilorRetired=Tato mise byla zrušena, protože přiřazený radní již není aktivní.

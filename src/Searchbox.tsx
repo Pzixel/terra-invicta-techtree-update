@@ -7,15 +7,19 @@ import { Claim } from './types';
 
 type SearchEntry = {
     id: string;
+    dataName: string;
     displayName: string;
     fullText: string;
+    dlcOnly: boolean;
 };
+
+type SearchOption = Pick<SearchEntry, 'dataName' | 'displayName' | 'dlcOnly'>;
 
 type FlexSearchResult = {
     doc: SearchEntry;
 };
 
-type CachedProperties = ["displayName", "fullText"];
+type CachedProperties = ["dataName", "displayName", "fullText", "dlcOnly"];
 
 export function Searchbox({
     techDb,
@@ -23,9 +27,10 @@ export function Searchbox({
     onNavigateToNode,
     localizationDb,
     templateData,
-    language
+    language,
+    scenarioControl,
 }: SearchboxProps) {
-    const [results, setResults] = useState<string[]>([]);
+    const [results, setResults] = useState<SearchOption[]>([]);
     const [documentSearchIndex, setDocumentSearchIndex] = useState<FlexSearch.Document<SearchEntry, CachedProperties> | null>(null);
     const [fullText, setFullText] = useState(false);
 
@@ -33,7 +38,7 @@ export function Searchbox({
         const documentSearchIndex = new FlexSearch.Document<SearchEntry, CachedProperties>({
             document: {
                 index: ["displayName", "fullText"],
-                store: ["displayName", "fullText"],
+                store: ["dataName", "displayName", "fullText", "dlcOnly"],
                 "id": "id",
             },
             tokenize: "full"
@@ -42,8 +47,10 @@ export function Searchbox({
         for (const node of techDb.getAllTechs()) {
             let searchData = {
                 "id": node.id!.toString(),
+                "dataName": node.dataName,
                 "displayName": node.displayName,
                 "fullText": "",
+                "dlcOnly": node.dlcOnly === true,
             };
 
             let summaryText;
@@ -121,34 +128,45 @@ export function Searchbox({
             enrich: true
         }); // It doesn't know about the pluck (despite https://github.com/nextapps-de/flexsearch/issues/436 )
 
-        let searchResults;
+        let searchResults: SearchOption[];
 
         if (isQuoted) {
             const field = fullText ? "fullText" : "displayName";
             const regex = new RegExp(query, "i");
             // Simulate exact match
-            searchResults = Array.from(new Set(
-                rawResults
-                    .filter(entry => entry.doc[field].match(regex))
-                    .map(entry => entry.doc.displayName)
-            ));
+            const matching = rawResults.filter(entry => entry.doc[field].match(regex));
+            searchResults = Array.from(
+                new Map(matching.map(({ doc }) => [doc.dataName, {
+                    dataName: doc.dataName,
+                    displayName: doc.displayName,
+                    dlcOnly: doc.dlcOnly,
+                }])).values()
+            );
         } else {
             // Deduplicate results to avoid repeated techs when multiple fields match the query
-            searchResults = Array.from(new Set(rawResults.map(entry => entry.doc.displayName)));
+            searchResults = Array.from(
+                new Map(rawResults.map(({ doc }) => [doc.dataName, {
+                    dataName: doc.dataName,
+                    displayName: doc.displayName,
+                    dlcOnly: doc.dlcOnly,
+                }])).values()
+            );
         }
 
         setResults(searchResults);
     };
 
-    const navigateToTech = (value: string) => {
-        const navigateToNode = techDb?.getTechByDisplayName(value);
+    const navigateToTech = (value: string | SearchOption) => {
+        const navigateToNode = typeof value === 'string'
+            ? techDb?.getTechByDisplayName(value.replace(/^◆\s*/, ''))
+            : techDb?.getTechByDataName(value.dataName);
 
         if (navigateToNode) {
             onNavigateToNode(navigateToNode);
         }
     };
 
-    const handleChange = (_: React.SyntheticEvent, value: string | null) => {
+    const handleChange = (_: React.SyntheticEvent, value: string | SearchOption | null) => {
         if (!value) return;
 
         navigateToTech(value);
@@ -176,21 +194,38 @@ export function Searchbox({
     return (
         <div>
             <Paper elevation={3} id="searchBox">
-                <Autocomplete
-                    options={results}
-                    freeSolo
-                    onInputChange={handleInputChange}
-                    onChange={handleChange}
-                    onKeyDown={handleKeyDown}
-                    filterOptions={x => x}
-                    renderInput={(params) => (
-                        <TextField
-                            {...params}
-                            label={language.uiTexts.search}
-                            inputRef={searchInputRef}
-                            autoFocus
-                            onClick={handleClick} />
-                    )} />
+                <div className="search-and-scenario">
+                    <Autocomplete<SearchOption, false, false, true>
+                        className="tech-search"
+                        options={results}
+                        freeSolo
+                        onInputChange={handleInputChange}
+                        onChange={handleChange}
+                        onKeyDown={handleKeyDown}
+                        filterOptions={x => x}
+                        getOptionLabel={(option) => typeof option === 'string'
+                            ? option
+                            : `${option.dlcOnly ? '◆ ' : ''}${option.displayName}`}
+                        renderOption={(props, option) => (
+                            <li
+                                {...props}
+                                key={option.dataName}
+                                aria-label={`${option.displayName}${option.dlcOnly ? ', Dark Skies DLC' : ''}`}
+                            >
+                                {option.dlcOnly && <span aria-hidden="true" className="dlc-node-symbol">◆ </span>}
+                                {option.displayName}
+                            </li>
+                        )}
+                        renderInput={(params) => (
+                            <TextField
+                                {...params}
+                                label={language.uiTexts.search}
+                                inputRef={searchInputRef}
+                                autoFocus
+                                onClick={handleClick} />
+                        )} />
+                    {scenarioControl}
+                </div>
                 <div className='checkboxContainer'>
                     <FormControlLabel
                         id="showProjects"

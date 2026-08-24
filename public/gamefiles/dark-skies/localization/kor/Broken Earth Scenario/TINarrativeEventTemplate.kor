@@ -1,0 +1,295 @@
+
+// Dark Skies DLC
+
+
+//// RECOVERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldBooks=구세계의 책
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.summary=전쟁 후 서둘러 대피하느라 버려졌던 지역들을 복구하던 중, 재건 작업반이 오래된 책이 숨겨져 있던 곳을 발견했습니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.query=그곳에는 전쟁 훨씬 이전에 쓰인 고전 문학 작품, 자연과학 및 인문사회과학 분야를 아우르는 대학 교재, 한때 큰 인기를 끌며 장기간 연재되었던 만화 시리즈의 단행본 한두 권까지 포함되어 있었습니다. 이 책들은 {targetNationNameWithPrep}의 교육 체계를 재건하는 데 큰 도움이 될 것입니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.option0=우리는 과거로부터 다시 배워야 할 것이 아직 많다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionResult0={targetNationNameWithArticleAndPlacePrep}의 재건 작업반이 오래된 책 더미를 발견했습니다.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldDoctrines=구세계의 군사 교리
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.summary=전쟁 중 폭격을 받아 버려진 도시와 요새의 잔해를 치우던 중, 재건 작업반이 숨겨진 벙커 시설을 발견했습니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.query=전쟁이 끝난 지 오랜 시간이 흐른 지금, 생존자들은 이미 그곳을 떠났고, 무기와 보급품도 모두 녹슬거나 못 쓰게 된 상태였습니다. 하지만 지하 구역 중 한 곳에서 우리는 전쟁 시대 군대의 교리를 실행하는 방법을 상세히 설명한 야전 교범과 전쟁 계획서들을 찾아냈습니다. 이 자료들은 {targetNationNameWithArticle}이(가) 전쟁에 대한 이해를 높이는 데 큰 도움이 될 것입니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.option0=과연 선조들로부터 이런 내용을 배우는 것이 정말 좋은 일일까요?
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionResult0=재건 작업반 {targetNationNameWithArticleAndPlacePrep}이(가) 숨겨진 벙커 시설을 발견했습니다.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldMedia=구세계의 미디어
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.summary=전쟁 후 서둘러 대피하느라 버려졌던 지역들을 복구하던 중, 재건 작업반이 오래된 영화와 음악 자료를 발견했습니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.query=오늘날 엔지니어들이 이러한 미디어를 기록하고 재생하는 기술을 비교적 쉽게 재현할 수 있지만, 복구 과정에서 해당 테이프나 음반이 더 이상 손상되지 않도록 각별한 주의를 기울여야 합니다. 하지만 일단 세척 및 포맷 작업을 거쳐 현대 기기에서 재생할 수 있는 형태로 변환하고 나면, 전쟁 이전에 사람들이 어떤 영화와 음악을 즐겼는지 관객들이 큰 관심을 보일 것으로 기대합니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option0=전 세계에 공개한다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult0={targetNationNameWithArticleAndPlacePrep}의 재건 작업반이 오래된 영화와 음악 자료를 발견했습니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option1={targetNationNameWithArticleAndPlacePrep}에 비공개로 보관하며 독점적인 접근 권한에 대해 요금을 부과한다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult1={targetNationNameWithArticleAndPlacePrep}의 재건 작업반이 오래된 영화와 음악 자료를 발견했습니다.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MemorialtotheFallen=희생자 추모비
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.summary={targetNationNameWithArticle} 전역의 시민들이 5년마다 열리는 희생자 추모 행사를 위해 모였습니다.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.query=정부 관계자, 군대 성직자, 일반 시민들이 차례로 연단에 올라 1962년 핵 대재앙으로 목숨을 잃은 이들의 이름을 낭독했습니다. 이 의식은 엄숙하면서도 정례적인 행사이지만, 종말 이후의 시대를 살아가는 시민들이 현실을 직시하도록 하는 데 중요한 역할을 합니다. 세계가 역사의 새로운 장을 열어가고 있음에도, 사람들은 핵무기가 초래한 광범위한 파괴를 기억하며 다시는 그런 비극을 되풀이하지 않겠다고 다짐합니다.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.option0=우리가 결코 잊지 않도록.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionResult0={summary}
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_UnauthorizedSalvage=무단 잔해 수거	
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.summary={targetRegionName} 주변의 폐허에서 무단 잔해 수거 작업이 진행 중입니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.query=안타깝게도 해당 지역이 정식으로 {targetNationAdjective} 당국의 통제 하에 있지 않다 보니, 일부 기회주의적인 개인들이 독자적으로 전쟁 당시의 자산을 회수하려는 시도를 막을 방법이 거의 없습니다. 이는 {targetNationNameWithArticle}의 경제 회복을 저해하는 암시장을 번성하게 할 뿐만 아니라, 전쟁으로 황폐해진 이 지역에서 근근이 살아가며 여전히 소유권을 주장하는 생존자 공동체(비록 그 수는 적지만)와의 긴장까지 고조시키고 있습니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0=이는 우리의 통제 범위를 벗어난 문제이다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0=잔해 수거 작업은 계속되고 있습니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1=수거업자들이 오래된 책을 찾아냅니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2=수거업자들이 오래된 벙커를 찾아냅니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3=수거업자들이 오래된 미디어 자료를 찾아냅니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option1=이러한 무법 행위를 엄격하게 단속한다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionResult1={targetNationNameWithArticleCap}은(는) 무허가 수거 작업에 대해 강력한 단속을 실시했습니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2=합법적인 수거 작업에 보상을 지급한다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0=잔해 수거 작업은 계속되고 있습니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Summary={targetRegionName} 주변의 폐허에서는 공식 승인된 잔해 수거 작업이 진행 중입니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1=수거업자들이 오래된 책을 찾아냅니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Summary={targetRegionName} 주변의 폐허에서는 공식 승인된 잔해 수거 작업이 진행 중입니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2=수거업자들이 오래된 벙커를 찾아냅니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Summary={targetRegionName} 주변의 폐허에서는 공식 승인된 잔해 수거 작업이 진행 중입니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3=수거업자들이 오래된 미디어 자료를 찾아냅니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Summary={targetRegionName} 주변의 폐허에서는 공식 승인된 잔해 수거 작업이 진행 중입니다.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ArmedProcession=무장 행진
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.summary=소총으로 무장하고 구호를 외치는 남녀의 긴 행렬이 {targetRegionName}을(를) 가로질러 행진하고 있습니다.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.query=이는 {targetNationAdjective} 정부에 대한 항의나 반란이 아닙니다. 오히려 전쟁으로 인해 {targetNationNameWithArticle}에 닥친 죽음에 대한 저항이자, 생존하려는 {targetNationAdjective} 국민의 의지가 표출된 감정의 분출이라 할 수 있습니다. 종전 직후의 혼란기 속에서 지역 민병대가 벌인 즉흥적인 집회에서 비롯된 것으로 여겨지는 이 행진은, 이후 {targetNationAdjective} 문화의 정기적인 행사로 자리 잡았습니다.<br/><br/>하지만 정부 일각에서는 한곳에 수많은 무장 인원이 모이는 것이 밀수나 기타 범죄 행위를 부추길 수 있다는 우려를 여전히 품고 있습니다.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0={targetNationNameWithArticleCap}, 생명을 위해 행진한다!
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0=모든 상황이 평온합니다.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Detail=다행히도 우려는 기우에 불과했습니다.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1=체제 전복 시도가 발생합니다.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Detail=우려했던 상황이 현실화되었을지도 모릅니다.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option1=보안을 이유로 해산을 명령한다.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option2=상황을 감시할 비밀 요원을 파견한다.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldSatellite=구세계의 위성
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.summary=우주로 나간 우리의 최초 우주비행사들이 여전히 지구 궤도를 돌고 있는 오래된 전쟁 전 시대의 위성을 발견했습니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.query=인류가 우주에 처음으로 진출하려던 시도는 겨울 전쟁으로 인해 당시의 모든 야망이 꺾이면서 불과 몇 년 만에 허무하게 막을 내렸습니다. 어쩌면 무의식적으로, 사람들은 우주에 대해 어떤 두려움을 갖게 되었는지도 모릅니다. 감히 하늘을 향해 손을 뻗었다가는 다시금 하늘의 분노가 지구로 쏟아져내릴지도 모른다는 두려움 말입니다.<br/><br/>이러한 심리적 요인과 더불어 현실적인 사정들까지 겹쳐, 우주 개발 프로그램에는 별다른 노력이 기울여지지 않았습니다.<br/><br/>하지만 시대가 변했습니다. 외계인의 등장은 우주 공간이 텅 빈 공간이 아니라, 지적 생명체가 도달하고 탐험할 수 있는 곳임을 증명해 주었습니다. 많은 이들에게 이는 여전히 두려움의 대상이지만, 이제 그 두려움은 추상적인 공포가 아니라 맞서 싸워 극복할 수 있는 실체적인 위협이 되었습니다.<br/><br/>놀랍게도, 온갖 역경을 뚫고 전쟁 전 시대 지구의 이 작은 유물은 우리 인류와 마찬가지로 한 세기가 넘는 세월을 견뎌 살아남았습니다. 비록 기능은 오래전에 멈췄지만, 이 위성은 인류의 용기와 회복력을 보여주는 기념비로 남아 있습니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option0=우리는 여전히 그 설계에서 배울 수 있는 것이 있다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult0={targetFactionNameCap}이(가) 지구 궤도를 돌던 오래된 전쟁 전 시대 위성을 회수했습니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option1=박물관에 전시되어야 할 물건이다!
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult1={targetFactionNameCap}이(가) 지구 궤도를 돌던 오래된 전쟁 전 시대 위성을 회수했습니다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option2=우리의 우주비행사들은 선구자들의 업적 위에 서 있다.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult2={targetFactionNameCap}이(가) 지구 궤도를 돌던 오래된 전쟁 전 시대 위성을 회수했습니다.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MuseumtotheOldWorld=구세계 박물관
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.summary=우리 의원들은 전쟁 이전의 유물을 전시할 박물관을 건립을 제안하고 있습니다.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.query=현재 우리는 기록 보존 및 대중 관람을 위해 일부를 기증해도 무리가 없을 만큼 충분한 유물을 확보한 상태입니다. 박물관의 건설과 운영은 비교적 간단할 것으로 예상되며, 우리가 직접 관여할 필요는 없을 것입니다. 남은 과제는 박물관의 핵심 주제를 정하는 것뿐입니다. 이는 우리의 비전에 유리한 관점으로 겨울 전쟁에 대한 대중의 기억을 재구성할 수 있는 특별한 기회가 될 것입니다.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option0=그들의 문명은 과학을 기반으로 구축되었다.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult0={targetFactionNameCap}은(는) 전쟁 이전의 과학을 전시하는 박물관을 건립했습니다.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option1=그들의 생활 방식에는 본받을 점이 많았다.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult1={targetFactionNameCap}은(는) 전쟁 이전의 생활상을 전시하는 박물관을 건립했습니다.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option2=그들의 군사력은 타의 추종을 불허했다.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult2={targetFactionNameCap}은(는) 전쟁 이전의 군사적 위용을 전시하는 박물관을 건립했습니다.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option3=그들의 생활 수준은 그 어느 나라에도 뒤지지 않았다.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult3={targetFactionNameCap}은(는) 전쟁 이전의 생활 수준을 전시하는 박물관을 건립했습니다.
+
+//// NUKE EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearPublicity=반핵 여론
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.summary={targetNationAdjective} 대중은 {targetNationNameWithPrep}의 핵무기 보유에 대해 강력히 반대하고 나섰습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.query=오늘날 핵무기라는 개념 자체는 강력히 금기시되고 있습니다. 지난 세기 동안 핵무기의 무분별한 개발과 확산이 겨울 전쟁의 원인이었으며, 기술 문명으로서의 인류의 지속적인 생존이 더 이상 위태로워지지 않도록 앞으로는 결코 핵무기를 제작해서는 안 된다는 확고한 공감대가 형성되었습니다. 외계인의 출현으로 세계에 대한 이전의 가정이 뒤집히고, 더 큰 안보에 대한 열망이 고조되었음에도 불구하고, 대중의 뿌리 깊고 정당한 핵전쟁에 대한 두려움은 여전히 ​​남아 있습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option0=그들의 불안은 이해할 만하다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1=적들이 하고 있으니, 우리에게는 선택의 여지가 없다!
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0=대중이 진정되었습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1=반발이 일어났습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearActivism=반핵 운동
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.summary=시위대들이 {targetNationNameWithPrep}의 핵 프로그램과 연관된 것으로 알려진 공장 및 연구소에 들이닥쳤습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.query=이 활동가들의 맹렬한 공세에 {targetNationAdjective} 보안 병력은 당황한 상태입니다. 현재 {targetNationNameWithPrep}의 핵 억지력은 당분간 안전하지만, 극도로 민감한 장비와 핵심 인력은 여전히 위험에 처해 있어 해당 핵 프로그램의 미래가 위태로워질 수 있습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option0=인원 대피를 최우선으로 한다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option1=장비 대피를 최우선으로 한다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option2=군대를 투입하여 시위대를 해산시킨다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearSabotage=반핵 사보타주
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.summary={targetNationNameWithPrep}의 핵무기 창고에 대한 불시 점검 결과, 다수의 탄두가 작동 불능 상태인 것으로 확인되었습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.query=보안 병력은 지난 1년 동안 탄두에 물리적으로 접근할 수 있었던 모든 기술자들과, 현재 허위로 밝혀진 이전의 작전 준비 태세 보고서를 작성했던 검사관들을 모두 연행하여 심문을 시작했습니다. 지금까지는 아무도 입을 열지 않고 있지만, 직원들의 사기가 전반적으로 매우 저하된 상태입니다.<br/><br/>그나마 유일하게 다행인 점은 핵 물질이 시설 외부로 반출된 흔적이 보이지 않는다는 점입니다. 분명히, 이 일을 저지른 자는 핵무기의 위협이 확산되는 것까지는 원치 않았던 것으로 보입니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option0=핵전쟁에 양심적 전쟁 반대자의 자리는 없다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option1=우리는 이런 일이 일어날 것을 예상했다. 진짜 탄두들은 다른 시설에 보관되어 있다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail1=아무 일도 일어나지 않습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option2=이번 사보타주는 아마추어 수준의 소행이었다. 우리 전문가들이 쉽게 수리할 수 있을 것이다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail2=아무 일도 일어나지 않습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ScientistsProtestNuclearProgram=과학자들, 핵 프로그램에 반대하며 항의
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.summary=저명한 과학자들이 {targetNationNameWithPrep}의 핵 프로그램에 항의하며 업무를 중단하고 있습니다.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.query=과학자들은 정부에 보낸 공동 서한을 통해, 기술은 전쟁이나 파괴가 아닌 인류의 평화로운 발전을 위해서만 사용되도록 보장되어야 하며, 이는 극한 상황에서도 지켜져야 할 자신들의 책임이라고 천명했습니다. 이 과정에서 그들은 오늘날까지도 원자폭탄의 아버지로 불리며, 자신의 발견이 세상을 파멸로 이끄는 결과를 초래하지 않도록 막으려 했으나 헛되이 실패했던 J. 로버트 오펜하이머의 말을 인용했습니다.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option0=어쩌면 우리는 그들의 경고를 귀담아들어야 할지도 모른다.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option1=저런 징징거리는 자들은 필요 없다.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option2=과학자들은 국가 안보 문제에 개입해서는 안 된다.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult2={summary}
+
+
+
+
+//// FACTION EVENTS (TRANSLATION BATCH 2)
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderResist=붕괴된 지구에서 저항하기
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.summary=겨울 전쟁의 그림자에서 이제 막 벗어나려는 우리 세계에 외계인이 도착했다는 것은 과연 어떤 의미일까?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.query=의심할 여지 없이, 그 전쟁은 인류 역사상 최악의 재앙이었다. 스스로 자초한 일이었기에 그 비극은 더욱 참담했다. 한 세기가 넘도록 핵폭발의 섬광이 드리운 그늘 아래서, 두려움과 절망에 휩싸여 길고 혹독한 추위를 견뎌내며 웅크린 채 살아왔다. 그 오랜 어둠의 시간을 지나, 이제야 비로소 희망의 빛이 조금씩 비치기 시작했다. 한 세기 만에 처음으로, 인류는 다시금 미래를 꿈꿀 수 있게 된 것이다.<br/><br/>외계인들은 바로 그런 세상에 도착했다. 그들은 우리에게 우정의 손길을 내밀 수도 있었다. 그들이 가진 고도의 기술력으로 우리의 재건을 돕겠다고 제안할 수도 있었을 것이다. 물론 그런 지원이 공짜는 아니었을 것이다. 격차가 큰 문명 간의 만남이 대개 어떤 식으로 흘러가는지 모를 만큼 우리가 순진하지는 않으니까. 하지만 그런 제스처만으로도 우리에게는 위안이 되었을 것이다. 우리가 우주에 홀로 남겨진 존재가 아니며, 우리의 고통이 외면당하지 않았다는 증거가 되었을 테니까. 그러나 그들은 우리 행성을 침략하고 정복하기로 선택했다. 그들은 만신창이가 되어 최악의 상황에 처한 우리를 보았고, 우리의 약점을 이용하기로 결정한 것이다.<br/><br/>좋다. 그들의 행동이 그 자체로 모든 것을 말해주고 있다. 인류를 향한 그들의 진정한 의도가 무엇인지 더 이상 스스로를 속이지 말자. 우리가 살아남으려면, 그리고 이 산산조각 난 세상을 재건하려면, 우리는 싸워야만 한다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.option0=그리고 우리는 싸울 것이다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderDestroy=붕괴된 지구에서 파괴하기
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.summary=겨울 전쟁의 그림자에서 이제 막 벗어나려는 우리 세계에 외계인이 도착했다는 것은 과연 어떤 의미일까?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.query=과거의 전쟁은 물질적이거나 지극히 세속적인 이유로 치러지곤 했다. 왕이 사촌에게 품은 사소한 원한, 50년 전의 영토 소유권을 주장하기 위한 칭호, 이웃 나라의 자원과 번영에 대한 시기심과 같은 것들 말이다. 전쟁은 주로 직업 군인들에 의해 수행되었고, 승패와 상관없이 대다수 인류의 삶은 계속되었다.<br/><br/>기술이 발전하고 인류의 지평이 넓어짐에 따라 전쟁의 규모 또한 커졌다. 전쟁은 더 이상 단순한 자원이나 자존심 싸움이 아니라, 우리 종의 미래 그 자체가 걸린 문제가 되었다. 세계 대전은 적대 문명을 말살하고 인류 역사의 향방을 결정짓기 위한 총력전 그 자체였다. 겨울 전쟁에 이르러서는 인류 전체가 전쟁에 휘말렸고, 하마터면 인류가 멸종할 뻔하기도 했다.<br/><br/>이제 그 지평이 다시 한번 확장되었다. 외계인의 등장으로 인해 전장은 지구뿐 아니라 그 너머까지 확대되었다. 생존을 건 이 거대한 전투에서 승자는 단 하나뿐이다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.option0=당연히 그 승자는 바로 우리일 것이다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderExploit=붕괴된 지구에서 착취하기
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.summary=겨울 전쟁의 그림자에서 이제 막 벗어나려는 우리 세계에 외계인이 도착했다는 것은 과연 어떤 의미일까?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.query=인류의 역사는 결코 단순하고 직선적인 진보의 과정이 아니었다. 일부 상아탑에 갇힌 학자들이 믿고 싶어 했고, 정치인들이 우매한 대중에게 설파하곤 했던 것뿐이다. 오히려 역사는 각기 다른 위험과 기회를 품은 채 상승과 하강을 반복하는 순환의 과정이었다. 진정한 세상의 지배자란 이러한 패턴을 간파하고, 상승과 하강의 국면 모두를 똑같은 야망으로 활용할 줄 아는 이들이다.<br/><br/>그러니 우리에게 겨울 전쟁은 사실 그리 특별할 것 없는 사건이었다. 패자는 죽고 승자는 이득을 챙겼을 뿐이니까. 세상은 원래 그런 식으로 돌아가는 법이다.<br/><br/>외계 종족이 우리 땅에 나타나지만 않았더라면, 우리는 전후의 봄이 가져다준 결실을 누리며 앞으로도 백 년은 더 이 상황으로부터 이익을 챙길 수 있었을 것이다.<br/><br/>물론 쇠퇴기는 우리 모두의 예상을 훨씬 뛰어넘는 속도로 빠르게 찾아왔다. 누군가는 재산을 잃었고, 또 누군가는 목숨까지 잃었다. 하지만 살아남은 우리에게 있어 그들의 손실은 곧 우리의 이득이다. 별 너머에서 온 새로운 종족과의 경쟁은 새로운 위험을 초래하기도 하지만, 동시에 새로운 기회를 가져다줄 것이다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.option0=자, 이제 우리 중 그 기회를 잡을 만큼 대담한 자는 누구인가?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderSubmit=붕괴된 지구에서 순응하기
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.summary=겨울 전쟁의 그림자에서 이제 막 벗어나려는 우리 세계에 외계인이 도착했다는 것은 과연 어떤 의미일까?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.query=불과 유황이 비처럼 쏟아지며 세상이 종말을 맞이했을 때, 우리 대부분이 할 수 있는 일이라곤 그저 기도하는 것뿐이었다. 하늘이 재로 검게 물들고 대지가 하얗게 얼어붙었을 때, 우리는 어둠에 잠긴 이 세상에 다시 빛이 비추는 날을 꿈꾸며 텅 빈 뱃속을 파고드는 공허함을 달래곤 했다.<br/><br/>마침내 길고 혹독했던 추위가 물러가자, 우리는 서서히 은신처 밖으로 나와 문명 재건하고 새롭게 시작했다. 지난 한 세기 동안 우리는 도시를 복구하고 가족들의 삶의 터전을 다시 마련했다. 그럼에도 불구하고 이 세상은 여전히 ​​여러모로 부서지고 불완전한 상태로 남아 있다. 폭탄이 투하되었던 그날, 우리 자신의 일부 또한 영원히 타버려 사라졌기 때문이다. 오직 더 나은 내일이 우리를 기다리고 있을 것이라는 끈질긴 믿음과 변치 않는 신앙만이 우리를 지탱해 주었다.<br/><br/>오늘, ​​마침내 우리의 믿음에 응답이 내려졌다. 우주에는 우리만 존재하는 것은 아니었다. 이제 더 이상 무심한 세상을 향해 답을 구하며 홀로 고통받을 필요도 없다. 사절들이 우리를 발견하고, 그들의 빛을 비추어 우리의 길을 인도해 주었기 때문이다.<br/><br/>믿음의 수호자로서, 사절들이 내민 손을 맞잡고 그들을 우리 곁으로 기꺼이 맞이하는 거시 우리의 의무이다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.option0=그들을 사랑해야만 비로소 우리 자신도 다시 사랑할 수 있을 것이다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderAppease=붕괴된 지구에서 화해하기
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.summary=겨울 전쟁의 그림자에서 이제 막 벗어나려는 우리 세계에 외계인이 도착했다는 것은 과연 어떤 의미일까?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.query=역사책을 펼칠 때면 우리는 늘 자문하곤 헌다. 겨울 전쟁의 책임은 과연 누구에게 있었던가? 우리 문명의 근간을 이루는 이 하나의 질문을 두고 참으로 많은 논의가 오갔다. 게임 이론, 벼랑 끝 전술, 즉각적인 보복, 상호 확증 파괴... 전 지구적 규모의 대량 학살과 살육을 계획하는 행위를 설명하기 위해 동원된, 그토록 깔끔하고 건조한 용어들 말이다. 물론 <i>우리가</i> 의도한 것이 아니었다. <i>우리는</i> 결코 수백만 무고한 이들을 학살하려 하지 않았으니까. 그저 <i>상대</i> 측에서 그런 짓을 저지르지 못하게 막으려 했을 뿐이다. <i>그들의</i> 잘못이었다. <i>그들이</i> 우리를 이렇게 만들었던 것이다.<br/><br/>사실, 그 책임은 우리에게 있었다. 우리 모두에게, 인류라는 종 전체에게. 겨울 전쟁이 발발하기 전 수 세기 동안, 우리는 파괴의 악순환을 끊임없이 새로운 차원으로 끌어올려 왔으며, 피로 물든 손을 가리기 위해 벨벳 장갑을 끼고 백기를 휘날렸다. 스스로를 깨어 있는 종족이라 얼마나 떠들어댔든, 우리의 본성은 거듭해서 그 실체를 드러냈다. 우리는 스스로를 다스릴 자격이 없는 종족임을 의심할 여지 없이 증명해 보였다.<br/><br/>그렇다면 외계 종족은 이 모든 상황을 어떻게 바라볼까? 그들은 인류가 가진 결점 그 이상의 존재임을, 마침내 교훈을 얻어 더 넓은 은하계의 선량하고 책임감 있는 일원이 되기로 결심했음을 알아봐 줄까? 아니면 다른 이들의 안전을 위해 가두고 안락사시켜야 할 미친 개에 불과하다고 결론지을까?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.option0=우리 모두를 위해, 부디 전자이기를 바란다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderCooperate=붕괴된 지구에서 협력하기
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.summary=겨울 전쟁의 그림자에서 이제 막 벗어나려는 우리 세계에 외계인이 도착했다는 것은 과연 어떤 의미일까?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.query=원자폭탄의 발명은 의심할 여지 없이 인류 과학자들의 가장 위대한 업적이었다. 인류 역사상 처음으로, 우리는 우주의 근본적인 상호작용 중 하나이자 별 자체에 에너지를 공급하는 바로 그 힘을 통제하게 된 것이다. 이는 과학이 국경을 넘어 자유롭게 발전할 때 무엇을 이룰 수 있는지를 보여주는 증거였다.<br/><br/>동시에 그것은 우리의 가장 큰 실패이기도 했다. 우주의 비밀을 이해하려는 열망에 사로잡힌 나머지, 우리는 그 비밀을 손에 쥐게 된 인간이 어떤 행동을 할지에 대해서는 미처 생각하지 못했다. 양자역학이 가르쳐주듯, 세상을 관찰하는 행위 그 자체만으로도 우리는 세상을 변화시키는 데 일조하게 된다. 과학자로서 우리에게 주어진 막중한 책임을 깊이 인식하지 못했고, 전 세계는 그 대가를 치러야 했다.<br/><br/>하지만 과학이란 실패로부터 배우는 과저이다. 겨울 전쟁은 우리가 동료 인간을 이해하지 못하고 미지의 존재에 대한 두려움에 굴복하여 우리의 선한 본성을 압도하게 내버려 두었기에 벌어진 일이었다. 이제 별에서 온 외계 종족을 마주한 우리는 더 나은 선택을 할 기회가 있다. 이 새로운 방문객들에게 먼저 손을 내밀고, 우주의 대등한 구성원으로서 그들과 교류하는 것은 우리의 엄숙하고 진심 어린 의무이다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.option0=우리는 인류에게 주어진 이 두 번째 기회를 결코 헛되이 날려버려선 안 된다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderEscape=붕괴된 지구에서 탈출하기
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.summary=겨울 전쟁의 그림자에서 이제 막 벗어나려는 우리 세계에 외계인이 도착했다는 것은 과연 어떤 의미일까?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.query=인간은 늘 비행을 꿈꿔왔다. 다이달로스와 이카루스의 경고성 우화부터 라이트 형제의 도망에 이르기까지 우리는 항상 땅에서 탈출하려고 노력해 왔다.<br/><br/>첫 번째 인공위성이 발사되었을 때, 우리는 감히 더 큰 꿈을 꾸게 되었다. 그 후 이어진 몇 년은 진정한 황금 시대였다. 가장 위대한 지성들이 지구 중력의 속박을 영원히 벗어나 가능성으로 가득 찬 은하계로 대담한 첫 걸음을 내딛기 위해 분투했던 시기였다.<br/><br/>아아, 그러나 그 꿈은 이루어지지 못했다. 겨울 전쟁은 새로운 암흑 시대를 예고했으며, 더 나은 미래를 향한 우리의 밝은 희망을 모두 소멸시켰다. 잔인한 아이러니로 우리는 이 얼어붙고 방사능에 오염된 먼지덩이를 뒤로 하고 떠나야 할 이유가 그 어느 때보다 많아졌지만, 실제로 그렇게 할 수 있는 능력은 거의 없었다.<br/><br/>하지만 이제 모든 것이 다시 바뀌었다. 별 너머에서 외계인의 등장은 우주에서 생활하고 여행하는 것이 가능하다는 사실을 의심할 여지 없이 증명해 주었다. 하늘을 가로지르는 단 한 번의 섬광 속에서, 수 세기 전의 모든 몽상가들의 주장이 옳았다는 것이 입증되었다. 외계인들은 우리가 아주 오래 전에 감히 꿈꿔왔던 미래가 여전히 현실임을 보여주었다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.option0=이제 우리가 해야 할 일은 그저 손을 뻗어 그 미래를 거머쥐는 것뿐이다.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionResult0=<skip/>
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-WarlordCampaign=군벌 소탕 작전
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.summary={targetNationNameWithArticleCap}은(는) 군벌들이 장악한 영토를 되찾기 위한 작전에 착수했습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.query=전쟁이 끝난 후, {targetNationNameWithArticle} 정부는 자국 영토 전역을 통제할 수 없게 되었습니다. 교통 및 통신망은 단절되었고, 치안 병력은 막대한 사상자를 내거나 탈영했으며, 주요 관리들은 갑작스러운 난민 사태에 압도되거나 혼란 속에서 행방불명되었습니다. 이러한 권력 공백을 틈타 다수의 군벌과 그 추종 세력이 등장했고, 이들은 충성을 대가로 치안을 제공하겠다고 내세웠습니다.<br/><br/>이제 {targetNationAdjective} 정부는 재정비를 마쳤으며, {targetNationNameWithArticle}의 합법적인 정부는 오직 하나뿐입니다. 정부 당국은 올해가 가기 전에 무법 상태를 단속하고 국경 지역의 질서를 회복하겠다고 공언했습니다. 관건은 어떻게 이를 실현할 것인가 하는 점입니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0=정면 돌파 공격.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0=성공.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Detail=공격이 차질 없이 진행되었습니다! 군벌들은 제압되었고, {targetNationNameWithArticle}에 질서가 회복되고 있습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1=실패.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Detail=공격은 졸렬하게 수행되어 많은 사상자가 발생했습니다. 다수의 적 전투원이 도주하여 게릴라 공격으로 {targetNationNameWithArticle}의 치안을 계속해서 위협하고 있습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1=새 정부의 일원으로서 사면과 정당성을 보장하겠다고 약속한다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0=성공.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Detail=군벌들은 자신들이 혼란한 시기에 질서를 유지하기 위해 필요한 일을 했을 뿐이라고 스스로 합리화하곤 했습니다. 우리는 그들이 {targetNationNameWithArticle}에 대한 의무를 다했다고 치켜세우며 그들의 자존심을 충족하는 데 성공했습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1=실패.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Detail=군벌들은 {targetNationAdjective} 정부의 정당성을 인정하려 하지 않았습니다. {targetNationAdjective} 정부는 어쩔 수 없이 정면 돌파 공격을 명령할 수밖에 없었고, 그 결과 많은 사상자가 발생하고 적 전투원들이 도주했습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2=뇌물로 그들의 부하들을 매수하여 이탈시킨다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0=성공.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Detail=하루 세 끼 식사와 온수 샤워를 보장받게 된 군벌의 부하들은 망설임 없이 편을 갈아탔습니다. 명령을 따를 사람이 아무도 남지 않게 되자, 군벌들은 권력을 잃고 항복할 수밖에 없었습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1=실패.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Detail=안타깝게도 군벌들은 과대망상에 빠져 자신들이 더 고귀한 대의를 위해 행동한다고 ​​믿었으며, 부하들조차 이를 믿고 있었습니다. {targetNationAdjective} 정부는 정면 돌파 공격을 명령할 수밖에 없었고, 그 결과 많은 사상자가 발생하고 적 전투원들이 도주했습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3=요원을 파견해 지도자들을 암살한다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0=성공.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Detail=작전은 성공했습니다! 군벌들은 침대 위에서 숨진 채 부하들에게 발견되었습니다. 아무도 이를 자연사라고 생각하지 않았지만, 따를 만한 살아있는 지도자가 사라지자 그곳에 남으려는 이도 없었습니다.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1=실패.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Detail=작전은 실패했습니다. 우리 요원들은 경고의 의미로 목이 매달려 전시된 채 발견되었습니다. {targetNationAdjective} 정부는 정면 공격을 명령할 수밖에 없었고, 그 결과 막대한 사상자가 발생했으며 적 전투원들이 도주했습니다.
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_NuclearFacilitiesAttacked=핵 시설 공격
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.summary=무장 세력이 예기치 못하게 {targetNationNameWithArticle}의 핵무기 보관 시설 중 한 곳을 점거했습니다.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.query=다행히 {targetNationNameWithArticle}의 핵 지휘통제 시스템은 겨울 전쟁에서 얻은 뼈아픈 교훈을 바탕으로, 무단 발사나 폭발 가능성을 차단하도록 설계되어 있었습니다. 하지만 이번 충격적인 보안 허점에 대한 책임을 져야 할 관계자들과 {targetNationNameWithArticle}의 핵 억지력에 미칠 피해를 감당해야 하는 전쟁 계획 입안자들에게는 아무런 위안도 되지 못합니다.<br/><br/>현재까지 무장 세력은 {targetNationNameWithArticle}의 자발적인 핵 프로그램을 해체를 요구하며, 그렇지 않을 경우 평화를 사랑하는 국민들의 분노에 직면하게 될 것이라는 내용만 통보해 왔습니다.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option0=이번 사태에 대한 책임을 질 사람이 있어야 한다.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1=신속 대응 부대를 현장에 긴급 투입한다.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0=성공.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Detail=특수부대 팀이 어둠을 틈타 헬리콥터를 이용해 시설 내부로 침투했습니다. 그들은 통제 센터와 격납 시설을 성공적으로 급습하여 무장 세력이 심각한 피해를 입히기 전에 제압했습니다. 살아남은 자들은 반역죄로 재판을 받고 형을 선고받을 것입니다.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1=실패.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Detail=특수부대 팀이 어둠을 틈타 헬리콥터를 이용해 시설에 침투했습니다. 하지만 안타깝게도 핵탄두와 기타 지원 시설의 파괴를 막기에는 너무 늦었습니다. 남은 무장 세력은 이곳에서의 임무가 끝났다며 즉시 항복했습니다.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2=지상군을 투입하여 시설을 포위하고 탈환한다.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0=성공.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Detail=해당 시설을 포격하고 습격하기 위해 지상군이 신속하게 편성되었습니다. 이들은 통제 센터와 격납 시설을 성공적으로 급습하여 무장 세력이 심각한 피해를 입히기 전에 그들을 제압했습니다. 살아남은 자들은 반역죄로 재판을 받고 형을 선고받을 것입니다.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1=실패.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Detail=해당 시설을 포격하고 습격하기 위해 지상군이 신속하게 편성되었습니다. 안타깝게도 핵탄두와 기타 지원 시설의 파괴를 막기에는 너무 늦었습니다. 남은 무장 세력은 이곳에서의 임무가 끝났다며 즉시 항복했습니다.

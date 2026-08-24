@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=该舰船的一门武器处于集中火力
 UI.SpaceCombat.Warning.ShipNoThrust=由于燃料不足，或者舰桥或驱动器系统严重受损，该舰船无法移动。
 UI.SpaceCombat.Warning.ShipNoWeapons=该舰船的武器系统受到严重损伤，无法发射任何武器。
 UI.SpaceCombat.Warning.ShipTarget=该舰船正在瞄准{0}。
-UI.SpaceCombat.Warning.ManeuverTarget={0}正在试图赶上该舰船的速度。
+UI.SpaceCombat.Warning.ManeuverTarget={0}正在试图赶上目标的速度。
 UI.SpaceCombat.Warning.RotationStatus.Critical=该舰船的矢量推进器严重受损，严重影响了其转向速率。
 UI.SpaceCombat.Warning.RotationStatus.Damaged=该舰船的矢量推进器受损，转向速率变慢。
 UI.SpaceCombat.Warning.RotationStatus.Good=该舰船的矢量推进器完好。 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=舰船正在进行机动规避，以避免可�
 UI.SpaceCombat.Offline=失效
 UI.SpaceCombat.Damaged=受损
 UI.SpaceCombat.Online=正常运行
+UI.SpaceCombat.Jammed=已被干扰
 
 UI.SpaceCombat.Weapon.Damaged=该武器已受损，修复前无法开火。
 UI.SpaceCombat.Weapon.Cooldown=该武器冷却中，冷却完成后即可再次开火。
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=命令派出增援
 
 UI.SpaceCombat.Critical=暴击！
 UI.SpaceCombat.RawDamage=原始伤害
-UI.SpaceCombat.AbsorbedDamage=舰船装甲吸收的伤害
-UI.SpaceCombat.PenetratedDamage=对舰船系统造成的贯穿伤害
-UI.SpaceCombat.RadiationDamage=绕过装甲，直接对舰船系统造成的辐射伤害
+UI.SpaceCombat.AbsorbedDamage=装甲吸收的伤害
+UI.SpaceCombat.PenetratedDamage=对系统造成的贯穿伤害
+UI.SpaceCombat.RadiationDamage=绕过装甲，直接对系统造成的辐射伤害
 
 UI.SpaceCombat.RadiatorStatus.Cooling=当前排出热量
 UI.SpaceCombat.RadiatorStatus.Heating=当前积聚热量
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= 舰船已解除武装
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= 伤害
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= 装甲状态
 UI.SpaceCombat.BattleLog.PartRepaired.Title= 维修
+
+UI.SpaceCombat.WaypointAvoidance=轨道会相互碰撞

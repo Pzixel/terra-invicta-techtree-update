@@ -1332,7 +1332,7 @@ TINationTemplate.nationAdjective.MRS=de Maurício
 TINationTemplate.displayNameWithArticlePrep.MRS=em Maurício
 
 TINationTemplate.displayName.MNE=Montenegro
-TINationTemplate.displayNameWithArticle.MNE=Montenegro
+TINationTemplate.displayNameWithArticle.MNE=Montenegrino
 TINationTemplate.nationAdjective.MNE=de Montenegro
 TINationTemplate.displayNameWithArticlePrep.MNE=em Montenegro
 

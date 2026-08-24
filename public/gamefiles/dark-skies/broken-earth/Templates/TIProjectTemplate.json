@@ -1,0 +1,1240 @@
+[
+ {
+   "friendlyName": "Responsible Nuclear Weapon Systems",
+   "dataName": "Project_BSBE_ResponsibleNuclearWeaponSystems",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 50000,
+   "effects": [
+      "Effect_BSBE_NuclearWeaponsProgramBonus50"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 25,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Playing From Behind (Resist)",
+   "dataName": "Project_BSBE_PlayingFromBehind_Resist",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_TheirSignatures"
+   ],
+   "effects": [
+      "Effect_BSBE_CPMaintenanceRepair",
+      "Effect_BS_MaterialScienceBonusA",
+      "Effect_BS_LifeSciencePenalty",
+      "Effect_BSBE_ShipConstructionTimePenalty",
+      "Effect_BSBE_SpaceshipSurvivabilityBonus"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Playing From Behind (Submit)",
+   "dataName": "Project_BSBE_PlayingFromBehind_Submit",
+   "localizationAlias": "Project_BSBE_PlayingFromBehind_Resist",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "Xenology",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_TheirSignatures"
+   ],
+   "effects": [
+      "Effect_BSBE_CPMaintenanceRepair",
+      "Effect_BS_XenologyBonusA",
+      "Effect_BS_SpaceSciencePenalty",
+      "Effect_BSBE_BoostPenalty_Single",
+      "Effect_BSBE_ControlNationBonus",
+      "Effect_BSBE_PropagandaStrengthBonus",
+      "Effect_BSBE_AlienDetectionBonus"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Playing From Behind (Escape)",
+   "dataName": "Project_BSBE_PlayingFromBehind_Escape",
+   "localizationAlias": "Project_BSBE_PlayingFromBehind_Resist",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_TheirSignatures"
+   ],
+   "effects": [
+      "Effect_BSBE_CPMaintenanceRepair",
+      "Effect_BS_SpaceScienceBonusA",
+      "Effect_BS_InformationSciencePenalty"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "EscapeCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Playing From Behind (Destroy)",
+   "dataName": "Project_BSBE_PlayingFromBehind_Destroy",
+   "localizationAlias": "Project_BSBE_PlayingFromBehind_Resist",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_TheirSignatures"
+   ],
+   "effects": [
+      "Effect_BSBE_CPMaintenanceRepair",
+      "Effect_BS_MilitaryScienceBonusA",
+      "Effect_BS_SocialSciencePenalty",
+      "Effect_BSBE_SpaceshipSurvivabilityPenalty",
+      "Effect_BSBE_ShipMagDamageBonus",
+      "Effect_BSBE_PropagandaStrengthBonus"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "DestroyCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Playing From Behind (Exploit)",
+   "dataName": "Project_BSBE_PlayingFromBehind_Exploit",
+   "localizationAlias": "Project_BSBE_PlayingFromBehind_Resist",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_TheirSignatures"
+   ],
+   "effects": [
+      "Effect_BSBE_CPMaintenanceRepair",
+      "Effect_BS_InformationScienceBonusA",
+      "Effect_BS_EnergySciencePenalty",
+      "Effect_BSBE_CorruptionPenalty",
+      "Effect_BSBE_SpoilsBonus",
+      "Effect_IncreaseMaxAvailableOrgs5"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ExploitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Playing From Behind (Cooperate)",
+   "dataName": "Project_BSBE_PlayingFromBehind_Cooperate",
+   "localizationAlias": "Project_BSBE_PlayingFromBehind_Resist",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "Energy",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_TheirSignatures"
+   ],
+   "effects": [
+      "Effect_BSBE_CPMaintenanceRepair",
+      "Effect_BSBE_CPResearchBonus",
+      "Effect_BS_EnergyScienceBonusA",
+      "Effect_BSBE_InfluencePenalty",
+      "Effect_BSBE_AtrocityPenalty",
+      "Effect_BSBE_ShipLaserDamageBonus"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "CooperateCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Playing From Behind (Appease)",
+   "dataName": "Project_BSBE_PlayingFromBehind_Appease",
+   "localizationAlias": "Project_BSBE_PlayingFromBehind_Resist",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 100,
+   "prereqs": [
+      "Project_TheirSignatures"
+   ],
+   "effects": [
+      "Effect_BSBE_CPMaintenanceRepair",
+      "Effect_BS_SocialScienceBonusA",
+      "Effect_BS_MilitarySciencePenalty",
+      "Effect_BSBE_SpoilsPenalty",
+      "Effect_BSBE_CorruptionBonus"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Playing From Behind II (Escape)",
+   "dataName": "Project_BSBE_PlayingFromBehindII_Escape",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Objective",
+   "researchCost": 50000,
+   "prereqs": [
+      "Project_BSBE_ProprietarySpaceResearch"
+   ],
+   "effects": [
+      "Effect_BS_MineSizeNormalization"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "EscapeCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Hungarian Irredentism",
+   "dataName": "Project_HungarianIrredentism",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 1000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "HUN",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "A Period of Unity",
+   "dataName": "Project_APeriodofUnity",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 1000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "VNM",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 10,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Central Asian Union",
+   "dataName": "Project_CentralAsianUnion",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 1000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "KAZ",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 10,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 90,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Celtic League",
+   "dataName": "Project_CelticLeague",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 1000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "IRL",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Central American Confederation",
+   "dataName": "Project_CentralAmericanConfederation",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 1000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "GTM",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Regional African Unions",
+   "dataName": "Project_RegionalAfricanUnions",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 1500,
+   "prereqs": [
+      "Project_EastAfricanFederation"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 20,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Gulf Cooperation Council",
+   "dataName": "Project_GulfCooperationCouncil",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 4000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "SAU",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "South American Confederations",
+   "dataName": "Project_GranColombia",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 4000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Southern Cross",
+   "dataName": "Project_SouthernCross",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 4000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "AUS",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "United Malay Nation",
+   "dataName": "Project_UnitedMalayNation",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 4000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "MYS",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Nigerian Confederation",
+   "dataName": "Project_NigerianConfederation",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 3500,
+   "prereqs": [
+      "UnityMovements",
+      "Project_RegionalAfricanUnions"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "NGA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Greater Indonesia",
+   "dataName": "Project_GreaterIndonesia",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 8000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "IDN",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "The Shia Nation",
+   "dataName": "Project_TheShiaNation",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 8000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "IRN",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Slavic Commonwealth",
+   "dataName": "Project_SlavicCommonwealth",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 8000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "POL",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "United Turkestan",
+   "dataName": "Project_UnitedTurkestan",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 12000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "TUR",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "United Arab League",
+   "dataName": "Project_UnitedArabLeague",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 15000,
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "EGY",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "The Caliphate",
+   "dataName": "Project_TheCaliphate",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 4000,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Proprietary Space Research",
+   "dataName": "Project_BSBE_ProprietarySpaceResearch",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Research",
+   "researchCost": 500,
+   "prereqs": [
+      "Project_BSBE_PlayingFromBehind_Escape"
+   ],
+   "effects": [
+      "Effect_BSBE_ExploreAsteroids",
+      "Effect_BS_SemiMajorAxisExplorationII",
+      "Effect_BS_MineSizeReduction",
+      "Effect_BSBE_EVBoostA"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "EscapeCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 10,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Automated Outpost Core",
+   "dataName": "Project_AutomatedOutpostCore",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 1000,
+   "prereqs": [
+      "Project_OutpostCore",
+      "AppliedArtificialIntelligence"
+   ],
+   "altPrereq0": "Project_BSBE_ProprietarySpaceResearch",
+   "altPrereq1": "Project_BSBE_ProprietarySpaceResearch",
+   "effects": [
+      "Effect_CanFoundAutomatedT1Base"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Automated Fission Pile",
+   "dataName": "Project_AutomatedFissionPile",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 1000,
+   "prereqs": [
+      "Project_AutomatedPlatformCore",
+      "Project_FissionPile"
+   ],
+   "altPrereq0": "Project_AutomatedOutpostCore",
+   "altPrereq1": "Project_BSBE_ProprietarySpaceResearch",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Automated Solar Collector",
+   "dataName": "Project_AutomatedSolarCollector",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 200,
+   "prereqs": [
+      "Project_AutomatedPlatformCore",
+      "Project_SolarCollector"
+   ],
+   "altPrereq0": "Project_AutomatedOutpostCore",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Automated Mining Complex",
+   "dataName": "Project_AutomatedMiningComplex",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "HabInfrastructure",
+   "researchCost": 1000,
+   "prereqs": [
+      "Project_AutomatedOutpostCore",
+      "Project_OutpostMiningComplex"
+   ],
+   "altPrereq1": "Project_BSBE_ProprietarySpaceResearch",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "High Thrust Probes",
+   "dataName": "Project_HighThrustProbes",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "Energy",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Exploration",
+   "researchCost": 1000,
+   "prereqs": [
+      "AdvancedChemicalRocketry"
+   ],
+   "altPrereq0": "Project_BSBE_ProprietarySpaceResearch",
+   "effects": [
+      "Effect_FastProbes"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 20,
+   "maxUnlockChance": 60,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Cybernetic Implants",
+   "dataName": "Project_CyberneticImplants",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Councilors",
+   "researchCost": 1500,
+   "prereqs": [
+      "Cybernetics"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Cybernetic Implants (Exploit)",
+   "dataName": "Project_BSBE_CyberneticImplants_Exploit",
+   "localizationAlias": "Project_CyberneticImplants",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Councilors",
+   "researchCost": 4500,
+   "prereqs": [
+      "Cybernetics"
+   ],
+   "altPrereq0": "Project_BSBE_PlayingFromBehind_Exploit",
+   "effects": [
+      "Effect_BSBE_AugmentationMoneyCostReduction"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionPrereq": [
+      "ExploitCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 50,
+   "deltaUnlockChance": 25,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Neural Engineering",
+   "dataName": "Project_NeuralEngineering",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "AI_projectRole": "Councilors",
+   "researchCost": 5000,
+   "prereqs": [
+      "AppliedArtificialIntelligence",
+      "Project_CyberneticImplants"
+   ],
+   "altPrereq1": "Project_BSBE_CyberneticImplants_Exploit",
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 25,
+   "deltaUnlockChance": 10,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Liberating Europe",
+   "dataName": "Project_BSBE_LiberatingEurope",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 10000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "effects": [
+      "Effect_ControlPointMaintenanceBonus10"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "RUS",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Liberating Asia",
+   "dataName": "Project_BSBE_LiberatingAsia",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 10000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "effects": [
+      "Effect_ControlPointMaintenanceBonus10"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "RUS",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Liberating America",
+   "dataName": "Project_BSBE_LiberatingAmerica",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 20000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "effects": [
+      "Effect_ControlPointMaintenanceBonus10"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "RUS",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Recapturing Greatness",
+   "dataName": "Project_BSBE_RecapturingGreatness",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 4000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "effects": [
+      "Effect_ControlPointMaintenanceBonus10"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "GRE",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Sensing Weakness",
+   "dataName": "Project_BSBE_SensingWeakness",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 6000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "effects": [
+      "Effect_ControlPointMaintenanceBonus10"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "ZAB",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Greater Dominion",
+   "dataName": "Project_GreaterDominion",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 10000,
+   "prereqs": [
+      "GreatNations"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "CSA",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Commonwealth Restored",
+   "dataName": "Project_CommonwealthRestored",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 10000,
+   "prereqs": [
+      "UnityMovements"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "GBR",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Greater Intermarium",
+   "dataName": "Project_GreaterIntermarium",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 20000,
+   "prereqs": [
+      "GreatNations",
+      "Project_SlavicCommonwealth"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Pacific League",
+   "dataName": "Project_PacificLeague",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "ExpandNation",
+   "researchCost": 10000,
+   "prereqs": [
+      "Project_Pan-AsianCooperative"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "requiresNation": "JPN",
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 0,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Commercial Research",
+   "dataName": "Project_CommercialResearch",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_projectRole": "Money",
+   "researchCost": 300,
+   "oneTimeGlobally": false,
+   "repeatable": true,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Money",
+         "value": 300
+      }
+   ]
+},
+ {
+   "friendlyName": "Audience Research",
+   "dataName": "Project_AudienceResearch",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_projectRole": "Influence",
+   "researchCost": 300,
+   "oneTimeGlobally": false,
+   "repeatable": true,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Influence",
+         "value": 75
+      }
+   ]
+},
+ {
+   "friendlyName": "Operations Research",
+   "dataName": "Project_OperationsResearch",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_projectRole": "Ops",
+   "researchCost": 300,
+   "oneTimeGlobally": false,
+   "repeatable": true,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": [
+      {
+         "resource": "Operations",
+         "value": 60
+      }
+   ]
+},
+ {
+   "friendlyName": "Management Research",
+   "dataName": "Project_ManagementResearch",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_projectRole": "ControlPointCap",
+   "researchCost": 600,
+   "effects": [
+      "Effect_BSBE_CPMaintenanceBonus5"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": true,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Global Counterproliferation Regime",
+   "dataName": "Project_GlobalCounterproliferationRegime",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "TerrestrialWarfare",
+   "researchCost": 35000,
+   "prereqs": [
+      "ArrivalGovernance",
+      "Project_BSBE_ResponsibleNuclearWeaponSystems"
+   ],
+   "effects": [
+      "Effect_NuclearWeaponsProgramPenalty50"
+   ],
+   "oneTimeGlobally": true,
+   "repeatable": false,
+   "factionPrereq": [
+      "CooperateCouncil",
+      "AppeaseCouncil"
+   ],
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Global Command Structure",
+   "dataName": "Project_GlobalCommandStructure",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Income",
+   "AI_criticalTech": true,
+   "AI_projectRole": "ControlPointCap",
+   "researchCost": 7500,
+   "prereqs": [
+      "TerrestrialMilitaryScience",
+      "ArrivalSociology"
+   ],
+   "effects": [
+      "Effect_ControlPointMaintenanceBonus40"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 100,
+   "initialUnlockChance": 100,
+   "deltaUnlockChance": 0,
+   "maxUnlockChance": 100,
+   "resourcesGranted": []
+},
+ {
+   "friendlyName": "Freedom Fighters",
+   "dataName": "Project_FreedomFighters",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_projectRole": "NeutralizeNation",
+   "researchCost": 5000,
+   "prereqs": [
+      "Project_GuerrillaWarfare",
+      "ArrivalSociology"
+   ],
+   "effects": [
+      "Effect_BreakawayChance"
+   ],
+   "oneTimeGlobally": false,
+   "repeatable": false,
+   "factionAvailableChance": 50,
+   "initialUnlockChance": 5,
+   "deltaUnlockChance": 5,
+   "maxUnlockChance": 50,
+   "resourcesGranted": []
+}
+]

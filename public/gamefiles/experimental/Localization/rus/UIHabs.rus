@@ -16,6 +16,7 @@ UI.Habs.MainHeader=Блоки
 UI.Habs.NoHabSelected=Блок не выбран
 UI.Habs.TierCrew={0} (ур. {1} / макс. {2})
 UI.Habs.SelectAModule=Выберите модуль
+UI.Habs.CantBuild=<size=60%>На объектах, находящихся в процессе штурма, бомбардировки или списания, невозможно строительство и улучшение модулей.</size>
 UI.Habs.SectorID=Сектор {0}
 UI.Habs.Tier=Модуль ур. {0}
 UI.Habs.Crew={0} чел.
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath={0} - {1}	// old module displayName, upgraded version displa
 UI.Habs.UpgradeAllofTypeQuery=При подтверждении будут улучшены модули ({0}) этого блока: {1} -> {2}.
 UI.Habs.CantAffordUpgradeAllofType=Сейчас мы не можем себе это позволить.
 UI.Habs.BaseSiteName=База "{0}"	// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks={0} Этот объект атакован, поэтому на нем невозможно строительство и улучшение модулей.

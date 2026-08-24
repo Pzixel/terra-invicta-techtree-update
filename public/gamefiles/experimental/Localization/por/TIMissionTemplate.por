@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=Nós não conseguimos converter {targetDisplayNam
 TIMissionTemplate.CriticalFailure.Turn=Nós não conseguimos converter {targetDisplayName} para nossa causa e parece que {targetFactionName} descobriu meu paradeiro.
 
 TIMissionTemplate.displayName.Unrest=Aumentar agitação
-TIMissionTemplate.description.Unrest=Aumente a agitação na nação da região alvo para prejudicar a economia e aumentar a probabilidade de golpes, revoluções e secessões. Ter sucesso em uma região que já tenha um movimento de independência pode causar uma secessão no local em vez de uma revolução. Tem efeito mais fraco se a agitação existente for menos da metade do valor da agitação em estado de descanso da nação.
+TIMissionTemplate.description.Unrest=Aumente a agitação na nação da região alvo para prejudicar a economia e aumentar a probabilidade de golpes e revoluções. Ter sucesso em uma região que já tenha um movimento de independência pode causar uma secessão no local. Tem efeito mais fraco se a agitação existente for menos da metade do valor da agitação em estado de descanso da nação.
 TIMissionTemplate.CriticalSuccess.Unrest=Meus esforços aumentaram a agitação {targetNationNameWithPrep} em {returnedValue} para {targetNationUnrestWithString}. Agora nós temos algum apoio dos movimentos insurgentes locais se eles chegarem a derrubar o governo.
 TIMissionTemplate.Success.Unrest=Meus esforços aumentaram a agitação {targetNationNameWithPrep} em {returnedValue} para {targetNationUnrestWithString}. Agora nós temos algum apoio dos movimentos insurgentes locais se eles chegarem a derrubar o governo.
 TIMissionTemplate.Failure.Unrest=Não fui capaz de aumentar a agitação {targetNationNameWithPrep}.
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=Ative a rede de estações sentinela pa
 TIMissionTemplate.Success.AppeaseWin=Nós ativamos nossa rede de sentinelas e, após uma breve demonstração, as nações da Terra renderam suas autoridades a nós.
 
 TIMissionTemplate.displayName.CooperateWin=Formar aliança
-TIMissionTemplate.description.CooperateWin=Envie nossos diplomatas imunizados contra ferócitos através do buraco de minhoca para estabelecer relações e acabar com esse conflito. Será necessário atacar a base alienígena e desembarcar primeiro. É necessário que tenhamos alcançado nossos objetivos de vitória.
+TIMissionTemplate.description.CooperateWin=Envie nossos diplomatas imunizados contra ferócitos através do buraco de minhoca para estabelecer relações e acabar com esse conflito. Será necessário destruir todos os módulos antibombardeio, de cidadela, de guarnição e de quartel na base alienígena principal para desembarcar nossos conselheiros e tentar realizar a missão. É necessário que tenhamos alcançado nossos objetivos de vitória.
 TIMissionTemplate.Success.CooperateWin=Nós chegamos a um acordo com as hidras.
 
 TIMissionTemplate.displayName.DestroyWin=Detonar arma
-TIMissionTemplate.description.DestroyWin=Envie nossa arma biológica através do buraco de minhoca. Será necessário atacar a base alienígena e desembarcar primeiro. É necessário que tenhamos alcançado nossos objetivos de vitória.
+TIMissionTemplate.description.DestroyWin=Envie nossa arma biológica através do buraco de minhoca. Será necessário destruir todos os módulos antibombardeio, de cidadela, de guarnição e de quartel na base alienígena principal para desembarcar nossos conselheiros e tentar realizar a missão. É necessário que tenhamos alcançado nossos objetivos de vitória.
 TIMissionTemplate.Success.DestroyWin=Nós enviamos o vírus Shiva.
 
 TIMissionTemplate.displayName.EscapeWin=Lançar a Bifröst
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=Emita a ordem de lançamento para darmos
 TIMissionTemplate.Success.EscapeWin=Nós lançamos a Bifröst.<br/><br/>Nós atendemos nosso estatuto, mas a vida continua para aqueles que ficaram para trás. Se assim decidirmos, podemos construir outra nave interestelar e lançá-la. 
 
 TIMissionTemplate.displayName.ExploitWin=Domar o inimigo
-TIMissionTemplate.description.ExploitWin=Envie o pacote de neoferócitos através do buraco de minhoca. Será necessário atacar a base alienígena e desembarcar primeiro. É necessário que tenhamos alcançado nossos objetivos de vitória.
+TIMissionTemplate.description.ExploitWin=Envie o pacote de neoferócitos através do buraco de minhoca. Será necessário destruir todos os módulos antibombardeio, de cidadela, de guarnição e de quartel na base alienígena principal para desembarcar nossos conselheiros e tentar realizar a missão. É necessário que tenhamos alcançado nossos objetivos de vitória.
 TIMissionTemplate.Success.ExploitWin=Nós subjugamos o império hidra.
 
-TIMissionTemplate.displayName.ResistWin=Fechar o portal
-TIMissionTemplate.description.ResistWin=Ativa o dispositivo para fechar o buraco de minhoca alienígena. Será necessário atacar a base alienígena e desembarcar primeiro. É necessário que tenhamos alcançado nossos objetivos de vitória.
+TIMissionTemplate.displayName.ResistWin=Feche o portal
+TIMissionTemplate.description.ResistWin=Ativa o dispositivo para fechar o buraco de minhoca alienígena. Será necessário destruir todos os módulos antibombardeio, de cidadela, de guarnição e de quartel na base alienígena principal para desembarcar nossos conselheiros e tentar realizar a missão. É necessário que tenhamos alcançado nossos objetivos de vitória.
 TIMissionTemplate.Success.ResistWin=O portal do inimigo está fechado.
 
 TIMissionTemplate.displayName.SubmitWin=Anunciar nossos mestres
@@ -501,6 +501,7 @@ TIMissionCondition_FreeCouncilor=O conselheiro alvo não pode estar detido ou in
 TIMissionCondition_TargetableHabModule=Deve ser um módulo inimigo que não seja o núcleo
 TIMissionCondition_TargetableOrg=É necessário que seja uma organização na seleção não atribuída de uma facção inimiga ou atribuída a um conselheiro sob quem temos inteligência considerável
 _Fail=É necessário que seja um tipo de alvo válido para a missão e acessível ao conselheiro.
+TIMissionCondition_AlienPrimaryBaseInRange=Nosso conselheiro deve estar na base, em uma área de habitat próxima ou em uma órbita adjacente acima da base, e a base não pode ter cidadelas, guarnições, quarteis ou módulos com armas antibombardeio.
 
 TIMissionAbort_ControlPointRemoved=Esta missão foi abortada porque o ponto de controle alvo já não existe.
 TIMissionAbort_CouncilorRetired=Esta missão foi abortada porque o conselheiro atribuído já não está ativo.

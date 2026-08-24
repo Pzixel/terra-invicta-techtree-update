@@ -86,8 +86,8 @@ UI.Notifications.MyControlPointTakenSummary=Utraciliśmy filar władzy w państw
 UI.Notifications.MyControlPointTaken=Utraciliśmy filar {3} w państwie {0} na rzecz frakcji {1}. Wielu z naszych stronników nie odpowiada na próby kontaktu, a my w wyniku tych wydarzeń straciliśmy tam sporą część władzy. {2}													 	// nation, faction, CP description, conditional armieslost
 UI.Notifications.MyControlPointDominatedHed=Oddano filar władzy
 UI.Notifications.MyControlPointDominatedSummary=Agenci frakcji {0} wymusili oddanie filaru władzy {1} {2}.	// faction adjective, faction adjective, nation with prep
-UI.Notifications.MyControlPointDominatedDetail=Agenci frakcji {0} zagrozili użyciem bombardowań orbitalnych wobec celów wojskowych i cywilnych {1}, co wymusiło na przywódcach oddanie tej frakcji kontroli nad jednym z naszych filarów władzy. {2}
-UI.Notifications.MyControlPointDominatedDetail2=Frakcja {0} przeprowadziła niszczycielskie bombardowania orbitalne przeciwko wojskowym i cywilnym celom {1}, żeby zmusić do uległości naszych niezłomnych stronników. Ocalali przekazali tej frakcji kontrolę nad jednym z naszych filarów władzy. {2}
+UI.Notifications.MyControlPointDominatedDetail=Agenci frakcji {0} zagrozili użyciem bombardowań orbitalnych wobec celów wojskowych i cywilnych {1}, co wymusiło na przywódcach oddanie tej frakcji kontroli nad jednym z naszych filarów władzy. Aby temu zapobiec, musimy zniszczyć wszystkie ich moduły Dozorcy na ziemskiej orbicie. {2}
+UI.Notifications.MyControlPointDominatedDetail2=Frakcja {0} przeprowadziła niszczycielskie bombardowania orbitalne przeciwko wojskowym i cywilnym celom {1}, żeby zmusić do uległości naszych niezłomnych stronników. Ocalali przekazali tej frakcji kontrolę nad jednym z naszych filarów władzy. Aby temu zapobiec, musimy zniszczyć wszystkie ich moduły Dozorcy na ziemskiej orbicie. {2}
 UI.Notifications.Neutral=(neutralny)
 UI.Notifications.NoFaction=brak frakcji
 UI.Notifications.MyControlPointCrackedDownHed=Osłabienie
@@ -221,8 +221,10 @@ UI.Notifications.SpecialProjectTriggered.Summary=Możemy teraz opracować projek
 UI.Notifications.SpecialProjectTriggered.Detail=Nasze zespoły badawczo-rozwojowe donoszą, że zdołały pokonać dotychczasowe przeszkody i możemy teraz pracować nad projektem <h>{0}</h>.
 UI.Notifications.ProjectComplete.Hed=Projekt ukończony<br/>{0}
 UI.Notifications.ProjectComplete.Summary={0}: projekt ukończony.
-UI.Notifications.ProjectComplete.Detail=Ukończyliśmy projekt {0}.<br/>{1}
-UI.Notifications.ProjectComplete.Detail2=Ukończyliśmy projekt: {0}. {1}<br/><br/>{2}
+UI.Notifications.ProjectComplete.Detail=Ukończyliśmy projekt {0}.<br/><br/>{1}	// 0- project name, 1- project description
+UI.Notifications.ProjectComplete.Detail2=Ukończyliśmy projekt {0}.<br/><br/>{1}<br/><br/>{2}	// 0- project name, 1- Appending diff line (ResearchCompleteAutoPick, ln 243), 2- project description
+UI.Notifications.ProjectComplete.Summary.OtherFaction=Stronnicy frakcji {0} ukończyli projekt {1}.	// 0- faction displayname, 1-project name,
+UI.Notifications.ProjectComplete.Detail.OtherFaction=Stronnicy frakcji {0} ukończyli projekt {1}.<br/><br/>{2}	// 0- faction displayname, 1-project name, 2-project description
 
 UI.Notifications.ProjectComplete.OrgGained=W wyniku naszych wysiłków powstała nowa organizacja {0}, która trafiła do naszej puli i którą możemy przydzielić jednemu z konsultantów.<br/>	// org name with article
 UI.Notifications.ProjectComplete.ResourcesGained=Zdobyliśmy następujące zasoby: {0}<br/>
@@ -301,7 +303,7 @@ UI.Notifications.EndRivalryOption.Decline.Hed=Dalsza wrogość
 UI.Notifications.EndRivalryOption.Decline={0}: odrzucenie oferty zakończenia wrogości z państwem {1}.
 UI.Notifications.EndRivalryOption.Hed=Koniec wrogości
 UI.Notifications.EndRivalryOption.Summary=Zakończyły się wrogie relacje pomiędzy państwami {0} i {1}.
-UI.Notifications.EndRivalryOption.Detail=Państwa {0} i {1} postanowiły zakopać topór wojenny i nawiązać neutralne stosunki.
+UI.Notifications.EndRivalryOption.Detail=Państwa <h>{0}</h> i <h>{1}</h> postanowiły zakopać topór wojenny i nawiązać neutralne stosunki.
 UI.Notifications.JoinFederationOption.Hed=Federacja
 UI.Notifications.JoinFederationOption.Summary=Państwo {0} postanowiło dołączyć do federacji {1}.	// nation, nation 2
 UI.Notifications.JoinFederationOption.Detail=Państwo {0} postanowiło dołączyć do federacji {1}. Oznacza to stały sojusz oraz współdzielenie finansowania programu kosmicznego oraz ciągu.
@@ -358,7 +360,8 @@ UI.Notifications.HabFoundedHed=Założono: {0}
 UI.Notifications.HabModuleComplete=Moduł zbudowany
 UI.Notifications.AlienCrashdownSummary=Pojazd kosmitów rozbił się w regionie {0} ({1}).
 UI.Notifications.AlienCrashdownHeadline=UFO rozbiło się na Ziemi
-UI.Notifications.AlienCrashdownDetail=Pojazd kosmitów rozbił się w regionie {0} ({1}). Wraku nie da się odzyskać, ale podejrzewamy, że obca forma życia zdołała uciec przez okoliczne tereny.
+UI.Notifications.AlienCrashdownDetail.First=Pojazd kosmitów rozbił się w regionie {0} ({1}). Wraku nie da się odzyskać, ale podejrzewamy, że obca forma życia zdołała się ukryć na okolicznych terenach.
+UI.Notifications.AlienCrashdownDetail=Pojazd kosmitów rozbił się w regionie {0} ({1}). Wraku nie da się odzyskać, ale podejrzewamy, że obca forma życia zdołała ukryć się na okolicznych terenach.
 UI.Notifications.UFOLandingSummary=Desantowiec kosmitów wylądował w regionie {0} ({1}).
 UI.Notifications.UFOLandingHeadline=UFO ląduje na Ziemi
 UI.Notifications.UFOLandingDetail=Desantowiec kosmitów wylądował w regionie {0} ({1}). Zdjęcia satelitarne sugerują, że pojazd wyładowuje wojska i machiny wojenne. Ustaliliśmy, że na zatrzymanie desantu zostało nam {2} dni.<br/><br/>Każda próba ataku na desantowane wojska zostanie uznana za deklarację wojny względem kosmitów oraz ich interesów na Ziemi.
@@ -450,7 +453,7 @@ UI.Notifications.FleetTrajectoryAbortedDetail_ReturnToOrbit=Wciąż pozostaje na
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbit=Flota zajęła tymczasową orbitę wokół: {0}.	// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbitWithBurn=Flota wykonała impuls awaryjny, żeby nie opuścić Układu Słonecznego, i zajęła tymczasową orbitę wokół: {0}.
 UI.Notifications.FleetTrajectoryAbortedDetail_LeavingSolarSystem=Obecna prędkość floty wyrzuci ją poza Układ Słoneczny, ale nie dysponuje ona odpowiednią delta v, żeby wyhamować i wejść na jakąś orbitę. Jeśli zdołamy przechwycić ją przy użyciu jednej z naszych flot i zapewnimy jej dodatkowe paliwo, być może zdołamy sprowadzić tę flotę do domu.<br/><br/>Jeśli flota pozostanie na tej trajektorii, nie będzie kosztować <color=#FFFFFFFF><sprite name="mission_control"></color>.
-UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Część statków odłączyła się od floty i wykonała impuls awaryjny, żeby nie opuścić Układu Słonecznego. Statki te utworzyły flotę {0} i zajęły tymczasową orbitę wokół: {1}. Prędkość pozostałych statków wyrzuci je poza Układ Słoneczny, ponieważ nie mogą wyhamować. Jeśli zdołamy przechwycić ją przy użyciu jednej z naszych flot i zapewnimy jej dodatkowe paliwo, być może zdołamy sprowadzić tę flotę do domu.<br/><br/>Jeśli odlatująca flota pozostanie na tej trajektorii, nie będzie kosztować <color=#FFFFFFFF><sprite name="mission_control"></color>.
+UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Część statków odłączyła się od floty i wykonała impuls awaryjny, żeby nie opuścić Układu Słonecznego. Prędkość pozostałych statków, będących teraz częścią floty {0}, wyrzuci je poza Układ Słoneczny, ponieważ nie mogą wyhamować. Jeśli zdołamy przechwycić ją przy użyciu jednej z naszych flot i zapewnimy jej dodatkowe paliwo, być może zdołamy sprowadzić tę flotę do domu.<br/><br/>Jeśli odlatująca flota pozostanie na tej trajektorii, nie będzie kosztować <color=#FFFFFFFF><sprite name="mission_control"></color>.
 UI.Notifications.FleetTrajectoryAbortedDetail_WillCrash=Flota znajduje się na kursie kolizyjnym ({0}) i nie może zmienić trajektorii.	// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_SomeWillCrash=Część statków we flocie znajduje się na kursie kolizyjnym ({0}) i nie może zmienić trajektorii. Pozostałe statki oderwały się od tej floty.
 UI.Notifications.TargetManeuveredAndWeCannotGiveChaseDetail_InsufficientDV=Flota {0} musiała odwołać transfer, ponieważ flota docelowa rozpoczęła start. Flota {0} nie dysponuje odpowiednią delta v, żeby przechwycić flotę {1} na nowej trajektorii.
@@ -575,15 +578,25 @@ UI.Notifications.OurHabDestroyedDetail.Base=Siły {0} spopieliły bazę {1} ({2}
 UI.Notifications.OurHabDestroyedDetail.Station=Siły {0} zniszczyły bazę {1} ({2}). Nie spodziewamy się, że ktokolwiek przeżył.
 UI.Notifications.HabDestroyedHed={1}: zniszczenie ({0})
 UI.Notifications.HabDestroyedSummary=Habitat {2} ({1}) został zniszczony przez frakcję {0}. 
-UI.Notifications.HabDestroyedDetail.Base=Zniszczyliśmy bazę {0} {1} ({2}, {3}). Rywale z pewnością podejmą próbę odwetu.
-UI.Notifications.HabDestroyedDetail.Station=Zniszczyliśmy stację {0} {1} ({2}). Frakcja ta z pewnością zechce wziąć odwet.
+UI.Notifications.HabDestroyedDetail.Base=Zniszczyliśmy habitat {0} {1} ({2}, {3}). Rywale z pewnością podejmą próbę odwetu.
+UI.Notifications.HabDestroyedDetail.Station=Zniszczyliśmy habitat {0} {1} ({2}). Frakcja ta z pewnością zechce wziąć odwet.
 UI.Notifications.HabDestroyedSalvage=Odzyskaliśmy z wraku {0}.
+
+UI.Notifications.HabDestroyedHed_AlienHome=Habitat {1} najechany przez {0}	// 1- Hab's display name, 0- Faction display name (Capitalized)
+UI.Notifications.HabDestroyedSummary_AlienHome=Habitat {2} ({1}) został najechany przez frakcję {0}. 	// 2- Faction Adjective, 1- Hab display name, 0- Faction display name 
+UI.Notifications.HabDestroyedDetail_AlienHome=Najechaliśmy habitat {0} w {1} na {2}. Nasi marines nie zdołali dostać się do modułu głównego obcych ani komory tunelu czasoprzestrzennego. Musimy zatrudnić konsultanta z organizacji {3}, by kontynuować te działania. 	// 0- Hab displayname, 1-Hab Site displayname, 2-Spacebody display name, 3, Org display name with leading article (the)
+
 UI.Notifications.ShipStolenHeadline={0} przejmuje nasz statek
 UI.Notifications.ShipStolenSummary=Statek {0} {1} wykonuje teraz rozkazy frakcji {2}.
 UI.Notifications.ShipStolenDetail=Nasz statek {0} {1} przestał wykonywać nasze rozkazy. Zakładamy, że zdradzieccy oficerowie przeszli na stronę frakcji {2}. 	// Ship's class name, Ship name, faction name
 UI.Notifications.ShipDefectedHeadline={0}: dołączenie wrogiego statku
 UI.Notifications.ShipDefectedSummary=Statek {0} {1} od teraz służy frakcji {2}.
 UI.Notifications.ShipDefectedDetail=Dowódcy statku {0} {1} odcięli się od swoich dawnych mocodawców i dołączyli do frakcji {2}.
+
+UI.Notifications.MyHabAssaultedHeadline=Zaatakowano {0}	// hab name	
+UI.Notifications.MyHabAssaultedSummary=Siły {0} próbują przejąć {1}!	// faction adjective, hab Name
+UI.Notifications.MyHabAssaultedDetail=Siły {0} próbują przejąć {1}.  	// faction adject, hab name with full location string
+
 UI.Notifications.FleetAvailableHed={0}: wraca do działania	// fleet name
 UI.Notifications.FleetAvailableSummary=Flota {0} czeka już na dalsze rozkazy ({1}).	// fleet name, location with prep
 UI.Notifications.FleetAvailableDetail=Flota {0} opuściła dotychczasowe miejsce ({1}) i jest dostępna do działania ({2}).	// fleet name, location with prep
@@ -720,6 +733,10 @@ UI.Notifications.LogFleetEjectedFromStation.Hed=Flota opuszcza wrogą stację.
 UI.Notifications.LogFleetEjectedFromStation.Summary={0} przestaje dokować przy: {1}, aby uniknąć kolejnego ataku frakcji.
 UI.Notifications.LogFleetEjectedFromStation.Detail={0} przestaje dokować przy: {1}, aby uniknąć kolejnego ataku frakcji.<br/><br/>Floty dokujące przy wrogich stacjach mogą zostać zmuszone do odlotu przez atak trzeciej frakcji, chyba że prowadzą operacje szturmowe lub niszczenia habitatów, w którym to przypadku nie będą w stanie zadowkować.
 
+UI.Notifications.FactionDisabled.Hed={0}: Wstrzymanie działań	// faction name with article
+UI.Notifications.FactionDisabled.Summary=Grupa znana jako {0} wstrzymuje wszystkie działania.
+UI.Notifications.FactionDisabled.Detail=Grupa znana jako {0} najwyraźniej wstrzymała wszystkie działania, natomiast jej przywódcy się ukrywają. Choć grupa wciąż ma swoich zwolenników na całym świecie, nie stanowi już zagrożenia dla naszych planów.
+
 UI.Notifications.TagRed=Oznacz na <color=#EC2100>czerwono</color>
 UI.Notifications.TagGreen=Oznacz na <color=#B4FF3E>zielono</color> 
 
@@ -738,8 +755,6 @@ UI.Notifications.PactEnds.Detail_NAPIntel={0} i {1} zerwały swój pakt o nieagr
 UI.Notifications.PactEnds.Hed_Truce=Zakończenie rozejmu
 UI.Notifications.PactEnds.Summary_Truce=Zakończył się rozejm między państwami {0} i {1}.
 UI.Notifications.PactEnds.Detail_Truce=Zakończył się rozejm między państwami {0} i {1}.
-
-
 
 UI.Notifications.LeaveDarkFederation_Violent_Query=Nowi przywódcy państwa {0} postanowili opuścić: {1}. Jeśli nie chcemy ryzykować, że opuszczą sferę wpływów państwa {2}, możemy natychmiast wypowiedzieć im wojnę bez utraty spójności ani innych kar. Czy powinniśmy to zrobić?
 

@@ -58,7 +58,7 @@ UI.Nation.Weight1=●
 UI.Nation.Weight2=●●
 UI.Nation.Weight3=●●●
 
-UI.Nation.PriorityReadout1=共享																				// Context: "Proportion of 100%", no more than 5 characters
+UI.Nation.PriorityReadout1=占比																				// Context: "Proportion of 100%", no more than 5 characters
 UI.Nation.PriorityReadout2=<color=#FFFFFFFF><sprite name="investments"></color>/月								// Mo short for "month" to fit
 UI.Nation.PriorityReadout3=加成
 
@@ -80,7 +80,7 @@ UI.Nation.MilitaryPriorityTip=军事优先计划代表对军事技术和训练�
 UI.Nation.OppressionPriorityTip=镇压优先计划代表使用国家安全和军事力量，监禁或杀害政治对手，并通过暴力威胁压制一般的异议。这会让国家的动乱降低 {0}，民主值降低 {1}，如果民主值至少达到 {2}，还会降低国内的凝聚力。没有军队的国家不能使用这一镇压优先计划。<br/><br/>如果动乱严重，或数值在近期发生飙升，这个优先计划会显示警告符号。
 UI.Nation.OppressionPriorityTip1=镇压优先计划代表使用国家安全和军事力量，监禁或杀害政治对手，并通过暴力威胁压制一般的异议。会让国家的动乱降低 {0}，民主值降低 {1}，以及国内的凝聚力降低 {3}。没有军队的国家不能使用这一镇压优先计划。<br/><br/><br/><br/>如果动乱严重，或数值在近期发生飙升，这个优先计划会显示警告符号。
 
-UI.Nation.SpoilsPriorityTip=牟利代表的是直接从经济体获取财富的行为，而且获利者在过程中避开了取得财富的真正代价。其中包含的行为有犯罪与贪腐、钻法律漏洞及逃税、放贷、无节制的污染及贩毒集团。在此国家内完成牟利优先计划会使每个控制点的拥有者直接获得 {0}（受到镇压影响的控制点除外），使不平等增加 {1}，可持续性下降 {2}，且政府指数下降 {3}。此外还会对拥有控制点的阵营造成一定程度的负面民意影响，而且这种影响的程度会随着该国的教育水平和民主程度的提高而加剧。<br/><br/>如果此优先计划出现警告符号，代表国家的精英阶层收到的牟利不足以满足他们的欲望，这个国家的精英需要至少 {4} 点直接投资点，此数值会随着对教育和民主的投资，或者非常高的民族凝聚力而降低。如果引发精英阶层不满，则很有可能发生政变。
+UI.Nation.SpoilsPriorityTip=牟利代表的是直接从经济体获取财富的行为，而且获利者在过程中避开了取得财富的真正代价。其中包含的行为有犯罪与贪腐、钻法律漏洞及逃税、放贷、无节制的污染及贩毒集团。在此国家内完成牟利优先计划会使每个控制点的拥有者直接获得 {0}（受到镇压影响的控制点除外），使不平等增加 {1}，可持续性下降 {2}，且政府指数下降 {3}。此外还会对拥有控制点的阵营造成一定程度的负面民意影响，而且这种影响的程度会随着该国的教育水平和民主程度的提高而加剧。<br/><br/>如果此优先计划出现警告符号，代表国家的精英阶层收到的牟利不足以满足他们的欲望，这个国家的精英需要至少 {4} 点直接投资点，此数值会随着会随着更高的政府、凝聚力和人均 GDP 而降低。如果引发精英阶层不满，则很有可能发生政变。
 
 UI.Nation.FundingPriorityTip=资金优先计划会将资源投入合法的政府及私人用途，来支援控制点拥有者的太空计划及其他目标。虽然它带来的效益不如牟利，但它不会伤害国家。完成这个优先计划使国家的年度资金永久提高 {0}，这会变成此国家控制点拥有者的收益。
 UI.Nation.MissionControlPriorityTip=完成任务管控力优先计划，国家就会得到一个任务管控力点。新的设施通常都会选择已经有任务管控力设施的地区。一个地区的任务管控力点上限会影响该地区的 GDP 与教育。
@@ -89,7 +89,7 @@ UI.Nation.LaunchFacilitiesPriorityTip=运载力优先计划包含火箭和其他
 UI.Nation.Military_FoundMilitaryPriorityTip=完成这个一次性优先计划可以使国家获得地区防御，可以抵御入侵，如果满足相关的要求，还可以建立军队和其他力量。镇压优先计划需要这些力量。
 UI.Nation.Military_BuildArmyPriorityTip=建立军队优先计划会在国家内创造出一支新的军队。每支军队都会减少国家可用的投资点数量——如果军队被部署在离家乡地区很远的地方，花费会更高。新的军队会被优先指派到编号较高的控制点，然后才会被指派到编号较低的控制点。具有军事能力的国家可以在每个非殖民地区建立一支军队，但国家需拥有至少 {0} 百万人口才能建立军队，每增加 {1} 百万人口即可扩增军队。
 UI.Nation.Military_BuildNavyPriorityTip=建立海军优先计划会为军队增加一支海军，使军队可以横渡海洋。和军队一样，每支海军都会减少国家可用的投资点数量。新的海军会优先被指派到控制点编号较高的军队。拥有 {0} 或以上个控制点的国家可以为每一支军队组建一支海军。如果富裕的国家拥有 {1} 个控制点，且人均 GDP 超过 ${2}，就能建立一支海军。
-UI.Nation.Military_InitiateNuclearProgramPriorityTip=这项一次性优先计划将会解锁在此国家制造核武器的能力，还会将一个核炮火新增到国家的储备中。
+UI.Nation.Military_InitiateNuclearProgramPriorityTip=这项一次性优先计划将会解锁在此国家制造核武器的能力，还会将一个核炮火新增到国家的储备中。一个国家若要吸收另一个国家，且希望保留目标国家的核武器储备，就必须先完成这一优先计划；否则，目标国家的核武器储备将被拆除。
 UI.Nation.Military_BuildNuclearWeaponsPriorityTip=这个优先计划会将一个核炮火新增到国家的储备中。
 UI.Nation.Military_BuildSpaceDefensesPriorityTip=太空防御优先计划会在国内的特定地区建造对轨武器阵列。将会优先保护较有价值、人口密度较高的地区。太空防御设施能防止其所在地区内的外星人着陆及发动核攻击。若有针对该地区内目标进行轨道轰炸的舰队，系统会反击。成本因受保护地区的大小而异。
 UI.Nation.Military_BuildSTOSquadronPriorityTip=完成这一优先计划将为国家内的一座运载力设施增加一架地对轨道奇异战斗机。国家的执政阵营可以花费更多的运载力参加地球交互轨道上的太空战斗。
@@ -114,7 +114,7 @@ UI.Nation.LaunchFacilitiesPriorityGeneric=运载力优先计划包含火箭和�
 
 UI.Nation.Military_FoundMilitaryPriorityGeneric=完成这个一次性优先计划可以使国家获得地区防御，可以抵御入侵，如果满足相关的要求，还可以建立军队和其他力量。镇压优先计划需要这些力量。这个优先计划只适用于在游戏开始时没有军队的国家。
 UI.Nation.Military_BuildArmyPriorityGeneric=建立军队优先计划会在国家内创造出一支新的军队。每支军队都会减少国家可用的投资点数量——如果军队被部署在离家乡地区很远的地方，花费会更高。新的军队会被优先指派到编号较高的控制点，然后才会被指派到编号较低的控制点。具有军事能力的国家可以在每个非殖民地区建立一支军队，但国家需拥有至少 {0} 百万人口才能建立军队，每增加 {1} 百万人口即可扩增军队。
-UI.Nation.Military_SealiftPriorityGeneric=建立海军优先计划会为军队增加一支海军，使军队可以横渡海洋。和军队一样，每支海军都会减少国家可用的投资点数量。新的海军会被优先指派到控制点编号较高的军队。拥有 {0} 或以上个控制点的国家可以建立海军。如果富裕的国家拥有 {1} 个控制点，且人均 GDP 不低于 <color=#FFFFFFFF><sprite name="currency"></color>{2}，就能建立一支海军。
+UI.Nation.Military_SealiftPriorityGeneric=建立海军优先计划会为军队增加一支海军，使军队可以横渡海洋。和军队一样，每支海军都会减少国家可用的投资点数量。新的海军会被优先指派到控制点编号较高的军队。拥有 {0} 或以上个控制点的国家可以建立海军。如果富裕的国家拥有 {1} 个控制点，且人均 GDP 不低于 ${2}，就能建立一支海军。
 UI.Nation.Military_InitiateNuclearProgramPriorityGeneric=这项优先计划将会解锁在此国家制造核武器的能力，还会将一个核炮火新增到国家的储备中。
 UI.Nation.Military_BuildNuclearWeaponsPriorityGeneric=这个优先计划会将一个核炮火新增到国家的储备中。需要先完成开发核武器优先计划才能进行。
 UI.Nation.Military_BuildSpaceDefensesPriorityGeneric=太空防御优先计划会在国内的特定地区建造对轨武器阵列。将会优先保护较有价值、人口密度较高的地区。太空防御设施能防止其所在地区内的外星人着陆及发动核攻击。若有针对该地区内目标进行轨道轰炸的舰队，系统会反击。成本因受保护地区的大小而异。
@@ -123,7 +123,7 @@ UI.Nation.Military_BuildSTOSquadronPriorityGeneric=完成这一优先计划将�
 UI.Nation.Civilian_InitiateSpaceflightProgramPriorityGeneric=这是个一次性的优先计划，对象是在公众活动开始时还没有国内太空飞行计划的国家，完成这个计划就可以解锁运载力及任务管控力优先计划。
 UI.Nation.GenericPriorityNotAvailable=可解锁这一优先计划的科技尚未开始研究。虽然此计划可以添加到预设中，但需要先解锁科技才能产生效果。
 
-UI.Nation.WelfareGHGReductionShort=二氧化碳：{0}；甲烷：{1}；一氧化二氮：{2}
+UI.Nation.WelfareGHGReductionShort=CO<sub>2</sub>：{0}，CH<sub>4</sub>：{1}，N<sub>2</sub>O：{2}
 UI.Nation.PriorityBonuses=针对{1}优先计划中世界各地的控制点，我们的组织、理事特质、近地轨道空间站和计划可为相关投资带来 {0} 的加成。
 UI.Nation.NationPriorityBonuses_Economy=加入联邦为在此国家内投资{1}优先计划提供了{0}加成。
 UI.Nation.NationPriorityBonuses_BuildMilitaryAssets=这个国家的资源地区为投资{1}优先计划提供了{0}加成。
@@ -139,11 +139,11 @@ UI.Nation.CP.KnowledgeSector=知识领域
 UI.Nation.CP.DefenseSector=防御领域
 UI.Nation.CP.AgriculturalSector=农业领域
 UI.Nation.CP.Warlords=军阀
-UI.Nation.CP.IdentityBlocs=身分团体
+UI.Nation.CP.IdentityBlocs=身份团体
 UI.Nation.CP.RegionalAuthorities=地方机关
 UI.Nation.CP.Bureaucracy=官僚体系
 UI.Nation.CP.SecurityApparatus=维安机构
-UI.Nation.CP.MassMedia=大众传播
+UI.Nation.CP.MassMedia=大众传媒
 UI.Nation.CP.Religion=宗教
 UI.Nation.CP.Corporations=企业
 UI.Nation.CP.TradeUnions=工会
@@ -235,7 +235,7 @@ UI.Nation.Miltech6=入侵时代
 UI.Nation.Miltech7=聚变时代
 UI.Nation.GDPHelp1=一个国家的 GDP，即国内生产总额，是衡量年度经济产出的方法，以美元计算，并经过购买力平价调整。国家的 GDP 会决定该国的控制点数量、投资点生产量，以及该国某些任务的难度。
 UI.Nation.Sustainability=可持续性
-UI.Nation.SustainabilityHelp1=一个国家的可持续性价值代表了该国防止其境内经济活动向大气中排放温室气体的能力。它体现了该国依据 GDP、人口、土地面积和石油资源区，能抵消的二氧化碳、甲烷和一氧化二氮的预期排放量。
+UI.Nation.SustainabilityHelp1=一个国家的可持续性价值代表了该国防止其境内经济活动向大气中排放温室气体的能力。它体现了该国依据 GDP、人口、土地面积和石油资源区，能抵消的二氧化碳、甲烷和一氧化二氮的预期排放量。温室气体会导致全球气温上升，从而提高灾害发生的可能性。各国还会因高温而遭受经济损失，而且，这种损失会因不平等现象以及存在气候脆弱地区的情况而加剧。
 UI.Nation.SustainabilityHelp2=可持续性得分越高，这个国家的经济活动产生的温室气体就越少。在环境优先优先计划中，每 {1} 提高 {0}，最多提高 {2}。得分上限可随新技术的进步进一步提高，当升至 10 时，环境优先计划将开始从大气中移除现有的温室气体。在牟利优先计划中，每 {4} 恶化 {3}。
 UI.Nation.SustainabilityHelp3=每年，这个国家净排放二氧化碳 {0} T（{1} ppm）；甲烷 {2} T（{3} ppm）以及一氧化二氮 {4} T（{5} ppm）。
 UI.Nation.PerCapitaGDPHelp1=一个国家的人均 GDP 是<h>国内生产总额</h>除以人口得出的数值。它代表此国平均人民的经济状况。人均 GDP 较低的国家会面临较高的动乱，因为人民的需求并没有被满足。<br/><br/>为经济优先计划投入投资点能够提高 GDP，冲突、人口流失和气候变化等问题将使其降低。
@@ -314,8 +314,8 @@ UI.Nation.SpaceDefenses=地面对轨道防御<br/>该地区受到对轨道防御
 UI.Nation.HostileClaim=敌对主张<br/>该地区的民众普遍不愿意成为这个国家的一部分。这导致民主国家中的各地区之间凝聚力较低，而专制国家中的各地区则会更加动荡不安。在该地区被吞并之后，如果充分投资对政府和团结优先计划，就能改变这种状况。
 
 UI.Nation.HostileClaim_Reason1=-这个地区如果被吞并，就会处于敌对状态，因为这个国家对它没有主权。
-UI.Nation.HostileClaim_Reason2=-这个地区如果被吞并，就会处于敌对状态，因为这个国家对它的主张具有特殊性质，或者这个地区所属的国家此前曾脱离过独立。
-UI.Nation.HostileClaim_Reason3=-这个地区如果被吞并，就会处于敌对状态，因为该国的政府分数比目前掌控该地区的国家低 {0}。
+UI.Nation.HostileClaim_Reason2=-这个地区如果被吞并，就会处于敌对状态，因为这个国家对它的主张具有特殊性质，或者这个地区所属的国家此前曾脱离过独立。拥有敌对首都区域的国家是无法实现和平统一的。
+UI.Nation.HostileClaim_Reason3=-这个地区如果被吞并，就会处于敌对状态，因为该国的政府分数比目前掌控该地区的国家低 {0}。拥有敌对首都区域的国家是无法实现和平统一的。
 
 UI.Nation.AlienEntityPresent= 外星人活动<br/>已经在此地区侦测到某种形式的外星人活动。
 UI.Nation.OccupationTooltip=外国占领
@@ -344,7 +344,7 @@ UI.Nation.TerrainRugged=崎岖
 UI.Nation.TerrainStandard=不崎岖
 UI.Nation.FederationTooltipLeader={0}是{1}联盟的主导国家。
 UI.Nation.FederationTooltipMember={0}是{1}联盟的会员。这个联盟的主导国家是{2}。
-UI.Nation.FederationTooltipDetail=<br/><br/>联邦由一群关系紧密的国家组成，彼此之间承诺提供共同防御，并共享太空计划资金及运载力。成员在经济优先计划上的投资也会获得加成。他们由拥有最庞大国际野心（权利主张）的会员国领导。<br/><br/>要加入一个联盟，国家必须有至少一个联盟会员国对其领土宣示权力主张，并与其中一个会员为同盟关系，且与所有其他成员国均建立了正常化关系。<br/><br/>国家要申请加入联盟，可以使用<h>制定政策</h>任务，领导国家则会核准或拒绝这项要求。领导国家也可以邀请符合资格的国家加入。
+UI.Nation.FederationTooltipDetail=<br/><br/>联邦由一群关系紧密的国家组成，彼此之间承诺提供共同防御，并共享太空计划资金及运载力。成员在经济优先计划上的投资也会获得加成，并且没有太空计划的成员也可以使用该优先权和任务控制权，只要其中至少有一个成员拥有太空计划即可。他们由拥有最庞大国际野心（权利主张）的会员国领导。<br/><br/>要加入一个联盟，国家必须有至少一个联盟会员国对其领土宣示权力主张，并与其中一个会员为同盟关系，且与所有其他成员国均建立了正常化关系。<br/><br/>国家要申请加入联盟，可以使用<h>制定政策</h>任务，领导国家则会核准或拒绝这项要求。领导国家也可以邀请符合资格的国家加入。
 UI.Nation.DarkFederationTooltip=这个联盟由一个专制政权领导，而且{0}低于{1}，其成员只有在得到该政权同意的情况下才能离开。如果一个成员通过政变、革命或政权更迭的方式脱离联盟，该政权的领导人有权立即宣战。 //government icon, value
 UI.Nation.DarkFederationDetail=由专制国家领导的联盟成员在离开时会受到限制。该主导国家可以否决通过“制定政策”任务进行的任何离开行动。如果一个成员通过政变、革命或政权更迭的方式脱离联盟，该政权的领导人有权立即宣战。
 UI.Nation.FederationMemberList=这个联盟的成员为{0}。 															// List of nations

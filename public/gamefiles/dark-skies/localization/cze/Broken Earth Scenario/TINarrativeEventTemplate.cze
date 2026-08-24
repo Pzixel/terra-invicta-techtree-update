@@ -1,0 +1,295 @@
+
+// Dark Skies DLC
+
+
+//// RECOVERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldBooks=Knihy Starého světa
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.summary=Při sanaci čtvrtí, které byly narychlo evakuovány a po válce ponechány napospas osudu, objevili stavební dělníci skrýš se starými knihami.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.query=Ve skrýši se nacházely ukázky klasické literatury napsané dlouho před válkou, vysokoškolská skripta z přírodních i společenských věd a dokonce i jeden či dva sešity z kdysi populární a dlouho vycházející řady komiksů. To vše významně přispěje k obnově vzdělávacího systému {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.option0=Z minulosti se toho máme ještě co naučit.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionResult0=Stavební dělníci {targetNationNameWithArticleAndPlacePrep} objevili skrýš se starými knihami.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldDoctrines=Doktríny Starého světa
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.summary=Při odklízení trosek z vybombardovaných měst a pevností, které byly po válce ponechány osudu, objevili stavební dělníci skrytý systém bunkrů.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.query=Tolik let po válce již případní přeživší komplex dávno opustili a veškeré zbraně i zásoby podlehly rzi a zubu času. V jednom z nižších podlaží jsme však našli sbírku polních příruček a válečných plánů, které podrobně vysvětlují, jak uplatňovat doktrínu armád z válečné éry. Tyto materiály výrazně přispějí ke zlepšení chápání války ze strany země {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.option0=Je to opravdu tak dobrý nápad učit se od našich předchůdců?
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionResult0=Stavební dělníci {targetNationNameWithArticleAndPlacePrep} odhalili skrytý systém bunkrů.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldMedia=Média Starého světa
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.summary=Při sanaci čtvrtí, které byly narychlo evakuovány a po válce ponechány napospas osudu, objevili stavební dělníci skrýš se starými filmy a hudebními nosiči.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.query=Ačkoli jsou technologické postupy související se záznamem a přehráváním těchto nosičů pro naše techniky v dnešní době relativně snadno reprodukovatelné, je třeba věnovat zvláštní pozornost tomu, aby se tyto pásky a desky během procesu restaurování dále nepoškodily. Jakmile je však vyčistíme a převedeme na odpovídající formát pro současná zařízení, předpokládáme, že diváky bude zajímat, jaké filmy a jakou hudbu měli lidé před válkou v oblibě.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option0=Zpřístupníme je celému světu.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult0=Stavební dělníci {targetNationNameWithArticleAndPlacePrep} objevili skrýš se starými filmy a hudbou.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option1=Ponecháme je {targetNationNameWithArticleAndPlacePrep} a budeme účtovat poplatek za exkluzivní přístup.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult1=Stavební dělníci {targetNationNameWithArticleAndPlacePrep} objevili skrýš se starými filmy a hudbou.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MemorialtotheFallen=Památník padlým
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.summary=Občané celé země {targetNationNameWithArticle} se shromáždili na slavnosti u příležitosti připomínky padlých.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.query=Členové vlády, kaplani i zástupci veřejnosti se střídali v projevech a předčítali jména těch, kteří zahynuli při jaderné katastrofě v roce 1962. Tyto obřady jsou nadmíru důstojné a probíhají podle zavedeného řádu, plní však důležitou úlohu v tom, že pomáhají občanům udržet si pevné zakotvení v této postapokalyptické éře. I když svět začíná psát novou kapitolu historie, nezapomíná na rozsáhlou zkázu způsobenou jadernými zbraněmi a slibuje, že už se to nebude opakovat.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.option0=Abychom nezapomněli.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionResult0={summary}
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_UnauthorizedSalvage=Neoprávněné rabování
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.summary=V ruinách regionu {targetRegionName} operují nelegální sběrači cenností.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.query=Tyto oblasti bohužel nejsou plně pod kontrolou legitimních orgánů země {targetNationAdjective}, pročež není možné účinně zabránit některým podnikavým jedincům v tom, aby se z vlastní iniciativy nepokoušeli dopomoci si k majetku z válečného období. Tento stav nejenže přispívá k rozkvětu černého trhu, který podkopává hospodářskou obnovu země {targetNationNameWithArticle}, ale zároveň zvyšuje napětí mezi přeživšími komunitami, které si v těchto válkou zpustošených oblastech stále s námahou vydělávají na živobytí a i nadále si na ně činí nárok.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0=To již nemáme ve svých rukách.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0=Sběr cenností pokračuje.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1=Sběrači objevili staré knihy.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2=Sběrači objevili staré bunkry.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3=Sběrači objevili stará média.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option1=Proti takové bezprávnosti je třeba tvrdě zakročit.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionResult1=Země {targetNationNameWithArticleCap} tvrdě zakročila proti neoprávněnému rabování {targetRegionNameSentIn}.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2=Nabídneme odměnu za kontrolovaný sběr cenností.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0=Sběr cenností pokračuje.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Summary=V ruinách regionu {targetRegionName} operují legální sběrači cenností.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1=Sběrači objevili staré knihy.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Summary=V ruinách regionu {targetRegionName} operují legální sběrači cenností.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2=Sběrači objevili staré bunkry.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Summary=V ruinách regionu {targetRegionName} operují legální sběrači cenností.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3=Sběrači objevili stará média.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Summary=V ruinách regionu {targetRegionName} operují legální sběrači cenností.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ArmedProcession=Ozbrojený průvod
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.summary=Regionem {targetRegionName} pochoduje dlouhý průvod puškami ozbrojených a skandujících mužů a žen.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.query=Nejedná se o protest ani povstání proti vládě země {targetNationAdjective}; jde spíše o výlev emocí, projev vzdoru proti smrti, kterou válka do země {targetNationNameWithArticle} přinesla. Zároveň jde o širší projev vůle obyvatel země {targetNationAdjective} žít a něco pro to udělat. Události, které mají svůj původ pravděpodobně v improvizovaných shromážděních pořádaných místními milicemi během bezprostředního poválečného chaosu, postupem času nabraly na síle a staly se pravidelně se opakující součástí kultury země {targetNationAdjective}.<br/><br/>Někteří vládní představitelé však nadále vyjadřují obavy, že přítomnost takového počtu ozbrojených mužů a žen na jednom místě je otevřenou výzvou k nejrůznějším kriminálním aktivitám.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0=Zemí {targetNationNameWithArticleCap} procházejí pochody za život!
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0=Vše je v pořádku.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Detail=Obavy byly naštěstí neopodstatněné.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1=Dochází k podvratným činnostem.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Detail=Obavy byly možná oprávněnější, než se doufalo.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option1=Nařiďme jejich rozptýlení z bezpečnostních důvodů.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option2=Pošleme tam několik tajných agentů, kteří budou vše sledovat.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldSatellite=Družice Starého světa
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.summary=Naši první astronauti ve vesmíru objevili starou předválečnou družici, která stále obíhá kolem Země.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.query=První výprava lidstva do vesmíru byla velmi krátká a trvalo jen několik let, než Zimní válka ukončila všechny tehdejší lidské ambice. Možná nevědomky to u některých lidí vyvolalo určitý strach z vesmíru: že pokud se odváží natáhnout ruku k nebesům, přivolají tím na Zemi znovu jejich hněv.<br/><br/>Z tohoto důvodu, ale i z praktických příčin, se následně do vesmírných programů vkládalo jen pramálo úsilí.<br/><br/>Časy se však změnily. Příchod mimozemšťanů dokázal, že vesmír není prázdný, ale že je místem, kde mohou přebývat a kterým mohou cestovat inteligentní bytosti. Pro mnohé je taková skutečnost i nadále důvodem ke strachu, avšak ten již nyní není abstraktní, nýbrž představuje hmatatelnou hrozbu, které lze čelit a kterou lze překonat.<br/><br/>Je úžasné, že navzdory všem nepříznivým okolnostem tento drobný pozůstatek předválečné Země přežil více než století – stejně jako náš druh. Ačkoli je již dávno nefunkční, zůstává památníkem odvahy a odolnosti lidstva.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option0=Z jeho konstrukčního návrhu se stále můžeme něco přiučit.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult0=Země {targetFactionNameCap} zachránila starou předválečnou družici obíhající kolem Země.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option1=Patří do muzea!
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult1=Země {targetFactionNameCap} zachránila starou předválečnou družici obíhající kolem Země.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option2=Naši astronauti stojí na ramenou těch, kteří tu byli před nimi.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult2=Země {targetFactionNameCap} zachránila starou předválečnou družici obíhající kolem Země.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MuseumtotheOldWorld=Muzeum Starého světa
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.summary=Naši radní navrhují vybudovat muzeum, v němž by byly vystaveny předválečné artefakty.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.query=V tuto chvíli jsme získali již dostatek artefaktů, které bychom mohli věnovat archivům a zpřístupnit veřejnosti. Vybudování a správa muzea by neměly být nic složitého a neměla by být nutná ani naše přímá účast. Zbývá už jen rozhodnout, na jaké téma se má muzeum zaměřit: půjde o jedinečnou příležitost vtisknout veřejné paměti o Zimní válce podobu, která bude v souladu s naší vizí.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option0=Tehdejší civilizace byla založena na vědě.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult0=Země {targetFactionNameCap} vystavěla muzeum věnované předválečné vědě.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option1=Na tehdejším způsobu života bylo mnoho obdivuhodného.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult1=Země {targetFactionNameCap} vystavěla muzeum věnované předválečnému životnímu stylu.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option2=Tehdejší vojenská síla neměla konkurenci.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult2=Země {targetFactionNameCap} vystavěla muzeum věnované předválečné vojenské síle.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option3=Tehdejší životní úroveň neměla obdoby.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult3=Země {targetFactionNameCap} vystavěla muzeum věnované předválečné životní úrovni.
+
+//// NUKE EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearPublicity=Protijaderná osvětová kampaň
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.summary=V zemi {targetNationAdjective} se veřejnost hlasitě postavila proti držení jaderných zbraní {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.query=Celá idea jaderných zbraní je v dnešní době silně tabuizována. Během uplynulého století se vyvinul pevný konsenzus, že za Zimní válku nesl vinu bezohledný vývoj a šíření jaderných zbraní a že by se žádné další již nikdy neměly vyrábět. Jen tak se totiž dá zabránit ohrožení dalšího přežití lidstva jako technologické civilizace. I nyní, kdy příchod mimozemšťanů převrátil dosavadní představy o světě naruby a podnítil touhu po větší bezpečnosti, přetrvávají hluboce zakořeněné a zcela oprávněné obavy veřejnosti z jaderné války.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option0=Úzkost lidu je pochopitelná.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1=Naši nepřátelé se tomu nebrání, nemáme na výběr!
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0=Uklidnění.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1=Silný odpor.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearActivism=Protijaderný aktivismus
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.summary=Demonstranti vtrhli do továren a laboratoří podílejících se {targetNationNameWithPrep} na jaderném programu.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.query=Bojovnost těchto aktivistů zcela zaskočila bezpečnostní složky. Ačkoli jaderné odstrašující prostředky {targetNationNameWithPrep} jsou prozatím v bezpečí, i nadále je v ohrožení vysoce citlivé vybavení a klíčový personál, což by mohlo ohrozit budoucnost jaderného programu této země.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option0=Upřednostnit evakuaci personálu.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option1=Upřednostnit evakuaci vybavení.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option2=Nasadit armádu k rozehnání demonstrantů.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearSabotage=Sabotáž jaderných zařízení
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.summary=Při neohlášené kontrole jaderného arzenálu {targetNationNameWithPrep} došlo ke zjištění, že je řada hlavic nefunkčních.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.query=Bezpečnostní složky zadržely a začaly vyslýchat všechny inženýry, kteří mohli mít v uplynulém roce fyzický přístup k jaderným hlavicím, stejně jako inspektory odpovědné za předchozí zprávy o bojové pohotovosti, které se nyní ukázaly jako nepravdivé. Zatím se nikdo nepřiznal, nicméně je dobře známo, že morálka mezi personálem je napříč celou organizací výrazně nízká.<br/><br/>Jedinou útěchou může být skutečnost, že podle všeho nedošlo k odvozu žádného jaderného materiálu mimo areál. Je zřejmé, že pachatel nechtěl, aby se hrozba jaderných zbraní dál šířila.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option0=V jaderné válce není pro osoby odmítající službu z důvodu svědomí žádné místo.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option1=Něco takového jsme očekávali. Skutečné bojové hlavice jsou v jiném zařízení.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail1=Nic se nestalo.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option2=Tato sabotáž byla provedená amatérsky. Naši odborníci vše snadno napraví.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail2=Nic se nestalo.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ScientistsProtestNuclearProgram=Vědci protestují proti jadernému programu
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.summary=Přední vědci {targetNationNameWithPrep} opouštějí svá pracovní místa na protest proti jadernému programu.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.query=Ve společném dopise adresovaném vládě vědci prohlašují, že je jejich povinností zajistit, aby byla tato technologie využívána výhradně k mírovému rozvoji lidstva, a nikoli k válčení a ničení, a to ani za extrémních okolností. V této souvislosti citují slova J. Roberta Oppenheimera, který je dodnes znám jako otec atomové bomby a jako ten, kdo se marně snažil zabránit tomu, aby jeho objevy vedly ke konci světa.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option0=Možná bychom měli jejich varování vzít na vědomí.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option1=Takové ufňukance tu nepotřebujeme.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option2=Vědci by se neměli vměšovat do záležitostí národní bezpečnosti.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult2={summary}
+
+
+
+
+//// FACTION EVENTS (TRANSLATION BATCH 2)
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderResist=Vzdorovat na zničené Zemi
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.summary=Jaký význam má příchod mimozemšťanů do našeho světa, který se teprve začíná probírat ze stínu Zimní války?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.query=Válka byla bezpochyby nejhorší pohromou, jakou lidstvo v celé své historii utrpělo – a o to horší, že si ji způsobilo zcela samo. Více než století jsme žili ve stínu, který vrhalo jaderné světlo, a choulili jsme se před dlouhou zimou ve strachu a beznaději. Teprve nyní, po všech těch letech temnoty, konečně začaly prosvítat první paprsky naděje. Poprvé za sto let může náš druh opět věřit v budoucnost.<br/><br/>Právě do tohoto světa přiletěli mimozemšťané. Mohli nám podat přátelskou ruku. Díky pokročilé technologii, kterou měli k dispozici, nám mohli nabídnout pomoc při obnově. Jistě, taková pomoc by nebyla zadarmo: nejsme naivní a víme, jak obvykle dopadají setkání mezi civilizacemi s takovým rozdílem v stupni vývoje. I toto gesto by však přineslo útěchu, důkaz, že ve vesmíru nejsme sami a že naše utrpení není přehlíženo. Místo toho se rozhodli napadnout a dobýt naši planetu. Viděli nás, druh zlomený a na dně, a rozhodli se využít naší slabosti.<br/><br/>Tak ať. Jejich činy hovoří více než jasně. Přestaňme si nadále namlouvat, jaké jsou jejich skutečné úmysly vůči lidstvu. Pokud máme přežít, pokud máme znovu vybudovat tento rozbitý svět, pak o něj musíme bojovat.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.option0=A bojovat i budeme.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderDestroy=Bojovat na zničené Zemi
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.summary=Jaký význam má příchod mimozemšťanů do našeho světa, který se teprve začíná probírat ze stínu Zimní války?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.query=Války se dříve vedly z materiálních, ba až prozaických důvodů: kvůli malicherné zášti krále vůči jeho bratranci, kvůli padesát let starému nároku na vlastnictví kousku země, kvůli závisti vůči zdrojům a prosperitě souseda. Bojovali v nich převážně profesionálové a ať už se vyhrálo či prohrálo, pro většinu lidí život pokračoval dál.<br/><br/>S technologickým pokrokem a rozšiřováním lidských obzorů se zvětšoval i rozsah válek. Už nešlo jen o zdroje nebo ego, ale o samotnou budoucnost našeho druhu. Světové války nebyly ničím jiným než totální mobilizací s cílem vyhladit nepřátelské civilizace a diktovat směr lidských dějin. V době Zimní války se válčení rozšířilo natolik, že zasáhlo celé lidstvo – a téměř ho vyhladilo.<br/><br/>Nyní se obzory opět rozšířily. S příchodem mimozemšťanů se bojiště nyní nachází nejen na naší planetě, ale i za jejími hranicemi. Ve velké bitvě o život může být jen jeden vítěz.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.option0=A můžete si být sakra jistí, že jím budeme my.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderExploit=Vzkvétat na zničené Zemi
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.summary=Jaký význam má příchod mimozemšťanů do našeho světa, který se teprve začíná probírat ze stínu Zimní války?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.query=Lidské dějiny nikdy nebyly přímočarým vývojem, jak si rádi namlouvali někteří akademici ve svých věžích ze slonoviny a jak rádi kázali politici nevzdělaným masám. Jde spíše o cyklus vzestupů a pádů, z nichž každý přináší svá vlastní nebezpečí i příležitosti. Skutečnými pány světa jsou ti, kteří se naučili tento vzorec rozpoznat a se stejnou ambicí využívat jak vzestupy, tak pády.<br/><br/>Pro nás tedy Zimní válka nebyla ničím výjimečným. Poražení zemřeli, vítězové na tom vydělali. Takhle svět prostě vždy fungoval.<br/><br/>Mohli jsme z tohoto stavu věcí těžit ještě dalších sto let a sklízet plody tohoto poválečného jara, nebýt příchodu mimozemšťanů na naši půdu.<br/><br/>Je pravda, že pokles přišel mnohem dříve, než kdokoli z nás předpovídal. Někteří přišli o své jmění, někteří dokonce o život. Ale pro ty z nás, kteří zůstali, je jejich ztráta ziskem. Soutěž s novým druhem z hvězd s sebou přináší nová nebezpečí, ale také nové příležitosti.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.option0=Kdo z nás bude mít odvahu se jich chopit?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderSubmit=Podřídit se na zničené Zemi
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.summary=Jaký význam má příchod mimozemšťanů do našeho světa, který se teprve začíná probírat ze stínu Zimní války?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.query=Když svět skončil v dešti ohně a síry, modlitba byla pro většinu z nás tím jediným, co jsme mohli dělat. Když obloha zčernala popelem a země zamrzla do bíla, odváděli jsme pozornost od tísnivého pocitu prázdnoty v žaludku tím, že jsme snili o dni, kdy na náš temný svět opět zasvítí světlo.<br/><br/>Nakonec dlouhá zima skončila a my jsme pomalu vycházeli ze svých úkrytů, abychom začali znovu budovat a obnovili civilizaci. Během uplynulého století jsme opravili města a usadili rodiny; přesto však tento svět v mnoha ohledech zůstává zlomený a neúplný, neboť den, kdy dopadly bomby, byl dnem, kdy část nás samých navždy shořela. Pouze naše vytrvalá víra, naše tvrdohlavé přesvědčení, že na nás čeká lepší zítřek, nás drželo při životě.<br/><br/>Dnes byla naše víra konečně vyslyšena. Nejsme ve vesmíru sami. Už nemusíme trpět osamoceni a volat o odpovědi k lhostejnému světu; vyslanci nás totiž spatřili a posvítili nám na cestu svým světlem.<br/><br/>Naší povinností jako strážců víry je uchopit ruku, kterou nám vyslanci podávají, a přivítat je mezi námi.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.option0=Pouze láskou k nim budeme moct opět milovat sami sebe.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderAppease=Smír na zničené Zemi
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.summary=Jaký význam má příchod mimozemšťanů do našeho světa, který se teprve začíná probírat ze stínu Zimní války?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.query=V učebnicích dějepisu si vždy klademe otázku: kdo nesl odpovědnost za Zimní válku? Na tuto jedinou otázku, která je pro naši civilizaci tak zásadní, bylo prolito tolik inkoustu. Teorie her, politika balancování na hraně, okamžitá odplata, vzájemně zaručené zničení – tolik elegantních a chladnokrevných pojmů k popisu předem promyšleného masového vraždění a krveprolití v globálním měřítku. Samozřejmě to nikdy nebyl <i>náš</i> záměr. <i>My</i> jsme nikdy nechtěli vyvraždit miliony nevinných lidí: chtěli jsme jen zabránit <i>druhé</i> straně, aby to udělala. Byla to <i>jejich</i> vina; <i>oni</i> nás k tomu donutili.<br/><br/>Ve skutečnosti jsme to byli my: my všichni, kolektivně, lidský druh. Po staletí před Zimní válkou jsme neustále eskalovali cyklus ničení na nové úrovně, nosili sametové rukavice a ověšovali se bílými vlajkami, abychom zakryli ruce potřísněné oceánem krve. Přes veškeré naše řeči o tom, že jsme osvícená rasa, se naše pravá povaha projevovala znovu a znovu. Bezpochyby jsme dokázali, že náš druh není schopen sám sobě vládnout.<br/><br/>Co by si tedy o tom všem měl myslet nějaký mimozemský druh? Uvidí, že lidská rasa je víc než jen součet jejich chyb, že jsme se konečně poučili a rozhodli se stát dobrými a zodpovědnými občany širší galaxie? Nebo dojdou k závěru, že nejsme nic jiného než zuřiví psi, které je třeba zavřít do klecí a utratit pro bezpečnost ostatních?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.option0=Pro dobro nás všech doufejme, že to bude ta první možnost.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderCooperate=Spolupráce na zničené Zemi
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.summary=Jaký význam má příchod mimozemšťanů do našeho světa, který se teprve začíná probírat ze stínu Zimní války?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.query=Vynález atomové bomby byl bezpochyby největším triumfem lidských vědců. Poprvé v historii našeho druhu jsme dokázali využít jednu ze základních zákonitostí vesmíru – sílu, která pohání samotné hvězdy. Bylo to důkazem toho, čeho může věda dosáhnout, když se jí umožní volně vzkvétat bez ohledu na hranice.<br/><br/>Bylo to však také naše největší selhání. Ve snaze pochopit tajemství vesmíru jsme opomněli zvážit, co lidstvo udělá, až bude mít tato tajemství ve svých rukou. Jak nás učí kvantová mechanika, pouhým pozorováním světa se podílíme i na jeho změně. Nepochopili jsme, jak velkou odpovědnost to na nás jako vědce klade, a zaplatil za to celý svět.<br/><br/>Věda však spočívá v poučení se z našich neúspěchů. Zimní válka vypukla proto, že jsme nerozuměli našim bližním a dovolili jsme, aby strach z neznáma přemohl naši lepší povahu. Nyní, tváří v tvář mimozemskému druhu z hvězd, máme šanci jednat lépe. Je naší vážnou a upřímnou povinností oslovit tyto nově příchozí a komunikovat s nimi jako s rovnocennými účastníky tohoto vesmíru.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.option0=Nesmíme promarnit druhou šanci lidstva.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderEscape=Útěk ze zničené Země
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.summary=Jaký význam má příchod mimozemšťanů do našeho světa, který se teprve začíná probírat ze stínu Zimní války?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.query=Člověk vždy snil o létání. Od poučného příběhu o Daidalovi a Ikarovi až po let bratří Wrightů jsme se vždy snažili vzdálit od země.<br/><br/>Když byl vypuštěn první satelit, odvážili jsme se snít ještě ve větším měřítku. Těch několik krátkých let, která následovala, bylo skutečným zlatým věkem, kdy se největší pozemské mozky snažily jednou provždy překonat omezení zemské gravitace a učinit první odvážné kroky do galaxie plné možností.<br/><br/>Bohužel se tak nestalo. Zimní válka přinesla nový temný věk, který uhasil všechny ty světlé naděje, které jsme vkládali do lepší budoucnosti. V krutém zvratu ironie jsme měli čím dál více důvodů opustit tuto zmrzlou, ozářenou prachovou kouli – a jen velmi málo možností s tím něco udělat.<br/><br/>Nyní se však vše opět změnilo. Přílet mimozemšťanů zpoza hvězd bezpochyby dokázal, že žít a cestovat ve vesmíru je možné. Jediným zábleskem světla, který se prohnal oblohou, se naplnily sny všech snílků z minulých století. Mimozemšťané nám ukázali, že budoucnost, v niž jsme se odvážili věřit už tak dávno, zůstává reálná.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.option0=Stačí natáhnout ruku a uchopit ji.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionResult0=<skip/>
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-WarlordCampaign=Kampaně proti vojevůdcům
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.summary={targetNationNameWithArticleCap} zahajuje kampaň s cílem získat území zpět od vojevůdců.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.query=Po válce nebyla vláda země {targetNationNameWithArticle} schopna ovládat celé své území. Dopravní a komunikační spojení byla přerušena, značná část bezpečnostních sil byla zabita nebo dezertovala a klíčoví představitelé byli buď zahlceni náhlými krizemi spojenými s vysídlením, nebo v chaosu zmizeli beze stopy. V tomto mocenském vakuu se objevila řada vojevůdců a jejich stoupenců, kteří slibovali zajištění bezpečnosti výměnou za loajalitu.<br/><br/>Nyní se vláda země {targetNationAdjective} znovu zformovala, ale {targetNationNameWithArticle} může mít pouze jednu legitimní vládu. Úředníci slíbili, že do konce roku zakročí proti bezpráví a obnoví pořádek na hranicích. Otázkou však zůstává: jak?
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0=Přímý čelní útok.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0=Úspěch.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Detail=Útok proběhl bez sebemenších potíží! Vojevůdci byli podmaněni. V zemi {targetNationNameWithArticle} se obnovuje pořádek.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Detail=Útok se nezdařil a vyžádal si mnoho obětí. Řada nepřátelských bojovníků unikla a i nadále ohrožuje bezpečnost země {targetNationNameWithArticle} partyzánskými útoky.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1=Příslib amnestie a legitimity v rámci nové vlády.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0=Úspěch.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Detail=Vojevůdci si namlouvali, že dělají pouze to, co je nezbytné k udržení pořádku v těchto bouřlivých časech. Úspěšně jsme apelovali na jejich ego tvrzením, že splnili svou povinnost vůči zemi {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Detail=Vojevůdci odmítli uznat legitimitu vlády země {targetNationAdjective}. Vládě země {targetNationAdjective} nezbývalo než nařídit přímý čelní útok, který si vyžádal mnoho obětí a vedl k útěku nepřátelských bojovníků.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2=Podplatit jejich muže.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0=Úspěch.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Detail=Vojáci vojevůdců, kterým byly slíbeny tři jídla denně a teplé sprchy, bez váhání a s nadšením přeběhli na naši stranu. Jelikož nikdo nebyl ochoten prosazovat jejich rozkazy, vojevůdci ztratili svou moc a byli nuceni se vzdát.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Detail=Bohužel měli vojevůdci přehnané ambice a byli přesvědčeni, že jednají v zájmu vyššího cíle, a to do té míry, že tomu uvěřili i jejich vlastní muži. Vláda země {targetNationAdjective} neměla jinou možnost než nařídit přímý čelní útok, který si vyžádal mnoho obětí a vedl k útěku nepřátelských bojovníků.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3=Vyslat operativce, aby zavraždili jejich vůdce.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0=Úspěch.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Detail=Operace byla úspěšná! Vojevůdci byli svými muži nalezeni mrtví v postelích. Nikdo nevěřil, že šlo o přirozenou smrt, ale jelikož nezbyl nikdo živý, pod jehož vedením by se mohli sjednotit, nikdo nechtěl pokračovat.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Detail=Operace skončila neúspěchem. Naši agenti byli nalezeni pověšení na veřejném místě jako varování. Vláda země {targetNationAdjective} neměla jinou možnost než nařídit přímý čelní útok, který si vyžádal mnoho obětí a vedl k útěku nepřátelských bojovníků.
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_NuclearFacilitiesAttacked=Nukleární zařízení pod útokem
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.summary=Ozbrojenci nečekaně obsadili jedno ze zařízení země {targetNationNameWithArticle}, v němž jsou uloženy jaderné zbraně.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.query=Naštěstí byly systémy velení a řízení jaderných zbraní země {targetNationNameWithArticle} navrženy tak, aby zabránily jakékoli možnosti neoprávněného odpálení či detonace – poučení získané tvrdou cestou během Zimní války. Ovšem to je jen chabá útěcha pro ty úředníky, kteří jsou odpovědní za toto šokující narušení bezpečnosti, nebo pro vojenské stratégy, kteří se nyní musí vypořádat s poškozením jaderných schopností země {targetNationNameWithArticle}.<br/><br/>Zatím se ozvali pouze ozbrojenci, kteří požadují, aby země {targetNationNameWithArticle} dobrovolně zrušila svůj jaderný program, pokud nechce čelit hněvu svého mírumilovného obyvatelstva.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option0=Tohle bude někoho stát hlavu.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1=Vyslat na místo jednotky rychlého nasazení.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0=Úspěch.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Detail=Pod rouškou tmy byla do areálu vrtulníkem vysazena jednotka speciálních sil. Úspěšně vtrhla do řídícího centra a sil a zneškodnila ozbrojence dříve, než stačili způsobit značné škody. Ti, kteří přežili, budou souzeni a odsouzeni za vlastizradu.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Detail=Pod rouškou tmy byla do areálu vrtulníkem vysazena jednotka speciálních sil. Bohužel dorazila příliš pozdě na to, aby zabránila zničení jaderných hlavic a dalších podpůrných zařízení. Zbývající ozbrojenci se okamžitě vzdali a prohlásili, že jejich práce zde skončila.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2=Obklíčit pozici a znovu ji dobýt pomocí pozemních jednotek.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0=Úspěch.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Detail=Pro ostřelování a útok na tento objekt byla rychle sestavena pozemní jednotka. Úspěšně vtrhla do řídícího centra a sil a zneškodnila ozbrojence dříve, než stačili způsobit značné škody. Ti, kteří přežili, budou souzeni a odsouzeni za vlastizradu.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Detail=Pro ostřelování a útok na tento objekt byla rychle sestavena pozemní jednotka. Bohužel dorazila příliš pozdě na to, aby zabránila zničení jaderných hlavic a dalších podpůrných zařízení. Zbývající ozbrojenci se okamžitě vzdali a prohlásili, že jejich práce zde skončila.

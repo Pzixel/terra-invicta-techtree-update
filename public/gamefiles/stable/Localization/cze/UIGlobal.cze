@@ -38,7 +38,7 @@ UI.Global.AltDivCentered=<align="center">─────────</align>
 UI.Global.SerialDividerWithSpace=,<sp>
 UI.Global.ListConjunction=<sp>a<sp>
 UI.Global.ListSerialConjunction= a<sp>
-UI.Global.ListConjuctionOr=<sp>nebo<sp>
+UI.Global.ListConjuctionOr=<sp>nebo<sp>	// Loc Key misspelled without 'n'; "ListConjuctionOr"
 UI.Global.ListSerialConjunctionOr= nebo<sp>
 UI.Global.PositiveValueWithSign=+{0}
 UI.Global.DollarValue={0} $	// some values in the game are calculated using 2018 dollar values so should not be localized

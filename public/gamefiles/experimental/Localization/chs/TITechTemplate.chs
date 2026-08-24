@@ -55,12 +55,12 @@ TITechTemplate.description.AdvancedMissileWarfareDoctrine=航天器设计没有�
 
 TITechTemplate.displayName.AdvancedNeuralNetworks=进阶神经网络
 TITechTemplate.summary.AdvancedNeuralNetworks=神经网络的进步可提升输出速度和计算能力。
-TITechTemplate.quote.AdvancedNeuralNetworks=“任何有能力与我们接触的外星种族，必然都已经克服了困扰着人类的无谓纷争，所以才能以一致的声音向我们发声。因此，我们应当用尽一切可行办法，让他们知道我们同样是一个团结和谐的种族。”<br/><align=right>{cooperateLeader}<align=left><br/><align=right>国际模拟联合国辩论会的录像档案<br/>主题：人类应该如何应对与外星人的第一次接触？
+TITechTemplate.quote.AdvancedNeuralNetworks=“任何有能力与我们接触的外星种族，必然都已经克服了困扰着人类的无谓纷争，所以才能以一致的声音向我们发声。因此，我们应当用尽一切可行办法，让他们知道我们同样是一个团结和谐的种族。”<br/><align=right>{cooperateLeader}<align=left><br/><align=right>国际模拟联合国辩论会的录像档案<br/>主题：人类应该如何应对与外星人的第一次接触？<align=left>
 TITechTemplate.description.AdvancedNeuralNetworks=现代神经网络其实就是计算学习和预测建模系统，主要用于语音和图像识别、医疗诊断，乃至垃圾邮件过滤。这一领域的新进展来源于对生物技术的运用，力求使其思维模式更加贴近人类。这大大扩展了神经网络的应用范围，并显著提高了神经网络辨识与理解周遭世界的能力。在这些不知情感的数字大脑面前，过去令我们束手无策的难题纷纷迎刃而解，无论是破译宇宙的奥秘、治疗顽固的疑难杂症、还是减轻我们日常生活中的种种琐碎负担与不便，例如辨别植物，指挥空中交通，或为电子游戏生成文本。而且重要的是，这些次时代神经网络也是迈向真正人工智能的关键踏脚石。 
 
 TITechTemplate.displayName.AdvancedSuperconductors=先进超导体
 TITechTemplate.summary.AdvancedSuperconductors=我们可以超越材料的已知电阻来储存和传输能量。
-TITechTemplate.quote.AdvancedSuperconductors=“选一张卡片。现在对它吹一口气。很好！然后轻拍我的手三下。真棒！<br/>就这样……这张卡……飘走了。”<br/><align=right>{appeaseLeader}<align=left><br/><align=right>他女儿三岁生日时的家庭录像。
+TITechTemplate.quote.AdvancedSuperconductors=“选一张卡片。现在对它吹一口气。很好！然后轻拍我的手三下。真棒！<br/>就这样……这张卡……飘走了。”<br/><align=right>{appeaseLeader}<align=left><br/><align=right>他女儿三岁生日时的家庭录像。<align=left>
 TITechTemplate.description.AdvancedSuperconductors=随着我们的能量和数据传输能力逼近理论极限，我们有必要对现有技术进行改进，以满足我们对动力和信息日益增长的需求。无论是基于传统的 BCS 材料、铜氧化物、还是新颖的铁基化合物，超导材料都只能在极低温环境下工作。这一固有桎梏给我们带来了诸多不便，而现在，我们必须将其击碎。通过探索更高效、更省事的氮基冷却方法，我们现在能够制作出新一代超导物质，其效率比现有超导物质要高出几个数量级，能够近乎无损地传导海量能量，而且即使是在室温环境中也能正常工作。考虑到人类对数据和电力日益增长的依赖，可以说此类技术突破对每一个社会来说都是绝对不可或缺的。 
 
 TITechTemplate.displayName.AntimatterContainment=反物质容器
@@ -79,7 +79,7 @@ TITechTemplate.quote.AntimatterPropulsion=“太空啊，就像是，无边无�
 TITechTemplate.description.AntimatterPropulsion=既然现在能以工业规模生产反物质，那我们终于能研究如何将物质/反物质碰撞产生的惊人能量转换至高速太空飞行。比起推力本身，围阻反而是最急迫的问题，因为即使是两种相反粒子最小的意外相会，都能使航天器一分为二。对于这两方，电磁场再次是我们最亲近的盟友，既能围阻，也能导引这些毁灭性力量至任何我们认为合适的地方。另一个棘手的问题，则是质子和反质子碰撞时还会产生伽码射线，也就是致命的辐射。不过，我们先前在原子操纵术方面有所突破，能制造出极轻量的纳米材料，作为整艘航天器和航员衣物内部的辐射屏蔽。这一切意味着，我们使用尖端科技之余，还得采用几乎荒谬程度的健康安全措施，但最终目标会证明这趟艰辛旅程的意义──我们将有能力以前所未见的方式，在遥远的星际旅行并加以利用。
 
 TITechTemplate.displayName.AntimatterWeaponry=反物质武器
-TITechTemplate.summary.AntimatterWeaponry=利用爆破性的物质─反物质反应，可让我们打造出毁灭性的导弹武器。
+TITechTemplate.summary.AntimatterWeaponry=利用爆破性的物质─反物质反应，可让我们打造出毁灭性的武器。
 TITechTemplate.quote.AntimatterWeaponry=“一块钱，保罗‧蒂贝茨的母亲给他一块钱，让他在地方市集上一窥飞机的内部。几十年后，他开着轰炸机在广岛杀死 70,000 人。他用母亲的名字，将轰炸机取名为艾诺拉‧盖号。这全都是因为那一块钱。”<br/><align=right>{appeaseLeader}<align=left><br/><align=right>出自他的第二本著作《血钱》<align=left>
 TITechTemplate.description.AntimatterWeaponry=在航天器里，绝不乐见反物质反应所产生的伽玛射线，但在武器里，情况完全相反──物质/反物质碰撞造成的剧烈爆炸可损坏装甲，伽玛射线则能进一步伤害里面所有生命体。不过，反物质最棘手的问题永远都一样，就是要确保反物质仅会在我们想要的时机，与相对应的物质混合。若反物质炸弹或鱼雷在航天器的弹药库里意外引爆，造成的破坏简直不堪设想。我们想利用的正是这种可能的破坏力，即使没有伽玛射线的副作用亦然，因为物质/反物质反应本身的破坏力就非常威猛，单单将各半公克的物质和反物质混合，就能释放出比第一颗原子弹多 40% 的能量。当然，将来武器的用量肯定远超过半公克。科学家相信，若将氢粒子和反氢粒子悬在真空中，并用磁力瓶限制，就能充分降低风险，制造出以反物质为基础的爆炸。这将开拓宇宙战争的新纪元。 
 
@@ -133,7 +133,7 @@ TITechTemplate.summary.ArrivalLaw=法律学者思考该如何针对地球和外�
 TITechTemplate.quote.ArrivalLaw=“如果一支聪慧温和的古老蛇人种族突然从沙漠爬出来，他们并不会获得权利，也不会受到保护！任何拿着步枪的白痴都可能让奇迹变成一双靴子！”<br/><align=right>{appeaseLeader}<align=left><br/><align=right>于激烈的 BBC《新闻之夜》难民危机讨论<align=left>
 TITechTemplate.description.ArrivalLaw=如今我们当中存在其他物种。这是不能逆回的情况。无论外星人到来的长期影响为何，我们绝不可能回到地表人类只考虑自身需求、权利、行为的世界。国内和国际法律的架构都已陈旧不堪，当时制定时并不需要考量如此诡异的光景，因此我们现在必须赶快设计新的法令和权力结构。我们要建立的不只是如何应对那些不速之客，也包括如何及能否整合他们存在于我们生活中所带来的发现。光是遗传学受到的影响，就必须订定一整套新的法律和伦理。除此之外，在太空生活方面也有无穷无尽的复杂情况，诸如谁能主张拥有什么、应设立哪些疆界，以及应免除哪些科技的专利限制来造福全人类。因此我们委托全世界最厉害的法学人才，来起草基本上是全新的国际宪法。对这世界上所有国家 (和在这之外的国家) 而言，这是令人瞠目结舌的复杂起点，能开始为这让人不安又大胆的新时代制定法律。
 
-TITechTemplate.displayName.ArrivalMassCommunications=异星降临后大众传播
+TITechTemplate.displayName.ArrivalMassCommunications=异星降临后大众传媒
 TITechTemplate.summary.ArrivalMassCommunications=这世界应对外星人的方式，取决于由谁建立相关论述。
 TITechTemplate.quote.ArrivalMassCommunications=“你在开玩笑，对吧？我可以在电视上直播烧小狗，没错，而且这他妈的不会改变什么。他们就是这么喜欢我。”<br/><align=right>{exploitLeader}<align=left><br/>诽谤审判胜诉后向媒体发表的评论，2016 年<align=left>
 TITechTemplate.description.ArrivalMassCommunications=谁掌控媒体，谁就掌控思想。虽然最近数十年来，大众媒体和辩论的平台几乎面目全非，但基本的道理依然相同。外星人的到来不仅引起广泛的恐慌，也使机会主义广为散播──对很多人来说，这场大揭露所引发的歇斯底里是控制心灵的理想方式。阴谋论、极端民族主义、激进化，甚或是错置的宗教敬畏随处可见，在社会陷入更严重的分化之前，头脑冷静的人们务必掌管相关讯息。维护秩序和协调全球面对当前及未来的任何不速之客，都至关重要，若建立新的方式让各国元首能向全体人类说话，肯定也会收获良多。将来，人类越来越有可能会散居各个星球，若要保有任何一丝团结，我们会需要涵盖各个世界的通讯管道。 
@@ -201,7 +201,7 @@ TITechTemplate.description.DeepSpacePropulsionConcepts=离开地球是一回事�
 TITechTemplate.displayName.DeepSystemSkywatch=深层天空守望者
 TITechTemplate.summary.DeepSystemSkywatch=我们能几乎即时观测整座太阳系。
 TITechTemplate.quote.DeepSystemSkywatch=“年纪轻轻，又像你一样被现代世界保护得好好的，怎么能开始明白战争的本质？我做了该做的事。若闭上眼睛期待怪物离开，只会让你更容易成为囊中物。”<br/><align=right>{destroyLeader}<align=left><br/><align=right>因涉嫌于兀鹰行动期间犯下战争罪，受审时的结案证词<align=left>
-TITechTemplate.description.DeepSystemSkywatch=活在确知宇宙不只有我们的情况下，我们必须从为了某种科学目的而观察太阳系外的寒冷世界，变成像执行情报搜集行动一样积极监测，就像瞭望塔上的哨兵。由于地球和空间站不停转动，这会需要用感测器组成的整合网络，再搭配随时待命的分析人员，以调查那些一闪而逝的光点，究竟单纯是小小的镍铁块踏上穿越宇宙的宏大旅程，还是一架外星航天器正在航向地球。
+TITechTemplate.description.DeepSystemSkywatch=确知宇宙不只有我们，所以我们必须从为了某种科学目的而观察太阳系外的寒冷世界，变成像执行情报搜集行动一样积极监测，就像瞭望塔上的哨兵。由于地球和空间站不停转动，这会需要用感测器组成的整合网络，再搭配随时待命的分析人员，以调查那些一闪而逝的光点，究竟单纯是小小的镍铁块踏上穿越宇宙的宏大旅程，还是一架外星航天器正在航向地球。
 
 TITechTemplate.displayName.DesignerLifeforms=设计生命体
 TITechTemplate.summary.DesignerLifeforms=基因工程师学会打造具有特定目的的生命体。
@@ -392,7 +392,7 @@ TITechTemplate.description.MindandMachine=目前为止，模控学和人工智�
 
 TITechTemplate.displayName.MissileWarfareDoctrine=导弹战守则
 TITechTemplate.summary.MissileWarfareDoctrine=军事科学家调整自助导引导弹系统，以适用于太空战斗。
-TITechTemplate.quote.MissileWarfareDoctrine=“别想著成为大象，而是要成为蚊子。蚊子可以刺穿大象的厚皮，偷偷把病毒灌进血液，大象无力的尾巴还赶不走它。”<br/><align=right>{destroyLeader}<align=left><br/><align=right>引自他的 (未出版) 自传《五步之遥》<align=left>
+TITechTemplate.quote.MissileWarfareDoctrine=“别想着成为大象，而是要成为蚊子。蚊子可以刺穿大象的厚皮，偷偷把病毒灌进血液，大象无力的尾巴还赶不走它。”<br/><align=right>{destroyLeader}<align=left><br/><align=right>引自他的（未出版）自传《五步之遥》<align=left>
 TITechTemplate.description.MissileWarfareDoctrine=即使在探索新型武器以保护太空利益时，放弃不起眼的导弹也很不智。虽然比起大多数的其他武器，导弹更容易被超越或闪避，但却有追击敌方飞船的独特优势，且无论距离多远都能输送相同的酬载。为了成功压制所有意图抵御导弹的点防御系统，工程师一直聚焦于两个方向来努力。首先是质量，航天器需要携带许多的导弹，因此打造新的轻型结构可在一定程度上缓解这个问题。再来是运算和瞄准系统，以确保导弹能从多个难以预测的方向发射、会合，并“了解”最适合瞄准的航天器区域。相较之下，我们新型导弹的多光谱导引系统确实相对直接明了，毕竟载人航天器输出的热辐射、可见光和无线电波都非常丰富，实在很难跟丢。 
 
 TITechTemplate.displayName.MissiontoJupiter=木星任务
@@ -427,7 +427,7 @@ TITechTemplate.description.MissionToSpace=在太空中生存，和仅仅穿越�
 
 TITechTemplate.displayName.MissiontotheAsteroids=小行星任务
 TITechTemplate.summary.MissiontotheAsteroids=开采木星轨道内部的千万颗小天体，可加速太空工业化。
-TITechTemplate.quote.MissiontotheAsteroids=“我们不拿，别人就会拿，而且拿到后，迟早会用它来对付我们。所以我们必须把它拿下，无论需要与否。”<br/><align=right>{destroyLeader}<align=left><br/><align=right>引自他的官方传记《先人五步》（2015 年，于出版前取消）<align=left>
+TITechTemplate.quote.MissiontotheAsteroids=“我们不拿，别人就会拿，而且拿到后，迟早会用它来对付我们。所以我们必须把它拿下，无论需要与否。”<br/><align=right>{destroyLeader}<align=left><br/><align=right>引自他的官方传记《先人五步》（于出版前取消）<align=left>
 TITechTemplate.description.MissiontotheAsteroids=在火星和木星之间，充满着许多富含珍贵元素的岩石。它们分为三大类：S 型小行星含有一些金属和稀有的裂变物；C 型小行星是含有挥发性物质，M 型小行星则富含基金属和贵金属。小行星离太阳的距离越远，存在水的可能性就越高。虽然比月球和火星远得多，但这些小行星具有微不足道的引力，使我们能够以更低的成本建造弹射器。 
 
 TITechTemplate.displayName.MissiontotheMoon=月球任务
@@ -458,7 +458,7 @@ TITechTemplate.description.NetworkedGlobalDefense=长久以来，多亏有智慧
 TITechTemplate.displayName.NetworkedPropaganda=宣传计划网络
 TITechTemplate.summary.NetworkedPropaganda=我们研究如何在互联网的多对多环境中影响公众舆论。
 TITechTemplate.quote.NetworkedPropaganda=“假新闻、虚假信息……叫什么都不重要。明摆的事实就是强者为之，弱者怨之，这就是为什么弱者永远不会成为强者。”<br/><align=right>{exploitLeader}<align=left><br/><align=right>在亿万富翁俱乐部讨论期间<align=left>
-TITechTemplate.description.NetworkedPropaganda=在这最动荡的时代，若说人们不需要控制人的心灵，也至少越来越需要有影响力的心灵。随着外星人的到来改变了昔日的忠诚、形成新的支持，国际疆界 (或实际上是星球疆界) 根本不会对讯息传播造成任何阻碍。模控学的出现也在这方面提供了惊人的机会。我们正在测试实验性的新植入体，以摒除过去对装置、萤幕、缆线的需求，并让任何人在任何地方几乎即时收发讯息和影片。 <br/><br/>用于组织运动、群众外包计划、大规模协调救助行动的潜力无穷无尽，却也可能被用于剥削。这不单是指行销广告，还包括恶意地让他人慢慢屈从其意志、煽动政变，或通过长期直接面向感官的不实讯息宣传活动来动摇对手。但这个大众传播的新时代就像回不去神灯的精灵──胜者为王。
+TITechTemplate.description.NetworkedPropaganda=在这最动荡的时代，即使无法控制人心，至少也越来越需要去影响人心。外星人的到来改变了昔日的忠诚、形成新的支持，国际疆界（或者说，实际上是星球疆界）根本不会对信息传播造成任何阻碍。控制论的出现也在这方面提供了惊人的机会。我们正在测试实验性的新植入体，以摒除过去对设备、屏幕、线缆的需求，并让任何人在任何地方几乎即时收发信息和视频。<br/><br/>用于组织运动、众包倡议、大规模协调救助行动的潜力无穷无尽，却也可能被用于剥削。这不单是指营销广告，还包括恶意地让他人慢慢屈从其意志、煽动政变，或通过长期直接面向感官的不实信息宣传活动来动摇对手。但这个大众传媒的新时代就像回不去神灯的精灵──胜者为王。
 
 TITechTemplate.displayName.Neutronics=中子学
 TITechTemplate.summary.Neutronics=物理学家们发明了能将中子输送至指定位置的同时避开其他位置的方法
@@ -482,7 +482,7 @@ TITechTemplate.description.NuclearFusioninSpace=打从第一眼看见天空中�
 
 TITechTemplate.displayName.OrbitalFighters=外大气层战斗机
 TITechTemplate.summary.OrbitalFighters=我们开发了能够从地面到达近地轨道的小型战舰。
-TITechTemplate.quote.OrbitalFighters=“历史的长河中，沉没着无数号称动力强大，却被其重量压沉的舰队。我对巨大的战斧没兴趣，我要的是一把完美平衡的匕首。<br/><align=right>{destroyLeader}<align=left><br/><align=right>《轨道战基本守则》<align=left>
+TITechTemplate.quote.OrbitalFighters=“历史的长河中，沉没着无数号称动力强大，却被其重量压沉的舰队。我对巨大的战斧没兴趣，我要的是一把完美平衡的匕首。<br/><align=right>{destroyLeader}<align=left><br/><align=right>引自他的官方传记《先人五步》（于出版前取消）<align=left>
 TITechTemplate.description.OrbitalFighters=由于将一艘庞大的装甲战舰从地球引力井中推进的难度极大，以及像武装航天飞机这样的航天器在生存性方面的完全不足，至今我们未曾考虑过任何形式的具备作战能力的地对轨道航天器。相反，我们将重点放在了在地球表面以外组装航天器。然而，推进技术和轻型材料的进步使得小型战斗机成为近地轨道的可行选项。这些外大气层战斗机，或称“奇异战斗机”，将通过传统的分级火箭从地球表面发射，或从类似客机大小的母舰航空器上发射，亦或利用新的单级入轨技术达到近地轨道的作战区域。在完成战斗后，它们将像飞机一样返回地球并在长跑道上着陆。<br/><br/>由于这些航天器需要大量的地面支持，它们将作为国家资产，在执行阵营的指挥下运行，由国家投资建造，并停放在地球上的发射设施内。它们能够在任何地球交互轨道上参与战斗，或自主发起对这些轨道上的目标的攻击。升级化学和固体堆芯推进力、小型固体堆芯、装甲、瞄准计算机、电子反制措施以及导弹将增强其作战能力。
 
 TITechTemplate.displayName.OrbitalShipbuilding=在轨造船
@@ -502,7 +502,7 @@ TITechTemplate.description.OrbitalTorusHabs=既然我们不仅能在太空建立
 
 TITechTemplate.displayName.OurSpaceFuture=太空未来
 TITechTemplate.summary.OurSpaceFuture=随着我们越来越多在太空生活，我们在思考太空地球混合型社会可能带来哪些改变。
-TITechTemplate.quote.OurSpaceFuture=“相信并接受外头还有其他灵魂吧──那也是由神创造的，和我们一样。加入他们、展开跨星际的心灵交会，既是我们的任务、我们的职责，也是我们的荣幸。”<br/><align=right>{submitLeader}<align=left><br/><align=right>出自容外浸信会的宣传传单，于净化火焰之夜前五个月<align=left>
+TITechTemplate.quote.OurSpaceFuture=“相信并接受外头还有其他灵魂吧──那也是由神创造的，和我们一样。加入他们、展开跨星际的心灵交会，既是我们的任务、我们的职责，也是我们的荣幸。”<br/><align=right>{submitLeader}<align=left><br/><align=right>出自容外浸信会的宣传传单，<br/>于净化火焰之夜前五个月<align=left>
 TITechTemplate.description.OurSpaceFuture=如今已无法回头，人类已在太空中发展军事和工业，更别提人口不停增长，还觉得地球生活是越来越遥远的记忆。是时候加倍努力，不再认为自己是受限于地球的物种。换句话说，我们要建立新形式的法律、秩序和通讯，来治理陆地、天空和太空，而在适应这混合型新社会的过程中，将产生无数的动荡。因此，为了抵御内忧外患，我们还需要受过特殊训练的部队。至于如何达成这一切，我们现在已有具体方案，一旦实现，我们就可以认真考虑建立真正的、更大规模的太空社会。
 
 TITechTemplate.displayName.OutpostHabs=前哨站殖民地
@@ -527,7 +527,7 @@ TITechTemplate.description.PhotonicComputing=目前的计算装置仰赖通过�
 
 TITechTemplate.displayName.PlasmaWeapons=电浆武器
 TITechTemplate.summary.PlasmaWeapons=自持磁场可让电浆 (和恒星核心一样高温的气体) 武器化，并用作毁灭性炮弹。
-TITechTemplate.quote.PlasmaWeapons=“只要可以，我们人类就会把所有东西做成武器。每一次崭新的发现，都只会让我们离毁灭更近一步。”<br/><align=right>{appeaseLeader}<align=left><br/><align=right>《血钱》
+TITechTemplate.quote.PlasmaWeapons=“只要可以，我们人类就会把所有东西做成武器。每一次崭新的发现，都只会让我们离毁灭更近一步。”<br/><align=right>{appeaseLeader}<align=left><br/><align=right>《血钱》<align=left>
 TITechTemplate.description.PlasmaWeapons=既然我们已经可以使用磁场来安全地控制过热气体，并从威力惊人的动能武器中发射炮弹，那么下一步自然就是将等离子体武器化。等离子体弹不仅可以烧穿最厚重的装甲，还能以高温烤焦装甲保护下的任何物体，不过我们的工程师设计出的这种改良版电磁武器在发射比太阳还炽热的等离子体弹时，并不会与其产生物理接触，因而不会对使用者造成任何损害。但问题在于，等离子体弹一经射出，几乎立刻就会飞速扩散，一瞬间便能达到五千公里的直径——消散速度之快，以至于除非在平射距离内发射，否则实际上毫无用处。显然，制造强大到足以容纳等离子体的物理外壳是不可能的；但是基于先前在电磁领域的突破，我们能够以一个暂时性的强大自持磁场，来使等离子体在命中目标之前保持稳定。换句话说，我们现在可以制造一款几乎无敌的武器。
 
 TITechTemplate.displayName.PredictiveGenetics=预测遗传学
@@ -583,7 +583,7 @@ TITechTemplate.description.Skywatch=比起人类对太空感兴趣的时间，�
 TITechTemplate.displayName.SolidCoreFissionSystems=固体炉心核裂变系统
 TITechTemplate.summary.SolidCoreFissionSystems=这种核裂变反应堆使用由重放射性元素组成的固体燃料来产生能量。
 TITechTemplate.quote.SolidCoreFissionSystems=“我们永远不会知道，莉泽‧迈特纳和奥托‧哈恩有没有想过他们发现的核裂变有一天会被用来打造航天器。尽管如此，希望我们能让他们感到骄傲。”<br/><align=right>{cooperateLeader}<align=left><br/><align=right>太空港高峰会的主题演讲<align=left>
-TITechTemplate.description.SolidCoreFissionSystems=1938 年发现核裂变时，很少人会相信，有一天我们会用来把人送上浩瀚无垠的太空。不过，奠基于在太空中实现核裂变的基础成就，我们现在已打造出第一代固体炉心核裂变系统，来为太空殖民地和航天器提供动力。 <br/><br/>通过使用由重放射性物质组成的固体燃料 (例如二氧化铀或氧化钸)，我们制造出即使在零重力下也能维持连锁反应的反应堆。第一次的核裂变反应是由慢速移动的中子轰击固体燃料来启动，以克服将原子核约束在一起的核结合力，随后在原子核裂变时释放出大量中子和能量。释出能量的形式为热，并由专为太空设计的高压水冷却系统来捕捉。 <br/><br/>这项进步将使我们有能力在地球轨道外建造新的更大型殖民地，航天器的驱动器也会比过去更强大。未来的核裂变系统可能会采用熔融或气体炉心燃料，研究人员相信，这将使我们与外星访客更势均力敌。 
+TITechTemplate.description.SolidCoreFissionSystems=1938 年发现核裂变时，很少人会相信，有一天我们会用来把人送上浩瀚无垠的太空。不过，奠基于在太空中实现核裂变的基础成就，我们现在已打造出第一代固体炉心核裂变系统，来为太空殖民地和航天器提供动力。<br/><br/>通过使用由重放射性物质组成的固体燃料（例如二氧化铀或氧化钸），我们制造出即使在零重力下也能维持连锁反应的反应堆。第一次的核裂变反应是由慢速移动的中子轰击固体燃料来启动，以克服将原子核约束在一起的核结合力，随后在原子核裂变时释放出大量中子和能量。释出能量的形式为热，并由专为太空设计的高压水冷却系统来捕捉。<br/><br/>这项进步将使我们有能力在地球轨道外建造新的更大型殖民地，航天器的驱动器也会比过去更强大。未来的核裂变系统可能会采用熔融或气体炉心燃料，研究人员相信，这将使我们与外星访客更势均力敌。 
 
 TITechTemplate.displayName.SpaceAgriculture=太空农业
 TITechTemplate.summary.SpaceAgriculture=在微重力和无重力环境实作农业技术。
@@ -678,7 +678,7 @@ TITechTemplate.description.Ultracapacitors=成功开发超级电容器后，下�
 TITechTemplate.displayName.UltravioletCombatLasers=紫外战斗激光炮
 TITechTemplate.summary.UltravioletCombatLasers=紫外线频率的激光炮，拥有造成远程伤害的巨大潜力。
 TITechTemplate.quote.UltravioletCombatLasers=“如果没有臭氧层来保护我们不受紫外线的伤害，当初地球上就不会发展出生命。”<br/><align=right>{cooperateLeader}<align=left><br/><align=right>于北京清华大学的天文物理学系列讲座<align=left>
-TITechTemplate.description.UltravioletCombatLasers=虽然改用可见光的激光武器可提升威力和功能性，但其射程方面的缺点限制了在远距离冲突中的实用性。目前我们改用紫外线型战斗激光炮。极紫外线非常难使用，因为它几乎能烧穿所有接触的物质──没错，很适合对付重装甲敌军，但我们首先要能聚焦，且不会在过程中瞬间摧毁所需的透镜和反射镜。 <br/><br/>运用拥有多层极密高反射纳米材料涂层的特殊新型介质反射镜后，我们克服了这项问题，让这款最新武器能利用紫外线光谱，又不会损失强度。这种激光系统能在远距离外发射精准的光束，造成巨大的破坏。通过使用紫外线，我们还进一步减低了大气粒子的散射效应，因此无论在地球大气层，还是在太空真空，这款最新武器的威力都更加强大。 
+TITechTemplate.description.UltravioletCombatLasers=虽然改用可见光的激光武器可提升威力和功能性，但其射程方面的缺点限制了在远距离冲突中的实用性。目前我们改用紫外线型战斗激光炮。极紫外线非常难使用，因为它几乎能烧穿所有接触的物质──没错，很适合对付重装甲敌军，但我们首先要能聚焦，且不会在过程中瞬间摧毁所需的透镜和反射镜。<br/><br/>运用拥有多层极密高反射纳米材料涂层的特殊新型介质反射镜后，我们克服了这项问题，让这款最新武器能利用紫外线光谱，又不会损失强度。这种激光系统能在远距离外发射精准的光束，造成巨大的破坏。但它们很难穿透地球和土卫六等星球的浓厚大气层。
 
 TITechTemplate.displayName.UnityMovements=统合运动
 TITechTemplate.summary.UnityMovements=政治学家重新划分国家，统合志同道合的文化，将地缘政治的力量最大化。

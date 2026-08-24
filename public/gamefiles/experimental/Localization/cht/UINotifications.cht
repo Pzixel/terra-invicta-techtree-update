@@ -86,12 +86,12 @@ UI.Notifications.MyControlPointTakenSummary=我們{0}的控制點已經被{1}奪
 UI.Notifications.MyControlPointTaken=我們{0}內的{3}控制點已經被{1}奪走了。許多我方陣營的人不再回覆訊息，我們也因當地的事件失去了大量的勢力。{2} 
 UI.Notifications.MyControlPointDominatedHed=控制點投降
 UI.Notifications.MyControlPointDominatedSummary={0}探員迫使{1}控制點{2} 投降。
-UI.Notifications.MyControlPointDominatedDetail={0}的探員威脅要對軍事和民用目標發動軌道系統攻擊{1}，迫使當地的領袖投降，並交出我們其中一個控制點。{2}
-UI.Notifications.MyControlPointDominatedDetail2=在試圖迫使我們的反抗者屈服後，{0}的支持者開始對軍事和民用目標{1}發動毀滅性的軌道系統攻擊。生還者已經投降，並將我們其中一個控制點交給了他們。{2}
+UI.Notifications.MyControlPointDominatedDetail={0}的特務威脅要對軍事和民用目標進行軌道攻擊{1}，使當地的領袖投降，並交出我們的一個控制點。為了預防這種情況，我們需要摧毀他們在地球軌道上的所有崗哨艙體。 {2}
+UI.Notifications.MyControlPointDominatedDetail2=在試圖使我們的支持者屈服後，{0}的支持者又開始對軍事和民用目標進行毀滅性的軌道攻擊{1}。生還者已經投降，並將我們的一個控制點交給了他們。為了預防這種情況，我們需要摧毀他們在地球軌道上的所有崗哨艙體。 {2}
 UI.Notifications.Neutral=中立
 UI.Notifications.NoFaction=無陣營
 UI.Notifications.MyControlPointCrackedDownHed=鎮壓
-UI.Notifications.MyControlPointCrackedDownSummary=我們的敵手對我們{1}內的{0}控制點展開了鎮壓行動。 
+UI.Notifications.MyControlPointCrackedDownSummary=我們的敵手對我們{1}內的{0}控制點展開了鎮壓行動。  
 UI.Notifications.MyControlPointCrackedDownDetail=我們的敵手對我們{1}內的{0}控制點展開了鎮壓行動。該地區容易受肅清任務影響，我們在{2}之前都不會收到當地的收益。
 UI.Notifications.ArmiesLost=我們的損失包含指派到當地控制點的{0}，他們在月底時會被調派至{1}。 
 UI.Notifications.army=軍隊
@@ -138,7 +138,7 @@ UI.Notifications.ArmyArrivesDetailOccupation={0}已經抵達{1}地區並開始�
 UI.Notifications.ArmyArrivesDetailSafe={0}已經抵達{1}地區。
 UI.Notifications.ArmyOccupiesRegionHed=成功佔領{0}地區
 UI.Notifications.ArmyOccupiesRegionSummary={0}成功佔領{1}。
-UI.Notifications.ArmyOccupiesRegionDetail={0}已經成功佔領{1}。 
+UI.Notifications.ArmyOccupiesRegionDetail={0}已經成功佔領{1}。  
 UI.Notifications.HedCouncilorSpotted=發現敵方特使
 UI.Notifications.UnknownCouncilorSpotted={0}的特務疑似發現敵方陣營{1}的特使。
 UI.Notifications.UnknownCouncilorSpottedDetail={0}的特務已在{1}發現其他應對外星人登陸的秘密組織所派遣的特使。我們可以派遣我方特使去調查了解這個人。
@@ -163,7 +163,7 @@ UI.Notifications.DetainFailsHed=抓捕失敗
 UI.Notifications.DetainFailsSummary={0}試圖扣押{1}但未能成功。
 UI.Notifications.DetainFailsDetail={0}試圖扣押{1}，但我方特使成功避開了對方的探員。我們應考慮讓身分曝光的特使執行{2}任務，避免遭到進一步的拘捕。
 
-UI.Notifications.TurnFailsHed=特使拒絕背叛{0} 
+UI.Notifications.TurnFailsHed=特使拒絕背叛{0}  
 UI.Notifications.TurnFailsSummary={0}試圖說服{1}加入他們。
 UI.Notifications.TurnFailsDetail={0}試圖說服{1}背叛我們，成為他們的間諜，但我方特使拒絕並回報了這個事件。我們應考慮讓身分曝光的特使執行{2}任務，擺脫正在追蹤他們的敵方特使。
 
@@ -221,8 +221,10 @@ UI.Notifications.SpecialProjectTriggered.Summary=我們現在可以執行{0}計�
 UI.Notifications.SpecialProjectTriggered.Detail=我們的研究與開發團隊很高興地回報，他們已經克服顯著的不確定性，現在可以執行<h>{0}</h>計畫了。
 UI.Notifications.ProjectComplete.Hed=計畫完成<br/>{0}
 UI.Notifications.ProjectComplete.Summary=我們已經完成{0}計畫。
-UI.Notifications.ProjectComplete.Detail=我們已經完成{0}計畫。<br/>{1}
-UI.Notifications.ProjectComplete.Detail2=我們已經完成{0}計畫。{1}<br/><br/>{2}
+UI.Notifications.ProjectComplete.Detail=我們已經完成{0}計畫。<br/><br/>{1}									
+UI.Notifications.ProjectComplete.Detail2=我們已經完成{0}計畫。<br/><br/>{1}<br/><br/>{2}					
+UI.Notifications.ProjectComplete.Summary.OtherFaction={0}的支持者已經完成{1}計畫。					
+UI.Notifications.ProjectComplete.Detail.OtherFaction={0}的支持者已經完成{1}計畫。<br/><br/>{2}		
 
 UI.Notifications.ProjectComplete.OrgGained=我們的成就衍生出了新組織：{0}，該組織會出現在我們的陣營名單中，並可以指派給特使。<br/>
 UI.Notifications.ProjectComplete.ResourcesGained=我們獲得了下列資源：{0}<br/>
@@ -277,7 +279,7 @@ UI.Notifications.WarOptionJoin.Summary={0}已加入{1}的陣營對抗{2}。
 UI.Notifications.WarOptionJoin.Detail={0}已加入{1}的陣營對抗{2}。
 UI.Notifications.JoiningAllies=，由{0}加入，
 UI.Notifications.NationJoinsWar.Summary={0}已加入{1}的陣營對抗{2}。
-UI.Notifications.AllianceLeaderAttack={0}會帶頭攻擊同盟。 
+UI.Notifications.AllianceLeaderAttack={0}會帶頭攻擊同盟。  
 UI.Notifications.AllianceLeaderDefend=防禦同盟會由{0}領導。
 UI.Notifications.EndWarOption.Hed=和平
 UI.Notifications.EndWarOption.Summary={0}和{1}現在處於和平狀態。
@@ -301,7 +303,7 @@ UI.Notifications.EndRivalryOption.Decline.Hed=對立關係持續
 UI.Notifications.EndRivalryOption.Decline={0}拒絕了和{1}終止對立關係的提議。
 UI.Notifications.EndRivalryOption.Hed=對立關係終止
 UI.Notifications.EndRivalryOption.Summary={0}和{1}終止了他們的對立關係。
-UI.Notifications.EndRivalryOption.Detail={0}和{1}終止了他們的對立關係，並恢復成一般的關係。
+UI.Notifications.EndRivalryOption.Detail=<h>{0}</h>和<h>{1}</h>終止了他們的對立關係，並恢復成一般的關係。
 UI.Notifications.JoinFederationOption.Hed=聯盟
 UI.Notifications.JoinFederationOption.Summary={0}決定加入{1}的聯盟。
 UI.Notifications.JoinFederationOption.Detail={0}決定加入{1}的聯盟。他們會成為永久的盟友，並共享太空計畫的資金和航太力。
@@ -339,7 +341,7 @@ UI.Notifications.DisarmNuclearWeaponsOption.Detail2={0}已經清除儲備的核�
 UI.Notifications.EmployNuclearWeaponsOption.Hed=核武攻擊
 UI.Notifications.EmployNuclearWeaponsOption.Summary={0}已經對{1}發動核武攻擊。
 UI.Notifications.EmployNuclearWeaponsOption.Detail=核武攻擊來襲！<br/><br/>{0}已經對{1}發起核武攻擊，此舉一定會造成大規模的毀滅和重大傷亡。
-UI.Notifications.EmployNuclearWeaponsOption.Detail2=核武攻擊來襲！<br/><br/>{0}已經對他們在{1}的敵人發起核武攻擊。雖然攻擊只針對該地區的敵方目標，但仍對當地的經濟和市民人口造成了顯著的破壞。
+UI.Notifications.EmployNuclearWeaponsOption.Detail2=核武攻擊進行中！ <br/><br/>{0}已經對他們在{1}的敵人發動核武攻擊。雖然攻擊只針對該地區的敵人目標，仍然對當地的經濟和平民人口造成了顯著的破壞。
 UI.Notifications.ControlNote=</h>，由{0}控制，
 UI.Notifications.SelectPolicy=為{0}選擇政策
 UI.Notifications.PolicySuccessChance= ({0})
@@ -358,6 +360,7 @@ UI.Notifications.HabFoundedHed={0}已創立
 UI.Notifications.HabModuleComplete=太空殖民地艙體組已完成
 UI.Notifications.AlienCrashdownSummary=外星船艦已經墜落在{0}的{1}地區。
 UI.Notifications.AlienCrashdownHeadline=幽浮墜毀於地球
+UI.Notifications.AlienCrashdownDetail.First=一艘外星艦船已經墜落在{0}的{1}地區。雖然殘骸無法修復，我們懷疑一名外星生命體逃到附近的鄉下地區了。
 UI.Notifications.AlienCrashdownDetail=一艘外星艦船已經墜落在{0}的{1}地區。雖然殘骸無法修復，我們懷疑一名外星生命體逃到附近的鄉下地區了。
 UI.Notifications.UFOLandingSummary=外星飛船已經降落在{0}的{1}地區。
 UI.Notifications.UFOLandingHeadline=幽浮降落於地球
@@ -381,7 +384,7 @@ UI.Notifications.AlienArmySpawnsFirstDetail=我們已經在{0}地區發現由外
 UI.Notifications.AlienArmySpawnsDetail=外星人正在{0}地區組織另一支軍隊。我們得趕緊在他們的戰力達到巔峰之前攻擊。
 UI.Notifications.AbductionsSummary=我們在{1}的{0}地區收到疑似外星人綁架的報告。
 UI.Notifications.AbductionsHeadline=收到外星人綁架報告
-UI.Notifications.AbductionsDetail=我們在{1}的{0}地區收到疑似外星人綁架的報告。 
+UI.Notifications.AbductionsDetail=我們在{1}的{0}地區收到疑似外星人綁架的報告。  
 UI.Notifications.EnthrallPublicSummary=我們收到報告，{1}的{0}地區有遭到綁架後返回的人。
 UI.Notifications.EnthrallPublicHeadline=異常行為
 UI.Notifications.EnthrallPublicDetail=我們收到報告，{1}的{0}地區有遭到綁架後返回的人。他們的親戚說他們的行為怪異，並宣稱外星人主張和平，是來這裡幫助人類的。<br/><br/><h>我們的分析專家相信這是外星人企圖取得影響力的跡象，透過改變公眾意見以圖利{2}</h>。
@@ -450,7 +453,7 @@ UI.Notifications.FleetTrajectoryAbortedDetail_ReturnToOrbit=該船艦仍位於{1
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbit=該船艦目前沿著圍繞{0}的臨時軌道航行。
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbitWithBurn=該船艦為確實離開太陽系而開啟緊急燃燒功能，目前沿著圍繞{0}的軌道航行。
 UI.Notifications.FleetTrajectoryAbortedDetail_LeavingSolarSystem=它目前的速度能將其帶離太陽系，而且它沒有足夠的 Delta-V 來減速成繞行狀態來避免這個情況。如果我們能派出一支艦隊將其攔截，並為其補充更多推進劑，或許就能執行救援行動，將艦隊安全帶回。<br/><br/>艦隊如果按照這條軌道運行，不會耗費<color=#FFFFFFFF><sprite name="mission_control"></color>。
-UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=它其中的一些艦船已經分開並執行緊急燃燒，以確保自己不會離開太陽系。它們組成了艦隊{0}，目前正在圍繞{1}的軌道運行。剩下的艦船的速度會使它們飛離太陽系，而它們也沒有減速的方法。如果我們能派出一支艦隊將其攔截，並為其補充更多推進劑，或許就能實施救援行動，將艦隊安全帶回。<br/><br/>離開的艦隊如果按照這條軌道運行，不會耗費<color=#FFFFFFFF><sprite name="mission_control"></color>。
+UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=一些船隻已經分開並執行緊急燃燒，以確保自己不會離開太陽系。剩餘艦船（已組成艦隊{0}）的速度會使它們飛離太陽系，而它們也沒有減速的方法。如果我們能派出一支艦隊將其攔截，並為其補充更多推進劑，或許就能實施救援行動，將艦隊安全帶回。 <br/><br/>離開的艦隊如果按照這條軌道運行，不會耗費<color=#FFFFFFFF><sprite name="mission_control"></color>。
 UI.Notifications.FleetTrajectoryAbortedDetail_WillCrash=艦隊目前的路線會與{0}相撞，而且沒有辦法躲開。
 UI.Notifications.FleetTrajectoryAbortedDetail_SomeWillCrash=艦隊中部分船艦所在的路線會讓它們與{0}相撞，而且沒有辦法躲開。剩下的船艦已經與它們分開。
 UI.Notifications.TargetManeuveredAndWeCannotGiveChaseDetail_InsufficientDV={0}由於目標艦隊起飛而被迫中止轉移計畫。{0}缺乏足夠的 Delta-V 在新軌道抓捕{1}。
@@ -556,12 +559,12 @@ UI.Notifications.OurHabModuleDestroyedSummary=我們在{1}的{0}已經遭摧毀�
 UI.Notifications.OurHabModuleDestroyedDetail=我們在{1}的{0}已經遭摧毀。我們需要清理殘骸並重建。
 UI.Notifications.HabDefendInterestEndsSummary=我們在{0}的「確保利益」任務已經到期，我們的太空殖民地處於非常容易受敵方控制任務襲擊的狀態。
 UI.Notifications.HabAcquiredHed={0}已佔領{1}
-UI.Notifications.HabAcquiredSummary={2}太空殖民地{1}已經被{0}佔領。 
+UI.Notifications.HabAcquiredSummary={2}太空殖民地{1}已經被{0}佔領。  
 UI.Notifications.HabAcquiredDetail.Base=我們已經從{3}手中佔領了{2}{1}的{0}。我方團隊正在檢查{4}紀錄以取得可以利用的情報和研究。
 UI.Notifications.HabAcquiredDetail.Station=我們已經從{2}手中佔領了{1}的{0}。我們的團隊正在檢查{3}紀錄以取得可以利用的情報和研究。
 UI.Notifications.HabAcquiredDetail.ModulesDestroyed= 太空殖民地在戰鬥過程中受到了一些損害。
 UI.Notifications.HabDefectedHed={1}叛變至{0}
-UI.Notifications.HabDefectedSummary={2}太空殖民地{1}已經叛變至{0}。 
+UI.Notifications.HabDefectedSummary={2}太空殖民地{1}已經叛變至{0}。  
 UI.Notifications.HabDefectedDetail.Base={2}{1}的{0}已經背叛{3}轉而效忠我們。我們的團隊正在檢查{4}紀錄以取得可用的情報和研究。
 UI.Notifications.HabDefectedDetail.Station={1}的{0}已經背叛{2}轉而效忠我們。我們的團隊正在檢查{3}紀錄以取得可用的情報和研究。
 UI.Notifications.HabDefectedDetail.ModulesDestroyed=太空殖民地在叛變中受到了一些損害。
@@ -574,16 +577,26 @@ UI.Notifications.OurHabDestroyedSummary={0}已被{1}摧毀。
 UI.Notifications.OurHabDestroyedDetail.Base={0}的部隊已經把{2}上的{1}夷為平地，我們也和當地人員失去了聯絡。
 UI.Notifications.OurHabDestroyedDetail.Station={0}的部隊已經摧毀了{2}的{1}。我們認為沒有人生還。
 UI.Notifications.HabDestroyedHed={1}被{0}摧毀
-UI.Notifications.HabDestroyedSummary={2}太空殖民地{1}已經被{0}摧毀。 
-UI.Notifications.HabDestroyedDetail.Base=我們在{3}的{2}摧毀了{0}基地{1}。他們一定會想辦法還擊的。
-UI.Notifications.HabDestroyedDetail.Station=我們已經摧毀了{2}的{0}太空站{1}。他們一定會尋求報復。
+UI.Notifications.HabDestroyedSummary={2}太空殖民地{1}已經被{0}摧毀。  
+UI.Notifications.HabDestroyedDetail.Base=我們在{3}的{2}摧毀了{0}太空殖民地{1}。他們一定會想辦法反擊的。
+UI.Notifications.HabDestroyedDetail.Station=我們已經摧毀了{2}的{0}太空殖民地{1}。他們一定會尋求報復。
 UI.Notifications.HabDestroyedSalvage=我們從殘骸中搜刮到了{0}。
+
+UI.Notifications.HabDestroyedHed_AlienHome={1}已遭到{0}襲擊
+UI.Notifications.HabDestroyedSummary_AlienHome={2}太空殖民地{1}已遭到{0}襲擊。
+UI.Notifications.HabDestroyedDetail_AlienHome=我們在{2}的{1}襲擊了{0}太空殖民地。我們的陸戰隊無法進入外星核心艙體或蟲洞艙室。我們需要聘請理事，並與{3}組織進一步的工作。
+
 UI.Notifications.ShipStolenHeadline=我們的船艦加入{0}
 UI.Notifications.ShipStolenSummary={0}船艦{1}現在受{2}指揮。
-UI.Notifications.ShipStolenDetail= 我們的{0}{1}已經停止回應我們的命令。我們相信這些反叛的軍官已經轉而效忠{2}。
+UI.Notifications.ShipStolenDetail= 我們的{0}{1}已經停止回應我們的命令。我們相信這些反叛的軍官已經轉而效忠{2}。 
 UI.Notifications.ShipDefectedHeadline=敵方的船艦加入{0}
 UI.Notifications.ShipDefectedSummary={0}船艦{1}現在開始向{2}回報。
 UI.Notifications.ShipDefectedDetail={0} {1}已切斷與舊主人的關係，並舉行選舉，加入{2}。
+
+UI.Notifications.MyHabAssaultedHeadline={0}遭受攻擊
+UI.Notifications.MyHabAssaultedSummary={0}軍隊正在試圖奪取{1}！
+UI.Notifications.MyHabAssaultedDetail={0}軍隊正在試圖奪取{1}。  
+
 UI.Notifications.FleetAvailableHed={0}重返行動
 UI.Notifications.FleetAvailableSummary=艦隊{0}現在可以在{1}展開行動。
 UI.Notifications.FleetAvailableDetail=艦隊{0}已經離開{1}，現在可以在{2}展開行動。
@@ -720,8 +733,12 @@ UI.Notifications.LogFleetEjectedFromStation.Hed=艦隊離開敵方太空站
 UI.Notifications.LogFleetEjectedFromStation.Summary={0}已與{1}脫離對接，避免另一陣營的攻擊。
 UI.Notifications.LogFleetEjectedFromStation.Detail={0}已與{1}脫離對接，避免另一陣營的攻擊。<br/><br/>位於敵對太空站的艦隊將被迫撤離，以免遭受協力廠商陣營發動的攻擊，除非它們正在進行攻擊行動或摧毀定居點的行動，否則在這種情況下，它們會無法重新停靠。
 
+UI.Notifications.FactionDisabled.Hed={0}現已休眠
+UI.Notifications.FactionDisabled.Summary=名為{0}的組織停止了所有行動。
+UI.Notifications.FactionDisabled.Detail=名為{0}的組織似乎停止了所有行動，領導人已經躲起來了。雖然他們在全球各處仍有支持者，但他們已經無法再對我們的計畫構成嚴重威脅。
+
 UI.Notifications.TagRed=標記<color=#EC2100>紅色</color>
-UI.Notifications.TagGreen=標記<color=#B4FF3E>綠色</color>
+UI.Notifications.TagGreen=標記<color=#B4FF3E>綠色</color> 
 
 UI.Notifications.PactEnds.Hed_Intel=情報共享協定終止
 UI.Notifications.PactEnds.Summary_Intel={0}和{1}終止了他們的情報共享協定。
@@ -738,8 +755,6 @@ UI.Notifications.PactEnds.Detail_NAPIntel={0}和{1}終止了他們的互不侵�
 UI.Notifications.PactEnds.Hed_Truce=休戰終止
 UI.Notifications.PactEnds.Summary_Truce={0}和{1}終止了休戰。
 UI.Notifications.PactEnds.Detail_Truce={0}和{1}終止了休戰。
-
-
 
 UI.Notifications.LeaveDarkFederation_Violent_Query=新的領導層{0}已指示國家離開{1}。如果我們不想冒險讓他們脫離{2}影響力範圍，那麼可以立即對他們宣戰，無需花費凝聚力或附加懲罰措施。這樣做可以嗎？
 
@@ -815,7 +830,7 @@ UI.Notifications.Diplomacy.TradeValueVeryLow_2=還不夠。
 UI.Notifications.Diplomacy.TradeValueVeryLow_3=我們需要的遠不止這些。
 UI.Notifications.Diplomacy.TradeValueVeryLow_4=沒門，還需要更多。
 UI.Notifications.Diplomacy.TradeValueVeryLow_5=這點算什麼。
-UI.Notifications.Diplomacy.TradeValueVeryLow_6=無法接受。
+UI.Notifications.Diplomacy.TradeValueVeryLow_6=無法接受。 
 UI.Notifications.Diplomacy.TradeValueVeryLow_7=需要繼續讓步才能考慮這個提議。
 UI.Notifications.Diplomacy.TradeValueLow=我們還需要你再出一些籌碼，談判才會成功。
 UI.Notifications.Diplomacy.TradeValueLow_2=雖然有一定說服力，但我們還要一些好處才能達成一致。
@@ -882,7 +897,7 @@ UI.Notifications.Diplomacy.NoNAP_War=他們與我們處於戰爭狀態。首先�
 UI.Notifications.Diplomacy.NoNAP_MostPowerfulEnemy=他們認為我們過於強大，擔心會成為我們的傀儡。
 UI.Notifications.Diplomacy.NoNAP_NotProAlien=我們對外星勢力的支持不夠，他們永遠不會同意這樣的協議。
 UI.Notifications.Diplomacy.NoNAP_PursuingVictory=我們已經解鎖了勝利條件，這使我們與其他所有陣營產生了衝突。
-UI.Notifications.Diplomacy.NoNAP_Jealousy=他們認為我們是一個不斷增長的重大威脅，還會反對我們。
+UI.Notifications.Diplomacy.NoNAP_Jealousy=對方認為我們是一個不斷成長的重大威脅，因此會反對我們。
 UI.Notifications.Diplomacy.NoNAP_WontPropose=他們目前認為非侵略性協議沒有足夠的價值。
 
 UI.Notifications.Diplomacy.NoTruce_Jealousy=他們認為我們是一個增長速度過快的威脅，不會同意停戰協議。
@@ -915,7 +930,7 @@ UI.NarrativeEvent.AllNations=在所有國家
 UI.NarrativeEvent.AllRegions=在所有地區
 
 UI.BugReportPrompt.Header=偵測到錯誤
-UI.BugReportPrompt.Body=錯誤代碼：{0}<br/>請將此問題回報至 support@pavonisinteractive.com 或是我們的 Discord 伺服器。<br/>請附上你的存檔與記錄檔。<br/>%HOMEPATH%\Documents\My Games\TerraInvicta\Saves<br/>%HOMEPATH%\AppData\LocalLow\Pavonis Interactive\TerraInvicta"
+UI.BugReportPrompt.Body=錯誤代碼：{0}<br/>請將此問題回報至 support@pavonisinteractive.com 或是我們的 Discord 伺服器。<br/>請附上你的存檔與記錄檔。<br/>%HOMEPATH%\Documents\My Games\TerraInvicta\Saves<br/>%HOMEPATH%\AppData\LocalLow\Pavonis Interactive\TerraInvicta
 UI.BugReportPrompt.Reload=<br/>請存檔並重新載入。
 UI.BugReportPrompt.CopyErrorCodeButton=複製到剪貼簿
 UI.BugReportPrompt.DiscordButton=Discord

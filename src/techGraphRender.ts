@@ -2,6 +2,7 @@ import * as vis from "vis-network/standalone";
 import { assetUrl } from './utils';
 import { TechTemplate, TemplateData } from './types';
 import { TechDb } from './utils/TechDb';
+import { prerequisiteSlots } from './data/scenarioCompiler';
 
 export interface VisNode {
   label: string;
@@ -362,7 +363,7 @@ export function parseNode(techDb: TechDb, templateData: TemplateData, dumpAllEdg
         }
 
         const orgMarket = templateData["org"]?.filter(org => org.requiredTechName == tech.dataName) ?? [];
-        const prefix = orgMarket.length > 0 ? "⭐ " : "";
+        const prefix = `${tech.dlcOnly ? "◆ " : ""}${orgMarket.length > 0 ? "⭐ " : ""}`;
 
         nodeBucket.push({
             label: `<b>${prefix}${tech.displayName}</b>`,
@@ -373,7 +374,7 @@ export function parseNode(techDb: TechDb, templateData: TemplateData, dumpAllEdg
             color: { border: getTechBorderColor(tech.techCategory) }
         });
 
-        const prereqCopy = tech.prereqs?.flatMap(prereq => {
+        const prereqCopy = prerequisiteSlots(tech).flatMap((slot) => slot).flatMap(prereq => {
             const prereqNode = techDb.getTechByDataName(prereq);
             return prereqNode ? [prereqNode] : [];
         }) ?? [];
@@ -390,13 +391,6 @@ export function parseNode(techDb: TechDb, templateData: TemplateData, dumpAllEdg
 
             return b.researchCost - a.researchCost;
         });
-
-        if (tech.altPrereq0) {
-            const prereqNode = techDb.getTechByDataName(tech.altPrereq0);
-            if (prereqNode) {
-                prereqCopy.push(prereqNode);
-            }
-        }
 
         if (dumpAllEdges) {
             prereqCopy.forEach((prereq) => {
@@ -446,7 +440,9 @@ class LevelsDeterminator {
             return this.levels[tech.dataName];
         }
 
-        const validPrereqs = tech.prereqs?.filter(prereq => this.techDb.getTechByDataName(prereq) != null) ?? [];
+        const validPrereqs = prerequisiteSlots(tech)
+            .flat()
+            .filter(prereq => this.techDb.getTechByDataName(prereq) != null);
 
         if (validPrereqs.length === 0) {
             this.levels[tech.dataName] = 0;

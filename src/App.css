@@ -66,8 +66,9 @@ body {
     display: flex;
     gap: 10px;
   
-    width: 420px;
+    width: min(720px, calc(100vw - 40px));
     padding: 10px;
+    z-index: 1001;
 }
 
 
@@ -237,8 +238,63 @@ img {
     width: 100%;
 }
 
+.search-and-scenario {
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) minmax(250px, 0.85fr);
+    gap: 0.75rem;
+    align-items: start;
+}
+
+.tech-search {
+    min-width: 0;
+}
+
+.scenario-control {
+    min-width: 0;
+}
+
+.scenario-select-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.scenario-selector {
+    min-width: 0;
+}
+
+.dlc-node-legend {
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+.dlc-node-symbol {
+    font-weight: 800;
+}
+
+.scenario-load-error {
+    margin-top: 0.35rem;
+    color: #b91c1c;
+    font-size: 0.78rem;
+    line-height: 1.25;
+}
+
+.dlc-node-chips {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: -0.35rem !important;
+    margin-bottom: 0.5rem;
+}
+
 .checkboxContainer {
     margin-top: 1em;
+}
+
+@media (max-width: 1100px) {
+    .search-and-scenario {
+        grid-template-columns: 1fr;
+    }
 }
 
 .utility-links {

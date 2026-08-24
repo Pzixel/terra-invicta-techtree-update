@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=Nie udało się nam skaptować konsultanta {targe
 TIMissionTemplate.CriticalFailure.Turn=Nie udało mi się skaptować konsultanta {targetDisplayName} i wygląda na to, że frakcja {targetFactionName} zdołała mnie namierzyć.
 
 TIMissionTemplate.displayName.Unrest=Wzniecenie niepokojów
-TIMissionTemplate.description.Unrest=Zwiększ niepokoje w państwie docelowego regionu, co zaszkodzi gospodarce i ułatwi przeprowadzenie zamachów stanu, rewolucji i secesji. Udana misja w regionie, gdzie działają ruchy niepodległościowe, może wywołać secesję zamiast rewolucji. Efekt jest słabszy, jeśli obecne niepokoje są już większe niż dwukrotność wartości spoczynkowej niepokojów w tym państwie.
+TIMissionTemplate.description.Unrest=Zwiększ niepokoje w państwie docelowego regionu, co zaszkodzi gospodarce i ułatwi przeprowadzenie zamachów stanu i rewolucji. Udana misja w regionie, gdzie działają ruchy niepodległościowe, może wywołać secesję. Efekt jest słabszy, jeśli obecne niepokoje są już większe niż dwukrotność wartości spoczynkowej niepokojów w tym państwie.
 TIMissionTemplate.CriticalSuccess.Unrest=Moje starania zwiększyły niepokoje {targetNationNameWithPrep} o {returnedValue} do wartości {targetNationUnrestWithString}. Zyskaliśmy poparcie wśród ruchów niepodległościowych, gdyby zdołały kiedyś obalić rząd.
 TIMissionTemplate.Success.Unrest=Moje starania zwiększyły niepokoje {targetNationNameWithPrep} o {returnedValue} do wartości {targetNationUnrestWithString}. Zyskaliśmy poparcie wśród ruchów niepodległościowych, gdyby zdołały kiedyś obalić rząd.
 TIMissionTemplate.Failure.Unrest=Nie udało mi się wzniecić niepokojów {targetNationNameWithPrep}.
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=Aktywuj naszą sieć stacji bojowych Do
 TIMissionTemplate.Success.AppeaseWin=Aktywowaliśmy naszą sieć stacji bojowych Dozorca i po krótkiej demonstracji wszystkie państwa świata ugięły się przed naszą potęgą.
 
 TIMissionTemplate.displayName.CooperateWin=Zawarcie sojuszu
-TIMissionTemplate.description.CooperateWin=Wyślij przez tunel czasoprzestrzenny odpornych na ferocyty ambasadorów, aby nawiązali stosunki dyplomatyczne i zakończyli ten konflikt. Najpierw musimy zdobyć bazę kosmitów i w niej wylądować. Wymaga spełnienia warunków zwycięstwa.
+TIMissionTemplate.description.CooperateWin=Wyślij przez tunel czasoprzestrzenny odpornych na ferocyty ambasadorów, aby nawiązali stosunki dyplomatyczne i zakończyli ten konflikt. Musimy najpierw zniszczyć wszystkie moduły przeciwdziałające bombardowaniu i moduły cytadeli, garnizonu oraz koszarów w głównej bazie kosmitów, by umożliwić konsultantowi lądowanie i rozpoczęcie misji. Wymaga spełnienia warunków zwycięstwa.
 TIMissionTemplate.Success.CooperateWin=Uzgodniliśmy warunki porozumienia z hydrami.
 
 TIMissionTemplate.displayName.DestroyWin=Atak bronią biologiczną
-TIMissionTemplate.description.DestroyWin=Wyślij przez tunel czasoprzestrzenny naszą broń biologiczną. Najpierw musimy zdobyć bazę kosmitów i w niej wylądować. Wymaga spełnienia warunków zwycięstwa.
+TIMissionTemplate.description.DestroyWin=Wyślij przez tunel czasoprzestrzenny broń biologiczną. Musimy najpierw zniszczyć wszystkie moduły przeciwdziałające bombardowaniu i moduły cytadeli, garnizonu oraz koszarów w głównej bazie kosmitów, by umożliwić konsultantowi lądowanie i rozpoczęcie misji. Wymaga spełnienia warunków zwycięstwa.
 TIMissionTemplate.Success.DestroyWin=Przeprowadziliśmy atak wirusem Siwa.
 
 TIMissionTemplate.displayName.EscapeWin=Wystrzelenie Bifrosta
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=Wydaj rozkaz startowy, aby statek rozpoc
 TIMissionTemplate.Success.EscapeWin=Wystrzeliliśmy Bifrosta.<br/><br/>Wypełniliśmy założenia naszego programu, ale dla tych, którzy pozostali w Układzie Słonecznym, życie toczy się dalej. Jeśli tak postanowimy, możemy zbudować kolejny statek międzygwiezdny i go wystrzelić.
 
 TIMissionTemplate.displayName.ExploitWin=Ujarzmienie wroga
-TIMissionTemplate.description.ExploitWin=Wyślij przez tunel czasoprzestrzenny ładunek neoferocytów. Najpierw musimy zdobyć bazę kosmitów i w niej wylądować. Wymaga spełnienia warunków zwycięstwa.
+TIMissionTemplate.description.ExploitWin=Wyślij przez tunel czasoprzestrzenny ładunek neoferocytów. Musimy najpierw zniszczyć wszystkie moduły przeciwdziałające bombardowaniu i moduły cytadeli, garnizonu oraz koszarów w głównej bazie kosmitów, by umożliwić konsultantowi lądowanie i rozpoczęcie misji. Wymaga spełnienia warunków zwycięstwa.
 TIMissionTemplate.Success.ExploitWin=Zniewoliliśmy imperium hydr.
 
 TIMissionTemplate.displayName.ResistWin=Zamknięcie bramy
-TIMissionTemplate.description.ResistWin=Aktywuj mechanizm zamykający tunel czasoprzestrzenny kosmitów. Najpierw musimy zdobyć bazę kosmitów i w niej wylądować. Wymaga spełnienia warunków zwycięstwa.
+TIMissionTemplate.description.ResistWin=Aktywuj urządzenie, by wyłączyć tunel czasoprzestrzenny kosmitów. Musimy najpierw zniszczyć wszystkie moduły przeciwdziałające bombardowaniu i moduły cytadeli, garnizonu oraz koszarów w głównej bazie kosmitów, by umożliwić konsultantowi lądowanie i rozpoczęcie misji. Wymaga spełnienia warunków zwycięstwa.
 TIMissionTemplate.Success.ResistWin=Tunel wroga został zamknięty.
 
 TIMissionTemplate.displayName.SubmitWin=Intronizacja władców
@@ -501,6 +501,7 @@ TIMissionCondition_FreeCouncilor=Docelowy konsultant nie może być zatrzymany a
 TIMissionCondition_TargetableHabModule=Musisz wybrać moduł (niegłówny) wroga
 TIMissionCondition_TargetableOrg=Musi być organizacją w puli nieprzydzielonych organizacji wrogiej frakcji lub przydzielonej konsultantowi, o którym mamy dużą ilość danych wywiadowczych.
 _Fail=Musi być prawidłowym celem misji, dostępnym dla konsultanta.
+TIMissionCondition_AlienPrimaryBaseInRange=Nasz konsultant musi znajdować się w bazie w pobliżu miejsca na habitat albo na orbicie przejściowej nad bazą, sama baza zaś nie może mieć aktywnych cytadel, garnizonów, koszar ani modułów z bronią uniemożliwiającą bombardowanie.
 
 TIMissionAbort_ControlPointRemoved=Ta misja została odwołana, ponieważ wskazany filar władzy już nie istnieje.
 TIMissionAbort_CouncilorRetired=Ta misja została odwołana, ponieważ przydzielony konsultant nie jest już aktywny.

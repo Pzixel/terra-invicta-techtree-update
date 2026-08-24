@@ -83,12 +83,12 @@ UI.Objectives.GeneralControlsCanvas.BoostIncome.Desc=每點<h>航太力</h>代�
 UI.Objectives.GeneralControlsCanvas.MissionControlCap.Name=任務管制中心
 UI.Objectives.GeneralControlsCanvas.MissionControlCap.Desc=<h>任務管制中心</h>包括支援太空行動所需的所有人員及技術設備。<br/><br/>任務管制中心主要來自地球上的地面設施，但部分組織和太空殖民地艙體也可提供這一資源。<br/><br/>若沒有完備的任務管制中心，其他陣營就能輕易奪取我們的太空資產，發生意外的幾率也會大幅提高。而如果我們沒有任何可用的任務管制中心，就無法建造或取得新的太空殖民地。此外，多餘的任務管制中心將被轉換為研究收益和金錢。
 UI.Objectives.GeneralControlsCanvas.ResearchIncome.Name=研究
-UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=<h>研究</h>代表我們科學家和工程師的努力。和其他資源不同，它不會累積，而是會依據我們的研究優先事項立刻分配出去；研究優先事項又分為只對我方陣營有利的私人工程計畫，以及造福全球的新理論和新技術研究。<br/><br/>研究力來自國家、特使、組織及太空殖民地艙體，且許多特使、組織和太空殖民地艙體都能為特定的研究類別帶來加成。
+UI.Objectives.GeneralControlsCanvas.ResearchIncome.Desc=<h>研究</h>代表我們科學家和工程師的努力。和其他資源不同，它不會累積，而是會依據我們的研究優先事項立刻分配出去；研究優先事項又分為只對我方陣營有利的私人工程計畫，以及造福全球的新理論和新技術研究。<br/><br/>研究力來自國家、特使、組織及太空殖民地艙體，且許多特使、組織和太空殖民地艙體都能為特定的研究類別帶來加成。 
 UI.Objectives.GeneralControlsCanvas.CPCap.Name=控制點容量
 UI.Objectives.GeneralControlsCanvas.CPCap.Desc=所有<h>控制點</h>均顯示於此，它們都將計入我方的<h>控制點容量</h>。<br/><br/>控制點容量超出上限時，即會招致日常影響力損耗，進而影響國家影響力收益。同時，敵方針對我方控制點的任務將獲得成功率加成。因此，我們可以選擇放棄部分控制點來降低此項成本，也可以透過研究計畫來提高控制點容量上限。
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Name=導覽列
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn.Desc=<h>導覽列</h>包含前往《地球不屈》各位置與管理視窗的快捷方式。
-UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Name=檢視太陽系
+UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Name=檢視太陽系 
 UI.Objectives.GeneralControlsCanvas.SolarSystemBtn.Desc=點選此按鈕，即可將視角聚焦於整個太陽系。
 UI.Objectives.GeneralControlsCanvas.CouncilBtn.Name=陣營特使團
 UI.Objectives.GeneralControlsCanvas.CouncilBtn.Desc=點選此按鈕，即可打開<h>特使團</h>視窗。你不僅可以在此招募並管理特使和組織，還可以檢視我方陣營的帳目和行事曆。<br/><br/>特使是你在地球以及整個太陽系的主要代理人。透過執行任務，特使可以召集國家支援我們的事業、尋找外星人，或者干預其他陣營的行動。
@@ -149,10 +149,10 @@ UI.Objectives.NationInfoCanvas.Overview.Desc=此區域顯示所選國家的<colo
 UI.Objectives.NationInfoCanvas.Military.Name=軍事總覽
 UI.Objectives.NationInfoCanvas.Military.Desc=此區域顯示所選國家的<h>軍事科技</h>水準、當前陸軍與海軍實力，以及其可用的戰略核攻擊能力。將游標停留於各項數值上，即可檢視詳細資訊。<br/><br/>右上角的圖示，可以幫助你判斷所選國家當前處於<color=#FFFFFFFF><sprite name=nation_at_war></color>戰爭狀態還是<color=#FFFFFFFF><sprite name=nation_at_peace></color>和平狀態。
 UI.Objectives.NationInfoCanvas.Development.Name=發展總覽
-UI.Objectives.NationInfoCanvas.Development.Desc=此區域顯示所選國家的詳細經濟狀況以及我方陣營可從該國控制點（如有）中獲得的收益份額。國家的生產成果會按比例分配給該國各控制點的所有者。<br/><br/>一國的生產成果由<color=#FFFFFFFF><sprite name=investments></color><h>投資點</h>、<color=#FFFFFFFF><sprite name=currency></color><h>資金</h>、<color=#FFFFFFFF><sprite name=research></color><h>每月研究</h>、<color=#FFFFFFFF><sprite name=boost></color><h>每月航太力</h>及<color=#FFFFFFFF><sprite name=mission_control></color><h>任務管控力</h>五項要素構成。將游標停留於左側各圖示上，即可檢視詳細資訊。<br/><br/>若所選國家屬於某個聯盟，此區域還會在單獨一列中顯示該成員國從聯盟彙集的資金與航太力中所獲取的份額。另外，在計算我方陣營從該國獲得的收益份額時，將採用聯盟的資料，而非該國國內的資料。
+UI.Objectives.NationInfoCanvas.Development.Desc=此區域顯示所選國家的詳細經濟狀況以及我方陣營可從該國控制點（如有）中獲得的收益份額。國家的生產成果會按比例分配給該國各控制點的所有者。<br/><br/>一國的生產成果由<color=#FFFFFFFF><sprite name=investments></color><h>投資點</h>、<color=#FFFFFFFF><sprite name=currency></color><h>資金</h>、<color=#FFFFFFFF><sprite name=research></color><h>每月研究</h>、<color=#FFFFFFFF><sprite name=boost></color><h>每月航太力</h>及<color=#FFFFFFFF><sprite name=mission_control></color><h>任務管控力</h>五項要素構成。將游標停留於左側各圖示上，即可檢視詳細資訊。<br/><br/>若所選國家屬於某個聯盟，此區域還會在單獨一列中顯示該成員國從聯盟彙集的資金與航太力中所獲取的份額。另外，在計算我方陣營從該國獲得的收益份額時，將採用聯盟的資料，而非該國國內的資料。 
 
 UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Name=投資點
-UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Desc=<h>投資點</h>代表國家每月的經濟盈餘。其數值由國家的 GDP 決定，同時受其他諸多因素影響，與國家部署的軍隊數量和動亂程度呈負相關。<br/><br/>擁有該國控制點的陣營可透過<h>優先政策</h>分頁來分配這些點數。
+UI.Objectives.NationInfoCanvas.MonthlyInvestmentPoints.Desc=<h>投資點</h>代表國家每月的經濟盈餘。其數值由國家的 GDP 決定，同時受其他諸多因素影響，與國家部署的軍隊數量和動亂程度呈負相關。<br/><br/>擁有該國控制點的陣營可透過<h>優先政策</h>分頁來分配這些點數。 
 
 UI.Objectives.NationInfoCanvas.Funding.Name=資金
 UI.Objectives.NationInfoCanvas.Funding.Desc=<h>資金</h>代表該國每月能夠提供的直接現金流。
@@ -191,24 +191,24 @@ UI.Objectives.NationInfoCanvas.Priorities.Name=國家優先政策
 UI.Objectives.NationInfoCanvas.Priorities.NameShort=優先政策
 UI.Objectives.NationInfoCanvas.Priorities.Desc=在此分頁中，你可以為我方陣營在一國的每個控制點設定<h>優先政策</h>。國家的優先政策將決定其隨時間推移所發生的變化。例如，投資<h>福利</h>可降低該國的不平等程度。
 UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Name=投資點與優先事項
-UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Desc=國家的投資點會均勻分配在各控制點之間，並且會根據每個優先事項上的個別設定做出進一步分配。
+UI.Objectives.NationInfoCanvas.PrioritiesInvestmentPoints.Desc=國家的投資點會均勻分配在各控制點之間，並且會根據每個優先事項上的個別設定做出進一步分配。 
 UI.Objectives.NationInfoCanvas.PrioritesGDP.Name=GDP 與投資點
 UI.Objectives.NationInfoCanvas.PrioritesGDP.Desc=國家的GDP決定了有多少投資點可供支配，提升國家的GDP能使我們獲得更多投資點，從而更好地推進各項優先事項。
 UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Name=完成優先事項
 UI.Objectives.NationInfoCanvas.PrioritiesBuckets.Desc=隨著時間的推移，投資點將逐步填充國家的優先事項投資額度，達到最高額度時，將會觸發某些效果，比如人均 GDP 的增長（<h>經濟</h>）或新軍隊的部署（<h>建立軍隊</h>）。<br/><br/>優先事項投資額度達到上限後，多餘的投資點將自動結轉，以供後續使用。
-UI.Objectives.NationInfoCanvas.PrioritesCycler.Name=優先事項循環工具
+UI.Objectives.NationInfoCanvas.PrioritesCycler.Name=優先事項循環工具 
 UI.Objectives.NationInfoCanvas.PrioritesCycler.Desc=管理我方陣營的各控制點時，可以使用滑鼠左鍵或右鍵點選這些點狀圖示，調整特定優先事項的權重。此操作將改變國家投資點在該優先事項上的分配比例。
 UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Name=套用至全部控制點
 UI.Objectives.NationInfoCanvas.PrioritesApplyAcrossTheBoard.Desc=當我方陣營在一國內擁有多個控制點時，你便可透過點選優先事項頂部的我方陣營標誌，將該列的優先事項分配模式複製到所有其他控制點。
 UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Name=明確優先事項
-UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Desc=管理優先事項是一項複雜的工作。你需要先考慮清楚，自己希望一個國家專注於哪些領域，然後再圍繞這些目標，集中推進相關的優先事項。<br/><br/>例如，你可能希望某一國專為我們的太空資產生產<color=#FFFFFFFF><sprite name=mission_control><h>任務管控力</h>，同時希望另一國聚焦於社會<color=#FFFFFFFF><sprite name=unity></color><h>團結</h>和<color=#FFFFFFFF><sprite name=gov_type></color><h>政府</h>效能，以改善其國內治理狀況。當然，許多優先事項也能夠提供多元加成，加速完成其他優先事項。
+UI.Objectives.NationInfoCanvas.PrioritesStartingOut.Desc=管理優先事項是一項複雜的工作。你需要先考慮清楚，自己希望一個國家專注於哪些領域，然後再圍繞這些目標，集中推進相關的優先事項。<br/><br/>例如，你可能希望某一國專為我們的太空資產生產<color=#FFFFFFFF><sprite name=mission_control><h>任務管控力</h>，同時希望另一國聚焦於社會<color=#FFFFFFFF><sprite name=unity></color><h>團結</h>和<color=#FFFFFFFF><sprite name=gov_type></color><h>政府</h>效能，以改善其國內治理狀況。當然，許多優先事項也能夠提供多元加成，加速完成其他優先事項。 
 UI.Objectives.NationInfoCanvas.PrioritesNegatives.Name=投資風險
 UI.Objectives.NationInfoCanvas.PrioritesNegatives.Desc=請記住，動亂、低凝聚力、海陸軍規模過於龐大和高度不平等都會持續消耗國家資源，削弱其投資能力。
 
 UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Name=優先事項範本
-UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Desc=你可以在此下拉式選單中找到<h>優先事項範本</h>，這些範本將自動為我方陣營在該國的所有控制點配置優先事項的投資方案。<br/><br/>在套用優先事項範本之後，後續你仍可根據自身需要，對該國優先事項的投資方案做出調整。
+UI.Objectives.NationInfoCanvas.PrioritiesTemplateSelection.Desc=你可以在此下拉式選單中找到<h>優先事項範本</h>，這些範本將自動為我方陣營在該國的所有控制點配置優先事項的投資方案。<br/><br/>在套用優先事項範本之後，後續你仍可根據自身需要，對該國優先事項的投資方案做出調整。 
 
-UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Name=直接投資
+UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Name=直接投資 
 UI.Objectives.NationInfoCanvas.PrioritesDirectInvestment.Desc=點選此處，即可打開<h>直接投資</h>視窗。你可以在此花費資源，立即為所選國家的優先事項投資額度注入投資點。即使我方陣營在該國並無任何控制點，也依然可以進行直接投資。<br/><br/>每年可對特定國家發起的直接投資次數，主要取決於該受資國的 GDP 和人口規模。
 
 UI.Objectives.NationInfoCanvas.AbandonNation.Name=放棄國家
@@ -220,7 +220,7 @@ UI.Objectives.NationInfoCanvas.DirectInvest.Desc=你可以花費金錢和影響�
 UI.Objectives.NationInfoCanvas.NuclearWeapons.Name=按鈕
 UI.Objectives.NationInfoCanvas.NuclearWeapons.Desc=若我方陣營對某國家擁有行政控制權，你便可點選顯示于此處的按鈕，對敵人發動核攻擊。核攻擊會對目的地區域及基礎設施造成毀滅性破壞，因此將被視為<h>暴行</h>。<br/><br/>此外，當敵軍入侵我方領土時，我們也可以發動核反擊。在此情況下，我方能夠在一定程度上減少附帶損害。
 UI.Objectives.NationInfoCanvas.Policy.Name=國家政策
-UI.Objectives.NationInfoCanvas.Policy.Desc=若我方陣營對某國家擁有行政控制權，你便可分配一名特使為該國<h>制定國家政策</h>，你可以指揮該國參戰、加入或退出聯盟、割讓領土等等。點選<h>政策</h>分頁，即可檢視該國有哪些國家政策可用。
+UI.Objectives.NationInfoCanvas.Policy.Desc=若我方陣營對某國家擁有行政控制權，你便可分配一名特使為該國<h>制定國家政策</h>，你可以指揮該國參戰、加入或退出聯盟、割讓領土等等。點選<h>政策</h>分頁，即可檢視該國有哪些國家政策可用。 
 
 UI.Objectives.IntelScreenCanvas.AlienCouncilors.Name=外星人
 UI.Objectives.IntelScreenCanvas.AlienCouncilors.Desc=此區域會顯示我方陣營正在追蹤的所有外星個體資訊。點選任意被追蹤的外星人，即可關閉情報視窗，並將視角自動定位至其所在位置。
@@ -235,13 +235,13 @@ UI.Objectives.IntelScreenCanvas.AlienHabs.Desc=此區域會列出太陽系中所
 
 UI.Objectives.IntelScreenCanvas.AlienThreat.NameShort=威脅
 UI.Objectives.IntelScreenCanvas.AlienThreat.Name=外星威脅指數
-UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=此量表呈現外星勢力對我方陣營的威脅指數，是我方情報部門基於現有資訊作出的最佳評估，參考資料為我方對親外星派的監視資料，以及太陽系內可觀測到的外星人活動跡象。<br/><br/>我們認為，基於任務管制的使用情況來判斷，若我方在太空中保持大規模的可見存在，或對外星勢力及其地球代理人採取敵對行動，都會使其對我方的猜忌不斷加深。當威脅指數升至最高水準時，外星勢力很可能發起報復，危害我們在地球上與太空中的利益。此外，若我方特工對其採取直接行動，很可能引發對方孤注一擲的報復；但若我方能在一段時間內避免與其或其地球代理人發生正面衝突，對方對我們的關注度將有所下降。<br/><br/>分析人員強調，此評估尚存在一定局限性。只有當外星勢力對我方採取直接行動、或我方與其直接接觸時，我們才有機會對評估結果做出進一步修改。<br/><br/>如果我們斷定，外星人為損害我們的利益，甚至不惜全面開戰，那麼此評估將完全顯示為紅色。
+UI.Objectives.IntelScreenCanvas.AlienThreat.Desc=在推定外星勢力將我方陣營視作何等程度的威脅時，此量表給出了我方情報部門基於現有資訊所作出的最佳預估。預估依據包括對親外星團體的監控資料，以及太陽系內可觀測到的外星人活動跡象。<br/><br/>我們認為，基於任務管控力的使用情況來判斷，若我方在太空中保持大規模的可見存在，或對外星勢力及其地球代理人採取敵對行動，都會使其對我方的猜忌不斷加深。當威脅指數升至最高水準時，外星勢力很可能發起報復，危害我們在地球上與太空中的利益。此外，若我方特工對其採取直接行動，很可能導致對方發動報復遠征；但若我方能在相當長的一段時間內避免與其或其地球代理人發生正面衝突，對方對我們的關注度將有所下降。<br/><br/>分析人員強調，此評估尚存在一定局限性。只有當外星勢力對我方採取直接行動、或我方與其直接接觸時，我們才有機會對評估結果做出進一步修正。<br/><br/>如果我們斷定，外星人為損害我們的利益，甚至不惜全面開戰，那麼此評估將完全顯示為紅色。
 
 UI.Objectives.IntelScreenCanvas.FactionOverview.Name=陣營總覽
 UI.Objectives.IntelScreenCanvas.FactionOverview.NameShort=陣營
 UI.Objectives.IntelScreenCanvas.FactionOverview.Desc=<h>陣營情報</h>分頁會顯示我方已掌握的地球各敵對陣營之詳細資訊。<br/><br/><h>按住 Shift 鍵並點選任意分頁，即可同時將所有陣營的情報移至該分頁顯示。</h>
 UI.Objectives.IntelScreenCanvas.FactionCouncilors.Name=陣營特使
-UI.Objectives.IntelScreenCanvas.FactionCouncilors.Desc=<h>特使</h>分頁會顯示該陣營已發現的特使的相關資訊。<br/><br/>你可以分配特使執行<h>就地隱蔽</h>任務，助其躲避其他陣營的偵測。
+UI.Objectives.IntelScreenCanvas.FactionCouncilors.Desc=<h>特使</h>分頁會顯示該陣營已發現的特使的相關資訊。<br/><br/>你可以分配特使執行<h>就地隱蔽</h>任務，助其躲避其他陣營的偵測。 
 UI.Objectives.IntelScreenCanvas.FactionResources.Name=陣營資源
 UI.Objectives.IntelScreenCanvas.FactionResources.Desc=<h>資源</h>分頁會顯示陣營在資源和收益方面的最新已知情報。
 UI.Objectives.IntelScreenCanvas.FactionObjectives.Name=陣營目標
@@ -271,7 +271,7 @@ UI.Objectives.IntelScreenCanvas.SpacebodyHabCount.Desc=此欄中的數值代表�
 UI.Objectives.IntelScreenCanvas.SpacebodyResources.Name=可用資源
 UI.Objectives.IntelScreenCanvas.SpacebodyResources.Desc=此區域會顯示天體上可供開採的太空資源狀況。在使用探測器或航天器對天體進行勘探之前，你只能對其資源產出狀況進行估算。每個量表都代表資源豐度的一個量級，「？」表示資源的存在僅具有可能性，空白量表則表示資源不存在。此外，不適宜居住的天體上不存在可供開採的資源。
 UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Name=地球發射時間範圍
-UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=此欄會顯示當前的發射視窗狀態，即近期從地球前往天體所需時間的增減狀況。由於不同天體在各自的軌道上運行時，其間的距離會隨相對位置發生變化，因此，發射視窗才會在時間範圍上出現波動。<br/><br/>地球發射的最佳視窗期是在該百分比降至谷值之時。</h>將游標停留於各項數值上，即可檢視詳細資訊。
+UI.Objectives.IntelScreenCanvas.SpacebodyLaunchWindow.Desc=此欄會顯示當前的發射視窗狀態，即近期從地球前往天體所需時間的增減狀況。由於不同天體在各自的軌道上運行時，其間的距離會隨相對位置發生變化，因此，發射視窗才會在時間範圍上出現波動。<br/><br/><h>地球發射的最佳視窗期是在該百分比降至谷值之時。</h>將游標停留於各項數值上，即可檢視詳細資訊。
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Name=前往天體
 UI.Objectives.IntelScreenCanvas.SpacebodyGoto.Desc=點此處即可將視角自動定位至該天體所在位置。
 
@@ -284,11 +284,11 @@ UI.Objectives.IntelScreenCanvas.TransferPlannerOrigin.Desc=你可以在此處設
 UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Name=加速度和 Delta-V
 UI.Objectives.IntelScreenCanvas.TransferPlannerAccel.Desc=你可以在此處設定航行的加速度和Delta-V（即能賦予太空船多少速度的變化量），這些數值由所選艦隊中船艦的驅動系統決定。當然，你也可以調整這些數值，用它們來模擬你準備建造的船艦，以觀察可能出現的軌道變化情況。
 UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Name=調整推進力曲線
-UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Desc=在<h>推進力曲線</h>介面自訂設定，即可在任一現有的推進力曲線中預覽到達時間的變化和 Delta-V 在軌道中的使用情況。
+UI.Objectives.IntelScreenCanvas.TransferPlannerThrustProfile.Desc=在<h>推進力曲線</h>介面自訂設定，即可在任一現有的推進力曲線中預覽到達時間的變化和 Delta-V 在軌道中的使用情況。 
 
 UI.Objectives.HabScreenCanvas.HabInfo.Name=太空殖民地
 UI.Objectives.HabScreenCanvas.HabInfo.NameShort=太空殖民地
-UI.Objectives.HabScreenCanvas.HabInfo.Desc=<h>太空殖民地</h>視窗是管理我方所有太空殖民地的指令中樞，也是檢視太陽系內各太空殖民地資訊的主要媒介。下方清單會顯示太空殖民地的各種相關資訊，如所屬陣營、人口數量、收益與維護成本、運行狀態，以及是否仍有開放的艙體欄位，等等。<br/><br/>點選列表中的任一太空殖民地條目，即可將其資訊顯示在視窗右側。<br/><br/>太空殖民地分為兩種形式：一種是建造在天體上的<h>基地</h>，另一種是則圍繞天體或其他太空環繞點運行的<h>空間站</h>。
+UI.Objectives.HabScreenCanvas.HabInfo.Desc=<h>太空殖民地</h>頁面是管理我方所有太空殖民地的指令中樞，也是檢視太陽系內各太空殖民地資訊的主要媒介。下方列表會顯示太空殖民地的各種相關訊息，如其所屬陣營、人口數量、收益與維護成本、運作狀態，以及是否仍有開放的艙體欄位，等等。 <br/><br/>點選清單中的任一太空殖民地條目，即可將其資訊顯示在頁面右側。 <br/><br/>太空殖民地分為兩種形式：一種是建造在天體上的<h>基地</h>，另一種是則圍繞天體或其他太空環繞點運行的<h>太空站</h>。
 UI.Objectives.HabScreenCanvas.Bases.Name=基地
 UI.Objectives.HabScreenCanvas.Bases.Desc=勾選即可將基地納入下方的太空殖民地列表。
 UI.Objectives.HabScreenCanvas.Stations.Name=太空站
@@ -329,7 +329,7 @@ UI.Objectives.FleetScreenCanvas.FleetAbilities.Desc=此欄中的圖示代表各�
 UI.Objectives.FleetScreenCanvas.FleetGoto.Name=前往艦隊
 UI.Objectives.FleetScreenCanvas.FleetGoto.Desc=點選此按鈕，即可關閉「建造艦隊及船艦」視窗，並將視角自動定位至相應艦隊的所在位置。
 UI.Objectives.FleetScreenCanvas.FleetToggleAll.Name=篩選
-UI.Objectives.FleetScreenCanvas.FleetToggleAll.Desc=點選此處的下拉式選單，即可根據所選<h>陣營</h>或<h>地點</h>來更改所列出的艦隊列表。<br/><br/>若你在篩選列表時已選擇一個或多個地點，則會額外出現一個下拉式選單，用於進一步篩選特定<h>天體</h>或<h>拉格朗日點</h>。<br/><br/>同一陣營的艦隊始終會集中顯示。
+UI.Objectives.FleetScreenCanvas.FleetToggleAll.Desc=點選此處的下拉式選單，即可根據所選<h>陣營</h>或<h>地點</h>來更改所列出的艦隊列表。<br/><br/>若你在篩選列表時已選擇一個或多個地點，則會額外出現一個下拉式選單，用於進一步篩選特定<h>天體</h>或<h>拉格朗日點</h>。<br/><br/>同一陣營的艦隊始終會集中顯示。 
 UI.Objectives.FleetScreenCanvas.FleetExpand.Name=檢視船艦
 UI.Objectives.FleetScreenCanvas.FleetExpand.Desc=點選某一艦隊條目，即可將其展開，檢視隸屬於該艦隊的所有船艦。<br/><br/>點選艦隊中列出的任意一艘船艦，即可在<h>船艦詳細資訊</h>分頁中檢視該船艦的詳細資訊。
 
@@ -354,7 +354,7 @@ UI.Objectives.FleetScreenCanvas.DetailMissionSystems.Desc=此區域會顯示船�
 UI.Objectives.FleetScreenCanvas.DetailDamage.Name=損傷報告
 UI.Objectives.FleetScreenCanvas.DetailDamage.Desc=此區域會顯示船艦上所有<h>掛載點</h>的<h>損傷</h>狀態。將游標停留于任一掛載點上，即可檢視更多詳細資訊。
 UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Name=檢視所有船艦
-UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Desc=勾選此框即可將所有其他陣營的船艦納入船艦列表。
+UI.Objectives.FleetScreenCanvas.DetailToggleShowAll.Desc=勾選此框即可將所有其他陣營的船艦納入船艦列表。 
 
 UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Name=選取船艦等級
 UI.Objectives.FleetScreenCanvas.ConstructSelectShip.Desc=建造新船艦時，此處會列出所有可用艦級的設計方案以及各級船艦的建造成本。點選某一艦級，即可在下方區域檢視其詳細資訊。
@@ -393,7 +393,7 @@ UI.Objectives.FleetScreenCanvas.DesignRadiator.Desc=<h>散熱器</h>分頁會顯
 UI.Objectives.FleetScreenCanvas.DesignBattery.Name=電池
 UI.Objectives.FleetScreenCanvas.DesignBattery.Desc=電池為必備的設施，可儲存能源，以便在需要時用於其他系統。
 UI.Objectives.FleetScreenCanvas.DesignPower.Name=動力設備
-UI.Objectives.FleetScreenCanvas.DesignPower.Desc=<h>動力設備</h>分頁會顯示所有可用的動力裝置艙體。作為必備設施，動力設備負責為船艦的驅動系統及其他主要系統供能。當某些動力設備選項與已安裝的驅動系統無法相容時，這些選項將顯示為灰色的不可選狀態。
+UI.Objectives.FleetScreenCanvas.DesignPower.Desc=<h>動力裝置</h>頁籤會顯示所有可用的動力裝置艙體。作為必備設施，動力裝置負責為艦船的驅動器及其他主要係統供能。當某些動力裝置選項與已安裝的驅動器無法相容時，這些選項將顯示為灰色的不可選狀態。
 UI.Objectives.FleetScreenCanvas.DesignDrive.Name=驅動系統
 UI.Objectives.FleetScreenCanvas.DesignDrive.Desc=<h>驅動系統</h>分頁會顯示所有可用的驅動系統艙體。作為必備設施，驅動系統負責為船艦提供太空航行所需的推力。許多驅動系統需要特定類型的動力裝置才能正常運行，若已安裝的動力裝置與之無法相容，這些推進器將顯示為灰色的不可選狀態。一個驅動系統艙體上至多可安裝六台推進器，每多安裝一台，推力都會相應增加。此外，你還可以增加推進劑箱的數量，以此來提高 Delta-V 的上限。
 UI.Objectives.FleetScreenCanvas.DesignArmor.Name=裝甲艙體
@@ -424,22 +424,22 @@ UI.Objectives.FleetScreenCanvas.DesignSave.Name=儲存設計
 UI.Objectives.FleetScreenCanvas.DesignSave.Desc=完成某一艦級的設計後，即可點選此按鈕儲存設計方案，並將其添加到<h>艦級</h>分頁的列表當中。未完成的設計無法儲存。
 
 UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Name=武器教學
-UI.Objectives.FleetScreenCanvas.DesignModuleWeapons.Desc=
+
 UI.Objectives.FleetScreenCanvas.DesignModuleDrive.Name=驅動系統教學
-UI.Objectives.FleetScreenCanvas.DesignModuleDrive.Desc=
+
 UI.Objectives.FleetScreenCanvas.DesignModulePower.Name=動力設備教學
-UI.Objectives.FleetScreenCanvas.DesignModulePower.Desc=
+
 UI.Objectives.FleetScreenCanvas.DesignModuleRadiator.Name=散熱器教學
-UI.Objectives.FleetScreenCanvas.DesignModuleRadiator.Desc=
+
 UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Name=儲熱槽教學
-UI.Objectives.FleetScreenCanvas.DesignModuleHeatSink.Desc=
+
 UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Name=電池教學
-UI.Objectives.FleetScreenCanvas.DesignModuleBattery.Desc=
+
 
 UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Name=全球研究
 UI.Objectives.ResearchScreenCanvas.PrimaryGlobal.Desc=最上方的三個介面會顯示<h>全球研究</h>的進展狀況。所謂全球研究，是指全球範圍內針對各項<h>科技</h>正在開展的研究工作。這些科技涉及廣泛的科學原理，其成果將由全人類共用。所有陣營均可選擇將部分或全部研究收益投入到各項科技研究當中。在某項特定科技研究完成後，對該科技貢獻最多的陣營將有權選擇下一項要研究的科技。
 UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Name=陣營工程計畫
-UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=底部列會顯示我方陣營正在推進的<h>計畫</h>。與全球研究不同的是，計畫僅在我方陣營內部開展，但要想完成它們，也同樣需要研究收益的助推。<br/><br/>計畫能帶來確實的收益，例如資源，新型船艦、新型太空殖民地艙體，甚至是新型武器。<br/><br/>計畫的可用性主要取決於已完成的全球研究。具體來說，你對全球研究貢獻越多，就越有可能迅速取得需要它們才能解鎖的各項計畫。<br/><br/><h>只有獲得提供計畫的組織和太空殖民地艙體，才能同時開展多個陣營計畫。</h>
+UI.Objectives.ResearchScreenCanvas.PrimaryEngineering.Desc=底部一排會顯示我方陣營正在推進的<h>計畫</h>。與全球研究不同的是，計劃僅在我方陣營內部開展，若要完成它們，也同樣離不開研究收益的助力。 <br/><br/>計畫能帶來穩定的收益，例如資源，新型艦船、新型太空殖民地艙體，甚至是新型武器。 <br/><br/>計劃的可用性主要取決於已完成的全球研究。具體來說，你對全球研究貢獻越多，就越有可能迅速解鎖各項計畫。 <br/><br/><h>有些目標計劃和其它計劃對我們的發展至關重要，不過也存在可有可無的計劃，除非這些計劃確實能滿足緊迫的需求，或能顯著提升能力，我們才應該推進。在遊戲過程中，你無需完成每一個推進系統或反應爐的研究。 </h><br/><br/>必須獲得提供計畫的組織和太空殖民地艙體，才能同時進行多個陣營計畫。
 UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Name=研究優先事項循環工具
 UI.Objectives.ResearchScreenCanvas.PrimaryCycler.Desc=此為<h>優先事項循環工具</h>，左鍵或右鍵點選各項正在進行的研究，即可提高或降低其優先順序。而根據各項研究預設的優先順序水準，我們的研究收益也將按相應比例進行分配。<br/><br/>若我方陣營同時為多項科技和計畫做出貢獻，將獲得研究加成。
 UI.Objectives.ResearchScreenCanvas.PrimaryRPQuantity.Name=研究進度
@@ -489,7 +489,7 @@ UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Name=艦隊命令列
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandBar.Desc=<h>艦隊命令列</h>中有多項<h>指令</h>，這些指令能夠<h>即刻下達至我方所有船艦</h>。<br/><br/>收到指令後，船艦會嘗試執行相應任務，直到任務完成或收到新指令為止。然而，船艦系統受損、Delta-V 不足等狀況都可能導致船艦無法成功執行指令。<br/><br/>將游標停留于各指令按鈕上，即可檢視詳細資訊。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Name=設定主要目標
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=點選<h>設定主要目標</h>指令按鈕，即可指定一個敵方目標，並讓我方船艦的進攻性武器優先瞄準該目標。飛彈武器必須設定主要目標才能發射。<br/><br/>你也可以<h>按住 {0} 並點選</h>敵方目標，將其設為我方艦隊的主要目標。
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSelectTarget.Desc=點選<h>設定主要目標</h>指令按鈕，即可指定一個敵方目標，並讓我方船艦的進攻性武器優先瞄準該目標。飛彈武器必須設定主要目標才能發射。<br/><br/>你也可以<h>按住 ({0}) 並點選</h>敵方目標，將其設為我方艦隊的主要目標。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Name=清除主要目標
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandClearTarget.Desc=點選<h>清除主要目標</h>指令按鈕，即可清除我方艦隊所有船艦當前的主要目標，同時允許各艦自由開火。
@@ -548,8 +548,8 @@ UI.Objectives.SpaceCombatCanvas.ShipDetailCommandManeuver.Desc=點選<h>特殊�
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Name=船艦溫度
 UI.Objectives.SpaceCombatCanvas.ShipDetailTemperature.Desc=此量表會顯示船艦儲熱槽儲存的熱能狀況。散熱器展開時，熱能會被排出。如果熱度達到上限，船艦將開始承受內部損傷，因此在條件允許時，散熱器會自動展開散熱。<br/><br/><h>熱能管理失當的船艦將遭受災難性故障。</h>
 
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=船艦電量
-UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=此量表會顯示所選船艦剩餘的電池電量。部分武器在射擊時會消耗電池電量，但會透過動力裝置進行充電。<br/><br/><h>建議時刻留意電能消耗狀況和剩餘電量，以確保我方船艦在關鍵時刻能以最佳狀態投入戰鬥。</h>
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Name=船艦電力
+UI.Objectives.SpaceCombatCanvas.ShipDetailBattery.Desc=此量表會顯示所選艦船剩餘的可用電量。所有艦船都配備有容量充足的反應爐，能夠為船艦上的系統和武器提供支援。若反應器受損，除非船隻安裝了一個電池設施艙體，否則系統將停止運作。 <br/><br/><h>建議隨時留意電能消耗狀況和剩餘電量，以確保我方艦在關鍵時刻能以最佳狀態投入戰鬥。 </h>
 
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Name=船艦 Delta-V
 UI.Objectives.SpaceCombatCanvas.ShipDetailDV.Desc=此量表會顯示船艦在當前戰鬥中可消耗的 Delta-V 額度。<br/><br/><h>艦隊中的船艦應預留足夠的 Delta-V，以確保在太空戰鬥結束後能夠完成任何正在進程中的航行。</h>
@@ -567,13 +567,13 @@ UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Name=船艦破壞
 UI.Objectives.SpaceCombatCanvas.ShipDestroyed.Desc=當船艦的船首、艦身和船尾<h>結構完整性</h>都受到重大損害時，該船艦將遭到摧毀。
 
 UI.Objectives.SpaceCombatCanvas.CameraPan.Name=移動視角
-UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=使用 <h>{0}</h>、<h>{1}</h>、<h>{2}</h>、<h>{3}</h> 鍵，即可令視角沿水平面移動。<br/><br/>你也可以在<h>按住Ctrl鍵的同時，透過按下滑鼠中鍵並拖動滑鼠</h>來進行同樣的操作。
+UI.Objectives.SpaceCombatCanvas.CameraPan.Desc=使用<h>（{0}）</h>、<h>（{1}）</h>、<h>（{2}）</h>，和<h>{3}</h>即可令視角沿水平面移動。 <br/><br/>你也可以在<h>按住 Ctrl 鍵的同時，透過按下滑鼠中鍵並拖曳滑鼠</h>可進行相同的操作。
 
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Name=旋轉視角
 UI.Objectives.SpaceCombatCanvas.CameraRotate.Desc=<h>按下滑鼠右鍵並拖動滑鼠</h>，即可對視角進行旋轉。
 
 UI.Objectives.SpaceCombatCanvas.CameraFly.Name=空間視角
-UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=<h>按住滑鼠右鍵，然後使用 {0}、{1}、{2}、{3} 鍵</h>，即可在戰鬥空間中操控視角移動。
+UI.Objectives.SpaceCombatCanvas.CameraFly.Desc=<h>按住滑鼠右鍵，然後使用（{0}）、（{1}）、（{2}）和（{3}）</h>，即可在戰鬥空間中操控視角移動。
 
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Name=調整視角高度
 UI.Objectives.SpaceCombatCanvas.CameraHeight.Desc=<h>按下滑鼠中鍵並拖動滑鼠</h>，即可調整視角高度。在此過程中，你還可以同時讓視角向兩側平移。
@@ -584,7 +584,7 @@ UI.Objectives.SpaceCombatCanvas.Momentum.Desc=正如以撒·牛頓爵士所言�
 UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Name=航點
 UI.Objectives.SpaceCombatCanvas.WaypointsOverview.Desc=在太空戰鬥中，你可以透過操控我方船艦的<h>航點</h>來控制其移動。航點代表船艦在未來某一時刻的位置、角度和速度。你可以在三維空間中調整航點的位置和角度。<br/><br/>船艦將依次從一個航點移動至下一個航點。其中，<color=#B26A60>紅色航點 (1)</color> 代表最近的航點，而<color=#9964FF>紫色航點 (6)</color> 則代表最遠的航點。所有船艦會同時抵達相同顏色（順序）的航點。因此，你可以利用這一設定來規劃船艦未來相對於其他船艦的位置。<br/><br/><h>敵方航點只是根據當前位置和速度對相關船艦未來位置做出的預測。</h>
 
-UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Name=調整航點偏轉
+UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Name=調整航點偏轉 
 UI.Objectives.SpaceCombatCanvas.WaypointsYaw.Desc=<h>按住 {0} 鍵並拖動</h>航點，即可調整其偏轉角度。此舉可在保持船艦飛行軌道不變的同時，改變船艦的朝向角度。
 
 UI.Objectives.SpaceCombatCanvas.WaypointsPitch.Name=調整航點俯仰
@@ -600,19 +600,19 @@ UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Name=調整航點消耗
 UI.Objectives.SpaceCombatCanvas.WaypointsBurn.Desc=<h>按住 {0} 鍵並拖動</h>航點，即可調整飛往此處的推力消耗。船艦會先對準航點的朝向，然後再使用主驅動系統進行推進。
 
 UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Name=調整航點高度
-UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Desc=<h>按住 {0} 鍵並拖動</h>航點，即可調整其<h>高度</h>。太空戰鬥發生在三維空間中，調整航點高度可使我方船艦在垂直平面上靈活調整飛行軌道。
+UI.Objectives.SpaceCombatCanvas.WaypointsHeight.Desc=<h>按住 {0} 鍵並拖動</h>航點，即可調整其<h>高度</h>。太空戰鬥發生在三維空間中，調整航點高度可使我方船艦在垂直平面上靈活調整飛行軌道。 
 
 UI.Objectives.SpaceCombatCanvas.WaypointsReset.Name=重設航點
 UI.Objectives.SpaceCombatCanvas.WaypointsReset.Desc=<h>右鍵點選</h>航點，即可將其重設回原始軌道。所有後續航點也將一併被重設。
 
 UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Name=橫向調整航點
-UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Desc=<h>按住 {0} 鍵並拖動</h>航點，即可調整其橫向位置。橫向調整航點可使我方船艦在垂直與水準相結合的平面上靈活調整飛行軌跡。
+UI.Objectives.SpaceCombatCanvas.WaypointsLateral.Desc=<h>按住 {0} 鍵並拖動</h>航點，即可調整其橫向位置。橫向調整航點可使我方船艦在垂直與水準相結合的平面上靈活調整飛行軌跡。 
 
 UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Name=調整航點位置
 UI.Objectives.SpaceCombatCanvas.WaypointsHorizontal.Desc=<h>選中航點並將其朝你希望船艦行進的方向拖動</h>，即可令其在水平面上移動。<h>一個航點的位置會對其他航點可能的移動範圍產生影響，影響程度視船艦機動性而定。</h><br/><br/><color=#B26A60>紅色航點 (1)</color> 無法被調整，因為所有船艦均已調整方向，準備朝這些航點行進了。
 
 UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Name=綠線與紅線
-UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Desc=拖動航點後你會發現，連接各航點的<color=#85B260>綠線</color>已經變成了<color=#B26A60>紅線</color>。就顏色的含義而言，<color=#85B260>綠線</color>代表怠速軌道（即在此期間船艦不進行任何機動操作），而<color=#B26A60>紅線</color>代表推進軌道（即船艦會使其主驅動系統施加推力來改變速度）。
+UI.Objectives.SpaceCombatCanvas.WaypointsRedLine.Desc=拖動航點後你會發現，連接各航點的<color=#85B260>綠線</color>已經變成了<color=#B26A60>紅線</color>。就顏色的含義而言，<color=#85B260>綠線</color>代表怠速軌道（即在此期間船艦不進行任何機動操作），而<color=#B26A60>紅線</color>代表推進軌道（即船艦會使其主驅動系統施加推力來改變速度）。 
 
 UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Name=黃線
 UI.Objectives.SpaceCombatCanvas.WaypointsYellowLine.Desc=調整航點的角度後，連接各航點的線將<color=#B29B60>部分變為黃色</color>。線條的黃色部分代表船艦使用推進器調整航向的時間。
@@ -747,7 +747,7 @@ UI.Tutorial.VO.20a=優先事項範本規劃工具讓我們能夠為國家發展�
 UI.Tutorial.VO.20b=這個視窗顯示我們的控制點容量。如果管理的控制點容量超過容量，我們的行動將會受到影響，並必須要消耗影響力來維持這些控制點。
 UI.Tutorial.VO.21=科技公司、犯罪集團、情報組織。這些都可能為我們提供有力的支援。
 UI.Tutorial.VO.22=看來不只有我們。其它陣營的特使也在全球各地執行任務。
-UI.Tutorial.VO.23=介面左方是最新消息。它會告訴您最新的重大事件。有些關於我們行動的即時資訊也會出現在視窗的左上方。
+UI.Tutorial.VO.23=介面左方是最新消息。它會告訴您最新的重大事件。有些關於我們行動的即時資訊也會出現在視窗的左上方。 
 UI.Tutorial.VO.24=指揮官，我們接獲消息，有一艘外星船艦正朝地球而來。
 UI.Tutorial.VO.25=指揮官，我們對全球研究做出的貢獻讓我們能夠決定科學社群的研究方向。您的指令是？
 UI.Tutorial.VO.26=我們需要研究站、太空船塢、再補給艙體。當您認為我們已經準備好了，就可以進入軌道。
@@ -776,8 +776,8 @@ UI.Objectives.GeneralControlsCanvas.EventsSummary.Desc=點選此按鈕，即可�
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Name=地球視角
 UI.Objectives.GeneralControlsCanvas.GeoscapeBtn2.Desc=點選此按鈕，即可將視角聚焦於地球。同時，還將啟動地景視圖，以顯示國界、軍隊和外星人相關現象。
 
-UI.Objectives.GeneralControlsCanvas.Finder2.Name=搜尋
-UI.Objectives.GeneralControlsCanvas.Finder2.Desc=點選此按鈕，即可打開<h>搜尋</h>視窗。在此視窗中，你可以按名稱檢索太陽系內及地球上的各類對象。此外，<h>按 {0} 鍵</h>也可隨時打開搜尋網視窗。
+UI.Objectives.GeneralControlsCanvas.Finder2.Name=搜尋 
+UI.Objectives.GeneralControlsCanvas.Finder2.Desc=點選此按鈕，即可打開<h>搜尋</h>視窗。在此視窗中，你可以按名稱檢索太陽系內及地球上的各類對象。此外，<h>按 ({0}) 鍵</h>也可隨時打開搜尋網視窗。
 
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Name=設定通知
 UI.Objectives.GeneralControlsCanvas.ClockAlarm.Desc=點選遊戲內的時鐘，即可打開<h>設定通知</h>視窗。在此視窗中，你可以創建自訂通知，這些通知將在未來的指定時間彈出。同時，這些自訂通知也會被記入我方陣營的行事曆。打開特使團介面，即可檢視行事曆。
@@ -786,7 +786,7 @@ UI.Objectives.GeneralControlsCanvas.Codex.Name=遊戲百科
 UI.Objectives.GeneralControlsCanvas.Codex.Desc=點選此按鈕，即可打開<h>遊戲百科</h>，有關遊戲機制的各類資訊均可在此查閱。另外，此按鈕也會出現在其他視窗和麵板中，點選後將打開相應的遊戲百科條目。
 
 UI.Objectives.GeneralControlsCanvas.CloseTutorial.Name=隱藏教學
-UI.Objectives.GeneralControlsCanvas.CloseTutorial.Desc=若要暫時隱藏某項介面教學內容，可點選「隱藏」按鈕。隱藏後，視圖頂部的當前教學目標旁將重新顯示<color=#FFFFFFFF><sprite name=tutorial></color>教學圖示。
+UI.Objectives.GeneralControlsCanvas.CloseTutorial.Desc=若要暫時隱藏某項介面教學內容，可點選「隱藏」按鈕。隱藏後，視圖頂部的當前教學目標旁將重新顯示<color=#FFFFFFFF><sprite name=tutorial></color></color>教學圖示。
 
 UI.Objectives.GeneralControlsCanvas.CloseTutorial2.Name=關閉教學
 UI.Objectives.GeneralControlsCanvas.CloseTutorial2.Desc=若要永久關閉某項介面教學內容，請點選「X」按鈕。若想再次檢視教學內容，可透過遊戲百科重設所有介面教學。
@@ -852,7 +852,7 @@ UI.Objectives.FleetScreenCanvas.ClassGeneral.Desc=此欄中顯示的數值為各
 UI.Objectives.FleetScreenCanvas.ClassDV.Name=Delta-V
 UI.Objectives.FleetScreenCanvas.ClassDV.Desc=此欄中顯示的數值為各級船艦的 <h>Delta-V</h> 上限。這一參數衡量的是船艦在耗盡推進劑之前改變自身速度的快慢程度，同時也決定了船艦前往其他地點的航行速度。
 
-UI.Objectives.FleetScreenCanvas.ClassCurrent.Name=現有船艦
+UI.Objectives.FleetScreenCanvas.ClassCurrent.Name=現有船艦 
 UI.Objectives.FleetScreenCanvas.ClassCurrent.Desc=此欄中顯示的數值為我方所有艦隊中現有的各級船艦數量。<br/><br/>建造中的船艦會被單獨列出。
 
 UI.Objectives.FleetScreenCanvas.ClassCost.Name=建造成本
@@ -877,7 +877,7 @@ UI.Objectives.FleetScreenCanvas.DesignName.Name=指定名稱
 UI.Objectives.FleetScreenCanvas.DesignName.Desc=你可以為正在設計的艦級<h>命名</h>。請確保在儲存設計前已為其命名。
 
 UI.Objectives.FleetScreenCanvas.DesignHeader.Name=船艦艙體
-UI.Objectives.FleetScreenCanvas.DesignHeader.Desc=此介面會顯示我方陣營已研究出的可用<h>船艦艙體</h>。各類艙體的圖示都有特定形狀（與船艦設計中的欄位形狀相對應）。<br/><br/>船艦只有在配備<h>驅動系統</h>、<h>動力裝置</h>、<h>散熱器</h>、<h>裝甲材料</h>（零厚度也可）、至少一個<h>推進劑箱</h>並擁有一項<h>職能</h>時，其設計方案方可儲存。而對於<h>殖民船艦</h>這樣的特種船艦來說，還必須配備相應的<h>設施艙體</h>，才能確保其正常履行職能。
+UI.Objectives.FleetScreenCanvas.DesignHeader.Desc=此面板會顯示我方陣營已研究出的可用<h>艦船艙體</h>。各類艙體的圖示都有特定形狀（與船艦設計中的欄位形狀相對應）。 <br/><br/>船艦只有在配備<h>驅動器</h>、<h>動力裝置</h>、<h>散熱器</h>、<h>裝甲材料</h>（零厚度也可）、至少一個<h>推進劑箱</h>並擁有一項<h>職能</h>時，其設計方案才能得到保存。而對於<h>殖民艦船</h>這樣的特種艦船來說，還必須配備相應的<h>設施艙體</h>，才能確保其正常履行職能。
 
 UI.Objectives.FleetScreenCanvas.DesignHeader2.Name=船艦艙體
 UI.Objectives.FleetScreenCanvas.DesignHeader2.Desc=點選介面頂部的分頁，即可檢視該類型艙體。<h>右鍵點選分頁，即可在「顯示可用艙體清單」和「顯示可用艙體圖示」之間切換。</h><br/><br/>將游標停留於艙體上，即可檢視其詳細資訊。右鍵點選艙體圖示，即可將該艙體放入設計中的對應欄位。你也可以拖動圖示，將其放入所需欄位。
@@ -894,7 +894,7 @@ UI.Objectives.FleetScreenCanvas.DesignTransferPlanner.Desc=點選此按鈕，即
 UI.Objectives.FleetScreenCanvas.DesignTransferPlanner2.Name=轉移規劃
 UI.Objectives.FleetScreenCanvas.DesignTransferPlanner2.Desc=選定推進力曲線後返回船艦設計工具，即可看到有關航行及其用時的詳細資訊。若對設計做出的任何更改影響了航行加速度和 Delta-V 值，航行預估資料也將隨之發生變動。
 
-UI.Objectives.FleetScreenCanvas.DesignModel.Name=船身樣式
+UI.Objectives.FleetScreenCanvas.DesignModel.Name=船身樣式 
 UI.Objectives.FleetScreenCanvas.DesignModel.Desc=點選此介面兩側的箭頭，即可更改設計中所使用的船身外觀樣式。對設計做出後續修改時，船艦外觀將呈現相應變化。
 
 UI.Objectives.FleetScreenCanvas.DesignClear.Name=清除設計工具
@@ -973,7 +973,7 @@ UI.Objectives.Orgman.Management.NameShort=管理組織
 UI.Objectives.Orgman.Management.Name=組織管理
 UI.Objectives.Orgman.Management.Desc=你可以透過<h>組織管理</h>視窗，對我方陣營不同地點的組織交換情況進行監管。當特使團掌控大量組織、且你希望透過讓組織的分配方案最佳化來實現收益最大化時，這一工具將發揮重要作用。<br/><br/>所有組織均可透過拖放操作進行調動。將游標停留於任意組織上，即可檢視其詳細資訊。
 
-UI.Objectives.Orgman.CouncilorList.Name=特使團
+UI.Objectives.Orgman.CouncilorList.Name=特使團 
 UI.Objectives.Orgman.CouncilorList.Desc=在特使團介面中，我方特使的資訊將透過一系列介面進行顯示。這些介面上不僅會列出每位元特使的管理屬性（最高可達 25）、已接管的組織總數等資訊，還包含其屬性、可執行任務和特質的總覽。<br/><br/>將游標停留於任何屬性、可執行任務或特質上，即可了解更多資訊。
 
 UI.Objectives.Orgman.CouncilorList2.Name=組織清單
@@ -1108,7 +1108,7 @@ UI.Objectives.NationInfoCanvas.Relations.Name=國際關係
 UI.Objectives.NationInfoCanvas.Relations.Desc=<h>關係</h>分頁會顯示所選國家在國際關係方面的資訊，同時會顯示該國戰爭對手、盟友和競爭對手的國旗。若我方陣營對該國擁有行政控制權，那麼我們便能夠調整該國基本的外交關係走向；而若要實現更為重大的國際關係轉變，則需要借助國家政策來推動。<br/><br/>將游標停留于下方的國旗上，即可檢視與該國改變關係所必須滿足的條件。
 
 UI.Objectives.NationInfoCanvas.Armies.Name=國家軍隊
-UI.Objectives.NationInfoCanvas.Armies.Desc=與大多數國家都擁有的防禦力量不同，軍隊是能夠奪取他國領土的大型遠征部隊。若所選國家擁有軍隊，<h>軍隊</h>分頁便會顯示於此處，將該國的軍隊、當前位置、家鄉地區和有關其作戰能力的其他資訊一一列出。將游標停留于任一條目上，即可檢視更多詳細資訊。<br/><br/>陣營對軍隊的控制權取決於是否擁有該軍隊對應的控制點。佔領控制點後，甚至有可能控制一國境內的多支軍隊。
+UI.Objectives.NationInfoCanvas.Armies.Desc=與大多數國家都擁有的防禦力量不同，軍隊是能夠奪取他國領土的大型遠征部隊。若所選國家擁有軍隊，<h>軍隊</h>頁籤便會顯示於此處，將該國的軍隊、當前位置、家鄉地區和有關其作戰能力的其他資訊一一列出。將遊標懸停於任一條目之上，即可查看更多詳細資訊。 <br/><br/>陣營對軍隊的控制權取決於是否擁有該軍隊對應的控制點。佔領控制點後，甚至有可能控制一國境內的多支軍隊。
 
 UI.Objectives.NationInfoCanvas.Councilors.Name=特使
 UI.Objectives.NationInfoCanvas.Councilors.Desc=若所選國家的地區中存在我們已知的特使，<h>特使</h>分頁便會顯示於此處，將其基本資訊一一列出。
@@ -1162,7 +1162,7 @@ UI.Objectives.IntelScreenCanvas.SpacebodyProbe.Name=勘探狀態
 UI.Objectives.IntelScreenCanvas.SpacebodyProbe.Desc=此欄中的數值代表天體當前的勘探狀態。若某個天體具備勘探條件，此處將出現一個按鈕，點選後即可發射探測器，對其展開調查。<br/><br/>若我方已完成對該天體的勘探，或者有探測器正在前往該天體的途中，則此處將顯示相應的圖示。
 
 UI.Objectives.IntelScreenCanvas.SpacebodyProbeAll.Name=探測全部
-UI.Objectives.IntelScreenCanvas.SpacebodyProbeAll.Desc=點選此按鈕，即可向所有尚未勘探且可抵達的天體發射探測器。若我方陣營無力承擔發射所有探測器的費用，此操作將不可用。
+UI.Objectives.IntelScreenCanvas.SpacebodyProbeAll.Desc=點選此按鈕，即可向所有尚未勘探且可抵達的天體發射探測器。若我方陣營無力承擔發射所有探測器的費用，此操作將不可用。 
 
 UI.Objectives.IntelScreenCanvas.SpacebodyHabs.Name=太空殖民地
 UI.Objectives.IntelScreenCanvas.SpacebodyHabs.Desc=此欄中的數值代表各陣營在該天體上控制的<h>基地</h>和<h>空間站</h>數量。
@@ -1285,7 +1285,7 @@ UI.Objectives.ResearchScreenCanvas.ArchivesDetail.Desc=所選研究的詳細資�
 
 UI.Objectives.ResearchScreenCanvas.ModifiersOverview.NameShort=修改器
 UI.Objectives.ResearchScreenCanvas.ModifiersOverview.Name=陣營修改器
-UI.Objectives.ResearchScreenCanvas.ModifiersOverview.Desc=<h>陣營修改器</h>分頁會列出我方陣營因地球及太陽系中的研究和事件而獲得的所有持續效果。
+UI.Objectives.ResearchScreenCanvas.ModifiersOverview.Desc=<h>陣營修改器</h>分頁會列出我方陣營因地球及太陽系中的研究和事件而獲得的所有持續效果。 
 
 UI.Objectives.ResearchScreenCanvas.ModifiersFilter.Name=篩選器
 UI.Objectives.ResearchScreenCanvas.ModifiersFilter.Desc=你可以透過<h>按名稱搜尋</h>的方式對修改清單進行篩選。
@@ -1364,7 +1364,7 @@ UI.Objectives.SpaceCombatCanvas.BattleLog.Name=戰鬥日誌
 UI.Objectives.SpaceCombatCanvas.BattleLog.Desc=點選此按鈕，即可打開<h>戰鬥日誌</h>。該日誌會按時間順序記錄戰鬥中發生的各類事件。你可以按事件類別對日誌進行篩選，這些類別包括：船艦遭到摧毀、增援船艦抵達戰場，等等。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Name=發動飛彈齊射
-UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=點選<h>發動飛彈齊射</h>指令按鈕，即可指定一個主要目標，並命令所有配備飛彈武器的船艦準備進行飛彈齊射。在一次飛彈齊射中，各武器發射的飛彈數量為其最大彈藥量的 25%；發射完畢後，這些武器將進入閒置狀態。<br/><br/>你也可以在<h>按住 {0} 鍵的同時，點選</h>敵方目標來發動飛彈齊射。
+UI.Objectives.SpaceCombatCanvas.MainFleetCommandSalvo.Desc=點選<h>發動飛彈齊射</h>指令按鈕，即可指定一個主要目標，並命令所有配備飛彈武器的船艦準備進行飛彈齊射。在一次飛彈齊射中，各武器發射的飛彈數量為其最大彈藥量的 25%；發射完畢後，這些武器將進入閒置狀態。<br/><br/>你也可以在<h>按住 ({0}) 鍵的同時，點選</h>敵方目標來發動飛彈齊射。
 
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Name=解除 AI 控制
 UI.Objectives.SpaceCombatCanvas.MainFleetCommandTakeControl.Desc=點選<h>解除 AI 控制</h>指令按鈕，即可收回我方艦隊中所有船艦的控制權。你可以隨時解除 AI 對艦隊的控制。
@@ -1387,7 +1387,7 @@ UI.Objectives.NationInfoCanvas.ExoBuild.Name=建造太空戰鬥機
 UI.Objectives.NationInfoCanvas.ExoBuild.Desc=擁有地表入軌道戰鬥機（亦稱<h>太空戰鬥機</h>）後，我方陣營所控制的國家便有能力發起太空戰鬥，參與針對敵方艦隊或空間站的作戰行動。如今，人類已完成了對必要科技的研究，我們只需投資「建造太空戰鬥機」優先事項，即可開始在該國建造太空戰鬥機。
 
 UI.Objectives.NationInfoCanvas.ExoPriority.Name=建造太空戰鬥機優先事項
-UI.Objectives.NationInfoCanvas.ExoPriority.Desc=完成這一優先事項將為該國的一座航太力設施增加一架地對軌道太空戰鬥機。國家的執政陣營可以花費<color=#FFFFFFFF><sprite name=boost></color>航太力，參加地球交互軌道上的太空戰鬥。<br><br>所需<color=#FFFFFFFF><sprite name=boost></color>航太力的數量會因太空戰鬥機搭載的不同裝備配置而有所差異。<br/><br/>該國的戰鬥機在執行任務後需要休整一段時間，才能再次出動；若戰機的受損情況達到了需要維修的程度，則需休整更長時間。
+UI.Objectives.NationInfoCanvas.ExoPriority.Desc=完成這一優先事項將為該國的一座航太力設施增加一架地對軌道太空戰鬥機。國家的執政陣營可以花費<color=#FFFFFFFF><sprite name=boost></color>航太力，參加地球交互軌道上的太空戰鬥。<br/><br/>所需<color=#FFFFFFFF><sprite name=boost></color>航太力的數量會因太空戰鬥機搭載的不同裝備配置而有所差異。<br/><br/>該國的戰鬥機在執行任務後需要休整一段時間，才能再次出動；若戰機的受損情況達到了需要維修的程度，則需休整更長時間。
 
 UI.Objectives.NationInfoCanvas.ExoInfo.Name=太空戰鬥機資訊
 UI.Objectives.NationInfoCanvas.ExoInfo.Desc=此處會顯示該國太空戰鬥機的當前可使用狀況。所示的各數值分別代表該國可用於執行任務的地對軌道太空戰鬥機數量，太空戰鬥機總數（含正在維修和任務後維護的數量），以及該國可維持的最大太空戰鬥機數量。將游標停留於各數值上，即可檢視更多詳細資訊。
@@ -1403,13 +1403,13 @@ UI.Objectives.ExoOps.ExoTarget.Desc=從圍繞地球的敵方太空殖民地和�
 
 UI.Objectives.GeneralControlsCanvas.AccessBar.NameShort=出售資源
 UI.Objectives.GeneralControlsCanvas.AccessBar.Name=出售資源
-UI.Objectives.GeneralControlsCanvas.AccessBar.Desc=若我方陣營在地球交互軌道上擁有一座能夠正常運行的空間站，我們便有能力將部分選定的太空資源回售給地球。<br><br>點選頂部欄的<h>太空資源</h>位置，即可打開<h>向地球出售資源</h>視窗。
+UI.Objectives.GeneralControlsCanvas.AccessBar.Desc=若我方陣營在地球交互軌道上擁有一座能夠正常運行的空間站，我們便有能力將部分選定的太空資源回售給地球。<br/><br/>點選頂部欄的<h>太空資源</h>位置，即可打開<h>向地球出售資源</h>視窗。
 
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Name=出售資源
 UI.Objectives.GeneralControlsCanvas.AccessBtn.Desc=你也可以透過點選此按鈕來打開相同的視窗。此按鈕會顯示在每個位於地球交互軌道的我方空間站處。
 
 UI.Objectives.GeneralControlsCanvas.SellIntro.Name=向地球販賣資源
-UI.Objectives.GeneralControlsCanvas.SellIntro.Desc=透過出售資源，我們可將我方陣營在地球之外開採到的過剩的<color=#FFFFFFFF><sprite name=metal></color><h>卑金屬</h>、<color=#FFFFFFFF><sprite name=metal_noble></color><h>貴金屬</h>和<color=#FFFFFFFF><sprite name=radioactive></color><h>可裂物質</h>轉化為<color=#FFFFFFFF><sprite name=currency></color>金錢。<br><br><h>但若我們在地球交互軌道上沒有任何能夠正常運行的太空殖民地，出售太空資源的計畫將化為泡影。</h>
+UI.Objectives.GeneralControlsCanvas.SellIntro.Desc=透過出售資源，我們可將我方陣營在地球之外開採到的過剩的<color=#FFFFFFFF><sprite name=metal></color><h>卑金屬</h>、<color=#FFFFFFFF><sprite name=metal_noble></color><h>貴金屬</h>和<color=#FFFFFFFF><sprite name=radioactive></color><h>可裂物質</h>轉化為<color=#FFFFFFFF><sprite name=currency></color>金錢。<br/><br/><h>但若我們在地球交互軌道上沒有任何能夠正常運行的太空殖民地，出售太空資源的計畫將化為泡影。</h>
 
 UI.Objectives.GeneralControlsCanvas.SellOverview.Name=可用資源
 UI.Objectives.GeneralControlsCanvas.SellOverview.Desc=此處會顯示所有可供出售的資源。每種資源的當前售價顯示在最右側。

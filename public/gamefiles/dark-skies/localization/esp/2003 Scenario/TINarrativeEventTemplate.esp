@@ -1,0 +1,259 @@
+
+// Dark Skies DLC
+
+TINarrativeEventTemplate.displayName.event_AlienAwareness=Conciencia pública de la existencia de los alienígenas
+TINarrativeEventTemplate.event_AlienAwareness.summary=Ya no podemos seguir negando la presencia activa de vida alienígena en el mundo.
+TINarrativeEventTemplate.event_AlienAwareness.query=Hay pruebas indiscutibles de sobra de que hay alienígenas en el sistema solar: numerosos testimonios de testigos diferentes, grabaciones verificadas e incluso artefactos físicos autenticados. Y ya han llegado al ojo público.<br/><br/>Sobra decir que las noticias han causado conmoción a gran escala, con reacciones de todo tipo. El miedo y la esperanza se expanden por igual entre los ciudadanos. Algunos hasta albergan enfado, y es hacia los alienígenas, sino hacia los gobiernos que lo sabían y ocultaron la información del público.<br/><br/>Toda esta situación también parece venir con un efecto positivo inmediato: el hecho de que la vida alienígena se considere confirmada ha logrado centrar las mentes de las generaciones actuales. Las oficinas de postulación y sus reclutadores informan de un aumento en el interés en los ámbitos científicos y militares. Algunos de nuestros agentes han recibido propuestas de colaboración privadas de individuos con talento y contactos que desean aportar a la causa.
+TINarrativeEventTemplate.event_AlienAwareness.option0=Para bien o para mal, la humanidad ha abierto los ojos.
+TINarrativeEventTemplate.event_AlienAwareness.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_AlienAwareness.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_AlienCyberattack=Ciberataque alienígena
+TINarrativeEventTemplate.event_2003_AlienCyberattack.summary=Todos los ejércitos avanzados del mundo están experimentando fallos generalizados en su equipamiento.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.query=Todo apunta a que los alienígenas se han infiltrado y han instalado un paquete de software malicioso muy avanzado en los programas de comunicaciones y logística que usan las fuerzas armadas y las empresas de defensa externas del planeta. Nuestros expertos siguen tratando de descifrar los escasos fragmentos de código que pudieron extraer, pero creemos que el incidente debe haber ocurrido después de la creación de {secondaryTargetNationNameWithArticle} en la Tierra con la intervención de algún colaborador, eso seguro.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.option0=¿Será que dependemos demasiado de la tecnología para defendernos?
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionResult0={summary}
+
+//// ALT-HISTORY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_MissionAccomplished=Misión cumplida
+TINarrativeEventTemplate.event_2003_MissionAccomplished.summary=El presidente de Estados Unidos ha anunciado en el día de hoy el fin de las operaciones de combate Irak.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.query=Tras una entrada espectacular con un aterrizaje asistido de un avión de la marina estadounidense a bordo de un portaviones, el presidente de los Estados Unidos de América afirmó en público que, aunque quedara mucho trabajo que hacer, el país había logrado poner fin a la dictadura en Irak.<br/><br/>Esta muestra de poder militar marca un cambio en el cause de la guerra contra el terrorismo, que enfatiza la dominancia estadounidense en el mundo. No obstante, la crítica no tardó en señalar que la guerra de Irak no estaba justificada y que la intención habría sido desestabilizar toda la región, además de que perciben la intervención del presidente como una costosa actuación teatral con fines publicitarios.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.option0=Ahora que los alienígenas están aquí, ¿acaso importa?
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_ColumbiaDisaster=Accidente del transbordador espacial Columbia
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.summary=En el día 1 de febrero del 2003, el transbordador espacial <i>Columbia</i> se desintegró al volver a entrar en la atmósfera terrestre de Texas y Luisiana, ocasionando la pérdida de siete miembros de la tripulación a bordo.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.query=Lo que al principio se pensaba que no era más que un accidente mundano, por más que fuera trágico, ha ido ganando atención debido a la llegada posterior de un objeto misterioso procedente del espacio, apenas un mes después. Aunque la investigación oficial sigue en curso, las teorías conspirativas que vinculan ambos sucesos van en aumento. Algunos insisten en aminorar los programas espaciales tripulados por seguridad, pero otros creen que es el momento de sacar reformas y no escatimar en esfuerzos.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option0=Tenemos problemas reales más importantes.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult0={targetFactionNameCap} ha accedido a hacer recortes en los programas espaciales tripulados.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option1=¡Ahora no es el momento de tener miedo!
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult1={targetFactionNameCap} ha accedido a dar más apoyo a los programas espaciales tripulados.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option2=Tal y como estaba planeado.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult2={targetFactionNameCap} ha accedido a hacer recortes en los programas espaciales tripulados.
+
+TINarrativeEventTemplate.displayName.event_2003_AlienTacSim=Lanzamiento de simulador táctico de invasión alienígena
+TINarrativeEventTemplate.event_2003_AlienTacSim.summary=Un estudio de videojuegos muy famoso ha estrenado un nuevo lanzamiento en el que tiene lugar una invasión alienígena.
+TINarrativeEventTemplate.event_2003_AlienTacSim.query=El jugador controla una organización paramilitar multinacional de élite, e interactúa con el mundo a través de una pantalla estratégica global y de batallas tácticas por turnos en las que hacer frente a los alienígenas. Aunque el juego en sí es una readaptación de un juego bastante antiguo con el que comparte nombre y género, lleva muchos años en desarrollo. Y aún con esas, es difícil asimilar que se trata de una mera coincidencia, dadas las noticias que ahora mismo sacuden el mundo.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0=Es una señal de los tiempos que corren.
+TINarrativeEventTemplate.event_2003_AlienTacSim.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0=Todo un éxito.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Summary=Un videojuego nuevo que trata de una invasión alienígena ha sido todo un éxito.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Detail=Quizás se debiera a que el lanzamiento se produjo en un momento propicio para ello, pero el juego fue un éxito en todo el panorama global. Los jugadores alabaron la complejidad del sistema de combate y las reseñas lo coronaron como el juego que vino a revivir un género paralizado durante los últimos años. Ya hay rumores de un proyecto de mods muy ambicioso que pretende alargar la experiencia del juego y añadir aún más complejidad.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1=Fracaso total.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Summary=Un videojuego nuevo que trata de una invasión alienígena ha sido un fracaso total.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Detail=Quizás se debiera a que el lanzamiento se produjo en un momento desfavorable, pero el juego no consiguió muchas ventas en el mercado global. Tanto los jugadores como la prensa de reseñas lo criticaron por una dificultad desproporcionada, una interfaz desordenada y una narrativa pobre y, además, insensible.
+
+TINarrativeEventTemplate.displayName.event_2003_DemocraticBacksliding=Retroceso democrático
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.summary=Se corre el riesgo de sufrir un retroceso democrático {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.query=Los políticos más populistas han ido ganando seguidores criticando a las instituciones elitistas, culpando a los forasteros y a otros grupos marginados de dañar la economía y manchar los valores {targetNationAdjective}. Las redes sociales, que antaño eran una herramienta de contacto y aprendizaje, ahora es un pozo sin fondo de desinformación que pretende generar indignación para promover contenido según las interacciones, situación incentivada por los algoritmos. Las reformas de leyes más recientes han reforzado el poder ejecutivo y debilitado el principio de independencia judicial.<br/><br/>Estas circunstancias son muy preocupantes, pero algunos miembros de nuestra facción comentan que podrían beneficiarnos: quizás podamos consolidar nuestra influencia en {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option0=A nosotros nos pirra la democracia, ¿y a quién no?
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option1=Fomentar la retórica en contra de las fuerzas externas que atentan contra {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult1=Los políticos {targetNationAdjective} fomentaron la retórica en contra de las fuerzas externas.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option2=Tomar medidas en contra de la difusión de noticias falsas.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult2={targetNationNameWithArticleCap} tomó medidas para acabar con las noticias falsas.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option3=Proporcionar apoyo para fortalecer a la sociedad civil.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult3={targetNationNameWithArticleCap} proporcionó apoyo a la sociedad civil.
+
+TINarrativeEventTemplate.displayName.event_2003_RisingAuthoritarianism=Aumento del autoritarismo
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.summary=Una tendencia alarmante acontece entre las democracias del mundo.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.query=En el inicio del milenio, una oleada de democracia se expandió por el globo. Con la caída de tantas autocracias pasadas, se esperaba la llegada de una nueva era de libertad para la humanidad.<br/><br/>Por desgracia, se ha podido ver cómo muchas de estas nuevas democracias se levantaban sobre pilares muy débiles, lo que las hizo vulnerables a la elección de líderes y partidos personalistas, que posteriormente se encargaron de desarmar las mismas instituciones que les ayudaron a acceder al poder. El aumento de la desigualdad y el desempleo, la oposición a los cambios sociales y económicos y la polarización electoral se consideran todas posibles causas. Ni siquiera las democracias más duraderas y firmes han podido demostrar ser inmunes.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.option0=No se debe dar por sentada la libertad.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionResult0={summary}
+
+//// ALIEN MYSTERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_PublicSpeculation=Especulación pública
+TINarrativeEventTemplate.event_2003_PublicSpeculation.summary=La falta de información contrastable sobre la misteriosa llegada desde el espacio, tantos meses después de que sucediera, genera una gran oleada de especulaciones desmedidas en el público {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.query=La mayor parte de las especulaciones carecen de sentido: acusan al gobierno {targetNationAdjective} y a las multinacionales de élite de ocultar sus fechorías tras un escenario irreal con el que desviar la atención de la población para que se olvide de otros problemas, además de acusarlos de colaborar con los invasores extraterrestres con tal de conseguir la subyugación total en {targetNationNameWithArticle}. Sin embargo, estas habladurías están ganando tanta fuerza que los gobernantes {targetNationAdjective} se sienten obligados a dar explicaciones.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option0=Dejar que sigan especulando.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult0=La falta de información sobre cierta llegada desde el espacio alimenta las desmedidas especulaciones del público {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option1=Censurar cualquier conversación en torno a este tema.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult1=La falta de información sobre cierta llegada desde el espacio alimenta las desmedidas especulaciones del público {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option2=Revelar al público todo cuanto sabemos para apaciguar las aguas.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult2=La falta de información sobre cierta llegada desde el espacio alimenta las desmedidas especulaciones del público {targetNationAdjective}.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option3=Meter leña al fuego con nuestras propias teorías.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult3=La falta de información sobre cierta llegada desde el espacio alimenta las desmedidas especulaciones del público {targetNationAdjective}.
+
+TINarrativeEventTemplate.displayName.event_2003_ExecutiveDysfunction=Disfunción ejecutiva
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.summary=La rama ejecutiva {targetNationAdjective} no ha podido llegar a un consenso firme sobre los alienígenas.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.query=A pesar de la influencia que ejerce nuestra facción en determinados miembros clave del gobierno {targetNationAdjective}, el secretismo operacional necesario al que se atienen nuestras actividades y la presunta llegada de los alienígenas dificultan la exposición y defensa de nuestra postura. Por tanto, aún hay muchos miembros del gobierno que piensan que la existencia de alienígenas en la Tierra es una farsa y que hay asuntos terrenales que merecen más atención, como la calidad de la comida que se sirve en nuestras escuelas.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option0=Dejar que tengan sus desacuerdos.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option1=Permitir que los escépticos disfruten de su momento mientras puedan.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail1=Después de todo, sí que es importante comer bien.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult1=El poder ejecutivo {targetNationAdjective} decidió priorizar la calidad de la comida que se sirve en las escuelas.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option2=Presionar para la ejecución de una respuesta decisiva.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult2=El poder ejecutivo {targetNationAdjective} ha insistido en la ejecución de una respuesta decisiva ante los alienígenas.
+
+TINarrativeEventTemplate.displayName.event_2003_StrangeLights=Luces extrañas
+TINarrativeEventTemplate.event_2003_StrangeLights.summary=Las redes sociales se han plagado de imágenes que muestran supuestas luces brillantes en el cielo, en {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_StrangeLights.query=Como era de esperar, muchos usuarios creen que se trata de un fenómeno natural o creado por el hombre, pero muchos otros creen que su origen es alienígena. Muchos alegan que ni siquiera son reales.
+TINarrativeEventTemplate.event_2003_StrangeLights.option0=No es más que gas de los pantanos.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult0={targetNationNameWithArticleCap} atribuyó las luces brillantes del cielo al gas de los pantanos.
+TINarrativeEventTemplate.event_2003_StrangeLights.option1=Envía a un equipo de científicos a investigar los extraños sucesos de forma oficial.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult1={targetNationNameWithArticleCap} envió a un equipo de científicos a investigar las luces brillantes del cielo.
+TINarrativeEventTemplate.event_2003_StrangeLights.option2=Destinar naves de combate a la vigilancia de nuestros cielos como muestra de poder.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult2={targetNationNameWithArticleCap} envió naves de combate con el fin de interceptar la luces brillantes del cielo.
+TINarrativeEventTemplate.event_2003_StrangeLights.option3=Animar a vuestros seguidores a pasar tiempo al aire libre observando las luces, tan bonitas.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult3={targetFactionNameCap} animó a sus seguidores a pasar tiempo al aire libre.
+
+TINarrativeEventTemplate.displayName.event_2003_LethargicTroops=Letargo en las tropas
+TINarrativeEventTemplate.event_2003_LethargicTroops.summary=La moral de las fuerzas armadas {targetNationAdjective} está por los suelos.
+TINarrativeEventTemplate.event_2003_LethargicTroops.query=Se ha detectado un pico de absentismo laboral alarmante, huelgas de celo y falta de entusiasmo en el cumplimiento de sus obligaciones entre los oficiales de las distintas ramas. El problema es tan grave que ni las amenazas de sufrir medidas disciplinarias severas surten efecto. Cuando se les pregunta a los soldados, no son capaces de articular un argumento en específico, tan solo comparten la creencia general de que luchar no tiene sentido.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option0=¿Y qué pasa con la idea de servir al país?
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_LethargicTroops.option1=Incrementar el presupuesto destinado a servicios y comodidades para las tropas.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult1={targetNationNameWithArticleCap} incrementó el presupuesto destinado a los servicios y las comodidades de las tropas.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option2=Despedir a los más problemáticos para dar ejemplo.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult2={targetNationNameWithArticleCap} despidió a los integrantes más problemáticos de sus fuerzas armadas.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3=Investigar en busca de alguna señal de una posible subversión alienígena.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0=Éxito.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Summary={targetNationNameWithArticleCap} descubrió señales de la influencia que ejercen los alienígenas en sus fuerzas armadas.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Detail=¡Hemos podido encontrar señales de que los alienígenas ejercen su influencia en nuestras filas! Gracias a ello, hemos logrado devolver la moral a la normalidad, pero con el añadido de que las fuerzas armadas {targetNationAdjective} estarán mejor preparadas para hacer frente a cualquier amenaza alienígena futura.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1=Fracaso.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Summary={targetNationNameWithArticleCap} culpó a los alienígenas de la baja moral que impera en sus fuerzas armadas.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Detail=Haber atribuido el problema a la influencia de los alienígenas solo ha servido para acrecentar la indignación de sus soldados.
+
+
+
+
+//// SERVANTS EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_CultofEquality=Culto por la igualdad
+TINarrativeEventTemplate.event_2003_CultofEquality.summary=Un nuevo movimiento religioso gana fuerza en {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofEquality.query=Los reclutadores y los evangelistas están haciendo campaña en oficinas, escuelas y centros comunitarios, y sus mensajes conmueven los corazones de la gente. No hay grupo de amigos que no cuente con algún integrante que conozca a alguien partícipe de este movimiento. Los manifestantes y activistas vinculados ya están tomando las calles de {targetRegionName} y otras ciudades, con una coherencia y coordinación más que inusual.<br/><br/>Su mensaje: todos los hombres nacen en igualdad de condiciones, por lo que todos deberían vivir del mismo modo. El origen de la discordia es la diferencia entre las posesiones materiales de los unos y los otros. Ya es hora de devolver las riquezas acumuladas por unos pocos a toda la comunidad.
+TINarrativeEventTemplate.event_2003_CultofEquality.option0=Permitir sus movimientos y protestas.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofEquality.option1=Ceder ante la igualdad.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult1={actorNameWithArticleCap} cedió ante un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofEquality.option2=Tomar medidas contra la subversión.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult2={actorNameWithArticleCap} tomó medidas contra un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3=Investigar en busca de alguna señal de implicación alienígena.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0=Éxito.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Summary={actorNameWithArticleCap} descubrió la influencia que ejercían los alienígenas en un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Detail=¡Hemos conseguido descubrir señales de la influencia que ejercen los alienígenas en el movimiento! Como resultado, lo hemos desacreditado; la mayoría de sus miembros se han dispersado sin incidentes.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1=Fracaso.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Summary={actorNameWithArticleCap} no logró confirmar que los alienígenas ejercieran influencia en un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Detail=Haber atribuido el problema a la influencia de los alienígenas solo ha servido para acrecentar la indignación de la sociedad. Si es alienígena luchar por la igualdad, entonces todos son alienígenas.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofUnity=Culto por la unidad
+TINarrativeEventTemplate.event_2003_CultofUnity.summary=Un nuevo movimiento religioso gana fuerza en {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofUnity.query=Los reclutadores y los evangelistas están haciendo campaña en oficinas, escuelas y centros comunitarios, y sus mensajes conmueven los corazones de la gente. No hay grupo de amigos que no cuente con algún integrante que conozca a alguien partícipe de este movimiento. Los manifestantes y activistas vinculados ya están tomando las calles de {targetRegionName} y otras ciudades, con una coherencia y coordinación más que inusual.<br/><br/>Su mensaje: por más que el mundo atraviese momentos complicados y otras dificultades de la vida, siempre se debe albergar amor por el prójimo. Solo así puede uno amarse a sí mismo.
+TINarrativeEventTemplate.event_2003_CultofUnity.option0=Esto es lo que nuestros salvadores quieren para nosotros.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofUnity.option1=Nuestros salvadores guardan mejores planes para nosotros.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofPeace=Culto por la paz
+TINarrativeEventTemplate.event_2003_CultofPeace.summary=Un nuevo movimiento religioso gana fuerza en {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofPeace.query=Los reclutadores y los evangelistas están haciendo campaña en oficinas, escuelas y centros comunitarios, y sus mensajes conmueven los corazones de la gente. No hay grupo de amigos que no cuente con algún integrante que conozca a alguien partícipe de este movimiento. Los manifestantes y activistas vinculados ya están tomando las calles de {targetRegionName} y otras ciudades, con una coherencia y coordinación más que inusual.<br/><br/>Su mensaje: el aumento del militarismo en el mundo solo llevará a más dolor y sufrimiento. {targetNationNameWithArticleCap} es el mayor culpable, pues es la nación líder en lo que a complejos de industria militar y capacidad expedicionaria se refiere. Debe parar y tomar otro camino de inmediato, o no habrá piedad en la retribución de muerte y destrucción por venir.
+TINarrativeEventTemplate.event_2003_CultofPeace.option0=Permitir sus movimientos y protestas.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofPeace.option1=Ceder ante la desmovilización.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult1={actorNameWithArticleCap} cedió ante un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofPeace.option2=Tomar medidas contra la subversión.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult2={actorNameWithArticleCap} tomó medidas contra un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3=Investigar en busca de alguna señal de implicación alienígena.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0=Éxito.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Summary={actorNameWithArticleCap} descubrió la influencia que ejercían los alienígenas en un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Detail=¡Hemos conseguido descubrir señales de la influencia que ejercen los alienígenas en el movimiento! Como resultado, lo hemos desacreditado; la mayoría de sus miembros se han dispersado sin incidentes.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1=Fracaso.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Summary={actorNameWithArticleCap} no logró confirmar que los alienígenas ejercieran influencia en un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Detail=Haber atribuido el problema a la influencia de los alienígenas solo ha servido para acrecentar la indignación de la sociedad. Si es alienígena luchar por la paz, entonces todos son alienígenas.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofAction=Culto por la acción
+TINarrativeEventTemplate.event_2003_CultofAction.summary=Un nuevo movimiento religioso gana fuerza en {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofAction.query=Los reclutadores y los evangelistas están haciendo campaña en oficinas, escuelas y centros comunitarios, y sus mensajes conmueven los corazones de la gente. No hay grupo de amigos que no cuente con algún integrante que conozca a alguien partícipe de este movimiento. Los manifestantes y activistas vinculados ya están tomando las calles de {targetRegionName} y otras ciudades, con una coherencia y coordinación más que inusual.<br/><br/>Su mensaje: bien es sabido por todos que este nuestro mundo es corrupto y vil, pero con saberlo no basta. Cierto es que las palabras no pueden cambiar el mundo, así pues, debe hacerse con acciones. Alguien tiene que dar el primer paso hacia un mundo mejor, y ese alguien eres tú.
+TINarrativeEventTemplate.event_2003_CultofAction.option0=Esto es lo que nuestros salvadores quieren para nosotros.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofAction.option1=Nuestros salvadores guardan mejores planes para nosotros.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofArmageddon=Culto del fin del mundo
+TINarrativeEventTemplate.event_2003_CultofArmageddon.summary=Un nuevo movimiento religioso gana fuerza en {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.query=Los reclutadores y los evangelistas están haciendo campaña en oficinas, escuelas y centros comunitarios, y sus mensajes conmueven los corazones de la gente. No hay grupo de amigos que no cuente con algún integrante que conozca a alguien partícipe de este movimiento. Los manifestantes y activistas vinculados ya están tomando las calles de {targetRegionName} y otras ciudades, con una coherencia y coordinación más que inusual.<br/><br/>Su mensaje: las armas nucleares son la maldición que la humanidad siembra en el mundo. Mientras quede alguna ojiva, el fin del mundo llegará. La destrucción mutua asegurada es garantía de destrucción: si ninguna nación da ejemplo, ¿por qué lo harían las demás?
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option0=Permitir sus movimientos y protestas.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option1=Ceder ante el desarme.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult1={actorNameWithArticleCap} cedió ante un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option2=Tomar medidas contra la subversión.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult2={actorNameWithArticleCap} tomó medidas contra un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3=Investigar en busca de alguna señal de implicación alienígena.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0=Éxito.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Summary={actorNameWithArticleCap} descubrió la influencia que ejercían los alienígenas en un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Detail=¡Hemos conseguido descubrir señales de la influencia que ejercen los alienígenas en el movimiento! Como resultado, lo hemos desacreditado; la mayoría de sus miembros se han dispersado sin incidentes.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1=Fracaso.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Summary={actorNameWithArticleCap} no logró confirmar que los alienígenas ejercieran influencia en un nuevo movimiento religioso.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Detail=Haber atribuido el problema a la influencia de los alienígenas solo ha servido para acrecentar la indignación de la sociedad. Si es alienígena luchar por la paz, entonces todos son alienígenas.
+
+
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_2003_InsightfulBlogger=Bloguero conocedor
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.summary=Uno de nuestros trabajadores de la rama de comunicaciones asegura haber descubierto inteligencia de vital importancia en las redes sociales.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.query=Un miembro del personal se topó con un blog en el que se afirmaba la obtención de pruebas de las actividades de los alienígenas en la tierra mientras monitoreaba las redes de comunicaciones globales. En circunstancias normales, semejantes afirmaciones se pasarían por alto, pero ya no hay normalidad que valga: las pruebas son muy convincentes. Existe la posibilidad de que el dueño del blog sepa algo que a nosotros se nos escapa. Y si nosotros hemos sido capaces de encontrar estas pruebas en internet, seguro que no hemos sido los únicos.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0=No tenemos tiempo como para entretenernos con bulos.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0=No sucede nada.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Summary=Hay pruebas de actividad alienígena circulando por las redes.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Detail=No sucede nada.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1=¿?
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Summary=Hay pruebas de actividad alienígena circulando por las redes.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1=Hora de hacerle una visita.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0=Éxito.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Summary=Hay pruebas de actividad alienígena circulando por las redes.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Detail=Cuando nuestros agentes se personaron en la casa del bloguero, este les invitó a pasar para mantener una charla cordial. Les ofreció café y les entregó las fotos de buena gana, fotos que mostraban evidencias claras de la presencia de alienígenas en la zona. Además, también entregó algunos objetos con una composición química más que interesante.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1=Oportunidad perdida.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Summary=Hay pruebas de actividad alienígena circulando por las redes.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Detail=Cuando nuestros agentes se personaron en la casa del bloguero, se la encontraron vacía: había señales de que alguien estuvo viviendo ahí hace poco, pero no encontraron a nadie, ni tampoco ningún equipo informático. Al interrogar a los vecinos, aseguraron que ahí no vive nadie desde hace mucho.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2=Estafa.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Summary=Hay pruebas de actividad alienígena circulando por las redes.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Detail=Cuando nuestros agentes se personaron en la casa del bloguero, se encontraron con que las fotos, que a través de una pantalla parecían muy fiables, en persona resultaba evidentemente falso. Las supuestas piezas de una nave alienígena no eran más que decorado hecho de goma EVA. Tras nuestra visita, el bloguero se atrevió a decir que el hecho de que nos hayamos implicado quiere decir que se acercó mucho a la verdad.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option2=Amplificar el alcance de sus publicaciones para difundir el mensaje.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionResult2=Hay pruebas de actividad alienígena circulando por las redes.

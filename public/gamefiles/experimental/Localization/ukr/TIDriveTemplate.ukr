@@ -666,6 +666,7 @@ TIDriveTemplate.OpenCycle=Цей мотор використовує <h>охол
 TIDriveTemplate.ClosedCycle=Цей мотор використовує <h>охолодження закритого кола</h>, що означає, що йому потрібні важкі радіатори для виділення тепла. Мотори з високою вихлопною швидкістю схильні потребувати цю функцію.
 TIDriveTemplate.ISRU=Цей мотор можна заправляти пальним з неполіпшених ділянок середовища без спеціального обладнання.
 TIDriveTemplate.UsesHelium3=Цей мотор використовує гелій-3, який потрібно виводити в реакторах, якщо ми не можемо видобувати його на газових гігантах Сонячної системи.
+TIDriveTemplate.NoEVPenalty=Цей мотор не втрачає вихлопну швидкість під час використання бойової тяги.
 TIDriveTemplate.PowerGeneration=Резервне живлення системам корабля:<rcol>{0}</rcol>
 TIDriveTemplate.PowerGenerationType.Always=Завжди
 TIDriveTemplate.PowerGenerationType.DriveIdle=Коли тяга не здійснюється

@@ -53,7 +53,7 @@ UI.Notifications.ExpandedStationLocationWithPrep={1} の {0}											// at Pro
 UI.Notifications.BaseLocationWithPrep={0}															// at Serenity Base
 UI.Notifications.ExpandedBaseLocationWithPrep={0} の {1}												// at Serenity Base at Arcadia Planitia
 UI.Notifications.FullExpandedBaseLocationWithPrep={2} の {1} の {0}									// at Serenity Base at Arcadia Planitia on Mars
-UI.Notifications.OrbitWithPrep={0}にいる																	// in Low Earth Orbit
+UI.Notifications.OrbitWithPrep={0}																	// in Low Earth Orbit
 UI.Notifications.ShipWithPrep={0}																// on the Broadsword (ship names will not normally have articles)
 UI.Notifications.ExpandedShipWithPrep={0} の {1}													// on the Broadsword in 1st Fleet
 UI.Notifications.LPointWithPrep={0}																// at the Earth-Moon L-4 Point (L-Points will not normally have articles)
@@ -86,8 +86,8 @@ UI.Notifications.MyControlPointTakenSummary={0}のコントロール・ポイン
 UI.Notifications.MyControlPointTaken={3}のコントロール・ポイント{0}を{1}に奪われた。多くの部下が通信に応答しなくなり、現地でのイベントに対する影響力を大幅に削がれた。{2}													 // nation, faction, CP description, conditional armieslost
 UI.Notifications.MyControlPointDominatedHed=コントロール・ポイントの放棄
 UI.Notifications.MyControlPointDominatedSummary={0}エージェントが{1}コントロール・ポイント{2}の放棄を強要している。													// faction adjective, faction adjective, nation with prep
-UI.Notifications.MyControlPointDominatedDetail={0}エージェントが{1}の様々な軍事・民間のターゲットに対して軌道攻撃を行うと脅迫した。その結果、その地の指導者がコントロール・ポイントの1つを彼らに明け渡した。{2}
-UI.Notifications.MyControlPointDominatedDetail2={0}の支援者は、我々の反抗的な支援者を服従させようと試みた後、軍事および民間のターゲット{1}に対して壊滅的な軌道攻撃を開始した。その結果、生存者はコントロール・ポイントの1つを彼らに明け渡した。{2}
+UI.Notifications.MyControlPointDominatedDetail={0}エージェントが{1}の様々な軍事・民間のターゲットに対して軌道攻撃を行うと脅迫した。その結果、その地の指導者がコントロール・ポイントの1つを彼らに明け渡した。これを防ぐには、地球軌道上にある相手のセンチネル・モジュールをすべて破壊しなければならない。{2}
+UI.Notifications.MyControlPointDominatedDetail2={0}の支援者は、我々の反抗的な支援者を服従させようと試みた後、軍事および民間のターゲット{1}に対して壊滅的な軌道攻撃を開始した。その結果、生存者はコントロール・ポイントの1つを彼らに明け渡した。これを防ぐには、地球軌道上にある相手のセンチネル・モジュールをすべて破壊しなければならない。{2}
 UI.Notifications.Neutral=中立
 UI.Notifications.NoFaction=派閥なし
 UI.Notifications.MyControlPointCrackedDownHed=弾圧
@@ -221,8 +221,10 @@ UI.Notifications.SpecialProjectTriggered.Summary=プロジェクト「{0}」に�
 UI.Notifications.SpecialProjectTriggered.Detail=我々の研究開発チームは、重大な不確実性を克服し、プロジェクト「<h>{0}</h>」に着手できるようになったことを喜んで報告する。
 UI.Notifications.ProjectComplete.Hed=プロジェクトを完了<br/>{0}
 UI.Notifications.ProjectComplete.Summary={0}プロジェクトを完了した。
-UI.Notifications.ProjectComplete.Detail={0}プロジェクトを完了した。<br/>{1}
-UI.Notifications.ProjectComplete.Detail2={0}プロジェクトを完了した。{1}<br/><br/>{2}
+UI.Notifications.ProjectComplete.Detail={0}プロジェクトを完了した。<br/><br/>{1}									// 0- project name, 1- project description
+UI.Notifications.ProjectComplete.Detail2={0}プロジェクトを完了した。<br/><br/>{1}<br/><br/>{2}					// 0- project name, 1- Appending diff line (ResearchCompleteAutoPick, ln 243), 2- project description
+UI.Notifications.ProjectComplete.Summary.OtherFaction={0}の支援者が{1}プロジェクトを完了した。					// 0- faction displayname, 1-project name,
+UI.Notifications.ProjectComplete.Detail.OtherFaction={0}の支援者が{1}プロジェクトを完了した。<br/><br/>{2}		// 0- faction displayname, 1-project name, 2-project description
 
 UI.Notifications.ProjectComplete.OrgGained=我々の取り組みから新たな組織 {0} が生まれた。これは私たちの派閥待機人員にあり、評議員に割り当てることができる。<br/>	//org name with article
 UI.Notifications.ProjectComplete.ResourcesGained=次の資源を獲得した：{0}<br/>
@@ -301,7 +303,7 @@ UI.Notifications.EndRivalryOption.Decline.Hed=対立関係の継続
 UI.Notifications.EndRivalryOption.Decline={0}は{1}との対立関係解消の申し入れを断った。
 UI.Notifications.EndRivalryOption.Hed=対立関係の解消
 UI.Notifications.EndRivalryOption.Summary={0}と{1}は対立関係を解消した。
-UI.Notifications.EndRivalryOption.Detail={0}と{1}は対立関係を解消し、正常な関係に戻った。
+UI.Notifications.EndRivalryOption.Detail=<h>{0}</h>と<h>{1}</h>は対立関係を解消し、正常な関係に戻った。
 UI.Notifications.JoinFederationOption.Hed=連邦
 UI.Notifications.JoinFederationOption.Summary={0}は{1}と連邦を結成することを決定した。				// nation, nation 2
 UI.Notifications.JoinFederationOption.Detail={0}は{1}と連邦を結成することを決定した。両国は永久同盟を結び、宇宙開発計画の資金とブーストを共有する。
@@ -358,6 +360,7 @@ UI.Notifications.HabFoundedHed={0}を建造
 UI.Notifications.HabModuleComplete=ハブ・モジュールが完成
 UI.Notifications.AlienCrashdownSummary={1}の{0}地域にエイリアンの船が墜落した。
 UI.Notifications.AlienCrashdownHeadline=UFOが地球に墜落
+UI.Notifications.AlienCrashdownDetail.First={1}の{0}地域にエイリアンの船が墜落した。残骸は回収不能だが、エイリアン生命体が周辺の田園地帯に逃げ込んだ可能性がある。
 UI.Notifications.AlienCrashdownDetail={1}の{0}地域にエイリアンの船が墜落した。残骸は回収不能だが、エイリアン生命体が周辺の田園地帯に逃げ込んだ可能性がある。
 UI.Notifications.UFOLandingSummary={1}の{0}地域にエイリアンの輸送船が着陸した。
 UI.Notifications.UFOLandingHeadline=UFOが地球に着陸
@@ -450,7 +453,7 @@ UI.Notifications.FleetTrajectoryAbortedDetail_ReturnToOrbit={1}に残ってい�
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbit={0}を周回する一時的な軌道に入った。											// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbitWithBurn=太陽系を離脱しないよう緊急燃焼を行い、一時的に{0}の周回軌道に入った。
 UI.Notifications.FleetTrajectoryAbortedDetail_LeavingSolarSystem=現在の速度では太陽系外に出てしまうが、これを防ぐため軌道に留まるよう減速するためのデルタVが不足している。我々の艦隊のいずれかが追いついて推進剤を補給できれば、レスキューを行い、艦隊を帰還させられる可能性がある。<br/><br/>この軌道にある間、艦隊は<color=#FFFFFFFF><sprite name="mission_control"></color>を消費しない。
-UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=一部の船は太陽系外に出ないよう、離脱して緊急燃焼を行った。彼らは艦隊{0}を編成し、一時的に{1}を周回している。残りの船は、このままの速度では太陽系外に出てしまうが、減速する手段がない。我々の艦隊のいずれかがこれらの船に追いついて推進剤を補給できれば、レスキューを行い、艦隊を帰還させられる可能性がある。<br/><br/>この軌道にある間、出発中の艦隊は<color=#FFFFFFFF><sprite name="mission_control"></color>を消費しない。
+UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=一部の船は太陽系外に出ないよう、離脱して緊急燃焼を行った。現在{0}艦隊に属している残りの船は、このままの速度では太陽系外に出てしまうが、減速する手段がない。我々の艦隊のいずれかがこれらの船に追いついて推進剤を補給できれば、レスキューを行い、艦隊を帰還させられる可能性がある。<br/><br/>この軌道にある間、出発中の艦隊は<color=#FFFFFFFF><sprite name="mission_control"></color>を消費しない。
 UI.Notifications.FleetTrajectoryAbortedDetail_WillCrash=艦隊は{0}との衝突経路を進んでおり、回避することはできない。				// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_SomeWillCrash=艦隊の一部の船は{0}との衝突経路を進んでおり、回避することはできない。その他の船は離脱した。
 UI.Notifications.TargetManeuveredAndWeCannotGiveChaseDetail_InsufficientDV=目標艦隊の発進により、{0}はやむを得ず移動計画を中止した。{0}には、{1}を新しい軌道に乗せるためのデルタVが不足している。
@@ -575,15 +578,25 @@ UI.Notifications.OurHabDestroyedDetail.Base={0}軍は{2}の{1}を焼き尽くし
 UI.Notifications.OurHabDestroyedDetail.Station={0}軍は{2}の{1}を破壊した。生存者はいないと思われる。
 UI.Notifications.HabDestroyedHed={1}が{0}に破壊された
 UI.Notifications.HabDestroyedSummary={2}のハブ{1}が{0}に破壊された。 
-UI.Notifications.HabDestroyedDetail.Base=我々は{3}の{2}にある{0}の基地{1}を破壊した。彼らは報復の手段を考えるだろう。
-UI.Notifications.HabDestroyedDetail.Station=我々は{2}の{0}ステーション{1}を破壊した。彼らは報復を求めるだろう。
+UI.Notifications.HabDestroyedDetail.Base=我々は{3}の{2}にある{0}のハブ{1}を破壊した。彼らは報復の手段を考えるだろう。
+UI.Notifications.HabDestroyedDetail.Station=我々は{2}の{0}ハブ{1}を破壊した。彼らは報復を求めるだろう。
 UI.Notifications.HabDestroyedSalvage=残骸から{0}を回収した。
+
+UI.Notifications.HabDestroyedHed_AlienHome={1}が{0}に襲撃された								// 1- Hab's display name, 0- Faction display name (Capitalized)
+UI.Notifications.HabDestroyedSummary_AlienHome={2}のハブ{1}が{0}に襲撃された。 			// 2- Faction Adjective, 1- Hab display name, 0- Faction display name 
+UI.Notifications.HabDestroyedDetail_AlienHome={2}の{1}にある{0}ハブを襲撃した。我々の海兵隊は、エイリアンのコアモジュールまたはワームホール収容室に入ることができなかった。これ以上先に進むには、{3}の組織の評議員を雇う必要があるだろう。 								// 0- Hab displayname, 1-Hab Site displayname, 2-Spacebody display name, 3, Org display name with leading article (the)
+
 UI.Notifications.ShipStolenHeadline=船が{0}に参加
 UI.Notifications.ShipStolenSummary={2}の船{0}は{1}の指示に従うようになった。
 UI.Notifications.ShipStolenDetail=我々の{0}{1}は命令に応じなくなった。有力な情報によれば、裏切り者の士官たちが{2}に乗り換えたとのことだ。 // Ship's class name, Ship name, faction name
 UI.Notifications.ShipDefectedHeadline=敵船が{0}に参加
 UI.Notifications.ShipDefectedSummary={0}の船{1}が{2}に報告しています。
 UI.Notifications.ShipDefectedDetail={0}{1}は前の主を見限り、代わりに{2}に参加することを選択しました。
+
+UI.Notifications.MyHabAssaultedHeadline={0}が攻撃を受けている																	// hab name	
+UI.Notifications.MyHabAssaultedSummary={0}の軍が{1}を奪おうとしています！												// faction adjective, hab Name
+UI.Notifications.MyHabAssaultedDetail={0}の軍が{1}を奪おうとしています。  												// faction adject, hab name with full location string
+
 UI.Notifications.FleetAvailableHed={0}が作戦に復帰																// fleet name
 UI.Notifications.FleetAvailableSummary={0}艦隊は軍事作戦{1}に参加可能。											// fleet name, location with prep
 UI.Notifications.FleetAvailableDetail=艦隊 {0}が{1}を出発し、軍事作戦{2}に参加可能になった。						// fleet name, location with prep
@@ -720,6 +733,10 @@ UI.Notifications.LogFleetEjectedFromStation.Hed=艦隊が敵のステーショ�
 UI.Notifications.LogFleetEjectedFromStation.Summary={0}は他の派閥の攻撃を避けるため、{1}からドッキング解除を行った。
 UI.Notifications.LogFleetEjectedFromStation.Detail={0}は他の派閥の攻撃を避けるため、{1}からドッキング解除を行った。<br/><br/>敵対的なステーションの艦隊は、攻撃やモジュール破壊作戦を行っていない限り、第三派閥の攻撃によって退去に追い込まれる。この場合、ドッキングはできない。
 
+UI.Notifications.FactionDisabled.Hed={0}の休止			// faction name with article
+UI.Notifications.FactionDisabled.Summary={0}と称される集団がすべての活動を中止。
+UI.Notifications.FactionDisabled.Detail={0}と称される集団がすべての活動を中止し、その指導部は身を潜めている。彼らの支持者はいまだ世界中にいるものの、もはや我々の計画の重大な脅威とはなり得ないだろう。
+
 UI.Notifications.TagRed=<color=#EC2100>赤</color>でマーク
 UI.Notifications.TagGreen=<color=#B4FF3E>緑</color>でマーク 
 
@@ -738,8 +755,6 @@ UI.Notifications.PactEnds.Detail_NAPIntel={0}と{1}は不可侵条約ならび�
 UI.Notifications.PactEnds.Hed_Truce=休戦協定の解消
 UI.Notifications.PactEnds.Summary_Truce={0}と{1}は休戦協定を解消した。
 UI.Notifications.PactEnds.Detail_Truce={0}と{1}は休戦協定を解消した。
-
-
 
 UI.Notifications.LeaveDarkFederation_Violent_Query=新たな指導者{0}は、国家に{1}を脱退するよう指示した。彼らが{2}の勢力圏から脱退するリスクを負いたくない場合は、結束力などのペナルティなしですぐに宣戦布告することが可能だ。どうする？
 

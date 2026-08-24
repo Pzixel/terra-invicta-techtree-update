@@ -16,6 +16,7 @@ UI.Habs.MainHeader=Habitate
 UI.Habs.NoHabSelected=Kein Habitat ausgewählt
 UI.Habs.TierCrew={0} (Klasse {1}/Max. {2})
 UI.Habs.SelectAModule=Modul wählen
+UI.Habs.CantBuild=<size=60%>Habitate, die angegriffen, bombardiert oder abgerissen werden, können keine Module bauen oder aufwerten.</size>
 UI.Habs.SectorID=Sektor {0}
 UI.Habs.Tier=Klasse-{0}-Modul
 UI.Habs.Crew={0} Crew
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath={0} auf {1}																// old module displayName, upgrad
 UI.Habs.UpgradeAllofTypeQuery=Wenn du bestätigst, werden {0} Module aufgewertet: {1} auf {2}.
 UI.Habs.CantAffordUpgradeAllofType=Das können wir uns im Moment nicht leisten.
 UI.Habs.BaseSiteName={0}-Stützpunkt																// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks={0} Dieses Habitat kann keine Module bauen oder aufwerten, während es angegriffen wird.

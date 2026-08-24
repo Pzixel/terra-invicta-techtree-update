@@ -28,19 +28,27 @@
    ],
    "modelResource": [
       "ships/Gunship",
-      "ships/Gunship_1"
+      "ships/Gunship_1",
+      "ships_prm/Gunship_2",
+      "ships_prm/Gunship_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_GS",
-      "ui_spacecombat/OBJ_battle_earth_GS_ALT"
+      "ui_spacecombat/OBJ_battle_earth_GS_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_GS_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_GS_DLCA"
    ],
    "path1": [
       "earth_GS/",
-      "earth_GS_ALT/"
+      "earth_GS_ALT/",
+      "earth_GS_PRM/",
+      "earth_GS_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_GS",
-      "OBJ_battle_earth_GS_ALT"
+      "OBJ_battle_earth_GS_ALT",
+      "OBJ_battle_earth_GS_PRM",
+      "OBJ_battle_earth_GS_DLCA"
    ],
    "requiredProjectName": "Project_Warships",
    "weightedBuildMaterials": {
@@ -130,19 +138,27 @@
    ],
    "modelResource": [
       "ships/Escort",
-      "ships/Escort_1"
+      "ships/Escort_1",
+      "ships_prm/Escort_2",
+      "ships_prm/Escort_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_ES",
-      "ui_spacecombat/OBJ_battle_earth_ES_ALT"
+      "ui_spacecombat/OBJ_battle_earth_ES_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_ES_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_ES_DLCA"
    ],
    "path1": [
       "earth_ES/",
-      "earth_ES_ALT/"
+      "earth_ES_ALT/",
+      "earth_ES_PRM/",
+      "earth_ES_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_ES",
-      "OBJ_battle_earth_ES_ALT"
+      "OBJ_battle_earth_ES_ALT",
+      "OBJ_battle_earth_ES_PRM",
+      "OBJ_battle_earth_ES_DLCA"
    ],
    "requiredProjectName": "Project_Warships",
    "weightedBuildMaterials": {
@@ -240,19 +256,27 @@
    ],
    "modelResource": [
       "ships/Corvette",
-      "ships/Corvette_1"
+      "ships/Corvette_1",
+      "ships_prm/Corvette_2",
+      "ships_prm/Corvette_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_CO",
-      "ui_spacecombat/OBJ_battle_earth_CO_ALT"
+      "ui_spacecombat/OBJ_battle_earth_CO_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_CO_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_CO_DLCA"
    ],
    "path1": [
       "earth_CO/",
-      "earth_CO_ALT/"
+      "earth_CO_ALT/",
+      "earth_CO_PRM/",
+      "earth_CO_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_CO",
-      "OBJ_battle_earth_CO_ALT"
+      "OBJ_battle_earth_CO_ALT",
+      "OBJ_battle_earth_CO_PRM",
+      "OBJ_battle_earth_CO_DLCA"
    ],
    "requiredProjectName": "Project_Warships",
    "weightedBuildMaterials": {
@@ -352,19 +376,27 @@
    ],
    "modelResource": [
       "ships/Frigate",
-      "ships/Frigate_1"
+      "ships/Frigate_1",
+      "ships_prm/Frigate_2",
+      "ships_prm/Frigate_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_FRI",
-      "ui_spacecombat/OBJ_battle_earth_FR_ALT"
+      "ui_spacecombat/OBJ_battle_earth_FR_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_FRI_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_FRI_DLCA"
    ],
    "path1": [
       "earth_FRI/",
-      "earth_FR_ALT/"
+      "earth_FR_ALT/",
+      "earth_FRI_PRM/",
+      "earth_FRI_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_FRI",
-      "OBJ_battle_earth_FR_ALT"
+      "OBJ_battle_earth_FR_ALT",
+      "OBJ_battle_earth_FR_PRM",
+      "OBJ_battle_earth_FR_DLCA"
    ],
    "requiredProjectName": "Project_PatrolVessels",
    "weightedBuildMaterials": {
@@ -479,19 +511,27 @@
    ],
    "modelResource": [
       "ships/Monitor",
-      "ships/Monitor_1"
+      "ships/Monitor_1",
+      "ships_prm/Monitor_2",
+      "ships_prm/Monitor_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_MO",
-      "ui_spacecombat/OBJ_battle_earth_MO_ALT"
+      "ui_spacecombat/OBJ_battle_earth_MO_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_MO_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_MO_DLCA"
    ],
    "path1": [
       "earth_MO/",
-      "earth_MO_ALT/"
+      "earth_MO_ALT/",
+      "earth_MO_PRM/",
+      "earth_MO_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_MO",
-      "OBJ_battle_earth_MO_ALT"
+      "OBJ_battle_earth_MO_ALT",
+      "OBJ_battle_earth_MO_PRM",
+      "OBJ_battle_earth_MO_DLCA"
    ],
    "requiredProjectName": "Project_PatrolVessels",
    "weightedBuildMaterials": {
@@ -604,19 +644,27 @@
    ],
    "modelResource": [
       "ships/Destroyer",
-      "ships/Destroyer_1"
+      "ships/Destroyer_1",
+      "ships_prm/Destroyer_2",
+      "ships_prm/Destroyer_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_DES",
-      "ui_spacecombat/OBJ_battle_earth_DES_ALT"
+      "ui_spacecombat/OBJ_battle_earth_DES_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_DES_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_DES_DLCA"
    ],
    "path1": [
       "earth_DES/",
-      "earth_DES_ALT/"
+      "earth_DES_ALT/",
+      "earth_DES_PRM/",
+      "earth_DES_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_DES",
-      "OBJ_battle_earth_DES_ALT"
+      "OBJ_battle_earth_DES_ALT",
+      "OBJ_battle_earth_DES_PRM",
+      "OBJ_battle_earth_DES_DLCA"
    ],
    "requiredProjectName": "Project_PatrolVessels",
    "weightedBuildMaterials": {
@@ -736,19 +784,27 @@
    ],
    "modelResource": [
       "ships/Cruiser",
-      "ships/Cruiser_1"
+      "ships/Cruiser_1",
+      "ships_prm/Cruiser_2",
+      "ships_prm/Cruiser_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_LC",
-      "ui_spacecombat/OBJ_battle_earth_LC_ALT"
+      "ui_spacecombat/OBJ_battle_earth_LC_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_LC_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_LC_DLCA"
    ],
    "path1": [
       "earth_LC/",
-      "earth_LC_ALT/"
+      "earth_LC_ALT/",
+      "earth_LC_PRM/",
+      "earth_LC_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_LC",
-      "OBJ_battle_earth_LC_ALT"
+      "OBJ_battle_earth_LC_ALT",
+      "OBJ_battle_earth_LC_PRM",
+      "OBJ_battle_earth_LC_DLCA"
    ],
    "requiredProjectName": "Project_FleetCombatants",
    "weightedBuildMaterials": {
@@ -883,19 +939,27 @@
    ],
    "modelResource": [
       "ships/Battlecruiser",
-      "ships/Battlecruiser_1"
+      "ships/Battlecruiser_1",
+      "ships_prm/Battlecruiser_2",
+      "ships_prm/Battlecruiser_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_BC",
-      "ui_spacecombat/OBJ_battle_earth_BC_ALT"
+      "ui_spacecombat/OBJ_battle_earth_BC_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_BC_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_BC_DLCA"
    ],
    "path1": [
       "earth_BC/",
-      "earth_BC_ALT/"
+      "earth_BC_ALT/",
+      "earth_BC_PRM/",
+      "earth_BC_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_BC",
-      "OBJ_battle_earth_BC_ALT"
+      "OBJ_battle_earth_BC_ALT",
+      "OBJ_battle_earth_BC_PRM",
+      "OBJ_battle_earth_BC_DLCA"
    ],
    "requiredProjectName": "Project_FleetCombatants",
    "weightedBuildMaterials": {
@@ -1020,19 +1084,27 @@
    ],
    "modelResource": [
       "ships/Battleship",
-      "ships/Battleship_1"
+      "ships/Battleship_1",
+      "ships_prm/Battleship_2",
+      "ships_prm/Battleship_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_BS",
-      "ui_spacecombat/OBJ_battle_earth_BS_ALT"
+      "ui_spacecombat/OBJ_battle_earth_BS_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_BS_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_BS_DLCA"
    ],
    "path1": [
       "earth_BS/",
-      "earth_BS_ALT/"
+      "earth_BS_ALT/",
+      "earth_BS_PRM/",
+      "earth_BS_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_BS",
-      "OBJ_battle_earth_BS_ALT"
+      "OBJ_battle_earth_BS_ALT",
+      "OBJ_battle_earth_BS_PRM",
+      "OBJ_battle_earth_BS_DLCA"
    ],
    "requiredProjectName": "Project_FleetCombatants",
    "weightedBuildMaterials": {
@@ -1177,19 +1249,27 @@
    ],
    "modelResource": [
       "ships/Lancer",
-      "ships/Lancer_1"
+      "ships/Lancer_1",
+      "ships_prm/Lancer_2",
+      "ships_prm/Lancer_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_LAN",
-      "ui_spacecombat/OBJ_battle_earth_LAN_ALT"
+      "ui_spacecombat/OBJ_battle_earth_LAN_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_LAN_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_LAN_DLCA"
    ],
    "path1": [
       "earth_LAN/",
-      "earth_LAN_ALT/"
+      "earth_LAN_ALT/",
+      "earth_LAN_PRM/",
+      "earth_LAN_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_LAN",
-      "OBJ_battle_earth_LAN_ALT"
+      "OBJ_battle_earth_LAN_ALT",
+      "OBJ_battle_earth_LAN_PRM",
+      "OBJ_battle_earth_LAN_DLCA"
    ],
    "requiredProjectName": "Project_ShipsoftheLine",
    "weightedBuildMaterials": {
@@ -1334,19 +1414,27 @@
    ],
    "modelResource": [
       "ships/Dreadnought",
-      "ships/Dreadnought_1"
+      "ships/Dreadnought_1",
+      "ships_prm/Dreadnought_2",
+      "ships_prm/Dreadnought_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_DR",
-      "ui_spacecombat/OBJ_battle_earth_DR_ALT"
+      "ui_spacecombat/OBJ_battle_earth_DR_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_DR_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_DR_DLCA"
    ],
    "path1": [
       "earth_DR/",
-      "earth_DR_ALT/"
+      "earth_DR_ALT/",
+      "earth_DR_PRM/",
+      "earth_DR_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_DR",
-      "OBJ_battle_earth_DR_ALT"
+      "OBJ_battle_earth_DR_ALT",
+      "OBJ_battle_earth_DR_PRM",
+      "OBJ_battle_earth_DR_DLCA"
    ],
    "requiredProjectName": "Project_ShipsoftheLine",
    "weightedBuildMaterials": {
@@ -1511,19 +1599,27 @@
    ],
    "modelResource": [
       "ships/Titan",
-      "ships/Titan_1"
+      "ships/Titan_1",
+      "ships_prm/Titan_2",
+      "ships_prm/Titan_3"
    ],
    "combatUIpath": [
       "ui_spacecombat/OBJ_battle_earth_TI",
-      "ui_spacecombat/OBJ_battle_earth_TI_ALT"
+      "ui_spacecombat/OBJ_battle_earth_TI_ALT",
+      "ui_spacecombat_prm/OBJ_battle_earth_TI_PRM",
+      "ui_spacecombat_prm/OBJ_battle_earth_TI_DLCA"
    ],
    "path1": [
       "earth_TI/",
-      "earth_TI_ALT/"
+      "earth_TI_ALT/",
+      "earth_TI_PRM/",
+      "earth_TI_DLCA/"
    ],
    "path2": [
       "OBJ_battle_earth_TI",
-      "OBJ_battle_earth_TI_ALT"
+      "OBJ_battle_earth_TI_ALT",
+      "OBJ_battle_earth_TI_PRM",
+      "OBJ_battle_earth_TI_DLCA"
    ],
    "requiredProjectName": "Project_Titans",
    "weightedBuildMaterials": {

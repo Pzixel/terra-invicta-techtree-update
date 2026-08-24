@@ -90,7 +90,7 @@ UI.StartScreen.Mods.Tags.1=Équilibrage
 UI.StartScreen.Mods.Tags.2=Jouabilité
 UI.StartScreen.Mods.Tags.3=Conversion totale
 UI.StartScreen.Mods.Tags.4=Traduction
-UI.StartScreen.Mods.Tags.5=UI.
+UI.StartScreen.Mods.Tags.5=IU
 UI.StartScreen.Mods.Tags.6=Conseillers
 UI.StartScreen.Mods.Tags.7=Vaisseaux
 UI.StartScreen.Mods.Tags.8=Outils
@@ -206,113 +206,79 @@ UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Ajoute une flotte e
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Valeurs d'accélération par défaut
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=Valeurs par défaut de la campagne longue
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Paramètres de campagne précédents
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactions=Autoriser la désactivation des factions contrôlées par l'ordinateur
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactionsTooltip=Permet de désactiver certaines factions humaines contrôlées par l'ordinateur si elles ont subi suffisamment de dégâts. Cela peut se faire dès que le ralliement du conseiller a lieu moins de deux fois par mois, et seulement si elles n'ont pas de flottes, d'habitats, de conseillers ou de points de contrôle lorsque la journée commence. À ce moment, la faction cessera son activité, mais son idéologie continuera d'exister et d'attirer des adhérents.<br/><br/>Certaines factions ne peuvent pas être désactivées car elles occupent un rôle central dans l'histoire. Par exemple, dans une partie qui regroupe toutes les factions, les Serviteurs et le Protectorat sont exemptés et si le joueur ou la joueuse ne joue pas avec la Résistance ou l'Humanité, l'Humanité sera aussi exemptée.
+UI.StartScreen.CustomizeCampaign.Namelist.Heroes=Héros
+UI.StartScreen.CustomizeCampaign.Namelist.Qualities=Qualités
+UI.StartScreen.CustomizeCampaign.Namelist.Battles=Combats
+UI.StartScreen.CustomizeCampaign.Namelist.Commanders=Commandants
+UI.StartScreen.CustomizeCampaign.Namelist.Weapons=Armes
+UI.StartScreen.CustomizeCampaign.Namelist.Fighters=Combattants
+UI.StartScreen.CustomizeCampaign.Namelist.Scary=Effrayant
+UI.StartScreen.CustomizeCampaign.Namelist.Mountains=Montagnes
+UI.StartScreen.CustomizeCampaign.Namelist.WaterAnimals=Animaux aquatiques
+UI.StartScreen.CustomizeCampaign.Namelist.Rivers=Rivières
+UI.StartScreen.CustomizeCampaign.Namelist.WaterBodies=Étendues d'eau
+UI.StartScreen.CustomizeCampaign.Namelist.Explorers=Explorateurs
+UI.StartScreen.CustomizeCampaign.Namelist.MythicalBeasts=Créatures mystiques
+UI.StartScreen.CustomizeCampaign.Namelist.Phenomena=Phénomènes
+UI.StartScreen.CustomizeCampaign.Namelist.Mythology=Mythologie
+UI.StartScreen.CustomizeCampaign.Namelist.Monuments=Monuments
+UI.StartScreen.CustomizeCampaign.Namelist.Cities=Villes
+UI.StartScreen.CustomizeCampaign.Namelist.Regions=Régions
+UI.StartScreen.CustomizeCampaign.Namelist.Landmasses=Territoires
+UI.StartScreen.CustomizeCampaign.Namelist.Leaders=Dirigeants
+UI.StartScreen.CustomizeCampaign.Namelist.LandAnimals=Animaux terrestres
+UI.StartScreen.CustomizeCampaign.Namelist.Scientists=Scientifiques
+UI.StartScreen.CustomizeCampaign.Namelist.Exploration=Exploration
+UI.StartScreen.CustomizeCampaign.Namelist.Exemplars=Exemples
+UI.StartScreen.CustomizeCampaign.Namelist.AirAnimals=Animaux volants
+UI.StartScreen.CustomizeCampaign.Namelist.Astronomy=Astronomie
+UI.StartScreen.CustomizeCampaign.Namelist.FamousShips=Vaisseaux célèbres
+UI.StartScreen.CustomizeCampaign.Namelist.Astronauts=Astronautes
+UI.StartScreen.CustomizeCampaign.Namelist.AlienNature=Nature extraterrestre
+UI.StartScreen.CustomizeCampaign.Namelist.AlienCelestial=Céleste extraterrestre
+UI.StartScreen.CustomizeCampaign.Namelist.AlienConcepts=Concepts extraterrestres
+UI.StartScreen.CustomizeCampaign.Namelist.AlienMilitant=Militant extraterrestre
 UI.StartScreen.Cancel=Annuler
 UI.StartScreen.FactionDescription={0}<br/>Difficulté de la faction : {1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=Notes de mise à jour
+UI.StartScreen.CallToAction00=Désormais disponible !
 UI.StartScreen.TranslationWarning=Bienvenue dans la version anticipée de Terra Invicta !<br/><br/>Les traductions dans les autres langues que l'anglais sont en cours de relecture par des traducteurs supplémentaires et testées dans le jeu. Cette version anticipée du jeu contiendra des fautes de grammaire, des termes utilisés de manière incohérente, des textes d'espace réservé en anglais et d'autres erreurs de langue. Nous nous efforçons de résoudre ces problèmes au plus vite, mais vu que Terra Invicta contient une quantité de texte équivalente à plusieurs romans, il nous faudra un certain temps pour tout corriger.<br/><br/>Merci d'être disposé à essayer Terra Invicta dans sa version anticipée et sachez que nous travaillerons dur pour améliorer le jeu !
 UI.StartScreen.GamepassWarning=Terra Invicta est en accès anticipé. Ainsi, certaines fonctionnalités du jeu ou de la plateforme pourraient ne pas fonctionner comme prévu et vous pourriez rencontrer des problèmes et/ou des plantages. Pour obtenir une assistance, envoyez un e-mail à support@pavonisinteractive.com<br/><br/>Il se peut que les sauvegardes cloud ne fonctionnent pas systématiquement. Si vous rencontrez des difficultés, les sauvegardes se trouvent dans ce fichier : C:\Users\YOURNAME\Documents\My Games\TerraInvicta\Saves or %homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\
 //<Developer> Credits
-UI.StartScreen.TICredits_0=TERRA INVICTA<br/><br/>
-UI.StartScreen.TICredits_1=CRÉÉ PAR<br/>Pavonis Interactive<br/><br/>
-UI.StartScreen.TICredits_2=PUBLIÉ PAR<br/>Hooded Horse<br/><br/>
-UI.StartScreen.TICredits_3=DIRECTEUR CRÉATIF<br/>John J. Lumpkin<br/><br/>
-UI.StartScreen.TICredits_4=DIRECTEUR ARTISTIQUE<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=DÉVELOPPEMENT<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Ryan Dunagan<br/>Benjamin Poland<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=PRODUCTION<br/>Scott Davis<br/><br/>
-UI.StartScreen.TICredits_7=CHARACTER ARTIST ET CONCEPTION 2D<br/>Michael Moore<br/><br/>
-UI.StartScreen.TICredits_8=ILLUSTRATIONS<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
-UI.StartScreen.TICredits_9=CONCEPTION TECHNIQUE<br/>Zack Dawson<br/><br/>
-UI.StartScreen.TICredits_10=MAÎTRE DE L'IU<br/>Josh Atkinson<br/><br/>
-UI.StartScreen.TICredits_11=CONCEPTION 3D/2D<br/>Anthony Dillo<br/><br/>
-UI.StartScreen.TICredits_12=MUSIQUE<br/>Patrick Delaney<br/>Dennis Meyer<br/>Breakdown Epiphanies<br/><br/>
-UI.StartScreen.TICredits_13=AUDIO DESIGNER<br/>Zabi Khan<br/><br/>
-UI.StartScreen.TICredits_14=ÉCRITURE<br/>Alec Meer<br/>Benedict Jacka<br/>Arturo Ferreira<br/>Cara Laasch<br/><br/>
-UI.StartScreen.TICredits_15=CONCEPTION DE CONTENU<br/>Tayta Malikai<br/>David Ballantyne<br/><br/>
-UI.StartScreen.TICredits_16=COORDINATRICE DE PRODUCTION<br/>Shannon Sindorf<br/><br/>
-UI.StartScreen.TICredits_17=DÉVELOPPEMENT (AUTRES)<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Zach Parsons<br/>Amineri<br/><br/>
-UI.StartScreen.TICredits_18=PRODUCTION EXÉCUTIVE<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Pottenger<br/>Xavier Wynns<br/><br/>
+
 
 //<AP> Credits + Messages
 
-UI.StartScreen.TICredits_19=PRODUCTEURS ASSOCIÉS<br/><br/>
-UI.StartScreen.TICredits_20=Rachel Dilger<br/>
-UI.StartScreen.TICredits_21=<skip/>
-UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
-UI.StartScreen.TICredits_23=« Sois humble, car tu es fait de terre. Sois noble, car tu es fait d'étoiles. »<br/>
-UI.StartScreen.TICredits_24=Martti Aarnio-Wihuri<br/>
-UI.StartScreen.TICredits_25=<skip/>
-UI.StartScreen.TICredits_26=John O. et Eileen Lumpkin<br/>
-UI.StartScreen.TICredits_27=« D'un cockpit de la Deuxième Guerre mondiale au-dessus de l'océan à des mondes futurs dans les étoiles : un simple voyage en famille. »<br/>
-UI.StartScreen.TICredits_28=Jack Peterson<br/>
-UI.StartScreen.TICredits_29=« Guérissez le vieillissement ou mourez en tentant de le faire. »<br/>
-UI.StartScreen.TICredits_30=Livres de Schinhofen<br/>
-UI.StartScreen.TICredits_31=« La lecture est une autre échappatoire. »<br/>
-UI.StartScreen.TICredits_32=Florian Ossiander<br/>
-UI.StartScreen.TICredits_33=<skip/>
-UI.StartScreen.TICredits_34=Jeffrey Lee Henninger<br/>
-UI.StartScreen.TICredits_35=« L'univers n'attend que celles et ceux qui osent. »<br/>
-UI.StartScreen.TICredits_36=Stardust<br/>« Voguez grâce au vent solaire. »<br/>
-UI.StartScreen.TICredits_37=Stefano de Stefano<br/>« On ne peut pas résoudre nos problèmes avec la même approche que nous avions quand on les a créés. »<br/>
-UI.StartScreen.TICredits_38=Sean Hassan<br/>« Notre défi consiste à vivre sans illusions sans pour autant devenir désabusé. »<br/>
-UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., gestionnaire d'urgence<br/>Simental Industries Ltd. - Shield Initiative<br/>« Les décisions que nous prenons aujourd'hui en temps de crise, qu'il s'agisse d'une guerre, d'un désastre ou du réchauffement climatique, auront des conséquences sur le long terme et détermineront le destin de l'humanité. Néanmoins, l'astronomie et les technologies pourraient nous sauver de ces crises existentielles. »<br/><br/><br/>
+
 
 //<VA> Credits
 
-UI.StartScreen.TICredits_40=CASTING DES VOIX<br/>
-UI.StartScreen.TICredits_41=Fiona Ayoade<sp>
-UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
-UI.StartScreen.TICredits_43=Judith Howell<sp>
-UI.StartScreen.TICredits_44=Zura Johnson<br/><br/>
-UI.StartScreen.TICredits_45=Soren Van Wyk<sp>
-UI.StartScreen.TICredits_46=Etienne Durandt<br/><br/>
-UI.StartScreen.TICredits_47=Khalid Al-Ashgar<sp>
-UI.StartScreen.TICredits_48=Erik Ransom<br/><br/>
-UI.StartScreen.TICredits_49=Li Qingzhao<sp>
-UI.StartScreen.TICredits_50=Christina Ho<br/><br/>
-UI.StartScreen.TICredits_51=Hanse Castillo<sp>
-UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
-UI.StartScreen.TICredits_53=Kiran Banerjee<sp>
-UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
 
-UI.StartScreen.TICredits_55=VOIX DES CONSEILLERS ET CONSEILLÈRES<br/>
-UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton T<br/>Jim Lenaway • Andy Mack<br/>Mike Apgar • Damon Alums<br/>Josephine Croft • Les Horovitz<br/>Heidi Kwiat • Ian Phillips<br/>Helen Clapp • Lizzie Crow<br/>Sophie Roberts • Steven Kelly<br/>Thom Welham • Conor James<br/>Mohita Namjoshi • Mamta Gurnani<br/>Vikram Rawat • Gagan Pathak<br/>Jenny Fennessy • Alan Kelly<br/>Diana Silva • Anita Lauren<br/>Carlos Cerrato • Fernando Macias Jimenez<br/>Marina Kalmykova • Sebastian Agner<br/>Gaelle Gosselin • Jesse Meiring<br/>Mhairi Morrison • Kieran Flitton<br/>Lina Sinuan • Val Cheah<br/>Hagen Valerio • Jati Andito<br/>Ore Apampa • Uzy Hamman<br/>Rachel Oladejo • Jonathan Mabote<br/>Jonathan Brandt • Nadia Cavelle<br/>Christian Michalak • Sonja Palmu<br/>Sarí AK • Mona Saadeh<br/>Loay Al-Hakimi • Silina Choueiry<br/><br/>
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57=STARS DE L'ASSURANCE QUALITÉ<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah et toute l'équipe du serveur Discord Pavonis<br/><br/>
-UI.StartScreen.TICredits_58=REMERCIEMENTS<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>Le serveur Discord ToughSF<br/>Alice, Charlotte et Theo<br/>Emily, William and Théodore<br/><br/>
+
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>PRÉSIDENT-DIRECTEUR GÉNÉRAL<br/>Tim Bender<br/><br/>PRÉSIDENTE ET DIRECTRICE ADMINISTRATIVE ET FINANCIÈRE<br/>Snow Rui<br/><br/>CHEF DE PRODUIT & DIRECTEUR ADJOINT<br/>Ashkan Namousi<br/><br/>DIRECTEUR COMMERCIAL<br/>James Gardiner<br/><br/>DIRECTEUR MARKETING<br/>Abhishek Chaudhry<br/><br/>DIRECTEUR DE L'EXPÉRIENCE DE JEU<br/>Mandalore Herrington<br/><br/>PRÉSIDENT DU CONSEIL D'ADMINISTRATION<br/>Shams Jorjani<br/><br/>CHARGÉ DES RELATIONS<br/>Joe Robinson<br/><br/>CHARGÉ DES RELATIONS CRÉATEURS ET CRÉATRICES<br/>Antony Floyd (HForHavoc)<br/><br/>COORDINATEUR MARKETING<br/>Matthijs Hoving<br/><br/>GESTIONNAIRE DE COMMUNAUTÉ<br/>Matthew Palacio<br/><br/>RESPONSABLE STRATÉGIE<br/>Auverin Morrow<br/><br/>DIRECTEUR DES SYSTÈMES D'INFORMATION<br/>Patrik Arvidsson<br/><br/>PRODUCTEURS<br/>Dastan Namousi<br/>Tom King<br/><br/>RESPONSABLE DES LANCEMENTS<br/>Natalia Montero<br/><br/>RESPONSABLES DES LANCEMENTS SENIORS<br/>Blossom Kremer<br/>Aneta Zagórska<br/><br/>RESPONSABLE DE LA LOCALISATION<br/>Michael Radnitz<br/><br/>COORDINATEUR DE LA LOCALISATION<br/>Miguel David Medina García<br/><br/>RESPONSABLE DES RELATIONS CRÉATEURS ET CRÉATRICES<br/>Renee April<br/><br/>RESPONSABLE DES PARTENARIATS SENIOR<br/>Ga-Yi Ng<br/><br/>RESPONSABLE MARKETING (JAPON, CORÉE & ASIE DE SUD-EST)<br/>LamNot<br/><br/>PARTENAIRE MARKETING ET LOCALISATION (ASIE DE L'EST)<br/>Guo Yu Shun Wilson<br/><br/>ARTISTES CONCEPT<br/>Daniel Morawski<br/>Sarah Mills<br/><br/>VIDÉASTE EN CHEF<br/>Kacper Bork<br/><br/>COMPTABLE<br/>Meridith Malone<br/><br/>ADMINISTRATEUR DE BUREAU<br/>Bailey Sullivan<br/><br/>CONSULTANT MARKETING<br/>PartyElite<br/><br/>AIDE SUPPLÉMENTAIRE<br/>Shaun Ginty (BearlyTactical)<br/>Noris Merk (kormakrtv)<br/><br/>CHEF DE PROJETS SPÉCIAL<br/>Marcello Perricone<br/><br/>REMERCIEMENTS PARTICULIERS<br/>Aaron Nathan<br/>Andrew Hume<br/>Grzegorz Styczeń<br/>Martti Aarnio-Wihuri<br/>Todd D’Arcy<br/><br/>
-UI.StartScreen.TICredits_60=PRODUCTION DE BANDE-ANNONCES<br/><br/>SLAVIC MAGIC<br/>Grzegorz Styczeń<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_61=RELATIONS PUBLIQUES<br/><br/>GAMEDASH<br/>Bing Li<br/>Tian Luo<br/><br/>
-UI.StartScreen.TICredits_62=LOCALISATION<br/>HOODED HORSE<br/><br/>LOCALISATION EN CHINOIS TRADITIONNEL<br/>Guo Yu Shun Wilson<br/>Melody Lin<br/><br/>LOCALISATION EN ITALIEN<br/>Emanuelle Ricobenne<br/>Ketty Federico<br/><br/>LOCALISATION EN CORÉEN<br/>Seulki Lee<br/>Lim Yoon<br/><br/>LOCALISATION EN PORTUGAIS DU BRÉSIL<br/>Brenda Triandafeledis<br/><br/>LOCALISATION EN ESPAGNOL<br/>Laura Nieves Díaz Suárez<br/>Marta Medina González<br/>Miguel David Medina García<br/>Carlota Marie Dávila Santana<br/><br/>LOCALISATION EN UKRAINIEN<br/>Vladyslav Verstiuk<br/>Nikol Kryvoruchko<br/><br/>
-UI.StartScreen.TICredits_63=《地球不屈》汉化组<br/><br/>LOCALISATION EN CHINOIS SIMPLIFIÉ<br/><br/>ECI GAMES<br/><br/>GESTION DE PROJETS<br/>Ángel Hernández Santana<br/>Kasia Kępka<br/>Zhao Ting<br/><br/>LOCALISATION EN CHINOIS SIMPLIFIÉ<br/>Wu Fan<br/>Cobra Xu<br/>Sherry Wang<br/><br/>LOCALISATION EN CHINOIS TRADITIONNEL<br/>Weiyi Jiang<br/><br/>LQA EN CHINOIS TRADITIONNEL<br/>Gail Pu<br/><br/>LOCALISATION EN FRANÇAIS<br/>Félix Braconnier<br/>Lueje Prigent<br/>Maxime Aduriz<br/>Victor Berry<br/>Caitlin Maurin<br/><br/>LOCALISATION EN ALLEMAND<br/>Stefan Herzog<br/>Nino Kadletz<br/>Philipp Kolleritsch<br/>Martin Monsberger<br/>Raphael Oberhuber<br/><br/>JAPONAIS<br/>Mina Horiba-Maguire<br/>Naomi Ueda<br/>Keigo Yonemura<br/>Liu Peiduo<br/><br/>
-UI.StartScreen.TICredits_64=QLOC S.A.<br/><br/>DIRECTEUR GÉNÉRAL<br/>Adam Piesiak<br/><br/>RESPONSABLE DU DÉVELOPPEMENT DES AFFAIRES<br/>Paweł Książek<br/><br/>RESPONSABLE SENIOR DU DÉVELOPPEMENT DES AFFAIRES<br/>Marta Olejniczak<br/><br/>RESPONSABLE DES PARTENAIRES<br/>Paweł Pierzchanowski<br/><br/>DIRECTEUR DE L'ASSURANCE QUALITÉ<br/>Sergiusz Ślosarczyk<br/><br/>DIRECTEUR INFORMATIQUE<br/>Artur Szczurzyński<br/><br/>RESPONSABLE DES OPÉRATIONS D'ASSURANCE QUALITÉ<br/>Paweł Strzelczyk<br/><br/>COORDINATRICE APPRENTISSAGE & DÉVELOPPEMENT<br/>Aleksandra Grigorian-Kopka<br/><br/>SPÉCIALISTES APPRENTISSAGE & DÉVELOPPEMENT<br/>Michał Grabuś<br/>Damian Jasiński<br/><br/>RESPONSABLES D'ÉQUIPE LQA<br/>Michał Mugerman<br/>Kamil Uszyński<br/><br/>RESPONSABLES EN CHEF DE LA LOCALISATION<br/>Alan Orman<br/>Maciej Polak<br/><br/>LOCALISATION EN TCHÈQUE<br/>Michal Farník<br/>Petr Šeba<br/>Tomáš Varbanov<br/><br/>LQA EN ITALIEN<br/>Michele Fanelli<br/>Andrea Iachetti<br/><br/>LOCALISATION EN POLONAIS<br/>Monika Buraczyńska<br/>Andrzej Jakubiec<br/>Janusj Mrzigod<br/>Andrzej Popowski<br/><br/>LQA EN POLONAIS<br/>Katarzyna Startek<br/><br/>LOCALISATION EN RUSSE<br/>Mikhail Zakharov<br/>Vasily Firsov<br/>Maxim Levushkin<br/>Roman Nefedov<br/>Pavel Nikolenko<br/>Polina Zam<br/><br/>LQA EN RUSSE<br/>Andrey Moshkov<br/><br/>LOCALISATION EN UKRAINIEN<br/><br/>LQA EN UKRAINIEN<br/>Oleg Łoginow<br/><br/>
-UI.StartScreen.TICredits_65=ASSURANCE QUALITÉ<br/><br/>QLOC S.A.<br/><br/>RESPONSABLE DE LA GESTION DE PROJETS D'ASSURANCE QUALITÉ<br/>Jakub Dudkowski<br/><br/>GESTION DE PROJETS D'ASSURANCE QUALITÉ<br/>Karolina Jagnyziak<br/>Wojciech Tarasiuk<br/><br/>RESONSABLES LABORATOIRES D'ASSURANCE QUALITÉ<br/>Piotr Badurek<br/>Emil Lubowicki<br/>Tomasz Prusicki<br/><br/>RESPONSABLE D'ÉQUIPE FQA<br/>Marcin Oprządek<br/><br/>TESTEURS ET TESTEUSES FQA<br/>Tymoteusz Bigos<br/>Aleksandra Bobek<br/>Mikołaj Kozłowski<br/>Piotr Krakowiak<br/>Michał Owczarek<br/>Mateusz Wieczorek<br/><br/>TESTRONIC<br/><br/>RESPONSABLE CONFORMITÉ & COMPATIBILITÉ<br/>Iwona Szarzyńska<br/><br/>CHEFFE DE PROJET SENIOR COMPATIBILITÉ<br/>Małgorzata Twarogal<br/><br/>RESPONSABLE ASSOCIÉ ASSURANCE QUALITÉ & COMPATIBILITÉ<br/>Michał Soral<br/><br/>TECHNICIENS ET TECHNICIENNES ASSURANCE QUALITÉ & COMPATIBILITÉ<br/>Lisa Bajdowska<br/>Dominik Krawczyk<br/>Brine Mukombachoto<br/>Haran Dev Murugan<br/><br/>
-UI.StartScreen.TICredits_66=<skip/>
-UI.StartScreen.TICredits_67=<skip/>
-UI.StartScreen.TICredits_68=<skip/>
-UI.StartScreen.TICredits_69=<skip/>
-UI.StartScreen.TICredits_70=<skip/>
-UI.StartScreen.TICredits_71=<skip/>
-UI.StartScreen.TICredits_72=<skip/>
-UI.StartScreen.TICredits_73=BÉBÉS DE DÉVELOPPEMENT !<br/>Théodore<br/>Carmen Rose<br/><br/>
+
 
 //<Contributing Backers> Credits
-UI.StartScreen.TICredits_74=CONTRIBUTIONS KICKSTARTER À LA CRÉATION<br/>
+
+
 
 //<Playtester> Credits
-UI.StartScreen.TICredits_105=TESTEURS ET TESTEUSES
-UI.StartScreen.TICredits_106= KICKSTARTER<br/>
+
+
 
 //<Backers> Credits
-UI.StartScreen.TICredits_393=<br/>KICKSTARTER BACKERS<br/>
 
-UI.StartScreen.TICredits_1337=LOGICIEL<br/><br/>Créé avec Unity<br/><br/>Crée avec FMOD Studio<br/>par Firelight Technologies Limited<br/><br/>
-UI.StartScreen.TICredits_1338=De nombreux logos d'entreprises privées fictives dans le jeu sont utilisés avec la permission de LogoLogo.com.<br/>L'utilisation de logos d'agences gouvernementales dans cette œuvre de fiction n'implique pas l'approbation de ces agences.<br/><br/>
-UI.StartScreen.TICredits_1339=Certaines photos utilisées comme base pour les images d'arrière-plan des conseillers sont utilisées avec la permission de la NASA.<br/><br/>
-UI.StartScreen.TICredits_1340=Auteur de Un conte de deux villes ... Charles Dickens
+
+UI.StartScreen.TICredits_1347=LOGICIEL<br/><br/>Créé avec Unity<br/><br/>Crée avec FMOD Studio<br/>par Firelight Technologies Limited<br/><br/>
+UI.StartScreen.TICredits_1348=De nombreux logos d'entreprises privées fictives dans le jeu sont utilisés avec la permission de LogoLogo.com.<br/>L'utilisation de logos d'agences gouvernementales dans cette œuvre de fiction n'implique pas l'approbation de ces agences.<br/><br/>
+UI.StartScreen.TICredits_1349=Certaines photos utilisées comme base pour les images d'arrière-plan des conseillers sont utilisées avec la permission de la NASA.<br/><br/>
+UI.StartScreen.TICredits_1350=AUTEUR D'UN CONTE DE DEUX VILLES<br/> Charles Dickens

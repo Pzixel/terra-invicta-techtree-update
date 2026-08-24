@@ -221,8 +221,10 @@ UI.Notifications.SpecialProjectTriggered.Summary=We are now able to undertake th
 UI.Notifications.SpecialProjectTriggered.Detail=Our research and development teams are pleased to report they have overcome significant uncertainty and are now able to undertake the <h>{0}</h> project.
 UI.Notifications.ProjectComplete.Hed=Project Complete<br/>{0}
 UI.Notifications.ProjectComplete.Summary=We have completed the {0} project.
-UI.Notifications.ProjectComplete.Detail=We have completed the {0} project.<br/>{1}
-UI.Notifications.ProjectComplete.Detail2=We have completed the {0} project. {1}<br/><br/>{2}
+UI.Notifications.ProjectComplete.Detail=We have completed the {0} project.<br/><br/>{1}									// 0- project name, 1- project description
+UI.Notifications.ProjectComplete.Detail2=We have completed the {0} project.<br/><br/>{1}<br/><br/>{2}					// 0- project name, 1- Appending diff line (ResearchCompleteAutoPick, ln 243), 2- project description
+UI.Notifications.ProjectComplete.Summary.OtherFaction=Supporters of {0} have completed the {1} project.					// 0- faction displayname, 1-project name,
+UI.Notifications.ProjectComplete.Detail.OtherFaction=Supporters of {0} have completed the {1} project.<br/><br/>{2}		// 0- faction displayname, 1-project name, 2-project description
 
 UI.Notifications.ProjectComplete.OrgGained=Our work has spun off a new organization, {0}, which is in our faction pool and may be assigned to a councilor.<br/>	//org name with article
 UI.Notifications.ProjectComplete.ResourcesGained=We have earned the following resources: {0}<br/>
@@ -273,10 +275,10 @@ UI.Notifications.WarOption.Hed=War!
 UI.Notifications.WarOption.Summary={0} and {1} are now at war.
 UI.Notifications.WarOption.Detail={0} has declared war on {1}. {2}<br/><br/>The war will only end when the leading nations on each side (with the greatest military strength) agree to make peace, or one side has captured all the capitals of the enemy and installed new governments.				//Nation, nation 2, 
 UI.Notifications.AlienNationWarRules={0} is also involved in the conflict. Its armies will annex territories directly into {0}, and its enemies will immediately liberate any of its regions. Capturing the capital of {0} will not cause a regime change, but it may trigger spontaneous declarations of independence among its subject regions. 				//Alien nation name
-UI.Notifications.WarOptionJoin.Summary={0} has joined {1} against {2}.
-UI.Notifications.WarOptionJoin.Detail={0} has joined {1} against {2}.
+UI.Notifications.WarOptionJoin.Summary={0} has joined {1} against {2}.		//0-display name with article capitalized, 1- war's display name with article, 2- war opposition's leading nation
+UI.Notifications.WarOptionJoin.Detail={0} has joined {1} against {2}. 		//0-display name with article capitalized, 1- war's display name with article, 2- war opposition's leading nation
 UI.Notifications.JoiningAllies=, joined by {0},
-UI.Notifications.NationJoinsWar.Summary={0} has joined {1} against {2}.
+UI.Notifications.NationJoinsWar.Summary={0} has joined {1} against {2}.		//0-display name with article capitalized, 1- war's display name with article, 2- war opposition's leading nation
 UI.Notifications.AllianceLeaderAttack={0} will lead the attacking alliance. 
 UI.Notifications.AllianceLeaderDefend=The defending alliance will be led by {0}.
 UI.Notifications.EndWarOption.Hed=Peace
@@ -301,7 +303,7 @@ UI.Notifications.EndRivalryOption.Decline.Hed=Rivalry Continues
 UI.Notifications.EndRivalryOption.Decline={0} declined an offer to end its rivalry with {1}.
 UI.Notifications.EndRivalryOption.Hed=Rivalry Ends
 UI.Notifications.EndRivalryOption.Summary={0} and {1} have ended their rivalry.
-UI.Notifications.EndRivalryOption.Detail={0} and {1} have ended their rivalry and returned to normal relations.
+UI.Notifications.EndRivalryOption.Detail=<h>{0}</h> and <h>{1}</h> have ended their rivalry and returned to normal relations.
 UI.Notifications.JoinFederationOption.Hed=Federation
 UI.Notifications.JoinFederationOption.Summary={0} has decided to join in federation with {1}.				// nation, nation 2
 UI.Notifications.JoinFederationOption.Detail={0} has decided to join in federation with {1}. They will be in permanent alliance and share space program funding and boost.
@@ -358,6 +360,7 @@ UI.Notifications.HabFoundedHed={0} Founded
 UI.Notifications.HabModuleComplete=Hab Module Complete
 UI.Notifications.AlienCrashdownSummary=An alien vessel has crashed down in the {0} region in {1}.
 UI.Notifications.AlienCrashdownHeadline=UFO Crashes on Earth
+UI.Notifications.AlienCrashdownDetail.First=An alien vessel has crashed down in the {0} region in {1}. While the wreckage is unrecoverable, we suspect an alien life form escaped into the surrounding countryside.
 UI.Notifications.AlienCrashdownDetail=An alien vessel has crashed down in the {0} region in {1}. While the wreckage is unrecoverable, we suspect an alien life form escaped into the surrounding countryside.
 UI.Notifications.UFOLandingSummary=An alien transport has landed in the {0} region in {1}.
 UI.Notifications.UFOLandingHeadline=UFO Lands on Earth
@@ -450,7 +453,7 @@ UI.Notifications.FleetTrajectoryAbortedDetail_ReturnToOrbit=It remains in {1}.		
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbit=It has assumed a temporary orbit around {0}.											// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbitWithBurn=It has conducted an emergency burn so it does not leave the Solar System and assumed a temporary orbit around {0}.
 UI.Notifications.FleetTrajectoryAbortedDetail_LeavingSolarSystem=Its current velocity will carry it out of the Solar System, and it has insufficient Delta-V to decelerate into an orbit to prevent this. If we can intercept it with one of our fleets and provide it with more propellant we may be able to mount a rescue and bring the fleet home.<br/><br/>The fleet will not cost <color=#FFFFFFFF><sprite name="mission_control"></color> while on this trajectory.
-UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Some of its ships have broken off and conducted an emergency burn so they do not leave the Solar System. They have formed fleet {0} are in a temporary orbit around {1}. The velocity of the remaining ships will carry them out of the Solar System, and they do not have the means to decelerate. If we can intercept these ships with one of our fleets and provide it with more propellant we may be able to mount a rescue and bring the fleet home.<br/><br/>The departing fleet will not cost <color=#FFFFFFFF><sprite name="mission_control"></color> while on its trajectory.
+UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Some of its ships have broken off and conducted an emergency burn so they do not leave the Solar System. The velocity of the remaining ships, now in fleet {0}, will carry them out of the Solar System, and they do not have the means to decelerate. If we can intercept these ships with one of our fleets and provide it with more propellant we may be able to mount a rescue and bring the fleet home.<br/><br/>The departing fleet will not cost <color=#FFFFFFFF><sprite name="mission_control"></color> while on its trajectory.
 UI.Notifications.FleetTrajectoryAbortedDetail_WillCrash=The fleet is on a path to collide with {0}, and it cannot escape.				// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_SomeWillCrash=Some ships in the fleet are on a path to collide with {0} and cannot escape. The remaining ships have broken off.
 UI.Notifications.TargetManeuveredAndWeCannotGiveChaseDetail_InsufficientDV={0} was forced to abort its transfer plan due to the target fleet launching. {0} lacks the Delta-V to catch {1} on its new trajectory.
@@ -575,15 +578,25 @@ UI.Notifications.OurHabDestroyedDetail.Base={0} forces have burned {1} on {2} to
 UI.Notifications.OurHabDestroyedDetail.Station={0} forces have destroyed {1} in {2}. We don't believe anyone survived.
 UI.Notifications.HabDestroyedHed={1} Destroyed by {0}
 UI.Notifications.HabDestroyedSummary={2} hab {1} has been destroyed by {0}. 
-UI.Notifications.HabDestroyedDetail.Base=We have destroyed the {0} base {1} at {2} on {3}. They will surely look for ways to retaliate.
-UI.Notifications.HabDestroyedDetail.Station=We have destroyed the {0} station {1} in {2}. They will surely seek retribution.
+UI.Notifications.HabDestroyedDetail.Base=We have destroyed the {0} hab {1} at {2} on {3}. They will surely look for ways to retaliate.
+UI.Notifications.HabDestroyedDetail.Station=We have destroyed the {0} hab {1} in {2}. They will surely seek retribution.
 UI.Notifications.HabDestroyedSalvage=We have salvaged {0} from the wreckage.
+
+UI.Notifications.HabDestroyedHed_AlienHome={1} Raided by {0}								// 1- Hab's display name, 0- Faction display name (Capitalized)
+UI.Notifications.HabDestroyedSummary_AlienHome={2} hab {1} has been raided by {0}. 			// 2- Faction Adjective, 1- Hab display name, 0- Faction display name 
+UI.Notifications.HabDestroyedDetail_AlienHome=We have raided the {0} hab at {1} on {2}. Our Marines were unable to enter the alien core module or wormhole housing chamber. We will need to employ our councilor with the {3} org to proceed further. 								// 0- Hab displayname, 1-Hab Site displayname, 2-Spacebody display name, 3, Org display name with leading article (the)
+
 UI.Notifications.ShipStolenHeadline=Our ship joins {0}
 UI.Notifications.ShipStolenSummary=The {0} ship {1} is now taking orders from {2}.
 UI.Notifications.ShipStolenDetail=Our {0} {1} has stopped responding to our orders. Our best information is that the traitorous officers have shifted their allegiance to {2}. // Ship's class name, Ship name, faction name
 UI.Notifications.ShipDefectedHeadline=Enemy ship joins {0}
 UI.Notifications.ShipDefectedSummary=The {0} ship {1} is now reporting to {2}.
 UI.Notifications.ShipDefectedDetail=The {0} {1} has cut ties with its old masters, having elected to instead join {2}.
+
+UI.Notifications.MyHabAssaultedHeadline={0} Under Attack																	// hab name	
+UI.Notifications.MyHabAssaultedSummary={0} forces are attempting to seize {1}!												// faction adjective, hab Name
+UI.Notifications.MyHabAssaultedDetail={0} forces are attempting to seize {1}.  												// faction adject, hab name with full location string
+
 UI.Notifications.FleetAvailableHed={0} Returns to Operations																// fleet name
 UI.Notifications.FleetAvailableSummary=Fleet {0} is available for operations {1}.											// fleet name, location with prep
 UI.Notifications.FleetAvailableDetail=Fleet {0} has departed {1} and is available for operations {2}.						// fleet name, location with prep
@@ -720,6 +733,10 @@ UI.Notifications.LogFleetEjectedFromStation.Hed=Fleet Departs Enemy Station
 UI.Notifications.LogFleetEjectedFromStation.Summary={0} undocked from {1} to avoid another faction's attack on it.
 UI.Notifications.LogFleetEjectedFromStation.Detail={0} undocked from {1} to avoid another faction's attack on it.<br/><br/>Fleets at hostile stations will be forced to depart by a third faction's attack unless engaged in assault or destroy hab operations, in which case it will not be able to dock.
 
+UI.Notifications.FactionDisabled.Hed={0} Now Dormant			// faction name with article
+UI.Notifications.FactionDisabled.Summary=The group known as {0} is ceasing all operations.
+UI.Notifications.FactionDisabled.Detail=The group known as {0} appears to be ceasing all operations, and its leadership has gone into hiding. While they still have supporters around the globe, they no longer appear to be a serious threat to our plans.
+
 UI.Notifications.TagRed=Mark <color=#EC2100>Red</color>
 UI.Notifications.TagGreen=Mark <color=#B4FF3E>Green</color> 
 
@@ -738,8 +755,6 @@ UI.Notifications.PactEnds.Detail_NAPIntel={0} and {1} have terminated their non-
 UI.Notifications.PactEnds.Hed_Truce=Truce Ends
 UI.Notifications.PactEnds.Summary_Truce={0} and {1} have ended their truce.
 UI.Notifications.PactEnds.Detail_Truce={0} and {1} have ended their truce.
-
-
 
 UI.Notifications.LeaveDarkFederation_Violent_Query=The new leadership {0} has directed the nation to leave {1}. If we don't want to risk them leaving the {2} sphere of influence, we may immediately declare war on them with no cohesion or other penalties. Shall we do so?
 
@@ -915,7 +930,7 @@ UI.NarrativeEvent.AllNations=in all nations
 UI.NarrativeEvent.AllRegions=in all regions
 
 UI.BugReportPrompt.Header=Error Detected
-UI.BugReportPrompt.Body=Error Code: {0}<br/>Please report this issue to support@pavonisinteractive.com or our Discord server.<br/>Please include your saves and log files.<br/>%HOMEPATH%\Documents\My Games\TerraInvicta\Saves<br/>%HOMEPATH%\AppData\LocalLow\Pavonis Interactive\TerraInvicta"
+UI.BugReportPrompt.Body=Error Code: {0}<br/>Please report this issue to support@pavonisinteractive.com or our Discord server.<br/>Please include your saves and log files.<br/>%HOMEPATH%\Documents\My Games\TerraInvicta\Saves<br/>%HOMEPATH%\AppData\LocalLow\Pavonis Interactive\TerraInvicta
 UI.BugReportPrompt.Reload=<br/>Please save your game and reload.
 UI.BugReportPrompt.CopyErrorCodeButton=Copy To Clipboard
 UI.BugReportPrompt.DiscordButton=Discord

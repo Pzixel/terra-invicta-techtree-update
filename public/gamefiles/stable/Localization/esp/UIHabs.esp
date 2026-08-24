@@ -16,6 +16,7 @@ UI.Habs.MainHeader=Hábitats
 UI.Habs.NoHabSelected=No se ha seleccionado ningún hábitat
 UI.Habs.TierCrew={0} (Grado {1}/Máx {2})
 UI.Habs.SelectAModule=Selecciona un módulo
+UI.Habs.CantBuild=<size=60%>No se pueden construir o mejorar módulos en los hábitats que esté siendo atacado, bombardeado o desmantelado.</size>
 UI.Habs.SectorID=Sector {0}
 UI.Habs.Tier=Módulo de nivel {0}
 UI.Habs.Crew=Tripulación: {0}
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath=De {0} a {1}																// old module displayName, upgra
 UI.Habs.UpgradeAllofTypeQuery=Confirmar mejorará {0} módulos: {1} a {2}.
 UI.Habs.CantAffordUpgradeAllofType=Ahora mismo no nos lo podemos permitir.
 UI.Habs.BaseSiteName=Base {0}																// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks=No se pueden construir o mejorar módulos en el hábitat {0} mientras esté siendo atacado.

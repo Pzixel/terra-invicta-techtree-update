@@ -1,0 +1,295 @@
+
+// Dark Skies DLC
+
+
+//// RECOVERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldBooks=Libros del viejo mundo
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.summary=Mientras los equipos de reconstrucción trabajaban en barrios evacuados a toda prisa y abandonados tras la guerra, descubrieron un alijo de libros viejos.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.query=Dentro de ese alijo había libros de literatura clásica escritos mucho antes de la guerra, manuales universitarios de ciencias duras y blandas e incluso uno o dos ejemplares de lo que antaño fue una serie de cómics popular y longeva. Este material contribuirá a restablecer el sistema educativo {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.option0=Aún nos queda mucho por aprender del pasado.
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldBooks.optionResult0=Los equipos de reconstrucción {targetNationNameWithArticleAndPlacePrep} descubrieron un alijo de libros viejos.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldDoctrines=Doctrinas del viejo mundo
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.summary=En plena retirada de escombros en ciudades y refugios bombardeados para su posterior abandono tras la guerra, los trabajadores encargados de la reconstrucción encontraron un complejo de búnkeres que hasta entonces permanecía oculto.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.query=Ha pasado mucho tiempo de la guerra, cualquiera que sobreviviera debe haber abandonado el completo hace ya mucho, y las armas y suministros se han oxidado o echado a perder.. Sin embargo, en uno de los niveles inferiores encontramos una colección de manuales de campaña y planes militares que describían con gran detalle la doctrina empleada por los ejércitos de la guerra. Su estudio mejorará considerablemente la comprensión de {targetNationNameWithArticle} sobre la guerra.
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.option0=¿Seguro que es bueno aprender este tipo de cosas de nuestros predecesores?
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldDoctrines.optionResult0=Los equipos de reconstrucción {targetNationNameWithArticleAndPlacePrep} descubrieron un complejo de búnkeres oculto.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldMedia=Medios audiovisuales del viejo mundo
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.summary=Mientras los equipos de reconstrucción trabajaban en barrios evacuados a toda prisa y abandonados tras la guerra, descubrieron un conjunto de viejas películas y música de otra época.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.query=Aunque hoy en día la tecnología necesaria para reproducir y grabar estos medios audiovisuales resulta relativamente sencilla de replicar para nuestros ingenieros, es preciso extremar las precauciones para evitar que las cintas y discos sufran más daños durante el proceso de recuperación. Aun así, una vez restaurados y adaptados a los dispositivos contemporáneos, esperamos que el público sienta curiosidad por descubrir qué tipo de películas y música disfrutaba la gente antes de la guerra.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option0=Publicarlos como material de libre acceso.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult0=Los equipos de reconstrucción {targetNationNameWithArticleAndPlacePrep} descubrieron un conjunto de películas y música antiguas.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.option1=Restringir el material para que solo esté disponible en {targetNationNameWithArticleAndPlacePrep} y cobrar por un acceso exclusivo.
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldMedia.optionResult1=Los equipos de reconstrucción {targetNationNameWithArticleAndPlacePrep} descubrieron un conjunto de películas y música antiguas.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MemorialtotheFallen=Homenaje a los caídos
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.summary=Los ciudadanos de toda {targetNationNameWithArticle} se congregaron para la conmemoración quinquenal en honor a los caídos.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.query=Funcionarios gubernamentales, capellanes y ciudadanos se turnaron para pronunciar discursos y leer los nombres de aquellos de quienes se sabe que perecieron en el cataclismo nuclear de 1962. Estas ceremonias, solemnes y ya habituales, cumplen una función esencial: mantener viva la memoria colectiva en esta era postapocalíptica. Aunque el mundo ya escriba una nueva página de su historia, aún no olvida la devastación generalizada causada por las armas nucleares y se compromete a que jamás vuelva a repetirse.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.option0=No lo olvidaremos.
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MemorialtotheFallen.optionResult0={summary}
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_UnauthorizedSalvage=Recuperación no autorizada	
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.summary=Se están llevando a cabo operaciones de recuperación no autorizadas en las ruinas próximas a {targetRegionName}.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.query=Por desgracia, estas zonas no se encuentran bajo el control completo de las autoridades legítimas {targetNationAdjective}, por lo que no hay nada que impida que ciertos individuos emprendedores intenten recuperar por su cuenta activos de la época de la guerra. Esta situación no solo alimenta un próspero mercado negro que socava la recuperación económica de {targetNationNameWithArticle}, sino que también incrementa las tensiones con las comunidades supervivientes, escasos e indefensos, que aún se ganan la vida en estas áreas devastadas por la Guerra y que siguen reclamando su propiedad.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0=No está en nuestras manos intervenir.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0=Las operaciones de recuperación continúan.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1=El equipo de recuperación encuentra libros antiguos.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2=El equipo de recuperación encuentra búnkeres antiguos.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3=El equipo de recuperación encuentra medios audiovisuales antiguos.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option0.outcome3.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option1=Tomar medidas severas contra este acto ilegal.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionResult1={targetNationNameWithArticleCap} tomó medidas para acabar con las operaciones de recuperación no autorizadas {targetRegionNameSentIn}.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2=Ofrecer recompensas para las recuperaciones autorizadas.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0=Continúan las operaciones de recuperación.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Summary=Se están realizando operaciones de recuperación autorizadas en las ruinas próximas a {targetRegionName}.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1=El equipo de recuperación ha encontrado libros antiguos.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Summary=Se están realizando operaciones de recuperación autorizadas en las ruinas próximas a {targetRegionName}.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2=El equipo de recuperación ha encontrado búnkeres antiguos.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Summary=Se están realizando operaciones de recuperación autorizadas en las ruinas próximas a {targetRegionName}.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome2.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3=El equipo de recuperación ha encontrado medios audiovisuales antiguos.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Summary=Se están realizando operaciones de recuperación autorizadas en las ruinas próximas a {targetRegionName}.
+TINarrativeEventTemplate.event_PostApoc_UnauthorizedSalvage.option2.outcome3.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ArmedProcession=Procesión armada
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.summary=Una hilera de hombres y mujeres armados con fusiles y gritando consignas marcha por {targetRegionName}.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.query=No se trata ni de una protesta ni de una sublevación contra el gobierno {targetNationAdjective}, sino un desahogo colectivo: una muestra de resistencia ante la muerte que la guerra sembró en {targetNationNameWithArticle}, una muestra de la firme voluntad del pueblo {targetNationAdjective} de sobrevivir. Se cree que estas reuniones surgieron de las concentraciones espontáneas organizadas por las milicias locales durante el caos que siguió al fin de la guerra, y con el tiempo se han convertido en una tradición profundamente arraigada en la cultura {targetNationAdjective}.<br/><br/>No obstante, algunos sectores del gobierno continúan preocupados, pues consideran que congregar a tantos hombres y mujeres armados en un mismo lugar supone una oportunidad ideal para el contrabando y otras actividades criminales.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0=¡{targetNationNameWithArticleCap} marcha por la vida!
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0=Todo está bien.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome0.Detail=Afortunadamente, las preocupaciones no tenían fundamento.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1=Una subversión acaece.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option0.outcome1.Detail=La preocupación estaba más justificadas de lo que quisimos creer.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option1=Ordenar que se dispersen por motivos de seguridad.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.option2=Enviar agentes de incógnito para vigilar la situación.
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ArmedProcession.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_OldWorldSatellite=Satélite del viejo mundo
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.summary=Nuestros primeros astronautas en el espacio han detectado un viejo satélite de antes de la guerra que aún orbita en la Tierra.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.query=La primera incursión de la humanidad en el espacio exterior fue terriblemente breve y apenas duró unos pocos años antes de que la Guerra de Invierno pusiera fin a todas las ambiciones humanas de aquella época. Quizá de forma inconsciente, aquello llevó a algunos a desarrollar cierto temor al espacio: la idea de que, al atreverse a alcanzar los cielos, la humanidad volvería a atraer su ira hacia la Tierra.<br/><br/>Por esta razón, y por otras más materiales, se dedicaron escasos esfuerzos a los programas espaciales.<br/><br/>Pero los tiempos han cambiado. La llegada de los alienígenas ha demostrado que el vacío no está vacío, sino que es un lugar al que las especies sapientes pueden llegar y a través del cual pueden viajar. Para muchos, esto sigue siendo motivo de temor; pero ahora ese miedo ya no es una abstracción, sino una amenaza tangible que puede afrontarse y superarse.<br/><br/>Para sorpresa de todos y contra todo pronóstico, esta diminuta reliquia de la Tierra anterior a la Guerra ha sobrevivido durante más de un siglo, al igual que nuestra propia especie. Aunque hace mucho que dejó de ser operativa, permanece como un símbolo del coraje, la perseverancia y la extraordinaria capacidad de la humanidad para sobrevivir.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option0=Todavía podemos aprender algo de su diseño.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult0={targetFactionNameCap} recuperó un viejo satélite de antes de la guerra que orbitaba la Tierra.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option1=¡Debería estar en un museo!
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult1={targetFactionNameCap} recuperó un viejo satélite de antes de la guerra que orbitaba la Tierra.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.option2=Nuestros astronautas se apoyan en los hombros de sus predecesores.
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_OldWorldSatellite.optionResult2={targetFactionNameCap} recuperó un viejo satélite de antes de la guerra que orbitaba la Tierra.
+
+TINarrativeEventTemplate.displayName.event_PostApoc_MuseumtotheOldWorld=Museo del viejo mundo
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.summary=Nuestros consejeros han propuesto construir un museo para exhibir artefactos de antes de la guerra.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.query=A estas alturas, hemos recuperado suficientes artefactos como para destinar parte de ellos a un archivo abierto al público. La construcción y gestión del museo no deberían presentar grandes dificultades ni requerir nuestra intervención directa. Solo queda decidir el enfoque general de la exposición: se trata de una oportunidad única para moldear la memoria colectiva de la Guerra de Invierno y presentarla de una manera acorde con nuestra visión.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option0=La base de su civilización fue la ciencia.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult0={targetFactionNameCap} construyó un museo para exhibir artefactos de antes de la guerra.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option1=Es realmente admirable la forma en que vivían.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult1={targetFactionNameCap} construyó un museo para exhibir los estilos de vida de antes de la guerra.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option2=Su poder militar no tenía comparación.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult2={targetFactionNameCap} construyó un museo para exhibir los estilos de vida de antes de la guerra.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.option3=Su nivel de vida era inmejorable.
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_MuseumtotheOldWorld.optionResult3={targetFactionNameCap} construyó un museo para exhibir los niveles de vida de antes de la guerra.
+
+//// NUKE EVENTS
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearPublicity=Publicidad antinuclear
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.summary=El público {targetNationAdjective} se ha pronunciado contra la posesión de armas nucleares {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.query=El concepto de las armas nucleares al completo se ha convertido en un tabú profundamente arraigado. Durante el último siglo, se  ha ido instaurando el consenso de que el desarrollo y la proliferación irresponsables de estas armas fueron los responsables de la Guerra de Invierno, y de que jamás deberían volver a fabricarse, para no comprometer aún más la supervivencia de la humanidad como civilización tecnológica. Incluso ahora, cuando la llegada de los alienígenas ha alterado nuestra comprensión del mundo y ha despertado nuevas aspiraciones de seguridad, el temor —profundo y sobradamente justificado— a una guerra nuclear sigue vivo entre la población.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option0=Es comprensible que la gente esté angustiada.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1=Nuestros enemigos van a usarlas, ¡no tenemos alternativa!
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0=Se han calmado.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome0.Detail=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1=Ha habido una reacción negativa.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearPublicity.option1.outcome1.Detail=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearActivism=Activismo antinuclear
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.summary=Los manifestantes han irrumpido en fábricas y laboratorios involucrados en el programa nuclear {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.query=La virulencia de estos activistas ha tomado por sorpresa a las fuerzas de seguridad {targetNationAdjective}. Aunque la disuasión nuclear {targetNationNameWithPrep} sigue estando a salvo por el momento, equipos de alta sensibilidad y personal clave continúan expuestos, lo que podría poner en peligro el futuro del programa nuclear.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option0=Priorizar la evacuación del personal.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option1=Priorizar la evacuación de los equipos.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.option2=Enviar al ejército a dispersar a los manifestantes.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearActivism.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-NuclearSabotage=Sabotaje antinuclear
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.summary=Se han descubierto múltiples ojivas nucleares inservibles durante una inspección sorpresa en el arsenal nuclear {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.query=Las fuerzas de seguridad han puesto bajo custodia e interrogado a todos los ingenieros que podrían haber tenido acceso físico a las ojivas durante el último año, así como a los inspectores responsables de los informes de operatividad de los que ahora se sabe que eran falsos. Por el momento, ninguno está cooperando, aunque todos demuestran tener la moral por los suelos.<br/><br/>La única buena noticia es que no parece haberse retirado ningún material nuclear de las instalaciones. Todo apunta a que los responsables no pretendían propagar la amenaza de las armas nucleares.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option0=No habrá tregua con quien se oponga de forma consciente a la guerra nuclear.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option1=Nos lo esperábamos. Las ojivas reales están almacenadas en otra instalación.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail1=No sucede nada.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.option2=Este sabotaje se perpetró por principiantes. Nuestros expertos lo puede arreglar en un abrir y cerrar de ojos.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionDetail2=No sucede nada.
+TINarrativeEventTemplate.event_PostApoc_Anti-NuclearSabotage.optionResult2={summary}
+
+TINarrativeEventTemplate.displayName.event_PostApoc_ScientistsProtestNuclearProgram=Protestas de científicos contra el programa nuclear
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.summary=Los científicos más eminentes no están acudiendo a sus puestos de trabajo como forma de protesta contra el programa nuclear {targetNationNameWithPrep}.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.query=En una carta suscrita por todos ellos y remitida a la administración, los científicos afirman que su deber es velar por que la tecnología sirva únicamente al progreso pacífico de la humanidad y jamás a la guerra y la destrucción, incluso en las circunstancias más extremas. En apoyo de esta postura evocan las palabras de J. Robert Oppenheimer, recordado hasta nuestros días como el padre de la bomba atómica y como el hombre que, demasiado tarde, trató en vano de evitar que sus descubrimientos precipitaran el fin del mundo.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option0=Puede que debamos prestar atención a sus advertencias.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option1=No necesitamos a esos lloricas.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult1={summary}
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.option2=Los científicos deberían mantenerse al margen de los asuntos de seguridad nacional.
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_ScientistsProtestNuclearProgram.optionResult2={summary}
+
+
+
+
+//// FACTION EVENTS (TRANSLATION BATCH 2)
+
+
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderResist=Resistir en una Tierra fracturada
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.summary=¿Qué significa la llegada de alienígenas a nuestro mundo, precisamente ahora que surge de las tinieblas de la Guerra de Invierno?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.query=Pocas tragedias han marcado tanto a la humanidad como la guerra, especialmente porque fue nuestra propia mano la que la desencadenó. Durante más de un siglo, vivimos bajo la amenaza del desastre nuclear, soportando el frío, el miedo y la incertidumbre. Ahora, tras décadas de penumbra, los primeros rayos de esperanza comienzan a arrojarnos luz. Por primera vez en cien años, nuestra especie vuelve a permitirse imaginar un futuro.<br/><br/>Los alienígenas llegaron a este mundo. Tenían la oportunidad de presentarse como aliados, de tendernos la mano y emplear su extraordinaria tecnología para ayudarnos a levantar de nuevo nuestra civilización. Nadie habría esperado que semejante ayuda fuera completamente altruista; los encuentros entre civilizaciones con un desarrollo tan desigual rara vez lo son. Aun así, ese gesto nos habría brindado consuelo y habría sido una prueba de que no estamos solos en el universo y que nuestro sufrimiento pasa desapercibido. En lugar de eso, optaron por la invasión y la conquista. Nos observaron, vieron a una especie rota, en un momento de máxima debilidad y decidieron aprovecharse de nuestra fragilidad.<br/><br/>Esa decisión hizo que sus acciones hablasen por sí solas. No podemos continuar engañándonos sobre sus verdaderas intenciones con respecto a nuestro mundo. Si sobrevivimos y queremos reconstruir este mundo destrozado, no nos queda otra opción que luchar por él.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.option0=Lucharemos.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderResist.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderDestroy=Destruir en una Tierra fracturada
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.summary=¿Qué significa la llegada de alienígenas a nuestro mundo, precisamente ahora que surge de las tinieblas de la Guerra de Invierno?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.query=Las motivaciones para librar una guerra solían ser de índole material y hasta prosaica: el rencor mezquino que siente un rey hacia su primo, un título nobiliario que reclama la propiedad de un terreno, la envidia que generan los recursos y la prosperidad de un vecino. Los protagonistas que libraban la mayoría de las guerras eran profesionales, e independientemente de su desenlace, la vida cotidiana de gran parte de los humanos rara vez se veía alterada.<br/><br/>A medida que la tecnología avanzaba y el humano ampliaba cada vez más sus horizontes, también cambió la naturaleza de la guerra. Los conflictos dejaron de girar en torno a los recursos o los egos, sino en enfrentamiento en los que el futuro de nuestra especie estaba en juego. Las guerras mundiales no fueron más que un acto de movilización global para exterminar civilizaciones opuestas y escribir el curso de la historia de la humanidad. Durante la Guerra de Invierno, el conflicto envolvió a toda la humanidad y estuvo a punto de provocar su extinción.<br/><br/>Ahora, el horizonte ha vuelto a expandirse. La llegada de los alienígenas ha supuesto que el campo de batalla no se limite a nuestro planeta sino que traspase sus fronteras. En esta lucha por la vida, solo puede haber un ganador.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.option0=Puedes apostar a que vamos a ser nosotros.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderDestroy.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderExploit=Explotar en una Tierra fracturada
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.summary=¿Qué significa la llegada de alienígenas a nuestro mundo, precisamente ahora que surge de las tinieblas de la Guerra de Invierno?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.query=La historia de la humanidad nunca ha seguido una trayectoria recta, por mucho que ciertos académicos querían creer y algunos políticos defendían públicamente ante grandes masas. La realidad es que sigue un ciclo de altibajos, en los que cada subida y bajada tiene sus propios riesgos y oportunidades. Los verdaderos maestros del mundo son los que aprendieron a reconocer este patrón y a explotar los auges y las caídas con la misma ambición.<br/><br/>Así, pues, para nosotros, la Guerra de Invierno no fue una excepción. Los derrotados desaparecieron; los vencedores prosperaron. El mundo ha funcionado siempre así.<br/><br/>De no haber sido por la llegada de los alienígenas a nuestro planeta, habríamos seguido disfrutando otros cien años de los frutos de esta primavera de posguerra.<br/><br/>Por supuesto, el declive llegó mucho antes de lo que habíamos predicho. Algunos perdieron sus riquezas; otros, la vida. Pero para quienes permanecemos, sus pérdidas son nuestras ganancias. La irrupción de una especie llegada de las estrellas trae consigo nuevos peligros, pero también nuevas oportunidades.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.option0=¿Habrá alguien entre nosotros que sea lo bastante valiente para aprovecharlas?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderExploit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderSubmit=Someterse en una Tierra fracturada
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.summary=¿Qué significa la llegada de alienígenas a nuestro mundo, precisamente ahora que surge de las tinieblas de la Guerra de Invierno?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.query=Cuando el mundo fue devorado por el fuego y el azufre, lo único que nos quedó por hacer a la mayoría era rezar. Cuando la ceniza cubrió los cielos y la tierra se heló, evadimos el vacío de nuestros estómagos y nos refugiamos en la esperanza de que algún día la luz volvería a alumbrar un mundo sumido en las sombras.<br/><br/>Con el paso de los años, aquel largo frío terminó. Poco a poco, abandonamos nuestros refugios para reconstruir y comenzar una nueva civilización. Durante el último siglo hemos reconstruido ciudades y dado cobijo a familias. Aun así, este mundo permanece fracturado e incompleto, pues el día que cayeron las bombas, una parte de nosotros se consumió para siempre. Tan solo nos mantuvo en pie nuestra fe inexorable y nuestra creencia firme de que nos esperaban días mejores.<br/><br/>Hoy nuestras plegarias al final han sido escuchadas. Solo somos los únicos en el universo. Ya no debemos sufrir en soledad ni suplicar respuestas a un mundo indiferente. Los emisarios nos han visto y han iluminado nuestro camino.<br/><br/>Como guardianes de la fe, es nuestro deber tenderles la mano y acogerlos entre nosotros.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.option0=Solo si los amamos podremos volver a amarnos a nosotros mismos.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderSubmit.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderAppease=Apaciguar en una Tierra fracturada
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.summary=¿Qué significa la llegada de alienígenas a nuestro mundo, precisamente ahora que surge de las tinieblas de la Guerra de Invierno?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.query=Siempre acabamos formulando la misma pregunta en los libros de historia: ¿quién fue el responsable de la Guerra de Invierno? Se han escrito incontables páginas intentando dar respuesta a una pregunta tan crucial para nuestra civilización. Teoría de juegos, escalada nuclear, represalia inmediata, destrucción mutua asegurada... toda una colección de términos tan precisos como asépticos para describir la planificación del asesinato y la devastación a escala mundial. Nunca fue <i>nuestra</i> intención, nos repetíamos. Nunca <i>quisimos</i> exterminar a millones de inocentes; solo tratábamos de impedir que el <i>enemigo</i> actuara primero. La culpa era <i>suya</i>. <i>Ellos</i> no nos dejaron otra opción.<br/><br/>La verdad, sin embargo, es mucho más sencilla: fuimos todos. Como especie, llevábamos siglos alimentando un ciclo interminable de violencia, disfrazando nuestras ambiciones con discursos nobles y ocultando nuestras manos ensangrentadas bajo el velo de la rectitud moral. Nos llamábamos a nosotros mismos una civilización ilustrada, pero una y otra vez demostramos lo contrario. La Guerra de Invierno fue el desenlace lógico de nuestra incapacidad para gobernarnos con sabiduría.<br/><br/>Entonces, ¿qué verán los alienígenas cuando nos observen? ¿Una especie que ha aprendido de sus errores y que está preparada para ocupar su lugar como miembro responsable de una comunidad galáctica? ¿O una civilización incapaz de superar sus propios impulsos, demasiado peligrosa para dejarla en libertad?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.option0=Esperamos que sea lo primero, por el bien de todos.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderAppease.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderCooperate=Cooperar en una Tierra fracturada
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.summary=¿Qué significa la llegada de alienígenas a nuestro mundo, precisamente ahora que surge de las tinieblas de la Guerra de Invierno?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.query=La creación de la bomba atómica fue, sin lugar a dudas, el mayor logro de la ciencia. Por primera vez en la historia, la humanidad había logrado aprovechar una de las fuerzas fundamentales del universo, la misma que alimenta a las estrellas. Esa fue la prueba de lo que la ciencia podría conseguir cuando pudo prosperar libremente fuera de los límites.<br/><br/>También fue nuestro mayor fracaso. En nuestro afán por comprender los secretos del universo, no tuvimos en consideración qué harían nuestros semejantes cuando tuvieran esos secretos bajo su poder. Como hemos aprendido de la mecánica cuántica, el simple acto de observar el mundo también contribuye a transformarlo. No asumimos la gran responsabilidad de nuestros descubrimientos, y el mundo entero terminó pagando las consecuencias.<br/><br/>Pero la ciencia consiste en aprender de nuestros errores. La Guerra de Invierno fue posible porque no comprendimos a nuestro prójimo y dejamos que el miedo a lo desconocido venciera a nuestra naturaleza humana. Ahora, ante la llegada de una especie alienígena, tenemos la oportunidad de actuar de otra forma. Es nuestro deber solemne y sincero de contactar con los recién llegados e interactuar con ellos como integrantes semejantes de este universo.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.option0=No debemos desaprovechar la segunda oportunidad que ha recibido la humanidad.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderCooperate.optionResult0=<skip/>
+
+TINarrativeEventTemplate.displayName.event_PostApoc_FactionPonderEscape=Huir de una Tierra fracturada
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.summary=¿Qué significa la llegada de alienígenas a nuestro mundo, precisamente ahora que surge de las tinieblas de la Guerra de Invierno?
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.query=El ser humano siempre ha soñado con volar. Desde el mito de Dédalo e Ícaro hasta el primer vuelo de los hermanos Wright, siempre hemos anhelado elevarnos por encima de la Tierra.<br/><br/>El lanzamiento del primer satélite nos impulsó a soñar todavía más lejos. Durante unos pocos años vivimos una auténtica Edad de Oro, en la que las mentes más brillantes del mundo lucharon por superar las limitaciones de la gravedad y dar los primeros pasos hacia una galaxia repleta de posibilidades.<br/><br/>Pero aquel sueño se desvaneció con la Guerra de Invierno. La humanidad se precipitó a una nueva Edad Oscura que truncó nuestras aspiraciones de alcanzar las estrellas. Paradójicamente, nunca habíamos tenido tantos motivos para abandonar un planeta devastado y, al mismo tiempo, tan pocos medios para lograrlo.<br/><br/>Hoy, sin embargo, el futuro vuelve a abrirse ante nosotros. La llegada de los alienígenas ha demostrado que el espacio no es un destino inalcanzable, sino un lugar que puede recorrerse y habitarse. En un instante, los sueños de generaciones enteras han dejado de ser una fantasía para convertirse en una posibilidad. El porvenir que una vez imaginamos sigue esperando ahí fuera.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.option0=Todo cuanto podemos hacer es extender la mano y aceptar lo que nos den.
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_FactionPonderEscape.optionResult0=<skip/>
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_Anti-WarlordCampaign=Campañas contra los adalides
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.summary={targetNationNameWithArticleCap} ha comenzado una campaña para reclamar los territorios de los adalides.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.query=Tras la guerra, el gobierno de {targetNationNameWithArticle} fue incapaz de ejercer control sobre su territorio. Las vías de transporte y comunicación se cortaron, un gran número de sus fuerzas de seguridad murieron o desertaron, y los funcionarios se vieron desbordados por las crisis repentinas de desplazamiento o desaparecieron en el caos. Durante este vacío surgieron adalides y sus respectivos seguidores, que prometieron proporcionar seguridad a cambio de lealtad.<br/><br/>Ahora, el gobierno {targetNationAdjective} se ha reconstituido y tan solo puede haber un único gobierno legítimo de {targetNationNameWithArticle}. Las autoridades han prometido imponer medidas severas ante la delincuencia y restablecer el orden en las fronteras antes de que finalice el año. La pregunta del millón es... ¿cómo?
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0=Mediante un ataque directo frontal.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0=Éxito.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome0.Detail=¡El ataque se ejecutó sin contratiempos! Los adalides han sido derrotados. Se ha restaurado el orden en {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1=Fracaso.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option0.outcome1.Detail=El ataque estuvo mal coordinador y provocó numerosas bajas. Muchos combatientes enemigos escaparon y continuaron mermando la seguridad de {targetNationNameWithArticle} con ataques de guerrilla.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1=Prometer amnistía y legitimidad como parte del nuevo gobierno.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0=Éxito.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome0.Detail=A los adalides les gustaba pensar que solo se dedicaban a hacer lo que era necesario para mantener el orden en estos tiempos difíciles. Logramos apelar a sus egos con éxito diciéndoles que habían cumplido su cometido en {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1=Fracaso.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option1.outcome1.Detail=Los adalides se negaron a reconocer la legitimidad del gobierno {targetNationAdjective}, que no tuvo otra opción que emitir una orden de ataque directo frontal. El resultado fue una gran cantidad de bajas y la huida de combatientes enemigos.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2=Sobornar a sus hombres para que dejen de trabajar para él.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0=Éxito.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome0.Detail=Después de ofrecerles tres comidas al día y duchas calientes, los hombres de los adalides no dudaron el saltar de la nave sin pensarlo dos veces. Sin nadie dispuesto a cumplir con sus órdenes, los adalides perdieron su poder y se vieron obligados a rendirse.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1=Fracaso.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option2.outcome1.Detail=Por desgracia, los adalides tenían delirios de grandeza y creían poder actuar en defensa de una causa mayor que hasta sus hombres creyeron. El gobierno {targetNationAdjective} no tuvo otra opción que emitir una orden de ataque directo frontal. El resultado fue una gran cantidad de bajas y la huida de combatientes enemigos.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3=Enviar agentes para asesinar a sus líderes.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0=Éxito.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome0.Detail=¡La operación fue un éxito! Los adalides murieron en sus respectivas camas a manos de sus hombres. Nadie se creyó que fuera por causas naturales, pero sin figuras de autoridad a las que seguir, nadie quería quedarse.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1=Fracaso.
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_Anti-WarlordCampaign.option3.outcome1.Detail=La operación fue un fracaso. Ahorcaron a nuestros agentes y los dejaron expuestos a modo de advertencia. El gobierno {targetNationAdjective} no tuvo otra opción que emitir una orden de ataque directo frontal. El resultado fue una gran cantidad de bajas y la huida de combatientes enemigos.
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_PostApoc_NuclearFacilitiesAttacked=Ataques a instalaciones nucleares
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.summary=Un grupo de militantes armados han atacado de forma inesperada una de las instalaciones de {targetNationNameWithArticle} en la que había armas nucleares.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.query=Por suerte, los sistemas de mando y control {targetNationNameWithArticle} se diseñó para prevenir la posibilidad de que se produjese un lanzamiento o detonación sin autorización, una lección aprendida a la fuerza desde la Guerra de Invierno. Sin embargo, esto supone un escaso consuelo para los responsables que ahora deben responder por esta grave brecha de seguridad, así como para los estrategas militares, que se ven obligados a afrontar las consecuencias que este incidente tendrá para la capacidad de disuasión nuclear {targetNationNameWithArticle}.<br/><br/>Hasta el momento, los militantes únicamente han hecho llegar una exigencia: que {targetNationNameWithArticle} desmantele voluntariamente su programa nuclear o, de lo contrario, se enfrente a la ira de su pacífica población.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option0=Esto le va a costar el puesto a alguien.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionResult0={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1=Desplegar fuerzas de respuesta rápida en la ubicación.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0=Éxito.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome0.Detail=Un equipo de fuerzas especiales fue desplegado en las instalaciones en helicóptero al amparo de la oscuridad. Irrumpieron y tomaron el centro de control y los silos, y eliminaron a los militantes antes de que pudieran causar daños de consideración. Los supervivientes serán juzgados y condenados por traición.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1=Fracaso.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option1.outcome1.Detail=Un equipo de fuerzas especiales fue desplegado en las instalaciones en helicóptero al amparo de la oscuridad. Desgraciadamente, no llegaron a tiempo para prevenir la destrucción de las ojivas nucleares y otras instalaciones de apoyo. Los militantes que quedaron se rindieron inmediatamente tras declarar que su trabajo aquí había terminado.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2=Rodear la ubicación y retomar el control con tropas terrestres.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0=Éxito.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome0.Detail=Un equipo de fuerzas terrestres se reunió rápidamente para bombardear y atacar la instalación. Irrumpieron y tomaron el centro de control y los silos, y eliminaron a los militantes antes de que pudieran causar daños de consideración. Los supervivientes serán juzgados y condenados por traición.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1=Fracaso.
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Summary={summary}
+TINarrativeEventTemplate.event_PostApoc_NuclearFacilitiesAttacked.option2.outcome1.Detail=Un equipo de fuerzas terrestres se reunió rápidamente para bombardear y atacar la instalación. Desgraciadamente, no llegaron a tiempo para prevenir la destrucción de las ojivas nucleares y otras instalaciones de apoyo. Los militantes que quedaron se rindieron inmediatamente tras declarar que su trabajo aquí había terminado.

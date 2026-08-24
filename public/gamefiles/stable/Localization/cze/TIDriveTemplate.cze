@@ -666,6 +666,7 @@ TIDriveTemplate.OpenCycle=Tento pohon využívá <h>chlazení s otevřeným cykl
 TIDriveTemplate.ClosedCycle=Tento pohon využívá <h>chlazení s uzavřeným cyklem</h>, což znamená, že k vyzáření odpadního tepla jsou zapotřebí těžké chladiče. Tuto funkci většinou potřebují pohony s vysokou výtokovou rychlostí.
 TIDriveTemplate.ISRU=Pohonnou látku do tohoto motoru lze doplňovat z nevylepšených habitatových středisek bez zvláštního vybavení.
 TIDriveTemplate.UsesHelium3=Tento pohonný systém využívá helium-3, které je nutné vyrábět v reaktorech s využitím štěpného materiálu. Dá se také těžit z plynných obrů ve sluneční soustavě.
+TIDriveTemplate.NoEVPenalty=Tento pohon při použití bojového tahu neztrácí výtokovou rychlost.
 TIDriveTemplate.PowerGeneration=Záložní napájení palubních systémů:<rcol>{0}</rcol>
 TIDriveTemplate.PowerGenerationType.Always=Vždy
 TIDriveTemplate.PowerGenerationType.DriveIdle=Mimo tah

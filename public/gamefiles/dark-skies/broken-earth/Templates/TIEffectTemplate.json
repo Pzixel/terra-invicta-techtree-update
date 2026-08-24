@@ -1,0 +1,1142 @@
+[
+ {
+   "dataName": "Effect_BSBE_NuclearAversion100",
+   "localizationAlias": "Effect_NuclearWeaponsProgramPenalty50",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.95,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "BuildNuclearWeaponsPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_NuclearWeaponsProgramBonus50",
+   "localizationAlias": "Effect_NuclearWeaponsProgramPenalty50",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildNuclearWeaponsPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_PostApocCPMaintenancePenalty",
+   "localizationAlias": "Effect_BS_CPMaintenancePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 70,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_TriggerEventOldWorldBooks",
+   "localizationAlias": "Effect_TriggerEventPrimaryState",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "instantEffect": "TriggerNarrativeEvent_StrValue",
+   "value": 0,
+   "strValue": "event_PostApoc_OldWorldBooks",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_TriggerEventOldWorldDoctrines",
+   "localizationAlias": "Effect_TriggerEventPrimaryState",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "instantEffect": "TriggerNarrativeEvent_StrValue",
+   "value": 0,
+   "strValue": "event_PostApoc_OldWorldDoctrines",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_TriggerEventOldWorldMedia",
+   "localizationAlias": "Effect_TriggerEventPrimaryState",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "instantEffect": "TriggerNarrativeEvent_StrValue",
+   "value": 0,
+   "strValue": "event_PostApoc_OldWorldMedia",
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_OldWorldArtifacts1",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "OldWorldArtifacts"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceScienceBonusEvent",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SocialScienceBonusEvent",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SocialScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MilitaryScienceBonusEvent",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_AllRecruitsScience1",
+   "localizationAlias": "Effect_AllRecruitsScience2",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "strValue": "Science",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "AllRecruitStats"
+   ]
+},
+ {
+   "dataName": "Effect_BS_AllCouncilorsScience1",
+   "localizationAlias": "Effect_AllCouncilorsScience2",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "instantEffect": "FactionAllCouncilorsModifyAttribute",
+   "operation": "Additive",
+   "value": 1,
+   "strValue": "Science",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "stackable": true,
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_IncreaseMonthlyInfluenceIncome6",
+   "localizationAlias": "Effect_IncreaseMonthlyInfluenceIncome1",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "instantEffect": "GainInfluenceIncome",
+   "value": 6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BSBE_MCPenalty",
+   "localizationAlias": "Effect_BS_MCPenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "MissionControlPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_MCRepair",
+   "localizationAlias": "Effect_MissionControlPriorityBonus05",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 0.4,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MissionControlPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_BoostPenalty",
+   "localizationAlias": "Effect_BS_BoostPenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.65,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_BoostRepair",
+   "localizationAlias": "Effect_LaunchFacilitiesPriorityBonus05",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_SpaceProgramBonusA",
+   "localizationAlias": "Effect_SpaceflightProgramPriorityBonus05",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceflightPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_SpaceScienceBonusA",
+   "localizationAlias": "Effect_BS_SpaceScienceBonusA",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 0.6,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceScience"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_SpaceSciencePenalty",
+   "localizationAlias": "Effect_BS_SpaceSciencePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "SpaceScience"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_1stPlaceInTheSpaceRace",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "instantEffect": "BSBE_1stPlaceInTheSpaceRace",
+   "value": 0,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BSBE_2ndPlaceInTheSpaceRace",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "instantEffect": "BSBE_2ndPlaceInTheSpaceRace",
+   "value": 0,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BSBE_3rdPlaceInTheSpaceRace",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "instantEffect": "BSBE_3rdPlaceInTheSpaceRace",
+   "value": 0,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BSBE_CPMaintenanceRepair",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus160",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -70,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SemiMajorAxisExplorationI",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 2.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "SemiMajorAxisExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SemiMajorAxisExplorationII",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 2.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "SemiMajorAxisExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SemiMajorAxisExplorationIII",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 1000,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "SemiMajorAxisExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MineSizeReduction",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "MineSizeModifier"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MineSizeNormalization",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 6,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "MineSizeModifier"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MaterialScienceBonusA",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MaterialScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceScienceBonusA",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_EnergyScienceBonusA",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "EnergyScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_LifeScienceBonusA",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LifeScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MilitaryScienceBonusA",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_InformationScienceBonusA",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "InformationScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SocialScienceBonusA",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SocialScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_XenologyBonusA",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Xenology"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MaterialSciencePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "MaterialScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceSciencePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_EnergySciencePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "EnergyScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_LifeSciencePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "LifeScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MilitarySciencePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_InformationSciencePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "InformationScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SocialSciencePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "SocialScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_XenologyPenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "Xenology"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_CPResearchBonus",
+   "localizationAlias": "Effect_CPResearch10",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.4,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointResearch"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_PropagandaStrengthBonus",
+   "localizationAlias": "Effect_PropagandaStrengthMultiplier25",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "PublicCampaignStrength"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_SpoilsBonus",
+   "localizationAlias": "Effect_SpoilsBonus20",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpoilsOutput"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_SpoilsPenalty",
+   "localizationAlias": "Effect_SpoilsBonus20",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpoilsOutput"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_AtrocityPenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "AtrocityMitigation"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_ControlNationBonus",
+   "localizationAlias": "Effect_FactionSoftPower",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Mission_GainControlPoint"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_ShipConstructionTimeBonus",
+   "localizationAlias": "Effect_ShipConstructionTimeReductionMinor",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipConstructionTime"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_ShipConstructionTimePenalty",
+   "localizationAlias": "Effect_BS_ShipConstructionTimePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipConstructionTime"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_SpaceshipSurvivabilityBonus",
+   "localizationAlias": "Effect_DamageReductionAllMinor",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.85,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DamageReductionAgainstAllShips"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_SpaceshipSurvivabilityPenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DamageReductionAgainstAllShips"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_ShipLaserDamageBonus",
+   "localizationAlias": "Effect_ShipLaserDamageMinor",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.35,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipLaserDamage"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_ShipMagDamageBonus",
+   "localizationAlias": "Effect_ShipMagDamageMinor",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipMagDamage"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_CorruptionBonus",
+   "localizationAlias": "Effect_CorruptionReduction20",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.7,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Corruption"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_CorruptionPenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Corruption"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_AugmentationMoneyCostReduction",
+   "localizationAlias": "Effect_BS_AugmentationMoneyCostReduction",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "AugmentationMoneyCost"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_AlienDetectionBonus",
+   "localizationAlias": "Effect_GlobalListeningNetwork",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAliensOnEarth"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_BoostPenalty_Single",
+   "localizationAlias": "Effect_BS_BoostPenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_InfluencePenalty",
+   "localizationAlias": "Effect_BS_InfluencePenalty",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "PublicOpinionInfluence"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_Economy_BasePCGDPBonus",
+   "localizationAlias": "Effect_Economy_BasePCGDPIncrease02",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.7,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "Economy_BasePCGDPIncrease"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_EconomyInequalityPenalty",
+   "localizationAlias": "Effect_EconomyInequalityReduction",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.7,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "Economy_InequalityMultiplier"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_ArmyNuclearHardening35",
+   "localizationAlias": "Effect_ArmyNuclearHardening25",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.65,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "ArmyNuclearHardening"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_TerrorDefenseBonus",
+   "localizationAlias": "Effect_RapidResponseTeams",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "Mission_Terrorize_Def"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_ExploreAsteroids",
+   "referenceAlias": "Effect_ExploreAsteroids",
+   "localizationAlias": "Effect_ExploreAsteroids",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 4.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "OuterExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_EVBoostA",
+   "localizationAlias": "Effect_ImprovedRockets",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 5.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "GenericTransferEV_kps"
+   ]
+},
+ {
+   "dataName": "Effect_BSBE_CPMaintenanceBonus5",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus10",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "operation": "Additive",
+   "value": -5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+}
+]

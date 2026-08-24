@@ -5,11 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate:gamefiles-manifest && vite build && node scripts/generate_seo_pages.js && node scripts/generate_graph_layout.js",
+    "build": "npm run validate:release && npm run generate:gamefiles-manifest && npm run generate:scenario-bundles && vite build && node scripts/generate_graph_layout.js && node scripts/generate_seo_pages.js && node scripts/validate_seo_pages.js",
     "generate:gamefiles-manifest": "node scripts/generate_gamefiles_manifest.js",
+    "generate:scenario-bundles": "node scripts/generate_scenario_bundles.js",
+    "import:steam-release": "node scripts/import_steam_release.js",
     "lint": "eslint .",
     "preview": "vite preview",
-    "tsc": "tsc --noEmit"
+    "test": "node --test scripts/**/*.test.js",
+    "tsc": "tsc --noEmit",
+    "validate:release": "node scripts/validate_release_data.js"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -17,6 +21,7 @@
     "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.0.1",
     "flexsearch": "^0.7.43",
+    "json5": "^2.2.3",
     "plotly.js-dist-min": "^2.35.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

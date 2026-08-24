@@ -1,0 +1,83 @@
+
+// Dark Skies DLC
+
+Context.displayName.MaterialScience=Materiálové vědy
+Context.displayName.SpaceScience=Vesmírné vědy
+Context.displayName.EnergyScience=Energetické vědy
+Context.displayName.LifeScience=Biologické vědy
+Context.displayName.MilitaryScience=Vojenské vědy
+Context.displayName.InformationScience=Informační vědy
+Context.displayName.SocialScience=Sociální vědy
+Context.displayName.Xenology=Xenologie
+Context.displayName.PublicOpinionInfluence=Vliv veřejného mínění
+Context.displayName.SemiMajorAxisExplorationRange_AU=Dosah průzkumu z oběžné dráhy
+Context.displayName.PublicizedAlienThreat=Mimozemská hrozba zveřejněna
+Context.displayName.AugmentationMoneyCost=Finanční náklady na augmentace
+Context.displayName.HabConstructionSpeed=Rychlost výstavby habitatu
+Context.displayName.MineSizeModifier=Velikost těžebního zařízení
+
+Context.displayName.DemocracyBackslides=Ústup od demokracie
+TIEffectTemplate.description.Effect_BS_DemocracyBackslides1=-Demokratické instituce poškozeny
+
+TIEffectTemplate.description.Effect_BS_CPMaintenanceBonus_MakingHistoryA=-Zvyšuje naši kapacitu pro správu kontrolních bodů o {19}. Nelze kombinovat s jinými projekty z řady „Tvoříme historii“. 
+TIEffectTemplate.description.Effect_BS_InfluenceRepair=-Zvyšuje vliv veřejného mínění o {3}
+TIEffectTemplate.description.Effect_BS_MaterialScienceBonusA=-Zvyšuje náš výzkum v oblasti materiálových věd o {3}
+TIEffectTemplate.description.Effect_BS_SpaceScienceBonusA=-Zvyšuje náš výzkum v oblasti vesmírných věd o {3}
+TIEffectTemplate.description.Effect_BS_SpaceScience5=-Zvyšuje náš výzkum v oblasti vesmírných věd o {3}
+TIEffectTemplate.description.Effect_BS_EnergyScienceBonusA=-Zvyšuje náš výzkum v oblasti energie o {3}
+TIEffectTemplate.description.Effect_BS_LifeScienceBonusA=-Zvyšuje náš výzkum v oblasti biologických věd o {3}
+TIEffectTemplate.description.Effect_BS_MilitaryScienceBonusA=-Zvyšuje náš výzkum v oblasti vojenských věd o {3}
+TIEffectTemplate.description.Effect_BS_InformationScienceBonusA=-Zvyšuje náš výzkum v oblasti informačních věd o {3}
+TIEffectTemplate.description.Effect_BS_SocialScienceBonusA=-Zvyšuje náš výzkum v oblasti sociálních věd o {3}
+TIEffectTemplate.description.Effect_BS_XenologyBonusA=-Zvyšuje náš výzkum v oblasti xenologie o {3}
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimeRepair=-Zvyšuje rychlost stavby našich lodí o {3}
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationI=-Zvyšuje dosah průzkumu z oběžné dráhy na {0} AU
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationII=-Zvyšuje dosah průzkumu z oběžné dráhy na {0} AU
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationIII=-Odstraňuje omezení dosahu průzkumu z oběžné dráhy
+TIEffectTemplate.description.Effect_BS_GraySky=-Umožňuje všem frakcím sledovat mimozemská plavidla a struktury až k Marsu
+TIEffectTemplate.description.Effect_BS_AugmentationMoneyCostReduction=-Augmentace našich radních stojí {4} méně peněz
+TIEffectTemplate.description.Effect_BS_PublicizeAlienThreat=-Může urychlit agresi mimozemšťanů
+TIEffectTemplate.description.Effect_BS_AlienAwareness=-Znalosti o mimozemšťanech se šíří mezi širokou veřejností
+TIEffectTemplate.description.Effect_BS_DiscoverAlienInvasion=-Odhaluje nám plány mimozemšťanů ohledně Země
+
+TIEffectTemplate.description.Effect_BS_CPResearchPenalty=-Výzkum z našich kontrolních bodů je snížen o {4}
+TIEffectTemplate.description.Effect_BS_CPMaintenancePenalty=-Snižuje naši kapacitu pro správu kontrolních bodů o {0}
+TIEffectTemplate.description.Effect_BS_SustainabilityPenalty=-Investiční body země, které věnujeme prioritě Životní prostředí, se snižují o {25}
+TIEffectTemplate.description.Effect_BS_MCPenalty=-Investiční body země, které věnujeme prioritě Řízení misí, se snižují o {25}
+TIEffectTemplate.description.Effect_BS_BoostPenalty=-Investiční body země, které věnujeme prioritě Vznos, se snižují o {25}
+TIEffectTemplate.description.Effect_BS_InfluencePenalty=-Snižuje vliv veřejného mínění o {25}
+TIEffectTemplate.description.Effect_BS_MaterialSciencePenalty=-Snižuje náš výzkum v oblasti materiálových věd o {25}
+TIEffectTemplate.description.Effect_BS_SpaceSciencePenalty=-Snižuje náš výzkum v oblasti vesmírných věd o {25}
+TIEffectTemplate.description.Effect_BS_EnergySciencePenalty=-Snižuje náš výzkum v oblasti energie o {25}
+TIEffectTemplate.description.Effect_BS_LifeSciencePenalty=-Snižuje náš výzkum v oblasti biologických věd o {25}
+TIEffectTemplate.description.Effect_BS_MilitarySciencePenalty=-Snižuje náš výzkum v oblasti vojenských věd o {25}
+TIEffectTemplate.description.Effect_BS_InformationSciencePenalty=-Snižuje náš výzkum v oblasti informačních věd o {25}
+TIEffectTemplate.description.Effect_BS_SocialSciencePenalty=-Snižuje náš výzkum v oblasti sociálních věd o {25}
+TIEffectTemplate.description.Effect_BS_XenologyPenalty=-Snižuje náš výzkum v oblasti xenologie o {25}
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimePenalty=-Snižuje rychlost stavby našich lodí o {27}
+TIEffectTemplate.description.Effect_BS_SpaceMiningPenalty=-Výnosy těžby na Zemi sníženy o {25}
+TIEffectTemplate.description.Effect_BS_BlackSky=-Frakce mohou sledovat mimozemská plavidla a struktury v blízkosti Země
+
+TIEffectTemplate.description.Effect_BS_InvestigationPenalty=-Všichni kandidáti na radního v našem náborovém seznamu začínají s -{0} k vyšetřování
+
+TIEffectTemplate.description.Effect_BS_BoostPenaltyEventTemp=-Investiční body země, které věnujeme prioritě Vznos, se po dobu {7} měsíců snižují o {25}
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEvent=-Investiční body země, které věnujeme prioritě Program vesmírných letů, se snižují o {25}
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEventTemp=-Investiční body země, které věnujeme prioritě Program vesmírných letů, se po dobu {7} měsíců snižují o {25}
+TIEffectTemplate.description.Effect_BS_GovernmentPenaltyEventTemp=-Investiční body všech zemí věnované prioritě Vláda, se po dobu {7} měsíců snižují o {25}
+TIEffectTemplate.description.Effect_BS_MilitaryBonusEventSmallGlobal=-Investiční body všech zemí do priority Vojenství se zvyšují o {3}
+TIEffectTemplate.description.Effect_BS_DefendAllOwnedControlPoints=-Všechny vlastněné kontrolní body {5} budou po dobu {7} měsíců bráněny
+
+TIEffectTemplate.description.Effect_BS_NationRemoveAbductions1=-{0} únosy odstraněny {5}
+
+TIEffectTemplate.description.Effect_BS_GlobalExcessMiltechReduction=-Všechny země s hodnotou vojenské technologie vyšší než {13} přijdou o {3} z nadbytku
+
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedPenalty=-Snižuje rychlost stavby našich habitatů o {4}
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedRepair=-Zvyšuje rychlost stavby našich habitatů o {3}
+TIEffectTemplate.description.Effect_BS_MineSizeReduction=-Snižuje velikost našich vesmírných těžebních zařízení o {4}
+TIEffectTemplate.description.Effect_BS_MineSizeNormalization=-Zvyšuje velikost vesmírných těžebních zařízení o {3}
+
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeReduction=-Zmenšuje velikost automatizovaných vesmírných těžebních zařízení o {4}
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeNormalization=-Zvětšuje velikost automatizovaných vesmírných těžebních zařízení o {3}
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeReduction=-Zmenšuje velikost automatizovaných stanic o {4}
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeNormalization=-Zvětšuje velikost automatizovaných stanic o {3}
+

@@ -86,8 +86,8 @@ UI.Notifications.MyControlPointTakenSummary=Abbiamo perso un punto di controllo 
 UI.Notifications.MyControlPointTaken=Abbiamo perso il punto di controllo {3} in: {0}. Ora appartiene a: {1}. Molti dei nostri collaboratori non rispondono più alle nostre comunicazioni e abbiamo perso una notevole quantità di influenza sugli eventi. {2}													 // nation, faction, CP description, conditional armieslost
 UI.Notifications.MyControlPointDominatedHed=Un punto di controllo si è arreso
 UI.Notifications.MyControlPointDominatedSummary=Agenti {0} hanno costretto alla resa uno dei punti di controllo {1} {2}.													// faction adjective, faction adjective, nation with prep
-UI.Notifications.MyControlPointDominatedDetail=Agenti della fazione {0} hanno minacciato di utilizzare attacchi orbitali su vari obiettivi militari e civili {1}, inducendo i leader a consegnare loro uno dei nostri punti di controllo. {2}
-UI.Notifications.MyControlPointDominatedDetail2=I sostenitori della fazione ({0}) hanno lanciato devastanti attacchi orbitali contro obiettivi militari e civili {1} dopo aver tentato di ridurre alla sottomissione i nostri sostenitori ribelli. I sopravvissuti hanno ceduto loro uno dei nostri punti di controllo. {2}
+UI.Notifications.MyControlPointDominatedDetail=Agenti della fazione {0} hanno minacciato di utilizzare attacchi orbitali su vari obiettivi militari e civili {1}, inducendo i leader a consegnare loro uno dei nostri punti di controllo. Per evitare che ciò accada, dobbiamo distruggere tutti i loro moduli sentinella presenti nell'orbita terrestre. {2}
+UI.Notifications.MyControlPointDominatedDetail2=I sostenitori della fazione ({0}) hanno lanciato devastanti attacchi orbitali contro obiettivi militari e civili {1} dopo aver tentato di ridurre alla sottomissione i nostri sostenitori ribelli. I sopravvissuti hanno ceduto loro uno dei nostri punti di controllo. Per evitare che ciò accada, dobbiamo distruggere tutti i loro moduli sentinella presenti nell'orbita terrestre. {2}
 UI.Notifications.Neutral=neutrale
 UI.Notifications.NoFaction=senza fazione
 UI.Notifications.MyControlPointCrackedDownHed=Reprimi
@@ -221,8 +221,10 @@ UI.Notifications.SpecialProjectTriggered.Summary=Siamo ora in grado di intrapren
 UI.Notifications.SpecialProjectTriggered.Detail=I nostri team di ricerca e sviluppo sono lieti di annunciare che hanno risolto una significativa situazione di incertezza e sono ora in grado di intraprendere il progetto <h>{0}</h>.
 UI.Notifications.ProjectComplete.Hed=Progetto completato<br/>{0}
 UI.Notifications.ProjectComplete.Summary=Abbiamo completato il progetto {0}.
-UI.Notifications.ProjectComplete.Detail=Abbiamo completato il progetto {0}.<br/>{1}
-UI.Notifications.ProjectComplete.Detail2=Abbiamo completato il progetto {0}. {1}<br/><br/>{2}
+UI.Notifications.ProjectComplete.Detail=Abbiamo completato il progetto {0}.<br/><br/>{1}									// 0- project name, 1- project description
+UI.Notifications.ProjectComplete.Detail2=Abbiamo completato il progetto {0}.<br/><br/>{1}<br/><br/>{2}					// 0- project name, 1- Appending diff line (ResearchCompleteAutoPick, ln 243), 2- project description
+UI.Notifications.ProjectComplete.Summary.OtherFaction=I supporter della fazione ({0}) hanno completato il progetto {1}.					// 0- faction displayname, 1-project name,
+UI.Notifications.ProjectComplete.Detail.OtherFaction=I supporter della fazione ({0}) hanno completato il progetto {1}.<br/><br/>{2}		// 0- faction displayname, 1-project name, 2-project description
 
 UI.Notifications.ProjectComplete.OrgGained=Il nostro operato ha dato vita a una nuova organizzazione, {0}, che è presente nel nostro pool di fazioni e può essere assegnata a un consigliere.<br/>	//org name with article
 UI.Notifications.ProjectComplete.ResourcesGained=Abbiamo ottenuto le seguenti risorse: {0}<br/>
@@ -301,7 +303,7 @@ UI.Notifications.EndRivalryOption.Decline.Hed=La rivalità continua
 UI.Notifications.EndRivalryOption.Decline={0} ha rifiutato l'offerta di porre fine alla sua rivalità con: {1}.
 UI.Notifications.EndRivalryOption.Hed=La rivalità termina
 UI.Notifications.EndRivalryOption.Summary={0} e {1} hanno posto fine alla propria rivalità.
-UI.Notifications.EndRivalryOption.Detail={0} e {1} pongono fine alla propria rivalità e tornano a una relazione neutra.
+UI.Notifications.EndRivalryOption.Detail=<h>{0}</h> e <h>{1}</h> pongono fine alla propria rivalità e tornano a una relazione neutra.
 UI.Notifications.JoinFederationOption.Hed=Federazione
 UI.Notifications.JoinFederationOption.Summary={0} ha deciso di unirsi in federazione con {1}.				// nation, nation 2
 UI.Notifications.JoinFederationOption.Detail={0} ha deciso di unirsi in federazione con {1}. Avranno un'alleanza permanente e condivideranno i finanziamenti e il potenziamento del programma spaziale.
@@ -339,7 +341,7 @@ UI.Notifications.DisarmNuclearWeaponsOption.Detail2={0} ha eliminato le proprie 
 UI.Notifications.EmployNuclearWeaponsOption.Hed=Attacco nucleare
 UI.Notifications.EmployNuclearWeaponsOption.Summary={0} ha lanciato un attacco nucleare su: {1}.
 UI.Notifications.EmployNuclearWeaponsOption.Detail=Lancio nucleare in corso!<br/><br/>{0} sta lanciando un attacco nucleare contro: {1}, che sicuramente causerà una devastazione a tappeto e una massiccia perdita di vite umane.
-UI.Notifications.EmployNuclearWeaponsOption.Detail2=Lancio nucleare in corso!<br/><br/>{0} sta lanciando un attacco nucleare contro i propri nemici nella regione {1}. Sebbene l'attacco sia stato limitato agli obiettivi nemici nella regione, ha comunque causato danni significativi all'economia locale e alla popolazione civile.
+UI.Notifications.EmployNuclearWeaponsOption.Detail2=Lancio nucleare in corso!<br/><br/>{0} sta lanciando un attacco nucleare contro i propri nemici nella regione {1}. Sebbene l'attacco sia limitato agli obiettivi nemici nella regione, causerà comunque danni significativi all'economia locale e alla popolazione civile.
 UI.Notifications.ControlNote=</h>, sotto il controllo di {0},
 UI.Notifications.SelectPolicy=Selezionare la politica per {0}
 UI.Notifications.PolicySuccessChance= ({0})
@@ -358,6 +360,7 @@ UI.Notifications.HabFoundedHed=Fondazione di {0}
 UI.Notifications.HabModuleComplete=Modulo di habitat completato
 UI.Notifications.AlienCrashdownSummary=Un vascello alieno è precipitato nella regione {0} della nazione ({1}).
 UI.Notifications.AlienCrashdownHeadline=UFO si schianta sulla Terra
+UI.Notifications.AlienCrashdownDetail.First=Un vascello alieno è precipitato nella regione {0} della nazione ({1}). Sebbene il relitto sia irrecuperabile, sospettiamo che una forma di vita aliena sia fuggita nella campagna circostante.
 UI.Notifications.AlienCrashdownDetail=Un vascello alieno è precipitato nella regione {0} della nazione ({1}). Sebbene il relitto sia irrecuperabile, sospettiamo che una forma di vita aliena sia fuggita nella campagna circostante.
 UI.Notifications.UFOLandingSummary=Un trasporto alieno è atterrato nella regione {0} ({1}).
 UI.Notifications.UFOLandingHeadline=UFO atterra sulla Terra
@@ -450,7 +453,7 @@ UI.Notifications.FleetTrajectoryAbortedDetail_ReturnToOrbit=Rimane nell'{1}.				
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbit=Ha assunto un'orbita temporanea intorno a {0}.											// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbitWithBurn=Ha effettuato una combustione di emergenza per non lasciare il sistema solare e ha assunto un'orbita temporanea intorno a {0}.
 UI.Notifications.FleetTrajectoryAbortedDetail_LeavingSolarSystem=La sua velocità attuale la porterà fuori dal sistema solare e non ha un delta-v sufficiente per decelerare in un'orbita che lo impedisca. Se riusciamo a intercettarla con una delle nostre flotte e a fornirle altro combustibile, potremmo essere in grado di organizzare un salvataggio e riportare la flotta a casa.<br/><br/>La flotta non costerà <color=#FFFFFFFF><sprite name="mission_control"></color> se manterrà questa traiettoria.
-UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Alcune delle sue navi si sono staccate e hanno condotto una combustione di emergenza per non lasciare il sistema solare. Hanno formato una flotta {0} che si trova in un'orbita temporanea intorno a {1}. La velocità delle navi rimanenti le porterà fuori dal sistema solare e non hanno i mezzi per decelerare. Se riusciamo a intercettare queste navi con una delle nostre flotte e fornire loro più combustibile, potremmo essere in grado di organizzare un salvataggio e riportare la flotta a casa.<br/><br/>La flotta in partenza non costerà <color=#FFFFFFFF><sprite name="mission_control"></color> se manterrà questa traiettoria.
+UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Alcune delle sue navi si sono staccate e hanno condotto una combustione di emergenza per non lasciare il sistema solare. La velocità delle navi rimanenti, ora nella flotta {0}, le porterà fuori dal sistema solare e non hanno i mezzi per decelerare. Se riusciamo a intercettare queste navi con una delle nostre flotte e fornire loro più combustibile, potremmo essere in grado di organizzare un salvataggio e riportare la flotta a casa.<br/><br/>La flotta in partenza non costerà <color=#FFFFFFFF><sprite name="mission_control"></color> se manterrà questa traiettoria.
 UI.Notifications.FleetTrajectoryAbortedDetail_WillCrash=La flotta è in rotta di collisione con {0} e non può fuggire.				// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_SomeWillCrash=Alcune navi della flotta sono in rotta di collisione con {0} e non possono fuggire. Le navi rimanenti si sono staccate.
 UI.Notifications.TargetManeuveredAndWeCannotGiveChaseDetail_InsufficientDV={0} ha dovuto interrompere il proprio piano di trasferimento a causa del lancio della flotta bersaglio. {0} non possiede il delta-v necessario per raggiungere {1} nella sua nuova traiettoria.
@@ -486,7 +489,7 @@ UI.Notifications.StationSightedSummary=Abbiamo individuato una stazione apparten
 UI.Notifications.HabSightedDetail=<sp>Viene chiamata "{0}."
 UI.Notifications.AssaultCarrierLaunchesTowardEarthHed=Nave d'assalto aliena si lancia verso la Terra
 UI.Notifications.AssaultCarrierLaunchesTowardEarthSummary=Abbiamo rilevato un grande velivolo d'assalto alieno in traiettoria verso la Terra.
-UI.Notifications.AssaultCarrierLaunchesTowardEarthDetail=Una flotta aliena appena lanciata include un vascello che i nostri analisti hanno stabilito essere una portaerei d'assalto con la capacità di sopravvivere all'ingresso nell'atmosfera terrestre e di far atterrare una grande armata sulla superficie. Il suo arrivo nell'orbita terrestre è previsto per: {0}.		// date
+UI.Notifications.AssaultCarrierLaunchesTowardEarthDetail=Una flotta aliena appena lanciata include un vascello che i nostri analisti hanno stabilito essere una nave da sbarco d'assalto con la capacità di sopravvivere all'ingresso nell'atmosfera terrestre e di far atterrare una grande armata sulla superficie. Il suo arrivo nell'orbita terrestre è previsto per: {0}.		// date
 UI.Notifications.ShipCompleteHeadline=Nave lanciata
 UI.Notifications.ShipCompleteSummary=Abbiamo lanciato la nave {1} ({0}) dall'habitat {2}.				// Ship's full class name, Ship name, hab name
 UI.Notifications.ShipCompleteDetail=La costruzione della nave {1} ({0}) nell'habitat {2} è stata completata. La nave della flotta {3} è attraccata ({4}) e in attesa di ordini.
@@ -575,15 +578,25 @@ UI.Notifications.OurHabDestroyedDetail.Base=Le forze militari {0} hanno bruciato
 UI.Notifications.OurHabDestroyedDetail.Station=Le forze militari {0} hanno distrutto {1} in {2}. Non crediamo ci siano superstiti.
 UI.Notifications.HabDestroyedHed=Habitat {1} distrutto da {0}
 UI.Notifications.HabDestroyedSummary=L'habitat {2} {1} è stato distrutto da {0}. 
-UI.Notifications.HabDestroyedDetail.Base=Abbiamo distrutto la base {0} {1} ({2}, {3}). Cercheranno sicuramente un modo per vendicarsi.
-UI.Notifications.HabDestroyedDetail.Station=Abbiamo distrutto la stazione {0} {1} ({2}). Cercheranno sicuramente vendetta.
+UI.Notifications.HabDestroyedDetail.Base=Abbiamo distrutto l'habitat {0} {1} ({2}, {3}). Cercheranno sicuramente un modo per vendicarsi.
+UI.Notifications.HabDestroyedDetail.Station=Abbiamo distrutto l'habitat {0} {1} ({2}). Cercheranno sicuramente vendetta.
 UI.Notifications.HabDestroyedSalvage=Abbiamo recuperato {0} dai rottami.
+
+UI.Notifications.HabDestroyedHed_AlienHome=L'habitat {1} ha subito un'incursione da {0}.								// 1- Hab's display name, 0- Faction display name (Capitalized)
+UI.Notifications.HabDestroyedSummary_AlienHome=L'habitat {1} {2} ha subito un'incursione da {0}. 			// 2- Faction Adjective, 1- Hab display name, 0- Faction display name 
+UI.Notifications.HabDestroyedDetail_AlienHome=Abbiamo effettuato un'incursione nell'habitat {0} a {1} su {2}. I nostri marines non sono riusciti a entrare nel modulo centrale alieno né nella camera che ospita il condotto spazio-temporale. Per poter proseguire, dovremo avvalerci del nostro consigliere con l'organizzazione {3}. 								// 0- Hab displayname, 1-Hab Site displayname, 2-Spacebody display name, 3, Org display name with leading article (the)
+
 UI.Notifications.ShipStolenHeadline=La nostra nave si unisce a {0}
 UI.Notifications.ShipStolenSummary=La nave {1} ({0}) ora prende ordini da {2}.
 UI.Notifications.ShipStolenDetail=La nostra nave {1} ({0}) ha smesso di seguire i nostri ordini. In base alle informazioni in nostro possesso, gli ufficiali traditori hanno dichiarato fedeltà a {2}. // Ship's class name, Ship name, faction name
 UI.Notifications.ShipDefectedHeadline=Nave nemica si unisce a {0}
 UI.Notifications.ShipDefectedSummary=La nave {1} ({0}) ora prende ordini da {2}.
 UI.Notifications.ShipDefectedDetail=La nave {1} ({0}) ha tagliato i ponti con i leader precedenti, scegliendo di aderire a {2}.
+
+UI.Notifications.MyHabAssaultedHeadline={0} sotto attacco																	// hab name	
+UI.Notifications.MyHabAssaultedSummary=Le forze armate {0} stanno provando a conquistare {1}!												// faction adjective, hab Name
+UI.Notifications.MyHabAssaultedDetail=Le forze armate {0} stanno provando a conquistare {1}.  												// faction adject, hab name with full location string
+
 UI.Notifications.FleetAvailableHed=Ritorno alle operazioni per {0}																// fleet name
 UI.Notifications.FleetAvailableSummary=La flotta {0} è disponibile per le operazioni {1}.											// fleet name, location with prep
 UI.Notifications.FleetAvailableDetail=La flotta {0} è partita {1} ed è disponibile per le operazioni {2}.						// fleet name, location with prep
@@ -720,6 +733,10 @@ UI.Notifications.LogFleetEjectedFromStation.Hed=La flotta lascia la stazione nem
 UI.Notifications.LogFleetEjectedFromStation.Summary={0} è salpata da {1} per evitare l'attacco di un'altra fazione.
 UI.Notifications.LogFleetEjectedFromStation.Detail={0} è salpata da {1} per evitare l'attacco di un'altra fazione.<br/><br/>Le flotte presenti nelle stazioni ostili saranno costrette ad allontanarsi a causa dell'attacco di una terza fazione, a meno che non siano impegnate in operazioni di Attacco o Distruggi habitat, nel qual caso non potranno attraccare.
 
+UI.Notifications.FactionDisabled.Hed=La fazione ({0}) è attualmente inattiva			// faction name with article
+UI.Notifications.FactionDisabled.Summary=Il gruppo conosciuto come {0} ha interrotto ogni operazione.
+UI.Notifications.FactionDisabled.Detail=Il gruppo conosciuto come {0} sembra aver interrotto tutte le proprie operazioni e i suoi leader si sono nascosti. Nonostante abbiano ancora un certo seguito in giro per il mondo, non saranno più un pericolo per i nostri piani.
+
 UI.Notifications.TagRed=Segna in <color=#EC2100>rosso</color>
 UI.Notifications.TagGreen=Segna in <color=#B4FF3E>verde</color> 
 
@@ -738,8 +755,6 @@ UI.Notifications.PactEnds.Detail_NAPIntel={0} e {1} hanno terminato il loro patt
 UI.Notifications.PactEnds.Hed_Truce=Fine della tregua
 UI.Notifications.PactEnds.Summary_Truce={0} e {1} hanno posto fine alla tregua.
 UI.Notifications.PactEnds.Detail_Truce={0} e {1} hanno posto fine alla tregua.
-
-
 
 UI.Notifications.LeaveDarkFederation_Violent_Query=La nuova leadership {0} ha ordinato alla nazione di lasciare {1}. Se non vogliamo rischiare che abbandonino la sfera di influenza {2}, potremmo dichiarare immediatamente guerra senza coesione o altre sanzioni. Dobbiamo farlo?
 

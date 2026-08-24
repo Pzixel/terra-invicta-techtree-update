@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=Tato loď má zbraň v režimu soustředě
 UI.SpaceCombat.Warning.ShipNoThrust=Tato loď již kvůli nedostatku paliva, kritickému poškození můstku nebo pohonného systému nemůže manévrovat.
 UI.SpaceCombat.Warning.ShipNoWeapons=Tato loď utrpěla kritické poškození zbraňových systémů a nemůže střílet z žádných zbraní.
 UI.SpaceCombat.Warning.ShipTarget=Útočným cílem této lodě je {0}.
-UI.SpaceCombat.Warning.ManeuverTarget={0} se snaží přizpůsobit rychlosti této lodi.
+UI.SpaceCombat.Warning.ManeuverTarget={0} se snaží přizpůsobit rychlosti tohoto cíle.
 UI.SpaceCombat.Warning.RotationStatus.Critical=Vektorové trysky této lodi byly kriticky poškozeny, což vážně omezuje její rychlost otáčení.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=Vektorové trysky této lodi byly poškozeny, což zpomaluje její rychlost otáčení.
 UI.SpaceCombat.Warning.RotationStatus.Good=Vektorové trysky této lodi jsou plně funkční. 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=Loď manévruje, aby se vyhnula předpokládan�
 UI.SpaceCombat.Offline=Mimo provoz
 UI.SpaceCombat.Damaged=Poškozeno
 UI.SpaceCombat.Online=V provozu
+UI.SpaceCombat.Jammed=Uvíznutí
 
 UI.SpaceCombat.Weapon.Damaged=Tato zbraň je poškozená, a dokud nebude opravena, nemůže střílet.
 UI.SpaceCombat.Weapon.Cooldown=Tato zbraň se ochlazuje a po vychladnutí bude připravena ke střelbě.
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Přivolat posily
 
 UI.SpaceCombat.Critical=KRIT!
 UI.SpaceCombat.RawDamage=Hrubé poškození
-UI.SpaceCombat.AbsorbedDamage=Poškození absorbované pancířem lodi
-UI.SpaceCombat.PenetratedDamage=Průrazné poškození palubních systémů
-UI.SpaceCombat.RadiationDamage=Radiační poškození, které obchází pancíř a přímo poškozuje palubní systémy.
+UI.SpaceCombat.AbsorbedDamage=Poškození absorbované pancířem
+UI.SpaceCombat.PenetratedDamage=Průrazné poškození systémů
+UI.SpaceCombat.RadiationDamage=Radiační poškození, které obchází pancíř a přímo poškozuje systémy.
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Aktuálně odváděné teplo
 UI.SpaceCombat.RadiatorStatus.Heating=Aktuálně kumulované teplo
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Odzbrojená loď
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= Poškození
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= Stav pancéřování
 UI.SpaceCombat.BattleLog.PartRepaired.Title= Oprava
+
+UI.SpaceCombat.WaypointAvoidance=Trajektorie se protnou

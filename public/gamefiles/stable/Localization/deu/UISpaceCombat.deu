@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=Dieses Schiff hat eine Waffe im Modus „G
 UI.SpaceCombat.Warning.ShipNoThrust=Dieses Schiff ist manövrierunfähig, da es entweder über wenig Treibstoff verfügt bzw. die Kommandobrücke oder das Antriebssystem schwer beschädigt sind.
 UI.SpaceCombat.Warning.ShipNoWeapons=Dieses Schiff kann keine Waffen abfeuern, da die Waffensysteme schwer beschädigt wurden.
 UI.SpaceCombat.Warning.ShipTarget=Das Schiff visiert {0} an.
-UI.SpaceCombat.Warning.ManeuverTarget={0} versucht, sich an die Geschwindigkeit dieses Schiffes anzupassen.
+UI.SpaceCombat.Warning.ManeuverTarget={0} versucht, sich an die Geschwindigkeit dieses Ziels anzupassen.
 UI.SpaceCombat.Warning.RotationStatus.Critical=Die Vektorschubdüsen dieses Schiffs wurden schwer beschädigt, weshalb die Wenderate deutlich eingeschränkt ist.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=Die Vektorschubdüsen dieses Schiffs wurden beschädigt, weshalb die Wenderate reduziert wurde.
 UI.SpaceCombat.Warning.RotationStatus.Good=Die Vektorschubdüsen dieses Schiffs sind uneingeschränkt betriebsbereit. 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=Das Schiff versucht, der vorhergesagten Kollisi
 UI.SpaceCombat.Offline=Außer Betrieb
 UI.SpaceCombat.Damaged=Beschädigt
 UI.SpaceCombat.Online=Betriebsbereit
+UI.SpaceCombat.Jammed=Gestört
 
 UI.SpaceCombat.Weapon.Damaged=Diese Waffe ist beschädigt und erst wieder einsatzbereit, wenn sie repariert wurde.
 UI.SpaceCombat.Weapon.Cooldown=Die Waffe kühlt gerade ab und ist wieder einsatzbereit, sobald der Vorgang abgeschlossen ist.
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Verstärkung anfordern
 
 UI.SpaceCombat.Critical=KRIT.!
 UI.SpaceCombat.RawDamage=Ausgangsschaden
-UI.SpaceCombat.AbsorbedDamage=Durch Panzerung des Schiffes absorbierter Schaden
-UI.SpaceCombat.PenetratedDamage=Zu Schiffssystemen durchgedrungener Schaden
-UI.SpaceCombat.RadiationDamage=Strahlenschaden, der Panzerung umgeht und direkt die Systeme des Schiffs attackiert.
+UI.SpaceCombat.AbsorbedDamage=Durch Panzerung absorbierter Schaden
+UI.SpaceCombat.PenetratedDamage=Zu Systemen durchgedrungener Schaden
+UI.SpaceCombat.RadiationDamage=Strahlenschaden, der Panzerung umgeht und direkt die Systeme attackiert
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Hitze wird aktuell entlüftet
 UI.SpaceCombat.RadiatorStatus.Heating=Hitze nimmt aktuell zu
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Schiff entwaffnet
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= Schaden
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= Panzerung
 UI.SpaceCombat.BattleLog.PartRepaired.Title= Reparieren
+
+UI.SpaceCombat.WaypointAvoidance=Flugroute auf Kollisionskurs

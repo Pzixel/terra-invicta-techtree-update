@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=この船は兵器を集中射撃モード
 UI.SpaceCombat.Warning.ShipNoThrust=この船は燃料不足または船橋や駆動装置システムの致命的な損傷により、操縦できない。
 UI.SpaceCombat.Warning.ShipNoWeapons=この艦は兵器システムに致命的な損傷を受けたため、一切の兵器を発射できない。
 UI.SpaceCombat.Warning.ShipTarget=この宇宙船は{0}をターゲットにしている。
-UI.SpaceCombat.Warning.ManeuverTarget={0}はこの船の速度に合わせようとしている。
+UI.SpaceCombat.Warning.ManeuverTarget={0}はターゲットの速度に合わせようとしている。
 UI.SpaceCombat.Warning.RotationStatus.Critical=この艦のベクタースラスターが致命的なダメージを受け、旋回速度が著しく低下している。
 UI.SpaceCombat.Warning.RotationStatus.Damaged=この艦のベクタースラスターがダメージを受け、旋回速度が低下している。
 UI.SpaceCombat.Warning.RotationStatus.Good=この船のベクタースラスターは完全に作動している。 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=船は予測された衝突を回避するよ�
 UI.SpaceCombat.Offline=オフライン
 UI.SpaceCombat.Damaged=破損
 UI.SpaceCombat.Online=オンライン
+UI.SpaceCombat.Jammed=ジャミング中
 
 UI.SpaceCombat.Weapon.Damaged=この兵器は損傷しており、修理が完了するまでは発射できない。
 UI.SpaceCombat.Weapon.Cooldown=この兵器は冷却中であり、冷却が完了すれば発射可能となる。
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=援軍要請
 
 UI.SpaceCombat.Critical=クリティカル！
 UI.SpaceCombat.RawDamage=基本ダメージ
-UI.SpaceCombat.AbsorbedDamage=船の装甲が吸収したダメージ
-UI.SpaceCombat.PenetratedDamage=船のシステムへの貫通ダメージ
-UI.SpaceCombat.RadiationDamage=装甲を迂回し、船のシステムに直接ダメージを与える放射能ダメージ。
+UI.SpaceCombat.AbsorbedDamage=装甲が吸収したダメージ
+UI.SpaceCombat.PenetratedDamage=システムへの貫通ダメージ
+UI.SpaceCombat.RadiationDamage=装甲を迂回し、システムに直接ダメージを与える放射能ダメージ。
 
 UI.SpaceCombat.RadiatorStatus.Cooling=現在、排熱中
 UI.SpaceCombat.RadiatorStatus.Heating=現在、温度上昇中
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= 武装解除された船
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= ダメージ
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= 持ちこたえている装甲
 UI.SpaceCombat.BattleLog.PartRepaired.Title= 修理
+
+UI.SpaceCombat.WaypointAvoidance=衝突軌道

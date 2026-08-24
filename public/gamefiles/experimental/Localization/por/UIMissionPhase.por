@@ -18,3 +18,4 @@ UI.MissionPhase.BadTrait={0}: {1}
 UI.MissionPhase.NoTargetsHelp=O conselheiro não pode realizar esta missão porque não há alvos válidos. Os alvos para esta missão podem ser inválidos por várias razões, como:
 UI.MissionPhase.Unknown=Desconhecido
 UI.MissionPhase.AIWorking=Os inimigos estão planejando
+UI.MissionPhase.CantAfford=O conselheiro não pode realizar esta missão porque a facção não tem recursos para pagar por ela.

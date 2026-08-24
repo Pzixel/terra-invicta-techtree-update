@@ -16,6 +16,7 @@ UI.Habs.MainHeader=ハブ
 UI.Habs.NoHabSelected=ハブ未選択
 UI.Habs.TierCrew={0}（ティア{1}/最大{2}）
 UI.Habs.SelectAModule=モジュールを選択
+UI.Habs.CantBuild=<size=60%>攻撃または爆撃を受けているまたは廃止中のハブはモジュールの建設やアップグレードは行えません。</size>
 UI.Habs.SectorID=セクター{0}
 UI.Habs.Tier=ティア{0}モジュール
 UI.Habs.Crew={0}クルー
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath={0}から{1}へ																// old module displayName, up
 UI.Habs.UpgradeAllofTypeQuery=決定すると{0}モジュールを{1}から{2}へとアップグレードします。
 UI.Habs.CantAffordUpgradeAllofType=今はこれらを建てる余裕はありません。
 UI.Habs.BaseSiteName={0}基地																// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks={0}このハブは攻撃を受けている間はモジュールの建設やアップグレードは行えません。

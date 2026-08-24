@@ -22,10 +22,10 @@ UI.Notifications.GotoButtonTextResearch=Відкрити
 UI.Notifications.GotoButtonTextIntel=Відкрити екран розвідданих
 UI.Notifications.RepeatMissionButtonText=Повторити місію
 UI.Notifications.RepeatMissionButtonText_Spend=Повторити місію за {0}{1}
-UI.Notifications.RepeatContinueMissionButtonText=Повторити й продовж.
-UI.Notifications.RepeatContinueMissionButtonText_Spend=Повторити й продовж. за {0}{1}
+UI.Notifications.RepeatContinueMissionButtonText=Повторити й продовж
+UI.Notifications.RepeatContinueMissionButtonText_Spend=Повторити й продовж за {0}{1}
 UI.Notifications.RepeatOpButtonText=Повторити операцію
-UI.Notifications.RepeatContinueOpButtonText=Повторити й продовж.
+UI.Notifications.RepeatContinueOpButtonText=Повторити й продовж
 UI.Notifications.PermanentAssignment=Постійне завдання
 UI.Notifications.FavoriteUnlockedProject=Зробити улюбленим
 UI.Notifications.HideUnlockedProject=Застарілий проєкт
@@ -86,8 +86,8 @@ UI.Notifications.MyControlPointTakenSummary=Ми втратили точку к�
 UI.Notifications.MyControlPointTaken=Ми втратили точку контролю ({3}) в нації {0}: вона перейшла фракції «{1}». Велика кількість наших людей більше не відповідає на наші дзвінки, і ми втратили значну кількість влади над подіями там. {2}													 // nation, faction, CP description, conditional armieslost
 UI.Notifications.MyControlPointDominatedHed=Точку контролю передали
 UI.Notifications.MyControlPointDominatedSummary=Агенти фракції «{0}» змусили передати точку контролю фракції «{1}» нації {2}.													// faction adjective, faction adjective, nation with prep
-UI.Notifications.MyControlPointDominatedDetail=Агенти фракції «{0}» пригрозили запуском орбітальних ударів на різні військові й цивільні цілі нації {1}, що змусило її лідерів передати їм одну з наших точок контролю. {2}
-UI.Notifications.MyControlPointDominatedDetail2=Прихильники фракції «{0}» запустили руйнівні орбітальні удари на військові й цивільні цілі нації {1} після спроби залякати наших непокірних прихильників до підкорення. Уцілілі передали їм одну з наших точок контролю. {2}
+UI.Notifications.MyControlPointDominatedDetail=Агенти фракції «{0}» пригрозили запуском орбітальних ударів на різні військові й цивільні цілі нації {1}, що змусило її лідерів передати їм одну з наших точок контролю. Щоби цьому запобігти, ми повинні знищити всі їхні вартові модулі на орбіті Землі. {2}
+UI.Notifications.MyControlPointDominatedDetail2=Прихильники фракції «{0}» запустили руйнівні орбітальні удари на військові й цивільні цілі нації {1} після спроби залякати наших непокірних прихильників до підкорення. Уцілілі передали їм одну з наших точок контролю. Щоби цьому запобігти, ми повинні знищити всі їхні вартові модулі на орбіті Землі. {2}
 UI.Notifications.Neutral=нейтральна
 UI.Notifications.NoFaction=без фракції
 UI.Notifications.MyControlPointCrackedDownHed=Репресія
@@ -221,8 +221,10 @@ UI.Notifications.SpecialProjectTriggered.Summary=Тепер ми маємо зм
 UI.Notifications.SpecialProjectTriggered.Detail=Наші команди досліджень та розроблення раді повідомити, що вони подолали певні труднощі й тепер мають змогу взятися за проєкт <h>«{0}»</h>.
 UI.Notifications.ProjectComplete.Hed=Проєкт завершений<br/>«{0}»
 UI.Notifications.ProjectComplete.Summary=Ми завершили проєкт «{0}».
-UI.Notifications.ProjectComplete.Detail=Ми завершили проєкт «{0}».<br/>{1}
-UI.Notifications.ProjectComplete.Detail2=Ми завершили проєкт «{0}».{1}<br/><br/>{2}
+UI.Notifications.ProjectComplete.Detail=Ми завершили проєкт «{0}».<br/><br/>{1}									// 0- project name, 1- project description
+UI.Notifications.ProjectComplete.Detail2=Ми завершили проєкт «{0}».<br/><br/>{1}<br/><br/>{2}					// 0- project name, 1- Appending diff line (ResearchCompleteAutoPick, ln 243), 2- project description
+UI.Notifications.ProjectComplete.Summary.OtherFaction=Прихильники фракції «{0}» завершили проєкт «{1}».					// 0- faction displayname, 1-project name,
+UI.Notifications.ProjectComplete.Detail.OtherFaction=Прихильники фракції «{0}» завершили проєкт «{1}».<br/><br/>{2}		// 0- faction displayname, 1-project name, 2-project description
 
 UI.Notifications.ProjectComplete.OrgGained=Через нашу працю утворилася нова організація — «{0}», яка тепер перебуває в резерві нашої фракції та яку можна призначити раднику.	//org name with article
 UI.Notifications.ProjectComplete.ResourcesGained=Ми отримали наступні ресурси: {0}<br/>
@@ -301,7 +303,7 @@ UI.Notifications.EndRivalryOption.Decline.Hed=Суперництво продо�
 UI.Notifications.EndRivalryOption.Decline=Нація {0} відхилила пропозицію завершити суперництво з нацією {1}.
 UI.Notifications.EndRivalryOption.Hed=Суперництво завершуються
 UI.Notifications.EndRivalryOption.Summary=Нації {0} та {1} завершили своє суперництво.
-UI.Notifications.EndRivalryOption.Detail=Нації {0} та {1} завершили своє суперництво й повернулися до нормальних відносин.
+UI.Notifications.EndRivalryOption.Detail=Нації <h>{0}</h> та <h>{1}</h> завершили своє суперництво й повернулися до нормальних відносин.
 UI.Notifications.JoinFederationOption.Hed=Федерація
 UI.Notifications.JoinFederationOption.Summary=Нація {0} вирішила приєднатися до федерації з нацією {1}.				// nation, nation 2
 UI.Notifications.JoinFederationOption.Detail=Нація {0} вирішила приєднатися до федерації з нацією {1}. Вони перебуватимуть у постійному альянсі й ділитимуть фінансування космічних програм та одиниці імпульсу.
@@ -339,7 +341,7 @@ UI.Notifications.DisarmNuclearWeaponsOption.Detail2=Нація {0} позбул�
 UI.Notifications.EmployNuclearWeaponsOption.Hed=Ядерна атака
 UI.Notifications.EmployNuclearWeaponsOption.Summary=Нація {0} запустила ядерну атаку на місцину {1}.
 UI.Notifications.EmployNuclearWeaponsOption.Detail=Проводиться ядерний запуск!<br/><br/>Нація {0} запускає ядерну атаку на регіон міста {1}, яка, без сумніву, спричинить масштабне спустошення й масивну втрату життя.
-UI.Notifications.EmployNuclearWeaponsOption.Detail2=Проводиться ядерний запуск!<br/><br/>Нація {0} запускає ядерну атаку на своїх ворогів у регіоні міста {1}. Хоча атака й була обмежена ворожими цілями в регіоні, вона все одно заподіяла значної шкоди місцевій економіці та мирному населенню.
+UI.Notifications.EmployNuclearWeaponsOption.Detail2=Проводиться ядерний запуск!<br/><br/>Нація {0} запускає ядерну атаку на своїх ворогів у регіоні міста {1}. Хоча атака й обмежена ворожими цілями в регіоні, вона все одно заподіє значної шкоди місцевій економіці та мирному населенню.
 UI.Notifications.ControlNote=</h>, під контролем фракції «{0}»,
 UI.Notifications.SelectPolicy=Виберіть політику для нації {0}
 UI.Notifications.PolicySuccessChance= ({0})
@@ -358,6 +360,7 @@ UI.Notifications.HabFoundedHed=Середовище «{0}» засноване
 UI.Notifications.HabModuleComplete=Модуль середовища завершений
 UI.Notifications.AlienCrashdownSummary=У регіоні міста {0} нації {1} розбився інопланетний корабель.
 UI.Notifications.AlienCrashdownHeadline=На Землі розбивається НЛО
+UI.Notifications.AlienCrashdownDetail.First=У регіоні міста {0} нації {1} розбився інопланетний корабель. Хоча пошкодження і є критичними, ми підозрюємо, що інопланетна форма життя втекла до навколишньої сільської місцевості.
 UI.Notifications.AlienCrashdownDetail=У регіоні міста {0} нації {1} розбився інопланетний корабель. Хоча пошкодження і є критичними, ми підозрюємо, що інопланетна форма життя втекла до навколишньої сільської місцевості.
 UI.Notifications.UFOLandingSummary=У регіоні міста {0} нації {1} приземлився інопланетний транспорт.
 UI.Notifications.UFOLandingHeadline=На Землі приземляється НЛО
@@ -450,7 +453,7 @@ UI.Notifications.FleetTrajectoryAbortedDetail_ReturnToOrbit=Він залиша�
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbit=Він перейняв тимчасову орбіту навколо тіла {0}.											// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_TempOrbitWithBurn=Він здійснив аварійний орбітальний маневр, тож не покидає Сонячну систему, та перейняв тимчасову орбіту навколо тіла {0}.
 UI.Notifications.FleetTrajectoryAbortedDetail_LeavingSolarSystem=Його поточна швидкість віднесейого поза Сонячну систему, і в нього достатня дельта-v, щоби сповільнитися й запобігти цьому. Якщо нам вдасться перехопити його за допомогою одного з наших флотів і надати йому пальне, нам може вдатися здійснити порятунок і привезти флот додому.<br/><br/>Флот не коштуватиме <color=#FFFFFFFF><sprite name="mission_control"></color>, перебуваючи на цій траєкторії.
-UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Деякі його кораблі відділилися й здійснили аварійний орбітальний маневр, щоби не покинути Сонячну систему. Вони сформували флот «{0}» і перебувають на тимчасовій орбіті навколо тіла {1}. Швидкість решти кораблів відправить їх поза Сонячну систему, і вони не можуть сповільнитися. Якщо нам вдасться перехопити його за допомогою одного з наших флотів і надати йому пальне, нам може вдатися здійснити порятунок і привезти флот додому.<br/><br/>Флот, що відправляється, не коштуватиме <color=#FFFFFFFF><sprite name="mission_control"></color>, перебуваючи на своїй траєкторії.
+UI.Notifications.FleetTrajectoryAbortedDetail_SomeLeavingSolarSystem=Деякі його кораблі відділилися й здійснили аварійний орбітальний маневр, щоби не покинути Сонячну систему. Швидкість решти кораблів, що тепер перебувають у флоті «{0}», відправить їх поза Сонячну систему, і вони не можуть сповільнитися. Якщо нам вдасться перехопити його за допомогою одного з наших флотів і надати йому пальне, нам може вдатися здійснити порятунок і привезти флот додому.<br/><br/>Флот, що відправляється, не коштуватиме <color=#FFFFFFFF><sprite name="mission_control"></color>, перебуваючи на своїй траєкторії.
 UI.Notifications.FleetTrajectoryAbortedDetail_WillCrash=Флот перебуває на курсі зіткнення з тілом {0} і не може уникнути цього.				// space body name
 UI.Notifications.FleetTrajectoryAbortedDetail_SomeWillCrash=Деякі кораблі флоту перебувають на курсі зіткнення з тілом {0} і не можуть уникнути цього. Решта кораблів відділилася.
 UI.Notifications.TargetManeuveredAndWeCannotGiveChaseDetail_InsufficientDV=Флот «{0}» був вимушений скасувати свій план подорожі через запуск цільового флоту. Флоту «{0}» не вистачає дельта-v, щоби зловити флот «{1}» на його новій траєкторії.
@@ -575,15 +578,25 @@ UI.Notifications.OurHabDestroyedDetail.Base=Сили фракції «{0}» сп
 UI.Notifications.OurHabDestroyedDetail.Station=Сили фракції «{0}» знищили середовище «{1}» на орбіті «{2}». Ми не думаємо, що хтось уцілів.
 UI.Notifications.HabDestroyedHed=Фракція «{0}» знищила середовище «{1}»
 UI.Notifications.HabDestroyedSummary=Фракція «{0}» знищила середовище «{1}» фракції «{2}». 
-UI.Notifications.HabDestroyedDetail.Base=Ми знищили базу «{1}» фракції «{0}» на ділянці «{2}» тіла {3}. Вони безумовно шукатимуть шляхи відплати.
-UI.Notifications.HabDestroyedDetail.Station=Ми знищили станцію «{0}» фракції «{1}» на орбіті «{2}». Вони безумовно бажатимуть відплати.
+UI.Notifications.HabDestroyedDetail.Base=Ми знищили середовище «{1}» фракції «{0}» на ділянці «{2}» тіла {3}. Вони безумовно шукатимуть шляхи відплати.
+UI.Notifications.HabDestroyedDetail.Station=Ми знищили середовище «{1}» фракції «{0}» на орбіті «{2}». Вони безумовно бажатимуть відплати.
 UI.Notifications.HabDestroyedSalvage=Нам вдалося врятувати з уламків наступне: {0}
+
+UI.Notifications.HabDestroyedHed_AlienHome=Фракція «{0}» напала на середовище «{1}»								// 1- Hab's display name, 0- Faction display name (Capitalized)
+UI.Notifications.HabDestroyedSummary_AlienHome=Фракція «{0}» напала на середовище «{1}» фракції «{2}». 			// 2- Faction Adjective, 1- Hab display name, 0- Faction display name 
+UI.Notifications.HabDestroyedDetail_AlienHome=Ми напали на середовище «{0}» на ділянці «{1}» тіла {2}. Наші морські піхотинці не змогли потрапити до модуля ядра прибульців чи до місця, що містить кротовину. Щоби рухатися далі, нам потрібно призначати нашому раднику організацію «{3}». 								// 0- Hab displayname, 1-Hab Site displayname, 2-Spacebody display name, 3, Org display name with leading article (the)
+
 UI.Notifications.ShipStolenHeadline=Наш корабель приєднується до фракції «{0}»
 UI.Notifications.ShipStolenSummary=Корабель «{1}» фракції «{0}» тепер виконує накази фракції «{2}».
 UI.Notifications.ShipStolenDetail=Наш корабель «{0}» класу «{1}» перестав реагувати на наші накази. Наша найліпша здогадка — зрадливі офіцери змінили свою приналежність фракції «{2}». // Ship's class name, Ship name, faction name
 UI.Notifications.ShipDefectedHeadline=Ворожий корабель приєднується до фракції «{0}»
 UI.Notifications.ShipDefectedSummary=Корабель «{1}» фракції «{0}» тепер звітує фракції «{2}».
 UI.Notifications.ShipDefectedDetail=Корабель «{1}» класу «{0}» розірвав зв'язки зі своїми старими господарями, натомість обравши приєднатися до фракції «{2}».
+
+UI.Notifications.MyHabAssaultedHeadline=Середовище «{0}» зазнає нападу																	// hab name	
+UI.Notifications.MyHabAssaultedSummary=Сили фракції «{0}» намагаються захопити середовище «{1}»!												// faction adjective, hab Name
+UI.Notifications.MyHabAssaultedDetail=Сили фракції «{0}» намагаються захопити середовище «{1}».  												// faction adject, hab name with full location string
+
 UI.Notifications.FleetAvailableHed=Флот «{0}» повертається до проведення операцій																// fleet name
 UI.Notifications.FleetAvailableSummary=Флот «{0}» доступний для проведення операцій у місцині {1}.											// fleet name, location with prep
 UI.Notifications.FleetAvailableDetail=Флот «{0}» покинув об'єкт «{1}» і доступний для проведення операцій у місцині {2}.						// fleet name, location with prep
@@ -720,6 +733,10 @@ UI.Notifications.LogFleetEjectedFromStation.Hed=Флот відлітає з в�
 UI.Notifications.LogFleetEjectedFromStation.Summary=Флот «{0}» здійснив розстикування від об'єкта «{1}», щоби уникнути нападу іншої фракції на нього.
 UI.Notifications.LogFleetEjectedFromStation.Detail=Флот «{0}» здійснив розстикування від об'єкта «{1}», щоби уникнути нападу іншої фракції на нього.<br/><br/>Флоти на ворожих станціях будуть змушені відлетіти через напад третьої фракції, якщо вони не проводять операції атаки або знищення середовища: тоді вони не матимуть змоги здійснити стикування.
 
+UI.Notifications.FactionDisabled.Hed=Фракція «{0}» тепер неактивна			// faction name with article
+UI.Notifications.FactionDisabled.Summary=Група, відома як «{0}», припиняє всі операції.
+UI.Notifications.FactionDisabled.Detail=Група, відома як «{0}», схоже, припиняє всі операції, а її керівництво почало переховуватися. Хоча вони й досі мають прихильників у світі, вони більше не є серйозною загрозою для наших планів.
+
 UI.Notifications.TagRed=Позначити <color=#EC2100>червоним</color>
 UI.Notifications.TagGreen=Позначити <color=#B4FF3E>зеленим</color> 
 
@@ -738,8 +755,6 @@ UI.Notifications.PactEnds.Detail_NAPIntel=Фракції «{0}» та «{1}» з
 UI.Notifications.PactEnds.Hed_Truce=Перемир'я завершується
 UI.Notifications.PactEnds.Summary_Truce=Фракції «{0}» та «{1}» завершили своє перемир'я.
 UI.Notifications.PactEnds.Detail_Truce=Фракції «{0}» та «{1}» завершили своє перемир'я.
-
-
 
 UI.Notifications.LeaveDarkFederation_Violent_Query=Нові лідери нації {0} спрямували націю залишити федерацію нації {1}. Якщо ми не хочемо ризикувати їхнім виходом зі сфери впливу {2}, ми можемо негайно оголосити їм війну без штрафу згуртованості або інших штрафів. Робити так?
 

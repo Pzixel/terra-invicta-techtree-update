@@ -3,6 +3,7 @@
 // adopts the drawn network via window.__graphBoot instead of redrawing.
 import { drawBundle, GraphBundle } from './techGraphRender';
 import { assetUrl, BASE_PATH } from './utils';
+import { entityDataNameFromPath, graphArtifactPath, scenarioFromLocation } from './scenario';
 
 export interface GraphBootHandle {
     key: string;
@@ -28,15 +29,16 @@ export function bootGraph() {
     const path = window.location.pathname.startsWith(BASE_PATH)
         ? window.location.pathname.slice(BASE_PATH.length)
         : '';
-    const segment = decodeURIComponent(path.replace(/\/+$/, '').split('/')[0] ?? '');
+    const segment = path.replace(/^\/+|\/+$/g, '').split('/')[0] ?? '';
     if (segment === 'browse' || segment === 'drives') return;
-    const selectedId = segment || null;
+    const selectedId = entityDataNameFromPath(window.location.pathname, BASE_PATH);
 
     const query = new URLSearchParams(window.location.search);
     const version = query.get('ver') === 'experimental' ? 'experimental' : 'stable';
     const langParam = query.get('lang');
     const lang = langParam && LANGS.includes(langParam) ? langParam : 'en';
-    const key = `${version}.${lang}`;
+    const scenario = scenarioFromLocation(window.location.pathname, window.location.search, BASE_PATH);
+    const key = `${version}.${scenario.code}.${lang}`;
 
     // Same container id/styling the app uses; inline styles because App.css
     // arrives with the React chunk
@@ -60,7 +62,7 @@ export function bootGraph() {
     window.__graphBoot = handle;
 
     performance.mark('graph:bundle-fetch-start');
-    handle.bundlePromise = fetch(assetUrl(`graph/${key}.json`))
+    handle.bundlePromise = fetch(assetUrl(graphArtifactPath(version, scenario.code, lang)))
         .then((res) => (res.ok ? res.json() : null))
         .catch(() => null)
         .then((bundle: GraphBundle | null) => {

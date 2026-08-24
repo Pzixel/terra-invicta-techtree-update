@@ -1,0 +1,69 @@
+[
+ {
+   "dataName": "2003Start",
+   "year": 2003,
+   "month": 3,
+   "day": 31,
+   "hour": 23,
+   "minute": 59,
+   "second": 59,
+   "bonusMoney": 0,
+   "bonusInfluence": 0,
+   "bonusOps": 0,
+   "bonusBoost": 0,
+   "bonusMissionControl": 0,
+   "bonusWater": 0,
+   "bonusVolatiles": 0,
+   "bonusMetals": 0,
+   "bonusNobles": 0,
+   "bonusFissiles": 0,
+   "bonusAntimatter": 0,
+   "bonusExotics": 0,
+   "initialCrashdownRegionTemplateName": "random",
+   "initialAtmosphericCO2_ppm": 375,
+   "initialAtmosphericCH4_ppm": 1.78,
+   "initialAtmosphericN2O_ppm": 0.3176,
+   "initialStratosphericAerosols_ppm": 0,
+   "initialGlobalSeaLevelAnomaly_cm": 17,
+   "initialLooseNukes": 0,
+   "globalStartingGDPScaling": 1.59,
+   "distributeFactionlessHabsAndFleets": true,
+   "startingTechs": [
+      "BS_DemocratizationofSpace",
+      "BS_ExascaleComputing",
+      "BS_DigitalSociety"
+   ],
+   "techTreeUIStarters": [
+      "BS_DemocratizationofSpace",
+	  "BS_ExascaleComputing",
+	  "BS_DigitalSociety",
+	  "WeAreNotAlone"
+   ],
+   "projectsCompleted": [
+      "Project_Solid-FuelSpaceRockets",
+      "Project_Liquid-FuelRockets",
+      "Project_CryogenicLiquid-FuelRockets",
+      "Project_PlatformCore",
+      "Project_SolarCollector",
+      "Project_SpaceScienceLab"
+   ],
+   "startingAlienCouncilorFleets": [
+      "alienFleet12020",
+      "alienFleet22020",
+      "alienFleet32020",
+      "alienFleet42020",
+      "alienFleet52020"
+   ],
+   "orgGlobalResearchSensitivity": 0.5,
+   "orgGlobalGDPSensitivity": 0.5,
+   "populationRegressionPeriod_years": 40,
+   "alienQuietDuration_years": 15,
+   "alienSetupDuration_years": 20,
+   "alienSetupStartIncome": 0.15,
+   "alienSetupEndIncome": 1.5,
+   "alienProgressionModifier": 0.75,
+   "alienStartingProgression_years": -5,
+   "GDPDefenseModifier": 0.9,
+   "CPMaintenanceModifier": 1
+}
+]

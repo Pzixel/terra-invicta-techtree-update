@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=Wir konnten {targetDisplayName} für unser Anlieg
 TIMissionTemplate.CriticalFailure.Turn=Wir konnten {targetDisplayName} nicht für unser Anliegen gewinnen und es scheint, dass mein Aufenthaltsort {targetFactionName} bekannt ist.
 
 TIMissionTemplate.displayName.Unrest=Unruhen verstärken
-TIMissionTemplate.description.Unrest=Unruhen in der Nation der anvisierten Region verstärken, wodurch die Wirtschaft geschädigt wird und Putschversuche, Revolutionen und Sezessionen wahrscheinlicher sind. Bei einem Erfolg in einer Region mit einer Unabhängigkeitsbewegung kann dort eine Sezession statt einer Revolution ausgelöst werden. Der Effekt wird abgeschwächt, wenn bestehende Unruhen bereits mehr als das Doppelte des Unruhe-Ruhewerts dieser Nation ausmachen.
+TIMissionTemplate.description.Unrest=Unruhen in der Nation der anvisierten Region verstärken, wodurch die Wirtschaft geschädigt wird und Putschversuche und Revolutionen wahrscheinlicher sind. Bei einem Erfolg in einer Region mit einer Unabhängigkeitsbewegung kann dort eine Sezession ausgelöst werden. Der Effekt wird abgeschwächt, wenn bestehende Unruhen bereits mehr als das Doppelte des Unruhe-Ruhewerts dieser Nation ausmachen.
 TIMissionTemplate.CriticalSuccess.Unrest=Ich konnte durch meine Bemühungen die Unruhen {targetNationNameWithPrep} um {returnedValue} auf {targetNationUnrestWithString} erhöhen. Wir haben jetzt innerhalb der aufständischen Bewegungen hier etwas Unterstützung, sollten sie die Regierung jemals stürzen.
 TIMissionTemplate.Success.Unrest=Ich konnte durch meine Bemühungen die Unruhen {targetNationNameWithPrep} um {returnedValue} auf {targetNationUnrestWithString} erhöhen. Wir haben jetzt innerhalb der aufständischen Bewegungen hier etwas Unterstützung, sollten sie die Regierung jemals stürzen.
 TIMissionTemplate.Failure.Unrest=Ich konnte die Unruhen in {targetNationNameWithPrep} nicht verstärken.
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=Unser Netzwerk an Wachstationen aktivie
 TIMissionTemplate.Success.AppeaseWin=Wir haben unser Netzwerk an Wachen aktiviert und nach einer kurzen Demonstration haben die Nationen der Erde ihre Autorität an uns übergeben.
 
 TIMissionTemplate.displayName.CooperateWin=Ein Bündnis schließen
-TIMissionTemplate.description.CooperateWin=Sende unsere Phärozyten-resistenten Diplomaten durch das Wurmloch, um Beziehungen aufzunehmen und diesen Konflikt zu beenden. Wir müssen den Alienstützpunkt angreifen und zuerst landen. Erfordert, dass wir unsere Zielvorgaben für den Sieg erreicht haben.
+TIMissionTemplate.description.CooperateWin=Sende unsere Phärozyten-resistenten Diplomaten durch das Wurmloch, um Beziehungen aufzunehmen und diesen Konflikt zu beenden. Wir müssen alle Anti-Bombardement-, Zitadellen-, Garnisons- und Kasernmodule am primären Alien-Stützpunkt zerstören, damit unser Ratsmitglied dort landen und unsere Mission ausführen kann. Erfordert, dass wir unsere Zielvorgaben für den Sieg erreicht haben.
 TIMissionTemplate.Success.CooperateWin=Wir haben den Bestimmungen mit der Hydra zugestimmt.
 
 TIMissionTemplate.displayName.DestroyWin=Die Waffe auslösen
-TIMissionTemplate.description.DestroyWin=Sende unsere Biowaffe durch das Wurmloch. Wir müssen den Alienstützpunkt angreifen und zuerst landen. Erfordert, dass wir unsere Zielvorgaben für den Sieg erreicht haben.
+TIMissionTemplate.description.DestroyWin=Sende unsere biologische Waffe durch das Wurmloch. Wir müssen alle Anti-Bombardement-, Zitadellen-, Garnisons- und Kasernmodule am primären Alien-Stützpunkt zerstören, damit unser Ratsmitglied dort landen und unsere Mission ausführen kann. Erfordert, dass wir unsere Zielvorgaben für den Sieg erreicht haben.
 TIMissionTemplate.Success.DestroyWin=Wir haben das Shiva-Virus eingesetzt.
 
 TIMissionTemplate.displayName.EscapeWin=Bifröst starten
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=Den Startbefehl geben, um unsere interst
 TIMissionTemplate.Success.EscapeWin=Wir haben das Bifröst gestartet.<br/><br/>Wir haben unsere Aufgabe erfüllt, aber das Leben geht für jene, die zurückbleiben, weiter. Wenn wir wollen, können wir ein neues interstellares Raumschiff bauen und starten.
 
 TIMissionTemplate.displayName.ExploitWin=Den Feind zähmen
-TIMissionTemplate.description.ExploitWin=Sende das Neophärozytenpaket durch das Wurmloch. Wir müssen den Alienstützpunkt angreifen und zuerst landen. Erfordert, dass wir unsere Zielvorgaben für den Sieg erreicht haben.
+TIMissionTemplate.description.ExploitWin=Sende unser Neophärozyten-Paket durch das Wurmloch. Wir müssen alle Anti-Bombardement-, Zitadellen-, Garnisons- und Kasernmodule am primären Alien-Stützpunkt zerstören, damit unser Ratsmitglied dort landen und unsere Mission ausführen kann. Erfordert, dass wir unsere Zielvorgaben für den Sieg erreicht haben.
 TIMissionTemplate.Success.ExploitWin=Wir haben das Hydra-Imperium unterworfen.
 
 TIMissionTemplate.displayName.ResistWin=Das Tor schließen
-TIMissionTemplate.description.ResistWin=Aktiviere das Gerät, um das Alien-Wurmloch zu schließen. Wir müssen den Alienstützpunkt angreifen und zuerst landen. Erfordert, dass wir unsere Zielvorgaben für den Sieg erreicht haben.
+TIMissionTemplate.description.ResistWin=Aktiviere das Gerät, um das Alien-Wurmloch zu deaktivieren. Wir müssen alle Anti-Bombardement-, Zitadellen-, Garnisons- und Kasernmodule am primären Alien-Stützpunkt zerstören, damit unser Ratsmitglied dort landen und unsere Mission ausführen kann. Erfordert, dass wir unsere Zielvorgaben für den Sieg erreicht haben.
 TIMissionTemplate.Success.ResistWin=Das Tor des Feindes ist geschlossen.
 
 TIMissionTemplate.displayName.SubmitWin=Unsere Beherrscher ankündigen
@@ -326,14 +326,14 @@ TIMissionEffect_Advise.Special3=Bis ich einer neuen Mission zugewiesen werden, e
 TIMissionEffect_StealProject.Special=Ich wurde verhaftet und werde in Kürze an {0} übergeben. Ich werde ihren Verhören solange ich kann standhalten.					// faction name
 TIMissionEffect_StealProject.Steal=Ich habe außerdem {0} aus ihren Archiven erhalten.
 TIMissionEffect_SabotageProject.Special=Ich wurde verhaftet und werde in Kürze an {0} übergeben. Bitte bewirke meine Freilassung!									// faction name
-TIMissionEffect_Propaganda.Special=Unsere öffentliche Unterstützung hier hat sich um {1} verändert. Sie ist jetzt bei {0}.
+TIMissionEffect_Propaganda.Special=Unsere öffentliche Unterstützung hier hat sich um {0} verändert. Sie ist jetzt bei {1}.
 TIMissionEffect_Propaganda.Special2=Die Unterstützung uns gegenüber hat sich hier von den {0} nicht verändert. Aber die Leute lassen von den Ideologien unserer Gegner ab und tendieren zu unseren.
 TIMissionEffect_Assassinate.Special1=Unser Attentat hat große Aufmerksamkeit erregt, und ich werde jetzt von den Behörden auf der ganzen Welt gesucht.									// faction name
 TIMissionEffect_Assassinate.Special2=Ich wurde verhaftet und werde in Kürze an {0} übergeben. Bitte bewirke meine Freilassung!									// faction name
 
 TIMissionResult_Responsibility=Wir haben herausgefunden, dass {0} hinter der Operation steckt.
 
-TIMissionModifier.Spend={0} ausgegeben														// resource name, e.g. "Ops"
+TIMissionModifier.Spend={0} Ausgegeben														// resource name, e.g. "Ops"
 TIMissionModifier.Flat={0} ({1})															// Flat Modifier (3)
 TIMissionModifier.CodexHeader=<h>Angriffs-Modifikatoren<line-height=0.01%><br/><align="right">Verteidigungs-Modifikatoren</align></line-height></h>
 TIMissionModifier_FlatModifier.displayName=Schwierigkeitsgrad der Mission
@@ -499,8 +499,9 @@ TIMissionCondition_VictoryCondition=Fraktion muss alle Siegesbedingungen erfüll
 TIMissionCondition_SufficientMissionControl=Muss eine verfügbare Missionskontrolle haben
 TIMissionCondition_FreeCouncilor=Ziel-Ratsmitglied darf nicht festgehalten werden oder auf andere Weise inaktiv sein
 TIMissionCondition_TargetableHabModule=Muss ein feindliches Nicht-Kernmodul sein
-TIMissionCondition_TargetableOrg=Muss eine Organisation im nicht zugewiesenen Pool eines Feindes oder einem Ratsmitglied zugewiesen worden sein, über das wir ausreichend Informationen besitzen
+TIMissionCondition_TargetableOrg=Muss einer Organisation im nicht zugewiesenen Pool eines Feindes oder einem Ratsmitglied zugewiesen worden sein, über das wir ausreichend Informationen besitzen
 _Fail=Muss ein gültiger Zieltyp für die vorliegende Mission und dem Ratsmitglied zugänglich sein.
+TIMissionCondition_AlienPrimaryBaseInRange=Unser Ratsmitglied muss sich in der Basis, einem nahe gelegenen Habitat oder einer angrenzenden Umlaufbahn oberhalb der Basis befinden; die Basis darf keine aktiven Zitadellen, Garnisonen, Kasernen oder Module mit Anti-Bombardement-Waffen besitzen
 
 TIMissionAbort_ControlPointRemoved=Diese Mission wurde abgebrochen, weil der Zielkontrollpunkt nicht mehr existiert.
 TIMissionAbort_CouncilorRetired=Diese Mission wurde abgebrochen, weil das zugewiesene Ratsmitglied nicht mehr aktiv ist.

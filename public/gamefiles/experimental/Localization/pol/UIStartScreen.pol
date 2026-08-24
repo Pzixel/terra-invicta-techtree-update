@@ -99,7 +99,7 @@ UI.StartScreen.FailedToLoadSaveDescription=Nie udało się wczytać pliku zapisu
 UI.StartScreen.StartupErrorHeader=Błąd inicjalizacji gry
 UI.StartScreen.StartupErrorSavePath=Gra nie uzyskała dostępu do wymaganego folderu zapisu i nie będzie mogła się uruchomić. Sprawdź uprawnienia i/lub ewentualne oprogramowanie obsługujące chmurę (takie jak OneDrive) i zadbaj o to, by gra mogła zapisywać i odczytywać pliki w: <br/><br/>{0}<br/><br/>W celu uzyskania pomocy technicznej napisz na adres support@pavonisinteractive.com<br/><br/>Program zamknie się po kliknięciu przycisku „OK”.
 UI.StartScreen.TutorialDesc=W przypadku pierwszej rozgrywki zalecamy grę frakcją Oporu z włączonym samouczkiem.
-UI.StartScreen.Credits=Zespół twórców
+UI.StartScreen.Credits=Twórcy
 UI.StartScreen.Exit=Opuść grę
 UI.StartScreen.Skirmish.Begin=ROZEGRAJ POTYCZKĘ
 UI.StartScreen.Skirmish.Header=Konfiguracja potyczki
@@ -201,120 +201,84 @@ UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=Nazwy małych statków
 UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=Nazwy średnich statków
 UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=Nazwy dużych statków
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=Nazwy habitatów
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Dodaj flotę desantową kosmitów
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Dodaje jeszcze jedną flotę kosmitów z desantowcami na początek kampanii.
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Dodaj inwazję floty kosmitów
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Dodaje jeszcze jedną flotę kosmitów z desantowcami już na początku kampanii. <h>W znaczny sposób zwiększa to poziom trudności kampanii i jest zalecane wyłącznie dla doświadczonych graczy.</h>
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Domyślne przyspieszone
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=Domyślne długiej kampanii
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Ustawienia poprzedniej kampanii
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactions=Pozwól na wyłączenie frakcji SI
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactionsTooltip=Pozwala na przejście niektórych frakcji ludzkiej SI w stan uśpienia, jeśli zostaną wystarczająco dotkliwie pobite. Może to nastąpić, gdy tury konsultantów następują rzadziej niż dwa razy w miesiącu i tylko wtedy, gdy na początku dnia frakcja nie posiada żadnych flot, habitatów, konsultantów ani filarów władzy. W takiej sytuacji frakcja zaprzestanie aktywności, lecz jej ideologia nadal będzie istnieć i przyciągać zwolenników.<br/><br/>Niektóre frakcje nie mogą zostać wyłączone ze względu na ich kluczową rolę w fabule: w rozgrywce ze wszystkimi frakcjami wyłączeni od tej zasady są Słudzy i Protektorat, a jeśli gracz nie gra Ruchem Oporu ani Humanitas, ta ostatnia frakcja również będzie wyłączona z możliwości uśpienia.
+UI.StartScreen.CustomizeCampaign.Namelist.Heroes=Bohaterowie
+UI.StartScreen.CustomizeCampaign.Namelist.Qualities=Cechy
+UI.StartScreen.CustomizeCampaign.Namelist.Battles=Bitwy
+UI.StartScreen.CustomizeCampaign.Namelist.Commanders=Dowódcy
+UI.StartScreen.CustomizeCampaign.Namelist.Weapons=Uzbrojenie
+UI.StartScreen.CustomizeCampaign.Namelist.Fighters=Myśliwce
+UI.StartScreen.CustomizeCampaign.Namelist.Scary=Przerażający
+UI.StartScreen.CustomizeCampaign.Namelist.Mountains=Góry
+UI.StartScreen.CustomizeCampaign.Namelist.WaterAnimals=Zwierzęta wodne
+UI.StartScreen.CustomizeCampaign.Namelist.Rivers=Rzeki
+UI.StartScreen.CustomizeCampaign.Namelist.WaterBodies=Akweny
+UI.StartScreen.CustomizeCampaign.Namelist.Explorers=Eksploratorzy
+UI.StartScreen.CustomizeCampaign.Namelist.MythicalBeasts=Mityczne bestie
+UI.StartScreen.CustomizeCampaign.Namelist.Phenomena=Fenomeny
+UI.StartScreen.CustomizeCampaign.Namelist.Mythology=Mitologia
+UI.StartScreen.CustomizeCampaign.Namelist.Monuments=Monumenty
+UI.StartScreen.CustomizeCampaign.Namelist.Cities=Miasta
+UI.StartScreen.CustomizeCampaign.Namelist.Regions=Regiony
+UI.StartScreen.CustomizeCampaign.Namelist.Landmasses=Kontynenty
+UI.StartScreen.CustomizeCampaign.Namelist.Leaders=Przywódcy
+UI.StartScreen.CustomizeCampaign.Namelist.LandAnimals=Zwierzęta lądowe
+UI.StartScreen.CustomizeCampaign.Namelist.Scientists=Naukowcy
+UI.StartScreen.CustomizeCampaign.Namelist.Exploration=Eksploracja
+UI.StartScreen.CustomizeCampaign.Namelist.Exemplars=Wzory
+UI.StartScreen.CustomizeCampaign.Namelist.AirAnimals=Zwierzęta latające
+UI.StartScreen.CustomizeCampaign.Namelist.Astronomy=Astronomia
+UI.StartScreen.CustomizeCampaign.Namelist.FamousShips=Słynne statki
+UI.StartScreen.CustomizeCampaign.Namelist.Astronauts=Astronauci
+UI.StartScreen.CustomizeCampaign.Namelist.AlienNature=Natura kosmitów
+UI.StartScreen.CustomizeCampaign.Namelist.AlienCelestial=Niebianin kosmitów
+UI.StartScreen.CustomizeCampaign.Namelist.AlienConcepts=Koncepcje kosmitów
+UI.StartScreen.CustomizeCampaign.Namelist.AlienMilitant=Bojownik kosmitów
 UI.StartScreen.Cancel=Anuluj
 UI.StartScreen.FactionDescription={0}<br/>Trudność frakcji: {1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=Uwagi o aktualizacji
+UI.StartScreen.CallToAction00=Już dostępne!
 UI.StartScreen.TranslationWarning=Witaj w wersji wczesnego dostępu „Terra Invicta”!<br/><br/>Tłumaczenia na inne języki są wciąż sprawdzane przez dodatkowych tłumaczy i testowane pod kątem problemów w grze. Wstępne wersje wczesnego dostępu mogą zawierać błędy gramatyczne, niespójności terminologiczne, angielskie teksty zastępcze i inne błędy językowe. Pracujemy nad jak najszybszym korygowaniem tych błędów, ale „Terra Invicta” zawiera tekst odpowiający objętością kilku powieściom i poprawienie wszystkich zajmie trochę czasu.<br/><br/>Dziękujemy za chęć wypróbowania „Terra Invicta” w fazie wczesnego dostępu – pamiętajcie, że będziemy ciężko pracować nad ulepszaniem gry!
 UI.StartScreen.GamepassWarning=„Terra Invicta” znajduje się w fazie podglądu gry (Game Preview). Oznacza to, że niektóre funkcje gry lub platformy mogą nie funkcjonować zgodnie z oczekiwaniami, a gracz może napotkać błędy lub awarie gry. Wsparcie można uzyskać pod adresem support@pavonisinteractive.com.<br/><br/>Zapisy w chmurze mogą działać nieprawidłowo. W razie problemów pliki zapisu znajdziesz w folderze C:\Users\YOURNAME\Documents\My Games\TerraInvicta\Saves lub %homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\
 //<Developer> Credits
-UI.StartScreen.TICredits_0=TERRA INVICTA<br/><br/>
-UI.StartScreen.TICredits_1=- TWÓRCY -<br/>Pavonis Interactive<br/><br/>
-UI.StartScreen.TICredits_2=- WYDAWCA -<br/>Hooded Horse<br/><br/>
-UI.StartScreen.TICredits_3=- DYREKTOR KREATYWNY -<br/>John J. Lumpkin<br/><br/>
-UI.StartScreen.TICredits_4=- DYREKTOR ARTYSTYCZNY -<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=- PROGRAMIŚCI -<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Benjamin Poland<br/>Ryan Dunagan<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=- GŁÓWNY PRODUCENT -<br/>Tim Bender<br/><br/>PRODUCENT<br/>Scott Davis<br/><br/>
-UI.StartScreen.TICredits_7=- GRAFIK POSTACI I 2D -<br/>Michael Moore<br/><br/>
-UI.StartScreen.TICredits_8=- ILUSTRATORZY -<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
-UI.StartScreen.TICredits_9=- GRAFIK TECHNICZNY -<br/>Zack Dawson<br/><br/>
-UI.StartScreen.TICredits_10=- SZEF INTERFEJSU -<br/>Josh Atkinson<br/><br/>
-UI.StartScreen.TICredits_11=- GRAFIK 3D/2D -<br/>Anthony Dillo<br/><br/>
-UI.StartScreen.TICredits_12=- KOMPOZYTORZY -<br/>Patrick Delaney<br/>Dennis Meyer<br/>Breakdown Epiphanies<br/><br/>
-UI.StartScreen.TICredits_13=- PROJEKTANT DŹWIĘKU -<br/>Zabi Khan<br/><br/>
-UI.StartScreen.TICredits_14=- AUTORZY TEKSTU -<br/>Alec Meer<br/>Benedict Jacka<br/>Arturo Ferreira<br/>Cara Laasch<br/><br/>
-UI.StartScreen.TICredits_15=- PROJEKTANCI ZAWARTOŚCI -<br/>Tayta Malikai<br/>David Ballantyne<br/><br/>
-UI.StartScreen.TICredits_16=- KOORDYNACJA PRODUKCJI -<br/>Shannon Sindorf<br/><br/>
-UI.StartScreen.TICredits_17=- DODATKOWI PROGRAMIŚCI -<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Zach Parsons<br/>Amineri<br/><br/>
-UI.StartScreen.TICredits_18=- PRODUCENCI WYKONAWCZY -<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Pottenger<br/>Xavier Wynns<br/><br/>
+
 
 //<AP> Credits + Messages
 
-UI.StartScreen.TICredits_19=- WSPÓŁPRACA PRODUCENCKA -<br/><br/>
-UI.StartScreen.TICredits_20=Rachel Dilger<br/>--<br/>
-UI.StartScreen.TICredits_21=<skip/>
-UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
-UI.StartScreen.TICredits_23=„Bądźcie skromni, boście ulepieni z ziemi. Bądźcie dumni, bo powstaliście z gwiazd”.<br/>--<br/>
-UI.StartScreen.TICredits_24=Martti Aarnio-Wihuri<br/>--<br/>
-UI.StartScreen.TICredits_25=<skip/>
-UI.StartScreen.TICredits_26=John O. i Eileen Lumpkin<br/>
-UI.StartScreen.TICredits_27=„Z kabiny samolotu unoszącego się nad Pacyfikiem podczas drugiej wojny światowej do światów przyszłości wśród gwiazd –  rodzinna podróż”.<br/>--<br/>
-UI.StartScreen.TICredits_28=Jack Peterson<br/>
-UI.StartScreen.TICredits_29=„Uleczcie starzenie się, bo inaczej umrzecie”.<br/><br/>
-UI.StartScreen.TICredits_30=Schinhofen Books<br/>
-UI.StartScreen.TICredits_31=„Czytanie to po prostu kolejna ucieczka”.<br/><br/>
-UI.StartScreen.TICredits_32=Florian Ossiander<br/>--<br/>
-UI.StartScreen.TICredits_33=<skip/>
-UI.StartScreen.TICredits_34=Jeffrey Lee Henninger<br/>
-UI.StartScreen.TICredits_35=„Wszechświat czeka na śmiałków”.<br/>--<br/>
-UI.StartScreen.TICredits_36=Stardust<br/>„Leć z wiatrem słonecznym”.<br/>--<br/>
-UI.StartScreen.TICredits_37=Stefano de Stefano<br/>„Nie zdołamy rozwiązać naszych problemów tym samym myśleniem, które przyczyniło się do ich powstania”.<br/>--<br/>
-UI.StartScreen.TICredits_38=Sean Hassan<br/>„Wyzwaniem dla nas jest żyć bez złudzeń, ale i bez rozczarowania”.<br/>--<br/>
-UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. – Shield Initiative<br/>„To, co robimy teraz w obliczu nieustannie zmieniającego się kryzysu – czy będzie nim wojna, klęski żywiołowe, czy zmiana klimatu – wywoła fale rozchodzące się poprzez czas i zadecyduje o losie ludzkości. Dzięki technice i kosmosowi być może zdołamy jeszcze znaleźć ratunek od tych egzystencjalnych trudności”.<br/><br/><br/>
+
 
 //<VA> Credits
 
-UI.StartScreen.TICredits_40=- OBSADA - <br/>
-UI.StartScreen.TICredits_41=Fiona Ayoade -<sp>
-UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
-UI.StartScreen.TICredits_43=Judith Howell -<sp>
-UI.StartScreen.TICredits_44=Zura Johnson<br/><br/>
-UI.StartScreen.TICredits_45=Soren Van Wyk -<sp>
-UI.StartScreen.TICredits_46=Etienne Durandt<br/><br/>
-UI.StartScreen.TICredits_47=Khalid Al-Ashgar -<sp>
-UI.StartScreen.TICredits_48=Erik Ransom<br/><br/>
-UI.StartScreen.TICredits_49=Li Qingzhao -<sp>
-UI.StartScreen.TICredits_50=Christina Ho<br/><br/>
-UI.StartScreen.TICredits_51=Hanse Castillo -<sp>
-UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
-UI.StartScreen.TICredits_53=Kiran Banerjee -<sp>
-UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
 
-UI.StartScreen.TICredits_55=- GŁOSY KONSULTANTÓW -<br/>
-UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton T<br/>Jim Lenaway • Andy Mack<br/>Mike Apgar • Damon Alums<br/>Josephine Croft • Les Horovitz<br/>Heidi Kwiat • Ian Phillips<br/>Helen Clapp • Lizzie Crow<br/>Sophie Roberts • Steven Kelly<br/>Thom Welham • Conor James<br/>Mohita Namjoshi • Mamta Gurnani<br/>Vikram Rawat • Gagan Pathak<br/>Jenny Fennessy • Alan Kelly<br/>Diana Silva • Anita Lauren<br/>Carlos Cerrato • Fernando Macias Jimenez<br/>Marina Kalmykova • Sebastian Agner<br/>Gaelle Gosselin • Jesse Meiring<br/>Mhairi Morrison • Kieran Flitton<br/>Lina Sinuan • Val Cheah<br/>Hagen Valerio • Jati Andito<br/>Ore Apampa • Uzy Hamman<br/>Rachel Oladejo • Jonathan Mabote<br/>Jonathan Brandt • Nadia Cavelle<br/>Christian Michalak • Sonja Palmu<br/>Sarí AK • Mona Saadeh<br/>Loay Al-Hakimi • Silina Choueiry<br/><br/>
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57=- GWIAZDY KONTROLI JAKOŚCI -<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>Redwah<br/><br/>
-UI.StartScreen.TICredits_58=PODZIĘKOWANIA OTRZYMUJĄ<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/><br/>
+
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>
-UI.StartScreen.TICredits_60=- DYREKTOR WYKONAWCZY -<br/>Tim Bender<br/><br/>
-UI.StartScreen.TICredits_61=- DYREKTOR FINANSOWYI GŁÓWNY RADCA PRAWNY -<br/>Snow Rui<br/><br/>
-UI.StartScreen.TICredits_62=- KIEROWNIK PRODUKTU -<br/>Ashkan Namousi<br/><br/>
-UI.StartScreen.TICredits_63=- DORADCA -<br/>Shams Jorjani<br/><br/>
-UI.StartScreen.TICredits_64=- DYREKTOR KOMUNIKACJI -<br/>Joe Robinson<br/><br/>KIEROWNICTWO KOMUNIKACJI<br/>Marcello Perricone<br/><br/>
-UI.StartScreen.TICredits_65=- MENEDŻER INFLUENCERÓW -<br/>Antony „HForHavoc” Floyd<br/><br/>
-UI.StartScreen.TICredits_66=- ZASTĘPCY MENEDŻERA INFLUENCERÓW -<br/>Shaun „BearlyTactical” Ginty<br/>Noris „komakrtv” Merk<br/><br/>
-UI.StartScreen.TICredits_67=- DORADCY DS. MARKETINGU -<br/>PartyElite<br/>Tsukiha Shirakusu<br/>Caketown Interactive<br/>Filip Sirc<br/><br/>
-UI.StartScreen.TICredits_68=- PRODUCENCI ZWIASTUNA -<br/>Slavic Magic<br/>Grzegorz Styczen<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_69=- KIEROWNICTWO PUBLIC RELATIONS -<br/>Vicarious PR<br/>Michael Brown<br/>Lewis Burnell<br/>Matt Brown<br/><br/>
-UI.StartScreen.TICredits_70=- KOORDYNATOR LOKALIZACJI<br/>Miguel David Medina García<br/><br/>
-UI.StartScreen.TICredits_71=- LOKALIZACJE -<br/>Roboto Global<br/>EC Innovations<br/>Brenda Triandafeledis<br/>Laura Nieves Díaz Suárez<br/>Carlota Marie Dávila Santana<br/>Marta Medina González<br/>Wenwei Jiang<br/>Yuki Fujita<br/>Terra Invicta Chinese Fan Localization Group<br/><br/>
-UI.StartScreen.TICredits_72=SPECJALNE PODZIĘKOWANIA OTRZYMUJĄ<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D’Arcy<br/><br/>
-UI.StartScreen.TICredits_73=- DZIECI PROJEKTU! -<br/>Théodore<br/>Carmen Rose<br/><br/>
+
 
 //<Contributing Backers> Credits
-UI.StartScreen.TICredits_74=- KREATYWNI WSPÓŁPRACOWNICY Z KICKSTARTERA -<br/>
+
 
 
 //<Playtester> Credits
-UI.StartScreen.TICredits_105=- KICKSTARTER
-UI.StartScreen.TICredits_106= PLAYTESTERS -<br/>
+
 
 
 //<Backers> Credits
-UI.StartScreen.TICredits_393=<br/>- KICKSTARTER BACKERS -<br/>
 
-UI.StartScreen.TICredits_1337=- OPROGRAMOWANIE -<br/><br/>Stworzono za pomocą Unity<br/><br/>Stworzono za pomocą FMOD Studio<br/>Firelight Technologies Limited<br/><br/>
-UI.StartScreen.TICredits_1338=Wiele ikon z logo organizacji używanych w grze jako symbole fikcyjnych firm prywatnych wykorzystano za zezwoleniem LogoLogo.com.<br/>Użycie logo agencji rządowych w niniejszym dziele nie ma na celu sugerowania poparcia ze strony tych agencji.<br/><br/>
-UI.StartScreen.TICredits_1339=Niektóre fotografie użyte jako tło portretów konsultantów wykorzystano za zezwoleniem NASA.<br/><br/>
-UI.StartScreen.TICredits_1340=Autorem „Opowieści o dwóch miastach” jest Karol Dickens.
+
+UI.StartScreen.TICredits_1347=OPROGRAMOWANIE<br/><br/>Stworzono za pomocą Unity<br/><br/>Stworzono za pomocą FMOD Studio<br/>Firelight Technologies Limited<br/><br/>
+UI.StartScreen.TICredits_1348=Wiele ikon z logo organizacji używanych w grze jako symbole fikcyjnych firm prywatnych wykorzystano za zezwoleniem LogoLogo.com.<br/>Użycie logo agencji rządowych w niniejszym dziele nie ma na celu sugerowania poparcia ze strony tych agencji.<br/><br/>
+UI.StartScreen.TICredits_1349=Niektóre fotografie użyte jako tło portretów konsultantów wykorzystano za zezwoleniem NASA.<br/><br/>
+UI.StartScreen.TICredits_1350=Autorem „Opowieści o dwóch miastach” jest Karol Dickens.

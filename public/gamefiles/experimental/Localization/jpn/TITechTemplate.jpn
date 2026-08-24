@@ -79,7 +79,7 @@ TITechTemplate.quote.AntimatterPropulsion=「宇宙は無限の油田だ。最�
 TITechTemplate.description.AntimatterPropulsion=反物質を工業的に生成できるようになったので、いよいよ、物質と反物質の衝突によって生じる驚異的なエネルギーを高速の宇宙旅行に変換する方法を考える段階に来た。最も重要な課題は、推進力よりもむしろ封じ込めだった。反物質同士の衝突は、ほんのわずかな意図しない出会いですら船を粉砕してしまうからだ。いずれにおいても、電磁場はまたしても我々の最も身近な味方となり、この破壊的な力を封じ込め、適切な方向へ導いてくれるだろう。さらに複雑なことに、陽子と反陽子の衝突は、ガンマ線という致命的な放射線を発生させる。しかし我々の原子操作のブレークスルーにより、超軽量のナノ材料を作り出し、船内やクルーの衣服に放射線シールドとして使用することができる。これらが意味するのは、最先端技術に加え、尋常ならぬ安全衛生対策を講じる必要があるが、この目的はその困難な道のりを正当化する。我々は遠い星を旅し、利用することができるようになるだろう。
 
 TITechTemplate.displayName.AntimatterWeaponry=反物質兵器
-TITechTemplate.summary.AntimatterWeaponry=物質と反物質の爆発的な反応を利用することで、破壊的なミサイル兵器を造ることができる。
+TITechTemplate.summary.AntimatterWeaponry=物質と反物質の爆発的な反応を利用することで、破壊的な兵器を造ることができる。
 TITechTemplate.quote.AntimatterWeaponry=「1ドル。ポール・ティベッツが地元のフェアで飛行機の中を見るために、母親が払ってやった金額である。数十年後、彼は広島で7万人の犠牲者を出した飛行機を操縦した。彼はその飛行機を母親の名前をとって エノラ・ゲイと名付けた。すべてはその1ドルが原因だった」<br/><align=right>{appeaseLeader}<align=left><br/><align=right>2冊目の著書『Blood Money』より。<align=left>
 TITechTemplate.description.AntimatterWeaponry=宇宙船内では、反物質反応によって発生するガンマ線は非常に望ましくない。物質と反物質の衝突による激しい爆発は装甲を損傷し、放射線はその中にいるあらゆる生命体をさらに害する。しかし反物質と同様、最大の困難は、反物質が必要なときにだけ対応する物質と混合することだ。船の弾薬庫にある反物質爆弾や魚雷が意図せずに爆発した場合、壊滅的な事故となるだろう。ガンマ線の悪影響を伴わずに、この破壊的な潜在能力を利用したいのだ。物質と反物質の反応による自己消滅は、それぞれをわずか半グラム混ぜただけで、最初の原子爆弾よりも40%高いエネルギーを放出するからだ。もちろん、今後開発される兵器には、半グラムよりはるかに多量を使用する。水素と反水素の粒子を、磁気ボトルに封じ込められた空の真空中に浮遊させることで、反物質ベースの爆薬の製造が可能になると、科学者たちは考えている。これは、宇宙戦争の新しい時代の到来を告げることになるだろう。 
 
@@ -427,7 +427,7 @@ TITechTemplate.description.MissionToSpace=宇宙に存在することは、単�
 
 TITechTemplate.displayName.MissiontotheAsteroids=小惑星への飛行
 TITechTemplate.summary.MissiontotheAsteroids=木星の内側を回る何千もの小天体を採掘すれば、宇宙を急速に産業化することができるかもしれない。
-TITechTemplate.quote.MissiontotheAsteroids=「我々のものでないのなら他の誰かのものだ。そして他人のものであれば、彼らはいずれそれを我々に対して使用するだろう。だから必要であろうとなかろうと、我々はそれを手に入れなければならないのだ」<br/><align=right>{destroyLeader}<align=left><br/><align=right>公式の伝記『五手先』2015年出版（出版前にキャンセルされた）より引用<align=left>
+TITechTemplate.quote.MissiontotheAsteroids=「我々のものでないのなら他の誰かのものだ。そして他人のものであれば、彼らはいずれそれを我々に対して使用するだろう。だから必要であろうとなかろうと、我々はそれを手に入れなければならないのだ」<br/><align=right>{destroyLeader}<align=left><br/><align=right>公式の伝記『五手先』（出版前にキャンセルされた）より引用<align=left>
 TITechTemplate.description.MissiontotheAsteroids=火星と木星の間には、貴重な元素を多く含む岩石群の宝庫がある。これは3つのカテゴリーに分類される。石質小惑星は金属や希少な核分裂性物質を含み、炭素質小惑星は揮発性物質の源であり、金属質小惑星は卑金属と貴金属に富んでいる。小惑星が太陽から遠いほど、水が存在する可能性は高くなる。月や火星よりもはるかに遠いが、重力が微小なため、カタパルトをより安価に建造することができる。 
 
 TITechTemplate.displayName.MissiontotheMoon=月へのミッション
@@ -482,7 +482,7 @@ TITechTemplate.description.NuclearFusioninSpace=我々は、空に輝く太陽�
 
 TITechTemplate.displayName.OrbitalFighters=大気圏外戦闘機
 TITechTemplate.summary.OrbitalFighters=地表から地球低軌道に到達できる小型の戦闘機を開発する。
-TITechTemplate.quote.OrbitalFighters=「歴史の海には、彼らが持っていたとされる力の重さに沈んだ艦隊が散乱している。私は巨大な戦斧には興味がない。完璧にバランスの取れたナイフが欲しいのだ」<br/><align=right>{destroyLeader}<align=left><br/><align=right>軌道戦の基礎知識<align=left>
+TITechTemplate.quote.OrbitalFighters=「歴史の海には、彼らが持っていたとされる力の重さに沈んだ艦隊が散乱している。私は巨大な戦斧には興味がない。完璧にバランスの取れたナイフが欲しいのだ」<br/><align=right>{destroyLeader}<align=left><br/><align=right>公式の伝記『五手先』（出版前にキャンセルされた）より引用<align=left>
 TITechTemplate.description.OrbitalFighters=巨大な装甲軍艦を地球の重力圏から脱出させるのは非常に困難であり、また武装スペースシャトルのようなものでは生存能力がまったくないため、これまでのところ、戦闘能力のある地上-軌道間用船舶を検討することはできなかった。代わりに、私たちは宇宙船を地球表面から離して組み立てることに重点を置いてきた。しかし、推進力と軽量素材の進歩により、小型戦闘機は地球付近の軌道でなら実行可能な選択肢となった。これらの大気圏外戦闘機（「エクゾファイター」）は、従来のロケットステージを使って地表からブーストされたり、ジェット旅客機サイズの母船から打ち上げられたり、あるいは低軌道で戦闘地域に到達するための新しい単段式軌道間能力を利用したりする。交戦後、彼らは地球に戻り、長い滑走路に飛行機のように着陸する。<br/><br/>これらの機体には大規模な地上でのサポートが必要なため、国家の資産として管理され、実行指導派の指揮のもと、国家投資によって建造され、地球の発射施設に格納される。地球との境界軌道上での戦闘に参加したり、軌道上の目標に対して単独で戦闘を開始したりすることができる。化学およびソリッドコア核推進システム、小型ソリッドコア原子炉、装甲、照準コンピュータ、ECM、ミサイルのアップグレードにより、その能力は強化される。
 
 TITechTemplate.displayName.OrbitalShipbuilding=軌道造船
@@ -678,7 +678,7 @@ TITechTemplate.description.Ultracapacitors=超コンデンサーの開発に成�
 TITechTemplate.displayName.UltravioletCombatLasers=紫外線コンバットレーザー
 TITechTemplate.summary.UltravioletCombatLasers=紫外域のレーザーは、遠距離から大きなダメージを与える可能性を持つ。
 TITechTemplate.quote.UltravioletCombatLasers=「そもそも紫外線から私たちを守るオゾン層がなければ、地球には生命が育たなかったのです」<br/><align=right>{cooperateLeader}<align=left><br/><align=right>清華大学天体物理学セミナーシリーズ<align=left>
-TITechTemplate.description.UltravioletCombatLasers=可視光線を利用したレーザー兵器は、威力や汎用性が向上した反面で、射程距離が短いため遠距離の戦闘には不向きである。そこで、紫外線を利用した戦闘用レーザーが注目されている。極端紫外線は、接触しただけでほとんどの物質を焼き尽くすため、非常に扱いが難しい。重装甲の敵を攻撃する際には最適だが、その前に必要なレンズやミラーを瞬時に破壊しない形で集光する必要がある。<br/><br/>超高密度で高反射率のナノ材料を何層にもコーティングした特殊な新たな誘電体ミラーはこの複雑さを克服し、最新の兵器が強度をそのままに紫外線スペクトルを利用できるようにする。このレーザーシステムは正確なビームを長距離に照射し、甚大な被害を与えることができる。紫外線を利用することで、大気中の粒子の散乱効果もさらに抑制され、地球大気圏内や宇宙空間でのこれらの兵器の威力がさらに向上している。 
+TITechTemplate.description.UltravioletCombatLasers=可視光線を利用したレーザー兵器は、威力や汎用性が向上した反面で、射程距離が短いため遠距離の戦闘には不向きである。そこで、紫外線を利用した戦闘用レーザーが注目されている。極端紫外線は、接触しただけでほとんどの物質を焼き尽くすため、非常に扱いが難しい。重装甲の敵を攻撃する際には最適だが、その前に必要なレンズやミラーを瞬時に破壊しない形で集光する必要がある。<br/><br/>超高密度で高反射率のナノ材料を何層にもコーティングした特殊な新たな誘電体ミラーはこの複雑さを克服し、最新の兵器が強度をそのままに紫外線スペクトルを利用できるようにする。このレーザーシステムは正確なビームを長距離に照射し、甚大な被害を与えることができるが、地球やタイタンといった分厚い大気圏を有する星の地表に爆撃する能力は高くはない。
 
 TITechTemplate.displayName.UnityMovements=統一運動
 TITechTemplate.summary.UnityMovements=地政学的な力を最大限に発揮するために、政治学者が同じような文化を持つ国同士を結びつけ、国境を引き直す。

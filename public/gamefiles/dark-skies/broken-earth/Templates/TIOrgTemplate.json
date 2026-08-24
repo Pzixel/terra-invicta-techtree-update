@@ -1,0 +1,477 @@
+[
+ {
+   "dataName": "NationalReconnaissanceOffice",
+   "friendlyName": "National Reconnaissance Office",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Aerospace",
+   "tier": 3,
+   "homeRegionMapTemplateName": "map_Shenandoah",
+   "randomized": false,
+   "takeoverDefense": 6,
+   "allowedOnMarket": true,
+   "requiresNationality": true,
+   "requiredOwnerTraits": [
+      "Government"
+   ],
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "costInfluence": 200,
+   "chanceIncomeMoney": 100,
+   "incomeMoney": -200,
+   "chanceIncomeOps": 0,
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 0.3,
+   "chanceIncomeMissionControl": 100,
+   "incomeMissionControl": 2,
+   "chanceInvestigation": 100,
+   "investigation": 3,
+   "chanceScience": 100,
+   "science": 1,
+   "chanceMCBonus": 100,
+   "MCBonus": 0.02,
+   "techBonuses": [
+      {
+         "category": "SpaceScience",
+         "bonus": 0.02
+      }
+   ],
+   "missionsGrantedNames": [
+      "DetectCouncilActivity"
+   ],
+   "iconResource": "orglogos/NRO"
+},
+ {
+   "dataName": "EscapeSpecial",
+   "friendlyName": "Escape Special",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Faction",
+   "tier": 3,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "affinities": [
+      "Escape"
+   ],
+   "restricted": [
+      "Alien",
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Exploit",
+      "Submit",
+      "Appease"
+   ],
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 9,
+   "chanceIncomeMissionControl": 100,
+   "incomeMissionControl": 4,
+   "chanceIncomeResearch": 100,
+   "incomeResearch": 40,
+   "projectsGranted": 1,
+   "chanceAdministration": 100,
+   "administration": 3,
+   "chanceScience": 100,
+   "science": 5,
+   "chanceKnowledgeBonus": 100,
+   "knowledgeBonus": 0.05,
+   "chanceSpaceDevBonus": 100,
+   "spaceDevBonus": 0.1,
+   "chanceSpaceflightBonus": 100,
+   "spaceflightBonus": 0.1,
+   "chanceMCBonus": 100,
+   "MCBonus": 0.1,
+   "chanceMiningBonus": 100,
+   "miningBonus": 0.1,
+   "techBonuses": [
+      {
+         "category": "SpaceScience",
+         "bonus": 0.2
+      }
+   ],
+   "missionsGrantedNames": [
+      "Advise",
+      "ControlSpaceAsset"
+   ],
+   "iconResource": "orglogos/org_escape_mid"
+},
+ {
+   "dataName": "ResistSpaceGroup",
+   "friendlyName": "Resist Space Group",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Faction",
+   "tier": 2,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "affinities": [
+      "Resist"
+   ],
+   "restricted": [
+      "Alien",
+      "Appease",
+      "Escape",
+      "Exploit",
+      "Destroy",
+      "Cooperate",
+      "Submit"
+   ],
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 1.5,
+   "chanceIncomeMissionControl": 100,
+   "incomeMissionControl": 8,
+   "chanceSpaceflightBonus": 100,
+   "spaceflightBonus": 0.05,
+   "chanceMCBonus": 100,
+   "MCBonus": 0.05,
+   "techBonuses": [],
+   "missionsGrantedNames": [
+      "SeizeSpaceAsset",
+      "ControlSpaceAsset"
+   ],
+   "iconResource": "orglogos/resist_space_org"
+},
+ {
+   "dataName": "DestroySpaceGroup",
+   "friendlyName": "Destroy Space Group",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Faction",
+   "tier": 2,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "affinities": [
+      "Destroy"
+   ],
+   "restricted": [
+      "Alien",
+      "Appease",
+      "Escape",
+      "Resist",
+      "Exploit",
+      "Cooperate",
+      "Submit"
+   ],
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 1.5,
+   "chanceIncomeMissionControl": 100,
+   "incomeMissionControl": 8,
+   "chanceSpaceflightBonus": 100,
+   "spaceflightBonus": 0.05,
+   "chanceMCBonus": 100,
+   "MCBonus": 0.05,
+   "techBonuses": [],
+   "missionsGrantedNames": [
+      "SeizeSpaceAsset"
+   ],
+   "iconResource": "orglogos/destroy_space_org"
+},
+ {
+   "dataName": "ExploitSpaceGroup",
+   "friendlyName": "Exploit Space Group",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Faction",
+   "tier": 2,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "affinities": [
+      "Exploit"
+   ],
+   "restricted": [
+      "Alien",
+      "Appease",
+      "Escape",
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Submit"
+   ],
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 1.5,
+   "chanceIncomeMissionControl": 100,
+   "incomeMissionControl": 8,
+   "chanceSpaceflightBonus": 100,
+   "spaceflightBonus": 0.05,
+   "chanceMCBonus": 100,
+   "MCBonus": 0.05,
+   "techBonuses": [],
+   "missionsGrantedNames": [
+      "ControlSpaceAsset"
+   ],
+   "iconResource": "orglogos/exploit_space_org"
+},
+ {
+   "dataName": "CooperateSpaceGroup",
+   "friendlyName": "Cooperate Space Group",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Faction",
+   "tier": 2,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "affinities": [
+      "Cooperate"
+   ],
+   "restricted": [
+      "Alien",
+      "Appease",
+      "Escape",
+      "Resist",
+      "Destroy",
+      "Exploit",
+      "Submit"
+   ],
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 1.5,
+   "chanceIncomeMissionControl": 100,
+   "incomeMissionControl": 8,
+   "chanceSpaceflightBonus": 100,
+   "spaceflightBonus": 0.05,
+   "chanceMCBonus": 100,
+   "MCBonus": 0.05,
+   "techBonuses": [],
+   "missionsGrantedNames": [
+      "ControlSpaceAsset"
+   ],
+   "iconResource": "orglogos/cooperate_space_org"
+},
+ {
+   "dataName": "SubmitSpaceGroup",
+   "friendlyName": "Submit Space Group",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Faction",
+   "tier": 2,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "affinities": [
+      "Submit"
+   ],
+   "restricted": [
+      "Alien",
+      "Appease",
+      "Escape",
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Exploit"
+   ],
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 1.5,
+   "chanceIncomeMissionControl": 100,
+   "incomeMissionControl": 8,
+   "chanceSpaceflightBonus": 100,
+   "spaceflightBonus": 0.05,
+   "chanceMCBonus": 100,
+   "MCBonus": 0.05,
+   "techBonuses": [],
+   "missionsGrantedNames": [
+      "SeizeSpaceAsset",
+      "ControlSpaceAsset"
+   ],
+   "iconResource": "orglogos/submit_space_org"
+},
+ {
+   "dataName": "AppeaseSpaceGroup",
+   "friendlyName": "Appease Space Group",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Faction",
+   "tier": 2,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "affinities": [
+      "Appease"
+   ],
+   "restricted": [
+      "Alien",
+      "Escape",
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Exploit",
+      "Submit"
+   ],
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 1.5,
+   "chanceIncomeMissionControl": 100,
+   "incomeMissionControl": 8,
+   "chanceSpaceflightBonus": 100,
+   "spaceflightBonus": 0.05,
+   "chanceMCBonus": 100,
+   "MCBonus": 0.05,
+   "techBonuses": [],
+   "missionsGrantedNames": [
+      "ControlSpaceAsset"
+   ],
+   "iconResource": "orglogos/appease_space_org"
+},
+ {
+   "dataName": "EscapeSpaceGroup",
+   "friendlyName": "Escape Space Group",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Faction",
+   "tier": 2,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "affinities": [
+      "Escape"
+   ],
+   "restricted": [
+      "Alien",
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Exploit",
+      "Submit",
+      "Appease"
+   ],
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 1.5,
+   "chanceIncomeMissionControl": 100,
+   "incomeMissionControl": 8,
+   "chanceSpaceflightBonus": 100,
+   "spaceflightBonus": 0.05,
+   "chanceMCBonus": 100,
+   "MCBonus": 0.05,
+   "techBonuses": [],
+   "missionsGrantedNames": [
+      "ControlSpaceAsset"
+   ],
+   "iconResource": "orglogos/escape_space_org"
+},
+ {
+   "dataName": "RandomAerospace11",
+   "friendlyName": "Space Ops",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Aerospace",
+   "tier": 1,
+   "randomized": true,
+   "allowedOnMarket": true,
+   "requiresNationality": false,
+   "requiredTechName": "BSBE_ANewSpaceRace",
+   "affinities": [
+      "Escape"
+   ],
+   "costMoney": 250,
+   "randCostMoney": 50,
+   "chanceIncomeBoost": 100,
+   "incomeBoost": 0.5,
+   "chanceSpaceflightBonus": 20,
+   "spaceflightBonus": 0.02,
+   "randSpaceflightBonus": 0.02,
+   "chanceMCBonus": 20,
+   "MCBonus": 0.02,
+   "randMCBonus": 0.02,
+   "techBonuses": []
+},
+ {
+   "dataName": "Majestic12",
+   "friendlyName": "Majestic 12",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "Research",
+   "tier": 3,
+   "homeRegionMapTemplateName": "map_California",
+   "randomized": false,
+   "allowedOnMarket": true,
+   "requiresNationality": false,
+   "affinities": [
+      "Exploit"
+   ],
+   "costInfluence": 500,
+   "chanceIncomeMoney": 100,
+   "incomeMoney": -500,
+   "chanceIncomeOps": 100,
+   "incomeOps": 5,
+   "chanceIncomeResearch": 100,
+   "incomeResearch": 30,
+   "projectsGranted": 3,
+   "chanceEspionage": 100,
+   "espionage": 2,
+   "chanceScience": 100,
+   "science": 2,
+   "chanceSecurity": 100,
+   "security": 2,
+   "techBonuses": [
+      {
+         "category": "Xenology",
+         "bonus": 0.15
+      }
+   ],
+   "missionsGrantedNames": [
+      "GainInfluence",
+      "AssaultAlienAsset",
+      "Assassinate"
+   ],
+   "projectGrantedName": "Project_CyberneticImplants",
+   "iconResource": "orglogos/MJ12"
+},
+ {
+   "dataName": "UNESCO",
+   "friendlyName": "ESCO",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "orgType": "NGO",
+   "tier": 3,
+   "homeRegionMapTemplateName": "map_Paris",
+   "randomized": false,
+   "allowedOnMarket": true,
+   "requiresNationality": false,
+   "requiredOwnerTraits": [
+      "Government"
+   ],
+   "affinities": [
+      "Cooperate"
+   ],
+   "costInfluence": 150,
+   "chanceIncomeMoney": 100,
+   "incomeMoney": -15,
+   "chanceIncomeInfluence": 100,
+   "incomeInfluence": 2,
+   "chancePersuasion": 100,
+   "persuasion": 2,
+   "chanceKnowledgeBonus": 100,
+   "knowledgeBonus": 0.03,
+   "techBonuses": [
+      {
+         "category": "SocialScience",
+         "bonus": 0.05
+      }
+   ],
+   "missionsGrantedNames": [
+      "Inspire"
+   ],
+   "iconResource": "orglogos/ESCO"
+}
+]

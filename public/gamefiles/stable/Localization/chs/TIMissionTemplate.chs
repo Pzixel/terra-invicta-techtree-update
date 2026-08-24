@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=我们未能拉拢{targetDisplayName}来支持我
 TIMissionTemplate.CriticalFailure.Turn=我未能拉拢{targetDisplayName}来支持我们的事业，而且{targetFactionName}似乎已知道我的行踪。
 
 TIMissionTemplate.displayName.Unrest=增加动乱
-TIMissionTemplate.description.Unrest=增加目标地区国家的动乱、损害经济，并提高政变、革命和分裂的发生几率。在地区成功促成独立运动可触发当地分裂，而非革命。如果现有的动乱已经达到国家动乱平稳值的两倍以上，则该效果减弱。
+TIMissionTemplate.description.Unrest=增加目标地区国家的动乱、损害经济，并提高政变和革命的发生几率。在地区成功促成独立运动可触发当地分裂。如果现有的动乱已经达到国家动乱平稳值的两倍以上，则该效果减弱。
 TIMissionTemplate.CriticalSuccess.Unrest=我的行动已经使得{targetNationNameWithPrep}的动乱增加了{returnedValue}，现为{targetNationUnrestWithString}。如果此地的反叛运动能够成功推翻政府，我们现在就能获取他们一部分的支持。
 TIMissionTemplate.Success.Unrest=我的行动已经使得{targetNationNameWithPrep}的动乱增加了{returnedValue}，现为{targetNationUnrestWithString}。如果此地的反叛运动能够成功推翻政府，我们现在就能获取他们一部分的支持。
 TIMissionTemplate.Failure.Unrest=我无法在{targetNationNameWithPrep}增加动乱。
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=启动岗哨空间站网络，建立我
 TIMissionTemplate.Success.AppeaseWin=我们已启动岗哨网络，经过短暂的示威后，地球的国家皆已将主权交给我们。
 
 TIMissionTemplate.displayName.CooperateWin=建立联盟
-TIMissionTemplate.description.CooperateWin=派遣能抵抗费洛细胞的外交官通过虫洞，以建立外交关系并终结冲突。我们必须攻击外星人基地并抢先登陆。需要先达成胜利目标。
+TIMissionTemplate.description.CooperateWin=派遣能抵抗费洛细胞的外交官通过虫洞，以建立外交关系并终结冲突。我们必须在主要的外星人基地摧毁所有的防御设施和城堡、驻军和兵营舱体，才能让我们的理事降落在那里，尝试这个任务。需要先达成胜利目标。
 TIMissionTemplate.Success.CooperateWin=我们已与海德拉达成协议。
 
 TIMissionTemplate.displayName.DestroyWin=触发武器
-TIMissionTemplate.description.DestroyWin=将我们的生物武器传送入虫洞。我们必须突袭外星人基地并抢先登陆。需要先达成胜利目标。
+TIMissionTemplate.description.DestroyWin=将我们的生物武器传送入虫洞。我们必须在主要的外星人基地摧毁所有的防御设施和城堡、驻军和兵营舱体，才能让我们的理事降落在那里，尝试这个任务。需要先达成胜利目标。
 TIMissionTemplate.Success.DestroyWin=我们已部署湿婆病毒。
 
 TIMissionTemplate.displayName.EscapeWin=启动彩虹桥
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=发布启动命令以开始星际之旅�
 TIMissionTemplate.Success.EscapeWin=我们已成功启动彩虹桥。<br/><br/>我们的使命虽已达成，但对于那些留下的人来说，生活还要继续。只要愿意，我们可以再次建造并发射一艘航天器。
 
 TIMissionTemplate.displayName.ExploitWin=驯服敌人
-TIMissionTemplate.description.ExploitWin=将我们的新费洛细胞包裹传送入虫洞。我们必须突袭外星人基地并抢先登陆。需要先达成胜利目标。
+TIMissionTemplate.description.ExploitWin=将我们的新费洛细胞包裹传送入虫洞。我们必须在主要的外星人基地摧毁所有的防御设施和城堡、驻军和兵营舱体，才能让我们的理事降落在那里，尝试这个任务。需要先达成胜利目标。
 TIMissionTemplate.Success.ExploitWin=我们已征服海德拉帝国。
 
 TIMissionTemplate.displayName.ResistWin=封闭闸门
-TIMissionTemplate.description.ResistWin=启动装置来关闭外星虫洞。我们必须突袭外星人基地并抢先登陆。需要先达成胜利目标。
+TIMissionTemplate.description.ResistWin=启动装置来关闭外星虫洞。我们必须在主要的外星人基地摧毁所有的防御设施和城堡、驻军和兵营舱体，才能让我们的理事降落在那里，尝试这个任务。需要先达成胜利目标。
 TIMissionTemplate.Success.ResistWin=敌方闸门已关闭。
 
 TIMissionTemplate.displayName.SubmitWin=宣布主人的来临
@@ -384,7 +384,7 @@ TIMissionModifier_MassMedia.displayName=大众媒体控制点
 TIMissionModifier_SecurityApparatus.displayName=安保机构控制点
 TIMissionModifier_Bureaucracy.displayName=官僚控制点
 TIMissionModifier_RegionalAuthorities.displayName=地方机关控制点
-TIMissionModifier_IdentityBlocs.displayName=身分团体控制点
+TIMissionModifier_IdentityBlocs.displayName=身份团体控制点
 TIMissionModifier_Warlords.displayName=军阀控制点
 TIMissionModifier_TargetNegativeInfluence.displayName=目标具有负面影响力
 TIMissionModifier_TargetBroke.displayName=目标的资金为负
@@ -499,8 +499,9 @@ TIMissionCondition_VictoryCondition=阵营必须已满足所有胜利条件
 TIMissionCondition_SufficientMissionControl=必须拥有有效的任务管控力
 TIMissionCondition_FreeCouncilor=目标理事不能被拘押或以其他形式无法行动
 TIMissionCondition_TargetableHabModule=必须为敌方非核心舱体
-TIMissionCondition_TargetableOrg=必须是敌方阵营未分配的组织或者是我们获取重要情报的理事的组织
+TIMissionCondition_TargetableOrg=必须是敌方阵营未指派的组织或者是我们已掌握重要情报的理事的组织
 _Fail=必须是有效的任务目标类型，并且理事会可以访问。
+TIMissionCondition_AlienPrimaryBaseInRange=我们的理事必须在基地内、附近的太空殖民地据点中，或者在基地上方的交互轨道上，而且基地不能有正在运作的要塞、驻军、军营，也不能有配备反轰炸武器的舱体。
 
 TIMissionAbort_ControlPointRemoved=由于目标控制点已不存在，本次任务中止。
 TIMissionAbort_CouncilorRetired=由于已指派理事不再活跃，本次任务中止。

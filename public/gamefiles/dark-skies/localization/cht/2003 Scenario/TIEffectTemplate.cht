@@ -1,0 +1,82 @@
+
+// Dark Skies DLC
+
+Context.displayName.MaterialScience=材料科學
+Context.displayName.SpaceScience=太空科學
+Context.displayName.EnergyScience=能源科學
+Context.displayName.LifeScience=生命科學
+Context.displayName.MilitaryScience=軍事科學
+Context.displayName.InformationScience=資訊科學
+Context.displayName.SocialScience=社會科學
+Context.displayName.Xenology=外星生命學
+Context.displayName.PublicOpinionInfluence=民意的影響力
+Context.displayName.SemiMajorAxisExplorationRange_AU=軌道的探索範圍
+Context.displayName.PublicizedAlienThreat=公開外星人威脅
+Context.displayName.AugmentationMoneyCost=強化所需的金錢成本
+Context.displayName.HabConstructionSpeed=太空殖民地建造速度
+Context.displayName.MineSizeModifier=太空礦場規模
+
+Context.displayName.DemocracyBackslides=民主倒退
+TIEffectTemplate.description.Effect_BS_DemocracyBackslides1=- 民主制度受損
+
+TIEffectTemplate.description.Effect_BS_CPMaintenanceBonus_MakingHistoryA=- 我方的控制點管理能力增加 {19}。不可與其他「創造歷史」計畫疊加。 
+TIEffectTemplate.description.Effect_BS_InfluenceRepair=- 民意的影響力提升 {3}
+TIEffectTemplate.description.Effect_BS_MaterialScienceBonusA=- 我方材料研究力提升 {3}
+TIEffectTemplate.description.Effect_BS_SpaceScienceBonusA=- 我方太空科學研究力提升 {3}
+TIEffectTemplate.description.Effect_BS_SpaceScience5=- 我方太空科學研究力提升 {3}
+TIEffectTemplate.description.Effect_BS_EnergyScienceBonusA=- 我方能源研究力提升 {3}
+TIEffectTemplate.description.Effect_BS_LifeScienceBonusA=- 我方生命科學研究力提升 {3}
+TIEffectTemplate.description.Effect_BS_MilitaryScienceBonusA=- 我方軍事科學研究力提升 {3}
+TIEffectTemplate.description.Effect_BS_InformationScienceBonusA=- 我方資訊科學研究力提升 {3}
+TIEffectTemplate.description.Effect_BS_SocialScienceBonusA=- 我方社會科學研究力提升 {3}
+TIEffectTemplate.description.Effect_BS_XenologyBonusA=- 我方異星生命學研究力提升 {3}
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimeRepair=- 我方船艦建造速度提升 {3}
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationI=- 基於軌道的探索範圍提升至 {0} 天文單位
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationII=- 基於軌道的探索範圍提升至 {0} 天文單位
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationIII=- 移除基於軌道的探索範圍上限
+TIEffectTemplate.description.Effect_BS_GraySky=- 允許所有陣營追蹤火星範圍內的外星船艦及建築
+TIEffectTemplate.description.Effect_BS_AugmentationMoneyCostReduction=- 我方理事強化所需的金錢成本降低 {4}
+TIEffectTemplate.description.Effect_BS_PublicizeAlienThreat=- 可能會導致外星人加快侵略速度
+TIEffectTemplate.description.Effect_BS_AlienAwareness=- 外星人的相關知識在公眾之間傳播
+TIEffectTemplate.description.Effect_BS_DiscoverAlienInvasion=- 向我方揭示了外星人針對地球的計畫
+
+TIEffectTemplate.description.Effect_BS_CPResearchPenalty=- 來自我方控制點的研究力減少 {4}
+TIEffectTemplate.description.Effect_BS_CPMaintenancePenalty=- 我方的控制點管理能力減少 {0}
+TIEffectTemplate.description.Effect_BS_SustainabilityPenalty=- 我方投入於環境優先事項的國家投資點減少 {25}
+TIEffectTemplate.description.Effect_BS_MCPenalty=- 我方投入於任務管控力優先事項的國家投資點減少 {25}
+TIEffectTemplate.description.Effect_BS_BoostPenalty=- 我方投入於航太力優先事項的國家投資點減少 {25}
+TIEffectTemplate.description.Effect_BS_InfluencePenalty=- 民意的影響力降低 {25}
+TIEffectTemplate.description.Effect_BS_MaterialSciencePenalty=- 我方材料研究減少 {25}
+TIEffectTemplate.description.Effect_BS_SpaceSciencePenalty=- 我方太空科學研究減少 {25}
+TIEffectTemplate.description.Effect_BS_EnergySciencePenalty=- 我方能源研究減少 {25}
+TIEffectTemplate.description.Effect_BS_LifeSciencePenalty=- 我方生命科學研究減少 {25}
+TIEffectTemplate.description.Effect_BS_MilitarySciencePenalty=- 我方軍事科學研究減少 {25}
+TIEffectTemplate.description.Effect_BS_InformationSciencePenalty=- 我方資訊科學研究減少 {25}
+TIEffectTemplate.description.Effect_BS_SocialSciencePenalty=- 我方社會科學研究減少 {25}
+TIEffectTemplate.description.Effect_BS_XenologyPenalty=- 我方異星生命學研究減少 {25}
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimePenalty=- 我方船艦建造速度降低 {27}
+TIEffectTemplate.description.Effect_BS_SpaceMiningPenalty=- 地球採礦產出降低 {25}
+TIEffectTemplate.description.Effect_BS_BlackSky=- 各個陣營可以追蹤地球附近的外星船艦及建築
+
+TIEffectTemplate.description.Effect_BS_InvestigationPenalty=- 我方招募人才庫中的所有理事候選人初始調查減少 {0}
+
+TIEffectTemplate.description.Effect_BS_BoostPenaltyEventTemp=- 我方投入於航太力優先計劃的國家投資點減少 {25}，持續 {7} 個月
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEvent=- 我方投入太空飛行優先計畫的國家投資點減少 {25}
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEventTemp=- 我方投入太空飛行優先計畫的國家投資點減少 {25}，持續 {7} 個月
+TIEffectTemplate.description.Effect_BS_GovernmentPenaltyEventTemp=- 所有國家投入政府優先事項的投資點減少 {25}，持續 {7} 個月
+TIEffectTemplate.description.Effect_BS_MilitaryBonusEventSmallGlobal=- 所有國家投入軍事優先事項的投資點增加 {3}
+TIEffectTemplate.description.Effect_BS_DefendAllOwnedControlPoints=- 已擁有的所有控制點 {5} 都會受到保護，持續 {7} 個月
+
+TIEffectTemplate.description.Effect_BS_NationRemoveAbductions1=-{0} 綁架事件已移除 {5}
+
+TIEffectTemplate.description.Effect_BS_GlobalExcessMiltechReduction=- 所有軍事科技高於 {13} 的國家會失去超出部分的 {3}
+
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedPenalty=- 我方太空殖民地建造速度減緩 {4}
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedRepair=- 我方太空殖民地建造速度提升 {3}
+TIEffectTemplate.description.Effect_BS_MineSizeReduction=- 我方太空礦場規模縮小 {4}
+TIEffectTemplate.description.Effect_BS_MineSizeNormalization=- 我方太空礦場規模擴大 {3}
+
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeReduction=- 我方自動化太空礦場規模縮小 {4}
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeNormalization=- 我方自動化太空礦場規模擴大 {3}
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeReduction=- 我方自動化前哨站規模縮小 {4}
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeNormalization=- 我方自動化前哨站規模擴大 {3}

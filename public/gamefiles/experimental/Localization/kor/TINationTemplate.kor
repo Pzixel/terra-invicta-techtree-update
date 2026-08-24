@@ -34,6 +34,7 @@ TINationTemplate.displayName.AUS=호주
 TINationTemplate.displayNameWithArticle.AUS=호주
 TINationTemplate.nationAdjective.AUS=호주인
 TINationTemplate.displayNameWithArticlePrep.AUS=호주
+
 TINationTemplate.displayName.BCH=발루치스탄
 TINationTemplate.displayNameWithArticle.BCH=발루치스탄
 TINationTemplate.nationAdjective.BCH=발루치스탄
@@ -94,6 +95,7 @@ TINationTemplate.displayName.CAB=소앤틸리스
 TINationTemplate.displayNameWithArticle.CAB=소앤틸리스
 TINationTemplate.nationAdjective.CAB=카리브인
 TINationTemplate.displayNameWithArticlePrep.CAB=소앤틸리스
+
 TINationTemplate.displayName.CHL=칠레
 TINationTemplate.displayNameWithArticle.CHL=칠레
 TINationTemplate.nationAdjective.CHL=칠레
@@ -370,10 +372,12 @@ TINationTemplate.displayName.OMN=오만
 TINationTemplate.displayNameWithArticle.OMN=오만
 TINationTemplate.nationAdjective.OMN=오만
 TINationTemplate.displayNameWithArticlePrep.OMN=오만
+
 TINationTemplate.displayName.PAK=펀자브
 TINationTemplate.displayNameWithArticle.PAK=펀자브
 TINationTemplate.nationAdjective.PAK=펀자브
 TINationTemplate.displayNameWithArticlePrep.PAK=펀자브
+
 TINationTemplate.displayName.PAL=팔레스타인
 TINationTemplate.displayNameWithArticle.PAL=팔레스타인
 TINationTemplate.nationAdjective.PAL=팔레스타인
@@ -622,749 +626,936 @@ TINationTemplate.displayName.ZWE=짐바브웨
 TINationTemplate.displayNameWithArticle.ZWE=짐바브웨
 TINationTemplate.nationAdjective.ZWE=짐바브웨
 TINationTemplate.displayNameWithArticlePrep.ZWE=짐바브웨
+
 TINationTemplate.unionDisplayName.AGO=대 반투 자유국
 TINationTemplate.unionDisplayNameWithArticle.AGO=대 반투 자유국
 TINationTemplate.unionAdjective.AGO=반투
 TINationTemplate.unionDisplayNameWithArticlePrep.AGO=대 반투 자유국
+
 TINationTemplate.unionDisplayName.ALN=외계 연방
 TINationTemplate.unionDisplayNameWithArticle.ALN=외계 연방
 TINationTemplate.unionAdjective.ALN=외계인
 TINationTemplate.unionDisplayNameWithArticlePrep.ALN=외계 연방
+
 TINationTemplate.unionDisplayName.AUS=남십자성 공화국
 TINationTemplate.unionDisplayNameWithArticle.AUS=남십자성 공화국
 TINationTemplate.unionAdjective.AUS=남십자성
 TINationTemplate.unionDisplayNameWithArticlePrep.AUS=남십자성 공화국
+
 TINationTemplate.unionDisplayName.MAR=타마즈가
 TINationTemplate.unionDisplayNameWithArticle.MAR=타마즈가
 TINationTemplate.unionAdjective.MAR=타마즈가
 TINationTemplate.unionDisplayNameWithArticlePrep.MAR=타마즈가
+
 TINationTemplate.unionDisplayName.BOL=남미 연합
 TINationTemplate.unionDisplayNameWithArticle.BOL=남미 연합
 TINationTemplate.unionAdjective.BOL=남미 연합
 TINationTemplate.unionDisplayNameWithArticlePrep.BOL=남미 연합
+
 TINationTemplate.unionDisplayName.CHN=범아시아 연합체
 TINationTemplate.unionDisplayNameWithArticle.CHN=범아시아 연합체
 TINationTemplate.unionAdjective.CHN=범아시아
 TINationTemplate.unionDisplayNameWithArticlePrep.CHN=범아시아 연합체
+
 TINationTemplate.unionDisplayName.COL=대 콜롬비아
 TINationTemplate.unionDisplayNameWithArticle.COL=대 콜롬비아
 TINationTemplate.unionAdjective.COL=콜롬비아
 TINationTemplate.unionDisplayNameWithArticlePrep.COL=대 콜롬비아
+
 TINationTemplate.unionDisplayName.DEU=독일
 TINationTemplate.unionDisplayNameWithArticle.DEU=독일
 TINationTemplate.unionAdjective.DEU=독일어
 TINationTemplate.unionDisplayNameWithArticlePrep.DEU=독일
+
 TINationTemplate.unionDisplayName.EGY=아랍 연맹
 TINationTemplate.unionDisplayNameWithArticle.EGY=아랍 연맹
 TINationTemplate.unionAdjective.EGY=아랍
 TINationTemplate.unionDisplayNameWithArticlePrep.EGY=아랍 연맹
+
 TINationTemplate.unionDisplayName.ETH=아프리카 연합
 TINationTemplate.unionDisplayNameWithArticle.ETH=아프리카 연합
 TINationTemplate.unionAdjective.ETH=아프리카인
 TINationTemplate.unionDisplayNameWithArticlePrep.ETH=아프리카 연합
+
 TINationTemplate.unionDisplayName.EUA=유럽 연합
 TINationTemplate.unionDisplayNameWithArticle.EUA=유럽 연합
 TINationTemplate.unionAdjective.EUA=유럽인
 TINationTemplate.unionDisplayNameWithArticlePrep.EUA=유럽 연합
+
 TINationTemplate.unionDisplayName.MYS=말레이 연합 국가
 TINationTemplate.unionDisplayNameWithArticle.MYS=말레이 연합 국가
 TINationTemplate.unionAdjective.MYS=말레이시아
 TINationTemplate.unionDisplayNameWithArticlePrep.MYS=말레이 연합 국가
+
 TINationTemplate.unionDisplayName.NGA=서아프리카 공동체
 TINationTemplate.unionDisplayNameWithArticle.NGA=서아프리카 공동체
 TINationTemplate.unionAdjective.NGA=서아프리카
 TINationTemplate.unionDisplayNameWithArticlePrep.NGA=서아프리카 공동체
+
 TINationTemplate.unionDisplayName.PER=페루 연합국
 TINationTemplate.unionDisplayNameWithArticle.PER=페루 연합국
 TINationTemplate.unionAdjective.PER=페루
 TINationTemplate.unionDisplayNameWithArticlePrep.PER=페루 연합국
+
 TINationTemplate.unionDisplayName.PRK=조선민주주인민공화국
 TINationTemplate.unionDisplayNameWithArticle.PRK=조선민주주인민공화국
 TINationTemplate.unionAdjective.PRK=한국어
 TINationTemplate.unionDisplayNameWithArticlePrep.PRK=조선민주주인민공화국
+
 TINationTemplate.unionDisplayName.JPN=태평양 방위 연맹
 TINationTemplate.unionDisplayNameWithArticle.JPN=태평양 방위 연맹
 TINationTemplate.unionAdjective.JPN=태평양 방위
 TINationTemplate.unionDisplayNameWithArticlePrep.JPN=태평양 방위 연맹
+
 TINationTemplate.unionDisplayName.KAZ=중앙 아시아 연합
 TINationTemplate.unionDisplayNameWithArticle.KAZ=중앙 아시아 연합
 TINationTemplate.unionAdjective.KAZ=중앙 아시아
 TINationTemplate.unionDisplayNameWithArticlePrep.KAZ=중앙 아시아 연합
+
 TINationTemplate.unionDisplayName.KOR=대한민국
 TINationTemplate.unionDisplayNameWithArticle.KOR=대한민국
 TINationTemplate.unionAdjective.KOR=한국어
 TINationTemplate.unionDisplayNameWithArticlePrep.KOR=대한민국
+
 TINationTemplate.unionDisplayName.TWN=중화민국
 TINationTemplate.unionDisplayNameWithArticle.TWN=중화민국
 TINationTemplate.unionAdjective.TWN=중화민국
 TINationTemplate.unionDisplayNameWithArticlePrep.TWN=중화민국
+
 TINationTemplate.unionDisplayName.TZA=동아프리카 연방
 TINationTemplate.unionDisplayNameWithArticle.TZA=동아프리카 연방
 TINationTemplate.unionAdjective.TZA=동아프리카
 TINationTemplate.unionDisplayNameWithArticlePrep.TZA=동아프리카 연방
+
 TINationTemplate.unionDisplayName.THA=동남아시아 동맹
 TINationTemplate.unionDisplayNameWithArticle.THA=동남아시아 동맹
 TINationTemplate.unionAdjective.THA=동남 아시아
 TINationTemplate.unionDisplayNameWithArticlePrep.THA=동남아시아 동맹
+
 TINationTemplate.unionDisplayName.TUR=투르키스탄
 TINationTemplate.unionDisplayNameWithArticle.TUR=투르키스탄
 TINationTemplate.unionAdjective.TUR=투르키스탄
 TINationTemplate.unionDisplayNameWithArticlePrep.TUR=투르키스탄
+
 TINationTemplate.unionDisplayName.GBR=영국
 TINationTemplate.unionDisplayNameWithArticle.GBR=영국
 TINationTemplate.unionAdjective.GBR=영국
 TINationTemplate.unionDisplayNameWithArticlePrep.GBR=영국
+
 TINationTemplate.unionDisplayName.IDN=인도네시아
 TINationTemplate.unionDisplayNameWithArticle.IDN=인도네시아
 TINationTemplate.unionAdjective.IDN=인도네시아
 TINationTemplate.unionDisplayNameWithArticlePrep.IDN=인도네시아
+
 TINationTemplate.unionDisplayName.RUS=유라시아 연합
 TINationTemplate.unionDisplayNameWithArticle.RUS=유라시아 연합
 TINationTemplate.unionAdjective.RUS=유라시아
 TINationTemplate.unionDisplayNameWithArticlePrep.RUS=유라시아 연합
+
 TINationTemplate.unionDisplayName.SCA=북유럽 연방
 TINationTemplate.unionDisplayNameWithArticle.SCA=북유럽 연방
 TINationTemplate.unionAdjective.SCA=북유럽
 TINationTemplate.unionDisplayNameWithArticlePrep.SCA=북유럽 연방
+
 TINationTemplate.unionDisplayName.USA=북미합중국
 TINationTemplate.unionDisplayNameWithArticle.USA=북미합중국
 TINationTemplate.unionAdjective.USA=북미
 TINationTemplate.unionDisplayNameWithArticlePrep.USA=북미합중국
-TINationTemplate.GenericFederationDisplayName={0} 연방 // national adjective
+
+TINationTemplate.GenericFederationDisplayName={0} 연방												
 TINationTemplate.GenericFederationDisplayNameWithArticle={0} 연방
 TINationTemplate.GenericFederationAdjective={0} 연방
+
 TINationTemplate.displayName.ARM=아르메니아
 TINationTemplate.displayNameWithArticle.ARM=아르메니아
 TINationTemplate.nationAdjective.ARM=아르메니아
 TINationTemplate.displayNameWithArticlePrep.ARM=아르메니아
+
 TINationTemplate.displayName.AZE=아제르바이잔
 TINationTemplate.displayNameWithArticle.AZE=아제르바이잔
 TINationTemplate.nationAdjective.AZE=아제르바이잔
 TINationTemplate.displayNameWithArticlePrep.AZE=아제르바이잔
+
 TINationTemplate.displayName.BEL=벨리즈
 TINationTemplate.displayNameWithArticle.BEL=벨리즈
 TINationTemplate.nationAdjective.BEL=벨리즈
 TINationTemplate.displayNameWithArticlePrep.BEL=벨리즈
+
 TINationTemplate.displayName.BUL=불가리아
 TINationTemplate.displayNameWithArticle.BUL=불가리아
 TINationTemplate.nationAdjective.BUL=불가리아
 TINationTemplate.displayNameWithArticlePrep.BUL=불가리아
+
 TINationTemplate.displayName.BKF=부르키나파소
 TINationTemplate.displayNameWithArticle.BKF=부르키나파소
 TINationTemplate.nationAdjective.BKF=부르키나파소
 TINationTemplate.displayNameWithArticlePrep.BKF=부르키나파소
+
 TINationTemplate.displayName.CMR=카메룬
 TINationTemplate.displayNameWithArticle.CMR=카메룬
 TINationTemplate.nationAdjective.CMR=카메룬
 TINationTemplate.displayNameWithArticlePrep.CMR=카메룬
+
 TINationTemplate.displayName.COS=코스타리카
 TINationTemplate.displayNameWithArticle.COS=코스타리카
 TINationTemplate.nationAdjective.COS=코스타리카
 TINationTemplate.displayNameWithArticlePrep.COS=코스타리카
+
 TINationTemplate.displayName.CRI=크림반도
 TINationTemplate.displayNameWithArticle.CRI=크림반도
 TINationTemplate.nationAdjective.CRI=크림반도
 TINationTemplate.displayNameWithArticlePrep.CRI=크림반도
+
 TINationTemplate.displayName.CZE=체코
 TINationTemplate.displayNameWithArticle.CZE=체코
 TINationTemplate.nationAdjective.CZE=체코어
 TINationTemplate.displayNameWithArticlePrep.CZE=체코
+
 TINationTemplate.unionDisplayName.CZE=체코슬로바키아
 TINationTemplate.unionDisplayNameWithArticle.CZE=체코슬로바키아
 TINationTemplate.unionAdjective.CZE=체코슬로바키아
 TINationTemplate.unionDisplayNameWithArticlePrep.CZE=체코슬로바키아
+
 TINationTemplate.displayName.ELS=엘살바도르
 TINationTemplate.displayNameWithArticle.ELS=엘살바도르
 TINationTemplate.nationAdjective.ELS=살바도르
 TINationTemplate.displayNameWithArticlePrep.ELS=엘살바도르
+
 TINationTemplate.displayName.GEO=조지아
 TINationTemplate.displayNameWithArticle.GEO=조지아
 TINationTemplate.nationAdjective.GEO=조지아
 TINationTemplate.displayNameWithArticlePrep.GEO=조지아
+
 TINationTemplate.displayName.GRE=그리스
 TINationTemplate.displayNameWithArticle.GRE=그리스
 TINationTemplate.nationAdjective.GRE=그리스
 TINationTemplate.displayNameWithArticlePrep.GRE=그리스
+
 TINationTemplate.displayName.GTM=과테말라
 TINationTemplate.displayNameWithArticle.GTM=과테말라
 TINationTemplate.nationAdjective.GTM=과테말라
 TINationTemplate.displayNameWithArticlePrep.GTM=과테말라
+
 TINationTemplate.unionDisplayName.GTM=중앙 아메리카 연합국
 TINationTemplate.unionDisplayNameWithArticle.GTM=중앙 아메리카 연합국
 TINationTemplate.unionAdjective.GTM=중앙 아메리카
 TINationTemplate.unionDisplayNameWithArticlePrep.GTM=중앙 아메리카 연합국
+
 TINationTemplate.displayName.GUY=가이아나
 TINationTemplate.displayNameWithArticle.GUY=가이아나
 TINationTemplate.nationAdjective.GUY=가이아나
 TINationTemplate.displayNameWithArticlePrep.GUY=가이아나
+
 TINationTemplate.displayName.HON=온두라스
 TINationTemplate.displayNameWithArticle.HON=온두라스
 TINationTemplate.nationAdjective.HON=온두라스
 TINationTemplate.displayNameWithArticlePrep.HON=온두라스
+
 TINationTemplate.displayName.HUN=헝가리
 TINationTemplate.displayNameWithArticle.HUN=헝가리
 TINationTemplate.nationAdjective.HUN=헝가리
 TINationTemplate.displayNameWithArticlePrep.HUN=헝가리
+
 TINationTemplate.displayName.ING=상트페테르부르크 공화국
 TINationTemplate.displayNameWithArticle.ING=상트페테르부르크 공화국
 TINationTemplate.nationAdjective.ING=상트페테르부르크
 TINationTemplate.displayNameWithArticlePrep.ING=상트페테르부르크 공화국
+
 TINationTemplate.displayName.IVO=코트디부아르
 TINationTemplate.displayNameWithArticle.IVO=코트디부아르
 TINationTemplate.nationAdjective.IVO=코트디부아르
 TINationTemplate.displayNameWithArticlePrep.IVO=코트디부아르
+
 TINationTemplate.displayName.KAR=카렐리야
 TINationTemplate.displayNameWithArticle.KAR=카렐리야
 TINationTemplate.nationAdjective.KAR=카렐리야
 TINationTemplate.displayNameWithArticlePrep.KAR=카렐리야
+
 TINationTemplate.displayName.NIC=니카라과
 TINationTemplate.displayNameWithArticle.NIC=니카라과
 TINationTemplate.nationAdjective.NIC=니카라과
 TINationTemplate.displayNameWithArticlePrep.NIC=니카라과
+
 TINationTemplate.displayName.NBK=북부 발칸 국가
 TINationTemplate.displayNameWithArticle.NBK=북구 발칸 국가
 TINationTemplate.nationAdjective.NBK=북부 발칸
 TINationTemplate.displayNameWithArticlePrep.NBK=북부 발칸 국가
+
 TINationTemplate.displayName.PAN=파나마
 TINationTemplate.displayNameWithArticle.PAN=파나마
 TINationTemplate.nationAdjective.PAN=파나마
 TINationTemplate.displayNameWithArticlePrep.PAN=파나마
+
 TINationTemplate.displayName.ROM=루마니아
 TINationTemplate.displayNameWithArticle.ROM=루마니아
 TINationTemplate.nationAdjective.ROM=루마니아
 TINationTemplate.displayNameWithArticlePrep.ROM=루마니아
+
 TINationTemplate.displayName.ROS=돈 카자크 군대
 TINationTemplate.displayNameWithArticle.ROS=돈 카자크 군대
 TINationTemplate.nationAdjective.ROS=카자크
 TINationTemplate.displayNameWithArticlePrep.ROS=돈 카자크 군대
+
 TINationTemplate.displayName.SAH=사라위
 TINationTemplate.displayNameWithArticle.SAH=사라위
 TINationTemplate.nationAdjective.SAH=사라위
 TINationTemplate.displayNameWithArticlePrep.SAH=사라위
+
 TINationTemplate.displayName.SEG=세네갈
 TINationTemplate.displayNameWithArticle.SEG=세네갈
 TINationTemplate.nationAdjective.SEG=세네갈
 TINationTemplate.displayNameWithArticlePrep.SEG=세네갈
+
 TINationTemplate.unionDisplayName.SEG=세네감비아
 TINationTemplate.unionDisplayNameWithArticle.SEG=세네감비아
 TINationTemplate.unionAdjective.SEG=세네감비아
 TINationTemplate.unionDisplayNameWithArticlePrep.SEG=세네감비아
+
 TINationTemplate.displayName.SLO=슬로바키아
 TINationTemplate.displayNameWithArticle.SLO=슬로바키아
 TINationTemplate.nationAdjective.SLO=슬로바키아
 TINationTemplate.displayNameWithArticlePrep.SLO=슬로바키아
+
 TINationTemplate.displayName.SBK=알바니아
 TINationTemplate.displayNameWithArticle.SBK=알바니아
 TINationTemplate.nationAdjective.SBK=알바니아
 TINationTemplate.displayNameWithArticlePrep.SBK=알바니아
+
 TINationTemplate.unionDisplayName.SER=유고슬라비아
 TINationTemplate.unionDisplayNameWithArticle.SER=유고슬라비아
 TINationTemplate.unionAdjective.SER=유고슬라비아
 TINationTemplate.unionDisplayNameWithArticlePrep.SER=유고슬라비아
+
 TINationTemplate.displayName.SUR=수리남
 TINationTemplate.displayNameWithArticle.SUR=수리남
 TINationTemplate.nationAdjective.SUR=수리남
 TINationTemplate.displayNameWithArticlePrep.SUR=수리남
+
 TINationTemplate.displayName.TAR=타타르스탄
 TINationTemplate.displayNameWithArticle.TAR=타타르스탄
 TINationTemplate.nationAdjective.TAR=타타르스탄
 TINationTemplate.displayNameWithArticlePrep.TAR=타타르스탄
+
 TINationTemplate.displayName.URL=우랄 공화국
 TINationTemplate.displayNameWithArticle.URL=우랄 공화국
 TINationTemplate.nationAdjective.URL=우랄
 TINationTemplate.displayNameWithArticlePrep.URL=우랄 공화국
+
 TINationTemplate.unionDisplayName.POL=인테르마리움
 TINationTemplate.unionDisplayNameWithArticle.POL=인테르마리움
 TINationTemplate.unionAdjective.POL=인테르마리움
 TINationTemplate.unionDisplayNameWithArticlePrep.POL=인테르마리움
+
 TINationTemplate.displayName.PAT=파타고니아
 TINationTemplate.displayNameWithArticle.PAT=파타고니아
 TINationTemplate.nationAdjective.PAT=파타고니아
 TINationTemplate.displayNameWithArticlePrep.PAT=파타고니아
+
 TINationTemplate.displayName.PGN=프랑스령 기아나
 TINationTemplate.displayNameWithArticle.PGN=프랑스령 기아나
 TINationTemplate.nationAdjective.PGN=프랑스령 기아나
 TINationTemplate.displayNameWithArticlePrep.PGN=프랑스령 기아나
+
 TINationTemplate.displayName.PNG=파푸아 뉴기니
 TINationTemplate.displayNameWithArticle.PNG=파푸아 뉴기니
 TINationTemplate.nationAdjective.PNG=파푸아
 TINationTemplate.displayNameWithArticlePrep.PNG=파푸아 뉴기니
+
 TINationTemplate.displayName.YUC=유카탄
 TINationTemplate.displayNameWithArticle.YUC=유카탄
 TINationTemplate.nationAdjective.YUC=유카탄
 TINationTemplate.displayNameWithArticlePrep.YUC=유카탄
+
 TINationTemplate.displayName.RIO=리오 브라보
 TINationTemplate.displayNameWithArticle.RIO=리오 브라보
 TINationTemplate.nationAdjective.RIO=리오 브라보
 TINationTemplate.displayNameWithArticlePrep.RIO=리오 브라보
+
 TINationTemplate.displayName.MCS=미크로네시아 국가
 TINationTemplate.displayNameWithArticle.MCS=미크로네시아 국가
 TINationTemplate.nationAdjective.MCS=미크로네시아
 TINationTemplate.displayNameWithArticlePrep.MCS=미크로네시아 국가
+
 TINationTemplate.displayName.PLS=폴리네시아 국가
 TINationTemplate.displayNameWithArticle.PLS=폴리네시아 국가
 TINationTemplate.nationAdjective.PLS=폴리네시아
 TINationTemplate.displayNameWithArticlePrep.PLS=폴리네시아 국가
+
 TINationTemplate.displayName.SER=세르비아
 TINationTemplate.displayNameWithArticle.SER=세르비아
 TINationTemplate.nationAdjective.SER=세르비아
 TINationTemplate.displayNameWithArticlePrep.SER=세르비아
+
 TINationTemplate.displayName.ATL=대서양 연합
 TINationTemplate.displayNameWithArticle.ATL=대서양 연합
 TINationTemplate.nationAdjective.ATL=대서양
 TINationTemplate.displayNameWithArticlePrep.ATL=대서양 연합
+
 TINationTemplate.displayName.BRT=브르타뉴
 TINationTemplate.displayNameWithArticle.BRT=브르타뉴
 TINationTemplate.nationAdjective.BRT=브르타뉴
 TINationTemplate.displayNameWithArticlePrep.BRT=브르타뉴
+
 TINationTemplate.displayName.NUB=누비아
 TINationTemplate.displayNameWithArticle.NUB=누비아
 TINationTemplate.nationAdjective.NUB=누비아
 TINationTemplate.displayNameWithArticlePrep.NUB=누비아
+
 TINationTemplate.displayName.JEF=제퍼슨 자유 국가
 TINationTemplate.displayNameWithArticle.JEF=제퍼슨 자유 국가
 TINationTemplate.nationAdjective.JEF=제퍼슨
 TINationTemplate.displayNameWithArticlePrep.JEF=제퍼슨 자유 국가
+
 TINationTemplate.displayName.SWI=스위스
 TINationTemplate.displayNameWithArticle.SWI=스위스
 TINationTemplate.nationAdjective.SWI=스위스
 TINationTemplate.displayNameWithArticlePrep.SWI=스위스
+
 TINationTemplate.displayName.KOM=코미 공화국
 TINationTemplate.displayNameWithArticle.KOM=코미 공화국
 TINationTemplate.nationAdjective.KOM=코미
 TINationTemplate.displayNameWithArticlePrep.KOM=코미 공화국
+
 TINationTemplate.displayName.MIN=민다나오
 TINationTemplate.displayNameWithArticle.MIN=민다나오
 TINationTemplate.nationAdjective.MIN=민다나오
 TINationTemplate.displayNameWithArticlePrep.MIN=민다나오
+
 TINationTemplate.displayName.KHU=후제스탄
 TINationTemplate.displayNameWithArticle.KHU=후제스탄
 TINationTemplate.nationAdjective.KHU=후제스탄
 TINationTemplate.displayNameWithArticlePrep.KHU=후제스탄
+
 TINationTemplate.displayName.BAV=바이에른
 TINationTemplate.displayNameWithArticle.BAV=바이에른
 TINationTemplate.nationAdjective.BAV=바이에른
 TINationTemplate.displayNameWithArticlePrep.BAV=바이에른
+
 TINationTemplate.displayName.BEN=베냉
 TINationTemplate.displayNameWithArticle.BEN=베냉
 TINationTemplate.nationAdjective.BEN=베냉
 TINationTemplate.displayNameWithArticlePrep.BEN=베냉
+
 TINationTemplate.displayName.BGM=벨기에-룩셈부르크
 TINationTemplate.displayNameWithArticle.BGM=벨기에-룩셈부르크
 TINationTemplate.nationAdjective.BGM=벨기에
 TINationTemplate.displayNameWithArticlePrep.BGM=벨기에-룩셈부르크
+
 TINationTemplate.displayName.COR=콩고 공화국
 TINationTemplate.displayNameWithArticle.COR=콩고 공화국
 TINationTemplate.nationAdjective.COR=콩고
 TINationTemplate.displayNameWithArticlePrep.COR=콩고 공화국
+
 TINationTemplate.displayName.CRY=카나리 제도
 TINationTemplate.displayNameWithArticle.CRY=카나리 제도
 TINationTemplate.nationAdjective.CRY=카나리
 TINationTemplate.displayNameWithArticlePrep.CRY=카나리 제도
+
 TINationTemplate.displayName.FUJ=푸젠
 TINationTemplate.displayNameWithArticle.FUJ=푸젠
 TINationTemplate.nationAdjective.FUJ=푸젠
 TINationTemplate.displayNameWithArticlePrep.FUJ=푸젠
+
 TINationTemplate.displayName.GUJ=구자르트
 TINationTemplate.displayNameWithArticle.GUJ=구자르트
 TINationTemplate.nationAdjective.GUJ=구자르트
 TINationTemplate.displayNameWithArticlePrep.GUJ=구자르트
+
 TINationTemplate.displayName.GWA=괄리오르
 TINationTemplate.displayNameWithArticle.GWA=괄리오르
 TINationTemplate.nationAdjective.GWA=괄리오르
 TINationTemplate.displayNameWithArticlePrep.GWA=괄리오르
+
 TINationTemplate.displayName.HYD=하이데라바드
 TINationTemplate.displayNameWithArticle.HYD=하이데라바드
 TINationTemplate.nationAdjective.HYD=하이데라바드
 TINationTemplate.displayNameWithArticlePrep.HYD=하이데라바드
+
 TINationTemplate.displayName.JAI=자이푸르
 TINationTemplate.displayNameWithArticle.JAI=자이푸르
 TINationTemplate.nationAdjective.JAI=자이푸르
 TINationTemplate.displayNameWithArticlePrep.JAI=자이푸르
+
 TINationTemplate.displayName.MAH=마하라슈트라
 TINationTemplate.displayNameWithArticle.MAH=마하라슈트라
 TINationTemplate.nationAdjective.MAH=마하라슈트라
 TINationTemplate.displayNameWithArticlePrep.MAH=마하라슈트라
+
 TINationTemplate.displayName.MOL=몰도바
 TINationTemplate.displayNameWithArticle.MOL=몰도바
 TINationTemplate.nationAdjective.MOL=몰도바
 TINationTemplate.displayNameWithArticlePrep.MOL=몰도바
+
 TINationTemplate.displayName.NCF=북코카서스 연합
 TINationTemplate.displayNameWithArticle.NCF=북코카서스 연합
 TINationTemplate.nationAdjective.NCF=코카서스
 TINationTemplate.displayNameWithArticlePrep.NCF=북코카서스 연합
+
 TINationTemplate.displayName.RNA=뉴아프리카
 TINationTemplate.displayNameWithArticle.RNA=뉴아프리카
 TINationTemplate.nationAdjective.RNA=뉴아프리카
 TINationTemplate.displayNameWithArticlePrep.RNA=뉴아프리카
+
 TINationTemplate.displayName.RYU=류큐 공화국
 TINationTemplate.displayNameWithArticle.RYU=류큐 공화국
 TINationTemplate.nationAdjective.RYU=류큐
 TINationTemplate.displayNameWithArticlePrep.RYU=류큐 공화국
+
 TINationTemplate.displayName.SAO=상파울루
 TINationTemplate.displayNameWithArticle.SAO=상파울루
 TINationTemplate.nationAdjective.SAO=상파울루
 TINationTemplate.displayNameWithArticlePrep.SAO=상파울루
+
 TINationTemplate.displayName.SHG=섬감
 TINationTemplate.displayNameWithArticle.SHG=섬감
 TINationTemplate.nationAdjective.SHG=섬감
 TINationTemplate.displayNameWithArticlePrep.SHG=섬감
+
 TINationTemplate.displayName.SOL=소말릴란드
 TINationTemplate.displayNameWithArticle.SOL=소말릴란드
 TINationTemplate.nationAdjective.SOL=소말릴란드
 TINationTemplate.displayNameWithArticlePrep.SOL=소말릴란드
+
 TINationTemplate.displayName.YMS=남예멘
 TINationTemplate.displayNameWithArticle.YMS=남예멘
 TINationTemplate.nationAdjective.YMS=남예멘
 TINationTemplate.displayNameWithArticlePrep.YMS=남예멘
+
 TINationTemplate.displayName.WCA=서부 캐나다
 TINationTemplate.displayNameWithArticle.WCA=서부 캐나다
 TINationTemplate.nationAdjective.WCA=서부 캐나다
 TINationTemplate.displayNameWithArticlePrep.WCA=서부 캐나다
+
 TINationTemplate.displayName.HKO=홍콩
 TINationTemplate.displayNameWithArticle.HKO=홍콩
 TINationTemplate.nationAdjective.HKO=홍콩
 TINationTemplate.displayNameWithArticlePrep.HKO=홍콩
+
 TINationTemplate.displayName.MAL=말라위
 TINationTemplate.displayNameWithArticle.MAL=말라위
 TINationTemplate.nationAdjective.MAL=말라위
 TINationTemplate.displayNameWithArticlePrep.MAL=말라위
+
 TINationTemplate.displayName.CPV=카보베르데
 TINationTemplate.displayNameWithArticle.CPV=카보베르데
 TINationTemplate.nationAdjective.CPV=카보베르데
 TINationTemplate.displayNameWithArticlePrep.CPV=카보베르데
+
 TINationTemplate.displayName.SPE=대 쿠야수유
 TINationTemplate.displayNameWithArticle.SPE=대 쿠야수유
 TINationTemplate.nationAdjective.SPE=쿠야수유
 TINationTemplate.displayNameWithArticlePrep.SPE=대 쿠야수유
+
 TINationTemplate.displayName.RWB=르완다-브룬디
 TINationTemplate.displayNameWithArticle.RWB=르완다-브룬디
 TINationTemplate.nationAdjective.RWB=르완다
 TINationTemplate.displayNameWithArticlePrep.RWB=르완다-브룬디
+
 TINationTemplate.displayName.GHA=가나
 TINationTemplate.displayNameWithArticle.GHA=가나
 TINationTemplate.nationAdjective.GHA=가나
 TINationTemplate.displayNameWithArticlePrep.GHA=가나
+
 TINationTemplate.displayName.LEB=레바논
 TINationTemplate.displayNameWithArticle.LEB=레바논
 TINationTemplate.nationAdjective.LEB=레바논
 TINationTemplate.displayNameWithArticlePrep.LEB=레바논
+
 TINationTemplate.displayName.GIN=기니
 TINationTemplate.displayNameWithArticle.GIN=기니
 TINationTemplate.nationAdjective.GIN=기니
 TINationTemplate.displayNameWithArticlePrep.GIN=기니
+
 TINationTemplate.displayName.LBR=라이베리아
 TINationTemplate.displayNameWithArticle.LBR=라이베리아
 TINationTemplate.nationAdjective.LBR=라이베리아
 TINationTemplate.displayNameWithArticlePrep.LBR=라이베리아
+
 TINationTemplate.displayName.SLE=시에라리온
 TINationTemplate.displayNameWithArticle.SLE=시에라리온
 TINationTemplate.nationAdjective.SLE=시에라리온
 TINationTemplate.displayNameWithArticlePrep.SLE=시에라리온
+
 TINationTemplate.displayName.UAE=아랍에미리트
 TINationTemplate.displayNameWithArticle.UAE=아랍에미리트
 TINationTemplate.nationAdjective.UAE=에미리트
 TINationTemplate.displayNameWithArticlePrep.UAE=아랍에미리트
+
 TINationTemplate.displayName.LTU=리투아니아
 TINationTemplate.displayNameWithArticle.LTU=리투아니아
 TINationTemplate.nationAdjective.LTU=리투아니아
 TINationTemplate.displayNameWithArticlePrep.LTU=리투아니아
+
 TINationTemplate.displayName.LVA=라트비아
 TINationTemplate.displayNameWithArticle.LVA=라트비아
 TINationTemplate.nationAdjective.LVA=라트비아
 TINationTemplate.displayNameWithArticlePrep.LVA=라트비아
+
 TINationTemplate.displayName.EST=에스토니아
 TINationTemplate.displayNameWithArticle.EST=에스토니아
 TINationTemplate.nationAdjective.EST=에스토니아
 TINationTemplate.displayNameWithArticlePrep.EST=에스토니아
+
 TINationTemplate.displayName.CRS=크로아티아
 TINationTemplate.displayNameWithArticle.CRS=크로아티아
 TINationTemplate.nationAdjective.CRS=크로아티아
 TINationTemplate.displayNameWithArticlePrep.CRS=크로아티아
+
 TINationTemplate.displayName.BSM=보스니아-헤르체고비나
 TINationTemplate.displayNameWithArticle.BSM=보스니아-헤르체고비나
 TINationTemplate.nationAdjective.BSM=보스니아
 TINationTemplate.displayNameWithArticlePrep.BSM=보스니아-헤르체고비나
+
 TINationTemplate.displayName.CYE=키레나이카
 TINationTemplate.displayNameWithArticle.CYE=키레나이카
 TINationTemplate.nationAdjective.CYE=키레나이카
 TINationTemplate.displayNameWithArticlePrep.CYE=키레나이카
+
 TINationTemplate.displayName.DJI=지부티
 TINationTemplate.displayNameWithArticle.DJI=지부티
 TINationTemplate.nationAdjective.DJI=지부티
 TINationTemplate.displayNameWithArticlePrep.DJI=지부티
+
 TINationTemplate.displayName.DAR=다르푸르
 TINationTemplate.displayNameWithArticle.DAR=다르푸르
 TINationTemplate.nationAdjective.DAR=다르푸르
 TINationTemplate.displayNameWithArticlePrep.DAR=다르푸르
+
 TINationTemplate.displayName.DOM=도미니카 공화국
 TINationTemplate.displayNameWithArticle.DOM=도미니카 공화국
 TINationTemplate.nationAdjective.DOM=도미니카 공화국
 TINationTemplate.displayNameWithArticlePrep.DOM=도미니카 공화국
+
 TINationTemplate.displayName.HTI=아이티
 TINationTemplate.displayNameWithArticle.HTI=아이티
 TINationTemplate.nationAdjective.HTI=아이티
 TINationTemplate.displayNameWithArticlePrep.HTI=아이티
+
 TINationTemplate.displayName.MKD=북마케도니아
 TINationTemplate.displayNameWithArticle.MKD=북마케도니아
 TINationTemplate.nationAdjective.MKD=북마케도니아
 TINationTemplate.displayNameWithArticlePrep.MKD=북마케도니아
+
 TINationTemplate.displayName.AZA=아자와드
 TINationTemplate.displayNameWithArticle.AZA=아자와드
 TINationTemplate.nationAdjective.AZA=아자와드
 TINationTemplate.displayNameWithArticlePrep.AZA=아자와드
+
 TINationTemplate.displayName.PAD=파다니아
 TINationTemplate.displayNameWithArticle.PAD=파다니아
 TINationTemplate.nationAdjective.PAD=파다니아
 TINationTemplate.displayNameWithArticlePrep.PAD=파다니아
+
 TINationTemplate.displayName.KAC=가친-아라칸
 TINationTemplate.displayNameWithArticle.KAC=가친-아라칸
 TINationTemplate.nationAdjective.KAC=가친
 TINationTemplate.displayNameWithArticlePrep.KAC=가친-아라칸
+
 TINationTemplate.displayName.BRU=브루나이 다루살람
 TINationTemplate.displayNameWithArticle.BRU=브루나이 다루살람
 TINationTemplate.nationAdjective.BRU=브루나이 다루살람
 TINationTemplate.displayNameWithArticlePrep.BRU=브루나이 다루살람
+
 TINationTemplate.displayName.EQG=적도 기니
 TINationTemplate.displayNameWithArticle.EQG=적도 기니
 TINationTemplate.nationAdjective.EQG=적도 기니
 TINationTemplate.displayNameWithArticlePrep.EQG=적도 기니
+
 TINationTemplate.displayName.MLD=몰디브
 TINationTemplate.displayNameWithArticle.MLD=몰디브
 TINationTemplate.nationAdjective.MLD=몰디브
 TINationTemplate.displayNameWithArticlePrep.MLD=몰디브
+
 TINationTemplate.displayName.ACE=아체
 TINationTemplate.displayNameWithArticle.ACE=아체
 TINationTemplate.nationAdjective.ACE=아체
 TINationTemplate.displayNameWithArticlePrep.ACE=아체
+
 TINationTemplate.displayName.NEN=북부 의회
 TINationTemplate.displayNameWithArticle.NEN=북부 의회
 TINationTemplate.nationAdjective.NEN=북부 의회
 TINationTemplate.displayNameWithArticlePrep.NEN=북부 의회
+
 TINationTemplate.displayName.GNB=기니비사우
 TINationTemplate.displayNameWithArticle.GNB=기니비사우
 TINationTemplate.nationAdjective.GNB=기니비사우
-TINationTemplate.displayNameWithArticlePrep.GNB=기니비사우
+TINationTemplate.displayNameWithArticlePrep.GNB=기니비사우	
+
 TINationTemplate.displayName.STP=상투메 프린시페
 TINationTemplate.displayNameWithArticle.STP=상투메 프린시페
 TINationTemplate.nationAdjective.STP=상투메 프린시페
 TINationTemplate.displayNameWithArticlePrep.STP=상투메 프린시페
+
 TINationTemplate.displayName.TLS=동티모르
 TINationTemplate.displayNameWithArticle.TLS=동티모르
 TINationTemplate.nationAdjective.TLS=동티모르
 TINationTemplate.displayNameWithArticlePrep.TLS=동티모르
+
 TINationTemplate.displayName.TGO=토고
 TINationTemplate.displayNameWithArticle.TGO=토고
 TINationTemplate.nationAdjective.TGO=토고
 TINationTemplate.displayNameWithArticlePrep.TGO=토고
+
 TINationTemplate.displayName.WAL=웨일즈
 TINationTemplate.displayNameWithArticle.WAL=웨일즈
 TINationTemplate.nationAdjective.WAL=웨일즈
 TINationTemplate.displayNameWithArticlePrep.WAL=웨일즈
+
 TINationTemplate.unionDisplayName.IRL=켈트 리그
 TINationTemplate.unionDisplayNameWithArticle.IRL=켈트 리그
 TINationTemplate.unionAdjective.IRL=켈트
 TINationTemplate.unionDisplayNameWithArticlePrep.IRL=켈트 리그
+
 TINationTemplate.displayName.KRK=카라칼팍스탄
 TINationTemplate.displayNameWithArticle.KRK=카라칼팍스탄
 TINationTemplate.nationAdjective.KRK=카라칼팍스탄
 TINationTemplate.displayNameWithArticlePrep.KRK=카라칼팍스탄
+
 TINationTemplate.displayName.KOS=코소보
 TINationTemplate.displayNameWithArticle.KOS=코소보
 TINationTemplate.nationAdjective.KOS=코소보
 TINationTemplate.displayNameWithArticlePrep.KOS=코소보
+
 TINationTemplate.displayName.KUW=쿠웨이트
 TINationTemplate.displayNameWithArticle.KUW=쿠웨이트
 TINationTemplate.nationAdjective.KUW=쿠웨이트
 TINationTemplate.displayNameWithArticlePrep.KUW=쿠웨이트
+
 TINationTemplate.displayName.LOG=다르 엘-쿠티
 TINationTemplate.displayNameWithArticle.LOG=다르 엘-쿠티
 TINationTemplate.nationAdjective.LOG=다르 엘-쿠티
 TINationTemplate.displayNameWithArticlePrep.LOG=다르 엘-쿠티
+
 TINationTemplate.displayName.MRS=모리셔스
 TINationTemplate.displayNameWithArticle.MRS=모리셔스
 TINationTemplate.nationAdjective.MRS=모리셔스
 TINationTemplate.displayNameWithArticlePrep.MRS=모리셔스
+
 TINationTemplate.displayName.MNE=몬테네그로
 TINationTemplate.displayNameWithArticle.MNE=몬테네그로
 TINationTemplate.nationAdjective.MNE=몬테네그로
 TINationTemplate.displayNameWithArticlePrep.MNE=몬테네그로
+
 TINationTemplate.displayName.SYC=세이셸
 TINationTemplate.displayNameWithArticle.SYC=세이셸
 TINationTemplate.nationAdjective.SYC=세이셸
 TINationTemplate.displayNameWithArticlePrep.SYC=세이셸
+
 TINationTemplate.displayName.SLV=슬로베니아
 TINationTemplate.displayNameWithArticle.SLV=슬로베니아
 TINationTemplate.nationAdjective.SLV=슬로베니아
 TINationTemplate.displayNameWithArticlePrep.SLV=슬로베니아
+
 TINationTemplate.displayName.ZAN=잔지바르
 TINationTemplate.displayNameWithArticle.ZAN=잔지바르
 TINationTemplate.nationAdjective.ZAN=잔지바르
 TINationTemplate.displayNameWithArticlePrep.ZAN=잔지바르
+
 TINationTemplate.displayName.DON=도네츠크 공화국
 TINationTemplate.displayNameWithArticle.DON=도네츠크 공화국
 TINationTemplate.nationAdjective.DON=도네츠크 공화국
 TINationTemplate.displayNameWithArticlePrep.DON=도네츠크 공화국
+
 TINationTemplate.displayName.MOM=몸바사 공화국
 TINationTemplate.displayNameWithArticle.MOM=몸바사 공화국
 TINationTemplate.nationAdjective.MOM=몸바사 공화국
 TINationTemplate.displayNameWithArticlePrep.MOM=몸바사 공화국
+
 TINationTemplate.displayName.ARE=아레와
 TINationTemplate.displayNameWithArticle.ARE=아레와
 TINationTemplate.nationAdjective.ARE=아레와
 TINationTemplate.displayNameWithArticlePrep.ARE=아레와
+
 TINationTemplate.displayName.LNT=룬다-초크웨
 TINationTemplate.displayNameWithArticle.LNT=룬다-초크웨
 TINationTemplate.nationAdjective.LNT=룬다-초크웨
 TINationTemplate.displayNameWithArticlePrep.LNT=룬다-초크웨
+
 TINationTemplate.displayName.KAL=발트 공화국
 TINationTemplate.displayNameWithArticle.KAL=발트 공화국
 TINationTemplate.nationAdjective.KAL=발트
 TINationTemplate.displayNameWithArticlePrep.KAL=발트 공화국
+
 TINationTemplate.displayName.TRA=트란실바니아
 TINationTemplate.displayNameWithArticle.TRA=트란실바니아
 TINationTemplate.nationAdjective.TRA=트란실바니아
 TINationTemplate.displayNameWithArticlePrep.TRA=트란실바니아
+
 TINationTemplate.displayName.BHU=부탄
 TINationTemplate.displayNameWithArticle.BHU=부탄
 TINationTemplate.nationAdjective.BHU=부탄
 TINationTemplate.displayNameWithArticlePrep.BHU=부탄
+
 TINationTemplate.displayName.BEJ=베자 의회
 TINationTemplate.displayNameWithArticle.BEJ=베자 의회
 TINationTemplate.nationAdjective.BEJ=베자 의회
 TINationTemplate.displayNameWithArticlePrep.BEJ=베자 의회
+
 TINationTemplate.displayName.MSO=마이소르
 TINationTemplate.displayNameWithArticle.MSO=마이소르
 TINationTemplate.nationAdjective.MSO=마이소르
 TINationTemplate.displayNameWithArticlePrep.MSO=마이소르
+
 TINationTemplate.displayName.OGA=오가덴
 TINationTemplate.displayNameWithArticle.OGA=오가덴
 TINationTemplate.nationAdjective.OGA=오가덴
 TINationTemplate.displayNameWithArticlePrep.OGA=오가덴
+
 TINationTemplate.displayName.TEW=테 와이포우나무
 TINationTemplate.displayNameWithArticle.TEW=테 와이포우나무
 TINationTemplate.nationAdjective.TEW=테 와이포우나무
 TINationTemplate.displayNameWithArticlePrep.TEW=테 와이포우나무
+
 TINationTemplate.displayName.ODI=오디샤
 TINationTemplate.displayNameWithArticle.ODI=오디샤
 TINationTemplate.nationAdjective.ODI=오디샤
 TINationTemplate.displayNameWithArticlePrep.ODI=오디샤
+
 TINationTemplate.displayName.CHA=차티스가르
 TINationTemplate.displayNameWithArticle.CHA=차티스가르
 TINationTemplate.nationAdjective.CHA=차티스가르
 TINationTemplate.displayNameWithArticlePrep.CHA=차티스가르
+
 TINationTemplate.displayName.BGL=벵골
 TINationTemplate.displayNameWithArticle.BGL=벵골
 TINationTemplate.nationAdjective.BGL=벵골
 TINationTemplate.displayNameWithArticlePrep.BGL=벵골
+
 TINationTemplate.displayName.PRO=푸에르토리코
 TINationTemplate.displayNameWithArticle.PRO=푸에르토리코
 TINationTemplate.nationAdjective.PRO=푸에르토리코
 TINationTemplate.displayNameWithArticlePrep.PRO=푸에르토리코
+
 TINationTemplate.displayName.HAW=하와이
 TINationTemplate.displayNameWithArticle.HAW=하와이
 TINationTemplate.nationAdjective.HAW=하와이
 TINationTemplate.displayNameWithArticlePrep.HAW=하와이
+
 TINationTemplate.displayName.GAX=광시
 TINationTemplate.displayNameWithArticle.GAX=광시
 TINationTemplate.nationAdjective.GAX=광시
 TINationTemplate.displayNameWithArticlePrep.GAX=광시
+
 TINationTemplate.displayName.HNN=후난
 TINationTemplate.displayNameWithArticle.HNN=후난
 TINationTemplate.nationAdjective.HNN=후난
 TINationTemplate.displayNameWithArticlePrep.HNN=후난
+
 TINationTemplate.displayName.SAK=야쿠티아
 TINationTemplate.displayNameWithArticle.SAK=야쿠티아
 TINationTemplate.nationAdjective.SAK=야쿠티아
 TINationTemplate.displayNameWithArticlePrep.SAK=야쿠티아
+
 TINationTemplate.displayName.MDV=몰도비아
 TINationTemplate.displayNameWithArticle.MDV=몰도비아
 TINationTemplate.nationAdjective.MDV=몰도비아
 TINationTemplate.displayNameWithArticlePrep.MDV=몰도비아
+
 TINationTemplate.displayName.BUR=부랴티아
 TINationTemplate.displayNameWithArticle.BUR=부랴티아
 TINationTemplate.nationAdjective.BUR=부랴티아
 TINationTemplate.displayNameWithArticlePrep.BUR=부랴티아
+
 TINationTemplate.displayName.PCF=극동 연방
 TINationTemplate.displayNameWithArticle.PCF=극동 연방
 TINationTemplate.nationAdjective.PCF=극동 연방
 TINationTemplate.displayNameWithArticlePrep.PCF=극동 연방
+
 TINationTemplate.unionDisplayName.SAU=걸프 동맹
 TINationTemplate.unionDisplayNameWithArticle.SAU=걸프 동맹
 TINationTemplate.unionAdjective.SAU=걸프 동맹
 TINationTemplate.unionDisplayNameWithArticlePrep.SAU=걸프 동맹
+
 TINationTemplate.displayName.JAM=자메이카
 TINationTemplate.displayNameWithArticle.JAM=자메이카
 TINationTemplate.nationAdjective.JAM=자메이카
 TINationTemplate.displayNameWithArticlePrep.JAM=자메이카
+
 TINationTemplate.displayName.BAH=바하마
 TINationTemplate.displayNameWithArticle.BAH=바하마
 TINationTemplate.nationAdjective.BAH=바하마
 TINationTemplate.displayNameWithArticlePrep.BAH=바하마
+
 TINationTemplate.displayName.AZO=아조레스-마데이라
 TINationTemplate.displayNameWithArticle.AZO=아조레스-마데이라
 TINationTemplate.nationAdjective.AZO=아조레스-마데이라
 TINationTemplate.displayNameWithArticlePrep.AZO=아조레스-마데이라
+
 TINationTemplate.unionDisplayName.JAM=카리브 공동체
 TINationTemplate.unionDisplayNameWithArticle.JAM=카리브 공동체
 TINationTemplate.unionAdjective.JAM=카리브인
 TINationTemplate.unionDisplayNameWithArticlePrep.JAM=카리브 공동체
+
 TINationTemplate.displayName.AMB=암바조니아
 TINationTemplate.displayNameWithArticle.AMB=암바조니아
 TINationTemplate.nationAdjective.AMB=암바조니아
 TINationTemplate.displayNameWithArticlePrep.AMB=암바조니아
+
 TINationTemplate.displayName.ESW=에스와티니
 TINationTemplate.displayNameWithArticle.ESW=에스와티니
 TINationTemplate.nationAdjective.ESW=스와지
 TINationTemplate.displayNameWithArticlePrep.ESW=스와지
+
 TINationTemplate.displayName.LES=레소토
 TINationTemplate.displayNameWithArticle.LES=레소토
 TINationTemplate.nationAdjective.LES=레소토
 TINationTemplate.displayNameWithArticlePrep.LES=레소토
+
 TINationTemplate.displayName.GAM=감비아
 TINationTemplate.displayNameWithArticle.GAM=감비아
 TINationTemplate.nationAdjective.GAM=감비아
 TINationTemplate.displayNameWithArticlePrep.GAM=감비아
+
 TINationTemplate.displayName.BAS=바스크
 TINationTemplate.displayNameWithArticle.BAS=바스크
 TINationTemplate.nationAdjective.BAS=바스크
 TINationTemplate.displayNameWithArticlePrep.BAS=바스크
+
 TINationTemplate.unionDisplayName.ZAF=남부 아프리카 연방
 TINationTemplate.unionDisplayNameWithArticle.ZAF=남부 아프리카 연방
 TINationTemplate.unionAdjective.ZAF=남부 아프리카 연방
 TINationTemplate.unionDisplayNameWithArticlePrep.ZAF=남부 아프리카 연방
+
 TINationTemplate.displayName.KEO=케오 데우다이
 TINationTemplate.displayNameWithArticle.KEO=케오 데우다이
 TINationTemplate.nationAdjective.KEO=케오 데우다이
 TINationTemplate.displayNameWithArticlePrep.KEO=케오 데우다이
+
 TINationTemplate.displayName.NCL=뉴칼레도니아
 TINationTemplate.displayNameWithArticle.NCL=뉴칼레도니아
 TINationTemplate.nationAdjective.NCL=뉴칼레도니아
 TINationTemplate.displayNameWithArticlePrep.NCL=뉴칼레도니아
+
 TINationTemplate.unionDisplayName.PAK=파키스탄
 TINationTemplate.unionDisplayNameWithArticle.PAK=파키스탄
 TINationTemplate.unionAdjective.PAK=파키스탄
 TINationTemplate.unionDisplayNameWithArticlePrep.PAK=파키스탄
+
 TINationTemplate.displayName.SIL=실레시아
 TINationTemplate.displayNameWithArticle.SIL=실레시아
 TINationTemplate.nationAdjective.SIL=실레시아
 TINationTemplate.displayNameWithArticlePrep.SIL=실레시아
+
 TINationTemplate.displayName.PRA=국제연합
 TINationTemplate.displayNameWithArticle.PRA=국제연합
 TINationTemplate.nationAdjective.PRA=국제연합
 TINationTemplate.displayNameWithArticlePrep.PRA=국제연합
+
 TINationTemplate.unionDisplayName.MLI=사헬 연방
 TINationTemplate.unionDisplayNameWithArticle.MLI=사헬 연방
 TINationTemplate.unionAdjective.MLI=사헬 연방
 TINationTemplate.unionDisplayNameWithArticlePrep.MLI=사헬 연방
+
 TINationTemplate.unionDisplayName.CMR=중앙아프리카 협동조합
 TINationTemplate.unionDisplayNameWithArticle.CMR=중앙아프리카 협동조합
 TINationTemplate.unionAdjective.CMR=중앙 아프리카
 TINationTemplate.unionDisplayNameWithArticlePrep.CMR=중앙아프리카 협동조합
+
 TINationTemplate.unionDisplayName.DZA=마그레브 연합
 TINationTemplate.unionDisplayNameWithArticle.DZA=마그레브 연합
 TINationTemplate.unionAdjective.DZA=마그레브 연합
 TINationTemplate.unionDisplayNameWithArticlePrep.DZA=마그레브 연합
+
 TINationTemplate.unionDisplayName.IND=아칸드 바라트
 TINationTemplate.unionDisplayNameWithArticle.IND=아칸드 바라트
 TINationTemplate.unionAdjective.IND=아칸드 바라트

@@ -16,6 +16,7 @@ UI.Habs.MainHeader=Habitats
 UI.Habs.NoHabSelected=Nenhum habitat selecionado
 UI.Habs.TierCrew={0} (Nível {1}/Máx. {2})
 UI.Habs.SelectAModule=Selecione um módulo
+UI.Habs.CantBuild=<size=60%>Os habitats sob ataque ou bombardeio, ou que estiverem sendo descomissionados, não podem construir ou melhorar módulos.</size>
 UI.Habs.SectorID=Setor {0}
 UI.Habs.Tier=Módulo de nível {0}
 UI.Habs.Crew=Tripulação: {0}
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath=De {0} para {1}																// old module displayName, up
 UI.Habs.UpgradeAllofTypeQuery=Confirmar irá melhorar os módulos de {0}: {1} para {2}.
 UI.Habs.CantAffordUpgradeAllofType=Não podemos pagar por isso no momento.
 UI.Habs.BaseSiteName=Base {0}																// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks={0} Este habitat não pode construir ou melhorar módulos enquanto estiver sob ataque.

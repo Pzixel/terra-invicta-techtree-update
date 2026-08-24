@@ -666,6 +666,7 @@ TIDriveTemplate.OpenCycle=Dieser Antrieb verwendet eine <h>offene Kühlung</h>. 
 TIDriveTemplate.ClosedCycle=Dieser Antrieb verwendet eine <h>geschlossene Kühlung</h>. Das bedeutet, dass schwere Kühlelemente erforderlich sind, um die entstehende Hitze abzuführen. In der Regel werden sie von Antrieben mit hoher Abgasgeschwindigkeit benötigt.
 TIDriveTemplate.ISRU=Dieser Antrieb kann mit Treibstoff aus nicht ausgebauten Habitatstandorten ohne Spezialausrüstung geladen werden.
 TIDriveTemplate.UsesHelium3=Dieser Antrieb nutzt Helium-3 als Treibstoff, das in Reaktoren aus spaltbaren Materialien gewonnen werden muss, sofern wir es nicht direkt von den Gasriesen des Sonnensystems gewinnen können.
+TIDriveTemplate.NoEVPenalty=Dieser Antrieb büßt auch bei Gefechtsschub keine Austrittsgeschwindigkeit ein.
 TIDriveTemplate.PowerGeneration=Notstrom für Schiffsysteme:<rcol>{0}</rcol>
 TIDriveTemplate.PowerGenerationType.Always=Immer
 TIDriveTemplate.PowerGenerationType.DriveIdle=Ohne Schub

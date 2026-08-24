@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=Questa nave ha un'arma in modalità focali
 UI.SpaceCombat.Warning.ShipNoThrust=Questa nave non può più avanzare a causa della mancanza di carburante, dei danni critici al ponte o al sistema di propulsione.
 UI.SpaceCombat.Warning.ShipNoWeapons=Questa nave ha subito danni critici ai sistemi d'armi e non può sparare.
 UI.SpaceCombat.Warning.ShipTarget=La nave sta mirando contro {0}.
-UI.SpaceCombat.Warning.ManeuverTarget={0} sta cercando di raggiungere la stessa velocità della nave.
+UI.SpaceCombat.Warning.ManeuverTarget={0} sta cercando di raggiungere la stessa velocità del bersaglio.
 UI.SpaceCombat.Warning.RotationStatus.Critical=I propulsori vettoriali della nave hanno subito danni critici ed è stata compromessa la velocità di virata.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=I propulsori vettoriali della nave sono stati danneggiati e la velocità di virata si è abbassata.
 UI.SpaceCombat.Warning.RotationStatus.Good=I propulsori vettoriali della nave funzionano perfettamente. 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=La nave è in manovra per evitare la collisione
 UI.SpaceCombat.Offline=Offline
 UI.SpaceCombat.Damaged=Danneggiato
 UI.SpaceCombat.Online=Online
+UI.SpaceCombat.Jammed=Inceppato
 
 UI.SpaceCombat.Weapon.Damaged=Quest'arma è danneggiata e non può sparare finché non viene riparata.
 UI.SpaceCombat.Weapon.Cooldown=Quest'arma si sta raffreddando e sarà pronta a sparare quando avrà completato il raffreddamento.
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Ordina rinforzi
 
 UI.SpaceCombat.Critical=CRIT!
 UI.SpaceCombat.RawDamage=Danno grezzo
-UI.SpaceCombat.AbsorbedDamage=Danno assorbito dalla blindatura della nave
-UI.SpaceCombat.PenetratedDamage=Danno che penetra nei sistemi della nave
-UI.SpaceCombat.RadiationDamage=Danno da radiazione che aggira la blindatura e danneggia direttamente i sistemi navali
+UI.SpaceCombat.AbsorbedDamage=Danno assorbito dalla blindatura
+UI.SpaceCombat.PenetratedDamage=Danno che penetra nei sistemi
+UI.SpaceCombat.RadiationDamage=Danno da radiazione che aggira la blindatura e danneggia direttamente i sistemi
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Raffreddamento in corso
 UI.SpaceCombat.RadiatorStatus.Heating=Riscaldamento in corso
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Nave disarmata
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= Danni
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= Tenuta blindatura
 UI.SpaceCombat.BattleLog.PartRepaired.Title= Ripara
+
+UI.SpaceCombat.WaypointAvoidance=La traiettoria prevede una collisione

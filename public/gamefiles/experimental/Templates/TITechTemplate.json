@@ -230,7 +230,6 @@
    "endGameTech": false,
    "researchCost": 25000,
    "prereqs": [
-      "AdvancedNeuralNetworks",
       "QuantumComputing"
    ],
    "effects": [
@@ -729,6 +728,9 @@
    "prereqs": [
       "IndependenceMovements",
       "ArrivalInternationalRelations"
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {
@@ -977,6 +979,9 @@
    "prereqs": [
       "ArrivalDomesticPolitics",
       "ArrivalSociology"
+   ],
+   "scenarioTags": [
+      "NotPostApoc"
    ]
 },
  {

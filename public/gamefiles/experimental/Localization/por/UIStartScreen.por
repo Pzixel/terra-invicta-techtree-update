@@ -18,7 +18,7 @@ UI.StartScreen.Mods.WorkshopUploadModDesc=Descrição do mod
 UI.StartScreen.Mods.WorkshopUploadModFolder=Abrir pasta de mods
 UI.StartScreen.Mods.WorkshopUploadSubmit=Enviar mod
 UI.StartScreen.Mods.WorkshopUploadModHelp=Use o botão "abrir pasta de mods" acima para ir até a pasta que contém os seus mods. Coloque os arquivos do seu mod dentro dessa pasta junto com um arquivo .png com o mesmo nome do seu mod. Quando terminar, cliquem em "enviar" e seu novo mod será enviar à Oficina Steam.
-UI.StartScreen.Mods.WorkshopUpdateExistingInfo= Se você precisar atualizar seu mod no futuro, use a janela de atualização de mods e siga os mesmos passos. As informações e os arquivos salvos na Steam serão atualizados.
+UI.StartScreen.Mods.WorkshopUpdateExistingInfo=Se você precisar atualizar seu mod no futuro, use a janela de atualização de mods e siga os mesmos passos. As informações e os arquivos salvos na Steam serão atualizados.
 UI.StartScreen.Mods.WorkshopSearch=Buscar mods...
 UI.StartScreen.Mods.SortVotes=Votos
 UI.StartScreen.Mods.SortNewest=Mais recente
@@ -43,15 +43,19 @@ UI.StartScreen.Mods.ModDownloadedLocalFolder=Pasta local:
 UI.StartScreen.Mods.ModDownloaded=Mod baixado com sucesso
 UI.StartScreen.Mods.ModDownloadedInfo=Reinicie Terra Invicta para completar a instalação do mod<br/>
 UI.StartScreen.Mods.UseMods=Usar mods
-UI.StartScreen.Mods.UseModsDescription=Ativar esta opção irá carregar os mods com modelos e pacotes de recursos instalados. Alterar esta configuração e instalar ou apagar mods pode exigir que o jogo seja reiniciado para que as mudanças sejam aplicadas. As conquistas serão desativadas se esta opção estiver marcada.
+UI.StartScreen.Mods.UseModsDescription=Ativar esta opção irá carregar os mods com modelos e pacotes de recursos instalados. Alterar esta configuração e instalar ou apagar mods pode exigir que o jogo seja reiniciado para que as mudanças sejam aplicadas.
 UI.StartScreen.Mods.ModWarningHeaderBadState=O mod está em más condições.
 UI.StartScreen.Mods.ModWarningDescriptionBadState=O mod "{0}" está tanto na pasta de mods desativados quanto na pasta de mods ativados. Verifique as pastas e remova os arquivos de uma delas.
 UI.StartScreen.Mods.ModWarningHeaderFailLoadJson=O gerenciador de mods não conseguiu carregar o arquivo .json.
 UI.StartScreen.Mods.ModWarningDescriptionFailLoadJson=O arquivo de mod "{0}" não conseguiu carregar o arquivo .json e os mods não foram instalados corretamente. Conserte o erro ou desative o mod e reinicie Terra Invicta.<br/><br/> Erro - {1}
 UI.StartScreen.Mods.ModWarningNoItemsFoundHeader=Nenhum item encontrado
-UI.StartScreen.Mods.ModWarningNoItemsFoundDescription=Não é possível encontrar itens para enviar. Parece que você ainda não enviou nenhum item ou que eles não podem ser recuperados.
+UI.StartScreen.Mods.ModWarningNoItemsFoundDescription=Não é possível encontrar itens para atualizar. Parece que você ainda não enviou nenhum item ou que eles não podem ser recuperados.
 UI.StartScreen.TemplateLoadingFailureHeader=Arquivos de template corrompidos detectados
 UI.StartScreen.TemplateLoadingFailureDesc=O jogo anterior falhou em abrir devido a arquivos corrompidos de template. Os mods foram desativados. Um ou mais de seus mods pode estar desatualizado e conter dados de template incompatíveis.
+UI.StartScreen.Mods.ModWarningHeaderFailGeneral=Erro ao carregar mods
+UI.StartScreen.Mods.ModWarningDescriptionFailGeneral=Erro ao carregar um ou mais arquivos de mod. Desative os mods abaixo e reinicie Terra Invicta: <br/><br/>{0}<br/><br/>{1}
+UI.StartScreen.Mods.ModWarningHeaderDeleteFail=Falha ao apagar arquivos
+UI.StartScreen.Mods.ModWarningDescriptionDeleteFail=Os arquivos podem estar sendo usados. Reinicie Terra Invicta e tente novamente.
 UI.StartScreen.Mods.Install=Instalar
 UI.StartScreen.Mods.Enabled=Ativado
 UI.StartScreen.Mods.Disabled=Desativado
@@ -74,6 +78,13 @@ UI.StartScreen.Mods.ModToolsInfo1=Os mods ficam no diretório raiz das pastas Mo
 UI.StartScreen.Mods.ModToolsInfo2=Os arquivos de modelo dentro da pasta do mod serão analisados. As entradas existentes no .json sobrescreverão os dados base do jogo, e novas entradas no .json serão acrescentadas. Os pacotes de recursos na pasta do mod serão carregados ao iniciar o jogo, o que lhe permitirá adicionar recursos gráficos ao jogo. Os arquivos com texto localizado na pasta do mod acrescentarão e substituirão entradas de texto que correspondem ao idioma da extensão do arquivo. Por exemplo. arquivos .en substituirão as entradas de texto em inglês nesse modelo
 UI.StartScreen.Mods.ModsInSave=Mods usados
 UI.StartScreen.Mods.Checking=Verificando atualizações de mods...
+UI.StartScreen.Mods.Subscribe=Inscrever-se
+UI.StartScreen.Mods.Unsubscribe=Cancelar inscrição
+UI.StartScreen.Mods.Subscribed=Inscrito
+UI.StartScreen.Mods.Unsubscribed=Não inscrito
+UI.StartScreen.Mods.Updated=Atualizado
+UI.StartScreen.Mods.InstallModsNotice=Mods aos quais você tem uma inscrição na Oficina Steam foram instalados ou atualizados. Reinicie o jogo para terminar de instalar as mudanças.
+UI.StartScreen.Mods.UninstallModsNotice=Mods instalados aos quais você cancelou sua inscrição na Oficina Steam foram desativados. Reinicie o jogo para terminar de instalá-los.
 UI.StartScreen.Mods.Tags.0=Nenhum
 UI.StartScreen.Mods.Tags.1=Equilíbrio
 UI.StartScreen.Mods.Tags.2=Jogabilidade
@@ -84,7 +95,7 @@ UI.StartScreen.Mods.Tags.6=Conselheiros
 UI.StartScreen.Mods.Tags.7=Naves
 UI.StartScreen.Mods.Tags.8=Utilidades
 UI.StartScreen.FailedToLoadSave=Carregamento do arquivo salvo falhou
-UI.StartScreen.FailedToLoadSaveDescription=Não foi possível carregar o jogo salvo devido a uma incompatibilidade com a versão do jogo ou dados salvos inválidos.<br/><br/>Jogadores que desejem seguir jogando com arquivos da versão 0.3 e usam serviços que disponibilizam versões antigas (como Steam e GOG) devem configurar seu jogo para uma versão anterior no serviço usado.
+UI.StartScreen.FailedToLoadSaveDescription=Não foi possível carregar o jogo salvo devido a uma incompatibilidade com a versão do jogo ou dados salvos inválidos.<br/><br/>Jogadores que desejem seguir jogando com arquivos de uma versão mais velha e usam serviços que disponibilizam versões antigas (como Steam e GOG) devem configurar seu jogo para uma versão anterior no serviço usado.
 UI.StartScreen.StartupErrorHeader=Erro de inicialização do jogo
 UI.StartScreen.StartupErrorSavePath=O jogo não teve permissão para acessar o diretório com arquivos salvos necessário e não poderá ser iniciado. Verifique as permissões relacionadas a esse diretório e/ou qualquer software de salvamento na nuvem (o OneDrive, por exemplo) para garantir que o jogo seja capaz de ler e escrever arquivos na seguinte pasta:<br/><br/>{0}<br/><br/>Para acessar nosso suporte, envie um email para support@pavonisinteractive.com<br/><br/>O programa irá fechar quando você pressionar Ok.
 UI.StartScreen.TutorialDesc=Recomendamos que em sua primeira partida você jogue com a facção Resistência e ative o tutorial.
@@ -190,102 +201,84 @@ UI.StartScreen.CustomizeCampaign.SmallShipNameListIdxText=Nomes de naves pequena
 UI.StartScreen.CustomizeCampaign.MediumShipNameListIdxText=Nomes de naves médias
 UI.StartScreen.CustomizeCampaign.LargeShipNameListIdxText=Nomes de naves grandes
 UI.StartScreen.CustomizeCampaign.HabNameListIdxText=Nome do habitat
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Adicionar frota de assalto alienígena
-UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Adiciona mais uma frota alienígena com cargueiros de assalto no início da campanha.
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleet=Adicionar frota de invasão alienígena
+UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=Adiciona mais uma frota alienígena com vários cargueiros de assalto no início da campanha. <h>Esta opção irá aumentar consideravelmente a dificuldade da campanha e é recomendado apenas para jogadores experientes.</h>
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=Padrão campanha acelerada
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=Padrão campanha longa
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=Conf. da campanha anterior
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactions=Permitir que facções da IA fiquem desativadas
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactionsTooltip=Permite que a rederização de algumas das facções humanas controladas pela IA fique dormente se elas forem superadas o bastante. Isso pode começar a acontecer quando os turnos dos conselheiros ocorrerem menos de duas vezes por mês, ou se a facção não tiver frotas, habitats, conselheiros ou pontos de controle no início de um dia. Nesse ponto, a facção interromperá suas atividades, mas a ideologia deles continuará a existir e ter seguidores.<br/><br/>Certas facções não podem ficar desabilitadas devido a seu papel fundamental na história: em uma partida com todas as facções, os Servos e o Protetorado estão sempre ativos e, se o jogador não estiver jogando com a Resistência ou a Primazia Humana, a Primazia Humana também está sempre ativa.
+UI.StartScreen.CustomizeCampaign.Namelist.Heroes=Heróis
+UI.StartScreen.CustomizeCampaign.Namelist.Qualities=Qualidades
+UI.StartScreen.CustomizeCampaign.Namelist.Battles=Batalhas
+UI.StartScreen.CustomizeCampaign.Namelist.Commanders=Comandantes
+UI.StartScreen.CustomizeCampaign.Namelist.Weapons=Armas
+UI.StartScreen.CustomizeCampaign.Namelist.Fighters=Caças
+UI.StartScreen.CustomizeCampaign.Namelist.Scary=Assustadores
+UI.StartScreen.CustomizeCampaign.Namelist.Mountains=Montanhas
+UI.StartScreen.CustomizeCampaign.Namelist.WaterAnimals=Animais aquáticos
+UI.StartScreen.CustomizeCampaign.Namelist.Rivers=Rios
+UI.StartScreen.CustomizeCampaign.Namelist.WaterBodies=Corpos de água
+UI.StartScreen.CustomizeCampaign.Namelist.Explorers=Exploradores
+UI.StartScreen.CustomizeCampaign.Namelist.MythicalBeasts=Criaturas míticas
+UI.StartScreen.CustomizeCampaign.Namelist.Phenomena=Fenômenos
+UI.StartScreen.CustomizeCampaign.Namelist.Mythology=Mitologia
+UI.StartScreen.CustomizeCampaign.Namelist.Monuments=Monumentos
+UI.StartScreen.CustomizeCampaign.Namelist.Cities=Cidades
+UI.StartScreen.CustomizeCampaign.Namelist.Regions=Regiões
+UI.StartScreen.CustomizeCampaign.Namelist.Landmasses=Terrenos
+UI.StartScreen.CustomizeCampaign.Namelist.Leaders=Líderes
+UI.StartScreen.CustomizeCampaign.Namelist.LandAnimals=Animais terrestres
+UI.StartScreen.CustomizeCampaign.Namelist.Scientists=Cientistas
+UI.StartScreen.CustomizeCampaign.Namelist.Exploration=Exploração
+UI.StartScreen.CustomizeCampaign.Namelist.Exemplars=Exemplares
+UI.StartScreen.CustomizeCampaign.Namelist.AirAnimals=Animais aéreos
+UI.StartScreen.CustomizeCampaign.Namelist.Astronomy=Astronomia
+UI.StartScreen.CustomizeCampaign.Namelist.FamousShips=Naves famosas
+UI.StartScreen.CustomizeCampaign.Namelist.Astronauts=Astronautas
+UI.StartScreen.CustomizeCampaign.Namelist.AlienNature=Natureza alienígena
+UI.StartScreen.CustomizeCampaign.Namelist.AlienCelestial=Celestes alienígenas
+UI.StartScreen.CustomizeCampaign.Namelist.AlienConcepts=Conceitos alienígenas
+UI.StartScreen.CustomizeCampaign.Namelist.AlienMilitant=Militantes alienígenas
 UI.StartScreen.Cancel=Cancelar
 UI.StartScreen.FactionDescription={0}<br/>Dificuldade da facção: {1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=Notas do patch
+UI.StartScreen.CallToAction00=Já disponível!
 UI.StartScreen.TranslationWarning=Receba nossas boas-vindas à versão de acesso antecipado de Terra Invicta!<br/><br/>As traduções para os idiomas além do inglês ainda estão sendo revisadas e testadas em busca de problemas, então talvez você veja alguns erros gramaticais, termos inconsistentes e parte do texto em inglês. Estamos trabalhando o mais rápido possível para deixar tudo em ordem, mas Terra Invicta tem texto suficiente para encher alguns livros, então levará algum tempo para terminarmos a revisão.<br/><br/>Agradecemos pela chance que você está dando a Terra Invicta nesse estado inicial. Nós estamos trabalhando para continuar melhorando o jogo!
 UI.StartScreen.GamepassWarning=Terra Invicta se encontra em Game Preview, portanto, algumas mecânicas do jogo ou recursos relacionados à plataforma podem não funcionar como esperado, e você pode encontrar bugs e encerramentos súbitos. Para obter ajuda, envie um email para support@pavonisinteractive.com.<br/><br/>Salvamentos na nuvem podem não funcionar de forma consistente. Se você tiver quaisquer problemas, os jogos salvos podem ser encontrados no diretório C:\Users\YOURNAME\Documents\My Games\TerraInvicta\Saves ou em %homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\
 //<Developer> Credits
-UI.StartScreen.TICredits_0=TERRA INVICTA<br/><br/>
-UI.StartScreen.TICredits_1=CRIADO POR<br/>Pavonis Interactive<br/><br/>
-UI.StartScreen.TICredits_2=DISTRIBUÍDO POR<br/>Hooded Horse<br/><br/>
-UI.StartScreen.TICredits_3=DIRETOR CRIATIVO<br/>John J. Lumpkin<br/><br/>
-UI.StartScreen.TICredits_4=DIREÇÃO DE ARTE<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=DESENVOLVEDORES<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Benjamin Poland<br/>Ryan Dunagan<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=PRODUTOR LÍDER<br/>Tim Bender<br/><br/>PRODUTOR<br/>Scott Davis<br/><br/>
-UI.StartScreen.TICredits_7=ARTISTA DE PERSONAGENS E DE 2D<br/>Michael Moore<br/><br/>
-UI.StartScreen.TICredits_8=ILUSTRADORES<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
-UI.StartScreen.TICredits_9=ARTISTAS TÉCNICOS<br/>Zack Dawson<br/><br/>
-UI.StartScreen.TICredits_10=GURU DE INTERFACE<br/>Josh Atkinson<br/><br/>
-UI.StartScreen.TICredits_11=ARTISTA 3D/2D<br/>Anthony Dillo<br/><br/>
-UI.StartScreen.TICredits_12=COMPOSITORES MUSICAIS<br/>Patrick Delaney<br/>Dennis Meyer<br/>Breakdown Epiphanies<br/><br/>
-UI.StartScreen.TICredits_13=DESIGNER DE ÁUDIO<br/>Zabi Khan<br/><br/>
-UI.StartScreen.TICredits_14=ESCRITORES<br/>Alec Meer<br/>Benedict Jacka<br/>Arturo Ferreira<br/>Cara Laasch<br/><br/>
-UI.StartScreen.TICredits_15=DESIGNERS DE CONTEÚDO<br/>Tayta Malikai<br/>David Ballantyne<br/><br/>
-UI.StartScreen.TICredits_16=COORDENADORA DE PRODUÇÃO<br/>Shannon Sindorf<br/><br/>
-UI.StartScreen.TICredits_17=DESENVOLVEDORES ADICIONAIS<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Amineri<br/><br/>
-UI.StartScreen.TICredits_18=PRODUTORES EXECUTIVOS<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Pottenger<br/>Xavier Wynns<br/><br/>
+
 
 //<AP> Credits + Messages
 
-UI.StartScreen.TICredits_19=PRODUTORES ASSOCIADOS<BR/>
-UI.StartScreen.TICredits_20=Rachel Dilger<br/><br/>
-UI.StartScreen.TICredits_21=<skip/>
-UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
-UI.StartScreen.TICredits_23="Seja humilde, pois você é feito de barro. Seja nobre, pois você é feito de estrelas."<br/><br/>
-UI.StartScreen.TICredits_24=Martti Aarnio-Wihuri<br/><br/>
-UI.StartScreen.TICredits_25=<skip/>
-UI.StartScreen.TICredits_26=John O. e Eileen Lumpkin<br/>
-UI.StartScreen.TICredits_27="De uma cabine sobrevoando o Pacífico na Segunda Guerra Mundial a futuros mundos nas estrelas - uma jornada em família."<br/><br/>
-UI.StartScreen.TICredits_28=Jack Peterson<br/>
-UI.StartScreen.TICredits_29="Cure o envelhecimento ou morra tentando."<br/><br/>
-UI.StartScreen.TICredits_30=Schinhofen Books<br/>
-UI.StartScreen.TICredits_31="Ler é mais uma fuga."<br/><br/>
-UI.StartScreen.TICredits_32=Florian Ossiander<br/><br/>
-UI.StartScreen.TICredits_33=<skip/>
-UI.StartScreen.TICredits_34=Jeffrey Lee Henninger<br/>
-UI.StartScreen.TICredits_35="O universo aguarda aqueles que ousarem."<br/><br/>
-UI.StartScreen.TICredits_36=Stardust<br/>"Vá com o vento solar."<br/><br/>
-UI.StartScreen.TICredits_37=Stefano de Stefano<br/>"Não podemos resolver nossos problemas com a mesma mentalidade que tínhamos quando os criamos."<br/><br/>
-UI.StartScreen.TICredits_38=Sean Hassan<br/>"Nosso desafio é viver uma vida sem ilusões, sem ficarmos desiludidos."<br/><br/>
-UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>"Seja lá o que fizermos agora, frente às crises em constante mudança - sejam guerras, desastres ou a mudança climática - isso atravessará o tempo e determinará o destino da humanidade. Com o espaço e a tecnologia, nós talvez ainda possamos encontrar um salvador para esses desafios existenciais."<br/><br/><br/>
+
 
 //<VA> Credits
 
 
-UI.StartScreen.TICredits_55=VOZES DOS CONSELHEIROS<br/>
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57=ESTRELAS DO CONTROLE DE QUALIDADE<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/><br/><br/>
-UI.StartScreen.TICredits_58=AGRADECIMENTOS<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/><br/>
+
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<BR/>
-UI.StartScreen.TICredits_60=DIRETOR EXECUTIVO<br/>Tim Bender<br/><br/>
-UI.StartScreen.TICredits_61=DIRETORA FINANCEIRAE ASSESSORA GERAL<br/>Snow Rui<br/><br/>
-UI.StartScreen.TICredits_62=DIRETOR DE PRODUTOS<br/>Ashkan Namousi<br/><br/>
-UI.StartScreen.TICredits_63=ASSESSOR<br/>Shams Jorjani<br/><br/>
-UI.StartScreen.TICredits_64=DIRETOR DE COMUNICAÇÕES<br/>Joe Robinson<br/><br/>GERENTE DE COMUNICAÇÕES<br/>Marcello Perricone<br/><br/>
-UI.StartScreen.TICredits_65=GERENTE DE INFLUENCERS<br/>Antony "HForHavoc" Floyd<br/><br/>
-UI.StartScreen.TICredits_66=GERENTES DE INFLUENCERS ASSOCIADOS<br/>Shaun "BearlyTactical" Ginty<br/>Noris "komakrtv" Merk<br/><br/>
-UI.StartScreen.TICredits_67=CONSULTORES DE MARKETING<br/>PartyElite<br/>Tsukiha Shirakusu<br/>Caketown Interactive<br/>Filip Sirc<br/><br/>
-UI.StartScreen.TICredits_68=PRODUTORES DE TRAILERS<br/>Slavic Magic<br/>Grzegorz Styczen<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_69=GERENTES DE RELAÇÕES PÚBLICAS<br/>Vicarious PR<br/>Michael Brown<br/>Lewis Burnell<br/>Matt Brown<br/><br/>
-UI.StartScreen.TICredits_70=COORDENADOR DE LOCALIZAÇÃO<br/>Miguel David Medina García<br/><br/>
-UI.StartScreen.TICredits_71=LOCALIZADORES<br/>Brenda Triandafeledis<br/>Laura Nieves Díaz Suárez<br/>Carlota Marie Dávila Santana<br/>Marta Medina González<br/>Wenwei Jiang<br/>Yuki Fujita<br/>Terra Invicta Chinese Fan Localization Group<br/>Roboto Global<br/>EC Innovations<br/><br/>
-UI.StartScreen.TICredits_72=AGRADECIMENTOS ESPECIAIS<br/>Aaron Nathan<br/>Martti Aarnio-Wihuri<br/>Todd D'Arcy<br/><br/>
-UI.StartScreen.TICredits_73=BEBÊS DO DESENVOLVIMENTO!<br/>Théodore<br/>Carmen Rose<br/><br/>
+
 
 //<Contributing Backers> Credits
-UI.StartScreen.TICredits_74=CONTRIBUINTES CRITATIVOS DO KICKSTARTER<br/>
+
+
 
 //<Playtester> Credits
-UI.StartScreen.TICredits_105=KICKSTARTER
-UI.StartScreen.TICredits_106= PLAYTESTERS<br/>
+
+
 
 //<Backers> Credits
-UI.StartScreen.TICredits_393=<br/>KICKSTARTER BACKERS<br/>
 
-UI.StartScreen.TICredits_1337=SOFTWARE<br/><br/>Feito com Unity<br/><br/>Feito com FMOD Studio<br/>de Firelight Technologies Limited<br/><br/>
-UI.StartScreen.TICredits_1338=Muitos dos ícones usados no jogo para as empresas privadas são cortesia de LogoLogo.com.<br/>O uso de logos de agências do governo nesta obra de ficção não implica o apoio ou o suporte dessas agências.<br/><br/>
-UI.StartScreen.TICredits_1339=Algumas das fotos usadas como referência para as imagens de fundo dos conselheiros são cortesia da NASA.
-UI.StartScreen.TICredits_1340=Autor de Uma História em Duas Cidades: Charles Dickens
+
+UI.StartScreen.TICredits_1347=SOFTWARE<br/><br/>Feito com Unity<br/><br/>Feito com FMOD Studio<br/>de Firelight Technologies Limited<br/><br/>
+UI.StartScreen.TICredits_1348=Muitos dos ícones usados no jogo para as empresas privadas são cortesia de LogoLogo.com.<br/>O uso de logos de agências do governo nesta obra de ficção não implica o apoio ou o suporte dessas agências.<br/><br/>
+UI.StartScreen.TICredits_1349=Algumas das fotos usadas como referência para as imagens de fundo dos conselheiros são cortesia da NASA.
+UI.StartScreen.TICredits_1350=Autor de Uma História em Duas Cidades<br/>Charles Dickens

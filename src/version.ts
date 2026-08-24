@@ -13,14 +13,14 @@ export const GameVersions: Record<GameVersionCode, GameVersion> = {
     code: 'stable',
     name: 'Stable',
     shortLabel: 'Stable',
-    description: '1.0 RC19',
+    description: '1.0',
     emoji: '⚖️'
   },
   experimental: {
     code: 'experimental',
     name: 'Experimental',
     shortLabel: 'Experimental',
-    description: '1.0 RC19', // experimental is the same atm, may be changed later
+    description: '1.0', // both codes resolve to one verified snapshot for this release
     emoji: '🔬'
   }
 };

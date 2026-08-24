@@ -1,0 +1,1700 @@
+[
+ {
+   "dataName": "Effect_BS_CPResearchPenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "ControlPointResearch"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPResearchRepairA",
+   "localizationAlias": "Effect_CPResearch10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointResearch"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPResearchBonus_Awareness",
+   "localizationAlias": "Effect_CPResearch10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointResearch"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPResearchBonus_SubmitA",
+   "localizationAlias": "Effect_CPResearch10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointResearch"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenancePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 40,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceRepairA",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -10,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceRepairB",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -10,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceRepairC",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -10,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SustainabilityPenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "EnvironmentPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SustainabilityRepair",
+   "localizationAlias": "Effect_EnvironmentPriority05",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "EnvironmentPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MCPenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "MissionControlPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MCRepair",
+   "localizationAlias": "Effect_MissionControlPriorityBonus05",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.25,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MissionControlPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_BoostPenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.35,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_BoostRepair",
+   "localizationAlias": "Effect_LaunchFacilitiesPriorityBonus05",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.55,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceProgramBonusA",
+   "localizationAlias": "Effect_SpaceflightProgramPriorityBonus05",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.4,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceflightPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_InfluencePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "PublicOpinionInfluence"
+   ]
+},
+ {
+   "dataName": "Effect_BS_InfluenceRepair",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.25,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "PublicOpinionInfluence"
+   ]
+},
+ {
+   "dataName": "Effect_BS_BirthratePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "NationPopGrowthModifierChange",
+   "operation": "Additive",
+   "value": 0.4,
+   "effectTarget": "AllNations",
+   "effectDuration": "instant",
+   "stackable": true,
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_AllFactionRecruitsInvestigationBonus",
+   "localizationAlias": "Effect_AllRecruitsInvestigation2",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "AllRecruitStats"
+   ]
+},
+ {
+   "dataName": "Effect_BS_AllFactionCouncilorsInvestigationBonus",
+   "localizationAlias": "Effect_AllCouncilorsInvestigation2",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "FactionAllCouncilorsModifyAttribute",
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_PublicizeAlienThreat",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "PublicizedAlienThreat"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MaterialSciencePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "MaterialScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceSciencePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "SpaceScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_EnergySciencePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "EnergyScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_LifeSciencePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "LifeScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MilitarySciencePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "MilitaryScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_InformationSciencePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "InformationScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SocialSciencePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "SocialScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_XenologyPenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "Xenology"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MaterialScienceBonusA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.3,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MaterialScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceScienceBonusA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_EnergyScienceBonusA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.3,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "EnergyScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_LifeScienceBonusA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.3,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LifeScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MilitaryScienceBonusA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.3,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_InformationScienceBonusA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.3,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "InformationScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SocialScienceBonusA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.3,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SocialScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_XenologyBonusA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Xenology"
+   ]
+},
+ {
+   "dataName": "Effect_BS_ShipConstructionTimePenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "ShipConstructionTime"
+   ]
+},
+ {
+   "dataName": "Effect_BS_ShipConstructionTimeRepair",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipConstructionTime"
+   ]
+},
+ {
+   "dataName": "Effect_BS_OfficerSpawnChance50",
+   "localizationAlias": "Effect_OfficerSpawnChance02",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipOfficerPromotion"
+   ]
+},
+ {
+   "dataName": "Effect_BS_ImprovedSpaceCombatDamageControl10",
+   "localizationAlias": "Effect_ImprovedSpaceCombatDamageControlMinor",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Combat_ShipRepairSpeed"
+   ]
+},
+ {
+   "dataName": "Effect_BS_ShipLaserDamage10",
+   "localizationAlias": "Effect_ShipLaserDamageMinor",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipLaserDamage"
+   ]
+},
+ {
+   "dataName": "Effect_BS_ShipMagDamage10",
+   "localizationAlias": "Effect_ShipMagDamageMinor",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipMagDamage"
+   ]
+},
+ {
+   "dataName": "Effect_BS_ShipConvMissileDamage10",
+   "localizationAlias": "Effect_ShipConvMissileDamageMinor",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipConvMissileDamage"
+   ]
+},
+ {
+   "dataName": "Effect_BS_ShipParticleLaserDamage10",
+   "localizationAlias": "Effect_ShipLaserDamage",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ParticleLaserDamage"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceshipSurvivability95",
+   "localizationAlias": "Effect_DamageReductionAllMinor",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.95,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DamageReductionAgainstAllShips"
+   ]
+},
+ {
+   "dataName": "Effect_BS_TotalHabMissionControlCost85",
+   "localizationAlias": "Effect_TotalHabMissionControlCost",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.85,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "HabMissionControlReduction"
+   ]
+},
+ {
+   "dataName": "Effect_BS_TotalShipMissionControlCost85",
+   "localizationAlias": "Effect_TotalShipMissionControlCost",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.85,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ShipMissionControlReduction"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SemiMajorAxisExplorationConstraint",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "SemiMajorAxisExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SemiMajorAxisExplorationI",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 2.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "SemiMajorAxisExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SemiMajorAxisExplorationII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 2.5,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "SemiMajorAxisExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SemiMajorAxisExplorationIII",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 1000,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "SemiMajorAxisExplorationRange_AU"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceMiningPenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.7,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceMiningBonus"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceMiningRepair",
+   "localizationAlias": "Effect_SpaceMiningBonus5",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.7,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceMiningBonus"
+   ]
+},
+ {
+   "dataName": "Effect_BS_AlienAwareness",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "CompleteCampaignMilestone",
+   "strValue": "AlienAwareness_Public",
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "instant",
+   "stackable": false,
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_DiscoverAlienInvasion",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "CompleteCampaignMilestone",
+   "strValue": "AlienInvasionPlanDiscovered",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "stackable": false,
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_BlackSky",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "DecreaseToValue",
+   "value": 1.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "DetectAlienSpaceAssetsRange"
+   ]
+},
+ {
+   "dataName": "Effect_BS_GraySky",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 2,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAlienSpaceAssetsRange"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MilitaryPriorityBonus20",
+   "localizationAlias": "Effect_MilitaryPriorityBonus02",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_BuildArmyPriorityBonus10",
+   "localizationAlias": "Effect_BuildArmyPriorityBonus05",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildArmyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_BuildArmyPriorityBonus20",
+   "localizationAlias": "Effect_BuildArmyPriorityBonus05",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BuildArmyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_UpgradeArmyPriorityBonus20",
+   "localizationAlias": "Effect_UpgradeArmyPriorityBonus05",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "UpgradeArmyPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceBonus5",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceBonus10",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -10,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceBonus15",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -15,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceBonus20",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -20,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceBonus40",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -40,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceBonus80",
+   "localizationAlias": "Effect_ControlPointMaintenanceBonus10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -80,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CPMaintenanceBonus_MakingHistoryA",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -40,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "ControlPointMaintenance"
+   ]
+},
+ {
+   "dataName": "Effect_BS_BilateralCooldownA",
+   "localizationAlias": "Effect_RapidDiplomacy",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.87,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "BilateralRelationsCooldownMultiplier"
+   ]
+},
+ {
+   "dataName": "Effect_BS_CorruptionReductionA",
+   "localizationAlias": "Effect_CorruptionReduction20",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.9,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "Corruption"
+   ]
+},
+ {
+   "dataName": "Effect_BS_DefendInterestsA",
+   "localizationAlias": "Effect_DefendInterests5",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DefendInterestsValue"
+   ]
+},
+ {
+   "dataName": "Effect_BS_RecruitsGainChosen",
+   "localizationAlias": "Effect_GainTraitIndebted",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "SetToFixedValue",
+   "value": 1,
+   "strValue": "Chosen",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "AllRecruitTraits"
+   ]
+},
+ {
+   "dataName": "Effect_BS_AllRecruitsSecurity5",
+   "localizationAlias": "Effect_AllRecruitsSecurity2",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 5,
+   "strValue": "Security",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "AllRecruitStats"
+   ]
+},
+ {
+   "dataName": "Effect_BS_AllCouncilorsSecurity5",
+   "localizationAlias": "Effect_AllCouncilorsSecurity2",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "FactionAllCouncilorsModifyAttribute",
+   "operation": "Additive",
+   "value": 5,
+   "strValue": "Security",
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "stackable": true,
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_AugmentationMoneyCostReduction",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "AugmentationMoneyCost"
+   ]
+},
+ {
+   "dataName": "Effect_BS_AlienDetectionBonusA",
+   "localizationAlias": "Effect_GlobalListeningNetwork",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 2,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "DetectAliensOnEarth"
+   ]
+},
+ {
+   "dataName": "Effect_BS_AlienDetectionBonusB",
+   "localizationAlias": "Effect_GlobalListeningNetwork",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 8,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DetectAliensOnEarth"
+   ]
+},
+ {
+   "dataName": "Effect_BS_AlienMiltechBonus",
+   "localizationAlias": "Effect_MilitaryPriorityBonus02",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "AlienCouncil"
+   ],
+   "contexts": [
+      "MilitaryPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceScience5",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceScience"
+   ]
+},
+ {
+   "dataName": "Effect_BS_BoostPenaltyEvent",
+   "localizationAlias": "Effect_BS_BoostPenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_BoostPenaltyEventTemp",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 120,
+   "contexts": [
+      "LaunchFacilitiesPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceProgramPenaltyEvent",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "SpaceflightPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_SpaceProgramPenaltyEventTemp",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.1,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 120,
+   "contexts": [
+      "SpaceflightPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MilitaryBonusEventSmallGlobal",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 0.05,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MilitaryPenaltyEventSmallGlobal",
+   "localizationAlias": "Effect_MilitaryPriorityPenalty10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.05,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "MilitaryPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_GovernmentPenaltyEventTemp",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": -0.1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "temporary",
+   "stackable": true,
+   "duration_months": 120,
+   "contexts": [
+      "GovernmentPriority"
+   ]
+},
+ {
+   "dataName": "Effect_BS_DefendAllOwnedControlPoints",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "DefendAllOwnedControlPoints",
+   "value": 12,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": 12
+},
+ {
+   "dataName": "Effect_BS_DemocracyBackslides1",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Additive",
+   "value": 1,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": true,
+   "duration_months": -1,
+   "contexts": [
+      "DemocracyBackslides"
+   ]
+},
+ {
+   "dataName": "Effect_BS_NationFreeAbductions1",
+   "localizationAlias": "Effect_FreeAbductions1",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "NationAbductionsChange",
+   "value": 1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_NationFreeAbductions2",
+   "localizationAlias": "Effect_FreeAbductions2",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "NationAbductionsChange",
+   "value": 2,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_NationRemoveAbductions1",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "NationAbductionsChange",
+   "value": -1,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_FreeXenoInvestigations3",
+   "localizationAlias": "Effect_FreeXenoInvestigations10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "FactionInvestigationsChange",
+   "value": 3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_FreeXenoInvestigations5",
+   "localizationAlias": "Effect_FreeXenoInvestigations10",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "FactionInvestigationsChange",
+   "value": 5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_NukeRemove5",
+   "localizationAlias": "Effect_NukeRemove1",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "NationNukesChange",
+   "value": -5,
+   "effectTarget": "InputState",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_GlobalExcessMiltechReduction",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "instantEffect": "NationMiltechChange_ReduceExcess",
+   "value": 0.35,
+   "instantRnd": 0.1,
+   "strValue": 3.5,
+   "effectTarget": "AllExtantHumanNations",
+   "effectDuration": "instant",
+   "duration_months": -1
+},
+ {
+   "dataName": "Effect_BS_HabConstructionSpeedPenalty",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.5,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "HabConstructionSpeed"
+   ]
+},
+ {
+   "dataName": "Effect_BS_HabConstructionSpeedRepair",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 2,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "HabConstructionSpeed"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MineSizeReduction",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 0.25,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "ExploitCouncil",
+      "EscapeCouncil",
+      "CooperateCouncil",
+      "AppeaseCouncil",
+      "SubmitCouncil"
+   ],
+   "contexts": [
+      "MineSizeModifier"
+   ]
+},
+ {
+   "dataName": "Effect_BS_MineSizeNormalization",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "Multiplicative",
+   "value": 4,
+   "effectTarget": "AllHumanFactions",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "MineSizeModifier"
+   ]
+},
+ {
+   "dataName": "Effect_BS_EVBoostA",
+   "localizationAlias": "Effect_ImprovedRockets",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "operation": "IncreaseToValue",
+   "value": 5.3,
+   "effectTarget": "SourceFaction",
+   "effectDuration": "permanent",
+   "stackable": false,
+   "duration_months": -1,
+   "contexts": [
+      "GenericTransferEV_kps"
+   ]
+}
+]

@@ -1,0 +1,583 @@
+[
+ {
+   "dataName": "BS_ResearchTheirSignatures_Submit",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "localizationAlias": "ResearchTheirSignatures",
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "InvestigateAlienCrashdown"
+   ],
+   "targetProjectTemplateName": "Project_BS_TheirSignatures_Submit",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchAlienSignatures",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_5",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_5",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_5",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_5",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_5",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_5",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_5"
+   ]
+},
+ {
+   "dataName": "BS_ResearchTheirMethods_Submit",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "localizationAlias": "ResearchTheirMethods",
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "InvestigateAlienAbductions"
+   ],
+   "targetProjectTemplateName": "Project_BS_TheirMethods_Submit",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchAlienMethods",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_8",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_7",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_7",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_7",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_7",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_7",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_7"
+   ]
+},
+ {
+   "dataName": "BS_ResearchTheirOperations_Submit",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "localizationAlias": "ResearchTheirOperations",
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "InvestigateEnthrallMission"
+   ],
+   "targetProjectTemplateName": "Project_BS_TheirOperations_Submit",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchAlienOperations",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_10",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_9",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_9",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_9",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_9",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_9",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_9"
+   ]
+},
+ {
+   "dataName": "BS_ResearchTheirMovements_Submit",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "localizationAlias": "ResearchTheirMovements",
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "BS_ResearchTheirOperations_Submit"
+   ],
+   "targetProjectTemplateName": "Project_BS_TheirMovements_Submit",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchAlienMovements",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_11",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_11",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_10",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_10",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_10",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_10",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_10"
+   ]
+},
+ {
+   "dataName": "BS_ResearchTheirLanguage_Submit",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "localizationAlias": "ResearchTheirLanguage",
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectivesConjunction": "Or",
+   "unlockingObjectiveNames": [
+      "CaptureAHydra",
+      "ContactTheAliens"
+   ],
+   "targetProjectTemplateName": "Project_BS_HydraLanguage_Submit",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchTheirLanguage",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_14",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_19",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_17",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_17",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_17",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_17",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_12"
+   ]
+},
+ {
+   "dataName": "BS_ConductHydraDiplomacy_Submit",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "localizationAlias": "ConductHydraDiplomacy",
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "BS_ResearchTheirLanguage_Submit"
+   ],
+   "targetProjectTemplateName": "Project_BS_HydraDiplomacy_Submit",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ConductAlienDiplomacy",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_15",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_25",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_13"
+   ]
+},
+ {
+   "dataName": "ResearchTheirSignatures",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "InvestigateAlienCrashdown"
+   ],
+   "targetProjectTemplateName": "Project_TheirSignatures",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil",
+      "ExploitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchAlienSignatures",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_5",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_5",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_5",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_5",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_5",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_5",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_5"
+   ]
+},
+ {
+   "dataName": "ResearchTheirMethods",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "InvestigateAlienAbductions"
+   ],
+   "targetProjectTemplateName": "Project_TheirMethods",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil",
+      "ExploitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchAlienMethods",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_8",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_7",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_7",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_7",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_7",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_7",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_7"
+   ]
+},
+ {
+   "dataName": "ResearchTheirOperations",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "InvestigateEnthrallMission"
+   ],
+   "targetProjectTemplateName": "Project_TheirOperations",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil",
+      "ExploitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchAlienOperations",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_10",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_9",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_9",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_9",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_9",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_9",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_9"
+   ]
+},
+ {
+   "dataName": "ResearchTheirMovements",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "ResearchTheirOperations"
+   ],
+   "targetProjectTemplateName": "Project_TheirMovements",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil",
+      "ExploitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchAlienMovements",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_11",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_11",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_10",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_10",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_10",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_10",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_10"
+   ]
+},
+ {
+   "dataName": "ResearchTheirLanguage",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectivesConjunction": "Or",
+   "unlockingObjectiveNames": [
+      "CaptureAHydra",
+      "ContactTheAliens"
+   ],
+   "targetProjectTemplateName": "Project_HydraLanguage",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil",
+      "ExploitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchTheirLanguage",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_14",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_19",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_17",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_17",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_17",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_17",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_12"
+   ]
+},
+ {
+   "dataName": "ConductHydraDiplomacy",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "ResearchTheirLanguage"
+   ],
+   "targetProjectTemplateName": "Project_HydraDiplomacy",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "AppeaseCouncil",
+      "CooperateCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ConductAlienDiplomacy",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_15",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_25",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_13"
+   ]
+},
+ {
+   "dataName": "InvestigateAlienCrashdown",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": true,
+   "targetMissionTemplateName": "InvestigateAlienActivity",
+   "targetMissionTarget": "UFOCrashdown",
+   "isChildObjective": false,
+   "NewAIValuesIndex": 0,
+   "resourcesGranted": [
+      {
+         "resource": "Influence",
+         "value": 20
+      },
+      {
+         "resource": "Research",
+         "value": 20
+      }
+   ],
+   "factionDataNames": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "SubmitCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil",
+      "ExploitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_InvestigateAlienCrashdown",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_4",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_4",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_4",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_4",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_4",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_4",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_4"
+   ]
+},
+ {
+   "dataName": "InvestigateAlienAbductions",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectivesConjunction": "Or",
+   "unlockingObjectiveNames": [
+      "ResearchTheirSignatures",
+      "BS_ResearchTheirSignatures_Submit"
+   ],
+   "targetMissionTemplateName": "InvestigateAlienActivity",
+   "targetMissionTarget": "Abductions",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "SubmitCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil",
+      "ExploitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_InvestigateAlienAbductions",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_7",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_6",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_6",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_6",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_6",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_6",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_6"
+   ]
+},
+ {
+   "dataName": "InvestigateEnthrallMission",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectivesConjunction": "Or",
+   "unlockingObjectiveNames": [
+      "ResearchTheirMethods",
+      "BS_ResearchTheirMethods_Submit"
+   ],
+   "targetMissionTemplateName": "InvestigateAlienActivity",
+   "targetMissionTarget": "EnthrallMission",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "ResistCouncil",
+      "DestroyCouncil",
+      "EscapeCouncil",
+      "SubmitCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil",
+      "ExploitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_InvestigateEnthrall",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_9",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_8",
+   "completedVoicePathDestroy": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Destroy_8",
+   "completedVoicePathEscape": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Escape_8",
+   "completedVoicePathExploit": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Exploit_8",
+   "completedVoicePathResist": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Resist_8",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_8"
+   ]
+},
+ {
+   "dataName": "ContactTheAliens",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectivesConjunction": "Or",
+   "unlockingObjectiveNames": [
+      "ResearchTheirMovements",
+      "BS_ResearchTheirMovements_Submit"
+   ],
+   "targetMissionTemplateName": "Contact",
+   "targetMissionTarget": "HydraCouncilor",
+   "isChildObjective": false,
+   "targetMilestone": "AlienInfrastructureExists",
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ContactAliens",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_12",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_12",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_11"
+   ]
+},
+ {
+   "dataName": "ResearchTheAlienNation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "BS_ConductHydraDiplomacy_Submit"
+   ],
+   "targetProjectTemplateName": "Project_TheAlienNation",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchAlienNation",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_14"
+   ]
+},
+ {
+   "dataName": "ResearchTheirDemands",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectivesConjunction": "Or",
+   "unlockingObjectiveNames": [
+      "ConductHydraDiplomacy",
+      "BS_ConductHydraDiplomacy_Submit"
+   ],
+   "targetProjectTemplateName": "Project_TheirDemands",
+   "isChildObjective": false,
+   "NewAIValuesIndex": -1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil",
+      "AppeaseCouncil",
+      "CooperateCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchTheirDemands",
+   "completedVoicePathAppease": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Appease_17",
+   "completedVoicePathCooperate": "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Cooperate_26",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_15"
+   ]
+},
+ {
+   "dataName": "ResearchSubmitVictory",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "objectiveType": "Campaign",
+   "starter": false,
+   "unlockingObjectiveNames": [
+      "BS_ResearchTheirMethods_Submit"
+   ],
+   "targetProjectTemplateName": "Project_SubmitVictory",
+   "isChildObjective": false,
+   "NewAIValuesIndex": 1,
+   "resourcesGranted": [],
+   "factionDataNames": [
+      "SubmitCouncil"
+   ],
+   "completedIllustrationResource": "illustrations/Objective_ResearchSubmitVictory",
+   "completedVoicePathSubmit": [
+      "event:/VO/ENG/Faction/Faction_ObjectiveQuote_Submit_16"
+   ]
+}
+]

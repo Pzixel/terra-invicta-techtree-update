@@ -15,6 +15,8 @@ createRoot(document.getElementById('root')!).render(
         <Routes>
           <Route path="/" element={<App />} />
           <Route path=":id" element={<App />} />
+          <Route path="dark-skies/2003" element={<App />} />
+          <Route path="dark-skies/broken-earth" element={<App />} />
           <Route path="/browse" element={<Suspense fallback={<div id="loading">Loading</div>}><GamefilesBrowser /></Suspense>} />
           <Route path="/drives" element={<Suspense fallback={<div id="loading">Loading</div>}><DrivesChart /></Suspense>} />
         </Routes>

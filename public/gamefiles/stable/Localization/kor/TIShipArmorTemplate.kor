@@ -22,6 +22,7 @@ TIShipArmorTemplate.displayName.AlienAdamantaneArmor=외계 다이아몬도이�
 TIShipArmorTemplate.description.AlienAdamantaneArmor=탄소 조작 기반으로 한 것으로 보이는 외계 물질입니다.
 TIShipArmorTemplate.displayName.AlienExoticArmor=외계 엑조틱 장갑
 TIShipArmorTemplate.description.AlienExoticArmor=엑조틱의 성질을 지닌 외계인 물질입니다.
+
 TIShipArmorTemplate.ResourcesPerTon=톤당 비용: <rcol>{0}</rcol>
 TIShipArmorTemplate.KineticsResistance=운동성 피해에 대한 추가 저항: <rcol>{0}</rcol>
 TIShipArmorTemplate.LaserResistance=레이저 피해에 대한 추가 저항: <rcol>{0}</rcol>
@@ -33,12 +34,16 @@ TIShipArmorTemplate.XRayResistance_Header=X선 피해가 절반이 되는 포인
 TIShipArmorTemplate.XRayResistance=X선 피해가 절반이 되는 포인트: <rcol>{0}</rcol>
 TIShipArmorTemplate.BaryonicResistance_Header=중입자 피해가 절반이 되는 포인트
 TIShipArmorTemplate.BaryonicResistance=중입자 피해가 절반이 되는 포인트: <rcol>{0}</rcol>
+
 TIShipArmorTemplate.ThicknessPerPoint=포인트당 두께: <rcol>{0}cm</rcol>
+
 TIShipArmorTemplate.NoseTailTonsPerPoint=함수 또는 함미 장갑 포인트당 질량: <rcol>{0}톤</rcol>
 TIShipArmorTemplate.LateralTonsPerPoint=측면 장갑 포인트당 질량: <rcol>{0}톤</rcol>
+
 TIShipArmorTemplate.MaxArmorThickness_Lateral=최대 측면 장갑 두께: <rcol>{0}cm</rcol>
 TIShipArmorTemplate.MaxArmorThickness_Nose=최대 함수 장갑 두께: <rcol>{0}cm</rcol>
 TIShipArmorTemplate.MaxArmorThickness_Tail=최대 함미 장갑 두께: <rcol>{0}cm</rcol>
+
 TIShipArmorTemplate.MaxArmorPoints_Lateral=최대 측면 장갑: <rcol>{0}</rcol>
 TIShipArmorTemplate.MaxArmorPoints_Nose=최대 함수 장갑: <rcol>{0}</rcol>
 TIShipArmorTemplate.MaxArmorPoints_Tail=최대 함미 장갑: <rcol>{0}</rcol>

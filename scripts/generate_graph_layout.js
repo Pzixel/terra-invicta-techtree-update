@@ -1,23 +1,21 @@
 #!/usr/bin/env node
-// Precomputes the vis-network graph layout for each game version by running
-// the app's real graph code (TechDb + parseNode + draw) in Node under jsdom
-// with a stubbed canvas. Node positions come from vis-network's hierarchical
-// layout algorithm, which does not depend on actual pixel rendering.
-// Results go to <outDir>/layout/<version>.json; the app falls back to laying
-// out live when a file is missing.
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+// Builds layout and localized graph artifacts exclusively from the verified
+// version/scenario/language bundles produced earlier in the release pipeline.
+import fs from 'node:fs';
+import path from 'node:path';
+import process from 'node:process';
+import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
 import { createJiti } from 'jiti';
+import { assertReleaseReady } from './lib/release_metadata.js';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, '..');
-const GAMEFILES = path.join(ROOT, 'public', 'gamefiles');
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const PUBLIC = path.join(ROOT, 'public');
 const OUT_DIR = process.argv[2] ? path.resolve(process.argv[2]) : path.join(ROOT, 'dist');
-const VERSIONS = ['stable', 'experimental'];
+const release = JSON.parse(fs.readFileSync(path.join(PUBLIC, 'gamefiles', 'release.json'), 'utf8'));
+assertReleaseReady(release);
 
-// --- Browser environment shim (must exist before vis-network loads) ---
+// Browser environment shim (must exist before vis-network loads).
 const dom = new JSDOM('<!doctype html><html><body><div id="mynetwork"></div></body></html>', {
   url: 'http://localhost/terra-invicta-techtree-update/',
   pretendToBeVisual: true,
@@ -30,7 +28,7 @@ for (const key of ['window', 'document', 'navigator', 'HTMLElement', 'Element', 
   }
 }
 
-// 2D context stub: layout only needs measureText-ish APIs, drawing is discarded
+// Layout only needs measureText-ish APIs; drawing is discarded.
 const makeContextStub = () => {
   const store = {};
   return new Proxy({}, {
@@ -48,112 +46,133 @@ const makeContextStub = () => {
 };
 dom.window.HTMLCanvasElement.prototype.getContext = function getContext() { return makeContextStub(); };
 
-// --- Load the app's real modules (TypeScript, via jiti) ---
 const jiti = createJiti(import.meta.url);
-const { TechDb } = await jiti.import(path.join(ROOT, 'src/utils/TechDb.ts'));
-const { LocalizationDb, getTemplateData, TemplateTypes } = await jiti.import(path.join(ROOT, 'src/types/index.ts'));
+const { hydrateScenarioBundle } = await jiti.import(path.join(ROOT, 'src/data/loadScenarioView.ts'));
 const { Languages } = await jiti.import(path.join(ROOT, 'src/language.ts'));
+const {
+  OrderedScenarios,
+  graphArtifactPath,
+  layoutArtifactPath,
+  scenarioBundlePath,
+} = await jiti.import(path.join(ROOT, 'src/scenario.ts'));
+const { OrderedGameVersions } = await jiti.import(path.join(ROOT, 'src/version.ts'));
 const { parseNode, draw } = await jiti.import(path.join(ROOT, 'src/techGraphRender.ts'));
 const vis = await import('vis-network/standalone/esm/vis-network.js');
 
-const readGamefile = (version, relative) =>
-  fs.readFileSync(path.join(GAMEFILES, version, relative), 'utf8');
-
-// Mirrors loadTemplateData + init from src/App.tsx (which can't be imported
-// in Node because it pulls in React and CSS)
-const buildTechDb = (version, language) => {
-  const localizationResults = Object.values(TemplateTypes).map((filename) =>
-    readGamefile(version, `Localization/${language.code}/${filename}.${language.code}`)
-  );
-  const templateResults = Object.entries(TemplateTypes)
-    .concat([['bilateral', 'TIBilateralTemplate']])
-    .map(([type, filename]) => [type, JSON.parse(readGamefile(version, `Templates/${filename}.json`))]);
-
-  const localizationDb = new LocalizationDb(localizationResults, language.uiTexts);
-  const templateData = getTemplateData(templateResults);
-
-  // Remove alien master projects, same as loadTemplateData in src/App.tsx
-  if (templateData.project) {
-    templateData.project = templateData.project.filter(
-      (project) => project.dataName !== 'Project_AlienMasterProject' && project.dataName !== 'Project_AlienAdvancedMasterProject'
-    );
+const readBundleView = (version, scenario, language) => {
+  const relativePath = scenarioBundlePath(version, scenario, language.code);
+  const absolutePath = path.join(PUBLIC, ...relativePath.split('/'));
+  let bundle;
+  try {
+    bundle = JSON.parse(fs.readFileSync(absolutePath, 'utf8'));
+  } catch (error) {
+    throw new Error(`${relativePath}: required scenario bundle is missing or invalid: ${error.message}`);
   }
 
-  const techs = templateData.tech ?? [];
-  const projects = templateData.project ?? [];
-  projects.forEach((project) => { project.isProject = true; });
-
-  const counts = {};
-  const techTree = techs.concat(projects);
-  techTree.forEach((tech, index) => {
-    tech.displayName = localizationDb.getReadable(tech.isProject ? 'project' : 'tech', tech.dataName, 'displayName');
-    tech.id = index;
-    counts[tech.displayName] = (counts[tech.displayName] ?? 0) + 1;
-  });
-  for (const tech of techTree) {
-    if (counts[tech.displayName] > 1) {
-      tech.displayName += ` (${tech.friendlyName})`;
+  const expectedKey = { version, scenario, language: language.code };
+  for (const [field, expected] of Object.entries(expectedKey)) {
+    if (bundle.key?.[field] !== expected) {
+      throw new Error(`${relativePath}: bundle key ${field} is ${bundle.key?.[field] ?? 'missing'}, expected ${expected}`);
     }
   }
-  return { techDb: new TechDb(techTree), templateData };
+  const expectedSnapshot = release.versions?.[version]?.snapshotId;
+  if (!expectedSnapshot || bundle.snapshotId !== expectedSnapshot) {
+    throw new Error(`${relativePath}: bundle is not bound to the verified ${version} snapshot`);
+  }
+  const expectedCounts = release.scenarios?.[scenario];
+  const actualCounts = {
+    technologies: bundle.collections?.tech?.length,
+    projects: bundle.collections?.project?.length,
+  };
+  if (!expectedCounts ||
+      bundle.effectiveCounts?.technologies !== expectedCounts.technologies ||
+      bundle.effectiveCounts?.projects !== expectedCounts.projects ||
+      actualCounts.technologies !== expectedCounts.technologies ||
+      actualCounts.projects !== expectedCounts.projects) {
+    throw new Error(`${relativePath}: bundle counts do not match the verified ${scenario} contract`);
+  }
+  return hydrateScenarioBundle(bundle, language);
 };
 
-fs.mkdirSync(path.join(OUT_DIR, 'layout'), { recursive: true });
-fs.mkdirSync(path.join(OUT_DIR, 'graph'), { recursive: true });
-for (const version of VERSIONS) {
-  const { techDb, templateData } = buildTechDb(version, Languages.en);
-  const { nodes, edges, lateNodes, lateEdges } = parseNode(techDb, templateData, false);
-  const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
-  const network = draw(data, lateNodes, lateEdges, () => {});
-  const positions = network.getPositions();
-  network.destroy();
-  const rounded = {};
-  for (const [id, pos] of Object.entries(positions)) {
-    rounded[id] = { x: Math.round(pos.x), y: Math.round(pos.y) };
-  }
-  fs.writeFileSync(path.join(OUT_DIR, 'layout', `${version}.json`), JSON.stringify(rounded));
-  console.log(`layout/${version}.json: ${Object.keys(rounded).length} node positions`);
+const writeJson = (relativePath, value) => {
+  const absolutePath = path.join(OUT_DIR, ...relativePath.split('/'));
+  fs.mkdirSync(path.dirname(absolutePath), { recursive: true });
+  fs.writeFileSync(absolutePath, JSON.stringify(value));
+};
 
-  // Precompiled graph bundles: parseNode output (labels are localized) plus
-  // the coordinates above, one file per language. Positions are language-
-  // independent (validated: 0px delta), only labels differ.
-  for (const language of Object.values(Languages)) {
-    if (!language.availableVersions.includes(version)) continue;
-    try {
-      const built = language.code === 'en'
-        ? { techDb, templateData }
-        : buildTechDb(version, language);
-      const parsed = parseNode(built.techDb, built.templateData, false);
-      // assetUrl resolves against '/' in Node (no import.meta.env), so re-prefix
-      // icon URLs with the real deploy base
+const parsedGraph = ({ techDb, appStaticData }) =>
+  parseNode(techDb, appStaticData.templateData, false);
+
+const graphNodeIds = (parsed) =>
+  parsed.nodes.concat(parsed.lateNodes).map((node) => node.id).sort();
+
+for (const { code: version } of OrderedGameVersions) {
+  const languages = Object.values(Languages).filter((language) => language.availableVersions.includes(version));
+  if (!languages.some((language) => language.code === 'en')) {
+    throw new Error(`${version}: English is required to compute the shared layout`);
+  }
+
+  for (const { code: scenario } of OrderedScenarios) {
+    if (!release.scenarios?.[scenario]?.available) continue;
+
+    const englishView = readBundleView(version, scenario, Languages.en);
+    const englishParsed = parsedGraph(englishView);
+    const data = {
+      nodes: new vis.DataSet(englishParsed.nodes),
+      edges: new vis.DataSet(englishParsed.edges),
+    };
+    const network = draw(data, englishParsed.lateNodes, englishParsed.lateEdges, () => {});
+    const positions = network.getPositions();
+    network.destroy();
+
+    const rounded = {};
+    for (const [id, position] of Object.entries(positions)) {
+      rounded[id] = { x: Math.round(position.x), y: Math.round(position.y) };
+    }
+    const expectedNodeIds = graphNodeIds(englishParsed);
+    const positionedNodeIds = Object.keys(rounded).sort();
+    if (JSON.stringify(positionedNodeIds) !== JSON.stringify(expectedNodeIds)) {
+      throw new Error(`${version}/${scenario}: computed layout does not cover the English node set`);
+    }
+
+    const layoutPath = layoutArtifactPath(version, scenario);
+    writeJson(layoutPath, rounded);
+    console.log(`${layoutPath}: ${positionedNodeIds.length} node positions`);
+
+    for (const language of languages) {
+      const view = language.code === 'en'
+        ? englishView
+        : readBundleView(version, scenario, language);
+      const parsed = language.code === 'en' ? englishParsed : parsedGraph(view);
+      const localizedNodeIds = graphNodeIds(parsed);
+      if (JSON.stringify(localizedNodeIds) !== JSON.stringify(expectedNodeIds)) {
+        throw new Error(`${version}/${scenario}/${language.code}: localized node set differs from English`);
+      }
+
       const BASE = '/terra-invicta-techtree-update/';
-      const bundleNodes = parsed.nodes.concat(parsed.lateNodes).map((node) => ({
+      const nodes = parsed.nodes.concat(parsed.lateNodes).map((node) => ({
         ...node,
         ...rounded[node.id],
         image: node.image && !node.image.startsWith(BASE)
           ? BASE + node.image.replace(/^\/+/, '')
           : node.image,
       }));
-      // parseNode emits the first-prereq edge in both `edges` and `lateEdges`;
-      // identical overlapping edges are invisible but cost draw time
+      if (!nodes.every((node) => Number.isFinite(node.x) && Number.isFinite(node.y))) {
+        throw new Error(`${version}/${scenario}/${language.code}: node set does not match the computed layout`);
+      }
+
+      // parseNode emits the first-prerequisite edge in both collections.
       const seenEdges = new Set();
-      const bundleEdges = parsed.edges.concat(parsed.lateEdges).filter((edge) => {
+      const edges = parsed.edges.concat(parsed.lateEdges).filter((edge) => {
         const key = `${edge.from} ${edge.to}`;
         if (seenEdges.has(key)) return false;
         seenEdges.add(key);
         return true;
       });
-      if (!bundleNodes.every((node) => Number.isFinite(node.x) && Number.isFinite(node.y))) {
-        throw new Error('node set does not match computed positions');
-      }
-      fs.writeFileSync(
-        path.join(OUT_DIR, 'graph', `${version}.${language.code}.json`),
-        JSON.stringify({ nodes: bundleNodes, edges: bundleEdges })
-      );
-    } catch (error) {
-      console.warn(`graph/${version}.${language.code}.json skipped: ${error.message}`);
+      const graphPath = graphArtifactPath(version, scenario, language.code);
+      writeJson(graphPath, { nodes, edges });
     }
+    console.log(`graph/${version}.${scenario}.*.json: ${languages.length} language bundles written`);
   }
-  console.log(`graph/${version}.*.json bundles written`);
 }
 process.exit(0);

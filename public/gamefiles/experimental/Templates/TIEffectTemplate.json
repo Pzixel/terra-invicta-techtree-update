@@ -3296,7 +3296,6 @@
    "instantEffect": "RegionAbductionsChange",
    "value": 1,
    "effectTarget": "InputState",
-   "effectSecondaryTarget": "InputState",
    "effectDuration": "instant",
    "duration_months": -1
 },
@@ -3305,7 +3304,6 @@
    "instantEffect": "RegionAbductionsChange",
    "value": 2,
    "effectTarget": "InputState",
-   "effectSecondaryTarget": "InputState",
    "effectDuration": "instant",
    "duration_months": -1
 },
@@ -3314,7 +3312,6 @@
    "instantEffect": "RegionAbductionsChange",
    "value": 4,
    "effectTarget": "InputState",
-   "effectSecondaryTarget": "InputState",
    "effectDuration": "instant",
    "duration_months": -1
 },
@@ -3323,7 +3320,6 @@
    "instantEffect": "RegionAbductionsChange",
    "value": 6,
    "effectTarget": "InputState",
-   "effectSecondaryTarget": "InputState",
    "effectDuration": "instant",
    "duration_months": -1
 },
@@ -4292,6 +4288,7 @@
    "effectDuration": "permanent",
    "stackable": true,
    "duration_months": -1,
+   "showTotal": "Invert",
    "initialFactionsStr": [
       "AlienCouncil",
       "AlienCouncil"
@@ -4308,6 +4305,7 @@
    "effectDuration": "permanent",
    "stackable": true,
    "duration_months": -1,
+   "showTotal": "Invert",
    "initialFactionsStr": [
       "AlienCouncil",
       "AlienCouncil"
@@ -4324,6 +4322,7 @@
    "effectDuration": "permanent",
    "stackable": true,
    "duration_months": -1,
+   "showTotal": "Invert",
    "contexts": [
       "ControlPointMaintenance"
    ]
@@ -4336,6 +4335,7 @@
    "effectDuration": "permanent",
    "stackable": true,
    "duration_months": -1,
+   "showTotal": "Invert",
    "contexts": [
       "ControlPointMaintenance"
    ]
@@ -4348,6 +4348,7 @@
    "effectDuration": "permanent",
    "stackable": true,
    "duration_months": -1,
+   "showTotal": "Invert",
    "contexts": [
       "ControlPointMaintenance"
    ]
@@ -6730,10 +6731,10 @@
  {
    "dataName": "Effect_GlobalECMBonusMinor",
    "operation": "Additive",
-   "value": 0.005,
+   "value": 0.01,
    "effectTarget": "SourceFaction",
    "effectDuration": "permanent",
-   "stackable": false,
+   "stackable": true,
    "duration_months": -1,
    "contexts": [
       "GlobalECMBonus"

@@ -1,0 +1,33 @@
+[
+ {
+   "dataName": "Chosen",
+   "friendlyName": "Chosen",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "tags": [
+      "Sneaky"
+   ],
+   "incomeMoney": 5,
+   "incomeInfluence": 3,
+   "detectionEspBonus": 3,
+   "statMods": [
+      {
+         "stat": "Espionage",
+         "operation": "Additive",
+         "strValue": "2"
+      },
+      {
+         "stat": "Loyalty",
+         "operation": "Additive",
+         "strValue": "5"
+      }
+   ],
+   "techBonuses": [],
+   "priorityBonuses": [],
+   "specialTraitRule": "Undercover",
+   "baseChance": 0,
+   "classChance": [],
+   "alwaysGrantFromEffect": true
+}
+]

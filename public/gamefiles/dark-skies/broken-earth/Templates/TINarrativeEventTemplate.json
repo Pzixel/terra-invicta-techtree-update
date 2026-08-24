@@ -1,0 +1,7884 @@
+[
+ {
+   "dataName": "event_SecurityCouncil",
+   "friendlyName": "SecurityCouncil",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/Event_SecurityCouncil",
+   "requiresAliens": true,
+   "year": 1950,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 3,
+   "forceEvent": true,
+   "reqEventUnlock": false,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": true,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 0,
+   "target_cooldown_months": 0,
+   "targetConditions": [
+      {
+         "$type": "TIGlobalCondition_bDummyCondition",
+         "sign": "EqualTo",
+         "strValue": "FALSE"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 0.8,
+         "useAIModifiers": [
+            "protectCouncilors"
+         ],
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "operations": -30
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 0.2,
+         "useAIModifiers": [
+            "wantPopularity"
+         ],
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MinorGlobalPropaganda",
+                  "Effect_MinorExposure"
+               ],
+               "costBuilder": {
+                  "influence": -25,
+                  "operations": -15
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 0.05,
+         "useAIModifiers": [
+            "wantPopularity"
+         ],
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_GlobalPropaganda",
+                  "Effect_MajorExposure"
+               ],
+               "costBuilder": {
+                  "influence": -50
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_LocalVolunteers",
+   "friendlyName": "Local Volunteers",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/Event_LocalVolunteers",
+   "requiresAliens": false,
+   "logPublicity": "factions",
+   "alertPublicity": "factions",
+   "repeatable": "OncePerFaction",
+   "numOptions": 4,
+   "forceEvent": false,
+   "reqEventUnlock": false,
+   "baseWeight": 5,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 0,
+   "target_cooldown_months": 0,
+   "targetConditions": [
+      {
+         "$type": "TIGlobalCondition_bDummyCondition",
+         "sign": "EqualTo",
+         "strValue": "FALSE"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "secondaryStateType": "Nation_OpenControlPoint",
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [
+      {
+         "$type": "TINationCondition_bFactionHasControl",
+         "strIdx": "AlienCouncil",
+         "sign": "EqualTo",
+         "strValue": "FALSE"
+      },
+      {
+         "$type": "TINationCondition_iControlPoints",
+         "sign": "GreaterThanOrEqualTo",
+         "strValue": "4"
+      }
+   ],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 0.25,
+         "useAIModifiers": [
+            "wantPopularity"
+         ],
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_SecondaryTargetPropaganda_Faction25"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 0.25,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "forceAlert": true,
+               "effectTemplateNames": [
+                  "Effect_SecondaryTargetPropaganda_Faction10",
+                  "Effect_GainOpenControlPoint"
+               ],
+               "costBuilder": {
+                  "influence": 10
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 0.25,
+         "useAIModifiers": [
+            "dirtyTricks"
+         ],
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_SecondaryMassiveUnrestGain_ByFaction"
+               ],
+               "costBuilder": {
+                  "money": 100,
+                  "operations": 10
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 0.25,
+         "useAIModifiers": [
+            "gatherMoney"
+         ],
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_IncreaseMonthlyMoneyIncome10"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_SurpriseBenefactor",
+   "friendlyName": "Surprise Benefactor",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/Event_SurpriseBenefactor",
+   "requiresAliens": false,
+   "reqTechDataName": "ArrivalDomesticPolitics",
+   "logPublicity": "factions",
+   "alertPublicity": "factions",
+   "repeatable": "OncePerFaction",
+   "numOptions": 2,
+   "forceEvent": false,
+   "reqEventUnlock": false,
+   "baseWeight": 3,
+   "altBaseWeight": {
+      "condition": {
+         "$type": "TIGlobalCondition_tbCompletedTech",
+         "sign": "Has",
+         "strValue": "NetworkedPropaganda"
+      },
+      "value": 6
+   },
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 0,
+   "targetConditions": [
+      {
+         "$type": "TIGlobalCondition_bDummyCondition",
+         "sign": "EqualTo",
+         "strValue": "FALSE"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "secondaryStateType": "Nation_OpenControlPoint_NonExec",
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [
+      {
+         "$type": "TINationCondition_iControlPoints",
+         "sign": "GreaterThanOrEqualTo",
+         "strValue": "4"
+      }
+   ],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 0.01,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "influence": -5
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_GainOpenControlPoint"
+               ],
+               "costBuilder": {
+                  "money": 100
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_SpaceMogul",
+   "friendlyName": "Space Mogul",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/Event_SpaceMogul",
+   "requiresAliens": false,
+   "reqTechDataName": "BSBE_ANewSpaceRace",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 2,
+   "forceEvent": true,
+   "reqEventUnlock": false,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": true,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 0,
+   "target_cooldown_months": 0,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_bHumanFaction",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedCampaignObjective",
+         "sign": "Has",
+         "strValue": "ResearchTheirOperations"
+      },
+      {
+         "$type": "TIFactionCondition_iControlPointsByNationSize",
+         "strIdx": "5",
+         "sign": "EqualTo",
+         "strValue": "0"
+      },
+      {
+         "$type": "TIFactionCondition_efResourceIncomeDaily",
+         "strIdx": "Boost",
+         "sign": "LessThanOrEqualTo",
+         "strValue": "0.01"
+      },
+      {
+         "$type": "TIFactionCondition_efResourceValue",
+         "strIdx": "Boost",
+         "sign": "LessThan",
+         "strValue": "50"
+      },
+      {
+         "$type": "TIFactionCondition_iHabs",
+         "sign": "LessThan",
+         "strValue": "6"
+      },
+      {
+         "$type": "TIFactionCondition_iMines",
+         "sign": "LessThan",
+         "strValue": "3"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_GainFactionSpaceOrg"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 0,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "boost": -10
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PaperTiger",
+   "friendlyName": "Paper Tiger",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/Event_PaperTiger",
+   "requiresAliens": false,
+   "logPublicity": "global",
+   "alertPublicity": "factions",
+   "repeatable": "Unlimited",
+   "numOptions": 3,
+   "forceEvent": false,
+   "reqEventUnlock": false,
+   "baseWeight": 1,
+   "altBaseWeight": {
+      "condition": {
+         "$type": "TIGlobalCondition_tbCompletedTech",
+         "sign": "Has",
+         "strValue": "NetworkedGlobalDefense"
+      },
+      "value": 1
+   },
+   "targetType": "army",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TIArmyCondition_fMiltech",
+         "sign": "LessThan",
+         "strValue": "7"
+      },
+      {
+         "$type": "TIArmyCondition_bIsFighting",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedProject",
+         "sign": "DoesNotHave",
+         "strValue": "Project_PredictiveLogisticsSystems"
+      },
+      {
+         "$type": "TIArmyCondition_ebArmyType",
+         "strIdx": "Human",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      }
+   ],
+   "targetWeightModifiers": [
+      {
+         "condition": {
+            "$type": "TIArmyCondition_bIsAttacking",
+            "sign": "EqualTo",
+            "strValue": "TRUE"
+         },
+         "value": 20
+      },
+      {},
+      {},
+      {}
+   ],
+   "secondaryStateType": "Region_ArmyHome",
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [
+      {
+         "$type": "TINationCondition_iWars",
+         "sign": "GreaterThan",
+         "strValue": "0"
+      },
+      {
+         "$type": "TINationCondition_fCorruption",
+         "sign": "GreaterThanOrEqualTo",
+         "strValue": "0.55"
+      }
+   ],
+   "secondaryWeightModifiers": [
+      {
+         "condition": {
+            "$type": "TINationCondition_fInequality",
+            "sign": "GreaterThanOrEqualTo",
+            "strValue": "4"
+         },
+         "value": 10
+      },
+      {
+         "condition": {
+            "$type": "TINationCondition_fDemocracy",
+            "sign": "LessThan",
+            "strValue": "5"
+         },
+         "value": 10
+      },
+      {
+         "condition": {
+            "$type": "TINationCondition_efPriority",
+            "strIdx": "Spoils",
+            "sign": "GreaterThanOrEqualTo",
+            "strValue": "0.1"
+         },
+         "value": 10
+      }
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 0.5,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_SecondaryTargetNegativePropaganda_Faction10"
+               ],
+               "delayedEffectTemplateNames": [
+                  "Effect_DamageArmy40"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "useAIModifiers": [
+            "wantEarthWarCapability"
+         ],
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_SecondaryTargetNegativePropaganda_Faction25",
+                  "Effect_SecondaryCohesionLoss"
+               ],
+               "delayedEffectTemplateNames": [
+                  "Effect_DamageArmy20"
+               ],
+               "costBuilder": {
+                  "money": 1000,
+                  "influence": 10
+               },
+               "costMultiplier": "army_miltech"
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "useAIModifiers": [
+            "wantEarthWarCapability"
+         ],
+         "outcomes": [
+            {
+               "weight": 0.5,
+               "facWtMod": [
+                  {
+                     "value": 0.2,
+                     "condition": {
+                        "$type": "TIFactionCondition_iTotalStat",
+                        "strIdx": "Command",
+                        "sign": "GreaterThan",
+                        "strValue": "50"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {
+                     "value": 0.15,
+                     "condition": {
+                        "$type": "TINationCondition_fMiltech",
+                        "sign": "GreaterThan",
+                        "strValue": "5"
+                     }
+                  }
+               ],
+               "AIFavored": true,
+               "delayedEffectTemplateNames": [
+                  "Effect_DamageArmy20"
+               ],
+               "costBuilder": {
+                  "operations": 15
+               },
+               "costMultiplier": "army_miltech"
+            },
+            {
+               "weight": 0.5,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_SecondaryTargetNegativePropaganda_Faction10"
+               ],
+               "delayedEffectTemplateNames": [
+                  "Effect_DamageArmy30"
+               ],
+               "costBuilder": {
+                  "operations": 15
+               },
+               "costMultiplier": "army_miltech"
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_LogisticsBottleneck",
+   "friendlyName": "Logistics Bottleneck",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/Event_LogisticsBottleneck",
+   "requiresAliens": false,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 3,
+   "forceEvent": false,
+   "reqEventUnlock": false,
+   "baseWeight": 1,
+   "altBaseWeight": {
+      "condition": {
+         "$type": "TIGlobalCondition_tbCompletedTech",
+         "sign": "Has",
+         "strValue": "AdministrationAlgorithms"
+      },
+      "value": 3
+   },
+   "targetType": "army",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 36,
+   "targetConditions": [
+      {
+         "$type": "TIArmyCondition_bIsAttacking",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      },
+      {
+         "$type": "TIArmyCondition_ebArmyType",
+         "strIdx": "Human",
+         "sign": "EqualTo",
+         "strValue": "TRUE"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedProject",
+         "sign": "DoesNotHave",
+         "strValue": "Project_PredictiveLogisticsSystems"
+      },
+      {
+         "$type": "TIRegionCondition_iArmiesPresent_Enemy",
+         "sign": "GreaterThanOrEqualTo",
+         "strValue": "4"
+      }
+   ],
+   "targetWeightModifiers": [
+      {
+         "condition": {
+            "$type": "TIRegionCondition_bCoreEconomic",
+            "sign": "EqualTo",
+            "strValue": "FALSE"
+         },
+         "value": 10
+      },
+      {
+         "condition": {
+            "$type": "TIArmyCondition_bIsFighting",
+            "sign": "EqualTo",
+            "strValue": "TRUE"
+         },
+         "value": 20
+      },
+      {
+         "condition": {
+            "$type": "TIRegionCondition_iArmiesPresent_Enemy",
+            "sign": "GreaterThanOrEqualTo",
+            "strValue": "3"
+         },
+         "value": 40
+      },
+      {}
+   ],
+   "secondaryStateType": "Region_ArmyHome",
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [
+      {
+         "$type": "TINationCondition_iWars",
+         "sign": "GreaterThan",
+         "strValue": "0"
+      }
+   ],
+   "secondaryWeightModifiers": [
+      {
+         "condition": {
+            "$type": "TINationCondition_fEducation",
+            "sign": "LessThan",
+            "strValue": "10"
+         },
+         "value": 20
+      },
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_SecondaryTargetNegativePropaganda_Faction10"
+               ],
+               "delayedEffectTemplateNames": [
+                  "Effect_DamageArmy30"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "targetCondition": {
+            "$type": "TIArmyCondition_fNationMiltechDifferential",
+            "sign": "LessThan",
+            "strValue": "0.5"
+         },
+         "baseAIPreference": 1,
+         "useAIModifiers": [
+            "dirtyTricks",
+            "wantEarthWarCapability"
+         ],
+         "outcomes": [
+            {
+               "weight": 0.5,
+               "facWtMod": [
+                  {
+                     "value": 0.3,
+                     "condition": {
+                        "$type": "TIFactionCondition_bExtremist",
+                        "sign": "EqualTo",
+                        "strValue": "TRUE"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "AIFavored": true,
+               "effectTemplateNames": [
+                  "Effect_MinorSingleRegionDamage",
+                  "Effect_Atrocity"
+               ],
+               "delayedEffectTemplateNames": [
+                  "Effect_DamageArmy10"
+               ]
+            },
+            {
+               "weight": 0.5,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {
+                     "value": 0.3,
+                     "condition": {
+                        "$type": "TIRegionCondition_iArmiesPresent_Friendly",
+                        "sign": "GreaterThan",
+                        "strValue": "0"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MinorSingleRegionDamage",
+                  "Effect_Atrocity",
+                  "Effect_MinorCohesionGain"
+               ],
+               "delayedEffectTemplateNames": [
+                  "Effect_DamageArmy40"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "actingFactionCondition": {
+            "$type": "TIFactionCondition_efResourceIncomeDaily",
+            "strIdx": "Projects",
+            "sign": "GreaterThanOrEqualTo",
+            "strValue": "2"
+         },
+         "targetCondition": {
+            "$type": "TIRegionCondition_bColony",
+            "sign": "EqualTo",
+            "strValue": "FALSE"
+         },
+         "baseAIPreference": 1,
+         "useAIModifiers": [
+            "riskAversion"
+         ],
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_LocalProsperity"
+               ],
+               "delayedEffectTemplateNames": [
+                  "Effect_DamageArmy15"
+               ],
+               "costBuilder": {
+                  "money": 1000,
+                  "operations": 15
+               },
+               "costMultiplier": "army_miltech"
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "dummy",
+   "year": 9999,
+   "baseWeight": 0,
+   "altBaseWeight": {
+      "condition": {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      }
+   },
+   "targetConditions": [
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      },
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      },
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      },
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      },
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      },
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      },
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      }
+   ],
+   "targetWeightModifiers": [
+      {
+         "condition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         }
+      },
+      {
+         "condition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         }
+      },
+      {
+         "condition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         }
+      },
+      {
+         "condition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         }
+      }
+   ],
+   "possibleSecondaryStateDataNames": [
+      "dummy",
+      "dummy",
+      "dummy"
+   ],
+   "secondaryStateConditions": [
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      },
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      },
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      },
+      {
+         "strIdx": "dummy",
+         "strValue": "dummy"
+      }
+   ],
+   "secondaryWeightModifiers": [
+      {
+         "condition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         }
+      },
+      {
+         "condition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         }
+      },
+      {
+         "condition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         }
+      }
+   ],
+   "eventOptions": [
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "forceAlert": false,
+               "projectGrantedTemplateName": "dummy",
+               "orgGrantedTemplateName": "dummy",
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  },
+                  {}
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "actingFactionCondition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         },
+         "targetCondition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         },
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "forceAlert": false,
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "actingFactionCondition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         },
+         "targetCondition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         },
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "actingFactionCondition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         },
+         "targetCondition": {
+            "strIdx": "dummy",
+            "strValue": "dummy"
+         },
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "forceAlert": false,
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            },
+            {
+               "facWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {
+                     "condition": {
+                        "strIdx": "dummy",
+                        "strValue": "dummy"
+                     }
+                  }
+               ],
+               "costBuilder": {
+                  "money": 0,
+                  "influence": 0,
+                  "operations": 0,
+                  "research": 0,
+                  "boost": 0,
+                  "water": 0,
+                  "volatiles": 0,
+                  "metals": 0,
+                  "nobleMetals": 0,
+                  "fissiles": 0,
+                  "antimatter": 0,
+                  "exotics": 0
+               }
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_FactionPonderResist",
+   "friendlyName": "Faction Ponder Resist",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Faction_Specific 7",
+   "disable": true,
+   "requiresAliens": true,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 1,
+   "forceEvent": true,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_eIdeology",
+         "sign": "EqualTo",
+         "strValue": "Resist"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedProject",
+         "sign": "Has",
+         "strValue": "Project_TheirSignatures"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "operations": -5
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_FactionPonderDestroy",
+   "friendlyName": "Faction Ponder Destroy",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Faction_Specific 14",
+   "disable": true,
+   "requiresAliens": true,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 1,
+   "forceEvent": true,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_eIdeology",
+         "sign": "EqualTo",
+         "strValue": "Destroy"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedProject",
+         "sign": "Has",
+         "strValue": "Project_TheirSignatures"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "operations": -10
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_FactionPonderExploit",
+   "friendlyName": "Faction Ponder Exploit",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Faction_Specific 13",
+   "disable": true,
+   "requiresAliens": true,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 1,
+   "forceEvent": true,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_eIdeology",
+         "sign": "EqualTo",
+         "strValue": "Exploit"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedProject",
+         "sign": "Has",
+         "strValue": "Project_TheirSignatures"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "money": -150
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_FactionPonderSubmit",
+   "friendlyName": "Faction Ponder Submit",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Faction_Specific 4",
+   "disable": true,
+   "requiresAliens": true,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 1,
+   "forceEvent": true,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_eIdeology",
+         "sign": "EqualTo",
+         "strValue": "Submit"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedProject",
+         "sign": "Has",
+         "strValue": "Project_TheirSignatures"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "influence": -25
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_FactionPonderAppease",
+   "friendlyName": "Faction Ponder Appease",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Faction_Specific 11",
+   "disable": true,
+   "requiresAliens": true,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 1,
+   "forceEvent": true,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_eIdeology",
+         "sign": "EqualTo",
+         "strValue": "Appease"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedProject",
+         "sign": "Has",
+         "strValue": "Project_TheirSignatures"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "money": -50,
+                  "influence": -10
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_FactionPonderCooperate",
+   "friendlyName": "Faction Ponder Cooperate",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Faction_Specific 2",
+   "disable": true,
+   "requiresAliens": true,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 1,
+   "forceEvent": true,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_eIdeology",
+         "sign": "EqualTo",
+         "strValue": "Cooperate"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedProject",
+         "sign": "Has",
+         "strValue": "Project_TheirSignatures"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "research": -50
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_FactionPonderEscape",
+   "friendlyName": "Faction Ponder Escape",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Faction_Specific 9",
+   "disable": true,
+   "requiresAliens": true,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 1,
+   "forceEvent": true,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_eIdeology",
+         "sign": "EqualTo",
+         "strValue": "Escape"
+      },
+      {
+         "$type": "TIFactionCondition_tbCompletedProject",
+         "sign": "Has",
+         "strValue": "Project_TheirSignatures"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "boost": -0.5
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_OldWorldBooks",
+   "friendlyName": "Old World Books",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_old_world_books",
+   "requiresAliens": false,
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 1,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 8,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TINationCondition_fEducationGlobalMaxDifferential",
+         "sign": "GreaterThan",
+         "strValue": "0.1"
+      },
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "OldWorldArtifacts",
+         "sign": "LessThan",
+         "strValue": "12"
+      }
+   ],
+   "targetWeightModifiers": [
+      {
+         "condition": {
+            "$type": "TINationCondition_fEducationGlobalMaxDifferential",
+            "sign": "GreaterThan",
+            "strValue": "1"
+         },
+         "value": 10
+      },
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_EducationGain01",
+                  "Effect_BS_OldWorldArtifacts1"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_OldWorldDoctrines",
+   "friendlyName": "Old World Doctrines",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_old_world_tactics",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 1,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 8,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TINationCondition_fMiltechGlobalMaxDifferential",
+         "sign": "GreaterThan",
+         "strValue": "0.1"
+      },
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "OldWorldArtifacts",
+         "sign": "LessThan",
+         "strValue": "12"
+      }
+   ],
+   "targetWeightModifiers": [
+      {
+         "condition": {
+            "$type": "TINationCondition_fMiltechGlobalMaxDifferential",
+            "sign": "GreaterThan",
+            "strValue": "1"
+         },
+         "value": 10
+      },
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MiltechGain01",
+                  "Effect_BS_OldWorldArtifacts1"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_OldWorldMedia",
+   "friendlyName": "Old World Media",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_old_world_media",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 2,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 8,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "OldWorldArtifacts",
+         "sign": "LessThan",
+         "strValue": "12"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_GlobalPropaganda",
+                  "Effect_BS_OldWorldArtifacts1"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MinorCohesionGain",
+                  "Effect_BS_OldWorldArtifacts1"
+               ],
+               "costBuilder": {
+                  "money": -100
+               },
+               "costMultiplier": "global_campaignDuration"
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_MemorialtotheFallen",
+   "friendlyName": "Memorial to the Fallen",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Memorial_of_the_fallen",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 1,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "BuildNuclearWeaponsPriority",
+         "sign": "LessThan",
+         "strValue": "-0.5"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MildCohesionGain"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_UnauthorizedSalvage",
+   "friendlyName": "Unauthorized Salvage",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Looters",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 3,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "region",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TIRegionCondition_fPerCapitaGDP",
+         "sign": "LessThan",
+         "strValue": "20000"
+      },
+      {
+         "$type": "TIRegionCondition_bCoreEconomic",
+         "sign": "EqualTo",
+         "strValue": "FALSE"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 0.7,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_LocalProsperity",
+                  "Effect_MinorInequalityGain"
+               ]
+            },
+            {
+               "weight": 0.1,
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_BS_TriggerEventOldWorldBooks",
+                  "Effect_MinorInequalityGain"
+               ]
+            },
+            {
+               "weight": 0.1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_BS_TriggerEventOldWorldDoctrines",
+                  "Effect_MinorInequalityGain"
+               ]
+            },
+            {
+               "weight": 0.1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_BS_TriggerEventOldWorldMedia",
+                  "Effect_MinorInequalityGain"
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MinorCohesionGain"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 0.55,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MajorLocalProsperity",
+                  "Effect_ModerateInequalityGain"
+               ],
+               "costBuilder": {
+                  "money": 150
+               },
+               "costMultiplier": "region_popMillions"
+            },
+            {
+               "weight": 0.15,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_BS_TriggerEventOldWorldBooks",
+                  "Effect_ModerateInequalityGain"
+               ],
+               "costBuilder": {
+                  "money": 150
+               },
+               "costMultiplier": "region_popMillions"
+            },
+            {
+               "weight": 0.15,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_BS_TriggerEventOldWorldDoctrines",
+                  "Effect_ModerateInequalityGain"
+               ],
+               "costBuilder": {
+                  "money": 150
+               },
+               "costMultiplier": "region_popMillions"
+            },
+            {
+               "weight": 0.15,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_BS_TriggerEventOldWorldMedia",
+                  "Effect_ModerateInequalityGain"
+               ],
+               "costBuilder": {
+                  "money": 150
+               },
+               "costMultiplier": "region_popMillions"
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_ArmedProcession",
+   "friendlyName": "Armed Procession",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Armed_Procession",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 3,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "BuildNuclearWeaponsPriority",
+         "sign": "LessThan",
+         "strValue": "-0.5"
+      }
+   ],
+   "targetWeightModifiers": [
+      {
+         "condition": {
+            "$type": "TINationCondition_fCohesion",
+            "sign": "LessThan",
+            "strValue": "5"
+         },
+         "value": 10
+      },
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 0.5,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MildCohesionGain"
+               ]
+            },
+            {
+               "weight": 0.5,
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MinusculeSingleRegionDamage",
+                  "Effect_MajorUnrestGain"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_NegativeNationPropaganda"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "actingFactionCondition": {
+            "$type": "TIFactionCondition_iTotalStat",
+            "strIdx": "Investigation",
+            "sign": "GreaterThanOrEqualTo",
+            "strValue": "40"
+         },
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MildCohesionGain"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_Anti-WarlordCampaign",
+   "friendlyName": "Anti-Warlord Campaign",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Warlords",
+   "disable": true,
+   "altBaseWeight": {},
+   "targetConditions": [],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_OldWorldSatellite",
+   "friendlyName": "Old World Satellite",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_old_world_satellite",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 3,
+   "baseWeight": 1,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_iHabs",
+         "sign": "GreaterThan",
+         "strValue": "0"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_BS_SpaceScienceBonusEvent"
+               ],
+               "costBuilder": {
+                  "research": -100
+               }
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_UnityPriorityBonus05",
+                  "Effect_MajorGlobalPropaganda"
+               ],
+               "costBuilder": {
+                  "boost": 10
+               }
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_SpaceflightProgramPriorityBonus05",
+                  "Effect_LaunchFacilitiesPriorityBonus1"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_MuseumtotheOldWorld",
+   "friendlyName": "Museum to the Old World",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BBSBE_Event_Old_World_Museum",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "OncePerFaction",
+   "numOptions": 4,
+   "forceEvent": true,
+   "altBaseWeight": {},
+   "targetType": "faction",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "targetConditions": [
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "OldWorldArtifacts",
+         "sign": "GreaterThanOrEqualTo",
+         "strValue": "24"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_KnowledgePriorityBonus05",
+                  "Effect_BS_AllRecruitsScience1",
+                  "Effect_BS_AllCouncilorsScience1"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_BS_IncreaseMonthlyInfluenceIncome6",
+                  "Effect_BS_SocialScienceBonusEvent"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MilitaryPriorityBonus05",
+                  "Effect_BS_MilitaryScienceBonusEvent",
+                  "Effect_NegativeGlobalPropaganda10"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_EconomyPriorityBonus05"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_Anti-NuclearPublicity",
+   "friendlyName": "Anti-Nuclear Publicity",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_anti_nuke_publicity",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 2,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 48,
+   "targetConditions": [
+      {
+         "$type": "TINationCondition_iNuclearWeapons",
+         "sign": "GreaterThan",
+         "strValue": "0"
+      },
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "BuildNuclearWeaponsPriority",
+         "sign": "LessThan",
+         "strValue": "-0.5"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MildCohesionLoss",
+                  "Effect_NegativeGlobalPropaganda10"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "targetCondition": {
+            "$type": "TINationCondition_iNuclearWeaponsInEnemies",
+            "sign": "GreaterThan",
+            "strValue": "0"
+         },
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 0.5,
+               "facWtMod": [
+                  {
+                     "value": 0.3,
+                     "condition": {
+                        "$type": "TIFactionCondition_iTotalStat",
+                        "strIdx": "Persuasion",
+                        "sign": "GreaterThanOrEqualTo",
+                        "strValue": "50"
+                     }
+                  }
+               ],
+               "tarWtMod": [
+                  {
+                     "value": 0.3,
+                     "condition": {
+                        "$type": "TINationCondition_iNuclearWeaponsInEnemies",
+                        "sign": "GreaterThan",
+                        "strValue": "8"
+                     }
+                  }
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_NegativeGlobalPropaganda10"
+               ]
+            },
+            {
+               "weight": 0.5,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MinorCohesionLoss",
+                  "Effect_NegativeGlobalPropaganda25"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_Anti-NuclearActivism",
+   "friendlyName": "Anti-Nuclear Activism",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_anti_nuke_activism",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 3,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 48,
+   "targetConditions": [
+      {
+         "$type": "TINationCondition_iNuclearWeapons",
+         "sign": "GreaterThan",
+         "strValue": "0"
+      },
+      {
+         "$type": "TINationCondition_fUnrest",
+         "sign": "GreaterThan",
+         "strValue": "3"
+      },
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "BuildNuclearWeaponsPriority",
+         "sign": "LessThan",
+         "strValue": "-0.5"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_MiltechLoss01"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_EducationLoss050"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "targetCondition": {
+            "$type": "TINationCondition_iArmies",
+            "sign": "GreaterThan",
+            "strValue": "0"
+         },
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_DemocracyLoss02",
+                  "Effect_MildCohesionLoss"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_NuclearFacilitiesAttacked",
+   "friendlyName": "Nuclear Facilities Attacked",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Nuclear_Facilities_Destroyed",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 3,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TINationCondition_iNuclearWeapons",
+         "sign": "GreaterThan",
+         "strValue": "0"
+      },
+      {
+         "$type": "TINationCondition_fUnrest",
+         "sign": "GreaterThan",
+         "strValue": "6"
+      },
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "BuildNuclearWeaponsPriority",
+         "sign": "LessThan",
+         "strValue": "-0.5"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_NukeRemove1"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 0.6,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "operations": 15
+               },
+               "costMultiplier": "nation_miltech"
+            },
+            {
+               "weight": 0.4,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_NukeRemove1"
+               ],
+               "costBuilder": {
+                  "operations": 15
+               },
+               "costMultiplier": "nation_miltech"
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 0.6,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "costBuilder": {
+                  "operations": 15
+               },
+               "costMultiplier": "nation_miltech"
+            },
+            {
+               "weight": 0.4,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_NukeRemove1"
+               ],
+               "costBuilder": {
+                  "operations": 15
+               },
+               "costMultiplier": "nation_miltech"
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_Anti-NuclearSabotage",
+   "friendlyName": "Anti-Nuclear Sabotage",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_Anti_Nuke_Sabotage",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 3,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TINationCondition_iNuclearWeapons",
+         "sign": "GreaterThan",
+         "strValue": "0"
+      },
+      {
+         "$type": "TINationCondition_fCohesion",
+         "sign": "LessThan",
+         "strValue": "2"
+      },
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "BuildNuclearWeaponsPriority",
+         "sign": "LessThan",
+         "strValue": "-0.5"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_NukeRemove1"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "actingFactionCondition": {
+            "$type": "TIFactionCondition_iTotalStat",
+            "strIdx": "Espionage",
+            "sign": "GreaterThanOrEqualTo",
+            "strValue": "50"
+         },
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "actingFactionCondition": {
+            "$type": "TIFactionCondition_bCouncilorHasTraitOrPredecessor",
+            "strIdx": "NuclearMastermind",
+            "sign": "EqualTo",
+            "strValue": "TRUE"
+         },
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+},
+ {
+   "dataName": "event_PostApoc_ScientistsProtestNuclearProgram",
+   "friendlyName": "Scientists Protest Nuclear Program",
+   "scenarioTags": [
+      "PostApoc"
+   ],
+   "illustrationResource": "illustrations/BSBE_Event_anti_nuke_scientists_protest",
+   "logPublicity": "target",
+   "alertPublicity": "target",
+   "repeatable": "Unlimited",
+   "numOptions": 3,
+   "baseWeight": 3,
+   "altBaseWeight": {},
+   "targetType": "nation",
+   "hitAllQualifyingTargets": false,
+   "firstTargetNotificationOnly": false,
+   "global_cooldown_months": 12,
+   "target_cooldown_months": 60,
+   "targetConditions": [
+      {
+         "$type": "TINationCondition_iNuclearWeapons",
+         "sign": "GreaterThan",
+         "strValue": "0"
+      },
+      {
+         "$type": "TINationCondition_fEducation",
+         "sign": "GreaterThan",
+         "strValue": "7"
+      },
+      {
+         "$type": "TINationCondition_fDemocracy",
+         "sign": "GreaterThan",
+         "strValue": "4"
+      },
+      {
+         "$type": "TIFactionCondition_tfEffectCounter",
+         "strIdx": "BuildNuclearWeaponsPriority",
+         "sign": "LessThan",
+         "strValue": "-0.5"
+      }
+   ],
+   "targetWeightModifiers": [
+      {},
+      {},
+      {},
+      {}
+   ],
+   "sameSecondaryForAllTargets": false,
+   "secondaryStateConditions": [],
+   "secondaryWeightModifiers": [
+      {},
+      {},
+      {}
+   ],
+   "eventOptions": [
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_NukeRemove1"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {},
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_EducationLoss025"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "baseAIPreference": 1,
+         "outcomes": [
+            {
+               "weight": 1,
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ],
+               "effectTemplateNames": [
+                  "Effect_DemocracyLoss02"
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      },
+      {
+         "outcomes": [
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            },
+            {
+               "facWtMod": [
+                  {}
+               ],
+               "tarWtMod": [
+                  {}
+               ],
+               "secWtMod": [
+                  {}
+               ]
+            }
+         ]
+      }
+   ]
+}
+]

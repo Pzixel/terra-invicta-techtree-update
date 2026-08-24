@@ -1,15 +1,19 @@
 import { TechTemplate } from '../types';
+import { prerequisiteSlots } from '../data/scenarioCompiler';
 
 export class TechDb {
     private tree: TechTemplate[];
     private techsByDataName: Record<string, TechTemplate>;
     private techsByDisplayName: Record<string, TechTemplate>;
     private blockingTechs: Record<string, TechTemplate[]>;
+    private referenceAliases: Record<string, string>;
 
     constructor(
-        tree: TechTemplate[]
+        tree: TechTemplate[],
+        referenceAliases: Record<string, string> = {},
     ) {
         this.tree = tree;
+        this.referenceAliases = referenceAliases;
         this.techsByDataName = tree.reduce<Record<string, TechTemplate>>((acc, tech) => {
             acc[tech.dataName] = tech;
             return acc;
@@ -22,11 +26,12 @@ export class TechDb {
             return acc;
         }, {});
         this.blockingTechs = tree.reduce<Record<string, TechTemplate[]>>((acc, tech) => {
-            (tech.prereqs ?? []).concat(tech.altPrereq0 ?? []).forEach(prereq => {
-                if (!acc[prereq]) {
-                    acc[prereq] = [];
+            prerequisiteSlots(tech).flat().forEach(prereq => {
+                const resolvedPrereq = this.referenceAliases[prereq] ?? prereq;
+                if (!acc[resolvedPrereq]) {
+                    acc[resolvedPrereq] = [];
                 }
-                acc[prereq].push(tech);
+                acc[resolvedPrereq].push(tech);
             });
             return acc;
         }, {});
@@ -36,7 +41,7 @@ export class TechDb {
         if (!dataName) {
             return null;
         }
-        return this.techsByDataName[dataName];
+        return this.techsByDataName[this.referenceAliases[dataName] ?? dataName];
     }
     getTechByDisplayName(displayName: string | null | undefined) {
         if (!displayName) {

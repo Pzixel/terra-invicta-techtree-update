@@ -264,7 +264,7 @@ TIMissionTemplate.Failure.Turn=Non siamo riusciti a convertire {targetDisplayNam
 TIMissionTemplate.CriticalFailure.Turn=Non ho potuto convertire {targetDisplayName} alla nostra causa e pare che quelli della fazione {targetFactionName} siano sulle mie tracce.
 
 TIMissionTemplate.displayName.Unrest=Accresci disordini
-TIMissionTemplate.description.Unrest=Accresci i disordini nella nazione della regione che hai preso di mira, così da danneggiare l'economia e rendere più probabili colpi di Stato, rivoluzioni e secessioni. Il successo di quest'azione in una regione in cui è presente un movimento indipendentista potrebbe far scaturire una secessione, piuttosto che una rivoluzione. L'effetto viene indebolito se i disordini sono già al di sopra di due volte il valore di riferimento per i disordini della nazione.
+TIMissionTemplate.description.Unrest=Accresci i disordini nella nazione della regione che hai preso di mira, così da danneggiare l'economia e rendere più probabili colpi di Stato e rivoluzioni. Il successo di quest'azione in una regione in cui è presente un movimento indipendentista potrebbe far scaturire una secessione. L'effetto viene indebolito se i disordini sono già al di sopra di due volte il valore di riferimento per i disordini della nazione.
 TIMissionTemplate.CriticalSuccess.Unrest=I miei sforzi hanno aumentato i disordini {targetNationNameWithPrep} ({returnedValue}) fino a {targetNationUnrestWithString}. Ora abbiamo un certo sostegno tra i movimenti insurrezionali, nel caso in cui dovessero rovesciare il governo.
 TIMissionTemplate.Success.Unrest=I miei sforzi hanno aumentato i disordini {targetNationNameWithPrep} ({returnedValue}) fino a {targetNationUnrestWithString}. Ora abbiamo un certo sostegno tra i movimenti insurrezionali, nel caso in cui dovessero rovesciare il governo.
 TIMissionTemplate.Failure.Unrest=Non ho potuto accrescere i disordini {targetNationNameWithPrep}.
@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=Attiva la nostra rete di stazioni senti
 TIMissionTemplate.Success.AppeaseWin=Abbiamo attivato la nostra rete di sentinelle e, dopo una breve dimostrazione, le nazioni della Terra si sono arrese a noi.
 
 TIMissionTemplate.displayName.CooperateWin=Stringi un'alleanza
-TIMissionTemplate.description.CooperateWin=Invia i nostri diplomatici immuni ai ferociti attraverso il condotto spazio-temporale per stabilire un dialogo e porre fine a questo conflitto. Dobbiamo assaltare la base aliena e atterrare per primi. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.description.CooperateWin=Invia i nostri diplomatici immuni ai ferociti attraverso il condotto spazio-temporale per stabilire un dialogo e porre fine a questo conflitto. Dobbiamo distruggere tutti i moduli anti-bombardamento, cittadella, guarnigione e caserma presenti nella base aliena principale per poter far atterrare lì il nostro consigliere e tentare questa missione. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
 TIMissionTemplate.Success.CooperateWin=Abbiamo raggiunto un accordo con le idre.
 
 TIMissionTemplate.displayName.DestroyWin=Attiva l'arma
-TIMissionTemplate.description.DestroyWin=Invia la nostra ama biologica attraverso il condotto spazio-temporale. Dobbiamo assaltare la base aliena e atterrare per primi. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.description.DestroyWin=Invia la nostra arma biologica attraverso il condotto spazio-temporale. Dobbiamo distruggere tutti i moduli anti-bombardamento, cittadella, guarnigione e caserma presenti nella base aliena principale per poter far atterrare lì il nostro consigliere e tentare questa missione. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
 TIMissionTemplate.Success.DestroyWin=Abbiamo distribuito il virus Shiva.
 
 TIMissionTemplate.displayName.EscapeWin=Lancia il Bifrost
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=Dai l'ordine di lancio per dare avvio al
 TIMissionTemplate.Success.EscapeWin=Abbiamo lanciato il Bifrost.<br/><br/>Abbiamo adempiuto ai nostri obblighi, ma la vita continua per coloro che sono rimasti. Se lo desideriamo, possiamo costruire un altro veicolo spaziale interstellare e lanciarlo.
 
 TIMissionTemplate.displayName.ExploitWin=Doma il nemico
-TIMissionTemplate.description.ExploitWin=Invia il pacchetto di neoferociti attraverso il condotto spazio-temporale. Dobbiamo assaltare la base aliena e atterrare per primi. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.description.ExploitWin=Invia il pacchetto di neoferociti attraverso il condotto spazio-temporale. Dobbiamo distruggere tutti i moduli anti-bombardamento, cittadella, guarnigione e caserma presenti nella base aliena principale per poter far atterrare lì il nostro consigliere e tentare questa missione. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
 TIMissionTemplate.Success.ExploitWin=Abbiamo soggiogato l'impero delle idre.
 
 TIMissionTemplate.displayName.ResistWin=Chiudi l'ingresso
-TIMissionTemplate.description.ResistWin=Attiva il dispositivo per chiudere il condotto spazio-temporale. Dobbiamo assaltare la base aliena e atterrare per primi. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
+TIMissionTemplate.description.ResistWin=Attiva il dispositivo per disattivare il condotto spazio-temporale alieno. Dobbiamo distruggere tutti i moduli anti-bombardamento, cittadella, guarnigione e caserma presenti nella base aliena principale per poter far atterrare lì il nostro consigliere e tentare questa missione. Sarà necessario aver prima raggiunto i nostri obiettivi di vittoria.
 TIMissionTemplate.Success.ResistWin=La via di fuga nemica è chiusa.
 
 TIMissionTemplate.displayName.SubmitWin=Proclama i maestri
@@ -499,8 +499,9 @@ TIMissionCondition_VictoryCondition=La fazione deve aver soddisfatto tutte le co
 TIMissionCondition_SufficientMissionControl=Deve essere disponibile il controllo della missione
 TIMissionCondition_FreeCouncilor=Il consigliere preso di mira non deve essere prigioniero o in altro modo inattivo
 TIMissionCondition_TargetableHabModule=Deve essere un modulo nemico non centrale
-TIMissionCondition_TargetableOrg=Deve trattarsi di un'organizzazione nella riserva non assegnata di una fazione nemica o assegnata a un consigliere di cui abbiamo ottenuto informazioni significative
+TIMissionCondition_TargetableOrg=Deve trattarsi di un'organizzazione nella riserva non assegnata di una fazione nemica o assegnata a un consigliere di cui abbiamo informazioni significative
 _Fail=Deve essere un tipo di obiettivo valido per la missione e accessibile al consigliere
+TIMissionCondition_AlienPrimaryBaseInRange=Il nostro consigliere deve trovarsi alla base, in un sito di habitat vicino o in un'orbita di interfaccia sopra la base, e la base non deve avere moduli cittadella, guarnigione, caserma o con armi anti-bombardamento attivi
 
 TIMissionAbort_ControlPointRemoved=La missione è stata interrotta perché il punto di controllo bersaglio non esiste più.
 TIMissionAbort_CouncilorRetired=La missione è stata interrotta perché il consigliere assegnato non è più attivo.

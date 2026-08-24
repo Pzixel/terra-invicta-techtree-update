@@ -165,7 +165,7 @@ UI.SpaceCombat.Warning.WeaponNoTarget=Ce vaisseau a réglé une de ses armes sur
 UI.SpaceCombat.Warning.ShipNoThrust=Le vaisseau ne peut plus manœuvrer en raison d'un niveau de combustible faible ou de dégâts critiques subis par la passerelle ou le système de poussée.
 UI.SpaceCombat.Warning.ShipNoWeapons=Le vaisseau a subi des dégâts critiques au niveau de ses systèmes d'armement et ne peut plus utiliser aucune arme.
 UI.SpaceCombat.Warning.ShipTarget=Ce vaisseau vise {0}
-UI.SpaceCombat.Warning.ManeuverTarget={0} essaie d'aller à la même vitesse que ce vaisseau.
+UI.SpaceCombat.Warning.ManeuverTarget={0} essaie d'aller à la même vitesse que cette cible.
 UI.SpaceCombat.Warning.RotationStatus.Critical=Les propulseurs vectoriels de ce vaisseau ont subi des dégâts critiques, avec un effet dévastateur sur sa vitesse de rotation.
 UI.SpaceCombat.Warning.RotationStatus.Damaged=Les propulseurs vectoriels de ce vaisseau ont été endommagés, ce qui ralentit sa vitesse de rotation.
 UI.SpaceCombat.Warning.RotationStatus.Good=Les propulseurs vectoriels de ce vaisseau sont en état de fonctionnement. 
@@ -184,6 +184,7 @@ UI.SpaceCombat.Warning.Avoidance=Le vaisseau effectue une manœuvre pour éviter
 UI.SpaceCombat.Offline=Hors ligne
 UI.SpaceCombat.Damaged=A subi des dégâts
 UI.SpaceCombat.Online=En ligne
+UI.SpaceCombat.Jammed=Brouillé
 
 UI.SpaceCombat.Weapon.Damaged=Cette arme est endommagée et ne peut pas être utilisée tant qu'elle n'est pas réparée.
 UI.SpaceCombat.Weapon.Cooldown=Cette arme refroidit et ne peut pas être utilisée pour le moment.
@@ -224,9 +225,9 @@ UI.SpaceCombat.ReinforcementReorderPanelHeaderText=Demander des renforts
 
 UI.SpaceCombat.Critical=CRIT !
 UI.SpaceCombat.RawDamage=Dégâts bruts
-UI.SpaceCombat.AbsorbedDamage=Dégâts absorbés par le blindage du vaisseau
-UI.SpaceCombat.PenetratedDamage=Dégâts perforants sur les systèmes du vaisseau
-UI.SpaceCombat.RadiationDamage=Dégâts dus aux radiations qui contournent le blindage pour endommager directement les systèmes du vaisseau.
+UI.SpaceCombat.AbsorbedDamage=Dégâts absorbés par le blindage
+UI.SpaceCombat.PenetratedDamage=Dégâts perforants sur les systèmes
+UI.SpaceCombat.RadiationDamage=Dégâts dus aux radiations qui contournent le blindage pour endommager directement les systèmes
 
 UI.SpaceCombat.RadiatorStatus.Cooling=Évacuation de chaleur en cours
 UI.SpaceCombat.RadiatorStatus.Heating=Accumulation de chaleur en cours
@@ -245,7 +246,7 @@ UI.SpaceCombat.BattleLog.ShipDestructionNoKiller=Le vaisseau {0} {2} à coque de
 UI.SpaceCombat.BattleLog.ShipDestructionHeat=Le vaisseau {0} {2} à coque de type {1} a été détruit à cause de températures internes extrêmes.
 UI.SpaceCombat.BattleLog.ShipDestructionHabKiller=Le vaisseau {0} {2} à coque de type {1} a été détruit par l'arme {3} du module {5} construit sur l'habitat {4} {6}.
 UI.SpaceCombat.BattleLog.HabDestruction=Un module {0} construit sur l'habitat {1} a été détruit par une arme {2} du vaisseau {3} {5} à coque de type {4}.
-UI.SpaceCombat.BattleLog.BattleGroupReinforced={0} vaisseaux sont arrivés en renfort pour aider la faction {1}, menés par le vaisseau {3} à coque de type {2}.
+UI.SpaceCombat.BattleLog.BattleGroupReinforced={0} Vaisseaux sont arrivés en renfort pour aider la faction {1}, menés par le vaisseau {3} à coque de type {2}.
 UI.SpaceCombat.BattleLog.ShipReinforced=Le vaisseau {0} {2} à coque de type {1} est arrivé en renfort.
 UI.SpaceCombat.BattleLog.ShipDisengaged=Le vaisseau {0} {2} à coque de type {1} s'est retiré du combat.
 UI.SpaceCombat.BattleLog.OutOfAmmo=Le vaisseau {0} {2} à coque de type {1} a déclaré être à court de munitions pour son arme {3}.
@@ -277,3 +278,5 @@ UI.SpaceCombat.BattleLog.AllWeaponsDestroyed.Title= Vaisseau désarmé
 UI.SpaceCombat.BattleLog.ShipDamaged.Title= Dégâts
 UI.SpaceCombat.BattleLog.ArmorHolding.Title= Résistance du blindage
 UI.SpaceCombat.BattleLog.PartRepaired.Title= Réparer
+
+UI.SpaceCombat.WaypointAvoidance=La trajectoire entraînera une collision

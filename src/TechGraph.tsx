@@ -10,9 +10,17 @@ export function TechGraph({
     selectedDataName,
     precomputedPositions,
     bundle,
+    dlcOnlyDataNames = [],
 }: TechGraphProps) {
     const [network, setNetwork] = useState<vis.Network | null>(null);
+    const networkRef = useRef<vis.Network | null>(null);
     const containerRef = useRef<HTMLDivElement | null>(null);
+    const replaceNetwork = useCallback((createNetwork: () => vis.Network) => {
+        networkRef.current?.destroy();
+        const nextNetwork = createNetwork();
+        networkRef.current = nextNetwork;
+        setNetwork(nextNetwork);
+    }, []);
 
     // Refs let the draw callback see current values without re-drawing
     const onNavigateToNodeRef = useRef(onNavigateToNode);
@@ -37,6 +45,12 @@ export function TechGraph({
     const drawTree = useCallback(() => {
         const navigate = (dataName: string | null) => onNavigateToNodeRef.current(dataName);
         const initialFocus = selectedDataNameRef.current;
+        const dlcOnly = new Set(dlcOnlyDataNames);
+        const markDlcNodes = <T extends { id: string; label: string },>(nodes: T[]) => nodes.map((node) => (
+            dlcOnly.has(node.id) && !node.label.includes('◆')
+                ? { ...node, label: node.label.replace('<b>', '<b>◆ ') }
+                : node
+        ));
 
         // Precompiled bundle renders without game data or a layout pass.
         // It stays authoritative until the app clears it (user toggles that
@@ -44,7 +58,7 @@ export function TechGraph({
         if (bundle) {
             const boot = window.__graphBoot;
             if (boot && boot.bundle === bundle && !boot.adopted) {
-                if (boot.network) {
+                if (boot.network && dlcOnly.size === 0) {
                     // Adopt the network the boot chunk already drew: move its
                     // container into the React tree and take over navigation
                     boot.adopted = true;
@@ -54,15 +68,19 @@ export function TechGraph({
                     if (queued.length) {
                         navigate(queued[queued.length - 1]);
                     }
-                    setNetwork(boot.network);
+                    replaceNetwork(() => boot.network!);
                     return;
                 }
                 // React won the race: claim the boot so it won't also draw
                 boot.adopted = true;
+                boot.network?.destroy();
                 boot.container.remove();
             }
+            const renderedBundle = dlcOnly.size > 0
+                ? { ...bundle, nodes: markDlcNodes(bundle.nodes) }
+                : bundle;
             performance.mark('graph:draw-start');
-            setNetwork(drawBundle(bundle, navigate, initialFocus, ensureNetworkDiv()));
+            replaceNetwork(() => drawBundle(renderedBundle, navigate, initialFocus, ensureNetworkDiv()));
             performance.measure('graph:draw', 'graph:draw-start');
             return;
         }
@@ -72,16 +90,21 @@ export function TechGraph({
         ensureNetworkDiv();
         const { nodes, edges, lateNodes, lateEdges } = parseNode(techDb, templateData, false);
         const data = {
-            nodes: new vis.DataSet(nodes),
+            nodes: new vis.DataSet(markDlcNodes(nodes)),
             edges: new vis.DataSet(edges)
         };
 
-        setNetwork(draw(data, lateNodes, lateEdges, navigate, precomputedPositions, initialFocus));
-    }, [bundle, techDb, templateData, precomputedPositions]);
+        replaceNetwork(() => draw(data, markDlcNodes(lateNodes), lateEdges, navigate, precomputedPositions, initialFocus));
+    }, [bundle, techDb, templateData, precomputedPositions, dlcOnlyDataNames, replaceNetwork]);
 
     useEffect(() => {
         drawTree();
     }, [drawTree]);
+
+    useEffect(() => () => {
+        networkRef.current?.destroy();
+        networkRef.current = null;
+    }, []);
 
     useEffect(() => {
         if (selectedDataName && network) {
@@ -95,6 +118,11 @@ export function TechGraph({
     }, [selectedDataName, network]);
 
     return (
-        <div className="graph-container" ref={containerRef}></div>
+        <div
+            className="graph-container"
+            ref={containerRef}
+            role="application"
+            aria-label="Technology graph. A diamond marks nodes added by the Dark Skies DLC."
+        ></div>
     );
 }

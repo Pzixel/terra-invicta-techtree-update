@@ -5301,14 +5301,6 @@
    "projectUnlockName": "Project_GranColombia"
  },
  {
-   "dataName": "ClaimARGValparaiso",
-   "relationType": "Claim",
-   "nation1": "ARG",
-   "region1": "Valparaiso",
-   "projectUnlockName": "Project_GranColombia",
-   "hostileClaim": true
- },
- {
    "dataName": "ClaimARMArmenia",
    "relationType": "Claim",
    "nation1": "ARM",
@@ -19871,6 +19863,12 @@
    "region2": "map_Slovenia"
  },
  {
+   "dataName": "PhysicalAdjacencymap_Cuiabamap_Paraguay",
+   "relationType": "PhysicalAdjacency",
+   "region1": "map_Cuiaba",
+   "region2": "map_Paraguay"
+ },
+ {
    "dataName": "PhysicalAdjacencymap_Cuiabamap_PortoAlegre",
    "relationType": "PhysicalAdjacency",
    "region1": "map_Cuiaba",
@@ -21861,12 +21859,6 @@
    "relationType": "PhysicalAdjacency",
    "region1": "map_Mongolia",
    "region2": "map_Xinjiang"
- },
- {
-   "dataName": "PhysicalAdjacencymap_Monterreymap_RockyMountains",
-   "relationType": "PhysicalAdjacency",
-   "region1": "map_Monterrey",
-   "region2": "map_RockyMountains"
  },
  {
    "dataName": "PhysicalAdjacencymap_Monterreymap_Texas",
@@ -25595,14 +25587,6 @@
    "nation1": "2070_ARG",
    "region1": "2070_Uruguay",
    "projectUnlockName": "Project_GranColombia"
- },
- {
-   "dataName": "Claim2070_ARG2070_Valparaiso",
-   "relationType": "Claim",
-   "nation1": "2070_ARG",
-   "region1": "2070_Valparaiso",
-   "projectUnlockName": "Project_GranColombia",
-   "hostileClaim": true
  },
  {
    "dataName": "Claim2070_ARM2070_Armenia",
@@ -40947,12 +40931,6 @@
    "nation2": "2026_SDN"
  },
  {
-   "dataName": "Rivalry2026_USA2026_VEN",
-   "relationType": "Rivalry",
-   "nation1": "2026_USA",
-   "nation2": "2026_VEN"
- },
- {
    "dataName": "Rivalry2026_USA2026_YEM",
    "relationType": "Rivalry",
    "nation1": "2026_USA",
@@ -43774,14 +43752,6 @@
    "nation1": "2026_ARG",
    "region1": "2026_Uruguay",
    "projectUnlockName": "Project_GranColombia"
- },
- {
-   "dataName": "Claim2026_ARG2026_Valparaiso",
-   "relationType": "Claim",
-   "nation1": "2026_ARG",
-   "region1": "2026_Valparaiso",
-   "projectUnlockName": "Project_GranColombia",
-   "hostileClaim": true
  },
  {
    "dataName": "Claim2026_ARM2026_Armenia",

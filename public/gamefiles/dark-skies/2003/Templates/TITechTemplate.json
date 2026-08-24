@@ -1,0 +1,738 @@
+[
+ {
+   "friendlyName": "Democratization of Space",
+   "dataName": "BS_DemocratizationofSpace",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 15000,
+   "effects": [
+      "Effect_BS_GraySky",
+      "Effect_BS_BoostRepair",
+      "Effect_BS_SpaceProgramBonusA",
+      "Effect_BS_MCRepair",
+      "Effect_BS_SpaceScienceBonusA",
+      "Effect_BS_MilitaryScienceBonusA"
+   ]
+},
+ {
+   "friendlyName": "Exascale Computing",
+   "dataName": "BS_ExascaleComputing",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Income",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 15000,
+   "effects": [
+      "Effect_BS_SustainabilityRepair",
+      "Effect_BS_MaterialScienceBonusA",
+      "Effect_BS_LifeScienceBonusA",
+      "Effect_BS_EnergyScienceBonusA"
+   ]
+},
+ {
+   "friendlyName": "Digital Society",
+   "dataName": "BS_DigitalSociety",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 15000,
+   "effects": [
+      "Effect_BS_CPMaintenanceRepairA",
+      "Effect_BS_AllFactionRecruitsInvestigationBonus",
+      "Effect_BS_AllFactionCouncilorsInvestigationBonus",
+      "Effect_BS_InfluenceRepair",
+      "Effect_BS_SocialScienceBonusA",
+      "Effect_BS_InformationScienceBonusA"
+   ]
+},
+ {
+   "friendlyName": "Mission To Space",
+   "dataName": "MissionToSpace",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 1000,
+   "prereqs": [
+      "BS_DemocratizationofSpace"
+   ]
+},
+ {
+   "friendlyName": "Skywatch",
+   "dataName": "Skywatch",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 2000,
+   "prereqs": [
+      "BS_DemocratizationofSpace"
+   ],
+   "effects": [
+      "Effect_Skywatch",
+      "Effect_SpaceScan"
+   ]
+},
+ {
+   "friendlyName": "Advanced Chemical Rocketry",
+   "dataName": "AdvancedChemicalRocketry",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 1000,
+   "prereqs": [
+      "BS_DemocratizationofSpace"
+   ]
+},
+ {
+   "friendlyName": "Advanced Carbon Manipulation",
+   "dataName": "AdvancedCarbonManipulation",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 1000,
+   "prereqs": [
+      "BS_ExascaleComputing"
+   ]
+},
+ {
+   "friendlyName": "Biotechnology",
+   "dataName": "Biotechnology",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "LifeScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 1500,
+   "prereqs": [
+      "BS_ExascaleComputing"
+   ]
+},
+ {
+   "friendlyName": "We Are Not Alone",
+   "dataName": "WeAreNotAlone",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 2500,
+   "effects": [
+      "Effect_BS_SocialScienceBonusA",
+      "Effect_BS_CPMaintenanceRepairB",
+      "Effect_BS_AlienAwareness"
+   ]
+},
+ {
+   "friendlyName": "Augmented Reality",
+   "dataName": "AugmentedReality",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 1500,
+   "prereqs": [
+      "BS_DigitalSociety"
+   ]
+},
+ {
+   "friendlyName": "Photonic Computing",
+   "dataName": "PhotonicComputing",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 1500
+},
+ {
+   "friendlyName": "High-Energy Lasers",
+   "dataName": "HighEnergyLasers",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Energy",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 1500
+},
+ {
+   "friendlyName": "Advanced Magnetics",
+   "dataName": "AdvancedMagnetics",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Energy",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 1500
+},
+ {
+   "friendlyName": "Deep System Skywatch",
+   "dataName": "DeepSystemSkywatch",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "FactionObjective",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 8000,
+   "prereqs": [
+      "Skywatch"
+   ],
+   "effects": [
+      "Effect_DeepSkywatch",
+      "Effect_SpaceScan"
+   ]
+},
+ {
+   "friendlyName": "Space Research",
+   "dataName": "SpaceResearch",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 2500,
+   "prereqs": [
+      "MissionToSpace"
+   ]
+},
+ {
+   "friendlyName": "Terrestrial Military Science",
+   "dataName": "TerrestrialMilitaryScience",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 1500,
+   "effects": [
+      "Effect_IncreaseMaxArmyTechLevel"
+   ]
+},
+ {
+   "friendlyName": "Arrival Security",
+   "dataName": "ArrivalSecurity",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 5000,
+   "prereqs": [
+      "TerrestrialMilitaryScience"
+   ]
+},
+ {
+   "friendlyName": "Networked Global Defense",
+   "dataName": "NetworkedGlobalDefense",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 10000,
+   "prereqs": [
+      "ArrivalSecurity",
+      "QuantumEncryption",
+      "TransInterfaceWarfare"
+   ],
+   "effects": [
+      "Effect_IncreaseMaxArmyTechLevel"
+   ]
+},
+ {
+   "friendlyName": "Principles of Space Warfare",
+   "dataName": "PrinciplesofSpaceWarfare",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 2000,
+   "prereqs": [
+      "OrbitalShipbuilding",
+      "BS_ExascaleComputing"
+   ]
+},
+ {
+   "friendlyName": "Orbital Shipbuilding",
+   "dataName": "OrbitalShipbuilding",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "Materials",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 2000,
+   "prereqs": [
+      "MissionToSpace"
+   ],
+   "effects": [
+      "Effect_BS_ShipConstructionTimeRepair"
+   ]
+},
+ {
+   "friendlyName": "Kinetics Warfare Doctrine",
+   "dataName": "KineticsWarfareDoctrine",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 1000,
+   "prereqs": [
+      "PrinciplesofSpaceWarfare"
+   ]
+},
+ {
+   "friendlyName": "Railguns",
+   "dataName": "Railguns",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 2500,
+   "prereqs": [
+      "KineticsWarfareDoctrine",
+      "MassDrivers"
+   ]
+},
+ {
+   "friendlyName": "Coilguns",
+   "dataName": "Coilguns",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "MilitaryScience",
+   "AI_techRole": "SpaceWar",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 15000,
+   "prereqs": [
+      "Railguns",
+      "Supercapacitors",
+      "SuperconductingMagnets"
+   ],
+   "effects": [
+      "Effect_IncreaseMaxArmyTechLevel"
+   ]
+},
+ {
+   "friendlyName": "Arrival International Relations",
+   "dataName": "ArrivalInternationalRelations",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 2500,
+   "prereqs": [
+      "WeAreNotAlone"
+   ]
+},
+ {
+   "friendlyName": "Unity Movements",
+   "dataName": "UnityMovements",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 4000,
+   "prereqs": [
+      "ArrivalInternationalRelations"
+   ]
+},
+ {
+   "friendlyName": "Independence Movements",
+   "dataName": "IndependenceMovements",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 1000,
+   "prereqs": [
+      "ArrivalDomesticPolitics",
+      "ArrivalSociology",
+      "BS_DigitalSociety"
+   ]
+},
+ {
+   "friendlyName": "Great Nations",
+   "dataName": "GreatNations",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 10000,
+   "prereqs": [
+      "UnityMovements",
+      "ArrivalDomesticPolitics"
+   ]
+},
+ {
+   "friendlyName": "Fall of Empires",
+   "dataName": "FallofEmpires",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 2000,
+   "prereqs": [
+      "IndependenceMovements",
+      "ArrivalInternationalRelations"
+   ]
+},
+ {
+   "friendlyName": "Ad Astra",
+   "dataName": "AdAstra",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 7500,
+   "prereqs": [
+      "MissiontotheMoon",
+      "OrbitalShipbuilding"
+   ]
+},
+ {
+   "friendlyName": "Advanced Neural Networks",
+   "dataName": "AdvancedNeuralNetworks",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 4000,
+   "prereqs": [
+      "PhotonicComputing"
+   ]
+},
+ {
+   "friendlyName": "Applied Artificial Intelligence",
+   "dataName": "AppliedArtificialIntelligence",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "InformationScience",
+   "AI_techRole": "Efficiency",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 20000,
+   "prereqs": [
+      "AdvancedNeuralNetworks"
+   ],
+   "effects": [
+      "Effect_IncreaseMaxArmyTechLevel"
+   ]
+},
+ {
+   "friendlyName": "Mission to the Moon",
+   "dataName": "MissiontotheMoon",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceExpansion",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 1000,
+   "prereqs": [
+      "OutpostHabs"
+   ],
+   "effects": [
+      "Effect_ExploreLuna",
+      "Effect_SpaceMineFreebies3",
+      "Effect_TechProbeSpeed"
+   ]
+},
+ {
+   "friendlyName": "Nuclear Fission in Space",
+   "dataName": "NuclearFissioninSpace",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 2500,
+   "prereqs": [
+      "DeepSpacePropulsionConcepts"
+   ],
+   "effects": [
+      "Effect_GlobalFissionTechIncrease"
+   ]
+},
+ {
+   "friendlyName": "Our Space Future",
+   "dataName": "OurSpaceFuture",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 30000,
+   "prereqs": [
+      "SpaceNavies",
+      "DirectedSpaceResearch",
+      "SpaceCommerce"
+   ]
+},
+ {
+   "friendlyName": "Space Mining and Refining",
+   "dataName": "SpaceMiningandRefining",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 3500,
+   "prereqs": [
+      "MassDrivers",
+      "OutpostHabs"
+   ],
+   "effects": [
+      "Effect_BS_MineSizeNormalization"
+   ]
+},
+ {
+   "friendlyName": "Mission to Mars",
+   "dataName": "MissiontoMars",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceExpansion",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 5000,
+   "prereqs": [
+      "OutpostHabs",
+      "Skywatch"
+   ],
+   "effects": [
+      "Effect_ExploreMars",
+      "Effect_ExploreEarthLagrangePoints",
+      "Effect_SpaceMineFreebies6",
+      "Effect_TechProbeSpeed",
+      "Effect_BS_SemiMajorAxisExplorationI"
+   ]
+},
+ {
+   "friendlyName": "Mission to the Asteroids",
+   "dataName": "MissiontotheAsteroids",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SpaceScience",
+   "AI_techRole": "SpaceExpansion",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 2000,
+   "prereqs": [
+      "DeepSpacePropulsionConcepts",
+      "SpaceMiningandRefining"
+   ],
+   "effects": [
+      "Effect_ExploreAsteroids",
+      "Effect_SpaceMineFreebies6",
+      "Effect_TechProbeSpeed",
+      "Effect_BS_SemiMajorAxisExplorationIII"
+   ]
+},
+ {
+   "friendlyName": "Orbital Ring Habs",
+   "dataName": "OrbitalRingHabs",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "LifeScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 3000,
+   "prereqs": [
+      "AdAstra"
+   ],
+   "effects": [
+      "Effect_BS_HabConstructionSpeedRepair"
+   ]
+},
+ {
+   "friendlyName": "Settlement Habs",
+   "dataName": "SettlementHabs",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "LifeScience",
+   "AI_techRole": "SpaceDevelopment",
+   "AI_criticalTech": true,
+   "endGameTech": false,
+   "researchCost": 10000,
+   "prereqs": [
+      "AdAstra"
+   ]
+},
+ {
+   "friendlyName": "Arrival Law",
+   "dataName": "ArrivalLaw",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 3500,
+   "prereqs": [
+      "ArrivalInternationalRelations",
+      "ArrivalDomesticPolitics"
+   ]
+},
+ {
+   "friendlyName": "Arrival International Development",
+   "dataName": "ArrivalInternationalDevelopment",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 3500,
+   "prereqs": [
+      "ArrivalEconomics",
+      "ArrivalInternationalRelations"
+   ],
+   "effects": [
+      "Effect_EnvironmentBestSustainabilityValue05"
+   ]
+},
+ {
+   "friendlyName": "Arrival Mass Communications",
+   "dataName": "ArrivalMassCommunications",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 3500,
+   "prereqs": [
+      "ArrivalSociology",
+      "ArrivalPsychology"
+   ]
+},
+ {
+   "friendlyName": "Arrival Psychology",
+   "dataName": "ArrivalPsychology",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "LifeScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 3500,
+   "prereqs": [
+      "WeAreNotAlone",
+      "BS_DigitalSociety"
+   ]
+},
+ {
+   "friendlyName": "Arrival Sociology",
+   "dataName": "ArrivalSociology",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "techCategory": "SocialScience",
+   "AI_techRole": "EarthPolitics",
+   "AI_criticalTech": false,
+   "endGameTech": false,
+   "researchCost": 1700,
+   "prereqs": [
+      "WeAreNotAlone"
+   ]
+}
+]

@@ -1,0 +1,83 @@
+
+// Dark Skies DLC
+
+Context.displayName.MaterialScience=Nauka o materiałach
+Context.displayName.SpaceScience=Kosmologia
+Context.displayName.EnergyScience=Elektrodynamika
+Context.displayName.LifeScience=Nauki przyrodnicze
+Context.displayName.MilitaryScience=Wojskowość
+Context.displayName.InformationScience=Informatyka
+Context.displayName.SocialScience=Socjologia
+Context.displayName.Xenology=Ksenologia
+Context.displayName.PublicOpinionInfluence=Wpływ z poparcia
+Context.displayName.SemiMajorAxisExplorationRange_AU=Zasięg eksploracji orbitalnej
+Context.displayName.PublicizedAlienThreat=Nagłośnił kwestię zagrożenia obcych
+Context.displayName.AugmentationMoneyCost=Pieniężny koszt implantów
+Context.displayName.HabConstructionSpeed=Szybkość konstrukcji habitatu
+Context.displayName.MineSizeModifier=Rozmiar kosmicznej kopani
+
+Context.displayName.DemocracyBackslides=Regres demokracji
+TIEffectTemplate.description.Effect_BS_DemocracyBackslides1=– Demokratyczne instytucje słabną.
+
+TIEffectTemplate.description.Effect_BS_CPMaintenanceBonus_MakingHistoryA=– Zwiększa nasz limit zarządzania filarami władzy o {19}. Nie kumuluje się z innymi projektami „Tworzenia historii”. 
+TIEffectTemplate.description.Effect_BS_InfluenceRepair=– Zwiększa wpływy z poparcia o {3}.
+TIEffectTemplate.description.Effect_BS_MaterialScienceBonusA=– Zwiększa nasze badania nauk o materiałach o {3}.
+TIEffectTemplate.description.Effect_BS_SpaceScienceBonusA=– Zwiększa nasze badania kosmologiczne o {3}.
+TIEffectTemplate.description.Effect_BS_SpaceScience5=– Zwiększa nasze badania kosmologiczne o {3}.
+TIEffectTemplate.description.Effect_BS_EnergyScienceBonusA=– Zwiększa nasze badania elektrodynamiki o {3}.
+TIEffectTemplate.description.Effect_BS_LifeScienceBonusA=– Zwiększa nasze badania nauk przyrodniczych o {3}.
+TIEffectTemplate.description.Effect_BS_MilitaryScienceBonusA=– Zwiększa nasze badania techniki wojskowej o {3}.
+TIEffectTemplate.description.Effect_BS_InformationScienceBonusA=– Zwiększa nasze badania informatyczne o {3}.
+TIEffectTemplate.description.Effect_BS_SocialScienceBonusA=– Zwiększa nasze badania socjologiczne o {3}.
+TIEffectTemplate.description.Effect_BS_XenologyBonusA=– Zwiększa nasze badania ksenologiczne o {3}.
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimeRepair=– Zwiększa prędkość budowy statku o {3}.
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationI=– Zwiększa zasięg eksploracji orbitalnej do {0} JA.
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationII=– Zwiększa zasięg eksploracji orbitalnej do {0} JA.
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationIII=– Usuwa limity zasięgu eksploracji orbitalnej.
+TIEffectTemplate.description.Effect_BS_GraySky=– Pozwala wszystkim frakcjom namierzać jednostki i struktury obcych aż do Marsa.
+TIEffectTemplate.description.Effect_BS_AugmentationMoneyCostReduction=– Implanty naszych konsultantów kosztują {4} mniej funduszy.
+TIEffectTemplate.description.Effect_BS_PublicizeAlienThreat=– Może przyspieszyć agresję obcych.
+TIEffectTemplate.description.Effect_BS_AlienAwareness=– Wiedza o obcych trafia do ogólnej populacji.
+TIEffectTemplate.description.Effect_BS_DiscoverAlienInvasion=– Ujawnia przed nami plany obcych względem Ziemi.
+
+TIEffectTemplate.description.Effect_BS_CPResearchPenalty=– Badania z filarów władzy maleją o {4}.
+TIEffectTemplate.description.Effect_BS_CPMaintenancePenalty=– Zmniejsza nasz limit zarządzania filarami władzy o {0}.
+TIEffectTemplate.description.Effect_BS_SustainabilityPenalty=– Państwowe punkty inwestycji skierowane w priorytet ekologiczny zmniejszyły się o {25}.
+TIEffectTemplate.description.Effect_BS_MCPenalty=– Państwowe punkty inwestycji skierowane w priorytet kontroli misji zmniejszyły się o {25}.
+TIEffectTemplate.description.Effect_BS_BoostPenalty=– Państwowe punkty inwestycji skierowane w priorytet ciągu zmniejszyły się o {25}.
+TIEffectTemplate.description.Effect_BS_InfluencePenalty=– Zmniejsza wpływy z poparcia o {25}.
+TIEffectTemplate.description.Effect_BS_MaterialSciencePenalty=– Zmniejsza nasze badania nauk o materiałach o {25}.
+TIEffectTemplate.description.Effect_BS_SpaceSciencePenalty=– Zmniejsza nasze badania kosmologiczne o {25}.
+TIEffectTemplate.description.Effect_BS_EnergySciencePenalty=– Zmniejsza nasze badania elektrodynamiki o {25}.
+TIEffectTemplate.description.Effect_BS_LifeSciencePenalty=– Zmniejsza nasze badania nauk przyrodniczych o {25}.
+TIEffectTemplate.description.Effect_BS_MilitarySciencePenalty=– Zmniejsza nasze badania techniki wojskowej o {25}.
+TIEffectTemplate.description.Effect_BS_InformationSciencePenalty=– Zmniejsza nasze badania informatyczne o {25}.
+TIEffectTemplate.description.Effect_BS_SocialSciencePenalty=– Zmniejsza nasze badania socjologiczne o {25}.
+TIEffectTemplate.description.Effect_BS_XenologyPenalty=– Zmniejsza nasze badania ksenologiczne o {25}.
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimePenalty=– Zmniejsza prędkość budowy statku o {27}.
+TIEffectTemplate.description.Effect_BS_SpaceMiningPenalty=– Wydobycie surowców na Ziemi zmniejsza się o {25}.
+TIEffectTemplate.description.Effect_BS_BlackSky=– Frakcje mogą namierzać jednostki i struktury obcych w pobliżu Ziemi.
+
+TIEffectTemplate.description.Effect_BS_InvestigationPenalty=– Wszyscy kandydaci na konsultanta w naszej puli będą mieć na początku -{0} śledztwa.
+
+TIEffectTemplate.description.Effect_BS_BoostPenaltyEventTemp=– Państwowe punkty inwestycji skierowane w priorytet ciągu zmniejszyły się o {25} na {7} mies.
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEvent=– Państwowe punkty inwestycji skierowane w priorytet programu lotów kosmicznych zmniejszyły się o {25}.
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEventTemp=– Państwowe punkty inwestycji skierowane w priorytet programu lotów kosmicznych zmniejszyły się o {25} na {7} mies.
+TIEffectTemplate.description.Effect_BS_GovernmentPenaltyEventTemp=– Punkty inwestycji wszystkich państw skierowane w priorytet rządowy zmniejszyły się o {25} na {7} mies.
+TIEffectTemplate.description.Effect_BS_MilitaryBonusEventSmallGlobal=– Punkty inwestycji wszystkich państw skierowane w priorytet wojskowy zwiększyły się o {3}.
+TIEffectTemplate.description.Effect_BS_DefendAllOwnedControlPoints=– Wszystkie kontrolowane filary władzy {5} będą bronione przez {7} mies.
+
+TIEffectTemplate.description.Effect_BS_NationRemoveAbductions1=– Uprowadzenia usunięte {5}: {0}.
+
+TIEffectTemplate.description.Effect_BS_GlobalExcessMiltechReduction=– Wszystkie państwa z techniką wojskową wyższą niż {13} stracą {3} nadwyżki.
+
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedPenalty=– Zmniejsza prędkość budowy habitatów o {4}.
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedRepair=– Zwiększa prędkość budowy habitatów o {3}.
+TIEffectTemplate.description.Effect_BS_MineSizeReduction=– Zmniejsza rozmiar naszych kopalni kosmicznych o {4}.
+TIEffectTemplate.description.Effect_BS_MineSizeNormalization=– Zwiększa rozmiar kopalni kosmicznych o {3}.
+
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeReduction=– Zmniejsza rozmiar naszych zautomatyzowanych kopalni kosmicznych o {4}.
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeNormalization=– Zwiększa rozmiar zautomatyzowanych kopalni kosmicznych o {3}.
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeReduction=– Zmniejsza rozmiar naszych zautomatyzowanych placówek o {4}.
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeNormalization=– Zwiększa rozmiar zautomatyzowanych placówek o {3}.
+

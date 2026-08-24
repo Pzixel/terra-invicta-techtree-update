@@ -282,11 +282,11 @@ TIMissionTemplate.description.AppeaseWin=Activate our network of Sentinel statio
 TIMissionTemplate.Success.AppeaseWin=We have activated our network of Sentinels, and, after a brief demonstration, Earth's nations have yielded their authority to us.
 
 TIMissionTemplate.displayName.CooperateWin=Forge an Alliance
-TIMissionTemplate.description.CooperateWin=Send our pherocyte-resistant diplomats through the wormhole to establish relations and end this conflict. We must assault the alien base and land first. Requires we have met our victory objectives.
+TIMissionTemplate.description.CooperateWin=Send our pherocyte-resistant diplomats through the wormhole to establish relations and end this conflict. We must destroy all anti-bombardment and citadel, garrison, and barracks modules at the primary alien base to be able to land our councilor there to attempt this mission. Requires we have met our victory objectives.
 TIMissionTemplate.Success.CooperateWin=We have agreed to terms with the Hydra.
 
 TIMissionTemplate.displayName.DestroyWin=Trigger the Weapon
-TIMissionTemplate.description.DestroyWin=Send our biological weapon through the wormhole. We must assault the alien base and land first. Requires we have met our victory objectives.
+TIMissionTemplate.description.DestroyWin=Send our biological weapon through the wormhole. We must destroy all anti-bombardment and citadel, garrison, and barracks modules at the primary alien base to be able to land our councilor there to attempt this mission. Requires we have met our victory objectives.
 TIMissionTemplate.Success.DestroyWin=We have deployed the Shiva virus.
 
 TIMissionTemplate.displayName.EscapeWin=Launch the Bifrost
@@ -294,11 +294,11 @@ TIMissionTemplate.description.EscapeWin=Issue the launch order to begin our inte
 TIMissionTemplate.Success.EscapeWin=We have launched the Bifrost.<br/><br/>We have fulfilled our charter, but life goes on for those left behind. If we so choose, we may build another interstellar spacecraft and launch it.
 
 TIMissionTemplate.displayName.ExploitWin=Tame the Enemy
-TIMissionTemplate.description.ExploitWin=Send the neopherocyte package through the wormhole. We must assault the alien base and land first. Requires we have met our victory objectives.
+TIMissionTemplate.description.ExploitWin=Send the neopherocyte package through the wormhole. We must destroy all anti-bombardment and citadel, garrison, and barracks modules at the primary alien base to be able to land our councilor there to attempt this mission. Requires we have met our victory objectives.
 TIMissionTemplate.Success.ExploitWin=We have subjugated the Hydra empire.
 
 TIMissionTemplate.displayName.ResistWin=Close the Gate
-TIMissionTemplate.description.ResistWin=Activate the device to shut down the alien wormhole. We must assault the alien base and land first. Requires we have met our victory objectives.
+TIMissionTemplate.description.ResistWin=Activate the device to shut down the alien wormhole. We must destroy all anti-bombardment and citadel, garrison, and barracks modules at the primary alien base to be able to land our councilor there to attempt this mission. Requires we have met our victory objectives.
 TIMissionTemplate.Success.ResistWin=The enemy's gate is shut.
 
 TIMissionTemplate.displayName.SubmitWin=Herald Our Masters
@@ -501,6 +501,7 @@ TIMissionCondition_FreeCouncilor=Targeted councilor must not be detained or othe
 TIMissionCondition_TargetableHabModule=Must be enemy non-core module
 TIMissionCondition_TargetableOrg=Must be an org in an enemy faction's unassigned pool or assigned to a councilor we have significant intel on
 _Fail=Must be a valid target type for mission and accessible to the councilor.
+TIMissionCondition_AlienPrimaryBaseInRange=Our councilor must be at the base, at a nearby hab site, or in an interface orbit above the base, and the base must have no active citadels, garrisons, barracks, or modules with anti-bombardment weapons
 
 TIMissionAbort_ControlPointRemoved=This mission was aborted because the target control point no longer exists.
 TIMissionAbort_CouncilorRetired=This mission was aborted because the assigned councilor is no longer active.

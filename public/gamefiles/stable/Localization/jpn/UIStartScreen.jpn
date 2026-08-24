@@ -206,116 +206,79 @@ UI.StartScreen.CustomizeCampaign.AddAlienAssaultFleetTooltip=キャンペーン�
 UI.StartScreen.CustomizeCampaign.CampaignPresetRapid=加速キャンペーンのデフォルト
 UI.StartScreen.CustomizeCampaign.CampaignPresetLong=長期キャンペーンのデフォルト
 UI.StartScreen.CustomizeCampaign.LastCampaignPreset=過去のキャンペーン設定
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactions=AI派閥の無力化を許可
+UI.StartScreen.CustomizeCampaign.AllowDisableAIFactionsTooltip=一部の人間系AI派閥が、一定以上の打撃を受けた場合に休止状態となることを許可します。これは評議員の裏切りが毎月2回未満かつ、1日の開始時に艦隊、ハブ、評議員またはコントロール・ポイントを有していない場合に発生し始める可能性があります。<br/><br/>ストーリー上で重要な役割がある特定の派閥は無力化することができません。全派閥が登場するゲームでは、「しもべ」と「保護領」は対象外となり、プレイヤーが「レジスタンス」または「人類優先」でプレイしていない場合、「人類優先」も対象外となります。
+UI.StartScreen.CustomizeCampaign.Namelist.Heroes=英雄
+UI.StartScreen.CustomizeCampaign.Namelist.Qualities=品質
+UI.StartScreen.CustomizeCampaign.Namelist.Battles=戦闘
+UI.StartScreen.CustomizeCampaign.Namelist.Commanders=司令官
+UI.StartScreen.CustomizeCampaign.Namelist.Weapons=兵器
+UI.StartScreen.CustomizeCampaign.Namelist.Fighters=戦闘機
+UI.StartScreen.CustomizeCampaign.Namelist.Scary=恐怖
+UI.StartScreen.CustomizeCampaign.Namelist.Mountains=山脈
+UI.StartScreen.CustomizeCampaign.Namelist.WaterAnimals=水生動物
+UI.StartScreen.CustomizeCampaign.Namelist.Rivers=河川
+UI.StartScreen.CustomizeCampaign.Namelist.WaterBodies=水域
+UI.StartScreen.CustomizeCampaign.Namelist.Explorers=探検家
+UI.StartScreen.CustomizeCampaign.Namelist.MythicalBeasts=神話生物
+UI.StartScreen.CustomizeCampaign.Namelist.Phenomena=現象
+UI.StartScreen.CustomizeCampaign.Namelist.Mythology=神話
+UI.StartScreen.CustomizeCampaign.Namelist.Monuments=モニュメント
+UI.StartScreen.CustomizeCampaign.Namelist.Cities=都市
+UI.StartScreen.CustomizeCampaign.Namelist.Regions=地域
+UI.StartScreen.CustomizeCampaign.Namelist.Landmasses=陸塊
+UI.StartScreen.CustomizeCampaign.Namelist.Leaders=指導者
+UI.StartScreen.CustomizeCampaign.Namelist.LandAnimals=陸生動物
+UI.StartScreen.CustomizeCampaign.Namelist.Scientists=科学者
+UI.StartScreen.CustomizeCampaign.Namelist.Exploration=探査
+UI.StartScreen.CustomizeCampaign.Namelist.Exemplars=模範
+UI.StartScreen.CustomizeCampaign.Namelist.AirAnimals=飛行動物
+UI.StartScreen.CustomizeCampaign.Namelist.Astronomy=天文学
+UI.StartScreen.CustomizeCampaign.Namelist.FamousShips=著名な船
+UI.StartScreen.CustomizeCampaign.Namelist.Astronauts=宇宙飛行士
+UI.StartScreen.CustomizeCampaign.Namelist.AlienNature=エイリアンの自然
+UI.StartScreen.CustomizeCampaign.Namelist.AlienCelestial=エイリアンの天体
+UI.StartScreen.CustomizeCampaign.Namelist.AlienConcepts=エイリアンの概念
+UI.StartScreen.CustomizeCampaign.Namelist.AlienMilitant=エイリアンの民兵
 UI.StartScreen.Cancel=キャンセル
 UI.StartScreen.FactionDescription={0}<br/>派閥の難易度：{1}
 UI.StartScreen.Wiki=Wiki
 UI.StartScreen.Discord=Discord
 UI.StartScreen.PatchNotes=パッチノート
+UI.StartScreen.CallToAction00=発売中！
 UI.StartScreen.TranslationWarning=『Terra Invicta』の早期アクセスバージョンへようこそ！<br/><br/>英語以外の翻訳は、追加の翻訳者によって校正され、ゲーム内で問題がないかテストされている最中です。この初期の早期アクセス版には、文法の間違い、用語の一貫性のない使い方、英語のプレースホルダーテキスト、その他の言語の間違いが含まれています。できるだけ早く修正するよう努力していますが、『Terra Invicta』には小説数冊分のテキストが含まれており、すべてを完全に修正するには時間がかかると思われます。<br/><br/>早期アクセスの『Terra Invicta』をプレイしていただきありがとうございます。私たちはこれからも、ゲームの改善に懸命に取り組んでまいります！
 UI.StartScreen.GamepassWarning=Terra Invictaはゲームプレビュー版です。そのため、特定のゲームやプラットフォームの機能が期待通りに機能せず、バグやクラッシュに遭遇する可能性があります。サポートについては、support@pavonisinteractive.com までメールでお問い合わせください。<br/><br/>クラウドセーブが確実に機能しない場合があります。問題が発生した場合、セーブデータは C:\Users\YOURNAME\Documents\My Games\TerraInvicta\Saves または%homepath%\AppData\Local\Packages\HoodedHorse.TerraInvicta_znaey1dw2bdpr\SystemAppData\xgs\に保存されています
 //<Developer> Credits
-UI.StartScreen.TICredits_0=TERRA INVICTA<br/><br/>
-UI.StartScreen.TICredits_1=制作：<br/>Pavonis Interactive<br/><br/>
-UI.StartScreen.TICredits_2=発売元：<br/>Hooded Horse<br/><br/>
-UI.StartScreen.TICredits_3=クリエイティブ長官<br/>John J. Lumpkin<br/><br/>
-UI.StartScreen.TICredits_4=アートディレクター<br/>François-Olivier Bellotto<br/><br/>
-UI.StartScreen.TICredits_5=デベロッパー<br/>John Caruso<br/>Kevin Wall<br/>TauCeti Deichmann<br/>Ryan Dunagan<br/>Benjamin Poland<br/>Christina Stillman<br/><br/>
-UI.StartScreen.TICredits_6=プロデューサー<br/>Scott Davis<br/><br/>
-UI.StartScreen.TICredits_7=キャラクター＆2Dアーティスト<br/>Michael Moore<br/><br/>
-UI.StartScreen.TICredits_8=イラストレーター<br/>Dana Henderson<br/>Erick Hernández Anda<br/><br/>
-UI.StartScreen.TICredits_9=テクニカルアーティスト<br/>Zack Dawson<br/><br/>
-UI.StartScreen.TICredits_10=UIグル<br/>Josh Atkinson<br/><br/>
-UI.StartScreen.TICredits_11=3D/2Dアーティスト<br/>Anthony Dillo<br/><br/>
-UI.StartScreen.TICredits_12=作曲<br/>Patrick Delaney<br/>Dennis Meyer<br/>Breakdown Epiphanies<br/><br/>
-UI.StartScreen.TICredits_13=オーディオデザイナー<br/>Zabi Khan<br/><br/>
-UI.StartScreen.TICredits_14=ライター<br/>Alec Meer<br/>Benedict Jacka<br/>Arturo Ferreira<br/>Cara Laasch<br/><br/>
-UI.StartScreen.TICredits_15=コンテンツデザイナー<br/>Tayta Malikai<br/>David Ballantyne<br/><br/>
-UI.StartScreen.TICredits_16=プロダクションコーディネーター<br/>Shannon Sindorf<br/><br/>
-UI.StartScreen.TICredits_17=その他のデベロッパー<br/>Thomas Pryde<br/>Christian Potvin<br/>Jon Hillman<br/>King Robertson<br/>Chris Boertien<br/>Zach Parsons<br/>Amineri<br/><br/>
-UI.StartScreen.TICredits_18=エグゼクティブプロデューサー<br/>Tim Bender<br/>Chenghong Huang<br/>Aaron Nathan<br/>Steve Pottenger<br/>Xavier Wynns<br/><br/>
+
 
 //<AP> Credits + Messages
 
-UI.StartScreen.TICredits_19=アソシエイトプロデューサー<br/><br/>
-UI.StartScreen.TICredits_20=Rachel Dilger<br/>
-UI.StartScreen.TICredits_21=<skip/>
-UI.StartScreen.TICredits_22=Best Side Story LLC<br/>
-UI.StartScreen.TICredits_23=「謙虚であれ。あなたは地球から生まれたのだから。気高くあれ。あなたは星から生まれたのだから」<br/>
-UI.StartScreen.TICredits_24=Martti Aarnio-Wihuri<br/>
-UI.StartScreen.TICredits_25=<skip/>
-UI.StartScreen.TICredits_26=John O.＆Eileen Lumpkin<br/>
-UI.StartScreen.TICredits_27=「第二次世界大戦中に太平洋上空を飛ぶコックピットから、星々に広がる未来の世界まで - 家族の旅」<br/>
-UI.StartScreen.TICredits_28=Schinhofen Books<br/>
-UI.StartScreen.TICredits_29=「老化を止めるか、死ぬまで挑戦するか」<br/>
-UI.StartScreen.TICredits_30=Schinhofen Books<br/>
-UI.StartScreen.TICredits_31=「読書もまた別の気晴らしだ」<br/>
-UI.StartScreen.TICredits_32=Florian Ossiander<br/>
-UI.StartScreen.TICredits_33=<skip/>
-UI.StartScreen.TICredits_34=Jeffrey Lee Henninger<br/>
-UI.StartScreen.TICredits_35=「宇宙は挑戦者たちを待っている」<br/>
-UI.StartScreen.TICredits_36=Stardust<br/>「太陽風と共に行け」<br/>
-UI.StartScreen.TICredits_37=Stefano de Stefano<br/>「問題を作ったときに用いたのと同じ考え方では、問題を解決できない」<br/>
-UI.StartScreen.TICredits_38=Sean Hassan<br/>「私達の挑戦は、幻想を抱くことなく、幻滅することなく生きていくことだ」<br/>
-UI.StartScreen.TICredits_39=Arthur J. Simental, M.S., CEM<br/>Simental Industries Ltd. - Shield Initiative<br/>「戦争、災害、気候変動など、刻々と変化する危機に直面したとき、我々が今何をするか。それは時代を超えて波及し、人類の運命を左右するだろう。宇宙とテクノロジーを通じて、我々はこの存亡に関わる難題の救世主を見つけ出すことができるかもしれないのだ」<br/><br/><br/>
+
 
 //<VA> Credits
 
-UI.StartScreen.TICredits_40=声の出演<br/>
-UI.StartScreen.TICredits_41=Fiona Ayoade<sp>
-UI.StartScreen.TICredits_42=Farah Ahmet<br/><br/>
-UI.StartScreen.TICredits_43=Li Qingzhao<sp>
-UI.StartScreen.TICredits_44=Zura Johnson<br/><br/>
-UI.StartScreen.TICredits_45=Soren Van Wyk<sp>
-UI.StartScreen.TICredits_46=Etienne Durandt<br/><br/>
-UI.StartScreen.TICredits_47=Khalid Al-Ashgar<sp>
-UI.StartScreen.TICredits_48=Erik Ransom<br/><br/>
-UI.StartScreen.TICredits_49=Li Qingzhao<sp>
-UI.StartScreen.TICredits_50=Christina Ho<br/><br/>
-UI.StartScreen.TICredits_51=Hanse Castillo<sp>
-UI.StartScreen.TICredits_52=Matthew Pollino<br/><br/>
-UI.StartScreen.TICredits_53=Kiran Banerjee<sp>
-UI.StartScreen.TICredits_54=Harish Bhimani<br/><br/>
 
-UI.StartScreen.TICredits_55=評議員の声<br/>
-UI.StartScreen.TICredits_56=Tamara Ryan • Rochelle Chiang<br/>Sandra Osborne • Keaton T<br/>Jim Lenaway • Andy Mack<br/>Mike Apgar • Damon Alums<br/>Josephine Croft • Les Horovitz<br/>Heidi Kwiat • Ian Phillips<br/>Helen Clapp • Lizzie Crow<br/>Sophie Roberts • Steven Kelly<br/>Thom Welham • Conor James<br/>Mohita Namjoshi • Mamta Gurnani<br/>Vikram Rawat • Gagan Pathak<br/>Jenny Fennessy • Alan Kelly<br/>Diana Silva • Anita Lauren<br/>Carlos Cerrato • Fernando Macias Jimenez<br/>Marina Kalmykova • Sebastian Agner<br/>Gaelle Gosselin • Jesse Meiring<br/>Mhairi Morrison • Kieran Flitton<br/>Lina Sinuan • Val Cheah<br/>Hagen Valerio • Jati Andito<br/>Ore Apampa • Uzy Hamman<br/>Rachel Oladejo • Jonathan Mabote<br/>Jonathan Brandt • Nadia Cavelle<br/>Christian Michalak • Sonja Palmu<br/>Sarí AK • Mona Saadeh<br/>Loay Al-Hakimi • Silina Choueiry<br/><br/>
 
 //<QA> Credits
 
-UI.StartScreen.TICredits_57=品質保証のスペシャリスト<br/>Tim Evans<br/>Matt Price<br/>Nodnerb<br/>RedwahおよびPavonis Discordの皆様<br/><br/>
-UI.StartScreen.TICredits_58=スペシャルサンクス：<br/>Kenny Anderson<br/>Allan Floyd<br/>Ken Burnside<br/>Joao Paulo C<br/>Winchell Chung<br/>Timothy Holt<br/>Chris Mansell<br/>Michael Richardson<br/>Sarah Watt<br/>Graziano Vernizzi<br/>The ToughSF Discord<br/>Alice, Charlotte, and Theo<br/>Emily, William and Théodore<br/><br/>
+
 
 //<Publisher> Credits
 
-UI.StartScreen.TICredits_59=HOODED HORSE<br/><br/>最高経営責任者<br/>Tim Bender<br/><br/>社長および最高財務責任者<br/>Snow Rui<br/><br/>最高製品責任者および副CEO<br/>Ashkan Namousi<br/><br/>最高商務責任者<br/>James Gardiner<br/><br/>最高マーケティング責任者<br/>Abhishek Chaudhry<br/><br/>最高プレイヤー体験責任者<br/>Mandalore Herrington<br/><br/>取締役会議長<br/>Shams Jorjani<br/><br/>広報責任者<br/>Joe Robinson<br/><br/>クリエイター関係責任者<br/>Antony Floyd aka HForHavoc<br/><br/>マーケティング調整責任者<br/>Matthijs Hoving<br/><br/>コミュニティ責任者<br/>Matthew Palacio<br/><br/>ソーシャル戦略責任者<br/>Auverin Morrow<br/><br/>ITおよびシステム責任者<br/>Patrik Arvidsson<br/><br/>販売プロデューサー<br/>Dastan Namousi<br/>Tom King<br/><br/>リードリリースマネージャー（プライマリー）<br/>Natalia Montero<br/><br/>シニアリリースマネージャー<br/>Blossom Kremer<br/>Aneta Zagórska<br/><br/>ローカライズプロデューサー<br/>Michael Radnitz<br/><br/>ローカライズコーディネーター<br/>Miguel David Medina García<br/><br/>クリエイター関係マネージャー<br/>Renee April<br/><br/>シニア戦略パートナーマネージャー<br/>Ga-Yi Ng<br/><br/>マーケティングマネージャー（日本、韓国、東南アジア）<br/>LamNot<br/><br/>ローカライズおよびマーケティングアソシエイト（東アジア）<br/>Guo Yu Shun Wilson<br/><br/>コンセプトアーティスト<br/>Daniel Morawski<br/>Sarah Mills<br/><br/>リードビデオグラファー<br/>Kacper Bork<br/><br/>会計<br/>Meridith Malone<br/><br/>オフィス管理者<br/>Bailey Sullivan<br/><br/>マーケティングコンサルタント<br/>PartyElite<br/><br/>追加サポート<br/>Shaun Ginty aka BearlyTactical<br/>Noris Merk aka kormakrtv<br/><br/>スペシャルプロジェクトマネージャー<br/>Marcello Perricone<br/><br/>スペシャルサンクス<br/>Aaron Nathan<br/>Andrew Hume<br/>Grzegorz Styczeń<br/>Martti Aarnio-Wihuri<br/>Todd D’Arcy<br/><br/>
-UI.StartScreen.TICredits_60=予告編制作<br/><br/>SLAVIC MAGIC<br/>Grzegorz Styczeń<br/>Patrycja Gdula<br/><br/>
-UI.StartScreen.TICredits_61=PR<br/><br/>GAMEDASH<br/>Bing Li<br/>Tian Luo<br/><br/>
-UI.StartScreen.TICredits_62=ローカライズ<br/>HOODED HORSE<br/><br/>ローカライズ – 繁体中国語<br/>Guo Yu Shun Wilson<br/>Melody Lin<br/><br/>ローカライズ - イタリア語<br/>Emanuelle Ricobenne<br/>Ketty Federico<br/><br/>ローカライズ - 韓国語<br/>Seulki Lee<br/>Lim Yoon<br/><br/>ローカライズ – ブラジル・ポルトガル語<br/>Brenda Triandafeledis<br/><br/>ローカライズ – スペイン語<br/>Laura Nieves Díaz Suárez<br/>Marta Medina González<br/>Miguel David Medina García<br/>Carlota Marie Dávila Santana<br/><br/>ローカライズ - ウクライナ語<br/>Vladyslav Verstiuk<br/>Nikol Kryvoruchko<br/><br/>
-UI.StartScreen.TICredits_63=《地球不屈》汉化组<br/><br/>ローカライズ - 簡体中国語<br/><br/>ECI GAMES<br/><br/>プロジェクトマネージャー<br/>Ángel Hernández Santana<br/>Kasia Kępka<br/>Zhao Ting<br/><br/>ローカライズ - 簡体中国語<br/>Wu Fan<br/>Cobra Xu<br/>Sherry Wang<br/><br/>ローカライズ - 繁体中国語<br/>Weiyi Jiang<br/><br/>LQA - 繁体中国語<br/>Gail Pu<br/><br/>ローカライズ - フランス語<br/>Félix Braconnier<br/>Lueje Prigent<br/>Maxime Aduriz<br/>Victor Berry<br/>Caitlin Maurin<br/><br/>ローカライズ - ドイツ語<br/>Stefan Herzog<br/>Nino Kadletz<br/>Philipp Kolleritsch<br/>Martin Monsberger<br/>Raphael Oberhuber<br/><br/>ローカライズ - 日本語<br/>Mina Horiba-Maguire<br/>Naomi Ueda<br/>Keigo Yonemura<br/>Liu Peiduo<br/><br/>
-UI.StartScreen.TICredits_64=QLOC S.A.<br/><br/>ゼネラルマネージャー<br/>Adam Piesiak<br/><br/>事業開発責任者<br/>Paweł Książek<br/><br/>シニア事業開発マネージャー<br/>Marta Olejniczak<br/><br/>ベンダーマネージャー<br/>Paweł Pierzchanowski<br/><br/>品質保証責任者<br/>Sergiusz Ślosarczyk<br/><br/>ITディレクター<br/>Artur Szczurzyński<br/><br/>QAオペレーションマネージャー<br/>Paweł Strzelczyk<br/><br/>学習・開発コーディネーター<br/>Aleksandra Grigorian-Kopka<br/><br/>学習・開発スペシャリスト<br/>Michał Grabuś<br/>Damian Jasiński<br/><br/>LQA シニアチームリーダー<br/>Michał Mugerman<br/>Kamil Uszyński<br/><br/>リードローカライズプロデューサー<br/>Alan Orman<br/>Maciej Polak<br/><br/>ローカライズ - チェコ語<br/>Michal Farník<br/>Petr Šeba<br/>Tomáš Varbanov<br/><br/>LQA - イタリア語<br/>Michele Fanelli<br/>Andrea Iachetti<br/><br/>ローカライズ - ポーランド語<br/>Monika Buraczyńska<br/>Andrzej Jakubiec<br/>Janusj Mrzigod<br/>Andrzej Popowski<br/><br/>LQA - ポーランド語<br/>Katarzyna Startek<br/><br/>ローカライズ - ロシア語<br/>Mikhail Zakharov<br/>Vasily Firsov<br/>Maxim Levushkin<br/>Roman Nefedov<br/>Pavel Nikolenko<br/>Polina Zam<br/><br/>LQA - ロシア語<br/>Andrey Moshkov<br/><br/>ローカライズ - ウクライナ語<br/><br/>LQA - ウクライナ語<br/>Oleg Łoginow<br/><br/>
-UI.StartScreen.TICredits_65=QA<br/><br/>QLOC S.A.<br/><br/>リードQAプロジェクトマネージャー<br/>Jakub Dudkowski<br/><br/>QAプロジェクトマネージャー<br/>Karolina Jagnyziak<br/>Wojciech Tarasiuk<br/><br/>QAラボマネージャー<br/>Piotr Badurek<br/>Emil Lubowicki<br/>Tomasz Prusicki<br/><br/>FQAチームリーダー<br/>Marcin Oprządek<br/><br/>FQAテスター<br/>Tymoteusz Bigos<br/>Aleksandra Bobek<br/>Mikołaj Kozłowski<br/>Piotr Krakowiak<br/>Michał Owczarek<br/>Mateusz Wieczorek<br/><br/>TESTRONIC<br/><br/>コンプライアンス・コンパティビリティマネージャー<br/>Iwona Szarzyńska<br/><br/>シニアコンパティビリティプロジェクトリード<br/>Małgorzata Twarogal<br/><br/>アソシエイトコンパティビリティQAリード<br/>Michał Soral<br/><br/>コンパティビリティQAテクニシャン<br/>Lisa Bajdowska<br/>Dominik Krawczyk<br/>Brine Mukombachoto<br/>Haran Dev Murugan<br/><br/>
-UI.StartScreen.TICredits_66=<skip/>
-UI.StartScreen.TICredits_67=<skip/>
-UI.StartScreen.TICredits_68=<skip/>
-UI.StartScreen.TICredits_69=<skip/>
-UI.StartScreen.TICredits_70=<skip/>
-UI.StartScreen.TICredits_71=<skip/>
-UI.StartScreen.TICredits_72=<skip/>
-UI.StartScreen.TICredits_73=制作中に誕生した赤ちゃんたち！<br/>Théodore<br/>Carmen Rose<br/><br/>
+
 
 //<Contributing Backers> Credits
 
-UI.StartScreen.TICredits_74=キックスターターのクリエイティブ協力者<br/>
+
 
 //<Playtester> Credits
 
-UI.StartScreen.TICredits_105=キックスターター
-UI.StartScreen.TICredits_106= プレイテスター<br/>
+
 
 //<Backers> Credits
 
-UI.StartScreen.TICredits_393=<br/>キックスターターの支援者<br/>
 
-UI.StartScreen.TICredits_1337=ソフトウエア<br/><br/>Unity<br/><br/>FMOD Studio<br/>Firelight Technologies Limited<br/><br/>
-UI.StartScreen.TICredits_1338=作中に登場する民間企業のロゴアイコンの多くは、LogoLogo.comの提供によります。<br/>本作品はフィクションです。作中における政府機関のロゴの使用は、それらの機関による支援を意味しません。<br/><br/>
-UI.StartScreen.TICredits_1339=評議員の背景画像のベースとなった写真の一部は、NASAの提供です。<br/><br/>
-UI.StartScreen.TICredits_1340=『二都物語』の著者…チャールズ・ディケンズ
+UI.StartScreen.TICredits_1347=ソフトウェア<br/><br/>Unity<br/><br/>FMOD Studio<br/>Firelight Technologies Limited<br/><br/>
+UI.StartScreen.TICredits_1348=作中に登場する民間企業のロゴアイコンの多くは、LogoLogo.comの提供によります。<br/>本作品はフィクションです。作中における政府機関のロゴの使用は、それらの機関による支援を意味しません。<br/><br/>
+UI.StartScreen.TICredits_1349=評議員の背景画像のベースとなった写真の一部は、NASAの提供です。<br/><br/>
+UI.StartScreen.TICredits_1350=『二都物語』の著者<br/>チャールズ・ディケンズ

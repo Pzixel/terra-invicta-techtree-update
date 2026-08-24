@@ -126,7 +126,7 @@ TIObjectiveTemplate.displayName.TutorialCheckNationalPriority.ResistCouncil=국�
 
 TIObjectiveTemplate.solution.TutorialCheckNationalPriority.ResistCouncil=우리 진영이 적어도 하나의 통제 지점을 소유하고 있는 국가를 클릭한 다음 국가 패널의 탭에서 <h>우선순위</h>를 선택하세요. 국가의 우선순위 중 하나를 조정하려면 해당 우선순위와 관련된 버튼을 순환하세요.  
 
-TIObjectiveTemplate.description.TutorialCheckNationalPriority.ResistCouncil=국가 <h>우선순위</h>는 시간이 지남에 따라 경제적 잉여를 <color=#FFFFFFFF><sprite name=investments></color> <h>투자 포인트</h> 형태로 분배할 방식을 결정합니다. 우선순위는 군대 창설, 교육 투자, <h>우주 프로그램</h> 개발 등 다양한 방식으로 국가 발전을 이끕니다. 한 국가에서 더 많은 통제 지점을 점령할수록 그 국가의 우선순위에 더욱 큰 영향을 미칠 수 있습니다.
+TIObjectiveTemplate.description.TutorialCheckNationalPriority.ResistCouncil=국가 <h>우선순위</h>는 시간이 지남에 따라 경제적 잉여를 <color=#FFFFFFFF><sprite name=investments></color> <h>투자 포인트</h> 형태로 분배할 방식을 결정합니다. 우선순위는 육군 창설, 교육 투자, <h>우주 프로그램</h> 개발 등 다양한 방식으로 국가 발전을 이끕니다. 한 국가에서 더 많은 통제 지점을 점령할수록 그 국가의 우선순위에 더욱 큰 영향을 미칠 수 있습니다.
 
 TIObjectiveTemplate.resolution.TutorialCheckNationalPriority.ResistCouncil=통제하는 국가들의 <h>우선순위</h>를 정하고, 다른 진영이 통제하는 국가들의 발전을 주시하는 것은 외계인의 위협에 맞서기 위한 우리의 노력에 매우 중요할 것입니다.<br/><br/>우리가 통제하는 국가들의 성장이 어떤 모습일지 잠시 생각해 보세요. 일부는 우주 자산의 <color=#FFFFFFFF><sprite name=mission_control></color> <h>임무 관제</h> 시스템 개발에 집중할 수도 있을 겁니다. 다른 일부는 <color=#FFFFFFFF><sprite name=research></color> <h>월별 연구 결과</h>를 늘리는 데 집중하여 새로운 기술을 더 빠르게 연구할 수 있습니다. 몇 개는 적국을 침략하거나 외계인과 직접 마주할 경우를 대비해 <h>군대</h>를 건설하거나 강화하는 데 집중할 수 있습니다.<br/><br/>외계인의 도착에 맞설 수 있는 안정적인 국가를 원한다면, <color=#FFFFFFFF><sprite name=culture></color> <h>결속력</h>이 너무 낮아지지 않도록 하고, <color=#FFFFFFFF><sprite name=nation_unrest></color> <h>불안도</h>가 커지지 않도록 하며, <color=#FFFFFFFF><sprite name=inequality></color> <h>불평등</h>이 심화되지 않도록 해야 합니다.
 
@@ -177,7 +177,7 @@ TIObjectiveTemplate.displayName.TutorialPurchaseOrg.ResistCouncil=조직 인수
 
 TIObjectiveTemplate.solution.TutorialPurchaseOrg.ResistCouncil="협의회" 창으로 이동하여 의원 중 한 명을 클릭하면 "의원 세부 정보" 창이 열립니다. 조직 시장에서 조직을 구매하고 할당하려면 선택한 조직을 마우스 오른쪽 버튼으로 클릭하거나 할당된 조직 패널로 끌어다 놓고 비용을 지불합니다. 구입할 여유가 생길 때까지 기다려야 할지도 모릅니다.
 
-TIObjectiveTemplate.displayName.TutorialUnequipOrg.ResistCouncil=의원에게 할당됨 조직 해제		
+TIObjectiveTemplate.displayName.TutorialUnequipOrg.ResistCouncil=의원으로부터 조직 할당 해제		
 
 TIObjectiveTemplate.solution.TutorialUnequipOrg.ResistCouncil=조직의 할당을 해제하려면 할당된 조직의 의원에 대한 의원 세부 정보 창으로 돌아가세요. 조직을 마우스 오른쪽 버튼으로 클릭하거나 끌어서 미할당 조직 풀에 놓습니다. 이렇게 하면 우리 진영의 다른 의원들에게 조직을 할당할 수도 있습니다.		
 
@@ -224,9 +224,9 @@ TIObjectiveTemplate.displayName.TutorialFoundStation.ResistCouncil=스테이션 
 
 TIObjectiveTemplate.description.TutorialFoundStation.ResistCouncil=<h>플랫폼</h>이라 불리는 소형 우주 스테이션은 인류가 우주에서 사용할 수 있는 발판이며, 우주를 산업화하고 전쟁 함대를 구축하는 데 중요한 첫 단계입니다. 스테이션은 우주체 또는 라그랑주 점 주변 고정된 <h>궤도</h>에 배치됩니다. 스테이션은 연구 및 기타 자원에 보너스를 제공하고 함선과 추가 모듈을 건조할 수 있는 <h>모듈</h>로 구성됩니다.<br/><br/>지구 궤도에 진입할 플랫폼을 건설하기 위해 <color=#FFFFFFFF><sprite name=boost></color> <h>부스트</h></color>와 <color=#FFFFFFFF><sprite name=mission_control></color> <h>임무 관제</h> 지점 몇 곳을 비축해야 합니다.
 
-TIObjectiveTemplate.solution.TutorialFoundStation.ResistCouncil=충분한 <color=#FFFFFFFF><sprite name=currency></color> 돈, <color=#FFFFFFFF><sprite name=boost></color> 부스트, <color=#FFFFFFFF><sprite name=mission_control></color> 임무 관제를 비축하여야 플랫폼 코어 모듈을 발사할 수 있습니다. 지오스케이프가 더 이상 보이지 않을 만큼 지구를 축소하여 지구를 선택합니다. 보기 하단 중앙에 있는 작업 인터페이스에서 "플랫폼 건설" 작업 아이콘을 클릭합니다. 우주 정거장을 건설할 지구 주위의 사용 가능한 궤도를 선택한 다음, "플랫폼 건설" 작업 버튼을 클릭하여 플랫폼 핵심 모듈 건설을 확인하고 시작합니다.<br/><br/>이 작업을 완료하는 데 몇 달이 걸릴 수 있습니다.
+TIObjectiveTemplate.solution.TutorialFoundStation.ResistCouncil=충분한 <color=#FFFFFFFF><sprite name=currency></color> 돈, <color=#FFFFFFFF><sprite name=boost></color> 부스트, <color=#FFFFFFFF><sprite name=mission_control></color> 임무 관제를 비축하여야 플랫폼 코어 모듈을 발사할 수 있습니다. 지오스케이프가 더 이상 보이지 않을 만큼 지구를 축소하여 지구를 선택합니다. 보기 하단 중앙에 있는 작업 인터페이스에서 "플랫폼 건설" 작업 아이콘을 클릭합니다. 스테이션을 건설할 지구 주위의 사용 가능한 궤도를 선택한 다음, "플랫폼 건설" 작업 버튼을 클릭하여 플랫폼 핵심 모듈 건설을 확인하고 시작합니다.<br/><br/>이 작업을 완료하는 데 몇 달이 걸릴 수 있습니다.
 
-TIObjectiveTemplate.resolution.TutorialFoundStation.ResistCouncil=태양계의 더 많은 부분이 탐사되고 산업화됨에 따라, <h>스테이션</h>과 표면 <h>기지</h>는 우리의 노력에 점점 더 중요해질 것입니다.<br/><br/>준비가 되면, <h>궤도</h> 기술을 연구하여 더 큰 우주 정거장을 개발하는 것을 고려하세요. 또한 지구에서 더 멀리 떨어진 곳에 우주 정거장을 건설하기 위해 <h>"...로의 임무"</h> 전 세계 기술도 완수해야 합니다.<br/><br/><color=#FFFFFFFF><sprite name=mission_control></color>임무 관제 획득 및 관리 외에도 모든 서식지에는 돈과 우주 자원으로 측정되는 유지 관리 비용이 있습니다. 우리가 우리의 거주지를 지원하기에 충분한 우주자원을 생산하지 못한다면 우리는 <color=#FFFFFFFF><sprite name=boost></color> 부스트를 사용하여 부족분을 메우기 위해 지구에서 물자를 운송합니다. 거주지 지원이 부족하면 끔찍한 결과를 초래할 수 있습니다!
+TIObjectiveTemplate.resolution.TutorialFoundStation.ResistCouncil=태양계의 더 많은 부분이 탐사되고 산업화됨에 따라, <h>스테이션</h>과 표면 <h>기지</h>는 우리의 노력에 점점 더 중요해질 것입니다.<br/><br/>준비가 되면, <h>궤도</h> 기술을 연구하여 더 큰 우주 스테이션을 개발하는 것을 고려하세요. 또한 지구에서 더 멀리 떨어진 곳에 우주 스테이션을 건설하기 위해 <h>"...로의 임무"</h> 전 세계 기술도 완수해야 합니다.<br/><br/><color=#FFFFFFFF><sprite name=mission_control></color>임무 관제 획득 및 관리 외에도 모든 서식지에는 돈과 우주 자원으로 측정되는 유지 관리 비용이 있습니다. 우리가 우리의 거주지를 지원하기에 충분한 우주자원을 생산하지 못한다면 우리는 <color=#FFFFFFFF><sprite name=boost></color> 부스트를 사용하여 부족분을 메우기 위해 지구에서 물자를 운송합니다. 거주지 지원이 부족하면 끔찍한 결과를 초래할 수 있습니다!
 
 TIObjectiveTemplate.displayName.TutorialBuildStationPower.ResistCouncil=태양 에너지 수집기 건설
 
@@ -249,7 +249,7 @@ TIObjectiveTemplate.solution.TutorialResearchMissionToMoonMars.ResistCouncil="..
 
 TIObjectiveTemplate.displayName.TutorialProbeSpaceBody.ResistCouncil=탐사선 발사
 
-TIObjectiveTemplate.description.TutorialProbeSpaceBody.ResistCouncil=현재 우주 자산에 대한 물질적 지원은 지구의 발사 시설을 통해 제공되고 있습니다. <h>이는 우리의 <color=#FFFFFFFF><sprite name=boost></color> 부스트 수입에 부담을 줍니다.</h> 이를 완화하고 강력한 행성간 경제를 구축하기 위해 태양계 전역으로 작전을 확장해야 합니다.<br/><br/>다른 행성, 위성, 소행성에 <h>기지</h>를 건설하는 첫 번째 단계는 해당 우주체의 다양한 <h>거점</h>을 평가하기 위한 <h>탐사선</h>을 발사하는 것입니다. 탐사선은 지구에서 발사되거나 <h>우주 정거장</h>이나 더 큰 <color=#FFFFFFFF><sprite name=construction_shipyard></color> <h>조선소</h> 모듈이 있는 거주지에서 발사될 수 있습니다.<br/><br/>탐사선이 우주체에 도착하면 탐사가 이루어지고 각 거점의 <h>채굴 잠재력</h>이 드러납니다.
+TIObjectiveTemplate.description.TutorialProbeSpaceBody.ResistCouncil=현재 우주 자산에 대한 물질적 지원은 지구의 발사 시설을 통해 제공되고 있습니다. <h>이는 우리의 <color=#FFFFFFFF><sprite name=boost></color> 부스트 수입에 부담을 줍니다.</h> 이를 완화하고 강력한 행성간 경제를 구축하기 위해 태양계 전역으로 작전을 확장해야 합니다.<br/><br/>다른 행성, 위성, 소행성에 <h>기지</h>를 건설하는 첫 번째 단계는 해당 우주체의 다양한 <h>거점</h>을 평가하기 위한 <h>탐사선</h>을 발사하는 것입니다. 탐사선은 지구에서 발사되거나 <h>우주 도크</h>나 더 큰 <color=#FFFFFFFF><sprite name=construction_shipyard></color> <h>조선소</h> 모듈이 있는 거주지에서 발사될 수 있습니다.<br/><br/>탐사선이 우주체에 도착하면 탐사가 이루어지고 각 거점의 <h>채굴 잠재력</h>이 드러납니다.
 
 TIObjectiveTemplate.solution.TutorialProbeSpaceBody.ResistCouncil="...로의 임무" 기술로 잠금 해제된 지구 이외의 우주체를 선택하고, 예상 자원 생산량을 조사한 후, 작업 인터페이스에서 "탐사선 발사" 아이콘을 클릭합니다. "탐사선 발사" 작업 버튼을 클릭하여 탐사선 발사를 확인하세요.
 
@@ -285,20 +285,20 @@ TIObjectiveTemplate.description.TutorialBuildMine.ResistCouncil=광산은 <h>우
 
 TIObjectiveTemplate.resolution.TutorialBuildMine.ResistCouncil=<h>채굴 단지</h>는 <h>우주 자원</h>을 획득하는 우리의 주요 수단입니다. 거주지를 개발하고 지원하는 데 사용되며 함대를 구축하는 데에도 사용될 것입니다. 태양계 전역에 걸쳐 우주체 탐사를 계속하고 광산을 건설합니다.
 
-TIObjectiveTemplate.displayName.TutorialBuildHab.ResistCouncil=우주 스테이션 건축 
-TIObjectiveTemplate.solution.TutorialBuildHab.ResistCouncil=함선 건조의 첫걸음인 우주 스테이션을 건설하세요. 
+TIObjectiveTemplate.displayName.TutorialBuildHab.ResistCouncil=우주 스테이션 건설
+TIObjectiveTemplate.solution.TutorialBuildHab.ResistCouncil=함선 건조의 첫걸음인 우주 스테이션을 건설하세요.
 
 TIObjectiveTemplate.displayName.TutorialResearchOrbitalShipbuilding.ResistCouncil=궤도 함선 건조 기술 연구
-TIObjectiveTemplate.solution.TutorialResearchOrbitalShipbuilding.ResistCouncil="궤도 함선 건조" 기술을 연구하세요. 우리 진영의 우주선을 건조하는 데 필요한 "우주 정거장" 프로젝트에 필요합니다.
+TIObjectiveTemplate.solution.TutorialResearchOrbitalShipbuilding.ResistCouncil="궤도 함선 건조" 기술을 연구하세요. 우리 진영의 우주선을 건조하는 데 필요한 "우주 도크" 프로젝트에 필요합니다.
 
-TIObjectiveTemplate.displayName.TutorialResearchSpaceDock.ResistCouncil=우주 정거장 프로젝트 연구
-TIObjectiveTemplate.solution.TutorialResearchSpaceDock.ResistCouncil=스테이션과 기지 모두에 <color=#FFFFFFFF><sprite name=construction_shipyard></color> 조선소 모듈의 첫 단계인 우주 정거장을 건설할 수 있는 "우주 정거장" 프로젝트를 연구하세요.
+TIObjectiveTemplate.displayName.TutorialResearchSpaceDock.ResistCouncil=우주 도크 프로젝트 연구
+TIObjectiveTemplate.solution.TutorialResearchSpaceDock.ResistCouncil=스테이션과 기지 모두에 <color=#FFFFFFFF><sprite name=construction_shipyard></color> 조선소 모듈의 첫 단계인 우주 도크를 건설할 수 있는 "우주 도크" 프로젝트를 연구하세요.
 
 TIObjectiveTemplate.displayName.TutorialResearchInterplanetaryWarships.ResistCouncil=행성간 전함 프로젝트 연구
 TIObjectiveTemplate.solution.TutorialResearchInterplanetaryWarships.ResistCouncil="행성간 전함" 프로젝트를 연구하세요. 포함, 호위함, 초계함급 함선을 설계하고 건조할 수 있습니다.
 
-TIObjectiveTemplate.displayName.TutorialSpaceDock.ResistCouncil=우주 정거장 모듈 건설
-TIObjectiveTemplate.solution.TutorialSpaceDock.ResistCouncil=우리 스테이션 한 곳에 우주 정거장을 건설하세요. 거주지에는 함선을 건조하는 <color=#FFFFFFFF><sprite name=construction_shipyard></color> 조선소 모듈이 필요합니다. 조선소는 표면 기지에도 건설할 수 있지만, 궤도로 발사하려면 최소 가속도와 델타-V 요구 사항이 필요합니다.
+TIObjectiveTemplate.displayName.TutorialSpaceDock.ResistCouncil=우주 도크 모듈 건설
+TIObjectiveTemplate.solution.TutorialSpaceDock.ResistCouncil=우리 스테이션 한 곳에 우주 도크를 건설하세요. 거주지에는 함선을 건조하는 <color=#FFFFFFFF><sprite name=construction_shipyard></color> 조선소 모듈이 필요합니다. 조선소는 표면 기지에도 건설할 수 있지만, 궤도로 발사하려면 최소 가속도와 델타-V 요구 사항이 필요합니다.
 
 TIObjectiveTemplate.displayName.TutorialDesignShip.ResistCouncil=함선 템플릿 설계
 TIObjectiveTemplate.solution.TutorialDesignShip.ResistCouncil="함대 및 함선 건조" 창에서 함선 설계자 탭으로 이동합니다. "설계" 인터페이스 튜토리얼을 완료하고 원하는 대로 함급 설계를 사용자 지정하세요. "설계 저장" 버튼을 클릭하면 해당 설계를 우리 진영의 함선 종류에 추가하여 함선 건조에 사용할 수 있습니다.
@@ -308,7 +308,7 @@ TIObjectiveTemplate.solution.TutorialBuildShip.ResistCouncil="함대 및 함선 
 
 TIObjectiveTemplate.description.TutorialBuildShip.ResistCouncil=외계인과의 싸움은 지구만으로는 이길 수 없습니다. 우리는 우주에서도 싸울 수 있는 기술을 개발해야 합니다. 우리 거주지에서 전함을 건조하는 것은 비용이 많이 들고 어려운 작업이며, 이를 지원하기 위해 상당한 우주 기반 산업이 필요할 것입니다.<br/><br/><h>이를 달성하는 데는 몇 년이 걸릴 수 있습니다.</h>
 
-TIObjectiveTemplate.resolution.TutorialBuildShip.ResistCouncil=함선이 건조되면 자동으로 <h>이름</h>이 지정되고, 새로운 <h>함대</h>에 배정되며, 함선이 건조된 항구에 <h>정박</h>한 상태로 시작됩니다. 함대는 한 척 이상의 함선으로 구성되며 궤도를 점유하거나 거주지에 정박할 수 있습니다. 다른 궤도 또는 거주지로 이동하여 <h>이동</h> 작전을 통해 다른 함대를 요격할 수 있습니다. 함대가 목표에 도달하고 <color=#FFFFFFFF><sprite name=construction_shipyard></color> 조선소나 <color=#FFFFFFFF><sprite name=supply></color> 보급창 모듈이 있는 거주지로 이동하여 재보급을 받을 수 있을 만큼 충분한 <h>델타-V</h>를 보유하고 있는지 확인하세요.
+TIObjectiveTemplate.resolution.TutorialBuildShip.ResistCouncil=함선이 건조되면 자동으로 <h>이름</h>이 지정되고, 새로운 <h>함대</h>에 배정되며, 함선이 건조된 항구에 <h>도킹</h>된 상태로 시작됩니다. 함대는 한 척 이상의 함선으로 구성되며 궤도를 점유하거나 거주지에 도킹할 수 있습니다. 다른 궤도 또는 거주지로 이동하여 <h>이동</h> 작전을 통해 다른 함대를 요격할 수 있습니다. 함대가 목표에 도달하고 <color=#FFFFFFFF><sprite name=construction_shipyard></color> 조선소나 <color=#FFFFFFFF><sprite name=supply></color> 보급창 모듈이 있는 거주지로 이동하여 재보급을 받을 수 있을 만큼 충분한 <h>델타-V</h>를 보유하고 있는지 확인하세요.
 
 TIObjectiveTemplate.displayName.HumanGeneralEarth=지구의 국가 통제
 TIObjectiveTemplate.description.HumanGeneralEarth=외계인의 도착에 대한 불확실성 속에서 우리는 세계 무대에서 중요한 세력으로 자리매김할 기회를 얻었습니다. 정부와 산업계의 같은 생각을 가진 공무원들과 협력하여 외계인의 계획이 무엇이든 처리할 수 있도록 지구의 자원을 조용히 모아야 합니다. 우리는 목표를 달성할 국제 동맹을 구축할 수 있도록 지구 여러 국가의 왕좌 뒤에 숨은 권력자가 되어야 합니다.<br/><br/>이를 위해 우리의 최우선 순위는 강력한 경제, 군사, 연구 및 우주 프로그램을 갖춘 국가에 의원을 파견하여 통제 지점을 확보하고, 필요한 경우 대중의 관심을 우리의 대의로 돌리기 위해 공공 캠페인을 시작하는 것입니다.<br/><br/>지구 경제의 상당 부분이 "이권", 즉 다른 사람의 희생으로 자신의 부를 축적하는 데 낭비되고 있습니다. 충분한 통제를 통해 우리는 더 생산적인 목적을 달성도록 해당 국가의 방향을 바꿀 수 있습니다.<br/><br/>우리와 같은 다른 초국적 그룹이 형성되고 있다는 것을 알고 있으며, 그들이 너무 많은 국가를 그들의 이념으로 끌어들이면 그들을 직접 상대해야 할 수도 있습니다.
@@ -379,7 +379,7 @@ TIObjectiveTemplate.quote.AccessHydraCorpus.ResistCouncil=하나 쓰러뜨렸습
 TIObjectiveTemplate.displayName.ResearchHydraBiology.ResistCouncil=히드라 생물학 연구
 TIObjectiveTemplate.description.ResearchHydraBiology.ResistCouncil=외계생물학 부서가 외계 생명체의 부검을 준비 중입니다. 수석 검시관은 이 시체가 동면 중이지 않으며 생명 신호도 없다고 확신하지만, 모든 히드라 부검 과정에서 무장 경비원이 입회하도록 상시 명령을 내렸습니다.
 TIObjectiveTemplate.solution.ResearchHydraBiology.ResistCouncil="히드라 생물학" 프로젝트가 가능해지면 연구하세요.
-TIObjectiveTemplate.resolution.ResearchHydraBiology.ResistCouncil=우리는 히드라 시체를 연구하면서 많은 것을 알아냈습니다. 외계인의 생리는 신경계와 순환계가 결합된 것으로 보이며, 각 히드라는 3개의 심장/뇌 중추가 있습니다. 하나는 머리 부분, 가장 상단의 척추에 근접하게 위치하였으며, 두 개는 복부, 정확히는 오른쪽 갈비뼈 아래 부위와 왼쪽 장골 부위에 있습니다. 이러한 중복 시스템 덕분에 두 개 이상의 심장/신경 클러스터에 치명적인 손상을 주지 않는 한, 히드라는 대부분의 기능을 재생할 수 있습니다. 클러스터 하나를 손실하는 경우 고차원적인 인지 기능이 제한될 가능성이 있지만, 두 개의 클러스터가 작동하는 외계인은 여전히 기본적인 것부터 중간 정도의 작업을 수행할 수 있을 것입니다.<br/><br/>히드라는 재생 능력으로 인해 노화의 영향을 거의 받지 않는 것으로 보입니다. 늙지 않는 것은 아니지만, 자연 수명의 대부분 기간에 일관된 체력, 이동성, 인지 능력을 유지할 수 있는 것으로 보입니다. 현재 그들의 자연 수명 추정치는 160~200년 사이입니다. 수명이 길고 회복력이 좋은 특성에는 단점이 있습니다. 바로 발달 속도가 느리고 많은 에너지가 필요한 복잡한 생리학적 구조입니다. 히드라는 출생 시 성별이 없습니다. 종의 각 개체는 잠재적인 남성 및 여성 생식 기관을 가지고 태어나는데, 생애 주기의 특정 시점과 조건이 달성될 때까지 완전히 발달하지 않습니다(지구상에서도 드문 일이 아니지만, 순차적 자웅동체는 어류, 복족류, 식물과 같은 하등 생물에서만 발견됩니다). 히드라는 생애 주기 중 말기에 생식을 하는 것으로 보이며, 성별이 지정되면 되돌릴 수 없습니다. 이 모든 것은 낮은 출생률을 시사합니다.<br/><br/>또한 작전과 더 직접적으로 관련이 있어 보이는 것을 발견했습니다. 이 표본을 획득하는 동안 녹음된 딸깍하는 소리는 언어로 간주될 만큼 복잡하지만, 우리는 청각적 의사소통이 히드라의 주요 정보 교환 방식이라고 생각하지 않습니다. 대신, 그들의 안면에 여러 개의 뾰족한 돌출부와 목 뒤쪽의 덩어리에 정교한 감각 기관이 있는 것을 발견했습니다. 이는 공기로부터 데이터를 수집하여 마치 뱀이 혀를 사용하는 것처럼 고도로 발달된 서비골기관으로 전달합니다. 이 히드라 기관은 감각 기능뿐만 아니라,의사소통 기능도 하는 것으로 보입니다. 그들은 우리가 "페로사이트"라고 부르는 세포의 흐름을 빠르게 구성하고 방출할 수 있습니다. 이 페로사이트는 다른 히드라에게 흡수될 수 있습니다.<br/><br/>페로사이트에서 생성되는 화학 물질은 매우 복잡할 수 있으며, 우리 언어학자들은 이러한 화합물이 일종의 생물학적 알파벳으로 기능할 수 있다는 이론을 제시했습니다. 이는 페로몬과 유사한 양방향 메커니즘을 의미하지만, 살아있는 세포를 통해 작동합니다. 그러나 페로사이트의 목적은 의사소통을 넘어설 수 있습니다. 일부 화학 물질은 향정신성 약물과 유사한 특징을 보이며, 이는 인간에게 영향을 미치도록 특별히 설계되었을 가능성을 시사합니다. 우리 과학 팀은 이러한 페로사이트에 대한 집중 연구에 착수하기를 강력히 바랍니다.
+TIObjectiveTemplate.resolution.ResearchHydraBiology.ResistCouncil=우리는 히드라 시체를 연구하면서 많은 것을 알아냈습니다. 외계인의 생리는 신경계와 순환계가 결합된 것으로 보이며, 각 히드라는 3개의 심장/뇌 중추가 있습니다. 하나는 머리 부분, 가장 상단의 척추 뒤쪽에 위치하였으며, 두 개는 복부, 정확히는 오른쪽 갈비뼈 아래 부위와 왼쪽 장골 부위에 있습니다. 이러한 중복 시스템 덕분에 두 개 이상의 심장/신경 클러스터에 치명적인 손상을 주지 않는 한, 히드라는 대부분의 기능을 재생할 수 있습니다. 클러스터 하나를 손실하는 경우 고차원적인 인지 기능이 제한될 가능성이 있지만, 두 개의 클러스터가 작동하는 외계인은 여전히 기본적인 것부터 중간 정도의 작업을 수행할 수 있을 것입니다.<br/><br/>히드라는 재생 능력으로 인해 노화의 영향을 거의 받지 않는 것으로 보입니다. 늙지 않는 것은 아니지만, 자연 수명의 대부분 기간에 일관된 체력, 이동성, 인지 능력을 유지할 수 있는 것으로 보입니다. 현재 그들의 자연 수명 추정치는 160~200년 사이입니다. 수명이 길고 회복력이 좋은 특성에는 단점이 있습니다. 바로 발달 속도가 느리고 많은 에너지가 필요한 복잡한 생리학적 구조입니다. 히드라는 출생 시 성별이 없습니다. 종의 각 개체는 잠재적인 남성 및 여성 생식 기관을 가지고 태어나는데, 생애 주기의 특정 시점과 조건이 달성될 때까지 완전히 발달하지 않습니다(지구상에서도 드문 일이 아니지만, 순차적 자웅동체는 어류, 복족류, 식물과 같은 하등 생물에서만 발견됩니다). 히드라는 생애 주기 중 말기에 생식을 하는 것으로 보이며, 성별이 지정되면 되돌릴 수 없습니다. 이 모든 것은 낮은 출생률을 시사합니다.<br/><br/>또한 작전과 더 직접적으로 관련이 있어 보이는 것을 발견했습니다. 이 표본을 획득하는 동안 녹음된 딸깍하는 소리는 언어로 간주될 만큼 복잡하지만, 우리는 청각적 의사소통이 히드라의 주요 정보 교환 방식이라고 생각하지 않습니다. 대신, 그들의 안면에 여러 개의 뾰족한 돌출부와 목 뒤쪽의 덩어리에 정교한 감각 기관이 있는 것을 발견했습니다. 이는 공기로부터 데이터를 수집하여 마치 뱀이 혀를 사용하는 것처럼 고도로 발달된 서비골기관으로 전달합니다. 이 히드라 기관은 감각 기능뿐만 아니라,의사소통 기능도 하는 것으로 보입니다. 그들은 우리가 "페로사이트"라고 부르는 세포의 흐름을 빠르게 구성하고 방출할 수 있습니다. 이 페로사이트는 다른 히드라에게 흡수될 수 있습니다.<br/><br/>페로사이트에서 생성되는 화학 물질은 매우 복잡할 수 있으며, 우리 언어학자들은 이러한 화합물이 일종의 생물학적 알파벳으로 기능할 수 있다는 이론을 제시했습니다. 이는 페로몬과 유사한 양방향 메커니즘을 의미하지만, 살아있는 세포를 통해 작동합니다. 그러나 페로사이트의 목적은 의사소통을 넘어설 수 있습니다. 일부 화학 물질은 향정신성 약물과 유사한 특징을 보이며, 이는 인간에게 영향을 미치도록 특별히 설계되었을 가능성을 시사합니다. 우리 과학 팀은 이러한 페로사이트에 대한 집중 연구에 착수하기를 강력히 바랍니다.
 TIObjectiveTemplate.quote.ResearchHydraBiology.ResistCouncil=외계인 부검이 완료되었습니다, 사령관님.
 
 TIObjectiveTemplate.displayName.ResearchPherocytes.ResistCouncil=히드라 페로사이트 연구
@@ -685,7 +685,7 @@ TIObjectiveTemplate.quote.AccessHydraCorpus.EscapeCouncil=우리 생물학자들
 TIObjectiveTemplate.displayName.ResearchHydraBiology.EscapeCouncil=히드라 생물학 연구
 TIObjectiveTemplate.description.ResearchHydraBiology.EscapeCouncil=새롭게 개명된 외계생물학 부서가 부검을 위해 대기하고 있습니다. 우리 그룹의 모든 생물학자는 절차에 참석하기를 원합니다. 더 큰 실험실이 필요할 수도 있습니다.
 TIObjectiveTemplate.solution.ResearchHydraBiology.EscapeCouncil="히드라 생물학" 프로젝트가 가능해지면 연구하세요.
-TIObjectiveTemplate.resolution.ResearchHydraBiology.EscapeCouncil=외계인 시체는 우리에게 정보의 보고를 제공했습니다. 탄소를 기반으로 하며, 산소를 호흡하는 이 생명체는 키가 약 220cm이고, 무릎은 지구 개와 유사한 패턴으로 다리의 위쪽 절반에 있습니다. 체온을 식히는 것은 승화하는 땀 메커니즘에 의해 이루어집니다.<br/><br/>내부적으로 눈에 띄는 특징은 신경계와 순환계가 결합되어 있다는 것입니다. 세 개의 심장/신경 클러스터가 있습니다. 하나는 머리에, 가장 위쪽 척추에 근접하고, 두 개는 복부, 오른쪽 갈비뼈 아래와 왼쪽 장골 부위에 있습니다. 이 중복 시스템은 여러 심장/신경 클러스터 치명적인 손상을 주지 않는 한 외계인이 (모든 기능은 아니지만) 대부분의 기능을 재생성할 수 있음을 의미합니다. 클러스터 하나를 잃으면 고차원 인지 기능을 방해할 가능성이 있지만 두 개의 클러스터가 작동 중인 외계인은 여전히 기본적인 것부터 중간 정도의 작업을 수행할 수 있을 것입니다.<br/><br/>외계인의 재생 능력은 어떤 종류의 노화도 방지하는 것으로 보입니다. 각 개체의 수명은 160년에서 200년 사이로 추정되며, 대부분의 자연 생활 동안 일관된 체력, 이동성 및 인지력을 유지할 수 있다고 추측합니다. 여기에는 대가가 따릅니다. 그들의 생리는 매우 복잡하여 느린 임신 및 발달 주기와 낮은 출생률은 불가피합니다.<br/><br/>개별 외계인은 출생 시 성별이 지정되지 않습니다. 종의 각 구성원은 잠재적인 남성 및 여성 생식 기관을 가지고 태어납니다. 생애 주기의 특정 시점과 조건이 한 세트의 성기관 발달을 촉진합니다. 지구상에서 드문 일이 아니지만, 지구상의 순차적 자웅동체는 물고기, 복족류 및 식물과 같은 하등 생물에서만 발견됩니다. 외계인의 경우, 생애 주기가 끝날 무렵에만 성적 성향을 띠게 되는 것으로 보이며, 성별 지정이 완료되면 다시 변경되지 않습니다.<br/><br/>이 표본을 수집하는 동안 녹음한 딸깍하는 소리는 언어가 될 만큼 복잡하지만, 청각적 의사소통이 주요 정보 교환의 방식은 아니라고 여겨집니다. 오히려, 얼굴의 여러 갈래로 갈라진 돌출부와 목 뒤쪽의 구근에 공기로부터 데이터를 수집하는 정교한 감각 기관이 있다는 것을 발견했습니다. 그리고 그 데이터를 뱀이 혀를 사용하는 방식과 유사하게 고도로 발달된 서골비 기관에 전달합니다. 뱀과는 달리, 이 기관은 화학 정보의 흐름을 빠르게 구성하고 방출할 수 있는 능력이 있습니다. 우리는 이러한 기관에서 적응 세포와 다양한 원소 및 화합물의 저장소를 발견했으며, 언어학자들은 이것이 사실상 알파벳으로 기능할 수 있다는 이론을 세웠습니다. 이것은 페로몬과 유사하지만 살아있는 세포를 통해 이루어지는 흥미로운 양방향 메커니즘을 의미합니다. 우리 연구원들은 이러한 세포를 "페로사이트"라고 명명했습니다. <br/><br/>외계생물학 부서의 참고 사항: 예비 연구에 따르면 이러한 페로사이트 중 일부는 인간에게 영향을 미치도록 특별히 설계되었을 수 있습니다. 즉각적이고 집중적인 연구를 강력히 권장합니다. 
+TIObjectiveTemplate.resolution.ResearchHydraBiology.EscapeCouncil=외계인 시체는 우리에게 정보의 보고를 제공했습니다. 탄소를 기반으로 하며, 산소를 호흡하는 이 생명체는 키가 약 220cm이고, 무릎은 지구 개와 유사한 패턴으로 다리의 위쪽 절반에 있습니다. 체온을 식히는 것은 승화하는 땀 메커니즘에 의해 이루어집니다.<br/><br/>내부적으로 눈에 띄는 특징은 신경계와 순환계가 결합되어 있다는 것입니다. 세 개의 심장/신경 클러스터가 있습니다. 하나는 머리에, 가장 상단의 척추 뒤쪽에 있고, 두 개는 복부, 오른쪽 갈비뼈 아래와 왼쪽 장골 부위에 있습니다. 이 중복 시스템은 여러 심장/신경 클러스터 치명적인 손상을 주지 않는 한 외계인이 (모든 기능은 아니지만) 대부분의 기능을 재생성할 수 있음을 의미합니다. 클러스터 하나를 잃으면 고차원 인지 기능을 방해할 가능성이 있지만 두 개의 클러스터가 작동 중인 외계인은 여전히 기본적인 것부터 중간 정도의 작업을 수행할 수 있을 것입니다.<br/><br/>외계인의 재생 능력은 어떤 종류의 노화도 방지하는 것으로 보입니다. 각 개체의 수명은 160년에서 200년 사이로 추정되며, 대부분의 자연 생활 동안 일관된 체력, 이동성 및 인지력을 유지할 수 있다고 추측합니다. 여기에는 대가가 따릅니다. 그들의 생리는 매우 복잡하여 느린 임신 및 발달 주기와 낮은 출생률은 불가피합니다.<br/><br/>개별 외계인은 출생 시 성별이 지정되지 않습니다. 종의 각 구성원은 잠재적인 남성 및 여성 생식 기관을 가지고 태어납니다. 생애 주기의 특정 시점과 조건이 한 세트의 성기관 발달을 촉진합니다. 지구상에서 드문 일이 아니지만, 지구상의 순차적 자웅동체는 물고기, 복족류 및 식물과 같은 하등 생물에서만 발견됩니다. 외계인의 경우, 생애 주기가 끝날 무렵에만 성적 성향을 띠게 되는 것으로 보이며, 성별 지정이 완료되면 다시 변경되지 않습니다.<br/><br/>이 표본을 수집하는 동안 녹음한 딸깍하는 소리는 언어가 될 만큼 복잡하지만, 청각적 의사소통이 주요 정보 교환의 방식은 아니라고 여겨집니다. 오히려, 얼굴의 여러 갈래로 갈라진 돌출부와 목 뒤쪽의 구근에 공기로부터 데이터를 수집하는 정교한 감각 기관이 있다는 것을 발견했습니다. 그리고 그 데이터를 뱀이 혀를 사용하는 방식과 유사하게 고도로 발달된 서골비 기관에 전달합니다. 뱀과는 달리, 이 기관은 화학 정보의 흐름을 빠르게 구성하고 방출할 수 있는 능력이 있습니다. 우리는 이러한 기관에서 적응 세포와 다양한 원소 및 화합물의 저장소를 발견했으며, 언어학자들은 이것이 사실상 알파벳으로 기능할 수 있다는 이론을 세웠습니다. 이것은 페로몬과 유사하지만 살아있는 세포를 통해 이루어지는 흥미로운 양방향 메커니즘을 의미합니다. 우리 연구원들은 이러한 세포를 "페로사이트"라고 명명했습니다. <br/><br/>외계생물학 부서의 참고 사항: 예비 연구에 따르면 이러한 페로사이트 중 일부는 인간에게 영향을 미치도록 특별히 설계되었을 수 있습니다. 즉각적이고 집중적인 연구를 강력히 권장합니다. 
 TIObjectiveTemplate.quote.ResearchHydraBiology.EscapeCouncil=부검 보고서가 준비되었습니다, 감독관님. 그 내용이 매우 흥미롭습니다.
 
 TIObjectiveTemplate.displayName.ResearchPherocytes.EscapeCouncil=히드라 페로사이트 연구

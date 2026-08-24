@@ -16,7 +16,8 @@ UI.Habs.MainHeader=Середовища
 UI.Habs.NoHabSelected=Середовище не вибране
 UI.Habs.TierCrew={0} (Категорія: {1}/Макс.: {2})
 UI.Habs.SelectAModule=Виберіть модуль
-UI.Habs.SectorID=Сектор ({0})
+UI.Habs.CantBuild=<size=60%>Середовища, що зазнають нападу, бомбардування або виведення з експлуатації, не можуть будувати чи поліпшувати модулі.</size>
+UI.Habs.SectorID=Сектор {0}
 UI.Habs.Tier=Модуль {0} категорії
 UI.Habs.Crew=Екіпаж: {0}
 UI.Habs.Mass={0} т
@@ -226,3 +227,4 @@ UI.Habs.UpgradePath=Від об'єкта «{0}» до об'єкта «{1}»					
 UI.Habs.UpgradeAllofTypeQuery=Підтвердження поліпшить модулі ({0}): від стану «{1}» до стану «{2}».
 UI.Habs.CantAffordUpgradeAllofType=Зараз ми не можемо дозволити це собі.
 UI.Habs.BaseSiteName=База «{0}»																// name of hab site, generic base name option
+UI.Habs.NoBuildDuringAttacks=(«{0}») Це середовище не може будувати чи поліпшувати модулі, коли його атакують.

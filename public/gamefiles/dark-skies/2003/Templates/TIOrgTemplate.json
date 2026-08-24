@@ -1,0 +1,92 @@
+[
+ {
+   "dataName": "SubmitSpecial",
+   "friendlyName": "Submit Special",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "orgType": "Faction",
+   "tier": 3,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "affinities": [
+      "Submit"
+   ],
+   "restricted": [
+      "Alien",
+      "Appease",
+      "Escape",
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Exploit"
+   ],
+   "chanceIncomeInfluence": 100,
+   "incomeInfluence": 3,
+   "chanceIncomeOps": 100,
+   "incomeOps": 4,
+   "chancePersuasion": 100,
+   "persuasion": 3,
+   "chanceCommand": 100,
+   "command": 5,
+   "chanceAdministration": 100,
+   "administration": 6,
+   "chanceSecurity": 100,
+   "security": 10,
+   "chanceUnityBonus": 100,
+   "unityBonus": 0.1,
+   "chanceOppressionBonus": 100,
+   "oppressionBonus": 0.05,
+   "techBonuses": [
+      {
+         "category": "Xenology",
+         "bonus": 0.1
+      }
+   ],
+   "missionsGrantedNames": [
+      "GainInfluence",
+      "Purge",
+      "DefendInterests"
+   ],
+   "iconResource": "orglogos/org_submit_mid"
+},
+ {
+   "dataName": "SubmitAdministration",
+   "friendlyName": "Submit Administration",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "orgType": "Faction",
+   "tier": 3,
+   "randomized": false,
+   "allowedOnMarket": false,
+   "requiresNationality": false,
+   "affinities": [
+      "Submit"
+   ],
+   "restricted": [
+      "Alien",
+      "Appease",
+      "Escape",
+      "Resist",
+      "Destroy",
+      "Cooperate",
+      "Exploit"
+   ],
+   "chanceIncomeMoney": 100,
+   "incomeMoney": 500,
+   "chanceAdministration": 100,
+   "administration": 3,
+   "chanceSecurity": 100,
+   "security": 3,
+   "techBonuses": [],
+   "missionsGrantedNames": [
+      "BuildFacility",
+      "AssumeControl",
+      "Xenoform",
+      "Abductions"
+   ],
+   "iconResource": "orglogos/org_submit_mid"
+}
+]

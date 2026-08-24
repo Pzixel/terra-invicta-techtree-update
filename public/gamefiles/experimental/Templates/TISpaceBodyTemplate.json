@@ -2123,7 +2123,7 @@
    "objectType": "PlanetaryMoon",
    "effectToExplore": "Effect_ExploreSaturn",
    "irradiatedMultiplier": 1,
-   "atmosphere": "None",
+   "atmosphere": "Trace",
    "semiMajorAxis_km": 377400,
    "eccentricity": 0.0022,
    "inclination_Deg": 0.028,
@@ -2212,7 +2212,7 @@
    "objectType": "PlanetaryMoon",
    "effectToExplore": "Effect_ExploreSaturn",
    "irradiatedMultiplier": 1,
-   "atmosphere": "None",
+   "atmosphere": "Trace",
    "semiMajorAxis_km": 527040,
    "eccentricity": 0.001,
    "inclination_Deg": 0.333,
@@ -12495,6 +12495,52 @@
    ]
 },
  {
+   "dataName": "1170Siva",
+   "friendlyName": "1170 Siva",
+   "designation": "1930 SQ",
+   "notes": "S, Mars-Crosser",
+   "friendlyDiameter": 12.13,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.3268,
+   "eccentricity": 0.2998,
+   "inclination_Deg": 22.16130302,
+   "longAscendingNode_Deg": 0.8280043292,
+   "argPeriapsis_Deg": 59.4617398,
+   "meanAnomalyAtEpoch_Deg": 264.0665441,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 12.13,
+   "dimensionY_km": 10.37,
+   "dimensionZ_km": 7.68,
+   "oblateness": 0.18343,
+   "mass_kg": 1599240000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "3.13637",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 1571.56,
+   "Hill radius pass-fail": "1571.56",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 3,
+   "assumed size": 10.71413038,
+   "abs mag H": 12.36,
+   "geo albedo a": 0.1751,
+   "numAltModels": 0,
+   "orbits": [
+      "1170SivaParkingOrbit"
+   ],
+   "habSites": [
+      "1170SivaSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "1172Aneas",
    "friendlyName": "1172 Aneas",
    "notes": "Leading Jupiter Trojan",
@@ -12612,6 +12658,52 @@
    ],
    "habSites": [
       "1437DiomedesSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "1580Betulia",
+   "friendlyName": "1580 Betulia",
+   "designation": "1950 KA",
+   "notes": "B, Amor",
+   "friendlyDiameter": 8.55,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.195,
+   "eccentricity": 0.4876,
+   "inclination_Deg": 52.19,
+   "longAscendingNode_Deg": 62.23,
+   "argPeriapsis_Deg": 159.73,
+   "meanAnomalyAtEpoch_Deg": 19.64,
+   "epoch_floatJYears": 2025.3424,
+   "dimensionX_km": 8.55,
+   "dimensionY_km": 5.8,
+   "dimensionZ_km": 3.82,
+   "oblateness": 0.27661,
+   "mass_kg": 197765000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "6.1324",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 540.51,
+   "Hill radius pass-fail": "540.51",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.808379801,
+   "abs mag H": 14.54,
+   "geo albedo a": 0.08,
+   "numAltModels": 0,
+   "orbits": [
+      "1580BetuliaParkingOrbit"
+   ],
+   "habSites": [
+      "1580BetuliaSite1"
    ],
    "altModels": [
       {},
@@ -12823,6 +12915,49 @@
    ]
 },
  {
+   "dataName": "1917Cuyo",
+   "friendlyName": "1917 Cuyo",
+   "designation": "1968 AA",
+   "notes": "SI, Amor",
+   "friendlyDiameter": 5.7,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.149,
+   "eccentricity": 0.5056,
+   "inclination_Deg": 23.96,
+   "longAscendingNode_Deg": 188.27,
+   "argPeriapsis_Deg": 194.56,
+   "meanAnomalyAtEpoch_Deg": 97.51,
+   "epoch_floatJYears": 2025.3424,
+   "dimensionX_km": 5.7,
+   "mass_kg": 290900000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "2.689",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 580.69,
+   "Hill radius pass-fail": "580.69",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 4.004817171,
+   "abs mag H": 14.38,
+   "geo albedo a": 0.195,
+   "numAltModels": 0,
+   "orbits": [
+      "1917CuyoParkingOrbit"
+   ],
+   "habSites": [
+      "1917CuyoSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "1951Lick",
    "friendlyName": "1951 Lick",
    "designation": "A",
@@ -12947,6 +13082,49 @@
    ]
 },
  {
+   "dataName": "2099Öpik",
+   "friendlyName": "2099 Öpik",
+   "designation": "1977 VB",
+   "notes": "Ch / S, Mars-Crosser",
+   "friendlyDiameter": 5.18,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.304251356,
+   "eccentricity": 0.3603684591,
+   "inclination_Deg": 26.9586284,
+   "longAscendingNode_Deg": 218.8046708,
+   "argPeriapsis_Deg": 159.3832071,
+   "meanAnomalyAtEpoch_Deg": 273.8770565,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 5.18,
+   "mass_kg": 123719000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "6.443",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 605.78,
+   "Hill radius pass-fail": "605.78",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.339566338,
+   "abs mag H": 15.11,
+   "geo albedo a": 0.056,
+   "numAltModels": 0,
+   "orbits": [
+      "2099ÖpikParkingOrbit"
+   ],
+   "habSites": [
+      "2099ÖpikSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "2204Lyyli",
    "friendlyName": "2204 Lyyli",
    "designation": "X/P",
@@ -13026,6 +13204,49 @@
    ],
    "habSites": [
       "2212HephaistosSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "2335James",
+   "friendlyName": "2335 James",
+   "designation": "1974 UB",
+   "notes": "Sa, Mars-Crosser",
+   "friendlyDiameter": 6.367,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.123507038,
+   "eccentricity": 0.3604639923,
+   "inclination_Deg": 36.30121728,
+   "longAscendingNode_Deg": 19.892695,
+   "argPeriapsis_Deg": 79.53965515,
+   "meanAnomalyAtEpoch_Deg": 147.7287083,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 6.367,
+   "mass_kg": 405438000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "22.9",
+   "fabricatedData": "Density, Rotation",
+   "Hill Radius in km": 829.1,
+   "Hill radius pass-fail": "829.10",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.46667266,
+   "abs mag H": 13.65,
+   "geo albedo a": 0.205,
+   "numAltModels": 0,
+   "orbits": [
+      "2335JamesParkingOrbit"
+   ],
+   "habSites": [
+      "2335JamesSite1"
    ],
    "altModels": [
       {},
@@ -13161,6 +13382,49 @@
    ]
 },
  {
+   "dataName": "3443Leetsungdao",
+   "friendlyName": "3443 Leetsungdao",
+   "designation": "1979 SB1",
+   "notes": "T, Mars-Crosser",
+   "friendlyDiameter": 8.852,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.393063085,
+   "eccentricity": 0.3075130657,
+   "inclination_Deg": 12.70725353,
+   "longAscendingNode_Deg": 184.3207744,
+   "argPeriapsis_Deg": 112.923878,
+   "meanAnomalyAtEpoch_Deg": 209.565227,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 8.852,
+   "mass_kg": 617407000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "3.439",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 1163.95,
+   "Hill radius pass-fail": "1163.95",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 8.152917251,
+   "abs mag H": 13.26,
+   "geo albedo a": 0.132,
+   "numAltModels": 0,
+   "orbits": [
+      "3443LeetsungdaoParkingOrbit"
+   ],
+   "habSites": [
+      "3443LeetsungdaoSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "3451Mentor",
    "friendlyName": "3451 Mentor",
    "designation": "X/P",
@@ -13244,6 +13508,92 @@
    ]
 },
  {
+   "dataName": "3674Erbisbuhl",
+   "friendlyName": "3674 Erbisbuhl",
+   "designation": "1963 RH",
+   "notes": "Sk, Mars-Crosser",
+   "friendlyDiameter": 9.068,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.360829615,
+   "eccentricity": 0.3754667294,
+   "inclination_Deg": 21.02689025,
+   "longAscendingNode_Deg": 296.7955908,
+   "argPeriapsis_Deg": 98.22826041,
+   "meanAnomalyAtEpoch_Deg": 41.87922854,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 9.068,
+   "mass_kg": 1171260000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "11.2794",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 1281.99,
+   "Hill radius pass-fail": "1281.99",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 9.432368522,
+   "abs mag H": 12.02,
+   "geo albedo a": 0.309,
+   "numAltModels": 0,
+   "orbits": [
+      "3674ErbisbuhlParkingOrbit"
+   ],
+   "habSites": [
+      "3674ErbisbuhlSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "3737Beckman",
+   "friendlyName": "3737 Beckman",
+   "designation": "1983 PA",
+   "notes": "S",
+   "friendlyDiameter": 6.968,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.406624205,
+   "eccentricity": 0.3965654254,
+   "inclination_Deg": 20.13389802,
+   "longAscendingNode_Deg": 288.1376317,
+   "argPeriapsis_Deg": 85.51271877,
+   "meanAnomalyAtEpoch_Deg": 92.93979654,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 6.968,
+   "mass_kg": 531428000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "3.124",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 970.28,
+   "Hill radius pass-fail": "970.28",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 7.480037172,
+   "abs mag H": 12.6,
+   "geo albedo a": 0.288,
+   "numAltModels": 0,
+   "orbits": [
+      "3737BeckmanParkingOrbit"
+   ],
+   "habSites": [
+      "3737BeckmanSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "3753Cruithne",
    "friendlyName": "3753 Cruithne",
    "designation": "Q",
@@ -13276,6 +13626,92 @@
    ],
    "habSites": [
       "3753CruithneSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "4222Nancita",
+   "friendlyName": "4222 Nancita",
+   "designation": "1988 EK1",
+   "notes": "S",
+   "friendlyDiameter": 9.636,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.366769105,
+   "eccentricity": 0.2963229847,
+   "inclination_Deg": 3.741650551,
+   "longAscendingNode_Deg": 206.8030636,
+   "argPeriapsis_Deg": 217.8623747,
+   "meanAnomalyAtEpoch_Deg": 196.5534693,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 9.636,
+   "mass_kg": 1405430000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "3.872",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 1538.79,
+   "Hill radius pass-fail": "1538.79",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 9.761731475,
+   "abs mag H": 12.37,
+   "geo albedo a": 0.209,
+   "numAltModels": 0,
+   "orbits": [
+      "4222NancitaParkingOrbit"
+   ],
+   "habSites": [
+      "4222NancitaSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "4558Janesick",
+   "friendlyName": "4558 Janesick",
+   "designation": "1988 NF",
+   "notes": "S",
+   "friendlyDiameter": 7.326,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.197607603,
+   "eccentricity": 0.36285583,
+   "inclination_Deg": 22.18082601,
+   "longAscendingNode_Deg": 254.7880804,
+   "argPeriapsis_Deg": 94.39207178,
+   "meanAnomalyAtEpoch_Deg": 153.2393478,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 7.326,
+   "mass_kg": 617619000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "173.4",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 983.57,
+   "Hill radius pass-fail": "983.57",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 6.798310575,
+   "abs mag H": 12.8,
+   "geo albedo a": 0.29,
+   "numAltModels": 0,
+   "orbits": [
+      "4558JanesickParkingOrbit"
+   ],
+   "habSites": [
+      "4558JanesickSite1"
    ],
    "altModels": [
       {},
@@ -13366,6 +13802,49 @@
    ]
 },
  {
+   "dataName": "5230Asahina",
+   "friendlyName": "5230 Asahina",
+   "designation": "1988 EF",
+   "notes": "S",
+   "friendlyDiameter": 5.681,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.398040116,
+   "eccentricity": 0.3752137061,
+   "inclination_Deg": 20.68107407,
+   "longAscendingNode_Deg": 195.1868887,
+   "argPeriapsis_Deg": 266.3525466,
+   "meanAnomalyAtEpoch_Deg": 81.32944753,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 5.681,
+   "mass_kg": 288001000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "89.3",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 816.14,
+   "Hill radius pass-fail": "816.14",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.443819991,
+   "abs mag H": 13.29,
+   "geo albedo a": 0.288,
+   "numAltModels": 0,
+   "orbits": [
+      "5230AsahinaParkingOrbit"
+   ],
+   "habSites": [
+      "5230AsahinaSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "5731Zeus",
    "friendlyName": "5371 Zeus",
    "notes": "Apollo Asteroid",
@@ -13401,6 +13880,49 @@
    ],
    "habSites": [
       "5731ZeusSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "6500Kodaira",
+   "friendlyName": "6500 Kodaira",
+   "designation": "1993 ET",
+   "notes": "B",
+   "friendlyDiameter": 9.487,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.754465577,
+   "eccentricity": 0.41784478,
+   "inclination_Deg": 29.31785164,
+   "longAscendingNode_Deg": 186.1010394,
+   "argPeriapsis_Deg": 255.3488239,
+   "meanAnomalyAtEpoch_Deg": 108.5956638,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 9.487,
+   "mass_kg": 1028280000000000,
+   "density_gcm3": 2.3,
+   "rotationPeriod_strHours": "5.4",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 1335.04,
+   "Hill radius pass-fail": "1335.04",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 9.729970563,
+   "abs mag H": 12.73,
+   "geo albedo a": 0.151,
+   "numAltModels": 0,
+   "orbits": [
+      "6500KodairaParkingOrbit"
+   ],
+   "habSites": [
+      "6500KodairaSite1"
    ],
    "altModels": [
       {},
@@ -13485,6 +14007,135 @@
    ],
    "habSites": [
       "7092CadmusSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "7096Napier",
+   "friendlyName": "7096 Napier",
+   "designation": "1992 VM",
+   "notes": "(C)",
+   "friendlyDiameter": 5.59,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.775841979,
+   "eccentricity": 0.5030439282,
+   "inclination_Deg": 11.15358891,
+   "longAscendingNode_Deg": 146.4525065,
+   "argPeriapsis_Deg": 258.0709745,
+   "meanAnomalyAtEpoch_Deg": 48.92870976,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 5.59,
+   "mass_kg": 155483000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "19.45",
+   "fabricatedData": "Spectral Type, Rotation, Density",
+   "Hill Radius in km": 611.86,
+   "Hill radius pass-fail": "611.86",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.859736882,
+   "abs mag H": 15.2,
+   "geo albedo a": 0.0428,
+   "numAltModels": 0,
+   "orbits": [
+      "7096NapierParkingOrbit"
+   ],
+   "habSites": [
+      "7096NapierSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "7505Furusho",
+   "friendlyName": "7505 Furusho",
+   "designation": "1997 AM2",
+   "notes": "(E)",
+   "friendlyDiameter": 9.07,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.638078486,
+   "eccentricity": 0.3806818908,
+   "inclination_Deg": 6.3746335,
+   "longAscendingNode_Deg": 86.45237463,
+   "argPeriapsis_Deg": 288.0039117,
+   "meanAnomalyAtEpoch_Deg": 324.9281083,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 9.07,
+   "mass_kg": 1328310000000000,
+   "density_gcm3": 3.4,
+   "rotationPeriod_strHours": "4.139",
+   "fabricatedData": "Spectral Type",
+   "Hill Radius in km": 1481.43,
+   "Hill radius pass-fail": "1481.43",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 7.338869793,
+   "abs mag H": 12.36,
+   "geo albedo a": 0.3732,
+   "numAltModels": 0,
+   "orbits": [
+      "7505FurushoParkingOrbit"
+   ],
+   "habSites": [
+      "7505FurushoSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "8373Stephengould",
+   "friendlyName": "8373 Stephengould",
+   "designation": "1992 AB",
+   "notes": "S",
+   "friendlyDiameter": 5.748,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 3.277739211,
+   "eccentricity": 0.5555326783,
+   "inclination_Deg": 40.79991399,
+   "longAscendingNode_Deg": 88.86131321,
+   "argPeriapsis_Deg": 55.34598005,
+   "meanAnomalyAtEpoch_Deg": 235.7368756,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 5.748,
+   "mass_kg": 298312000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "4.435",
+   "fabricatedData": "Density",
+   "Hill Radius in km": 802.94,
+   "Hill radius pass-fail": "802.94",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.008113692,
+   "abs mag H": 14.31,
+   "geo albedo a": 0.133,
+   "numAltModels": 0,
+   "orbits": [
+      "8373StephengouldParkingOrbit"
+   ],
+   "habSites": [
+      "8373StephengouldSite1"
    ],
    "altModels": [
       {},
@@ -13615,6 +14266,49 @@
    ]
 },
  {
+   "dataName": "14222Asteroid",
+   "friendlyName": "14222 Ayyur",
+   "designation": "1999 WS1",
+   "notes": "Mars-Crosser (C)",
+   "friendlyDiameter": 6.7,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 3.099418891,
+   "eccentricity": 0.5442337747,
+   "inclination_Deg": 17.1724401,
+   "longAscendingNode_Deg": 229.139869,
+   "argPeriapsis_Deg": 84.87570384,
+   "meanAnomalyAtEpoch_Deg": 308.448923,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 6.688,
+   "mass_kg": 266279000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "24.869",
+   "fabricatedData": "Spectral Type, Density, Name",
+   "Hill Radius in km": 749.63,
+   "Hill radius pass-fail": "749.63",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 6.750834957,
+   "abs mag H": 14.2,
+   "geo albedo a": 0.081,
+   "numAltModels": 0,
+   "orbits": [
+      "14222AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "14222AsteroidSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "15760Albion",
    "friendlyName": "15760 Albion",
    "notes": "Cubewano - Centaur",
@@ -13731,7 +14425,7 @@
    "numAltModels": 0,
    "orbits": [
       "Low15810ArawnOrbit",
-      "Low15810ArawnOrbit"
+      "High15810ArawnOrbit"
    ],
    "habSites": [
       "15810ArawnSite1"
@@ -13824,6 +14518,92 @@
    "habSites": [
       "20000VarunaSite1",
       "20000VarunaSite2"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "25916Asteroid",
+   "friendlyName": "25916 Khalfu",
+   "designation": "2001 CP44",
+   "notes": "Amor (S)",
+   "friendlyDiameter": 5.683,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.557713939,
+   "eccentricity": 0.4997811952,
+   "inclination_Deg": 15.76392368,
+   "longAscendingNode_Deg": 94.63856167,
+   "argPeriapsis_Deg": 199.6989046,
+   "meanAnomalyAtEpoch_Deg": 282.5678006,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 5.683,
+   "mass_kg": 288305000000000,
+   "density_gcm3": 3,
+   "rotationPeriod_strHours": "4.6021",
+   "fabricatedData": "Spectral Type, Density, Name",
+   "Hill Radius in km": 697.18,
+   "Hill radius pass-fail": "697.18",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.592594958,
+   "abs mag H": 13.76,
+   "geo albedo a": 0.177,
+   "numAltModels": 0,
+   "orbits": [
+      "25916AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "25916AsteroidSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "26760Asteroid",
+   "friendlyName": "26760 Coniraya",
+   "designation": "2001 KP41",
+   "notes": "Amor (C)",
+   "friendlyDiameter": 5.41,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.854,
+   "eccentricity": 0.5571,
+   "inclination_Deg": 11.01,
+   "longAscendingNode_Deg": 146.25,
+   "argPeriapsis_Deg": 155.14,
+   "meanAnomalyAtEpoch_Deg": 330.1,
+   "epoch_floatJYears": 2025.3424,
+   "dimensionX_km": 5.4,
+   "mass_kg": 140162000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "6.345",
+   "fabricatedData": "Spectral Type, Rotation, Density, Name",
+   "Hill Radius in km": 541.6,
+   "Hill radius pass-fail": "541.60",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.151994074,
+   "abs mag H": 15.5,
+   "geo albedo a": 0.042,
+   "numAltModels": 0,
+   "orbits": [
+      "26760AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "26760AsteroidSite1"
    ],
    "altModels": [
       {},
@@ -14504,9 +15284,9 @@
 },
  {
    "dataName": "55637KBO",
-   "friendlyName": "Ranginui",
-   "designation": "55637 2002 UX25",
-   "notes": "Cubewano",
+   "friendlyName": "Uni",
+   "designation": "55637 2002 UX25 Uni",
+   "notes": "Cubewano, *ex-Ranginui",
    "friendlyDiameter": 665,
    "modelResource": "planets/Ranginui",
    "modelScale": 0.5,
@@ -14548,8 +15328,9 @@
 },
  {
    "dataName": "55637KBOMoonI",
-   "friendlyName": "Papatuanuku",
+   "friendlyName": "Tinia",
    "designation": "Ranginui I",
+   "notes": "*Ex Paptuanuku",
    "friendlyDiameter": 190,
    "modelScale": 10,
    "barycenterName": "55637KBO",
@@ -14798,6 +15579,92 @@
    ]
 },
  {
+   "dataName": "88263Asteroid",
+   "friendlyName": "88263 Changxi",
+   "designation": "2001 KQ1",
+   "notes": "Amor (C)",
+   "friendlyDiameter": 5.748,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.096723014,
+   "eccentricity": 0.4325588341,
+   "inclination_Deg": 38.78989958,
+   "longAscendingNode_Deg": 232.8153274,
+   "argPeriapsis_Deg": 241.58111,
+   "meanAnomalyAtEpoch_Deg": 89.70282222,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 5.748,
+   "mass_kg": 169043000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "13.17",
+   "fabricatedData": "Spectral Type, Density, Name",
+   "Hill Radius in km": 542.63,
+   "Hill radius pass-fail": "542.63",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.029202676,
+   "abs mag H": 15.69,
+   "geo albedo a": 0.037,
+   "numAltModels": 0,
+   "orbits": [
+      "88263AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "88263AsteroidSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "89830Asteroid",
+   "friendlyName": "89830 Mayari",
+   "designation": "2002 CE",
+   "notes": "Amor (C)",
+   "friendlyDiameter": 5.067,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.077654192,
+   "eccentricity": 0.5070022515,
+   "inclination_Deg": 43.64378238,
+   "longAscendingNode_Deg": 19.88739542,
+   "argPeriapsis_Deg": 5.851522935,
+   "meanAnomalyAtEpoch_Deg": 24.89357556,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 5.067,
+   "mass_kg": 115798000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "2.6149",
+   "fabricatedData": "Spectral Type, Density, Name",
+   "Hill Radius in km": 411.81,
+   "Hill radius pass-fail": "411.81",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 4.772945269,
+   "abs mag H": 14.98,
+   "geo albedo a": 0.079,
+   "numAltModels": 0,
+   "orbits": [
+      "89830AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "89830AsteroidSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "90482Orcus",
    "friendlyName": "Orcus",
    "designation": "90482 Orcus",
@@ -14957,6 +15824,135 @@
    ],
    "habSites": [
       "95626CentaurSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "97514Asteroid",
+   "friendlyName": "97514 Bulan",
+   "designation": "2000 DL1",
+   "notes": "Mars-Crosser (C)",
+   "friendlyDiameter": 8.987,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.017,
+   "eccentricity": 0.2721,
+   "inclination_Deg": 43.64,
+   "longAscendingNode_Deg": 19.89,
+   "argPeriapsis_Deg": 5.85,
+   "meanAnomalyAtEpoch_Deg": 319.07,
+   "epoch_floatJYears": 2025.3424,
+   "dimensionX_km": 8.987,
+   "mass_kg": 646088000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "163.6",
+   "fabricatedData": "Spectral Type, Density, Name",
+   "Hill Radius in km": 1046.94,
+   "Hill radius pass-fail": "1046.94",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 7.843761408,
+   "abs mag H": 14.2,
+   "geo albedo a": 0.06,
+   "numAltModels": 0,
+   "orbits": [
+      "97514AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "97514AsteroidSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "101742Asteroid",
+   "friendlyName": "101742 Devana",
+   "designation": "1999 FO7",
+   "notes": "Mars-Crosser (C)",
+   "friendlyDiameter": 8.12,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.385120204,
+   "eccentricity": 0.3440536328,
+   "inclination_Deg": 23.21687303,
+   "longAscendingNode_Deg": 349.3998945,
+   "argPeriapsis_Deg": 88.16144659,
+   "meanAnomalyAtEpoch_Deg": 142.8018687,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 8.12,
+   "mass_kg": 476558000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "7.885",
+   "fabricatedData": "Spectral Type, Rotation, Density, Name",
+   "Hill Radius in km": 1008.01,
+   "Hill radius pass-fail": "1008.01",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 6.983412509,
+   "abs mag H": 14.92,
+   "geo albedo a": 0.039,
+   "numAltModels": 0,
+   "orbits": [
+      "101742AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "101742AsteroidSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "102528Asteroid",
+   "friendlyName": "102528 Napir",
+   "designation": "1999 US3",
+   "notes": "Mars-Crosser (C)",
+   "friendlyDiameter": 12.85,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.766,
+   "eccentricity": 0.5174,
+   "inclination_Deg": 28.92,
+   "longAscendingNode_Deg": 268.03,
+   "argPeriapsis_Deg": 182,
+   "meanAnomalyAtEpoch_Deg": 195.96,
+   "epoch_floatJYears": 2025.3424,
+   "dimensionX_km": 12.85,
+   "mass_kg": 1888670000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "4.682",
+   "fabricatedData": "Spectral Type, Density, Name",
+   "Hill Radius in km": 1361.04,
+   "Hill radius pass-fail": "1361.04",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 3,
+   "assumed size": 12.28027441,
+   "abs mag H": 13.64,
+   "geo albedo a": 0.041,
+   "numAltModels": 0,
+   "orbits": [
+      "102528AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "102528AsteroidSite1"
    ],
    "altModels": [
       {},
@@ -15551,6 +16547,96 @@
    ]
 },
  {
+   "dataName": "Eris",
+   "friendlyName": "Eris",
+   "designation": "136199 Eris",
+   "notes": "Scattered Disc Object",
+   "friendlyDiameter": 2326,
+   "modelResource": "planets/Eris",
+   "modelScale": 0.5,
+   "symbolTexture": "icons_2d/ICO_Eris",
+   "barycenterName": "Sol",
+   "objectType": "DwarfPlanet",
+   "effectToExplore": "Effect_ExploreKuiperBelt",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 67.684,
+   "eccentricity": 0.43607,
+   "inclination_Deg": 44.04,
+   "longAscendingNode_Deg": 35.951,
+   "argPeriapsis_Deg": 151.639,
+   "meanAnomalyAtEpoch_Deg": 205.989,
+   "epoch_floatJYears": 2020.415301,
+   "meanRadius_km": 1163,
+   "mass_kg": 1.638e+22,
+   "density_gcm3": 2.43,
+   "rotationPeriod_strHours": "15.786",
+   "tilt_Deg": 61.59,
+   "Hill Radius in km": 7995792.56,
+   "Hill radius pass-fail": "7995792.56",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 4,
+   "numAltModels": 0,
+   "orbits": [
+      "LowErisOrbit",
+      "MediumErisOrbit",
+      "HighErisOrbit"
+   ],
+   "habSites": [
+      "ErisSite1",
+      "ErisSite2",
+      "ErisSite3",
+      "ErisSite4",
+      "ErisSite5",
+      "ErisSite6",
+      "ErisSite7",
+      "ErisSite8",
+      "ErisSite9"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "Dysnomia",
+   "friendlyName": "Dysnomia",
+   "designation": "Eris I",
+   "notes": "Asteroidal Moon",
+   "friendlyDiameter": 307.5,
+   "modelScale": 10,
+   "barycenterName": "Eris",
+   "objectType": "AsteroidalMoon",
+   "effectToExplore": "Effect_ExploreKuiperBelt",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_km": 37273,
+   "eccentricity": 0.0062,
+   "inclination_Deg": 0,
+   "longAscendingNode_Deg": 126.17,
+   "argPeriapsis_Deg": 180.83,
+   "epoch_floatJYears": 2006.665753,
+   "dimensionX_km": 307.5,
+   "mass_kg": 82000000000000000000,
+   "density_gcm3": 0.7,
+   "rotationPeriod_strHours": "Lock",
+   "Hill Radius in km": 4393.59,
+   "Hill radius pass-fail": "4393.59",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 4,
+   "numAltModels": 0,
+   "orbits": [
+      "DysnomiaParkingOrbit"
+   ],
+   "habSites": [
+      "DysnomiaSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "136204Centaur",
    "friendlyName": "136204 Rhaecus",
    "designation": "136204 2003 WL7",
@@ -16018,6 +17104,97 @@
    ]
 },
  {
+   "dataName": "Gonggong",
+   "friendlyName": "Gonggong",
+   "designation": "255088 Gonggong",
+   "notes": "Scattered Disc Object",
+   "friendlyDiameter": 1230,
+   "modelResource": "planets/Gonggong",
+   "modelScale": 0.5,
+   "symbolTexture": "icons_2d/ICO_Gonggong",
+   "barycenterName": "Sol",
+   "objectType": "DwarfPlanet",
+   "effectToExplore": "Effect_ExploreKuiperBelt",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 67.485,
+   "eccentricity": 0.49943,
+   "inclination_Deg": 30.6273,
+   "longAscendingNode_Deg": 336.8573,
+   "argPeriapsis_Deg": 207.6675,
+   "meanAnomalyAtEpoch_Deg": 106.496,
+   "epoch_floatJYears": 2020.961749,
+   "meanRadius_km": 615,
+   "oblateness": 0.03,
+   "mass_kg": 1.75e+21,
+   "density_gcm3": 1.74,
+   "rotationPeriod_strHours": "22.4",
+   "tilt_Deg": 83,
+   "Hill Radius in km": 3357869.06,
+   "Hill radius pass-fail": "3357869.06",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 4,
+   "numAltModels": 0,
+   "orbits": [
+      "LowGonggongOrbit",
+      "HighGonggongOrbit"
+   ],
+   "habSites": [
+      "GonggongSite1",
+      "GonggongSite2",
+      "GonggongSite3",
+      "GonggongSite4"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "Xiangliu",
+   "friendlyName": "Xiangliu",
+   "designation": "Gonggong I",
+   "notes": "Asteroidal Moon",
+   "friendlyDiameter": 122,
+   "modelScale": 10,
+   "barycenterName": "Gonggong",
+   "objectType": "AsteroidalMoon",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_km": 24274,
+   "eccentricity": 0.2908,
+   "inclination_Deg": 0,
+   "longAscendingNode_Deg": 31.99,
+   "epoch_floatJYears": 2014.936986,
+   "dimensionX_km": 122,
+   "dimensionY_km": 101,
+   "dimensionZ_km": 90,
+   "oblateness": 0.13115,
+   "mass_kg": 719537000000000000,
+   "density_gcm3": 1.21,
+   "rotationPeriod_strHours": "Lock",
+   "fabricatedData": "Density, Oblateness",
+   "Hill Radius in km": 887.58,
+   "Hill radius pass-fail": "887.58",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 4,
+   "assumed size": 122.203882,
+   "abs mag H": 6.93,
+   "geo albedo a": 0.2,
+   "numAltModels": 0,
+   "orbits": [
+      "XiangliuParkingOrbit"
+   ],
+   "habSites": [
+      "XiangliuSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "278361KBO",
    "friendlyName": "Marduk",
    "designation": "268361 2007 JJ43",
@@ -16099,6 +17276,92 @@
    ],
    "habSites": [
       "281371CentaurSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "301842Asteroid",
+   "friendlyName": "301842 Avatea",
+   "designation": "1980 FG4",
+   "notes": "Mars-Crosser (C)",
+   "friendlyDiameter": 8.977,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.787205526,
+   "eccentricity": 0.4044517052,
+   "inclination_Deg": 30.01974028,
+   "longAscendingNode_Deg": 354.5806233,
+   "argPeriapsis_Deg": 94.51313141,
+   "meanAnomalyAtEpoch_Deg": 331.1704635,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 8.977,
+   "mass_kg": 643934000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "12.0245",
+   "fabricatedData": "Spectral Type, Rotation, Density, Name",
+   "Hill Radius in km": 1182.35,
+   "Hill radius pass-fail": "1182.35",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 7.764526881,
+   "abs mag H": 14.42,
+   "geo albedo a": 0.05,
+   "numAltModels": 0,
+   "orbits": [
+      "301842AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "301842AsteroidSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "301964Asteroid",
+   "friendlyName": "301964 Saggar",
+   "designation": "2000 EJ37",
+   "notes": "Mars-Crosser (C)",
+   "friendlyDiameter": 10.8,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 4.617269191,
+   "eccentricity": 0.7055370752,
+   "inclination_Deg": 10.07980453,
+   "longAscendingNode_Deg": 178.2151567,
+   "argPeriapsis_Deg": 115.7526215,
+   "meanAnomalyAtEpoch_Deg": 173.0612763,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 10.8,
+   "mass_kg": 1121290000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "19.34",
+   "fabricatedData": "Spectral Type, Rotation, Density, Name",
+   "Hill Radius in km": 1165.11,
+   "Hill radius pass-fail": "1165.11",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 3,
+   "assumed size": 9.165907173,
+   "abs mag H": 13.71,
+   "geo albedo a": 0.069,
+   "numAltModels": 0,
+   "orbits": [
+      "301964AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "301964AsteroidSite1"
    ],
    "altModels": [
       {},
@@ -16395,6 +17658,49 @@
    ],
    "habSites": [
       "385571OtreraSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "405058Asteroid",
+   "friendlyName": "405058 Bendis",
+   "designation": "2001 TX16",
+   "notes": "X, Mars-Crosser (M)",
+   "friendlyDiameter": 5.6,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 3.573299526,
+   "eccentricity": 0.6006,
+   "inclination_Deg": 0.6007509858,
+   "longAscendingNode_Deg": 69.30147889,
+   "argPeriapsis_Deg": 53.58228444,
+   "meanAnomalyAtEpoch_Deg": 186.5330941,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 5.6,
+   "mass_kg": 349419000000000,
+   "density_gcm3": 3.8,
+   "rotationPeriod_strHours": "4.8005",
+   "fabricatedData": "Spectral Type, Density, Name",
+   "Hill Radius in km": 829.16,
+   "Hill radius pass-fail": "829.16",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 4.156815153,
+   "abs mag H": 14.38,
+   "geo albedo a": 0.181,
+   "numAltModels": 0,
+   "orbits": [
+      "405058AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "405058AsteroidSite1"
    ],
    "altModels": [
       {},
@@ -16916,6 +18222,49 @@
    ]
 },
  {
+   "dataName": "514041Asteroid",
+   "friendlyName": "514041 Awilix",
+   "designation": "2014 MQ18",
+   "notes": "Amor (C)",
+   "friendlyDiameter": 5.272,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Asteroid",
+   "effectToExplore": "Effect_ExploreEarthLagrangePoints",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 2.900702852,
+   "eccentricity": 0.5986276901,
+   "inclination_Deg": 35.07231635,
+   "longAscendingNode_Deg": 347.2051654,
+   "argPeriapsis_Deg": 333.0772041,
+   "meanAnomalyAtEpoch_Deg": 84.57778735,
+   "epoch_floatJYears": 2025.890411,
+   "dimensionX_km": 5.272,
+   "mass_kg": 130429000000000,
+   "density_gcm3": 1.7,
+   "rotationPeriod_strHours": "34.212",
+   "fabricatedData": "Spectral Type, Rotation, Density, Name",
+   "Hill Radius in km": 487.03,
+   "Hill radius pass-fail": "487.03",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 2,
+   "assumed size": 5.122702535,
+   "abs mag H": 15.65,
+   "geo albedo a": 0.037,
+   "numAltModels": 0,
+   "orbits": [
+      "514041AsteroidParkingOrbit"
+   ],
+   "habSites": [
+      "514041AsteroidSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "523643Centaur",
    "friendlyName": "523643 Pisenor",
    "designation": "523643 2010 TY53",
@@ -17228,7 +18577,7 @@
 },
  {
    "dataName": "556416KBO",
-   "friendlyName": "556416 Chiminigagua",
+   "friendlyName": "556416 Nzambi",
    "designation": "556416 2014 OE394",
    "notes": "Cubewano",
    "friendlyDiameter": 364,
@@ -17459,7 +18808,7 @@
    "objectType": "DwarfPlanet",
    "effectToExplore": "Effect_ExploreKuiperBelt",
    "irradiatedMultiplier": 1,
-   "atmosphere": "None",
+   "atmosphere": "Trace",
    "semiMajorAxis_AU": 39.416,
    "eccentricity": 0.12713,
    "inclination_Deg": 13.281,
@@ -18628,6 +19977,46 @@
    ]
 },
  {
+   "dataName": "Kowal",
+   "friendlyName": "Kowal",
+   "designation": "99P/Kowal",
+   "notes": "2022, 2037 Perihelions",
+   "friendlyDiameter": 10.2,
+   "modelScale": 10,
+   "barycenterName": "Sol",
+   "objectType": "Comet",
+   "effectToExplore": "Effect_ExploreAsteroids",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 6.135175112,
+   "eccentricity": 0.2296848038,
+   "inclination_Deg": 4.337463322,
+   "longAscendingNode_Deg": 28.17946894,
+   "argPeriapsis_Deg": 174.1919145,
+   "meanAnomalyAtEpoch_Deg": 187.1904688,
+   "epoch_floatJYears": 2014.975342,
+   "dimensionX_km": 10.2,
+   "mass_kg": 333388000000000,
+   "density_gcm3": 0.6,
+   "rotationPeriod_strHours": "17.17",
+   "fabricatedData": "Density, Rotation",
+   "Hill Radius in km": 2703.07,
+   "Hill radius pass-fail": "2703.07",
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 3,
+   "numAltModels": 0,
+   "orbits": [
+      "KowalParkingOrbit"
+   ],
+   "habSites": [
+      "KowalSite1"
+   ],
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
    "dataName": "S2004S31",
    "friendlyName": "Amarok",
    "designation": "S/2004 S 31",
@@ -18867,46 +20256,6 @@
    ]
 },
  {
-   "dataName": "Kowal",
-   "friendlyName": "Kowal",
-   "designation": "99P/Kowal",
-   "notes": "2022, 2037 Perihelions",
-   "friendlyDiameter": 10.2,
-   "modelScale": 10,
-   "barycenterName": "Sol",
-   "objectType": "Comet",
-   "effectToExplore": "Effect_ExploreAsteroids",
-   "irradiatedMultiplier": 1,
-   "atmosphere": "None",
-   "semiMajorAxis_AU": 6.135175112,
-   "eccentricity": 0.2296848038,
-   "inclination_Deg": 4.337463322,
-   "longAscendingNode_Deg": 28.17946894,
-   "argPeriapsis_Deg": 174.1919145,
-   "meanAnomalyAtEpoch_Deg": 187.1904688,
-   "epoch_floatJYears": 2014.975342,
-   "dimensionX_km": 10.2,
-   "mass_kg": 333388000000000,
-   "density_gcm3": 0.6,
-   "rotationPeriod_strHours": "17.17",
-   "fabricatedData": "Density, Rotation",
-   "Hill Radius in km": 2703.07,
-   "Hill radius pass-fail": "2703.07",
-   "angularDiameterMultiplier": 1,
-   "maxHabSize": 3,
-   "numAltModels": 0,
-   "orbits": [
-      "KowalParkingOrbit"
-   ],
-   "habSites": [
-      "KowalSite1"
-   ],
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
    "dataName": "Cineos",
    "friendlyName": "Cineos",
    "designation": "167P/CINEOS",
@@ -18975,35 +20324,21 @@
    ]
 },
  {
-   "dataName": "Eris",
-   "friendlyName": "Eris",
-   "designation": "136199 Eris",
-   "notes": "Scattered Disc Object",
-   "friendlyDiameter": 2326,
-   "modelResource": "planets/Eris",
-   "modelScale": 0.5,
-   "symbolTexture": "icons_2d/ICO_Eris",
+   "dataName": "PonsWinnecke",
+   "friendlyName": "7P/Pons-Winnecke",
+   "notes": "Comet",
+   "friendlyDiameter": 5.2,
+   "modelScale": 10,
    "barycenterName": "Sol",
-   "objectType": "DwarfPlanet",
-   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "objectType": "Comet",
+   "effectToExplore": "Effect_ExploreAsteroids",
    "irradiatedMultiplier": 1,
    "atmosphere": "None",
-   "semiMajorAxis_AU": 67.684,
-   "eccentricity": 0.43607,
-   "inclination_Deg": 44.04,
-   "longAscendingNode_Deg": 35.951,
-   "argPeriapsis_Deg": 151.639,
-   "meanAnomalyAtEpoch_Deg": 205.989,
-   "epoch_floatJYears": 2020.415301,
-   "meanRadius_km": 1163,
-   "mass_kg": 1.638e+22,
-   "density_gcm3": 2.43,
-   "rotationPeriod_strHours": "15.786",
-   "tiltskew_Deg": 61.6,
-   "Hill Radius in km": 7995792.56,
-   "Hill radius pass-fail": "7995792.56",
+   "semiMajorAxis_AU": 3.419,
+   "eccentricity": 0.6376,
+   "dimensionX_km": 5.2,
    "angularDiameterMultiplier": 1,
-   "maxHabSize": 4,
+   "maxHabSize": 2,
    "numAltModels": 0,
    "altModels": [
       {},
@@ -19011,88 +20346,21 @@
    ]
 },
  {
-   "dataName": "Dysnomia",
-   "friendlyName": "Dysnomia",
-   "designation": "Eris I",
-   "notes": "TODO",
-   "friendlyDiameter": 615,
-   "barycenterName": "Eris",
-   "objectType": "PlanetaryMoon",
-   "effectToExplore": "Effect_ExploreOuterPlanets",
-   "irradiatedMultiplier": 1,
-   "atmosphere": "None",
-   "semiMajorAxis_km": 37273,
-   "eccentricity": 0.0062,
-   "inclination_Deg": 61.59,
-   "longAscendingNode_Deg": 126.17,
-   "argPeriapsis_Deg": 180.83,
-   "meanRadius_km": 307.5,
-   "mass_kg": 82000000000000000000,
-   "density_gcm3": 0.7,
-   "rotationPeriod_strHours": "Lock",
-   "Hill Radius in km": 4393.59,
-   "Hill radius pass-fail": "4393.59",
-   "angularDiameterMultiplier": 1,
-   "maxHabSize": 4,
-   "numAltModels": 0,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "Gonggong",
-   "friendlyName": "Gonggong",
-   "designation": "255088 Gonggong",
-   "notes": "Scattered Disc Object",
-   "friendlyDiameter": 1230,
-   "modelResource": "planets/Gonggong",
-   "modelScale": 0.5,
-   "symbolTexture": "icons_2d/ICO_Gonggong",
+   "dataName": "Lovas2",
+   "friendlyName": "184P/Lovas 2",
+   "notes": "Comet",
+   "friendlyDiameter": 6.2,
+   "modelScale": 10,
    "barycenterName": "Sol",
-   "objectType": "DwarfPlanet",
-   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "objectType": "Comet",
+   "effectToExplore": "Effect_ExploreAsteroids",
    "irradiatedMultiplier": 1,
    "atmosphere": "None",
-   "semiMajorAxis_AU": 67.485,
-   "eccentricity": 0.49943,
-   "inclination_Deg": 30.6273,
-   "longAscendingNode_Deg": 336.8573,
-   "argPeriapsis_Deg": 207.6675,
-   "meanAnomalyAtEpoch_Deg": 106.496,
-   "epoch_floatJYears": 2020.961749,
-   "meanRadius_km": 615,
-   "oblateness": 0.03,
-   "mass_kg": 1.75e+21,
-   "density_gcm3": 1.74,
-   "rotationPeriod_strHours": "22.4",
-   "Hill Radius in km": 3357869.06,
-   "Hill radius pass-fail": "3357869.06",
+   "semiMajorAxis_AU": 3.522,
+   "eccentricity": 0.6043,
+   "dimensionX_km": 6.2,
    "angularDiameterMultiplier": 1,
-   "maxHabSize": 4,
-   "numAltModels": 0,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "Xiangliu",
-   "friendlyName": "Xiangliu",
-   "designation": "Gonggong I",
-   "notes": "TODO",
-   "friendlyDiameter": 100,
-   "barycenterName": "Gonggong",
-   "objectType": "AsteroidalMoon",
-   "effectToExplore": "Effect_ExploreOuterPlanets",
-   "irradiatedMultiplier": 1,
-   "atmosphere": "None",
-   "semiMajorAxis_km": 24274,
-   "eccentricity": 0.2908,
-   "inclination_Deg": 83.01433333,
-   "longAscendingNode_Deg": 31.99,
-   "angularDiameterMultiplier": 1,
-   "maxHabSize": 1,
+   "maxHabSize": 2,
    "numAltModels": 0,
    "altModels": [
       {},
@@ -19139,8 +20407,9 @@
    "dataName": "Glkunllhomdima",
    "friendlyName": "Gǃkúnllʼhòmdímà",
    "designation": "299762 Gǃkúnllʼhòmdímà",
-   "notes": "Scattered Disc Object TODO",
+   "notes": "Scattered Disc Object",
    "friendlyDiameter": 638,
+   "modelScale": 0.5,
    "barycenterName": "Sol",
    "objectType": "DwarfPlanet",
    "effectToExplore": "Effect_ExploreOuterPlanets",
@@ -19160,8 +20429,8 @@
    "dataName": "Gloelhu",
    "friendlyName": "Gǃòʼé ǃHú",
    "designation": "Gǃkúnllʼhòmdímà I",
-   "notes": "TODO",
    "friendlyDiameter": 141,
+   "modelScale": 10,
    "barycenterName": "Sol",
    "objectType": "AsteroidalMoon",
    "effectToExplore": "Effect_ExploreOuterPlanets",
@@ -19182,6 +20451,7 @@
    "designation": "541132 2015 TG387",
    "notes": "Scattered Disc Object / Sednoid TODO",
    "friendlyDiameter": 220,
+   "modelScale": 10,
    "barycenterName": "Sol",
    "objectType": "Asteroid",
    "effectToExplore": "Effect_ExploreOuterPlanets",
@@ -19200,7 +20470,7 @@
    "dataName": "Planet9",
    "friendlyName": "Persephone",
    "designation": "Hypothesized",
-   "notes": "Planet 9 TODO",
+   "notes": "Planet 9",
    "friendlyDiameter": 38000,
    "modelResource": "planets/NeptuneModel",
    "modelScale": 10,
@@ -19233,13 +20503,38 @@
    ]
 },
  {
-   "dataName": "2018VG18TNO",
-   "designation": "2018 VG18",
-   "notes": "TODO",
-   "friendlyDiameter": 656,
+   "dataName": "15874TNO",
+   "designation": "(15874) 1996 TL66",
+   "notes": "Scattered Disc Object",
+   "friendlyDiameter": 339,
+   "modelScale": 0.5,
    "barycenterName": "Sol",
    "objectType": "DwarfPlanet",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
    "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 83.403,
+   "eccentricity": 0.57967,
+   "angularDiameterMultiplier": 1,
+   "maxHabSize": 1,
+   "numAltModels": 0,
+   "altModels": [
+      {},
+      {}
+   ]
+},
+ {
+   "dataName": "2018VG18TNO",
+   "friendlyName": "Farout",
+   "designation": "2018 VG18",
+   "notes": "Scattered Disc Object",
+   "friendlyDiameter": 656,
+   "modelScale": 0.5,
+   "barycenterName": "Sol",
+   "objectType": "DwarfPlanet",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
+   "irradiatedMultiplier": 1,
+   "atmosphere": "None",
    "semiMajorAxis_AU": 81.628,
    "angularDiameterMultiplier": 1,
    "maxHabSize": 1,
@@ -19251,12 +20546,16 @@
 },
  {
    "dataName": "2014UZ224TNO",
+   "friendlyName": "DeeDee",
    "designation": "2014 UZ224",
-   "notes": "TODO",
+   "notes": "Scattered Disc Object",
    "friendlyDiameter": 635,
+   "modelScale": 0.5,
    "barycenterName": "Sol",
    "objectType": "DwarfPlanet",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
    "irradiatedMultiplier": 1,
+   "atmosphere": "None",
    "semiMajorAxis_AU": 107.642,
    "angularDiameterMultiplier": 1,
    "maxHabSize": 1,
@@ -19268,12 +20567,16 @@
 },
  {
    "dataName": "2012VP113TNO",
+   "friendlyName": "Biden",
    "designation": "2012 VP113",
-   "notes": "TODO",
+   "notes": "Sednoid",
    "friendlyDiameter": 450,
+   "modelScale": 0.5,
    "barycenterName": "Sol",
    "objectType": "DwarfPlanet",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
    "irradiatedMultiplier": 1,
+   "atmosphere": "None",
    "semiMajorAxis_AU": 262.3,
    "angularDiameterMultiplier": 1,
    "maxHabSize": 1,
@@ -19286,11 +20589,14 @@
  {
    "dataName": "512381TNO",
    "designation": "(528381) 2008 ST291",
-   "notes": "TODO",
+   "notes": "Scattered Disc Object",
    "friendlyDiameter": 584,
+   "modelScale": 0.5,
    "barycenterName": "Sol",
    "objectType": "DwarfPlanet",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
    "irradiatedMultiplier": 1,
+   "atmosphere": "None",
    "semiMajorAxis_AU": 99.8742972,
    "eccentricity": 0.576353,
    "angularDiameterMultiplier": 1,
@@ -19304,11 +20610,14 @@
  {
    "dataName": "523794TNO",
    "designation": "(523794) 2015 RR245",
-   "notes": "TODO",
+   "notes": "Scattered Disc Object",
    "friendlyDiameter": 630,
+   "modelScale": 0.5,
    "barycenterName": "Sol",
    "objectType": "DwarfPlanet",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
    "irradiatedMultiplier": 1,
+   "atmosphere": "None",
    "semiMajorAxis_AU": 81.373,
    "angularDiameterMultiplier": 1,
    "maxHabSize": 1,
@@ -19319,515 +20628,30 @@
    ]
 },
  {
-   "dataName": "15874TNO",
-   "designation": "(15874) 1996 TL66",
-   "notes": "TODO",
-   "friendlyDiameter": 339,
-   "barycenterName": "Sol",
-   "objectType": "DwarfPlanet",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 83.403,
-   "eccentricity": 0.57967,
-   "angularDiameterMultiplier": 1,
-   "maxHabSize": 1,
-   "numAltModels": 0,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
    "dataName": "532037TNO",
-   "designation": "(532037) 2013 FY27",
+   "friendlyName": "Chiminigagua",
+   "designation": "(532037) 2013 FY27 Chiminigagua",
    "notes": "39th largest SS object?, SDO",
    "friendlyDiameter": 745,
+   "modelScale": 0.5,
    "barycenterName": "Sol",
-   "objectType": "Planet",
+   "objectType": "DwarfPlanet",
+   "effectToExplore": "Effect_ExploreOuterPlanets",
    "irradiatedMultiplier": 1,
+   "atmosphere": "None",
+   "semiMajorAxis_AU": 58.8402185,
+   "eccentricity": 0.3918464309,
+   "inclination_Deg": 33.14541705,
+   "longAscendingNode_Deg": 187.0309401,
+   "argPeriapsis_Deg": 139.4571559,
+   "meanAnomalyAtEpoch_Deg": 218.0716916,
+   "epoch_floatJYears": 2025.890411,
    "angularDiameterMultiplier": 1,
    "maxHabSize": 1,
+   "assumed size": 776.9186365,
+   "abs mag H": 3.09,
+   "geo albedo a": 0.17,
    "numAltModels": 0,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "1170Siva",
-   "friendlyName": "1170 Siva",
-   "designation": "1930 SQ",
-   "notes": "S, Mars-Crosser",
-   "friendlyDiameter": 10.37,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.3268,
-   "eccentricity": 0.2998,
-   "dimensionX_km": 10.37,
-   "rotationPeriod_strHours": "3.13637",
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "1580Betulia",
-   "friendlyName": "1580 Betulia",
-   "designation": "1950 KA",
-   "notes": "B or C, Amor, Mars Crosser",
-   "friendlyDiameter": 5.8,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.195,
-   "eccentricity": 0.4876,
-   "inclination_Deg": 52.19,
-   "longAscendingNode_Deg": 62.23,
-   "argPeriapsis_Deg": 159.73,
-   "meanAnomalyAtEpoch_Deg": 19.64,
-   "epoch_floatJYears": 2025.3424,
-   "dimensionX_km": 5.8,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "1917Cuyo",
-   "friendlyName": "1917 Cuyo",
-   "designation": "1968 AA",
-   "notes": "SI, Amor, Mars-Crosser",
-   "friendlyDiameter": 5.7,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.149,
-   "eccentricity": 0.5056,
-   "inclination_Deg": 23.96,
-   "longAscendingNode_Deg": 188.27,
-   "argPeriapsis_Deg": 194.56,
-   "meanAnomalyAtEpoch_Deg": 97.51,
-   "epoch_floatJYears": 2025.3424,
-   "dimensionX_km": 5.7,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "2099Opik",
-   "friendlyName": "2099 Opik",
-   "designation": "1977 VB",
-   "notes": "Ch / S, Mars-Crosser",
-   "friendlyDiameter": 5.12,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.304,
-   "eccentricity": 0.3605,
-   "dimensionX_km": 5.18,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "2335James",
-   "friendlyName": "2335 James",
-   "designation": "1974 UB",
-   "notes": "Sa",
-   "friendlyDiameter": 6.4,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.123,
-   "eccentricity": 0.3605,
-   "dimensionX_km": 6.367,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "3443Leetsungdao",
-   "friendlyName": "3443 Leetsungdao",
-   "designation": "1979 SB1",
-   "notes": "T",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "dimensionX_km": 8.852,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "3674Erbisbuhl",
-   "friendlyName": "3674 Erbisbuhl",
-   "designation": "1963 RH",
-   "notes": "Sk, Mars-Crosser",
-   "friendlyDiameter": 10.32,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.36,
-   "eccentricity": 0.3753,
-   "dimensionX_km": 9.068,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "3737Beckman",
-   "friendlyName": "3737 Beckman",
-   "designation": "1983 PA",
-   "notes": "S",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.407,
-   "eccentricity": 0.3963,
-   "dimensionX_km": 6.968,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "4222Nancita",
-   "friendlyName": "4222 Nancita",
-   "designation": "1988 EK1",
-   "notes": "S",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "dimensionX_km": 9.636,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "4558Janesick",
-   "friendlyName": "4558 Janesick",
-   "designation": "1988 NF",
-   "notes": "S",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.198,
-   "eccentricity": 0.3626,
-   "dimensionX_km": 7.326,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "5230Asahina",
-   "friendlyName": "5230 Asahina",
-   "designation": "1988 EF",
-   "notes": "S",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.398,
-   "eccentricity": 0.3753,
-   "dimensionX_km": 5.681,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "6500Kodaira",
-   "friendlyName": "6500 Kodaira",
-   "designation": "1993 ET",
-   "notes": "B",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "dimensionX_km": 9.487,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "7096Napier",
-   "friendlyName": "7096 Napier",
-   "designation": "1992 VM",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.776,
-   "eccentricity": 0.503,
-   "dimensionX_km": 5.59,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "7505Furusho",
-   "friendlyName": "7505 Furusho",
-   "designation": "1997 AM2",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "dimensionX_km": 9.07,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "8373Stephengould",
-   "friendlyName": "8373 Stephengould",
-   "designation": "1992 AB",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 3.278,
-   "eccentricity": 0.5553,
-   "dimensionX_km": 5.748,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "14222",
-   "friendlyName": "14222",
-   "designation": "1999 WS1",
-   "friendlyDiameter": 6.7,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 3.099,
-   "eccentricity": 0.5442,
-   "dimensionX_km": 6.688,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "25916",
-   "friendlyName": "25916",
-   "designation": "2001 CP44",
-   "notes": "Amor",
-   "friendlyDiameter": 5.683,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.558,
-   "eccentricity": 0.4995,
-   "inclination_Deg": 15.76,
-   "longAscendingNode_Deg": 94.64,
-   "argPeriapsis_Deg": 199.68,
-   "meanAnomalyAtEpoch_Deg": 234.38,
-   "epoch_floatJYears": 2025.3424,
-   "dimensionX_km": 5.683,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "26760",
-   "friendlyName": "26760",
-   "designation": "2001 KP41",
-   "friendlyDiameter": 5.41,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.854,
-   "eccentricity": 0.5571,
-   "inclination_Deg": 11.01,
-   "longAscendingNode_Deg": 146.25,
-   "argPeriapsis_Deg": 155.14,
-   "meanAnomalyAtEpoch_Deg": 330.1,
-   "epoch_floatJYears": 2025.3424,
-   "dimensionX_km": 5.4,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "52762",
-   "friendlyName": "52762",
-   "designation": "1998 MT24",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.416,
-   "eccentricity": 0.6531,
-   "inclination_Deg": 33.86,
-   "longAscendingNode_Deg": 308.94,
-   "argPeriapsis_Deg": 254.52,
-   "meanAnomalyAtEpoch_Deg": 81.69,
-   "epoch_floatJYears": 2025.3424,
-   "dimensionX_km": 6.742,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "88263",
-   "friendlyName": "88263",
-   "designation": "2001 KQ1",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.097,
-   "eccentricity": 0.4326,
-   "dimensionX_km": 5.748,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "89830",
-   "friendlyName": "89830",
-   "designation": "2002 CE",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.078,
-   "eccentricity": 0.507,
-   "inclination_Deg": 38.79,
-   "longAscendingNode_Deg": 232.82,
-   "argPeriapsis_Deg": 241.57,
-   "meanAnomalyAtEpoch_Deg": 24.78,
-   "epoch_floatJYears": 2025.3424,
-   "dimensionX_km": 5.067,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "97514",
-   "friendlyName": "97514",
-   "designation": "2000 DL1",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.017,
-   "eccentricity": 0.2721,
-   "inclination_Deg": 43.64,
-   "longAscendingNode_Deg": 19.89,
-   "argPeriapsis_Deg": 5.85,
-   "meanAnomalyAtEpoch_Deg": 319.07,
-   "epoch_floatJYears": 2025.3424,
-   "dimensionX_km": 8.987,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "101742",
-   "friendlyName": "101742",
-   "designation": "1999 FO7",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "dimensionX_km": 8.12,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "102528",
-   "friendlyName": "102528",
-   "designation": "1999 US3",
-   "notes": "Mars-Crosser",
-   "friendlyDiameter": 12.85,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.766,
-   "eccentricity": 0.5174,
-   "inclination_Deg": 28.92,
-   "longAscendingNode_Deg": 268.03,
-   "argPeriapsis_Deg": 182,
-   "meanAnomalyAtEpoch_Deg": 195.96,
-   "epoch_floatJYears": 2025.3424,
-   "dimensionX_km": 12.85,
-   "rotationPeriod_strHours": "4.682",
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "301842",
-   "friendlyName": "301842",
-   "designation": "1980 FG4",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "dimensionX_km": 8.977,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "301964",
-   "friendlyName": "301964",
-   "designation": "2000 EJ37",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 4.618,
-   "eccentricity": 0.7054,
-   "dimensionX_km": 10.8,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "405058",
-   "friendlyName": "405058",
-   "designation": "2001 TX16",
-   "notes": "X",
-   "friendlyDiameter": 5.6,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 3.574,
-   "eccentricity": 0.6006,
-   "dimensionX_km": 5.6,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "514041",
-   "friendlyName": "514041",
-   "designation": "2014 MQ18",
-   "notes": "Mars-Crosser",
-   "friendlyDiameter": 5.272,
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 2.9,
-   "eccentricity": 0.5987,
-   "inclination_Deg": 35.06,
-   "longAscendingNode_Deg": 347.26,
-   "argPeriapsis_Deg": 333.01,
-   "meanAnomalyAtEpoch_Deg": 44.69,
-   "epoch_floatJYears": 2025.3424,
-   "dimensionX_km": 5.272,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "PonsWinnecke",
-   "friendlyName": "7P/Pons-Winnecke",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 3.419,
-   "eccentricity": 0.6376,
-   "dimensionX_km": 5.2,
-   "altModels": [
-      {},
-      {}
-   ]
-},
- {
-   "dataName": "Lovas2",
-   "friendlyName": "184P/Lovas 2",
-   "barycenterName": "Sol",
-   "irradiatedMultiplier": 1,
-   "semiMajorAxis_AU": 3.522,
-   "eccentricity": 0.6043,
-   "dimensionX_km": 6.2,
    "altModels": [
       {},
       {}

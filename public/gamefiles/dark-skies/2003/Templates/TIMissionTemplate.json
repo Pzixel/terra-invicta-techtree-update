@@ -1,0 +1,164 @@
+[
+ {
+   "dataName": "AssumeControl",
+   "friendlyName": "Grant Alien Control",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 40,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_Human"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_AlienFacilityInNation"
+      },
+      {
+         "$type": "TIMissionCondition_HumanFactionsPermitControl"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_AssumeControl"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Nation"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Influence",
+      "value": 50
+   },
+   "knowledgeProject": "Project_TheirPurpose",
+   "missionIconImagePath": "councilor_missions/ICO_assumecontrol",
+   "targetingMethodType": "TIMissionTargeting_Nation"
+},
+ {
+   "dataName": "BuildFacility",
+   "friendlyName": "Build Facility",
+   "scenarioTags": [
+      "Millennium"
+   ],
+   "disable": false,
+   "baseMission": false,
+   "persistentEffect": false,
+   "noise": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "hate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+   ],
+   "specialPost": false,
+   "permanentAssignment": false,
+   "XPonSuccess": 1,
+   "sortOrder": 38,
+   "missionContext": "EarthOnly",
+   "utilityScore": 1,
+   "UIalertEnemyOnFail": false,
+   "AIDoubleUpAllowed": false,
+   "maximumTargetOptionCount": 20,
+   "resolutionOrder": 4,
+   "allowedForAutoDefense": false,
+   "resolutionMethod": {
+      "$type": "TIMissionResolution_Automatic",
+      "attackingModifiers": [],
+      "defendingModifiers": []
+   },
+   "attackerContexts": [
+      "None",
+      "None"
+   ],
+   "defenderContexts": [
+      "None"
+   ],
+   "conditions": [
+      {
+         "$type": "TIMissionCondition_TargetInRange"
+      },
+      {
+         "$type": "TIMissionCondition_CouncilorOnEarth"
+      },
+      {
+         "$type": "TIMissionCondition_CanConstructFacility"
+      }
+   ],
+   "movementRule": "MoveToTarget",
+   "targetEffects": [
+      {
+         "$type": "TIMissionEffect_BuildFacility"
+      }
+   ],
+   "councilorEffects": [],
+   "target": {
+      "$type": "TIMissionTarget_Region"
+   },
+   "cost": {
+      "$type": "TIMissionCost_Flat",
+      "resourceType": "Money",
+      "value": 200
+   },
+   "knowledgeProject": "Project_TheirPurpose",
+   "missionIconImagePath": "councilor_missions/ICO_buildfacility",
+   "targetingMethodType": "TIMissionTargeting_Region"
+}
+]

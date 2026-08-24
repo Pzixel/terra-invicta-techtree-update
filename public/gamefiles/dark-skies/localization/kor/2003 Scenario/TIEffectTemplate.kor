@@ -1,0 +1,84 @@
+
+// Dark Skies DLC
+
+Context.displayName.MaterialScience=재료 과학
+Context.displayName.SpaceScience=우주 과학
+Context.displayName.EnergyScience=에너지 과학
+Context.displayName.LifeScience=생명 과학
+Context.displayName.MilitaryScience=군사 과학
+Context.displayName.InformationScience=정보 과학
+Context.displayName.SocialScience=사회 과학
+Context.displayName.Xenology=외계학
+Context.displayName.PublicOpinionInfluence=국제 여론의 영향력
+Context.displayName.SemiMajorAxisExplorationRange_AU=궤도 기반 탐사 범위
+Context.displayName.PublicizedAlienThreat=외계인의 위협을 공개적으로 알림
+Context.displayName.AugmentationMoneyCost=강화의 비용
+Context.displayName.HabConstructionSpeed=거주지 건설 속도
+Context.displayName.MineSizeModifier=우주 광산 규모
+
+Context.displayName.DemocracyBackslides=민주주의 후퇴
+TIEffectTemplate.description.Effect_BS_DemocracyBackslides1=-민주주의 제도 손상
+
+TIEffectTemplate.description.Effect_BS_CPMaintenanceBonus_MakingHistoryA=-통제 지점 관리 용량을 {19} 늘립니다.다른 "역사 만들기" 프로젝트와 중첩되지 않습니다.  
+TIEffectTemplate.description.Effect_BS_InfluenceRepair=-국제 여론의 영향력을 {3} 높입니다
+TIEffectTemplate.description.Effect_BS_MaterialScienceBonusA=-우리 재료 과학 연구를 {3} 증진합니다
+TIEffectTemplate.description.Effect_BS_SpaceScienceBonusA=-우리 우주 과학 연구를 {3} 증진합니다
+TIEffectTemplate.description.Effect_BS_SpaceScience5=-우리 우주 과학 연구를 {3} 증진합니다
+TIEffectTemplate.description.Effect_BS_EnergyScienceBonusA=-우리 에너지 연구를 {3} 증진합니다
+TIEffectTemplate.description.Effect_BS_LifeScienceBonusA=-우리 생명 과학 연구를 {3} 증진합니다
+TIEffectTemplate.description.Effect_BS_MilitaryScienceBonusA=-우리 군사 과학 연구를 {3} 증진합니다
+TIEffectTemplate.description.Effect_BS_InformationScienceBonusA=-우리 정보 과학 연구를 {3} 증진합니다
+TIEffectTemplate.description.Effect_BS_SocialScienceBonusA=-우리 사회 과학 연구를 {3} 증진합니다
+TIEffectTemplate.description.Effect_BS_XenologyBonusA=-우리 외계학 연구를 {3} 증진합니다
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimeRepair=-아군 함선 건조 속도를 {3} 높입니다
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationI=-궤도 기반 탐사 범위를 {0}AU 높입니다
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationII=-궤도 기반 탐사 범위를 {0}AU 높입니다
+TIEffectTemplate.description.Effect_BS_SemiMajorAxisExplorationIII=-궤도 기반 탐사 범위 제한을 없앱니다
+TIEffectTemplate.description.Effect_BS_GraySky=-모든 진영이 화성까지의 외계 함선과 구조물을 추적할 수 있게 됩니다
+TIEffectTemplate.description.Effect_BS_AugmentationMoneyCostReduction=-우리 의원의 강화 비용이 {4} 덜 듭니다
+TIEffectTemplate.description.Effect_BS_PublicizeAlienThreat=-외계인의 침략을 앞당길 수 있습니다
+TIEffectTemplate.description.Effect_BS_AlienAwareness=-일반 대중 사이에 외계인에 대한 정보가 확산됩니다
+TIEffectTemplate.description.Effect_BS_DiscoverAlienInvasion=-지구에 대한 외계인의 계획이 드러납니다
+
+TIEffectTemplate.description.Effect_BS_CPResearchPenalty=-아군 통제 지점으로부터 연구가 {4} 감소합니다
+TIEffectTemplate.description.Effect_BS_CPMaintenancePenalty=-통제 지점 관리 용량이 {0} 감소합니다
+TIEffectTemplate.description.Effect_BS_SustainabilityPenalty=-환경 우선순위에 할당된 국가 투자 포인트가 {25} 감소합니다.
+TIEffectTemplate.description.Effect_BS_MCPenalty=-임무 관제 역량 우선순위에 할당된 국가 투자 포인트가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_BoostPenalty=-부스트 우선순위에 할당된 국가 투자 포인트가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_InfluencePenalty=-국제 여론의 영향력이 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_MaterialSciencePenalty=-우리 재료 과학 연구가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_SpaceSciencePenalty=-우리 우주 과학 연구가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_EnergySciencePenalty=-우리 에너지 연구가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_LifeSciencePenalty=-우리 생명 과학 연구가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_MilitarySciencePenalty=-우리 군사 과학 연구가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_InformationSciencePenalty=-우리 정보 과학 연구가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_SocialSciencePenalty=-우리 사회 과학 연구가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_XenologyPenalty=-우리 외계학 연구가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_ShipConstructionTimePenalty=-아군 함선 건조 속도가 {27} 감소합니다
+TIEffectTemplate.description.Effect_BS_SpaceMiningPenalty=-지구의 채광 산출량이 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_BlackSky=-진영이 지구 인근의 외계 우주선과 구조물을 추적할 수 있습니다
+
+TIEffectTemplate.description.Effect_BS_InvestigationPenalty=-모집 풀에 있는 모든 의원 후보의 조사 능력이 {0} 낮은 상태로 시작합니다
+
+// These have had their wording adjusted:
+TIEffectTemplate.description.Effect_BS_BoostPenaltyEventTemp=-부스트 우선순위에 할당된 국가 투자 포인트가 {7}개월 동안 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEvent=-우주비행 프로그램 우선순위에 할당된 국가 투자 포인트가 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_SpaceProgramPenaltyEventTemp=-우주비행 프로그램 우선순위에 할당된 국가 투자 포인트가 {7}개월 동안 {25} 감소합니다
+
+TIEffectTemplate.description.Effect_BS_GovernmentPenaltyEventTemp=-모든 국가의 정부 우선순위에 할당된 투자 포인트가 {7}개월간 {25} 감소합니다
+TIEffectTemplate.description.Effect_BS_MilitaryBonusEventSmallGlobal=-모든 국가의 군사 우선순위에 할당된 투자 포인트가 {3} 증가합니다
+TIEffectTemplate.description.Effect_BS_DefendAllOwnedControlPoints=-소유한 모든 {5}개의 통제 지점이 {7}개월 동안 방어됩니다
+
+TIEffectTemplate.description.Effect_BS_NationRemoveAbductions1=-{5}에서 납치 {0}건이 제거되었습니다
+
+TIEffectTemplate.description.Effect_BS_GlobalExcessMiltechReduction=-군사 기술이 {13} 초과인 모든 국가는 초과분의 {3}만큼 잃게 됩니다
+
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedPenalty=-아군 주거지 건설 속도가 {4} 감소합니다
+TIEffectTemplate.description.Effect_BS_HabConstructionSpeedRepair=-아군 주거지 건설 속도를 {3} 높입니다
+TIEffectTemplate.description.Effect_BS_MineSizeReduction=-아군 우주 광산의 규모가 {4} 감소합니다
+TIEffectTemplate.description.Effect_BS_MineSizeNormalization=-우주 광산의 규모가 {3} 증가합니다
+
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeReduction=-아군의 자동화 우주 광산의 규모가 {4} 감소합니다
+TIEffectTemplate.description.Effect_BS_AutomatedMineSizeNormalization=-자동화 우주 광산의 규모가 {3} 증가합니다
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeReduction=-아군의 자동화 전초기지의 규모가 {4} 감소합니다.
+TIEffectTemplate.description.Effect_BS_AutomatedOutpostSizeNormalization=-자동화 전초기지의 규모가 {3} 증가합니다.

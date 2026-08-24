@@ -369,7 +369,7 @@ HabModuleSpecialRule.RepairsHabKitShipModules=-This module, in conjunction with 
 HabModuleSpecialRule.StaticHab=<skip/>
 HabModuleSpecialRule.FleetTargeting=-Grants +{1} to targeting rolls to overcome ECM; for station modules this applies to all defending ships.
 HabModuleSpecialRule.FleetECM=-Grants +{1} ECM value; for station modules this applies to all defending ships.
-HabModuleSpecialRule.SolarMirror=-Grants +{0}<color=#FFFFFFFF><sprite name=hab_power></color> production to all solar power modules, multiplied by solar module tier, for faction bases on the space body it orbits.<br/>-Bonus also applies on a moon if the module is the L-1, L-4, or L-5 points between the moon and its parent planet.<br/>-If placed in the L-1 point between a planet and the sun, the bonus applies to all bases in the planetary system.<br/>-Mass increases based on distance from the Sun<br/>-Solar panels may produce a maximum of {4}x their baseline maximum power value
+HabModuleSpecialRule.SolarMirror=-Grants +{0}<color=#FFFFFFFF><sprite name=hab_power></color> production to all solar power modules, multiplied by solar module tier, for faction bases on the space body it orbits.<br/>-Bonus also applies on a moon if the module is in the L-1, L-4, or L-5 points between the moon and its parent planet.<br/>-If placed in the L-1 point between a planet and the sun, the bonus applies to all bases in the planetary system.<br/>-Mass increases based on distance from the Sun<br/>-Solar panels may produce a maximum of {4}x their baseline maximum power value
 
 TIHabModuleTemplate.OnePerHab=A hab may only have one of this type of module.
 TIHabModuleTemplate.BaseOnly=This module may only be built on surface bases and not stations.

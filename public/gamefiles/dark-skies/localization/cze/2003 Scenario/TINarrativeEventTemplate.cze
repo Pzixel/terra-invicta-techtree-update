@@ -1,0 +1,259 @@
+
+// Dark Skies DLC
+
+TINarrativeEventTemplate.displayName.event_AlienAwareness=Povědomí veřejnosti o mimozemšťanech
+TINarrativeEventTemplate.event_AlienAwareness.summary=Už nemůžeme popírat, že se na našem světě nacházejí mimozemšťané  a jsou zde aktivní.
+TINarrativeEventTemplate.event_AlienAwareness.query=Veřejnosti po celém světě se dostaly do rukou nezvratné důkazy o přítomnosti mimozemšťanů v naší sluneční soustavě, ať už v podobě četných výpovědí nezávislých svědků, ověřených videozáznamů či dokonce autentizovaných fyzických artefaktů.<br/><br/>Netřeba dodávat, že to pro širokou veřejnost znamenalo obrovský šok. Reakce se značně lišily, přičemž občané pociťovali stejnou měrou strach i naději. Někteří jsou i rozhořčeni – nikoli na samotné mimozemšťany, ale na své vlády, které o tom všem jistě již dávno věděly a snažily se to před veřejností utajit.<br/><br/>Uprostřed toho všeho se však možná objevil jeden okamžitý pozitivní efekt. Prokázaná existence mimozemšťanů zřejmě pomohla soustředit pozornost dnešní generace. Přijímací kanceláře a náboráři hlásí prudký nárůst zájmu o přírodní vědy a vojenské obory; někteří z našich agentů byli dokonce soukromě osloveni talentovanými jednotlivci s dobrými konexemi, kteří chtějí něco změnit.
+TINarrativeEventTemplate.event_AlienAwareness.option0=Lidstvo se probudilo – k lepšímu, či k horšímu.
+TINarrativeEventTemplate.event_AlienAwareness.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_AlienAwareness.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_AlienCyberattack=Mimozemský kyberútok
+TINarrativeEventTemplate.event_2003_AlienCyberattack.summary=Všechny vyspělé armády světa hlásí rozsáhlé poruchy vybavení.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.query=Zdá se, že mimozemšťané vypustili vysoce sofistikovaný škodlivý software do komunikačních a logistických systémů, které používají ozbrojené síly a dodavatelé v obranném průmyslu po celém světě. Ačkoli se naši odborníci stále snaží rozluštit těch několik fragmentů kódu, které se jim podařilo získat, domníváme se, že k tomu došlo někdy po založení země {secondaryTargetNationNameWithArticle}, nepochybně s pomocí tamějších spolupracovníků.
+TINarrativeEventTemplate.event_2003_AlienCyberattack.option0=Nespoléháme se při naší obraně až příliš na technologie?
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienCyberattack.optionResult0={summary}
+
+//// ALT-HISTORY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_MissionAccomplished=Mise splněna
+TINarrativeEventTemplate.event_2003_MissionAccomplished.summary=Prezident Spojených států dnes oznámil ukončení hlavních bojových operací v Iráku.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.query=Po velkolepém vstupu, jehož součástí bylo záchytné přistání stíhačky amerického námořnictva na palubě letadlové lodi, americký prezident dále uvedl, že ačkoli je ještě třeba vykonat mnoho náročné práce, Spojené státy a jejich spojenci zvítězili v boji proti bývalé irácké diktatuře.<br/><br/>Tato triumfální ukázka vojenské síly představuje zlomový bod ve válce proti terorismu a slouží k opětovnému zdůraznění americké dominance na celém světě. Na druhou stranu kritici rychle poukázali na to, že válka v Iráku byla nedostatečně odůvodněná a pravděpodobně destabilizuje širší region a že celý projev amerického prezidenta byl zbytečně teatrálním a nákladným divadlem.
+TINarrativeEventTemplate.event_2003_MissionAccomplished.option0=Teď, když jsou tu mimozemšťané, je tohle opravdu tak důležité?
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_MissionAccomplished.optionResult0={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_ColumbiaDisaster=Katastrofa raketoplánu Columbia
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.summary=1. února 2003 se při návratu do atmosféry nad Texasem a Louisianou rozpadl raketoplán <i>Columbia</i>, přičemž zahynulo všech sedm členů posádky na palubě.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.query=To, co se zpočátku jevilo jako běžná, byť tragická nehoda, začalo vzbuzovat stále větší kontroverze poté, co se o pouhý měsíc později objevil záhadný vesmírný objekt. Zatímco oficiální vyšetřování stále probíhá, již nyní se objevují stále složitější konspirační teorie, které tyto dvě události spojují. Někteří se z bezpečnostních důvodů zasazují o omezení programů pilotovaných vesmírných letů; jiní se domnívají, že právě nyní je ten správný čas prosadit reformy a zdvojnásobit úsilí.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option0=Máme důležitější problémy, které se nás bezprostředně týkají.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult0={targetFactionNameCap} souhlasí s omezením podpory programů pilotovaných vesmírných letů.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option1=Teď není čas na strach!
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult1={targetFactionNameCap} souhlasí s navýšením podpory programů pilotovaných vesmírných letů.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.option2=Přesně, jak bylo v plánu.
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ColumbiaDisaster.optionResult2={targetFactionNameCap} souhlasí s omezením podpory programů pilotovaných vesmírných letů.
+
+TINarrativeEventTemplate.displayName.event_2003_AlienTacSim=Vydání taktického simulátoru mimozemské invaze
+TINarrativeEventTemplate.event_2003_AlienTacSim.summary=Renomované studio právě vydalo novou videohru o invazi mimozemšťanů.
+TINarrativeEventTemplate.event_2003_AlienTacSim.query=Hráč velí elitní nadnárodní polovojenské organizaci a v boji proti mimozemšťanům střídá globální strategické plánování s tahovými taktickými souboji. Ačkoli je tato hra sama o sobě novou verzí mnohem starší hry se stejným názvem a žánrem a její vývoj již trvá mnoho let, nelze si nevšimnout, že načasování jejího vydání je vzhledem k nejnovějším událostem po celém světě až podezřele náhodné.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0=Musí to být znamení doby.
+TINarrativeEventTemplate.event_2003_AlienTacSim.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0=Megahit.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Summary=Nová videohra o mimozemské invazi se stala obrovským hitem.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome0.Detail=Možná právě díky tomuto příhodnému načasování se hra stala obrovským hitem na celosvětovém trhu. Hráči chválili napínavé rozplétání logických hádanek v rámci bojového systému, zatímco recenzenti hře přisuzovali zásluhu za oživení žánru, který v posledních letech stagnoval. Už se dokonce hovoří o ambiciózním modu, který by hru prodloužil a udělal ji ještě komplexnější.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1=Propadák.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Summary=Nová videohra o mimozemské invazi se stala obrovským propadákem.
+TINarrativeEventTemplate.event_2003_AlienTacSim.option0.outcome1.Detail=Možná právě kvůli tomuto nevhodnému načasování se hře nepodařilo na světovém trhu výrazně prosadit. Hráči i recenzenti ji kritizovali za nemilosrdnou obtížnost, neohrabané uživatelské rozhraní a strohý – a navíc necitlivý – děj.
+
+TINarrativeEventTemplate.displayName.event_2003_DemocraticBacksliding=Ústup od demokracie
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.summary=Úpadek demokracie hrozbou {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.query=Populističtí politici si získávají stále širší publikum tím, že ostře kritizují elitářské instituce a obviňují přistěhovalce a marginalizované skupiny ze zhoršování ekonomické situace a rozmělňování hodnot země {targetNationAdjective}. Sociální sítě, kdysi oslavované jako nástroj pro navazování kontaktů a vzdělávání, jsou dnes zaplaveny přívalem dezinformací a polopravd, které využívají algoritmy navržené tak, aby maximalizovaly zapojení uživatelů prostřednictvím pobuřování. Nedávné reformy soustředily moc do rukou výkonné moci a podkopaly zásady nezávislosti soudnictví.<br/><br/>To vše je samozřejmě znepokojivé, ale některé hlasy v naší frakci naznačují, že by to mohlo hrát v náš prospěch, protože nám to umožní v zemi {targetNationNameWithArticle} dále upevnit naši pozici.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option0=Milujeme demokracii, že ano?
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option1=Rozvířit rétoriku namířenou proti vnějším silám ohrožujícím zemi {targetNationNameWithArticle}.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult1=Politici v zemi {targetNationAdjective} rozvířili rétoriku namířenou proti vnějším silám.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option2=Zastavit šíření falešných zpráv.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult2=Země {targetNationNameWithArticleCap} přistoupila k tvrdým opatřením proti šíření falešných zpráv.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.option3=Poskytnout podporu s cílem posílení občanské společnosti.
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_DemocraticBacksliding.optionResult3=Země {targetNationNameWithArticleCap} poskytla podporu občanské společnosti.
+
+TINarrativeEventTemplate.displayName.event_2003_RisingAuthoritarianism=Vzestup autoritářství
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.summary=V demokraciích po celém světě se začíná projevovat znepokojivý trend.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.query=Na přelomu tisíciletí se po celém světě přehnala vlna demokracie. S pádem tolika bývalých autokratických režimů se rodila naděje, že pro lidstvo nastala nová éra svobody.<br/><br/>Bohužel se od té doby ukázalo, že mnoho z těchto nově vzniklých demokracií bylo vystavěno na slabých institucionálních základech, což je činilo zranitelnými vůči zvolení autoritářských vůdců a stran, kteří následně ty stejné instituce, díky nimž se dostali k moci, sami rozložili. Mezi pravděpodobné příčiny se řadí rostoucí nerovnost a nezaměstnanost, odpor vůči společenským a ekonomickým změnám a spirála úpadku volební politiky. Tomuto trendu však neunikly ani demokracie s delší a pevnější tradicí.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.option0=Svobodu nelze brát jako samozřejmost.
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_RisingAuthoritarianism.optionResult0={summary}
+
+//// ALIEN MYSTERY EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_PublicSpeculation=Veřejné spekulace
+TINarrativeEventTemplate.event_2003_PublicSpeculation.summary=Nedostatek ověřitelných informací o záhadné návštěvě z vesmíru, a to i tolik měsíců potom, co k ní došlo, vyvolává v zemi {targetNationAdjective} mezi veřejností vlnu bujných spekulací.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.query=Většina těchto spekulací je zcela nepodložená; střídavě se v nich obviňuje vláda země {targetNationAdjective} i nadnárodní elity z utajování vlastních provinění, z toho, že incident samy zinscenovaly, aby odvedly pozornost od jiných problémů, či z tajné spolupráce s mimozemskými útočníky za účelem podrobení si země {targetNationNameWithArticle}. Situace nicméně nabývá takových rozměrů, že státní představitelé země {targetNationAdjective} cítí nutnost na ni reagovat.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option0=Ať si spekulují.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult0=Nedostatek informací o návštěvě z vesmíru vyvolává v zemi {targetNationAdjective} mezi veřejností bujné spekulace.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option1=Cenzurovat veškerou diskusi na toto téma.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult1=Nedostatek informací o návštěvě z vesmíru vyvolává v zemi {targetNationAdjective} mezi veřejností bujné spekulace.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option2=Uklidnit veřejnost zveřejněním toho mála, co víme.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult2=Nedostatek informací o návštěvě z vesmíru vyvolává v zemi {targetNationAdjective} mezi veřejností bujné spekulace.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.option3=Rozvířit debatu našimi vlastními teoriemi.
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_PublicSpeculation.optionResult3=Nedostatek informací o návštěvě z vesmíru vyvolává v zemi {targetNationAdjective} mezi veřejností bujné spekulace.
+
+TINarrativeEventTemplate.displayName.event_2003_ExecutiveDysfunction=Problémy v exekutivě
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.summary=Výkonná moc země {targetNationAdjective} není schopna dosáhnout jednoznačné shody ohledně mimozemšťanů.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.query=Navzdory vlivu naší frakce na klíčové členy vlády země {targetNationAdjective} je kvůli nezbytnému utajení našich operací a předpokládanému příchodu mimozemšťanů obtížné přesvědčivě obhájit náš postoj. V důsledku toho mnozí členové vlády považují existenci mimozemšťanů na Zemi za podvod a domnívají se, že existuje mnohem více pozemských problémů, které si zaslouží jejich pozornost, jako je například kvalita školních obědů.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option0=Ať se hádají mezi sebou.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option1=Ať si skeptici užijí svou chvilku slávy.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail1=Koneckonců každý ví, jak důležité je dobře se naobědvat.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult1=Vláda země {targetNationAdjective} se rozhodla upřednostnit kvalitu školních obědů.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.option2=Usilovat o ráznější reakci.
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_ExecutiveDysfunction.optionResult2=Vláda země {targetNationAdjective} se rozhodla k ráznější reakci vůči mimozemšťanům.
+
+TINarrativeEventTemplate.displayName.event_2003_StrangeLights=Podivná světla
+TINarrativeEventTemplate.event_2003_StrangeLights.summary=Sociální sítě zaplavily fotografie, které v zemi {targetNationNameWithArticle} údajně zachycují jasná světla na obloze.
+TINarrativeEventTemplate.event_2003_StrangeLights.query=Názory uživatelů se samozřejmě liší v tom, zda se u těchto světel jedná o přírodní jev, o jev způsobený člověkem, či o jev způsobený mimozemšťany – nebo zda jsou takové snímky vůbec skutečné.
+TINarrativeEventTemplate.event_2003_StrangeLights.option0=Je to jen bažinný plyn.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult0=Země {targetNationNameWithArticleCap} tvrdí, že světla na obloze jsou způsobena bažinným plynem.
+TINarrativeEventTemplate.event_2003_StrangeLights.option1=Vyslat vědeckou skupinu, aby tyto jevy oficiálně prošetřila.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult1=Země {targetNationNameWithArticleCap} vyslala vědeckou skupinu, která má za úkol odhalit původ záhadných světel na obloze.
+TINarrativeEventTemplate.event_2003_StrangeLights.option2=Vyslat stíhací letouny, aby hlídkovaly na obloze a demonstrovaly sílu.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult2=Země {targetNationNameWithArticleCap} vyslala stíhačky, které mají zjevování jasných světel na obloze učinit přítrž.
+TINarrativeEventTemplate.event_2003_StrangeLights.option3=Vyzvat podporovatele, aby trávili více času venku a kochali se těmi krásnými světly.
+TINarrativeEventTemplate.event_2003_StrangeLights.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_StrangeLights.optionResult3=Frakce {targetFactionNameCap} vyzvala své podporovatele, aby trávili víc času venku.
+
+TINarrativeEventTemplate.displayName.event_2003_LethargicTroops=Netečné jednotky
+TINarrativeEventTemplate.event_2003_LethargicTroops.summary=Morálka ozbrojených sil země {targetNationAdjective} je na historickém minimu.
+TINarrativeEventTemplate.event_2003_LethargicTroops.query=Důstojníci všech složek hlásí alarmující nárůst absencí, striktního dodržování pouze nejnutnějších pokynů a předpisů a celkového nedostatku osobního zaujetí při plnění služebních povinností. Rozsah problému je takový, že ani hrozby přísných disciplinárních opatření nemají téměř žádný účinek. Při dotazování se vojáci zdráhají uvést konkrétní důvody, kromě obecného přesvědčení, že bojovat nemá smysl.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option0=Kam se poděla touha sloužit své zemi?
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_LethargicTroops.option1=Zvýšit rozpočet na vybavení vojáků.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult1=Země {targetNationNameWithArticleCap} navýšila rozpočet na vybavení vojáků.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option2=Zbavit se největších potížistů a vyslat jasný vzkaz ostatním.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionResult2=Země {targetNationNameWithArticleCap} vyloučila z ozbrojených sil osoby působící potíže.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3=Prošetřit možné známky mimozemské infiltrace.
+TINarrativeEventTemplate.event_2003_LethargicTroops.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0=Úspěch.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Summary=Země {targetNationNameWithArticleCap} odhalila ve svých ozbrojených silách známky mimozemského vlivu.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome0.Detail=Podařilo se nám odhalit známky mimozemského vlivu v našich řadách! Nejenže se díky tomu morálka vrátila na původní úroveň, ale ozbrojené síly země {targetNationAdjective} jsou nyní také lépe připraveny čelit mimozemské hrozbě v budoucnu.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Summary=Země {targetNationNameWithArticleCap} obvinila z nízké morálky svých ozbrojených sil mimozemšťany.
+TINarrativeEventTemplate.event_2003_LethargicTroops.option3.outcome1.Detail=Obvinění z mimozemského vlivu se minula účinkem a nakonec ještě více prohloubila nelibost vojáků.
+
+
+
+
+//// SERVANTS EVENTS
+
+TINarrativeEventTemplate.displayName.event_2003_CultofEquality=Kult rovnosti
+TINarrativeEventTemplate.event_2003_CultofEquality.summary=Nové náboženské hnutí nabírá na síle {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofEquality.query=Náboráři a kazatelé systematicky obcházejí pracoviště, školy a komunitní centra, přičemž jejich poselství u posluchačů nachází hluboký ohlas. V každé skupině přátel se najde alespoň jeden člen, který zná někoho z tohoto hnutí. Demonstranti a aktivisté spojení s tímto hnutím se již objevují v ulicích města {targetRegionName} i dalších a při svých akcích projevují neobvyklou míru koordinace a soudržnosti. <br/><br/>Jejich poselství zní: Všichni lidé se rodí rovni, a proto musí žít stejně jako jejich bližní. Nesoulad vzniká, když někteří jedinci mají mnohem více hmotného majetku než ostatní. Je na čase, aby ti, kdo hromadí bohatství, ho vrátili lidské společnosti.
+TINarrativeEventTemplate.event_2003_CultofEquality.option0=Nechme je pobíhat a protestovat.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofEquality.option1=Nařídit kroky směřující k rovnosti.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult1={actorNameWithArticleCap} dělá ústupky novému náboženskému hnutí.
+TINarrativeEventTemplate.event_2003_CultofEquality.option2=Zakročme proti jejich podvratné činnosti.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.optionResult2={actorNameWithArticleCap} zasahuje proti novému náboženskému hnutí.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3=Prošetříme možné známky mimozemské infiltrace.
+TINarrativeEventTemplate.event_2003_CultofEquality.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0=Úspěch.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Summary={actorNameWithArticleCap} odhaluje vliv mimozemšťanů v novém náboženském hnutí.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome0.Detail=Podařilo se nám odhalit známky mimozemského vlivu v tomto hnutí! To hnutí značně zdiskreditovalo a většina jeho bývalých členů se bez dalšího povyku rozprchla.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Summary={actorNameWithArticleCap} selhává v odhalení vlivu mimozemšťanů v novém náboženském hnutí.
+TINarrativeEventTemplate.event_2003_CultofEquality.option3.outcome1.Detail=Obvinění z mimozemského vlivu se obrátila proti jejich autorům a jen dále zesílila společenskou nevraživost. Jestliže je touha po rovnosti něco mimozemského, pak ať jsou tedy mimozemšťané.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofUnity=Kult jednoty
+TINarrativeEventTemplate.event_2003_CultofUnity.summary=Nové náboženské hnutí nabírá na síle {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofUnity.query=Náboráři a kazatelé systematicky obcházejí pracoviště, školy a komunitní centra, přičemž jejich poselství u posluchačů nachází hluboký ohlas. V každé skupině přátel se najde alespoň jeden člen, který zná někoho z tohoto hnutí. Demonstranti a aktivisté spojení s tímto hnutím se již objevují v ulicích města {targetRegionName} i dalších a při svých akcích projevují neobvyklou míru koordinace a soudržnosti. <br/><br/>Jejich poselství zní: I uprostřed nepřízní tohoto světa a starostí každodenního života musíte vždy pamatovat na lásku k bližnímu. Teprve pak budete schopni milovat sami sebe.
+TINarrativeEventTemplate.event_2003_CultofUnity.option0=Přesně to pro nás chtějí naši spasitelé.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofUnity.option1=Naši spasitelé s námi mají větší plány.
+TINarrativeEventTemplate.event_2003_CultofUnity.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofUnity.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofPeace=Kult míru
+TINarrativeEventTemplate.event_2003_CultofPeace.summary=Nové náboženské hnutí nabírá na síle {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofPeace.query=Náboráři a kazatelé systematicky obcházejí pracoviště, školy a komunitní centra, přičemž jejich poselství u posluchačů nachází hluboký ohlas. V každé skupině přátel se najde alespoň jeden člen, který zná někoho z tohoto hnutí. Demonstranti a aktivisté spojení s tímto hnutím se již objevují v ulicích města {targetRegionName} i dalších a při svých akcích projevují neobvyklou míru koordinace a soudržnosti. Jejich poselství zní: Rostoucí militarismus ve světě povede pouze k bolesti a utrpení.<br/> se svým vojensko-průmyslovým komplexem a expedičními schopnostmi, které jsou špičkou na světě, nese za tuto situaci větší odpovědnost než většina ostatních. Musí okamžitě zastavit a obrátit kurz, jinak zemi nečeká nic jiného než smrt a zkáza.
+TINarrativeEventTemplate.event_2003_CultofPeace.option0=Nechme je pobíhat a protestovat.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofPeace.option1=Nařídit kroky směřující k demobilizaci.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult1={actorNameWithArticleCap} dělá ústupky novému náboženskému hnutí.
+TINarrativeEventTemplate.event_2003_CultofPeace.option2=Zakročme proti jejich podvratné činnosti.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.optionResult2={actorNameWithArticleCap} zasahuje proti novému náboženskému hnutí.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3=Prošetříme možné známky mimozemské infiltrace.
+TINarrativeEventTemplate.event_2003_CultofPeace.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0=Úspěch.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Summary={actorNameWithArticleCap} odhaluje vliv mimozemšťanů v novém náboženském hnutí.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome0.Detail=Podařilo se nám odhalit známky mimozemského vlivu v tomto hnutí! To hnutí značně zdiskreditovalo a většina jeho bývalých členů se bez dalšího povyku rozprchla.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Summary={actorNameWithArticleCap} selhává v odhalení vlivu mimozemšťanů v novém náboženském hnutí.
+TINarrativeEventTemplate.event_2003_CultofPeace.option3.outcome1.Detail=Obvinění z mimozemského vlivu se obrátila proti jejich autorům a jen dále zesílila společenskou nevraživost. Jestliže je touha po míru něco mimozemského, pak ať jsou tedy mimozemšťané.
+
+TINarrativeEventTemplate.displayName.event_2003_CultofAction=Kult akce
+TINarrativeEventTemplate.event_2003_CultofAction.summary=Nové náboženské hnutí nabírá na síle {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofAction.query=Náboráři a kazatelé systematicky obcházejí pracoviště, školy a komunitní centra, přičemž jejich poselství u posluchačů nachází hluboký ohlas. V každé skupině přátel se najde alespoň jeden člen, který zná někoho z tohoto hnutí. Demonstranti a aktivisté spojení s tímto hnutím se již objevují v ulicích města {targetRegionName} i dalších a při svých akcích projevují neobvyklou míru koordinace a soudržnosti. <br/><br/>Jejich poselství zní: Každý ví, že tento svět je pokřivený a zkažený, ale pouhá vědomost nestačí. Slova sama o sobě svět nezmění; to dokážou jen činy. Někdo musí učinit první kroky k vytvoření lepšího světa, a tím někým jste právě vy.
+TINarrativeEventTemplate.event_2003_CultofAction.option0=Přesně to pro nás chtějí naši spasitelé.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofAction.option1=Naši spasitelé s námi mají větší plány.
+TINarrativeEventTemplate.event_2003_CultofAction.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofAction.optionResult1={summary}
+
+TINarrativeEventTemplate.displayName.event_2003_CultofArmageddon=Kult armagedonu
+TINarrativeEventTemplate.event_2003_CultofArmageddon.summary=Nové náboženské hnutí nabírá na síle {targetNationNameWithArticleAndPlacePrep}.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.query=Náboráři a kazatelé systematicky obcházejí pracoviště, školy a komunitní centra, přičemž jejich poselství u posluchačů nachází hluboký ohlas. V každé skupině přátel se najde alespoň jeden člen, který zná někoho z tohoto hnutí. Demonstranti a aktivisté spojení s tímto hnutím se již objevují v ulicích města {targetRegionName} i dalších a při svých akcích projevují neobvyklou míru koordinace a soudržnosti. <br/><br/>Jejich poselství zní: Jaderné zbraně jsou prokletím, které lidstvo uvalilo na svět. Dokud existuje byť jen jediná jaderná hlavice, hodiny tikají stále blíž ke dni zkázy. Vzájemně zaručené zničení je zárukou zkázy: pokud jeden národ nejde příkladem, proč by ho měly ostatní následovat?
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option0=Nechme je pobíhat a protestovat.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult0={summary}
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option1=Nařídit kroky směřující k odzbrojení.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult1={actorNameWithArticleCap} dělá ústupky novému náboženskému hnutí.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option2=Zakročme proti jejich podvratné činnosti.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionResult2={actorNameWithArticleCap} zasahuje proti novému náboženskému hnutí.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3=Prošetříme možné známky mimozemské infiltrace.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.optionDetail3=<skip/>
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0=Úspěch.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Summary={actorNameWithArticleCap} odhaluje vliv mimozemšťanů v novém náboženském hnutí.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome0.Detail=Podařilo se nám odhalit známky mimozemského vlivu v tomto hnutí! To hnutí značně zdiskreditovalo a většina jeho bývalých členů se bez dalšího povyku rozprchla.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1=Neúspěch.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Summary={actorNameWithArticleCap} selhává v odhalení vlivu mimozemšťanů v novém náboženském hnutí.
+TINarrativeEventTemplate.event_2003_CultofArmageddon.option3.outcome1.Detail=Obvinění z mimozemského vlivu se obrátila proti jejich autorům a jen dále zesílila společenskou nevraživost. Jestliže je touha po míru něco mimozemského, pak ať jsou tedy mimozemšťané.
+
+
+
+
+// TRANSLATION BATCH 2
+TINarrativeEventTemplate.displayName.event_2003_InsightfulBlogger=Vnímavý bloger
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.summary=Jeden z našich zaměstnanců z oddělení komunikace tvrdí, že na sociálních sítích odhalil zásadní informace.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.query=Během pečlivého sledování globálních komunikačních sítí v rámci svých služebních povinností narazil dotyčný zaměstnanec na blog, jehož autor tvrdí, že získal důkazy o mimozemské činnosti na Zemi. Za normálních okolností by taková tvrzení byla okamžitě považována za nesmysl, ale v normálních časech nežijeme a přiložené důkazy jsou překvapivě přesvědčivé. Je možné, že bloger ví něco, co my ne – a pokud jsme tyto důkazy našli na internetu my, jistě je najdou i ostatní.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0=Na takové výmysly nemáme čas.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail0=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0=Nic se nestalo.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Summary=Na sociálních sítích se šíří důkazy o mimozemské činnosti.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome0.Detail=Nic se nestalo.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1=???
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Summary=Na sociálních sítích se šíří důkazy o mimozemské činnosti.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option0.outcome1.Detail=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1=Zajděme za blogerem.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail1=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0=Úspěch.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Summary=Na sociálních sítích se šíří důkazy o mimozemské činnosti.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome0.Detail=Když naši agenti dorazili k domu blogera, byli pozváni dovnitř na přátelský rozhovor. U kávy jim bloger ochotně předal fotografie, na nichž byly patrné jasné známky přítomnosti mimozemšťanů v této oblasti, a také několik předmětů se zajímavým chemickým složením.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1=Vedle.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Summary=Na sociálních sítích se šíří důkazy o mimozemské činnosti.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome1.Detail=Když naši agenti dorazili k domu blogera, zjistili, že je zcela prázdný. Byly tam sice stopy po nedávném pobytu, ale nebyli tam žádní obyvatelé ani žádné počítačové vybavení. Sousedé při výslechu tvrdili, že tam už dlouho nikoho bydlet neviděli.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2=Podvod.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Summary=Na sociálních sítích se šíří důkazy o mimozemské činnosti.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option1.outcome2.Detail=Když naši agenti dorazili k domu blogera, brzy zjistili, že to, co na fotografiích na internetu vypadalo působivě, byl naprostý podvod. Údajné části mimozemské kosmické lodi nebyly nic jiného než natřené pěnové rekvizity. Bloger následně využil naši návštěvu jako důkaz toho, že se „dostal příliš blízko k pravdě“.
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.option2=Podpořit příspěvky
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionDetail2=<skip/>
+TINarrativeEventTemplate.event_2003_InsightfulBlogger.optionResult2=Na sociálních sítích se šíří důkazy o mimozemské činnosti.
