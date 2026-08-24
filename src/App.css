@@ -237,37 +237,29 @@ img {
     width: 100%;
 }
 
-.scenario-status-region {
-    margin-top: 0.45rem;
-    font-size: 0.8rem;
-    line-height: 1.25;
-}
-
-.scenario-status-line {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
 .scenario-selector {
     min-width: 0;
 }
 
-.scenario-status-legend::before {
-    content: "·";
-    margin-right: 0.5rem;
+.scenario-chip-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.5rem;
 }
 
-.dlc-node-symbol {
-    font-weight: 800;
+.scenario-chip-group .MuiChip-root {
+    max-width: 100%;
+    height: auto;
+    min-height: 24px;
+    font-weight: 700;
 }
 
-.scenario-load-error {
-    margin-top: 0.35rem;
-    color: #b91c1c;
-    font-size: 0.78rem;
-    line-height: 1.25;
+.scenario-chip-group .MuiChip-label {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    white-space: normal;
+    overflow-wrap: anywhere;
 }
 
 .dlc-node-chips {
@@ -275,14 +267,6 @@ img {
     gap: 0.5rem;
     margin-top: -0.35rem !important;
     margin-bottom: 0.5rem;
-}
-
-.search-option-name {
-    min-width: 0;
-}
-
-.scenario-marker-chip {
-    margin-left: auto;
 }
 
 .checkboxContainer {

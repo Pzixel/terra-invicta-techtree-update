@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip, IconButton, Chip, useTheme } from "@mui/material";
+import { Button, Paper, Accordion, AccordionDetails, AccordionSummary, Tooltip, IconButton, useTheme } from "@mui/material";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { assetUrl, findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
@@ -9,7 +9,12 @@ import { TechDb } from './utils/TechDb';
 import { prerequisiteSlots } from './data/scenarioCompiler';
 import { clearResearchProgress, loadResearchProgress, saveResearchProgress } from './utils/researchProgress';
 import type { GameVersionCode } from './version';
-import { interpolateScenarioText, scenarioMarkerPresentation, type ScenarioCode } from './scenario';
+import {
+    interpolateScenarioText,
+    scenarioMarkerPresentation,
+    type ScenarioCode,
+} from './scenario';
+import ScenarioBadge from './ScenarioBadge';
 
 function saveResearchState(techDb: TechDb, version: GameVersionCode, scenario: ScenarioCode) {
     const progress = loadResearchProgress(localStorage, version, scenario);
@@ -1149,10 +1154,10 @@ export function TechSidebar({
                 <h2>{node.displayName} {node.isProject ? <img src={projectIconSrc} alt="faction project" style={{ width: "24px", height: "24px" }} /> : null}</h2>
                 {scenarioMarker && (
                     <div className="dlc-node-chips">
-                        <Chip
+                        <ScenarioBadge
+                            scenario={scenarioCode}
+                            kind={scenarioMarker.kind}
                             size="small"
-                            color="secondary"
-                            variant={scenarioMarker.chipVariant}
                             label={scenarioMarker.kind === 'addition'
                                 ? `◆ ${language.uiTexts.darkSkiesAddition}`
                                 : interpolateScenarioText(language.uiTexts.scenarioVersion, {

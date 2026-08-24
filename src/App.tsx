@@ -36,8 +36,6 @@ import {
     graphArtifactPath,
     interpolateScenarioText,
     layoutArtifactPath,
-    compactScenarioLabel,
-    OrderedScenarios,
     scenarioDisplayName,
     scenarioMarkerPresentation,
     scenarioBundlePath,
@@ -498,19 +496,12 @@ function App() {
             .map((node) => node.dataName)
         : [], [activeView]);
     const selectorValue = activeView?.key.scenario ?? targetScenario;
-    const scenarioLabels = scenarioLabelsForUi(activeView, activeLanguage);
-    const compactScenarioLabels = Object.fromEntries(
-        OrderedScenarios.map((scenario) => [
-            scenario.code,
-            compactScenarioLabel(
-                scenario,
-                scenarioLabels[scenario.code],
-                activeLanguage.uiTexts.scenarioLabel,
-            ),
-        ]),
-    ) as Record<ScenarioCode, string>;
+    const compactScenarioLabels: Record<ScenarioCode, string> = {
+        standard: activeLanguage.uiTexts.scenarioStandard,
+        '2003': activeLanguage.uiTexts.scenario2003Short,
+        'broken-earth': activeLanguage.uiTexts.scenarioBrokenEarthShort,
+    };
     const activeScenarioCode = activeView?.key.scenario ?? null;
-    const activeScenarioName = activeScenarioCode ? compactScenarioLabels[activeScenarioCode] : null;
     const activeScenarioDisplayName = activeScenarioCode
         ? scenarioDisplayName(
             Scenarios[activeScenarioCode],
@@ -569,10 +560,6 @@ function App() {
                                 localizationDb={activeStaticData.localizationDb}
                                 templateData={activeStaticData.templateData}
                                 language={activeLanguage}
-                                activeScenarioLabel={activeScenarioName ?? targetScenarioDisplayName}
-                                scenarioStatus={scenarioStatus}
-                                scenarioLoadError={loadError}
-                                showDlcLegend={!!activeView && activeView.key.scenario !== 'standard'}
                             />
                         </div>
                         <div className="settings-button-container">
@@ -583,9 +570,9 @@ function App() {
                                 onVersionChange={handleVersionChange}
                                 scenario={selectorValue}
                                 onScenarioChange={handleScenarioChange}
-                                scenarioLabels={scenarioLabels}
+                                scenarioLabels={compactScenarioLabels}
                                 scenarioLabel={activeLanguage.uiTexts.scenarioLabel}
-                                dlcLabel={activeLanguage.uiTexts.darkSkiesDlc}
+                                dlcLabel={activeLanguage.uiTexts.darkSkiesName}
                                 isScenarioLoading={isLoadingView}
                                 onOpenDrives={() => setShowDrivesOverlay(true)}
                             />
@@ -618,6 +605,26 @@ function App() {
                     />
                 )}
             </div>
+
+            {loadError && dataReady && (
+                <Paper
+                    role="alert"
+                    elevation={4}
+                    sx={{
+                        position: 'fixed',
+                        left: '50%',
+                        bottom: 16,
+                        zIndex: 1400,
+                        maxWidth: 'calc(100vw - 32px)',
+                        px: 1.5,
+                        py: 1,
+                        color: 'error.main',
+                        transform: 'translateX(-50%)',
+                    }}
+                >
+                    {loadError}
+                </Paper>
+            )}
 
             {showDrivesOverlay && (
                 <div

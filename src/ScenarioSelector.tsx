@@ -1,11 +1,10 @@
 import { useId } from 'react';
 import Box from '@mui/material/Box';
-import Chip from '@mui/material/Chip';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
+import ScenarioBadge from './ScenarioBadge';
 import {
   OrderedScenarios,
-  scenarioBadgeColor,
   scenarioDisplayName,
   type Scenario,
   type ScenarioCode,
@@ -44,19 +43,21 @@ export function ScenarioSelector({
       disabled={disabled}
     >
       <FormLabel component="legend" id={labelId}>{label}</FormLabel>
-      <Box className="scenario-chip-group" role="group" aria-labelledby={labelId}>
+      <Box className="scenario-chip-group">
         {OrderedScenarios.map((scenario) => (
-          <Chip
+          <ScenarioBadge
             key={scenario.code}
+            scenario={scenario.code}
+            kind="identity"
+            selected={scenario.code === value}
             size="small"
-            color={scenarioBadgeColor(scenario.code)}
-            variant={scenario.code === value ? 'filled' : 'outlined'}
             label={displayName(scenario)}
             disabled={disabled}
-            clickable={!disabled}
+            clickable
             aria-pressed={scenario.code === value}
+            aria-disabled={disabled || undefined}
             onClick={() => {
-              if (scenario.code !== value) onScenarioChange(scenario);
+              if (!disabled && scenario.code !== value) onScenarioChange(scenario);
             }}
           />
         ))}

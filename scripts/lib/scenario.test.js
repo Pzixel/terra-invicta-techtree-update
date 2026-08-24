@@ -1,6 +1,11 @@
 import assert from 'node:assert/strict';
+import { cwd } from 'node:process';
 import test from 'node:test';
 import { createJiti } from 'jiti';
+import React, { act } from 'react';
+import { createRoot } from 'react-dom/client';
+import { JSDOM } from 'jsdom';
+import { createServer } from 'vite';
 
 const jiti = createJiti(import.meta.url);
 const {
@@ -11,9 +16,10 @@ const {
   graphArtifactPath,
   layoutArtifactPath,
   markScenarioMenuDiscovered,
+  SCENARIO_MENU_DISCOVERY_KEY,
   scenarioBundlePath,
   scenarioBadgeColor,
-  compactScenarioLabel,
+  scenarioBadgeVariant,
   scenarioDisplayName,
   scenarioMarkerColor,
   scenarioMarkerPresentation,
@@ -98,32 +104,16 @@ test('scenario selector keeps the required Standard and Dark Skies labels', () =
   );
 });
 
-test('scenario labels compact for quiet status and contextual markers', () => {
-  assert.equal(compactScenarioLabel(Scenarios.standard, 'Standard', 'Scenario'), 'Standard');
-  assert.equal(compactScenarioLabel(Scenarios['2003'], '2003 Scenario', 'Scenario'), '2003');
-  assert.equal(compactScenarioLabel(Scenarios['broken-earth'], 'Broken Earth Scenario', 'Scenario'), 'Broken Earth');
-  assert.equal(compactScenarioLabel(Scenarios['2003'], '2003-Szenario', 'Szenario'), '2003');
-  assert.equal(compactScenarioLabel(Scenarios['broken-earth'], 'シナリオ：崩壊した地球', 'シナリオ'), '崩壊した地球');
-  assert.equal(compactScenarioLabel(Scenarios['broken-earth'], '瘡痍大地情境', '情境'), '瘡痍大地');
-});
-
 test('every UI language has localized scenario fallbacks for initial loads and failures', () => {
   for (const language of Object.values(Languages)) {
     const { uiTexts } = language;
     assert.ok(uiTexts.scenario2003Fallback);
     assert.ok(uiTexts.scenarioBrokenEarthFallback);
+    assert.ok(uiTexts.settingsMenuLabel);
     assert.ok(uiTexts.scenarioSettingsDiscovery);
     assert.ok(uiTexts.settingsCurrentScenario.includes('{scenario}'));
-    assert.ok(compactScenarioLabel(
-      Scenarios['2003'],
-      uiTexts.scenario2003Fallback,
-      uiTexts.scenarioLabel,
-    ));
-    assert.ok(compactScenarioLabel(
-      Scenarios['broken-earth'],
-      uiTexts.scenarioBrokenEarthFallback,
-      uiTexts.scenarioLabel,
-    ));
+    assert.ok(uiTexts.scenario2003Short);
+    assert.ok(uiTexts.scenarioBrokenEarthShort);
   }
 });
 
@@ -156,7 +146,15 @@ test('scenario status distinguishes initial, switching, and settled views', () =
     targetLabel: 'Standard',
     loading: true,
     templates,
-  }), 'Scenario: Standard');
+  }), 'Loading Standard…');
+  assert.equal(scenarioStatusText({
+    activeScenario: 'standard',
+    targetScenario: 'standard',
+    activeLabel: 'Standard',
+    targetLabel: 'Standard',
+    loading: false,
+    templates,
+  }), '');
   assert.equal(scenarioStatusText({
     activeScenario: null,
     targetScenario: 'standard',
@@ -193,6 +191,107 @@ test('scenario badges use stable colours and marker-specific variants', () => {
   assert.equal(scenarioMarkerColor('addition', 'broken-earth'), 'secondary');
   assert.equal(scenarioMarkerColor('variant', '2003'), 'secondary');
   assert.equal(scenarioMarkerColor('variant', 'broken-earth'), 'warning');
+  assert.equal(scenarioBadgeVariant('identity', true), 'filled');
+  assert.equal(scenarioBadgeVariant('identity', false), 'outlined');
+  assert.equal(scenarioBadgeVariant('addition'), 'filled');
+  assert.equal(scenarioBadgeVariant('variant'), 'outlined');
+});
+
+test('scenario chips remain keyboard buttons while loading disables activation', async () => {
+  const dom = new JSDOM('<div id="root"></div>', { pretendToBeVisual: true });
+  const browserGlobals = [
+    'window',
+    'document',
+    'navigator',
+    'HTMLElement',
+    'Element',
+    'Node',
+    'DocumentFragment',
+    'KeyboardEvent',
+    'MouseEvent',
+    'MutationObserver',
+    'getComputedStyle',
+    'requestAnimationFrame',
+    'cancelAnimationFrame',
+  ];
+  const previousDescriptors = new Map(
+    browserGlobals.map((key) => [key, Object.getOwnPropertyDescriptor(globalThis, key)]),
+  );
+
+  for (const key of browserGlobals) {
+    const value = key === 'window' ? dom.window : dom.window[key];
+    Object.defineProperty(globalThis, key, { configurable: true, writable: true, value });
+  }
+  globalThis.IS_REACT_ACT_ENVIRONMENT = true;
+
+  const vite = await createServer({
+    root: cwd(),
+    configFile: false,
+    logLevel: 'silent',
+    server: { middlewareMode: true },
+    appType: 'custom',
+  });
+
+  try {
+    const { ScenarioSelector } = await vite.ssrLoadModule('/src/ScenarioSelector.tsx');
+    const container = document.getElementById('root');
+    const root = createRoot(container);
+    const selected = [];
+    const renderSelector = async (disabled) => {
+      await act(async () => {
+        root.render(React.createElement(ScenarioSelector, {
+          value: 'standard',
+          onScenarioChange: (scenario) => selected.push(scenario.code),
+          label: 'Scenario',
+          scenarioLabels: {
+            standard: 'Standard',
+            '2003': '2003',
+            'broken-earth': 'Broken Earth',
+          },
+          dlcLabel: 'Dark Skies',
+          disabled,
+        }));
+      });
+    };
+
+    await renderSelector(false);
+    let chips = [...container.querySelectorAll('[role="button"]')];
+    assert.equal(chips.length, 3);
+    assert.equal(chips.filter((chip) => chip.tabIndex === 0).length, 3);
+    assert.equal(chips.filter((chip) => chip.getAttribute('aria-pressed') === 'true').length, 1);
+    await act(async () => {
+      chips[1].dispatchEvent(new KeyboardEvent('keydown', {
+        key: 'Enter',
+        code: 'Enter',
+        bubbles: true,
+      }));
+    });
+    assert.deepEqual(selected, ['2003']);
+
+    await renderSelector(true);
+    chips = [...container.querySelectorAll('[role="button"]')];
+    assert.equal(chips.length, 3);
+    assert.equal(chips.filter((chip) => chip.getAttribute('aria-disabled') === 'true').length, 3);
+    await act(async () => {
+      chips[2].dispatchEvent(new KeyboardEvent('keydown', {
+        key: 'Enter',
+        code: 'Enter',
+        bubbles: true,
+      }));
+    });
+    assert.deepEqual(selected, ['2003']);
+
+    await act(async () => root.unmount());
+  } finally {
+    await vite.close();
+    dom.window.close();
+    delete globalThis.IS_REACT_ACT_ENVIRONMENT;
+    for (const key of browserGlobals) {
+      const descriptor = previousDescriptors.get(key);
+      if (descriptor) Object.defineProperty(globalThis, key, descriptor);
+      else delete globalThis[key];
+    }
+  }
 });
 
 test('scenario menu discovery persists and fails open when storage is unavailable', () => {
@@ -204,6 +303,8 @@ test('scenario menu discovery persists and fails open when storage is unavailabl
 
   assert.equal(scenarioMenuNeedsDiscovery(storage), true);
   markScenarioMenuDiscovered(storage);
+  assert.equal(SCENARIO_MENU_DISCOVERY_KEY, 'terra-invicta.scenario-menu-seen.v1');
+  assert.deepEqual([...values], [[SCENARIO_MENU_DISCOVERY_KEY, '1']]);
   assert.equal(scenarioMenuNeedsDiscovery(storage), false);
   assert.equal(scenarioMenuNeedsDiscovery(null), true);
   assert.equal(scenarioMenuNeedsDiscovery({ getItem: () => { throw new Error('blocked'); } }), true);

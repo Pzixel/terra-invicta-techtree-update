@@ -1,18 +1,9 @@
 import { PaletteMode, ThemeProvider, createTheme } from '@mui/material';
 import { deepmerge } from '@mui/utils';
-import { createContext, ReactNode, useEffect, useMemo, useState } from 'react';
+import { ReactNode, useEffect, useMemo, useState } from 'react';
+import { ColorModeContext, type ColorModeContextValue } from './colorModeContext';
 
-export type ColorModeContextValue = {
-  mode: PaletteMode;
-  setMode: (mode: PaletteMode) => void;
-  toggleMode: () => void;
-};
-
-export const ColorModeContext = createContext<ColorModeContextValue>({
-  mode: 'light',
-  setMode: () => undefined,
-  toggleMode: () => undefined,
-});
+export { ColorModeContext };
 
 const lightPalette = {
   palette: {
@@ -35,6 +26,25 @@ const darkPalette = {
 };
 
 const THEME_STORAGE_KEY = 'terraInvictaThemeMode';
+
+function storedThemeMode(): PaletteMode | null {
+  if (typeof window === 'undefined') return null;
+  try {
+    const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+    return stored === 'light' || stored === 'dark' ? stored : null;
+  } catch {
+    return null;
+  }
+}
+
+function persistThemeMode(mode: PaletteMode): void {
+  if (typeof window === 'undefined') return;
+  try {
+    window.localStorage.setItem(THEME_STORAGE_KEY, mode);
+  } catch {
+    // Theme selection remains active for this page when persistence is unavailable.
+  }
+}
 
 const baseComponents = {
   components: {
@@ -62,7 +72,7 @@ function buildTheme(mode: PaletteMode) {
 export function AppThemeProvider({ children }: { children: ReactNode }) {
   const [mode, setMode] = useState<PaletteMode>(() => {
     if (typeof window === 'undefined') return 'light';
-    const stored = localStorage.getItem(THEME_STORAGE_KEY) as PaletteMode | null;
+    const stored = storedThemeMode();
     if (stored === 'light' || stored === 'dark') return stored;
     const media = window.matchMedia('(prefers-color-scheme: dark)');
     return media.matches ? 'dark' : 'light';
@@ -73,7 +83,7 @@ export function AppThemeProvider({ children }: { children: ReactNode }) {
 
     const media = window.matchMedia('(prefers-color-scheme: dark)');
     const handleChange = (event: MediaQueryListEvent) => {
-      const stored = localStorage.getItem(THEME_STORAGE_KEY) as PaletteMode | null;
+      const stored = storedThemeMode();
       if (stored === 'light' || stored === 'dark') {
         return;
       }
@@ -85,8 +95,7 @@ export function AppThemeProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-    localStorage.setItem(THEME_STORAGE_KEY, mode);
+    persistThemeMode(mode);
   }, [mode]);
 
   const colorMode = useMemo<ColorModeContextValue>(() => ({

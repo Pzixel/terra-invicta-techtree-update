@@ -39,10 +39,6 @@ export interface SearchboxProps {
   localizationDb: LocalizationDb;
   templateData: TemplateData;
   language: Language;
-  activeScenarioLabel: string;
-  scenarioStatus: string;
-  scenarioLoadError: string | null;
-  showDlcLegend: boolean;
 }
 
 export interface LanguageSelectorProps {

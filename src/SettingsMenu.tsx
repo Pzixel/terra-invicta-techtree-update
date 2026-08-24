@@ -1,19 +1,28 @@
 import { useContext, useState, type MouseEvent } from 'react';
+import Badge from '@mui/material/Badge';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
-import Menu from '@mui/material/Menu';
+import Popover from '@mui/material/Popover';
 import Divider from '@mui/material/Divider';
 import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Tooltip from '@mui/material/Tooltip';
 import MenuIcon from '@mui/icons-material/Menu';
 import { alpha, useTheme } from '@mui/material/styles';
-import { ColorModeContext } from './theme.tsx';
+import { ColorModeContext } from './colorModeContext';
 import LanguageSelector from './LanguageSelector';
 import { LanguageSelectorProps } from './types/props';
 import { Link } from "react-router";
 import ScenarioSelector from './ScenarioSelector';
-import type { Scenario, ScenarioCode } from './scenario';
+import {
+  interpolateScenarioText,
+  markScenarioMenuDiscovered,
+  scenarioDisplayName,
+  scenarioMenuNeedsDiscovery,
+  Scenarios,
+  type Scenario,
+  type ScenarioCode,
+} from './scenario';
 
 export type SettingsMenuProps = LanguageSelectorProps & {
   onOpenDrives?: () => void;
@@ -29,12 +38,39 @@ export function SettingsMenu(props: SettingsMenuProps) {
   const { mode, setMode } = useContext(ColorModeContext);
   const theme = useTheme();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const [showScenarioDiscovery, setShowScenarioDiscovery] = useState(() => {
+    try {
+      return scenarioMenuNeedsDiscovery(typeof window === 'undefined' ? null : window.localStorage);
+    } catch {
+      return true;
+    }
+  });
   const driveChartLabel = props.language.uiTexts.driveChartTitle;
 
   const open = Boolean(anchorEl);
+  const activeScenarioName = scenarioDisplayName(
+    Scenarios[props.scenario],
+    props.scenarioLabels,
+    props.dlcLabel,
+  );
+  const currentScenarioLabel = interpolateScenarioText(
+    props.language.uiTexts.settingsCurrentScenario,
+    { scenario: activeScenarioName },
+  );
+  const settingsButtonLabel = showScenarioDiscovery
+    ? `${currentScenarioLabel}. ${props.language.uiTexts.scenarioSettingsDiscovery}`
+    : currentScenarioLabel;
 
   const handleOpen = (event: MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
+    if (showScenarioDiscovery) {
+      setShowScenarioDiscovery(false);
+      try {
+        markScenarioMenuDiscovered(typeof window === 'undefined' ? null : window.localStorage);
+      } catch {
+        // The in-memory state still dismisses the badge for this page.
+      }
+    }
   };
 
   const handleClose = () => {
@@ -52,25 +88,40 @@ export function SettingsMenu(props: SettingsMenuProps) {
 
   return (
     <>
-      <Tooltip title="Settings">
-        <IconButton
-          onClick={handleOpen}
-          size="small"
-          aria-label="Settings menu"
-          sx={{
-            alignSelf: 'flex-start',
-            backgroundColor: theme.palette.background.paper,
-            border: `1px solid ${theme.palette.divider}`,
-            boxShadow: 1,
-            '&:hover': {
-              backgroundColor: alpha(theme.palette.background.paper, 0.9),
-            },
-          }}
+      <Tooltip title={showScenarioDiscovery
+        ? props.language.uiTexts.scenarioSettingsDiscovery
+        : currentScenarioLabel}
+      >
+        <Badge
+          color="secondary"
+          variant="dot"
+          overlap="circular"
+          invisible={!showScenarioDiscovery}
+          anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+          slotProps={{ badge: { sx: { transition: 'none' } } }}
+          sx={{ alignSelf: 'flex-start' }}
         >
-          <MenuIcon />
-        </IconButton>
+          <IconButton
+            onClick={handleOpen}
+            size="small"
+            aria-label={settingsButtonLabel}
+            aria-haspopup="dialog"
+            aria-expanded={open ? 'true' : undefined}
+            aria-controls={open ? 'settings-popover' : undefined}
+            sx={{
+              backgroundColor: theme.palette.background.paper,
+              border: `1px solid ${theme.palette.divider}`,
+              boxShadow: 1,
+              '&:hover': {
+                backgroundColor: alpha(theme.palette.background.paper, 0.9),
+              },
+            }}
+          >
+            <MenuIcon />
+          </IconButton>
+        </Badge>
       </Tooltip>
-      <Menu
+      <Popover
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
@@ -78,7 +129,20 @@ export function SettingsMenu(props: SettingsMenuProps) {
         transformOrigin={{ vertical: 'top', horizontal: 'left' }}
         keepMounted
       >
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, p: 1.5, minWidth: 260 }}>
+        <Box
+          id="settings-popover"
+          role="dialog"
+          aria-label={props.language.uiTexts.settingsMenuLabel}
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: 1,
+            p: 1.5,
+            width: 300,
+            maxWidth: 'calc(100vw - 32px)',
+            boxSizing: 'border-box',
+          }}
+        >
           <LanguageSelector {...props} variant="inline" />
           <Divider />
           <ScenarioSelector
@@ -96,42 +160,42 @@ export function SettingsMenu(props: SettingsMenuProps) {
             label="Dark mode"
           />
           <Divider />
-              <button
-                type="button"
-                className="utility-link"
-                style={{
-                color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87',
-                textAlign: 'left',
-                background: 'transparent',
-                border: 'none',
-                padding: 0,
-                cursor: 'pointer',
-                }}
-                onClick={() => props.onOpenDrives?.()}
-              >
-                {driveChartLabel}
-              </button>
-            <Divider />
-          <Link
-              className="utility-link"
-              to="/browse"
-              target="_blank"
-              style={{ color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87' }}
+          <button
+            type="button"
+            className="utility-link"
+            style={{
+              color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87',
+              textAlign: 'left',
+              background: 'transparent',
+              border: 'none',
+              padding: 0,
+              cursor: 'pointer',
+            }}
+            onClick={() => props.onOpenDrives?.()}
           >
-              {props.language.uiTexts.browseGamefiles}
+            {driveChartLabel}
+          </button>
+          <Divider />
+          <Link
+            className="utility-link"
+            to="/browse"
+            target="_blank"
+            style={{ color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87' }}
+          >
+            {props.language.uiTexts.browseGamefiles}
           </Link>
           <Divider />
           <a
-              className="utility-link"
-              href="https://github.com/Pzixel/terra-invicta-techtree-update"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87' }}
+            className="utility-link"
+            href="https://github.com/Pzixel/terra-invicta-techtree-update"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: theme.palette.mode === 'dark' ? '#60a5fa' : '#0b4b87' }}
           >
-              {props.language.uiTexts.projectSourceCode}
+            {props.language.uiTexts.projectSourceCode}
           </a>
         </Box>
-      </Menu>
+      </Popover>
     </>
   );
 }

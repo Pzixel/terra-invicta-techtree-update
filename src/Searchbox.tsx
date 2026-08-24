@@ -1,27 +1,21 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { Paper, Autocomplete, TextField, FormControlLabel, Switch, Chip } from '@mui/material';
+import { Paper, Autocomplete, TextField, FormControlLabel, Switch } from '@mui/material';
 import FlexSearch from 'flexsearch';
 import { SearchboxProps } from './types/props';
 import { TechDb } from './utils/TechDb';
 import { Claim } from './types';
-import { interpolateScenarioText, scenarioMarkerPresentation } from './scenario';
 
 type SearchEntry = {
     id: string;
-    dataName: string;
     displayName: string;
     fullText: string;
-    dlcOnly: boolean;
-    scenarioVariant: boolean;
 };
-
-type SearchOption = Pick<SearchEntry, 'dataName' | 'displayName' | 'dlcOnly' | 'scenarioVariant'>;
 
 type FlexSearchResult = {
     doc: SearchEntry;
 };
 
-type CachedProperties = ["dataName", "displayName", "fullText", "dlcOnly", "scenarioVariant"];
+type CachedProperties = ["displayName", "fullText"];
 
 export function Searchbox({
     techDb,
@@ -29,13 +23,9 @@ export function Searchbox({
     onNavigateToNode,
     localizationDb,
     templateData,
-    language,
-    activeScenarioLabel,
-    scenarioStatus,
-    scenarioLoadError,
-    showDlcLegend,
+    language
 }: SearchboxProps) {
-    const [results, setResults] = useState<SearchOption[]>([]);
+    const [results, setResults] = useState<string[]>([]);
     const [documentSearchIndex, setDocumentSearchIndex] = useState<FlexSearch.Document<SearchEntry, CachedProperties> | null>(null);
     const [fullText, setFullText] = useState(false);
 
@@ -43,7 +33,7 @@ export function Searchbox({
         const documentSearchIndex = new FlexSearch.Document<SearchEntry, CachedProperties>({
             document: {
                 index: ["displayName", "fullText"],
-                store: ["dataName", "displayName", "fullText", "dlcOnly", "scenarioVariant"],
+                store: ["displayName", "fullText"],
                 "id": "id",
             },
             tokenize: "full"
@@ -52,11 +42,8 @@ export function Searchbox({
         for (const node of techDb.getAllTechs()) {
             let searchData = {
                 "id": node.id!.toString(),
-                "dataName": node.dataName,
                 "displayName": node.displayName,
                 "fullText": "",
-                "dlcOnly": node.dlcOnly === true,
-                "scenarioVariant": node.scenarioVariant === true,
             };
 
             let summaryText;
@@ -134,47 +121,34 @@ export function Searchbox({
             enrich: true
         }); // It doesn't know about the pluck (despite https://github.com/nextapps-de/flexsearch/issues/436 )
 
-        let searchResults: SearchOption[];
+        let searchResults;
 
         if (isQuoted) {
             const field = fullText ? "fullText" : "displayName";
             const regex = new RegExp(query, "i");
             // Simulate exact match
-            const matching = rawResults.filter(entry => entry.doc[field].match(regex));
-            searchResults = Array.from(
-                new Map(matching.map(({ doc }) => [doc.dataName, {
-                    dataName: doc.dataName,
-                    displayName: doc.displayName,
-                    dlcOnly: doc.dlcOnly,
-                    scenarioVariant: doc.scenarioVariant,
-                }])).values()
-            );
+            searchResults = Array.from(new Set(
+                rawResults
+                    .filter(entry => entry.doc[field].match(regex))
+                    .map(entry => entry.doc.displayName)
+            ));
         } else {
             // Deduplicate results to avoid repeated techs when multiple fields match the query
-            searchResults = Array.from(
-                new Map(rawResults.map(({ doc }) => [doc.dataName, {
-                    dataName: doc.dataName,
-                    displayName: doc.displayName,
-                    dlcOnly: doc.dlcOnly,
-                    scenarioVariant: doc.scenarioVariant,
-                }])).values()
-            );
+            searchResults = Array.from(new Set(rawResults.map(entry => entry.doc.displayName)));
         }
 
         setResults(searchResults);
     };
 
-    const navigateToTech = (value: string | SearchOption) => {
-        const navigateToNode = typeof value === 'string'
-            ? techDb?.getTechByDisplayName(value.replace(/^◆\s*/, ''))
-            : techDb?.getTechByDataName(value.dataName);
+    const navigateToTech = (value: string) => {
+        const navigateToNode = techDb?.getTechByDisplayName(value);
 
         if (navigateToNode) {
             onNavigateToNode(navigateToNode);
         }
     };
 
-    const handleChange = (_: React.SyntheticEvent, value: string | SearchOption | null) => {
+    const handleChange = (_: React.SyntheticEvent, value: string | null) => {
         if (!value) return;
 
         navigateToTech(value);
@@ -202,45 +176,13 @@ export function Searchbox({
     return (
         <div>
             <Paper elevation={3} id="searchBox">
-                <Autocomplete<SearchOption, false, false, true>
+                <Autocomplete
                     options={results}
                     freeSolo
                     onInputChange={handleInputChange}
                     onChange={handleChange}
                     onKeyDown={handleKeyDown}
                     filterOptions={x => x}
-                    getOptionLabel={(option) => typeof option === 'string'
-                        ? option
-                        : `${scenarioMarkerPresentation(option)?.graphDiamond ? '◆ ' : ''}${option.displayName}`}
-                    renderOption={(props, option) => {
-                        const marker = scenarioMarkerPresentation(option);
-                        const markerLabel = marker?.kind === 'addition'
-                            ? language.uiTexts.darkSkiesAddition
-                            : marker?.kind === 'variant'
-                                ? interpolateScenarioText(language.uiTexts.scenarioVersion, {
-                                    scenario: activeScenarioLabel,
-                                })
-                                : null;
-                        return (
-                            <li
-                                {...props}
-                                key={option.dataName}
-                                aria-label={`${option.displayName}${markerLabel ? `, ${markerLabel}` : ''}`}
-                            >
-                                {marker?.graphDiamond && <span aria-hidden="true" className="dlc-node-symbol">◆ </span>}
-                                <span className="search-option-name">{option.displayName}</span>
-                                {marker && markerLabel && (
-                                    <Chip
-                                        className="scenario-marker-chip"
-                                        size="small"
-                                        color="secondary"
-                                        variant={marker.chipVariant}
-                                        label={markerLabel}
-                                    />
-                                )}
-                            </li>
-                        );
-                    }}
                     renderInput={(params) => (
                         <TextField
                             {...params}
@@ -249,22 +191,6 @@ export function Searchbox({
                             autoFocus
                             onClick={handleClick} />
                     )} />
-                <div className="scenario-status-region" aria-live="polite">
-                    {(scenarioStatus || showDlcLegend) && (
-                        <div className="scenario-status-line">
-                            {scenarioStatus && <span>{scenarioStatus}</span>}
-                            {showDlcLegend && (
-                                <span className="scenario-status-legend">
-                                    <span aria-hidden="true" className="dlc-node-symbol">◆</span>{' '}
-                                    {language.uiTexts.darkSkiesAddition}
-                                </span>
-                            )}
-                        </div>
-                    )}
-                    {scenarioLoadError && (
-                        <div className="scenario-load-error" role="alert">{scenarioLoadError}</div>
-                    )}
-                </div>
                 <div className='checkboxContainer'>
                     <FormControlLabel
                         id="showProjects"

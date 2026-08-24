@@ -4,6 +4,7 @@ export type ScenarioCode = 'standard' | '2003' | 'broken-earth';
 export type ScenarioQueryCode = Exclude<ScenarioCode, 'standard'>;
 export type ScenarioBadgeColor = 'info' | 'secondary' | 'warning';
 export type ScenarioMarkerKind = 'addition' | 'variant';
+export type ScenarioBadgeKind = 'identity' | ScenarioMarkerKind;
 
 export const SCENARIO_MENU_DISCOVERY_KEY = 'terra-invicta.scenario-menu-seen.v1';
 
@@ -61,6 +62,13 @@ export function scenarioMarkerColor(
   return kind === 'addition' ? 'secondary' : scenarioBadgeColor(scenario);
 }
 
+export function scenarioBadgeVariant(
+  kind: ScenarioBadgeKind,
+  selected = false,
+): 'filled' | 'outlined' {
+  return kind === 'addition' || (kind === 'identity' && selected) ? 'filled' : 'outlined';
+}
+
 export function scenarioMenuNeedsDiscovery(
   storage: ScenarioDiscoveryStorage | null | undefined,
 ): boolean {
@@ -89,23 +97,6 @@ export function scenarioDisplayName(
   const scenarioName = scenarioLabels[scenario.code] ?? scenario.fallbackName;
   const scenarioDlcName = scenario.dlcName ? (dlcLabel ?? scenario.dlcName) : null;
   return scenarioDlcName ? `${scenarioName} — ${scenarioDlcName}` : scenarioName;
-}
-
-export function compactScenarioLabel(
-  scenario: Scenario,
-  localizedLabel: string,
-  localizedScenarioWord: string,
-): string {
-  if (scenario.code === 'standard') return localizedLabel;
-
-  const escapedScenarioWord = localizedScenarioWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const withoutScenarioWord = localizedLabel.replace(new RegExp(escapedScenarioWord, 'iu'), '');
-  const compactLabel = withoutScenarioWord
-    .replace(/\u00a0/g, ' ')
-    .replace(/^[\s\-–—:："'«»„“”]+|[\s\-–—:："'«»„“”]+$/gu, '')
-    .replace(/\s+/g, ' ');
-
-  return compactLabel || localizedLabel;
 }
 
 export type ScenarioStatusTemplates = {
@@ -175,7 +166,8 @@ export function scenarioStatusText({
       target: targetLabel,
     });
   }
-  return interpolateScenarioText(templates.tree, { scenario: activeLabel });
+  if (loading) return interpolateScenarioText(templates.loading, { target: targetLabel });
+  return '';
 }
 
 export function isScenarioCode(value: string | null | undefined): value is ScenarioCode {
