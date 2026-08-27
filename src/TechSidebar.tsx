@@ -4,12 +4,12 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { assetUrl, findBlockingTechs, getAncestorTechs } from './utils';
 import { getTechIconFile } from './techGraphRender';
 import { TechSidebarProps } from './types/props';
-import { TechTemplate, Claim, Adjacency, DataModule, TemplateType, ModuleTemplate, EffectTemplate, TemplateTypes } from './types';
+import { TechTemplate, Claim, Adjacency, DataModule, TemplateType, ModuleTemplate } from './types';
 import { TechDb } from './utils/TechDb';
 import { prerequisiteSlots } from './data/scenarioCompiler';
 import { clearResearchProgress, loadResearchProgress, saveResearchProgress } from './utils/researchProgress';
 import { calculateDriveMassTons, hasDriveMass } from './utils/driveMass';
-import { formatEffectDescription } from './utils/effectDescription';
+import { getReadableEffect } from './utils/effectDescription';
 import type { GameVersionCode } from './version';
 import {
     claimScenarioStartYear,
@@ -29,15 +29,9 @@ function saveResearchState(techDb: TechDb, version: GameVersionCode, scenario: S
     saveResearchProgress(localStorage, version, scenario, progress);
 }
 
-function isTemplateType(value: string): value is TemplateType {
-    return Object.hasOwn(TemplateTypes, value);
-}
-
 function isUnknownRecord(value: unknown): value is Record<string, unknown> {
     return typeof value === "object" && value !== null;
 }
-
-const templates = Object.keys(TemplateTypes).filter(isTemplateType);
 
 export function TechSidebar({
   templateData,
@@ -55,6 +49,7 @@ export function TechSidebar({
     const theme = useTheme();
     const locale = language.locale;
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
+    const effectDescriptionResources = { effects, language, localizationDb, templateData };
     const claimStartYears = useMemo(
         () => claimScenarioStartYears(templateData.meta, templateData.starttime),
         [templateData.meta, templateData.starttime],
@@ -90,52 +85,6 @@ export function TechSidebar({
             console.error('Failed to copy text: ', err);
         }
     };
-
-    function getReadableEffect(dataName: string) {
-        const description = localizationDb.getLocalizationString("effect", dataName, "description");
-
-        if (!description) {
-            return "effect." + dataName + ".description";
-        }
-
-        if (description.match(/<skip.*>/)) {
-            return `${language.uiTexts.hiddenEffect}: ${dataName}`;
-        }
-
-        const effectObj = findEffectByName(dataName);
-        if (!effectObj) {
-            return description.replace(/^-/g, "");
-        }
-
-        const resolveTemplateName = (templateName: string) => {
-            for (const type of templates) {
-                const readable = localizationDb.tryGetReadable(type, templateName, "displayName");
-                if (readable) {
-                    return readable;
-                }
-            }
-            return templateName;
-        };
-
-        const effectTemplateString = formatEffectDescription(description, effectObj, {
-            locale,
-            primaryStateName: "our faction",
-            localizeUi: (key) => localizationDb.localizationStrings.get(key),
-            resolveTemplateName,
-            resolveTraitGroupNames: (grouping) => (templateData.trait ?? [])
-                .filter((trait) => trait.grouping === grouping)
-                .map((trait) => localizationDb.getReadable("trait", trait.dataName, "displayName")),
-        })
-            .replace(/^-/g, "")
-            .replace('<color=#FFFFFFFF><sprite name="mission_control"></color>', "Mission Control")
-            .replace('<color=#FFFFFFFF><sprite name="water"></color>', "Water")
-            .replace('<color=#FFFFFFFF><sprite name="volatiles"></color>', "Volatiles")
-            .replace('<color=#FFFFFFFF><sprite name="metal"></color>', "Metals")
-            .replace('<color=#FFFFFFFF><sprite name="metal_noble"></color>', "Noble Metals")
-            .replace('<color=#FFFFFFFF><sprite name="radioactive"></color>', "Fissiles");
-
-        return effectTemplateString;
-    }
 
     function formatModuleDescription(description: string | undefined, templateValue?: number): React.ReactNode | undefined {
         if (!description) {
@@ -358,10 +307,6 @@ export function TechSidebar({
 
     function findTechByName(techName: string) {
         return techDb.getTechByDataName(techName);
-    }
-
-    function findEffectByName(effectName: string): EffectTemplate | undefined {
-        return effects.find(effect => effect.dataName === effectName);
     }
 
     function getLeaderName(string: string): string {
@@ -982,7 +927,9 @@ export function TechSidebar({
         const effectElements = node.effects
             .filter(effect => effect !== "")
             .map(effect => (
-                <li key={`eff-${effect}`}>{getReadableEffect(effect)}</li>
+                <li key={`eff-${effect}`}>
+                    {getReadableEffect(effect, effectDescriptionResources)}
+                </li>
             ));
 
         return (
