@@ -9,6 +9,7 @@ import { TechDb } from './utils/TechDb';
 import { prerequisiteSlots } from './data/scenarioCompiler';
 import { clearResearchProgress, loadResearchProgress, saveResearchProgress } from './utils/researchProgress';
 import { calculateDriveMassTons, hasDriveMass } from './utils/driveMass';
+import { formatEffectDescription } from './utils/effectDescription';
 import type { GameVersionCode } from './version';
 import {
     claimScenarioStartYear,
@@ -102,55 +103,36 @@ export function TechSidebar({
         }
 
         const effectObj = findEffectByName(dataName);
-        const effectVal = effectObj?.value ?? 0;
-        const effectStr = effectObj?.strValue ?? "";
+        if (!effectObj) {
+            return description.replace(/^-/g, "");
+        }
 
-        var replaceEffectTag = function (match: string) {
-            switch (match) {
-                case "{0}":
-                    return effectVal.toString();
-
-                case "{3}":
-                    return effectVal.toLocaleString(locale, { style: "percent" });
-
-                case "{4}":
-                    return Math.abs((effectVal - 1.0)).toLocaleString(locale, { style: "percent" });
-
-                case "{8}":
-                    return Math.abs((effectVal - 1.0)).toLocaleString(locale, { style: "percent" });
-
-                case "{13}":
-                    console.log(effectStr, match);
-                    for (let type of templates) {
-                        const readable = localizationDb.getReadable(type, effectStr, "displayName");
-                        if (readable) {
-                            return readable;
-                        }
-                    }
-                    return effectStr;
-                case "{14}":
-                    return "our faction";
-
-                case "{18}":
-                    return Math.abs((1.0 / effectVal - 1.0)).toLocaleString(locale, { style: "percent" });
-
-                case "{19}":
-                    return (-effectVal).toString();
-
-                default:
-                    return match;
+        const resolveTemplateName = (templateName: string) => {
+            for (const type of templates) {
+                const readable = localizationDb.tryGetReadable(type, templateName, "displayName");
+                if (readable) {
+                    return readable;
+                }
             }
+            return templateName;
         };
 
-        const effectTemplateString = description
+        const effectTemplateString = formatEffectDescription(description, effectObj, {
+            locale,
+            primaryStateName: "our faction",
+            localizeUi: (key) => localizationDb.localizationStrings.get(key),
+            resolveTemplateName,
+            resolveTraitGroupNames: (grouping) => (templateData.trait ?? [])
+                .filter((trait) => trait.grouping === grouping)
+                .map((trait) => localizationDb.getReadable("trait", trait.dataName, "displayName")),
+        })
             .replace(/^-/g, "")
             .replace('<color=#FFFFFFFF><sprite name="mission_control"></color>', "Mission Control")
             .replace('<color=#FFFFFFFF><sprite name="water"></color>', "Water")
             .replace('<color=#FFFFFFFF><sprite name="volatiles"></color>', "Volatiles")
             .replace('<color=#FFFFFFFF><sprite name="metal"></color>', "Metals")
             .replace('<color=#FFFFFFFF><sprite name="metal_noble"></color>', "Noble Metals")
-            .replace('<color=#FFFFFFFF><sprite name="radioactive"></color>', "Fissiles")
-            .replace(/\{[0-9]*\}/g, replaceEffectTag);
+            .replace('<color=#FFFFFFFF><sprite name="radioactive"></color>', "Fissiles");
 
         return effectTemplateString;
     }

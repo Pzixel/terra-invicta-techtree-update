@@ -330,6 +330,7 @@ export interface EffectTemplate {
   dataName: string;
   strValue?: string;
   value?: number;
+  duration_months?: number;
   // Add other effect properties as needed
 }
 
@@ -342,6 +343,7 @@ export interface OrgTemplate {
 
 export interface TraitTemplate {
   dataName: string;
+  grouping?: number;
   projectDataName?: string;
   // Add other trait properties as needed
 }
