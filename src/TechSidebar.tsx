@@ -28,7 +28,15 @@ function saveResearchState(techDb: TechDb, version: GameVersionCode, scenario: S
     saveResearchProgress(localStorage, version, scenario, progress);
 }
 
-const templates = Object.keys(TemplateTypes) as (keyof typeof TemplateTypes)[];
+function isTemplateType(value: string): value is TemplateType {
+    return Object.hasOwn(TemplateTypes, value);
+}
+
+function isUnknownRecord(value: unknown): value is Record<string, unknown> {
+    return typeof value === "object" && value !== null;
+}
+
+const templates = Object.keys(TemplateTypes).filter(isTemplateType);
 
 export function TechSidebar({
   templateData,
@@ -427,6 +435,10 @@ export function TechSidebar({
         icon: string;
     };
 
+    function isBuildMaterialKey(key: string): key is BuildMaterialKey {
+        return Object.hasOwn(BUILD_MATERIAL_ICONS, key);
+    }
+
     function calculateHabModuleCost(module: ModuleTemplate): ModuleCostItem[] {
         if (module.baseMass_tons == null || module.weightedBuildMaterials == null) {
             return [];
@@ -435,20 +447,20 @@ export function TechSidebar({
         const baseMass = module.baseMass_tons;
 
         return Object.entries(module.weightedBuildMaterials)
-            .flatMap(([key, weight]) => {
+            .flatMap<ModuleCostItem>(([key, weight]) => {
                 if (!weight || weight <= 0) {
-                    return [] as ModuleCostItem[];
+                    return [];
                 }
 
-                const material = BUILD_MATERIAL_ICONS[key as BuildMaterialKey];
-                if (!material) {
-                    return [] as ModuleCostItem[];
+                if (!isBuildMaterialKey(key)) {
+                    return [];
                 }
+                const material = BUILD_MATERIAL_ICONS[key];
 
                 const amount = (baseMass * weight) / 10;
 
                 return [{
-                    key: key as BuildMaterialKey,
+                    key,
                     amount,
                     label: material.label,
                     icon: material.icon,
@@ -462,18 +474,18 @@ export function TechSidebar({
         }
 
         return Object.entries(module.perTankPropellantMaterials)
-            .flatMap(([key, amount]) => {
+            .flatMap<ModuleCostItem>(([key, amount]) => {
                 if (!amount || amount <= 0) {
-                    return [] as ModuleCostItem[];
+                    return [];
                 }
 
-                const material = BUILD_MATERIAL_ICONS[key as BuildMaterialKey];
-                if (!material) {
-                    return [] as ModuleCostItem[];
+                if (!isBuildMaterialKey(key)) {
+                    return [];
                 }
+                const material = BUILD_MATERIAL_ICONS[key];
 
                 return [{
-                    key: key as BuildMaterialKey,
+                    key,
                     amount: amount * 10,
                     label: material.label,
                     icon: material.icon,
@@ -487,18 +499,18 @@ export function TechSidebar({
         }
 
         return Object.entries(module.weightedBuildMaterials)
-            .flatMap(([key, amount]) => {
+            .flatMap<ModuleCostItem>(([key, amount]) => {
                 if (!amount || amount <= 0) {
-                    return [] as ModuleCostItem[];
+                    return [];
                 }
 
-                const material = BUILD_MATERIAL_ICONS[key as BuildMaterialKey];
-                if (!material) {
-                    return [] as ModuleCostItem[];
+                if (!isBuildMaterialKey(key)) {
+                    return [];
                 }
+                const material = BUILD_MATERIAL_ICONS[key];
 
                 return [{
-                    key: key as BuildMaterialKey,
+                    key,
                     amount,
                     label: material.label,
                     icon: material.icon,
@@ -551,11 +563,11 @@ export function TechSidebar({
         if (Array.isArray(value)) {
             return value.map(normalizeValue);
         }
-        if (value && typeof value === "object") {
-            return Object.keys(value as Record<string, unknown>)
+        if (isUnknownRecord(value)) {
+            return Object.keys(value)
                 .sort()
                 .reduce<Record<string, unknown>>((acc, key) => {
-                    acc[key] = normalizeValue((value as Record<string, unknown>)[key]);
+                    acc[key] = normalizeValue(value[key]);
                     return acc;
                 }, {});
         }
@@ -596,7 +608,7 @@ export function TechSidebar({
                 }
 
                 const normalizedReference = normalizeValue(value);
-                return drives.every(drive => JSON.stringify(normalizeValue((drive as unknown as Record<string, unknown>)[key])) === JSON.stringify(normalizedReference));
+                return drives.every(drive => JSON.stringify(normalizeValue(Reflect.get(drive, key))) === JSON.stringify(normalizedReference));
             })
             .map(([key, value]) => [key, value] as const);
 
@@ -689,7 +701,7 @@ export function TechSidebar({
 
                                         const value = field.key === "flatMass_tons"
                                             ? calculateDriveMassTons(drive).toLocaleString(locale, { maximumFractionDigits: 6 })
-                                            : (drive as unknown as Record<string, unknown>)[field.key as string];
+                                            : drive[field.key];
                                         return (
                                             <div key={`cell-${drive.dataName}-${field.key}`} className="module-drive-matrix-cell">
                                                 {typeof value === "object" ? JSON.stringify(value) : String(value ?? "")}
@@ -728,7 +740,7 @@ export function TechSidebar({
     const ancestorTreeProcessedAndSelf = uniqueAncestorTreeAndSelf.filter(tech => !tech.researchDone);
 
     const calculateTechCost = (tree: TechTemplate[]) => {
-        return tree.reduce((acc, curr) => { 
+        return tree.reduce<Record<string, { tech: number, project: number }>>((acc, curr) => { 
             acc[curr.techCategory] ??= {
                 tech: 0,
                 project: 0,
@@ -739,7 +751,7 @@ export function TechSidebar({
                 acc[curr.techCategory].tech += curr.researchCost;
             }
             return acc;
-        }, {} as Record<string, { tech: number, project: number }>);
+        }, {});
     };
 
     const treeCostBreakdownTotal = calculateTechCost(uniqueAncestorTreeAndSelf);

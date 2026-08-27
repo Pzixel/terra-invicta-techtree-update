@@ -1,9 +1,26 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { Paper, Autocomplete, TextField, FormControlLabel, Switch } from '@mui/material';
-import FlexSearch from 'flexsearch';
+import FlexSearch, {
+    type EnrichedDocumentSearchResultSetUnitResultUnit,
+    type Id,
+    type StoreOption,
+} from 'flexsearch';
 import { SearchboxProps } from './types/props';
 import { TechDb } from './utils/TechDb';
 import { Claim } from './types';
+
+declare module 'flexsearch' {
+    interface DocumentSearchOptions<T extends boolean> {
+        pluck?: string;
+    }
+
+    interface Document<T, Store extends StoreOption = false> {
+        search(
+            query: string,
+            options: Partial<DocumentSearchOptions<true>> & { pluck: string; enrich: true },
+        ): Store extends false ? Id[] : EnrichedDocumentSearchResultSetUnitResultUnit<T>[];
+    }
+}
 
 type SearchEntry = {
     id: string;
@@ -11,11 +28,11 @@ type SearchEntry = {
     fullText: string;
 };
 
-type FlexSearchResult = {
-    doc: SearchEntry;
-};
-
 type CachedProperties = ["displayName", "fullText"];
+
+function hasStringValue(target: EventTarget): target is EventTarget & { value: string } {
+    return 'value' in target && typeof target.value === 'string';
+}
 
 export function Searchbox({
     techDb,
@@ -116,7 +133,7 @@ export function Searchbox({
         const query = isQuoted ? value.slice(1, -1) : value;
 
         // Search on all relevant fields
-        const rawResults = (documentSearchIndex as unknown as { search: (query: string, options: unknown) => FlexSearchResult[] }).search(query, {
+        const rawResults = documentSearchIndex.search(query, {
             pluck: (fullText ? "fullText" : "displayName"),
             enrich: true
         }); // It doesn't know about the pluck (despite https://github.com/nextapps-de/flexsearch/issues/436 )
@@ -158,8 +175,9 @@ export function Searchbox({
         if (e.key !== "Enter") {
             return;
         }
-        const target = e.target as HTMLInputElement;
-        navigateToTech(target.value);
+        if (hasStringValue(e.target)) {
+            navigateToTech(e.target.value);
+        }
     };
 
     // TODO: handle autocomplete on toggle
@@ -169,8 +187,9 @@ export function Searchbox({
     };
 
     const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
-        const target = e.target as HTMLInputElement;
-        navigateToTech(target.value);
+        if (hasStringValue(e.target)) {
+            navigateToTech(e.target.value);
+        }
     };
 
     return (

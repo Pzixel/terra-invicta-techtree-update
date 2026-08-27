@@ -59,6 +59,12 @@ interface ClickEvent {
 
 export type NodePositions = Record<string, { x: number; y: number }>;
 
+declare global {
+  interface Window {
+    __techTreeLayout?: NodePositions;
+  }
+}
+
 // A fully precompiled graph: nodes carry labels, styling and coordinates, so
 // rendering needs neither the game data nor a layout pass
 export interface GraphBundle {
@@ -127,7 +133,7 @@ function exportLayoutIfRequested(network: vis.Network, precomputed: boolean) {
     for (const [id, pos] of Object.entries(positions)) {
         rounded[id] = { x: Math.round(pos.x), y: Math.round(pos.y) };
     }
-    (window as unknown as Record<string, unknown>).__techTreeLayout = rounded;
+    window.__techTreeLayout = rounded;
     let el = document.getElementById('layout-dump');
     if (!el) {
         el = document.createElement('script');
@@ -239,7 +245,7 @@ export function drawBundle(
 
     const data = {
         nodes: new vis.DataSet(bundle.nodes),
-        edges: new vis.DataSet(bundle.edges as vis.Edge[])
+        edges: new vis.DataSet<vis.Edge>(bundle.edges)
     };
     const network = new vis.Network(container, data, buildOptions(false));
     exportLayoutIfRequested(network, true);
@@ -261,37 +267,39 @@ export function draw(
 
     // Positions computed at build time let us skip the expensive hierarchical
     // layout pass entirely; only usable when they cover the whole node set
-    const allNodes = (data.nodes.get() as VisNode[]).concat(lateNodes);
+    const allNodes = data.nodes.get().concat(lateNodes);
     const usePrecomputed = !!precomputedPositions &&
         allNodes.every((node) => precomputedPositions[node.id]);
 
     const options = buildOptions(!usePrecomputed);
-    let network: VisNetworkInternal;
+    let network: vis.Network;
     if (usePrecomputed && precomputedPositions) {
         // All nodes get fixed coordinates up front; no layout pass, no
         // add-late-nodes/restore-positions dance needed
         data.nodes.update(
-            (data.nodes.get() as VisNode[]).map(({ id }) => ({ id, ...precomputedPositions[id] }))
+            data.nodes.get().map(({ id }) => ({ id, ...precomputedPositions[id] }))
         );
         data.nodes.add(lateNodes.map((node) => ({ ...node, ...precomputedPositions[node.id] })));
         data.edges.add(lateEdges);
-        network = new vis.Network(container, data, options) as VisNetworkInternal;
+        network = new vis.Network(container, data, options);
     } else {
-        network = new vis.Network(container, data, options) as VisNetworkInternal; // Cast to access internal body properties
+        network = new vis.Network(container, data, options);
+        // eslint-disable-next-line @typescript-eslint/consistent-type-assertions -- This branch preserves positions through undocumented vis-network internals.
+        const internalNetwork = network as VisNetworkInternal;
 
         data.nodes.add(lateNodes);
 
         const oldPositions: Record<string, [number, number]> = {};
 
-        Object.values(network.body.nodes).forEach((node: VisNetworkNode) => {
+        Object.values(internalNetwork.body.nodes).forEach((node: VisNetworkNode) => {
             oldPositions[node.id] = [node.x, node.y];
         });
 
         data.edges.add(lateEdges);
 
-        Object.keys(network.body.nodes).forEach((nodeId: string) => {
-            network.nodesHandler.body.nodes[nodeId].x = oldPositions[nodeId][0];
-            network.nodesHandler.body.nodes[nodeId].y = oldPositions[nodeId][1];
+        Object.keys(internalNetwork.body.nodes).forEach((nodeId: string) => {
+            internalNetwork.nodesHandler.body.nodes[nodeId].x = oldPositions[nodeId][0];
+            internalNetwork.nodesHandler.body.nodes[nodeId].y = oldPositions[nodeId][1];
         });
     }
 
@@ -300,7 +308,7 @@ export function draw(
     return network;
 }
 
-const techCategories = {
+const techCategories: Record<string, { icon: string, color: string }> = {
     "Energy": {
         "icon": "tech_energy_icon.png",
         "color": "#ff7008"
@@ -333,7 +341,7 @@ const techCategories = {
         "icon": "tech_xeno_icon.png",
         "color": "#906cdc"
     }
-} as Record<string, { icon: string, color: string }>;
+};
 
 export function getTechIconFile(techCategory: string) {
     if (techCategories[techCategory])

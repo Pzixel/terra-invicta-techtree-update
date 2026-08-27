@@ -11,6 +11,18 @@ export interface LocalizationContentLayer {
     postfix: string;
 }
 
+function containsLocalizationLayers(
+    content: string[] | LocalizationContentLayer[],
+): content is LocalizationContentLayer[] {
+    return content.length > 0 && content.every((entry) =>
+        typeof entry === 'object' &&
+        entry !== null &&
+        Array.isArray(entry.files) &&
+        entry.files.every((file: unknown) => typeof file === 'string') &&
+        typeof entry.postfix === 'string'
+    );
+}
+
 export const TemplateTypes = {
     "battery": "TIBatteryTemplate",
     "drive": "TIDriveTemplate",
@@ -69,11 +81,10 @@ export class LocalizationDb {
         this.scenarioAliases = aliases.scenario ?? {};
         this.scenarioLocalizationPostfix = aliases.scenarioLocalizationPostfix ?? '';
 
-        const layers: LocalizationContentLayer[] = localizationFileContent.length > 0 &&
-            typeof localizationFileContent[0] === 'object'
-            ? localizationFileContent as LocalizationContentLayer[]
+        const layers: LocalizationContentLayer[] = containsLocalizationLayers(localizationFileContent)
+            ? localizationFileContent
             : [{
-                files: localizationFileContent as string[],
+                files: localizationFileContent,
                 postfix: this.scenarioLocalizationPostfix,
             }];
         for (const layer of layers) {

@@ -7,6 +7,7 @@ import {
     TemplateTypes,
     type LocalizationContentLayer,
     type TemplateData,
+    type TemplateType,
     type TechTemplate,
 } from '../types';
 import type { AppStaticData } from '../types/props';
@@ -58,30 +59,39 @@ export const AppTemplateFiles = Object.freeze({
     bilateral: 'TIBilateralTemplate',
     starttime: 'TIStartTimeTemplate',
 });
+type AppTemplateCollection = keyof typeof AppTemplateFiles;
 
-export const ScenarioOverlayCollections: Record<Exclude<ScenarioCode, 'standard'>, readonly string[]> = Object.freeze({
+export const ScenarioOverlayCollections: Record<Exclude<ScenarioCode, 'standard'>, readonly AppTemplateCollection[]> = Object.freeze({
     '2003': Object.freeze([
         'bilateral', 'effect', 'habmodule', 'meta', 'nation', 'objective', 'org',
         'project', 'region', 'starttime', 'tech', 'trait',
-    ]),
+    ] satisfies AppTemplateCollection[]),
     'broken-earth': Object.freeze([
         'bilateral', 'effect', 'meta', 'nation', 'org', 'project', 'region', 'starttime', 'tech',
-    ]),
+    ] satisfies AppTemplateCollection[]),
 });
 
-type LocalizationLayer = { directory: string; postfix: string; collections: readonly string[] };
+type LocalizationLayer = { directory: string; postfix: string; collections: readonly AppTemplateCollection[] };
 export const ScenarioLocalizationLayers: Record<Exclude<ScenarioCode, 'standard'>, readonly LocalizationLayer[]> = Object.freeze({
     '2003': Object.freeze([{
         directory: '2003 Scenario',
         postfix: '.2003',
-        collections: Object.freeze(['effect', 'habmodule', 'nation', 'objective', 'project', 'tech', 'trait']),
+        collections: Object.freeze(
+            ['effect', 'habmodule', 'nation', 'objective', 'project', 'tech', 'trait'] satisfies AppTemplateCollection[]
+        ),
     }]),
     'broken-earth': Object.freeze([
-        { directory: '2003 Scenario', postfix: '.2003', collections: Object.freeze(['effect']) },
+        {
+            directory: '2003 Scenario',
+            postfix: '.2003',
+            collections: Object.freeze(['effect'] satisfies AppTemplateCollection[]),
+        },
         {
             directory: 'Broken Earth Scenario',
             postfix: '.BrokenEarth',
-            collections: Object.freeze(['effect', 'nation', 'org', 'project', 'region', 'tech']),
+            collections: Object.freeze(
+                ['effect', 'nation', 'org', 'project', 'region', 'tech'] satisfies AppTemplateCollection[]
+            ),
         },
     ]),
 });
@@ -92,6 +102,29 @@ const readJson = async (readText: ReadScenarioText, relativePath: string): Promi
     return value;
 };
 
+type UnknownRecord = Readonly<Record<string, unknown>>;
+type DataNameRecord = UnknownRecord & { dataName: string };
+
+const isUnknownRecord = (value: unknown): value is UnknownRecord =>
+    !!value && typeof value === 'object';
+
+const hasDataName = (value: unknown, dataName: string): value is DataNameRecord =>
+    isUnknownRecord(value) && value.dataName === dataName;
+
+const findByDataName = (
+    entries: readonly unknown[] | undefined,
+    dataName: string,
+): DataNameRecord | undefined => entries?.find(
+    (entry): entry is DataNameRecord => hasDataName(entry, dataName)
+);
+
+const isNonEmptyStringArray = (value: unknown): value is string[] =>
+    Array.isArray(value) && value.length > 0 &&
+    !value.some((entry: unknown) => typeof entry !== 'string' || !entry);
+
+const isTemplateType = (value: string): value is TemplateType =>
+    Object.prototype.hasOwnProperty.call(TemplateTypes, value);
+
 const scenarioTags = (
     baseCollections: TemplateCollections,
     overlayCollections: TemplateCollections,
@@ -99,14 +132,12 @@ const scenarioTags = (
 ): string[] => {
     const meta = scenario === 'standard' ? baseCollections.meta : overlayCollections.meta;
     const dataName = Scenarios[scenario].dataName;
-    const record = meta?.find((entry) =>
-        !!entry && typeof entry === 'object' && (entry as Record<string, unknown>).dataName === dataName
-    ) as Record<string, unknown> | undefined;
+    const record = findByDataName(meta, dataName);
     const tags = record?.scenarioTags;
-    if (!Array.isArray(tags) || tags.length === 0 || tags.some((tag) => typeof tag !== 'string' || !tag)) {
+    if (!isNonEmptyStringArray(tags)) {
         throw new Error(`${dataName}.scenarioTags must be a non-empty string array`);
     }
-    return tags as string[];
+    return tags;
 };
 
 const scenarioLocalizationPostfix = (
@@ -115,9 +146,7 @@ const scenarioLocalizationPostfix = (
 ): string => {
     if (scenario === 'standard') return '';
     const dataName = Scenarios[scenario].dataName;
-    const record = overlayCollections.meta?.find((entry) =>
-        !!entry && typeof entry === 'object' && (entry as Record<string, unknown>).dataName === dataName
-    ) as Record<string, unknown> | undefined;
+    const record = findByDataName(overlayCollections.meta, dataName);
     const postfix = record?.scenarioLocalizationPostfix;
     if (typeof postfix !== 'string' || !/^\.[A-Za-z0-9_-]+$/.test(postfix)) {
         throw new Error(`${dataName}.scenarioLocalizationPostfix is missing or invalid`);
@@ -175,9 +204,9 @@ export function hydrateScenarioBundle(bundle: ScenarioBundle, language: Language
         scenarioLocalizationPostfix: bundle.scenarioLocalizationPostfix,
     });
     for (const [collection, aliases] of Object.entries(bundle.aliases.localization)) {
-        if (!(collection in TemplateTypes)) continue;
+        if (!isTemplateType(collection)) continue;
         for (const dataName of Object.keys(aliases)) {
-            if (!localizationDb.hasAnyLocalization(collection as keyof typeof TemplateTypes, dataName)) {
+            if (!localizationDb.hasAnyLocalization(collection, dataName)) {
                 throw new Error(`Missing localizationAlias target for ${collection}.${dataName} (${key.language})`);
             }
         }
@@ -233,14 +262,19 @@ export function hydrateScenarioBundle(bundle: ScenarioBundle, language: Language
 
     const effects = (templateData.effects ?? []).concat(templateData.effect ?? []);
     const appStaticData: AppStaticData = { templateData, effects, techs, projects, localizationDb };
-    const scenarioLabels = Object.fromEntries(OrderedScenarios.map((scenario) => [
-        scenario.code,
-        localizationDb.tryGetReadable('meta', scenario.dataName, 'displayName') ?? scenario.fallbackName,
-    ])) as Record<ScenarioCode, string>;
+    const scenarioLabels = {
+        standard: '',
+        '2003': '',
+        'broken-earth': '',
+    } satisfies Record<ScenarioCode, string>;
+    for (const scenario of OrderedScenarios) {
+        scenarioLabels[scenario.code] =
+            localizationDb.tryGetReadable('meta', scenario.dataName, 'displayName') ?? scenario.fallbackName;
+    }
     return {
         key,
         appStaticData,
-        techDb: new TechDb(techTree as TechTemplate[], combineReferenceAliases(bundle.aliases)),
+        techDb: new TechDb(techTree, combineReferenceAliases(bundle.aliases)),
         aliases: bundle.aliases,
         scenarioLabels,
         scenarioName: scenarioLabels[key.scenario],
@@ -271,7 +305,7 @@ export async function loadScenarioBundle(
     if (key.scenario !== 'standard') {
         const overlayRoot = `gamefiles/dark-skies/${key.scenario}`;
         await Promise.all(ScenarioOverlayCollections[key.scenario].map(async (collection) => {
-            const filename = AppTemplateFiles[collection as keyof typeof AppTemplateFiles];
+            const filename = AppTemplateFiles[collection];
             overlayCollections[collection] = await readJson(readText, `${overlayRoot}/Templates/${filename}.json`);
         }));
     }
@@ -290,7 +324,7 @@ export async function loadScenarioBundle(
         : await Promise.all(ScenarioLocalizationLayers[key.scenario].map(async (layer) => ({
             postfix: layer.postfix,
             files: await Promise.all(layer.collections.map(async (collection) => {
-                const filename = AppTemplateFiles[collection as keyof typeof AppTemplateFiles];
+                const filename = AppTemplateFiles[collection];
                 return readText(
                     `gamefiles/dark-skies/localization/${key.language}/${layer.directory}/${filename}.${key.language}`
                 );

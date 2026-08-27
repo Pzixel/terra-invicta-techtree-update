@@ -75,8 +75,10 @@ const GamefilesBrowser: React.FC = () => {
                 const data: ManifestData = await response.json();
                 setManifest(data);
             } catch (err) {
-                if ((err as Error).name === 'AbortError') return;
-                setError((err as Error).message);
+                // eslint-disable-next-line @typescript-eslint/consistent-type-assertions -- A guard would change the existing behavior for non-Error throws.
+                const error = err as Error;
+                if (error.name === 'AbortError') return;
+                setError(error.message);
             } finally {
                 setLoading(false);
             }

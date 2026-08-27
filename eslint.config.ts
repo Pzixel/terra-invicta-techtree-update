@@ -32,6 +32,7 @@ export default [
       ...typescriptPlugin.configs.recommended.rules,
       'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      '@typescript-eslint/consistent-type-assertions': ['error', { assertionStyle: 'never' }],
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },

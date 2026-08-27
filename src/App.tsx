@@ -56,6 +56,15 @@ import { graphRenderSource } from './graphArtifactState';
 
 const DrivesChart = lazy(() => import('./DrivesChart'));
 
+declare module 'react' {
+    interface CSSProperties {
+        '--drives-surface'?: string;
+        '--drives-surface-alt'?: string;
+        '--drives-text'?: string;
+        '--drives-border'?: string;
+    }
+}
+
 const EMPTY_STATIC_DATA: AppStaticData = {
     templateData: {},
     effects: [],
@@ -236,6 +245,7 @@ function App() {
             if (!response.ok) {
                 throw new Error(`Scenario bundle request failed with HTTP ${response.status}`);
             }
+            // eslint-disable-next-line @typescript-eslint/consistent-type-assertions -- Removing this boundary requires full runtime validation of the generated bundle schema.
             const bundle = await response.json() as ScenarioBundle;
             if (!sameViewKey(bundle.key, requestedKey)) {
                 throw new Error('Scenario bundle key does not match the requested tuple');
@@ -531,7 +541,6 @@ function App() {
         { scenario: activeScenarioDisplayName ?? targetScenarioDisplayName },
     );
     const graphDrawable = !isMobileLayout && (!!activeBundle || renderSource.drawLive);
-
     return (
         <>
             <h1 className="visually-hidden">Terra Invicta Tech Tree — 1.0 + Dark Skies DLC</h1>
@@ -643,7 +652,7 @@ function App() {
                             '--drives-surface-alt': theme.palette.background.default,
                             '--drives-text': theme.palette.text.primary,
                             '--drives-border': theme.palette.divider,
-                        } as React.CSSProperties}
+                        }}
                     >
                         <Suspense fallback={null}>
                             <DrivesChart variant="overlay" onClose={() => setShowDrivesOverlay(false)} />

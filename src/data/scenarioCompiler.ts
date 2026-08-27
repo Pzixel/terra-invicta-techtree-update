@@ -2,12 +2,6 @@ import type { ScenarioCode } from '../scenario';
 
 export type JsonRecord = Record<string, unknown> & {
     dataName: string;
-    disable?: boolean;
-    scenarioTags?: string[];
-    referenceAlias?: string | null;
-    scenarioAlias?: string | null;
-    localizationAlias?: string | null;
-    prereqs?: string[];
 };
 
 export type TemplateCollections = Record<string, unknown[]>;
@@ -36,9 +30,11 @@ type AliasField = typeof ALIAS_FIELDS[number];
 
 function cloneJson<T>(value: T): T {
     if (Array.isArray(value)) {
+        // eslint-disable-next-line @typescript-eslint/consistent-type-assertions -- Exact recursive clone semantics cannot preserve generic T through Array.map.
         return value.map((entry) => cloneJson(entry)) as T;
     }
     if (value && typeof value === 'object') {
+        // eslint-disable-next-line @typescript-eslint/consistent-type-assertions -- Exact recursive clone semantics cannot preserve generic T through Object.fromEntries.
         return Object.fromEntries(
             Object.entries(value).map(([key, entry]) => [key, cloneJson(entry)])
         ) as T;
@@ -47,30 +43,39 @@ function cloneJson<T>(value: T): T {
 }
 
 function isJsonRecord(value: unknown): value is JsonRecord {
-    return !!value && typeof value === 'object' &&
-        typeof (value as Record<string, unknown>).dataName === 'string' &&
-        (value as Record<string, unknown>).dataName !== '';
+    return isUnknownRecord(value) && typeof value.dataName === 'string' && value.dataName !== '';
+}
+
+function isUnknownRecord(value: unknown): value is Record<string, unknown> {
+    return !!value && typeof value === 'object';
 }
 
 function isScenarioEligible(record: JsonRecord, activeScenarioTags: Set<string>): boolean {
     const tags = record.scenarioTags;
-    return !Array.isArray(tags) || tags.length === 0 || tags.some((tag) => activeScenarioTags.has(tag));
+    return !Array.isArray(tags) || tags.length === 0 ||
+        tags.some((tag) => typeof tag === 'string' && activeScenarioTags.has(tag));
 }
 
-export function prerequisiteSlots(record: { prereqs?: string[] } & object): string[][] {
-    const fields = record as Record<string, unknown>;
-    const primary = Array.isArray(record.prereqs) ? record.prereqs : [];
-    const alternateIndexes = Object.keys(fields)
+type PrerequisiteRecord = object & {
+    dataName?: unknown;
+    prereqs?: unknown;
+    [key: `altPrereq${number}`]: unknown;
+};
+
+export function prerequisiteSlots(record: PrerequisiteRecord): string[][] {
+    const primary: unknown[] = Array.isArray(record.prereqs) ? record.prereqs : [];
+    const alternateIndexes = Object.keys(record)
         .map((key) => /^altPrereq(\d+)$/.exec(key)?.[1])
         .filter((index): index is string => index !== undefined)
         .map(Number);
     const outOfRange = alternateIndexes.find((index) => index >= primary.length);
     if (outOfRange !== undefined) {
-        throw new Error(`altPrereq${outOfRange} is outside prereqs for ${String(fields.dataName ?? 'record')}`);
+        throw new Error(`altPrereq${outOfRange} is outside prereqs for ${String(record.dataName ?? 'record')}`);
     }
 
     return Array.from({ length: primary.length }, (_, index) => {
-        const alternate = fields[`altPrereq${index}`];
+        const key: `altPrereq${number}` = `altPrereq${index}`;
+        const alternate = record[key];
         const alternatives = Array.isArray(alternate) ? alternate : [alternate];
         return [primary[index], ...alternatives]
             .filter((entry): entry is string => typeof entry === 'string' && entry.length > 0)
@@ -188,14 +193,11 @@ function resolveAliasTargets(
 }
 
 function compileAliases(
-    collections: TemplateCollections,
-    recordCollections: Set<string>,
+    collections: Readonly<Record<string, JsonRecord[]>>,
     reverseReferenceCollections: Set<string>,
 ): CompiledAliases {
     const aliases: CompiledAliases = { reference: {}, localization: {}, scenario: {} };
-    for (const collectionName of recordCollections) {
-        const values = collections[collectionName] ?? [];
-        const entries = values as JsonRecord[];
+    for (const [collectionName, entries] of Object.entries(collections)) {
         const reverseReferences = reverseReferenceCollections.has(collectionName);
         const referenceTargets = resolveAliasTargets(
             entries,
@@ -240,6 +242,17 @@ function compileAliases(
     return aliases;
 }
 
+function assertJsonRecords(
+    entries: unknown[],
+    collectionName: string,
+    label: string,
+): asserts entries is JsonRecord[] {
+    const invalidIndex = entries.findIndex((entry) => !isJsonRecord(entry));
+    if (invalidIndex >= 0) {
+        throw new Error(`${collectionName} ${label} record ${invalidIndex} has a missing or empty dataName`);
+    }
+}
+
 export function compileScenarioData(
     baseCollections: TemplateCollections,
     overlayCollections: TemplateCollections,
@@ -248,6 +261,10 @@ export function compileScenarioData(
     const collections: TemplateCollections = {};
     const annotated = new Set(options.annotatedCollections ?? DEFAULT_ANNOTATED_COLLECTIONS);
     const recordCollections = new Set(options.recordCollections);
+    const compiledRecordCollections: Record<string, JsonRecord[]> = {};
+    for (const collectionName of recordCollections) {
+        compiledRecordCollections[collectionName] = [];
+    }
     const collectionNames = new Set([...Object.keys(baseCollections), ...Object.keys(overlayCollections)]);
 
     for (const collectionName of collectionNames) {
@@ -255,24 +272,22 @@ export function compileScenarioData(
         const hasOverlay = Object.prototype.hasOwnProperty.call(overlayCollections, collectionName);
         const overlay = overlayCollections[collectionName] ?? [];
         if (recordCollections.has(collectionName)) {
-            for (const [label, entries] of [['base', base], ['overlay', overlay]] as const) {
-                const invalidIndex = entries.findIndex((entry) => !isJsonRecord(entry));
-                if (invalidIndex >= 0) {
-                    throw new Error(`${collectionName} ${label} record ${invalidIndex} has a missing or empty dataName`);
-                }
-            }
-            collections[collectionName] = mergeRecordCollection(
-                base as JsonRecord[],
-                overlay as JsonRecord[],
+            assertJsonRecords(base, collectionName, 'base');
+            assertJsonRecords(overlay, collectionName, 'overlay');
+            const compiled = mergeRecordCollection(
+                base,
+                overlay,
                 options,
                 annotated.has(collectionName),
             );
+            collections[collectionName] = compiled;
+            compiledRecordCollections[collectionName] = compiled;
         } else {
             collections[collectionName] = cloneJson(hasOverlay ? overlay : base);
         }
     }
 
-    return { collections, aliases: compileAliases(collections, recordCollections, annotated) };
+    return { collections, aliases: compileAliases(compiledRecordCollections, annotated) };
 }
 
 export function validatePrerequisiteReferences(collections: TemplateCollections): void {

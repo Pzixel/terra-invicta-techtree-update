@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 import createPlotlyComponent from 'react-plotly.js/factory';
 import Plotly from 'plotly.js-dist-min';
-import { Config, Data, Layout } from 'plotly.js';
+import { Config, Data, Layout, PlotData } from 'plotly.js';
 import { Link } from 'react-router';
 import { FormControlLabel, Switch } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
@@ -10,6 +10,7 @@ import { DefaultVersion, GameVersion, GameVersionCode, GameVersions, isGameVersi
 import { TechDb } from './utils/TechDb';
 import { assetUrl, getAncestorTechs } from './utils';
 import { ColorModeContext } from './theme';
+import type { ModuleTemplate, TechTemplate } from './types';
 
 const Plot = createPlotlyComponent(Plotly);
 
@@ -123,7 +124,7 @@ const getLocalizedFissionAnyLabel = (localization: Record<string, string>) => {
   const anyReactor = localization['TIPowerPlantTemplate.PowerPlantRequirement.Any_General'] || '';
   const reactorNames = Object.entries(localization)
     .filter(([key, value]) => key.startsWith('TIPowerPlantTemplate.displayName.') && value)
-    .map(([, value]) => value as string)
+    .map(([, value]) => value)
     .slice(0, 25);
   const reactorToken = anyReactor && reactorNames.length
     ? findLongestSubstringInTargets(anyReactor, reactorNames)
@@ -137,7 +138,7 @@ const getLocalizedFissionAnyLabel = (localization: Record<string, string>) => {
     localization['TIPowerPlantTemplate.PowerPlantRequirement.Liquid_Core_Fission'],
     localization['TIPowerPlantTemplate.PowerPlantRequirement.Gas_Core_Fission'],
     localization['TIPowerPlantTemplate.PowerPlantRequirement.Molten_Salt_Core_Fission'],
-  ].filter(Boolean) as string[];
+  ].filter((value): value is string => Boolean(value));
   const fissionLabel = longestCommonSubstringAll(fissionParts).replace(/\s+/g, ' ').trim();
 
   if (fissionLabel && anyLabel) return `${fissionLabel} ${anyLabel}`.trim();
@@ -192,7 +193,7 @@ const getDriveCategory = (classification: string, name: string, requiredPowerPla
 };
 
 const processDrives = (
-  items: any[],
+  items: (ModuleTemplate & { disable?: boolean })[],
   localization: Record<string, string>,
   useCombatThrust: boolean,
   useMaxThrusters: boolean,
@@ -219,7 +220,7 @@ const processDrives = (
     const baseThrust = Number(item.thrust_N);
     const thrust = useCombatThrust ? baseThrust * Number(item.thrustCap || 1) : baseThrust;
     const ev = Number(item.EV_kps);
-    const treeCost = treeCostLookup(item.requiredProjectName as string | undefined);
+    const treeCost = treeCostLookup(item.requiredProjectName);
 
     let cooling = item.cooling || 'Open';
     if (cooling === 'Calc') {
@@ -260,10 +261,10 @@ const buildTraces = (
   treeCostLabel: string,
   notAvailableLabel: string,
   localization: Record<string, string>,
-): Partial<Data>[] =>
+): Data[] =>
   Object.entries(groups)
     .sort(([a], [b]) => a.localeCompare(b))
-    .map(([category, drives]) => {
+    .map<Data>(([category, drives]) => {
       const text = showLabels ? drives.map((d) => `${coolingSymbols[d.cooling] || ''}${d.name}`) : undefined;
       const treeCostStrings = drives.map((d) => {
         if (d.treeCost === undefined || d.treeCost < 0) return notAvailableLabel;
@@ -272,7 +273,8 @@ const buildTraces = (
       const customdata = drives.map((d, i) => [d.name, treeCostStrings[i], d.thrusters]);
       return {
         type: 'scatter',
-        mode: showLabels ? 'markers+text' : 'markers',
+        // eslint-disable-next-line @typescript-eslint/consistent-type-assertions -- Plotly accepts flag-list order markers+text, but its declarations only list text+markers.
+        mode: (showLabels ? 'markers+text' : 'markers') as PlotData['mode'],
         x: drives.map((d) => d.ev),
         y: drives.map((d) => d.thrust),
         text,
@@ -294,7 +296,7 @@ const buildTraces = (
           `<br>${thrustersLabel}: %{customdata[2]}` +
           `<br>${treeCostLabel}: %{customdata[1]}` +
           '<extra></extra>',
-      } as Partial<Data>;
+      };
     });
 
 const getInitialVersion = (): GameVersion => {
@@ -328,8 +330,15 @@ const fetchTextWithFallback = async (primary: string, fallback: string, label: s
   throw new Error(`Unable to load ${label}`);
 };
 
+type RawTechTemplate = Omit<TechTemplate, 'displayName' | 'prereqs' | 'researchCost'> & {
+  displayName?: string;
+  prereqs?: string[];
+  researchCost?: number;
+  disable?: boolean;
+};
+
 const buildLocalizedList = (
-  items: any[],
+  items: RawTechTemplate[],
   _localization: Record<string, string>,
   _templateKey: string,
   isProject: boolean,
@@ -355,7 +364,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
   const [thrustMode, setThrustMode] = useState<'combat' | 'cruise'>('cruise');
   const [useMaxThrusters, setUseMaxThrusters] = useState(false);
   const [showLabels, setShowLabels] = useState(true);
-  const [traces, setTraces] = useState<Partial<Data>[]>([]);
+  const [traces, setTraces] = useState<Data[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const theme = useTheme();
@@ -476,6 +485,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
         }
       } catch (err) {
         if (!cancelled) {
+          // eslint-disable-next-line @typescript-eslint/consistent-type-assertions -- A guard would change the existing behavior for non-Error throws.
           setError((err as Error).message);
           setTraces([]);
         }
@@ -608,7 +618,7 @@ const DrivesChart: React.FC<DrivesChartProps> = ({ variant = 'page', onClose }) 
       {error && <div className="gamefiles-error">{error}</div>}
       {!loading && !error && (
         <div className="drives-chart">
-          <Plot data={traces as Data[]} layout={layout} config={config} useResizeHandler style={{ width: '100%', height: '100%' }} />
+          <Plot data={traces} layout={layout} config={config} useResizeHandler style={{ width: '100%', height: '100%' }} />
         </div>
       )}
     </div>

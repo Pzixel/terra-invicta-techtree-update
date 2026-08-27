@@ -141,13 +141,18 @@ export function interpolateScenarioText(
   );
 }
 
-function recordsByDataName(entries: readonly unknown[] | undefined): Map<string, Record<string, unknown>> {
-  const records = new Map<string, Record<string, unknown>>();
+type UnknownRecord = Readonly<Record<string, unknown>>;
+
+function isUnknownRecord(value: unknown): value is UnknownRecord {
+  return !!value && typeof value === 'object';
+}
+
+function recordsByDataName(entries: readonly unknown[] | undefined): Map<string, UnknownRecord> {
+  const records = new Map<string, UnknownRecord>();
   for (const entry of entries ?? []) {
-    if (!entry || typeof entry !== 'object') continue;
-    const record = entry as Record<string, unknown>;
-    if (typeof record.dataName === 'string' && record.dataName) {
-      records.set(record.dataName, record);
+    if (!isUnknownRecord(entry)) continue;
+    if (typeof entry.dataName === 'string' && entry.dataName) {
+      records.set(entry.dataName, entry);
     }
   }
   return records;
