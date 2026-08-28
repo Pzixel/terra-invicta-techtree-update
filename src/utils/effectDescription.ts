@@ -159,42 +159,69 @@ function formatEffectDescription(
     const scaledValue = Math.min(2 * Math.abs(value), Math.max(-2 * Math.abs(value), 1));
     const attributeName = localizationDb.localizationStrings.get(`UI.Global.${strValue || "None"}`) ?? strValue;
 
-    const templateValues = [
-        formatBigOrSmallNumber(value, locale, localizationDb), // {0}
-        PRIMARY_STATE_NAME, // {1}
-        secondaryStateName, // {2}
-        formatPercent(value, locale), // {3}
-        formatPercent(Math.fround(1 - value), locale), // {4}
-        "", // {5}
-        "", // {6}
-        formatBigOrSmallNumber(durationMonths, locale, localizationDb), // {7}
-        formatPercent(Math.fround(value - 1), locale), // {8}
-        PRIMARY_STATE_NAME, // {9}
-        PRIMARY_STATE_NAME, // {10}
-        secondaryStateName, // {11}
-        secondaryStateName, // {12}
-        resolveTemplateName(strValue, localizationDb), // {13}
-        PRIMARY_STATE_NAME, // {14}
-        secondaryStateName, // {15}
-        traitNames, // {16}
-        "", // {17}
-        formatPercent(Math.fround(1 / value - 1), locale), // {18}
-        formatBigOrSmallNumber(Math.fround(-value), locale, localizationDb), // {19}
-        attributeName, // {20}
-        PRIMARY_STATE_NAME, // {21}
-        secondaryStateName, // {22}
-        formatSmallNumber(scaledValue, locale), // {23}
-        formatSmallNumber(scaledValue, locale), // {24}
-        formatPercent(Math.abs(value), locale), // {25}
-        "", // {26}
-        formatPercent(Math.fround(1 - 1 / value), locale), // {27}
-        formatPercent(Math.fround(value - 1), locale, true), // {28}
-        formatPercent(value, locale, true), // {29}
-    ] as const;
+    const resolveTemplateValue = (placeholder: string): string | undefined => {
+        switch (placeholder) {
+            case "{0}":
+                return formatBigOrSmallNumber(value, locale, localizationDb);
+            case "{1}":
+            case "{9}":
+            case "{10}":
+            case "{14}":
+            case "{21}":
+                return PRIMARY_STATE_NAME;
+            case "{2}":
+            case "{11}":
+            case "{12}":
+            case "{15}":
+            case "{22}":
+                return secondaryStateName;
+            case "{3}":
+                return formatPercent(value, locale);
+            case "{4}":
+                return formatPercent(Math.fround(1 - value), locale);
+            case "{5}":
+            case "{6}":
+            case "{17}":
+            case "{26}":
+                return "";
+            case "{7}":
+                return formatBigOrSmallNumber(durationMonths, locale, localizationDb);
+            case "{8}":
+                return formatPercent(Math.fround(value - 1), locale);
+            case "{13}":
+                return resolveTemplateName(strValue, localizationDb);
+            case "{16}":
+                return traitNames;
+            case "{18}":
+                return formatPercent(Math.fround(1 / value - 1), locale);
+            case "{19}":
+                return formatBigOrSmallNumber(Math.fround(-value), locale, localizationDb);
+            case "{20}":
+                return attributeName;
+            case "{23}":
+            case "{24}":
+                return formatSmallNumber(scaledValue, locale);
+            case "{25}":
+                return formatPercent(Math.abs(value), locale);
+            case "{27}":
+                return formatPercent(Math.fround(1 - 1 / value), locale);
+            case "{28}":
+                return formatPercent(Math.fround(value - 1), locale, true);
+            case "{29}":
+                return formatPercent(value, locale, true);
+            default:
+                return undefined;
+        }
+    };
 
-    return description.replace(/\{(\d+)\}/g, (match, rawIndex: string) =>
-        templateValues[Number(rawIndex)] ?? match
-    );
+    return description.replace(/\{\d+\}/g, (placeholder) => {
+        const result = resolveTemplateValue(placeholder);
+        if (result) {
+            return result;
+        }
+        console.error(`Failed to resolve template value for placeholder: ${placeholder}`);
+        return placeholder;
+    });
 }
 
 export function getReadableEffect(
