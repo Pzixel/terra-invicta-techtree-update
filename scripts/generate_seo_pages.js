@@ -345,16 +345,20 @@ const languageAlternates = [
   .map(([language, query]) => `    <xhtml:link rel="alternate" hreflang="${language}" href="${SITE}${query}"/>`)
   .join('\n');
 
+// Every generated page renders the same verified snapshot, so the release
+// verification timestamp is the accurate last-modified date for all of them.
+const lastmod = `    <lastmod>${new Date(release.verifiedAt).toISOString().replace(/\.\d{3}Z$/, 'Z')}</lastmod>`;
+
 const sitemapEntries = [
-  `  <url>\n    <loc>${SITE}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n${languageAlternates}\n  </url>`,
+  `  <url>\n    <loc>${SITE}</loc>\n${lastmod}\n${languageAlternates}\n  </url>`,
   ...utilityPages.map((page) =>
-    `  <url>\n    <loc>${SITE}${page.directory}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>${page.directory === 'drives' ? '0.8' : '0.3'}</priority>\n  </url>`
+    `  <url>\n    <loc>${SITE}${page.directory}/</loc>\n${lastmod}\n  </url>`
   ),
   ...Object.keys(DLC_LANDING_SEO).map((scenario) =>
-    `  <url>\n    <loc>${SITE}dark-skies/${scenario}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>`
+    `  <url>\n    <loc>${SITE}dark-skies/${scenario}/</loc>\n${lastmod}\n  </url>`
   ),
   ...[...entries.keys()].sort().map((dataName) =>
-    `  <url>\n    <loc>${SITE}${dataName}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>`
+    `  <url>\n    <loc>${SITE}${dataName}/</loc>\n${lastmod}\n  </url>`
   ),
 ];
 
