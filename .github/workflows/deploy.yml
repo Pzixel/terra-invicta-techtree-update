@@ -49,3 +49,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      # Bing, Yandex, Seznam and Naver only. Google does not support IndexNow,
+      # and finds changes through its own crawl of the sitemap.
+      - name: Notify IndexNow
+        # A search-engine ping must never fail a deploy that already succeeded.
+        continue-on-error: true
+        run: node scripts/submit_indexnow.js dist/sitemap.xml
