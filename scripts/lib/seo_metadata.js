@@ -1,5 +1,6 @@
 export const SEO_LIMITS = Object.freeze({
-  title: Object.freeze({ min: 15, max: 69 }),
+  // 60 keeps titles inside what Google and Bing render before truncating.
+  title: Object.freeze({ min: 15, max: 60 }),
   description: Object.freeze({ min: 50, max: 155 }),
 });
 
