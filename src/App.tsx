@@ -161,8 +161,14 @@ function queryForView(
     drivesOpen: boolean,
 ): string {
     const params = new URLSearchParams(search);
-    params.set('lang', key.language);
-    params.set('ver', key.version);
+    // Defaults stay out of the URL: the address bar is what people copy into
+    // Reddit and wikis, and a link carrying ?lang=en&ver=stable is a duplicate
+    // of the canonical one. Omitted params resolve back to these same defaults,
+    // so a stripped link still opens the view it was copied from.
+    if (key.language === languageFromSearch(key.version, '').code) params.delete('lang');
+    else params.set('lang', key.language);
+    if (key.version === DefaultVersion.code) params.delete('ver');
+    else params.set('ver', key.version);
     if (isScenarioLandingPath(appPath, key.scenario)) params.delete('scenario');
     else applyScenarioQuery(params, key.scenario);
     if (drivesOpen) params.set('drivesOpened', '1');
